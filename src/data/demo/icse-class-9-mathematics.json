@@ -1,0 +1,944 @@
+{
+  "board": "icse",
+  "class": 9,
+  "subject": {
+    "slug": "mathematics",
+    "name": "Mathematics",
+    "overview": "ICSE Class 9 Mathematics builds the base for the Class 10 board course. In arithmetic and algebra it covers rational and irrational numbers, compound interest, expansions, factorisation, simultaneous linear equations, indices and logarithms. Geometry is proof-based: congruent and isosceles triangles, the mid-point theorem, Pythagoras theorem, properties of polygons and quadrilaterals, and chord properties of circles. The course also introduces statistics (frequency tables, mean and median), mensuration of plane figures and cuboids, trigonometric ratios of acute and standard angles, and co-ordinate geometry including graphs and the distance formula. Students are expected to show clear working and give reasons for each step in proofs.",
+    "studyTips": [
+      "Write out the key identities (squares, cubes, laws of indices and logarithms) on one sheet and practise using them in reverse, since factorisation is expansion run backwards.",
+      "In geometry proofs, state a reason in brackets beside every step (given, common, SAS, angles opposite equal sides) exactly as you would in an exam answer.",
+      "For compound interest and mensuration, write the formula first, substitute with units, and check whether the answer is reasonable before moving on.",
+      "After solving an equation, substitute the answer back into the original equation; for logarithm equations also reject any root that makes a log argument non-positive.",
+      "Memorise the table of trigonometric ratios for 0°, 30°, 45°, 60° and 90°, and draw a labelled right triangle before writing any ratio."
+    ]
+  },
+  "chapters": [
+    {
+      "slug": "rational-irrational-numbers",
+      "name": "Rational and Irrational Numbers",
+      "order": 1,
+      "summary": "Classifies real numbers as rational or irrational and develops the simplification of surds, including rationalising denominators.",
+      "topics": [
+        {
+          "slug": "identifying-irrationals",
+          "name": "Identifying rational and irrational numbers"
+        },
+        {
+          "slug": "surds-simplification",
+          "name": "Simplifying surds"
+        },
+        {
+          "slug": "rationalising-denominator",
+          "name": "Rationalising the denominator"
+        }
+      ]
+    },
+    {
+      "slug": "compound-interest",
+      "name": "Compound Interest",
+      "order": 2,
+      "summary": "Computes compound interest year by year and by formula, and applies the same idea to growth and depreciation.",
+      "topics": [
+        {
+          "slug": "ci-year-by-year",
+          "name": "Compound interest year by year"
+        },
+        {
+          "slug": "ci-formula",
+          "name": "Using the compound interest formula"
+        },
+        {
+          "slug": "growth-depreciation",
+          "name": "Growth and depreciation"
+        }
+      ]
+    },
+    {
+      "slug": "expansions",
+      "name": "Expansions",
+      "order": 3,
+      "summary": "Uses standard algebraic identities to expand squares and cubes of binomials and to evaluate related expressions.",
+      "topics": [
+        {
+          "slug": "square-of-binomial",
+          "name": "Square of a binomial and trinomial"
+        },
+        {
+          "slug": "cube-expansions",
+          "name": "Cube of a binomial"
+        },
+        {
+          "slug": "using-identities",
+          "name": "Evaluating expressions using identities"
+        }
+      ]
+    },
+    {
+      "slug": "factorisation",
+      "name": "Factorisation",
+      "order": 4,
+      "summary": "Factorises expressions by taking common factors, grouping, splitting the middle term and using the difference of squares and sum or difference of cubes.",
+      "topics": [
+        {
+          "slug": "common-factors-grouping",
+          "name": "Common factors and grouping"
+        },
+        {
+          "slug": "trinomials",
+          "name": "Splitting the middle term"
+        },
+        {
+          "slug": "squares-cubes",
+          "name": "Difference of squares, sum and difference of cubes"
+        }
+      ]
+    },
+    {
+      "slug": "simultaneous-linear-equations",
+      "name": "Simultaneous Linear Equations",
+      "order": 5,
+      "summary": "Solves pairs of linear equations in two variables algebraically and applies them to word problems.",
+      "topics": [
+        {
+          "slug": "substitution-elimination",
+          "name": "Substitution and elimination"
+        },
+        {
+          "slug": "cross-multiplication",
+          "name": "Cross-multiplication method"
+        },
+        {
+          "slug": "word-problems",
+          "name": "Word problems"
+        }
+      ]
+    },
+    {
+      "slug": "indices",
+      "name": "Indices",
+      "order": 6,
+      "summary": "Applies the laws of indices to simplify expressions with integral and fractional exponents and to solve exponential equations.",
+      "topics": [
+        {
+          "slug": "laws-of-indices",
+          "name": "Laws of indices"
+        },
+        {
+          "slug": "fractional-negative-indices",
+          "name": "Fractional and negative indices"
+        },
+        {
+          "slug": "exponential-equations",
+          "name": "Solving exponential equations"
+        }
+      ]
+    },
+    {
+      "slug": "logarithms",
+      "name": "Logarithms",
+      "order": 7,
+      "summary": "Relates logarithmic and exponential forms and uses the laws of logarithms to evaluate and solve equations.",
+      "topics": [
+        {
+          "slug": "log-exponential-form",
+          "name": "Logarithmic and exponential form"
+        },
+        {
+          "slug": "log-laws",
+          "name": "Laws of logarithms"
+        },
+        {
+          "slug": "log-equations",
+          "name": "Solving logarithmic equations"
+        }
+      ]
+    },
+    {
+      "slug": "triangles",
+      "name": "Triangles (Congruency)",
+      "order": 8,
+      "summary": "Establishes the congruence criteria for triangles and uses them to prove equality of sides and angles.",
+      "topics": [
+        {
+          "slug": "congruence-criteria",
+          "name": "Criteria for congruence"
+        },
+        {
+          "slug": "proofs-using-congruence",
+          "name": "Proofs using congruence"
+        }
+      ]
+    },
+    {
+      "slug": "isosceles-triangles",
+      "name": "Isosceles Triangles",
+      "order": 9,
+      "summary": "Uses the theorem that angles opposite equal sides are equal, and its converse, to find angles and write proofs.",
+      "topics": [
+        {
+          "slug": "equal-sides-angles",
+          "name": "Equal sides and equal angles"
+        },
+        {
+          "slug": "angle-proofs",
+          "name": "Angle problems and proofs"
+        }
+      ]
+    },
+    {
+      "slug": "mid-point-theorem",
+      "name": "Mid-point Theorem",
+      "order": 10,
+      "summary": "Studies the mid-point theorem, its converse and the equal intercept theorem, with applications to triangles and quadrilaterals.",
+      "topics": [
+        {
+          "slug": "midpoint-theorem",
+          "name": "Mid-point theorem"
+        },
+        {
+          "slug": "converse-intercept",
+          "name": "Converse and intercept theorem"
+        }
+      ]
+    },
+    {
+      "slug": "pythagoras-theorem",
+      "name": "Pythagoras Theorem",
+      "order": 11,
+      "summary": "Proves and applies Pythagoras theorem and its converse to right-angled triangles.",
+      "topics": [
+        {
+          "slug": "pythagoras-applications",
+          "name": "Applications of Pythagoras theorem"
+        },
+        {
+          "slug": "pythagoras-proofs",
+          "name": "Proofs based on Pythagoras theorem"
+        }
+      ]
+    },
+    {
+      "slug": "rectilinear-figures",
+      "name": "Rectilinear Figures",
+      "order": 12,
+      "summary": "Covers angle sums of polygons, regular polygons and the properties of quadrilaterals such as parallelograms, rectangles, rhombuses and squares.",
+      "topics": [
+        {
+          "slug": "polygon-angles",
+          "name": "Angles of polygons"
+        },
+        {
+          "slug": "quadrilaterals",
+          "name": "Properties of quadrilaterals"
+        }
+      ]
+    },
+    {
+      "slug": "circle",
+      "name": "Circle",
+      "order": 13,
+      "summary": "Develops chord properties of circles, including the perpendicular from the centre and equal chords.",
+      "topics": [
+        {
+          "slug": "chord-properties",
+          "name": "Perpendicular from the centre to a chord"
+        },
+        {
+          "slug": "equal-chords",
+          "name": "Equal chords and their distances"
+        },
+        {
+          "slug": "arcs-and-chords",
+          "name": "Arcs and chords"
+        }
+      ]
+    },
+    {
+      "slug": "statistics",
+      "name": "Statistics",
+      "order": 14,
+      "summary": "Organises data into frequency distributions and computes the mean and median of ungrouped data.",
+      "topics": [
+        {
+          "slug": "frequency-distribution",
+          "name": "Frequency distribution and class marks"
+        },
+        {
+          "slug": "mean-median",
+          "name": "Mean and median"
+        },
+        {
+          "slug": "graphical-representation",
+          "name": "Histograms and frequency polygons"
+        }
+      ]
+    },
+    {
+      "slug": "mensuration",
+      "name": "Mensuration",
+      "order": 15,
+      "summary": "Finds areas and perimeters of plane figures, including triangles by Heron’s formula, and surface areas and volumes of cubes and cuboids.",
+      "topics": [
+        {
+          "slug": "plane-figures",
+          "name": "Area and perimeter of plane figures"
+        },
+        {
+          "slug": "herons-formula",
+          "name": "Area of a triangle by Heron’s formula"
+        },
+        {
+          "slug": "cube-cuboid",
+          "name": "Surface area and volume of cubes and cuboids"
+        }
+      ]
+    },
+    {
+      "slug": "trigonometry",
+      "name": "Trigonometry",
+      "order": 16,
+      "summary": "Defines trigonometric ratios for acute angles, evaluates them for standard angles and uses complementary-angle relations.",
+      "topics": [
+        {
+          "slug": "trig-ratios",
+          "name": "Trigonometric ratios"
+        },
+        {
+          "slug": "standard-angles",
+          "name": "Ratios of standard angles"
+        },
+        {
+          "slug": "complementary-angles",
+          "name": "Complementary angles"
+        }
+      ]
+    },
+    {
+      "slug": "coordinate-geometry",
+      "name": "Co-ordinate Geometry",
+      "order": 17,
+      "summary": "Locates points in the Cartesian plane, draws graphs of linear equations and applies the distance formula.",
+      "topics": [
+        {
+          "slug": "plotting-points",
+          "name": "Plotting points and quadrants"
+        },
+        {
+          "slug": "linear-graphs",
+          "name": "Graphs of linear equations"
+        },
+        {
+          "slug": "distance-formula",
+          "name": "Distance formula"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "icse-9-mathematics-001",
+      "chapter": "rational-irrational-numbers",
+      "topic": "identifying-irrationals",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Which of the following is an irrational number?",
+      "options": [
+        "√49",
+        "0.375",
+        "√12",
+        "22/7"
+      ],
+      "correctOption": 2,
+      "answer": "√12 is irrational.",
+      "explanation": "√12 = 2√3 and √3 is irrational; √49 = 7, 0.375 = 3/8 and 22/7 are all rational."
+    },
+    {
+      "key": "icse-9-mathematics-002",
+      "chapter": "rational-irrational-numbers",
+      "topic": "rationalising-denominator",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "If x = 1/(3 − 2√2), find the value of x + 1/x.",
+      "numericAnswer": 6,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "x = 1/(3 − 2√2) × (3 + 2√2)/(3 + 2√2) = (3 + 2√2)/(9 − 8) = 3 + 2√2.\n1/x = 3 − 2√2.\nx + 1/x = (3 + 2√2) + (3 − 2√2) = 6.",
+      "explanation": "Rationalise first; the surd parts cancel when x and 1/x are added."
+    },
+    {
+      "key": "icse-9-mathematics-003",
+      "chapter": "rational-irrational-numbers",
+      "topic": "surds-simplification",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The value of (√5 + √3)(√5 − √3) is ____.",
+      "acceptedAnswers": [
+        "2",
+        "2.0"
+      ],
+      "answer": "(√5 + √3)(√5 − √3) = (√5)² − (√3)² = 5 − 3 = 2.",
+      "explanation": "Uses (a + b)(a − b) = a² − b²."
+    },
+    {
+      "key": "icse-9-mathematics-004",
+      "chapter": "compound-interest",
+      "topic": "ci-formula",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Find the compound interest on ₹8000 for 2 years at 10% per annum, compounded annually.",
+      "numericAnswer": 1680,
+      "tolerance": 0.01,
+      "unit": "₹",
+      "answer": "A = 8000 × (1 + 10/100)² = 8000 × 1.21 = ₹9680.\nCI = 9680 − 8000 = ₹1680."
+    },
+    {
+      "key": "icse-9-mathematics-005",
+      "chapter": "compound-interest",
+      "topic": "growth-depreciation",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "A machine costs ₹50,000. Its value depreciates at 8% per annum. Find its value after 2 years.",
+      "numericAnswer": 42320,
+      "tolerance": 0.01,
+      "unit": "₹",
+      "answer": "Value = 50000 × (1 − 8/100)² = 50000 × 0.92² = 50000 × 0.8464 = ₹42,320.",
+      "explanation": "For depreciation the rate is subtracted inside the bracket."
+    },
+    {
+      "key": "icse-9-mathematics-006",
+      "chapter": "compound-interest",
+      "topic": "ci-year-by-year",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "A sum of money amounts to ₹13,310 in 3 years at 10% per annum, compounded annually.\n(a) Find the sum.\n(b) Find the compound interest for the third year.",
+      "answer": "(a) 13310 = P × (1.1)³ = P × 1.331, so P = 13310 ÷ 1.331 = ₹10,000.\n(b) Amount after 2 years = 10000 × 1.21 = ₹12,100. Interest for the 3rd year = 10% of 12100 = ₹1210. (Check: 12100 + 1210 = 13310.)",
+      "explanation": "Interest for a particular year is the rate applied to the amount at the start of that year."
+    },
+    {
+      "key": "icse-9-mathematics-007",
+      "chapter": "expansions",
+      "topic": "square-of-binomial",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "If a + b = 7 and ab = 10, then a² + b² equals:",
+      "options": [
+        "29",
+        "39",
+        "69",
+        "59"
+      ],
+      "correctOption": 0,
+      "answer": "a² + b² = 29.",
+      "explanation": "a² + b² = (a + b)² − 2ab = 49 − 20 = 29."
+    },
+    {
+      "key": "icse-9-mathematics-008",
+      "chapter": "expansions",
+      "topic": "cube-expansions",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "If x + 1/x = 4, find the value of x³ + 1/x³.",
+      "numericAnswer": 52,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 4³ − 3 × 4 = 64 − 12 = 52."
+    },
+    {
+      "key": "icse-9-mathematics-009",
+      "chapter": "factorisation",
+      "topic": "trinomials",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "x² − 5x + 6 = (x − 2)(____)",
+      "acceptedAnswers": [
+        "x − 3",
+        "x-3",
+        "x - 3",
+        "x−3",
+        "(x-3)",
+        "(x − 3)"
+      ],
+      "answer": "x² − 5x + 6 = (x − 2)(x − 3).",
+      "explanation": "−2 and −3 multiply to 6 and add to −5."
+    },
+    {
+      "key": "icse-9-mathematics-010",
+      "chapter": "factorisation",
+      "topic": "squares-cubes",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Factorise completely: a³ − 27b³.",
+      "answer": "a³ − 27b³ = a³ − (3b)³ = (a − 3b)(a² + a·3b + (3b)²) = (a − 3b)(a² + 3ab + 9b²).",
+      "explanation": "Uses x³ − y³ = (x − y)(x² + xy + y²)."
+    },
+    {
+      "key": "icse-9-mathematics-011",
+      "chapter": "factorisation",
+      "topic": "trinomials",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "Factorise 6x² + 7x − 3 by splitting the middle term.",
+      "answer": "Product of first and last coefficients = 6 × (−3) = −18. Two numbers with product −18 and sum 7 are 9 and −2.\n6x² + 9x − 2x − 3 = 3x(2x + 3) − 1(2x + 3) = (2x + 3)(3x − 1).",
+      "explanation": "Check: (2x + 3)(3x − 1) = 6x² − 2x + 9x − 3 = 6x² + 7x − 3."
+    },
+    {
+      "key": "icse-9-mathematics-012",
+      "chapter": "simultaneous-linear-equations",
+      "topic": "word-problems",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "The sum of two numbers is 50 and their difference is 14. Find the larger number.",
+      "numericAnswer": 32,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "Let the numbers be x and y (x > y).\nx + y = 50, x − y = 14.\nAdding: 2x = 64, so x = 32 (and y = 18).\nThe larger number is 32."
+    },
+    {
+      "key": "icse-9-mathematics-013",
+      "chapter": "simultaneous-linear-equations",
+      "topic": "substitution-elimination",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "A fraction becomes 1/2 when 1 is added to both its numerator and denominator. It becomes 1/3 when 1 is subtracted from both. Find the fraction.",
+      "answer": "Let the fraction be x/y.\n(x + 1)/(y + 1) = 1/2 ⇒ 2x + 2 = y + 1 ⇒ y = 2x + 1 … (i)\n(x − 1)/(y − 1) = 1/3 ⇒ 3x − 3 = y − 1 ⇒ y = 3x − 2 … (ii)\nFrom (i) and (ii): 2x + 1 = 3x − 2 ⇒ x = 3, y = 7.\nThe fraction is 3/7. (Check: 4/8 = 1/2 and 2/6 = 1/3.)"
+    },
+    {
+      "key": "icse-9-mathematics-014",
+      "chapter": "indices",
+      "topic": "fractional-negative-indices",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The value of 16^(3/4) is:",
+      "options": [
+        "4",
+        "12",
+        "8",
+        "6"
+      ],
+      "correctOption": 2,
+      "answer": "16^(3/4) = 8.",
+      "explanation": "16^(3/4) = (2⁴)^(3/4) = 2³ = 8."
+    },
+    {
+      "key": "icse-9-mathematics-015",
+      "chapter": "indices",
+      "topic": "exponential-equations",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Solve for x: 2^(x + 3) = 32^(x − 1).",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "32 = 2⁵, so 32^(x − 1) = 2^(5x − 5).\n2^(x + 3) = 2^(5x − 5) ⇒ x + 3 = 5x − 5 ⇒ 4x = 8 ⇒ x = 2.",
+      "explanation": "Write both sides with the same base, then equate the powers."
+    },
+    {
+      "key": "icse-9-mathematics-016",
+      "chapter": "logarithms",
+      "topic": "log-exponential-form",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The value of log₂ 64 is:",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "32"
+      ],
+      "correctOption": 1,
+      "answer": "log₂ 64 = 6.",
+      "explanation": "Since 2⁶ = 64."
+    },
+    {
+      "key": "icse-9-mathematics-017",
+      "chapter": "logarithms",
+      "topic": "log-laws",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Evaluate (logarithms to base 10): log 25 + log 8 − log 2.",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "log 25 + log 8 − log 2 = log(25 × 8 ÷ 2) = log 100 = log 10² = 2."
+    },
+    {
+      "key": "icse-9-mathematics-018",
+      "chapter": "logarithms",
+      "topic": "log-equations",
+      "type": "NUMERICAL",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "Solve for x (logarithms to base 10): log x + log (x − 3) = 1.",
+      "numericAnswer": 5,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "log[x(x − 3)] = 1 = log 10 ⇒ x(x − 3) = 10 ⇒ x² − 3x − 10 = 0 ⇒ (x − 5)(x + 2) = 0 ⇒ x = 5 or x = −2.\nLogarithms are defined only for positive numbers, so x and x − 3 must be positive; x = −2 is rejected.\nHence x = 5.",
+      "explanation": "Always check roots against the condition that the argument of a log is positive."
+    },
+    {
+      "key": "icse-9-mathematics-019",
+      "chapter": "triangles",
+      "topic": "congruence-criteria",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Which of the following is NOT a valid criterion for congruence of triangles?",
+      "options": [
+        "SSS",
+        "SAS",
+        "ASA",
+        "SSA"
+      ],
+      "correctOption": 3,
+      "answer": "SSA is not a valid criterion.",
+      "explanation": "Two sides and a non-included angle do not fix a triangle uniquely."
+    },
+    {
+      "key": "icse-9-mathematics-020",
+      "chapter": "triangles",
+      "topic": "proofs-using-congruence",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "In quadrilateral ABCD, AB = AD and diagonal AC bisects ∠BAD. Prove that △ABC ≅ △ADC and hence that BC = DC.",
+      "answer": "In △ABC and △ADC:\nAB = AD (given)\n∠BAC = ∠DAC (AC bisects ∠BAD)\nAC = AC (common)\nSo △ABC ≅ △ADC (SAS).\nHence BC = DC (corresponding parts of congruent triangles)."
+    },
+    {
+      "key": "icse-9-mathematics-021",
+      "chapter": "isosceles-triangles",
+      "topic": "equal-sides-angles",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "In △ABC, AB = AC and ∠A = 40°. Find ∠B.",
+      "numericAnswer": 70,
+      "tolerance": 0.01,
+      "unit": "°",
+      "answer": "AB = AC ⇒ ∠B = ∠C.\n∠B + ∠C = 180° − 40° = 140°, so ∠B = 70°."
+    },
+    {
+      "key": "icse-9-mathematics-022",
+      "chapter": "isosceles-triangles",
+      "topic": "angle-proofs",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "In △ABC, AB = AC. Side BA is produced to D such that AD = AB. Prove that ∠BCD = 90°.",
+      "answer": "AB = AC ⇒ ∠ABC = ∠ACB = x (say).\nAD = AB = AC ⇒ in △ACD, ∠ACD = ∠ADC = y (say).\nIn △BCD: ∠DBC + ∠BDC + ∠BCD = 180°\n⇒ x + y + (x + y) = 180° (since ∠BCD = ∠ACB + ∠ACD = x + y)\n⇒ 2(x + y) = 180° ⇒ x + y = 90°.\nHence ∠BCD = 90°.",
+      "explanation": "Angles opposite equal sides are equal; apply this in both small triangles."
+    },
+    {
+      "key": "icse-9-mathematics-023",
+      "chapter": "mid-point-theorem",
+      "topic": "midpoint-theorem",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The line segment joining the mid-points of two sides of a triangle is parallel to the third side and equal to ____ of it.",
+      "acceptedAnswers": [
+        "half",
+        "one-half",
+        "one half",
+        "1/2"
+      ],
+      "answer": "Half of the third side."
+    },
+    {
+      "key": "icse-9-mathematics-024",
+      "chapter": "mid-point-theorem",
+      "topic": "midpoint-theorem",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "D, E and F are the mid-points of sides AB, BC and CA of △ABC. If AB = 8 cm, BC = 10 cm and CA = 12 cm, find the perimeter of △DEF.",
+      "numericAnswer": 15,
+      "tolerance": 0.01,
+      "unit": "cm",
+      "answer": "By the mid-point theorem, DE = CA/2 = 6 cm, EF = AB/2 = 4 cm, DF = BC/2 = 5 cm.\nPerimeter of △DEF = 6 + 4 + 5 = 15 cm.",
+      "explanation": "The perimeter of the mid-point triangle is half the perimeter of the original triangle."
+    },
+    {
+      "key": "icse-9-mathematics-025",
+      "chapter": "pythagoras-theorem",
+      "topic": "pythagoras-applications",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "A 13 m long ladder leans against a wall and reaches a window 12 m above the ground. How far is the foot of the ladder from the wall?",
+      "numericAnswer": 5,
+      "tolerance": 0.01,
+      "unit": "m",
+      "answer": "Distance² = 13² − 12² = 169 − 144 = 25, so distance = 5 m."
+    },
+    {
+      "key": "icse-9-mathematics-026",
+      "chapter": "pythagoras-theorem",
+      "topic": "pythagoras-proofs",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "In △ABC, ∠B = 90° and D is the mid-point of BC.\n(a) Prove that 4AD² = 4AB² + BC².\n(b) If AB = 6 cm and BC = 16 cm, find AD.",
+      "answer": "(a) In right △ABD, ∠B = 90°, so AD² = AB² + BD². Since D is the mid-point of BC, BD = BC/2.\nAD² = AB² + BC²/4 ⇒ 4AD² = 4AB² + BC².\n(b) 4AD² = 4 × 36 + 256 = 144 + 256 = 400 ⇒ AD² = 100 ⇒ AD = 10 cm."
+    },
+    {
+      "key": "icse-9-mathematics-027",
+      "chapter": "rectilinear-figures",
+      "topic": "polygon-angles",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Each interior angle of a regular polygon is 150°. Find the number of sides.",
+      "numericAnswer": 12,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "Each exterior angle = 180° − 150° = 30°.\nNumber of sides = 360° ÷ 30° = 12."
+    },
+    {
+      "key": "icse-9-mathematics-028",
+      "chapter": "rectilinear-figures",
+      "topic": "polygon-angles",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The sum of the interior angles of a hexagon is:",
+      "options": [
+        "720°",
+        "540°",
+        "900°",
+        "1080°"
+      ],
+      "correctOption": 0,
+      "answer": "720°.",
+      "explanation": "Sum = (n − 2) × 180° = 4 × 180° = 720°."
+    },
+    {
+      "key": "icse-9-mathematics-029",
+      "chapter": "rectilinear-figures",
+      "topic": "quadrilaterals",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "In parallelogram ABCD, the bisectors of ∠A and ∠B meet at P. Prove that ∠APB = 90°.",
+      "answer": "In a parallelogram, adjacent angles are supplementary: ∠A + ∠B = 180° (AD ∥ BC, co-interior angles).\nSo ½∠A + ½∠B = 90°, i.e. ∠PAB + ∠PBA = 90°.\nIn △APB: ∠APB = 180° − (∠PAB + ∠PBA) = 180° − 90° = 90°."
+    },
+    {
+      "key": "icse-9-mathematics-030",
+      "chapter": "circle",
+      "topic": "chord-properties",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "A chord of length 16 cm is at a distance of 6 cm from the centre of a circle. Find the radius of the circle.",
+      "numericAnswer": 10,
+      "tolerance": 0.01,
+      "unit": "cm",
+      "answer": "The perpendicular from the centre bisects the chord, so half-chord = 8 cm.\nr² = 8² + 6² = 64 + 36 = 100 ⇒ r = 10 cm."
+    },
+    {
+      "key": "icse-9-mathematics-031",
+      "chapter": "circle",
+      "topic": "chord-properties",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The perpendicular drawn from the centre of a circle to a chord ____ the chord.",
+      "acceptedAnswers": [
+        "bisects",
+        "bisect"
+      ],
+      "answer": "The perpendicular from the centre to a chord bisects the chord."
+    },
+    {
+      "key": "icse-9-mathematics-032",
+      "chapter": "circle",
+      "topic": "equal-chords",
+      "type": "NUMERICAL",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "Two parallel chords AB and CD of a circle of radius 13 cm have lengths 10 cm and 24 cm respectively. If the chords lie on opposite sides of the centre, find the distance between them.",
+      "numericAnswer": 17,
+      "tolerance": 0.01,
+      "unit": "cm",
+      "answer": "Distance of AB from centre = √(13² − 5²) = √(169 − 25) = √144 = 12 cm.\nDistance of CD from centre = √(13² − 12²) = √(169 − 144) = √25 = 5 cm.\nChords on opposite sides ⇒ distance between them = 12 + 5 = 17 cm.",
+      "explanation": "If the chords were on the same side, the distance would be 12 − 5 = 7 cm."
+    },
+    {
+      "key": "icse-9-mathematics-033",
+      "chapter": "statistics",
+      "topic": "mean-median",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "The marks of 8 students are: 12, 15, 9, 20, 14, 18, 11, 13.\n(a) Find the mean.\n(b) Find the median.\n(c) If a ninth student scoring 25 is included, find the new median.",
+      "answer": "(a) Sum = 12 + 15 + 9 + 20 + 14 + 18 + 11 + 13 = 112. Mean = 112 ÷ 8 = 14.\n(b) Arranged: 9, 11, 12, 13, 14, 15, 18, 20. n = 8 (even), so median = (4th + 5th)/2 = (13 + 14)/2 = 13.5.\n(c) New list: 9, 11, 12, 13, 14, 15, 18, 20, 25. n = 9 (odd), median = 5th value = 14."
+    },
+    {
+      "key": "icse-9-mathematics-034",
+      "chapter": "statistics",
+      "topic": "frequency-distribution",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The class mark of the class interval 20–30 is:",
+      "options": [
+        "20",
+        "30",
+        "10",
+        "25"
+      ],
+      "correctOption": 3,
+      "answer": "25.",
+      "explanation": "Class mark = (20 + 30) ÷ 2 = 25."
+    },
+    {
+      "key": "icse-9-mathematics-035",
+      "chapter": "mensuration",
+      "topic": "herons-formula",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Find the area of a triangle whose sides are 13 cm, 14 cm and 15 cm.",
+      "numericAnswer": 84,
+      "tolerance": 0.01,
+      "unit": "cm²",
+      "answer": "s = (13 + 14 + 15) ÷ 2 = 21.\nArea = √[21 × (21 − 13) × (21 − 14) × (21 − 15)] = √(21 × 8 × 7 × 6) = √7056 = 84 cm²."
+    },
+    {
+      "key": "icse-9-mathematics-036",
+      "chapter": "mensuration",
+      "topic": "cube-cuboid",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Find the total surface area of a cuboid of length 10 cm, breadth 8 cm and height 5 cm.",
+      "numericAnswer": 340,
+      "tolerance": 0.01,
+      "unit": "cm²",
+      "answer": "TSA = 2(lb + bh + hl) = 2(80 + 40 + 50) = 2 × 170 = 340 cm²."
+    },
+    {
+      "key": "icse-9-mathematics-037",
+      "chapter": "mensuration",
+      "topic": "cube-cuboid",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "A cuboidal water tank, open at the top, measures 3 m long, 2 m wide and 1.5 m deep.\n(a) Find its capacity in litres.\n(b) Find the area of metal sheet needed to make it.\n(c) Find the cost of the sheet at ₹150 per m².",
+      "answer": "(a) Volume = 3 × 2 × 1.5 = 9 m³. Since 1 m³ = 1000 litres, capacity = 9000 litres.\n(b) Area = base + four walls = lb + 2h(l + b) = 3 × 2 + 2 × 1.5 × (3 + 2) = 6 + 15 = 21 m².\n(c) Cost = 21 × 150 = ₹3150.",
+      "explanation": "An open tank has no top face, so only one l × b face is counted."
+    },
+    {
+      "key": "icse-9-mathematics-038",
+      "chapter": "trigonometry",
+      "topic": "trig-ratios",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "If θ is acute and sin θ = 3/5, then cos θ equals:",
+      "options": [
+        "3/4",
+        "5/3",
+        "5/4",
+        "4/5"
+      ],
+      "correctOption": 3,
+      "answer": "cos θ = 4/5.",
+      "explanation": "Taking opposite = 3 and hypotenuse = 5, adjacent = √(25 − 9) = 4, so cos θ = 4/5."
+    },
+    {
+      "key": "icse-9-mathematics-039",
+      "chapter": "trigonometry",
+      "topic": "standard-angles",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Evaluate: sin² 60° + cos² 30° − tan² 45°.",
+      "numericAnswer": 0.5,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "sin 60° = cos 30° = √3/2, tan 45° = 1.\n3/4 + 3/4 − 1 = 3/2 − 1 = 1/2 = 0.5."
+    },
+    {
+      "key": "icse-9-mathematics-040",
+      "chapter": "trigonometry",
+      "topic": "complementary-angles",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Without using tables, evaluate: sin 35°/cos 55° + tan 20° × tan 70°.",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "cos 55° = cos(90° − 35°) = sin 35°, so sin 35°/cos 55° = 1.\ntan 70° = tan(90° − 20°) = cot 20°, so tan 20° × tan 70° = tan 20° × cot 20° = 1.\nValue = 1 + 1 = 2."
+    },
+    {
+      "key": "icse-9-mathematics-041",
+      "chapter": "trigonometry",
+      "topic": "trig-ratios",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "In △ABC, ∠B = 90°, AB = 5 cm and AC = 13 cm.\n(a) Find BC.\n(b) Write sin A, cos A and tan A.\n(c) Verify that sin² A + cos² A = 1.\n(d) Find the value of tan A − cot C.",
+      "answer": "(a) BC = √(13² − 5²) = √144 = 12 cm.\n(b) sin A = BC/AC = 12/13, cos A = AB/AC = 5/13, tan A = BC/AB = 12/5.\n(c) sin² A + cos² A = 144/169 + 25/169 = 169/169 = 1. Verified.\n(d) cot C = (side adjacent to C)/(side opposite C) = BC/AB = 12/5. So tan A − cot C = 12/5 − 12/5 = 0.",
+      "explanation": "A and C are complementary, so tan A = cot C."
+    },
+    {
+      "key": "icse-9-mathematics-042",
+      "chapter": "coordinate-geometry",
+      "topic": "plotting-points",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The point (−3, 5) lies in the ____ quadrant.",
+      "acceptedAnswers": [
+        "second",
+        "2nd",
+        "ii",
+        "2",
+        "second quadrant"
+      ],
+      "answer": "Second quadrant (x negative, y positive)."
+    },
+    {
+      "key": "icse-9-mathematics-043",
+      "chapter": "coordinate-geometry",
+      "topic": "distance-formula",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Find the distance between the points (1, 2) and (7, 10).",
+      "numericAnswer": 10,
+      "tolerance": 0.01,
+      "unit": "units",
+      "answer": "d = √[(7 − 1)² + (10 − 2)²] = √(36 + 64) = √100 = 10 units."
+    },
+    {
+      "key": "icse-9-mathematics-044",
+      "chapter": "coordinate-geometry",
+      "topic": "distance-formula",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "The vertices of a triangle are A(1, 1), B(4, 5) and C(8, 2).\n(a) Find the lengths AB, BC and AC.\n(b) Show that △ABC is a right-angled isosceles triangle and name the right angle.",
+      "answer": "(a) AB = √[(4 − 1)² + (5 − 1)²] = √(9 + 16) = 5.\nBC = √[(8 − 4)² + (2 − 5)²] = √(16 + 9) = 5.\nAC = √[(8 − 1)² + (2 − 1)²] = √(49 + 1) = √50 = 5√2.\n(b) AB = BC, so the triangle is isosceles. AB² + BC² = 25 + 25 = 50 = AC², so by the converse of Pythagoras theorem the angle opposite AC is 90°, i.e. ∠B = 90°."
+    }
+  ]
+}

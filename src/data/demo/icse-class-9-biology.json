@@ -1,0 +1,612 @@
+{
+  "board": "icse",
+  "class": 9,
+  "subject": {
+    "slug": "biology",
+    "name": "Biology",
+    "overview": "ICSE Class 9 Biology introduces the scope of biology, the cell as the unit of life, and plant and animal tissues. The plant section covers the structure of the flower, pollination and fertilisation, seed structure and germination, and respiration in plants. Diversity is studied through the five kingdom classification and the economic importance of bacteria and fungi. The human section covers nutrition, the digestive system, the skeleton and joints, the skin, and the respiratory system. The course ends with hygiene, common diseases and how they spread, immunity and vaccines, health organisations, and the generation and management of waste. Diagrams, definitions and reasoning-based answers are central throughout.",
+    "studyTips": [
+      "Draw and label the plant cell, animal cell, flower (L.S.), bean seed, skin section and human alimentary canal repeatedly until the labels come without effort.",
+      "Make a single table of digestive enzymes showing where each is secreted, where it acts, its substrate and its end product.",
+      "For diseases, learn a fixed set for each one: causative organism, mode of transmission, main symptoms and one prevention method.",
+      "Learn differences (plant vs animal cell, epigeal vs hypogeal, aerobic vs anaerobic respiration) as matched pairs, point against point, rather than as separate paragraphs.",
+      "Revise each experiment on respiration and germination as aim, set-up, control, observation and conclusion."
+    ]
+  },
+  "chapters": [
+    {
+      "slug": "introducing-biology",
+      "name": "Introducing Biology",
+      "order": 1,
+      "summary": "Introduces the meaning and scope of biology, its main branches, and contributions of some important biologists.",
+      "topics": [
+        { "slug": "branches-of-biology", "name": "Branches of biology" },
+        { "slug": "scope-of-biology", "name": "Scope and applications of biology" },
+        { "slug": "contributions-of-scientists", "name": "Contributions of biologists" }
+      ]
+    },
+    {
+      "slug": "cell-unit-of-life",
+      "name": "Cell: The Unit of Life",
+      "order": 2,
+      "summary": "Covers the cell theory, the structure and functions of cell organelles, and differences between plant and animal cells.",
+      "topics": [
+        { "slug": "cell-theory", "name": "Discovery of the cell and cell theory" },
+        { "slug": "cell-organelles", "name": "Cell organelles and their functions" },
+        { "slug": "plant-vs-animal-cell", "name": "Plant cell and animal cell" }
+      ]
+    },
+    {
+      "slug": "tissues",
+      "name": "Tissues",
+      "order": 3,
+      "summary": "Describes meristematic and permanent plant tissues and the four main types of animal tissue with their functions.",
+      "topics": [
+        { "slug": "plant-tissues", "name": "Plant tissues" },
+        { "slug": "animal-tissues", "name": "Animal tissues" }
+      ]
+    },
+    {
+      "slug": "the-flower",
+      "name": "The Flower",
+      "order": 4,
+      "summary": "Covers the parts of a typical flower, the accessory and essential whorls, and their functions.",
+      "topics": [
+        { "slug": "parts-of-flower", "name": "Parts of a typical flower" },
+        { "slug": "essential-whorls", "name": "Androecium and gynoecium" }
+      ]
+    },
+    {
+      "slug": "pollination-and-fertilization",
+      "name": "Pollination and Fertilization",
+      "order": 5,
+      "summary": "Explains self- and cross-pollination, agents of pollination and adaptations of flowers, and double fertilisation leading to seed and fruit formation.",
+      "topics": [
+        { "slug": "types-of-pollination", "name": "Self- and cross-pollination" },
+        { "slug": "agents-of-pollination", "name": "Agents of pollination" },
+        { "slug": "fertilization", "name": "Fertilisation and post-fertilisation changes" }
+      ]
+    },
+    {
+      "slug": "seeds",
+      "name": "Seeds: Structure and Germination",
+      "order": 6,
+      "summary": "Describes the structure of dicot and monocot seeds, types of germination, and the conditions needed for germination.",
+      "topics": [
+        { "slug": "seed-structure", "name": "Structure of dicot and monocot seeds" },
+        { "slug": "germination", "name": "Germination and its conditions" }
+      ]
+    },
+    {
+      "slug": "respiration-in-plants",
+      "name": "Respiration in Plants",
+      "order": 7,
+      "summary": "Covers aerobic and anaerobic respiration, their equations, differences between respiration and photosynthesis, and simple experiments on respiration.",
+      "topics": [
+        { "slug": "aerobic-and-anaerobic", "name": "Aerobic and anaerobic respiration" },
+        { "slug": "respiration-experiments", "name": "Experiments on respiration" }
+      ]
+    },
+    {
+      "slug": "five-kingdom-classification",
+      "name": "Five Kingdom Classification",
+      "order": 8,
+      "summary": "Explains the need for classification, binomial nomenclature and the characteristics of Monera, Protista, Fungi, Plantae and Animalia.",
+      "topics": [
+        { "slug": "five-kingdoms", "name": "The five kingdoms" },
+        { "slug": "binomial-nomenclature", "name": "Binomial nomenclature" }
+      ]
+    },
+    {
+      "slug": "economic-importance-of-bacteria-and-fungi",
+      "name": "Economic Importance of Bacteria and Fungi",
+      "order": 9,
+      "summary": "Covers useful roles of bacteria and fungi in food, medicine, industry and agriculture, and the harm they cause as agents of disease and spoilage.",
+      "topics": [
+        { "slug": "useful-bacteria", "name": "Useful bacteria" },
+        { "slug": "harmful-bacteria", "name": "Harmful bacteria" },
+        { "slug": "fungi", "name": "Useful and harmful fungi" }
+      ]
+    },
+    {
+      "slug": "nutrition",
+      "name": "Nutrition",
+      "order": 10,
+      "summary": "Deals with the classes of nutrients, their sources and functions, balanced diet and deficiency diseases.",
+      "topics": [
+        { "slug": "nutrients", "name": "Nutrients and balanced diet" },
+        { "slug": "deficiency-diseases", "name": "Deficiency diseases" }
+      ]
+    },
+    {
+      "slug": "digestive-system",
+      "name": "Digestive System",
+      "order": 11,
+      "summary": "Covers the parts of the human alimentary canal, digestive glands, enzymes and the digestion, absorption and assimilation of food.",
+      "topics": [
+        { "slug": "alimentary-canal", "name": "Alimentary canal" },
+        { "slug": "digestive-glands", "name": "Digestive glands" },
+        { "slug": "digestion-and-absorption", "name": "Enzymes, digestion and absorption" }
+      ]
+    },
+    {
+      "slug": "movement-and-locomotion",
+      "name": "Movement and Locomotion",
+      "order": 12,
+      "summary": "Describes the human skeleton, its functions, types of joints, and the role of muscles, tendons and ligaments in movement.",
+      "topics": [
+        { "slug": "skeleton", "name": "Human skeleton and its functions" },
+        { "slug": "joints", "name": "Joints, tendons and ligaments" }
+      ]
+    },
+    {
+      "slug": "skin",
+      "name": "Skin: The Jack of All Trades",
+      "order": 13,
+      "summary": "Covers the layers of the skin, its structures such as sweat glands and hair, and its functions including temperature regulation.",
+      "topics": [
+        { "slug": "structure-of-skin", "name": "Structure of skin" },
+        { "slug": "functions-of-skin", "name": "Functions of skin and temperature regulation" }
+      ]
+    },
+    {
+      "slug": "respiratory-system",
+      "name": "The Respiratory System",
+      "order": 14,
+      "summary": "Describes the human respiratory organs, the mechanism of breathing and the exchange of gases in the alveoli.",
+      "topics": [
+        { "slug": "respiratory-organs", "name": "Respiratory organs" },
+        { "slug": "mechanism-of-breathing", "name": "Mechanism of breathing" },
+        { "slug": "exchange-of-gases", "name": "Exchange and transport of gases" }
+      ]
+    },
+    {
+      "slug": "hygiene",
+      "name": "Hygiene",
+      "order": 15,
+      "summary": "Covers personal and community hygiene, safe drinking water and sanitation.",
+      "topics": [
+        { "slug": "personal-hygiene", "name": "Personal hygiene" },
+        { "slug": "community-hygiene", "name": "Community hygiene and sanitation" }
+      ]
+    },
+    {
+      "slug": "diseases",
+      "name": "Diseases: Cause and Control",
+      "order": 16,
+      "summary": "Deals with communicable diseases caused by bacteria, viruses and protozoa, their modes of transmission and prevention.",
+      "topics": [
+        { "slug": "communicable-diseases", "name": "Communicable diseases" },
+        { "slug": "modes-of-transmission", "name": "Modes of transmission" }
+      ]
+    },
+    {
+      "slug": "aids-to-health",
+      "name": "Aids to Health",
+      "order": 17,
+      "summary": "Covers immunity, vaccines and immunisation, antibiotics, antiseptics and disinfectants.",
+      "topics": [
+        { "slug": "immunity-and-vaccines", "name": "Immunity and vaccination" },
+        { "slug": "antibiotics-and-antiseptics", "name": "Antibiotics, antiseptics and disinfectants" }
+      ]
+    },
+    {
+      "slug": "health-organisations",
+      "name": "Health Organisations",
+      "order": 18,
+      "summary": "Describes the roles of local, national and international health organisations such as the WHO and the Red Cross.",
+      "topics": [
+        { "slug": "local-and-national-bodies", "name": "Local and national health bodies" },
+        { "slug": "international-organisations", "name": "International health organisations" }
+      ]
+    },
+    {
+      "slug": "waste-generation-and-management",
+      "name": "Waste Generation and Management",
+      "order": 19,
+      "summary": "Covers sources and types of waste, their effects on health and environment, and methods of disposal and management.",
+      "topics": [
+        { "slug": "sources-and-types-of-waste", "name": "Sources and types of waste" },
+        { "slug": "waste-disposal-methods", "name": "Methods of waste disposal and the 3Rs" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "icse-9-biology-001",
+      "chapter": "introducing-biology",
+      "topic": "branches-of-biology",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The branch of biology that deals with the study of fossils is:",
+      "options": ["Ecology", "Genetics", "Palaeontology", "Taxonomy"],
+      "correctOption": 2,
+      "answer": "Palaeontology.",
+      "explanation": "Ecology studies organisms and their environment, genetics studies heredity, and taxonomy deals with classification."
+    },
+    {
+      "key": "icse-9-biology-002",
+      "chapter": "introducing-biology",
+      "topic": "contributions-of-scientists",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Name the scientist associated with each of the following: (a) discovery of penicillin (b) development of the first vaccine, against smallpox (c) first observation and naming of cells (d) laws of inheritance.",
+      "answer": "(a) Alexander Fleming (b) Edward Jenner (c) Robert Hooke (d) Gregor Johann Mendel. [½ mark each]"
+    },
+    {
+      "key": "icse-9-biology-003",
+      "chapter": "cell-unit-of-life",
+      "topic": "cell-organelles",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "Which cell organelle is mainly involved in the packaging and secretion of materials such as enzymes and hormones?",
+      "options": ["Golgi apparatus", "Lysosome", "Centrosome", "Mitochondrion"],
+      "correctOption": 0,
+      "answer": "Golgi apparatus.",
+      "explanation": "The Golgi apparatus modifies, packs and dispatches cell secretions; lysosomes contain digestive enzymes and mitochondria carry out aerobic respiration."
+    },
+    {
+      "key": "icse-9-biology-004",
+      "chapter": "cell-unit-of-life",
+      "topic": "plant-vs-animal-cell",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Give three differences between a plant cell and an animal cell.",
+      "answer": "(1) A plant cell has a cellulose cell wall outside the cell membrane; an animal cell has no cell wall. (2) A plant cell usually has a large central vacuole; an animal cell has small vacuoles or none. (3) A plant cell contains plastids such as chloroplasts; an animal cell has no plastids. (4) A centrosome is present in an animal cell but absent in most plant cells. (Any three.)"
+    },
+    {
+      "key": "icse-9-biology-005",
+      "chapter": "tissues",
+      "topic": "plant-tissues",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The plant tissue that conducts water and minerals from the roots to the leaves is ____.",
+      "acceptedAnswers": ["xylem"],
+      "answer": "Xylem.",
+      "explanation": "Phloem conducts prepared food from the leaves to other parts."
+    },
+    {
+      "key": "icse-9-biology-006",
+      "chapter": "tissues",
+      "topic": "animal-tissues",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Give two differences between striated (skeletal) muscle fibres and cardiac muscle fibres.",
+      "answer": "(1) Striated muscles are voluntary; cardiac muscles are involuntary. (2) Striated muscle fibres are unbranched, cylindrical and multinucleate; cardiac muscle fibres are branched, usually uninucleate and joined by intercalated discs. (3) Striated muscles get fatigued; cardiac muscles work rhythmically throughout life without fatigue. (Any two.)"
+    },
+    {
+      "key": "icse-9-biology-007",
+      "chapter": "the-flower",
+      "topic": "parts-of-flower",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The male reproductive whorl of a flower is called the:",
+      "options": ["Calyx", "Corolla", "Gynoecium", "Androecium"],
+      "correctOption": 3,
+      "answer": "Androecium.",
+      "explanation": "The androecium consists of stamens; the gynoecium (carpels) is the female whorl."
+    },
+    {
+      "key": "icse-9-biology-008",
+      "chapter": "the-flower",
+      "topic": "essential-whorls",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Name the four whorls of a typical flower and state one function of each.",
+      "answer": "(1) Calyx (sepals) – protects the flower in the bud stage. (2) Corolla (petals) – attracts insects for pollination by its colour and scent. (3) Androecium (stamens) – produces pollen grains containing male gametes. (4) Gynoecium (carpels/pistil) – produces ovules containing the egg; after fertilisation the ovary forms the fruit and the ovules form seeds."
+    },
+    {
+      "key": "icse-9-biology-009",
+      "chapter": "pollination-and-fertilization",
+      "topic": "types-of-pollination",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "The transfer of pollen grains from the anther to the stigma of the same flower is called ____.",
+      "acceptedAnswers": ["self-pollination", "self pollination", "selfpollination", "autogamy"],
+      "answer": "Self-pollination (autogamy).",
+      "explanation": "Transfer of pollen to the stigma of a flower on a different plant of the same kind is cross-pollination."
+    },
+    {
+      "key": "icse-9-biology-010",
+      "chapter": "pollination-and-fertilization",
+      "topic": "fertilization",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "(a) Give two differences between insect-pollinated and wind-pollinated flowers. (b) Describe the process of double fertilisation in flowering plants. (c) After fertilisation, what do (i) the ovary and (ii) the ovule develop into?",
+      "answer": "(a) Insect-pollinated flowers are large, brightly coloured, scented and often have nectar; wind-pollinated flowers are small, dull and without scent or nectar. Insect-pollinated flowers produce fewer, sticky or spiny pollen grains; wind-pollinated flowers produce large numbers of light, dry pollen grains and often have feathery stigmas. [1] (b) The pollen grain germinates on the stigma and a pollen tube grows through the style into the ovule, usually through the micropyle, carrying two male gametes. One male gamete fuses with the egg cell to form the diploid zygote (syngamy), which develops into the embryo. The second male gamete fuses with the two polar nuclei (secondary nucleus) to form the triploid primary endosperm nucleus (triple fusion), which develops into the endosperm. Since two fusions occur, it is called double fertilisation. [2] (c) (i) Ovary – fruit (ii) Ovule – seed. [1]"
+    },
+    {
+      "key": "icse-9-biology-011",
+      "chapter": "seeds",
+      "topic": "germination",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Differentiate between epigeal and hypogeal germination, giving one example of each.",
+      "answer": "In epigeal germination, the hypocotyl elongates and pushes the cotyledons above the soil, e.g. bean or castor. In hypogeal germination, the epicotyl elongates and the cotyledons remain below the soil, e.g. pea, gram or maize. [1 mark each]"
+    },
+    {
+      "key": "icse-9-biology-012",
+      "chapter": "seeds",
+      "topic": "germination",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "Give reasons: (a) Seeds sown in waterlogged soil usually fail to germinate. (b) A maize grain is a fruit and not just a seed. (c) Seeds meant for storage are dried well before storing.",
+      "answer": "(a) Waterlogged soil has very little air in it, so the embryo does not get enough oxygen for respiration and cannot release the energy needed for germination. [1] (b) In a maize grain, the fruit wall (pericarp) is fused with the seed coat, so the grain is a one-seeded fruit developed from the whole ovary. [1] (c) Moisture would allow the seeds to respire actively or begin germinating and would encourage the growth of fungi, spoiling the seeds; dry seeds remain dormant and viable. [1]"
+    },
+    {
+      "key": "icse-9-biology-013",
+      "chapter": "respiration-in-plants",
+      "topic": "aerobic-and-anaerobic",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Write the chemical equations for (a) aerobic respiration and (b) anaerobic respiration in yeast.",
+      "answer": "(a) C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy (38 ATP). (b) C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ + energy (2 ATP). [1 mark each]",
+      "explanation": "Anaerobic respiration in yeast is also called alcoholic fermentation; it releases much less energy because glucose is only partly broken down."
+    },
+    {
+      "key": "icse-9-biology-014",
+      "chapter": "respiration-in-plants",
+      "topic": "respiration-experiments",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "Germinating seeds are placed in a closed flask. A delivery tube from the flask dips into clear lime water, and the set-up is left for some hours. (a) What does this experiment aim to show? (b) What change is seen in the lime water, and why? (c) Why are germinating seeds used instead of dry seeds? (d) Suggest a suitable control for this experiment.",
+      "answer": "(a) That carbon dioxide is released during respiration. [1] (b) The lime water turns milky, because the carbon dioxide released by the respiring seeds reacts with calcium hydroxide to form insoluble calcium carbonate. [1] (c) Germinating seeds respire very actively and release carbon dioxide rapidly, whereas dry seeds are dormant and respire very slowly. [1] (d) An identical set-up with boiled (dead) seeds that have been washed in an antiseptic to prevent microbial growth; the lime water in the control stays clear. [1]"
+    },
+    {
+      "key": "icse-9-biology-015",
+      "chapter": "five-kingdom-classification",
+      "topic": "five-kingdoms",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Unicellular organisms that lack a well-defined nucleus are placed in the kingdom:",
+      "options": ["Protista", "Monera", "Fungi", "Plantae"],
+      "correctOption": 1,
+      "answer": "Monera.",
+      "explanation": "Monera (bacteria and blue-green algae) are prokaryotes; Protista are unicellular eukaryotes with a true nucleus."
+    },
+    {
+      "key": "icse-9-biology-016",
+      "chapter": "five-kingdom-classification",
+      "topic": "binomial-nomenclature",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "(a) What is binomial nomenclature? (b) State two rules for writing a scientific name. (c) Give two reasons why fungi are not placed in kingdom Plantae.",
+      "answer": "(a) Binomial nomenclature is the system of giving each organism a scientific name made of two parts: the genus name followed by the species name (proposed by Linnaeus), e.g. Homo sapiens. [1] (b) The genus name begins with a capital letter and the species name with a small letter; the name is printed in italics, or each part is underlined separately when handwritten. [1] (c) Fungi lack chlorophyll and are heterotrophic (saprophytic or parasitic); their cell walls are made of chitin and not cellulose; they store food as glycogen, not starch. (Any two.) [1]"
+    },
+    {
+      "key": "icse-9-biology-017",
+      "chapter": "economic-importance-of-bacteria-and-fungi",
+      "topic": "useful-bacteria",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Bacteria of the genus ____ convert milk into curd.",
+      "acceptedAnswers": ["lactobacillus", "lactobacilli", "lactic acid bacteria"],
+      "answer": "Lactobacillus.",
+      "explanation": "Lactobacillus converts lactose in milk into lactic acid, which makes the milk proteins coagulate."
+    },
+    {
+      "key": "icse-9-biology-018",
+      "chapter": "economic-importance-of-bacteria-and-fungi",
+      "topic": "fungi",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "State two useful and two harmful activities of fungi.",
+      "answer": "Useful (any two): yeast is used in baking bread and in making alcohol by fermentation; Penicillium yields the antibiotic penicillin; some mushrooms are edible; fungi act as decomposers and recycle nutrients. Harmful (any two): moulds such as Rhizopus spoil bread and other food; fungi cause human diseases such as ringworm and athlete's foot; they cause plant diseases such as rust and smut of wheat. [½ mark each]"
+    },
+    {
+      "key": "icse-9-biology-019",
+      "chapter": "nutrition",
+      "topic": "deficiency-diseases",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "Deficiency of vitamin C in the diet causes:",
+      "options": ["Rickets", "Night blindness", "Scurvy", "Beri-beri"],
+      "correctOption": 2,
+      "answer": "Scurvy.",
+      "explanation": "Rickets is due to vitamin D deficiency, night blindness to vitamin A, and beri-beri to vitamin B1."
+    },
+    {
+      "key": "icse-9-biology-020",
+      "chapter": "nutrition",
+      "topic": "nutrients",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "(a) What is a balanced diet? (b) Why is roughage important in the diet even though it is not digested? (c) State one function of proteins and name the disease caused by severe protein deficiency in young children.",
+      "answer": "(a) A balanced diet is one that contains all the nutrients (carbohydrates, fats, proteins, vitamins, minerals), water and roughage in the correct proportions to meet the needs of the body. [1] (b) Roughage adds bulk to the food, helps the muscles of the intestine to push food along (peristalsis), and prevents constipation. [1] (c) Proteins are needed for growth and repair of body tissues (they also form enzymes and some hormones). Severe protein deficiency causes kwashiorkor. [1]"
+    },
+    {
+      "key": "icse-9-biology-021",
+      "chapter": "digestive-system",
+      "topic": "digestive-glands",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The largest gland in the human body is the:",
+      "options": ["Liver", "Pancreas", "Thyroid", "Salivary gland"],
+      "correctOption": 0,
+      "answer": "Liver.",
+      "explanation": "The liver secretes bile, which is stored in the gall bladder."
+    },
+    {
+      "key": "icse-9-biology-022",
+      "chapter": "digestive-system",
+      "topic": "digestion-and-absorption",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "(a) For each of the following enzymes, name the substance it acts on and the product formed: salivary amylase, pepsin, trypsin, lipase. (b) State the role of bile in digestion. (c) Give two ways in which the small intestine is adapted for absorption of digested food. (d) What is peristalsis?",
+      "answer": "(a) Salivary amylase (ptyalin): starch → maltose. Pepsin: proteins → peptones (in the acidic medium of the stomach). Trypsin: proteins and peptones → peptides. Lipase: fats (emulsified) → fatty acids and glycerol. [2] (b) Bile contains no enzymes; its salts emulsify fats into tiny droplets, increasing the surface area for lipase, and it makes the medium in the intestine alkaline. [1] (c) The small intestine is very long; its inner wall has numerous finger-like villi that greatly increase the surface area; each villus has a thin wall and is richly supplied with blood capillaries and a lacteal. (Any two.) [1] (d) Peristalsis is the wave of rhythmic contraction and relaxation of the muscles of the alimentary canal that pushes food forward. [1]"
+    },
+    {
+      "key": "icse-9-biology-023",
+      "chapter": "movement-and-locomotion",
+      "topic": "joints",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "(a) Name, in order, the bones of the human forelimb from the upper arm to the fingers. (b) Name the type of joint found at each of the following: (i) shoulder (ii) elbow (iii) between the atlas and axis vertebrae (iv) between the carpals of the wrist. (c) Differentiate between a tendon and a ligament.",
+      "answer": "(a) Humerus → radius and ulna → carpals → metacarpals → phalanges. [1] (b) (i) Ball and socket joint (ii) Hinge joint (iii) Pivot joint (iv) Gliding joint. [½ mark each = 2] (c) A tendon joins a muscle to a bone and is tough and inelastic; a ligament joins one bone to another at a joint and is strong but somewhat elastic. [1]"
+    },
+    {
+      "key": "icse-9-biology-024",
+      "chapter": "movement-and-locomotion",
+      "topic": "skeleton",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "State any four functions of the human skeleton.",
+      "answer": "(1) Gives shape and support to the body. (2) Protects delicate organs, e.g. the skull protects the brain and the ribs protect the heart and lungs. (3) Provides surfaces for attachment of muscles and helps in movement. (4) Red bone marrow produces blood cells. (5) Stores minerals such as calcium and phosphorus. (Any four, ½ mark each.)"
+    },
+    {
+      "key": "icse-9-biology-025",
+      "chapter": "skin",
+      "topic": "structure-of-skin",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Name the layer of the skin that: (a) contains the pigment melanin (b) contains sweat glands and blood vessels (c) is made of dead, keratin-filled cells (d) stores fat below the dermis.",
+      "answer": "(a) Malpighian (germinative) layer of the epidermis (b) Dermis (c) Cornified layer (stratum corneum) of the epidermis (d) Subcutaneous layer (hypodermis). [½ mark each]"
+    },
+    {
+      "key": "icse-9-biology-026",
+      "chapter": "skin",
+      "topic": "functions-of-skin",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Explain how the skin helps to keep body temperature constant (a) on a hot day and (b) on a cold day.",
+      "answer": "(a) On a hot day, sweat glands secrete more sweat; its evaporation from the skin surface absorbs heat and cools the body. The blood capillaries in the skin dilate (vasodilation), bringing more blood to the surface so that more heat is lost by radiation. [1.5] (b) On a cold day, the blood capillaries in the skin constrict (vasoconstriction), reducing blood flow near the surface and conserving heat; sweating is reduced; the subcutaneous fat acts as an insulating layer, and hairs may stand erect, trapping a layer of air. [1.5]"
+    },
+    {
+      "key": "icse-9-biology-027",
+      "chapter": "respiratory-system",
+      "topic": "respiratory-organs",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The flap of tissue that prevents food from entering the windpipe during swallowing is the:",
+      "options": ["Glottis", "Larynx", "Uvula", "Epiglottis"],
+      "correctOption": 3,
+      "answer": "Epiglottis.",
+      "explanation": "The epiglottis covers the glottis (the opening of the larynx) when food is swallowed."
+    },
+    {
+      "key": "icse-9-biology-028",
+      "chapter": "respiratory-system",
+      "topic": "mechanism-of-breathing",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "(a) Describe the changes in the diaphragm and the ribs during inhalation. (b) Give two differences between inhaled air and exhaled air. (c) Where does exchange of gases take place in the lungs? Give one feature that makes it efficient.",
+      "answer": "(a) The diaphragm contracts and becomes flatter (moves down); the external intercostal muscles contract, moving the ribs upward and outward. The volume of the chest cavity increases, pressure inside the lungs falls, and air rushes in. [2] (b) Inhaled air has about 21% oxygen and about 0.04% carbon dioxide; exhaled air has about 16% oxygen and about 4% carbon dioxide. Exhaled air is also warmer and saturated with water vapour. (Any two.) [1] (c) In the alveoli (air sacs). They are efficient because they provide a very large surface area, have walls only one cell thick, are moist, and are surrounded by a dense network of capillaries. (Any one feature.) [1]"
+    },
+    {
+      "key": "icse-9-biology-029",
+      "chapter": "hygiene",
+      "topic": "community-hygiene",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Give reasons: (a) We should not drink water from an unknown source without purifying it. (b) Stagnant water should not be allowed to collect around houses.",
+      "answer": "(a) Such water may contain disease-causing organisms (for example, those causing cholera, typhoid or jaundice) or harmful chemicals. [1] (b) Stagnant water provides breeding places for mosquitoes, which spread diseases such as malaria and dengue. [1]"
+    },
+    {
+      "key": "icse-9-biology-030",
+      "chapter": "diseases",
+      "topic": "modes-of-transmission",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "HARD",
+      "text": "Which of the following diseases spreads mainly by droplet infection?",
+      "options": ["Cholera", "Tuberculosis", "Malaria", "Typhoid"],
+      "correctOption": 1,
+      "answer": "Tuberculosis.",
+      "explanation": "Cholera and typhoid spread through contaminated food and water, and malaria through the bite of the female Anopheles mosquito."
+    },
+    {
+      "key": "icse-9-biology-031",
+      "chapter": "diseases",
+      "topic": "communicable-diseases",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "For each of the following diseases, name the causative organism (or its type) and state one mode of transmission: (a) malaria (b) cholera (c) tetanus (d) AIDS.",
+      "answer": "(a) Malaria – protozoan Plasmodium; spread by the bite of an infected female Anopheles mosquito. (b) Cholera – bacterium Vibrio cholerae; spread through food and water contaminated with faeces, often by houseflies. (c) Tetanus – bacterium Clostridium tetani; enters through wounds contaminated with soil, dust or rusty objects. (d) AIDS – Human Immunodeficiency Virus (HIV); spread by unprotected sexual contact, transfusion of infected blood, shared needles, or from an infected mother to her child. [1 mark each]"
+    },
+    {
+      "key": "icse-9-biology-032",
+      "chapter": "aids-to-health",
+      "topic": "immunity-and-vaccines",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The BCG vaccine gives protection against ____.",
+      "acceptedAnswers": ["tuberculosis", "tb"],
+      "answer": "Tuberculosis.",
+      "explanation": "BCG stands for Bacillus Calmette–Guérin and is usually given soon after birth."
+    },
+    {
+      "key": "icse-9-biology-033",
+      "chapter": "aids-to-health",
+      "topic": "antibiotics-and-antiseptics",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "Differentiate between: (a) an antiseptic and a disinfectant (b) active immunity and passive immunity.",
+      "answer": "(a) An antiseptic prevents the growth of microbes and is safe to apply on living tissues such as skin and wounds, e.g. tincture of iodine or diluted Dettol. A disinfectant kills microbes and is used on non-living objects such as floors and toilets, e.g. phenyl or bleaching powder. [1.5] (b) In active immunity the body produces its own antibodies after an infection or vaccination; it develops slowly but lasts long. In passive immunity ready-made antibodies are given (for example, through an antiserum, or passed from mother to baby); it acts immediately but lasts only for a short time. [1.5]"
+    },
+    {
+      "key": "icse-9-biology-034",
+      "chapter": "health-organisations",
+      "topic": "international-organisations",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Expand WHO and state two of its functions.",
+      "answer": "WHO stands for World Health Organization. Functions (any two): helping countries control and eradicate communicable diseases (for example, the global eradication of smallpox); setting international health standards and guidelines; collecting and sharing health information; supporting health research and health education; assisting countries in health emergencies. [½ + 1½]"
+    },
+    {
+      "key": "icse-9-biology-035",
+      "chapter": "waste-generation-and-management",
+      "topic": "waste-disposal-methods",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "Which method of waste management uses earthworms to convert biodegradable kitchen waste into manure?",
+      "options": ["Incineration", "Landfilling", "Vermicomposting", "Pyrolysis"],
+      "correctOption": 2,
+      "answer": "Vermicomposting.",
+      "explanation": "Incineration and pyrolysis use heat, and landfilling buries waste in low-lying areas."
+    },
+    {
+      "key": "icse-9-biology-036",
+      "chapter": "waste-generation-and-management",
+      "topic": "sources-and-types-of-waste",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "MEDIUM",
+      "text": "(a) Differentiate between biodegradable and non-biodegradable wastes, giving two examples of each. (b) Explain the 3Rs of waste management. (c) Name two sources of e-waste and state one hazard it causes. (d) State one advantage and one disadvantage of incineration.",
+      "answer": "(a) Biodegradable wastes are broken down by microorganisms into harmless substances, e.g. vegetable peels, paper, animal dung. Non-biodegradable wastes are not broken down by microorganisms and persist for a long time, e.g. plastics, glass, metal cans. [2] (b) Reduce – use fewer materials and generate less waste; Reuse – use articles again, e.g. glass jars for storage; Recycle – process used materials such as paper, glass and metals into new products. [1] (c) Discarded mobile phones, computers, televisions or batteries (any two). Hazard: they contain toxic metals such as lead, mercury and cadmium that can leach into soil and water, and burning them releases poisonous fumes. [1] (d) Advantage: it greatly reduces the volume of waste and destroys pathogens (useful for hospital waste). Disadvantage: it releases smoke and harmful gases that pollute the air. [1]"
+    }
+  ]
+}

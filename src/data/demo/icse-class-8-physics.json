@@ -1,0 +1,269 @@
+{
+  "board": "icse",
+  "class": 8,
+  "subject": {
+    "slug": "physics",
+    "name": "Physics",
+    "overview": "ICSE Class 8 Physics introduces the basic ideas that later chapters in Classes 9 and 10 build on. It begins with matter and the kinetic model of particles, then covers physical quantities such as density and relative density. Force and pressure includes the turning effect of a force and pressure in liquids and gases. The energy chapter deals with work, power and energy conversion. Later chapters cover light (spherical mirrors, refraction and dispersion), the transfer of heat by conduction, convection and radiation, the characteristics of sound, and electricity, including static charges, lightning and safe household circuits. Simple numericals with correct units are introduced throughout.",
+    "studyTips": [
+      "Learn each definition together with its SI unit and formula, for example density = mass/volume in kg/m³.",
+      "For numericals, convert all quantities to the same system of units before substituting into a formula.",
+      "Link every concept to a daily-life example, such as sea breezes for convection or wooden handles for poor conductors.",
+      "Practise labelled diagrams, such as the modes of heat transfer and a household circuit with a fuse."
+    ]
+  },
+  "chapters": [
+    { "slug": "matter", "name": "Matter", "order": 1,
+      "summary": "Describes the states of matter using the kinetic theory of particles and explains changes of state.",
+      "topics": [
+        { "slug": "states-of-matter", "name": "States of matter" },
+        { "slug": "kinetic-theory", "name": "Kinetic theory of matter" },
+        { "slug": "change-of-state", "name": "Change of state" }
+      ] },
+    { "slug": "physical-quantities-and-measurement", "name": "Physical Quantities and Measurement", "order": 2,
+      "summary": "Covers density and relative density and the measurement of volume of solids and liquids.",
+      "topics": [
+        { "slug": "density", "name": "Density" },
+        { "slug": "relative-density", "name": "Relative density" },
+        { "slug": "volume-measurement", "name": "Measurement of volume" }
+      ] },
+    { "slug": "force-and-pressure", "name": "Force and Pressure", "order": 3,
+      "summary": "Explains the turning effect of a force, thrust and pressure, and pressure exerted by liquids and gases.",
+      "topics": [
+        { "slug": "turning-effect", "name": "Turning effect of a force" },
+        { "slug": "pressure", "name": "Thrust and pressure" },
+        { "slug": "pressure-in-fluids", "name": "Pressure in liquids and gases" }
+      ] },
+    { "slug": "energy", "name": "Energy", "order": 4,
+      "summary": "Introduces work, power and energy, the forms of mechanical energy and the conversion of energy from one form to another.",
+      "topics": [
+        { "slug": "work-and-power", "name": "Work and power" },
+        { "slug": "forms-of-energy", "name": "Kinetic and potential energy" },
+        { "slug": "energy-conversion", "name": "Conversion of energy" }
+      ] },
+    { "slug": "light-energy", "name": "Light Energy", "order": 5,
+      "summary": "Covers reflection from spherical mirrors and their uses, refraction of light and dispersion by a prism.",
+      "topics": [
+        { "slug": "spherical-mirrors", "name": "Spherical mirrors and their uses" },
+        { "slug": "refraction", "name": "Refraction of light" },
+        { "slug": "dispersion", "name": "Dispersion of light" }
+      ] },
+    { "slug": "heat-transfer", "name": "Heat Transfer", "order": 6,
+      "summary": "Explains the transfer of heat by conduction, convection and radiation, with everyday applications.",
+      "topics": [
+        { "slug": "conduction", "name": "Conduction" },
+        { "slug": "convection", "name": "Convection" },
+        { "slug": "radiation", "name": "Radiation" }
+      ] },
+    { "slug": "sound", "name": "Sound", "order": 7,
+      "summary": "Describes how sound is produced by vibrations, its characteristics such as pitch and loudness, and the audible range.",
+      "topics": [
+        { "slug": "production-and-propagation", "name": "Production and propagation of sound" },
+        { "slug": "characteristics-of-sound", "name": "Frequency, pitch and loudness" },
+        { "slug": "audible-range", "name": "Audible range" }
+      ] },
+    { "slug": "electricity", "name": "Electricity", "order": 8,
+      "summary": "Covers static electric charges, lightning and its protection, and safety in household electric circuits.",
+      "topics": [
+        { "slug": "static-charges", "name": "Static electricity and charges" },
+        { "slug": "lightning", "name": "Lightning and lightning conductors" },
+        { "slug": "household-circuits", "name": "Household circuits and safety" }
+      ] }
+  ],
+  "questions": [
+    {
+      "key": "icse-8-physics-001",
+      "chapter": "matter",
+      "topic": "change-of-state",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The change of a solid directly into its vapour on heating, without becoming a liquid, is called:",
+      "options": ["melting", "evaporation", "sublimation", "condensation"],
+      "correctOption": 2,
+      "answer": "Sublimation. Examples include camphor, naphthalene and iodine.",
+      "explanation": "Melting is solid to liquid, evaporation is liquid to vapour and condensation is vapour to liquid."
+    },
+    {
+      "key": "icse-8-physics-002",
+      "chapter": "matter",
+      "topic": "kinetic-theory",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Using the kinetic theory of matter, explain why a gas can be compressed easily but a solid cannot.",
+      "answer": "In a gas the particles are very far apart and the intermolecular forces are very weak, so there is a lot of empty space; applying pressure pushes the particles closer, and the gas is compressed easily. In a solid the particles are packed very closely with strong intermolecular forces and almost no space between them, so they cannot be pushed any closer and the solid is practically incompressible."
+    },
+    {
+      "key": "icse-8-physics-003",
+      "chapter": "physical-quantities-and-measurement",
+      "topic": "density",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "A metal block has a mass of 540 g and a volume of 200 cm³. Find its density in g/cm³.",
+      "numericAnswer": 2.7,
+      "tolerance": 0.01,
+      "unit": "g/cm³",
+      "answer": "Density = mass / volume = 540 g / 200 cm³ = 2.7 g/cm³."
+    },
+    {
+      "key": "icse-8-physics-004",
+      "chapter": "physical-quantities-and-measurement",
+      "topic": "relative-density",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "A piece of metal has a mass of 390 g and a volume of 50 cm³. The density of water is 1 g/cm³. Find the density of the metal in g/cm³ and in kg/m³, and hence its relative density.",
+      "numericAnswer": 7.8,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "Density = 390 g / 50 cm³ = 7.8 g/cm³. Since 1 g/cm³ = 1000 kg/m³, density = 7800 kg/m³. Relative density = density of metal / density of water = 7.8 / 1 = 7.8.",
+      "explanation": "Relative density is a ratio of two densities, so it has no unit."
+    },
+    {
+      "key": "icse-8-physics-005",
+      "chapter": "force-and-pressure",
+      "topic": "pressure",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "A box weighing 600 N rests on the floor. The area of its base in contact with the floor is 1.5 m². Find the pressure it exerts on the floor in pascal.",
+      "numericAnswer": 400,
+      "tolerance": 0.5,
+      "unit": "Pa",
+      "answer": "Pressure = thrust / area = 600 N / 1.5 m² = 400 N/m² = 400 Pa."
+    },
+    {
+      "key": "icse-8-physics-006",
+      "chapter": "force-and-pressure",
+      "topic": "turning-effect",
+      "type": "NUMERICAL",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "A mechanic applies a force of 40 N at the end of a spanner 25 cm long to turn a nut. Calculate the moment of the force about the nut. If he instead applies the force at the middle of the spanner, what force (in N) would he need to produce the same moment?",
+      "numericAnswer": 80,
+      "tolerance": 0.1,
+      "unit": "N",
+      "answer": "Moment of force = force × perpendicular distance from the axis = 40 N × 0.25 m = 10 N m. At the middle, the distance is 0.125 m. Required force F = moment / distance = 10 / 0.125 = 80 N.",
+      "explanation": "Halving the distance from the axis doubles the force needed for the same turning effect, which is why spanners have long handles."
+    },
+    {
+      "key": "icse-8-physics-007",
+      "chapter": "energy",
+      "topic": "work-and-power",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "A boy pushes a box with a force of 50 N and moves it 4 m in the direction of the force in 10 s. Find the work done and then the power developed by the boy. Give the power in watt.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "W",
+      "answer": "Work done W = force × displacement = 50 N × 4 m = 200 J. Power P = work / time = 200 J / 10 s = 20 W."
+    },
+    {
+      "key": "icse-8-physics-008",
+      "chapter": "energy",
+      "topic": "forms-of-energy",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "A compressed spring possesses:",
+      "options": ["kinetic energy", "potential energy", "sound energy", "light energy"],
+      "correctOption": 1,
+      "answer": "Potential energy. The spring stores energy because of its changed shape (elastic potential energy).",
+      "explanation": "Potential energy is energy due to position or configuration; kinetic energy is energy due to motion."
+    },
+    {
+      "key": "icse-8-physics-009",
+      "chapter": "light-energy",
+      "topic": "dispersion",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "The splitting of white light into its constituent colours on passing through a glass prism is called ____.",
+      "acceptedAnswers": ["dispersion", "dispersion of light"],
+      "answer": "The splitting of white light into its colours by a prism is called dispersion."
+    },
+    {
+      "key": "icse-8-physics-010",
+      "chapter": "light-energy",
+      "topic": "spherical-mirrors",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Name the type of mirror used in each case and give one reason: (a) the rear-view mirror of a car, (b) the mirror used by a dentist to see teeth, (c) the reflector of a torch.",
+      "answer": "(a) Convex mirror: it always forms an erect, diminished image and gives a wider field of view of the traffic behind. (b) Concave mirror: when a tooth is placed close to it (within the focus), it forms an erect, enlarged image. (c) Concave mirror: with the bulb placed at its focus, the reflected rays form a strong parallel beam of light."
+    },
+    {
+      "key": "icse-8-physics-011",
+      "chapter": "heat-transfer",
+      "topic": "radiation",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Heat from the Sun reaches the Earth by:",
+      "options": ["radiation", "conduction", "convection", "reflection"],
+      "correctOption": 0,
+      "answer": "Radiation. The space between the Sun and the Earth is almost a vacuum, and only radiation can transfer heat without a medium.",
+      "explanation": "Conduction and convection both need a material medium."
+    },
+    {
+      "key": "icse-8-physics-012",
+      "chapter": "heat-transfer",
+      "topic": "convection",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "(a) Define conduction, convection and radiation. (b) Explain why a sea breeze blows from the sea towards the land during the day. (c) Why are the handles of cooking pans often made of wood or plastic?",
+      "answer": "(a) [3 marks] Conduction: transfer of heat from the hotter part to the colder part of a body (mainly solids) from particle to particle, without the particles leaving their positions. Convection: transfer of heat in liquids and gases by the actual movement of the heated particles, forming convection currents. Radiation: transfer of heat from one place to another without the need of a medium, as in heat from the Sun. (b) [1 mark] During the day land heats up faster than the sea. The air above the land becomes warm, expands, becomes lighter and rises. Cooler, denser air from above the sea moves in to take its place, so the breeze blows from sea to land. (c) [1 mark] Wood and plastic are poor conductors (insulators) of heat, so heat from the hot pan does not reach the hand and the pan can be held safely."
+    },
+    {
+      "key": "icse-8-physics-013",
+      "chapter": "sound",
+      "topic": "audible-range",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The normal human ear can hear sounds of frequencies from 20 Hz to about ____ Hz.",
+      "acceptedAnswers": ["20000", "20,000", "20 000", "20000 hz", "20 khz", "20khz"],
+      "answer": "The audible range for humans is about 20 Hz to 20000 Hz (20 kHz)."
+    },
+    {
+      "key": "icse-8-physics-014",
+      "chapter": "sound",
+      "topic": "characteristics-of-sound",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "The prong of a tuning fork makes 50 complete vibrations in 2 seconds. Find the frequency of the vibrations in hertz.",
+      "numericAnswer": 25,
+      "tolerance": 0.01,
+      "unit": "Hz",
+      "answer": "Frequency = number of vibrations / time = 50 / 2 s = 25 Hz. (The time period is 1/25 = 0.04 s.)"
+    },
+    {
+      "key": "icse-8-physics-015",
+      "chapter": "electricity",
+      "topic": "static-charges",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "When a glass rod is rubbed with a silk cloth, the glass rod becomes:",
+      "options": ["negatively charged because it gains electrons", "positively charged because it gains protons", "uncharged because glass is an insulator", "positively charged because it loses electrons"],
+      "correctOption": 3,
+      "answer": "Positively charged because it loses electrons. Electrons are transferred from the glass rod to the silk, which becomes negatively charged.",
+      "explanation": "Only electrons move during charging by friction; protons stay fixed in the nucleus."
+    },
+    {
+      "key": "icse-8-physics-016",
+      "chapter": "electricity",
+      "topic": "household-circuits",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "(a) What is an electric fuse and how does it protect a circuit? (b) Why are household appliances connected in parallel and not in series? (c) What is meant by earthing an appliance, and why is it done?",
+      "answer": "(a) [2 marks] A fuse is a short piece of wire made of a material with a low melting point (such as an alloy of tin and lead), connected in series in the live wire of a circuit. When too much current flows because of a short circuit or overloading, the fuse wire heats up, melts and breaks the circuit, which protects the wiring and appliances from damage or fire. (b) [1 mark] In parallel, each appliance gets the full mains voltage and can be switched on or off independently; if one appliance fails, the others keep working. (c) [1 mark] Earthing means connecting the metal body of an appliance to the earth through a wire. If the live wire touches the metal body, the current flows safely to the earth instead of through a person, preventing an electric shock."
+    }
+  ]
+}

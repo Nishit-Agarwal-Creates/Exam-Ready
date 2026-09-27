@@ -1,0 +1,729 @@
+{
+  "board": "icse",
+  "class": 10,
+  "subject": {
+    "slug": "mathematics",
+    "name": "Mathematics",
+    "overview": "ICSE Class 10 Mathematics covers commercial mathematics (GST, recurring deposits, shares and dividends), algebra (linear inequations, quadratic equations, ratio and proportion, the remainder and factor theorems, matrices, and arithmetic and geometric progressions), coordinate geometry (reflection, section and mid-point formulae, equation of a line), and geometry (similarity, loci, circles and constructions). It also includes mensuration of cylinders, cones, spheres and combined solids, trigonometric identities with heights and distances, statistics (mean, median, quartiles, mode, histograms and ogives) and elementary probability. Questions test both accurate calculation and clearly set-out reasoning, including proofs and constructions with written steps.",
+    "studyTips": [
+      "Keep a formula sheet for each chapter (RD interest, section formula, surface areas and volumes, AP/GP sums) and revise it until you can write it from memory.",
+      "Show every step of working, including the formula used and units, since method carries marks even when the final answer slips.",
+      "Practise graph work (ogives, reflection, number lines) on graph paper with a sharp pencil, labelling axes and scales clearly.",
+      "For geometry proofs, state the reason (theorem or property) beside each statement rather than writing a block of text.",
+      "After solving a numerical problem, substitute the answer back or estimate roughly to catch arithmetic errors."
+    ]
+  },
+  "chapters": [
+    { "slug": "goods-and-services-tax", "name": "Goods and Services Tax", "order": 1,
+      "summary": "Computation of GST (CGST, SGST, IGST) on goods and services and the working of input tax credit along a supply chain.",
+      "topics": [
+        { "slug": "gst-structure", "name": "Structure of GST" },
+        { "slug": "input-tax-credit", "name": "Input tax credit and net GST" }
+      ] },
+    { "slug": "banking", "name": "Banking (Recurring Deposit)", "order": 2,
+      "summary": "Calculation of interest and maturity value of recurring deposit accounts using simple interest on monthly instalments.",
+      "topics": [
+        { "slug": "rd-interest", "name": "Interest on recurring deposit" },
+        { "slug": "maturity-value", "name": "Maturity value and unknown instalment" }
+      ] },
+    { "slug": "shares-and-dividends", "name": "Shares and Dividends", "order": 3,
+      "summary": "Face value, market value, premium and discount of shares, and calculation of dividend, income and rate of return.",
+      "topics": [
+        { "slug": "face-and-market-value", "name": "Face value and market value" },
+        { "slug": "dividend-and-return", "name": "Dividend, income and return" }
+      ] },
+    { "slug": "linear-inequations", "name": "Linear Inequations", "order": 4,
+      "summary": "Solving linear inequations in one variable over given replacement sets and representing the solution on a number line.",
+      "topics": [
+        { "slug": "solving-inequations", "name": "Solving inequations" },
+        { "slug": "number-line-representation", "name": "Representation on number line" }
+      ] },
+    { "slug": "quadratic-equations", "name": "Quadratic Equations", "order": 5,
+      "summary": "Solving quadratic equations by factorisation and formula, nature of roots using the discriminant, and word problems.",
+      "topics": [
+        { "slug": "nature-of-roots", "name": "Nature of roots" },
+        { "slug": "quadratic-formula", "name": "Quadratic formula" },
+        { "slug": "word-problems", "name": "Problems leading to quadratic equations" }
+      ] },
+    { "slug": "ratio-and-proportion", "name": "Ratio and Proportion", "order": 6,
+      "summary": "Continued proportion, mean and third/fourth proportionals, and properties such as componendo and dividendo.",
+      "topics": [
+        { "slug": "proportionals", "name": "Mean, third and fourth proportionals" },
+        { "slug": "properties-of-proportion", "name": "Properties of proportion" }
+      ] },
+    { "slug": "factorisation", "name": "Factorisation (Remainder and Factor Theorem)", "order": 7,
+      "summary": "Using the remainder and factor theorems to find remainders, unknown coefficients and complete factorisation of cubic polynomials.",
+      "topics": [
+        { "slug": "remainder-theorem", "name": "Remainder theorem" },
+        { "slug": "factor-theorem", "name": "Factor theorem and factorisation" }
+      ] },
+    { "slug": "matrices", "name": "Matrices", "order": 8,
+      "summary": "Order of a matrix, addition, subtraction and multiplication of matrices of order up to 2 × 2, and simple matrix equations.",
+      "topics": [
+        { "slug": "order-and-multiplication", "name": "Order and multiplication" },
+        { "slug": "matrix-equations", "name": "Matrix expressions and equations" }
+      ] },
+    { "slug": "arithmetic-progression", "name": "Arithmetic Progression", "order": 9,
+      "summary": "The general term and sum of the first n terms of an arithmetic progression and their applications.",
+      "topics": [
+        { "slug": "nth-term-ap", "name": "nth term of an AP" },
+        { "slug": "sum-of-ap", "name": "Sum of n terms of an AP" }
+      ] },
+    { "slug": "geometric-progression", "name": "Geometric Progression", "order": 10,
+      "summary": "The common ratio, general term and sum of the first n terms of a geometric progression.",
+      "topics": [
+        { "slug": "common-ratio-nth-term", "name": "Common ratio and nth term" },
+        { "slug": "sum-of-gp", "name": "Sum of n terms of a GP" }
+      ] },
+    { "slug": "reflection", "name": "Reflection", "order": 11,
+      "summary": "Reflection of points in the x-axis, y-axis, origin and lines parallel to the axes, and identifying invariant points.",
+      "topics": [
+        { "slug": "reflection-in-axes", "name": "Reflection in the axes" },
+        { "slug": "reflection-in-origin", "name": "Reflection in the origin" }
+      ] },
+    { "slug": "section-and-mid-point-formula", "name": "Section and Mid-point Formula", "order": 12,
+      "summary": "Finding the point dividing a segment in a given ratio, the mid-point, the centroid, and the ratio in which a point or axis divides a segment.",
+      "topics": [
+        { "slug": "mid-point-formula", "name": "Mid-point formula" },
+        { "slug": "section-formula", "name": "Section formula" }
+      ] },
+    { "slug": "equation-of-a-line", "name": "Equation of a Line", "order": 13,
+      "summary": "Slope and inclination of a line, slope-intercept and point-slope forms, and conditions for parallel and perpendicular lines.",
+      "topics": [
+        { "slug": "slope", "name": "Slope of a line" },
+        { "slug": "forms-of-equation", "name": "Forms of the equation of a line" },
+        { "slug": "parallel-perpendicular", "name": "Parallel and perpendicular lines" }
+      ] },
+    { "slug": "similarity", "name": "Similarity", "order": 14,
+      "summary": "Axioms of similarity of triangles, the basic proportionality result, areas of similar triangles and scale factors for maps and models.",
+      "topics": [
+        { "slug": "similar-triangles", "name": "Similar triangles" },
+        { "slug": "areas-of-similar-triangles", "name": "Areas of similar triangles" }
+      ] },
+    { "slug": "loci", "name": "Loci", "order": 15,
+      "summary": "Locus as a set of points satisfying a condition, standard loci theorems and their use in constructions.",
+      "topics": [
+        { "slug": "standard-loci", "name": "Standard loci" },
+        { "slug": "angle-bisector-locus", "name": "Locus equidistant from lines" }
+      ] },
+    { "slug": "circles", "name": "Circles", "order": 16,
+      "summary": "Angle properties of circles, cyclic quadrilaterals, tangent properties and intersecting chords.",
+      "topics": [
+        { "slug": "angle-properties", "name": "Angle properties" },
+        { "slug": "cyclic-quadrilaterals", "name": "Cyclic quadrilaterals" },
+        { "slug": "tangents", "name": "Tangents" }
+      ] },
+    { "slug": "constructions", "name": "Constructions", "order": 17,
+      "summary": "Constructing tangents to a circle and circumscribed and inscribed circles of triangles and regular hexagons.",
+      "topics": [
+        { "slug": "tangents-to-circle", "name": "Tangents to a circle" },
+        { "slug": "circum-and-in-circles", "name": "Circumcircle and incircle" }
+      ] },
+    { "slug": "mensuration", "name": "Mensuration", "order": 18,
+      "summary": "Surface area and volume of cylinders, cones and spheres, combinations of solids and conversion of one solid into another.",
+      "topics": [
+        { "slug": "recasting-solids", "name": "Conversion of solids" },
+        { "slug": "combination-of-solids", "name": "Combination of solids" }
+      ] },
+    { "slug": "trigonometry", "name": "Trigonometry", "order": 19,
+      "summary": "Trigonometric identities and their use in simplifying expressions and proving results.",
+      "topics": [
+        { "slug": "simplifying-expressions", "name": "Simplifying expressions" },
+        { "slug": "proving-identities", "name": "Proving identities" }
+      ] },
+    { "slug": "heights-and-distances", "name": "Heights and Distances", "order": 20,
+      "summary": "Application of trigonometric ratios to angles of elevation and depression in problems involving one or two right triangles.",
+      "topics": [
+        { "slug": "angle-of-elevation", "name": "Angle of elevation" },
+        { "slug": "angle-of-depression", "name": "Angle of depression" }
+      ] },
+    { "slug": "statistics", "name": "Statistics", "order": 21,
+      "summary": "Mean of grouped data, median and quartiles, mode, histograms and ogives.",
+      "topics": [
+        { "slug": "median-ungrouped", "name": "Median of ungrouped data" },
+        { "slug": "mean-grouped-data", "name": "Mean of grouped data" },
+        { "slug": "ogive-and-quartiles", "name": "Ogive, median and quartiles" }
+      ] },
+    { "slug": "probability", "name": "Probability", "order": 22,
+      "summary": "Classical probability of simple events involving coins, dice, cards and drawing objects from a bag.",
+      "topics": [
+        { "slug": "dice-and-coins", "name": "Dice and coins" },
+        { "slug": "drawing-from-bag", "name": "Drawing from a bag" }
+      ] }
+  ],
+  "questions": [
+    {
+      "key": "icse-10-mathematics-001",
+      "chapter": "goods-and-services-tax",
+      "topic": "gst-structure",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "For a sale within the same state, a GST rate of 18% is charged as:",
+      "options": ["9% CGST and 9% SGST", "18% IGST", "18% CGST only", "6% CGST and 12% SGST"],
+      "correctOption": 0,
+      "answer": "9% CGST and 9% SGST.",
+      "explanation": "In an intra-state sale, GST is split equally between the Centre (CGST) and the State (SGST)."
+    },
+    {
+      "key": "icse-10-mathematics-002",
+      "chapter": "goods-and-services-tax",
+      "topic": "input-tax-credit",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "A retailer buys a microwave for ₹8,000 (before tax) from a dealer in the same state and sells it to a customer in that state for ₹10,000 (before tax). The GST rate is 12%. Find the net GST paid by the retailer to the government.",
+      "numericAnswer": 240,
+      "tolerance": 0,
+      "unit": "₹",
+      "answer": "Output GST = 12% of ₹10,000 = ₹1,200. Input GST (paid on purchase) = 12% of ₹8,000 = ₹960. Net GST = ₹1,200 − ₹960 = ₹240.",
+      "explanation": "The retailer claims credit for tax already paid on purchase, so tax is paid only on the value added."
+    },
+    {
+      "key": "icse-10-mathematics-003",
+      "chapter": "banking",
+      "topic": "maturity-value",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Meera deposits ₹600 every month in a recurring deposit account for 2 years at 8% per annum simple interest. Find the maturity value.",
+      "numericAnswer": 15600,
+      "tolerance": 0,
+      "unit": "₹",
+      "answer": "n = 24. Equivalent principal for 1 month = 600 × n(n + 1)/2 = 600 × 24 × 25/2 = ₹1,80,000. Interest = 1,80,000 × 8 × 1/(100 × 12) = ₹1,200. Total deposit = 600 × 24 = ₹14,400. Maturity value = 14,400 + 1,200 = ₹15,600."
+    },
+    {
+      "key": "icse-10-mathematics-004",
+      "chapter": "banking",
+      "topic": "rd-interest",
+      "type": "NUMERICAL",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "A person deposits a fixed amount every month in a recurring deposit account for 3 years at 9% per annum. The maturity value is ₹40,995. Find the monthly instalment.",
+      "numericAnswer": 1000,
+      "tolerance": 0,
+      "unit": "₹",
+      "answer": "Let instalment = ₹x, n = 36. Interest = x × (36 × 37/2) × 9/(100 × 12) = x × 666 × 0.0075 = 4.995x. Maturity value = 36x + 4.995x = 40.995x. So 40.995x = 40,995, giving x = ₹1,000."
+    },
+    {
+      "key": "icse-10-mathematics-005",
+      "chapter": "shares-and-dividends",
+      "topic": "face-and-market-value",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "A share of face value ₹100 is quoted in the market at ₹120. The share is said to be at:",
+      "options": ["a discount of ₹20", "par", "a premium of ₹20", "a premium of 120%"],
+      "correctOption": 2,
+      "answer": "A premium of ₹20.",
+      "explanation": "Market value exceeds face value by ₹120 − ₹100 = ₹20, so it is at a premium."
+    },
+    {
+      "key": "icse-10-mathematics-006",
+      "chapter": "shares-and-dividends",
+      "topic": "dividend-and-return",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Ravi invests ₹14,400 in ₹100 shares available at ₹120 each. The company declares a dividend of 10%. Find his annual dividend income.",
+      "numericAnswer": 1200,
+      "tolerance": 0,
+      "unit": "₹",
+      "answer": "Number of shares = 14,400 ÷ 120 = 120. Dividend per share = 10% of ₹100 = ₹10. Annual income = 120 × 10 = ₹1,200.",
+      "explanation": "Dividend is always calculated on the face value, not the market value."
+    },
+    {
+      "key": "icse-10-mathematics-007",
+      "chapter": "linear-inequations",
+      "topic": "solving-inequations",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The solution set of 2x − 3 < 7, x ∈ N, is {1, 2, 3, ____}.",
+      "acceptedAnswers": ["4"],
+      "answer": "2x < 10 ⇒ x < 5, so for natural numbers the solution set is {1, 2, 3, 4}. The blank is 4."
+    },
+    {
+      "key": "icse-10-mathematics-008",
+      "chapter": "linear-inequations",
+      "topic": "number-line-representation",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Solve −3 ≤ (2x − 1)/3 < 2, x ∈ R, and represent the solution set on a number line.",
+      "answer": "Multiply by 3: −9 ≤ 2x − 1 < 6. Add 1: −8 ≤ 2x < 7. Divide by 2: −4 ≤ x < 3.5. Solution set = {x : −4 ≤ x < 3.5, x ∈ R}. On the number line, draw a filled (solid) dot at −4, a hollow circle at 3.5 and shade the segment between them.",
+      "explanation": "The endpoint −4 is included (≤) so it is filled; 3.5 is excluded (<) so it is hollow."
+    },
+    {
+      "key": "icse-10-mathematics-009",
+      "chapter": "quadratic-equations",
+      "topic": "nature-of-roots",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The discriminant of the equation 2x² − 5x + 3 = 0 is:",
+      "options": ["−1", "25", "1", "49"],
+      "correctOption": 2,
+      "answer": "1. D = b² − 4ac = (−5)² − 4(2)(3) = 25 − 24 = 1.",
+      "explanation": "Since D > 0 and is a perfect square, the roots are real, distinct and rational."
+    },
+    {
+      "key": "icse-10-mathematics-010",
+      "chapter": "quadratic-equations",
+      "topic": "word-problems",
+      "type": "NUMERICAL",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "A car covers 200 km at a uniform speed. Had the speed been 10 km/h more, the journey would have taken 1 hour less. Find the original speed of the car in km/h.",
+      "numericAnswer": 40,
+      "tolerance": 0,
+      "unit": "km/h",
+      "answer": "Let speed = x km/h. 200/x − 200/(x + 10) = 1 ⇒ 200(x + 10 − x) = x(x + 10) ⇒ x² + 10x − 2000 = 0 ⇒ (x + 50)(x − 40) = 0. Speed cannot be negative, so x = 40 km/h.",
+      "explanation": "Check: 200/40 = 5 h and 200/50 = 4 h, a difference of 1 hour."
+    },
+    {
+      "key": "icse-10-mathematics-011",
+      "chapter": "quadratic-equations",
+      "topic": "quadratic-formula",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Solve 3x² − 5x − 4 = 0 using the quadratic formula. Give your answers correct to two decimal places.",
+      "answer": "a = 3, b = −5, c = −4. D = 25 + 48 = 73, √73 ≈ 8.544. x = (5 ± 8.544)/6. x = 13.544/6 ≈ 2.26 or x = −3.544/6 ≈ −0.59.",
+      "explanation": "Keep at least three decimal places in √73 before rounding the final answers."
+    },
+    {
+      "key": "icse-10-mathematics-012",
+      "chapter": "ratio-and-proportion",
+      "topic": "proportionals",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The mean proportional between 4 and 9 is ____.",
+      "acceptedAnswers": ["6", "+6"],
+      "answer": "Mean proportional = √(4 × 9) = √36 = 6."
+    },
+    {
+      "key": "icse-10-mathematics-013",
+      "chapter": "ratio-and-proportion",
+      "topic": "properties-of-proportion",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "If a/b = c/d, prove that (a² + c²)/(b² + d²) = ac/bd.",
+      "answer": "Let a/b = c/d = k, so a = bk and c = dk. LHS = (b²k² + d²k²)/(b² + d²) = k²(b² + d²)/(b² + d²) = k². RHS = (bk)(dk)/(bd) = k². Hence LHS = RHS.",
+      "explanation": "The k-method replaces each ratio by a common constant, reducing the proof to simplification."
+    },
+    {
+      "key": "icse-10-mathematics-014",
+      "chapter": "factorisation",
+      "topic": "factor-theorem",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "If (x + 2) is a factor of 2x³ + kx² − 7x − 6, find the value of k.",
+      "numericAnswer": 2,
+      "tolerance": 0,
+      "unit": "",
+      "answer": "By the factor theorem, f(−2) = 0: 2(−8) + k(4) − 7(−2) − 6 = −16 + 4k + 14 − 6 = 4k − 8 = 0 ⇒ k = 2."
+    },
+    {
+      "key": "icse-10-mathematics-015",
+      "chapter": "factorisation",
+      "topic": "factor-theorem",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "(a) Using the factor theorem, show that (x − 3) is a factor of x³ − 7x² + 7x + 15. (b) Hence factorise the polynomial completely.",
+      "answer": "(a) f(3) = 27 − 63 + 21 + 15 = 0, so (x − 3) is a factor. (b) Dividing, x³ − 7x² + 7x + 15 = (x − 3)(x² − 4x − 5). Now x² − 4x − 5 = (x − 5)(x + 1). Hence x³ − 7x² + 7x + 15 = (x − 3)(x − 5)(x + 1).",
+      "explanation": "Check by expanding: (x − 3)(x² − 4x − 5) = x³ − 7x² + 7x + 15."
+    },
+    {
+      "key": "icse-10-mathematics-016",
+      "chapter": "matrices",
+      "topic": "order-and-multiplication",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "If A is a 2 × 3 matrix and B is a 3 × 1 matrix, the order of AB is:",
+      "options": ["3 × 3", "2 × 1", "1 × 2", "3 × 2"],
+      "correctOption": 1,
+      "answer": "2 × 1.",
+      "explanation": "(m × n)(n × p) gives an m × p matrix, so (2 × 3)(3 × 1) = 2 × 1."
+    },
+    {
+      "key": "icse-10-mathematics-017",
+      "chapter": "matrices",
+      "topic": "matrix-equations",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "If A = [3 1; −1 2], show that A² − 5A + 7I = O, where I is the 2 × 2 identity matrix and O is the zero matrix.",
+      "answer": "A² = [3 1; −1 2][3 1; −1 2] = [9 − 1, 3 + 2; −3 − 2, −1 + 4] = [8 5; −5 3]. 5A = [15 5; −5 10]. 7I = [7 0; 0 7]. A² − 5A + 7I = [8 − 15 + 7, 5 − 5 + 0; −5 + 5 + 0, 3 − 10 + 7] = [0 0; 0 0] = O. Hence proved."
+    },
+    {
+      "key": "icse-10-mathematics-018",
+      "chapter": "arithmetic-progression",
+      "topic": "nth-term-ap",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The 10th term of the AP 3, 7, 11, 15, … is ____.",
+      "acceptedAnswers": ["39"],
+      "answer": "a = 3, d = 4. T₁₀ = a + 9d = 3 + 36 = 39."
+    },
+    {
+      "key": "icse-10-mathematics-019",
+      "chapter": "arithmetic-progression",
+      "topic": "sum-of-ap",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "How many terms of the AP 5, 9, 13, … must be taken so that their sum is 275?",
+      "numericAnswer": 11,
+      "tolerance": 0,
+      "unit": "",
+      "answer": "Sₙ = n/2[2(5) + (n − 1)4] = n(2n + 3). n(2n + 3) = 275 ⇒ 2n² + 3n − 275 = 0 ⇒ (2n + 25)(n − 11) = 0. n must be a positive integer, so n = 11.",
+      "explanation": "Check: S₁₁ = 11/2 × (5 + 45) = 275."
+    },
+    {
+      "key": "icse-10-mathematics-020",
+      "chapter": "arithmetic-progression",
+      "topic": "sum-of-ap",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "The 4th term of an AP is 11 and its 9th term is 26. Find (a) the first term and common difference, (b) the sum of the first 20 terms, (c) which term of the AP is 101.",
+      "answer": "(a) a + 3d = 11 and a + 8d = 26. Subtracting, 5d = 15 ⇒ d = 3, a = 2. (b) S₂₀ = 20/2[2(2) + 19(3)] = 10(4 + 57) = 610. (c) 2 + (n − 1)3 = 101 ⇒ n − 1 = 33 ⇒ n = 34. So 101 is the 34th term."
+    },
+    {
+      "key": "icse-10-mathematics-021",
+      "chapter": "geometric-progression",
+      "topic": "common-ratio-nth-term",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The common ratio of the GP 2, −6, 18, −54, … is:",
+      "options": ["3", "1/3", "−3", "−1/3"],
+      "correctOption": 2,
+      "answer": "−3, since −6 ÷ 2 = −3 and 18 ÷ (−6) = −3."
+    },
+    {
+      "key": "icse-10-mathematics-022",
+      "chapter": "geometric-progression",
+      "topic": "sum-of-gp",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Find the sum of the first 6 terms of the GP 3, 6, 12, 24, …",
+      "numericAnswer": 189,
+      "tolerance": 0,
+      "unit": "",
+      "answer": "a = 3, r = 2, n = 6. S₆ = a(rⁿ − 1)/(r − 1) = 3(64 − 1)/1 = 189."
+    },
+    {
+      "key": "icse-10-mathematics-023",
+      "chapter": "reflection",
+      "topic": "reflection-in-axes",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The image of the point (3, −4) on reflection in the y-axis is:",
+      "options": ["(3, 4)", "(−3, 4)", "(−3, −4)", "(4, 3)"],
+      "correctOption": 2,
+      "answer": "(−3, −4).",
+      "explanation": "Reflection in the y-axis changes the sign of the x-coordinate only: (x, y) → (−x, y)."
+    },
+    {
+      "key": "icse-10-mathematics-024",
+      "chapter": "reflection",
+      "topic": "reflection-in-origin",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "The point P(4, 2) is reflected in the x-axis to P′. P′ is then reflected in the origin to P″. Write the coordinates of P′ and P″, and name the single transformation that maps P onto P″.",
+      "answer": "Reflection in x-axis: (x, y) → (x, −y), so P′ = (4, −2). Reflection in origin: (x, y) → (−x, −y), so P″ = (−4, 2). Since P(4, 2) → P″(−4, 2), the single transformation is reflection in the y-axis."
+    },
+    {
+      "key": "icse-10-mathematics-025",
+      "chapter": "section-and-mid-point-formula",
+      "topic": "mid-point-formula",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The mid-point of the segment joining (2, 6) and (8, −4) is (5, ____).",
+      "acceptedAnswers": ["1"],
+      "answer": "Mid-point = ((2 + 8)/2, (6 − 4)/2) = (5, 1). The blank is 1."
+    },
+    {
+      "key": "icse-10-mathematics-026",
+      "chapter": "section-and-mid-point-formula",
+      "topic": "section-formula",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Find the ratio in which the x-axis divides the segment joining A(2, −3) and B(5, 6). Also find the point of division.",
+      "answer": "Let the ratio be k : 1. The point on the x-axis has y = 0: (6k − 3)/(k + 1) = 0 ⇒ k = 1/2, so the ratio is 1 : 2. x = (1 × 5 + 2 × 2)/(1 + 2) = 9/3 = 3. Point of division = (3, 0)."
+    },
+    {
+      "key": "icse-10-mathematics-027",
+      "chapter": "equation-of-a-line",
+      "topic": "slope",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "The slope of the line 3x − 2y + 6 = 0 is:",
+      "options": ["3/2", "−3/2", "2/3", "−2/3"],
+      "correctOption": 0,
+      "answer": "3/2. Rewriting, 2y = 3x + 6 ⇒ y = (3/2)x + 3, so m = 3/2."
+    },
+    {
+      "key": "icse-10-mathematics-028",
+      "chapter": "equation-of-a-line",
+      "topic": "parallel-perpendicular",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Find the equation of the line passing through (2, −1) and perpendicular to the line joining (1, 3) and (4, −3).",
+      "answer": "Slope of the join = (−3 − 3)/(4 − 1) = −6/3 = −2. Slope of the perpendicular = 1/2. Equation: y + 1 = (1/2)(x − 2) ⇒ 2y + 2 = x − 2 ⇒ x − 2y − 4 = 0.",
+      "explanation": "For perpendicular lines, the product of slopes is −1."
+    },
+    {
+      "key": "icse-10-mathematics-029",
+      "chapter": "equation-of-a-line",
+      "topic": "forms-of-equation",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "The vertices of triangle ABC are A(2, 4), B(−2, 0) and C(8, 2). Find (a) the coordinates of M, the mid-point of BC, (b) the equation of the median AM, (c) the y-intercept of AM, and (d) whether the point (1, 7) lies on AM.",
+      "answer": "(a) M = ((−2 + 8)/2, (0 + 2)/2) = (3, 1). (b) Slope of AM = (1 − 4)/(3 − 2) = −3. y − 4 = −3(x − 2) ⇒ y = −3x + 10, i.e. 3x + y − 10 = 0. (c) y-intercept = 10. (d) 3(1) + 7 − 10 = 0, so (1, 7) lies on AM."
+    },
+    {
+      "key": "icse-10-mathematics-030",
+      "chapter": "similarity",
+      "topic": "areas-of-similar-triangles",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "If the corresponding sides of two similar triangles are in the ratio 2 : 3, the ratio of their areas is 4 : ____.",
+      "acceptedAnswers": ["9"],
+      "answer": "Ratio of areas = (2/3)² = 4/9, i.e. 4 : 9. The blank is 9."
+    },
+    {
+      "key": "icse-10-mathematics-031",
+      "chapter": "similarity",
+      "topic": "similar-triangles",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "In triangle ABC, D lies on AB and E lies on AC such that DE ∥ BC. If AD = 3 cm, DB = 5 cm and BC = 12 cm, find the length of DE.",
+      "numericAnswer": 4.5,
+      "tolerance": 0.01,
+      "unit": "cm",
+      "answer": "Triangle ADE ~ triangle ABC (AA). So DE/BC = AD/AB = 3/8. DE = 12 × 3/8 = 4.5 cm."
+    },
+    {
+      "key": "icse-10-mathematics-032",
+      "chapter": "loci",
+      "topic": "angle-bisector-locus",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The locus of a point equidistant from two intersecting straight lines is:",
+      "options": ["the perpendicular bisector of the segment joining any two points on them", "a circle centred at their point of intersection", "the pair of lines bisecting the angles between them", "a line parallel to both lines"],
+      "correctOption": 2,
+      "answer": "The pair of lines bisecting the angles between the two given lines."
+    },
+    {
+      "key": "icse-10-mathematics-033",
+      "chapter": "loci",
+      "topic": "standard-loci",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "In a plane, state (a) the locus of a point at a constant distance of 3 cm from a fixed point O, and (b) the locus of a point equidistant from two fixed points A and B.",
+      "answer": "(a) A circle with centre O and radius 3 cm. (b) The perpendicular bisector of the segment AB."
+    },
+    {
+      "key": "icse-10-mathematics-034",
+      "chapter": "circles",
+      "topic": "cyclic-quadrilaterals",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "ABCD is a cyclic quadrilateral in which ∠A = 70°. Then ∠C equals:",
+      "options": ["70°", "110°", "90°", "20°"],
+      "correctOption": 1,
+      "answer": "110°, since opposite angles of a cyclic quadrilateral are supplementary: 180° − 70° = 110°."
+    },
+    {
+      "key": "icse-10-mathematics-035",
+      "chapter": "circles",
+      "topic": "angle-properties",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "O is the centre of a circle and ∠AOB = 130°. C is a point on the major arc AB and D is a point on the minor arc AB. Find ∠ADB in degrees.",
+      "numericAnswer": 115,
+      "tolerance": 0,
+      "unit": "°",
+      "answer": "The angle at the centre is twice the angle at the circumference: ∠ACB = 130°/2 = 65°. ACBD is a cyclic quadrilateral, so ∠ADB = 180° − 65° = 115°."
+    },
+    {
+      "key": "icse-10-mathematics-036",
+      "chapter": "constructions",
+      "topic": "tangents-to-circle",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Write the steps to construct two tangents from a point P to a circle of radius 3 cm with centre O, where OP = 7 cm. Also calculate the length of each tangent.",
+      "answer": "Steps: (1) Draw a circle with centre O and radius 3 cm. (2) Mark P such that OP = 7 cm. (3) Draw the perpendicular bisector of OP, meeting OP at M. (4) With M as centre and MO as radius, draw a circle cutting the given circle at T and T′. (5) Join PT and PT′; these are the required tangents. Length: OT ⊥ PT, so PT = √(OP² − OT²) = √(49 − 9) = √40 ≈ 6.32 cm.",
+      "explanation": "The angle in a semicircle on OP is 90°, which makes OT perpendicular to PT."
+    },
+    {
+      "key": "icse-10-mathematics-037",
+      "chapter": "mensuration",
+      "topic": "recasting-solids",
+      "type": "NUMERICAL",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "A solid metal sphere of radius 6 cm is melted and recast into small solid cones, each of base radius 2 cm and height 3 cm. How many cones are formed?",
+      "numericAnswer": 72,
+      "tolerance": 0,
+      "unit": "",
+      "answer": "Volume of sphere = (4/3)π(6)³ = 288π cm³. Volume of one cone = (1/3)π(2)²(3) = 4π cm³. Number of cones = 288π ÷ 4π = 72.",
+      "explanation": "Volume is conserved when a solid is melted and recast."
+    },
+    {
+      "key": "icse-10-mathematics-038",
+      "chapter": "mensuration",
+      "topic": "combination-of-solids",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "A toy is a cone mounted on a hemisphere of the same radius 3.5 cm. The total height of the toy is 15.5 cm. Taking π = 22/7, find (a) the slant height of the cone, (b) the volume of the toy, and (c) the total surface area of the toy.",
+      "answer": "Height of cone h = 15.5 − 3.5 = 12 cm. (a) l = √(12² + 3.5²) = √(144 + 12.25) = √156.25 = 12.5 cm. (b) Volume of cone = (1/3)(22/7)(3.5)²(12) = 154 cm³. Volume of hemisphere = (2/3)(22/7)(3.5)³ ≈ 89.83 cm³. Total volume ≈ 243.83 cm³. (c) Curved surface of cone = πrl = (22/7)(3.5)(12.5) = 137.5 cm². Curved surface of hemisphere = 2πr² = 2(22/7)(12.25) = 77 cm². Total surface area = 137.5 + 77 = 214.5 cm².",
+      "explanation": "The circular faces where the cone and hemisphere join are hidden, so only the curved surfaces count."
+    },
+    {
+      "key": "icse-10-mathematics-039",
+      "chapter": "trigonometry",
+      "topic": "simplifying-expressions",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "(1 − cos²θ) sec²θ simplifies to:",
+      "options": ["1", "sin²θ", "cot²θ", "tan²θ"],
+      "correctOption": 3,
+      "answer": "tan²θ, since (1 − cos²θ) sec²θ = sin²θ/cos²θ = tan²θ."
+    },
+    {
+      "key": "icse-10-mathematics-040",
+      "chapter": "trigonometry",
+      "topic": "proving-identities",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Prove that (sin θ + cos θ)² + (sin θ − cos θ)² = 2.",
+      "answer": "LHS = (sin²θ + 2 sin θ cos θ + cos²θ) + (sin²θ − 2 sin θ cos θ + cos²θ) = 2(sin²θ + cos²θ) = 2 × 1 = 2 = RHS."
+    },
+    {
+      "key": "icse-10-mathematics-041",
+      "chapter": "trigonometry",
+      "topic": "proving-identities",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "Prove that √[(1 − cos A)/(1 + cos A)] = cosec A − cot A, for 0° < A < 90°.",
+      "answer": "Multiply numerator and denominator inside the root by (1 − cos A): √[(1 − cos A)²/(1 − cos²A)] = √[(1 − cos A)²/sin²A] = (1 − cos A)/sin A (positive, since 0° < A < 90°) = 1/sin A − cos A/sin A = cosec A − cot A = RHS.",
+      "explanation": "Rationalising turns the denominator into sin²A, which is a perfect square."
+    },
+    {
+      "key": "icse-10-mathematics-042",
+      "chapter": "heights-and-distances",
+      "topic": "angle-of-elevation",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "A ladder leaning against a vertical wall makes an angle of 60° with the level ground. Its foot is 4 m from the wall. Find the length of the ladder.",
+      "numericAnswer": 8,
+      "tolerance": 0,
+      "unit": "m",
+      "answer": "cos 60° = 4/L ⇒ 1/2 = 4/L ⇒ L = 8 m."
+    },
+    {
+      "key": "icse-10-mathematics-043",
+      "chapter": "heights-and-distances",
+      "topic": "angle-of-depression",
+      "type": "NUMERICAL",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "From the top of a 60 m high tower, the angles of depression of the top and the bottom of a building are 30° and 60° respectively. The tower and building stand on the same level ground. Find the height of the building.",
+      "numericAnswer": 40,
+      "tolerance": 0,
+      "unit": "m",
+      "answer": "Let the horizontal distance be d. For the bottom: tan 60° = 60/d ⇒ d = 60/√3 = 20√3 m. For the top: the vertical drop from the tower top to the building top = d tan 30° = 20√3 × (1/√3) = 20 m. Height of building = 60 − 20 = 40 m."
+    },
+    {
+      "key": "icse-10-mathematics-044",
+      "chapter": "statistics",
+      "topic": "median-ungrouped",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Find the median of the data: 7, 3, 9, 12, 5, 8.",
+      "numericAnswer": 7.5,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "Arranged in order: 3, 5, 7, 8, 9, 12. n = 6 (even), so median = mean of 3rd and 4th values = (7 + 8)/2 = 7.5."
+    },
+    {
+      "key": "icse-10-mathematics-045",
+      "chapter": "statistics",
+      "topic": "mean-grouped-data",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Find the mean of the distribution: class 0–10, frequency 3; 10–20, 4; 20–30, 8; 30–40, 6; 40–50, 4.",
+      "numericAnswer": 26.6,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "Class marks x: 5, 15, 25, 35, 45. fx: 15, 60, 200, 210, 180. Σf = 25, Σfx = 665. Mean = 665/25 = 26.6."
+    },
+    {
+      "key": "icse-10-mathematics-046",
+      "chapter": "statistics",
+      "topic": "ogive-and-quartiles",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "The marks of 80 students are: 0–10: 5, 10–20: 9, 20–30: 16, 30–40: 22, 40–50: 18, 50–60: 10. Draw an ogive (scale: 2 cm = 10 marks, 2 cm = 10 students) and use it to estimate (a) the median, (b) the lower and upper quartiles and the inter-quartile range, (c) the number of students who scored more than 45 marks.",
+      "answer": "Cumulative frequencies: 5, 14, 30, 52, 70, 80. Plot (10, 5), (20, 14), (30, 30), (40, 52), (50, 70), (60, 80), starting at (0, 0), and join with a smooth curve. (a) Median at n/2 = 40th student ≈ 30 + (10/22) × 10 ≈ 34.5 marks. (b) Q₁ at 20th student ≈ 20 + (6/16) × 10 ≈ 23.8; Q₃ at 60th student ≈ 40 + (8/18) × 10 ≈ 44.4; IQR ≈ 44.4 − 23.8 ≈ 20.6. (c) Cumulative frequency at 45 marks ≈ 52 + 9 = 61, so about 80 − 61 = 19 students scored more than 45.",
+      "explanation": "Values read from a hand-drawn ogive may differ slightly; the figures above are estimates consistent with a straight-line reading within each class."
+    },
+    {
+      "key": "icse-10-mathematics-047",
+      "chapter": "probability",
+      "topic": "dice-and-coins",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "A fair die is thrown once. Find the probability of getting a prime number (give your answer as a decimal).",
+      "numericAnswer": 0.5,
+      "tolerance": 0.01,
+      "unit": "",
+      "answer": "Outcomes: 1 to 6 (6 outcomes). Prime numbers: 2, 3, 5 (3 outcomes). P(prime) = 3/6 = 1/2 = 0.5.",
+      "explanation": "1 is neither prime nor composite."
+    },
+    {
+      "key": "icse-10-mathematics-048",
+      "chapter": "probability",
+      "topic": "drawing-from-bag",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "A bag contains 5 red, 8 blue and 7 green balls. One ball is drawn at random. Find the probability that it is (a) blue, (b) not green, (c) red or green.",
+      "answer": "Total balls = 5 + 8 + 7 = 20. (a) P(blue) = 8/20 = 2/5. (b) P(not green) = 1 − 7/20 = 13/20. (c) P(red or green) = (5 + 7)/20 = 12/20 = 3/5."
+    }
+  ]
+}

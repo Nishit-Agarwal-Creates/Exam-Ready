@@ -1,0 +1,708 @@
+{
+  "board": "icse",
+  "class": 10,
+  "subject": {
+    "slug": "chemistry",
+    "name": "Chemistry",
+    "overview": "ICSE Class 10 Chemistry builds on the basics of atomic structure to explain why elements behave as they do. It begins with periodic trends and chemical bonding, then moves to acids, bases and salts and the identification of cations using sodium hydroxide and ammonium hydroxide. Quantitative work comes through the mole concept, gas volume relationships and stoichiometry. Electrolysis and metallurgy apply these ideas to industrial processes such as electroplating and the extraction of aluminium. The course then studies hydrogen chloride, ammonia, nitric acid and sulphuric acid in detail: preparation, properties and characteristic reactions. It ends with an introduction to organic chemistry, covering homologous series, IUPAC naming, isomerism and simple hydrocarbons.",
+    "studyTips": [
+      "Keep a single sheet of balanced equations for each compound (HCl, NH₃, HNO₃, H₂SO₄) and rewrite it from memory weekly; most marks in these chapters come from correct, balanced equations with conditions.",
+      "Make a colour table for analytical chemistry: the precipitate formed by each cation with NaOH and with NH₄OH, and whether it dissolves in excess reagent.",
+      "For mole concept numericals, always write the balanced equation first, convert everything to moles, and state the unit in the final answer.",
+      "Learn periodic trends as cause and effect (nuclear charge, atomic size, shielding) rather than as a list, so you can explain any trend in a new pair of elements.",
+      "In electrolysis questions, state the electrolyte, electrodes, ions present and the electrode reactions in that order; this structure covers what examiners look for."
+    ]
+  },
+  "chapters": [
+    {
+      "slug": "periodic-properties",
+      "name": "Periodic Properties and Variations of Properties",
+      "order": 1,
+      "summary": "How atomic size, ionisation potential, electron affinity, electronegativity and metallic character change across periods and down groups of the modern periodic table.",
+      "topics": [
+        { "slug": "periodic-table-structure", "name": "Periods, groups and electronic configuration" },
+        { "slug": "atomic-size", "name": "Atomic size" },
+        { "slug": "ionisation-potential", "name": "Ionisation potential" },
+        { "slug": "electron-affinity-electronegativity", "name": "Electron affinity and electronegativity" },
+        { "slug": "metallic-character", "name": "Metallic and non-metallic character" }
+      ]
+    },
+    {
+      "slug": "chemical-bonding",
+      "name": "Chemical Bonding",
+      "order": 2,
+      "summary": "Formation of electrovalent, covalent and coordinate bonds, and how the type of bonding determines the properties of compounds.",
+      "topics": [
+        { "slug": "electrovalent-bonding", "name": "Electrovalent (ionic) bonding" },
+        { "slug": "covalent-bonding", "name": "Covalent bonding" },
+        { "slug": "coordinate-bonding", "name": "Coordinate bonding" },
+        { "slug": "properties-of-compounds", "name": "Properties of ionic and covalent compounds" }
+      ]
+    },
+    {
+      "slug": "acids-bases-and-salts",
+      "name": "Acids, Bases and Salts",
+      "order": 3,
+      "summary": "Definitions and properties of acids and bases, the pH scale, types of salts and methods used to prepare them.",
+      "topics": [
+        { "slug": "acids-and-bases", "name": "Acids, bases and alkalis" },
+        { "slug": "ph-scale", "name": "pH scale and indicators" },
+        { "slug": "types-of-salts", "name": "Types of salts" },
+        { "slug": "preparation-of-salts", "name": "Preparation of salts" }
+      ]
+    },
+    {
+      "slug": "analytical-chemistry",
+      "name": "Analytical Chemistry",
+      "order": 4,
+      "summary": "Identification of metal cations by the colour and solubility of hydroxide precipitates formed with sodium hydroxide and ammonium hydroxide, and the amphoteric nature of some oxides and hydroxides.",
+      "topics": [
+        { "slug": "action-of-sodium-hydroxide", "name": "Action of sodium hydroxide on salt solutions" },
+        { "slug": "action-of-ammonium-hydroxide", "name": "Action of ammonium hydroxide on salt solutions" },
+        { "slug": "amphoteric-oxides-hydroxides", "name": "Amphoteric oxides and hydroxides" }
+      ]
+    },
+    {
+      "slug": "mole-concept-and-stoichiometry",
+      "name": "Mole Concept and Stoichiometry",
+      "order": 5,
+      "summary": "Gay-Lussac's law, Avogadro's law, the mole and molar volume, percentage composition and calculations based on balanced chemical equations.",
+      "topics": [
+        { "slug": "gay-lussac-law", "name": "Gay-Lussac's law of combining volumes" },
+        { "slug": "avogadro-number", "name": "Avogadro's number and the mole" },
+        { "slug": "molar-volume", "name": "Molar volume of gases at STP" },
+        { "slug": "percentage-composition-empirical-formula", "name": "Percentage composition and empirical formula" },
+        { "slug": "stoichiometric-calculations", "name": "Calculations from chemical equations" }
+      ]
+    },
+    {
+      "slug": "electrolysis",
+      "name": "Electrolysis",
+      "order": 6,
+      "summary": "Electrolytes and non-electrolytes, selective discharge of ions, electrolysis of molten and aqueous electrolytes, and applications such as electroplating and electro-refining.",
+      "topics": [
+        { "slug": "electrolytes", "name": "Electrolytes and non-electrolytes" },
+        { "slug": "electrochemical-series-and-discharge", "name": "Electrochemical series and preferential discharge" },
+        { "slug": "electrolysis-of-molten-lead-bromide", "name": "Electrolysis of molten lead bromide" },
+        { "slug": "electrolysis-of-copper-sulphate", "name": "Electrolysis of aqueous copper sulphate" },
+        { "slug": "electroplating-refining", "name": "Electroplating and electro-refining" }
+      ]
+    },
+    {
+      "slug": "metallurgy",
+      "name": "Metallurgy",
+      "order": 7,
+      "summary": "Occurrence of metals, concentration of ores, extraction of aluminium by Baeyer's and Hall–Héroult processes, and the composition and uses of common alloys.",
+      "topics": [
+        { "slug": "occurrence-of-metals", "name": "Occurrence of metals: minerals and ores" },
+        { "slug": "concentration-of-ores", "name": "Concentration of ores" },
+        { "slug": "extraction-of-aluminium", "name": "Extraction of aluminium" },
+        { "slug": "alloys", "name": "Alloys" }
+      ]
+    },
+    {
+      "slug": "study-of-compounds-hydrogen-chloride",
+      "name": "Study of Compounds: Hydrogen Chloride",
+      "order": 8,
+      "summary": "Laboratory preparation, physical and chemical properties, the fountain experiment and uses of hydrogen chloride and hydrochloric acid.",
+      "topics": [
+        { "slug": "preparation-of-hcl", "name": "Laboratory preparation of hydrogen chloride" },
+        { "slug": "properties-of-hcl", "name": "Properties of hydrogen chloride" },
+        { "slug": "fountain-experiment", "name": "Fountain experiment" }
+      ]
+    },
+    {
+      "slug": "study-of-compounds-ammonia",
+      "name": "Study of Compounds: Ammonia",
+      "order": 9,
+      "summary": "Laboratory preparation of ammonia, its manufacture by Haber's process, and its physical and chemical properties including its reducing action.",
+      "topics": [
+        { "slug": "preparation-of-ammonia", "name": "Laboratory preparation of ammonia" },
+        { "slug": "habers-process", "name": "Haber's process" },
+        { "slug": "properties-of-ammonia", "name": "Properties of ammonia" }
+      ]
+    },
+    {
+      "slug": "study-of-compounds-nitric-acid",
+      "name": "Study of Compounds: Nitric Acid",
+      "order": 10,
+      "summary": "Laboratory preparation of nitric acid and its properties, especially its behaviour as a strong oxidising agent towards metals and non-metals.",
+      "topics": [
+        { "slug": "laboratory-preparation", "name": "Laboratory preparation of nitric acid" },
+        { "slug": "properties-of-nitric-acid", "name": "Physical and acidic properties" },
+        { "slug": "oxidising-reactions", "name": "Oxidising reactions of nitric acid" }
+      ]
+    },
+    {
+      "slug": "study-of-compounds-sulphuric-acid",
+      "name": "Study of Compounds: Sulphuric Acid",
+      "order": 11,
+      "summary": "Properties of sulphuric acid as an acid, a non-volatile acid, an oxidising agent and a dehydrating agent.",
+      "topics": [
+        { "slug": "acidic-properties", "name": "Sulphuric acid as an acid" },
+        { "slug": "non-volatile-nature", "name": "Non-volatile nature" },
+        { "slug": "oxidising-property", "name": "Oxidising property" },
+        { "slug": "dehydrating-property", "name": "Dehydrating property" }
+      ]
+    },
+    {
+      "slug": "organic-chemistry",
+      "name": "Organic Chemistry",
+      "order": 12,
+      "summary": "Introduction to organic compounds, homologous series, IUPAC nomenclature, structural isomerism and the preparation and reactions of simple alkanes, alkenes and alkynes.",
+      "topics": [
+        { "slug": "homologous-series", "name": "Homologous series" },
+        { "slug": "iupac-nomenclature", "name": "IUPAC nomenclature" },
+        { "slug": "isomerism", "name": "Structural isomerism" },
+        { "slug": "alkanes", "name": "Alkanes" },
+        { "slug": "alkenes-and-alkynes", "name": "Alkenes and alkynes" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "icse-10-chemistry-001",
+      "chapter": "periodic-properties",
+      "topic": "atomic-size",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Which of the following elements of Period 3 has the largest atomic radius?",
+      "options": ["Chlorine", "Aluminium", "Sodium", "Magnesium"],
+      "correctOption": 2,
+      "answer": "Sodium",
+      "explanation": "Atomic size decreases across a period because nuclear charge increases while electrons are added to the same shell, so sodium, at the start of Period 3, is the largest."
+    },
+    {
+      "key": "icse-10-chemistry-002",
+      "chapter": "periodic-properties",
+      "topic": "ionisation-potential",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Explain why ionisation potential generally increases across a period from left to right but decreases down a group.",
+      "answer": "Across a period: the nuclear charge increases while electrons enter the same shell, so atomic size decreases. The outermost electrons are held more strongly by the nucleus, so more energy is needed to remove one; ionisation potential increases. Down a group: a new shell is added at each step, so atomic size increases and the inner electrons shield the outer electrons from the nucleus. The outermost electron is farther away and held less strongly, so less energy is needed to remove it; ionisation potential decreases.",
+      "explanation": "Both trends follow from the balance between nuclear attraction and distance or shielding of the outermost electrons."
+    },
+    {
+      "key": "icse-10-chemistry-003",
+      "chapter": "periodic-properties",
+      "topic": "periodic-table-structure",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "An element X has the electronic configuration 2, 8, 7. (a) State the group and period to which X belongs. (b) Is X a metal or a non-metal?",
+      "answer": "(a) X belongs to Group 17 and Period 3 (it has 7 valence electrons in its third shell). (b) X is a non-metal, since it tends to gain one electron to complete its octet.",
+      "explanation": "The number of shells gives the period; for this element, 10 + number of valence electrons gives the group number (17)."
+    },
+    {
+      "key": "icse-10-chemistry-004",
+      "chapter": "periodic-properties",
+      "topic": "metallic-character",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "(a) Arrange Li, Na and K in increasing order of ionisation potential. (b) Arrange F, Cl, Br and I in decreasing order of electronegativity. (c) Arrange Na, Mg, Al and Si in increasing order of non-metallic character. (d) Which is the more reactive metal, sodium or potassium? Give a reason.",
+      "answer": "(a) K < Na < Li. (b) F > Cl > Br > I. (c) Na < Mg < Al < Si. (d) Potassium is more reactive. It has a larger atomic size, so its single valence electron is farther from the nucleus and more easily lost (lower ionisation potential).",
+      "explanation": "Down a group, size increases so ionisation potential and electronegativity fall; across a period, non-metallic character rises."
+    },
+    {
+      "key": "icse-10-chemistry-005",
+      "chapter": "chemical-bonding",
+      "topic": "coordinate-bonding",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Which of the following contains a coordinate bond?",
+      "options": ["Methane molecule", "Ammonium ion", "Sodium chloride", "Water molecule"],
+      "correctOption": 1,
+      "answer": "Ammonium ion",
+      "explanation": "In NH₄⁺, the lone pair on nitrogen of NH₃ is donated to an H⁺ ion, forming a coordinate bond."
+    },
+    {
+      "key": "icse-10-chemistry-006",
+      "chapter": "chemical-bonding",
+      "topic": "covalent-bonding",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "The number of lone pairs of electrons on the nitrogen atom in an ammonia molecule is ____.",
+      "acceptedAnswers": ["one", "1"],
+      "answer": "One",
+      "explanation": "Nitrogen has 5 valence electrons; 3 are shared with hydrogen atoms and the remaining 2 form one lone pair."
+    },
+    {
+      "key": "icse-10-chemistry-007",
+      "chapter": "chemical-bonding",
+      "topic": "properties-of-compounds",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Why do electrovalent compounds conduct electricity in the molten state but not in the solid state?",
+      "answer": "Electrovalent compounds are made of ions. In the solid state the ions are held in fixed positions in the crystal lattice by strong electrostatic forces, so they cannot move and carry current. On melting, the lattice breaks down and the ions become free to move towards the oppositely charged electrodes, so the melt conducts electricity."
+    },
+    {
+      "key": "icse-10-chemistry-008",
+      "chapter": "chemical-bonding",
+      "topic": "electrovalent-bonding",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Describe the formation of magnesium chloride from magnesium (atomic number 12) and chlorine (atomic number 17) in terms of electron transfer. Write the relevant ionic equations.",
+      "answer": "Magnesium (2, 8, 2) loses its two valence electrons to attain the stable configuration 2, 8 and becomes Mg²⁺: Mg → Mg²⁺ + 2e⁻. Each chlorine atom (2, 8, 7) gains one electron to attain 2, 8, 8 and becomes Cl⁻; two chlorine atoms accept the two electrons: 2Cl + 2e⁻ → 2Cl⁻. The oppositely charged Mg²⁺ and Cl⁻ ions are held together by strong electrostatic attraction, forming the electrovalent compound MgCl₂.",
+      "explanation": "One magnesium atom needs two chlorine atoms because it must lose two electrons and each chlorine accepts only one."
+    },
+    {
+      "key": "icse-10-chemistry-009",
+      "chapter": "acids-bases-and-salts",
+      "topic": "ph-scale",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "A solution has a pH of 2. The solution is:",
+      "options": ["Neutral", "Weakly alkaline", "Strongly alkaline", "Strongly acidic"],
+      "correctOption": 3,
+      "answer": "Strongly acidic",
+      "explanation": "pH values well below 7 indicate a high concentration of hydrogen ions, i.e. a strongly acidic solution."
+    },
+    {
+      "key": "icse-10-chemistry-010",
+      "chapter": "acids-bases-and-salts",
+      "topic": "types-of-salts",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "A salt formed by the partial replacement of the replaceable hydrogen ions of an acid by a metal, such as NaHSO₄, is called an ____ salt.",
+      "acceptedAnswers": ["acid", "acidic"],
+      "answer": "Acid salt",
+      "explanation": "NaHSO₄ still contains a replaceable hydrogen ion, so it is an acid salt."
+    },
+    {
+      "key": "icse-10-chemistry-011",
+      "chapter": "acids-bases-and-salts",
+      "topic": "preparation-of-salts",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Name the most suitable method for preparing each of the following salts: (a) lead(II) chloride, (b) sodium sulphate, (c) anhydrous iron(III) chloride.",
+      "answer": "(a) Lead(II) chloride: precipitation (double decomposition), e.g. lead nitrate solution + dilute hydrochloric acid, since PbCl₂ is insoluble in cold water. (b) Sodium sulphate: neutralisation by titration of sodium hydroxide solution with dilute sulphuric acid, since both reactants are soluble. (c) Anhydrous iron(III) chloride: direct combination (synthesis) by passing dry chlorine over heated iron: 2Fe + 3Cl₂ → 2FeCl₃."
+    },
+    {
+      "key": "icse-10-chemistry-012",
+      "chapter": "acids-bases-and-salts",
+      "topic": "acids-and-bases",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "(a) Distinguish between a base and an alkali. (b) Why is hydrochloric acid called a strong acid while acetic acid is called a weak acid? (c) Write balanced equations for the reaction of: (i) zinc with dilute sulphuric acid; (ii) copper(II) oxide with dilute hydrochloric acid.",
+      "answer": "(a) A base is a substance that reacts with an acid to give a salt and water only; an alkali is a base that is soluble in water and produces OH⁻ ions in solution. All alkalis are bases, but not all bases are alkalis (e.g. CuO is a base but not an alkali). [1] (b) Hydrochloric acid ionises almost completely in water, giving a high concentration of H⁺ ions, so it is a strong acid; acetic acid ionises only partially, giving a low concentration of H⁺ ions, so it is a weak acid. [1] (c) (i) Zn + H₂SO₄ → ZnSO₄ + H₂ [1] (ii) CuO + 2HCl → CuCl₂ + H₂O [1]"
+    },
+    {
+      "key": "icse-10-chemistry-013",
+      "chapter": "analytical-chemistry",
+      "topic": "action-of-sodium-hydroxide",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "When sodium hydroxide solution is added to copper(II) sulphate solution, the colour of the precipitate formed is:",
+      "options": ["Pale blue", "Dirty green", "Reddish brown", "White"],
+      "correctOption": 0,
+      "answer": "Pale blue",
+      "explanation": "CuSO₄ + 2NaOH → Cu(OH)₂ + Na₂SO₄; copper(II) hydroxide is a pale blue precipitate."
+    },
+    {
+      "key": "icse-10-chemistry-014",
+      "chapter": "analytical-chemistry",
+      "topic": "action-of-ammonium-hydroxide",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "Which of the following hydroxide precipitates dissolves in excess ammonium hydroxide to form a deep blue solution?",
+      "options": ["Iron(III) hydroxide", "Lead(II) hydroxide", "Copper(II) hydroxide", "Iron(II) hydroxide"],
+      "correctOption": 2,
+      "answer": "Copper(II) hydroxide",
+      "explanation": "Cu(OH)₂ dissolves in excess NH₄OH, forming the soluble deep blue tetraamminecopper(II) complex."
+    },
+    {
+      "key": "icse-10-chemistry-015",
+      "chapter": "analytical-chemistry",
+      "topic": "action-of-sodium-hydroxide",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "How would you distinguish between a solution of iron(II) sulphate and a solution of iron(III) chloride using sodium hydroxide solution?",
+      "answer": "Add sodium hydroxide solution to each. Iron(II) sulphate gives a dirty green precipitate of iron(II) hydroxide, Fe(OH)₂. Iron(III) chloride gives a reddish-brown precipitate of iron(III) hydroxide, Fe(OH)₃. Both precipitates are insoluble in excess NaOH."
+    },
+    {
+      "key": "icse-10-chemistry-016",
+      "chapter": "analytical-chemistry",
+      "topic": "amphoteric-oxides-hydroxides",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "What is an amphoteric oxide? Show that zinc oxide is amphoteric by writing balanced equations for its reactions with hydrochloric acid and with sodium hydroxide.",
+      "answer": "An amphoteric oxide is an oxide that reacts with both acids and bases to form salt and water. [1] With acid: ZnO + 2HCl → ZnCl₂ + H₂O [1]. With alkali: ZnO + 2NaOH → Na₂ZnO₂ + H₂O (sodium zincate) [1]."
+    },
+    {
+      "key": "icse-10-chemistry-017",
+      "chapter": "mole-concept-and-stoichiometry",
+      "topic": "molar-volume",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The volume occupied by one mole of any gas at STP is:",
+      "options": ["11.2 litres", "22.4 litres", "44.8 litres", "2.24 litres"],
+      "correctOption": 1,
+      "answer": "22.4 litres",
+      "explanation": "This is the molar volume of a gas at STP (0 °C and 1 atm)."
+    },
+    {
+      "key": "icse-10-chemistry-018",
+      "chapter": "mole-concept-and-stoichiometry",
+      "topic": "molar-volume",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Calculate the volume occupied at STP by 8.8 g of carbon dioxide. (C = 12, O = 16)",
+      "numericAnswer": 4.48,
+      "tolerance": 0.02,
+      "unit": "L",
+      "answer": "Molar mass of CO₂ = 12 + 2 × 16 = 44 g mol⁻¹. Moles = 8.8 ÷ 44 = 0.2 mol. Volume at STP = 0.2 × 22.4 = 4.48 L."
+    },
+    {
+      "key": "icse-10-chemistry-019",
+      "chapter": "mole-concept-and-stoichiometry",
+      "topic": "gay-lussac-law",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "100 cm³ of propane is burnt completely in 600 cm³ of oxygen: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. All volumes are measured at the same temperature and pressure. Calculate the volume of oxygen left unused.",
+      "numericAnswer": 100,
+      "tolerance": 0.5,
+      "unit": "cm³",
+      "answer": "By Gay-Lussac's law, 1 volume of propane reacts with 5 volumes of oxygen. So 100 cm³ of propane needs 5 × 100 = 500 cm³ of oxygen. Oxygen unused = 600 − 500 = 100 cm³.",
+      "explanation": "Gaseous reactants and products combine in simple whole-number volume ratios equal to the mole ratio in the equation."
+    },
+    {
+      "key": "icse-10-chemistry-020",
+      "chapter": "mole-concept-and-stoichiometry",
+      "topic": "stoichiometric-calculations",
+      "type": "NUMERICAL",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "Potassium chlorate decomposes on heating: 2KClO₃ → 2KCl + 3O₂. Calculate the mass of potassium chlorate needed to produce 6.72 litres of oxygen at STP. (K = 39, Cl = 35.5, O = 16)",
+      "numericAnswer": 24.5,
+      "tolerance": 0.1,
+      "unit": "g",
+      "answer": "Moles of O₂ = 6.72 ÷ 22.4 = 0.3 mol. [1] From the equation, 3 mol O₂ come from 2 mol KClO₃, so moles of KClO₃ = 0.3 × 2/3 = 0.2 mol. [1] Molar mass of KClO₃ = 39 + 35.5 + 3 × 16 = 122.5 g mol⁻¹. [1] Mass = 0.2 × 122.5 = 24.5 g. [1]"
+    },
+    {
+      "key": "icse-10-chemistry-021",
+      "chapter": "electrolysis",
+      "topic": "electrolysis-of-copper-sulphate",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "During the electrolysis of aqueous copper(II) sulphate using copper electrodes, what happens at the anode?",
+      "options": ["Oxygen gas is evolved", "The copper anode dissolves", "Copper is deposited", "Hydrogen gas is evolved"],
+      "correctOption": 1,
+      "answer": "The copper anode dissolves",
+      "explanation": "With an active copper anode, Cu → Cu²⁺ + 2e⁻ occurs in preference to the discharge of OH⁻ or SO₄²⁻ ions."
+    },
+    {
+      "key": "icse-10-chemistry-022",
+      "chapter": "electrolysis",
+      "topic": "electroplating-refining",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "In electroplating, the article to be plated is always made the ____.",
+      "acceptedAnswers": ["cathode", "negative electrode"],
+      "answer": "Cathode",
+      "explanation": "Metal ions are reduced and deposited at the cathode, so the article must be the cathode."
+    },
+    {
+      "key": "icse-10-chemistry-023",
+      "chapter": "electrolysis",
+      "topic": "electrolysis-of-molten-lead-bromide",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Molten lead(II) bromide is electrolysed using graphite electrodes. (a) Why must the lead bromide be molten? (b) Write the reaction at the cathode. (c) Write the reaction at the anode and state what is observed there.",
+      "answer": "(a) Solid lead bromide has ions fixed in a lattice; on melting the Pb²⁺ and Br⁻ ions become free to move and conduct current. [1] (b) Cathode: Pb²⁺ + 2e⁻ → Pb (silvery grey lead forms). [1] (c) Anode: 2Br⁻ → Br₂ + 2e⁻; reddish-brown vapours of bromine are seen at the anode. [1]"
+    },
+    {
+      "key": "icse-10-chemistry-024",
+      "chapter": "electrolysis",
+      "topic": "electroplating-refining",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "A brass spoon is to be electroplated with silver. (a) Name a suitable electrolyte. (b) What is used as the anode and what as the cathode? (c) Write the reaction at the cathode. (d) Write the reaction at the anode. (e) Why is silver nitrate solution not generally used as the electrolyte?",
+      "answer": "(a) Sodium argentocyanide (or potassium argentocyanide) solution. [1] (b) Anode: a plate of pure silver; cathode: the brass spoon. [1] (c) Cathode: Ag⁺ + e⁻ → Ag (silver is deposited on the spoon). [1] (d) Anode: Ag → Ag⁺ + e⁻ (the silver anode dissolves, replacing Ag⁺ ions in the solution). [1] (e) With silver nitrate, silver ions are discharged too quickly, giving a rough, uneven and poorly adhering coat; the argentocyanide complex releases Ag⁺ slowly, giving a smooth, even and firm deposit. [1]"
+    },
+    {
+      "key": "icse-10-chemistry-025",
+      "chapter": "metallurgy",
+      "topic": "occurrence-of-metals",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The principal ore from which aluminium is extracted is:",
+      "options": ["Haematite", "Calamine", "Cryolite", "Bauxite"],
+      "correctOption": 3,
+      "answer": "Bauxite",
+      "explanation": "Bauxite (Al₂O₃·2H₂O) is the chief ore of aluminium; cryolite is added during electrolysis but is not the ore extracted."
+    },
+    {
+      "key": "icse-10-chemistry-026",
+      "chapter": "metallurgy",
+      "topic": "extraction-of-aluminium",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "In the electrolytic extraction of aluminium (Hall–Héroult process), give two reasons why cryolite is added to pure alumina.",
+      "answer": "(i) Cryolite lowers the fusion temperature of the electrolyte from about 2050 °C to about 950 °C, saving energy. (ii) It increases the electrical conductivity of the electrolyte, since pure molten alumina is a poor conductor. (Cryolite also acts as a solvent for alumina.)"
+    },
+    {
+      "key": "icse-10-chemistry-027",
+      "chapter": "metallurgy",
+      "topic": "alloys",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "EASY",
+      "text": "Give the main constituents of each alloy and one use of each: (a) brass, (b) bronze, (c) duralumin.",
+      "answer": "(a) Brass: copper and zinc; used for making utensils, electrical fittings or decorative articles. [1] (b) Bronze: copper and tin; used for making statues, medals or coins. [1] (c) Duralumin: aluminium with copper, magnesium and manganese; used for aircraft bodies and pressure cookers because it is light and strong. [1]"
+    },
+    {
+      "key": "icse-10-chemistry-028",
+      "chapter": "metallurgy",
+      "topic": "concentration-of-ores",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "Bauxite is concentrated by Baeyer's process. (a) Give the chemical formula of bauxite. (b) Write the equation for the reaction of bauxite with concentrated sodium hydroxide solution. (c) Write the equation for the conversion of sodium aluminate into aluminium hydroxide. (d) Write the equation for the action of heat on aluminium hydroxide.",
+      "answer": "(a) Al₂O₃·2H₂O (hydrated aluminium oxide). [1] (b) Al₂O₃·2H₂O + 2NaOH → 2NaAlO₂ + 3H₂O [1] (c) NaAlO₂ + 2H₂O → NaOH + Al(OH)₃↓ (on dilution and seeding with a little Al(OH)₃) [1] (d) 2Al(OH)₃ → Al₂O₃ + 3H₂O (on heating to about 1000 °C) [1]",
+      "explanation": "Impurities such as iron oxide do not dissolve in NaOH and are filtered off, leaving pure alumina after heating."
+    },
+    {
+      "key": "icse-10-chemistry-029",
+      "chapter": "study-of-compounds-hydrogen-chloride",
+      "topic": "preparation-of-hcl",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "Which drying agent is used to dry hydrogen chloride gas in the laboratory?",
+      "options": ["Concentrated sulphuric acid", "Quicklime", "Sodium hydroxide pellets", "Calcium hydroxide"],
+      "correctOption": 0,
+      "answer": "Concentrated sulphuric acid",
+      "explanation": "HCl is acidic and would react with basic drying agents like quicklime, NaOH or Ca(OH)₂."
+    },
+    {
+      "key": "icse-10-chemistry-030",
+      "chapter": "study-of-compounds-hydrogen-chloride",
+      "topic": "properties-of-hcl",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "When a glass rod dipped in ammonia solution is brought near hydrogen chloride gas, dense white fumes of ____ are formed.",
+      "acceptedAnswers": ["ammonium chloride", "nh4cl", "nh₄cl"],
+      "answer": "Ammonium chloride (NH₃ + HCl → NH₄Cl)"
+    },
+    {
+      "key": "icse-10-chemistry-031",
+      "chapter": "study-of-compounds-hydrogen-chloride",
+      "topic": "preparation-of-hcl",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Write the balanced equation for the laboratory preparation of hydrogen chloride from sodium chloride, and state how the gas is collected.",
+      "answer": "NaCl + H₂SO₄ (conc.) → NaHSO₄ + HCl (at a temperature below 200 °C). [1] The gas is collected by upward displacement of air, because it is heavier than air and highly soluble in water. [1]"
+    },
+    {
+      "key": "icse-10-chemistry-032",
+      "chapter": "study-of-compounds-hydrogen-chloride",
+      "topic": "fountain-experiment",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "In the fountain experiment with hydrogen chloride, water containing blue litmus is used. (a) Which property of HCl does the experiment demonstrate? (b) Why does the water rush up into the flask as a fountain? (c) What colour is the fountain and why?",
+      "answer": "(a) It shows that hydrogen chloride is extremely soluble in water. [1] (b) When a few drops of water enter the flask, a large amount of HCl dissolves in them, creating a partial vacuum. Atmospheric pressure acting on the water in the trough then pushes the water up through the jet as a fountain. [1] (c) The fountain is red, because HCl dissolves to form hydrochloric acid, which turns blue litmus red. [1]"
+    },
+    {
+      "key": "icse-10-chemistry-033",
+      "chapter": "study-of-compounds-ammonia",
+      "topic": "preparation-of-ammonia",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "In the laboratory, ammonia gas is collected by:",
+      "options": ["Upward displacement of air", "Downward displacement of air", "Over water in a pneumatic trough", "Bubbling through concentrated sulphuric acid"],
+      "correctOption": 1,
+      "answer": "Downward displacement of air",
+      "explanation": "Ammonia is lighter than air and highly soluble in water, so it is collected in an inverted jar, pushing the air downwards."
+    },
+    {
+      "key": "icse-10-chemistry-034",
+      "chapter": "study-of-compounds-ammonia",
+      "topic": "preparation-of-ammonia",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Why is ammonia not dried using concentrated sulphuric acid or anhydrous calcium chloride? Name the drying agent used.",
+      "answer": "Ammonia is basic and reacts with concentrated sulphuric acid to form ammonium sulphate (2NH₃ + H₂SO₄ → (NH₄)₂SO₄); with anhydrous calcium chloride it forms an addition compound (CaCl₂·8NH₃). [1] Quicklime (calcium oxide) is used to dry ammonia. [1]"
+    },
+    {
+      "key": "icse-10-chemistry-035",
+      "chapter": "study-of-compounds-ammonia",
+      "topic": "properties-of-ammonia",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "HARD",
+      "text": "Dry ammonia gas is passed over heated copper(II) oxide. Write the balanced equation and state one observation.",
+      "answer": "3CuO + 2NH₃ → 3Cu + 3H₂O + N₂ [1]. The black copper(II) oxide turns reddish brown as copper is formed (and droplets of water collect on the cooler parts). [1]",
+      "explanation": "Ammonia acts as a reducing agent, removing oxygen from copper(II) oxide."
+    },
+    {
+      "key": "icse-10-chemistry-036",
+      "chapter": "study-of-compounds-ammonia",
+      "topic": "habers-process",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "With reference to the manufacture of ammonia by Haber's process: (a) write the balanced equation; (b) name the catalyst and the promoter; (c) state the temperature and pressure used; (d) how is ammonia separated from the unreacted gases?",
+      "answer": "(a) N₂ + 3H₂ ⇌ 2NH₃ + heat (reversible, exothermic). [1] (b) Catalyst: finely divided iron; promoter: molybdenum. [1] (c) Temperature about 450–500 °C; pressure about 200–900 atm. [1] (d) The mixture is cooled; ammonia liquefies easily and is removed, while unreacted nitrogen and hydrogen are recycled. [1]"
+    },
+    {
+      "key": "icse-10-chemistry-037",
+      "chapter": "study-of-compounds-nitric-acid",
+      "topic": "properties-of-nitric-acid",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Pure concentrated nitric acid is colourless, but it turns yellow on standing in light. This is due to:",
+      "options": ["Dissolved nitrogen dioxide", "Dissolved ammonia", "Dissolved chlorine", "Dissolved hydrogen"],
+      "correctOption": 0,
+      "answer": "Dissolved nitrogen dioxide",
+      "explanation": "Light decomposes nitric acid: 4HNO₃ → 4NO₂ + 2H₂O + O₂; the brown NO₂ dissolves in the acid, making it yellow."
+    },
+    {
+      "key": "icse-10-chemistry-038",
+      "chapter": "study-of-compounds-nitric-acid",
+      "topic": "laboratory-preparation",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Write the balanced equation for the laboratory preparation of nitric acid from potassium nitrate. Why is an all-glass apparatus used?",
+      "answer": "KNO₃ + H₂SO₄ (conc.) → KHSO₄ + HNO₃ (temperature kept below 200 °C). [1] Nitric acid vapours are highly corrosive and attack rubber and cork, so an all-glass apparatus (glass retort) is used. [1]"
+    },
+    {
+      "key": "icse-10-chemistry-039",
+      "chapter": "study-of-compounds-nitric-acid",
+      "topic": "oxidising-reactions",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "HARD",
+      "text": "Explain why hydrogen gas is generally not obtained when metals react with nitric acid. Name the condition under which hydrogen can be obtained.",
+      "answer": "Nitric acid is a strong oxidising agent; any hydrogen formed is immediately oxidised to water, while the acid itself is reduced to oxides of nitrogen. [1] Hydrogen is obtained when very dilute (about 1%) nitric acid reacts with magnesium or manganese. [1]"
+    },
+    {
+      "key": "icse-10-chemistry-040",
+      "chapter": "study-of-compounds-nitric-acid",
+      "topic": "oxidising-reactions",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "Write balanced equations for the reaction of: (a) dilute nitric acid with copper; (b) concentrated nitric acid with carbon; (c) concentrated nitric acid with sulphur.",
+      "answer": "(a) 3Cu + 8HNO₃ (dil.) → 3Cu(NO₃)₂ + 2NO + 4H₂O [1] (b) C + 4HNO₃ (conc.) → CO₂ + 4NO₂ + 2H₂O [1] (c) S + 6HNO₃ (conc.) → H₂SO₄ + 6NO₂ + 2H₂O [1]"
+    },
+    {
+      "key": "icse-10-chemistry-041",
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "topic": "dehydrating-property",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "When concentrated sulphuric acid is added to sugar, a black spongy mass of carbon is formed. Here, sulphuric acid acts as:",
+      "options": ["An oxidising agent", "A non-volatile acid", "A drying agent", "A dehydrating agent"],
+      "correctOption": 3,
+      "answer": "A dehydrating agent",
+      "explanation": "It removes the elements of water from sugar: C₁₂H₂₂O₁₁ → 12C + 11H₂O. A drying agent removes moisture already present, not combined hydrogen and oxygen."
+    },
+    {
+      "key": "icse-10-chemistry-042",
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "topic": "acidic-properties",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "While diluting concentrated sulphuric acid, why should the acid be added slowly to water and not water to the acid?",
+      "answer": "Dissolving concentrated sulphuric acid in water releases a large amount of heat. If water is added to the acid, the small amount of water boils instantly and the acid spurts out, which can cause severe burns. Adding the acid slowly to a large volume of water, with stirring, lets the heat spread out safely."
+    },
+    {
+      "key": "icse-10-chemistry-043",
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "topic": "non-volatile-nature",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Sulphuric acid is described as a non-volatile acid. Explain what this means and write two balanced equations that illustrate this property.",
+      "answer": "Sulphuric acid has a high boiling point (about 338 °C), so it can displace more volatile acids from their salts on heating. [1] NaCl + H₂SO₄ → NaHSO₄ + HCl [1]; KNO₃ + H₂SO₄ → KHSO₄ + HNO₃ [1]."
+    },
+    {
+      "key": "icse-10-chemistry-044",
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "topic": "oxidising-property",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "Write balanced equations for the reactions of: (a) hot concentrated sulphuric acid with copper; (b) hot concentrated sulphuric acid with carbon; (c) hot concentrated sulphuric acid with sulphur; (d) dilute sulphuric acid with iron.",
+      "answer": "(a) Cu + 2H₂SO₄ → CuSO₄ + SO₂ + 2H₂O [1] (b) C + 2H₂SO₄ → CO₂ + 2SO₂ + 2H₂O [1] (c) S + 2H₂SO₄ → 3SO₂ + 2H₂O [1] (d) Fe + H₂SO₄ → FeSO₄ + H₂ [1]",
+      "explanation": "In (a)–(c) concentrated acid acts as an oxidising agent and is reduced to SO₂; in (d) the dilute acid behaves as a typical acid, releasing hydrogen."
+    },
+    {
+      "key": "icse-10-chemistry-045",
+      "chapter": "organic-chemistry",
+      "topic": "homologous-series",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The general formula of the alkyne series is:",
+      "options": ["CₙH₂ₙ₊₂", "CₙH₂ₙ", "CₙH₂ₙ₋₂", "CₙH₂ₙ₊₁OH"],
+      "correctOption": 2,
+      "answer": "CₙH₂ₙ₋₂",
+      "explanation": "For example, ethyne (n = 2) is C₂H₂."
+    },
+    {
+      "key": "icse-10-chemistry-046",
+      "chapter": "organic-chemistry",
+      "topic": "iupac-nomenclature",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Give the IUPAC names of: (a) CH₃–CH₂–CH=CH₂; (b) CH₃–CH(CH₃)–CH₃.",
+      "answer": "(a) But-1-ene [1] (b) 2-Methylpropane [1]"
+    },
+    {
+      "key": "icse-10-chemistry-047",
+      "chapter": "organic-chemistry",
+      "topic": "isomerism",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "(a) Define structural isomerism. (b) Write the condensed structural formulae and IUPAC names of the two isomers of butane (C₄H₁₀). (c) State one characteristic of a homologous series.",
+      "answer": "(a) Structural isomerism is the existence of two or more compounds with the same molecular formula but different structural formulae. [1] (b) CH₃–CH₂–CH₂–CH₃: butane [1]; CH₃–CH(CH₃)–CH₃: 2-methylpropane [1]. (c) Any one: successive members differ by a –CH₂– group (14 u in molecular mass); all members share a general formula; they have similar chemical properties; physical properties change gradually with molecular mass. [1]"
+    },
+    {
+      "key": "icse-10-chemistry-048",
+      "chapter": "organic-chemistry",
+      "topic": "alkenes-and-alkynes",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "Write balanced equations for: (a) the addition of hydrogen to ethene in the presence of nickel; (b) the reaction of ethene with bromine; (c) the complete hydrogenation of ethyne; (d) the complete combustion of methane; (e) the reaction of methane with chlorine in diffused sunlight to form the first substitution product.",
+      "answer": "(a) C₂H₄ + H₂ → C₂H₆ (Ni catalyst, heat) [1] (b) C₂H₄ + Br₂ → C₂H₄Br₂ (1,2-dibromoethane; the red-brown colour of bromine disappears) [1] (c) C₂H₂ + 2H₂ → C₂H₆ (Ni catalyst, heat) [1] (d) CH₄ + 2O₂ → CO₂ + 2H₂O [1] (e) CH₄ + Cl₂ → CH₃Cl + HCl (diffused sunlight) [1]",
+      "explanation": "Unsaturated hydrocarbons (alkenes, alkynes) undergo addition reactions, while saturated alkanes undergo substitution."
+    }
+  ]
+}

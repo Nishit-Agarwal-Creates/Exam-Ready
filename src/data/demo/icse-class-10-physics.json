@@ -1,0 +1,761 @@
+{
+  "board": "icse",
+  "class": 10,
+  "subject": {
+    "slug": "physics",
+    "name": "Physics",
+    "overview": "ICSE Class 10 Physics builds on mechanics, optics, sound, electricity, heat and modern physics. Students study turning effect of force, equilibrium and circular motion; work, energy, power and simple machines such as levers and pulleys. Optics covers refraction at plane surfaces, total internal reflection, lenses and the formation of images, and the spectrum including dispersion and scattering. The sound unit deals with echoes, resonance and characteristics of sound. Electricity covers Ohm's law, combinations of resistors, emf and internal resistance, electrical energy, household wiring, and electromagnetism including motors, generators and transformers. The course ends with calorimetry, including specific and latent heat, and radioactivity, covering alpha, beta and gamma emissions and safety.",
+    "studyTips": [
+      "Keep a single formula sheet with every formula, its symbols and SI units, and revise it daily in the last month.",
+      "In numericals, always write the formula first, substitute with units and box the final answer with its unit, since working carries marks.",
+      "Practise ray diagrams for lenses and prisms with a sharp pencil and ruler, marking arrows on every ray.",
+      "Learn definitions word for word (moment of force, critical angle, specific heat capacity) because short answers reward precise wording.",
+      "For electricity problems, redraw the circuit and simplify series and parallel parts step by step before calculating."
+    ]
+  },
+  "chapters": [
+    {
+      "slug": "force",
+      "name": "Force",
+      "order": 1,
+      "summary": "Covers the turning effect of force (moment), couple, conditions of equilibrium, centre of gravity and uniform circular motion with centripetal force.",
+      "topics": [
+        { "slug": "moment-of-force", "name": "Moment of force and couple" },
+        { "slug": "equilibrium", "name": "Equilibrium and principle of moments" },
+        { "slug": "centre-of-gravity", "name": "Centre of gravity" },
+        { "slug": "uniform-circular-motion", "name": "Uniform circular motion" }
+      ]
+    },
+    {
+      "slug": "work-energy-power",
+      "name": "Work, Energy and Power",
+      "order": 2,
+      "summary": "Defines work, energy and power with their units, studies potential and kinetic energy, and applies the principle of conservation of mechanical energy.",
+      "topics": [
+        { "slug": "work", "name": "Work done by a force" },
+        { "slug": "energy-and-its-conservation", "name": "Forms of energy and conservation" },
+        { "slug": "power", "name": "Power and its units" }
+      ]
+    },
+    {
+      "slug": "machines",
+      "name": "Machines",
+      "order": 3,
+      "summary": "Introduces mechanical advantage, velocity ratio and efficiency, and applies them to the three classes of levers and to pulley systems.",
+      "topics": [
+        { "slug": "ma-vr-efficiency", "name": "Mechanical advantage, velocity ratio and efficiency" },
+        { "slug": "levers", "name": "Levers and their classes" },
+        { "slug": "pulleys", "name": "Pulleys and block and tackle" }
+      ]
+    },
+    {
+      "slug": "refraction-plane-surfaces",
+      "name": "Refraction of Light at Plane Surfaces",
+      "order": 4,
+      "summary": "Covers the laws of refraction, refractive index, real and apparent depth, critical angle and total internal reflection.",
+      "topics": [
+        { "slug": "laws-of-refraction", "name": "Laws of refraction" },
+        { "slug": "refractive-index", "name": "Refractive index and speed of light" },
+        { "slug": "real-and-apparent-depth", "name": "Real and apparent depth" },
+        { "slug": "critical-angle-tir", "name": "Critical angle and total internal reflection" }
+      ]
+    },
+    {
+      "slug": "refraction-through-lens",
+      "name": "Refraction through a Lens",
+      "order": 5,
+      "summary": "Deals with convex and concave lenses, image formation by ray diagrams, the lens formula, magnification and power of a lens.",
+      "topics": [
+        { "slug": "image-formation", "name": "Image formation by lenses" },
+        { "slug": "lens-formula-magnification", "name": "Lens formula and magnification" },
+        { "slug": "power-of-lens", "name": "Power of a lens" }
+      ]
+    },
+    {
+      "slug": "spectrum",
+      "name": "Spectrum",
+      "order": 6,
+      "summary": "Explains deviation and dispersion of light by a prism, the electromagnetic spectrum and its regions, and scattering of light.",
+      "topics": [
+        { "slug": "dispersion", "name": "Dispersion by a prism" },
+        { "slug": "electromagnetic-spectrum", "name": "Electromagnetic spectrum" },
+        { "slug": "scattering", "name": "Scattering of light" }
+      ]
+    },
+    {
+      "slug": "sound",
+      "name": "Sound",
+      "order": 7,
+      "summary": "Covers reflection of sound and echoes, natural and forced vibrations, resonance, and the characteristics loudness, pitch and quality.",
+      "topics": [
+        { "slug": "reflection-and-echo", "name": "Reflection of sound and echo" },
+        { "slug": "vibrations-and-resonance", "name": "Natural, forced vibrations and resonance" },
+        { "slug": "characteristics-of-sound", "name": "Loudness, pitch and quality" }
+      ]
+    },
+    {
+      "slug": "current-electricity",
+      "name": "Current Electricity",
+      "order": 8,
+      "summary": "Studies Ohm's law, resistance and resistivity, series and parallel combinations, emf and internal resistance, and electrical energy and power.",
+      "topics": [
+        { "slug": "ohms-law-resistance", "name": "Ohm's law and resistance" },
+        { "slug": "combination-of-resistors", "name": "Series and parallel combinations" },
+        { "slug": "emf-internal-resistance", "name": "EMF, terminal voltage and internal resistance" },
+        { "slug": "electrical-energy-power", "name": "Electrical energy and power" }
+      ]
+    },
+    {
+      "slug": "household-circuits",
+      "name": "Household Circuits",
+      "order": 9,
+      "summary": "Describes transmission and distribution of power to homes, house wiring, fuses and MCBs, earthing and colour coding of wires.",
+      "topics": [
+        { "slug": "power-distribution", "name": "Transmission and distribution of power" },
+        { "slug": "fuse-and-mcb", "name": "Fuse and MCB" },
+        { "slug": "wiring-and-earthing", "name": "House wiring, switches and earthing" }
+      ]
+    },
+    {
+      "slug": "electro-magnetism",
+      "name": "Electro-Magnetism",
+      "order": 10,
+      "summary": "Covers the magnetic effect of current, electromagnets, force on a current-carrying conductor, the DC motor, electromagnetic induction, the AC generator and the transformer.",
+      "topics": [
+        { "slug": "magnetic-effect-and-electromagnets", "name": "Magnetic effect of current and electromagnets" },
+        { "slug": "dc-motor", "name": "Force on a conductor and DC motor" },
+        { "slug": "electromagnetic-induction", "name": "Electromagnetic induction" },
+        { "slug": "ac-generator-transformer", "name": "AC generator and transformer" }
+      ]
+    },
+    {
+      "slug": "calorimetry",
+      "name": "Calorimetry",
+      "order": 11,
+      "summary": "Deals with heat capacity, specific heat capacity, the principle of mixtures, and latent heat of fusion and vaporisation.",
+      "topics": [
+        { "slug": "specific-heat-capacity", "name": "Heat capacity and specific heat capacity" },
+        { "slug": "principle-of-mixtures", "name": "Principle of mixtures" },
+        { "slug": "latent-heat", "name": "Latent heat" }
+      ]
+    },
+    {
+      "slug": "radioactivity",
+      "name": "Radioactivity",
+      "order": 12,
+      "summary": "Introduces the structure of the nucleus, alpha, beta and gamma emissions and their properties, changes in the nucleus during decay, and uses and safety precautions.",
+      "topics": [
+        { "slug": "radioactive-emissions", "name": "Alpha, beta and gamma emissions" },
+        { "slug": "nuclear-changes", "name": "Changes in the nucleus during decay" },
+        { "slug": "uses-and-safety", "name": "Uses of radioisotopes and safety" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "icse-10-physics-001",
+      "chapter": "force",
+      "topic": "moment-of-force",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The SI unit of moment of force is:",
+      "options": ["newton", "newton metre", "newton per metre", "kilogram metre per second"],
+      "correctOption": 1,
+      "answer": "newton metre (N m)",
+      "explanation": "Moment of force = force × perpendicular distance, so its unit is N × m."
+    },
+    {
+      "key": "icse-10-physics-002",
+      "chapter": "force",
+      "topic": "uniform-circular-motion",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "In uniform circular motion, the centripetal force always acts ____ the centre of the circular path.",
+      "acceptedAnswers": ["towards", "toward", "towards the centre", "towards the center", "inward", "inwards"],
+      "answer": "towards",
+      "explanation": "The force needed to keep a body on a circular path is directed along the radius towards the centre."
+    },
+    {
+      "key": "icse-10-physics-003",
+      "chapter": "force",
+      "topic": "moment-of-force",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "A force of 20 N is applied perpendicular to the handle of a spanner at a distance of 0.4 m from the centre of the nut. Calculate the moment of the force in N m.",
+      "numericAnswer": 8,
+      "tolerance": 0.01,
+      "unit": "N m",
+      "answer": "Moment of force = F × d = 20 N × 0.4 m = 8 N m.",
+      "explanation": "The distance used is the perpendicular distance from the axis of rotation to the line of action of the force."
+    },
+    {
+      "key": "icse-10-physics-004",
+      "chapter": "force",
+      "topic": "equilibrium",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "A uniform metre rule is balanced on a knife edge at its 50 cm mark. A weight of 40 gf is hung at the 20 cm mark. At which mark (in cm) must a weight of 60 gf be hung to keep the rule horizontal?",
+      "numericAnswer": 70,
+      "tolerance": 0.1,
+      "unit": "cm",
+      "answer": "The rule's own weight acts at the pivot, so it has no moment. Anticlockwise moment = 40 gf × (50 − 20) cm = 1200 gf cm. For balance, clockwise moment = 60 gf × d = 1200 gf cm, so d = 20 cm to the right of the pivot. Position = 50 + 20 = 70 cm mark.",
+      "explanation": "By the principle of moments, the sum of clockwise moments equals the sum of anticlockwise moments in equilibrium."
+    },
+    {
+      "key": "icse-10-physics-005",
+      "chapter": "work-energy-power",
+      "topic": "energy-and-its-conservation",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "One kilowatt hour (kWh) is equal to:",
+      "options": ["3.6 × 10⁶ J", "3.6 × 10³ J", "1000 J", "3.6 × 10⁵ J"],
+      "correctOption": 0,
+      "answer": "3.6 × 10⁶ J",
+      "explanation": "1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J."
+    },
+    {
+      "key": "icse-10-physics-006",
+      "chapter": "work-energy-power",
+      "topic": "work",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Calculate the work done in lifting a box of mass 5 kg vertically upwards through a height of 4 m at constant speed. Take g = 10 m/s². Give your answer in joules.",
+      "numericAnswer": 200,
+      "tolerance": 0.1,
+      "unit": "J",
+      "answer": "Force needed = weight = mg = 5 × 10 = 50 N. Work done W = F × s = 50 N × 4 m = 200 J.",
+      "explanation": "At constant speed the applied force equals the weight, and the displacement is along the force."
+    },
+    {
+      "key": "icse-10-physics-007",
+      "chapter": "work-energy-power",
+      "topic": "energy-and-its-conservation",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "A ball of mass 0.5 kg is dropped from rest from a height of 20 m. Neglecting air resistance and taking g = 10 m/s², find the speed of the ball just before it hits the ground, in m/s.",
+      "numericAnswer": 20,
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "answer": "Loss in potential energy = mgh = 0.5 × 10 × 20 = 100 J. By conservation of energy, kinetic energy gained = 100 J. ½mv² = 100 ⇒ ½ × 0.5 × v² = 100 ⇒ v² = 400 ⇒ v = 20 m/s.",
+      "explanation": "With no air resistance, mechanical energy is conserved, so all potential energy lost becomes kinetic energy."
+    },
+    {
+      "key": "icse-10-physics-008",
+      "chapter": "work-energy-power",
+      "topic": "work",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "A satellite moves in a circular orbit around the Earth. Explain why the work done by the gravitational force on the satellite is zero.",
+      "answer": "The gravitational force on the satellite acts along the radius towards the centre of the Earth, while the displacement of the satellite at every instant is along the tangent to the orbit. The angle between force and displacement is 90°, so W = F s cos 90° = 0.",
+      "explanation": "Work is zero whenever force and displacement are perpendicular."
+    },
+    {
+      "key": "icse-10-physics-009",
+      "chapter": "machines",
+      "topic": "levers",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "Which of the following is an example of a class II lever?",
+      "options": ["Scissors", "Nutcracker", "Fire tongs", "See-saw"],
+      "correctOption": 1,
+      "answer": "Nutcracker",
+      "explanation": "In a nutcracker the load (nut) lies between the fulcrum (hinge) and the effort, which defines a class II lever."
+    },
+    {
+      "key": "icse-10-physics-010",
+      "chapter": "machines",
+      "topic": "ma-vr-efficiency",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The efficiency of an ideal machine is ____ %.",
+      "acceptedAnswers": ["100", "100%", "hundred", "one hundred"],
+      "answer": "100",
+      "explanation": "An ideal machine has no friction and weightless parts, so output work equals input work."
+    },
+    {
+      "key": "icse-10-physics-011",
+      "chapter": "machines",
+      "topic": "pulleys",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "A block and tackle system has 4 pulleys in all (4 strands supporting the load). An effort of 125 N is needed to raise a load of 400 N. Calculate the efficiency of the system in per cent.",
+      "numericAnswer": 80,
+      "tolerance": 0.1,
+      "unit": "%",
+      "answer": "Velocity ratio VR = number of pulleys = 4. Mechanical advantage MA = load / effort = 400 / 125 = 3.2. Efficiency η = MA / VR × 100% = 3.2 / 4 × 100% = 80%.",
+      "explanation": "Efficiency is less than 100% because of friction and the weight of the lower block."
+    },
+    {
+      "key": "icse-10-physics-012",
+      "chapter": "machines",
+      "topic": "ma-vr-efficiency",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "(a) Define mechanical advantage and velocity ratio of a machine, and show that mechanical advantage = efficiency × velocity ratio. (b) Explain why the mechanical advantage of a class III lever is always less than 1. (c) In a lever, the effort arm is 60 cm and the load arm is 15 cm. Assuming it is ideal, find the effort needed to lift a load of 200 N.",
+      "answer": "(a) Mechanical advantage (MA) = load / effort. Velocity ratio (VR) = distance moved by effort / distance moved by load = d_E / d_L. Efficiency η = work output / work input = (L × d_L) / (E × d_E) = (L/E) × (d_L/d_E) = MA / VR. Hence MA = η × VR. [2 marks]\n(b) In a class III lever the effort lies between the fulcrum and the load, so the effort arm is always shorter than the load arm. Since MA = effort arm / load arm, MA < 1. [1 mark]\n(c) MA = effort arm / load arm = 60 / 15 = 4. Effort = load / MA = 200 N / 4 = 50 N. [2 marks]",
+      "explanation": "For an ideal lever, MA equals the ratio of effort arm to load arm by the principle of moments."
+    },
+    {
+      "key": "icse-10-physics-013",
+      "chapter": "refraction-plane-surfaces",
+      "topic": "laws-of-refraction",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "When a ray of light passes obliquely from an optically denser medium to an optically rarer medium, it:",
+      "options": ["bends towards the normal", "travels along the normal", "goes undeviated", "bends away from the normal"],
+      "correctOption": 3,
+      "answer": "bends away from the normal",
+      "explanation": "Light speeds up on entering a rarer medium, so the angle of refraction becomes greater than the angle of incidence."
+    },
+    {
+      "key": "icse-10-physics-014",
+      "chapter": "refraction-plane-surfaces",
+      "topic": "refractive-index",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "The refractive index of glass is 1.5. If the speed of light in vacuum is 3 × 10⁸ m/s, find the speed of light in glass in m/s.",
+      "numericAnswer": 200000000,
+      "tolerance": 1000000,
+      "unit": "m/s",
+      "answer": "μ = c / v ⇒ v = c / μ = (3 × 10⁸) / 1.5 = 2 × 10⁸ m/s.",
+      "explanation": "Refractive index is the ratio of the speed of light in vacuum to that in the medium."
+    },
+    {
+      "key": "icse-10-physics-015",
+      "chapter": "refraction-plane-surfaces",
+      "topic": "real-and-apparent-depth",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "A coin lies at the bottom of a tank filled with water to a depth of 12 cm. The refractive index of water is 4/3. Find the apparent depth of the coin when seen normally from above, in cm.",
+      "numericAnswer": 9,
+      "tolerance": 0.05,
+      "unit": "cm",
+      "answer": "μ = real depth / apparent depth ⇒ apparent depth = real depth / μ = 12 / (4/3) = 12 × 3/4 = 9 cm. (The coin appears raised by 12 − 9 = 3 cm.)",
+      "explanation": "Refraction at the water surface bends rays away from the normal, so the coin appears closer to the surface."
+    },
+    {
+      "key": "icse-10-physics-016",
+      "chapter": "refraction-plane-surfaces",
+      "topic": "critical-angle-tir",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "Define critical angle. State the two conditions necessary for total internal reflection, and write the relation between critical angle and refractive index.",
+      "answer": "Critical angle: the angle of incidence in the denser medium for which the angle of refraction in the rarer medium is 90°. [1 mark]\nConditions: (i) light must travel from an optically denser medium to an optically rarer medium; (ii) the angle of incidence in the denser medium must be greater than the critical angle for the pair of media. [1 mark]\nRelation: μ = 1 / sin C, where μ is the refractive index of the denser medium with respect to the rarer medium. [1 mark]",
+      "explanation": "Beyond the critical angle no refracted ray exists, so all the light is reflected back into the denser medium."
+    },
+    {
+      "key": "icse-10-physics-017",
+      "chapter": "refraction-through-lens",
+      "topic": "image-formation",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "For a real object placed anywhere in front of a concave lens, the image formed is always:",
+      "options": ["real and inverted", "real and magnified", "virtual, erect and diminished", "virtual, erect and magnified"],
+      "correctOption": 2,
+      "answer": "virtual, erect and diminished",
+      "explanation": "A concave lens diverges light, so the image is always formed between the lens and its focus on the object side."
+    },
+    {
+      "key": "icse-10-physics-018",
+      "chapter": "refraction-through-lens",
+      "topic": "power-of-lens",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The SI unit of power of a lens is ____.",
+      "acceptedAnswers": ["dioptre", "diopter", "dioptres", "diopters", "d"],
+      "answer": "dioptre (D)",
+      "explanation": "Power P = 1/f with f in metres; 1 D = 1 m⁻¹."
+    },
+    {
+      "key": "icse-10-physics-019",
+      "chapter": "refraction-through-lens",
+      "topic": "lens-formula-magnification",
+      "type": "NUMERICAL",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "An object 2 cm tall is placed 30 cm in front of a convex lens of focal length 20 cm. Using the lens formula and sign convention, find the height of the image in cm (give the magnitude).",
+      "numericAnswer": 4,
+      "tolerance": 0.05,
+      "unit": "cm",
+      "answer": "u = −30 cm, f = +20 cm. Lens formula: 1/v − 1/u = 1/f ⇒ 1/v = 1/20 + 1/(−30) = 1/20 − 1/30 = 1/60 ⇒ v = +60 cm (real image on the other side). Magnification m = v/u = 60/(−30) = −2. Image height = m × object height = −2 × 2 = −4 cm. Magnitude = 4 cm; the image is real, inverted and magnified.",
+      "explanation": "The negative sign of magnification shows the image is inverted."
+    },
+    {
+      "key": "icse-10-physics-020",
+      "chapter": "refraction-through-lens",
+      "topic": "power-of-lens",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Find the power of a concave lens of focal length 25 cm, in dioptres.",
+      "numericAnswer": -4,
+      "tolerance": 0.01,
+      "unit": "D",
+      "answer": "For a concave lens f = −25 cm = −0.25 m. P = 1/f = 1/(−0.25) = −4 D.",
+      "explanation": "Power of a diverging lens is negative."
+    },
+    {
+      "key": "icse-10-physics-021",
+      "chapter": "spectrum",
+      "topic": "dispersion",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "When white light passes through a glass prism, which colour is deviated the most?",
+      "options": ["Red", "Yellow", "Green", "Violet"],
+      "correctOption": 3,
+      "answer": "Violet",
+      "explanation": "Glass has the highest refractive index for violet light, which has the shortest wavelength in the visible spectrum."
+    },
+    {
+      "key": "icse-10-physics-022",
+      "chapter": "spectrum",
+      "topic": "electromagnetic-spectrum",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "The remote control of a television set commonly uses ____ radiation.",
+      "acceptedAnswers": ["infrared", "infra-red", "infra red", "ir"],
+      "answer": "infrared",
+      "explanation": "Infrared LEDs in the remote send coded pulses that a sensor on the TV detects."
+    },
+    {
+      "key": "icse-10-physics-023",
+      "chapter": "spectrum",
+      "topic": "scattering",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Why does the clear sky appear blue during the day?",
+      "answer": "Sunlight is scattered by air molecules, and the intensity of scattered light is inversely proportional to the fourth power of wavelength (I ∝ 1/λ⁴). Blue light, having a shorter wavelength than red, is scattered much more, so scattered blue light reaches our eyes from all directions and the sky looks blue.",
+      "explanation": "Violet is scattered even more, but sunlight contains less violet and our eyes are more sensitive to blue."
+    },
+    {
+      "key": "icse-10-physics-024",
+      "chapter": "spectrum",
+      "topic": "electromagnetic-spectrum",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "(a) Name the radiation lying just beyond the violet end of the visible spectrum and state one use. (b) Name the radiation lying just beyond the red end and state one property. (c) Arrange the following in increasing order of wavelength: microwaves, gamma rays, visible light, X-rays. (d) State the speed of all electromagnetic waves in vacuum.",
+      "answer": "(a) Ultraviolet radiation; use: sterilising water or surgical instruments (or detecting forged notes / producing vitamin D). [1 mark]\n(b) Infrared radiation; property: it produces a heating effect (it is readily absorbed by and warms objects). [1 mark]\n(c) Gamma rays < X-rays < visible light < microwaves. [1 mark]\n(d) 3 × 10⁸ m/s. [1 mark]",
+      "explanation": "All electromagnetic waves travel at the same speed in vacuum but differ in wavelength and frequency."
+    },
+    {
+      "key": "icse-10-physics-025",
+      "chapter": "sound",
+      "topic": "characteristics-of-sound",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The pitch of a sound depends on its:",
+      "options": ["frequency", "amplitude", "waveform", "speed in the medium"],
+      "correctOption": 0,
+      "answer": "frequency",
+      "explanation": "Higher frequency gives a higher (shriller) pitch."
+    },
+    {
+      "key": "icse-10-physics-026",
+      "chapter": "sound",
+      "topic": "reflection-and-echo",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "A ship sends an ultrasonic pulse towards the sea bed and receives its echo 4 s later. If the speed of sound in sea water is 1500 m/s, find the depth of the sea in metres.",
+      "numericAnswer": 3000,
+      "tolerance": 1,
+      "unit": "m",
+      "answer": "The pulse travels to the sea bed and back, covering 2d. 2d = v × t = 1500 × 4 = 6000 m ⇒ d = 3000 m.",
+      "explanation": "In echo problems, the total path is twice the distance to the reflecting surface."
+    },
+    {
+      "key": "icse-10-physics-027",
+      "chapter": "sound",
+      "topic": "vibrations-and-resonance",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "What is resonance? Give one example of resonance from daily life.",
+      "answer": "Resonance is a special case of forced vibration in which the frequency of the applied periodic force equals the natural frequency of the vibrating body, so the body vibrates with a large amplitude. Example: the loud sound heard when a vibrating tuning fork is held over an air column of suitable length (or a radio being tuned to a station, or a bridge swaying when soldiers march in step).",
+      "explanation": "At resonance, energy transfer from the driver to the body is maximum."
+    },
+    {
+      "key": "icse-10-physics-028",
+      "chapter": "sound",
+      "topic": "reflection-and-echo",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "(a) The sensation of sound persists in our ear for about 0.1 s. If the speed of sound in air is 340 m/s, find the minimum distance of a reflecting surface for an echo to be heard distinctly. (b) On which factor does the loudness of a sound depend? How does loudness change if this factor is doubled? (c) Name the characteristic that helps us distinguish two instruments playing the same note with the same loudness, and state what it depends on.",
+      "answer": "(a) For a distinct echo, t ≥ 0.1 s. 2d = v × t = 340 × 0.1 = 34 m ⇒ d = 17 m. [2 marks]\n(b) Loudness depends on the amplitude of vibration; loudness ∝ (amplitude)², so doubling the amplitude makes the sound four times as loud. [1 mark]\n(c) Quality (timbre); it depends on the waveform, i.e. the number and relative intensities of overtones present with the fundamental. [1 mark]",
+      "explanation": "Two instruments can share pitch and loudness yet sound different because their waveforms differ."
+    },
+    {
+      "key": "icse-10-physics-029",
+      "chapter": "current-electricity",
+      "topic": "ohms-law-resistance",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The SI unit of resistivity is:",
+      "options": ["ohm", "ohm metre", "ohm per metre", "siemens"],
+      "correctOption": 1,
+      "answer": "ohm metre (Ω m)",
+      "explanation": "From R = ρl/A, ρ = RA/l, giving Ω × m² / m = Ω m."
+    },
+    {
+      "key": "icse-10-physics-030",
+      "chapter": "current-electricity",
+      "topic": "combination-of-resistors",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "Resistors of 3 Ω and 6 Ω are connected in parallel, and this combination is connected in series with a 4 Ω resistor across a 12 V battery of negligible internal resistance. Find the current through the 3 Ω resistor in amperes.",
+      "numericAnswer": 1.33,
+      "tolerance": 0.02,
+      "unit": "A",
+      "answer": "Parallel part: R_p = (3 × 6)/(3 + 6) = 2 Ω. Total resistance R = 2 + 4 = 6 Ω. Total current I = V/R = 12/6 = 2 A. Voltage across parallel part = I × R_p = 2 × 2 = 4 V. Current through 3 Ω = 4/3 ≈ 1.33 A.",
+      "explanation": "Resistors in parallel share the same potential difference; the current divides in inverse ratio of their resistances."
+    },
+    {
+      "key": "icse-10-physics-031",
+      "chapter": "current-electricity",
+      "topic": "emf-internal-resistance",
+      "type": "NUMERICAL",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "A cell of emf 2.0 V and internal resistance 0.5 Ω is connected to an external resistor of 3.5 Ω. Calculate the terminal voltage of the cell in volts.",
+      "numericAnswer": 1.75,
+      "tolerance": 0.01,
+      "unit": "V",
+      "answer": "Current I = ε / (R + r) = 2.0 / (3.5 + 0.5) = 2.0 / 4.0 = 0.5 A. Lost volts inside the cell = I r = 0.5 × 0.5 = 0.25 V. Terminal voltage V = ε − I r = 2.0 − 0.25 = 1.75 V (check: V = I R = 0.5 × 3.5 = 1.75 V).",
+      "explanation": "Terminal voltage is less than emf when current flows, because some energy is spent in the internal resistance."
+    },
+    {
+      "key": "icse-10-physics-032",
+      "chapter": "current-electricity",
+      "topic": "electrical-energy-power",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "A 100 W bulb is used for 5 hours every day. Find the electrical energy it consumes in 30 days, in kWh.",
+      "numericAnswer": 15,
+      "tolerance": 0.01,
+      "unit": "kWh",
+      "answer": "Energy = P × t = 0.1 kW × (5 h × 30) = 0.1 × 150 = 15 kWh.",
+      "explanation": "Convert watts to kilowatts and total time to hours before multiplying."
+    },
+    {
+      "key": "icse-10-physics-033",
+      "chapter": "current-electricity",
+      "topic": "ohms-law-resistance",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "State two factors on which the resistance of a metallic wire depends, and how the resistance varies with each.",
+      "answer": "(i) Length: resistance is directly proportional to the length of the wire (R ∝ l). (ii) Area of cross-section: resistance is inversely proportional to the area of cross-section (R ∝ 1/A). (Also accepted: nature of material, i.e. resistivity; and temperature, since resistance of a metal increases with temperature.)",
+      "explanation": "These combine as R = ρl/A."
+    },
+    {
+      "key": "icse-10-physics-034",
+      "chapter": "household-circuits",
+      "topic": "wiring-and-earthing",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "In household wiring, a switch should always be connected in the:",
+      "options": ["neutral wire", "earth wire", "neutral or earth wire", "live wire"],
+      "correctOption": 3,
+      "answer": "live wire",
+      "explanation": "With the switch in the live wire, the appliance is disconnected from the high potential when switched off, making it safe to touch."
+    },
+    {
+      "key": "icse-10-physics-035",
+      "chapter": "household-circuits",
+      "topic": "fuse-and-mcb",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "What is an MCB? State one advantage of an MCB over a fuse.",
+      "answer": "An MCB (miniature circuit breaker) is an automatic switch that opens the circuit when the current exceeds a safe value, due to overloading or a short circuit. Advantage: it can simply be reset by pushing the switch back after the fault is removed, whereas a blown fuse wire has to be replaced (it also trips faster and more reliably).",
+      "explanation": "Both protect the circuit, but the MCB is reusable."
+    },
+    {
+      "key": "icse-10-physics-036",
+      "chapter": "household-circuits",
+      "topic": "fuse-and-mcb",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "An electric geyser is rated 2200 W, 220 V. Calculate the current it draws when working normally, in amperes, and comment on whether it can be safely connected to a 5 A socket.",
+      "numericAnswer": 10,
+      "tolerance": 0.01,
+      "unit": "A",
+      "answer": "I = P / V = 2200 W / 220 V = 10 A. Since 10 A exceeds 5 A, it must not be used on a 5 A socket; it should be connected to a 15 A power socket with a suitable fuse (slightly above 10 A).",
+      "explanation": "A fuse rating should be slightly more than the normal working current of the appliance."
+    },
+    {
+      "key": "icse-10-physics-037",
+      "chapter": "household-circuits",
+      "topic": "wiring-and-earthing",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "(a) Give two reasons why household appliances are connected in parallel and not in series. (b) Why is the metal body of an electric iron earthed? (c) Why is the fuse always connected in the live wire?",
+      "answer": "(a) (i) Each appliance gets the full mains voltage (220 V). (ii) Each appliance can be switched on or off independently, and a fault in one does not stop the others. [2 marks]\n(b) If the live wire accidentally touches the metal body, the current passes to the earth through the low-resistance earth wire instead of through the person touching it, preventing an electric shock (and the large current blows the fuse). [1 mark]\n(c) So that when the fuse blows, the appliance is disconnected from the live (high-potential) wire and no current reaches it, making it safe to handle. [1 mark]",
+      "explanation": "A fuse in the neutral wire would leave the appliance at high potential even after blowing."
+    },
+    {
+      "key": "icse-10-physics-038",
+      "chapter": "electro-magnetism",
+      "topic": "ac-generator-transformer",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "Which device converts mechanical energy into electrical energy?",
+      "options": ["AC generator", "DC motor", "Electric bell", "Step-up transformer"],
+      "correctOption": 0,
+      "answer": "AC generator",
+      "explanation": "A generator works on electromagnetic induction; rotating a coil in a magnetic field induces an emf."
+    },
+    {
+      "key": "icse-10-physics-039",
+      "chapter": "electro-magnetism",
+      "topic": "electromagnetic-induction",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "The direction of the induced current in a conductor moving in a magnetic field is given by Fleming's ____ hand rule.",
+      "acceptedAnswers": ["right", "right-hand", "right hand"],
+      "answer": "right",
+      "explanation": "Fleming's left hand rule gives the direction of force on a current-carrying conductor (motor); the right hand rule is for induced current (generator)."
+    },
+    {
+      "key": "icse-10-physics-040",
+      "chapter": "electro-magnetism",
+      "topic": "magnetic-effect-and-electromagnets",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "State two ways of increasing the strength of an electromagnet.",
+      "answer": "(i) Increase the number of turns of the coil. (ii) Increase the current through the coil. (Also accepted: use a soft iron core inside the coil.)",
+      "explanation": "The magnetic field of a solenoid increases with the number of turns and the current."
+    },
+    {
+      "key": "icse-10-physics-041",
+      "chapter": "electro-magnetism",
+      "topic": "ac-generator-transformer",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "(a) State the principle on which a transformer works. (b) Why is the core of a transformer laminated? (c) A transformer has 1000 turns in its primary coil and steps down 220 V AC to 11 V AC. Find the number of turns in the secondary coil. (d) Can a transformer work on a DC supply? Give a reason.",
+      "answer": "(a) Electromagnetic induction (mutual induction): a changing current in the primary coil produces a changing magnetic flux in the core, which induces an emf in the secondary coil. [1 mark]\n(b) Lamination (thin insulated sheets) reduces eddy currents in the core, and so reduces energy loss as heat. [1 mark]\n(c) Vs/Vp = Ns/Np ⇒ Ns = Np × Vs/Vp = 1000 × 11/220 = 50 turns. [2 marks]\n(d) No. A steady DC produces a constant magnetic flux, so there is no change of flux linked with the secondary and no emf is induced. [1 mark]",
+      "explanation": "A step-down transformer has fewer turns in the secondary than in the primary."
+    },
+    {
+      "key": "icse-10-physics-042",
+      "chapter": "calorimetry",
+      "topic": "specific-heat-capacity",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The SI unit of specific heat capacity is:",
+      "options": ["J kg⁻¹", "J K⁻¹", "J kg⁻¹ K⁻¹", "J kg K"],
+      "correctOption": 2,
+      "answer": "J kg⁻¹ K⁻¹",
+      "explanation": "Specific heat capacity c = Q / (m ΔT), so its unit is J / (kg × K)."
+    },
+    {
+      "key": "icse-10-physics-043",
+      "chapter": "calorimetry",
+      "topic": "specific-heat-capacity",
+      "type": "NUMERICAL",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Calculate the heat energy required to raise the temperature of 2 kg of water from 20 °C to 70 °C. The specific heat capacity of water is 4200 J kg⁻¹ K⁻¹. Give your answer in kJ.",
+      "numericAnswer": 420,
+      "tolerance": 0.5,
+      "unit": "kJ",
+      "answer": "Q = m c ΔT = 2 × 4200 × (70 − 20) = 2 × 4200 × 50 = 420 000 J = 420 kJ.",
+      "explanation": "A temperature change of 1 °C equals a change of 1 K."
+    },
+    {
+      "key": "icse-10-physics-044",
+      "chapter": "calorimetry",
+      "topic": "principle-of-mixtures",
+      "type": "NUMERICAL",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "50 g of ice at 0 °C is added to 200 g of water at 40 °C. Find the final temperature of the mixture in °C. Take specific latent heat of fusion of ice = 336 J g⁻¹ and specific heat capacity of water = 4.2 J g⁻¹ °C⁻¹. Assume no heat is lost to the surroundings or the container.",
+      "numericAnswer": 16,
+      "tolerance": 0.1,
+      "unit": "°C",
+      "answer": "Let the final temperature be T. Heat gained by ice = heat to melt + heat to warm melted ice = 50 × 336 + 50 × 4.2 × (T − 0) = 16 800 + 210T. Heat lost by water = 200 × 4.2 × (40 − T) = 840(40 − T) = 33 600 − 840T. By the principle of mixtures: 16 800 + 210T = 33 600 − 840T ⇒ 1050T = 16 800 ⇒ T = 16 °C. (Check: water can give 33 600 J on cooling to 0 °C, more than the 16 800 J needed to melt all the ice, so all ice melts.)",
+      "explanation": "Heat lost by the hot body equals heat gained by the cold body when no heat escapes."
+    },
+    {
+      "key": "icse-10-physics-045",
+      "chapter": "calorimetry",
+      "topic": "specific-heat-capacity",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Why is water used in hot water bottles for fomentation?",
+      "answer": "Water has a very high specific heat capacity (4200 J kg⁻¹ K⁻¹). So a given mass of hot water stores a large amount of heat and gives it out slowly over a long time while its temperature falls only gradually, providing warmth for longer.",
+      "explanation": "High specific heat capacity means a large heat release for a small fall in temperature."
+    },
+    {
+      "key": "icse-10-physics-046",
+      "chapter": "radioactivity",
+      "topic": "radioactive-emissions",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "Which of the following radioactive emissions has the greatest penetrating power?",
+      "options": ["gamma rays", "alpha particles", "beta particles", "all have equal penetrating power"],
+      "correctOption": 0,
+      "answer": "gamma rays",
+      "explanation": "Gamma rays are uncharged electromagnetic waves and interact least with matter; they can pass through several centimetres of lead."
+    },
+    {
+      "key": "icse-10-physics-047",
+      "chapter": "radioactivity",
+      "topic": "radioactive-emissions",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "State three differences between alpha particles and beta particles.",
+      "answer": "(i) Nature: an alpha particle is a helium nucleus (2 protons + 2 neutrons); a beta particle is a fast-moving electron. (ii) Charge: alpha carries +2e; beta carries −e. (iii) Ionising power: alpha has much greater ionising power than beta. (Also accepted: penetrating power—alpha is stopped by a sheet of paper, beta needs a few mm of aluminium; mass—alpha is about 7300 times heavier than beta; deflection—they bend in opposite directions in a magnetic field.)",
+      "explanation": "Any three correct, clearly contrasted points earn full marks."
+    },
+    {
+      "key": "icse-10-physics-048",
+      "chapter": "radioactivity",
+      "topic": "nuclear-changes",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "(a) A nucleus ²³⁸₉₂U emits one alpha particle and then the daughter nucleus emits one beta particle. Find the mass number and atomic number of the final nucleus. (b) Why are gamma rays not deflected by electric or magnetic fields? (c) State one safety precaution to be taken while handling radioactive substances.",
+      "answer": "(a) Alpha emission: A decreases by 4 and Z by 2 ⇒ A = 234, Z = 90. Beta emission: A unchanged, Z increases by 1 ⇒ A = 234, Z = 91. Final nucleus: mass number 234, atomic number 91. [2 marks]\n(b) Gamma rays are electromagnetic waves carrying no charge, so electric and magnetic fields exert no force on them. [1 mark]\n(c) Handle radioactive materials with long tongs or remote handling tools (or store them in thick lead containers, wear protective clothing, keep exposure time minimum). [1 mark]",
+      "explanation": "In beta decay a neutron changes into a proton and an electron, so Z rises by 1 while A is unchanged."
+    }
+  ]
+}

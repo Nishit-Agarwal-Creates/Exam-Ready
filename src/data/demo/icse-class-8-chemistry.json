@@ -1,0 +1,294 @@
+{
+  "board": "icse",
+  "class": 8,
+  "subject": {
+    "slug": "chemistry",
+    "name": "Chemistry",
+    "overview": "ICSE Class 8 Chemistry introduces the basic ideas used throughout secondary school chemistry. Students study the particle nature of matter and changes of state, distinguish physical from chemical changes, and classify substances as elements, compounds and mixtures, including methods of separating mixtures. The course then explains the structure of the atom, electronic configuration and valency, which leads into the language of chemistry: symbols, formulae, molecular mass and balanced equations. Types of chemical reactions are covered next, followed by the preparation and properties of hydrogen, the properties of water including hardness, and an introduction to carbon, its allotropes and its oxides.",
+    "studyTips": [
+      "Memorise the symbols and valencies of common elements and radicals first; writing formulae and equations depends on them.",
+      "Practise balancing equations every day with a few short examples until you can count atoms on both sides quickly.",
+      "Draw simple diagrams of atoms showing protons, neutrons and electron shells for the first 20 elements.",
+      "For each separation method, learn one real example and the property it depends on (magnetism, solubility, boiling point)."
+    ]
+  },
+  "chapters": [
+    {
+      "slug": "matter",
+      "name": "Matter",
+      "order": 1,
+      "summary": "The particle nature of matter, the three states of matter and the changes of state caused by heating and cooling.",
+      "topics": [
+        { "slug": "states-of-matter", "name": "States of matter" },
+        { "slug": "kinetic-theory", "name": "Kinetic theory and interparticle spaces" },
+        { "slug": "change-of-state", "name": "Change of state" }
+      ]
+    },
+    {
+      "slug": "physical-and-chemical-changes",
+      "name": "Physical and Chemical Changes",
+      "order": 2,
+      "summary": "Differences between physical and chemical changes, with everyday examples of each.",
+      "topics": [
+        { "slug": "physical-changes", "name": "Physical changes" },
+        { "slug": "chemical-changes", "name": "Chemical changes" }
+      ]
+    },
+    {
+      "slug": "elements-compounds-and-mixtures",
+      "name": "Elements, Compounds and Mixtures",
+      "order": 3,
+      "summary": "Classification of pure substances and mixtures, and methods used to separate the components of mixtures.",
+      "topics": [
+        { "slug": "elements-and-compounds", "name": "Elements and compounds" },
+        { "slug": "mixtures", "name": "Mixtures" },
+        { "slug": "separation-of-mixtures", "name": "Separation of mixtures" }
+      ]
+    },
+    {
+      "slug": "atomic-structure",
+      "name": "Atomic Structure",
+      "order": 4,
+      "summary": "Subatomic particles, atomic number and mass number, and the arrangement of electrons in shells.",
+      "topics": [
+        { "slug": "subatomic-particles", "name": "Protons, neutrons and electrons" },
+        { "slug": "atomic-number-mass-number", "name": "Atomic number and mass number" },
+        { "slug": "electronic-configuration", "name": "Electronic configuration and valency" }
+      ]
+    },
+    {
+      "slug": "language-of-chemistry",
+      "name": "Language of Chemistry",
+      "order": 5,
+      "summary": "Symbols, valency, chemical formulae, molecular mass and writing balanced chemical equations.",
+      "topics": [
+        { "slug": "symbols-and-valency", "name": "Symbols and valency" },
+        { "slug": "chemical-formulae", "name": "Chemical formulae" },
+        { "slug": "molecular-mass", "name": "Molecular mass" },
+        { "slug": "chemical-equations", "name": "Chemical equations" }
+      ]
+    },
+    {
+      "slug": "chemical-reactions",
+      "name": "Chemical Reactions",
+      "order": 6,
+      "summary": "Conditions needed for chemical reactions, the main types of reactions and the energy changes that accompany them.",
+      "topics": [
+        { "slug": "conditions-for-reactions", "name": "Conditions for chemical reactions" },
+        { "slug": "types-of-reactions", "name": "Types of chemical reactions" },
+        { "slug": "energy-changes", "name": "Energy changes in reactions" }
+      ]
+    },
+    {
+      "slug": "hydrogen",
+      "name": "Hydrogen",
+      "order": 7,
+      "summary": "Laboratory preparation, collection, properties and uses of hydrogen gas.",
+      "topics": [
+        { "slug": "preparation-of-hydrogen", "name": "Preparation of hydrogen" },
+        { "slug": "properties-and-uses", "name": "Properties and uses of hydrogen" }
+      ]
+    },
+    {
+      "slug": "water",
+      "name": "Water",
+      "order": 8,
+      "summary": "Water as a solvent, solutions, and hard and soft water with methods of removing hardness.",
+      "topics": [
+        { "slug": "water-as-solvent", "name": "Water as a universal solvent" },
+        { "slug": "hard-and-soft-water", "name": "Hard and soft water" }
+      ]
+    },
+    {
+      "slug": "carbon-and-its-compounds",
+      "name": "Carbon and its Compounds",
+      "order": 9,
+      "summary": "Occurrence of carbon, its crystalline and amorphous allotropes, and the properties of its oxides.",
+      "topics": [
+        { "slug": "allotropes-of-carbon", "name": "Allotropes of carbon" },
+        { "slug": "oxides-of-carbon", "name": "Oxides of carbon" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "icse-8-chemistry-001",
+      "chapter": "matter",
+      "topic": "states-of-matter",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Which state of matter has a definite volume but no definite shape?",
+      "options": ["Solid", "Gas", "Liquid", "None of these"],
+      "correctOption": 2,
+      "answer": "Liquid",
+      "explanation": "A liquid keeps its volume but takes the shape of its container."
+    },
+    {
+      "key": "icse-8-chemistry-002",
+      "chapter": "matter",
+      "topic": "kinetic-theory",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Why are gases easily compressed while solids are not?",
+      "answer": "In a gas the particles are far apart with large interparticle spaces and very weak forces of attraction, so pressure can push them closer together. In a solid the particles are closely packed with very little space between them and strong forces of attraction, so they cannot be pushed much closer."
+    },
+    {
+      "key": "icse-8-chemistry-003",
+      "chapter": "physical-and-chemical-changes",
+      "topic": "chemical-changes",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Rusting of iron is a ____ change.",
+      "acceptedAnswers": ["chemical", "permanent", "irreversible"],
+      "answer": "Chemical",
+      "explanation": "A new substance, hydrated iron oxide (rust), is formed and the change cannot be easily reversed."
+    },
+    {
+      "key": "icse-8-chemistry-004",
+      "chapter": "physical-and-chemical-changes",
+      "topic": "physical-changes",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Give three differences between a physical change and a chemical change. Give one example of each.",
+      "answer": "(i) In a physical change no new substance is formed; in a chemical change one or more new substances are formed. (ii) A physical change is usually temporary and easily reversed; a chemical change is usually permanent. (iii) A physical change involves little energy change; a chemical change is often accompanied by the absorption or release of considerable heat or light. Examples: melting of ice (physical); burning of paper (chemical)."
+    },
+    {
+      "key": "icse-8-chemistry-005",
+      "chapter": "elements-compounds-and-mixtures",
+      "topic": "mixtures",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Which of the following is a mixture?",
+      "options": ["Air", "Water", "Carbon dioxide", "Sodium chloride"],
+      "correctOption": 0,
+      "answer": "Air",
+      "explanation": "Air contains nitrogen, oxygen and other gases in no fixed proportion; the others are compounds."
+    },
+    {
+      "key": "icse-8-chemistry-006",
+      "chapter": "elements-compounds-and-mixtures",
+      "topic": "separation-of-mixtures",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "Name the most suitable method to separate: (a) common salt from sea water; (b) iron filings from sulphur powder; (c) the coloured components of ink; (d) alcohol from a mixture of alcohol and water.",
+      "answer": "(a) Evaporation. [1] (b) Magnetic separation, using a magnet to attract the iron filings. [1] (c) Paper chromatography. [1] (d) Fractional distillation, since alcohol and water are miscible liquids with different boiling points. [1]"
+    },
+    {
+      "key": "icse-8-chemistry-007",
+      "chapter": "atomic-structure",
+      "topic": "atomic-number-mass-number",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "An atom has atomic number 11 and mass number 23. How many neutrons does it contain?",
+      "options": ["11", "12", "23", "34"],
+      "correctOption": 1,
+      "answer": "12",
+      "explanation": "Neutrons = mass number − atomic number = 23 − 11 = 12."
+    },
+    {
+      "key": "icse-8-chemistry-008",
+      "chapter": "atomic-structure",
+      "topic": "electronic-configuration",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "An element has atomic number 17 and mass number 35. (a) State the number of protons, electrons and neutrons in its atom. (b) Write its electronic configuration. (c) What is its valency?",
+      "answer": "(a) Protons = 17, electrons = 17, neutrons = 35 − 17 = 18. [1] (b) 2, 8, 7. [1] (c) Valency is 1, since the atom needs to gain one electron to complete its octet. [1]"
+    },
+    {
+      "key": "icse-8-chemistry-009",
+      "chapter": "language-of-chemistry",
+      "topic": "molecular-mass",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Calculate the molecular mass of calcium carbonate, CaCO₃. (Ca = 40, C = 12, O = 16)",
+      "numericAnswer": 100,
+      "tolerance": 0,
+      "unit": "u",
+      "answer": "Molecular mass of CaCO₃ = 40 + 12 + 3 × 16 = 40 + 12 + 48 = 100 u."
+    },
+    {
+      "key": "icse-8-chemistry-010",
+      "chapter": "chemical-reactions",
+      "topic": "types-of-reactions",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Give one example, with a balanced equation, of (a) a combination reaction and (b) a decomposition reaction.",
+      "answer": "(a) Combination: C + O₂ → CO₂ (carbon burns in oxygen to form carbon dioxide). [1] (b) Decomposition: CaCO₃ → CaO + CO₂ (on heating). [1] (Other correct examples are acceptable.)"
+    },
+    {
+      "key": "icse-8-chemistry-011",
+      "chapter": "chemical-reactions",
+      "topic": "types-of-reactions",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "Balance each equation, where needed, and name the type of reaction: (a) Fe + CuSO₄ → FeSO₄ + Cu; (b) NaOH + HCl → NaCl + H₂O; (c) H₂ + O₂ → H₂O; (d) KClO₃ → KCl + O₂; (e) AgNO₃ + NaCl → AgCl + NaNO₃.",
+      "answer": "(a) Fe + CuSO₄ → FeSO₄ + Cu (already balanced): displacement reaction. [1] (b) NaOH + HCl → NaCl + H₂O (already balanced): neutralisation reaction. [1] (c) 2H₂ + O₂ → 2H₂O: combination reaction. [1] (d) 2KClO₃ → 2KCl + 3O₂ (on heating): decomposition reaction. [1] (e) AgNO₃ + NaCl → AgCl + NaNO₃ (already balanced): double decomposition (precipitation) reaction. [1]"
+    },
+    {
+      "key": "icse-8-chemistry-012",
+      "chapter": "hydrogen",
+      "topic": "preparation-of-hydrogen",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Which metal is commonly used with dilute hydrochloric acid to prepare hydrogen in the laboratory?",
+      "options": ["Copper", "Zinc", "Silver", "Gold"],
+      "correctOption": 1,
+      "answer": "Zinc",
+      "explanation": "Granulated zinc reacts steadily with dilute acid; copper, silver and gold do not displace hydrogen from dilute acids."
+    },
+    {
+      "key": "icse-8-chemistry-013",
+      "chapter": "hydrogen",
+      "topic": "preparation-of-hydrogen",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "For the laboratory preparation of hydrogen from zinc and dilute hydrochloric acid: (a) write the balanced equation; (b) state how the gas is collected and why; (c) state one safety precaution.",
+      "answer": "(a) Zn + 2HCl → ZnCl₂ + H₂ [1] (b) It is collected by downward displacement of water, because hydrogen is almost insoluble in water. [1] (c) Any one: keep flames away from the apparatus, as hydrogen mixed with air explodes when ignited; keep the end of the thistle funnel dipped below the acid so the gas does not escape. [1]"
+    },
+    {
+      "key": "icse-8-chemistry-014",
+      "chapter": "water",
+      "topic": "water-as-solvent",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Why is water called a universal solvent? Name two substances that dissolve in water.",
+      "answer": "Water dissolves a larger number of substances than any other common liquid, so it is called a universal solvent. [1] Examples: common salt and sugar (also copper sulphate, washing soda, etc.). [1]"
+    },
+    {
+      "key": "icse-8-chemistry-015",
+      "chapter": "water",
+      "topic": "hard-and-soft-water",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "(a) Name the salts that cause temporary and permanent hardness of water. (b) Write the equation for removing temporary hardness caused by calcium bicarbonate by boiling. (c) Write the equation for removing permanent hardness caused by calcium chloride using washing soda. (d) State one disadvantage of using hard water.",
+      "answer": "(a) Temporary hardness: bicarbonates (hydrogen carbonates) of calcium and magnesium. Permanent hardness: chlorides and sulphates of calcium and magnesium. [1] (b) Ca(HCO₃)₂ → CaCO₃ + H₂O + CO₂ (on boiling) [1] (c) CaCl₂ + Na₂CO₃ → CaCO₃ + 2NaCl [1] (d) Any one: it wastes soap because it does not form lather easily; it forms scale in boilers and kettles. [1]"
+    },
+    {
+      "key": "icse-8-chemistry-016",
+      "chapter": "carbon-and-its-compounds",
+      "topic": "allotropes-of-carbon",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Diamond and graphite are two crystalline ____ of carbon.",
+      "acceptedAnswers": ["allotropes", "allotropic forms", "allotrope"],
+      "answer": "Allotropes",
+      "explanation": "Allotropes are different physical forms of the same element with the same chemical properties."
+    }
+  ]
+}

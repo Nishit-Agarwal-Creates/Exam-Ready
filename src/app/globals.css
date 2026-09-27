@@ -1,0 +1,516 @@
+@import "tailwindcss";
+
+/* ───────────────────────── ExamReady design tokens ─────────────────────────
+   The visual language is the exam hall: white answer sheets on a cool desk,
+   blue-black ballpoint ink for actions, the examiner's red pen for marks and
+   scores, and rubber stamps for provenance. */
+@theme {
+  --font-sans: var(--font-ui), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-paper), ui-serif, Georgia, serif;
+
+  --color-desk: #eef2f1;
+  --color-desk-deep: #e2e8e6;
+  --color-sheet: #ffffff;
+  --color-graphite: #1c2126;
+  --color-pencil: #4b545d;
+  --color-rule: #d5dcda;
+  --color-rule-strong: #a3aeab;
+
+  --color-ink: #1f2d6e;
+  --color-ink-deep: #16215a;
+  --color-ink-soft: #e7eaf6;
+  --color-ink-line: #b9c1e3;
+
+  --color-margin: #c2303a;
+  --color-margin-soft: #fbe9ea;
+
+  --color-verified: #1b6a44;
+  --color-verified-soft: #e3f1e9;
+  --color-official: #0d5f6c;
+  --color-official-soft: #def0f2;
+  --color-contrib: #75500c;
+  --color-contrib-soft: #f5ecd8;
+  --color-ai: #653c9a;
+  --color-ai-soft: #efe7f8;
+  --color-demo: #7a3c00;
+  --color-demo-soft: #fff0d0;
+  --color-highlight: #fbe68a;
+
+  --radius-sheet: 6px;
+  --radius-control: 6px;
+
+  --shadow-sheet: 0 1px 0 rgb(28 33 38 / 0.06), 0 8px 24px -12px rgb(28 33 38 / 0.18);
+  --shadow-lift: 0 2px 0 rgb(28 33 38 / 0.05), 0 18px 40px -18px rgb(22 33 90 / 0.35);
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    background: var(--color-desk);
+    color: var(--color-graphite);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    text-wrap: balance;
+    color: var(--color-graphite);
+  }
+  h4 {
+    font-weight: 700;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  a {
+    color: inherit;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-ink);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+  ::selection {
+    background: var(--color-highlight);
+    color: var(--color-graphite);
+  }
+  [hidden] {
+    display: none !important;
+  }
+  a,
+  button,
+  input,
+  select,
+  textarea,
+  label,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: 76rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  @media (min-width: 640px) {
+    .container-page {
+      padding-inline: 1.5rem;
+    }
+  }
+
+  .prose-width {
+    max-width: 68ch;
+  }
+
+  .link {
+    color: var(--color-ink);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  .link:hover {
+    text-decoration-thickness: 2px;
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.55rem 1.1rem;
+    border-radius: var(--radius-control);
+    font-weight: 700;
+    font-size: 0.975rem;
+    line-height: 1.2;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition:
+      background-color 150ms var(--ease-out),
+      border-color 150ms var(--ease-out),
+      color 150ms var(--ease-out),
+      transform 150ms var(--ease-out);
+    white-space: nowrap;
+  }
+  .btn:active:not(:disabled) {
+    transform: translateY(1px);
+  }
+  .btn:disabled,
+  .btn[aria-disabled="true"] {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+  .btn-primary {
+    background: var(--color-ink);
+    color: #fff;
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: var(--color-ink-deep);
+  }
+  .btn-secondary {
+    background: var(--color-sheet);
+    color: var(--color-ink);
+    border-color: var(--color-ink-line);
+  }
+  .btn-secondary:hover:not(:disabled) {
+    border-color: var(--color-ink);
+    background: var(--color-ink-soft);
+  }
+  .btn-ghost {
+    background: transparent;
+    color: var(--color-ink);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    background: var(--color-ink-soft);
+  }
+  .btn-danger {
+    background: var(--color-sheet);
+    color: var(--color-margin);
+    border-color: color-mix(in srgb, var(--color-margin) 45%, white);
+  }
+  .btn-danger:hover:not(:disabled) {
+    background: var(--color-margin-soft);
+    border-color: var(--color-margin);
+  }
+  .btn-sm {
+    min-height: 2.25rem;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  /* Surfaces */
+  .sheet {
+    background: var(--color-sheet);
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-sheet);
+    box-shadow: var(--shadow-sheet);
+  }
+  /* Answer-sheet margin: the red rule that runs down a real exam booklet */
+  .sheet-ruled {
+    position: relative;
+    padding-left: 2.25rem;
+  }
+  .sheet-ruled::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1.25rem;
+    width: 1.5px;
+    background: color-mix(in srgb, var(--color-margin) 55%, transparent);
+  }
+  @media (min-width: 640px) {
+    .sheet-ruled {
+      padding-left: 3.25rem;
+    }
+    .sheet-ruled::before {
+      left: 2rem;
+    }
+  }
+  .panel {
+    background: var(--color-sheet);
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-sheet);
+  }
+
+  /* Forms */
+  .field-label {
+    display: block;
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 0.35rem;
+    color: var(--color-graphite);
+  }
+  .field-hint {
+    font-size: 0.875rem;
+    color: var(--color-pencil);
+  }
+  .input,
+  .select,
+  .textarea {
+    width: 100%;
+    min-height: 2.75rem;
+    padding: 0.55rem 0.75rem;
+    border-radius: var(--radius-control);
+    border: 1.5px solid var(--color-rule-strong);
+    background: var(--color-sheet);
+    color: var(--color-graphite);
+    font: inherit;
+    font-size: 1rem;
+    transition: border-color 150ms var(--ease-out);
+  }
+  .input:hover,
+  .select:hover,
+  .textarea:hover {
+    border-color: var(--color-pencil);
+  }
+  .input:focus-visible,
+  .select:focus-visible,
+  .textarea:focus-visible {
+    outline: 3px solid color-mix(in srgb, var(--color-ink) 35%, transparent);
+    outline-offset: 0;
+    border-color: var(--color-ink);
+  }
+  .input[aria-invalid="true"],
+  .select[aria-invalid="true"],
+  .textarea[aria-invalid="true"] {
+    border-color: var(--color-margin);
+  }
+  .textarea {
+    min-height: 7rem;
+    line-height: 1.55;
+    resize: vertical;
+  }
+  .select {
+    appearance: none;
+    padding-right: 2.25rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%234b545d' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem center;
+  }
+  .field-error {
+    color: var(--color-margin);
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-top: 0.3rem;
+  }
+
+  /* Choice tiles (radio / checkbox cards) */
+  .choice {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.65rem;
+    padding: 0.7rem 0.85rem;
+    border: 1.5px solid var(--color-rule-strong);
+    border-radius: var(--radius-control);
+    background: var(--color-sheet);
+    cursor: pointer;
+    transition:
+      border-color 150ms var(--ease-out),
+      background-color 150ms var(--ease-out);
+  }
+  .choice:hover {
+    border-color: var(--color-pencil);
+  }
+  .choice:has(input:checked) {
+    border-color: var(--color-ink);
+    background: var(--color-ink-soft);
+  }
+  .choice:has(input:focus-visible) {
+    outline: 3px solid var(--color-ink);
+    outline-offset: 2px;
+  }
+  .choice input {
+    accent-color: var(--color-ink);
+    margin-top: 0.25rem;
+    width: 1.05rem;
+    height: 1.05rem;
+    flex-shrink: 0;
+  }
+
+  /* Provenance stamps */
+  .stamp {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.14rem 0.5rem;
+    border: 1.5px solid currentColor;
+    border-radius: 4px;
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    line-height: 1.35;
+    white-space: nowrap;
+  }
+  .stamp-verified {
+    color: var(--color-verified);
+    background: var(--color-verified-soft);
+  }
+  .stamp-official {
+    color: var(--color-official);
+    background: var(--color-official-soft);
+  }
+  .stamp-contrib {
+    color: var(--color-contrib);
+    background: var(--color-contrib-soft);
+  }
+  .stamp-ai {
+    color: var(--color-ai);
+    background: var(--color-ai-soft);
+    border-style: dashed;
+  }
+  .stamp-unverified {
+    color: var(--color-pencil);
+    background: var(--color-desk);
+    border-style: dashed;
+  }
+  .stamp-rejected {
+    color: var(--color-margin);
+    background: var(--color-margin-soft);
+  }
+  .demo-banner {
+    color: var(--color-demo);
+    background:
+      repeating-linear-gradient(-45deg, transparent 0 10px, rgb(122 60 0 / 0.06) 10px 20px),
+      var(--color-demo-soft);
+    border: 1.5px solid color-mix(in srgb, var(--color-demo) 55%, transparent);
+    border-radius: 4px;
+  }
+  .stamp-demo {
+    color: var(--color-demo);
+    background: var(--color-demo-soft);
+    white-space: normal;
+  }
+
+  /* Tables */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  .table th {
+    text-align: left;
+    font-weight: 700;
+    color: var(--color-pencil);
+    font-size: 0.85rem;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1.5px solid var(--color-rule-strong);
+    white-space: nowrap;
+  }
+  .table td {
+    padding: 0.65rem 0.75rem;
+    border-bottom: 1px solid var(--color-rule);
+    vertical-align: top;
+  }
+  .table tbody tr:hover td {
+    background: color-mix(in srgb, var(--color-ink-soft) 45%, transparent);
+  }
+
+  /* Marks in the right-hand margin, as printed on board papers */
+  .marks {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Question text reads like the printed paper */
+  .paper-text {
+    font-family: var(--font-serif);
+    font-size: 1.08rem;
+    line-height: 1.65;
+    white-space: pre-line;
+  }
+
+  .skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -4rem;
+    z-index: 100;
+    padding: 0.6rem 1rem;
+    background: var(--color-ink);
+    color: #fff;
+    border-radius: var(--radius-control);
+    font-weight: 700;
+  }
+  .skip-link:focus {
+    top: 1rem;
+  }
+
+  dialog.modal {
+    border: 1px solid var(--color-rule);
+    border-radius: 8px;
+    padding: 0;
+    margin: auto;
+    max-height: calc(100dvh - 2rem);
+    overscroll-behavior: contain;
+    width: min(32rem, calc(100vw - 2rem));
+    box-shadow: var(--shadow-lift);
+    color: var(--color-graphite);
+  }
+  dialog.modal::backdrop {
+    background: rgb(22 33 90 / 0.35);
+  }
+}
+
+/* The single orchestrated moment on the homepage: the verification stamp lands on the sheet. */
+@keyframes stamp-land {
+  0% {
+    opacity: 0;
+    transform: rotate(-8deg) scale(1.6);
+  }
+  60% {
+    opacity: 1;
+    transform: rotate(-4deg) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-4deg) scale(1);
+  }
+}
+@keyframes sheet-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.anim-sheet {
+  animation: sheet-in 600ms var(--ease-out) both;
+}
+.anim-stamp {
+  animation: stamp-land 520ms var(--ease-out) 700ms both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .sheet {
+    box-shadow: none;
+    border: none;
+  }
+}

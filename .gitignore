@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+
+# builds
+.next/
+.open-next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# cloudflare / local database state
+.wrangler/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
+# env files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# generated seed SQL (rebuilt from src/data/demo by `npm run db:seed:build`)
+drizzle/seed/
+
+# logs / os
+npm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# python caches (from project skills)
+__pycache__/
+*.pyc

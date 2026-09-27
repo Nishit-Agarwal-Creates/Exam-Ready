@@ -1,0 +1,288 @@
+{
+  "board": "icse",
+  "class": 8,
+  "subject": {
+    "slug": "biology",
+    "name": "Biology",
+    "overview": "ICSE Class 8 Biology covers how plants transport water and food, and how plants and humans reproduce. Students study ecosystems, food chains and the flow of energy between living things. The human body section introduces the endocrine glands and the changes of adolescence, the blood, heart and blood vessels, and the brain, spinal cord and nerves. The course also covers common diseases, simple first aid, and food production through crop cultivation and animal husbandry. It lays the groundwork for the more detailed physiology, reproduction and health topics of Classes 9 and 10, so clear definitions and simple labelled diagrams matter from the start.",
+    "studyTips": [
+      "Learn key definitions (transpiration, pollination, fertilisation, ecosystem, food chain) word for word, then explain each in your own words with an example.",
+      "Draw simple labelled diagrams of the flower, the human heart and a food chain, and check the labels against your textbook.",
+      "Make short comparison tables, such as xylem vs phloem, RBC vs WBC, and kharif vs rabi crops.",
+      "For first aid, learn each situation as a short numbered list of steps in the correct order."
+    ]
+  },
+  "chapters": [
+    {
+      "slug": "transportation-in-plants",
+      "name": "Transportation in Plants",
+      "order": 1,
+      "summary": "Explains how roots absorb water and minerals, how xylem and phloem transport materials, and the process and importance of transpiration.",
+      "topics": [
+        { "slug": "absorption-of-water", "name": "Absorption of water and minerals" },
+        { "slug": "xylem-and-phloem", "name": "Xylem and phloem" },
+        { "slug": "transpiration", "name": "Transpiration" }
+      ]
+    },
+    {
+      "slug": "reproduction-in-plants",
+      "name": "Reproduction in Plants",
+      "order": 2,
+      "summary": "Covers asexual methods such as vegetative propagation, sexual reproduction through flowers, pollination, fertilisation and seed dispersal.",
+      "topics": [
+        { "slug": "asexual-reproduction", "name": "Asexual reproduction and vegetative propagation" },
+        { "slug": "sexual-reproduction", "name": "Flowers, pollination and fertilisation" },
+        { "slug": "seed-dispersal", "name": "Dispersal of seeds and fruits" }
+      ]
+    },
+    {
+      "slug": "reproduction-in-humans",
+      "name": "Reproduction in Humans",
+      "order": 3,
+      "summary": "Introduces the male and female reproductive organs, gametes, fertilisation and the development of the embryo.",
+      "topics": [
+        { "slug": "reproductive-organs", "name": "Male and female reproductive organs" },
+        { "slug": "fertilisation-and-development", "name": "Fertilisation and development of the embryo" }
+      ]
+    },
+    {
+      "slug": "ecosystems",
+      "name": "Ecosystems",
+      "order": 4,
+      "summary": "Describes the biotic and abiotic components of an ecosystem, food chains and food webs, and the flow of energy through trophic levels.",
+      "topics": [
+        { "slug": "components-of-ecosystem", "name": "Components of an ecosystem" },
+        { "slug": "food-chains-and-webs", "name": "Food chains and food webs" },
+        { "slug": "energy-flow", "name": "Energy flow and trophic levels" }
+      ]
+    },
+    {
+      "slug": "endocrine-system-and-adolescence",
+      "name": "Human Body: Endocrine System and Adolescence",
+      "order": 5,
+      "summary": "Introduces the major endocrine glands and their hormones, and the physical and emotional changes during adolescence.",
+      "topics": [
+        { "slug": "endocrine-glands", "name": "Endocrine glands and hormones" },
+        { "slug": "adolescence", "name": "Changes during adolescence" }
+      ]
+    },
+    {
+      "slug": "circulatory-system",
+      "name": "Circulatory System",
+      "order": 6,
+      "summary": "Covers the components of blood and their functions, the structure of the heart and the types of blood vessels.",
+      "topics": [
+        { "slug": "blood", "name": "Blood and its components" },
+        { "slug": "heart-and-blood-vessels", "name": "Heart and blood vessels" }
+      ]
+    },
+    {
+      "slug": "nervous-system",
+      "name": "Nervous System",
+      "order": 7,
+      "summary": "Describes neurons, the main parts of the brain and their functions, the spinal cord and simple reflex actions.",
+      "topics": [
+        { "slug": "neurons", "name": "Neurons and nerves" },
+        { "slug": "brain-and-spinal-cord", "name": "Brain and spinal cord" }
+      ]
+    },
+    {
+      "slug": "diseases-and-first-aid",
+      "name": "Diseases and First Aid",
+      "order": 8,
+      "summary": "Covers communicable and non-communicable diseases, their prevention, and basic first aid for common injuries and emergencies.",
+      "topics": [
+        { "slug": "diseases", "name": "Communicable and non-communicable diseases" },
+        { "slug": "first-aid", "name": "First aid" }
+      ]
+    },
+    {
+      "slug": "food-production",
+      "name": "Food Production",
+      "order": 9,
+      "summary": "Deals with crop production practices such as soil preparation, irrigation, manuring and crop rotation, and with animal husbandry.",
+      "topics": [
+        { "slug": "crop-production", "name": "Crop production and management" },
+        { "slug": "animal-husbandry", "name": "Animal husbandry" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "icse-8-biology-001",
+      "chapter": "transportation-in-plants",
+      "topic": "xylem-and-phloem",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Food prepared in the leaves is carried to other parts of the plant by the:",
+      "options": ["Xylem", "Phloem", "Stomata", "Root hairs"],
+      "correctOption": 1,
+      "answer": "Phloem.",
+      "explanation": "Xylem carries water and minerals upward from the roots; phloem carries food in both directions."
+    },
+    {
+      "key": "icse-8-biology-002",
+      "chapter": "transportation-in-plants",
+      "topic": "transpiration",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Define transpiration. State two ways in which it is useful to the plant.",
+      "answer": "Transpiration is the loss of water in the form of water vapour from the aerial parts of a plant, mainly through the stomata of leaves. Uses (any two): it creates a pull (transpiration pull) that helps in the upward movement of water and minerals; it cools the leaves; it helps in the distribution of minerals throughout the plant. [1 + 1]"
+    },
+    {
+      "key": "icse-8-biology-003",
+      "chapter": "reproduction-in-plants",
+      "topic": "asexual-reproduction",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Growing a new plant from a vegetative part such as a stem, root or leaf is called ____ propagation.",
+      "acceptedAnswers": ["vegetative"],
+      "answer": "Vegetative.",
+      "explanation": "Examples include potato (stem tuber), sweet potato (root) and Bryophyllum (leaf)."
+    },
+    {
+      "key": "icse-8-biology-004",
+      "chapter": "reproduction-in-plants",
+      "topic": "seed-dispersal",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Name the agent of dispersal and one feature that helps in dispersal for the seeds or fruits of: (a) cotton (b) coconut (c) Xanthium.",
+      "answer": "(a) Cotton – wind; the seeds have fine hairs that help them float in air. (b) Coconut – water; the fruit has a light, fibrous husk that helps it float. (c) Xanthium – animals; the fruit has hooks or spines that stick to the fur of animals and the clothes of people. [1 mark each]"
+    },
+    {
+      "key": "icse-8-biology-005",
+      "chapter": "reproduction-in-humans",
+      "topic": "reproductive-organs",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "In human males, sperms are produced in the:",
+      "options": ["Prostate gland", "Urethra", "Testes", "Seminal vesicle"],
+      "correctOption": 2,
+      "answer": "Testes.",
+      "explanation": "The prostate gland and seminal vesicles add fluids to the sperms; the urethra carries semen out of the body."
+    },
+    {
+      "key": "icse-8-biology-006",
+      "chapter": "reproduction-in-humans",
+      "topic": "fertilisation-and-development",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "(a) Name the organ in the human female where (i) ova are produced and (ii) the baby develops. (b) What is fertilisation? Where does it normally take place in the human female? (c) What is a zygote, and what does it develop into? (d) State one function of the placenta.",
+      "answer": "(a) (i) Ovary (ii) Uterus (womb). [1] (b) Fertilisation is the fusion of a male gamete (sperm) with a female gamete (ovum). It normally takes place in the oviduct (Fallopian tube). [1] (c) A zygote is the single cell formed by fertilisation; it divides repeatedly to form an embryo, which grows into a foetus. [1] (d) The placenta passes oxygen and nutrients from the mother's blood to the foetus and removes carbon dioxide and waste from the foetus. (Any one.) [1]"
+    },
+    {
+      "key": "icse-8-biology-007",
+      "chapter": "ecosystems",
+      "topic": "food-chains-and-webs",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "In a food chain, green plants are the:",
+      "options": ["Producers", "Primary consumers", "Decomposers", "Secondary consumers"],
+      "correctOption": 0,
+      "answer": "Producers.",
+      "explanation": "Green plants make their own food by photosynthesis and form the first trophic level."
+    },
+    {
+      "key": "icse-8-biology-008",
+      "chapter": "ecosystems",
+      "topic": "energy-flow",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "(a) State the ten per cent law of energy transfer. (b) Explain why a food chain usually has only four or five trophic levels.",
+      "answer": "(a) Only about 10% of the energy at one trophic level is passed on to the next trophic level; the rest is used for life processes or lost as heat. [1] (b) Since only about one-tenth of the energy is passed on at each step, the energy available decreases sharply at every higher level. After four or five levels, too little energy remains to support another population of organisms, so food chains are short. [2]"
+    },
+    {
+      "key": "icse-8-biology-009",
+      "chapter": "endocrine-system-and-adolescence",
+      "topic": "endocrine-glands",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "The hormone ____, secreted by the testes, is responsible for the development of secondary sexual characters in boys.",
+      "acceptedAnswers": ["testosterone"],
+      "answer": "Testosterone.",
+      "explanation": "In girls, oestrogen from the ovaries plays the corresponding role."
+    },
+    {
+      "key": "icse-8-biology-010",
+      "chapter": "endocrine-system-and-adolescence",
+      "topic": "adolescence",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "State two changes that take place in boys and two changes that take place in girls during adolescence.",
+      "answer": "Boys (any two): growth of facial and body hair; voice becomes deeper (the voice box enlarges); shoulders broaden and muscles develop. Girls (any two): development of breasts; the hips become broader; menstruation begins. [½ mark each]"
+    },
+    {
+      "key": "icse-8-biology-011",
+      "chapter": "circulatory-system",
+      "topic": "blood",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "Which components of blood help in the clotting of blood at a wound?",
+      "options": ["Red blood cells", "White blood cells", "Plasma proteins only", "Platelets"],
+      "correctOption": 3,
+      "answer": "Platelets.",
+      "explanation": "Platelets (thrombocytes) release substances that start the clotting process, which also involves plasma proteins such as fibrinogen."
+    },
+    {
+      "key": "icse-8-biology-012",
+      "chapter": "circulatory-system",
+      "topic": "blood",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Give three differences between red blood cells and white blood cells.",
+      "answer": "(1) Mature human red blood cells have no nucleus; white blood cells have a nucleus. (2) Red blood cells contain haemoglobin and are red; white blood cells lack haemoglobin and are colourless. (3) Red blood cells carry oxygen; white blood cells fight infection. (4) Red blood cells are far more numerous than white blood cells. (5) Red blood cells are biconcave discs; white blood cells are irregular in shape. (Any three.)"
+    },
+    {
+      "key": "icse-8-biology-013",
+      "chapter": "nervous-system",
+      "topic": "brain-and-spinal-cord",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Name the part of the human brain that: (a) controls thinking, memory and intelligence (b) maintains balance of the body (c) controls heartbeat and breathing (d) controls hunger, thirst and body temperature.",
+      "answer": "(a) Cerebrum (b) Cerebellum (c) Medulla oblongata (d) Hypothalamus. [½ mark each]"
+    },
+    {
+      "key": "icse-8-biology-014",
+      "chapter": "diseases-and-first-aid",
+      "topic": "first-aid",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "(a) Differentiate between communicable and non-communicable diseases, giving one example of each. (b) State the first aid to be given for: (i) a minor burn (ii) a nosebleed (iii) a dog bite.",
+      "answer": "(a) Communicable diseases are caused by pathogens and can spread from one person to another, e.g. tuberculosis or cholera. Non-communicable diseases do not spread from person to person, e.g. diabetes or heart disease. [1] (b) (i) Minor burn: hold the burnt part under cool running water for several minutes; do not apply ice, butter or toothpaste; cover loosely with a clean cloth and do not burst blisters. [1] (ii) Nosebleed: make the person sit up and lean slightly forward; pinch the soft part of the nose for about ten minutes and ask them to breathe through the mouth; a cold compress may be placed on the nose. [1] (iii) Dog bite: wash the wound thoroughly with soap and running water for several minutes, apply an antiseptic, and take the person to a doctor at once for anti-rabies treatment. [1]"
+    },
+    {
+      "key": "icse-8-biology-015",
+      "chapter": "food-production",
+      "topic": "crop-production",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Differentiate between kharif crops and rabi crops, giving one example of each.",
+      "answer": "Kharif crops are sown at the start of the rainy season (around June–July) and harvested around September–October, e.g. rice, maize or cotton. Rabi crops are sown in winter (around October–November) and harvested in spring (around March–April), e.g. wheat, gram or mustard. [1 mark each]"
+    },
+    {
+      "key": "icse-8-biology-016",
+      "chapter": "food-production",
+      "topic": "crop-production",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "(a) What is animal husbandry? (b) Name two breeds of cattle kept for high milk yield. (c) What is crop rotation? How does it help the soil? (d) Name two modern methods of irrigation that save water. (e) State one advantage of using manure instead of chemical fertilisers.",
+      "answer": "(a) Animal husbandry is the branch of agriculture that deals with the feeding, breeding, shelter and care of domestic animals such as cattle, poultry and fish. [1] (b) Any two: Sahiwal, Red Sindhi, Gir (Indian breeds); Jersey, Holstein-Friesian (exotic breeds). [1] (c) Crop rotation is growing different crops one after another on the same field in a planned sequence, for example a cereal followed by a leguminous crop. Leguminous crops have nitrogen-fixing bacteria in their root nodules, which restore nitrogen to the soil and maintain fertility; it also helps control pests. [1] (d) Sprinkler irrigation and drip irrigation. [1] (e) Manure adds humus to the soil, improves soil texture and water-holding capacity, and does not pollute soil and water. (Any one.) [1]"
+    }
+  ]
+}

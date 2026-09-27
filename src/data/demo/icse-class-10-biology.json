@@ -1,0 +1,594 @@
+{
+  "board": "icse",
+  "class": 10,
+  "subject": {
+    "slug": "biology",
+    "name": "Biology",
+    "overview": "ICSE Class 10 Biology starts with the cell cycle, mitosis, meiosis and chromosome structure, then moves to Mendelian genetics and sex-linked inheritance. Plant physiology covers absorption of water by roots, transpiration, photosynthesis and plant hormones. Human anatomy and physiology forms the largest part: the circulatory, excretory, nervous and endocrine systems, the eye and ear, and the reproductive system with pregnancy. The course ends with human evolution, population and pollution. Students are expected to draw and label diagrams accurately, explain experiments step by step, work out genetic crosses, and give precise definitions and reasons using the correct biological terms.",
+    "studyTips": [
+      "Practise labelled diagrams of the nephron, heart, eye, ear, neuron and mitosis stages until you can draw them quickly from memory with correct label lines.",
+      "Solve monohybrid, dihybrid and sex-linked crosses with a Punnett square every time, and always write the gametes, genotypes and ratios separately.",
+      "For each plant physiology experiment, learn the aim, set-up, control, observation and conclusion as a fixed five-part sequence.",
+      "Keep a table of hormones listing gland, hormone, function, and the disorder caused by too little or too much secretion.",
+      "When answering 'give reasons' questions, name the process or structure first and then state its cause and effect in one or two clear sentences."
+    ]
+  },
+  "chapters": [
+    {
+      "slug": "cell-cycle-and-cell-division",
+      "name": "Cell Cycle, Cell Division and Structure of Chromosomes",
+      "order": 1,
+      "summary": "Describes interphase and the stages of mitosis and meiosis, cytokinesis in plant and animal cells, and the structure of chromosomes, DNA and genes.",
+      "topics": [
+        { "slug": "cell-cycle", "name": "Cell cycle and interphase" },
+        { "slug": "mitosis", "name": "Mitosis and cytokinesis" },
+        { "slug": "meiosis", "name": "Meiosis and its significance" },
+        { "slug": "chromosome-structure", "name": "Structure of chromosomes, DNA and genes" }
+      ]
+    },
+    {
+      "slug": "genetics",
+      "name": "Genetics",
+      "order": 2,
+      "summary": "Covers Mendel's experiments and laws, monohybrid and dihybrid crosses, sex determination in humans and sex-linked inheritance such as colour blindness and haemophilia.",
+      "topics": [
+        { "slug": "mendels-laws", "name": "Mendel's laws and genetic terms" },
+        { "slug": "monohybrid-cross", "name": "Monohybrid cross and test cross" },
+        { "slug": "dihybrid-cross", "name": "Dihybrid cross" },
+        { "slug": "sex-linked-inheritance", "name": "Sex determination and sex-linked inheritance" }
+      ]
+    },
+    {
+      "slug": "absorption-by-roots",
+      "name": "Absorption by Roots",
+      "order": 3,
+      "summary": "Explains how root hairs absorb water and minerals through diffusion, osmosis and active transport, and how water moves upward by root pressure and transpiration pull.",
+      "topics": [
+        { "slug": "root-hair-structure", "name": "Root hair and its adaptations" },
+        { "slug": "osmosis-and-diffusion", "name": "Diffusion, osmosis, plasmolysis and imbibition" },
+        { "slug": "ascent-of-sap", "name": "Root pressure and ascent of sap" }
+      ]
+    },
+    {
+      "slug": "transpiration",
+      "name": "Transpiration",
+      "order": 4,
+      "summary": "Deals with the loss of water vapour from aerial parts of plants, its types, the factors affecting its rate, its significance, and related processes such as guttation.",
+      "topics": [
+        { "slug": "types-of-transpiration", "name": "Types and mechanism of transpiration" },
+        { "slug": "factors-affecting-transpiration", "name": "Factors affecting transpiration" },
+        { "slug": "guttation-and-bleeding", "name": "Guttation and bleeding" }
+      ]
+    },
+    {
+      "slug": "photosynthesis",
+      "name": "Photosynthesis",
+      "order": 5,
+      "summary": "Covers the raw materials, conditions and products of photosynthesis, the light and dark reactions, and experiments showing the need for light, chlorophyll and carbon dioxide.",
+      "topics": [
+        { "slug": "overview-and-equation", "name": "Raw materials, products and equation" },
+        { "slug": "light-and-dark-reactions", "name": "Light-dependent and light-independent reactions" },
+        { "slug": "experiments", "name": "Experiments on photosynthesis" }
+      ]
+    },
+    {
+      "slug": "chemical-coordination-in-plants",
+      "name": "Chemical Coordination in Plants",
+      "order": 6,
+      "summary": "Describes plant growth regulators such as auxins, gibberellins, cytokinins, abscisic acid and ethylene, and tropic movements in response to stimuli.",
+      "topics": [
+        { "slug": "auxins", "name": "Auxins" },
+        { "slug": "other-plant-hormones", "name": "Gibberellins, cytokinins, abscisic acid and ethylene" },
+        { "slug": "tropisms", "name": "Tropic movements" }
+      ]
+    },
+    {
+      "slug": "circulatory-system",
+      "name": "The Circulatory System",
+      "order": 7,
+      "summary": "Covers the composition of blood, blood groups, structure and working of the heart, blood vessels, double circulation and the lymphatic system.",
+      "topics": [
+        { "slug": "blood-composition", "name": "Blood, its components and blood groups" },
+        { "slug": "heart", "name": "Structure and working of the heart" },
+        { "slug": "blood-vessels", "name": "Arteries, veins and capillaries" },
+        { "slug": "lymphatic-system", "name": "Lymph and the lymphatic system" }
+      ]
+    },
+    {
+      "slug": "excretory-system",
+      "name": "The Excretory System",
+      "order": 8,
+      "summary": "Explains the human urinary system, the structure of the kidney and nephron, the stages of urine formation and osmoregulation.",
+      "topics": [
+        { "slug": "kidney-structure", "name": "Kidney and nephron structure" },
+        { "slug": "urine-formation", "name": "Formation of urine" },
+        { "slug": "osmoregulation", "name": "Osmoregulation" }
+      ]
+    },
+    {
+      "slug": "nervous-system",
+      "name": "The Nervous System",
+      "order": 9,
+      "summary": "Covers the structure of the neuron, parts and functions of the brain and spinal cord, and reflex actions and the reflex arc.",
+      "topics": [
+        { "slug": "neuron", "name": "Neuron and nerve impulse" },
+        { "slug": "brain-and-spinal-cord", "name": "Brain and spinal cord" },
+        { "slug": "reflex-action", "name": "Reflex action and reflex arc" }
+      ]
+    },
+    {
+      "slug": "sense-organs",
+      "name": "Sense Organs",
+      "order": 10,
+      "summary": "Describes the structure and working of the human eye and ear, defects of vision and their correction, and the role of the ear in hearing and balance.",
+      "topics": [
+        { "slug": "eye", "name": "Structure and working of the eye" },
+        { "slug": "eye-defects", "name": "Defects of the eye and their correction" },
+        { "slug": "ear", "name": "Structure and functions of the ear" }
+      ]
+    },
+    {
+      "slug": "endocrine-system",
+      "name": "The Endocrine System",
+      "order": 11,
+      "summary": "Covers the major endocrine glands, the hormones they secrete, their functions, and disorders caused by hypo- and hypersecretion.",
+      "topics": [
+        { "slug": "pituitary", "name": "Pituitary gland" },
+        { "slug": "thyroid-and-adrenal", "name": "Thyroid and adrenal glands" },
+        { "slug": "pancreas", "name": "Islets of Langerhans (pancreas)" },
+        { "slug": "hormonal-disorders", "name": "Hormonal disorders" }
+      ]
+    },
+    {
+      "slug": "reproductive-system",
+      "name": "The Reproductive System",
+      "order": 12,
+      "summary": "Deals with the male and female reproductive organs, gametes, the menstrual cycle, fertilisation, implantation, and the role of the placenta during pregnancy.",
+      "topics": [
+        { "slug": "male-reproductive-system", "name": "Male reproductive system" },
+        { "slug": "female-reproductive-system", "name": "Female reproductive system" },
+        { "slug": "menstrual-cycle", "name": "Menstrual cycle" },
+        { "slug": "fertilisation-and-pregnancy", "name": "Fertilisation, implantation and pregnancy" }
+      ]
+    },
+    {
+      "slug": "human-evolution",
+      "name": "Human Evolution",
+      "order": 13,
+      "summary": "Covers theories of organic evolution by Lamarck and Darwin, evidences of evolution, and the main stages in the evolution of modern humans.",
+      "topics": [
+        { "slug": "theories-of-evolution", "name": "Theories of evolution" },
+        { "slug": "evidences-of-evolution", "name": "Evidences of evolution" },
+        { "slug": "human-ancestors", "name": "Evolution of man" }
+      ]
+    },
+    {
+      "slug": "population",
+      "name": "Population",
+      "order": 14,
+      "summary": "Explains causes and consequences of rapid population growth and the methods used to control population.",
+      "topics": [
+        { "slug": "population-growth", "name": "Population growth and its causes" },
+        { "slug": "population-control", "name": "Methods of population control" }
+      ]
+    },
+    {
+      "slug": "pollution",
+      "name": "Pollution",
+      "order": 15,
+      "summary": "Covers the sources, effects and control of air, water, soil, noise and radioactive pollution, including acid rain, global warming and ozone depletion.",
+      "topics": [
+        { "slug": "air-pollution", "name": "Air pollution, acid rain and ozone depletion" },
+        { "slug": "water-and-soil-pollution", "name": "Water and soil pollution" },
+        { "slug": "noise-and-radioactive-pollution", "name": "Noise and radioactive pollution" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "icse-10-biology-001",
+      "chapter": "cell-cycle-and-cell-division",
+      "topic": "mitosis",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "During which stage of mitosis do the chromosomes line up along the equatorial plane of the spindle?",
+      "options": ["Prophase", "Metaphase", "Anaphase", "Telophase"],
+      "correctOption": 1,
+      "answer": "Metaphase.",
+      "explanation": "In metaphase the centromeres of all chromosomes attach to spindle fibres and arrange themselves on the equatorial plate."
+    },
+    {
+      "key": "icse-10-biology-002",
+      "chapter": "cell-cycle-and-cell-division",
+      "topic": "meiosis",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Give three differences between mitosis and meiosis.",
+      "answer": "(1) Mitosis occurs in somatic (body) cells; meiosis occurs in reproductive (germ) cells to form gametes. (2) Mitosis involves one division and forms two daughter cells; meiosis involves two successive divisions and forms four daughter cells. (3) Daughter cells of mitosis are diploid and genetically identical to the parent cell; daughter cells of meiosis are haploid and genetically different because of crossing over. (Any three.)",
+      "explanation": "Meiosis halves the chromosome number so that it is restored when gametes fuse at fertilisation."
+    },
+    {
+      "key": "icse-10-biology-003",
+      "chapter": "cell-cycle-and-cell-division",
+      "topic": "cell-cycle",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "(a) What is meant by the cell cycle? Name the three sub-stages of interphase. (b) Briefly describe the structure of a chromosome as seen at metaphase. (c) How does cytokinesis in a plant cell differ from that in an animal cell?",
+      "answer": "(a) The cell cycle is the sequence of events by which a cell grows, duplicates its DNA and divides into two daughter cells; it consists of interphase and the mitotic (M) phase. Interphase has G1 (growth), S (synthesis/replication of DNA) and G2 (preparation for division) stages. [1.5] (b) At metaphase each chromosome consists of two identical sister chromatids joined at the centromere; each chromatid contains a DNA molecule coiled around histone proteins, and genes are segments of this DNA. [1] (c) In animal cells, cytokinesis occurs by furrowing: a cleavage furrow forms at the cell surface and deepens inward until the cell splits. In plant cells, a cell plate forms in the middle (from Golgi-derived vesicles) and grows outward to the walls, because the rigid cell wall does not allow furrowing. [1.5]"
+    },
+    {
+      "key": "icse-10-biology-004",
+      "chapter": "genetics",
+      "topic": "mendels-laws",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Alternative forms of a gene that occupy the same position on a pair of homologous chromosomes are called ____.",
+      "acceptedAnswers": ["alleles", "allele", "allelomorphs"],
+      "answer": "Alleles (allelomorphs).",
+      "explanation": "For example, T (tall) and t (dwarf) are alleles of the gene for height in pea plants."
+    },
+    {
+      "key": "icse-10-biology-005",
+      "chapter": "genetics",
+      "topic": "dihybrid-cross",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "When pure round-yellow seeded pea plants are crossed with wrinkled-green seeded plants, the phenotypic ratio obtained in the F2 generation is:",
+      "options": ["3 : 1", "1 : 2 : 1", "9 : 3 : 3 : 1", "1 : 1 : 1 : 1"],
+      "correctOption": 2,
+      "answer": "9 : 3 : 3 : 1.",
+      "explanation": "The ratio is 9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green, showing independent assortment."
+    },
+    {
+      "key": "icse-10-biology-006",
+      "chapter": "genetics",
+      "topic": "monohybrid-cross",
+      "type": "NUMERICAL",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "A pure tall pea plant (TT) is crossed with a dwarf pea plant (tt). The F1 plants are self-pollinated and 800 F2 plants are obtained. How many of the F2 plants are expected to be dwarf?",
+      "numericAnswer": 200,
+      "tolerance": 0,
+      "unit": "plants",
+      "answer": "F1 plants are all Tt (tall). Selfing Tt × Tt gives TT : Tt : tt = 1 : 2 : 1, i.e. a phenotypic ratio of 3 tall : 1 dwarf. Dwarf plants = 1/4 × 800 = 200 plants.",
+      "explanation": "Only the homozygous recessive genotype (tt) shows the dwarf phenotype."
+    },
+    {
+      "key": "icse-10-biology-007",
+      "chapter": "genetics",
+      "topic": "sex-linked-inheritance",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "A colour-blind man marries a woman with normal vision who is not a carrier. (a) What proportion of their sons will be colour-blind? (b) What proportion of their daughters will be carriers? (c) Give a reason for your answers.",
+      "answer": "(a) None (0%) of the sons will be colour-blind. (b) All (100%) of the daughters will be carriers with normal vision. (c) Colour blindness is caused by a recessive gene on the X chromosome. The father (XᶜY) passes his X chromosome only to daughters and his Y chromosome to sons. Sons receive their X from the normal mother (XX), so they are normal (XY). Daughters receive Xᶜ from the father and a normal X from the mother, so they are carriers (XXᶜ).",
+      "explanation": "Cross: XᶜY × XX gives XXᶜ (carrier daughters) and XY (normal sons)."
+    },
+    {
+      "key": "icse-10-biology-008",
+      "chapter": "genetics",
+      "topic": "monohybrid-cross",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "HARD",
+      "text": "(a) Define a dominant trait. (b) A homozygous tall pea plant is crossed with a homozygous dwarf pea plant. Using a Punnett square, show the result of selfing the F1 plants and state the phenotypic and genotypic ratios of the F2 generation. (c) State Mendel's law of segregation. (d) What is a test cross? Why is it performed?",
+      "answer": "(a) A dominant trait is the one that expresses itself in the F1 hybrid (heterozygous condition) and masks the effect of its alternative (recessive) allele. [1] (b) Parents: TT × tt; gametes T and t; F1: Tt (all tall). Selfing Tt × Tt, gametes T, t from each parent. Punnett square: TT, Tt, Tt, tt. Phenotypic ratio 3 tall : 1 dwarf; genotypic ratio 1 TT : 2 Tt : 1 tt. [2] (c) Law of segregation: the two alleles of a gene remain together in the hybrid but separate (segregate) during gamete formation, so that each gamete receives only one allele. [1] (d) A test cross is a cross between an organism showing the dominant phenotype and a homozygous recessive individual (e.g. tall plant × tt). It is performed to find out whether the dominant-looking individual is homozygous (TT, all offspring tall) or heterozygous (Tt, offspring tall and dwarf in 1 : 1 ratio). [1]"
+    },
+    {
+      "key": "icse-10-biology-009",
+      "chapter": "absorption-by-roots",
+      "topic": "osmosis-and-diffusion",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Water enters the root hair cells from the soil mainly by:",
+      "options": ["Osmosis", "Transpiration", "Guttation", "Plasmolysis"],
+      "correctOption": 0,
+      "answer": "Osmosis.",
+      "explanation": "Cell sap of root hairs is more concentrated than soil water, so water moves in across the selectively permeable cell membrane."
+    },
+    {
+      "key": "icse-10-biology-010",
+      "chapter": "absorption-by-roots",
+      "topic": "root-hair-structure",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Give reasons: (a) Plants wilt when too much chemical fertiliser is added to the soil around them. (b) Root hairs are well suited for absorbing water.",
+      "answer": "(a) Excess fertiliser makes the soil solution more concentrated (hypertonic) than the cell sap of root cells, so water moves out of the root cells by exosmosis instead of entering; the cells become plasmolysed and the plant wilts. [1] (b) Root hairs are numerous, long and thin-walled, giving a very large surface area; they grow between soil particles in contact with capillary water, and their cell sap is more concentrated than soil water, which favours entry of water by osmosis. [1]"
+    },
+    {
+      "key": "icse-10-biology-011",
+      "chapter": "transpiration",
+      "topic": "types-of-transpiration",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The loss of water in the form of vapour through the stomata of leaves is called ____ transpiration.",
+      "acceptedAnswers": ["stomatal", "stomatal transpiration"],
+      "answer": "Stomatal.",
+      "explanation": "Most transpiration is stomatal; the rest is cuticular or lenticular."
+    },
+    {
+      "key": "icse-10-biology-012",
+      "chapter": "transpiration",
+      "topic": "factors-affecting-transpiration",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Explain how each of the following affects the rate of transpiration: (a) high atmospheric humidity (b) wind (c) bright light.",
+      "answer": "(a) High humidity decreases the rate, because the air already contains much water vapour, which reduces the diffusion gradient between the leaf and the air. (b) Wind increases the rate, because it removes the water vapour that collects near the leaf surface and maintains a steep diffusion gradient. (c) Bright light increases the rate, because stomata open in light and the leaf is warmed, which increases evaporation."
+    },
+    {
+      "key": "icse-10-biology-013",
+      "chapter": "photosynthesis",
+      "topic": "light-and-dark-reactions",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "MEDIUM",
+      "text": "The oxygen released during photosynthesis comes from:",
+      "options": ["Carbon dioxide", "Glucose", "Chlorophyll", "Water"],
+      "correctOption": 3,
+      "answer": "Water.",
+      "explanation": "During the light reaction, water is split by light energy (photolysis), releasing oxygen as a by-product."
+    },
+    {
+      "key": "icse-10-biology-014",
+      "chapter": "photosynthesis",
+      "topic": "overview-and-equation",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Write a balanced chemical equation for photosynthesis and name its two raw materials.",
+      "answer": "6CO₂ + 12H₂O → (in presence of sunlight and chlorophyll) → C₆H₁₂O₆ + 6H₂O + 6O₂. The raw materials are carbon dioxide and water.",
+      "explanation": "Writing 12H₂O on the left and 6H₂O on the right shows that all the oxygen released comes from water."
+    },
+    {
+      "key": "icse-10-biology-015",
+      "chapter": "photosynthesis",
+      "topic": "experiments",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "An experiment is to be set up to show that carbon dioxide is necessary for photosynthesis. (a) Why and how is the plant destarched first? (b) Describe the set-up. (c) State the observation when the leaf is tested with iodine. (d) What conclusion is drawn?",
+      "answer": "(a) The potted plant is kept in the dark for about 48 hours so that all the starch already present in the leaves is used up; this ensures that any starch found later was made during the experiment. [1] (b) Part of one leaf is inserted through a split cork into a wide-mouthed bottle containing potassium hydroxide solution, which absorbs carbon dioxide; the rest of the leaf stays outside in air. The plant is then kept in sunlight for a few hours. [1] (c) The leaf is boiled in water, then in alcohol to remove chlorophyll, and tested with iodine. The part inside the bottle stays brown (no starch), while the part outside turns blue-black (starch present). [1] (d) Carbon dioxide is necessary for photosynthesis. [1]"
+    },
+    {
+      "key": "icse-10-biology-016",
+      "chapter": "chemical-coordination-in-plants",
+      "topic": "other-plant-hormones",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Which plant hormone is a gas and promotes the ripening of fruits?",
+      "options": ["Auxin", "Gibberellin", "Ethylene", "Cytokinin"],
+      "correctOption": 2,
+      "answer": "Ethylene.",
+      "explanation": "Ethylene is a gaseous hormone; it is used commercially to ripen fruits such as bananas and mangoes."
+    },
+    {
+      "key": "icse-10-biology-017",
+      "chapter": "chemical-coordination-in-plants",
+      "topic": "other-plant-hormones",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Name the plant hormone mainly responsible for each of the following: (a) apical dominance (b) closure of stomata during water stress (c) promoting cell division (d) bolting, i.e. sudden elongation of the stem in rosette plants.",
+      "answer": "(a) Auxin (b) Abscisic acid (ABA) (c) Cytokinin (d) Gibberellin (gibberellic acid). [½ mark each]"
+    },
+    {
+      "key": "icse-10-biology-018",
+      "chapter": "circulatory-system",
+      "topic": "heart",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+      "options": ["Pulmonary artery", "Pulmonary vein", "Aorta", "Superior vena cava"],
+      "correctOption": 1,
+      "answer": "Pulmonary vein.",
+      "explanation": "Pulmonary veins are the only veins in the adult body that carry oxygenated blood; they open into the left atrium."
+    },
+    {
+      "key": "icse-10-biology-019",
+      "chapter": "circulatory-system",
+      "topic": "blood-vessels",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Give three differences between arteries and veins.",
+      "answer": "(1) Arteries carry blood away from the heart; veins carry blood towards the heart. (2) Arteries have thick, muscular and elastic walls with a narrow lumen; veins have thinner walls with a wider lumen. (3) Arteries have no valves along their length; veins have valves that prevent backflow of blood. (4) Blood in arteries flows under high pressure in spurts; blood in veins flows under low pressure smoothly. (5) Arteries generally carry oxygenated blood (except the pulmonary artery); veins generally carry deoxygenated blood (except the pulmonary veins). (Any three.)"
+    },
+    {
+      "key": "icse-10-biology-020",
+      "chapter": "circulatory-system",
+      "topic": "heart",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "HARD",
+      "text": "(a) Trace the path of blood from the right atrium until it reaches the left atrium, naming the valves it passes through. (b) Why is the wall of the left ventricle thicker than that of the right ventricle? (c) What is meant by double circulation? (d) Name the pacemaker of the heart.",
+      "answer": "(a) Right atrium → tricuspid valve → right ventricle → pulmonary semilunar valve → pulmonary artery → lungs (blood is oxygenated in lung capillaries) → pulmonary veins → left atrium. [1.5] (b) The left ventricle pumps blood through the aorta to all parts of the body, which needs much greater force, whereas the right ventricle pumps blood only to the nearby lungs. [1] (c) Double circulation means that blood passes through the heart twice during one complete round: once through the pulmonary circulation (heart–lungs–heart) and once through the systemic circulation (heart–body–heart). [1] (d) The sinoatrial (SA) node, located in the wall of the right atrium. [0.5]"
+    },
+    {
+      "key": "icse-10-biology-021",
+      "chapter": "excretory-system",
+      "topic": "kidney-structure",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "The structural and functional unit of the kidney is the:",
+      "options": ["Glomerulus", "Alveolus", "Neuron", "Nephron"],
+      "correctOption": 3,
+      "answer": "Nephron.",
+      "explanation": "Each kidney has about a million nephrons; the glomerulus is only one part of a nephron."
+    },
+    {
+      "key": "icse-10-biology-022",
+      "chapter": "excretory-system",
+      "topic": "urine-formation",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "Briefly explain the three steps involved in the formation of urine in the nephron.",
+      "answer": "(1) Ultrafiltration: in the glomerulus, blood is under high pressure because the afferent arteriole is wider than the efferent arteriole; water, glucose, salts, amino acids and urea are filtered into Bowman's capsule, while blood cells and large proteins remain in the blood. (2) Selective reabsorption: as the filtrate passes through the renal tubule, useful substances such as all the glucose, amino acids, much of the water and required salts are reabsorbed into the surrounding capillaries. (3) Tubular secretion: certain substances such as excess potassium and hydrogen ions and creatinine are actively secreted from the blood into the tubule. The remaining fluid is urine."
+    },
+    {
+      "key": "icse-10-biology-023",
+      "chapter": "nervous-system",
+      "topic": "brain-and-spinal-cord",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Which part of the brain maintains the balance and posture of the body?",
+      "options": ["Cerebellum", "Cerebrum", "Medulla oblongata", "Hypothalamus"],
+      "correctOption": 0,
+      "answer": "Cerebellum.",
+      "explanation": "The cerebellum coordinates muscular activity and maintains equilibrium."
+    },
+    {
+      "key": "icse-10-biology-024",
+      "chapter": "nervous-system",
+      "topic": "reflex-action",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "Define reflex action. Give one example.",
+      "answer": "A reflex action is a quick, automatic and involuntary response to a stimulus that does not involve conscious control by the brain (it is usually controlled by the spinal cord). Example: jerking the hand away on touching a hot object, or the knee jerk."
+    },
+    {
+      "key": "icse-10-biology-025",
+      "chapter": "nervous-system",
+      "topic": "reflex-action",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "(a) Trace, in the correct sequence, the pathway of the reflex arc when a person's hand accidentally touches a hot object. (b) Differentiate between a natural (unconditioned) reflex and a conditioned reflex, giving one example of each. (c) State one function of the medulla oblongata.",
+      "answer": "(a) Receptor (heat/pain receptors in the skin) → sensory neuron → spinal cord (relay/interneuron) → motor neuron → effector (muscles of the arm) → hand is withdrawn. [2] (b) A natural reflex is inborn and does not need learning, e.g. blinking when an object comes near the eye, or sneezing. A conditioned reflex is acquired through learning and repeated experience, e.g. applying the brakes on seeing a red traffic light, or typing without looking at the keyboard. [1] (c) The medulla oblongata controls involuntary activities such as heartbeat, breathing, swallowing, coughing and vomiting (any one). [1]"
+    },
+    {
+      "key": "icse-10-biology-026",
+      "chapter": "sense-organs",
+      "topic": "eye-defects",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "Myopia (short-sightedness) can be corrected by using spectacles with a:",
+      "options": ["Convex lens", "Cylindrical lens", "Concave lens", "Bifocal lens"],
+      "correctOption": 2,
+      "answer": "Concave lens.",
+      "explanation": "In myopia the image of distant objects forms in front of the retina; a concave (diverging) lens moves it back onto the retina."
+    },
+    {
+      "key": "icse-10-biology-027",
+      "chapter": "sense-organs",
+      "topic": "eye",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Give reasons: (a) On entering a dark room from bright sunlight, we cannot see clearly for some time. (b) Swallowing helps to relieve discomfort in the ears during an aircraft take-off.",
+      "answer": "(a) In bright light the pigment rhodopsin (visual purple) in the rod cells gets bleached; it takes some time to be re-formed in the dark, and the pupil also takes time to dilate, so vision in dim light improves gradually. [1] (b) Swallowing opens the Eustachian tube, which connects the middle ear to the throat; this equalises the air pressure on both sides of the tympanum (ear drum) and relieves the discomfort. [1]"
+    },
+    {
+      "key": "icse-10-biology-028",
+      "chapter": "endocrine-system",
+      "topic": "pituitary",
+      "type": "FILL_BLANK",
+      "marks": 1,
+      "difficulty": "HARD",
+      "text": "The hormone released from the posterior pituitary that increases reabsorption of water in the kidney tubules and so reduces the volume of urine is ____.",
+      "acceptedAnswers": ["adh", "antidiuretic hormone", "anti-diuretic hormone", "vasopressin"],
+      "answer": "Antidiuretic hormone (ADH), also called vasopressin.",
+      "explanation": "ADH is produced in the hypothalamus and stored and released by the posterior pituitary; its deficiency causes diabetes insipidus."
+    },
+    {
+      "key": "icse-10-biology-029",
+      "chapter": "endocrine-system",
+      "topic": "hormonal-disorders",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "MEDIUM",
+      "text": "Name the endocrine gland and the hormone whose deficiency causes each of the following: (a) cretinism (b) diabetes mellitus (c) dwarfism.",
+      "answer": "(a) Thyroid gland – thyroxine (deficiency in childhood). (b) Pancreas (islets of Langerhans, beta cells) – insulin. (c) Pituitary gland (anterior lobe) – growth hormone (somatotropin), deficiency in childhood. [1 mark each]"
+    },
+    {
+      "key": "icse-10-biology-030",
+      "chapter": "reproductive-system",
+      "topic": "fertilisation-and-pregnancy",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "EASY",
+      "text": "In human females, fertilisation normally takes place in the:",
+      "options": ["Fallopian tube", "Uterus", "Ovary", "Vagina"],
+      "correctOption": 0,
+      "answer": "Fallopian tube (oviduct).",
+      "explanation": "The ovum released from the ovary meets the sperm in the upper part of the Fallopian tube; the zygote then moves to the uterus for implantation."
+    },
+    {
+      "key": "icse-10-biology-031",
+      "chapter": "reproductive-system",
+      "topic": "fertilisation-and-pregnancy",
+      "type": "LONG_ANSWER",
+      "marks": 4,
+      "difficulty": "MEDIUM",
+      "text": "(a) State two functions of the placenta. (b) What is the role of the amniotic fluid? (c) Name the hormone secreted by the corpus luteum and state its function. (d) What is menopause?",
+      "answer": "(a) The placenta allows exchange of materials between mother and foetus: oxygen and nutrients pass from mother's blood to the foetus, and carbon dioxide and wastes pass from the foetus to the mother's blood. It also secretes hormones (such as progesterone) that maintain pregnancy. (Any two.) [1] (b) Amniotic fluid protects the foetus from mechanical shocks, keeps its temperature steady, prevents it from drying and allows free movement. [1] (c) Progesterone; it maintains the thickened, vascular lining of the uterus for implantation and pregnancy. [1] (d) Menopause is the permanent stopping of ovulation and menstruation in a woman, usually around the age of 45–50 years. [1]"
+    },
+    {
+      "key": "icse-10-biology-032",
+      "chapter": "human-evolution",
+      "topic": "evidences-of-evolution",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "Differentiate between homologous organs and analogous organs, giving one example of each.",
+      "answer": "Homologous organs have the same basic structure and origin but perform different functions, e.g. the forelimb of a human, the flipper of a whale and the wing of a bat. Analogous organs have different basic structure and origin but perform similar functions, e.g. the wings of an insect and the wings of a bird. [1 mark each]",
+      "explanation": "Homologous organs indicate common ancestry (divergent evolution)."
+    },
+    {
+      "key": "icse-10-biology-033",
+      "chapter": "human-evolution",
+      "topic": "theories-of-evolution",
+      "type": "SHORT_ANSWER",
+      "marks": 3,
+      "difficulty": "HARD",
+      "text": "(a) State four main points of Darwin's theory of natural selection. (b) Why is Lamarck's idea of inheritance of acquired characters not generally accepted?",
+      "answer": "(a) (1) Over-production: organisms produce far more offspring than can survive. (2) Struggle for existence: there is competition for food, space and mates. (3) Variation: individuals differ from one another and some variations are inherited. (4) Survival of the fittest (natural selection): individuals with favourable variations survive and reproduce, passing these variations on; over many generations this leads to new species. [2] (b) Characters acquired during an individual's lifetime (for example, muscles developed by exercise) affect only body cells and not the genes in the gametes, so they are not passed to the offspring. Weismann cut off the tails of mice for many generations, yet the offspring were always born with normal tails. [1]"
+    },
+    {
+      "key": "icse-10-biology-034",
+      "chapter": "population",
+      "topic": "population-control",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "EASY",
+      "text": "State two reasons for the rapid growth of the human population in India and two methods of controlling it.",
+      "answer": "Reasons (any two): fall in death rate due to better medical facilities and vaccination; lack of awareness and illiteracy; early marriage; preference for a male child. Methods (any two): spreading awareness about small families; use of contraceptive methods (barrier methods, oral pills, IUDs); raising the age of marriage; surgical methods such as vasectomy and tubectomy. [½ mark each]"
+    },
+    {
+      "key": "icse-10-biology-035",
+      "chapter": "pollution",
+      "topic": "water-and-soil-pollution",
+      "type": "SHORT_ANSWER",
+      "marks": 2,
+      "difficulty": "MEDIUM",
+      "text": "What is biomagnification? Name one pollutant that shows biomagnification.",
+      "answer": "Biomagnification is the progressive increase in the concentration of a non-biodegradable pollutant in organisms at successive trophic levels of a food chain. Example: DDT (or mercury). [1 + 1]",
+      "explanation": "Top consumers such as fish-eating birds accumulate the highest concentrations."
+    },
+    {
+      "key": "icse-10-biology-036",
+      "chapter": "pollution",
+      "topic": "air-pollution",
+      "type": "LONG_ANSWER",
+      "marks": 5,
+      "difficulty": "MEDIUM",
+      "text": "(a) Name two air pollutants present in vehicle exhaust and state one harmful effect of each. (b) What is acid rain? How is it formed? (c) State one harmful effect of depletion of the ozone layer and name the chemicals chiefly responsible for it. (d) Suggest two measures to reduce air pollution in cities.",
+      "answer": "(a) Carbon monoxide – combines with haemoglobin to form carboxyhaemoglobin, reducing the oxygen-carrying capacity of blood. Oxides of nitrogen – irritate the respiratory tract and contribute to smog and acid rain. (Unburnt hydrocarbons or particulate matter are also acceptable.) [2] (b) Acid rain is rain with a pH lower than normal (below about 5.6). It forms when sulphur dioxide and oxides of nitrogen released into the air dissolve in rainwater to form sulphuric acid and nitric acid. [1] (c) More ultraviolet radiation reaches the earth, causing skin cancer, cataract and damage to crops (any one). The main chemicals responsible are chlorofluorocarbons (CFCs). [1] (d) Use of CNG or electric vehicles; fitting catalytic converters; greater use of public transport; planting trees; using filters or electrostatic precipitators in factory chimneys. (Any two.) [1]"
+    }
+  ]
+}

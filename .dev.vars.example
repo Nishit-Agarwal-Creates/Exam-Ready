@@ -1,0 +1,6 @@
+# Copy to .dev.vars for local development (read by Wrangler/OpenNext). Never commit .dev.vars.
+# Password for the /admin area. Use a long random value.
+ADMIN_PASSWORD=change-me-to-a-long-random-password
+# Secret used to sign the admin session cookie. Generate with:
+#   node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+SESSION_SECRET=replace-with-64-hex-characters

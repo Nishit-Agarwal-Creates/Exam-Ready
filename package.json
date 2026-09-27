@@ -1,0 +1,50 @@
+{
+  "name": "examready",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ExamReady: build exam practice papers from verified previous questions, practise online and review results.",
+  "scripts": {
+    "predev": "node scripts/db-setup.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:seed:build": "node scripts/build-seed.mjs",
+    "db:setup": "node scripts/db-setup.mjs",
+    "db:reset": "node scripts/db-setup.mjs --reset",
+    "db:migrate:remote": "wrangler d1 migrations apply DB --remote",
+    "db:seed:remote": "node scripts/build-seed.mjs && wrangler d1 execute DB --remote --file=drizzle/seed/seed.sql",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+  },
+  "dependencies": {
+    "@opennextjs/cloudflare": "^1.20.6",
+    "drizzle-orm": "^0.45.3",
+    "next": "16.3.6",
+    "pdf-lib": "^1.17.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260927.1",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.20.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "drizzle-kit": "^0.31.11",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.6",
+    "tailwindcss": "^4.3.3",
+    "typescript": "5.9.3",
+    "wrangler": "^4.141.0"
+  },
+  "engines": {
+    "node": ">=20.9"
+  }
+}
