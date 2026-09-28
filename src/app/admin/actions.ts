@@ -6,8 +6,14 @@ import { z } from "zod";
 import { getDb, schema } from "@/db";
 import { SOURCE_TYPES } from "@/db/schema";
 import { checkPassword, createAdminSession, destroyAdminSession, isAdminConfigured, requireAdmin } from "@/lib/auth";
+import { aiGeneratePractice, aiSuggestChapter } from "@/lib/ai/tasks";
+import { getSubjectByIdForAdmin } from "@/lib/data/taxonomy";
+import { contentHash } from "@/lib/text";
 import {
   addSourceLink,
+  rejectQuestions,
+  setCanonical,
+  verifyQuestions,
   createImportBatch,
   deletePaper,
   deleteQuestion,
@@ -153,6 +159,21 @@ export async function savePaperAction(fd: FormData) {
     paperType: str(fd, "paperType"),
     sourceUrl: str(fd, "sourceUrl"),
     sourceNotes: str(fd, "sourceNotes"),
+    authority: str(fd, "authority") || "OTHER",
+    authorityName: str(fd, "authorityName"),
+    examSession: str(fd, "examSession"),
+    paperName: str(fd, "paperName"),
+    paperCode: str(fd, "paperCode"),
+    setCode: str(fd, "setCode"),
+    seriesCode: str(fd, "seriesCode"),
+    region: str(fd, "region"),
+    language: str(fd, "language"),
+    sourceFile: str(fd, "sourceFile"),
+    answerSourceUrl: str(fd, "answerSourceUrl"),
+    pageCount: str(fd, "pageCount"),
+    maxMarks: str(fd, "maxMarks"),
+    durationMinutes: str(fd, "durationMinutes"),
+    status: str(fd, "status") || "IMPORTED",
   });
   const back = str(fd, "id") ? `/admin/papers?edit=${str(fd, "id")}` : "/admin/papers";
   if (!parsed.success) redirect(withMsg(back, "error", parsed.error.issues[0]?.message ?? "Check the paper details."));
@@ -180,7 +201,30 @@ export async function createImportAction(fd: FormData) {
   const title = str(fd, "title").trim().slice(0, 200) || "Pasted questions";
   if (!Number.isInteger(subjectId) || subjectId <= 0) redirect(withMsg("/admin/import", "error", "Choose a subject."));
   if (rawText.trim().length < 5) redirect(withMsg("/admin/import", "error", "Paste the question text to import."));
-  const res = await createImportBatch({ subjectId, paperId, title, rawText });
+  const method = str(fd, "extractionMethod");
+  const extractionMethod = method === "PDF_TEXT_LAYER" || method === "OCR" ? method : "PASTED_TEXT";
+  const ocr = Number(str(fd, "ocrConfidence"));
+  let pageConfidence: Record<number, number> | undefined;
+  try {
+    const raw = JSON.parse(str(fd, "pageConfidence") || "{}") as Record<string, unknown>;
+    pageConfidence = Object.fromEntries(
+      Object.entries(raw)
+        .filter(([k, v]) => Number.isInteger(Number(k)) && typeof v === "number" && v >= 0 && v <= 100)
+        .slice(0, 500)
+        .map(([k, v]) => [Number(k), v as number]),
+    );
+  } catch {
+    pageConfidence = undefined;
+  }
+  const res = await createImportBatch({
+    subjectId,
+    paperId,
+    title,
+    rawText,
+    extractionMethod,
+    ocrConfidence: extractionMethod === "OCR" && Number.isFinite(ocr) ? Math.min(Math.max(ocr, 0), 100) : null,
+    pageConfidence,
+  });
   if (!res.ok) redirect(withMsg("/admin/import", "error", res.error));
   redirect(withMsg(`/admin/import/${res.id}`, "saved", `${res.count} questions found. Review each one before publishing.`));
 }
@@ -202,9 +246,15 @@ export async function approveImportItemAction(fd: FormData) {
     topicId: "",
     questionType: str(fd, "questionType"),
     marks: str(fd, "marks"),
-    difficulty: str(fd, "difficulty") || "MEDIUM",
+    difficulty: str(fd, "difficulty") || "UNRATED",
     questionText: str(fd, "text"),
-    options: [],
+    options: (() => {
+      try {
+        return JSON.parse(item.options ?? "[]") as string[];
+      } catch {
+        return [];
+      }
+    })(),
     acceptedAnswers: "",
     numericValue: "",
     answerText: str(fd, "answerText"),
@@ -218,10 +268,8 @@ export async function approveImportItemAction(fd: FormData) {
     linkQuestionNumber: item.questionNumber ?? "",
   });
   if (!parsed.success) redirect(withMsg(`${back}#item-${itemId}`, "error", `Item ${item.position}: ${parsed.error.issues[0]?.message}`));
-  if (!["SHORT_ANSWER", "LONG_ANSWER"].includes(parsed.data.questionType)) {
-    redirect(
-      withMsg(back, "error", `Item ${item.position}: imported questions start as short or long answer. Change the type, and add options or answers, from the question's edit page.`),
-    );
+  if (["FILL_BLANK", "NUMERICAL"].includes(parsed.data.questionType)) {
+    redirect(withMsg(back, "error", `Item ${item.position}: add fill-in or numerical answer keys from the question's edit page after publishing it as a short answer.`));
   }
   const res = await saveQuestion(parsed.data, ACTOR);
   if (!res.ok) redirect(withMsg(`${back}#item-${itemId}`, "error", `Item ${item.position}: ${Object.values(res.errors)[0]}`));
@@ -244,4 +292,109 @@ export async function purgeDemoAction(fd: FormData) {
   const n = await purgeDemoData();
   revalidatePath("/", "layout");
   redirect(withMsg("/admin", "saved", `All demo questions and demo papers were deleted, along with ${n} generated papers that used them.`));
+}
+
+// ───────────── Review queue ─────────────
+
+const idList = (fd: FormData) =>
+  fd
+    .getAll("ids")
+    .map((v) => Number(v))
+    .filter((n) => Number.isInteger(n) && n > 0)
+    .slice(0, 200);
+
+export async function reviewAction(fd: FormData) {
+  await requireAdmin();
+  const back = str(fd, "back") || "/admin/review";
+  const ids = idList(fd);
+  const intent = str(fd, "intent");
+  if (!ids.length) redirect(withMsg(back, "error", "Select at least one question."));
+  if (intent === "reject") {
+    await rejectQuestions(ids, str(fd, "reason").trim() || "Rejected during review.");
+    revalidatePath("/", "layout");
+    redirect(withMsg(back, "saved", `${ids.length} question${ids.length === 1 ? "" : "s"} rejected.`));
+  }
+  if (fd.get("checked") !== "on") {
+    redirect(withMsg(back, "error", "Tick the box to confirm you compared these questions with the official document."));
+  }
+  const res = await verifyQuestions(ids, ACTOR, { publish: intent === "verify-publish", confirmMapping: fd.get("confirmMapping") === "on" });
+  revalidatePath("/", "layout");
+  const failed = res.failed.length ? ` ${res.failed.length} couldn't be verified: ${res.failed[0].reason}` : "";
+  redirect(withMsg(back, res.verified ? "saved" : "error", `${res.verified} verified${res.published ? ` and ${res.published} published` : ""}.${failed}`));
+}
+
+// ───────────── Duplicates ─────────────
+
+export async function setCanonicalAction(fd: FormData) {
+  await requireAdmin();
+  const questionId = Number(str(fd, "questionId"));
+  const raw = str(fd, "canonicalId").trim();
+  const canonicalId = raw === "" ? null : Number(raw);
+  const back = str(fd, "back") || "/admin/duplicates";
+  if (!Number.isInteger(questionId) || (canonicalId !== null && !Number.isInteger(canonicalId))) redirect(withMsg(back, "error", "Enter a valid question id."));
+  const err = await setCanonical(questionId, canonicalId);
+  redirect(err ? withMsg(back, "error", err) : withMsg(back, "saved", canonicalId ? `Question ${questionId} linked as a duplicate of ${canonicalId}.` : `Question ${questionId} is now its own question.`));
+}
+
+// ───────────── AI assistance (suggestions only) ─────────────
+
+export async function aiSuggestChapterAction(fd: FormData) {
+  await requireAdmin();
+  const id = Number(str(fd, "id"));
+  const back = `/admin/questions/${id}`;
+  const db = await getDb();
+  const [q] = await db.select().from(schema.questions).where(eq(schema.questions.id, id));
+  if (!q) redirect("/admin/questions");
+  const subject = await getSubjectByIdForAdmin(q.subjectId);
+  if (!subject || !subject.chapters.length) redirect(withMsg(back, "error", "This subject has no chapter list to choose from."));
+  const res = await aiSuggestChapter(q.questionText, subject.label, subject.chapters);
+  if (!res.ok) redirect(withMsg(back, "error", res.reason));
+  await db
+    .update(schema.questions)
+    .set({ chapterId: res.value.chapterId, mappingStatus: "SUGGESTED", mappingSource: "ai", updatedAt: new Date().toISOString() })
+    .where(eq(schema.questions.id, id));
+  redirect(withMsg(back, "saved", `AI suggested a chapter (${res.provider}): ${res.value.reason || "no reason given"}. It stays marked as a suggestion until you save the form.`));
+}
+
+export async function aiGeneratePracticeAction(fd: FormData) {
+  await requireAdmin();
+  const subjectId = Number(str(fd, "subjectId"));
+  const chapterId = Number(str(fd, "chapterId"));
+  const count = Number(str(fd, "count")) || 3;
+  const marks = Math.min(Math.max(Number(str(fd, "marks")) || 2, 1), 5);
+  const back = "/admin/ai";
+  const subject = await getSubjectByIdForAdmin(subjectId);
+  const chapter = subject?.chapters.find((c) => c.id === chapterId);
+  if (!subject || !chapter) redirect(withMsg(back, "error", "Choose a subject and one of its chapters."));
+  const res = await aiGeneratePractice({ subjectLabel: subject.label, chapterName: chapter.name, count, marks });
+  if (!res.ok) redirect(withMsg(back, "error", res.reason));
+  const db = await getDb();
+  const [ctx] = await db
+    .select({ classId: schema.subjects.classId, boardId: schema.classes.boardId })
+    .from(schema.subjects)
+    .innerJoin(schema.classes, eq(schema.subjects.classId, schema.classes.id))
+    .where(eq(schema.subjects.id, subjectId));
+  for (const item of res.value) {
+    await db.insert(schema.questions).values({
+      boardId: ctx.boardId,
+      classId: ctx.classId,
+      subjectId,
+      chapterId,
+      questionText: item.text,
+      questionType: marks >= 4 ? "LONG_ANSWER" : "SHORT_ANSWER",
+      marks,
+      difficulty: "UNRATED",
+      answerText: item.answer,
+      sourceType: "AI_SUPPLEMENTARY",
+      verificationStatus: "UNVERIFIED",
+      verificationNotes: `Generated by ${res.provider}. Draft: review the question and answer before publishing.`,
+      isPublished: false,
+      isDemo: false,
+      contentHash: await contentHash(item.text),
+      mappingStatus: "CONFIRMED",
+      mappingSource: "editor",
+      answerSource: "AI",
+    });
+  }
+  redirect(withMsg(back, "saved", `${res.value.length} AI practice draft${res.value.length === 1 ? "" : "s"} saved as unpublished. Review and publish them from Questions.`));
 }

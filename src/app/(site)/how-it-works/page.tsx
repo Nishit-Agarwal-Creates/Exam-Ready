@@ -54,6 +54,7 @@ export default function HowItWorksPage() {
                   ["OFFICIAL_SAMPLE", "stamp-official"],
                   ["USER_CONTRIBUTED", "stamp-contrib"],
                   ["AI_SUPPLEMENTARY", "stamp-ai"],
+                  ["PENDING_REVIEW", "stamp-pending"],
                 ] as const
               ).map(([k, cls]) => (
                 <div key={k} className="grid gap-2 sm:grid-cols-[11rem_1fr]">
@@ -73,16 +74,33 @@ export default function HowItWorksPage() {
               How verification works
             </h2>
             <ol className="mt-4 list-decimal space-y-3 pl-5">
-              <li>A source paper is added with its board, class, subject, year and, where possible, a link to the original.</li>
-              <li>Questions from that paper are entered or imported, then reviewed one by one by an editor.</li>
-              <li>Each question is linked to the paper and question number it came from.</li>
               <li>
-                Only then can it be marked <em>Verified PYQ</em>. The system refuses that label for any question without a linked board paper that has a year.
+                <strong>Source.</strong> The document comes from an official publisher where possible, for example the question papers and marking schemes
+                CBSE publishes on cbse.gov.in. Its URL, the file inside any archive, the year, question-paper code, set and a checksum are stored. See{" "}
+                <Link href="/sources" className="link">
+                  all sources
+                </Link>
+                .
+              </li>
+              <li>
+                <strong>Extraction.</strong> Questions are read from the document&apos;s text layer, or by OCR for scans, with the page, question number,
+                section and marks. Anything the text lost (a symbol, a figure, a table) is noted against the question, and OCR confidence is recorded.
+              </li>
+              <li>
+                <strong>Duplicates.</strong> The same question in another set or year is linked to one canonical question, so it is never counted twice.
+              </li>
+              <li>
+                <strong>Review.</strong> An editor compares each question with the official document. Chapter mappings suggested by keywords or AI are
+                confirmed or corrected at the same time.
+              </li>
+              <li>
+                <strong>Verified and published.</strong> Only then is it stamped <em>Verified PYQ</em>. The system refuses that label for any question
+                without a linked board paper that has a year, and for anything written by AI.
               </li>
             </ol>
             <p className="mt-4 text-pencil">
-              When the same question appears in several papers, each appearance is stored. Frequency notes like &ldquo;asked in 3 stored papers&rdquo; are
-              counted from those links and never estimated.
+              Frequency and trends count distinct verified papers and years per duplicate group. &ldquo;Repeated&rdquo; means the same question appeared in
+              two or more different exam years; several sets of one year&apos;s paper don&apos;t count as a repeat.
             </p>
           </section>
 
@@ -91,7 +109,7 @@ export default function HowItWorksPage() {
               Paper modes
             </h2>
             <dl className="mt-4 space-y-4">
-              {(["PYQ_ONLY", "PYQ_PRIORITY", "EXAM_SIMULATION"] as const).map((m) => (
+              {(["PYQ_ONLY", "RECENT_PYQ", "MOST_REPEATED", "PYQ_PRIORITY", "EXAM_SIMULATION", "PYQ_PLUS_OFFICIAL", "PRACTICE", "AI_SUPPLEMENTARY"] as const).map((m) => (
                 <div key={m}>
                   <dt className="font-bold">{MODE_LABELS[m].name}</dt>
                   <dd className="text-pencil">{MODE_LABELS[m].description}</dd>
@@ -99,8 +117,8 @@ export default function HowItWorksPage() {
               ))}
             </dl>
             <p className="mt-4 text-pencil">
-              Every paper shows its actual make-up, such as the share of marks from verified PYQs, worked out from the questions on that paper. Unverified
-              and rejected questions are never used in papers.
+              Every paper shows its actual make-up, worked out from the questions on that paper. PYQ modes only ever use verified PYQs; other questions
+              fill gaps only when you allow it. Questions awaiting review and rejected questions are never used.
             </p>
           </section>
 
@@ -109,9 +127,9 @@ export default function HowItWorksPage() {
               Marking and results
             </h2>
             <p className="mt-3 text-pencil">
-              Multiple choice, fill in the blank and numerical answers are marked automatically when you submit. The answer key is never sent to your browser
-              during the test. Written answers are shown next to the model answer so you can award your own marks. Until you do, your score is shown as
-              provisional.
+              Multiple choice, assertion–reason, fill in the blank and numerical answers are marked automatically when an answer key exists. For board
+              questions, keys and model answers come only from the official marking scheme; where none is published, you mark yourself and no answer is
+              invented. The answer key is never sent to your browser during the test.
             </p>
             <p className="mt-3 text-pencil">
               Results show marks by chapter, question type and source, and list chapters under 60% as revision priorities. ExamReady doesn&apos;t predict board
@@ -124,9 +142,9 @@ export default function HowItWorksPage() {
               Where AI fits
             </h2>
             <p className="mt-3 text-pencil">
-              The current version doesn&apos;t need AI to work. In future, AI may help sort imported questions into chapters, spot duplicates, and write extra
-              practice questions. AI-written questions will always carry the AI-generated stamp, and AI is never allowed to assign a year, paper or other
-              source to a question.
+              ExamReady works without AI. Where it is switched on (Cloudflare Workers AI, free, no API key), it can suggest a chapter for an imported question
+              and draft extra practice questions. Suggestions stay suggestions until an editor confirms them, and AI-written questions always carry the AI
+              practice stamp and never count towards PYQ statistics. AI is never allowed to assign a year, paper, question number, source or PYQ status.
             </p>
           </section>
 
@@ -136,9 +154,8 @@ export default function HowItWorksPage() {
             </h2>
             <p className="demo-banner mt-3 px-4 py-3 font-bold">{DEMO_LABEL}</p>
             <p className="mt-3 text-pencil">
-              This build includes demo questions so every feature can be tried. They were written for demonstration, are linked only to fictional demo papers
-              with no year, and carry the label above wherever they appear, including in PDFs. They are tagged with stand-in categories only so that paper
-              modes can be tested.
+              The ICSE practice bank in this build was written by AI for demonstration. It is stored as AI practice, has no source paper, no year and no
+              frequency, and carries the label above wherever it appears, including in PDFs. It never counts as a previous-year question.
             </p>
           </section>
 

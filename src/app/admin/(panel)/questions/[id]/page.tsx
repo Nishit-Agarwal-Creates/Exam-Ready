@@ -8,7 +8,7 @@ import { getFormData } from "@/lib/data/admin-form";
 import type { AnswerKey } from "@/lib/engine/grading";
 import { DEMO_LABEL, PAPER_TYPE_LABELS, frequencyLine, isRealVerifiedPyq } from "@/lib/provenance";
 import { safeJson } from "@/lib/text";
-import { addSourceAction, deleteQuestionAction, removeSourceAction, setStatusAction } from "../../../actions";
+import { addSourceAction, aiSuggestChapterAction, deleteQuestionAction, removeSourceAction, setStatusAction } from "../../../actions";
 
 export const metadata = { title: "Edit question" };
 
@@ -149,6 +149,28 @@ export default async function EditQuestionPage({
               </button>
               <p className="field-hint">Each appearance in a board paper counts towards stored frequency.</p>
             </form>
+          </section>
+
+          <section className="panel space-y-2 p-5" aria-labelledby="ai-title">
+            <h2 id="ai-title" className="font-sans text-[1.05rem] font-bold">
+              Chapter mapping
+            </h2>
+            <p className="text-[0.93rem] text-pencil">
+              Currently <strong>{q.mappingStatus === "CONFIRMED" ? "confirmed" : "a suggestion"}</strong> ({q.mappingSource}). AI can suggest a chapter; it stays a
+              suggestion until you save the form.
+            </p>
+            <form action={aiSuggestChapterAction}>
+              <input type="hidden" name="id" value={q.id} />
+              <button type="submit" className="btn btn-secondary btn-sm">
+                Suggest a chapter with AI
+              </button>
+            </form>
+            {(q.hasFigure || q.extractionConfidence) && (
+              <p className="border-t border-rule pt-2 text-[0.9rem] text-pencil">
+                Extraction: {q.extractionConfidence ? `${q.extractionConfidence.toLowerCase()} confidence` : "not recorded"}
+                {q.hasFigure ? ", needs a figure from the source" : ""}.
+              </p>
+            )}
           </section>
 
           <section className="panel space-y-3 p-5" aria-labelledby="danger-title">

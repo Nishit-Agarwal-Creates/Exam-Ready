@@ -1,48 +1,59 @@
 @import "tailwindcss";
 
-/* ───────────────────────── ExamReady design tokens ─────────────────────────
-   The visual language is the exam hall: white answer sheets on a cool desk,
-   blue-black ballpoint ink for actions, the examiner's red pen for marks and
-   scores, and rubber stamps for provenance. */
+/* ───────────────────────── ExamReady design tokens (v2) ─────────────────────────
+   Exam hall after dark: white answer sheets on a cool desk, a midnight-ink night sky for
+   the moments that matter, vivid ballpoint ink for actions, the examiner's red pen for marks,
+   and rubber stamps for provenance. Each provenance category has its own colour AND shape. */
 @theme {
   --font-sans: var(--font-ui), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-paper), ui-serif, Georgia, serif;
 
-  --color-desk: #eef2f1;
-  --color-desk-deep: #e2e8e6;
+  --color-desk: #f3f5fb;
+  --color-desk-deep: #e6eaf5;
   --color-sheet: #ffffff;
-  --color-graphite: #1c2126;
-  --color-pencil: #4b545d;
-  --color-rule: #d5dcda;
-  --color-rule-strong: #a3aeab;
+  --color-graphite: #161a2e;
+  --color-pencil: #4a5068;
+  --color-rule: #dde1ee;
+  --color-rule-strong: #a9b0c7;
 
-  --color-ink: #1f2d6e;
-  --color-ink-deep: #16215a;
-  --color-ink-soft: #e7eaf6;
-  --color-ink-line: #b9c1e3;
+  --color-ink: #2a38d1;
+  --color-ink-deep: #1b25a0;
+  --color-ink-soft: #e8ebfd;
+  --color-ink-line: #bcc4f5;
 
-  --color-margin: #c2303a;
-  --color-margin-soft: #fbe9ea;
+  --color-night: #0b1033;
+  --color-night-2: #141b4d;
+  --color-night-3: #232c6b;
+  --color-glow: #6fe3ff;
+  --color-glow-soft: rgb(111 227 255 / 0.16);
 
-  --color-verified: #1b6a44;
-  --color-verified-soft: #e3f1e9;
-  --color-official: #0d5f6c;
-  --color-official-soft: #def0f2;
-  --color-contrib: #75500c;
-  --color-contrib-soft: #f5ecd8;
-  --color-ai: #653c9a;
-  --color-ai-soft: #efe7f8;
+  --color-margin: #d12b3c;
+  --color-margin-soft: #fdebed;
+  --color-pen: #ff5a6a;
+
+  --color-verified: #0f7a4d;
+  --color-verified-soft: #e2f5ec;
+  --color-official: #0a6c80;
+  --color-official-soft: #ddf2f6;
+  --color-contrib: #8a5700;
+  --color-contrib-soft: #fbf0d9;
+  --color-ai: #6a3fd6;
+  --color-ai-soft: #f0eafd;
+  --color-pending: #525a74;
+  --color-pending-soft: #eef0f6;
   --color-demo: #7a3c00;
   --color-demo-soft: #fff0d0;
-  --color-highlight: #fbe68a;
+  --color-highlight: #ffe45c;
 
-  --radius-sheet: 6px;
-  --radius-control: 6px;
+  --radius-sheet: 14px;
+  --radius-control: 10px;
 
-  --shadow-sheet: 0 1px 0 rgb(28 33 38 / 0.06), 0 8px 24px -12px rgb(28 33 38 / 0.18);
-  --shadow-lift: 0 2px 0 rgb(28 33 38 / 0.05), 0 18px 40px -18px rgb(22 33 90 / 0.35);
+  --shadow-sheet: 0 1px 0 rgb(22 26 46 / 0.04), 0 10px 30px -16px rgb(22 26 46 / 0.22);
+  --shadow-lift: 0 2px 0 rgb(22 26 46 / 0.04), 0 24px 50px -22px rgb(27 37 160 / 0.45);
+  --shadow-glow: 0 0 0 1px rgb(111 227 255 / 0.25), 0 20px 60px -20px rgb(111 227 255 / 0.45);
 
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 @layer base {
@@ -360,11 +371,13 @@
     color: var(--color-ai);
     background: var(--color-ai-soft);
     border-style: dashed;
+    border-radius: 999px;
   }
-  .stamp-unverified {
-    color: var(--color-pencil);
-    background: var(--color-desk);
-    border-style: dashed;
+  .stamp-unverified,
+  .stamp-pending {
+    color: var(--color-pending);
+    background: var(--color-pending-soft);
+    border-style: dotted;
   }
   .stamp-rejected {
     color: var(--color-margin);
@@ -512,5 +525,324 @@
   .sheet {
     box-shadow: none;
     border: none;
+  }
+}
+
+/* ───────────────────────── Night surfaces ───────────────────────── */
+@layer components {
+  .night {
+    background: var(--color-night);
+    color: #e8ebff;
+    position: relative;
+    isolation: isolate;
+  }
+  .night h1,
+  .night h2,
+  .night h3 {
+    color: #fff;
+  }
+  .night .text-soft {
+    color: rgb(214 220 255 / 0.78);
+  }
+  /* Slowly drifting gradient mesh behind night sections */
+  .night-mesh {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+    background:
+      radial-gradient(40rem 26rem at 18% 12%, rgb(42 56 209 / 0.55), transparent 60%),
+      radial-gradient(32rem 22rem at 85% 30%, rgb(111 227 255 / 0.18), transparent 60%),
+      radial-gradient(36rem 26rem at 60% 110%, rgb(255 90 106 / 0.16), transparent 60%),
+      var(--color-night);
+    background-size: 140% 140%;
+    animation: mesh-drift 22s ease-in-out infinite alternate;
+  }
+  .night-grid {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image:
+      linear-gradient(rgb(255 255 255 / 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(255 255 255 / 0.05) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+  }
+  /* Cursor-following spotlight (position set by <PointerSpot>) */
+  .spotlight {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: radial-gradient(22rem 22rem at var(--spot-x, 50%) var(--spot-y, 40%), rgb(111 227 255 / 0.14), transparent 70%);
+    transition: background-position 200ms linear;
+  }
+  .btn-glow {
+    background: linear-gradient(135deg, #fff, #dfe6ff);
+    color: var(--color-night);
+    box-shadow: var(--shadow-glow);
+  }
+  .btn-glow:hover:not(:disabled) {
+    background: #fff;
+  }
+  .btn-night {
+    background: rgb(255 255 255 / 0.06);
+    color: #fff;
+    border-color: rgb(255 255 255 / 0.22);
+  }
+  .btn-night:hover:not(:disabled) {
+    background: rgb(255 255 255 / 0.12);
+    border-color: rgb(255 255 255 / 0.4);
+  }
+  .glass-card {
+    background: linear-gradient(160deg, rgb(255 255 255 / 0.09), rgb(255 255 255 / 0.03));
+    border: 1px solid rgb(255 255 255 / 0.14);
+    border-radius: var(--radius-sheet);
+    backdrop-filter: blur(8px);
+  }
+  .eyebrow-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 999px;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+  /* Interactive cards: lift + glow that follows the pointer (--px/--py set by <TiltCard>) */
+  .tilt-card {
+    position: relative;
+    transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(var(--lift, 0));
+    transition:
+      transform 300ms var(--ease-out),
+      box-shadow 300ms var(--ease-out),
+      border-color 300ms var(--ease-out);
+    will-change: transform;
+  }
+  .tilt-card:hover {
+    --lift: -4px;
+    box-shadow: var(--shadow-lift);
+    border-color: var(--color-ink-line);
+  }
+  .tilt-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms var(--ease-out);
+    background: radial-gradient(18rem 12rem at var(--px, 50%) var(--py, 50%), rgb(42 56 209 / 0.08), transparent 70%);
+  }
+  .tilt-card:hover::after {
+    opacity: 1;
+  }
+  .gradient-text {
+    background: linear-gradient(100deg, #fff 10%, #b9c6ff 45%, var(--color-glow) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .ring-progress {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+  }
+}
+
+/* ───────────────────────── Motion system ─────────────────────────
+   One vocabulary: things converge toward what matters (outside → in), and expand outward when
+   you act on them (inside → out). Everything is transform/opacity; reduced motion shows the
+   final state. */
+@keyframes mesh-drift {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+@keyframes converge {
+  from {
+    opacity: 0;
+    transform: translate(var(--from-x, 0), var(--from-y, 0)) rotate(var(--from-r, 0deg)) scale(0.6);
+  }
+  to {
+    opacity: var(--o, 1);
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+}
+@keyframes float-y {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 var(--float, -10px);
+  }
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes expand-in {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes shimmer {
+  from {
+    transform: translateX(-120%) skewX(-18deg);
+  }
+  to {
+    transform: translateX(220%) skewX(-18deg);
+  }
+}
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.15;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+@keyframes draw-ring {
+  from {
+    stroke-dashoffset: var(--circ, 300);
+  }
+}
+@keyframes pulse-dot {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0.35;
+  }
+}
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.converge {
+  animation:
+    converge 1100ms var(--ease-out) both,
+    float-y 7s ease-in-out 1200ms infinite;
+  animation-delay: var(--d, 0ms), calc(var(--d, 0ms) + 1100ms);
+}
+.parallax {
+  transform: translate(calc(var(--mx, 0) * var(--depth, 10px)), calc(var(--my, 0) * var(--depth, 10px)));
+  transition: transform 500ms var(--ease-out);
+}
+.rise-in {
+  animation: rise 700ms var(--ease-out) both;
+  animation-delay: var(--d, 0ms);
+}
+.expand-in {
+  animation: expand-in 500ms var(--ease-spring) both;
+  animation-delay: var(--d, 0ms);
+}
+.page-enter {
+  animation: rise 500ms var(--ease-out) both;
+}
+.particle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 999px;
+  background: #fff;
+  animation: twinkle var(--t, 4s) ease-in-out infinite;
+  animation-delay: var(--d, 0s);
+}
+.live-dot {
+  display: inline-block;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: currentColor;
+  position: relative;
+}
+.live-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: currentColor;
+  animation: pulse-dot 2.2s ease-in-out infinite;
+}
+.orbit {
+  animation: orbit 40s linear infinite;
+}
+
+/* Scroll reveal (driven by <Reveal>): hidden only when JS is running, so no-JS users see content */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(22px) scale(0.985);
+  transition:
+    opacity 700ms var(--ease-out),
+    transform 800ms var(--ease-out);
+  transition-delay: var(--d, 0ms);
+}
+.js [data-reveal="in"] {
+  opacity: 0;
+  transform: scale(0.94);
+}
+.js [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Verified stamp: lands once, then a single sheen passes over it */
+.stamp-animate {
+  position: relative;
+  overflow: hidden;
+  animation: expand-in 480ms var(--ease-spring) both;
+  animation-delay: var(--d, 0ms);
+}
+.stamp-animate::after {
+  content: "";
+  position: absolute;
+  inset: -2px auto -2px 0;
+  width: 40%;
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.75), transparent);
+  animation: shimmer 1100ms var(--ease-out) both;
+  animation-delay: calc(var(--d, 0ms) + 400ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .night-mesh,
+  .converge,
+  .particle,
+  .orbit,
+  .live-dot::after,
+  .stamp-animate::after {
+    animation: none !important;
+  }
+  .converge {
+    opacity: var(--o, 1);
+    transform: none;
+  }
+  .parallax,
+  .tilt-card {
+    transform: none !important;
+  }
+  .js [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }

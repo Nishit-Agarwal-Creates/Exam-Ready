@@ -17,8 +17,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const name = `${ctx.board.name} ${ctx.cls.name}`;
   return pageMetadata({
     title: `${name} practice papers, chapter-wise questions and PYQs`,
-    description: `${name} Mathematics, Physics, Chemistry and Biology: chapter lists, question counts by source, and custom practice papers you can take online or download as PDF.`,
+    description: `${name}: subjects, chapter lists, verified previous-year question coverage, and custom practice papers you can take online or download as PDF.`,
     path: `/${ctx.board.slug}/${ctx.cls.slug}`,
+    noindex: !(await classHasContent(ctx.cls.id)),
   });
 }
 
@@ -84,4 +85,14 @@ export default async function ClassPage({ params }: Props) {
       </div>
     </div>
   );
+}
+
+async function classHasContent(classId: number): Promise<boolean> {
+  const catalog = await getCatalog();
+  const subjects = catalog.flatMap((b) => b.classes).find((c) => c.id === classId)?.subjects ?? [];
+  for (const s of subjects) {
+    if (s.chapters.length) return true;
+    if (sumStats(await getSubjectStats(s.id)).total > 0) return true;
+  }
+  return false;
 }

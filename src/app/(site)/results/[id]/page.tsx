@@ -6,7 +6,8 @@ import { SourceStamp } from "@/components/provenance";
 import { SelfReviewForm } from "@/components/self-review-form";
 import type { SourceType } from "@/db/schema";
 import { getAttemptResult } from "@/lib/data/attempts";
-import { isAutoGraded } from "@/lib/engine/grading";
+import { canAutoGrade } from "@/lib/engine/grading";
+import { CountUp } from "@/components/motion/count-up";
 import { DEMO_LABEL, DEMO_SOURCE_LABELS, SOURCE_LABELS } from "@/lib/provenance";
 import { formatDuration, pct } from "@/lib/text";
 
@@ -47,7 +48,7 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
   const percent = pct(s.scored, s.evaluatedMax);
   const pyqMarks = paper.composition.VERIFIED_PYQ.marks;
   const pyqShare = pct(pyqMarks, paper.totalMarks);
-  const descriptive = r.items.filter((i) => !isAutoGraded(i.question.type));
+  const descriptive = r.items.filter((i) => !canAutoGrade(i.question.type, i.question.answer?.key));
   const pendingDescriptive = descriptive.filter((i) => i.scored === null).length;
 
   let headline: string;
@@ -83,7 +84,9 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
               />
             </svg>
             <p className="text-center font-serif font-semibold leading-none text-margin">
-              <span className="num block text-[2.6rem] sm:text-[3.2rem]">{s.scored}</span>
+              <span className="num block text-[2.6rem] sm:text-[3.2rem]">
+                <CountUp value={s.scored} />
+              </span>
               <span className="num mt-1 block text-[1.1rem]">out of {s.evaluatedMax}</span>
             </p>
           </div>
@@ -103,14 +106,16 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
             )}
           </div>
         </div>
-        <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 border-t border-rule pt-6 sm:grid-cols-3 lg:grid-cols-6">
+        <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 border-t border-rule pt-6 sm:grid-cols-4 lg:grid-cols-8">
           {[
             ["Time used", formatDuration(r.attempt.timeUsedSeconds)],
             ["Attempted", `${s.attempted} of ${r.items.length}`],
             ["Unanswered", String(s.unanswered)],
             ["Correct", String(s.correct)],
             ["Incorrect", String(s.incorrect)],
-            ["Written answers", `${s.descriptiveReviewed} of ${s.descriptiveTotal} marked`],
+            ["Accuracy", s.accuracy === null ? "–" : `${s.accuracy}%`],
+            ["Marked for review", String(s.markedForReview)],
+            ["Self-marked", `${s.descriptiveReviewed} of ${s.descriptiveTotal}`],
           ].map(([k, v]) => (
             <div key={k}>
               <dt className="text-sm text-pencil">{k}</dt>
@@ -118,7 +123,10 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
             </div>
           ))}
         </dl>
-        <p className="mt-4 text-sm text-pencil">Correct and incorrect count only the automatically marked questions (multiple choice, fill in the blank, numerical).</p>
+        <p className="mt-4 text-sm text-pencil">
+          Correct, incorrect and accuracy count only questions with an answer key (multiple choice, assertion–reason, fill in the blank, numerical). Questions
+          without an official key are self-marked. There is no rank or percentile: only your own attempt is compared.
+        </p>
       </section>
 
       <div className="mt-6">
@@ -150,12 +158,12 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
             </p>
           ) : (
             <ol className="mt-3 space-y-3">
-              {r.weak.map((c) => (
+              {r.weak.slice(0, 5).map((c) => (
                 <li key={c.key} className="flex flex-col gap-2 border-b border-rule pb-3 last:border-0 sm:flex-row sm:items-center sm:justify-between">
                   <span>
                     <strong>{c.label}</strong>
                     <span className="num block text-[0.9rem] text-pencil">
-                      {c.scored} of {c.evaluatedMax} marks ({pct(c.scored, c.evaluatedMax)}%)
+                      {c.scored} of {c.evaluatedMax} mark{c.evaluatedMax === 1 ? "" : "s"} ({pct(c.scored, c.evaluatedMax)}%)
                     </span>
                   </span>
                   <Link href={`/practice?subject=${paper.subject.id}&chapter=${c.key}`} className="btn btn-secondary btn-sm">
@@ -165,7 +173,9 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
               ))}
             </ol>
           )}
-          <p className="mt-4 border-t border-rule pt-3 text-sm text-pencil">Chapters scoring under 60% on marked questions are listed, weakest first.</p>
+          <p className="mt-4 border-t border-rule pt-3 text-sm text-pencil">
+            {r.weak.length > 5 ? `The five weakest of ${r.weak.length} chapters under 60% are shown. See all of them in the chapter breakdown.` : "Chapters scoring under 60% on marked questions are listed, weakest first."}
+          </p>
         </section>
 
         <section className="sheet p-5 sm:p-6" aria-labelledby="types-title">
@@ -179,15 +189,33 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
           </div>
         </section>
 
+        {r.sections.length > 1 && (
+          <section className="sheet p-5 sm:p-6" aria-labelledby="sections-title">
+            <h2 id="sections-title" className="font-sans text-[1.1rem] font-bold">
+              By section
+            </h2>
+            <div className="mt-4 space-y-4">
+              {r.sections.map((sec) => (
+                <Bar key={sec.key} label={sec.label} value={sec.scored} max={sec.evaluatedMax} />
+              ))}
+            </div>
+          </section>
+        )}
+
         <section className="sheet p-5 sm:p-6" aria-labelledby="sources-title">
           <h2 id="sources-title" className="font-sans text-[1.1rem] font-bold">
             By question source
           </h2>
           <p className="mt-1 text-[0.95rem] text-pencil">
-            {paper.hasDemo
-              ? `Demo stand-ins for verified PYQs made up ${pyqShare}% of this paper's marks.`
-              : `Verified previous-year questions made up ${pyqShare}% of this paper's marks.`}
+            Verified previous-year questions made up {pyqShare}% of this paper&apos;s marks.
           </p>
+          <ul className="mt-3 flex flex-wrap gap-2 text-[0.88rem]">
+            {r.sources.map((src) => (
+              <li key={src.key} className="rounded-full border border-rule bg-desk px-3 py-1">
+                {sourceLabel(src.key)}: <strong className="num">{src.count}</strong>
+              </li>
+            ))}
+          </ul>
           <div className="mt-4 space-y-4">
             {r.sources.map((src) => (
               <Bar key={src.key} label={sourceLabel(src.key)} value={src.scored} max={src.evaluatedMax} />
@@ -204,7 +232,7 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
         <ol className="mt-5 space-y-4">
           {r.items.map((item, idx) => {
             const q = item.question;
-            const auto = isAutoGraded(q.type);
+            const auto = canAutoGrade(q.type, q.answer?.key);
             const a = item.answer;
             const response = a?.response ?? null;
             const state = !response ? "unanswered" : auto ? (a?.isCorrect ? "correct" : "incorrect") : item.scored === null ? "to-mark" : "marked";
@@ -215,7 +243,7 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
               "to-mark": ["Needs your marks", "text-ink border-ink bg-ink-soft"],
               marked: ["Self-marked", "text-ink border-ink-line"],
             }[state];
-            const shownResponse = q.type === "MCQ" && response !== null && q.options ? `(${LETTERS[Number(response)]}) ${q.options[Number(response)] ?? ""}` : response;
+            const shownResponse = (q.type === "MCQ" || q.type === "ASSERTION_REASON") && response !== null && q.options?.length ? `(${LETTERS[Number(response)]}) ${q.options[Number(response)] ?? ""}` : response;
             return (
               <li key={item.position} className="sheet p-4 sm:p-6">
                 <div className="flex flex-wrap items-center justify-between gap-2">

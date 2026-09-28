@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { Flash } from "@/components/admin/flash";
-import { PAPER_TYPES } from "@/db/schema";
+import { PAPER_TYPES, SOURCE_AUTHORITIES, SOURCE_STATUSES } from "@/db/schema";
 import { listPapers } from "@/lib/data/admin";
 import { getCatalog } from "@/lib/data/taxonomy";
-import { PAPER_TYPE_LABELS } from "@/lib/provenance";
+import { AUTHORITY_LABELS, PAPER_TYPE_LABELS } from "@/lib/provenance";
 import { deletePaperAction, savePaperAction } from "../../actions";
 
 export const metadata = { title: "Source papers" };
@@ -19,7 +19,7 @@ export default async function PapersPage({ searchParams }: { searchParams: Promi
   return (
     <div>
       <Flash saved={sp.saved} error={sp.error} />
-      <h1 className="text-[2rem]">Source papers</h1>
+      <h1 className="text-[2rem]">Sources</h1>
       <p className="prose-width mt-2 text-pencil">
         Board exam papers, specimen papers and sample papers that questions are checked against. A question can only be a Verified PYQ when it links to a
         board exam paper with a year.
@@ -154,6 +154,114 @@ export default async function PapersPage({ searchParams }: { searchParams: Promi
               </label>
               <input id="p-url" name="sourceUrl" type="url" className="input" defaultValue={editing?.sourceUrl ?? ""} placeholder="https://" />
             </div>
+            <div>
+              <label htmlFor="p-authority" className="field-label">
+                Source authority
+              </label>
+              <select id="p-authority" name="authority" className="select" defaultValue={editing?.authority ?? "OFFICIAL_BOARD"}>
+                {SOURCE_AUTHORITIES.map((a) => (
+                  <option key={a} value={a}>
+                    {AUTHORITY_LABELS[a]}
+                  </option>
+                ))}
+              </select>
+              <p className="field-hint mt-1">Only choose an official authority when the document comes from that authority.</p>
+            </div>
+            <details className="rounded-xl border border-rule p-3">
+              <summary className="cursor-pointer font-bold">More metadata (fill in only what the document shows)</summary>
+              <div className="mt-3 grid gap-3 sm:grid-cols-2">
+              <div>
+                <label htmlFor="p-authorityName" className="field-label">
+                  Authority name
+                </label>
+                <input id="p-authorityName" name="authorityName" className="input" defaultValue={editing?.authorityName ?? ""} placeholder="Central Board of Secondary Education" />
+              </div>
+              <div>
+                <label htmlFor="p-examSession" className="field-label">
+                  Session
+                </label>
+                <input id="p-examSession" name="examSession" className="input" defaultValue={editing?.examSession ?? ""} placeholder="Main examination" />
+              </div>
+              <div>
+                <label htmlFor="p-paperName" className="field-label">
+                  Paper name
+                </label>
+                <input id="p-paperName" name="paperName" className="input" defaultValue={editing?.paperName ?? ""} placeholder="Science (086)" />
+              </div>
+              <div>
+                <label htmlFor="p-paperCode" className="field-label">
+                  Q.P. / paper code
+                </label>
+                <input id="p-paperCode" name="paperCode" className="input" defaultValue={editing?.paperCode ?? ""} placeholder="31/2/1" />
+              </div>
+              <div>
+                <label htmlFor="p-setCode" className="field-label">
+                  Set
+                </label>
+                <input id="p-setCode" name="setCode" className="input" defaultValue={editing?.setCode ?? ""} placeholder="SET-1" />
+              </div>
+              <div>
+                <label htmlFor="p-seriesCode" className="field-label">
+                  Series
+                </label>
+                <input id="p-seriesCode" name="seriesCode" className="input" defaultValue={editing?.seriesCode ?? ""} placeholder="" />
+              </div>
+              <div>
+                <label htmlFor="p-region" className="field-label">
+                  Region
+                </label>
+                <input id="p-region" name="region" className="input" defaultValue={editing?.region ?? ""} placeholder="" />
+              </div>
+              <div>
+                <label htmlFor="p-language" className="field-label">
+                  Language
+                </label>
+                <input id="p-language" name="language" className="input" defaultValue={editing?.language ?? ""} placeholder="English" />
+              </div>
+              <div>
+                <label htmlFor="p-sourceFile" className="field-label">
+                  File inside archive
+                </label>
+                <input id="p-sourceFile" name="sourceFile" className="input" defaultValue={editing?.sourceFile ?? ""} placeholder="Science/31-2-1.pdf" />
+              </div>
+              <div>
+                <label htmlFor="p-answerSourceUrl" className="field-label">
+                  Official answers / marking scheme link
+                </label>
+                <input id="p-answerSourceUrl" name="answerSourceUrl" className="input" defaultValue={editing?.answerSourceUrl ?? ""} placeholder="https://" />
+              </div>
+              <div>
+                <label htmlFor="p-pageCount" className="field-label">
+                  Pages
+                </label>
+                <input id="p-pageCount" name="pageCount" className="input" defaultValue={editing?.pageCount ?? ""} placeholder="" />
+              </div>
+              <div>
+                <label htmlFor="p-maxMarks" className="field-label">
+                  Maximum marks
+                </label>
+                <input id="p-maxMarks" name="maxMarks" className="input" defaultValue={editing?.maxMarks ?? ""} placeholder="80" />
+              </div>
+              <div>
+                <label htmlFor="p-durationMinutes" className="field-label">
+                  Duration (minutes)
+                </label>
+                <input id="p-durationMinutes" name="durationMinutes" className="input" defaultValue={editing?.durationMinutes ?? ""} placeholder="180" />
+              </div>
+              <div>
+                <label htmlFor="p-status" className="field-label">
+                  Status
+                </label>
+                <select id="p-status" name="status" className="select" defaultValue={editing?.status ?? "IMPORTED"}>
+                  {SOURCE_STATUSES.map((st) => (
+                    <option key={st} value={st}>
+                      {st.replace("_", " ").toLowerCase()}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              </div>
+            </details>
             <div>
               <label htmlFor="p-notes" className="field-label">
                 Notes

@@ -3,7 +3,9 @@ node_modules/
 
 # builds
 .next/
+.next-*/
 .open-next/
+.open-next-*/
 out/
 build/
 *.tsbuildinfo
@@ -34,3 +36,6 @@ Thumbs.db
 # python caches (from project skills)
 __pycache__/
 *.pyc
+
+# downloaded source PDFs (re-fetch from the official URL in each source pack)
+.sources-cache/

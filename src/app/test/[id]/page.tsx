@@ -31,6 +31,13 @@ export default async function TestPage({ params }: Props) {
     sourceType: item.question.sourceType,
     verificationStatus: item.question.verificationStatus,
     sources: item.question.sources,
+    hasFigure: item.question.hasFigure,
+    figureSource: item.question.hasFigure
+      ? (() => {
+          const src = item.question.sources.find((x) => !x.isDemo);
+          return src ? { paperId: src.paperId, page: src.pageNumber ?? null } : null;
+        })()
+      : null,
   }));
   return (
     <ExamRunner

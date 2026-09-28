@@ -1,7 +1,7 @@
 import { and, asc, desc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod";
 import { getDb, schema } from "@/db";
-import { DIFFICULTIES, PAPER_TYPES, QUESTION_TYPES, SOURCE_TYPES, VERIFICATION_STATUSES } from "@/db/schema";
+import { type AnswerSource, DIFFICULTIES, PAPER_TYPES, QUESTION_TYPES, SOURCE_AUTHORITIES, SOURCE_STATUSES, SOURCE_TYPES, VERIFICATION_STATUSES } from "@/db/schema";
 import { parsePaperText, suggestChapter } from "@/lib/engine/ingest";
 import { validateProvenance, type SourceLink } from "@/lib/provenance";
 import { contentHash, similarity } from "@/lib/text";
@@ -63,7 +63,7 @@ export const questionInputSchema = z
     topicId: z.coerce.number().int().positive().optional().or(z.literal("").transform(() => undefined)),
     questionType: z.enum(QUESTION_TYPES),
     marks: z.coerce.number().int().min(1, "Marks must be at least 1.").max(20, "Marks can be at most 20."),
-    difficulty: z.enum(DIFFICULTIES),
+    difficulty: z.enum([...DIFFICULTIES, "UNRATED"]),
     questionText: z.string().trim().min(5, "Enter the question text.").max(5000),
     options: z.array(z.string().trim().max(500)).max(6).default([]),
     correctOption: z.coerce.number().int().min(0).max(5).optional(),
@@ -82,11 +82,12 @@ export const questionInputSchema = z
     linkQuestionNumber: z.string().trim().max(20).default(""),
   })
   .superRefine((v, ctx) => {
-    if (v.questionType === "MCQ") {
+    if (v.questionType === "MCQ" || v.questionType === "ASSERTION_REASON") {
       const filled = v.options.filter(Boolean);
-      if (filled.length < 2) ctx.addIssue({ code: "custom", path: ["options"], message: "Multiple choice questions need at least two options." });
-      if (v.correctOption === undefined || !v.options[v.correctOption])
-        ctx.addIssue({ code: "custom", path: ["correctOption"], message: "Choose which option is correct." });
+      if (filled.length < 2) ctx.addIssue({ code: "custom", path: ["options"], message: "Option questions need at least two options." });
+      // The correct option is optional: leave it blank when no official answer key exists.
+      if (v.correctOption !== undefined && !v.options[v.correctOption])
+        ctx.addIssue({ code: "custom", path: ["correctOption"], message: "The selected correct option is empty." });
     }
     if (v.questionType === "FILL_BLANK" && lines(v.acceptedAnswers).length === 0)
       ctx.addIssue({ code: "custom", path: ["acceptedAnswers"], message: "Add at least one accepted answer." });
@@ -137,15 +138,18 @@ export async function saveQuestion(input: QuestionInput, actor: string): Promise
       });
     }
   }
-  const provenanceError = validateProvenance({ sourceType: input.sourceType, verificationStatus: input.verificationStatus, isDemo, sources });
+  const provenanceError = validateProvenance(
+    { sourceType: input.sourceType, verificationStatus: input.verificationStatus, isDemo, sources },
+    existing ? { sourceType: existing.sourceType, answerSource: existing.answerSource } : undefined,
+  );
   if (provenanceError) return { ok: false, errors: { verificationStatus: provenanceError } };
 
   let options: string | null = null;
   let answerKey: string | null = null;
-  if (input.questionType === "MCQ") {
+  if (input.questionType === "MCQ" || input.questionType === "ASSERTION_REASON") {
     const opts = input.options.filter(Boolean);
     options = JSON.stringify(opts);
-    answerKey = JSON.stringify({ correctOption: Math.min(input.correctOption ?? 0, opts.length - 1) });
+    answerKey = input.correctOption === undefined ? null : JSON.stringify({ correctOption: Math.min(input.correctOption, opts.length - 1) });
   } else if (input.questionType === "FILL_BLANK") {
     answerKey = JSON.stringify({ accepted: lines(input.acceptedAnswers) });
   } else if (input.questionType === "NUMERICAL") {
@@ -154,6 +158,8 @@ export async function saveQuestion(input: QuestionInput, actor: string): Promise
 
   const now = new Date().toISOString();
   const becameVerified = input.verificationStatus === "VERIFIED" && existing?.verificationStatus !== "VERIFIED";
+  const answerChanged = !existing || existing.answerText !== input.answerText || existing.answerKey !== answerKey;
+  const answerSource: AnswerSource = answerChanged ? (input.answerText.trim() || answerKey ? (isDemo ? "AI" : "EDITOR") : "NONE") : existing!.answerSource;
   const values = {
     boardId: ch.boardId,
     classId: ch.classId,
@@ -173,6 +179,10 @@ export async function saveQuestion(input: QuestionInput, actor: string): Promise
     verificationNotes: input.verificationNotes,
     isPublished: input.isPublished,
     contentHash: await contentHash(input.questionText),
+    // An editor saving the form confirms the chapter mapping.
+    mappingStatus: "CONFIRMED" as const,
+    mappingSource: existing && existing.chapterId === input.chapterId && existing.mappingStatus === "CONFIRMED" ? existing.mappingSource : "editor",
+    answerSource,
     updatedAt: now,
     ...(becameVerified ? { verifiedAt: now, verifiedBy: actor } : {}),
     ...(input.verificationStatus !== "VERIFIED" ? { verifiedAt: null, verifiedBy: null } : {}),
@@ -284,6 +294,74 @@ export const paperInputSchema = z.object({
     .transform((v) => v || null)
     .refine((v) => v === null || /^https?:\/\//i.test(v), "Links must start with http:// or https://"),
   sourceNotes: z.string().max(2000).default(""),
+  authority: z.enum(SOURCE_AUTHORITIES).default("OTHER"),
+  authorityName: z
+    .string()
+    .trim()
+    .max(200)
+    .transform((v) => v || null),
+  examSession: z
+    .string()
+    .trim()
+    .max(200)
+    .transform((v) => v || null),
+  paperName: z
+    .string()
+    .trim()
+    .max(200)
+    .transform((v) => v || null),
+  paperCode: z
+    .string()
+    .trim()
+    .max(200)
+    .transform((v) => v || null),
+  setCode: z
+    .string()
+    .trim()
+    .max(200)
+    .transform((v) => v || null),
+  seriesCode: z
+    .string()
+    .trim()
+    .max(200)
+    .transform((v) => v || null),
+  region: z
+    .string()
+    .trim()
+    .max(200)
+    .transform((v) => v || null),
+  language: z
+    .string()
+    .trim()
+    .max(200)
+    .transform((v) => v || null),
+  sourceFile: z
+    .string()
+    .trim()
+    .max(200)
+    .transform((v) => v || null),
+  answerSourceUrl: z
+    .string()
+    .trim()
+    .max(500)
+    .transform((v) => v || null)
+    .refine((v) => v === null || /^https?:\/\//i.test(v), "Links must start with http:// or https://"),
+  pageCount: z
+    .string()
+    .trim()
+    .transform((v) => (v === "" ? null : Number(v)))
+    .refine((v) => v === null || (Number.isInteger(v) && v > 0 && v < 100000), "Enter a whole number."),
+  maxMarks: z
+    .string()
+    .trim()
+    .transform((v) => (v === "" ? null : Number(v)))
+    .refine((v) => v === null || (Number.isInteger(v) && v > 0 && v < 100000), "Enter a whole number."),
+  durationMinutes: z
+    .string()
+    .trim()
+    .transform((v) => (v === "" ? null : Number(v)))
+    .refine((v) => v === null || (Number.isInteger(v) && v > 0 && v < 100000), "Enter a whole number."),
+  status: z.enum(SOURCE_STATUSES).default("IMPORTED"),
 });
 export type PaperInput = z.infer<typeof paperInputSchema>;
 
@@ -322,6 +400,22 @@ export async function savePaper(input: PaperInput) {
     paperType: input.paperType,
     sourceUrl: input.sourceUrl,
     sourceNotes: input.sourceNotes,
+    sourceDomain: domainOf(input.sourceUrl),
+    authority: input.authority,
+    authorityName: input.authorityName,
+    examSession: input.examSession,
+    paperName: input.paperName,
+    paperCode: input.paperCode,
+    setCode: input.setCode,
+    seriesCode: input.seriesCode,
+    region: input.region,
+    language: input.language,
+    sourceFile: input.sourceFile,
+    answerSourceUrl: input.answerSourceUrl,
+    pageCount: input.pageCount,
+    maxMarks: input.maxMarks,
+    durationMinutes: input.durationMinutes,
+    status: input.status,
     updatedAt: new Date().toISOString(),
   };
   if (input.id) {
@@ -347,9 +441,21 @@ export async function deletePaper(id: number) {
 
 // ───────────────────────────── Import ─────────────────────────────
 
-export async function createImportBatch(input: { subjectId: number; paperId: number | null; title: string; rawText: string }) {
+export type ImportInput = {
+  subjectId: number;
+  paperId: number | null;
+  title: string;
+  rawText: string;
+  extractionMethod: "PDF_TEXT_LAYER" | "OCR" | "PASTED_TEXT";
+  /** Mean OCR confidence for the document (0–100), when OCR was used. */
+  ocrConfidence: number | null;
+  /** OCR confidence per page number, when OCR was used. */
+  pageConfidence?: Record<number, number>;
+};
+
+export async function createImportBatch(input: ImportInput) {
   const db = await getDb();
-  const parsed = parsePaperText(input.rawText);
+  const parsed = parsePaperText(input.rawText, input.pageConfidence);
   if (!parsed.length) return { ok: false as const, error: "No questions were found. Put each question on a new line starting with its number, like “1.” or “Q2)”." };
   if (input.paperId) {
     const [p] = await db.select({ subjectId: papers.subjectId }).from(papers).where(eq(papers.id, input.paperId));
@@ -376,7 +482,14 @@ export async function createImportBatch(input: { subjectId: number; paperId: num
 
   const [batch] = await db
     .insert(importBatches)
-    .values({ subjectId: input.subjectId, paperId: input.paperId, title: input.title, rawText: input.rawText })
+    .values({
+      subjectId: input.subjectId,
+      paperId: input.paperId,
+      title: input.title,
+      rawText: input.rawText,
+      extractionMethod: input.extractionMethod,
+      ocrConfidence: input.ocrConfidence,
+    })
     .returning({ id: importBatches.id });
 
   const rows = [];
@@ -400,12 +513,29 @@ export async function createImportBatch(input: { subjectId: number; paperId: num
       section: item.section,
       text: item.text,
       marks: item.marks,
+      pageNumber: item.page,
+      detectedType: item.type,
+      options: item.options ? JSON.stringify(item.options) : null,
+      confidence: item.confidence,
+      issues: JSON.stringify(item.issues),
       suggestedChapterId: suggestChapter(item.text, chapterKeywords),
       duplicateOfQuestionId: dup,
     });
   }
-  // 8 values per row: 10 rows per insert keeps under D1's parameter limit.
-  for (let i = 0; i < rows.length; i += 10) await db.insert(importItems).values(rows.slice(i, i + 10));
+  // 13 values per row: 7 rows per insert keeps under D1's parameter limit.
+  for (let i = 0; i < rows.length; i += 7) await db.insert(importItems).values(rows.slice(i, i + 7));
+  if (input.paperId) {
+    await db
+      .update(papers)
+      .set({
+        status: "EXTRACTED",
+        extractionMethod: input.extractionMethod,
+        ocrUsed: input.extractionMethod === "OCR",
+        ocrConfidence: input.ocrConfidence,
+        updatedAt: new Date().toISOString(),
+      })
+      .where(and(eq(papers.id, input.paperId), inArray(papers.status, ["DISCOVERED", "IMPORTED"])));
+  }
   return { ok: true as const, id: batch.id, count: rows.length };
 }
 
@@ -462,4 +592,210 @@ export async function purgeDemoData() {
   await db.delete(questions).where(eq(questions.isDemo, true));
   await db.delete(papers).where(eq(papers.isDemo, true));
   return demoPapers.length;
+}
+
+function domainOf(url: string | null): string | null {
+  if (!url) return null;
+  try {
+    return new URL(url).hostname;
+  } catch {
+    return null;
+  }
+}
+
+// ───────────────────────────── Review queue ─────────────────────────────
+
+/** Source documents with their extraction/review progress. */
+export async function listSourcesWithProgress() {
+  const db = await getDb();
+  return db
+    .select({
+      paper: papers,
+      subject: subjects.name,
+      cls: classes.name,
+      board: schema.boards.name,
+      extracted: sql<number>`(SELECT COUNT(*) FROM question_sources qs WHERE qs.paper_id = ${papers.id})`,
+      pending: sql<number>`(SELECT COUNT(*) FROM question_sources qs JOIN questions q ON q.id = qs.question_id WHERE qs.paper_id = ${papers.id} AND q.verification_status = 'UNVERIFIED')`,
+      verified: sql<number>`(SELECT COUNT(*) FROM question_sources qs JOIN questions q ON q.id = qs.question_id WHERE qs.paper_id = ${papers.id} AND q.verification_status = 'VERIFIED')`,
+      published: sql<number>`(SELECT COUNT(*) FROM question_sources qs JOIN questions q ON q.id = qs.question_id WHERE qs.paper_id = ${papers.id} AND q.verification_status = 'VERIFIED' AND q.is_published = 1)`,
+      rejected: sql<number>`(SELECT COUNT(*) FROM question_sources qs JOIN questions q ON q.id = qs.question_id WHERE qs.paper_id = ${papers.id} AND q.verification_status = 'REJECTED')`,
+      flagged: sql<number>`(SELECT COUNT(*) FROM question_sources qs JOIN questions q ON q.id = qs.question_id WHERE qs.paper_id = ${papers.id} AND (q.has_figure = 1 OR q.extraction_confidence = 'LOW'))`,
+    })
+    .from(papers)
+    .innerJoin(subjects, eq(papers.subjectId, subjects.id))
+    .innerJoin(classes, eq(subjects.classId, classes.id))
+    .innerJoin(schema.boards, eq(classes.boardId, schema.boards.id))
+    .where(eq(papers.isDemo, false))
+    .orderBy(desc(papers.year), asc(papers.title));
+}
+
+export type VerifyOutcome = { verified: number; published: number; failed: { id: number; reason: string }[] };
+
+/**
+ * Marks questions as verified after an editor has checked them against their source.
+ * The provenance rule is applied to every question; anything that fails stays pending.
+ */
+export async function verifyQuestions(ids: number[], actor: string, opts: { publish: boolean; confirmMapping: boolean }): Promise<VerifyOutcome> {
+  const db = await getDb();
+  const out: VerifyOutcome = { verified: 0, published: 0, failed: [] };
+  const unique = [...new Set(ids)].slice(0, 200);
+  const sources = await getSourcesFor(unique);
+  const now = new Date().toISOString();
+  for (const part of chunk(unique)) {
+    const rows = await db.select().from(questions).where(inArray(questions.id, part));
+    for (const q of rows) {
+      if (q.verificationStatus === "REJECTED") {
+        out.failed.push({ id: q.id, reason: "Rejected questions must be reopened from the edit page first." });
+        continue;
+      }
+      const err = validateProvenance(
+        { sourceType: q.sourceType, verificationStatus: "VERIFIED", isDemo: q.isDemo, sources: sources.get(q.id) ?? [] },
+        { sourceType: q.sourceType },
+      );
+      if (err || q.isDemo) {
+        out.failed.push({ id: q.id, reason: err ?? "Demo questions can't be verified." });
+        continue;
+      }
+      await db
+        .update(questions)
+        .set({
+          verificationStatus: "VERIFIED",
+          verifiedAt: q.verificationStatus === "VERIFIED" ? q.verifiedAt : now,
+          verifiedBy: q.verificationStatus === "VERIFIED" ? q.verifiedBy : actor,
+          verificationNotes: `${q.verificationNotes.replace(/\s*Awaiting editor verification against the official PDF\.?/, "")} Verified by ${actor} on ${now.slice(0, 10)}.`.trim(),
+          ...(opts.publish ? { isPublished: true } : {}),
+          ...(opts.confirmMapping ? { mappingStatus: "CONFIRMED" as const, mappingSource: "editor" } : {}),
+          updatedAt: now,
+        })
+        .where(eq(questions.id, q.id));
+      out.verified++;
+      if (opts.publish) out.published++;
+    }
+  }
+  await refreshSourceStatuses();
+  return out;
+}
+
+export async function rejectQuestions(ids: number[], reason: string) {
+  const db = await getDb();
+  for (const part of chunk([...new Set(ids)])) {
+    await db
+      .update(questions)
+      .set({ verificationStatus: "REJECTED", isPublished: false, verifiedAt: null, verifiedBy: null, verificationNotes: reason.slice(0, 500), updatedAt: new Date().toISOString() })
+      .where(and(inArray(questions.id, part), eq(questions.isDemo, false)));
+  }
+  await refreshSourceStatuses();
+}
+
+/** Keeps each source document's status in step with the review state of its questions. */
+export async function refreshSourceStatuses() {
+  const db = await getDb();
+  await db.run(sql`UPDATE papers SET status = CASE
+      WHEN (SELECT COUNT(*) FROM question_sources qs WHERE qs.paper_id = papers.id) = 0 THEN status
+      WHEN (SELECT COUNT(*) FROM question_sources qs JOIN questions q ON q.id = qs.question_id WHERE qs.paper_id = papers.id AND q.verification_status = 'UNVERIFIED') > 0 THEN 'PENDING_REVIEW'
+      WHEN (SELECT COUNT(*) FROM question_sources qs JOIN questions q ON q.id = qs.question_id WHERE qs.paper_id = papers.id AND q.verification_status = 'VERIFIED' AND q.is_published = 1) > 0 THEN 'PUBLISHED'
+      WHEN (SELECT COUNT(*) FROM question_sources qs JOIN questions q ON q.id = qs.question_id WHERE qs.paper_id = papers.id AND q.verification_status = 'VERIFIED') > 0 THEN 'VERIFIED'
+      ELSE 'REJECTED' END
+    WHERE is_demo = 0 AND status NOT IN ('DISCOVERED')`);
+}
+
+// ───────────────────────────── Duplicates ─────────────────────────────
+
+export async function listDuplicateGroups() {
+  const db = await getDb();
+  const members = await db
+    .select({
+      id: questions.id,
+      canonical: questions.canonicalQuestionId,
+      text: questions.questionText,
+      status: questions.verificationStatus,
+      marks: questions.marks,
+    })
+    .from(questions)
+    .where(sql`${questions.canonicalQuestionId} IS NOT NULL OR ${questions.id} IN (SELECT canonical_question_id FROM questions WHERE canonical_question_id IS NOT NULL)`)
+    .orderBy(asc(questions.id));
+  const sources = await getSourcesFor(members.map((m) => m.id));
+  const groups = new Map<number, { canonicalId: number; members: (typeof members[number] & { sources: SourceLink[] })[] }>();
+  for (const m of members) {
+    const gid = m.canonical ?? m.id;
+    const g = groups.get(gid) ?? { canonicalId: gid, members: [] };
+    g.members.push({ ...m, sources: sources.get(m.id) ?? [] });
+    groups.set(gid, g);
+  }
+  return [...groups.values()].filter((g) => g.members.length > 1);
+}
+
+/** Merge a question into a canonical group, or split it out (canonicalId = null). */
+export async function setCanonical(questionId: number, canonicalId: number | null) {
+  const db = await getDb();
+  if (canonicalId === questionId) canonicalId = null;
+  if (canonicalId !== null) {
+    const [c] = await db.select({ id: questions.id, canonical: questions.canonicalQuestionId, subjectId: questions.subjectId }).from(questions).where(eq(questions.id, canonicalId));
+    const [q] = await db.select({ subjectId: questions.subjectId }).from(questions).where(eq(questions.id, questionId));
+    if (!c || !q) return "That question doesn't exist.";
+    if (c.subjectId !== q.subjectId) return "Duplicates must be in the same subject.";
+    canonicalId = c.canonical ?? c.id; // always point at the group root
+  }
+  await db.update(questions).set({ canonicalQuestionId: canonicalId, updatedAt: new Date().toISOString() }).where(eq(questions.id, questionId));
+  // Children of a question that is merged elsewhere follow it.
+  if (canonicalId !== null) await db.update(questions).set({ canonicalQuestionId: canonicalId }).where(eq(questions.canonicalQuestionId, questionId));
+  return null;
+}
+
+// ───────────────────────────── Analytics ─────────────────────────────
+
+/** Factual counts for the admin dashboard. Every number is a live COUNT over stored rows. */
+export async function getAnalytics() {
+  const db = await getDb();
+  const count = async (where: ReturnType<typeof sql>) => Number((await db.all<{ n: number }>(sql`SELECT COUNT(*) AS n FROM ${where}`))[0]?.n ?? 0);
+  const [bySourceStatus, byBoardClass, byYear, sourcesByStatus] = await Promise.all([
+    db.all<{ source_type: string; verification_status: string; is_demo: number; n: number }>(
+      sql`SELECT source_type, verification_status, is_demo, COUNT(*) AS n FROM questions GROUP BY 1, 2, 3`,
+    ),
+    db.all<{ board: string; level: number; cls: string; subject: string; subject_id: number; total: number; real_pyq: number; pending: number; ai: number }>(
+      sql`SELECT b.name AS board, c.level AS level, c.name AS cls, s.name AS subject, s.id AS subject_id,
+            COUNT(q.id) AS total,
+            SUM(CASE WHEN q.id IS NOT NULL AND q.is_demo = 0 AND q.source_type = 'VERIFIED_PYQ' AND q.verification_status = 'VERIFIED' THEN 1 ELSE 0 END) AS real_pyq,
+            SUM(CASE WHEN q.id IS NOT NULL AND q.is_demo = 0 AND q.verification_status = 'UNVERIFIED' THEN 1 ELSE 0 END) AS pending,
+            SUM(CASE WHEN q.source_type = 'AI_SUPPLEMENTARY' THEN 1 ELSE 0 END) AS ai
+          FROM subjects s JOIN classes c ON c.id = s.class_id JOIN boards b ON b.id = c.board_id LEFT JOIN questions q ON q.subject_id = s.id
+          GROUP BY s.id ORDER BY b.sort_order, c.level, s.sort_order`,
+    ),
+    db.all<{ year: number; board: string; verified: number; pending: number }>(
+      sql`SELECT p.year AS year, b.name AS board,
+            COUNT(DISTINCT CASE WHEN q.verification_status = 'VERIFIED' THEN COALESCE(q.canonical_question_id, q.id) END) AS verified,
+            COUNT(DISTINCT CASE WHEN q.verification_status = 'UNVERIFIED' THEN COALESCE(q.canonical_question_id, q.id) END) AS pending
+          FROM question_sources qs JOIN papers p ON p.id = qs.paper_id JOIN questions q ON q.id = qs.question_id JOIN boards b ON b.id = p.board_id
+          WHERE p.is_demo = 0 AND p.paper_type = 'BOARD_EXAM' AND p.year IS NOT NULL
+          GROUP BY p.year, b.name ORDER BY p.year DESC`,
+    ),
+    db.all<{ status: string; n: number }>(sql`SELECT status, COUNT(*) AS n FROM papers WHERE is_demo = 0 GROUP BY status`),
+  ]);
+  const [duplicateGroups, lowConfidence, figures, suggestedMappings, pendingImports] = await Promise.all([
+    count(sql`(SELECT DISTINCT canonical_question_id FROM questions WHERE canonical_question_id IS NOT NULL)`),
+    count(sql`questions WHERE extraction_confidence = 'LOW' AND verification_status <> 'REJECTED'`),
+    count(sql`questions WHERE has_figure = 1 AND verification_status <> 'REJECTED'`),
+    count(sql`questions WHERE mapping_status = 'SUGGESTED' AND verification_status <> 'REJECTED'`),
+    count(sql`import_items WHERE status = 'PENDING'`),
+  ]);
+  const n = (rows: { n: number }[]) => rows.reduce((t, r) => t + Number(r.n), 0);
+  return {
+    provenance: bySourceStatus.map((r) => ({ sourceType: r.source_type, status: r.verification_status, isDemo: Boolean(r.is_demo), n: Number(r.n) })),
+    totals: {
+      questions: n(bySourceStatus),
+      realVerifiedPyq: bySourceStatus.filter((r) => !r.is_demo && r.source_type === "VERIFIED_PYQ" && r.verification_status === "VERIFIED").reduce((t, r) => t + Number(r.n), 0),
+      pendingReview: bySourceStatus.filter((r) => !r.is_demo && r.verification_status === "UNVERIFIED").reduce((t, r) => t + Number(r.n), 0),
+      rejected: bySourceStatus.filter((r) => r.verification_status === "REJECTED").reduce((t, r) => t + Number(r.n), 0),
+      ai: bySourceStatus.filter((r) => r.source_type === "AI_SUPPLEMENTARY").reduce((t, r) => t + Number(r.n), 0),
+      sources: n(sourcesByStatus),
+      duplicateGroups,
+      lowConfidence,
+      figures,
+      suggestedMappings,
+      pendingImports,
+    },
+    sourcesByStatus: sourcesByStatus.map((r) => ({ status: r.status, n: Number(r.n) })),
+    bySubject: byBoardClass.map((r) => ({ ...r, total: Number(r.total), real_pyq: Number(r.real_pyq ?? 0), pending: Number(r.pending ?? 0), ai: Number(r.ai ?? 0) })),
+    byYear: byYear.map((r) => ({ ...r, verified: Number(r.verified), pending: Number(r.pending) })),
+  };
 }

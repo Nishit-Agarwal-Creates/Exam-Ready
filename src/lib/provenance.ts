@@ -1,41 +1,56 @@
-import type { PaperType, SourceType, VerificationStatus } from "@/db/schema";
+import type { PaperType, SourceAuthority, SourceType, VerificationStatus } from "@/db/schema";
 
 export const DEMO_LABEL = "DEMO DATA — NOT A VERIFIED PREVIOUS-YEAR QUESTION";
 
-export const SOURCE_LABELS: Record<SourceType, { short: string; long: string; description: string }> = {
+/**
+ * Category definitions. `badge` is the short student-facing stamp; each category has its own
+ * colour and shape in the UI so AI practice can never be mistaken for a verified PYQ.
+ */
+export const SOURCE_LABELS: Record<SourceType, { badge: string; short: string; long: string; description: string }> = {
   VERIFIED_PYQ: {
+    badge: "Verified PYQ",
     short: "Verified PYQ",
     long: "Verified previous-year question",
-    description: "Checked against the listed board exam paper. The year and paper shown are its source.",
+    description: "Appeared in the listed board exam paper and was checked against the official document by an editor.",
   },
   OFFICIAL_SAMPLE: {
+    badge: "Official sample",
     short: "Official sample",
     long: "Official sample or specimen question",
     description: "From official sample, specimen or practice material. It did not necessarily appear in a board exam.",
   },
   USER_CONTRIBUTED: {
-    short: "Contributed",
-    long: "Contributed question",
+    badge: "Community",
+    short: "Community",
+    long: "Community-contributed question",
     description: "Added by a contributor. It is not claimed to be from a past paper.",
   },
   AI_SUPPLEMENTARY: {
-    short: "AI-generated",
+    badge: "AI practice",
+    short: "AI practice",
     long: "AI-generated practice question",
-    description: "Written by AI to fill gaps. It has never appeared in an exam.",
+    description: "Written by AI for extra practice. It has never appeared in an exam and is never counted as a PYQ.",
+  },
+  PENDING_REVIEW: {
+    badge: "Pending review",
+    short: "Pending review",
+    long: "Question awaiting source review",
+    description: "Its origin hasn't been established yet. An editor needs to review it.",
   },
 };
 
-/** Label used for demo stand-ins in composition breakdowns, so demo data never reads as a real category. */
+/** Composition labels for papers built from demo data, so demo data never reads as a real category. */
 export const DEMO_SOURCE_LABELS: Record<SourceType, string> = {
-  VERIFIED_PYQ: "Demo stand-ins for verified PYQs",
-  OFFICIAL_SAMPLE: "Demo stand-ins for official samples",
-  USER_CONTRIBUTED: "Demo contributed questions",
-  AI_SUPPLEMENTARY: "Demo AI-style questions",
+  VERIFIED_PYQ: "Demo questions",
+  OFFICIAL_SAMPLE: "Demo questions",
+  USER_CONTRIBUTED: "Demo questions",
+  AI_SUPPLEMENTARY: "Demo AI practice",
+  PENDING_REVIEW: "Demo questions",
 };
 
 export const STATUS_LABELS: Record<VerificationStatus, string> = {
   VERIFIED: "Verified",
-  UNVERIFIED: "Unverified",
+  UNVERIFIED: "Pending review",
   REJECTED: "Rejected",
 };
 
@@ -47,6 +62,14 @@ export const PAPER_TYPE_LABELS: Record<PaperType, string> = {
   OTHER: "Other source",
 };
 
+export const AUTHORITY_LABELS: Record<SourceAuthority, string> = {
+  OFFICIAL_BOARD: "Official board source",
+  OFFICIAL_INSTITUTION: "Official institution source",
+  REPOSITORY: "Educational repository",
+  USER_UPLOAD: "Uploaded by a user",
+  OTHER: "Other source",
+};
+
 export type SourceLink = {
   paperId: number;
   title: string;
@@ -55,6 +78,14 @@ export type SourceLink = {
   sourceUrl: string | null;
   questionNumber: string | null;
   isDemo: boolean;
+  part?: string | null;
+  pageNumber?: number | null;
+  paperCode?: string | null;
+  setCode?: string | null;
+  authority?: SourceAuthority;
+  authorityName?: string | null;
+  sourceFile?: string | null;
+  boardName?: string | null;
 };
 
 export type ProvenanceInput = {
@@ -64,47 +95,72 @@ export type ProvenanceInput = {
   sources: SourceLink[];
 };
 
+const isBoardPaperWithYear = (s: SourceLink) => !s.isDemo && s.paperType === "BOARD_EXAM" && s.year !== null;
+
 /**
  * The single rule for when a question may be presented as a real previous-year question.
- * Demo data can never qualify, whatever its category.
+ * Demo data and AI-written questions can never qualify.
  */
 export function isRealVerifiedPyq(q: ProvenanceInput): boolean {
-  return (
-    !q.isDemo &&
-    q.sourceType === "VERIFIED_PYQ" &&
-    q.verificationStatus === "VERIFIED" &&
-    q.sources.some((s) => !s.isDemo && s.paperType === "BOARD_EXAM" && s.year !== null)
-  );
+  return !q.isDemo && q.sourceType === "VERIFIED_PYQ" && q.verificationStatus === "VERIFIED" && q.sources.some(isBoardPaperWithYear);
 }
 
-/** Validates an admin write. Returns an error message, or null when the provenance is consistent. */
-export function validateProvenance(q: ProvenanceInput): string | null {
+/**
+ * Validates an admin write. Returns an error message, or null when the provenance is consistent.
+ * `previous` is the stored state before the edit, when editing.
+ */
+export function validateProvenance(q: ProvenanceInput, previous?: { sourceType: SourceType; answerSource?: string }): string | null {
+  if (q.isDemo && q.sourceType !== "AI_SUPPLEMENTARY") {
+    return "Demo questions were written by AI. They can only be AI practice questions.";
+  }
+  if (previous?.sourceType === "AI_SUPPLEMENTARY" && q.sourceType === "VERIFIED_PYQ") {
+    return "An AI-generated question can't become a previous-year question. If this question really appeared in a paper, add it as a new question from that paper.";
+  }
   if (q.isDemo) return null;
-  if (q.sourceType === "VERIFIED_PYQ" && q.verificationStatus === "VERIFIED") {
-    if (!q.sources.some((s) => !s.isDemo && s.paperType === "BOARD_EXAM" && s.year !== null)) {
-      return "A question can only be marked Verified PYQ once it is linked to a board exam paper with a year. Save it as Unverified, link the source paper, then verify it.";
-    }
+  if (q.sourceType === "VERIFIED_PYQ" && q.verificationStatus === "VERIFIED" && !q.sources.some(isBoardPaperWithYear)) {
+    return "A question can only be marked Verified PYQ once it is linked to a board exam paper with a year. Save it as pending review, link the source paper, then verify it.";
   }
   if (q.sourceType === "OFFICIAL_SAMPLE" && q.verificationStatus === "VERIFIED") {
     if (!q.sources.some((s) => !s.isDemo && ["SPECIMEN", "SAMPLE", "BOARD_EXAM"].includes(s.paperType))) {
       return "Link the official specimen or sample paper before marking this Official sample question as Verified.";
     }
   }
+  if (q.sourceType === "PENDING_REVIEW" && q.verificationStatus === "VERIFIED") {
+    return "Choose what the question is (PYQ, official sample, community or AI practice) before verifying it.";
+  }
   return null;
 }
 
-/** Years shown next to a real verified PYQ, e.g. "2023, 2019". Never produces a year for demo or unverified items. */
+/** Years shown next to a real verified PYQ, e.g. "2026, 2024". Never produces a year for demo, AI or unverified items. */
 export function provenanceYears(q: ProvenanceInput): string | null {
   if (!isRealVerifiedPyq(q)) return null;
-  const years = [...new Set(q.sources.filter((s) => !s.isDemo && s.paperType === "BOARD_EXAM" && s.year).map((s) => s.year as number))].sort(
-    (a, b) => b - a,
-  );
+  const years = [...new Set(q.sources.filter(isBoardPaperWithYear).map((s) => s.year as number))].sort((a, b) => b - a);
   return years.length ? years.join(", ") : null;
 }
 
-/** Frequency text backed only by stored links. Returns null below two appearances. */
-export function frequencyLine(q: ProvenanceInput): string | null {
-  const boardPapers = q.sources.filter((s) => s.paperType === "BOARD_EXAM" && s.isDemo === q.isDemo && (q.isDemo || s.year !== null));
-  if (boardPapers.length < 2) return null;
-  return q.isDemo ? `Linked to ${boardPapers.length} fictional demo papers` : `Asked in ${boardPapers.length} stored board papers`;
+/**
+ * Frequency backed only by stored links across the question's duplicate group.
+ * `groupSources` should contain the sources of every question in the canonical group.
+ * Distinct exam years are what make a question "repeated"; several sets of one year are not.
+ */
+export function frequencyOf(groupSources: SourceLink[]) {
+  const board = groupSources.filter(isBoardPaperWithYear);
+  const years = [...new Set(board.map((s) => s.year as number))].sort((a, b) => b - a);
+  const papers = new Set(board.map((s) => s.paperId)).size;
+  return { years, papers };
+}
+
+export function frequencyLine(q: ProvenanceInput, groupSources: SourceLink[] = q.sources): string | null {
+  if (!isRealVerifiedPyq(q)) return null;
+  const { years, papers } = frequencyOf(groupSources);
+  if (years.length >= 2) return `Asked in ${years.length} exam years (${years.join(", ")})`;
+  if (papers >= 2 && years.length === 1) return `Appeared in ${papers} sets of the ${years[0]} paper`;
+  return null;
+}
+
+/** One-line citation for a source link, built only from stored fields. */
+export function citation(s: SourceLink): string {
+  const parts = [s.boardName, s.year && !s.isDemo ? String(s.year) : null, s.paperCode ? `Q.P. ${s.paperCode}` : null];
+  const q = s.questionNumber ? `Q${s.questionNumber}${s.part ?? ""}` : null;
+  return [...parts, q].filter(Boolean).join(", ") || s.title;
 }

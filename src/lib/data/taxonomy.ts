@@ -110,7 +110,15 @@ export async function getSubjectStats(subjectId: number): Promise<Map<number, Ch
       marks: sql<number>`sum(${questions.marks})`,
     })
     .from(questions)
-    .where(and(eq(questions.subjectId, subjectId), eq(questions.isPublished, true), eq(questions.verificationStatus, "VERIFIED")))
+    // Published practice material: reviewed questions plus published AI practice (always labelled). Rejected never counts.
+    .where(
+      and(
+        eq(questions.subjectId, subjectId),
+        eq(questions.isPublished, true),
+        sql`${questions.verificationStatus} <> 'REJECTED'`,
+        sql`(${questions.verificationStatus} = 'VERIFIED' OR ${questions.sourceType} = 'AI_SUPPLEMENTARY')`,
+      ),
+    )
     .groupBy(questions.chapterId, questions.sourceType, questions.isDemo);
   const map = new Map<number, ChapterStats>();
   for (const r of rows) {
@@ -120,7 +128,7 @@ export async function getSubjectStats(subjectId: number): Promise<Map<number, Ch
         chapterId: r.chapterId,
         total: 0,
         marks: 0,
-        bySource: { VERIFIED_PYQ: 0, OFFICIAL_SAMPLE: 0, USER_CONTRIBUTED: 0, AI_SUPPLEMENTARY: 0 },
+        bySource: { VERIFIED_PYQ: 0, OFFICIAL_SAMPLE: 0, USER_CONTRIBUTED: 0, AI_SUPPLEMENTARY: 0, PENDING_REVIEW: 0 },
         demo: 0,
         realVerifiedPyq: 0,
       } as ChapterStats);

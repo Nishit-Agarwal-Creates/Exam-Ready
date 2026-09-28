@@ -1,0 +1,94 @@
+{
+  "_comment": "Boards, classes and subjects beyond the ICSE 8-10 demo bank. Chapters are only listed where the syllabus is known precisely (NCERT Class 10 Science and Mathematics, rationalised syllabus). Subjects without chapters show as 'coverage not available yet'. Loaded by migration 0002 and scripts/build-sources.mjs (idempotent).",
+  "boards": [
+    {
+      "slug": "icse",
+      "name": "ICSE",
+      "fullName": "Indian Certificate of Secondary Education",
+      "description": "ICSE (Class 10) and ISC (Class 12) are conducted by the Council for the Indian School Certificate Examinations (CISCE). Classes 6 to 9 and 11 are school-examined on the CISCE syllabus.",
+      "sortOrder": 1,
+      "classes": [
+        { "level": 6, "name": "Class 6", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
+        { "level": 7, "name": "Class 7", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
+        { "level": 8, "name": "Class 8", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
+        { "level": 9, "name": "Class 9", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
+        { "level": 10, "name": "Class 10", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
+        { "level": 11, "name": "Class 11 (ISC)", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
+        { "level": 12, "name": "Class 12 (ISC)", "subjects": ["mathematics", "physics", "chemistry", "biology"] }
+      ]
+    },
+    {
+      "slug": "cbse",
+      "name": "CBSE",
+      "fullName": "Central Board of Secondary Education",
+      "description": "CBSE conducts the Class 10 (Secondary School) and Class 12 (Senior School Certificate) board examinations and publishes its board question papers and marking schemes on cbse.gov.in. Classes 6 to 9 and 11 are school-examined on the NCERT-based syllabus.",
+      "sortOrder": 2,
+      "classes": [
+        { "level": 6, "name": "Class 6", "subjects": ["mathematics", "science"] },
+        { "level": 7, "name": "Class 7", "subjects": ["mathematics", "science"] },
+        { "level": 8, "name": "Class 8", "subjects": ["mathematics", "science"] },
+        { "level": 9, "name": "Class 9", "subjects": ["mathematics", "science"] },
+        {
+          "level": 10,
+          "name": "Class 10",
+          "subjects": ["mathematics", "science"],
+          "details": {
+            "science": {
+              "overview": "CBSE Class 10 Science (subject code 086) follows the NCERT textbook and covers chemistry (reactions, acids and bases, metals, carbon compounds), biology (life processes, control and coordination, reproduction, heredity, environment) and physics (light, the human eye, electricity and magnetism). The board paper is 80 marks in 3 hours, with 20 marks of internal assessment.",
+              "studyTips": [
+                "Work through the official CBSE question papers and marking schemes for recent years: the marking scheme shows the value points examiners look for.",
+                "Practise balanced chemical equations and ray diagrams until you can draw them without looking.",
+                "For case-based questions, read the passage first and underline the data each sub-part refers to.",
+                "Revise definitions and laws word for word; short answers are marked against specific value points."
+              ],
+              "chapters": [
+                { "slug": "chemical-reactions-and-equations", "name": "Chemical Reactions and Equations", "summary": "Writing and balancing chemical equations, and the main types of reactions: combination, decomposition, displacement, double displacement and redox, with everyday effects such as corrosion and rancidity.", "topics": ["Balancing chemical equations", "Types of chemical reactions", "Oxidation and reduction"] },
+                { "slug": "acids-bases-and-salts", "name": "Acids, Bases and Salts", "summary": "Properties and reactions of acids and bases, indicators and the pH scale, and the preparation and uses of common salts such as baking soda, washing soda and bleaching powder.", "topics": ["Indicators and pH", "Reactions of acids and bases", "Salts and their uses"] },
+                { "slug": "metals-and-non-metals", "name": "Metals and Non-metals", "summary": "Physical and chemical properties of metals and non-metals, the reactivity series, ionic compounds, extraction of metals and prevention of corrosion.", "topics": ["Properties of metals and non-metals", "Reactivity series", "Ionic compounds", "Extraction and corrosion"] },
+                { "slug": "carbon-and-its-compounds", "name": "Carbon and its Compounds", "summary": "Covalent bonding in carbon, versatile nature of carbon, homologous series, functional groups and nomenclature, and the chemical properties of carbon compounds including ethanol and ethanoic acid, soaps and detergents.", "topics": ["Covalent bonding", "Homologous series and nomenclature", "Chemical properties of carbon compounds", "Soaps and detergents"] },
+                { "slug": "life-processes", "name": "Life Processes", "summary": "Nutrition, respiration, transportation and excretion in plants and humans.", "topics": ["Nutrition", "Respiration", "Transportation", "Excretion"] },
+                { "slug": "control-and-coordination", "name": "Control and Coordination", "summary": "The nervous system, reflex actions and the human brain, coordination in plants through plant hormones, and hormones in animals.", "topics": ["Nervous system and reflexes", "Coordination in plants", "Hormones in animals"] },
+                { "slug": "how-do-organisms-reproduce", "name": "How do Organisms Reproduce?", "summary": "Modes of asexual reproduction, sexual reproduction in flowering plants and humans, and reproductive health.", "topics": ["Asexual reproduction", "Sexual reproduction in flowering plants", "Human reproduction and reproductive health"] },
+                { "slug": "heredity", "name": "Heredity", "summary": "Accumulation of variation, Mendel's experiments and rules of inheritance, and sex determination.", "topics": ["Variation", "Mendel's experiments", "Sex determination"] },
+                { "slug": "light-reflection-and-refraction", "name": "Light – Reflection and Refraction", "summary": "Reflection by spherical mirrors, refraction through glass slabs and spherical lenses, the mirror and lens formulae, magnification and power of a lens.", "topics": ["Spherical mirrors", "Refraction and refractive index", "Spherical lenses", "Power of a lens"] },
+                { "slug": "human-eye-and-colourful-world", "name": "The Human Eye and the Colourful World", "summary": "Structure and defects of the human eye and their correction, refraction through a prism, dispersion, atmospheric refraction and scattering of light.", "topics": ["The human eye and its defects", "Dispersion by a prism", "Atmospheric refraction and scattering"] },
+                { "slug": "electricity", "name": "Electricity", "summary": "Electric current and potential difference, Ohm's law, resistance and resistivity, resistors in series and parallel, heating effect of current and electric power.", "topics": ["Current and potential difference", "Ohm's law and resistance", "Series and parallel combinations", "Heating effect and electric power"] },
+                { "slug": "magnetic-effects-of-electric-current", "name": "Magnetic Effects of Electric Current", "summary": "Magnetic field and field lines, the field due to a current-carrying conductor, force on a conductor in a magnetic field, and domestic electric circuits.", "topics": ["Magnetic field and field lines", "Field due to a current-carrying conductor", "Force on a current-carrying conductor", "Domestic electric circuits"] },
+                { "slug": "our-environment", "name": "Our Environment", "summary": "Ecosystems and their components, food chains and webs, trophic levels, and how human activities affect the environment, including ozone depletion and waste management.", "topics": ["Ecosystem and food chains", "Trophic levels", "Ozone layer and waste management"] }
+              ]
+            },
+            "mathematics": {
+              "overview": "CBSE Class 10 Mathematics is examined at two levels, Standard (041) and Basic (241), on the same NCERT syllabus: number systems, algebra, coordinate geometry, geometry, trigonometry, mensuration, statistics and probability. The board paper is 80 marks in 3 hours, with 20 marks of internal assessment.",
+              "studyTips": [
+                "Solve the official CBSE question papers for recent years under timed conditions, then compare your working with the marking scheme.",
+                "Write every step: the marking scheme awards marks for method as well as the final answer.",
+                "Keep a formula sheet for mensuration and trigonometry and revise it daily in the last month.",
+                "Case-based questions often combine two chapters; identify which formula each sub-part needs before calculating."
+              ],
+              "chapters": [
+                { "slug": "real-numbers", "name": "Real Numbers", "summary": "The Fundamental Theorem of Arithmetic, HCF and LCM, and proofs of irrationality.", "topics": ["Fundamental Theorem of Arithmetic", "Irrational numbers"] },
+                { "slug": "polynomials", "name": "Polynomials", "summary": "Zeroes of a polynomial and the relationship between zeroes and coefficients of quadratic polynomials.", "topics": ["Geometrical meaning of zeroes", "Zeroes and coefficients"] },
+                { "slug": "pair-of-linear-equations-in-two-variables", "name": "Pair of Linear Equations in Two Variables", "summary": "Graphical and algebraic methods (substitution and elimination) for solving a pair of linear equations, and consistency of the system.", "topics": ["Graphical method", "Substitution and elimination", "Word problems"] },
+                { "slug": "quadratic-equations", "name": "Quadratic Equations", "summary": "Solving quadratic equations by factorisation and the quadratic formula, and the nature of roots.", "topics": ["Factorisation", "Quadratic formula", "Nature of roots"] },
+                { "slug": "arithmetic-progressions", "name": "Arithmetic Progressions", "summary": "The nth term and the sum of the first n terms of an arithmetic progression, with applications.", "topics": ["nth term", "Sum of n terms"] },
+                { "slug": "triangles", "name": "Triangles", "summary": "Similarity of triangles, the Basic Proportionality Theorem and criteria for similarity.", "topics": ["Basic Proportionality Theorem", "Criteria for similarity"] },
+                { "slug": "coordinate-geometry", "name": "Coordinate Geometry", "summary": "The distance formula and the section formula.", "topics": ["Distance formula", "Section formula"] },
+                { "slug": "introduction-to-trigonometry", "name": "Introduction to Trigonometry", "summary": "Trigonometric ratios, ratios of specific angles, and trigonometric identities.", "topics": ["Trigonometric ratios", "Ratios of specific angles", "Trigonometric identities"] },
+                { "slug": "some-applications-of-trigonometry", "name": "Some Applications of Trigonometry", "summary": "Heights and distances using angles of elevation and depression.", "topics": ["Heights and distances"] },
+                { "slug": "circles", "name": "Circles", "summary": "Tangents to a circle and the number and properties of tangents from an external point.", "topics": ["Tangent to a circle", "Tangents from an external point"] },
+                { "slug": "areas-related-to-circles", "name": "Areas Related to Circles", "summary": "Areas of sectors and segments of a circle.", "topics": ["Sector and segment areas"] },
+                { "slug": "surface-areas-and-volumes", "name": "Surface Areas and Volumes", "summary": "Surface areas and volumes of combinations of solids.", "topics": ["Combination of solids"] },
+                { "slug": "statistics", "name": "Statistics", "summary": "Mean, median and mode of grouped data.", "topics": ["Mean of grouped data", "Mode and median of grouped data"] },
+                { "slug": "probability", "name": "Probability", "summary": "Theoretical probability of simple events.", "topics": ["Theoretical probability"] }
+              ]
+            }
+          }
+        },
+        { "level": 11, "name": "Class 11", "subjects": ["physics", "chemistry", "mathematics", "biology"] },
+        { "level": 12, "name": "Class 12", "subjects": ["physics", "chemistry", "mathematics", "biology"] }
+      ]
+    }
+  ],
+  "subjectNames": { "mathematics": "Mathematics", "physics": "Physics", "chemistry": "Chemistry", "biology": "Biology", "science": "Science" },
+  "subjectOrder": ["mathematics", "science", "physics", "chemistry", "biology"]
+}

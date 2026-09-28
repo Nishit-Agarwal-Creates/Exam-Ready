@@ -7,9 +7,14 @@
  * Attempts:   attempts → attempt_answers
  * Ingestion:  import_batches → import_items (staged, admin-reviewed before publishing)
  *
- * Provenance rule: a question may only carry source_type VERIFIED_PYQ with verification_status
- * VERIFIED when it is linked (question_sources) to a board-exam paper that has a year. The rule is
- * enforced in src/lib/provenance.ts and by every write path in the admin.
+ * Provenance rule: a question is only presented as a verified PYQ when source_type is VERIFIED_PYQ,
+ * verification_status is VERIFIED, it is not demo data, and it is linked (question_sources) to a
+ * board-exam paper that has a year. Extraction and AI suggestions never set VERIFIED; only an editor
+ * does. The rule is enforced in src/lib/provenance.ts and by every write path in the admin.
+ *
+ * Duplicates: questions that are the same question (e.g. repeated across sets or years) point to one
+ * canonical question via canonical_question_id. Frequency and trends count distinct papers/years per
+ * canonical group, so duplicates never inflate statistics.
  */
 import { sql } from "drizzle-orm";
 import { index, integer, real, sqliteTable, text, uniqueIndex } from "drizzle-orm/sqlite-core";
@@ -19,23 +24,62 @@ const timestamps = {
   updatedAt: text("updated_at").notNull().default(sql`(strftime('%Y-%m-%dT%H:%M:%fZ','now'))`),
 };
 
-export const SOURCE_TYPES = ["VERIFIED_PYQ", "OFFICIAL_SAMPLE", "USER_CONTRIBUTED", "AI_SUPPLEMENTARY"] as const;
+/**
+ * VERIFIED_PYQ      — claimed to come from a board exam paper. Shown as a verified PYQ only after review.
+ * OFFICIAL_SAMPLE   — official specimen/sample/practice material.
+ * USER_CONTRIBUTED  — added by a contributor; not claimed to be from a past paper.
+ * AI_SUPPLEMENTARY  — written by AI (including the demo bank). Never a PYQ.
+ * PENDING_REVIEW    — origin not yet established; waiting for an editor.
+ */
+export const SOURCE_TYPES = ["VERIFIED_PYQ", "OFFICIAL_SAMPLE", "USER_CONTRIBUTED", "AI_SUPPLEMENTARY", "PENDING_REVIEW"] as const;
 export type SourceType = (typeof SOURCE_TYPES)[number];
 
 export const VERIFICATION_STATUSES = ["VERIFIED", "UNVERIFIED", "REJECTED"] as const;
 export type VerificationStatus = (typeof VERIFICATION_STATUSES)[number];
 
-export const QUESTION_TYPES = ["MCQ", "FILL_BLANK", "NUMERICAL", "SHORT_ANSWER", "LONG_ANSWER"] as const;
+export const QUESTION_TYPES = ["MCQ", "ASSERTION_REASON", "FILL_BLANK", "NUMERICAL", "SHORT_ANSWER", "LONG_ANSWER", "CASE_BASED"] as const;
 export type QuestionType = (typeof QUESTION_TYPES)[number];
 
 export const DIFFICULTIES = ["EASY", "MEDIUM", "HARD"] as const;
 export type Difficulty = (typeof DIFFICULTIES)[number];
+/** Stored difficulty. Board exam questions are UNRATED: the paper doesn't state a difficulty and we don't invent one. */
+export const STORED_DIFFICULTIES = [...DIFFICULTIES, "UNRATED"] as const;
 
 export const PAPER_TYPES = ["BOARD_EXAM", "SPECIMEN", "SAMPLE", "SCHOOL_EXAM", "OTHER"] as const;
 export type PaperType = (typeof PAPER_TYPES)[number];
 
-export const PAPER_MODES = ["PYQ_ONLY", "PYQ_PRIORITY", "EXAM_SIMULATION"] as const;
+export const PAPER_MODES = [
+  "PYQ_ONLY",
+  "PYQ_PRIORITY",
+  "EXAM_SIMULATION",
+  "RECENT_PYQ",
+  "MOST_REPEATED",
+  "PYQ_PLUS_OFFICIAL",
+  "PRACTICE",
+  "AI_SUPPLEMENTARY",
+] as const;
 export type PaperMode = (typeof PAPER_MODES)[number];
+
+export const SOURCE_AUTHORITIES = ["OFFICIAL_BOARD", "OFFICIAL_INSTITUTION", "REPOSITORY", "USER_UPLOAD", "OTHER"] as const;
+export type SourceAuthority = (typeof SOURCE_AUTHORITIES)[number];
+
+/** Life cycle of a source document. Extraction is not verification. */
+export const SOURCE_STATUSES = ["DISCOVERED", "IMPORTED", "EXTRACTED", "PENDING_REVIEW", "VERIFIED", "PUBLISHED", "REJECTED"] as const;
+export type SourceStatus = (typeof SOURCE_STATUSES)[number];
+
+export const EXTRACTION_METHODS = ["PDF_TEXT_LAYER", "OCR", "PASTED_TEXT", "MANUAL"] as const;
+export type ExtractionMethod = (typeof EXTRACTION_METHODS)[number];
+
+export const CONFIDENCE_LEVELS = ["HIGH", "MEDIUM", "LOW"] as const;
+export type Confidence = (typeof CONFIDENCE_LEVELS)[number];
+
+/** Where a chapter/topic mapping came from. Only CONFIRMED mappings are treated as fact. */
+export const MAPPING_STATUSES = ["CONFIRMED", "SUGGESTED"] as const;
+export type MappingStatus = (typeof MAPPING_STATUSES)[number];
+
+/** Where the stored answer came from. */
+export const ANSWER_SOURCES = ["OFFICIAL_SCHEME", "EDITOR", "AI", "NONE"] as const;
+export type AnswerSource = (typeof ANSWER_SOURCES)[number];
 
 export const USER_ROLES = ["STUDENT", "TEACHER", "PARENT", "ADMIN"] as const;
 export const PLANS = ["FREE", "PRO", "INSTITUTE"] as const;
@@ -126,9 +170,37 @@ export const papers = sqliteTable(
     sourceUrl: text("source_url"),
     sourceNotes: text("source_notes").notNull().default(""),
     isDemo: integer("is_demo", { mode: "boolean" }).notNull().default(false),
+    /** Stable key for imported source packs (src/data/sources/*.json). */
+    sourceKey: text("source_key"),
+    authority: text("authority", { enum: SOURCE_AUTHORITIES }).notNull().default("OTHER"),
+    authorityName: text("authority_name"),
+    sourceDomain: text("source_domain"),
+    /** Path of the document inside an archive at source_url, when applicable. */
+    sourceFile: text("source_file"),
+    answerSourceUrl: text("answer_source_url"),
+    answerSourceFile: text("answer_source_file"),
+    examSession: text("exam_session"),
+    paperName: text("paper_name"),
+    paperCode: text("paper_code"),
+    setCode: text("set_code"),
+    seriesCode: text("series_code"),
+    region: text("region"),
+    language: text("language"),
+    fileType: text("file_type"),
+    pageCount: integer("page_count"),
+    sha256: text("sha256"),
+    maxMarks: integer("max_marks"),
+    durationMinutes: integer("duration_minutes"),
+    extractionMethod: text("extraction_method", { enum: EXTRACTION_METHODS }),
+    extractionTool: text("extraction_tool"),
+    ocrUsed: integer("ocr_used", { mode: "boolean" }).notNull().default(false),
+    ocrConfidence: real("ocr_confidence"),
+    status: text("status", { enum: SOURCE_STATUSES }).notNull().default("IMPORTED"),
+    reviewedBy: text("reviewed_by"),
+    reviewedAt: text("reviewed_at"),
     ...timestamps,
   },
-  (t) => [index("papers_subject").on(t.subjectId, t.year)],
+  (t) => [index("papers_subject").on(t.subjectId, t.year), uniqueIndex("papers_source_key").on(t.sourceKey)],
 );
 
 // ───────────────────────────── Questions ─────────────────────────────
@@ -147,7 +219,7 @@ export const questions = sqliteTable(
     questionText: text("question_text").notNull(),
     questionType: text("question_type", { enum: QUESTION_TYPES }).notNull(),
     marks: integer("marks").notNull(),
-    difficulty: text("difficulty", { enum: DIFFICULTIES }).notNull().default("MEDIUM"),
+    difficulty: text("difficulty", { enum: STORED_DIFFICULTIES }).notNull().default("MEDIUM"),
     /** JSON array of option strings (MCQ only). */
     options: text("options"),
     /** JSON answer key used for auto-evaluation: {correctOption} | {accepted[]} | {value,tolerance,unit}. */
@@ -166,12 +238,23 @@ export const questions = sqliteTable(
     frequencyCount: integer("frequency_count").notNull().default(0),
     /** Normalised text hash used for duplicate detection. */
     contentHash: text("content_hash").notNull().default(""),
+    /** Points to the canonical question when this one is a duplicate (null = canonical itself). */
+    canonicalQuestionId: integer("canonical_question_id"),
+    mappingStatus: text("mapping_status", { enum: MAPPING_STATUSES }).notNull().default("CONFIRMED"),
+    /** e.g. "author", "keyword", "ai", "editor" */
+    mappingSource: text("mapping_source").notNull().default("author"),
+    answerSource: text("answer_source", { enum: ANSWER_SOURCES }).notNull().default("NONE"),
+    hasFigure: integer("has_figure", { mode: "boolean" }).notNull().default(false),
+    extractionConfidence: text("extraction_confidence", { enum: CONFIDENCE_LEVELS }),
+    /** JSON array of strings describing what extraction may have lost. */
+    extractionIssues: text("extraction_issues").notNull().default("[]"),
     ...timestamps,
   },
   (t) => [
     index("questions_subject_chapter").on(t.subjectId, t.chapterId),
     index("questions_source").on(t.sourceType, t.verificationStatus),
     index("questions_hash").on(t.contentHash),
+    index("questions_canonical").on(t.canonicalQuestionId),
   ],
 );
 
@@ -183,6 +266,10 @@ export const questionSources = sqliteTable(
     questionId: integer("question_id").notNull().references(() => questions.id, { onDelete: "cascade" }),
     paperId: integer("paper_id").notNull().references(() => papers.id, { onDelete: "cascade" }),
     questionNumber: text("question_number"),
+    /** Sub-part or internal-choice label as printed, e.g. "(a)". */
+    part: text("part"),
+    pageNumber: integer("page_number"),
+    section: text("section"),
     marksInPaper: integer("marks_in_paper"),
     isPrimary: integer("is_primary", { mode: "boolean" }).notNull().default(false),
     notes: text("notes").notNull().default(""),
@@ -294,6 +381,8 @@ export const importBatches = sqliteTable("import_batches", {
   paperId: integer("paper_id").references(() => papers.id, { onDelete: "set null" }),
   title: text("title").notNull(),
   rawText: text("raw_text").notNull(),
+  extractionMethod: text("extraction_method", { enum: EXTRACTION_METHODS }).notNull().default("PASTED_TEXT"),
+  ocrConfidence: real("ocr_confidence"),
   status: text("status", { enum: ["IN_REVIEW", "COMPLETED"] }).notNull().default("IN_REVIEW"),
   ...timestamps,
 });
@@ -308,6 +397,13 @@ export const importItems = sqliteTable(
     section: text("section"),
     text: text("text").notNull(),
     marks: integer("marks"),
+    pageNumber: integer("page_number"),
+    detectedType: text("detected_type"),
+    /** JSON array of MCQ options detected in the text. */
+    options: text("options"),
+    confidence: text("confidence", { enum: CONFIDENCE_LEVELS }),
+    /** JSON array of strings explaining low confidence. */
+    issues: text("issues").notNull().default("[]"),
     suggestedChapterId: integer("suggested_chapter_id").references(() => chapters.id, { onDelete: "set null" }),
     duplicateOfQuestionId: integer("duplicate_of_question_id").references(() => questions.id, { onDelete: "set null" }),
     status: text("status", { enum: ["PENDING", "APPROVED", "REJECTED"] }).notNull().default("PENDING"),

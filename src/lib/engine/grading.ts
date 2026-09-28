@@ -1,6 +1,7 @@
 /**
  * Answer evaluation. Objective questions (MCQ, fill in the blank, numerical) are marked automatically.
- * Descriptive questions return `null` and are reviewed by the student against the model answer.
+ * Descriptive questions, and objective questions without an official answer key, return `null`
+ * and are reviewed by the student against the model answer (or the official marking scheme).
  * An AI or teacher evaluator can later plug in by producing the same EvaluationResult shape.
  */
 import type { QuestionType } from "@/db/schema";
@@ -17,10 +18,18 @@ export type EvaluationResult = {
   method: "AUTO" | "NONE";
 };
 
-export const AUTO_GRADED: QuestionType[] = ["MCQ", "FILL_BLANK", "NUMERICAL"];
+export const AUTO_GRADED: QuestionType[] = ["MCQ", "ASSERTION_REASON", "FILL_BLANK", "NUMERICAL"];
+
+/** Types that are answered by picking an option. */
+export const OPTION_TYPES: QuestionType[] = ["MCQ", "ASSERTION_REASON"];
 
 export function isAutoGraded(type: QuestionType): boolean {
   return AUTO_GRADED.includes(type);
+}
+
+/** A question is only marked automatically when it has an answer key; otherwise the student self-marks it. */
+export function canAutoGrade(type: QuestionType, key: AnswerKey | undefined): boolean {
+  return isAutoGraded(type) && Boolean(key);
 }
 
 function normaliseText(s: string): string {
@@ -53,7 +62,7 @@ export function evaluate(type: QuestionType, key: AnswerKey, marks: number, resp
   if (!answered) return { isCorrect: false, marksAwarded: 0, method: "AUTO" };
   const r = String(response);
   let correct = false;
-  if (type === "MCQ" && "correctOption" in key) {
+  if ((type === "MCQ" || type === "ASSERTION_REASON") && "correctOption" in key) {
     correct = Number(r) === key.correctOption;
   } else if (type === "FILL_BLANK" && "accepted" in key) {
     const given = normaliseText(r);

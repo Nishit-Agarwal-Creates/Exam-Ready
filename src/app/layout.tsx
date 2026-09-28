@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Atkinson_Hyperlegible_Next, Newsreader } from "next/font/google";
+import Script from "next/script";
+import { MotionRoot } from "@/components/motion/motion-root";
 import { SITE_DESCRIPTION, SITE_NAME, TAGLINE, siteUrl } from "@/lib/site";
 import "./globals.css";
 
@@ -16,16 +18,21 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#eef2f1",
+  themeColor: "#f3f5fb",
   width: "device-width",
   initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-IN" className={`${ui.variable} ${paper.variable}`}>
+    <html lang="en-IN" className={`${ui.variable} ${paper.variable}`} suppressHydrationWarning>
       <body className="min-h-dvh flex flex-col">
+        {/* Marks that JavaScript is running, so scroll-reveal styles never hide content without it. */}
+        <Script id="js-flag" strategy="beforeInteractive">
+          {"document.documentElement.classList.add('js')"}
+        </Script>
         {children}
+        <MotionRoot />
       </body>
     </html>
   );

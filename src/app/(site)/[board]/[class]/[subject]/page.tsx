@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { JsonLd } from "@/components/json-ld";
 import { SubjectNav } from "@/components/subject-nav";
+import { CoveragePanel, TrendsPanel } from "@/components/coverage-panels";
+import { getSubjectCoverage, getSubjectTrends } from "@/lib/data/trends";
 import { loadSubjectPage, subjectMetaContext } from "@/lib/data/seo";
 import { subjectExamNote } from "@/lib/exam-info";
 import { absoluteUrl, pageMetadata } from "@/lib/site";
@@ -14,16 +16,22 @@ type Props = { params: Promise<{ board: string; class: string; subject: string }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const m = await subjectMetaContext(await params);
   if (!m) return { title: "Not found", robots: { index: false } };
+  const cov = await getSubjectCoverage(m.ctx.subject.id);
   return pageMetadata({
-    title: `${m.name}: chapters, practice papers and PYQs`,
-    description: `All ${m.ctx.chapters.length} chapters of ${m.name} with topics and question counts. Build a practice paper from verified previous questions, take it online, or download a PDF.`,
+    title: `${m.name}: chapters, previous-year questions and practice papers`,
+    description: m.ctx.chapters.length
+      ? `All ${m.ctx.chapters.length} chapters of ${m.name}, with verified previous-year question coverage by year. Build a practice paper, take it online, or download a PDF.`
+      : `${m.name} on ExamReady: current question coverage and practice options.`,
     path: m.base,
+    // Pages with no chapters and no questions would be thin; keep them out of search results.
+    noindex: m.ctx.chapters.length === 0 && cov.verifiedPyqs === 0 && cov.aiPractice === 0,
   });
 }
 
 export default async function SubjectPage({ params }: Props) {
   const d = await loadSubjectPage(await params);
   const { subject, chapters, stats, totals, base, name } = d;
+  const [coverage, trends] = await Promise.all([getSubjectCoverage(subject.id), getSubjectTrends(subject.id)]);
 
   return (
     <div className="container-page py-8 sm:py-12">
@@ -39,7 +47,9 @@ export default async function SubjectPage({ params }: Props) {
       <header className="grid gap-8 lg:grid-cols-[1fr_20rem] lg:items-end">
         <div>
           <h1 className="text-[2.2rem] sm:text-[2.8rem]">{name}</h1>
-          <p className="prose-width mt-4 text-[1.08rem]">{subject.overview}</p>
+          <p className="prose-width mt-4 text-[1.08rem]">
+            {subject.overview || `The chapter list and questions for ${name} haven't been added yet. Coverage below updates as official sources are imported and verified.`}
+          </p>
         </div>
         <div className="sheet p-5">
           <dl className="grid grid-cols-2 gap-3">
@@ -61,11 +71,17 @@ export default async function SubjectPage({ params }: Props) {
 
       <SubjectNav base={base} current="overview" />
 
+      <div className="mt-8 grid gap-6 lg:grid-cols-2">
+        <CoveragePanel byYear={coverage.byYear} verified={coverage.verifiedPyqs} pending={coverage.pendingPyqs} pyqHref={`/pyqs?subject=${subject.id}`} />
+        <TrendsPanel trends={trends} />
+      </div>
+
       <div className="mt-8 grid gap-10 lg:grid-cols-[1.3fr_1fr]">
         <section aria-labelledby="chapters-title">
           <h2 id="chapters-title" className="text-[1.7rem]">
             Chapters
           </h2>
+          {chapters.length === 0 && <p className="mt-4 text-pencil">The chapter list for this subject hasn&apos;t been added yet.</p>}
           <ol className="mt-4 divide-y divide-rule border-y border-rule">
             {chapters.map((c, i) => {
               const s = stats.get(c.id);

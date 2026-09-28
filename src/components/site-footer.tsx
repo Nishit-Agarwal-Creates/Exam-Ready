@@ -11,18 +11,19 @@ const COLUMNS = [
     ],
   },
   {
-    title: "ICSE",
+    title: "Boards",
     links: [
-      { href: "/icse/class-10", label: "Class 10" },
-      { href: "/icse/class-9", label: "Class 9" },
-      { href: "/icse/class-8", label: "Class 8" },
+      { href: "/icse", label: "ICSE and ISC" },
+      { href: "/cbse", label: "CBSE" },
+      { href: "/pyqs", label: "PYQ explorer" },
     ],
   },
   {
     title: "About",
     links: [
       { href: "/how-it-works", label: "How it works" },
-      { href: "/how-it-works#sources", label: "Question sources" },
+      { href: "/sources", label: "Question sources" },
+      { href: "/search", label: "Search" },
       { href: "/admin", label: "Admin sign-in" },
     ],
   },
@@ -56,8 +57,8 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-rule">
         <div className="container-page flex flex-col gap-2 py-5 text-sm text-pencil sm:flex-row sm:justify-between">
-          <p>© {new Date().getFullYear()} ExamReady. Not affiliated with CISCE or any examination board.</p>
-          <p>This build contains demo data, which is labelled wherever it appears.</p>
+          <p>© {new Date().getFullYear()} ExamReady. Not affiliated with CISCE, CBSE or any examination board.</p>
+          <p>Demo and AI practice questions are labelled wherever they appear.</p>
         </div>
       </div>
     </footer>

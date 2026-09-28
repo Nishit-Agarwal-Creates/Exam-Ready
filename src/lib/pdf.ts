@@ -1,10 +1,13 @@
 /**
- * Client-side PDF export. pdf-lib is loaded on demand, so it never ships with the initial page
- * and never runs on the Worker. Uses the built-in Times fonts for a school-exam look.
+ * Client-side PDF export. pdf-lib (and fontkit) are loaded on demand, so they never ship with the
+ * initial page and never run on the Worker. DejaVu Serif is embedded (subset) so subscripts,
+ * superscripts, arrows, √, π and other symbols print correctly; if the font can't be loaded the
+ * built-in Times fonts are used with a symbol fallback table.
  */
 import type { PaperView } from "@/lib/data/papers";
 import { answerAddsInfo } from "@/lib/answer-text";
-import { isRealVerifiedPyq, provenanceYears } from "@/lib/provenance";
+import { loadFontkit, loadPdfLib } from "@/lib/browser-libs";
+import { citation, isRealVerifiedPyq } from "@/lib/provenance";
 
 const LETTERS = ["a", "b", "c", "d", "e", "f"];
 
@@ -81,38 +84,63 @@ function sanitize(text: string, charset: Set<number>): string {
   let out = "";
   for (const ch of text.normalize("NFC")) {
     const cp = ch.codePointAt(0)!;
+    if (ch === "\n") {
+      out += "\n";
+      continue;
+    }
+    if (ch === "\t") {
+      out += " ";
+      continue;
+    }
+    // Arrow extension strokes (⎯⎯→) print as a single arrow.
+    if (ch === "⎯" || ch === "⏤") continue;
+    // Keep anything the embedded font can draw.
+    if (charset.has(cp)) {
+      out += ch;
+      continue;
+    }
     if (cp >= 0x2080 && cp <= 0x2089) {
       out += String(cp - 0x2080);
       continue;
     }
     const sup = "⁰¹²³⁴⁵⁶⁷⁸⁹".indexOf(ch);
     if (sup >= 0) {
-      out += charset.has(cp) ? ch : `^${sup}`;
+      out += `^${sup}`;
       continue;
     }
     if (REPLACEMENTS[ch] !== undefined) {
       out += REPLACEMENTS[ch];
       continue;
     }
-    if (ch === "\n" || ch === "\t") {
-      out += ch === "\t" ? " " : "\n";
-      continue;
-    }
-    out += charset.has(cp) ? ch : "?";
+    out += "?";
   }
   return out;
 }
 
 export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): Promise<void> {
-  const { PDFDocument, StandardFonts, rgb } = await import("pdf-lib");
+  const { PDFDocument, StandardFonts, rgb } = await loadPdfLib();
   const doc = await PDFDocument.create();
+  let unicode: { regular: ArrayBuffer; bold: ArrayBuffer; sans: ArrayBuffer } | null = null;
+  try {
+    const fontkit = (await loadFontkit()) as Parameters<typeof doc.registerFontkit>[0];
+    const load = async (f: string) => {
+      const r = await fetch(`/fonts/${f}`);
+      if (!r.ok) throw new Error(f);
+      return r.arrayBuffer();
+    };
+    const [regular, bold, sansFont] = await Promise.all([load("DejaVuSerif.ttf"), load("DejaVuSerif-Bold.ttf"), load("DejaVuSans.ttf")]);
+    doc.registerFontkit(fontkit);
+    unicode = { regular, bold, sans: sansFont };
+  } catch {
+    unicode = null; // fall back to the standard fonts
+  }
   doc.setTitle(`${paper.board.name} ${paper.cls.name} ${paper.subject.name} practice paper`);
   doc.setAuthor("ExamReady");
   doc.setCreator("ExamReady");
-  const regular = await doc.embedFont(StandardFonts.TimesRoman);
-  const bold = await doc.embedFont(StandardFonts.TimesRomanBold);
-  const italic = await doc.embedFont(StandardFonts.TimesRomanItalic);
-  const sans = await doc.embedFont(StandardFonts.Helvetica);
+  const regular = unicode ? await doc.embedFont(unicode.regular, { subset: true }) : await doc.embedFont(StandardFonts.TimesRoman);
+  const bold = unicode ? await doc.embedFont(unicode.bold, { subset: true }) : await doc.embedFont(StandardFonts.TimesRomanBold);
+  const italic = unicode ? regular : await doc.embedFont(StandardFonts.TimesRomanItalic);
+  const sans = unicode ? await doc.embedFont(unicode.sans, { subset: true }) : await doc.embedFont(StandardFonts.Helvetica);
   const charset = new Set(regular.getCharacterSet());
   const s = (t: string) => sanitize(t, charset);
 
@@ -242,8 +270,16 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
           q.options.forEach((o, i) => wrap(`(${LETTERS[i]}) ${o}`, regular, 11, textW - 10).forEach((l) => optLines.push(`L${l}`)));
         }
       }
-      const years = isRealVerifiedPyq(q) ? provenanceYears(q) : null;
-      const blockH = lines.length * 14.5 + optLines.length * 14 + (years ? 12 : 0) + 12;
+      const tag = isRealVerifiedPyq(q)
+        ? citation(q.sources.find((x) => !x.isDemo && x.paperType === "BOARD_EXAM") ?? q.sources[0])
+        : q.sourceType === "AI_SUPPLEMENTARY"
+          ? "AI practice question"
+          : q.sourceType === "OFFICIAL_SAMPLE"
+            ? "Official sample question"
+            : null;
+      const figureSrc = q.hasFigure ? q.sources.find((x) => !x.isDemo) : undefined;
+      const figureNote = q.hasFigure ? `[Figure/table in the source paper${figureSrc?.pageNumber ? `, page ${figureSrc.pageNumber}` : ""}]` : null;
+      const blockH = lines.length * 14.5 + optLines.length * 14 + (tag ? 12 : 0) + (figureNote ? 13 : 0) + 12;
       ensure(Math.min(blockH, 200));
       text(`${n}.`, numX, 11.5, bold);
       const marksStr = `[${item.marks}]`;
@@ -267,8 +303,14 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
           y -= 14;
         }
       }
-      if (years) {
-        text(`${paper.board.name} ${years}`, textX, 8.5, italic, grey);
+      if (figureNote) {
+        ensure(13);
+        text(figureNote, textX, 9.5, italic, grey);
+        y -= 13;
+      }
+      if (tag) {
+        ensure(12);
+        text(tag, textX, 8.5, italic, grey);
         y -= 12;
       }
       y -= 10;
@@ -292,8 +334,18 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
       if (key && "correctOption" in key && q.options) keyLine = `(${LETTERS[key.correctOption]}) ${q.options[key.correctOption]}`;
       else if (key && "accepted" in key) keyLine = key.accepted.join(" / ");
       else if (key && "value" in key) keyLine = `${key.value}${key.unit ? ` ${key.unit}` : ""}`;
-      const body = [keyLine, q.answer.text !== keyLine ? q.answer.text : ""].filter(Boolean).join("\n");
-      const lines = wrap(body || "No model answer stored.", regular, 10.5, textW + marksW);
+      const body = [keyLine, answerAddsInfo(keyLine, q.answer.text) ? q.answer.text : ""].filter(Boolean).join("\n");
+      const origin =
+        q.answerSource === "OFFICIAL_SCHEME" ? "Official marking scheme" : q.answerSource === "AI" ? "Model answer written by AI" : q.answerSource === "EDITOR" ? "Model answer" : "";
+      const imageNote = q.extractionIssues.some((i) => /image/i.test(i) && /(scheme|answer)/i.test(i))
+        ? " (Parts of the official answer are images in the marking scheme and are not reproduced here.)"
+        : "";
+      const lines = wrap(
+        body ? `${origin ? `${origin}: ` : ""}${body}${imageNote}` : "No official answer has been published for this question.",
+        regular,
+        10.5,
+        textW + marksW,
+      );
       ensure(Math.min(lines.length * 13 + 10, 160));
       text(`${num}.`, numX, 10.5, bold);
       for (const l of lines) {

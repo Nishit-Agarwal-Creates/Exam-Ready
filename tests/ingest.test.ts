@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { parsePaperText, suggestChapter } from "../src/lib/engine/ingest.ts";
-import { isRealVerifiedPyq, validateProvenance } from "../src/lib/provenance.ts";
+import { frequencyLine, frequencyOf, isRealVerifiedPyq, provenanceYears, validateProvenance } from "../src/lib/provenance.ts";
 
 test("parses numbered questions, sections and marks", () => {
   const items = parsePaperText(`SECTION A
@@ -40,4 +40,44 @@ test("provenance: verified PYQ needs a non-demo board paper with a year", () => 
   assert.equal(isRealVerifiedPyq({ ...base, sources: [{ ...paper, year: 2023 }] }), true);
   // Demo data can never be a real PYQ, even when linked to a paper with a year.
   assert.equal(isRealVerifiedPyq({ ...base, isDemo: true, sources: [{ ...paper, year: 2023 }] }), false);
+});
+
+test("detects MCQ and assertion-reason options, pages and confidence", () => {
+  const items = parsePaperText(
+    "=== Page 3 ===\nSECTION A\n1. Which gas is evolved when zinc reacts with dilute HCl? (A) Oxygen (B) Hydrogen (C) Chlorine (D) Nitrogen [1]\n" +
+      "\f2. Assertion (A) : Ozone absorbs UV radiation. Reason (R) : Ozone is O3. (A) Both A and R are true (B) A true, R false (C) A false, R true (D) Both false [1]\n" +
+      "3. Study the diagram given below and label the parts.",
+  );
+  assert.equal(items[0].type, "MCQ");
+  assert.deepEqual(items[0].options, ["Oxygen", "Hydrogen", "Chlorine", "Nitrogen"]);
+  assert.equal(items[0].page, 3);
+  assert.equal(items[0].confidence, "HIGH");
+  assert.equal(items[1].type, "ASSERTION_REASON");
+  assert.equal(items[1].page, 4);
+  assert.equal(items[2].confidence, "MEDIUM");
+  assert.ok(items[2].issues.some((i) => i.includes("figure")));
+  const ocr = parsePaperText("=== Page 1 ===\n1. Define valency. [1]", { 1: 42 });
+  assert.equal(ocr[0].confidence, "LOW");
+});
+
+test("provenance: AI and demo questions can never become PYQs", () => {
+  const paper = { paperId: 1, title: "CBSE 2025 Science", paperType: "BOARD_EXAM" as const, sourceUrl: null, questionNumber: "4", isDemo: false, year: 2025 };
+  assert.ok(validateProvenance({ sourceType: "VERIFIED_PYQ", verificationStatus: "UNVERIFIED", isDemo: false, sources: [paper] }, { sourceType: "AI_SUPPLEMENTARY" }));
+  assert.ok(validateProvenance({ sourceType: "VERIFIED_PYQ", verificationStatus: "VERIFIED", isDemo: true, sources: [paper] }));
+  assert.ok(validateProvenance({ sourceType: "PENDING_REVIEW", verificationStatus: "VERIFIED", isDemo: false, sources: [paper] }));
+  assert.equal(isRealVerifiedPyq({ sourceType: "AI_SUPPLEMENTARY", verificationStatus: "VERIFIED", isDemo: false, sources: [paper] }), false);
+  // Unverified PYQ candidates never display a year or frequency
+  const pending = { sourceType: "VERIFIED_PYQ" as const, verificationStatus: "UNVERIFIED" as const, isDemo: false, sources: [paper] };
+  assert.equal(provenanceYears(pending), null);
+  assert.equal(frequencyLine(pending), null);
+});
+
+test("frequency counts distinct exam years, not sets of one year", () => {
+  const verified = { sourceType: "VERIFIED_PYQ" as const, verificationStatus: "VERIFIED" as const, isDemo: false };
+  const set1 = { paperId: 1, title: "2026 set 1", paperType: "BOARD_EXAM" as const, sourceUrl: null, questionNumber: "3", isDemo: false, year: 2026 };
+  const set2 = { ...set1, paperId: 2, title: "2026 set 2" };
+  const y2024 = { ...set1, paperId: 3, year: 2024 };
+  assert.deepEqual(frequencyOf([set1, set2]).years, [2026]);
+  assert.equal(frequencyLine({ ...verified, sources: [set1] }, [set1, set2]), "Appeared in 2 sets of the 2026 paper");
+  assert.equal(frequencyLine({ ...verified, sources: [set1] }, [set1, set2, y2024]), "Asked in 2 exam years (2026, 2024)");
 });

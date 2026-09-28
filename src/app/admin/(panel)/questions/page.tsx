@@ -109,6 +109,17 @@ export default async function AdminQuestions({ searchParams }: { searchParams: P
           </select>
         </div>
         <div>
+          <label htmlFor="a-issues" className="field-label">
+            Extraction issues
+          </label>
+          <select id="a-issues" name="issues" className="select" defaultValue={f.issues ?? ""}>
+            <option value="">Any</option>
+            <option value="any">Figure or low/medium confidence</option>
+            <option value="figure">Needs a figure</option>
+            <option value="low">Low confidence</option>
+          </select>
+        </div>
+        <div>
           <label htmlFor="a-q" className="field-label">
             Search
           </label>

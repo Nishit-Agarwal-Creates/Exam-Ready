@@ -1,18 +1,20 @@
 # ExamReady
 
-**Practice what was actually asked.**
+**Prepare from real exam questions.**
 
-ExamReady builds custom exam papers from verified previous-year questions (PYQs), lets students take them as timed online tests or print them as PDFs, and shows where marks were lost. It starts with ICSE Classes 8, 9 and 10 (Mathematics, Physics, Chemistry, Biology), and the data model is built to add CBSE and other boards later.
+ExamReady builds practice papers from previous-year questions (PYQs) that trace back to official board papers, lets students take them as timed online tests or print them, and shows exactly where every question came from. It covers ICSE/ISC and CBSE, Classes 6 to 12, with honest coverage: every page shows what is actually verified.
 
-The core rule: **a question is only ever presented as a previous-year question when it is linked to a stored board exam paper with a year.** Everything else is labelled for what it is: official sample, contributed, or AI-generated.
+The rules the whole product is built around:
 
-> **Demo data.** This repository ships with about 430 original demo questions so every feature can be tried. They were written for demonstration, are linked only to fictional papers with no year, and are shown everywhere with the label **DEMO DATA — NOT A VERIFIED PREVIOUS-YEAR QUESTION**. Delete them from the admin dashboard before launch.
+- A question is only shown as a **Verified PYQ** when it is linked to a stored board-exam paper with a year **and** an editor has checked it against that document.
+- Extraction is not verification, and AI output is never provenance.
+- Nothing is invented: no years, sources, answer keys, statistics or coverage. Where data doesn't exist, the UI says so.
 
 ---
 
 ## Quick start
 
-Requirements: Node.js 20.9 or newer (tested on Node 24) and npm. You don't need a Cloudflare account for local development.
+Requirements: Node.js 20.9+ (tested on Node 24) and npm. No Cloudflare account or API key is needed for local development.
 
 ```bash
 npm install
@@ -21,209 +23,186 @@ npm run dev
 
 Open http://localhost:3000.
 
-The first `npm run dev` does the following (via `scripts/db-setup.mjs`):
+The first `npm run dev` does three things:
 
-1. It creates `.dev.vars` with a random local admin password and session secret, and prints the password in the terminal.
-2. It creates a local D1 (SQLite) database in `.wrangler/state` and applies the migrations.
-3. It loads the demo question bank.
+- creates `.dev.vars` with a random admin password, and prints it,
+- applies the database migrations to a local D1 database,
+- loads the AI-written demo practice bank and the official CBSE source packs.
 
-The admin area is at http://localhost:3000/admin. The password is in `.dev.vars`, and it's also printed each time `npm run dev` starts.
-
-Production build:
+The admin area is at `/admin`.
 
 ```bash
-npm run build
+npm run build      # production build
+npm test           # unit tests (engine, grading, ingestion, provenance rules)
+npm run lint
+npm run typecheck
+npm run db:reset   # reload demo data and return every official question to "pending review" (local only)
 ```
-
-### Scripts
-
-| Command | What it does |
-| --- | --- |
-| `npm run dev` | Prepares the local DB if needed, then starts Next.js with local Cloudflare bindings |
-| `npm run build` | Production Next.js build (typechecks too) |
-| `npm test` | Unit tests for the paper engine, grading, import parser and provenance rules |
-| `npm run lint` / `npm run typecheck` | ESLint / TypeScript |
-| `npm run db:reset` | Clears every table and reloads the demo data (works while `dev` is running) |
-| `npm run db:generate` | Generates a new SQL migration after editing `src/db/schema.ts` |
-| `npm run preview` | Builds the Cloudflare Worker and runs it locally in the Workers runtime |
-| `npm run deploy` | Builds and deploys to Cloudflare Workers |
 
 ---
 
-## What's in the MVP
+## What's in the bank
 
-| Area | Where |
-| --- | --- |
-| Homepage | `/` |
-| Paper builder with a live estimate of what the paper will be made of | `/practice` |
-| Paper view, model answers, print, PDF (with or without answer key) | `/paper/[id]` |
-| Timed online test: palette, mark for review, autosave and resume, submit confirmation, auto-submit at zero | `/test/[id]` |
-| Results: score, time, attempted/correct/incorrect, by chapter, type and source, revision list, self-marking of written answers | `/results/[id]` |
-| Attempt history on this device | `/my-practice` |
-| Question bank browser with filters | `/pyqs` |
-| SEO pages | `/icse`, `/icse/class-9`, `/icse/class-9/chemistry`, `/…/chemistry/pyq`, `/…/chemistry/chapter-wise`, `/…/chemistry/[chapter]` |
-| Admin: dashboard, questions (add/edit/delete, provenance, source links), source papers, import review, generated papers, demo-data removal | `/admin` |
+| Content | Category | Status |
+| --- | --- | --- |
+| CBSE Class 10 Science 2026, Q.P. 31/2/1 and 31/2/2 (official papers + official marking scheme answers) | PYQ | **Pending review**, 90 questions |
+| CBSE Class 10 Science 2025, Q.P. 31/1/1 (official paper, no marking scheme published) | PYQ | **Pending review**, 45 questions, no answer keys |
+| ICSE Classes 8–10 practice bank (428 questions written by AI for demonstration) | AI practice (demo) | Labelled "DEMO DATA", never a PYQ |
 
-Features that aren't built yet are labelled "coming later" in the UI (student accounts, CBSE). There are no buttons that don't work.
+The official questions were extracted verbatim from the PDFs CBSE publishes at cbse.gov.in. The source packs are in `src/data/sources/*.json`, and the format is documented in `src/data/sources/FORMAT.md`.
+
+Each pack records:
+
+- the source URL and the file inside the archive,
+- the year, Q.P. code, set and series,
+- the page number of every question,
+- the marks and where they came from,
+- figures that couldn't be reproduced,
+- extraction confidence and notes,
+- official marking-scheme answers, where they exist.
+
+Chapter mappings are marked *suggested*.
+
+**Until an editor verifies them in `/admin/review`, these questions are not used in PYQ papers, not shown publicly and not counted in any statistic.** Verifying is quick: open a source, keep the official PDF open beside it (page numbers are shown), select the questions, confirm, and choose "Verify and publish". 32 questions that appear in both 2026 sets are linked as duplicates, so they count once.
+
+Maths papers were not imported, because their PDF text layers drop symbols (√, θ, fractions). They need OCR or manual transcription through the importer.
+
+---
+
+## Features
+
+**Student side**
+
+- **PYQ explorer** (`/pyqs`): board → class → subject → year → paper → questions, with filters for year, chapter, marks, type, source and repeated questions. Each question has a provenance panel with board, year, paper, question number, page and status.
+- **Paper builder** (`/practice`):
+  - eight modes: PYQ only, Recent PYQs, Most repeated PYQs, PYQ priority, Exam simulation, PYQ + official sample, Practice mix, AI practice;
+  - full-syllabus or chapter-wise scope;
+  - live year-by-year coverage before you build.
+
+  Non-PYQ questions only fill gaps if the student ticks "allow". The generation dialog replays the steps the engine actually ran.
+- **Online test**: timer, palette, mark for review, autosave and resume, submit confirmation, auto-submit, and figure notices linking to the source page.
+- **Results**:
+  - score, accuracy, attempted, unanswered, marked for review and time used;
+  - breakdowns by chapter, type, section and source;
+  - a revision list.
+
+  Questions without an official key are self-marked, and no answer is invented. There is no rank or percentile.
+- **PDF**: DejaVu Unicode fonts embedded, so subscripts, arrows, √ and π print correctly. Each verified PYQ carries a citation, figure notes point to the source page, and the answer key labels each answer as official scheme, editor or AI.
+- **Sources** (`/sources`): a public record for every document, showing what's extracted, what's verified and where it came from.
+- **Search** (`/search`): across published questions by text, board, class, subject, chapter, year and source.
+- **Coverage and trends** on every subject page, computed from verified data only. "Repeated" means the same question appeared in two or more *exam years*.
+
+**Admin** (`/admin`)
+
+- Dashboard with live counts:
+  - provenance distribution and questions by board, class, subject and year;
+  - pending, rejected and duplicate groups;
+  - figure and OCR issues and suggested mappings.
+- **Review queue**: per source, with evidence, bulk verify / verify and publish / reject. Verifying requires confirming the document was checked, and the provenance rule is re-applied to every question.
+- **Sources**: full source metadata (authority, session, paper code, set, series, language, answer source, pages and more).
+- **Import**: read a PDF's text layer (pdf.js) or run OCR on scans and images (Tesseract.js), in the editor's browser. Only the text is sent to the server. The importer segments questions, detects numbers, sections, marks, pages and options, classifies the type, scores confidence, flags likely duplicates, and suggests a chapter.
+- **Duplicates**: merge or split canonical groups.
+- **AI**: optional chapter suggestions and AI practice drafts.
+- Question editor: an AI-written question can't be turned into a PYQ, and a missing answer key stays missing.
 
 ---
 
 ## Architecture
 
-- **Next.js 16 (App Router) + React 19 + TypeScript.** Server components by default. Client components only where there is interaction (generator, exam, self-review, admin form).
-- **Cloudflare Workers** via the [OpenNext adapter](https://opennext.js.org/cloudflare). The compressed Worker is about 1.9 MB, under the free plan's 3 MB limit.
-- **Cloudflare D1 (SQLite) + Drizzle ORM.** The schema lives in `src/db/schema.ts`, and SQL migrations in `drizzle/migrations`. Locally, Wrangler emulates D1, so dev and production run the same SQL.
-- **Tailwind CSS v4** with a small token-based design system in `src/app/globals.css`.
-- **PDFs are generated in the browser** with `pdf-lib`, loaded only when a student clicks Download. This keeps it out of the initial bundle and off the Worker's CPU budget.
-- **No paid AI API is needed.** Paper generation, grading, import parsing, duplicate detection and chapter suggestions are all deterministic code.
+- **Next.js 16 + React 19 + TypeScript + Tailwind v4**, deployed to **Cloudflare Workers** with OpenNext. The compressed Worker is about 1.8 MB, well under the free plan's 3 MB limit.
+- **Cloudflare D1** (SQLite) via Drizzle. Migrations are in `drizzle/migrations`:
+  - `0001` adds the provenance and ingestion columns;
+  - `0002` corrects the demo bank's provenance and adds the ICSE/CBSE Classes 6–12 taxonomy.
+- **Browser-only libraries** (pdf-lib, fontkit, pdf.js, Tesseract.js) are loaded on demand from jsDelivr at pinned versions, so they never enter the Worker bundle (`src/lib/browser-libs.ts`).
+- **AI** is behind a provider interface (`src/lib/ai/`): Cloudflare Workers AI through the `AI` binding (free daily allowance, no API key), or no AI at all. Everything except the two AI tools works without it. In local development remote bindings are off; set `EXAMREADY_REMOTE_AI=1` after `npx wrangler login` to try AI locally.
+- **Motion** is CSS-first (`globals.css`): converging hero objects, scroll reveal, pointer parallax and spotlight, tilt cards, magnetic buttons, and the generation and results animations. A single small client component drives it with delegated listeners. `prefers-reduced-motion` shows a static final state.
 
 ```
-src/
-  app/
-    (site)/            public pages (homepage, practice, paper, results, SEO routes…)
-    test/[id]/         focused exam page (no site chrome)
-    admin/             sign-in, admin panel, server actions
-    api/               estimate, papers, attempts, self-review
-  components/          UI (provenance stamps, question block, exam runner, generator form…)
-  db/                  Drizzle schema + D1 access
-  lib/
-    engine/            pure logic: generator, grading, import parser (unit tested)
-    data/              database queries (taxonomy, questions, papers, attempts, admin)
-    provenance.ts      the rules and labels for question sources
-    pdf.ts             client-side PDF export
-  data/demo/           demo question banks (JSON) → seeded by scripts/build-seed.mjs
-drizzle/migrations/    SQL migrations
-scripts/               local DB setup and seed builder
-tests/                 node:test unit tests
+src/app/(site)/        public pages: home, practice, pyqs, search, sources, paper, results, SEO routes
+src/app/test/[id]/     focused exam page
+src/app/admin/         admin panel, review queue, sources, import, duplicates, AI, server actions
+src/lib/engine/        pure logic: generator, coverage, grading, ingestion parser (unit tested)
+src/lib/data/          D1 queries: questions, papers, attempts, trends, admin
+src/lib/provenance.ts  the provenance rules and labels
+src/lib/ai/            AI provider abstraction + validated tasks
+src/data/sources/      official source packs (real questions, pending review)
+src/data/demo/         AI-written demo practice bank
+src/data/taxonomy.json boards, classes, subjects; chapters where the syllabus is known precisely
+scripts/               DB setup, demo seed, source-pack importer (idempotent)
 ```
 
-### Data model
+### Provenance categories
 
-```
-boards → classes → subjects → chapters → topics
-questions ─┬─ question_sources ── papers        (each appearance of a question in a source paper)
-           └─ paper_questions ── generated_papers ── attempts ── attempt_answers
-import_batches → import_items                   (staged, reviewed by an editor before publishing)
-users                                            (roles STUDENT/TEACHER/PARENT/ADMIN, plans FREE/PRO/INSTITUTE; for later)
-```
+| Category | Meaning |
+| --- | --- |
+| `VERIFIED_PYQ` | From a board-exam paper. Shown as **Verified PYQ** only after editor review and when linked to a paper with a year. Otherwise shown as "PYQ · pending review". |
+| `OFFICIAL_SAMPLE` | Official specimen or sample material. |
+| `USER_CONTRIBUTED` | Community contribution. |
+| `AI_SUPPLEMENTARY` | Written by AI. Never a PYQ, never in PYQ counts. |
+| `PENDING_REVIEW` | Origin not established yet. |
 
-Each question has `source_type` (`VERIFIED_PYQ`, `OFFICIAL_SAMPLE`, `USER_CONTRIBUTED`, `AI_SUPPLEMENTARY`), `verification_status` (`VERIFIED`, `UNVERIFIED`, `REJECTED`), `is_demo`, and a cached `frequency_count`. Year, paper name, question number and source URL live on the linked `papers` / `question_sources` rows rather than being copied onto the question, so a question that appeared in several papers keeps every appearance.
+Each category has its own colour, border style and icon.
 
-### Provenance rules (enforced in code)
+The rules are enforced in `src/lib/provenance.ts` and covered by tests:
 
-All of these are in `src/lib/provenance.ts`, with tests in `tests/ingest.test.ts`.
-
-- `VERIFIED_PYQ` + `VERIFIED` is refused unless the question links to a non-demo **board exam paper with a year**.
-- If that link or paper is removed, or the paper loses its year, the question is automatically set back to unverified.
-- Demo questions (`is_demo`) can never be shown as real PYQs, whatever their category.
-- Frequency text ("asked in 3 stored papers") is only shown when it is backed by stored links.
-- Unverified and rejected questions are never used in papers or shown publicly.
-- The importer extracts numbers, sections and marks that are visibly present in the pasted text. It never assigns a year or source. An imported question only becomes verified when an editor ticks "I checked this against the source paper".
-
-### Paper modes
-
-The engine is in `src/lib/engine/generator.ts`.
-
-- **PYQ only**: uses verified PYQs only. If they can't make the requested total, the paper is not padded. Instead the student sees the available marks and the largest paper that can be made, with one-click alternatives.
-- **PYQ priority**: fills with verified PYQs first, then official samples, then reviewed contributed questions, then reviewed AI questions. It uses as little lower-priority material as possible, and hits the exact total with a subset-sum step.
-- **Exam simulation**: Section A (questions of 1–2 marks) and Section B (3–5 marks), split roughly in half and rebalanced if the bank is short of one kind.
-
-Every paper stores and shows its actual composition by marks.
-
-### Grading
-
-- MCQ, fill in the blank and numerical answers are marked on the server after submission. The answer key never reaches the browser during a test.
-- Written answers are self-marked against the model answer.
-- `src/lib/engine/grading.ts` returns a common result shape, so an AI or teacher evaluator can be added later without changing the results pages.
+- demo and AI questions can never become PYQs;
+- removing a source link or year un-verifies a question automatically;
+- frequency counts only verified appearances, by distinct exam year.
 
 ---
 
-## Environment variables
+## Environment
 
 | Name | Where | Purpose |
 | --- | --- | --- |
-| `ADMIN_PASSWORD` | secret | Admin sign-in password (8+ characters) |
-| `SESSION_SECRET` | secret | Signs the admin session cookie (32+ characters) |
-| `SITE_URL` | `wrangler.jsonc` vars | Public URL, used for canonical links and the sitemap at runtime |
-| `NEXT_PUBLIC_SITE_URL` | build environment | Same URL, used for pages pre-rendered at build time (homepage, robots.txt) |
-| `SHOW_DEMO_DATA` | `wrangler.jsonc` vars | `"false"` hides demo questions from papers and public pages |
+| `ADMIN_PASSWORD` | secret | Admin password (8+ characters) |
+| `SESSION_SECRET` | secret | Signs the admin cookie (32+ characters) |
+| `SITE_URL` | `wrangler.jsonc` vars | Public URL (canonical links, sitemap) |
+| `NEXT_PUBLIC_SITE_URL` | build variable | Same URL, for pages rendered at build time |
+| `SHOW_DEMO_DATA` | `wrangler.jsonc` vars | `"false"` hides the demo bank |
+| `AI` | `wrangler.jsonc` binding | Workers AI (optional) |
 
-Locally, secrets live in `.dev.vars` (created automatically; see `.dev.vars.example`). **Never commit `.dev.vars` or `.env` files.** Both are git-ignored.
+Locally, secrets live in `.dev.vars` (git-ignored). Never commit it.
 
 ---
 
-## Deploying to Cloudflare
+## Deploying the Phase 2 update
 
-Nothing is deployed until you run these steps.
+Nothing here touches production until you run it.
 
-1. Log in and create the database:
-   ```bash
-   npx wrangler login
-   npx wrangler d1 create examready
-   ```
-   Copy the printed `database_id` into `wrangler.jsonc` (it replaces `00000000-…`).
-
-2. Set the public URL in `wrangler.jsonc` → `vars.SITE_URL` (e.g. `https://examready.in`). Set `SHOW_DEMO_DATA` to `"false"` if you won't load demo data.
-
-3. Create the tables in the remote database:
+1. **Migrate the database.** This reclassifies the demo bank as AI practice, removes its fictional papers, and adds the new taxonomy. Existing papers and attempts are kept.
    ```bash
    npm run db:migrate:remote
    ```
-   Optionally load the demo bank: `npm run db:seed:remote`. Everything in it is labelled demo.
-
-4. Add the secrets:
+2. **Load the official source packs.** Questions arrive as pending review. The step is idempotent and never overwrites review decisions.
    ```bash
-   npx wrangler secret put ADMIN_PASSWORD
-   npx wrangler secret put SESSION_SECRET   # e.g. output of: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+   npm run db:sources:remote
    ```
-
-5. Build and deploy:
+3. **Deploy.** Push to GitHub if the repository is connected to Cloudflare, or run:
    ```bash
-   NEXT_PUBLIC_SITE_URL=https://your-domain npm run deploy
+   $env:NEXT_PUBLIC_SITE_URL="https://examready.nishitcreates-business.workers.dev"; npm run deploy   # PowerShell
    ```
-   On Windows PowerShell: `$env:NEXT_PUBLIC_SITE_URL="https://your-domain"; npm run deploy`.
+4. **Review.** Sign in at `/admin/review` and verify the CBSE questions against the official PDFs.
 
-6. Optionally attach a custom domain in the Cloudflare dashboard (Workers → examready → Settings → Domains & Routes).
+Workers AI needs no setup: the `AI` binding is in `wrangler.jsonc`, and it uses Cloudflare's free daily allowance. If the allowance runs out, AI tools report "unavailable" and nothing else is affected.
 
-To deploy from GitHub instead, connect the repository in **Workers & Pages → Create → Import a repository**. Use `npx opennextjs-cloudflare build` as the build command and `npx opennextjs-cloudflare deploy` as the deploy command, and add `NEXT_PUBLIC_SITE_URL` as a build variable.
-
-**Plan note:** the app deploys on the Workers free plan. Server-rendered pages can exceed the free plan's per-request CPU allowance under load, so the Workers Paid plan (about US$5 a month) is recommended for a public launch. D1's free tier is enough for a large question bank.
-
-To test the production Worker locally before deploying, run `npm run preview`.
+If a local OpenNext build fails with `EPERM` on `.next` or `.open-next`, stop any running `npm run dev` first; the dev server holds files in those folders.
 
 ---
 
-## Replacing demo data with real questions
+## Limitations (honest status)
 
-1. Sign in at `/admin`.
-2. Go to **Source papers** and add each real paper: board exam, specimen or sample, with its year and a link to the original where possible.
-3. Add questions one at a time (**Questions → Add question**), or paste a paper's text into **Import**, then review each extracted item.
-4. On the dashboard, **Remove demo data** deletes every demo question, the fictional demo papers, and any generated papers and attempts that used them.
-5. Set `SHOW_DEMO_DATA` to `"false"`.
-
-### Adding a board, class or subject
-
-Boards, classes, subjects, chapters and topics are database rows, so nothing is hard-coded to ICSE. Insert the new rows with a migration or seed file and they appear across the navigation, generator, SEO pages and sitemap. For subject pages to show useful content, give each subject an `overview` and `study_tips`, and each chapter a `summary`.
-
----
+- **No verified PYQs are published yet.** 135 official CBSE questions are extracted and waiting for editor review. ICSE papers aren't imported: CISCE's website refused automated access during this work, so ICSE papers have to be added through the importer from files you have the right to use.
+- **Years covered: CBSE Class 10 Science 2025 and 2026 only.** Other subjects and classes show "not yet available", and "Most repeated" needs two or more verified exam years.
+- Questions that depend on a figure are flagged and link to the source page. Figures aren't reproduced.
+- Chemistry subscripts in the extracted text are flattened (for example H2SO4). This is flagged per question.
+- Student accounts aren't built yet; attempt history is per device.
 
 ## Security
 
-- The admin area is protected by a password plus an HMAC-signed, HTTP-only, `SameSite=Strict` session cookie. Every admin page **and** every server action checks the session on its own, not just the layout.
-- All input is validated with Zod on the server. Chapter, topic and paper ids are checked against the chosen subject.
-- The answer key is never sent to the browser during a test.
-- Security headers (`X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`) are set in `next.config.ts`.
-- There are no hard-coded secrets. Secrets come from Wrangler secrets or `.dev.vars`.
-
-## Future expansion
-
-The schema and code leave room for:
-
-- more boards (CBSE, state boards, JEE/NEET foundation)
-- student, teacher and parent accounts (`users.role`)
-- plans (`users.plan`)
-- AI or teacher evaluation (`attempt_answers.evaluation_method`)
-- AI-assisted import classification (the review step is already in place)
-- topic-level frequency analytics (`question_sources`)
-
-None of these are switched on yet.
+- The admin area uses a password plus an HMAC-signed, HTTP-only, `SameSite=Strict` cookie, and every admin page and server action checks it.
+- All input is validated with Zod on the server.
+- Uploaded files are read only in the editor's browser, after magic-byte, extension and size checks (25 MB). The server receives text only, so no uploaded file is stored or executed.
+- There's no server-side URL fetching, so there's no SSRF surface.
+- The answer key never reaches the browser during a test.
+- There are no secrets in the code or the repository.

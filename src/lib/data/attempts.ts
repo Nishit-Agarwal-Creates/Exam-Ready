@@ -2,7 +2,8 @@ import { and, eq, inArray } from "drizzle-orm";
 import { z } from "zod";
 import { getDb, schema } from "@/db";
 import type { QuestionType, SourceType } from "@/db/schema";
-import { evaluate, isAutoGraded } from "@/lib/engine/grading";
+import { canAutoGrade, evaluate } from "@/lib/engine/grading";
+import { isRealVerifiedPyq } from "@/lib/provenance";
 import { getPaper, type PaperView } from "./papers";
 
 const { attempts, attemptAnswers } = schema;
@@ -82,9 +83,10 @@ export async function saveSelfReview(attemptId: string, marks: { questionId: num
   const db = await getDb();
   const [attempt] = await db.select().from(attempts).where(eq(attempts.id, attemptId));
   if (!attempt) return { ok: false as const, error: "Attempt not found." };
-  const paper = await getPaper(attempt.generatedPaperId, false);
+  const paper = await getPaper(attempt.generatedPaperId, true);
   if (!paper) return { ok: false as const, error: "Paper not found." };
-  const maxById = new Map(paper.items.filter((i) => !isAutoGraded(i.question.type)).map((i) => [i.question.id, i.marks]));
+  // Only questions without an answer key can be self-marked.
+  const maxById = new Map(paper.items.filter((i) => !canAutoGrade(i.question.type, i.question.answer?.key)).map((i) => [i.question.id, i.marks]));
   const updates = [];
   for (const m of marks) {
     const max = maxById.get(m.questionId);
@@ -119,10 +121,12 @@ function bump(map: Map<string, Bucket>, key: string, label: string, max: number,
 
 const TYPE_LABELS: Record<QuestionType, string> = {
   MCQ: "Multiple choice",
+  ASSERTION_REASON: "Assertion–reason",
   FILL_BLANK: "Fill in the blank",
   NUMERICAL: "Numerical",
   SHORT_ANSWER: "Short answer",
   LONG_ANSWER: "Long answer",
+  CASE_BASED: "Case-based",
 };
 export { TYPE_LABELS };
 
@@ -141,6 +145,7 @@ export async function getAttemptResult(id: string) {
   const chapters = new Map<string, Bucket>();
   const types = new Map<string, Bucket>();
   const sources = new Map<string, Bucket>();
+  const sections = new Map<string, Bucket>();
   let attempted = 0,
     correct = 0,
     incorrect = 0,
@@ -148,12 +153,14 @@ export async function getAttemptResult(id: string) {
     autoMax = 0,
     descriptiveMax = 0,
     descriptiveReviewed = 0,
-    descriptiveTotal = 0;
+    descriptiveTotal = 0,
+    markedForReview = 0;
 
   const items = paper.items.map((item) => {
     const a = byQ.get(item.question.id);
-    const auto = isAutoGraded(item.question.type);
+    const auto = canAutoGrade(item.question.type, item.question.answer?.key);
     const answered = Boolean(a?.response);
+    if (a?.markedForReview) markedForReview++;
     if (answered) attempted++;
     else unanswered++;
     if (auto) {
@@ -169,8 +176,10 @@ export async function getAttemptResult(id: string) {
     const scored = auto ? (a?.marksAwarded ?? 0) : a?.evaluationMethod === "SELF" ? (a.marksAwarded ?? 0) : answered ? null : 0;
     bump(chapters, String(item.question.chapter.id), item.question.chapter.name, item.marks, scored);
     bump(types, item.question.type, TYPE_LABELS[item.question.type], item.marks, scored);
-    const srcKey = item.question.isDemo ? `DEMO_${item.question.sourceType}` : item.question.sourceType;
+    const cat: SourceType = isRealVerifiedPyq(item.question) ? "VERIFIED_PYQ" : item.question.sourceType === "VERIFIED_PYQ" ? "PENDING_REVIEW" : item.question.sourceType;
+    const srcKey = item.question.isDemo ? `DEMO_${cat}` : cat;
     bump(sources, srcKey, srcKey, item.marks, scored);
+    if (item.section) bump(sections, item.section, `Section ${item.section}`, item.marks, scored);
     return { ...item, answer: a ?? null, scored };
   });
 
@@ -201,9 +210,12 @@ export async function getAttemptResult(id: string) {
       descriptiveMax,
       descriptiveTotal,
       descriptiveReviewed,
+      markedForReview,
+      accuracy: correct + incorrect > 0 ? Math.round((correct / (correct + incorrect)) * 100) : null,
     },
     chapters: chapterList,
     types: [...types.values()],
+    sections: [...sections.values()].sort((a, b) => a.key.localeCompare(b.key)),
     sources: [...sources.values()] as (Bucket & { key: SourceType | `DEMO_${SourceType}` })[],
     weak,
   };

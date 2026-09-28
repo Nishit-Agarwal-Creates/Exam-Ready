@@ -17,7 +17,7 @@ export type QuestionFormValues = {
   topicId?: number | null;
   questionType: QuestionType;
   marks: number;
-  difficulty: "EASY" | "MEDIUM" | "HARD";
+  difficulty: "EASY" | "MEDIUM" | "HARD" | "UNRATED";
   questionText: string;
   options: string[];
   correctOption?: number;
@@ -33,8 +33,8 @@ export type QuestionFormValues = {
   isPublished: boolean;
 };
 
-const TYPES: QuestionType[] = ["MCQ", "FILL_BLANK", "NUMERICAL", "SHORT_ANSWER", "LONG_ANSWER"];
-const SOURCES: SourceType[] = ["VERIFIED_PYQ", "OFFICIAL_SAMPLE", "USER_CONTRIBUTED", "AI_SUPPLEMENTARY"];
+const TYPES: QuestionType[] = ["MCQ", "ASSERTION_REASON", "FILL_BLANK", "NUMERICAL", "SHORT_ANSWER", "LONG_ANSWER", "CASE_BASED"];
+const SOURCES: SourceType[] = ["VERIFIED_PYQ", "OFFICIAL_SAMPLE", "USER_CONTRIBUTED", "AI_SUPPLEMENTARY", "PENDING_REVIEW"];
 const STATUSES: VerificationStatus[] = ["UNVERIFIED", "VERIFIED", "REJECTED"];
 
 function Err({ msg, id }: { msg?: string; id: string }) {
@@ -185,6 +185,7 @@ export function QuestionForm({
               Difficulty
             </label>
             <select id="difficulty" name="difficulty" className="select" defaultValue={initial.difficulty}>
+              <option value="UNRATED">Not rated (board questions)</option>
               <option value="EASY">Easy</option>
               <option value="MEDIUM">Medium</option>
               <option value="HARD">Hard</option>
@@ -200,9 +201,13 @@ export function QuestionForm({
           <Err id="err-questionText" msg={e.questionText} />
         </div>
 
-        {type === "MCQ" && (
+        {(type === "MCQ" || type === "ASSERTION_REASON") && (
           <fieldset>
-            <legend className="field-label">Options (select the correct one)</legend>
+            <legend className="field-label">Options (select the correct one only if an official key exists)</legend>
+            <label className="mb-2 flex items-center gap-2 text-[0.93rem]">
+              <input type="radio" name="correctOption" value="" defaultChecked={initial.correctOption === undefined} className="size-5 accent-[var(--color-ink)]" />
+              No answer key (students self-mark against the marking scheme)
+            </label>
             <div className="space-y-2">
               {options.map((o, i) => (
                 <div key={i} className="flex items-center gap-2">

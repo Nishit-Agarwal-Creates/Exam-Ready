@@ -2,7 +2,10 @@ import { asc, desc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod";
 import { getDb, getEnv, schema } from "@/db";
 import { DIFFICULTIES, PAPER_MODES, type PaperMode, type SourceType } from "@/db/schema";
-import { emptyComposition, estimatePaper, generatePaper, type Composition, type GenerateFailure } from "@/lib/engine/generator";
+import { emptyComposition, estimatePaper, generatePaper, type Composition, type GenerateFailure, type PoolQuestion, type Stage } from "@/lib/engine/generator";
+import { isRealVerifiedPyq } from "@/lib/provenance";
+import { coverageOf } from "@/lib/engine/coverage";
+export type { YearCoverage } from "@/lib/engine/coverage";
 import { safeJson, randomId } from "@/lib/text";
 import { getPool, getQuestionViews, type QuestionView } from "./questions";
 
@@ -15,6 +18,7 @@ export const paperRequestSchema = z.object({
   durationMinutes: z.coerce.number().int().min(5, "Allow at least 5 minutes.").max(240, "Papers can be at most 4 hours."),
   difficulty: z.enum(["MIXED", ...DIFFICULTIES]).default("MIXED"),
   mode: z.enum(PAPER_MODES),
+  allowSupplement: z.coerce.boolean().default(false),
 });
 export type PaperRequest = z.infer<typeof paperRequestSchema>;
 
@@ -56,12 +60,11 @@ export async function estimate(req: PaperRequest) {
   const chapterIds = await validChapterIds(req.subjectId, req.chapterIds);
   const includeDemo = await includeDemoData();
   const pool = await getPool(req.subjectId, chapterIds, includeDemo);
-  const est = estimatePaper(pool, { mode: req.mode, totalMarks: req.totalMarks, difficulty: req.difficulty });
-  const demoCount = pool.filter((p) => p.isDemo && p.verificationStatus === "VERIFIED").length;
-  return { ...est, poolHasDemo: demoCount > 0 };
+  const est = estimatePaper(pool, { mode: req.mode, totalMarks: req.totalMarks, difficulty: req.difficulty, allowSupplement: req.allowSupplement });
+  return { ...est, poolHasDemo: pool.some((p) => p.isDemo && p.isPublished), coverage: coverageOf(pool) };
 }
 
-export type CreatePaperResult = { ok: true; id: string } | { ok: false; failure: GenerateFailure } | { ok: false; error: string };
+export type CreatePaperResult = { ok: true; id: string; stages: Stage[] } | { ok: false; failure: GenerateFailure } | { ok: false; error: string };
 
 export async function createPaper(req: PaperRequest): Promise<CreatePaperResult> {
   const ctx = await subjectContext(req.subjectId);
@@ -70,7 +73,7 @@ export async function createPaper(req: PaperRequest): Promise<CreatePaperResult>
   const includeDemo = await includeDemoData();
   const pool = await getPool(req.subjectId, chapterIds, includeDemo);
   const seed = Math.floor(Math.random() * 2 ** 31);
-  const result = generatePaper(pool, { mode: req.mode, totalMarks: req.totalMarks, difficulty: req.difficulty, seed });
+  const result = generatePaper(pool, { mode: req.mode, totalMarks: req.totalMarks, difficulty: req.difficulty, seed, allowSupplement: req.allowSupplement });
   if (!result.ok) return { ok: false, failure: result };
 
   const db = await getDb();
@@ -106,7 +109,7 @@ export async function createPaper(req: PaperRequest): Promise<CreatePaperResult>
   const inserts = [];
   for (let i = 0; i < rows.length; i += 18) inserts.push(db.insert(paperQuestions).values(rows.slice(i, i + 18)));
   await db.batch([insertPaper, ...inserts]);
-  return { ok: true, id };
+  return { ok: true, id, stages: result.stages };
 }
 
 export type PaperView = {
@@ -154,7 +157,8 @@ export async function getPaper(id: string, withAnswers: boolean): Promise<PaperV
     difficulty: p.difficulty,
     createdAt: p.createdAt,
     hasDemo: p.hasDemo,
-    composition: { ...emptyComposition(), ...safeJson<Partial<Record<SourceType, { count: number; marks: number }>>>(p.composition, {}) },
+    // Recomputed from each question's current provenance, so a paper never shows a stale label.
+    composition: liveComposition(pq.map((r) => ({ marks: r.marks, q: views.get(r.questionId) })), p.composition),
     notices: safeJson<string[]>(p.notices, []),
     chapterNames,
     board: { name: ctx.boardName, slug: ctx.boardSlug },
@@ -183,4 +187,16 @@ export async function listRecentPapers(limit = 50) {
     .innerJoin(classes, eq(generatedPapers.classId, classes.id))
     .orderBy(desc(generatedPapers.createdAt))
     .limit(limit);
+}
+
+function liveComposition(rows: { marks: number; q: QuestionView | undefined }[], stored: string): Composition {
+  if (!rows.some((r) => r.q)) return { ...emptyComposition(), ...safeJson<Partial<Composition>>(stored, {}) };
+  const c = emptyComposition();
+  for (const { marks, q } of rows) {
+    if (!q) continue;
+    const key: SourceType = isRealVerifiedPyq(q) ? "VERIFIED_PYQ" : q.sourceType === "VERIFIED_PYQ" ? "PENDING_REVIEW" : q.sourceType;
+    c[key].count++;
+    c[key].marks += marks;
+  }
+  return c;
 }

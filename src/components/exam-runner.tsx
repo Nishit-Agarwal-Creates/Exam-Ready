@@ -24,6 +24,8 @@ export type ExamQuestion = {
   sourceType: SourceType;
   verificationStatus: VerificationStatus;
   sources: SourceLink[];
+  hasFigure?: boolean;
+  figureSource?: { paperId: number; page: number | null } | null;
 };
 
 type ExamPaper = { id: string; title: string; scope: string; totalMarks: number; durationMinutes: number; hasDemo: boolean; mode: PaperMode };
@@ -361,9 +363,23 @@ export function ExamRunner({ paper, questions }: { paper: ExamPaper; questions: 
             </p>
 
             <p className="paper-text mt-4 text-[1.12rem]">{q.text}</p>
+            {q.hasFigure && (
+              <p className="mt-3 rounded-lg bg-contrib-soft/70 px-3 py-2 text-[0.92rem] text-contrib">
+                This question uses a figure or table that isn&apos;t reproduced here.
+                {q.figureSource && (
+                  <>
+                    {" "}
+                    <a href={`/sources/${q.figureSource.paperId}`} target="_blank" rel="noopener" className="link font-bold">
+                      Open the source paper{q.figureSource.page ? ` (page ${q.figureSource.page})` : ""}
+                    </a>{" "}
+                    in a new tab.
+                  </>
+                )}
+              </p>
+            )}
 
             <div className="mt-6">
-              {q.type === "MCQ" && q.options ? (
+              {(q.type === "MCQ" || q.type === "ASSERTION_REASON") && q.options && q.options.length > 0 ? (
                 <fieldset>
                   <legend className="sr-only">Choose one answer</legend>
                   <div className="grid gap-2">

@@ -39,7 +39,7 @@ wrangler(["d1", "migrations", "apply", "DB", "--local"]);
 
 let seeded = false;
 try {
-  const res = wrangler(["d1", "execute", "DB", "--local", "--json", "--command", "SELECT COUNT(*) AS n FROM boards"], { capture: true });
+  const res = wrangler(["d1", "execute", "DB", "--local", "--json", "--command", "SELECT COUNT(*) AS n FROM questions WHERE is_demo = 1"], { capture: true });
   seeded = JSON.parse(res)[0].results[0].n > 0;
 } catch {
   seeded = false;
@@ -52,3 +52,25 @@ if (!seeded || reset) {
 } else {
   console.log("[examready] Local database already seeded. Run `npm run db:reset` to reload demo data.");
 }
+
+// With --reset, imported source-pack questions (and papers/attempts built from them) are cleared too,
+// so every official question returns to "pending review". Local database only.
+if (reset) {
+  const packQuestions = "SELECT id FROM questions WHERE is_demo = 0 AND external_key LIKE '%#%'";
+  wrangler(
+    [
+      "d1",
+      "execute",
+      "DB",
+      "--local",
+      "--command",
+      `DELETE FROM generated_papers WHERE id IN (SELECT generated_paper_id FROM paper_questions WHERE question_id IN (${packQuestions})); DELETE FROM question_sources WHERE question_id IN (${packQuestions}); UPDATE questions SET canonical_question_id = NULL WHERE canonical_question_id IN (${packQuestions}); DELETE FROM questions WHERE id IN (${packQuestions}); UPDATE papers SET status = 'PENDING_REVIEW' WHERE source_key IS NOT NULL;`,
+    ],
+    { capture: true },
+  );
+}
+
+// Official source packs (real questions, pending review). Idempotent: never overwrites review decisions.
+execFileSync(process.execPath, [join(root, "scripts", "build-sources.mjs")], { cwd: root, stdio: "inherit" });
+wrangler(["d1", "execute", "DB", "--local", "--file", join("drizzle", "seed", "sources.sql")], { capture: true });
+console.log("[examready] Official source packs loaded (questions stay unverified until reviewed in /admin/review).");

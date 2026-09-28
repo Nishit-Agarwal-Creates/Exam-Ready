@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const SITE_NAME = "ExamReady";
-export const TAGLINE = "Practice what was actually asked.";
+export const TAGLINE = "Prepare from real exam questions.";
 export const SITE_DESCRIPTION =
-  "Build custom exam papers from verified previous questions, practise online, and understand exactly where you stand. ICSE Classes 8, 9 and 10.";
+  "Previous-year questions from official board papers, each traceable to its source. Build practice papers, take timed tests and see where you lost marks. ICSE and CBSE, Classes 6 to 12.";
 
 export function siteUrl(): string {
   const url = process.env.NEXT_PUBLIC_SITE_URL || process.env.SITE_URL || "http://localhost:3000";

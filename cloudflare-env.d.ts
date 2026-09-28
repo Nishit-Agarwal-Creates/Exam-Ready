@@ -6,4 +6,6 @@ interface CloudflareEnv {
   SHOW_DEMO_DATA: string;
   ADMIN_PASSWORD?: string;
   SESSION_SECRET?: string;
+  /** Workers AI binding (optional). */
+  AI?: { run: (model: string, input: unknown) => Promise<unknown> };
 }

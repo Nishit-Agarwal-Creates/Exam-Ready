@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FileExtractor } from "@/components/admin/file-extractor";
 import { Flash } from "@/components/admin/flash";
 import { listImportBatches, listPapers } from "@/lib/data/admin";
 import { getCatalog } from "@/lib/data/taxonomy";
@@ -24,7 +25,7 @@ export default async function ImportPage({ searchParams }: { searchParams: Promi
       <Flash saved={sp.saved} error={sp.error} />
       <h1 className="text-[2rem]">Import questions</h1>
       <ol className="prose-width mt-3 list-decimal space-y-1 pl-5 text-pencil">
-        <li>Paste the text of a paper. Questions, sections and marks are picked out automatically.</li>
+        <li>Read a PDF or image (text layer or OCR, in your browser), or paste the text. Questions, sections, marks, pages and options are picked out automatically.</li>
         <li>Each item is checked for duplicates and given a suggested chapter.</li>
         <li>You review every item. Nothing is published, and nothing becomes verified, without your decision.</li>
       </ol>
@@ -75,6 +76,7 @@ export default async function ImportPage({ searchParams }: { searchParams: Promi
             </label>
             <input id="i-title" name="title" className="input" placeholder="e.g. ICSE 2024 Chemistry, Section A" />
           </div>
+          <FileExtractor textareaId="i-text" />
           <div>
             <label htmlFor="i-text" className="field-label">
               Paper text

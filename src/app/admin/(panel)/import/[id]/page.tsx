@@ -66,6 +66,34 @@ export default async function ImportReviewPage({
                   {item.status === "APPROVED" ? "Published" : item.status === "REJECTED" ? "Rejected" : "Needs review"}
                 </span>
               </div>
+              <p className="mt-1 flex flex-wrap gap-2 text-[0.85rem] text-pencil">
+                {item.pageNumber && <span className="rounded-full bg-desk px-2 py-0.5">Page {item.pageNumber}</span>}
+                {item.confidence && (
+                  <span className={`rounded-full px-2 py-0.5 font-bold ${item.confidence === "HIGH" ? "bg-verified-soft text-verified" : item.confidence === "MEDIUM" ? "bg-contrib-soft text-contrib" : "bg-margin-soft text-margin"}`}>
+                    Extraction confidence: {item.confidence.toLowerCase()}
+                  </span>
+                )}
+                {item.detectedType && <span className="rounded-full bg-desk px-2 py-0.5">Detected: {item.detectedType.replace("_", " ").toLowerCase()}</span>}
+              </p>
+              {(() => {
+                const issues = JSON.parse(item.issues || "[]") as string[];
+                return issues.length ? (
+                  <ul className="mt-2 list-disc rounded-lg bg-contrib-soft/60 py-2 pl-8 pr-3 text-[0.9rem] text-contrib">
+                    {issues.map((i) => (
+                      <li key={i}>{i}</li>
+                    ))}
+                  </ul>
+                ) : null;
+              })()}
+              {item.options && (
+                <ol className="mt-2 grid gap-1 text-[0.93rem] sm:grid-cols-2">
+                  {(JSON.parse(item.options) as string[]).map((o, i) => (
+                    <li key={i}>
+                      ({"abcd"[i]}) {o}
+                    </li>
+                  ))}
+                </ol>
+              )}
               {item.duplicateOfQuestionId && (
                 <p className="mt-2 rounded-md border border-contrib/40 bg-contrib-soft px-3 py-2 text-[0.93rem]">
                   <strong>Possible duplicate</strong> of{" "}
@@ -112,9 +140,16 @@ export default async function ImportReviewPage({
                       <label htmlFor={`ty-${item.id}`} className="field-label">
                         Type
                       </label>
-                      <select id={`ty-${item.id}`} name="questionType" className="select" defaultValue={(item.marks ?? 2) >= 4 ? "LONG_ANSWER" : "SHORT_ANSWER"}>
+                      <select id={`ty-${item.id}`} name="questionType" className="select" defaultValue={item.detectedType ?? ((item.marks ?? 2) >= 4 ? "LONG_ANSWER" : "SHORT_ANSWER")}>
+                        <option value="MCQ" disabled={!item.options}>
+                          Multiple choice
+                        </option>
+                        <option value="ASSERTION_REASON" disabled={!item.options}>
+                          Assertion–reason
+                        </option>
                         <option value="SHORT_ANSWER">Short answer</option>
                         <option value="LONG_ANSWER">Long answer</option>
+                        <option value="CASE_BASED">Case-based</option>
                       </select>
                     </div>
                     <div>

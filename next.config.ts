@@ -22,4 +22,6 @@ const nextConfig: NextConfig = {
 export default nextConfig;
 
 // Gives `next dev` access to Cloudflare bindings (local D1 via Wrangler).
-initOpenNextCloudflareForDev();
+// Remote bindings (Workers AI) are off by default so local development never needs a Cloudflare
+// login; set EXAMREADY_REMOTE_AI=1 (after `npx wrangler login`) to try AI features locally.
+initOpenNextCloudflareForDev({ remoteBindings: process.env.EXAMREADY_REMOTE_AI === "1" });
