@@ -63,6 +63,7 @@ export const PAPER_TYPE_LABELS: Record<PaperType, string> = {
   BOARD_EXAM: "Board exam paper",
   SPECIMEN: "Specimen paper",
   SAMPLE: "Sample paper",
+  QUESTION_BANK: "Official question bank",
   SCHOOL_EXAM: "School exam paper",
   OTHER: "Other source",
 };
@@ -126,7 +127,7 @@ export function validateProvenance(q: ProvenanceInput, previous?: { sourceType: 
     return "A question can only be marked Verified PYQ once it is linked to a board exam paper with a year. Save it as pending review, link the source paper, then verify it.";
   }
   if (q.sourceType === "OFFICIAL_SAMPLE" && q.verificationStatus === "VERIFIED") {
-    if (!q.sources.some((s) => !s.isDemo && ["SPECIMEN", "SAMPLE", "BOARD_EXAM"].includes(s.paperType))) {
+    if (!q.sources.some((s) => !s.isDemo && ["SPECIMEN", "SAMPLE", "QUESTION_BANK", "BOARD_EXAM"].includes(s.paperType))) {
       return "Link the official specimen or sample paper before marking this Official sample question as Verified.";
     }
   }
@@ -134,6 +135,16 @@ export function validateProvenance(q: ProvenanceInput, previous?: { sourceType: 
     return "Choose what the question is (PYQ, official sample, community or AI practice) before verifying it.";
   }
   return null;
+}
+
+/**
+ * What an official non-PYQ question actually is, from its source document: a board's sample paper,
+ * a CISCE specimen paper or an official question bank. Used for the public stamp and filters.
+ */
+export function officialKind(q: { sourceType: SourceType; sources: SourceLink[] }): "Official sample" | "Official specimen" | "Official question bank" | null {
+  if (q.sourceType !== "OFFICIAL_SAMPLE") return null;
+  const t = q.sources.find((s) => !s.isDemo)?.paperType;
+  return t === "SPECIMEN" ? "Official specimen" : t === "QUESTION_BANK" ? "Official question bank" : "Official sample";
 }
 
 /** Years shown next to a real verified PYQ, e.g. "2026, 2024". Never produces a year for demo, AI or unverified items. */
@@ -192,3 +203,22 @@ export function citation(s: SourceLink): string {
   const q = s.questionNumber ? `Q${s.questionNumber}${s.part ?? ""}` : null;
   return [...parts, q].filter(Boolean).join(", ") || s.title;
 }
+
+/** Plain names for the review pipeline's states (admin and research centre). */
+export const REVIEW_STATE_LABELS: Record<string, { label: string; explain: string }> = {
+  AUTO_VERIFIED: { label: "Verified by automated review", explain: "Matched the official document on every check, including an independent second reviewer where numbers or notation were involved." },
+  EDITOR_VERIFIED: { label: "Verified by an editor", explain: "Checked against the official document by a person." },
+  PENDING_REVIEW: { label: "Awaiting review", explain: "Imported from an official document; not checked yet." },
+  HOLD_MISSING_FIGURE: { label: "Held: figure needed", explain: "The question depends on a diagram, graph or map that is not reproduced." },
+  HOLD_ANSWER: { label: "Held: answer to check", explain: "The stored answer differs from the official one, or the official answer itself looks wrong." },
+  HOLD_MAPPING: { label: "Held: chapter to confirm", explain: "The chapter could not be confirmed against the syllabus." },
+  HOLD_LOW_CONFIDENCE: { label: "Held: text to check", explain: "Wording, numbering, marks, options or notation did not fully match the official document." },
+  HOLD_AUDIT: { label: "Held: second check", explain: "Waiting for, or disputed by, the independent second reviewer." },
+  HOLD_MISSING_SOURCE: { label: "Held: source unconfirmed", explain: "The official document could not be confirmed." },
+  HOLD_RIGHTS: {
+    label: "Ready, awaiting permission",
+    explain: "Passed every check, but the board's terms require written permission before its material is reproduced. Linked, not shown, until permission is recorded.",
+  },
+  REJECTED_DUPLICATE: { label: "Rejected: duplicate", explain: "The same question is already in the bank." },
+  REJECTED_INVALID: { label: "Rejected: not a real question", explain: "Not a genuine question from the stated document." },
+};

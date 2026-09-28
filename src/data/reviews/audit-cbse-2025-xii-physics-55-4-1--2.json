@@ -1,0 +1,7 @@
+{ "pack": "cbse-2025-xii-physics-55-4-1", "auditedOn": "2026-09-28", "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, plus pdfplumber character/vector inspection (to recover minus signs drawn as rectangles), and the marking scheme.",
+  "checks": [
+    { "key": "cbse-2025-xii-physics-55-4-1#8", "agree": false, "reason": "The paper prints the magnification as \"−2·0\" (the minus is a vector-drawn rectangle at x≈404–411 pt that pdftotext drops), but the stored text reads \"2·0\"; with +2·0 the stored official answer (B) Concave and real would be wrong." },
+    { "key": "cbse-2025-xii-physics-55-4-1#18", "agree": true, "reason": "" },
+    { "key": "cbse-2025-xii-physics-55-4-1#19", "agree": true, "reason": "" },
+    { "key": "cbse-2025-xii-physics-55-4-1#22b", "agree": true, "reason": "" }
+  ] }

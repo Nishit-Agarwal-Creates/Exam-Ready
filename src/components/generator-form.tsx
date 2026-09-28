@@ -216,7 +216,7 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
       <div className="space-y-5">
         <Step n={1} title="Board and class">
           <div className="grid gap-4">
-            <div role="radiogroup" aria-label="Board" className="inline-flex w-fit rounded-full border border-rule bg-desk p-1">
+            <div role="radiogroup" aria-label="Board" className="board-choice w-fit">
               {catalog.map((b) => (
                 <button
                   key={b.id}
@@ -229,9 +229,10 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
                     setSubjectId(undefined);
                     setChapterIds([]);
                   }}
-                  className={`min-h-10 rounded-full px-5 font-bold transition-colors ${boardId === b.id ? "bg-night text-white" : "text-pencil hover:text-graphite"}`}
+                  data-fx="ripple"
                 >
-                  {b.name}
+                  <span className="board-choice-name">{b.name}</span>
+                  <span className="board-choice-full">{b.slug === "icse" ? "ICSE and ISC (CISCE)" : "Central Board"}</span>
                 </button>
               ))}
             </div>
@@ -239,7 +240,7 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
               <legend className="field-label">Class</legend>
               <div className="grid grid-cols-4 gap-2 sm:grid-cols-7">
                 {[...(board?.classes ?? [])].map((c) => (
-                  <label key={c.id} className="choice justify-center px-2">
+                  <label key={c.id} className="class-tile" data-selected={classId === c.id || undefined} data-fx="ripple">
                     <input
                       type="radio"
                       name="class"
@@ -251,7 +252,8 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
                         setChapterIds([]);
                       }}
                     />
-                    <span key={classId === c.id ? "on" : "off"} className={`font-serif text-[1.08rem] font-semibold ${classId === c.id ? "numeral-roll" : ""}`}>
+                    <span className="class-tile-word">Class</span>
+                    <span key={classId === c.id ? "on" : "off"} className={`class-tile-numeral ${classId === c.id ? "numeral-roll" : ""}`}>
                       {c.level}
                     </span>
                   </label>

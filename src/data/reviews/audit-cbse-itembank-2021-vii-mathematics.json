@@ -1,0 +1,20 @@
+{
+  "pack": "cbse-itembank-2021-vii-mathematics",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7KG5", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7KG7b", "agree": false, "reason": "Text, superscript 2 (6.5pt glyph after ab, p9/p10) and answer 13ab² + 8 are right, but the item tests algebraic terms with a power (ab²), and the pack itself treats exponents as having no current Class 7 chapter; the Ganita Prakash 7 contents do not show that Expressions using Letter-Numbers teaches squared letter terms, so the chapter fit is UNCERTAIN, not OK." },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7KG7c", "agree": false, "reason": "Text, superscripts (p9/p10) and answer 15ab² + 4 are right, but the item relies on power notation (ab²), which the pack itself maps to no current Class 7 chapter; chapter fit to expressions-using-letter-numbers is UNCERTAIN, not OK." },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7KG4", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7RG2", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7KG2", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7SK2", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7SC4", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7RG1", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7SC2", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7SC1", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7SC5", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-mathematics#Maths7PD1", "agree": true, "reason": "" }
+  ]
+}

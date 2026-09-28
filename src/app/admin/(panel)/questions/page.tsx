@@ -3,11 +3,11 @@ import { Flash } from "@/components/admin/flash";
 import { Pagination } from "@/components/pagination";
 import { SourceStamp, StatusStamp } from "@/components/provenance";
 import { TYPE_NAMES } from "@/components/question-block";
-import { QUESTION_TYPES, SOURCE_TYPES, VERIFICATION_STATUSES } from "@/db/schema";
+import { QUESTION_TYPES, REVIEW_STATES, SOURCE_TYPES, VERIFICATION_STATUSES } from "@/db/schema";
 import { searchQuestions } from "@/lib/data/questions";
 import { getCatalog } from "@/lib/data/taxonomy";
 import { filtersToQuery, parseQuestionFilters, type SearchParams } from "@/lib/filters";
-import { SOURCE_LABELS, STATUS_LABELS } from "@/lib/provenance";
+import { REVIEW_STATE_LABELS, SOURCE_LABELS, STATUS_LABELS } from "@/lib/provenance";
 
 export const metadata = { title: "Questions" };
 
@@ -120,6 +120,19 @@ export default async function AdminQuestions({ searchParams }: { searchParams: P
           </select>
         </div>
         <div>
+          <label htmlFor="a-review" className="field-label">
+            Review result
+          </label>
+          <select id="a-review" name="review" className="select" defaultValue={f.reviewState ?? ""}>
+            <option value="">Any</option>
+            {REVIEW_STATES.map((r) => (
+              <option key={r} value={r}>
+                {REVIEW_STATE_LABELS[r]?.label ?? r}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div>
           <label htmlFor="a-q" className="field-label">
             Search
           </label>
@@ -182,6 +195,11 @@ export default async function AdminQuestions({ searchParams }: { searchParams: P
                 </td>
                 <td>
                   <StatusStamp status={q.verificationStatus} />
+                  {q.reviewState && q.reviewState !== "EDITOR_VERIFIED" && (
+                    <span className="mt-1 block text-[0.8rem] text-pencil" title={q.reviewReason || undefined}>
+                      {REVIEW_STATE_LABELS[q.reviewState]?.label ?? q.reviewState}
+                    </span>
+                  )}
                 </td>
               </tr>
             ))}

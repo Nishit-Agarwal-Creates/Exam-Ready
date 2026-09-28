@@ -1,0 +1,237 @@
+{
+  "pack": "isc-2027-xii-mathematics-specimen",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1i",
+      "agree": false,
+      "reason": "Stored official answer corrupts the marking scheme working: it reads \"6²−76×6×1+6×1²\" where the scheme prints \"6² − 7 × 6 × 1 + 6 × 1²\"."
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1v",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1vi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1vii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1ix",
+      "agree": false,
+      "reason": "Step 1 is rewritten as \"∫ (log x)⁻² d(log x) + C\" but the paper prints \"∫ d(log x)/(log x)² + C\"; in a spot-the-error question the step has to appear exactly as printed (Step 3 also gains a \"⇒\" the paper does not have)."
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1x",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1xi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1xii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1xiii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1xv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1xvi",
+      "agree": false,
+      "reason": "The Assertion (\"The curves given above can be considered as f(x) and f⁻¹(x)\") and the Reason (\"The curves are reflections...\") are both about the graph printed on page 6, which is not reproduced, so the item cannot be answered from the text; hasFigure is also wrongly false."
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1xvii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1xviii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1xix",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1xx",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#3",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#4",
+      "agree": false,
+      "reason": "The fraction is inverted: the paper and the marking scheme print dx/dy = x/y + f(x/y)/f′(x/y) (f on top, f′ below in -raw, -layout and the answer key page 6), but the pack stores f′(x/y)/f(x/y), and the stored answer has the matching wrong step \"y(dv/dy) = f′(v)/f(v)\"."
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#5i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#6i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#6ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#7i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#7ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#9",
+      "agree": false,
+      "reason": "The question text says \"the line 2x+y=9 is also plotted\", but no such equation is printed on the page-9 graph (its only labels are C(1,7), (0,9), A(1,1), (9/2,0), B(3,3) and the axis ticks); it was taken from the marking scheme and gives away part of the answer to (i)."
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#10",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#11",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#12i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#12ii",
+      "agree": false,
+      "reason": "Stored answer (c) drops a fraction: it has \"λ+2+9λ+3−1+λ = −17/2\" where the scheme prints \"λ + 2 + 9λ + 3/2 − 1 + λ = −17/2\", which makes the stored arithmetic inconsistent with λ = −1."
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#13i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#13ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#14",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#15i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#15ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#16",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#17i",
+      "agree": false,
+      "reason": "Stored answer (b) drops a fraction: it has \"f(1)=1−2+3+5=6.33\" where the scheme prints \"f(1) = 1/3 − 2 + 3 + 5 = 6·33\" (1−2+3+5 is 7)."
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#17ii",
+      "agree": false,
+      "reason": "Stored answer (c) is garbled: it has \"(5Kπ²/4)h³·(πh²/4)×... = 25Kπh (as simplified in the marking scheme)\" where the scheme prints dC/dt = (5kπ²/4)h³ · (−5/((π/4)h²)) = 25kπh."
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#18i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#18ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#19i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#19ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#20",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1xiv",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

@@ -152,7 +152,7 @@ export function QuestionBlock({
           </div>
         )}
         {showMeta && provenance === "full" && (
-          <ProvenanceDetails q={q} groupSources={q.groupSources} answerSource={q.answer ? q.answerSource : undefined} issues={q.extractionIssues} />
+          <ProvenanceDetails q={q} groupSources={q.groupSources} answerSource={q.answer ? q.answerSource : undefined} issues={q.extractionIssues} reviewState={q.reviewState} />
         )}
         {showMeta && provenance === "line" && <CitationLine q={q} />}
         {showAnswer && q.answer && (

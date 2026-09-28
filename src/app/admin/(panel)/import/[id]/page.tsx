@@ -23,7 +23,7 @@ export default async function ImportReviewPage({
   const { batch, items, paper, duplicates } = data;
   const subject = await getSubjectByIdForAdmin(batch.subjectId);
   const defaultSource =
-    paper?.paperType === "BOARD_EXAM" ? "VERIFIED_PYQ" : paper && ["SPECIMEN", "SAMPLE"].includes(paper.paperType) ? "OFFICIAL_SAMPLE" : "USER_CONTRIBUTED";
+    paper?.paperType === "BOARD_EXAM" ? "VERIFIED_PYQ" : paper && ["SPECIMEN", "SAMPLE", "QUESTION_BANK"].includes(paper.paperType) ? "OFFICIAL_SAMPLE" : "USER_CONTRIBUTED";
   const canVerify = Boolean(paper && !paper.isDemo && (paper.paperType !== "BOARD_EXAM" || paper.year));
 
   return (

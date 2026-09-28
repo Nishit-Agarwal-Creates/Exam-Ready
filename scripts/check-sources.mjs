@@ -14,7 +14,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dir = join(root, "src", "data", "sources");
 
 const AUTHORITIES = ["OFFICIAL_BOARD", "OFFICIAL_INSTITUTION", "REPOSITORY", "USER_UPLOAD", "OTHER"];
-const PAPER_TYPES = ["BOARD_EXAM", "SPECIMEN", "SAMPLE", "SCHOOL_EXAM", "OTHER"];
+const PAPER_TYPES = ["BOARD_EXAM", "SPECIMEN", "SAMPLE", "QUESTION_BANK", "SCHOOL_EXAM", "OTHER"];
 const TYPES = ["MCQ", "ASSERTION_REASON", "FILL_BLANK", "SHORT_ANSWER", "LONG_ANSWER", "CASE_BASED", "NUMERICAL"];
 const CONFIDENCE = ["HIGH", "MEDIUM", "LOW"];
 const METHODS = ["PDF_TEXT_LAYER", "OCR", "MANUAL"];

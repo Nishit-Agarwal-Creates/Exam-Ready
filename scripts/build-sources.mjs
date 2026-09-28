@@ -15,7 +15,7 @@ const dir = join(root, "src", "data", "sources");
 const outFile = join(root, "drizzle", "seed", "sources.sql");
 
 const TYPE_MAP = { MCQ: "MCQ", ASSERTION_REASON: "ASSERTION_REASON", FILL_BLANK: "FILL_BLANK", SHORT_ANSWER: "SHORT_ANSWER", LONG_ANSWER: "LONG_ANSWER", CASE_BASED: "CASE_BASED", NUMERICAL: "NUMERICAL" };
-const SOURCE_TYPE = { BOARD_EXAM: "VERIFIED_PYQ", SPECIMEN: "OFFICIAL_SAMPLE", SAMPLE: "OFFICIAL_SAMPLE", SCHOOL_EXAM: "USER_CONTRIBUTED", OTHER: "PENDING_REVIEW" };
+const SOURCE_TYPE = { BOARD_EXAM: "VERIFIED_PYQ", SPECIMEN: "OFFICIAL_SAMPLE", SAMPLE: "OFFICIAL_SAMPLE", QUESTION_BANK: "OFFICIAL_SAMPLE", SCHOOL_EXAM: "USER_CONTRIBUTED", OTHER: "PENDING_REVIEW" };
 
 const tax = JSON.parse(readFileSync(join(root, "src", "data", "taxonomy.json"), "utf8"));
 const packs = readdirSync(dir)
@@ -101,7 +101,7 @@ for (const pack of packs) {
     noteParts.push("Awaiting editor verification against the official PDF.");
     const chId = chapterIdSql(board, level, subject, item.chapter);
     out.push(
-      `INSERT INTO questions (external_key, board_id, class_id, subject_id, chapter_id, question_text, question_type, marks, difficulty, options, answer_key, answer_text, explanation, source_type, verification_status, verification_notes, is_published, is_demo, frequency_count, content_hash, mapping_status, mapping_source, answer_source, has_figure, extraction_confidence, extraction_issues) SELECT ${q(
+      `INSERT INTO questions (external_key, board_id, class_id, subject_id, chapter_id, question_text, question_type, marks, difficulty, options, answer_key, answer_text, explanation, source_type, verification_status, verification_notes, is_published, is_demo, frequency_count, content_hash, mapping_status, mapping_source, answer_source, has_figure, extraction_confidence, extraction_issues, review_state) SELECT ${q(
         key,
       )}, ${boardIdSql(board)}, ${classIdSql(board, level)}, ${subjectIdSql(board, level, subject)}, ${chId}, ${q(item.text)}, ${q(type)}, ${item.marks}, 'UNRATED', ${q(
         hasOptions ? JSON.stringify(item.options) : null,
@@ -109,7 +109,7 @@ for (const pack of packs) {
         noteParts.join(" "),
       )}, 0, 0, 0, ${q(contentHash(item.text))}, 'SUGGESTED', 'ai', ${q(item.officialAnswer ? "OFFICIAL_SCHEME" : "NONE")}, ${item.hasFigure ? 1 : 0}, ${q(
         item.confidence ?? null,
-      )}, ${q(JSON.stringify(issues))} WHERE ${chId} IS NOT NULL ON CONFLICT(external_key) DO NOTHING;`,
+      )}, ${q(JSON.stringify(issues))}, 'PENDING_REVIEW' WHERE ${chId} IS NOT NULL ON CONFLICT(external_key) DO NOTHING;`,
     );
     out.push(
       `INSERT INTO question_sources (question_id, paper_id, question_number, part, page_number, section, marks_in_paper, is_primary, notes) SELECT (SELECT id FROM questions WHERE external_key = ${q(

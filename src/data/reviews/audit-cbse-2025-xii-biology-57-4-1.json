@@ -1,0 +1,42 @@
+{
+  "pack": "cbse-2025-xii-biology-57-4-1",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    {
+      "key": "cbse-2025-xii-biology-57-4-1#30",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-2025-xii-biology-57-4-1#17a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-2025-xii-biology-57-4-1#9",
+      "agree": false,
+      "reason": "Chapter is doubtful: the stem ('early detection of a disease based on the principle of antigen-antibody interaction') and the distractors (RNAi, EST, PCR) come from Molecular Diagnosis in 'Biotechnology and its Applications', so the chapter should be biotechnology-and-its-applications, not human-health-and-diseases."
+    },
+    {
+      "key": "cbse-2025-xii-biology-57-4-1#5",
+      "agree": false,
+      "reason": "Stored text reads 'does self-defence mechanism attack self-cells' but the printed paper (rendered page 7; the text layer drops the words) reads 'does the body's self-defence mechanism attack self-cells ?', so 'the body's' is missing (it is not a page-break split as the extraction note claims)."
+    },
+    {
+      "key": "cbse-2025-xii-biology-57-4-1#14",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-2025-xii-biology-57-4-1#31b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-2025-xii-biology-57-4-1#4",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

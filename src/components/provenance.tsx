@@ -8,6 +8,7 @@ import {
   STATUS_LABELS,
   frequencyLine,
   isRealVerifiedPyq,
+  officialKind,
   provenanceYears,
   type SourceLink,
 } from "@/lib/provenance";
@@ -89,10 +90,11 @@ export function SourceStamp({ q, compact = false, animate = false }: { q: Q; com
     );
   }
   const cls = q.sourceType === "OFFICIAL_SAMPLE" ? "stamp-official" : "stamp-contrib";
+  const school = q.sources.find((s) => !s.isDemo)?.paperType === "SCHOOL_EXAM";
   return (
     <span className={`stamp ${cls}${anim}`}>
       {q.verificationStatus === "VERIFIED" && <Tick />}
-      {SOURCE_LABELS[q.sourceType].badge}
+      {officialKind(q) ?? (school ? "School paper" : SOURCE_LABELS[q.sourceType].badge)}
       {q.verificationStatus === "UNVERIFIED" ? " · pending review" : ""}
     </span>
   );
@@ -109,6 +111,13 @@ const ANSWER_SOURCE_TEXT: Record<AnswerSource, string> = {
   AI: "Answer written by AI",
   NONE: "No official answer published",
 };
+
+/** Who checked a verified question against its official document, in plain words. */
+export function checkedBy(reviewState?: string | null) {
+  return reviewState === "AUTO_VERIFIED"
+    ? "ExamReady's automated review: the question and answer were compared with the official document, and a second, independent reviewer re-checked every maths and science question with numbers or symbols, and a sample of the rest."
+    : "An ExamReady editor, against the official document.";
+}
 
 /** A compact provenance summary: only fields that exist are shown. */
 export function ProvenanceSummary({ q, board, cls, subject }: { q: Q; board?: string; cls?: string; subject?: string }) {
@@ -142,11 +151,13 @@ export function ProvenanceDetails({
   groupSources,
   answerSource,
   issues = [],
+  reviewState,
 }: {
   q: Q;
   groupSources?: SourceLink[];
   answerSource?: AnswerSource;
   issues?: string[];
+  reviewState?: string | null;
 }) {
   const freq = frequencyLine(q, groupSources ?? q.sources);
   return (
@@ -166,6 +177,12 @@ export function ProvenanceDetails({
           <dd>{SOURCE_LABELS[q.sourceType].long}</dd>
           <dt className="text-pencil">Status</dt>
           <dd>{STATUS_LABELS[q.verificationStatus]}</dd>
+          {q.verificationStatus === "VERIFIED" && !q.isDemo && q.sources.length > 0 && (
+            <>
+              <dt className="text-pencil">Checked by</dt>
+              <dd>{checkedBy(reviewState)}</dd>
+            </>
+          )}
           <dt className="text-pencil">Sources</dt>
           <dd>
             {q.sources.length === 0 ? (

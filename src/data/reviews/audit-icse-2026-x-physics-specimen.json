@@ -1,0 +1,172 @@
+{
+  "pack": "icse-2026-x-physics-specimen",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    {
+      "key": "icse-2026-x-physics-specimen#1iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#1vii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#1ix",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#1xii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#1xiii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#1xv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#2ia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#2ic",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#2id",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#2iii",
+      "agree": false,
+      "reason": "Question text altered: the PDF (page 8) prints \"the waves mentioned in (a) is used\" but the pack stores \"the wave mentioned in (a) is used\"; the stored text must match the printed wording."
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#3iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#4iia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#4iib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#5ia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#5ib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#5iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#6ia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#6ib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#7ia",
+      "agree": false,
+      "reason": "This part only asks the student to draw a labelled block-and-tackle diagram (the pack itself sets hasFigure true and confidence LOW), and the stored official answer is just the marking-scheme grading rubric, not a checkable answer."
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#7ib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#7iia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#7iib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8ic",
+      "agree": false,
+      "reason": "Stored stem is a condensed paraphrase (\"...studying Ohm's Law, comparing tube 1 and tube 2 (same amount of mercury)\"), not the printed text on PDF pages 15-16 (the glass tube of mercury replacing the resistor, electrodes E1 & E2, readings, tube 2 substitution), and it still points to \"the figure\", which is not reproduced."
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iiia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iiib",
+      "agree": false,
+      "reason": "Stored official answer \"Pₓ : Pᵧ = 1 : 1\" uses U+1D67 GREEK SUBSCRIPT SMALL LETTER GAMMA for the Y subscript (Unicode has no subscript y), so the symbol is wrong; it should read Px : Py (wire X : wire Y)."
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iiic",
+      "agree": false,
+      "reason": "Stored official answer \"mₓ : mᵧ = 1 : 1\" uses U+1D67 GREEK SUBSCRIPT SMALL LETTER GAMMA for the Y subscript, so the symbol is wrong; it should read mx : my (wire X : wire Y)."
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iiid",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#1ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#2ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#3vii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#3ib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#4iiib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#6iia",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

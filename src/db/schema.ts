@@ -35,6 +35,27 @@ export const SOURCE_TYPES = ["VERIFIED_PYQ", "OFFICIAL_SAMPLE", "USER_CONTRIBUTE
 export type SourceType = (typeof SOURCE_TYPES)[number];
 
 export const VERIFICATION_STATUSES = ["VERIFIED", "UNVERIFIED", "REJECTED"] as const;
+
+/**
+ * Where a question stands in review, beside verification_status (which stays the single switch for
+ * "verified"). HOLD_* questions are unverified and unpublished, with the reason in review_reason.
+ * Written by the automated review pipeline (scripts/review) and by editors.
+ */
+export const REVIEW_STATES = [
+  "AUTO_VERIFIED",
+  "EDITOR_VERIFIED",
+  "PENDING_REVIEW",
+  "HOLD_LOW_CONFIDENCE",
+  "HOLD_MISSING_SOURCE",
+  "HOLD_MISSING_FIGURE",
+  "HOLD_MAPPING",
+  "HOLD_ANSWER",
+  "HOLD_AUDIT",
+  "HOLD_RIGHTS",
+  "REJECTED_DUPLICATE",
+  "REJECTED_INVALID",
+] as const;
+export type ReviewState = (typeof REVIEW_STATES)[number];
 export type VerificationStatus = (typeof VERIFICATION_STATUSES)[number];
 
 export const QUESTION_TYPES = ["MCQ", "ASSERTION_REASON", "FILL_BLANK", "NUMERICAL", "SHORT_ANSWER", "LONG_ANSWER", "CASE_BASED"] as const;
@@ -45,7 +66,8 @@ export type Difficulty = (typeof DIFFICULTIES)[number];
 /** Stored difficulty. Board exam questions are UNRATED: the paper doesn't state a difficulty and we don't invent one. */
 export const STORED_DIFFICULTIES = [...DIFFICULTIES, "UNRATED"] as const;
 
-export const PAPER_TYPES = ["BOARD_EXAM", "SPECIMEN", "SAMPLE", "SCHOOL_EXAM", "OTHER"] as const;
+/** QUESTION_BANK: official practice items published by the board (e.g. CBSE competency-based item banks). */
+export const PAPER_TYPES = ["BOARD_EXAM", "SPECIMEN", "SAMPLE", "QUESTION_BANK", "SCHOOL_EXAM", "OTHER"] as const;
 export type PaperType = (typeof PAPER_TYPES)[number];
 
 export const PAPER_MODES = [
@@ -248,9 +270,14 @@ export const questions = sqliteTable(
     extractionConfidence: text("extraction_confidence", { enum: CONFIDENCE_LEVELS }),
     /** JSON array of strings describing what extraction may have lost. */
     extractionIssues: text("extraction_issues").notNull().default("[]"),
+    /** Review pipeline state and its reason (null = never reviewed by the pipeline). */
+    reviewState: text("review_state", { enum: REVIEW_STATES }),
+    reviewReason: text("review_reason").notNull().default(""),
+    reviewedAt: text("reviewed_at"),
     ...timestamps,
   },
   (t) => [
+    index("questions_review_state").on(t.reviewState),
     index("questions_subject_chapter").on(t.subjectId, t.chapterId),
     index("questions_source").on(t.sourceType, t.verificationStatus),
     index("questions_hash").on(t.contentHash),
@@ -412,3 +439,13 @@ export const importItems = sqliteTable(
   },
   (t) => [index("import_items_batch").on(t.batchId)],
 );
+
+/**
+ * Shared cache for expensive site-wide aggregates (coverage, sources, catalogue). One row per key, so a cold
+ * Worker reads a single row instead of re-aggregating the question table. Safe to empty at any time.
+ */
+export const cacheEntries = sqliteTable("cache_entries", {
+  key: text("key").primaryKey(),
+  value: text("value").notNull(),
+  expiresAt: integer("expires_at").notNull(),
+});

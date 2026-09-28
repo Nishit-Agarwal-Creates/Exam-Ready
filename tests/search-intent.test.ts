@@ -116,3 +116,14 @@ test("unknown words stay as text and nothing is invented", () => {
   assert.equal(r.subjectId, undefined);
   assert.equal(r.text, "ozone layer depletion");
 });
+
+test("document kind, answers and figures are understood", () => {
+  const i = interpretQuery("icse class 10 physics specimen with answers", catalog);
+  assert.equal(i.paperType, "SPECIMEN");
+  assert.equal(i.hasAnswer, true);
+  assert.equal(interpretQuery("cbse sample paper", catalog).paperType, "SAMPLE");
+  assert.equal(interpretQuery("science question bank", catalog).paperType, "QUESTION_BANK");
+  assert.equal(interpretQuery("questions without diagrams", catalog).hasFigure, false);
+  // A topic word is not a filter.
+  assert.equal(interpretQuery("ray diagram questions", catalog).hasFigure, undefined);
+});

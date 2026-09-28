@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
 };
 
-const EXAMPLES = ["Class 10 CBSE electricity", "ICSE Class 10 quadratic equations", "2026 Science QP 31/2/1", "questions on heredity", "repeated questions chemical reactions"];
+const EXAMPLES = ["Class 10 CBSE electricity", "ICSE Class 10 quadratic equations", "2026 Science QP 31/2/1", "ISC chemistry specimen with answers", "repeated questions chemical reactions"];
 
 const CHIP_STYLE: Record<IntentChip["kind"], string> = {
   board: "border-ink-line bg-ink-soft text-ink-deep",
@@ -34,6 +34,8 @@ const CHIP_STYLE: Record<IntentChip["kind"], string> = {
   marks: "border-rule-strong bg-sheet text-graphite",
   repeated: "border-margin/40 bg-margin-soft text-margin",
   pyq: "border-verified/40 bg-verified-soft text-verified",
+  doc: "border-verified/40 bg-verified-soft text-verified",
+  answer: "border-rule-strong bg-sheet text-graphite",
   text: "border-rule-strong bg-sheet text-graphite",
 };
 
@@ -69,9 +71,12 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
     f.paperCode = intent.paperCode;
     f.questionNumber = intent.questionNumber;
     if (intent.repeatedOnly) f.repeatedOnly = true;
+    f.paperType ??= intent.paperType;
+    f.hasAnswer ??= intent.hasAnswer;
+    f.hasFigure ??= intent.hasFigure;
   }
   const pyqOnly = source === "pyq" || Boolean(intent?.pyqOnly) || Boolean(f.repeatedOnly);
-  const hasQuery = Boolean(rawQ || f.subjectId || f.boardId || f.classId || f.year || f.chapterId);
+  const hasQuery = Boolean(rawQ || f.subjectId || f.boardId || f.classId || f.year || f.chapterId || f.paperType || f.marks || f.hasAnswer !== undefined || f.hasFigure !== undefined || source !== "all");
   const result = hasQuery
     ? await searchQuestions(
         {
@@ -145,7 +150,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
           </div>
         )}
 
-        <details className="panel mt-5 rounded-2xl p-4" open={Boolean(manual.boardId || manual.classId || manual.subjectId || manual.year || source !== "all")}>
+        <details className="panel mt-5 rounded-2xl p-4" open={Boolean(manual.boardId || manual.classId || manual.subjectId || manual.year || manual.paperType || manual.marks || manual.hasAnswer !== undefined || manual.hasFigure !== undefined || source !== "all")}>
           <summary className="cursor-pointer font-bold">More filters</summary>
           <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-6">
             <div>
@@ -218,6 +223,54 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                 <option value="OFFICIAL_SAMPLE">Official samples</option>
                 <option value="USER_CONTRIBUTED">Community</option>
                 <option value="AI_SUPPLEMENTARY">AI practice</option>
+              </select>
+            </div>
+          </div>
+          <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-6">
+            <div>
+              <label htmlFor="s-doc" className="field-label">
+                Document
+              </label>
+              <select id="s-doc" name="paper_type" className="select" defaultValue={manual.paperType ?? ""}>
+                <option value="">Any</option>
+                <option value="BOARD_EXAM">Board exam papers</option>
+                <option value="SAMPLE">Official sample papers</option>
+                <option value="SPECIMEN">Official specimen papers</option>
+                <option value="QUESTION_BANK">Official question banks</option>
+                <option value="SCHOOL_EXAM">School papers</option>
+              </select>
+            </div>
+            <div>
+              <label htmlFor="s-marks" className="field-label">
+                Marks
+              </label>
+              <select id="s-marks" name="marks" className="select" defaultValue={manual.marks ?? ""}>
+                <option value="">Any</option>
+                {[1, 2, 3, 4, 5, 6].map((m) => (
+                  <option key={m} value={m}>
+                    {m} mark{m === 1 ? "" : "s"}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label htmlFor="s-answer" className="field-label">
+                Official answer
+              </label>
+              <select id="s-answer" name="answer" className="select" defaultValue={manual.hasAnswer === undefined ? "" : manual.hasAnswer ? "1" : "0"}>
+                <option value="">Any</option>
+                <option value="1">Has an official answer</option>
+                <option value="0">No answer published</option>
+              </select>
+            </div>
+            <div>
+              <label htmlFor="s-figure" className="field-label">
+                Figures
+              </label>
+              <select id="s-figure" name="figure" className="select" defaultValue={manual.hasFigure === undefined ? "" : manual.hasFigure ? "1" : "0"}>
+                <option value="">Any</option>
+                <option value="0">No figure needed</option>
+                <option value="1">Refers to a figure</option>
               </select>
             </div>
           </div>

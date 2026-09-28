@@ -1495,3 +1495,279 @@
     background: transparent;
   }
 }
+
+/* ───────────── Class cards: an exam sheet per class ───────────── */
+.class-card {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-height: 11.5rem;
+  padding: 1rem 1rem 0.9rem 1.6rem;
+  border: 1.5px solid var(--color-rule);
+  border-radius: 16px;
+  color: var(--color-graphite);
+  text-decoration: none;
+  overflow: hidden;
+  background:
+    repeating-linear-gradient(to bottom, transparent 0 27px, rgb(42 56 209 / 0.07) 27px 28px),
+    var(--color-sheet);
+  box-shadow: var(--shadow-sheet);
+  transition:
+    transform 300ms var(--ease-out),
+    box-shadow 300ms var(--ease-out),
+    border-color 200ms var(--ease-out);
+}
+.class-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0.85rem;
+  width: 1.5px;
+  background: color-mix(in srgb, var(--color-margin) 55%, transparent);
+  z-index: -1;
+}
+.class-card:hover {
+  border-color: var(--color-ink-line);
+  box-shadow:
+    0 0 0 3px rgb(42 56 209 / 0.08),
+    var(--shadow-lift);
+}
+.class-card:active {
+  transform: scale(0.975);
+  transition-duration: 90ms;
+}
+.class-card:focus-visible {
+  outline: 3px solid var(--color-ink);
+  outline-offset: 3px;
+}
+.class-card-stage {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-pencil);
+}
+.class-card-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  line-height: 1;
+}
+.class-card-word {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-pencil);
+}
+.class-card-numeral {
+  font-family: var(--font-serif);
+  font-size: 3.1rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  color: var(--color-graphite);
+  transition:
+    color 200ms var(--ease-out),
+    transform 400ms var(--ease-spring);
+}
+.class-card:hover .class-card-numeral {
+  color: var(--color-ink);
+  transform: translateY(-2px);
+}
+.class-card-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.75rem;
+  font-size: 0.85rem;
+  margin-top: auto;
+}
+.class-card-glyphs {
+  display: flex;
+  gap: 0.45rem;
+  color: var(--color-ink);
+  opacity: 0.72;
+}
+.class-card[data-selected] {
+  border-color: var(--color-ink);
+  border-width: 2px;
+  background:
+    repeating-linear-gradient(to bottom, transparent 0 27px, rgb(42 56 209 / 0.1) 27px 28px),
+    var(--color-ink-soft);
+}
+.class-card-stamp {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: grid;
+  place-items: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 999px;
+  background: var(--color-ink);
+  color: #fff;
+  animation: stamp-land 420ms var(--ease-out) both;
+}
+@media (pointer: coarse) {
+  .class-card:hover {
+    box-shadow: var(--shadow-sheet);
+    border-color: var(--color-rule);
+  }
+  .class-card:hover .class-card-numeral {
+    transform: none;
+  }
+}
+
+/* Board choice: two sheets side by side */
+.board-choice {
+  display: inline-grid;
+  grid-auto-flow: column;
+  gap: 0.5rem;
+  padding: 0.35rem;
+  border-radius: 18px;
+  background: var(--color-desk-deep);
+}
+.board-choice button,
+.board-choice a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 8.5rem;
+  min-height: 3.6rem;
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
+  font-weight: 700;
+  color: var(--color-pencil);
+  text-decoration: none;
+  transition:
+    background-color 200ms var(--ease-out),
+    color 200ms var(--ease-out),
+    box-shadow 250ms var(--ease-out),
+    transform 300ms var(--ease-spring);
+}
+.board-choice button:hover,
+.board-choice a:hover {
+  color: var(--color-graphite);
+}
+.board-choice [aria-selected="true"],
+.board-choice [aria-checked="true"] {
+  background: var(--color-night);
+  color: #fff;
+  box-shadow: 0 10px 24px -14px rgb(11 16 51 / 0.9);
+}
+.board-choice-name {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+.board-choice-full {
+  font-size: 0.74rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+@media (prefers-reduced-motion: reduce) {
+  .class-card,
+  .class-card-numeral {
+    transition: none;
+  }
+  .class-card-stamp {
+    animation: none;
+  }
+}
+
+/* Builder class choice: small exam sheets matching the class cards */
+.class-tile {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 4.4rem;
+  padding: 0.4rem 0.5rem 0.45rem 1.05rem;
+  border: 1.5px solid var(--color-rule);
+  border-radius: 12px;
+  cursor: pointer;
+  overflow: hidden;
+  background:
+    repeating-linear-gradient(to bottom, transparent 0 17px, rgb(42 56 209 / 0.07) 17px 18px),
+    var(--color-sheet);
+  transition:
+    transform 250ms var(--ease-out),
+    border-color 200ms var(--ease-out),
+    box-shadow 250ms var(--ease-out);
+}
+.class-tile::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0.55rem;
+  width: 1.5px;
+  background: color-mix(in srgb, var(--color-margin) 55%, transparent);
+  z-index: -1;
+}
+.class-tile:hover {
+  border-color: var(--color-ink-line);
+}
+.class-tile:active {
+  transform: scale(0.96);
+  transition-duration: 90ms;
+}
+.class-tile:has(input:focus-visible) {
+  outline: 3px solid var(--color-ink);
+  outline-offset: 2px;
+}
+.class-tile-word {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-pencil);
+  line-height: 1;
+}
+.class-tile-numeral {
+  font-family: var(--font-serif);
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.05;
+  color: var(--color-graphite);
+}
+.class-tile[data-selected] {
+  border: 2px solid var(--color-ink);
+  background:
+    repeating-linear-gradient(to bottom, transparent 0 17px, rgb(42 56 209 / 0.1) 17px 18px),
+    var(--color-ink-soft);
+  box-shadow: 0 8px 18px -12px rgb(42 56 209 / 0.7);
+}
+.class-tile[data-selected] .class-tile-numeral {
+  color: var(--color-ink);
+}
+.class-tile[data-selected]::after {
+  content: "";
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: var(--color-ink);
+  animation: stamp-land 420ms var(--ease-out) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .class-tile {
+    transition: none;
+  }
+  .class-tile[data-selected]::after {
+    animation: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .board-choice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  .board-choice button,
+  .board-choice a {
+    min-width: 0;
+    padding-inline: 0.75rem;
+  }
+}

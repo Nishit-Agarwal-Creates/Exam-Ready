@@ -79,3 +79,39 @@ export function sumQueues(q: SourceQueue[]) {
   const keys = ["total", "pending", "verified", "rejected", "formulaLoss", "figure", "lowConfidence", "noAnswer", "answerPartial", "suggestedMapping"] as const;
   return Object.fromEntries(keys.map((k) => [k, q.reduce((t, r) => t + r[k], 0)])) as Record<(typeof keys)[number], number>;
 }
+
+export type ReviewOverview = {
+  /** Non-demo official questions by review state (null state = imported before the pipeline, counted as pending). */
+  states: Record<string, number>;
+  /** The most common reasons questions are held, with how many share each. */
+  reasons: { state: string; reason: string; n: number }[];
+  /** Per source document: auto-verified, editor-verified, held and still pending. */
+  byPaper: Map<number, { auto: number; editor: number; held: number; rejected: number }>;
+};
+
+/** Three small grouped queries over the review columns (indexed by review_state). */
+export async function getReviewOverview(): Promise<ReviewOverview> {
+  const db = await getDb();
+  const [states, reasons, papers] = await Promise.all([
+    db.all<{ state: string | null; n: number }>(sql`
+      SELECT review_state AS state, COUNT(*) AS n FROM questions WHERE is_demo = 0 AND source_type <> 'AI_GENERATED' GROUP BY review_state`),
+    db.all<{ state: string; reason: string; n: number }>(sql`
+      SELECT review_state AS state, review_reason AS reason, COUNT(*) AS n FROM questions
+      WHERE is_demo = 0 AND review_state LIKE 'HOLD%' AND verification_status = 'UNVERIFIED' AND review_reason <> ''
+      GROUP BY review_state, review_reason ORDER BY n DESC LIMIT 24`),
+    db.all<{ paper_id: number; auto: number; editor: number; held: number; rejected: number }>(sql`
+      SELECT qs.paper_id,
+        SUM(CASE WHEN q.review_state = 'AUTO_VERIFIED' AND q.verification_status = 'VERIFIED' THEN 1 ELSE 0 END) AS auto,
+        SUM(CASE WHEN q.verification_status = 'VERIFIED' AND (q.review_state IS NULL OR q.review_state <> 'AUTO_VERIFIED') THEN 1 ELSE 0 END) AS editor,
+        SUM(CASE WHEN q.verification_status = 'UNVERIFIED' AND q.review_state LIKE 'HOLD%' THEN 1 ELSE 0 END) AS held,
+        SUM(CASE WHEN q.verification_status = 'REJECTED' THEN 1 ELSE 0 END) AS rejected
+      FROM question_sources qs JOIN questions q ON q.id = qs.question_id
+      WHERE q.is_demo = 0 GROUP BY qs.paper_id`),
+  ]);
+  const n = (v: unknown) => Number(v ?? 0);
+  return {
+    states: Object.fromEntries(states.map((s) => [s.state ?? "PENDING_REVIEW", n(s.n)])),
+    reasons: reasons.map((r) => ({ state: r.state, reason: r.reason, n: n(r.n) })),
+    byPaper: new Map(papers.map((p) => [n(p.paper_id), { auto: n(p.auto), editor: n(p.editor), held: n(p.held), rejected: n(p.rejected) }])),
+  };
+}

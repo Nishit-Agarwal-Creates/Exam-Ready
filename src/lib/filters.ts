@@ -1,4 +1,4 @@
-import { DIFFICULTIES, QUESTION_TYPES, SOURCE_TYPES, VERIFICATION_STATUSES } from "@/db/schema";
+import { DIFFICULTIES, PAPER_TYPES, QUESTION_TYPES, REVIEW_STATES, SOURCE_TYPES, VERIFICATION_STATUSES } from "@/db/schema";
 import type { QuestionFilters } from "@/lib/data/questions";
 
 export type SearchParams = Record<string, string | string[] | undefined>;
@@ -34,6 +34,10 @@ export function parseQuestionFilters(sp: SearchParams): QuestionFilters {
     year: int(sp, "year", 2100),
     paperId: int(sp, "paper"),
     q: one(sp.q).slice(0, 100) || undefined,
+    paperType: pick(PAPER_TYPES, one(sp.paper_type)),
+    hasAnswer: one(sp.answer) === "1" ? true : one(sp.answer) === "0" ? false : undefined,
+    hasFigure: one(sp.figure) === "1" ? true : one(sp.figure) === "0" ? false : undefined,
+    reviewState: pick(REVIEW_STATES, one(sp.review)),
     demo: demo === "only" || demo === "exclude" ? demo : undefined,
     issues: issues === "figure" || issues === "low" || issues === "any" ? issues : undefined,
     page: int(sp, "page", 10_000) ?? 1,
@@ -56,6 +60,10 @@ export function filtersToQuery(f: QuestionFilters, overrides: Record<string, str
     year: f.year,
     paper: f.paperId,
     q: f.q,
+    paper_type: f.paperType,
+    answer: f.hasAnswer === undefined ? undefined : f.hasAnswer ? "1" : "0",
+    figure: f.hasFigure === undefined ? undefined : f.hasFigure ? "1" : "0",
+    review: f.reviewState,
     demo: f.demo,
     issues: f.issues,
     page: f.page && f.page > 1 ? f.page : undefined,

@@ -6,7 +6,7 @@ import { StudentIllustration } from "@/components/home/student-illustration";
 import { JsonLd } from "@/components/json-ld";
 import { CountUp } from "@/components/motion/count-up";
 import type { PaperType, SourceAuthority } from "@/db/schema";
-import { getBankTotals } from "@/lib/data/coverage";
+import { getBankTotals, getSubjectCoverage } from "@/lib/data/coverage";
 import { getCatalog } from "@/lib/data/taxonomy";
 import { getAllCoverage, getPublicSources } from "@/lib/data/trends";
 import { SITE_DESCRIPTION, SITE_NAME, TAGLINE, absoluteUrl, pageMetadata } from "@/lib/site";
@@ -46,7 +46,7 @@ const FAQ = [
 ];
 
 export default async function HomePage() {
-  const [catalog, coverage, sources, bank] = await Promise.all([getCatalog(), getAllCoverage(), getPublicSources(), getBankTotals()]);
+  const [catalog, coverage, sources, bank, subjectRows] = await Promise.all([getCatalog(), getAllCoverage(), getPublicSources(), getBankTotals(), getSubjectCoverage()]);
   const latest = sources[0];
   const heroSource: HeroSource = latest
     ? {
@@ -70,14 +70,16 @@ export default async function HomePage() {
     name: b.name,
     fullName: b.fullName,
     classes: b.classes.map((c) => {
-      const rows = coverage.filter((r) => r.boardSlug === b.slug && r.classSlug === c.slug);
+      const rows = subjectRows.filter((r) => r.classId === c.id);
       return {
+        href: `/${b.slug}/${c.slug}`,
+        boardSlug: b.slug,
         level: c.level,
         name: c.name,
-        slug: c.slug,
-        subjects: c.subjects.length,
-        verified: rows.reduce((s, r) => s + r.verified, 0),
-        pending: rows.reduce((s, r) => s + r.pending, 0),
+        sourced: rows.reduce((t, r) => t + r.verifiedPyq + r.officialSample + r.community, 0),
+        aiPractice: rows.reduce((t, r) => t + r.aiPractice, 0),
+        awaiting: rows.reduce((t, r) => t + r.awaitingReview, 0),
+        subjects: c.subjects.map((s) => ({ slug: s.slug, name: s.name })),
       };
     }),
   }));

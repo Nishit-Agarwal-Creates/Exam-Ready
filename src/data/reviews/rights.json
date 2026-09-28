@@ -1,0 +1,15 @@
+{
+  "note": "Whether each board's published material may be reproduced on ExamReady. Consolidation only auto-publishes questions from boards marked PERMITTED; the rest wait as HOLD_RIGHTS with every other check already passed. Change a status only when the evidence changes (for example written permission received), and record that evidence here.",
+  "checkedOn": "2026-09-28",
+  "boards": {
+    "cbse": {
+      "status": "PERMITTED",
+      "evidence": "CBSE publishes its question papers, marking schemes, sample papers and item banks openly on cbse.gov.in and cbseacademic.nic.in with no restrictive notice found on those pages; the item banks state that teachers \"can use the bank of questions in whatever way you wish\". Questions are reproduced with attribution and a link to the original."
+    },
+    "icse": {
+      "status": "PERMISSION_REQUIRED",
+      "evidence": "CISCE's legal disclaimer (https://cisce.org/legal-disclaimer/) says: \"No material from this website may be copied, reproduced, republished, uploaded, posted, transmitted, distributed, or otherwise used for public or commercial purposes without the prior written permission of CISCE\" and that no part may be \"incorporated into any other website, publication, database, or work\" without express written consent.",
+      "action": "Ask CISCE for written permission to reproduce specimen-paper questions with attribution. Until then ICSE/ISC documents are linked, not reproduced."
+    }
+  }
+}

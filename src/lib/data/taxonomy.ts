@@ -1,6 +1,7 @@
 import { and, asc, eq, sql } from "drizzle-orm";
 import { cache } from "react";
 import { getDb, schema } from "@/db";
+import { AGGREGATE_TTL, mapCodec, sharedCache } from "@/lib/data/shared-cache";
 import type { SourceType } from "@/db/schema";
 import { safeJson } from "@/lib/text";
 
@@ -12,7 +13,7 @@ export type CatalogClass = { id: number; level: number; slug: string; name: stri
 export type CatalogBoard = { id: number; slug: string; name: string; fullName: string; classes: CatalogClass[] };
 
 /** The full board → class → subject → chapter tree used by the paper generator and navigation. */
-export const getCatalog = cache(async (): Promise<CatalogBoard[]> => {
+const computeCatalog = async (): Promise<CatalogBoard[]> => {
   const db = await getDb();
   const [b, c, s, ch] = await Promise.all([
     db.select().from(boards).where(eq(boards.isActive, true)).orderBy(asc(boards.sortOrder)),
@@ -42,7 +43,8 @@ export const getCatalog = cache(async (): Promise<CatalogBoard[]> => {
           })),
       })),
   }));
-});
+};
+export const getCatalog = cache(() => sharedCache("taxonomy:catalog", AGGREGATE_TTL, () => computeCatalog()));
 
 export const getBoard = cache(async (slug: string) => {
   const db = await getDb();
@@ -99,7 +101,7 @@ export type ChapterStats = {
 };
 
 /** Per-chapter counts of published, reviewed questions. Used on SEO pages and the generator. */
-export async function getSubjectStats(subjectId: number): Promise<Map<number, ChapterStats>> {
+async function computeSubjectStats(subjectId: number): Promise<Map<number, ChapterStats>> {
   const db = await getDb();
   const rows = await db
     .select({
@@ -140,6 +142,10 @@ export async function getSubjectStats(subjectId: number): Promise<Map<number, Ch
     map.set(r.chapterId, s);
   }
   return map;
+}
+
+export function getSubjectStats(subjectId: number): Promise<Map<number, ChapterStats>> {
+  return sharedCache(`taxonomy:stats:${subjectId}`, AGGREGATE_TTL, () => computeSubjectStats(subjectId), mapCodec<number, ChapterStats>());
 }
 
 export function sumStats(stats: Map<number, ChapterStats>) {

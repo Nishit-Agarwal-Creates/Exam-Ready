@@ -19,7 +19,7 @@ export type IntentCatalog = {
   }[];
 }[];
 
-export type IntentChip = { kind: "board" | "class" | "subject" | "chapter" | "year" | "paper" | "question" | "type" | "marks" | "repeated" | "pyq" | "text"; label: string };
+export type IntentChip = { kind: "board" | "class" | "subject" | "chapter" | "year" | "paper" | "question" | "type" | "marks" | "repeated" | "pyq" | "doc" | "answer" | "text"; label: string };
 
 export type SearchIntent = {
   boardId?: number;
@@ -35,6 +35,10 @@ export type SearchIntent = {
   marks?: number;
   repeatedOnly?: boolean;
   pyqOnly?: boolean;
+  /** Kind of source document: "specimen", "sample paper", "question bank", "school paper". */
+  paperType?: "SPECIMEN" | "SAMPLE" | "QUESTION_BANK" | "SCHOOL_EXAM";
+  hasAnswer?: boolean;
+  hasFigure?: boolean;
   /** Words that were not recognised as filters; matched against question text. */
   text?: string;
   chips: IntentChip[];
@@ -71,6 +75,13 @@ const TYPE_WORDS: [RegExp, NonNullable<SearchIntent["type"]>, string][] = [
   [/\bfill (in )?the blanks?\b/, "FILL_BLANK", "Fill in the blanks"],
   [/\blong[- ]answers?\b/, "LONG_ANSWER", "Long answer"],
   [/\bshort[- ]answers?\b/, "SHORT_ANSWER", "Short answer"],
+];
+
+const DOC_WORDS: [RegExp, NonNullable<SearchIntent["paperType"]>, string][] = [
+  [/\bspecimens?( papers?)?\b/, "SPECIMEN", "Official specimen papers"],
+  [/\bsample (question )?papers?\b|\bsqps?\b/, "SAMPLE", "Official sample papers"],
+  [/\b(question|item) banks?\b/, "QUESTION_BANK", "Official question banks"],
+  [/\bschool (exam )?papers?\b/, "SCHOOL_EXAM", "School papers"],
 ];
 
 function norm(s: string) {
@@ -122,6 +133,23 @@ export function interpretQuery(raw: string, catalog: IntentCatalog): SearchInten
   if (take(/\bprevious[- ]year\b|\bpast papers?\b|\bpyqs?\b/)) {
     out.pyqOnly = true;
     out.chips.push({ kind: "pyq", label: "Verified PYQs" });
+  }
+  for (const [re, paperType, label] of DOC_WORDS) {
+    if (take(re)) {
+      out.paperType = paperType;
+      out.chips.push({ kind: "doc", label });
+      break;
+    }
+  }
+  if (take(/\bwith (official )?(answers?|solutions?|answer keys?|marking schemes?)\b|\bsolved\b/)) {
+    out.hasAnswer = true;
+    out.chips.push({ kind: "answer", label: "With official answer" });
+  }
+  // Only explicit "with/without figures" phrases: "ray diagram" is a topic, not a filter.
+  const fig = take(/\b(with|without|no) (figures?|diagrams?|graphs?|pictures?)\b/);
+  if (fig) {
+    out.hasFigure = fig[1] === "with";
+    out.chips.push({ kind: "answer", label: out.hasFigure ? "Has a figure" : "No figure needed" });
   }
   for (const [re, type, label] of TYPE_WORDS) {
     if (take(re)) {

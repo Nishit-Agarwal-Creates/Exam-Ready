@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SubjectNav } from "@/components/subject-nav";
+import { getSubjectCoverage as getAllSubjectCoverage, publishedTotal } from "@/lib/data/coverage";
 import { loadSubjectPage, subjectMetaContext } from "@/lib/data/seo";
 import { pageMetadata } from "@/lib/site";
 
@@ -12,10 +13,12 @@ type Props = { params: Promise<{ board: string; class: string; subject: string }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const m = await subjectMetaContext(await params);
   if (!m) return { title: "Not found", robots: { index: false } };
+  const cov = (await getAllSubjectCoverage()).find((r) => r.subjectId === m.ctx.subject.id);
   return pageMetadata({
     title: `${m.name} chapter-wise questions`,
     description: `Chapter-wise practice for ${m.name}: every chapter with its topics, how many questions are available, and a one-tap practice paper for each.`,
     path: `${m.base}/chapter-wise`,
+    noindex: !(cov && publishedTotal(cov) > 0),
   });
 }
 

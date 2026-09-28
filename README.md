@@ -43,7 +43,7 @@ npm run db:reset   # reload demo data and return every official question to "pen
 
 ## What's in the bank
 
-Everything below comes from documents the boards publish themselves. **Every official question is imported as "pending review"**: it isn't shown to students, used in papers or counted as a PYQ until an editor has checked it against the linked PDF in `/admin/review`.
+Everything below comes from documents the boards publish themselves. **Every official question is imported as "pending review"**: it isn't shown to students, used in papers or counted as a PYQ until it has been checked against the linked PDF, by an editor in `/admin/review` or by the review pipeline described under [Architecture](#review-pipeline).
 
 | Board and class | Subject | Board exam papers (PYQ candidates) | Official sample / specimen |
 | --- | --- | --- | --- |
@@ -57,8 +57,11 @@ Everything below comes from documents the boards publish themselves. **Every off
 | ICSE Class 10 | Physics, Chemistry, Biology | none published by CISCE | 2027 and 2026 specimens |
 | ICSE Class 10 | Mathematics, History & Civics, Geography | none published by CISCE | 2027 specimens |
 | ISC Class 12 | Physics, Chemistry, Biology, Mathematics | none published by CISCE | 2027 specimens |
+| CBSE Classes 6–10 | Mathematics, Science | none (Classes 6–9 have no board exam) | CBSE competency-based item banks (September 2021) |
 
-In numbers: 35 source documents (15 board exam papers, 20 sample/specimen papers), 1,694 extracted questions (643 from board papers, 1,051 from samples/specimens), of which 1,562 carry the official marking-scheme answer. 1,688 load into the database; 6 are held back because no syllabus chapter fits them (an editor maps them). 61 duplicate links (for example the same question in two 2026 sets, or reused between the 2026 and 2027 ICSE specimens) make repeats count once.
+In numbers (after the Phase 4 review): 45 source documents and 2,598 extracted questions. **1,020 are verified**: 444 previous-year questions from CBSE board papers and 576 from CBSE sample papers and item banks. 135 of those were verified by an editor, 885 by the automated review. 1,578 are held, each with a stated reason: 360 need a figure that isn't reproduced, 249 wait for or were disputed by the second reviewer, 242 have text or notation that doesn't fully match, 189 have a chapter that couldn't be confirmed, 60 have an official answer that looks wrong, and **478 ICSE/ISC questions passed every check but are held until CISCE gives written permission** (see Limitations). The rest have no fitting syllabus chapter and are not loaded.
+
+Verified questions per class (CBSE): Class 6: 54, Class 7: 11, Class 8: 39, Class 9: 43, Class 10: 594 (291 PYQs), Class 12: 279 (153 PYQs). No class reaches the 400-question target yet; ICSE/ISC shows none while permission is pending.
 
 The ICSE Classes 8–10 practice bank (428 questions) was written by AI. It is stamped **AI practice** everywhere and is never counted or presented as a previous-year question.
 
@@ -98,7 +101,8 @@ What was found, imported and blocked is recorded in `src/data/source-registry.js
 
 **Admin** (`/admin`)
 
-- **Research centre** (`/admin/research`): the review workload (ready for review, formula/symbol-loss notes, figures, low confidence, no official answer, partly missing answers, suggested chapters), the import and review queue per source document, and the registry of official sources found, imported and blocked.
+- **Research centre** (`/admin/research`): the review pipeline (verified by automated review, verified by an editor, held, awaiting review, rejected), held questions grouped by reason with the most common reasons and a link to each queue, what is still awaiting review, a per-document table (auto-verified, editor-verified, held, pending, issues), and the registry of official sources found, imported, link-only and blocked.
+- **Questions list**: filter by review result; each row shows its review state and, on hover, the reason it was held.
 - Dashboard with live counts:
   - provenance distribution and questions by board, class, subject and year;
   - pending, rejected and duplicate groups;
@@ -117,7 +121,9 @@ What was found, imported and blocked is recorded in `src/data/source-registry.js
 - **Next.js 16 + React 19 + TypeScript + Tailwind v4**, deployed to **Cloudflare Workers** with OpenNext. The compressed Worker is about 1.8 MB, well under the free plan's 3 MB limit.
 - **Cloudflare D1** (SQLite) via Drizzle. Migrations are in `drizzle/migrations`:
   - `0001` adds the provenance and ingestion columns;
-  - `0002` corrects the demo bank's provenance and adds the ICSE/CBSE Classes 6–12 taxonomy.
+  - `0002` corrects the demo bank's provenance and adds the ICSE/CBSE Classes 6–12 taxonomy;
+  - `0003` adds `review_state`, `review_reason` and `reviewed_at` for the review pipeline (additive; existing editor decisions are marked `EDITOR_VERIFIED`);
+  - `0004` adds `cache_entries`, a small table for cached site-wide aggregates (see below).
 - **Browser-only libraries** (pdf-lib, fontkit, pdf.js, Tesseract.js) are loaded on demand from jsDelivr at pinned versions, so they never enter the Worker bundle (`src/lib/browser-libs.ts`).
 - **AI** is behind a provider interface (`src/lib/ai/`): Cloudflare Workers AI through the `AI` binding (free daily allowance, no API key), or no AI at all. Everything except the two AI tools works without it. In local development remote bindings are off; set `EXAMREADY_REMOTE_AI=1` after `npx wrangler login` to try AI locally.
 - **Motion** is CSS-first (`globals.css`) with two small client components:
@@ -125,6 +131,7 @@ What was found, imported and blocked is recorded in `src/data/source-registry.js
   - `MotionRoot`: one set of delegated listeners for scroll reveal, tilt cards, magnetic buttons and press feedback (`data-fx="pulse"` electric ring, `data-fx="ripple"` ink ripple).
   - Reusable classes: `.fx-spring`, `.fx-lift`, `.fx-sweep`, `.fx-buzz`, `.pick` (selectable chips), `.glyph` (per-subject motion: circuit pulse for physics, orbiting electron for chemistry, DNA twist for biology, compass arc for mathematics, scroll for history, turning globe for geography), `.numeral-roll`, `.pdf-build`.
   - `prefers-reduced-motion` shows a static final state everywhere.
+- **D1 free plan (5 million rows read per day)**: site-wide aggregates (coverage, catalogue, sources, trends, per-subject stats) are cached in the Worker isolate and in `cache_entries` for 10 minutes (`src/lib/data/shared-cache.ts`), and every editor action clears the cache. A warm home page now reads about 45 rows instead of about 44,000; without the cache, crawler traffic exhausted the daily allowance and every page returned 500 until midnight UTC.
 - **Cloudflare free plan (10 ms CPU per request)**: long lists are paginated (review queue 15, PYQ lists 10–12), list cards show a one-line citation instead of the full provenance panel, and coverage, the sitemap and the class pages use a handful of grouped queries instead of per-subject loops.
 
 ```
@@ -141,6 +148,25 @@ src/data/demo/         AI-written demo practice bank
 src/data/taxonomy.json boards, classes, subjects; chapters where the syllabus is known precisely
 scripts/               DB setup, demo seed, source-pack importer (idempotent) and validator
 ```
+
+### Review pipeline
+
+Official questions are checked against their documents by a pipeline that never lets a single opinion publish anything:
+
+1. **Review** (`src/data/reviews/<pack>.json`): a reviewer compares every question with the official PDF (verified by SHA-256) and its marking scheme and records, per question, text, number/page, marks, options, notation, figure, answer and chapter verdicts plus a decision. `npm run review:check` validates the files.
+2. **Independent audit** (`src/data/reviews/audit-<pack>[--N].json`): a second reviewer re-checks every maths/science question that contains numbers or symbols, every rebuilt notation, corrected chapter or minor text difference, and a random sample of the rest, using `pdftotext -layout`, `-raw` and `-table` and pdfplumber. `npm run review:sample` picks the sample; `--missing` writes a follow-up sample for keys no audit covers yet.
+3. **Deterministic checks**: `scripts/review/minus-scan.py` finds minus signs drawn as shapes (invisible to every text extractor) and holds affected questions; flattened powers ("10-3", "cm2") and official answers that contain an extractor's reconstruction are held; `src/data/reviews/holds.json` lists questions whose official document itself looks wrong, for an editor.
+4. **Rights**: `src/data/reviews/rights.json` records whether each board's material may be reproduced. Only boards marked `PERMITTED` publish; the rest wait as `HOLD_RIGHTS`.
+5. **Consolidation** (`npm run review:consolidate`) turns the evidence into `drizzle/seed/review.sql` and `src/data/reviews/summary.json`. A question is `AUTO_VERIFIED` only when every check passes; otherwise it gets exactly one hold state with its reasons. A disputed audit key is held; a pack whose audit disputes more than 20 % of its sample is held entirely. The SQL only touches questions that are still `UNVERIFIED`, so editor decisions are never overwritten, and it is safe to re-run.
+
+| Review state | Meaning |
+| --- | --- |
+| `AUTO_VERIFIED` | Passed the review, the audit and every deterministic check; published and labelled "Checked by ExamReady's automated review". |
+| `EDITOR_VERIFIED` | Verified by an editor. |
+| `PENDING_REVIEW` | Imported, not reviewed yet. |
+| `HOLD_MISSING_FIGURE` / `HOLD_ANSWER` / `HOLD_MAPPING` / `HOLD_LOW_CONFIDENCE` / `HOLD_AUDIT` / `HOLD_MISSING_SOURCE` | Held, with the reason stored in `review_reason` and shown in the admin. |
+| `HOLD_RIGHTS` | Passed every check, but the board's terms require permission before reproduction. |
+| `REJECTED_DUPLICATE` / `REJECTED_INVALID` | Rejected. |
 
 ### Provenance categories
 
@@ -177,7 +203,19 @@ Locally, secrets live in `.dev.vars` (git-ignored). Never commit it.
 
 ---
 
-## Deploying the Phase 2 update
+## Deploying an update
+
+For the Phase 4 release, in this order (each step is idempotent and never overwrites editor decisions):
+
+```bash
+npm run db:migrate:remote      # 0003 review columns and 0004 cache table (both additive)
+npm run db:sources:remote      # new source packs and syllabus chapters
+npx wrangler d1 execute DB --remote --file=drizzle/seed/review.sql   # review results; only touches UNVERIFIED rows
+```
+
+Then push to GitHub (Cloudflare builds and deploys the Worker), or deploy manually as below.
+
+### Deploying the Phase 2 update
 
 Nothing here touches production until you run it.
 
@@ -203,14 +241,17 @@ If a local OpenNext build fails with `EPERM` on `.next` or `.open-next`, stop an
 
 ## Limitations (honest status)
 
-- **No question is verified yet.** 1,688 official questions (640 from board papers, 1,048 from samples and specimens) are loaded and waiting for editor review. Until that happens, PYQ hubs and PYQ-only papers correctly show "not available yet".
+- **ICSE/ISC questions are held for permission.** CISCE's legal disclaimer (cisce.org/legal-disclaimer) forbids reproducing its material on another website or in a database without prior written permission. The specimen questions are extracted and checked, but held as `HOLD_RIGHTS` and linked, not shown. Once permission is received, set `boards.icse.status` to `PERMITTED` in `src/data/reviews/rights.json`, record the evidence, run `npm run review:consolidate` and apply `review.sql`. CISCE's ICSE Class X item banks (cisce.org/icse-item-banks-2024) fall under the same terms and were not imported.
+- **Automated verification has limits.** It compares text layers, not rendered pages: the audit also used pdfplumber for superscripts and drawn minus signs, but a question can still carry a flattened subscript in its answer (for example "a30" for a₃₀). Every automated decision is reversible in `/admin/questions?review=AUTO_VERIFIED`.
+- **Item-bank chapters are mapped to the current NCERT books.** The CBSE item banks were written in 2021 for the older books; items whose topic isn't in the current book are left out or held as "chapter to confirm". CBSE Class 9 Mathematics has only Ganita Manjari Part I chapters because Part II wasn't published when checked.
+- **CBSE Class 11 and ICSE Classes 6–8 and 11 have no official material** (no board publishes papers for them). CBSE's "Curriculum Aligned Competency Based Test Items" are marked All Rights Reserved and are linked only.
 - **ICSE/ISC have no PYQs.** CISCE publishes specimen papers online but not past board papers (they are sold in print), so ICSE/ISC content is official specimen material, not previous-year questions. Past papers can be added through the importer from files you have the right to use.
 - **Coverage is uneven.** CBSE Class 10 Science has five board papers across 2023–2026; most other subjects have one or two years. Classes 6–9 and 11 have no official papers (there is no board exam). CBSE Mathematics Basic, English, Hindi, languages, Computer Applications and Informatics Practices, ICSE specimens before 2026 and ICSE Class 9 specimens are not processed yet.
 - **Scanned papers were skipped.** Several CBSE sets have no text layer (for example 2024 X Science 31/1–31/3, 2026 X Social Science 32/1–32/3 and every 2025 XII Mathematics set). They need OCR and careful checking through `/admin/import`.
 - **Some official answers are missing.** The 2026 XII Physics marking scheme is image-only (no answers extracted); drawn structures, diagrams and some equations in other schemes are missing and flagged.
 - **Notation losses are flagged, not hidden.** Maths and physics text layers often drop symbols (√, ∫, Greek letters, fraction bars). Rebuilt notation is marked MEDIUM, lost notation LOW, and every such question lists the issue for the editor.
 - Figures, maps and diagrams aren't reproduced; affected questions are flagged and link to the source page.
-- Chapter mappings are suggestions until an editor confirms them. Six questions have no fitting syllabus chapter and are held back.
+- Chapter mappings of questions still awaiting review are suggestions; reviewed questions have a confirmed or corrected chapter. Questions with no fitting syllabus chapter are held back.
 - Student accounts aren't built yet; attempt history is per device.
 
 ## Security

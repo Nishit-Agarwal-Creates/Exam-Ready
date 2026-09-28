@@ -1,0 +1,1898 @@
+{
+  "source": {
+    "key": "cbse-itembank-2021-viii-mathematics",
+    "title": "Competency-based education for CBSE — Item Bank: Maths Class 8 (September 2021)",
+    "board": "cbse",
+    "class": 8,
+    "subject": "mathematics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Central Board of Secondary Education (content created by the British Council)",
+    "paperType": "QUESTION_BANK",
+    "examYear": null,
+    "session": "Item Bank, September 2021",
+    "paperName": "Item Bank: Maths Class 8",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cbseacademic.nic.in/cbe/documents/Item-Bank---Maths-Class-8.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cbseacademic.nic.in/cbe/documents/Item-Bank---Maths-Class-8.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 139,
+    "sha256": "1063aa96f275ef1ee189ecbcca0bde43eca47732b838fb68d8795ad1aa5b4faf",
+    "maxMarks": null,
+    "durationMinutes": null,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "notes": "A bank of practice items for teachers (not an examination paper), published by CBSE in September 2021 with content created by the British Council. The introduction says it contains 81 items; the document actually holds 64 item blocks, 8 of which are repeated verbatim (Maths8BS2, BS4, PR6, NB5, PW7, DG6, PW6, DG5), so 56 distinct items are extracted here (each repeat taken once, from its first occurrence). Item Maths8SK4 is listed in the item index but does not appear in the document. Items are identified by their printed reference (e.g. Maths8DB6) because every item is numbered '1' inside its own block; parts (a), (b)… are the printed sub-question labels. Answers come from each item's own mark scheme ('Answer' / 'Guidance'). Several mark schemes restate the question with small differences, and some metadata tables disagree with the marks printed next to the questions; the printed question marks are used and each discrepancy is flagged. Items map to the NCERT books current in 2021; chapters were mapped to the current (Ganita Prakash) syllabus as suggestions and must be confirmed. Topics with no clear home in the current book (volume, nets/Euler's formula, data handling, probability) are left unmapped.",
+    "usage": "Official CBSE item bank, freely available on cbseacademic.nic.in for teachers to use as they wish; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "Maths8BS2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "What is the area of a rectangle with length 9y and breadth 4y²",
+      "options": [
+        "4y³",
+        "9y³",
+        "13y³",
+        "36y³"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF (4y2 → 4y²)",
+        "The mark scheme repeats the stem of a different item (temperature-time graph); only its answer line is used",
+        "Item is printed twice in the document (pages 9 and 138)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "D. 36y³ — 1 mark for correct answer",
+        "correctOption": 3
+      },
+      "chapter": "we-distribute-yet-things-multiply",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DB6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Multiply (a+7)(b – 5)",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "ab -5a + 7b -35. M1 a( b-5) + 7( b-5) OR equivalent; A1 ab -5a + 7b - 35 OR equivalent"
+      },
+      "chapter": "we-distribute-yet-things-multiply",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8AM2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Khushi’s present age is twice of Sania. If Sania’s age four years ago was y. Then Khushi’s present age is:",
+      "options": [
+        "2(y – 4)",
+        "2y – 6",
+        "2y + 4",
+        "2(y + 4)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "D. 2(y + 4). A1 Sania’s present age=y+4; Khushi’s present age = 2(Sania’s present age) = 2(y+4)",
+        "correctOption": 3
+      },
+      "chapter": "algebra-play",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DB7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Shruti’s age is x years. Her father is 4 years more than the 2 times of Shruti’s age. Form an equation and solve it to find Shruti’s age if her father age is 40 years. Show your working.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Shruti’s age is 18 years. M1 2x + 4 = 40; A1 18"
+      },
+      "chapter": "algebra-play",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8AM4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The coordinates of a point at a distance of 6 units from the x axis and 5 units from the y axis is",
+      "options": [
+        "(0, 5)",
+        "(6, 0)",
+        "(5, 6)",
+        "(6, 5)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "C. (5, 6). A1 x-coordinate (abscissa) =5 units; y-coordinate (ordinate) = 6 units",
+        "correctOption": 2
+      },
+      "chapter": "tales-by-dots-and-lines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8BS6",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 19,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Time t in minutes 02 4 8 9\nTemperature in °C 10 30 50 90 100\nA certain amount of water was heated and the temperature at different intervals of time was observed as shown in the table above.\nDraw a temperature-time graph from t = 0 minute to t= 9 minute",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on page 19 reproduced from the text layer; the time row extracts as '02 4 8 9' (probably 0, 2, 4, 8, 9); check against the PDF",
+        "The mark scheme restates the question as 't = 0 minute to t= 15 minutes'",
+        "Answer is a graph; only the marking guidance is text"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Complete graph. A1 Correct time axis scale marked, not equal intervals between 4 to 8 and 8 to 9; A1 Straight line graph through correct points; A1 Correctly labelled time and temperature axes"
+      },
+      "chapter": "tales-by-dots-and-lines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8BS6",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 19,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Time t in minutes 02 4 8 9\nTemperature in °C 10 30 50 90 100\nA certain amount of water was heated and the temperature at different intervals of time was observed as shown in the table above.\nWhat would be the expected temperature of water at 7 minutes",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on page 19 reproduced from the text layer; the time row extracts as '02 4 8 9' (probably 0, 2, 4, 8, 9); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "80°C. A1 80°C; Allow missing units"
+      },
+      "chapter": "tales-by-dots-and-lines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DB2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "No. Of litres 10 15 20 25\nCost in Rs. 500 750 1000 1250\nThe table above shows the cost of fuel in litres. Draw a line graph for this information with the x-axis of 0 litres to 25 litres.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on page 21 reproduced from the text layer (rows flattened); check against the PDF",
+        "Answer graph on page 22 not reproduced; only the marking guidance is text"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "A1 correct x axis and scale; A1 correct y axis and scale and at least 2 correct points plotted; A1 complete correct line for x from 0 to 25"
+      },
+      "chapter": "tales-by-dots-and-lines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8BS1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 24,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Observe the temperature time graph and answer the following question. Choose the difference between the temperature at 7 hours and at 21 hours from the options below:",
+      "options": [
+        "0°F",
+        "1°F",
+        "2°F",
+        "3°F."
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph on page 23 not reproduced (needed to answer)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "A. 0°F. 98°-98° = 0°F; 1mark allow to correct answer.",
+        "correctOption": 0
+      },
+      "chapter": "tales-by-dots-and-lines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8AM3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which one of the following figures satisfy the property: “only one pair of sides are parallel”?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Options A–D on page 26 are figures and are not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "D. Trapezium. A1 Trapezium has only one pair of sides parallel. 1 Mark can be given if student writes Trapezium"
+      },
+      "chapter": "quadrilaterals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PW3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 28,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The diagram above shows a parallelogram ABCD with angle D = 60◦ Which of the following has the greatest value?",
+      "options": [
+        "2∠ A - 2∠B",
+        "∠ A + ∠B",
+        "∠ A + ∠D",
+        "3∠C - 2∠D"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of parallelogram ABCD (page 27/28) not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "D. 3∠C - 2∠D — 1 mark for correct answer",
+        "correctOption": 3
+      },
+      "chapter": "quadrilaterals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PW7",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 30,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "In the parallelogram SAFE given above, S =120°\nFind the value of y",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of parallelogram SAFE on page 29 not reproduced (side and angle labels needed)",
+        "Item is printed twice in the document (pages 29 and 64)",
+        "Marks from the item metadata (a 1, b 1, c 2); the printed 'Total marks 5' does not match"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "120°. A1 120° (opposite angles of parallelogram are equal S = F =120° y = 120°"
+      },
+      "chapter": "quadrilaterals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PW7",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 30,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "In the parallelogram SAFE given above, S =120°\nFind the value of x",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of parallelogram SAFE on page 29 not reproduced (side and angle labels needed)",
+        "Item is printed twice in the document (pages 29 and 64)",
+        "Marks from the item metadata (a 1, b 1, c 2); the printed 'Total marks 5' does not match"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "x=120 °"
+      },
+      "chapter": "quadrilaterals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PW7",
+      "part": "(c)",
+      "choiceGroup": null,
+      "page": 30,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "In the parallelogram SAFE given above, S =120°\nFind the value of 2n + 3c",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of parallelogram SAFE on page 29 not reproduced (side and angle labels needed)",
+        "Item is printed twice in the document (pages 29 and 64)",
+        "Marks from the item metadata (a 1, b 1, c 2); the printed 'Total marks 5' does not match",
+        "The mark scheme restates the part as 'Find the value of 2n – 3c'"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "2n +3c =19. M1 Property used opposite sides of parallelogram are equal; Either 2n –1 =12 or 2n=13 OR 3c = 6 OR n=6.5, c=3; A1 19"
+      },
+      "chapter": "quadrilaterals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8NB4",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 31,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Given a parallelogram ABCD in which AB=4 cm , BC=5.3 cm and angle B measures 60°.\nWhat is the measure of angle D?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "60°. Accept with or without degrees. Allow one mark for correct answer only."
+      },
+      "chapter": "quadrilaterals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8NB4",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 31,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Given a parallelogram ABCD in which AB=4 cm , BC=5.3 cm and angle B measures 60°.\nConstruct the parallelogram ABCD using ruler and compasses only.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation)",
+        "Construction drawing in the mark scheme (page 32) not reproduced",
+        "Degree sign flattened in the official answer: 600 (60°)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "M1 for a length of either 4 cm or 5.3 cm with the angle of 600. M1 for a compass construction mark to show the second side (i.e. either 5.3 cm or 4 cm) A1 for completing the parallelogram (ideally either measuring second angle to get a pair of parallel sides and a compass measurement; or using two compass measurements from vertices A and C. Allow 1mm error for each side. And 2 degrees error for each angle. No marks if there are no construction marks."
+      },
+      "chapter": "exploring-some-geometric-themes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DG1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 33,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the circumference of a circle whose radius is 7cm. Use 𝜋 = 22/7.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF (22 over 7 → 22/7)",
+        "The mark scheme restates the question as 'Find the area of a circle'"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "44cm. Allow one mark for correct answer only. Accept answer without units."
+      },
+      "chapter": "area",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PD4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 34,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Pizza factory has come out with two kinds of pizzas. A square pizza of side 45 cm costs Rs.150 and a circular pizza of diameter 50 cm costs Rs.160. (Thickness of both the pizzas is same.) Which pizza is a better deal? Use pi = 3.14",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened in the official answer: 𝑐𝑚2, 𝜋𝑟2",
+        "Metadata prints Class 7 and content reference 7M2a for this Class 8 item"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Square pizza is a better deal because it has a larger area with lesser cost. M1 Area of a square pizza = 𝑆𝑖𝑑𝑒 × 𝑆𝑖𝑑𝑒 = 45𝑐𝑚 × 45𝑐𝑚 = 2025 𝑐𝑚2; Area of a circular pizza = 𝜋𝑟2 = 3.14 × 25 × 25𝑐𝑚2 = 1962.5𝑐𝑚2; A1: Area of a square pizza is more than the area of a circular pizza. Also, cost of a square pizza is lesser than the cost of a circular pizza. Hence, square pizza is a better deal."
+      },
+      "chapter": "area",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DG6",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 36,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Hurrem's Maths teacher asked her to make a beautiful wheel using a circle with a radius of 2.5 cm.\nWhat is the area of the circle? Give your answer correct to 1 decimal place.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscript flattened in the official answer: 2.52 (2.5²)",
+        "Item is printed twice in the document (pages 36 and 110)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Area =19.6cm². M1 pi x 2.52 Allow pi = 22/7 or using calculator; A1 Area =19.6 (cm²(; 2 marks for correct answer. 1 mark for 19.63.. Or 19.64..."
+      },
+      "chapter": "area",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DG6",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 36,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Hurrem's Maths teacher asked her to make a beautiful wheel using a circle with a radius of 2.5 cm.\nThe cost of colours was Rs 200. Hurrem saved 30% on that price. How much did she spend on colours?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Item is printed twice in the document (pages 36 and 110)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Rs 140. M1 70/100×200 OR equivalent; A1 Rs140"
+      },
+      "chapter": "fractions-in-disguise",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DG4",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 40,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Consider a Cuboid whose dimensions are: Length = 2cm, breadth = 5 cm and height = 8 cm\nFind the volume of the cuboid with the given dimensions.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "80cm³. A1 Allow one mark for correct answer. Accept the answer with units only."
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DG4",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 40,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Consider a Cuboid whose dimensions are: Length = 2cm, breadth = 5 cm and height = 8 cm\nFind the surface area of the given cuboid which is open from the top.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "122cm². M1 =2×8(2+5)+2×5 OR equivalent; A1 112+10=122 cm²; A2 Allow 2 marks for correct answer. Accept the answer with units only."
+      },
+      "chapter": "area",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PR5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 42,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "88 cm³ of aluminium is drawn into a wire 2 mm in diameter. What will the length of the wire be, to the nearest metre?",
+      "options": [
+        "28 m",
+        "78 m",
+        "84 m",
+        "96 m"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF (cm3 → cm³)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "A. 28 m — 1 mark for correct answer",
+        "correctOption": 0
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PR3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 50,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The number of cuboids each measuring 3 cm × 6 cm × 9 cm that can be cut from a cuboid with dimensions 81 cm × 27 cm × 18 cm is?",
+      "options": [
+        "343",
+        "340",
+        "243",
+        "342"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "The mark scheme lists the options in a different order (243, 340, 342, 343); its 'A. 243' is option C in the question"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "A. 243 — 1 mark for correct answer",
+        "correctOption": 2
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DB4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 74,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "The internal measures of a cuboidal room are 12 m long, 8 m wide and 4 m high. Find the total cost of whitewashing all four walls of a room, if the cost of white washing is Rs 5 per m².",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF (m2 → m²)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Rs. 800. M1 4 x 2(12+8) OR equivalent OR 160 seen; M1 their 160 x 5; A1 Rs 800; Allow missing units"
+      },
+      "chapter": "area",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PR6",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 44,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A three-digit number is 65N is divisible by 9. What is the value of the digit N?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Item is printed twice in the document (pages 44 and 48)",
+        "Marks as printed next to the parts (a 2, b 1, total 3); the item metadata gives a 1, b 2"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "7. M! 6+5+a must total multiple of 9; A1 7; Allow 2 marks for correct answer only."
+      },
+      "chapter": "number-play-8",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PR6",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 45,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "David bought 171 litres of milk. He selected 9 orphanages near his locality and wants to distribute milk equally amongst them without leaving any milk. With the help of the divisibility rule, check whether equal division is possible or not. If possible, how much milk is distributed to each orphanage?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Item is printed twice in the document (pages 44 and 48)",
+        "Marks as printed next to the parts (a 2, b 1, total 3); the item metadata gives a 1, b 2"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "19 litres. A1 possible, 19 litres each"
+      },
+      "chapter": "number-play-8",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PN2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 46,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following is divisible by both 2 and 5?",
+      "options": [
+        "-48",
+        "35",
+        "50",
+        "62"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "C. 50 — 1 mark for correct answer",
+        "correctOption": 2
+      },
+      "chapter": "number-play-8",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8NB3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 47,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The 5 digit number 1234A leaves a remainder 1 when divided by 3. Find the least value of the digit A.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "0. Allow one mark for correct answer only."
+      },
+      "chapter": "number-play-8",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8NB5",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 53,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "ABC is an equilateral triangle on one side of the square CBDE.\nFind the measurement of angle ABD.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram on page 52 not reproduced",
+        "Item is printed twice in the document (pages 52 and 89)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "150°. M1 60 +90; A1 150°; Accept with or without degrees. Allow 2 marks for correct answer only."
+      },
+      "chapter": "quadrilaterals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8NB5",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 53,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "ABC is an equilateral triangle on one side of the square CBDE.\nIf the side of the square CBDE is 13cm , calculate the length of CD, up to two decimal places.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram on page 52 not reproduced",
+        "Item is printed twice in the document (pages 52 and 89)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "18.38 cm. M1 √169 + 169 Or equivalent OR √2 × 13; A1 CD = 1.41 × 13 = 18.38 cm; Allow two marks for correct answer. Allow missing units."
+      },
+      "chapter": "the-baudhayana-pythagoras-theorem",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8CN4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 54,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If in a quadrilateral only one pair of opposite sides are parallel, then the quadrilateral is a __________",
+      "options": [
+        "Square",
+        "Rectangle",
+        "Trapezium",
+        "Rhombus"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Metadata prints Class 9 for this Class 8 item"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "C. Trapezium. A1 For the correct answer; Alternate answer to be accepted Trapezium",
+        "correctOption": 2
+      },
+      "chapter": "quadrilaterals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8BS3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 57,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "ABCD is a rectangle and E,F,G,H are the midpoints AB,BC,CD and DA respectively. Find the area of the Quadrilateral EFGH whose diagonals are 48cm and 32 cm",
+      "options": [
+        "400 sq cm",
+        "560 sq cm",
+        "604 sq cm",
+        "768 sq cm"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "D. 768 sq cm. A1: for correct answer",
+        "correctOption": 3
+      },
+      "chapter": "quadrilaterals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8AM7",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 59,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Amit made a model. He joined a cuboid and a prism together as shown below. The finished model has 7 faces and 10 vertices?\nDraw the side view of the model from the end.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure of the model on page 59 not reproduced",
+        "Answer is a drawing; only the marking guidance is text"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "A1 combination of triangle and a rectangle. Mark can be given if size or shape is in approximation with the diagram. Allow the join between triangle and rectangle to be missing."
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8AM7",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 59,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Amit made a model. He joined a cuboid and a prism together as shown below. The finished model has 7 faces and 10 vertices?\nDraw the net of the completed model.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure of the model on page 59 not reproduced",
+        "Answer is a drawing; only the marking guidance is text"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "M1 drawing of a net that is made up of 5 rectangles and additional shapes; A1 Any correct net; Allow triangles and end rectangles to be shown as separate shapes"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8AM7",
+      "part": "(c)",
+      "choiceGroup": null,
+      "page": 59,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Amit made a model. He joined a cuboid and a prism together as shown below. The finished model has 7 faces and 10 vertices?\nApply Euler’s relation to find the total number of edges the completed model has? Show your working.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure of the model on page 59 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "15. M1 7 + 10 - edges = 2 OR 7 + 10 - 2; A1 15; 1 mark for answer only"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8NB1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 62,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The measures of two angles of a quadrilateral are 130° and 50°. The remaining two angles are equal. Find the measure of each of the equal angles.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "90°. Allow one mark for correct answer only. Accept with or without degrees."
+      },
+      "chapter": "quadrilaterals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PW4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 67,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The number of edges of a prism is 9 and the number of vertices is three less than the number of edges. Apply Euler’s Formula to find how many the faces the prism has.",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "9"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "C. 5 — 1 mark for correct answer",
+        "correctOption": 2
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8NB2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 69,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A polyhedron has 10 edges and 6 vertices. How many faces does this polyhedron have?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "6. Allow one mark for correct answer only."
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DB3",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 72,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Study the above pictures and answer the questions.\nIdentify the net given in picture A",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figures (pictures A, B and C of nets) on pages 71–72 not reproduced (needed to answer)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Cylinder"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DB3",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 72,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Study the above pictures and answer the questions.\nIdentify the net given in picture B",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figures (pictures A, B and C of nets) on pages 71–72 not reproduced (needed to answer)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Cuboid"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DB3",
+      "part": "(c)",
+      "choiceGroup": null,
+      "page": 72,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Study the above pictures and answer the questions.\nIdentify the net given in picture C.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figures (pictures A, B and C of nets) on pages 71–72 not reproduced (needed to answer)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Square Bases Pyramid. 1 mark Allow pyramid"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8AM1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 76,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following is not a perfect square?",
+      "options": [
+        "49",
+        "121",
+        "178",
+        "225"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "The mark scheme relabels the options B–E; its answer 'C. 178' matches option C of the question"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "C. 178. A1 The number ending with digits 2,3,7 or 8 can never be a perfect square.",
+        "correctOption": 2
+      },
+      "chapter": "a-square-and-a-cube",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PN3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 78,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "What is the digit in unit position of the cube root of the cube number 3375?",
+      "options": [
+        "7",
+        "2",
+        "4",
+        "5"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "D. 5. 5 X 5 X 5= 125. Allow marks for direct answers.",
+        "correctOption": 3
+      },
+      "chapter": "a-square-and-a-cube",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8BS4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 38,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A number ends in the digit 1. What could be the possible unit digit of the square root of that number?",
+      "options": [
+        "1 or 9",
+        "3 or 6",
+        "6 or 9",
+        "7 or 9"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Item is printed twice in the document (pages 38 and 80; the second copy labels the options E–H)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "A. 1 or 9. (A) 1 × 1 = 1; 9 × 9 = 81. 1 mark allow to correct answer.",
+        "correctOption": 0
+      },
+      "chapter": "a-square-and-a-cube",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8BS5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 82,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The number of zeroes at the end of the cube root of the cube number 8,000,000 is",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "6"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "B. 2. (B) ∵ Number of zeroes at the end of the cube = 6 ∴ Number of zeroes at the end of the cube root = 6/3 = 2. 1 mark allow to correct answer.",
+        "correctOption": 1
+      },
+      "chapter": "a-square-and-a-cube",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DB5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 84,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following is a square number",
+      "options": [
+        "144",
+        "198",
+        "200",
+        "800"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "144 — 1 mark",
+        "correctOption": 0
+      },
+      "chapter": "a-square-and-a-cube",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DG3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 87,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the square root of 144.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "12. Allow one mark for correct answer only."
+      },
+      "chapter": "a-square-and-a-cube",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PW1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 91,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Find the product of the additive inverse of 3 and the multiplicative inverse of −3/2",
+      "options": [
+        "−9/2",
+        "−1/2",
+        "2",
+        "-2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF (−3 over 2 → −3/2; option fractions)",
+        "The mark scheme restates the question as 'Find the sum of…'; its answer C. 2 matches the product"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "C. 2 — 1 mark for correct answer",
+        "correctOption": 2
+      },
+      "chapter": "a-story-of-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PN1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 93,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Observe the number line. What is the value of A - B?",
+      "options": [
+        "1/6",
+        "-5/6",
+        "-1/2",
+        "-3/4"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Number line figure on page 93 not reproduced (needed to answer)",
+        "Metadata gives 2 marks; the question prints (1 mark) (Total marks 1)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "B. -5/6. A-B=-1/3-1/2=-5/6. Allow marks for direct answers.",
+        "correctOption": 1
+      },
+      "chapter": "a-story-of-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PN6",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 95,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is the product of the reciprocal of 5/6 with the reciprocal of -8/9?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "-27/20. Reciprocals are: 6/5 & -9/8; M1: 6/5 x -9/8 OR -54/40; A1= -27/20 OR – 1.35 OR equivalent"
+      },
+      "chapter": "a-story-of-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PN6",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 95,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the missing number x in this equation. Give your answer in its simplest from.\n5 - x = 3 +9\n8  8 4",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction; see page 95 (the equation is built from fractions over 8, 8 and 4)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "5/2. M1: (5-3+18)/8; A1 5/2 OR 2.5 OR equivalent"
+      },
+      "chapter": "a-story-of-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PM3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 97,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Represent the rational number -1/3 on a number line.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation)",
+        "Number line in the mark scheme (page 98) not reproduced"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "A1 for the correct representation of the given rational number (-1/3) on number line. Allow any scale."
+      },
+      "chapter": "a-story-of-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PR1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 99,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A bat is bought for Rs 200 and sold for Rs 300. What will the profit percentage be?",
+      "options": [
+        "20 %",
+        "33.3 %",
+        "50 %",
+        "100 %"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Answer is option C 50 % — Award 1 mark for correct answer only",
+        "correctOption": 2
+      },
+      "chapter": "fractions-in-disguise",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PW6",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 102,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The Indian Government purchased 2,500 handmade masks for Rs 25,000 to give employment to women workers in remote areas during the pandemic.\nOut of total 2500 masks, 500 were donated to health workers and the rest of the masks were sold for Rs 40,000. Find the profit or loss percentage.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Item is printed twice in the document (pages 101 and 126)",
+        "The mark scheme restates the part with 'at a rate of Rs 20 per mask' and awards 2 marks; the question prints (1 mark)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "60%. M1 15000 / 25000 ×100 OR equivalent; A1 60%; 2 marks answer only"
+      },
+      "chapter": "fractions-in-disguise",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PW6",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 102,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "The Indian Government purchased 2,500 handmade masks for Rs 25,000 to give employment to women workers in remote areas during the pandemic.\nIf health workers used 25% of the donated masks for COVID positive patients, how many masks were left for their usage? Find the ratio of masks used by patients to the masks used by health workers.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Item is printed twice in the document (pages 101 and 126)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "375; 1: 3. M1 75 /100 x 500; A1 375; A1 Ratio 1: 3 answer only; Allow 3:1"
+      },
+      "chapter": "fractions-in-disguise",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DG2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 103,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "8% of children in a class of 25 like getting wet in the rain. How many children do not like getting wet in the rain?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "23 students who do not like getting wet. Allow one mark for the correct answer only."
+      },
+      "chapter": "fractions-in-disguise",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DG5",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 104,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A shopkeeper earns his livelihood by selling apples. At the end of the year he saves the profit earned in the bank on compound interest.\nSuppose the shopkeeper has bought 1 kg of apples for Rs 100 and sold it for Rs120 per kg Calculate the percentage of the profit gained by the shopkeeper.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Item is printed twice in the document (pages 104 and 132)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "20%. A1 20 %; Allow mark for no percent sign"
+      },
+      "chapter": "fractions-in-disguise",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8DG5",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 105,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A shopkeeper earns his livelihood by selling apples. At the end of the year he saves the profit earned in the bank on compound interest.\nCalculate the compound interest on his savings of Rs 8,000 for one year at 16% per annum, compounded half yearly.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Item is printed twice in the document (pages 104 and 132)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Rs 1331.20. M1 8000(1+.08)² - 8000 OR equivalent using two stages; A1 Rs1331.20; Answer only 2 marks; Accept no Rs symbol"
+      },
+      "chapter": "fractions-in-disguise",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PR4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 106,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Trains A, B and C move at speeds of 15 km/h, 20 km/h and 10km/h respectively. They leave same station at the same time. If they have to reach the same place, which train will arrive first?",
+      "options": [
+        "Train A",
+        "Train B",
+        "Train C",
+        "All the trains will arrive at the same time"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "B.Train B — 1 mark for correct answer",
+        "correctOption": 1
+      },
+      "chapter": "proportional-reasoning-2",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PW5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 108,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If 15 workers can make a batch of masks in 12 days, how many workers will do the same work in 6 days?",
+      "options": [
+        "12",
+        "24",
+        "30",
+        "42"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "C. 30 — 1 mark for correct answer",
+        "correctOption": 2
+      },
+      "chapter": "proportional-reasoning-2",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8NB6",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 113,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Ahana’s birthday is approaching, so she decides to celebrate it and give Rubik cubes as return gifts to her friends.\nShe has 25 friends, and the cost of each Rubik cube is Rs 65. What is the total amount she spends?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Rs 1625. Allow one mark for correct answer only. Allow missing units"
+      },
+      "chapter": "proportional-reasoning-2",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8NB6",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 113,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Ahana’s birthday is approaching, so she decides to celebrate it and give Rubik cubes as return gifts to her friends.\nWhen she reaches the shop, she finds the shopkeeper is giving a 20% discount on all the items. Find the cost of each cube after the discount.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Rs 52. M1 80 / 100 x 65 OR equivalent; A1 Rs 52; Allow missing units"
+      },
+      "chapter": "fractions-in-disguise",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8NB6",
+      "part": "(c)",
+      "choiceGroup": null,
+      "page": 113,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Ahana’s birthday is approaching, so she decides to celebrate it and give Rubik cubes as return gifts to her friends.\nDraw the net of a cube.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Answer is a drawing; only the marking guidance is text"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "11 nets for a cube. M1 6 connected squares; A1 Correct drawing only; Full marks for correct answer"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8BS7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 128,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Green Valley Society Association built a sports club to encourage sporting activities among all residents. 20% of the members play football, 25% play hockey, 40% play cricket and the rest play indoor games. 18 members play indoor games. How many members are there in the sports club?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "120. M1 Percentage indoor games 100 - (20 + 25 + 40) OR 15% seen; M1 Total = 18 x 100 / their 15; A1 120"
+      },
+      "chapter": "fractions-in-disguise",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PM5",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 130,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Selena lent a sum of rupees 10,000 to Peter at 10% per annum interest compounded annually for 2 years, and the same amount to John at 10% per annum interest compounded half yearly for 2 years\nFind the compound interest received by Selena from Peter at the end of 2 years.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed 'Total marks 5' does not match the parts (2 + 2) or the metadata total 4",
+        "Powers flattened in the official answer: (11/10)2, (21/20)4"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "2100. M110000 - 10,000 x (11/10)2 OR equivalent; A Rs 2100; Allow missing units"
+      },
+      "chapter": "fractions-in-disguise",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PM5",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 131,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Selena lent a sum of rupees 10,000 to Peter at 10% per annum interest compounded annually for 2 years, and the same amount to John at 10% per annum interest compounded half yearly for 2 years\nFind the compound interest received by Selena from John at the end of 2 years. Give your answer correct to 2 decimal places.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed 'Total marks 5' does not match the parts (2 + 2) or the metadata total 4",
+        "Powers flattened in the official answer: (11/10)2, (21/20)4"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "2155.06. M1 10000 - 10000 x (21/20)4 OR equivalent; A Rs 2155.06; Allow 2155.0625"
+      },
+      "chapter": "fractions-in-disguise",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PN7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 115,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A bag contains 144 coloured balls. 12 are red, 18 are yellow, 28 are blue, 42 are green. Draw a pie chart to show this information.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation)",
+        "Pie chart in the mark scheme (page 116) not reproduced",
+        "Degree signs flattened in the official answer (e.g. Red-300 = 30°)",
+        "Metadata gives 2 marks; the question prints (3 marks)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Central angle: given number/total * 360; Red-300 Yellow-450 Blue-700 Green-1050, White-1100; Allow two marks for finding out the central angle of the observations. Allow one mark to draw the pie chart."
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths9PN5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 117,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The pie chart above shows the number of pupils taking other subjects in a science class. What angle represents math?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (pie chart) not reproduced (needed to answer); it does not appear in the text layer",
+        "Item reference printed as 'Maths9PN5' (the item index lists it as Maths8PN5)",
+        "Metadata gives 1 mark; the question prints (2 marks)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "36 degrees. M1 360 x (100 – 90)/100 OR equivalent; A1 36 degrees"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PM4",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 120,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The double bar graph above shows the number of trips made to London from Mumbai by two airlines A and B.\nIn which month did Airline A made the most trips and how many trips did it make?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Double bar graph on page 120 not reproduced (needed to answer)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "May; 80 trips. A1 both May and 80. No half marks"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PM4",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 120,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The double bar graph above shows the number of trips made to London from Mumbai by two airlines A and B.\nIn which month were the number of trips by both the airlines same?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Double bar graph on page 120 not reproduced (needed to answer)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "March. A1 March."
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PM4",
+      "part": "(c)",
+      "choiceGroup": null,
+      "page": 120,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The double bar graph above shows the number of trips made to London from Mumbai by two airlines A and B.\nFind the total number of trips made by Airline B from February to April",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Double bar graph on page 120 not reproduced (needed to answer)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "180. M1 70+50+60; A1 180"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PM4",
+      "part": "(d)",
+      "choiceGroup": null,
+      "page": 120,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The double bar graph above shows the number of trips made to London from Mumbai by two airlines A and B.\nCalculate the average number of trips per month trips for Airline A.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Double bar graph on page 120 not reproduced (needed to answer)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Average trips of A = 54. M1 – Average trips of A = (30+40+50+70+80)/5; A1 54"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PM2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 123,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The bar graph represents the number of students playing different sports in a school. Find the ratio of the number of students playing volleyball to the number of students playing cricket.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Bar graph on page 122 not reproduced (needed to answer)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "2 : 5. M1 Volleyball = 40 AND Cricket = 100 OR Ratio = 40 : 100; A1 = 2 : 5; 1 mark for 5 : 2"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8PN4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 125,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The histogram above shows the heights of 42 students in a class. How many students have height less than 160 cm?",
+      "options": [
+        "12",
+        "16",
+        "28",
+        "40"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (histogram) on page 124 not reproduced (needed to answer)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "C 28. ADD:16+8+4=28. Allow marks for direct answers.",
+        "correctOption": 2
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8AM5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 134,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A bag contains 5 yellow mangos and 5 green mangos. What is the probability of getting a yellow mango randomly?",
+      "options": [
+        "1/10",
+        "1/5",
+        "1/2",
+        "1"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF (option and answer fractions)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "C. 1/2. A1 probability = 5/10 = 1/2",
+        "correctOption": 2
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8AM6",
+      "part": "(a)",
+      "choiceGroup": null,
+      "page": 137,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The following data shows the percentage of people of different ages registered for a COVID-19 vaccination.\nAge in years 45-49 50-54 55-59 60-64 65-69 70-74 75-79 80-84 85-89 90-94 95-99 100-104\n% of people 80 60 75 85 50 65 75 80 70 25 20 10\nPresent the above information on a bar graph.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on pages 136–137 reproduced from the text layer (age ranges rejoined from split lines); check against the PDF",
+        "Answer bar graph on page 137 not reproduced; only the marking guidance is text"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "A1 representation of information as bars with correct scales; A1 At least 8 correct bars correct within 1 graph paper unit and at least one axis labelled."
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "Maths8AM6",
+      "part": "(b)",
+      "choiceGroup": null,
+      "page": 137,
+      "section": null,
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The following data shows the percentage of people of different ages registered for a COVID-19 vaccination.\nAge in years 45-49 50-54 55-59 60-64 65-69 70-74 75-79 80-84 85-89 90-94 95-99 100-104\n% of people 80 60 75 85 50 65 75 80 70 25 20 10\nFind the difference in the percentage of the age group registered most and list from the graph.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on pages 136–137 reproduced from the text layer (age ranges rejoined from split lines); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "75%. M1 85 – 10; A1 75 (%); Allow 2 marks for correct answer"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

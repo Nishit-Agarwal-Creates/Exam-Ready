@@ -1,0 +1,137 @@
+{
+  "pack": "cbse-sqp-2025-26-xii-physics",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#1",
+      "agree": false,
+      "reason": "The marking scheme prints the stacked fraction as 'V = C/q' (C on the numerator line, q below, in -raw, -layout and -table, the same way as λ = h/mv), but the stored answer silently inverts it to 'V = q/C', so it no longer reproduces the official scheme."
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#9",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#10",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#11",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#19",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#20I",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#21I",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#21II",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#25",
+      "agree": false,
+      "reason": "The stored answer drops a minus sign: the marking scheme prints 'M = -(8.3/0.91) X (25/2.9 + 1)', but the pack gives 'M = (8.3/0.91) x (25/2.9 + 1)' before 'M = -87.7'."
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#26",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#27I",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#27II",
+      "agree": false,
+      "reason": "The marking scheme's 'Given' line prints 'N=200turn/m', but the stored answer silently changes it to 'N=2000turn/m', so a printed number in the official answer has been altered."
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#28",
+      "agree": false,
+      "reason": "The coil area is the stacked fraction '5/π cm²' (π printed under the 5 in the question, and in the MS as '5/π cm² = 5/π x 10-4 m²' and 'x 5/π x 10-4m2'), but the pack discarded π as a 'stray glyph' and stores '5 cm²' in both the question and the answer."
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#30I",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#31I",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#32I",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#32II",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#33I",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#33II",
+      "agree": false,
+      "reason": "The marking scheme prints 'Z=√(R2 + (Xc2 − XL2))' (a square on each reactance, in both -layout and -table), but the stored answer silently rewrites it as 'Z=√(R² + (Xc-Xl)²)', which changes the official formula."
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#22",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#16",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#23",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#14",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#20II",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "pack": "cbse-itembank-2021-x-mathematics",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF (sha256 verified) with pdftotext -layout, -raw and -table plus pdfplumber for superscripts, subscripts, Symbol-font signs, fraction bars and drawn radicals, and the item mark schemes; every answer recomputed; chapter fit checked against the rationalised NCERT Class 10 chapter list.",
+  "checks": [
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PS2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AS2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SS8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AR1",
+      "agree": false,
+      "reason": "The stored official answer copies the scheme's false statement that the sum of the roots of a quadratic 'of the form ax+by+c=0 is –b/a' (p15), so the answer text is mathematically wrong/internally inconsistent."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK1",
+      "agree": false,
+      "reason": "The stored answer asserts x² – (√2)x + (1/3) = 3x²-3√2x+1 (p18), a false equality (it is only a multiple), and options C and D are printed identically, so the MCQ is defective."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SS7",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK5a",
+      "agree": false,
+      "reason": "This part only asks the student to draw two graphs; the answer graph on p25 is not reproduced and the stored official answer is just the M1/A1/A1 rubric, not a checkable answer."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK5b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK2",
+      "agree": false,
+      "reason": "The stored answer flattens the printed subscripts in the parallel-lines condition (PDF p27 a₁/a₂ = b₁/b₂ ≠ c₁/c₂ stored as 'a1/a2 = b1/b2 ≠ c1/c2')."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PS8a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PS8b",
+      "agree": false,
+      "reason": "The question fixes x > y, but the stored answer copies the scheme's 'x = 1 and y = 7 is also correct' (p29), which contradicts the stem and is internally inconsistent."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SK8",
+      "agree": false,
+      "reason": "The stored working copies the scheme's arithmetic slip 'y = 2(1– 3) = –1' (p30; 2(1–3) = –4, should be 2(1) – 3), so the official answer is internally wrong."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK6a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK6b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK6c",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10GS6",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SK7a",
+      "agree": false,
+      "reason": "Marks inconsistent and unflagged: the part prints (1 mark) but its mark scheme (p37) awards M1 + A1 + A1 for forming and solving both equations, while part (b) carries 3 marks for a single A1."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SK7b",
+      "agree": false,
+      "reason": "Marks inconsistent and unflagged: stored 3 marks (printed), but the mark scheme (p37) gives only 'A1 for the correct answer' for Rs 255, the working marks sitting under the 1-mark part (a)."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SS5a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SS5b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SS6a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SS6b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RM8a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RM8b",
+      "agree": false,
+      "reason": "The stored answer copies 'Amount = 300x + 350y = 150 × 300 + 400 × 350' (p44), which is false with x, y defined in the stem as the numbers of children and adults (the prices, not x and y, multiply 300 and 350)."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK3",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PS10",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RM5b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SS9",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AR10",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SK9",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AS6a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AS6b",
+      "agree": false,
+      "reason": "Subscript lost: the PDF (p56) prints Sₙ in the sum formula, stored as 'Sn = n/2 [...]'."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SK1",
+      "agree": false,
+      "reason": "Subscript lost: the mark scheme (p57) prints A₆ = a+5d, stored as 'A6 = a+5d'."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SK11",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10GS5a",
+      "agree": false,
+      "reason": "Subscripts lost: the scheme (p61) prints aₙ and a₃₀, stored as 'an' and 'a30'."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10GS5b",
+      "agree": false,
+      "reason": "Subscripts lost: the scheme (p61) prints Sₙ and S₃₀, stored as 'Sn' and 'S30'."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10GS5c",
+      "agree": false,
+      "reason": "Subscripts lost: the scheme (p61) prints a₄₀, stored as 'a40'."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AR9",
+      "agree": false,
+      "reason": "Subscript lost: the scheme (p62) prints A₁₀ = a + (10-1)d, stored as 'A10'."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RM9",
+      "agree": false,
+      "reason": "Subscripts lost: the scheme (p65) prints aₙ and Sₙ, stored as 'an' and 'Sn' (e.g. 'an=18', 'Sn = 306')."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RM1",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AD10",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PS7",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AD1",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10ASR11a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10ASR7a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10ASR7b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PS6",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PR2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM6a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM6b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SR6",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10ASR2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM3_5b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM3_5c",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SR2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SR8b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10GS8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AR7",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10GS1",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AS9",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SR5",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP5",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM1",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PR5a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PR5b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PR1",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM9",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM10",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10ASR5",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AD8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP4a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP4b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SR9a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SR9b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AD6b",
+      "agree": false,
+      "reason": "Subscripts lost: the scheme (p170) prints f₁, f₀, f₂ in the mode formula, stored as 'f1', 'f0', 'f2' and '(f1− f0)/(2f1− f0− f2)'."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10ASR12",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PR8c",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP2",
+      "agree": false,
+      "reason": "The stored answer copies the scheme's false statements 'Mean of first 13 observations = 42 x 13 = 546' and '13th observation = mean of first 13 + mean of last 13 – mean of 25' (p176; these are sums, not means)."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP3",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SM7a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PS4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AS4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP7a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP7b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP7c",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP7d",
+      "agree": false,
+      "reason": "The stored answer copies 'P(a jack or a face card) = 8/52' (p185), which is wrong as written (jack or face card is 12/52); the question asks for a jack or an ace."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10GS2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10NK4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SM4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10DP6b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP11",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10ASR3",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PR4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SK3",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AS5a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SK2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10GS4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SS2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PS5",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AR4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AR6a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AR6b",
+      "agree": false,
+      "reason": "The PDF (p210) prints '∠ACB = 45°' and '∠BCD = 30°' (Symbol-font angle sign, confirmed with pdfplumber), but the stored question drops the angle signs ('ACB = 45° and BCD = 30°')."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SS3",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SK5",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AR2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK7a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK7b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RK8",
+      "agree": false,
+      "reason": "Subscripts lost: the scheme (p220) prints m₁ : m₂ = AP : PB, stored as 'm1: m2'."
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RM6a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RM6b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RM6c",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SK6",
+      "agree": false,
+      "reason": "The stored answer depends on labels from an unreproduced scheme figure ('In ∆PBQ PQ/AQ = tan 60º', then '∆PBQ' again for the 30º triangle; p228-229) and never states the river width asked for (only 'x=10m' with x undefined)."
+    }
+  ]
+}

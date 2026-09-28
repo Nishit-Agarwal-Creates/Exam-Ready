@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { ClassCard } from "@/components/class-card";
+import { getSubjectCoverage } from "@/lib/data/coverage";
 import { classExamNote } from "@/lib/exam-info";
 import { getBoard, getCatalog } from "@/lib/data/taxonomy";
 import { pageMetadata } from "@/lib/site";
@@ -16,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!board) return { title: "Not found", robots: { index: false } };
   return pageMetadata({
     title: `${board.name} practice papers and previous-year questions`,
-    description: `Practise ${board.name} Classes 8, 9 and 10 with custom papers built from verified previous questions. Chapter-wise questions for Maths, Physics, Chemistry and Biology.`,
+    description: `${board.name} Classes 6 to 12: verified questions from official ${board.name === "CBSE" ? "board papers, sample papers and question banks" : "specimen papers"}, chapter-wise practice, timed tests and PDFs. Coverage shown honestly for every class.`,
     path: `/${board.slug}`,
   });
 }
@@ -28,6 +30,20 @@ export default async function BoardPage({ params }: Props) {
   const catalog = await getCatalog();
   const entry = catalog.find((b) => b.id === board.id);
   const classes = [...(entry?.classes ?? [])].reverse();
+  const coverage = await getSubjectCoverage();
+  const card = (c: (typeof classes)[number]) => {
+    const rows = coverage.filter((r) => r.classId === c.id);
+    return {
+      href: `/${board.slug}/${c.slug}`,
+      boardSlug: board.slug,
+      level: c.level,
+      name: c.name,
+      sourced: rows.reduce((t, r) => t + r.verifiedPyq + r.officialSample + r.community, 0),
+      aiPractice: rows.reduce((t, r) => t + r.aiPractice, 0),
+      awaiting: rows.reduce((t, r) => t + r.awaitingReview, 0),
+      subjects: c.subjects.map((s) => ({ slug: s.slug, name: s.name })),
+    };
+  };
 
   return (
     <div className="container-page py-8 sm:py-12">
@@ -43,7 +59,16 @@ export default async function BoardPage({ params }: Props) {
         <p className="prose-width mt-4 text-[1.08rem]">{board.description}</p>
       </header>
 
-      <div className="mt-10 grid gap-5 lg:grid-cols-3">
+      <ul className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+        {[...classes].reverse().map((c, i) => (
+          <li key={c.id} className="expand-in" style={{ ["--d" as string]: `${i * 45}ms` }}>
+            <ClassCard c={card(c)} />
+          </li>
+        ))}
+      </ul>
+
+      <h2 className="mt-12 text-[1.6rem]">Subjects by class</h2>
+      <div className="mt-5 grid gap-5 lg:grid-cols-3">
         {classes.map((c) => (
           <section key={c.id} className="sheet flex flex-col p-5 sm:p-6" aria-labelledby={`c-${c.id}`}>
             <h2 id={`c-${c.id}`} className="text-[1.6rem]">

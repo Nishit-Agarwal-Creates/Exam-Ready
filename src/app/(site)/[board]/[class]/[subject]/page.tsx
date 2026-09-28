@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? `All ${m.ctx.chapters.length} chapters of ${m.name}, with verified previous-year question coverage by year. Build a practice paper, take it online, or download a PDF.`
       : `${m.name} on ExamReady: current question coverage and practice options.`,
     path: m.base,
-    // Pages with no chapters and no questions would be thin; keep them out of search results.
-    noindex: m.ctx.chapters.length === 0 && !(cov && publishedTotal(cov) > 0),
+    // A chapter list alone is thin: only subjects with published questions are offered to search engines.
+    noindex: !(cov && publishedTotal(cov) > 0),
   });
 }
 

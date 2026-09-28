@@ -6,7 +6,7 @@ import { absoluteUrl } from "@/lib/site";
 export const dynamic = "force-dynamic";
 
 /**
- * Only pages with real content are listed: empty PYQ hubs, subjects with no chapters or
+ * Only pages with real content are listed: empty PYQ hubs, subjects with no published
  * questions, and thin chapter pages are left out (those pages are also marked noindex).
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -29,7 +29,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const pyqClasses = new Set<string>();
   for (const r of coverage) {
     const published = publishedTotal(r);
-    if (!r.chapterCount && !published) continue;
+    if (!published) continue;
     const base = `/${r.boardSlug}/${r.classSlug}/${r.subjectSlug}`;
     boards.add(r.boardSlug);
     classes.add(`${r.boardSlug}/${r.classSlug}`);

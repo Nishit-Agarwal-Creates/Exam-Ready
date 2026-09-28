@@ -1,0 +1,25 @@
+{
+  "pack": "isc-2027-xii-physics-specimen",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    { "key": "isc-2027-xii-physics-specimen#1Aiv", "agree": true, "reason": "" },
+    { "key": "isc-2027-xii-physics-specimen#1Bi", "agree": true, "reason": "" },
+    { "key": "isc-2027-xii-physics-specimen#2i", "agree": false, "reason": "The PDF prints the area as 4·5 × 10⁸ m², with 8pt raised glyphs (pdfplumber), but the question text and the official answer both store it flattened as '4·5 × 108m2', which reads as 108." },
+    { "key": "isc-2027-xii-physics-specimen#2ii", "agree": false, "reason": "Powers are flattened ('q = 8 × 10-17C' in the text, '10·8×104' in the answer, for 10⁻¹⁷ C and 10⁴), and the official result's unit 'V m⁻¹' is itself wrong for a surface charge density (it should be C m⁻²); the pack copies this without flagging it." },
+    { "key": "isc-2027-xii-physics-specimen#4ii", "agree": true, "reason": "" },
+    { "key": "isc-2027-xii-physics-specimen#8", "agree": true, "reason": "" },
+    { "key": "isc-2027-xii-physics-specimen#9ii", "agree": true, "reason": "" },
+    { "key": "isc-2027-xii-physics-specimen#10ii", "agree": false, "reason": "The stored question text gives no values (R2 = 12Ω, R3 = 24Ω, the 60 cm balance point, and which side R1 is on appear only in extractionIssues and Figure 5), so the question cannot be answered without the missing figure." },
+    { "key": "isc-2027-xii-physics-specimen#13", "agree": false, "reason": "The PDF prints the path difference as 1·2 × 10⁻⁶ m (superscript −6), but the text stores the power flattened as '1·2 × 10-6 m'." },
+    { "key": "isc-2027-xii-physics-specimen#14", "agree": false, "reason": "The official result n = 1·47 is itself arithmetically wrong: sin(47°)/sin(30°) = 1·463, which is 1·46. The pack copies it unflagged and drops the scheme's formula." },
+    { "key": "isc-2027-xii-physics-specimen#18ii", "agree": false, "reason": "The stored official answer copies the scheme's own unit error 'T = 0·02Hz' (a period should be 0·02 s), and the answer graph for part (a) is missing." },
+    { "key": "isc-2027-xii-physics-specimen#20", "agree": true, "reason": "" },
+    { "key": "isc-2027-xii-physics-specimen#1Avii", "agree": true, "reason": "" },
+    { "key": "isc-2027-xii-physics-specimen#1Av", "agree": true, "reason": "" },
+    { "key": "isc-2027-xii-physics-specimen#9i", "agree": false, "reason": "The official answer is reduced to 'This is the required expression.' and drops the scheme's final result E = K·2pr/(r²−l²)², which extracts cleanly in -raw (page 15), so the stored answer has no content." },
+    { "key": "isc-2027-xii-physics-specimen#1Bvii", "agree": true, "reason": "" },
+    { "key": "isc-2027-xii-physics-specimen#1Bv", "agree": false, "reason": "The official answer stores '2(mp)c2', but the PDF prints 2(m_p)c² (subscript p, superscript 2 per pdfplumber); the flattened c² reads as 'c2'." },
+    { "key": "isc-2027-xii-physics-specimen#1Avi", "agree": true, "reason": "" }
+  ]
+}

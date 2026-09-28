@@ -81,6 +81,39 @@
       "coverage": "ICSE 2027 and ISC 2027 syllabuses; used for the ICSE History & Civics and Geography and the ISC Physics, Chemistry, Biology and Mathematics chapter lists.",
       "access": "OPEN",
       "notes": "https://cisce.org/regulations-and-syllabuses-isc-2/ returned 404 on 2026-09-28; the ISC 2027 page was used."
+    },
+    {
+      "id": "cbse-item-banks",
+      "authority": "Central Board of Secondary Education (content created by the British Council)",
+      "board": "cbse",
+      "kind": "Competency-based item banks",
+      "url": "https://cbseacademic.nic.in/cbe/documents/Item-Bank---Maths-Class-6.pdf",
+      "coverage": "Mathematics and Science item banks for Classes 6 to 10 (September 2021), each about 50–60 items with a mark scheme. Files follow the pattern cbseacademic.nic.in/cbe/documents/Item-Bank---<Subject>-Class-<n>.pdf.",
+      "access": "OPEN",
+      "reuse": "ALLOWED",
+      "notes": "The introduction says teachers can use the questions in whatever way they wish. Items were written for the NCERT books current in 2021, so chapters are mapped to the current books and confirmed in review; items on topics no longer in the book are left out."
+    },
+    {
+      "id": "cbse-sas",
+      "authority": "Central Board of Secondary Education",
+      "board": "cbse",
+      "kind": "Curriculum Aligned Competency Based Test Items",
+      "url": "https://cbseacademic.nic.in/cbe/documents/SAS_Maths-Class-6.pdf",
+      "coverage": "Competency-based test items for Mathematics and Science, Classes 6 to 9 (files such as cbseacademic.nic.in/cbe/documents/SAS_Maths-Class-6.pdf).",
+      "access": "OPEN",
+      "reuse": "LINK_ONLY",
+      "notes": "These documents are marked \"All Rights Reserved\", so ExamReady links to them and does not reproduce their questions."
+    },
+    {
+      "id": "ncert-textbooks",
+      "authority": "National Council of Educational Research and Training",
+      "board": "cbse",
+      "kind": "Textbooks (chapter lists for Classes 6 to 9)",
+      "url": "https://ncert.nic.in/textbook.php",
+      "coverage": "Chapter lists for CBSE Classes 6–8 Mathematics (Ganita Prakash) and Science (Curiosity), and Class 9 Mathematics (Ganita Manjari Part I) and Science (Exploration). CBSE publishes no separate middle-stage curriculum; the NCERT books are the syllabus.",
+      "access": "OPEN",
+      "reuse": "LINK_ONLY",
+      "notes": "Used only for chapter names and order. Ganita Manjari Part II (Class 9 Mathematics chapters 9 onwards) was not yet published on ncert.nic.in when checked."
     }
   ],
   "notImported": [
@@ -99,6 +132,18 @@
     {
       "what": "Figures, maps, diagrams and tables from source papers",
       "why": "Not reproduced. Questions that need them are flagged and link to the source page."
+    },
+    {
+      "what": "CBSE Class 11 question papers",
+      "why": "CBSE does not publish Class 11 papers (schools set them), and no official Class 11 sample paper or item bank was found."
+    },
+    {
+      "what": "ICSE Classes 6–8 and ISC Class 11",
+      "why": "CISCE publishes no official question papers for these classes. Only school papers could fill this, and those are never presented as board papers."
+    },
+    {
+      "what": "CBSE Curriculum Aligned Competency Based Test Items",
+      "why": "Marked \"All Rights Reserved\"; linked, not reproduced."
     }
   ]
 }

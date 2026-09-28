@@ -20,6 +20,10 @@
     "db:seed:remote": "node scripts/build-seed.mjs && wrangler d1 execute DB --remote --file=drizzle/seed/seed.sql",
     "db:sources:build": "node scripts/build-sources.mjs",
     "db:sources:remote": "node scripts/build-sources.mjs && wrangler d1 execute DB --remote --file=drizzle/seed/sources.sql",
+    "review:check": "node scripts/review/check-review.mjs",
+    "review:sample": "node scripts/review/audit-sample.mjs",
+    "review:consolidate": "node scripts/review/consolidate.mjs",
+    "db:review:remote": "node scripts/review/consolidate.mjs && wrangler d1 execute DB --remote --file=drizzle/seed/review.sql",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"

@@ -7,6 +7,7 @@
 import { sql } from "drizzle-orm";
 import { cache } from "react";
 import { getDb } from "@/db";
+import { AGGREGATE_TTL, mapCodec, sharedCache } from "@/lib/data/shared-cache";
 
 export type SubjectTrends = {
   papers: number;
@@ -19,7 +20,7 @@ export type SubjectTrends = {
 };
 
 /** Trends over real verified PYQs only. Returns empty collections when there is no verified data. */
-export const getSubjectTrends = cache(async (subjectId: number): Promise<SubjectTrends> => {
+const computeSubjectTrends = async (subjectId: number): Promise<SubjectTrends> => {
   const db = await getDb();
   // One row per (verified question, board paper appearance).
   const rows = await db.all<{ qid: number; gid: number; chapter_id: number; chapter: string; slug: string; type: string; marks: number; paper_id: number; year: number; text: string }>(sql`
@@ -79,7 +80,8 @@ export const getSubjectTrends = cache(async (subjectId: number): Promise<Subject
       .map(([groupId, g]) => ({ groupId, text: g.text, years: [...g.years].sort((a, b) => b - a) }))
       .sort((a, b) => b.years.length - a.years.length),
   };
-});
+};
+export const getSubjectTrends = cache((subjectId: number) => sharedCache(`trends:subject:${subjectId}`, AGGREGATE_TTL, () => computeSubjectTrends(subjectId)));
 
 export type BoardCoverageRow = {
   boardSlug: string;
@@ -98,7 +100,7 @@ export type BoardCoverageRow = {
 };
 
 /** Availability for every subject, for the homepage and subject lists. */
-export const getAllCoverage = cache(async (): Promise<BoardCoverageRow[]> => {
+const computeAllCoverage = async (): Promise<BoardCoverageRow[]> => {
   const db = await getDb();
   const subjects = await db.all<{ board_slug: string; board_name: string; class_slug: string; class_name: string; level: number; subject_id: number; subject_slug: string; subject_name: string; ai: number }>(sql`
     SELECT b.slug AS board_slug, b.name AS board_name, c.slug AS class_slug, c.name AS class_name, c.level, s.id AS subject_id, s.slug AS subject_slug, s.name AS subject_name,
@@ -140,10 +142,11 @@ export const getAllCoverage = cache(async (): Promise<BoardCoverageRow[]> => {
       pendingYears: ys.filter((y) => Number(y.pending) > 0).map((y) => Number(y.year)).sort((a, b) => b - a),
     };
   });
-});
+};
+export const getAllCoverage = cache(() => sharedCache("trends:all-coverage", AGGREGATE_TTL, () => computeAllCoverage()));
 
 /** Public list of source documents with their extraction and verification counts. */
-export const getPublicSources = cache(async () => {
+const computePublicSources = async () => {
   const db = await getDb();
   const rows = await db.all<{
     id: number; title: string; year: number | null; paper_type: string; authority: string; authority_name: string | null; source_domain: string | null;
@@ -158,4 +161,5 @@ export const getPublicSources = cache(async () => {
     WHERE p.is_demo = 0 AND p.status <> 'REJECTED'
     ORDER BY p.year DESC, p.title`);
   return rows.map((r) => ({ ...r, extracted: Number(r.extracted), verified: Number(r.verified) }));
-});
+};
+export const getPublicSources = cache(() => sharedCache("trends:public-sources", AGGREGATE_TTL, () => computePublicSources()));

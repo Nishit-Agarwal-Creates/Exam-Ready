@@ -15,7 +15,7 @@ export const NAV = [
 export function SiteHeader() {
   return (
     <header className="no-print sticky top-0 z-40 border-b border-rule/70 bg-desk/80 backdrop-blur-md supports-[backdrop-filter]:bg-desk/70">
-      <div className="container-page flex h-16 items-center justify-between gap-4">
+      <div className="container-page flex h-16 items-center justify-between gap-2 sm:gap-4">
         <Link href="/" className="rounded-md" aria-label="ExamReady home">
           <Logo />
         </Link>

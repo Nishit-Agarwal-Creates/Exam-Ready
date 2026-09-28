@@ -1,0 +1,11 @@
+{ "pack": "cbse-itembank-2021-vi-science", "auditedOn": "2026-09-28", "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme. Chapter fit checked against the current NCERT Curiosity Grade 6 chapters (fecu103, fecu106, fecu109).",
+  "checks": [
+    { "key": "cbse-itembank-2021-vi-science#Science6SK5a", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vi-science#Science6SK4c", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vi-science#Science6SA2", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vi-science#Science6DP2b", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vi-science#Science6DP2c", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vi-science#Science6DP4c", "agree": false, "reason": "Text, marks and answer (Starch) match p94-95, but the answer depends on knowing that starch is insoluble in water, which the current Curiosity Grade 6 book never teaches (ch.6 covers solubility of sugar, salt, chalk, sand, sawdust, glucose and wheat flour; ch.3 only tests for starch), so the chapter fit is uncertain." },
+    { "key": "cbse-itembank-2021-vi-science#Science6DP2a", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vi-science#Science6SPA4a", "agree": true, "reason": "" }
+  ] }

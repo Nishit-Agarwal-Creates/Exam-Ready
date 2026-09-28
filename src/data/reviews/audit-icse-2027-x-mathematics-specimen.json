@@ -1,0 +1,182 @@
+{
+  "pack": "icse-2027-x-mathematics-specimen",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    {
+      "key": "icse-2027-x-mathematics-specimen#1i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1v",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1vi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1vii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1viii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1ix",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1x",
+      "agree": true,
+      "reason": "Content correct; side note: pack cognitiveLevel \"Application\" but paper prints [Application & Evaluation]."
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1xi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1xii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1xiv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1xv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#2i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#2ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#2iii",
+      "agree": false,
+      "reason": "officialAnswer.text embeds an editorial note \"(reconstructed from context; the descriptive phrase itself is unrecoverable from the text layer)\" that is not in the marking scheme (which prints \"Slope of line perpendicular to PQ = 5\"), so the stored official answer does not match the scheme verbatim."
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#3i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#3ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#4i",
+      "agree": false,
+      "reason": "officialAnswer (b) rewrites the scheme working as \"[P×n(n+1)/2] × r/100 × 1/12\" right after defining n = 2 yrs, which evaluates wrongly (gives r = 800%); the marking scheme prints 1000×24×25/2 × r/100 × 1/12 = 2000."
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#4ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#4iii",
+      "agree": true,
+      "reason": "Function names collapse in the text layer; first letters (c,t,s,c) plus the scheme derivation fix cos/tan/sin/cot uniquely."
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#5i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#6i",
+      "agree": true,
+      "reason": "Content correct; side note: pack cognitiveLevel \"Application, Analysis & Evaluation\" but paper prints [Analysis & Application]."
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#6iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#7i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#7iii",
+      "agree": false,
+      "reason": "officialAnswer.text appends a false editorial note that x = b²/a was \"reconstructed algebraically ... not directly legible\"; the marking scheme prints x = b²/a legibly, and the note is not part of the official answer."
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#8i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#8iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#9i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#9ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#10i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#10ii",
+      "agree": true,
+      "reason": "Angle letters collapse to AAA in the text layer; ∠APB confirmed by the scheme using tan 30° for ∠OPA."
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#10iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#7ii",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

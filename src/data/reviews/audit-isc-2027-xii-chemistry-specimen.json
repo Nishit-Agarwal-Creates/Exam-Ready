@@ -1,0 +1,242 @@
+{
+  "pack": "isc-2027-xii-chemistry-specimen",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Ai",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Aiv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Bi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Bii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Biii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Biv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Bv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Bvi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Bvii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Ci",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Cii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Ciii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#3",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#4i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#4ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#5",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#6i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#6ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#7i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#7ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#8",
+      "agree": false,
+      "reason": "Question text keeps the concentrations flattened as \"1×10-3M\" and \"1×10-4M\" (reads as ten minus three) although the PDF prints superscript exponents 10^-3 / 10^-4 and the entry claims they were rebuilt; its own official answer uses 10^-3, so the question text is wrong notation."
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#9ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#10",
+      "agree": false,
+      "reason": "Official answer reproduces the marking scheme's arithmetic error unflagged in the pack: 0·3010 × 19·147 × 295 × 305 / 10 = 51 854.8 J mol-1 (51.85 kJ mol-1), not the printed 151854.8 J K-1 mol-1 / 151.854 kJ mol-1 (wrong by ~100 kJ and wrong unit), so students would be shown a wrong numerical answer."
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#11",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#12",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#13",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#14i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#14iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#15i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#15iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#17i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#17ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#18i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#18ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#18iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#19i",
+      "agree": false,
+      "reason": "Official answer names [D] \"2-hydroxybutan-al\" (as printed) while the printed structure CH3–CH(OH)–CH2–CHO is 3-hydroxybutanal (the aldol); the pack's extractionIssue endorses the wrong name as \"indicating 2-hydroxybutanal\" instead of flagging the key's error."
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#19ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#20",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#21i",
+      "agree": false,
+      "reason": "Question text keeps the osmotic pressure flattened as \"3·05 × 10-3atm\" (reads as ten minus three) although the PDF prints 3·05 × 10^-3 atm and the entry claims the exponent was rebuilt; the answer uses 10^-3, so the question text is wrong notation."
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#21ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#15ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#9i",
+      "agree": false,
+      "reason": "Official answer does not reproduce the scheme's example reactions: it gives only conditions and product names (\"alkali, 273–278K → p-hydroxyazobenzene\", \"HBF4 … → Fluorobenzene\") without the reactants benzenediazonium chloride/phenol or the diazonium tetrafluoroborate step, so the stored answer is not a usable match to the marking scheme."
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#16i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Aii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#1Aiii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#16ii",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

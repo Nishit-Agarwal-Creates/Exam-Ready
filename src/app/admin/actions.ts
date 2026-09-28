@@ -1,6 +1,7 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { clearSharedCache } from "@/lib/data/shared-cache";
 import { redirect } from "next/navigation";
 import { z } from "zod";
 import { getDb, schema } from "@/db";
@@ -28,6 +29,12 @@ import {
   savePaper,
 } from "@/lib/data/admin";
 import { eq } from "drizzle-orm";
+
+/** Revalidate pages and drop cached site-wide aggregates so an editor's change shows everywhere at once. */
+async function refresh(path: string, type?: "layout" | "page") {
+  await clearSharedCache();
+  revalidatePath(path, type);
+}
 
 const ACTOR = "admin";
 const str = (fd: FormData, k: string) => String(fd.get(k) ?? "");
@@ -90,7 +97,7 @@ export async function saveQuestionAction(_prev: QuestionFormState, fd: FormData)
   }
   const res = await saveQuestion(parsed.data, ACTOR);
   if (!res.ok) return { errors: res.errors };
-  revalidatePath("/admin/questions");
+  await refresh("/admin/questions");
   redirect(`/admin/questions/${res.id}?saved=1`);
 }
 
@@ -124,7 +131,7 @@ export async function setStatusAction(fd: FormData) {
       updatedAt: new Date().toISOString(),
     })
     .where(eq(schema.questions.id, id));
-  revalidatePath("/admin/questions");
+  await refresh("/admin/questions");
   redirect(withMsg(back, "saved", `Question ${id} marked ${status.toLowerCase()}.`));
 }
 
@@ -179,7 +186,7 @@ export async function savePaperAction(fd: FormData) {
   if (!parsed.success) redirect(withMsg(back, "error", parsed.error.issues[0]?.message ?? "Check the paper details."));
   const res = await savePaper(parsed.data);
   if (!res.ok) redirect(withMsg(back, "error", res.error));
-  revalidatePath("/admin/papers");
+  await refresh("/admin/papers");
   redirect(withMsg("/admin/papers", "saved", `Saved “${parsed.data.title}”.`));
 }
 
@@ -290,7 +297,7 @@ export async function purgeDemoAction(fd: FormData) {
   await requireAdmin();
   if (str(fd, "confirm").trim() !== "DELETE DEMO DATA") redirect(withMsg("/admin", "error", "Type DELETE DEMO DATA to confirm."));
   const n = await purgeDemoData();
-  revalidatePath("/", "layout");
+  await refresh("/", "layout");
   redirect(withMsg("/admin", "saved", `All demo questions and demo papers were deleted, along with ${n} generated papers that used them.`));
 }
 
@@ -311,14 +318,14 @@ export async function reviewAction(fd: FormData) {
   if (!ids.length) redirect(withMsg(back, "error", "Select at least one question."));
   if (intent === "reject") {
     await rejectQuestions(ids, str(fd, "reason").trim() || "Rejected during review.");
-    revalidatePath("/", "layout");
+    await refresh("/", "layout");
     redirect(withMsg(back, "saved", `${ids.length} question${ids.length === 1 ? "" : "s"} rejected.`));
   }
   if (fd.get("checked") !== "on") {
     redirect(withMsg(back, "error", "Tick the box to confirm you compared these questions with the official document."));
   }
   const res = await verifyQuestions(ids, ACTOR, { publish: intent === "verify-publish", confirmMapping: fd.get("confirmMapping") === "on" });
-  revalidatePath("/", "layout");
+  await refresh("/", "layout");
   const failed = res.failed.length ? ` ${res.failed.length} couldn't be verified: ${res.failed[0].reason}` : "";
   redirect(withMsg(back, res.verified ? "saved" : "error", `${res.verified} verified${res.published ? ` and ${res.published} published` : ""}.${failed}`));
 }

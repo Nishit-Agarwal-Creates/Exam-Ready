@@ -1,0 +1,187 @@
+{
+  "pack": "icse-2027-x-physics-specimen",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    {
+      "key": "icse-2027-x-physics-specimen#1iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#1ix",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#1x",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#1xiv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#2ic",
+      "agree": false,
+      "reason": "PDF prints the units with superscript powers (erg g⁻¹ K⁻¹ / cal g⁻¹ K⁻¹, 8pt raised glyphs per char positions); pack text and answer store them flattened as \"g-1 K-1\", which reads as a minus-one, not a power."
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#2ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3va",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3via",
+      "agree": false,
+      "reason": "Nuclear notation flattened: PDF has superscript 6 / subscript 3 on Li (⁶Li₃) and the scheme answer is tritium with stacked 3 over 1 (³₁H), but the pack stores \"6Li3\", \"4He2\" and the answer as \"H13\", which is wrong/misleading notation."
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#4ic",
+      "agree": false,
+      "reason": "Question depends on the missing ray diagram: the text only says \"as shown\" and never states that the boundaries are parallel faces of a slab (visible only in the figure), which the μ1 = μ3 answer relies on."
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#4iiia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#4iiib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#4iiic",
+      "agree": false,
+      "reason": "Official answer altered: the scheme gives \"m = −2, v:u = 2:1 or −2 = v/(−u)\" but the pack stores \"(v/u = −2)\", dropping the minus sign on u in the denominator."
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#4iiid",
+      "agree": false,
+      "reason": "Official working altered: the scheme has \"m = v/u ∴ −2 = v/(−u) ∴ 2u = v\" but the pack writes \"m = v/u = −2\" then \"2u + u = 90\", dropping the −u step so v = −2u contradicts the next line."
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#5iii",
+      "agree": false,
+      "reason": "Given data units flattened: the PDF prints 0.4 J g⁻¹ °C⁻¹ and 4.2 J g⁻¹ °C⁻¹ (superscript −1 and superscript o as degree sign), but the pack stores \"Jg-1 oC-1\"."
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#6iiia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#6iiib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#6iiic",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#6iiid",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#7ia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#7ib",
+      "agree": false,
+      "reason": "Not self-contained: the stored text omits the 7(i) stem (120 cm bar, points P–V 20 cm apart, load at P) and relies on part (a) and on the lever diagram (page 15 figure, pack says hasFigure false), so the MA cannot be calculated from the question as stored."
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#7ic",
+      "agree": false,
+      "reason": "Not self-contained: the stored text \"To which class of lever does this arrangement belong?\" has no stem or part (a) arrangement, so it is unanswerable on its own."
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#7iiia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#7iiib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#8iiia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#8iiib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#8iiic",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#8iiid",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#9ia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#9ib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#9ic",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#2id",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#1i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3vib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#1viii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3iv",
+      "agree": false,
+      "reason": "Essential figure missing: the diagram shows Source P is an AC source and Source Q is a DC cell, which the text never states, so the True/False and justification cannot be answered from the text."
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#1vii",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

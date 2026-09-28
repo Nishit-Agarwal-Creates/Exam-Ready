@@ -1,0 +1,52 @@
+{
+  "pack": "cbse-2025-x-mathematics-standard-30-1-1",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#11",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#12",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#25",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#26b",
+      "agree": false,
+      "reason": "The stored official answer's first step reads '∠OAP = ∠OAS', but the marking scheme's dropped symbol-font glyphs (U+F044 Δ, U+F040 ≅) show it is 'ΔOAP ≅ ΔOAS' (congruent triangles, which is what gives ∠1 = ∠2 at the centre), so the answer was rebuilt incorrectly."
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#31",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#34a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#34b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#36",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#7",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

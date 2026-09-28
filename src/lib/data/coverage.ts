@@ -13,14 +13,17 @@
 import { sql } from "drizzle-orm";
 import { cache } from "react";
 import { getDb } from "@/db";
+import { AGGREGATE_TTL, mapCodec, sharedCache } from "@/lib/data/shared-cache";
 
 export type CoverageCounts = {
   verifiedPyq: number;
   officialSample: number;
   community: number;
   aiPractice: number;
-  /** Official material (PYQs and samples) extracted but not yet verified. */
+  /** Official material (PYQs and samples) extracted and still waiting for review. */
   awaitingReview: number;
+  /** Official material the review pipeline held back (figure missing, notation lost, mapping…). */
+  held: number;
   /** The board-exam (PYQ) part of awaitingReview. */
   awaitingPyq: number;
   years: number[];
@@ -45,8 +48,9 @@ const REAL_PYQ = sql.raw(
   `q.is_demo = 0 AND q.source_type = 'VERIFIED_PYQ' AND q.verification_status = 'VERIFIED' AND q.is_published = 1 AND EXISTS (SELECT 1 FROM question_sources s JOIN papers p ON p.id = s.paper_id WHERE s.question_id = q.id AND p.paper_type = 'BOARD_EXAM' AND p.is_demo = 0 AND p.year IS NOT NULL)`,
 );
 const GROUP = sql.raw("COALESCE(q.canonical_question_id, q.id)");
+const NOT_HELD = sql.raw("(q.review_state IS NULL OR q.review_state NOT LIKE 'HOLD%')");
 
-type CountRow = { subject_id: number; chapter_id: number; verified_pyq: number; official: number; community: number; ai: number; pending: number; pending_pyq: number };
+type CountRow = { subject_id: number; chapter_id: number; verified_pyq: number; official: number; community: number; ai: number; pending: number; pending_pyq: number; held: number };
 type YearRow = { subject_id: number; chapter_id: number; year: number; kind: "v" | "p" };
 
 const loadCounts = cache(async () => {
@@ -57,8 +61,9 @@ const loadCounts = cache(async () => {
       COUNT(DISTINCT CASE WHEN q.source_type = 'OFFICIAL_SAMPLE' AND q.verification_status = 'VERIFIED' AND q.is_published = 1 THEN ${GROUP} END) AS official,
       SUM(CASE WHEN q.source_type = 'USER_CONTRIBUTED' AND q.verification_status = 'VERIFIED' AND q.is_published = 1 THEN 1 ELSE 0 END) AS community,
       SUM(CASE WHEN q.source_type = 'AI_SUPPLEMENTARY' AND q.is_published = 1 AND q.verification_status <> 'REJECTED' THEN 1 ELSE 0 END) AS ai,
-      COUNT(DISTINCT CASE WHEN q.is_demo = 0 AND q.verification_status = 'UNVERIFIED' AND q.source_type IN ('VERIFIED_PYQ', 'OFFICIAL_SAMPLE') THEN ${GROUP} END) AS pending,
-      COUNT(DISTINCT CASE WHEN q.is_demo = 0 AND q.verification_status = 'UNVERIFIED' AND q.source_type = 'VERIFIED_PYQ' THEN ${GROUP} END) AS pending_pyq
+      COUNT(DISTINCT CASE WHEN q.is_demo = 0 AND q.verification_status = 'UNVERIFIED' AND ${NOT_HELD} AND q.source_type IN ('VERIFIED_PYQ', 'OFFICIAL_SAMPLE') THEN ${GROUP} END) AS pending,
+      COUNT(DISTINCT CASE WHEN q.is_demo = 0 AND q.verification_status = 'UNVERIFIED' AND ${NOT_HELD} AND q.source_type = 'VERIFIED_PYQ' THEN ${GROUP} END) AS pending_pyq,
+      COUNT(DISTINCT CASE WHEN q.is_demo = 0 AND q.verification_status = 'UNVERIFIED' AND q.review_state LIKE 'HOLD%' THEN ${GROUP} END) AS held
     FROM questions q
     GROUP BY q.subject_id, q.chapter_id`);
   const years = await db.all<YearRow>(sql`
@@ -73,7 +78,7 @@ const loadCounts = cache(async () => {
   return { counts, years, papers };
 });
 
-const empty = (): CoverageCounts => ({ verifiedPyq: 0, officialSample: 0, community: 0, aiPractice: 0, awaitingReview: 0, awaitingPyq: 0, years: [], pendingYears: [] });
+const empty = (): CoverageCounts => ({ verifiedPyq: 0, officialSample: 0, community: 0, aiPractice: 0, awaitingReview: 0, awaitingPyq: 0, held: 0, years: [], pendingYears: [] });
 
 function add(into: CoverageCounts, r: CountRow) {
   into.verifiedPyq += Number(r.verified_pyq ?? 0);
@@ -82,11 +87,14 @@ function add(into: CoverageCounts, r: CountRow) {
   into.aiPractice += Number(r.ai ?? 0);
   into.awaitingReview += Number(r.pending ?? 0);
   into.awaitingPyq += Number(r.pending_pyq ?? 0);
+  into.held += Number(r.held ?? 0);
 }
+
+export { coverageStatus } from "@/lib/coverage-status";
 const sortYears = (s: Set<number>) => [...s].sort((a, b) => b - a);
 
 /** One row per subject in the catalogue, in board/class/subject order, including empty subjects. */
-export const getSubjectCoverage = cache(async (): Promise<SubjectCoverage[]> => {
+const computeSubjectCoverage = async (): Promise<SubjectCoverage[]> => {
   const db = await getDb();
   const [subjects, { counts, years, papers }] = await Promise.all([
     db.all<{ board_slug: string; board_name: string; class_id: number; class_slug: string; class_name: string; level: number; subject_id: number; subject_slug: string; subject_name: string; chapters: number }>(sql`
@@ -134,10 +142,11 @@ export const getSubjectCoverage = cache(async (): Promise<SubjectCoverage[]> => 
       sourcePapers: paperMap.get(s.subject_id) ?? { boardExam: 0, sample: 0, other: 0 },
     };
   });
-});
+};
+export const getSubjectCoverage = cache(() => sharedCache("coverage:subjects", AGGREGATE_TTL, () => computeSubjectCoverage()));
 
 /** Chapter rows for one subject, including chapters with nothing yet. */
-export async function getChapterCoverage(subjectId: number): Promise<ChapterCoverage[]> {
+async function computeChapterCoverage(subjectId: number): Promise<ChapterCoverage[]> {
   const db = await getDb();
   const [chapters, { counts, years }] = await Promise.all([
     db.all<{ id: number; slug: string; name: string; sort_order: number }>(sql`SELECT id, slug, name, sort_order FROM chapters WHERE subject_id = ${subjectId} ORDER BY sort_order, name`),
@@ -154,6 +163,10 @@ export async function getChapterCoverage(subjectId: number): Promise<ChapterCove
   });
 }
 
+export function getChapterCoverage(subjectId: number): Promise<ChapterCoverage[]> {
+  return sharedCache(`coverage:chapters:${subjectId}`, AGGREGATE_TTL, () => computeChapterCoverage(subjectId));
+}
+
 /** Whole-bank totals, for honest headline numbers. */
 export async function getBankTotals() {
   const rows = await getSubjectCoverage();
@@ -165,6 +178,7 @@ export async function getBankTotals() {
     aiPractice: rows.reduce((t, r) => t + r.aiPractice, 0),
     awaitingReview: rows.reduce((t, r) => t + r.awaitingReview, 0),
     awaitingPyq: rows.reduce((t, r) => t + r.awaitingPyq, 0),
+    held: rows.reduce((t, r) => t + r.held, 0),
     sources: Number(sources),
     subjectsWithVerified: rows.filter((r) => r.verifiedPyq + r.officialSample > 0).length,
   };
@@ -176,7 +190,7 @@ export function publishedTotal(r: CoverageCounts) {
 }
 
 /** Published totals per chapter for every subject (one query), for the sitemap. */
-export const getPublishedByChapter = cache(async () => {
+const computePublishedByChapter = async () => {
   const db = await getDb();
   const [chapters, { counts }] = await Promise.all([db.all<{ id: number; subject_id: number; slug: string }>(sql`SELECT id, subject_id, slug FROM chapters`), loadCounts()]);
   const totals = new Map<number, number>();
@@ -188,29 +202,34 @@ export const getPublishedByChapter = cache(async () => {
     out.set(ch.subject_id, list);
   }
   return out;
-});
+};
+export const getPublishedByChapter = cache(() => sharedCache("coverage:by-chapter", AGGREGATE_TTL, () => computePublishedByChapter(), mapCodec<number, { slug: string; published: number }[]>()));
 
 /**
  * Verified and pending previous-year questions for one subject, by exam year, in one grouped query.
  * Same shape as engine/coverage.ts coverageOf(), without loading the whole question pool.
  */
-export async function getSubjectYearCoverage(subjectId: number) {
+async function computeSubjectYearCoverage(subjectId: number) {
   const db = await getDb();
   const rows = await db.all<{ year: number; verified: number; pending: number }>(sql`
     SELECT p.year,
       COUNT(DISTINCT CASE WHEN q.verification_status = 'VERIFIED' AND q.is_published = 1 THEN ${GROUP} END) AS verified,
-      COUNT(DISTINCT CASE WHEN q.verification_status = 'UNVERIFIED' THEN ${GROUP} END) AS pending
+      COUNT(DISTINCT CASE WHEN q.verification_status = 'UNVERIFIED' AND ${NOT_HELD} THEN ${GROUP} END) AS pending
     FROM questions q JOIN question_sources s ON s.question_id = q.id JOIN papers p ON p.id = s.paper_id
     WHERE q.subject_id = ${subjectId} AND q.is_demo = 0 AND q.source_type = 'VERIFIED_PYQ'
       AND p.paper_type = 'BOARD_EXAM' AND p.is_demo = 0 AND p.year IS NOT NULL
     GROUP BY p.year ORDER BY p.year DESC`);
   const [tot] = await db.all<{ verified: number; pending: number }>(sql`
     SELECT COUNT(DISTINCT CASE WHEN ${REAL_PYQ} THEN ${GROUP} END) AS verified,
-      COUNT(DISTINCT CASE WHEN q.is_demo = 0 AND q.source_type = 'VERIFIED_PYQ' AND q.verification_status = 'UNVERIFIED' THEN ${GROUP} END) AS pending
+      COUNT(DISTINCT CASE WHEN q.is_demo = 0 AND q.source_type = 'VERIFIED_PYQ' AND q.verification_status = 'UNVERIFIED' AND ${NOT_HELD} THEN ${GROUP} END) AS pending
     FROM questions q WHERE q.subject_id = ${subjectId}`);
   return {
     verifiedPyqs: Number(tot?.verified ?? 0),
     pendingPyqs: Number(tot?.pending ?? 0),
     byYear: rows.map((r) => ({ year: Number(r.year), verified: Number(r.verified), pending: Number(r.pending) })),
   };
+}
+
+export function getSubjectYearCoverage(subjectId: number) {
+  return sharedCache(`coverage:years:${subjectId}`, AGGREGATE_TTL, () => computeSubjectYearCoverage(subjectId));
 }

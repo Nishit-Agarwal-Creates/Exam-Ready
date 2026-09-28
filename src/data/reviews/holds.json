@@ -1,0 +1,55 @@
+{
+  "note": "Questions an editor must look at even though the reviewer found them faithful to the source: the official document itself appears to contain an error. Consolidation holds these; only an editor can publish them.",
+  "holds": [
+    {
+      "key": "cbse-sqp-2025-26-xii-chemistry#33A",
+      "state": "HOLD_ANSWER",
+      "reason": "The official marking scheme's activation energy (86.567 kJ/mol) looks like an arithmetic slip; recomputing the two-point Arrhenius equation gives about 43.3 kJ/mol. An editor must check before students see it."
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#10",
+      "state": "HOLD_ANSWER",
+      "reason": "The official answer key prints Ea = 151854.8 J K⁻¹ mol⁻¹, but its own working gives about 51854.8 J mol⁻¹ (extra digit and a wrong unit). An editor must check."
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#3",
+      "state": "HOLD_ANSWER",
+      "reason": "The official answer lists \"ethanol\" where \"ethanal\" (acetaldehyde) is meant; this looks like a typo in the source. An editor must check."
+    },
+    {
+      "key": "isc-2027-xii-chemistry-specimen#17ii",
+      "state": "HOLD_ANSWER",
+      "reason": "The official answer's given data (126.9) contradicts the value it then uses (187.8). An editor must check."
+    },
+    {
+      "key": "isc-2027-xii-biology-specimen#14",
+      "state": "HOLD_LOW_CONFIDENCE",
+      "reason": "The official question says codon CAA codes for glycine; the standard genetic code gives glutamine. An editor must decide how to present this."
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#32I",
+      "state": "HOLD_ANSWER",
+      "reason": "The official marking scheme calls an equi-convex lens \"convexo-concave\" in part (B). An editor must check before students see it."
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#33I",
+      "state": "HOLD_ANSWER",
+      "reason": "The official scheme prints \"Iron ore\" where the stored answer says \"Iron core\", and part (C) mentions a voltmeter conversion that was not asked. An editor must check."
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#28",
+      "state": "HOLD_ANSWER",
+      "reason": "The official marking scheme's final derivation line is garbled in the source document itself. An editor must check."
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#7iib",
+      "state": "HOLD_ANSWER",
+      "reason": "The official working uses t = 1.5 s, but the question says the echo is heard 1.5 s later than the first (t = 4.5 s). Both give 252 m, yet the printed working contradicts the wording. An editor must check."
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#33II",
+      "state": "HOLD_ANSWER",
+      "reason": "The official working gives P = 50 W, but its own formula gives 25 W. An editor must check before students see it."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { and, asc, desc, eq, inArray, like, or, sql, type SQL } from "drizzle-orm";
 import { getDb, schema } from "@/db";
-import type { AnswerSource, Confidence, Difficulty, MappingStatus, QuestionType, SourceType, VerificationStatus } from "@/db/schema";
+import type { AnswerSource, Confidence, Difficulty, MappingStatus, PaperType, QuestionType, ReviewState, SourceType, VerificationStatus } from "@/db/schema";
 import type { PoolQuestion } from "@/lib/engine/generator";
 import type { AnswerKey } from "@/lib/engine/grading";
 import type { SourceLink } from "@/lib/provenance";
@@ -95,6 +95,10 @@ export type QuestionView = {
   hasFigure: boolean;
   extractionConfidence: Confidence | null;
   extractionIssues: string[];
+  reviewState: ReviewState | null;
+  reviewReason: string;
+  /** "admin" (an editor) or "ExamReady automated review". */
+  verifiedBy: string | null;
   /** Only present when answers are requested (never during an exam). */
   answer?: { text: string; explanation: string; key: AnswerKey };
 };
@@ -183,6 +187,9 @@ const viewColumns = {
   hasFigure: questions.hasFigure,
   extractionConfidence: questions.extractionConfidence,
   extractionIssues: questions.extractionIssues,
+  reviewState: questions.reviewState,
+  reviewReason: questions.reviewReason,
+  verifiedBy: questions.verifiedBy,
   chapterId: chapters.id,
   chapterName: chapters.name,
   chapterSlug: chapters.slug,
@@ -211,6 +218,9 @@ type ViewRow = {
   hasFigure: boolean;
   extractionConfidence: Confidence | null;
   extractionIssues: string;
+  reviewState: ReviewState | null;
+  reviewReason: string;
+  verifiedBy: string | null;
   chapterId: number;
   chapterName: string;
   chapterSlug: string;
@@ -241,6 +251,9 @@ function toView(r: ViewRow, sources: SourceLink[], groupSources: SourceLink[], w
     hasFigure: r.hasFigure,
     extractionConfidence: r.extractionConfidence,
     extractionIssues: safeJson<string[]>(r.extractionIssues, []),
+    reviewState: r.reviewState,
+    reviewReason: r.reviewReason,
+    verifiedBy: r.verifiedBy,
     ...(withAnswers ? { answer: { text: r.answerText, explanation: r.explanation, key: safeJson<AnswerKey>(r.answerKey, null) } } : {}),
   };
 }
@@ -294,6 +307,11 @@ export type QuestionFilters = {
   /** Question number in a linked source paper, e.g. "34". */
   questionNumber?: string;
   q?: string;
+  /** Type of a linked source paper, e.g. SPECIMEN or QUESTION_BANK. */
+  paperType?: PaperType;
+  hasAnswer?: boolean;
+  hasFigure?: boolean;
+  reviewState?: ReviewState;
   demo?: "only" | "exclude";
   /** Only questions that pass the verified-PYQ rule. */
   realPyqOnly?: boolean;
@@ -350,6 +368,11 @@ function filterConditions(f: QuestionFilters): SQL[] {
     const num = f.questionNumber ? sql` AND qs.question_number = ${f.questionNumber}` : sql``;
     conds.push(sql`EXISTS (SELECT 1 FROM question_sources qs JOIN papers p ON p.id = qs.paper_id WHERE qs.question_id = ${QID}${code}${num})`);
   }
+  if (f.paperType) conds.push(sql`EXISTS (SELECT 1 FROM question_sources qs JOIN papers p ON p.id = qs.paper_id WHERE qs.question_id = ${QID} AND p.paper_type = ${f.paperType})`);
+  if (f.hasAnswer === true) conds.push(sql`(${questions.answerText} <> '' OR ${questions.answerKey} IS NOT NULL)`);
+  if (f.hasAnswer === false) conds.push(sql`(${questions.answerText} = '' AND ${questions.answerKey} IS NULL)`);
+  if (f.hasFigure !== undefined) conds.push(eq(questions.hasFigure, f.hasFigure));
+  if (f.reviewState) conds.push(eq(questions.reviewState, f.reviewState));
   if (f.issues === "figure") conds.push(eq(questions.hasFigure, true));
   if (f.issues === "low") conds.push(eq(questions.extractionConfidence, "LOW"));
   if (f.issues === "any") conds.push(sql`(${questions.hasFigure} = 1 OR ${questions.extractionConfidence} IN ('LOW','MEDIUM'))`);

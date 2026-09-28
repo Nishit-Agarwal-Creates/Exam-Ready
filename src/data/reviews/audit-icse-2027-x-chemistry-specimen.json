@@ -1,0 +1,122 @@
+{
+  "pack": "icse-2027-x-chemistry-specimen",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    {
+      "key": "icse-2027-x-chemistry-specimen#1iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#1v",
+      "agree": false,
+      "reason": "The reviewer moved this to study-of-compounds-hydrogen-chloride, but the question tests the reactivity series (which metal gives H2 with dilute acid, and which metal oxide H2 can reduce), which is Metallurgy content; the correction is doubtful and the original metallurgy mapping is at least as good."
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#1x",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#1xi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#1xii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#1xv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#2iiia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#2iiic",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#2iiie",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#2iv",
+      "agree": false,
+      "reason": "The paper prints the ion charges as 2Br1– and Cl1– in all three pdftotext modes, but the pack stores them as 2Br-1 and Cl-1, which changes the printed notation (and its own extractionIssues says Br1–/Cl1–)."
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#3i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#3iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#4ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#5i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#5iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#6ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#8ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#1iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#2iiid",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#2iic",
+      "agree": false,
+      "reason": "The stored text \"Zinc oxide is treated with caustic alkali.\" drops the shared instruction \"Write balanced chemical equations for the following:\", so on its own it does not say what the student has to do."
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#2iie",
+      "agree": false,
+      "reason": "The stored text \"Laboratory preparation of nitric acid using sodium nitrate.\" drops the shared instruction \"Write balanced chemical equations for the following:\", so it does not stand alone; it is also on page 8 of the PDF, not page 9 as stored."
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#6ic",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2027-x-chemistry-specimen#1vii",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

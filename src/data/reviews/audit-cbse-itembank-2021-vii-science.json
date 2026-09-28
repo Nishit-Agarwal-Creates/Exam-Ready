@@ -1,0 +1,15 @@
+{
+  "pack": "cbse-itembank-2021-vii-science",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    { "key": "cbse-itembank-2021-vii-science#Science7EVR3b", "agree": false, "reason": "The official answer does not hang together: the scheme on p98 labels the second part 'Rubber Tube' when the question asks about the rubber sheet, and gives 'Full credit (1M)' for a 2-mark part. The item also relies on the missing Fig. 2 glass-tube model, while the current Ch 9 model (Activity 9.2) uses a Y-shaped hollow tube." },
+    { "key": "cbse-itembank-2021-vii-science#Science7EVR3d", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-science#Science7ARP3b", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-science#Science7BS1b", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-science#Science7SPA3a", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-science#Science7DS5d", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-science#Science7SZ5a", "agree": true, "reason": "" },
+    { "key": "cbse-itembank-2021-vii-science#Science7SPA3b", "agree": false, "reason": "One of the 2 marks is for naming the salt 'sodium chloride'. Current Curiosity 7 Ch 2 teaches only Acid + Base -> Salt + Water + Heat and never mentions hydrochloric acid, sodium hydroxide or sodium chloride, so the chapter fit is UNCERTAIN, not OK." }
+  ]
+}
