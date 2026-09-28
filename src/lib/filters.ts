@@ -5,6 +5,8 @@ export type SearchParams = Record<string, string | string[] | undefined>;
 
 export const one = (v: string | string[] | undefined) => (Array.isArray(v) ? v[0] : v) ?? "";
 
+export { examYear } from "@/lib/exam-year";
+
 function pick<T extends readonly string[]>(list: T, v: string): T[number] | undefined {
   return (list as readonly string[]).includes(v) ? (v as T[number]) : undefined;
 }

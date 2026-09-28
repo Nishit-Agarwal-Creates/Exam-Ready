@@ -161,6 +161,8 @@ out.push(
 );
 
 mkdirSync(dirname(outFile), { recursive: true });
+// Cached site-wide counts (src/lib/data/shared-cache.ts) must not outlive this change.
+out.push("DELETE FROM cache_entries;");
 writeFileSync(outFile, out.join("\n") + "\n", "utf8");
 console.log(`[sources] ${packs.length} source packs, ${all.length} questions, ${dupes} duplicate links → ${outFile}`);
 for (const p of problems) console.log(`[sources] ${p}`);

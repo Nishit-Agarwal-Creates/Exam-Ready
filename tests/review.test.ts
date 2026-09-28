@@ -62,3 +62,9 @@ test("official documents are named for what they are", () => {
   assert.equal(officialKind(q("SAMPLE") as never), "Official sample");
   assert.equal(officialKind({ sourceType: "VERIFIED_PYQ", isDemo: false, sources: [] } as never), null);
 });
+
+test("only real exam years become PYQ filters (and cache keys)", async () => {
+  const { examYear } = await import("../src/lib/exam-year.ts");
+  assert.equal(examYear("2025"), 2025);
+  for (const v of ["", "abc", "12345", "2025.5", "1800", "-2025"]) assert.equal(examYear(v), undefined, v);
+});

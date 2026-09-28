@@ -1,5 +1,6 @@
 import { and, asc, desc, eq, inArray, like, or, sql, type SQL } from "drizzle-orm";
 import { getDb, schema } from "@/db";
+import { AGGREGATE_TTL, sharedCache } from "@/lib/data/shared-cache";
 import type { AnswerSource, Confidence, Difficulty, MappingStatus, PaperType, QuestionType, ReviewState, SourceType, VerificationStatus } from "@/db/schema";
 import type { PoolQuestion } from "@/lib/engine/generator";
 import type { AnswerKey } from "@/lib/engine/grading";
@@ -25,8 +26,13 @@ export const realPyqSql = sql<number>`(CASE WHEN ${questions.sourceType} = 'VERI
 /** SQL: most recent verified board-exam year linked to the question. */
 const latestYearSql = sql<number | null>`(SELECT MAX(p.year) FROM question_sources qs JOIN papers p ON p.id = qs.paper_id WHERE qs.question_id = ${QID} AND p.paper_type = 'BOARD_EXAM' AND p.is_demo = 0)`;
 
-/** SQL: distinct verified exam years across the question's duplicate group. */
-const groupYearsSql = sql<number>`(SELECT COUNT(DISTINCT p.year) FROM questions q2 JOIN question_sources qs ON qs.question_id = q2.id JOIN papers p ON p.id = qs.paper_id WHERE COALESCE(q2.canonical_question_id, q2.id) = COALESCE(${QCANON}, ${QID}) AND q2.verification_status = 'VERIFIED' AND q2.is_demo = 0 AND p.paper_type = 'BOARD_EXAM' AND p.is_demo = 0 AND p.year IS NOT NULL)`;
+/**
+ * SQL: distinct verified exam years across the question's duplicate group.
+ * "q2 is in the group rooted at K" is written as (q2.canonical = K) OR (q2.id = K AND q2 is a root), which equals
+ * COALESCE(q2.canonical_question_id, q2.id) = K but lets SQLite use the primary key and questions_canonical
+ * instead of scanning every question for every row.
+ */
+const groupYearsSql = sql<number>`(SELECT COUNT(DISTINCT p.year) FROM questions q2 JOIN question_sources qs ON qs.question_id = q2.id JOIN papers p ON p.id = qs.paper_id WHERE (q2.canonical_question_id = COALESCE(${QCANON}, ${QID}) OR (q2.id = COALESCE(${QCANON}, ${QID}) AND q2.canonical_question_id IS NULL)) AND q2.verification_status = 'VERIFIED' AND q2.is_demo = 0 AND p.paper_type = 'BOARD_EXAM' AND p.is_demo = 0 AND p.year IS NOT NULL)`;
 
 export async function getPool(subjectId: number, chapterIds: number[], includeDemo: boolean): Promise<PoolQuestion[]> {
   const db = await getDb();
@@ -358,9 +364,11 @@ function filterConditions(f: QuestionFilters): SQL[] {
       sql`(${QCANON} IS NULL OR NOT EXISTS (SELECT 1 FROM questions c WHERE c.id = ${QCANON} AND c.is_published = 1 AND c.verification_status = 'VERIFIED'))`,
     );
   // "Appeared in year X": the question itself or any question in its duplicate group was in a paper of that year.
+  // Written as one uncorrelated subquery (evaluated once per request) rather than a per-row EXISTS: the per-row
+  // form matched on an unindexable COALESCE and read over a million rows for a single page.
   if (f.year)
     conds.push(
-      sql`EXISTS (SELECT 1 FROM questions q2 JOIN question_sources qs ON qs.question_id = q2.id JOIN papers p ON p.id = qs.paper_id WHERE COALESCE(q2.canonical_question_id, q2.id) = COALESCE(${QCANON}, ${QID}) AND p.year = ${f.year} AND p.is_demo = 0)`,
+      sql`COALESCE(${QCANON}, ${QID}) IN (SELECT COALESCE(q2.canonical_question_id, q2.id) FROM papers p JOIN question_sources qs ON qs.paper_id = p.id JOIN questions q2 ON q2.id = qs.question_id WHERE p.year = ${f.year} AND p.is_demo = 0)`,
     );
   if (f.paperId) conds.push(sql`EXISTS (SELECT 1 FROM question_sources qs WHERE qs.question_id = ${QID} AND qs.paper_id = ${f.paperId})`);
   if (f.paperCode || f.questionNumber) {
@@ -387,30 +395,27 @@ function filterConditions(f: QuestionFilters): SQL[] {
 /**
  * `opts.light` is for editor lists that never show group-wide provenance or frequency (e.g. the review
  * queue): it saves a query and the group mapping per request.
+ *
+ * `opts.cachedIds` is for heavy public lists (the PYQ hubs): the full ordered list of matching ids is computed
+ * once per filter combination and kept in the shared cache (10 minutes, cleared by every editor action). Each
+ * page view then reads one cache row plus the page's own questions, instead of evaluating the verified-PYQ rule
+ * and the latest exam year for every question in the subject. Totals, order and filters are identical.
  */
-export async function searchQuestions(f: QuestionFilters, withAnswers: boolean, opts: { light?: boolean } = {}) {
+export async function searchQuestions(f: QuestionFilters, withAnswers: boolean, opts: { light?: boolean; cachedIds?: boolean } = {}) {
   const db = await getDb();
   const conds = filterConditions(f);
   const where = conds.length ? and(...conds) : undefined;
   const pageSize = Math.min(Math.max(f.pageSize ?? 20, 1), 100);
   const page = Math.max(f.page ?? 1, 1);
+  if (opts.cachedIds) return searchCachedIds(f, where, page, pageSize, withAnswers, opts.light);
   const [{ n }] = await db.select({ n: sql<number>`count(*)` }).from(questions).where(where);
-  const paperOrder = f.paperId
-    ? sql`(SELECT CAST(qs.question_number AS INTEGER) FROM question_sources qs WHERE qs.question_id = ${QID} AND qs.paper_id = ${f.paperId})`
-    : null;
-  const order =
-    f.sort === "paper" && paperOrder
-      ? [asc(paperOrder), asc(questions.id)]
-      : f.sort === "recent"
-        ? [desc(latestYearSql), asc(questions.id)]
-        : [asc(chapters.sortOrder), asc(questions.marks), asc(questions.id)];
   const rows = await db
     .select(viewColumns)
     .from(questions)
     .innerJoin(chapters, eq(questions.chapterId, chapters.id))
     .leftJoin(topics, eq(questions.topicId, topics.id))
     .where(where)
-    .orderBy(...order)
+    .orderBy(...listOrder(f))
     .limit(pageSize)
     .offset((page - 1) * pageSize);
   return {
@@ -419,6 +424,52 @@ export async function searchQuestions(f: QuestionFilters, withAnswers: boolean, 
     pageSize,
     pages: Math.max(1, Math.ceil(Number(n) / pageSize)),
     items: await hydrate(rows, withAnswers, opts.light),
+  };
+}
+
+function listOrder(f: QuestionFilters) {
+  const paperOrder = f.paperId
+    ? sql`(SELECT CAST(qs.question_number AS INTEGER) FROM question_sources qs WHERE qs.question_id = ${QID} AND qs.paper_id = ${f.paperId})`
+    : null;
+  return f.sort === "paper" && paperOrder
+    ? [asc(paperOrder), asc(questions.id)]
+    : f.sort === "recent"
+      ? [desc(latestYearSql), asc(questions.id)]
+      : [asc(chapters.sortOrder), asc(questions.marks), asc(questions.id)];
+}
+
+async function searchCachedIds(f: QuestionFilters, where: SQL | undefined, page: number, pageSize: number, withAnswers: boolean, light?: boolean) {
+  const db = await getDb();
+  // Every filter is part of the key; only the page window is not.
+  const { page: _p, pageSize: _s, ...filters } = f;
+  const key = `list:${JSON.stringify(Object.fromEntries(Object.entries(filters).filter(([, v]) => v !== undefined).sort(([a], [b]) => a.localeCompare(b))))}`;
+  const ids = await sharedCache(key, AGGREGATE_TTL, async () =>
+    (
+      await db
+        .select({ id: questions.id })
+        .from(questions)
+        .innerJoin(chapters, eq(questions.chapterId, chapters.id))
+        .where(where)
+        .orderBy(...listOrder(f))
+    ).map((r) => r.id),
+  );
+  const pageIds = ids.slice((page - 1) * pageSize, page * pageSize);
+  const found = pageIds.length
+    ? await db
+        .select(viewColumns)
+        .from(questions)
+        .innerJoin(chapters, eq(questions.chapterId, chapters.id))
+        .leftJoin(topics, eq(questions.topicId, topics.id))
+        .where(inArray(questions.id, pageIds))
+    : [];
+  const byId = new Map(found.map((r) => [r.id, r]));
+  const rows = pageIds.map((id) => byId.get(id)).filter((r): r is (typeof found)[number] => Boolean(r));
+  return {
+    total: ids.length,
+    page,
+    pageSize,
+    pages: Math.max(1, Math.ceil(ids.length / pageSize)),
+    items: await hydrate(rows, withAnswers, light),
   };
 }
 

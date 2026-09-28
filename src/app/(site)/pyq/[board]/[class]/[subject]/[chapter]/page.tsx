@@ -6,7 +6,7 @@ import { PyqListing } from "@/components/pyq-listing";
 import { getChapterCoverage } from "@/lib/data/coverage";
 import { searchQuestions } from "@/lib/data/questions";
 import { getSubject } from "@/lib/data/taxonomy";
-import { one, type SearchParams } from "@/lib/filters";
+import { examYear, one, type SearchParams } from "@/lib/filters";
 import { pageMetadata } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
@@ -42,13 +42,14 @@ export default async function PyqChapter({ params, searchParams }: Props) {
   const ctx = await load(p);
   if (!ctx) notFound();
   const { board, cls, subject, chapter } = ctx;
-  const year = Number(one(sp.year)) || undefined;
+  const year = examYear(one(sp.year));
   const page = Math.max(1, Math.floor(Number(one(sp.page))) || 1);
   const [cov, result] = await Promise.all([
     getChapterCoverage(subject.id).then((rows) => rows.find((c) => c.chapterId === chapter.id)),
     searchQuestions(
       { subjectId: subject.id, chapterId: chapter.id, realPyqOnly: true, groupOnce: true, publicOnly: true, demo: "exclude", year, sort: "recent", page, pageSize: 10 },
       true,
+      { cachedIds: true },
     ),
   ]);
   const subjectPath = `/pyq/${board.slug}/${cls.slug}/${subject.slug}`;

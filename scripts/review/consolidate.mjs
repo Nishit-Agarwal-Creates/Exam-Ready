@@ -202,6 +202,8 @@ function main() {
     "UPDATE questions SET frequency_count = (SELECT COUNT(DISTINCT p.id) FROM question_sources qs JOIN papers p ON p.id = qs.paper_id WHERE qs.question_id = questions.id AND p.paper_type = 'BOARD_EXAM' AND p.is_demo = 0) WHERE is_demo = 0;",
   );
   mkdirSync(dirname(outSql), { recursive: true });
+  // Cached site-wide counts (src/lib/data/shared-cache.ts) must not outlive this change.
+  sql.push("DELETE FROM cache_entries;");
   writeFileSync(outSql, sql.join("\n") + "\n", "utf8");
   summary.reasons = Object.fromEntries(Object.entries(summary.reasons).sort((a, b) => b[1] - a[1]));
   writeFileSync(outSummary, JSON.stringify(summary, null, 2) + "\n", "utf8");

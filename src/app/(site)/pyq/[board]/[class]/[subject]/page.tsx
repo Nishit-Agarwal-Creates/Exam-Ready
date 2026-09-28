@@ -6,7 +6,7 @@ import { PyqListing } from "@/components/pyq-listing";
 import { getChapterCoverage, getSubjectCoverage } from "@/lib/data/coverage";
 import { searchQuestions } from "@/lib/data/questions";
 import { getSubject } from "@/lib/data/taxonomy";
-import { one, type SearchParams } from "@/lib/filters";
+import { examYear, one, type SearchParams } from "@/lib/filters";
 import { pageMetadata } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
@@ -37,12 +37,12 @@ export default async function PyqSubject({ params, searchParams }: Props) {
   if (!ctx) notFound();
   const { board, cls, subject } = ctx;
   const name = `${board.name} ${cls.name} ${subject.name}`;
-  const year = Number(one(sp.year)) || undefined;
+  const year = examYear(one(sp.year));
   const page = Math.max(1, Math.floor(Number(one(sp.page))) || 1);
   const [cov, chapters, result] = await Promise.all([
     getSubjectCoverage().then((rows) => rows.find((r) => r.subjectId === subject.id)),
     getChapterCoverage(subject.id),
-    searchQuestions({ subjectId: subject.id, realPyqOnly: true, groupOnce: true, publicOnly: true, demo: "exclude", year, sort: "recent", page, pageSize: 10 }, true),
+    searchQuestions({ subjectId: subject.id, realPyqOnly: true, groupOnce: true, publicOnly: true, demo: "exclude", year, sort: "recent", page, pageSize: 10 }, true, { cachedIds: true }),
   ]);
   const basePath = `/pyq/${board.slug}/${cls.slug}/${subject.slug}`;
   return (
