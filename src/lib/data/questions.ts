@@ -243,9 +243,13 @@ function toView(r: ViewRow, sources: SourceLink[], groupSources: SourceLink[], w
   };
 }
 
-async function hydrate(rows: ViewRow[], withAnswers: boolean): Promise<QuestionView[]> {
+/** `light` skips the duplicate-group lookup; `groupSources` then falls back to the question's own sources. */
+async function hydrate(rows: ViewRow[], withAnswers: boolean, light = false): Promise<QuestionView[]> {
   const ids = rows.map((r) => r.id);
-  const [sources, groups] = await Promise.all([getSourcesFor(ids), getGroupSources(rows.map((r) => r.canonicalId ?? r.id))]);
+  const [sources, groups] = await Promise.all([
+    getSourcesFor(ids),
+    light ? new Map<number, SourceLink[]>() : getGroupSources(rows.map((r) => r.canonicalId ?? r.id)),
+  ]);
   return rows.map((r) => toView(r, sources.get(r.id) ?? [], groups.get(r.canonicalId ?? r.id) ?? [], withAnswers));
 }
 
@@ -328,7 +332,11 @@ function filterConditions(f: QuestionFilters): SQL[] {
   return conds;
 }
 
-export async function searchQuestions(f: QuestionFilters, withAnswers: boolean) {
+/**
+ * `opts.light` is for editor lists that never show group-wide provenance or frequency (e.g. the review
+ * queue): it saves a query and the group mapping per request.
+ */
+export async function searchQuestions(f: QuestionFilters, withAnswers: boolean, opts: { light?: boolean } = {}) {
   const db = await getDb();
   const conds = filterConditions(f);
   const where = conds.length ? and(...conds) : undefined;
@@ -353,7 +361,7 @@ export async function searchQuestions(f: QuestionFilters, withAnswers: boolean) 
     page,
     pageSize,
     pages: Math.max(1, Math.ceil(Number(n) / pageSize)),
-    items: await hydrate(rows, withAnswers),
+    items: await hydrate(rows, withAnswers, opts.light),
   };
 }
 

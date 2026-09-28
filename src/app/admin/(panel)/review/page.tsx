@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Flash } from "@/components/admin/flash";
 import { SelectAll } from "@/components/admin/select-all";
-import { AnswerKeyText, TYPE_NAMES } from "@/components/question-block";
+import { Pagination } from "@/components/pagination";
+import { TYPE_NAMES } from "@/components/question-block";
 import { listSourcesWithProgress } from "@/lib/data/admin";
 import { searchQuestions } from "@/lib/data/questions";
 import { AUTHORITY_LABELS, PAPER_TYPE_LABELS } from "@/lib/provenance";
@@ -10,6 +11,8 @@ import { reviewAction } from "../../actions";
 export const metadata = { title: "Review queue" };
 
 const LETTERS = "abcdef";
+/** Kept small so one render stays well inside the Worker CPU limit. */
+const PAGE_SIZE = 15;
 
 export default async function ReviewPage({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {
   const sp = await searchParams;
@@ -96,8 +99,13 @@ export default async function ReviewPage({ searchParams }: { searchParams: Promi
   }
 
   const p = current.paper;
-  const pending = await searchQuestions({ paperId: p.id, status: "UNVERIFIED", pageSize: 100 }, true);
-  const back = `/admin/review?paper=${p.id}`;
+  const filters = { paperId: p.id, status: "UNVERIFIED" as const, pageSize: PAGE_SIZE };
+  const requested = Math.max(1, Math.floor(Number(sp.page)) || 1);
+  let pending = await searchQuestions({ ...filters, page: requested }, false, { light: true });
+  // Verifying or rejecting shrinks the queue, so the page we return to may no longer exist.
+  if (pending.items.length === 0 && pending.total > 0) pending = await searchQuestions({ ...filters, page: pending.pages }, false, { light: true });
+  const pageHref = (n: number) => `/admin/review?paper=${p.id}${n > 1 ? `&page=${n}` : ""}`;
+  const back = pageHref(pending.page);
 
   return (
     <div>
@@ -119,6 +127,12 @@ export default async function ReviewPage({ searchParams }: { searchParams: Promi
               <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
                 <p className="font-bold">
                   <span className="num">{pending.total}</span> awaiting review
+                  {pending.pages > 1 && (
+                    <span className="font-normal text-pencil">
+                      {" "}
+                      · page {pending.page} of {pending.pages}; selection applies to this page
+                    </span>
+                  )}
                 </p>
                 <SelectAll form="review-form" />
               </div>
@@ -183,18 +197,13 @@ export default async function ReviewPage({ searchParams }: { searchParams: Promi
                               ))}
                             </ul>
                           )}
-                          <details className="mt-2">
-                            <summary className="cursor-pointer text-[0.9rem] font-bold text-ink">Answer on record</summary>
-                            <div className="mt-2">
-                              <AnswerKeyText q={q} />
-                            </div>
-                          </details>
                         </div>
                       </div>
                     </li>
                   );
                 })}
               </ol>
+              <Pagination page={pending.page} pages={pending.pages} href={pageHref} />
             </>
           )}
         </div>
