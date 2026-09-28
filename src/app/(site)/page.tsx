@@ -6,6 +6,7 @@ import { StudentIllustration } from "@/components/home/student-illustration";
 import { JsonLd } from "@/components/json-ld";
 import { CountUp } from "@/components/motion/count-up";
 import type { PaperType, SourceAuthority } from "@/db/schema";
+import { getBankTotals } from "@/lib/data/coverage";
 import { getCatalog } from "@/lib/data/taxonomy";
 import { getAllCoverage, getPublicSources } from "@/lib/data/trends";
 import { SITE_DESCRIPTION, SITE_NAME, TAGLINE, absoluteUrl, pageMetadata } from "@/lib/site";
@@ -45,7 +46,7 @@ const FAQ = [
 ];
 
 export default async function HomePage() {
-  const [catalog, coverage, sources] = await Promise.all([getCatalog(), getAllCoverage(), getPublicSources()]);
+  const [catalog, coverage, sources, bank] = await Promise.all([getCatalog(), getAllCoverage(), getPublicSources(), getBankTotals()]);
   const latest = sources[0];
   const heroSource: HeroSource = latest
     ? {
@@ -82,11 +83,6 @@ export default async function HomePage() {
   }));
 
   const withData = coverage.filter((r) => r.verified > 0 || r.pending > 0);
-  const totals = {
-    verified: coverage.reduce((s, r) => s + r.verified, 0),
-    pending: coverage.reduce((s, r) => s + r.pending, 0),
-    sources: sources.length,
-  };
   const years = [2026, 2025, 2024, 2023, 2022];
 
   return (
@@ -203,27 +199,28 @@ export default async function HomePage() {
               <h2 id="avail-title" className="text-[2rem] sm:text-[2.5rem]">
                 What&apos;s in the bank right now
               </h2>
-              <p className="mt-3 text-soft">Live counts from the database. Duplicates across sets count once. AI practice is never included.</p>
-              <dl className="mt-8 grid grid-cols-3 gap-4">
-                <div>
-                  <dt className="text-[0.85rem] text-white/65">Verified PYQs</dt>
-                  <dd className="font-serif text-[2.4rem] font-semibold">
-                    <CountUp value={totals.verified} />
-                  </dd>
-                </div>
-                <div>
-                  <dt className="text-[0.85rem] text-white/65">Awaiting review</dt>
-                  <dd className="font-serif text-[2.4rem] font-semibold">
-                    <CountUp value={totals.pending} />
-                  </dd>
-                </div>
-                <div>
-                  <dt className="text-[0.85rem] text-white/65">Official sources</dt>
-                  <dd className="font-serif text-[2.4rem] font-semibold">
-                    <CountUp value={totals.sources} />
-                  </dd>
-                </div>
+              <p className="mt-3 text-soft">Live counts from the database. The same question in several sets counts once, and each category is counted separately.</p>
+              <dl className="mt-8 grid grid-cols-2 gap-x-4 gap-y-5">
+                {[
+                  ["Verified PYQs", bank.verifiedPyq, "text-[#8ff0c4]"],
+                  ["Awaiting editor review", bank.awaitingReview, "text-[#ffd98a]"],
+                  ["Official sample questions", bank.officialSample, "text-[#9fe9ff]"],
+                  ["AI practice questions", bank.aiPractice, "text-[#cdb8ff]"],
+                ].map(([label, n, cls]) => (
+                  <div key={label as string}>
+                    <dt className="text-[0.85rem] text-white/65">{label}</dt>
+                    <dd className={`font-serif text-[2.2rem] font-semibold ${cls}`}>
+                      <CountUp value={n as number} />
+                    </dd>
+                  </div>
+                ))}
               </dl>
+              <p className="mt-5 text-[0.95rem] text-soft">
+                From <strong className="text-white">{bank.sources}</strong> official source documents.{" "}
+                <Link href="/coverage" className="font-bold text-[#9fe9ff] underline underline-offset-4">
+                  See coverage by subject and chapter
+                </Link>
+              </p>
             </div>
             <div data-reveal className="glass-card overflow-x-auto p-2">
               {withData.length === 0 ? (
@@ -247,7 +244,7 @@ export default async function HomePage() {
                     {withData.map((r) => (
                       <tr key={r.subjectId} className="border-t border-white/10">
                         <th scope="row" className="px-3 py-3 font-bold">
-                          <Link href={`/${r.boardSlug}/${r.classSlug}/${r.subjectSlug}/pyq`} className="hover:underline">
+                          <Link href={`/pyq/${r.boardSlug}/${r.classSlug}/${r.subjectSlug}`} className="hover:underline">
                             {r.boardName} {r.className} {r.subjectName}
                           </Link>
                         </th>
@@ -314,7 +311,7 @@ export default async function HomePage() {
               ["Official answers", "Where the board publishes a marking scheme, you see its value points after you submit."],
               ["Printable PDFs", "An exam-style paper with marks in the margin, with or without the answer key."],
               ["Source records", "Every official source has a public page: where it came from and what's been verified."],
-              ["Search everything", "Find questions by text, board, class, subject, chapter, year and source."],
+              ["Smart search", "Type “Class 10 CBSE electricity” or “2026 Science QP 31/2/1” and get the matching questions with their sources."],
             ].map(([t, d], i) => (
               <li key={t} data-reveal className="tilt-card rounded-2xl border border-rule bg-desk/40 p-5" style={{ ["--d" as string]: `${i * 60}ms` }}>
                 <h3 className="font-sans text-[1.05rem] font-bold">{t}</h3>
@@ -343,7 +340,7 @@ export default async function HomePage() {
               ["Frequency", "Distinct verified exam papers a chapter or question appeared in."],
               ["Repeated", "Same question (after duplicate matching) in 2+ different exam years."],
               ["Recency", "Most recent verified year first: 2026, then 2025, then earlier."],
-              ["Excluded", "AI practice, demo questions and anything awaiting review."],
+              ["Excluded", "AI practice, official samples and anything awaiting review."],
             ].map(([k, v]) => (
               <li key={k} className="grid grid-cols-[6.5rem_1fr] gap-3 border-t border-rule pt-3 first:border-0 first:pt-0">
                 <span className="font-bold">{k}</span>
@@ -351,47 +348,6 @@ export default async function HomePage() {
               </li>
             ))}
           </ul>
-        </div>
-      </section>
-
-      {/* 9. Supported boards and classes */}
-      <section aria-labelledby="boards-title" className="border-y border-rule bg-sheet">
-        <div className="container-page py-16">
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-            <h2 id="boards-title" data-reveal className="text-[2rem] sm:text-[2.5rem]">
-              Boards and classes
-            </h2>
-            <Link href="/subjects" className="link font-bold">
-              All subjects and their coverage
-            </Link>
-          </div>
-          <div className="mt-8 grid gap-4 md:grid-cols-2">
-            {pickerBoards.map((b) => (
-              <div key={b.slug} data-reveal className="rounded-2xl border border-rule p-5">
-                <div className="flex items-baseline justify-between gap-3">
-                  <h3 className="text-[1.5rem]">
-                    <Link href={`/${b.slug}`} className="hover:underline">
-                      {b.name}
-                    </Link>
-                  </h3>
-                  <span className="text-sm text-pencil">Classes 6–12</span>
-                </div>
-                <ul className="mt-4 flex flex-wrap gap-2">
-                  {b.classes.map((c) => (
-                    <li key={c.slug}>
-                      <Link
-                        href={`/${b.slug}/${c.slug}`}
-                        className={`inline-flex min-h-10 items-center gap-2 rounded-full border px-3 text-[0.92rem] font-bold hover:border-ink ${c.verified ? "border-verified/40 bg-verified-soft/50" : c.pending ? "border-pending/30 bg-pending-soft" : "border-rule"}`}
-                      >
-                        {c.name.replace(" (ISC)", "")}
-                        {c.verified ? <span className="size-2 rounded-full bg-verified" aria-label="verified PYQs available" /> : null}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 

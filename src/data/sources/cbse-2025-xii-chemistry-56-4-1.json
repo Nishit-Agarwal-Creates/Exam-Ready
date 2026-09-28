@@ -1,0 +1,962 @@
+{
+  "source": {
+    "key": "cbse-2025-xii-chemistry-56-4-1",
+    "title": "CBSE Senior Secondary School Examination 2025 (XIIth), Chemistry (043), Q.P. Code 56/4/1",
+    "board": "cbse",
+    "class": 12,
+    "subject": "chemistry",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Central Board of Secondary Education",
+    "paperType": "BOARD_EXAM",
+    "examYear": 2025,
+    "session": null,
+    "paperName": "Chemistry (043)",
+    "paperCode": "56/4/1",
+    "setCode": "SET-1",
+    "seriesCode": "W4YXZ",
+    "language": "English (from a bilingual Hindi/English paper)",
+    "sourceUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2025/XII/CHEMISTRY.zip",
+    "sourceFile": "CHEMISTRY/56-4-1_Chemistry.pdf",
+    "answerSourceUrl": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2025/XII/Chemistry.zip",
+    "answerSourceFile": "Chemistry/043 Chemistry -English Medium/XII_043_Chemistry_MS_56_4_1.pdf",
+    "fileType": "pdf",
+    "pageCount": 23,
+    "sha256": "1909365e8893ff3dbb39b7f2040540b051d213a064f68a14a9f0c869f85a0172",
+    "maxMarks": 70,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (xpdf 4.06), -enc UTF-8, -table/-layout/raw modes, page-by-page",
+    "ocrUsed": false,
+    "notes": "Paper prints: Series W4YXZ, 'SET~1' (text layer; stored as SET-1), Q.P. Code 56/4/1, 23 printed pages, 33 questions, Maximum Marks 70, Time allowed 3 hours. Session is not printed on the paper; the marking scheme identifies it as the Senior School Certificate Examination 2024-25 (board exam year 2025). Each page carries bilingual Hindi+English content followed by a pure-English repeat page; question/page numbers reference the pure-English page. Section A (1-16) is MCQ/Assertion-Reason (1 mark); Section B (17-21) very short answer (2 marks); Section C (22-28) short answer (3 marks); Section D (29-30) case-based, with an internal choice in one sub-part of each (4 marks); Section E (31-33) long answer/numerical, each with a full internal-choice alternative (5 marks). Of the 20 PDFs in the question-paper archive, Q.P. codes 56/1/1, 56/1/2, 56/1/3, 56/2/1, 56/2/2 and 56/2/3 are scanned images with no extractable text layer (pdftotext returns only form-feed characters) and were skipped; 56/4/1 is the first code in the archive's listed order with a usable text layer, and its English-medium marking scheme (XII_043_Chemistry_MS_56_4_1.pdf) is present in the marking-scheme archive. The Section A answer table on marking-scheme page 3 renders misaligned in default layout mode; pdftotext -table mode was used to confirm the answer-letter-to-question mapping (1B 2A 3C 4A 5B 6D 7A 8B 9D 10D 11B 12C 13C 14A 15D 16A). The marking scheme is heavy with hand-drawn structures, reaction schemes and multi-line calculations that render as images and are not present in its text layer (flagged per question); where nothing at all was recoverable, officialAnswer is omitted and the gap is noted in extractionIssues. Decimal points print as a middle dot '·' in the question paper's text layer (e.g. '1·28' for '1.28') and were normalized to '.'; degree symbols and standard-electrode-potential superscripts were frequently dropped or split across lines and were reconstructed only where unambiguous (flagged per question).",
+    "usage": "Official CBSE publication, freely available on cbse.gov.in; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In an electrochemical cell, the following reaction takes place :\n2Cu+ (aq) + Zn (s) → 2Cu (s) + Zn2+ (aq)\nE°cell = 1.28 V\nAs the reaction progresses, what will happen to the overall voltage of the cell ?",
+      "options": [
+        "Voltage will remain constant.",
+        "It will decrease as [Zn2+] increases.",
+        "It will increase as [Cu+] increases.",
+        "It will increase as [Zn2+] increases."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts flattened: Cu+, Zn2+",
+        "Decimal point printed as a middle dot ('1·28'), normalized to '1.28'; the degree sign and 'cell' subscript on 'E°cell' were split across lines in the layout and reassembled; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(B) / It will decrease as [Zn2+] increases.",
+        "correctOption": 1
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Out of Fe3+, Sc3+, Cr3+ and Co3+ ions, the one which is colourless in aqueous solution is :\n[Atomic number : Fe = 26, Sc = 21, Cr = 24, Co = 27]",
+      "options": [
+        "Sc3+",
+        "Fe3+",
+        "Cr3+",
+        "Co3+"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened: Fe3+, Sc3+, Cr3+, Co3+"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) / Sc3+",
+        "correctOption": 0
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Hoffmann Bromamide degradation reaction is given by :",
+      "options": [
+        "ArNO2",
+        "ArNH2",
+        "ArCONH2",
+        "ArCH2NH2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: ArNO2, ArNH2, ArCONH2, ArCH2NH2"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / ArCONH2",
+        "correctOption": 2
+      },
+      "chapter": "amines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In the Haworth structure of the following carbohydrate, various carbon atoms have been numbered. The anomeric carbon is numbered as :",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Haworth structure diagram of the carbohydrate on page 5 not reproduced in the text layer; the question cannot be answered without it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(A) / 1",
+        "correctOption": 0
+      },
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The value of Henry’s constant KH is :",
+      "options": [
+        "greater for gases with higher solubility",
+        "greater for gases with lower solubility",
+        "constant for all gases",
+        "not related to the solubility of gases"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) / greater for gases with lower solubility",
+        "correctOption": 1
+      },
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Out of the following statements, the incorrect statement is :",
+      "options": [
+        "La is actually an element of transition series.",
+        "Zr and Hf have almost identical atomic radii because of lanthanoid contraction.",
+        "Ionic radius decreases from La3+ to Lu3+ ion.",
+        "Lanthanoids are radioactive in nature."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened: La3+, Lu3+"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / Lanthanoids are radioactive in nature.",
+        "correctOption": 3
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Out of 2-Bromobutane, 1-Bromobutane, 2-Bromopropane and 1-Bromopropane, the molecule which is chiral in nature is :",
+      "options": [
+        "2-Bromobutane",
+        "1-Bromobutane",
+        "2-Bromopropane",
+        "1-Bromopropane"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) / 2-Bromobutane",
+        "correctOption": 0
+      },
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In the given reaction sequence, the structure of Y would be :",
+      "hasFigure": true,
+      "extractionIssues": [
+        "The reaction sequence and all four answer options (A)-(D) are structural-formula images on page 7, not reproduced in the text layer; the question cannot be answered without them"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(B)"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The product of the oxidation of I– with MnO4– in alkaline medium is :",
+      "options": [
+        "IO4–",
+        "I2",
+        "IO–",
+        "IO3–"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened: I–, MnO4–, IO4–, IO–, IO3–"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / IO3–",
+        "correctOption": 3
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Polyhalogen compounds have wide application in industries and agriculture. DDT is also a very important polyhalogen compound. It is a :",
+      "options": [
+        "greenhouse gas",
+        "fertilizer",
+        "biodegradable insecticide",
+        "non-biodegradable insecticide"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / non-biodegradable insecticide",
+        "correctOption": 3
+      },
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "What amount of electric charge is required for the reduction of 1 mole of MnO4– into Mn2+ ?",
+      "options": [
+        "1 F",
+        "5 F",
+        "4 F",
+        "6 F"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript/superscript flattened: MnO4–, Mn2+"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) / 5 F",
+        "correctOption": 1
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Alkenes are formed by heating alcohols with conc. H2SO4. The first step in the reaction is :",
+      "options": [
+        "formation of carbocation",
+        "formation of ester",
+        "protonation of alcohol molecule",
+        "elimination of water"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: H2SO4"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / protonation of alcohol molecule",
+        "correctOption": 2
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : Electrolysis of aqueous NaCl gives H2 at cathode and Cl2 at anode.\nReason (R) : Chlorine has higher oxidation potential than H2O.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: H2, Cl2, H2O"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / Assertion (A) is true, but Reason (R) is false.",
+        "correctOption": 2
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : Cuprous salts are diamagnetic.\nReason (R) : Cuprous ion has completely filled 3d-orbitals.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) / Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "correctOption": 0
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : n-Butyl chloride has higher boiling point than n-Butyl bromide.\nReason (R) : C – Cl bond is more polar than C – Br bond.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / Assertion (A) is false, but Reason (R) is true.",
+        "correctOption": 3
+      },
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : Acetanilide is less basic than aniline.\nReason (R) : Acetylation of aniline results in decrease of electron density on nitrogen.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) / Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "correctOption": 0
+      },
+      "chapter": "amines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(a)",
+      "choiceGroup": "17",
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Reactant ‘A’ underwent a decomposition reaction. The concentration of ‘A’ was measured periodically and recorded in the table given below :\nTime/Hours | [A]/M\n0 | 0.40\n1 | 0.20\n2 | 0.10\n3 | 0.05\nBased on the above data, predict the order of the reaction and write the expression for the rate law.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Data table flattened into text rows from the page layout",
+        "Decimal points printed as a middle dot ('0·40' etc.), normalized to '0.40' etc."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Order of the reaction = 1 / First\nRate = k[A]"
+      },
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(b)",
+      "choiceGroup": "17",
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The reaction between H2 (g) and I2 (g) was carried out in a sealed isothermal container. The rate law for the reaction was found to be :\nRate = k[H2] [I2]\nIf 1 mole of H2 (g) was added to the reaction chamber and the temperature was kept constant, then predict the change in rate of the reaction and the rate constant.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: H2, I2"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Rate of the reaction will increase.\nRate constant remains same."
+      },
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "PtCl4 . 2KCl doesn’t give precipitate of AgCl with AgNO3 solution. Write the structural formula and IUPAC name of the complex.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: PtCl4, AgNO3, AgCl"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Structural formula : K2[PtCl6]\nIUPAC Name : Potassium hexachloridoplatinate(IV)"
+      },
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Define fuel cell. Give two advantages of fuel cell over ordinary cell.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Galvanic cell which converts the energy of combustion of fuels directly into electrical energy.\nAdvantages : 1. High efficiency 2. Pollution free (or any other two correct advantages)"
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write the structures of the main products of the following reactions :\n(a) [reaction scheme — image, not reproduced]\n(b) 6 (CH3)3C–OH + 2Al →",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Reaction (a) is a structural-formula reaction scheme (image) on page 10/11, not reproduced in the text layer; that part cannot be answered without it",
+        "Structural formula in (b) rebuilt from a vertical skeletal drawing split across three lines in the PDF layout (three CH3 branches around a central C–OH); read as (CH3)3C–OH (tert-butanol); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is meant by essential amino acids ? Why are amino acids amphoteric in nature ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Amino acids which cannot be synthesized in the body and must be obtained through diet.\nIn zwitterionic form, amino acids react both with acids and bases. / Due to the presence of both carboxylic and amino groups."
+      },
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": "(a)",
+      "choiceGroup": "22",
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Account for the following :\n(i) Allyl chloride is hydrolysed more readily than n-propyl chloride.\n(ii) Isocyanides are formed when alkyl halides are treated with silver cyanide.\n(iii) Methyl chloride reacts faster with OH– ion in SN2 reaction than t-butyl chloride.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Greater stability of allylic carbocation due to resonance.\n(ii) Being covalent in nature, only nitrogen is free to donate the electron pair in AgCN.\n(iii) Less sterically hindered carbon in methyl chloride / greater steric hindrance on the tertiary carbon of t-butyl chloride."
+      },
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": "(b)",
+      "choiceGroup": "22",
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Complete the following reactions by writing the structural formulae of ‘A’ and ‘B’ :\n(i) CH3CH = CH2 –(HBr / Peroxide)→ ‘A’ –(aq. KOH)→ ‘B’\n(ii) CH3CH2CHCH3\n|\nCl –(alc. KOH)→ ‘A’ –(HBr)→ ‘B’\n(iii) ‘A’ –(Mg)→ CH3CH2MgCl –(H2O / H+)→ ‘B’ (Main product)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Reaction conditions printed above/below the arrows were moved inline in parentheses",
+        "In (ii) a substituent 'Cl' is printed on a line below the parent chain 'CH3CH2CHCH3' in the PDF layout (likely 2-chlorobutane, Cl on the third carbon); kept as printed on separate lines rather than merged; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) A = CH3CH2CH2Br  B = CH3CH2CH2OH\n(ii) A = CH3CH=CHCH3  B = CH3CH2CH(Br)CH3\n(iii) A = CH3CH2Cl  B = CH3CH3"
+      },
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Calculate the cell voltage of the voltaic cell which is set up by joining following half-cells at 25°C :\nAl / Al3+ (0.001 M) and Ni / Ni2+ (0.1 M)\nGiven : E°(Ni2+/Ni) = – 0.25 V, E°(Al3+/Al) = – 1.66 V",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Degree symbol reconstructed: '25C' read as '25°C'",
+        "Standard-electrode-potential notation rebuilt from a raised 'o' split across lines in the layout ('ENi2+ o / Ni' read as 'E°(Ni2+/Ni)'); check against the PDF",
+        "Decimal points printed as a middle dot, normalized to '.'"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "2Al + 3Ni2+ → 2Al3+ + 3Ni\nE°cell = E°(Ni2+/Ni) – E°(Al3+/Al) ; E°cell = –0.25 – (–1.66) = 1.41 V\nn = 6\nEcell = E°cell – (2.303RT/nF) log([Al3+]²/[Ni2+]³)\nEcell = 1.41 – (0.059/6) log([0.001]²/[0.1]³)\nEcell = 1.41 – (0.059/6) log([10]⁻⁶/[10]⁻³)\nEcell = 1.41 – (0.059/6) log 10⁻³\nEcell = 1.41 – (–0.0295)\nEcell = 1.41 + 0.0295\nEcell = 1.439 V / 1.44 V (Deduct ½ mark for no or incorrect unit)"
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give explanation for each of the following observations :\n(a) With the same d-orbital configuration (d4), Mn3+ ion is an oxidising agent whereas Cr2+ ion is a reducing agent.\n(b) Actinoid contraction is greater from element to element than that among lanthanoids.\n(c) Transition metals form large number of interstitial compounds with H, B, C and N.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened: Mn3+, Cr2+"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Change from Mn3+ to Mn2+ results in an extra-stable half-filled d5 configuration. Cr2+ is reducing as its configuration changes from d4 to d3, which is a stable half-filled t2g3 configuration.\n(b) Due to poorer shielding offered by 5f electrons than 4f.\n(c) H, B, C and N atoms, being small in size, get trapped inside the crystal lattices of transition metals."
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "An aqueous solution of NaOH was made and its molar mass from the measurement of osmotic pressure at 27°C was found to be 25 g mol–1. Calculate the percentage dissociation of NaOH in this solution.\n[Atomic mass : Na = 23 u, O = 16 u, H = 1 u]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Degree symbol reconstructed: '27C' read as '27°C'"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "i = Normal molar mass / Abnormal molar mass\ni = 40/25 = 1.6\nα = (i–1)/(n–1) = (1.6–1)/1 = 0.6 × 100 = 60% (Any other suitable method)"
+      },
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Arrange the following compounds as asked :\n(a) in decreasing order of pKb values\nC2H5NH2, (C2H5)2NH, C6H5NHCH3, C6H5NH2\n(b) increasing order of boiling point\nC2H5OH, C2H5NH2, (CH3)2NH\n(c) increasing order of solubility in water\nC6H5NH2, (C2H5)2NH, C2H5NH2",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened throughout"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) C6H5NH2 > C6H5NHCH3 > C2H5NH2 > (C2H5)2NH\n(b) (CH3)2NH < C2H5NH2 < C2H5OH\n(c) C6H5NH2 < (C2H5)2NH < C2H5NH2"
+      },
+      "chapter": "amines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "An aromatic compound ‘A’ with molecular formula C8H8O gives positive 2,4-DNP test. It gives yellow precipitate of compound ‘B’ on treatment with sodium hypoiodite. Compound ‘A’ does not react with Tollen’s or Fehling’s reagent; on drastic oxidation with KMnO4 it forms a carboxylic acid ‘C’. Elucidate the structures of A, B and C. Also give their IUPAC names.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: C8H8O, KMnO4"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "A : C6H5COCH3 — Acetophenone\nB : CHI3 — Triiodomethane\nC : C6H5COOH — Benzoic acid"
+      },
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(a) Can sodium ethoxide and t-butyl chloride be used for the preparation of t-butyl ethyl ether ? Give suitable explanation. Justify your answer by suggesting the appropriate starting material required for preparation of t-butyl ethyl ether.\n(b) Give the IUPAC name of above mentioned ether.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) No. Sodium ethoxide is a strong nucleophile as well as a strong base, so the elimination reaction of t-butyl chloride predominates over substitution. Chloroethane and sodium tert-butoxide / C2H5Cl and (CH3)3CONa.\n(b) 2-Ethoxy-2-methylpropane"
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "According to the generally accepted definition of the ideal solution there are equal interaction forces acting between molecules belonging to the same or different species. (This is equivalent to the statement that the activity of the components equals the concentration.) Strictly speaking, this condition is fulfilled only in exceptional cases for mixtures (optical isomers, isotopic mixtures of an element, hydrocarbon mixtures). It is still usual to talk about ideal solutions as limiting cases in reality since very dilute solutions behave ideally with respect to the solvent. This view is further supported by the fact that Raoult’s law empirically found for describing the behaviour of the solvent in dilute solutions can be deduced thermodynamically via the assumption of ideal behaviour of the solvent.\nAnswer the following questions :\n(a) Give one example of miscible liquid pair which shows negative deviation from Raoult’s law. What is the reason for such deviation ?\n(b) (i) State Raoult’s law for a solution containing volatile components.\nOR\n(b) (ii) Raoult’s law is a special case of Henry’s law. Comment.\n(c) Write two characteristics of an ideal solution.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Chloroform and Acetone (or any other correct example). A–B interactions are stronger than A–A and B–B interactions.\n(b)(i) For any solution, the partial vapour pressure of each volatile component is directly proportional to its mole fraction.\nOR\n(b)(ii) [part of the equation lost in the marking scheme's text layer] When p0 = KH, p is proportional to the mole fraction for both.\n(c) The enthalpy of mixing of the pure components in the ideal solution is zero / ΔmixH = 0. The volume of mixing of the pure components in the ideal solution is zero / ΔmixV = 0. (or any other two suitable characteristics)"
+      },
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Ribose and 2-deoxyribose have an important role in biology. Among the most important derivatives are those with phosphate groups attached at the 5 position. Mono-, di- and tri-phosphate forms are important, as well as 3-5 cyclic monophosphates. Purines and pyrimidines form an important class of compounds with ribose and deoxyribose. When these purine and pyrimidine derivatives are coupled to a ribose sugar, they are called nucleosides.\nAnswer the following questions :\n(a) What products would be formed when DNA is hydrolysed ? How is DNA different from RNA with reference to a structure ?\n(b) Differentiate between nucleotide and nucleoside.\n(c) (i) Mention two important functions of nucleic acid.\nOR\n(c) (ii) Name the linkage which joins two nucleotides. Name the base that is found in nucleotide of RNA but not in DNA.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Prime symbols (′) likely lost in extraction: '5 position' may read '5′ position' and '3-5 cyclic' may read '3′-5′ cyclic'; kept as printed since not unambiguous; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 2-Deoxyribose, Phosphoric acid, Nitrogenous base. DNA: Double stranded helix; RNA: Single stranded helix. (or any other suitable structural difference)\n(b) Nucleotide: Pentose sugar + Nitrogenous base + Phosphate. Nucleoside: Pentose sugar + Nitrogenous base.\n(c)(i) To preserve genetic information and protein synthesis.\nOR\n(c)(ii) Phosphodiester linkage. Uracil."
+      },
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(a)",
+      "choiceGroup": "31",
+      "page": 19,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Complete the following reactions by writing the structure of the main products :\n(I) [reaction scheme — image, not reproduced]\n(II) (CH3)2Cd + 2CH3COCl →\n(III) [reaction scheme — image, not reproduced]\n(ii) Give simple chemical test to distinguish between the following pairs of compounds :\n(I) Ethyl benzoate and benzoic acid\n(II) Propanal and propanone",
+      "hasFigure": true,
+      "extractionIssues": [
+        "(i)(I) and (i)(III) are structural-formula reaction schemes (images) on page 18/19, not reproduced in the text layer; those parts cannot be answered without them",
+        "Subscripts flattened: (CH3)2Cd, CH3COCl"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i)(II) CH3COCH3; (I) and (III) are structural formulas — images in the marking scheme, not extracted.\n(ii)(I) Benzoic acid with sodium bicarbonate gives brisk effervescence; no reaction with ethyl benzoate.\n(ii)(II) Propanal, when heated with ammoniacal silver nitrate solution (Tollens’ reagent), gives a silver mirror; no reaction with propanone. (or any other suitable chemical test)"
+      },
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(b)",
+      "choiceGroup": "31",
+      "page": 19,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Complete each synthesis by giving missing starting material, reagent or products :\n(I) [reaction scheme — image, not reproduced]\n(II) [reaction scheme — image, not reproduced]\n(III) [reaction scheme — image, not reproduced]\n(ii) Carry out the following conversions :\n(I) Benzaldehyde to Benzophenone\n(II) Benzaldehyde to 3-phenyl propanol",
+      "hasFigure": true,
+      "extractionIssues": [
+        "(i)(I), (i)(II) and (i)(III) are reaction schemes/structural formulas (images) on page 18/19, not reproduced in the text layer; that sub-part cannot be answered without them",
+        "(ii)(I) (Benzaldehyde to Benzophenone) answer is also an image in the marking scheme, not extracted"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i)(II) 1. (BH3)2, 2. H2O2/OH–, 3. PCC; (I) and (III) are images in the marking scheme, not extracted.\n(ii)(II) C6H5CHO → (CH3CHO, dil. NaOH, Δ) → C6H5CH=CHCHO → (H2/Ni) → C6H5CH2CH2CH2OH (or any other suitable method); (I) is an image in the marking scheme, not extracted."
+      },
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": "(a)",
+      "choiceGroup": "32",
+      "page": 21,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Give reasons :\n(I) [Ni(CO)4] is diamagnetic whereas [NiCl4]2– is paramagnetic. [Atomic number : Ni = 28]\n(II) CO is a stronger complexing agent than NH3.\n(III) The trans isomer of complex [Co(en)2Cl2]+ is optically inactive.\n(ii) Using Crystal Field theory, write the number of unpaired electrons in octahedral complexes of Fe3+ in the presence of :\n(I) Strong field ligand\n(II) Weak field ligand\n[Atomic number : Fe = 26]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts flattened: [Ni(CO)4], [NiCl4]2–, [Co(en)2Cl2]+, Fe3+"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i)(I) CO, being a strong field ligand, causes pairing of electrons, therefore there is no unpaired electron; Cl– is a weak field ligand, does not cause pairing, therefore presence of unpaired electrons.\n(II) CO can form both sigma (σ) and pi (π) bonds with the central metal atom / metal-to-ligand bonding creates a synergic effect between CO and the metal.\n(III) Mirror images are superimposable / presence of a plane of symmetry.\n(ii)(I) ΔO > P, causes pairing of electrons, therefore 1 unpaired electron.\n(II) ΔO < P, no pairing of electrons, therefore 5 unpaired electrons."
+      },
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": "(b)",
+      "choiceGroup": "32",
+      "page": 21,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Name the type of isomerism exhibited by the following compounds. Also draw their corresponding isomers.\n(I) [Co(NH3)6] [Cr(CN)6]\n(II) [Co(en)3]3+\n(III) [Co(NH3)3(NO2)3]\n(ii) Differentiate between weak field and strong field ligands. How does the strength of the ligand influence the spin of the complex ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts flattened: [Co(NH3)6][Cr(CN)6], [Co(en)3]3+, [Co(NH3)3(NO2)3]"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i)(I) Coordination isomerism / [Cr(NH3)6][Co(CN)6].\n(II) Optical isomerism; corresponding isomer is a drawn structure — image in the marking scheme, not extracted.\n(III) Geometrical isomerism; corresponding isomer is a drawn structure — image in the marking scheme, not extracted.\n(ii) Weak field ligands produce a weak field and lead to small splitting of d-orbitals whereas strong field ligands produce a strong field leading to large splitting of d-orbitals. Strong field ligands cause pairing of electrons / a smaller number of unpaired electrons hence produce low spin complexes and weak field ligands cause no pairing of electrons / a greater number of unpaired electrons hence produce high spin complexes."
+      },
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(a)",
+      "choiceGroup": "33",
+      "page": 21,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "(i) The initial concentration of N2O5 in the first order reaction :\nN2O5 (g) → 2NO2 (g) + 1/2 O2 (g)\nwas 1.2 × 10⁻² mol L⁻1. The concentration of N2O5 after 60 minutes was 0.2 × 10⁻² mol L⁻1. Calculate the rate constant of the reaction at 318 K.\n[log 6 = 0.778]\n(ii) Account for the following :\n(I) We cannot determine the order of a reaction by taking into consideration the balanced chemical equation.\n(II) A bimolecular reaction may become kinetically of first order under a specified condition.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: N2O5, NO2, O2",
+        "Notation rebuilt from the PDF layout: a fraction '1 over 2' printed beside O2 read as the coefficient '1/2'; the multiplication sign in '1.2 x 10-2' and superscript exponents were also lost and rebuilt; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) k = (2.303/t) log([R]0/[R])\nk = (2.303/60) log(1.2×10⁻²/0.2×10⁻²) = (2.303/60) log 6 = (2.303 × 0.778)/60\nk = 2.98 × 10⁻² min⁻1 / 0.0298 min⁻1 (Deduct ½ mark for incorrect or no unit.)\n(ii)(I) Order is determined experimentally.\n(II) If one of the reactants is taken in excess."
+      },
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(b)",
+      "choiceGroup": "33",
+      "page": 23,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "(i) The rate of the chemical reaction doubles for an increase of 10 K in absolute temperature from 298 K. Calculate activation energy (Ea).\n[2.303 R = 19.15 J K⁻1 mol⁻1, log 2 = 0.3]\n(ii) For a reaction :\n2H2O2 –(I–)→ 2H2O + O2\nthe proposed mechanism is as given below :\n(I) H2O2 + I– → H2O + IO– (slow)\n(II) H2O2 + IO– → H2O + I– + O2 (fast)\n(1) Write rate law for the reaction.\n(2) Write the overall order and molecularity of the reaction.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts flattened: H2O2, H2O, O2, I–, IO–",
+        "'I–' printed above the reaction arrow (as a catalyst label) moved inline in parentheses"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) log(k2/k1) = (Ea/2.303R)[1/T1 – 1/T2]\nlog(2k1/k1) = (Ea/19.15)[1/298 – 1/308]\n0.3 = Ea[10/(19.15×298×308)]\nEa = (0.3×19.15×298×308)/10\nEa = 52729 J mol⁻1 or 52.729 kJ mol⁻1 (Deduct ½ mark for incorrect or no unit.)\n(ii)(1) Rate = k[H2O2][I–]\n(2) Overall order : 2 / Second. Molecularity : 2 / Bimolecular."
+      },
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

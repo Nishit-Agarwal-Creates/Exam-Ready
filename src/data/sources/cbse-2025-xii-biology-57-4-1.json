@@ -1,0 +1,960 @@
+{
+  "source": {
+    "key": "cbse-2025-xii-biology-57-4-1",
+    "title": "CBSE Senior Secondary School Examination 2025, Biology (044), Q.P. Code 57/4/1",
+    "board": "cbse",
+    "class": 12,
+    "subject": "biology",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Central Board of Secondary Education",
+    "paperType": "BOARD_EXAM",
+    "examYear": 2025,
+    "session": null,
+    "paperName": "Biology (044)",
+    "paperCode": "57/4/1",
+    "setCode": "SET-1",
+    "seriesCode": "Z4WYX",
+    "language": "English (from a bilingual Hindi/English paper)",
+    "sourceUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2025/XII/BIOLOGY.zip",
+    "sourceFile": "BIOLOGY/57-4-1 BIOLOGY.pdf",
+    "answerSourceUrl": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2025/XII/Biology.zip",
+    "answerSourceFile": "Biology/044 Biology- English Medium/XII_044_Biology_MS 57-4-1.pdf",
+    "fileType": "pdf",
+    "pageCount": 27,
+    "sha256": "8c53a85d50171aec80bdcbb24989f9385686553c510b83d6e4bf5067c30fc2ae",
+    "maxMarks": 70,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "notes": "Paper prints: Series Z4WYX, 'SET~1' (text layer; stored as SET-1), Q.P. Code 57/4/1, 27 printed pages = 27 PDF pages (no cover offset), 33 questions, Maximum Marks 70, Time allowed 3 hours. Session is not printed on the paper. English text is on odd PDF pages (Hindi on even pages), except the cover (page 1) which mixes both. The question-paper archive lists Q.P. codes 57-1-1, 57-1-2, 57-1-3, 57-2-1, 57-2-2, 57-2-3, 57-4-1, 57-4-2, 57-4-3, 57-5-1..57-7-3 plus a Visually-Impaired paper; 57-1-1, 57-1-2, 57-1-3, 57-2-1, 57-2-2 and 57-2-3 are scanned image-only PDFs with no usable text layer (pdftotext returns ~24 characters, i.e. only page-break markers) and were skipped. 57-4-1 is the first Q.P. code in order with both a usable QP text layer and a usable matching English marking-scheme text layer (the marking scheme for 57-1-1 does have a text layer, but its question paper does not, so that pair was skipped). A handful of words are missing from the PDF text layer in isolated spots, apparently due to an embedded font/rendering issue rather than a figure (confirmed by trying default, -layout and -raw pdftotext modes, all with the same gaps): the opening clause of Q1, part of the Assertion in Q13, the subject of the Assertion in Q15, several phrases in the Q27 passage, and the compared-animal names in Q29(c). These are flagged per question and kept as extracted (marked with '[text missing in extraction]'), never invented. Prime symbols (') on 5'/3' end labels are dropped throughout the text layer (e.g. Q18's mRNA frames, Q24's 'DNA depicted in 3 end directionality'); flagged per question. Q10's four options are diagrams (DNA banding patterns after centrifugation) with no text at all; options kept as an empty array. Q24's diagram of a DNA strand is not reproduced, and its sub-part (b) text is entirely missing from the extraction (only 'Two' is recoverable from the marking scheme's answer, not inserted into the question text). Non-OR sub-parts that share one premise and have no marks printed per sub-part (Q18, Q20, Q23, Q24, Q26, Q27) are kept together as one entry, per the pack's own printed total mark for that question number; Section D's case-based Q29 and Q30 are likewise each kept as one entry with their internal 'OR' retained in the text. OR alternatives with their own printed marks (Q17, Q19, Q21, Q31, Q32, Q33) are split into separate entries sharing a choiceGroup. Q28 (advantages/disadvantages of the Green Revolution) does not correspond to any chapter in this subject's taxonomy list (which covers only genetics/physiology/microbes/biotechnology/ecology/evolution chapters, not agriculture/food-production topics); its chapter is left null.",
+    "usage": "Official CBSE publication, freely available on cbse.gov.in; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "[text missing in extraction] -on- [text missing in extraction] string represent :",
+      "options": [
+        "Linker DNA",
+        "Histone proteins",
+        "Nucleosomes",
+        "NHC proteins"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text before \"-on-\" and between \"-on-\" and \"string represent\" is missing from the PDF text layer (tried default, -layout and -raw pdftotext modes; same gap in all). The phrase is likely \"beads-on-a-string\", describing the nucleosome structure of chromatin. Not recovered; see page 3 of the PDF."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(C) / Nucleosomes",
+        "correctOption": 2
+      },
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Given below are a few statements with reference to the accessory ducts of the human male reproductive system :\n(i) The seminiferous tubules of the testes open into rete testis then into the vas deferens.\n(ii) The vasa efferentia leave the testes and open into the epididymis.\n(iii) The epididymis leads to vas deferens that ascends into the abdomen.\n(iv) The vas deferens receives a duct from the prostrate gland and opens into the urethra as ejaculatory duct.\n(v) The urethra originates from the urinary bladder and extends through the penis to its external opening, urethral meatus.\nChoose the option with all true statements from the given options :",
+      "options": [
+        "(i), (ii), (iv)",
+        "(ii), (iii), (v)",
+        "(ii), (iv), (v)",
+        "(i), (iii), (iv)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) / (ii), (iii), (v)",
+        "correctOption": 1
+      },
+      "chapter": "human-reproduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The substrate used during DNA replication by the enzyme DNA-dependent DNA polymerase is :",
+      "options": [
+        "Deoxyribonucleotide triphosphate",
+        "Deoxyribonucleoside triphosphate",
+        "Ribonucleotide triphosphate",
+        "Ribonucleoside triphosphate"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) / Deoxyribonucleoside triphosphate",
+        "correctOption": 1
+      },
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In the given pedigree chart, a cross between a normal couple resulted in a son who was haemophilic and a normal daughter. In course of time, when the daughter was married to a normal man, to their surprise the grandson was also haemophilic.\nChoose the option that indicates the correct inheritance of trait in the above pedigree chart :",
+      "options": [
+        "Autosome linked dominant trait",
+        "Sex-linked dominant trait",
+        "Autosomal recessive trait",
+        "Sex-linked recessive trait"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Pedigree chart diagram on page 7 not reproduced in text layer; the accompanying text description is sufficient to answer the question."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(D) / Sex-linked recessive trait",
+        "correctOption": 3
+      },
+      "chapter": "principles-of-inheritance-and-variation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In which of the following human diseases does self-defence mechanism attack self-cells ?",
+      "options": [
+        "Thalassemia",
+        "Phenylketonuria",
+        "Filariasis",
+        "Rheumatoid arthritis"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "\"self-\" before \"defence mechanism\" is split by a page break in the PDF text layer; rejoined here."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / Rheumatoid arthritis",
+        "correctOption": 3
+      },
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Select the statements that are true for a typical dicotyledonous embryo from the given options.\n(i) It consists of an embryonal axis and scutellum.\n(ii) The portion of embryonal axis above the level of cotyledon is epicotyl.\n(iii) The portion of embryonal axis below the level of cotyledon is coleorhiza.\n(iv) The lower end of the embryo has radicle covered with a root cap.\nChoose the correct answer :",
+      "options": [
+        "(i) and (ii)",
+        "(i) and (iii)",
+        "(iii) and (iv)",
+        "(ii) and (iv)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / (ii) and (iv)",
+        "correctOption": 3
+      },
+      "chapter": "sexual-reproduction-in-flowering-plants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "About 15 mya during human evolution, the primates which used to walk like gorillas and chimpanzees were :",
+      "options": [
+        "Australopithecine and Neanderthal",
+        "Dryopithecus and Ramapithecus",
+        "Homo erectus and Homo sapiens",
+        "Homo habilis and Homo erectus"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) / Dryopithecus and Ramapithecus",
+        "correctOption": 1
+      },
+      "chapter": "evolution",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Use the given information to select the amino acid attached to the 3 end of tRNA during the process of translation, if the coding strand of the structural gene being transcribed has the nucleotide sequence TAC.\nCodons for the amino acids :\nAUC Isoleucine\nAUG Methionine\nUAC Tyrosine\nGUA Valine",
+      "options": [
+        "Isoleucine",
+        "Methionine",
+        "Tyrosine",
+        "Valine"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Prime symbol (') after \"3\" (\"3 end of tRNA\") dropped in extraction; likely \"3' end of tRNA\". Kept as extracted."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(C) / Tyrosine",
+        "correctOption": 2
+      },
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The technique for the early detection of a disease based on the principle of antigen-antibody interaction is :",
+      "options": [
+        "RNAi",
+        "EST",
+        "PCR",
+        "ELISA"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / ELISA",
+        "correctOption": 3
+      },
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The correct depiction of the experiment performed by Matthew Meselson and Franklin Stahl to prove that DNA replicates semi-conservatively on separation of DNA by centrifugation after 40 minutes is :",
+      "options": [],
+      "hasFigure": true,
+      "extractionIssues": [
+        "All four options (A)-(D) are diagrams (DNA banding patterns in a centrifuge tube after 40 minutes) on page 11 and are absent from the text layer; options array is empty.",
+        "Official answer in the marking scheme is only the option letter (A), with no text description of the diagram (figure not reproduced)."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(A)"
+      },
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Bioactive molecule Cyclosporin A used for human welfare is derived from :",
+      "options": [
+        "Propionibacterium sharmanii",
+        "Monascus purpureus",
+        "Trichoderma polysporum",
+        "Aspergillus niger"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / Trichoderma polysporum",
+        "correctOption": 2
+      },
+      "chapter": "microbes-in-human-welfare",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In a pea plant (Pisum sativum) inflated pod shape is dominant over constricted pod shape. The expected ratio of phenotypes of the offspring in a cross between both the parents with heterozygous inflated pod shape will be :",
+      "options": [
+        "1 : 0",
+        "1 : 1",
+        "2 : 1",
+        "3 : 1"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / 3 : 1",
+        "correctOption": 3
+      },
+      "chapter": "principles-of-inheritance-and-variation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : in vitro -free\nplants from an infected plant.\nReason (R) : If the plant is infected with a virus, the roots and the stems are free of virus.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion–Reason codes (A)–(D) are printed once on page 13 for Questions 13–16",
+        "Assertion (A) has gaps in the text layer around \"in vitro\" and \"-free\" (tried default, -layout and -raw pdftotext modes, same gaps in all); likely describes a meristem/tissue-culture technique used to obtain virus-free plants from an infected plant. Not recovered; see page 13 of the PDF."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(C) / Assertion (A) is true, but Reason (R) is false.",
+        "correctOption": 2
+      },
+      "chapter": "biotechnology-principles-and-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : A person infected with malaria suffers from chill and high fever, recurring every three or four days.\nReason (R) : The parasite attacks the RBC resulting in their rupture and release of haemozoin.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion–Reason codes (A)–(D) are printed once on page 13 for Questions 13–16"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) / Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "correctOption": 0
+      },
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : [text missing in extraction] increases phagocytosis of sperms.\nReason (R) : It is a non-steroidal preparation.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion–Reason codes (A)–(D) are printed once on page 13 for Questions 13–16",
+        "The subject of Assertion (A), before \"increases phagocytosis of sperms\", is missing from the PDF text layer (tried default, -layout and -raw pdftotext modes, same gap in all); likely refers to copper ions/copper-releasing IUDs. Not recovered; see page 13 of the PDF."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(D) / Assertion (A) is false, but Reason (R) is true.",
+        "correctOption": 3
+      },
+      "chapter": "reproductive-health",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "A",
+      "sectionTitle": "Biology",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : ABO blood grouping in humans is an example of multiple allelism.\nReason (R) : More than two genes in a population govern the same character in ABO blood grouping in humans.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion–Reason codes (A)–(D) are printed once on page 13 for Questions 13–16"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / Assertion (A) is true, but Reason (R) is false.",
+        "correctOption": 2
+      },
+      "chapter": "principles-of-inheritance-and-variation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(a)",
+      "choiceGroup": "17",
+      "page": 15,
+      "section": "B",
+      "sectionTitle": "Biology",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain how the immunity of a person is affected if there is atrophy (degeneration) of the thymus gland at an early stage of life.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The immunity will decrease. Immature lymphocytes will not differentiate into antigen-sensitive lymphocytes / development and maturation of T-lymphocytes does not take place."
+      },
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(b)",
+      "choiceGroup": "17",
+      "page": 15,
+      "section": "B",
+      "sectionTitle": "Biology",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(i) What are interferons ? Explain their role in providing immunity to a person.\n(ii) Which category of innate immunity defence barrier can interferons be classified into ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Virus infected cells secrete proteins called interferons. Interferons protect non-infected cells from further viral infection.\n(ii) Cytokine barriers."
+      },
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": "Biology",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Assume that the given mRNA (start site is not depicted) is theoretically translated in two reading frames.\n(a) Translation starting from the first nucleotide (Reading frame 1)\n(b) Translation starting from the second nucleotide (Reading frame 2)\nFrame 1\n5 CUCGCUUGCCGAUCAAGGGUUA 3\nFrame 2\n5 GUGGCACUCAGUCCUUAAUGGCG 3\nAnswer the following question :\nHow many amino acids will be specified in case (a) and case (b) on translation ? Justify your answer.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Prime symbols (') around the \"5\" and \"3\" end labels of both reading frames are dropped in extraction (confirmed with default, -layout and -raw pdftotext modes: plain \"5 ... 3\" with no prime character bytes present); likely \"5'...3'\". Kept as extracted."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 7 amino acids, the genetic code is a triplet.\n(b) 7 amino acids, the genetic code is triplet."
+      },
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(a)",
+      "choiceGroup": "19",
+      "page": 15,
+      "section": "B",
+      "sectionTitle": "Biology",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain what is meant by the term MTP. What was the main reason to legalize MTP by the Government of India ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Medical termination of pregnancy before full term / (Intentional or voluntary) termination of pregnancy before full term. Get rid of unwanted pregnancies either due to casual unprotected intercourse or failure of the contraceptive used during coitus or rapes, if pregnancy is harmful or even fatal either to the mother or to the foetus or both. (any one reason)"
+      },
+      "chapter": "reproductive-health",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(b)",
+      "choiceGroup": "19",
+      "page": 15,
+      "section": "B",
+      "sectionTitle": "Biology",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name any two STIs which might occur in a human female. State its two early symptoms.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B, AIDS, or any other correct answer (any two diseases). Symptoms: itching, fluid discharge, slight pain, swelling in genital region, redness, or any other correct answer (any two symptoms)"
+      },
+      "chapter": "reproductive-health",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "B",
+      "sectionTitle": "Biology",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The basic scheme of the essential steps involved in the process of recombinant DNA technology is summarized below in the form of a flow diagram. Study the given flow diagram and answer the questions that follow.\nStep-1: Vector DNA (cut using Restriction Enzyme EcoR I) + Alien DNA (cut using Restriction Enzyme EcoR I) --[Enzyme A]-->\nStep-2: Recombinant DNA molecule\nStep-3: Transfer of recombinant DNA molecule in E. coli (Host)\nStep-4: Replication of recombinant DNA molecule in E. coli\n(a) Name the enzyme used in Step-1 to join the cut plasmid and alien DNA.\n(b) State the technical term used for Step-3.\n(c) Justify the use of same Restriction Enzyme EcoR I to cut both the vector DNA and the alien DNA.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Flow-diagram box/arrow layout reconstructed as a linear text sequence; all step labels were present in the text layer."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) DNA ligase.\n(b) Transformation.\n(c) The same restriction enzyme EcoRI is used to cut both the vector DNA and alien DNA because it will produce complementary overhangs or sticky ends which will help in joining the two DNA strands through hydrogen bonds."
+      },
+      "chapter": "biotechnology-principles-and-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(a)",
+      "choiceGroup": "21",
+      "page": 17,
+      "section": "B",
+      "sectionTitle": "Biology",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain how the interaction between sea anemone and clownfish is one of the best examples of commensalism in nature.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The clownfish gets protection from predators due to the presence of stinging tentacles, thus deriving benefit from the sea anemone; the sea anemone neither derives any benefit nor gets harmed from the clownfish."
+      },
+      "chapter": "organisms-and-populations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(b)",
+      "choiceGroup": "21",
+      "page": 17,
+      "section": "B",
+      "sectionTitle": "Biology",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Correctly depict (also indicate the trophic level) and describe the ecological pyramid of biomass in sea with 40 standing crop of phytoplankton supporting 90 standing crop of zooplankton which further supports 120 small fishes.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Inverted pyramid of biomass: Primary producers (PP) - 40 standing crop of phytoplankton; Primary consumers (PC) - 90 standing crop of zooplankton; Secondary consumers (SC) - 120 fishes, with increasing biomass from PP to SC. (Award 1 mark for diagram of inverted pyramid of biomass, and 1 mark for correct trophic level.)"
+      },
+      "chapter": "ecosystem",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "C",
+      "sectionTitle": "Biology",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain the process of formation of placenta in a human female after the implantation of the blastocyst in the endometrium of the uterus.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "After implantation of the blastocyst, finger-like projections appear on the trophoblast, called chorionic villi, which are surrounded by the uterine tissue and maternal blood; the chorionic villi and uterine tissue become interdigitated with each other, and form a structural and functional unit between the developing embryo/foetus and maternal tissue/body called the placenta."
+      },
+      "chapter": "human-reproduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "C",
+      "sectionTitle": "Biology",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Gregor Mendel conducted hybridisation experiments in garden pea for seven years and proposed the law of inheritance.\n(a) Why was he successful in his hybridisation experiments ? Give two reasons.\n(b) State the law of independent assortment as proposed by Mendel after his dihybrid crosses.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) True-breeding pea plant varieties were selected; distinct contrasting characters were selected for different traits; artificial (self and cross) pollination was conducted carefully; a large sample size was used; results were confirmed by performing experiments for several generations; or any other correct point. (any two reasons)\n(b) When two pairs of traits are combined in a hybrid, segregation of one pair of characters is independent of the other pair of characters."
+      },
+      "chapter": "principles-of-inheritance-and-variation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "C",
+      "sectionTitle": "Biology",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Study the given below single strand of deoxyribonucleic acid depicted in 3 end directionality, sugars as vertical lines and bases as single letter abbreviations and answer the questions that follow.\n(a) Name the covalent bonds depicted as (a) and (b) in the form of slanting lines in the diagram.\n(b) [text missing in extraction]\n(c) Draw the chemical structure of the given polynucleotide chain of DNA.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Prime symbol (') after \"3\" (\"3 end directionality\") dropped in extraction; likely \"3' end directionality\". Kept as extracted.",
+        "Diagram of the single-stranded DNA (sugars as vertical lines, bases as letters, two covalent bonds labelled (a) and (b)) on page 19 not reproduced in text layer; needed to answer (a) and (c).",
+        "Sub-part (b)'s question text is entirely missing from the PDF text layer, between \"(a) Name the covalent bonds...\" and \"(c) Draw the chemical structure...\" (tried default, -layout and -raw pdftotext modes, same gap in all); not recovered. See page 19 of the PDF. The marking scheme's answer for (b) is \"Two\", suggesting it asked for a count (e.g. the number of phosphodiester bonds in the strand); this is not inserted into the question text."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Bond (a) - Phosphoester linkage/bond; Bond (b) - Phospho-di-ester linkage/bond.\n(b) Two.\n(c) [diagram: correct 3'-5' ends, correct sugar-phosphate backbone, correct nitrogenous bases]"
+      },
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "C",
+      "sectionTitle": "Biology",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain the biological treatment of primary effluent when passed into the large aeration tanks in a sewage treatment plant (STP).",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The sewage is constantly agitated mechanically and air is pumped into it. This allows the vigorous growth of useful microbes into flocs (masses of bacteria associated with fungal hyphae, forming mesh-like structures). While growing, these microbes consume the major part of the organic matter in the effluent. This significantly reduces the Biochemical Oxygen Demand (BOD)."
+      },
+      "chapter": "microbes-in-human-welfare",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "C",
+      "sectionTitle": "Biology",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Given below is a flower with its characteristic features specialised for the most common type of abiotic pollination.\nFeathery stigma, Versatile Anther, Ovary, Petals.\nAnswer the following questions based on the above diagram :\n(a) Name the mode of abiotic pollination that will be adopted by the given plant species in the above picture.\n(b) State the need of exposed large feathery stigmas for the flower.\n(c) What will be the two important adaptations in the pollen grains of the flowers pollinated by the above mode of pollination ?\n(d) What could be the probable reason for the petals being small and non-green ?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of the flower (showing a feathery stigma, versatile anther, ovary and petals) on page 21 not reproduced; only the text labels were extracted (kept above as a list), the visual arrangement is lost."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Wind pollination / Anemophily.\n(b) To trap air-borne pollen grains.\n(c) Pollen grains are light and non-sticky.\n(d) As they need not attract insects, birds or bats / to facilitate the flow of wind."
+      },
+      "chapter": "sexual-reproduction-in-flowering-plants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "C",
+      "sectionTitle": "Biology",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "[text missing in extraction] survival in Mudumalai Tiger Reserve (MTR) [text missing in extraction] was found to be a small, beautiful flower, Lantana camara, a tropical American shrub, that [text missing in extraction] Lantana weed eradication drive helped to restore the dying MTR thereby also reducing human-wildlife conflicts. MTR is home to 25 species of grasses and legumes.\nAnswer the given questions based on the information given above.\n(a) Explain how did the removal of Lantana help in restoring the dying Mudumalai Tiger Reserve.\n(b) Why is the invasion of Lantana camara a cause of concern in MTR.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Several phrases in the opening passage are missing from the PDF text layer (marked \"[text missing in extraction]\" above; tried default, -layout and -raw pdftotext modes, same gaps in all). The passage likely describes a threat to tiger survival in Mudumalai Tiger Reserve (MTR) from the invasive shrub Lantana camara, and a weed-eradication drive that helped restore the reserve. Not recovered; see page 21 of the PDF. Sub-questions (a) and (b) are intact and answerable."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Removal of Lantana allows other plants to grow, due to which the herbivore population increases and that helps restore the tiger population.\n(b) Lantana, being invasive, does not allow other plants to grow in its surroundings; this will decrease the herbivore population, which can in turn cause a decline in the tiger population."
+      },
+      "chapter": "biodiversity-and-its-conservation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "C",
+      "sectionTitle": "Biology",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Enlist one advantage and two disadvantages of green revolution.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Advantage: Increase in the production of crops, supporting a larger population in terms of food. (any one advantage)\nDisadvantages: Use of agrochemicals (fertilisers and pesticides) led to pollution of soil or water in the long run (biomagnification); crop management practices such as irrigation are expensive; agrochemicals were too expensive; led to increase in soil salinity; agrochemicals reduce natural soil fertility; crops become dependent on fertilisers and pesticides; or any other correct answer. (any two disadvantages)"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "D",
+      "sectionTitle": "Biology",
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Read the following passage and answer the questions that follow.\nThe most convincing evidence to trace evolutionary relationships between humans and different groups of animals come from the basic similarities seen at the molecular level. Study the table given below that depicts the number of amino acid differences between the haemoglobin polypeptide of few animals with that of humans and answer the questions that follow.\nS.No. | Animal | No. of amino acid differences in haemoglobin with that of humans\n1. | Macaque | 08\n2. | Dog | 32\n3. | Bird | 45\n4. | Frog | 67\n5. | Lamprey | 125\n(a) To which category of evolution (Divergent or Convergent) do the following evolutionary relationships belong to :\n(i) Humans and Macaque\n(ii) Humans and Frog\n(b) What do the biochemical similarities in haemoglobin suggest about the evolutionary relationship between humans, frog and lamprey ?\n(c) (i) Which one of the two [text missing in extraction] closely related to humans and why ?\nOR\n(c) (ii) Which one of the two [text missing in extraction] related to humans and why ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table layout reconstructed from jumbled PDF text order (rows/columns realigned against the printed animal names and amino-acid-difference values); all values were present in the text layer.",
+        "Text after \"Which one of the two\" in (c)(i) and (c)(ii) (the animal names being compared) is missing from the PDF text layer (tried default, -layout and -raw pdftotext modes, same gap in all); not recovered. The marking scheme indicates (c)(i) compares Macaque and Lamprey, and (c)(ii) compares Dog and Frog, but this is not inserted into the question text. See page 23 of the PDF."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) (i) Human and Macaque = Divergent evolution. (ii) Human and Frog = Divergent evolution.\n(b) Biochemical similarities in haemoglobin suggest common ancestry.\n(c)(i) Macaque is more closely related to humans than lamprey, because the number of amino acid differences between human and macaque is less / human and macaque have more biochemical similarities in the structure of haemoglobin than human and lamprey.\nOR\n(c)(ii) Dog is more closely related to human than frog, because the number of amino acid differences between human and dog is less / dog and human have more biochemical similarities in the structure of haemoglobin than human and frog."
+      },
+      "chapter": "evolution",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "D",
+      "sectionTitle": "Biology",
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Read the following passage and answer the questions that follow.\nDeaths related to the use of drugs were estimated at about 5,00,000 in 2019, 17.5 percent more than in 2009. Liver diseases attributed to Hepatitis B are a major cause of drug-related deaths, according to UNODC, accounting for more than half of the total number of deaths attributed to the use of drugs. Drug overdoses account for a quarter of drug-related deaths.\nOpioids contribute to account for the most severe drug-related harm, including fatal overdoses, when used non-medically. At the global level, two-third of direct drug-related deaths are due to opioids, and in some sub-regions the proportion can be as high as three-quarters of such deaths.\n(a) Why are people taking opioids more prone to liver diseases attributed to Hepatitis B ?\n(b) What is meant by direct drug-related disease ?\n(c) (i) What is the scientific name of the plant from which the opioids are derived and from which part of the plant is it extracted ?\nOR\n(c) (ii) State two common warning signs of drug abuse among the youth.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Decimal point dropped in extraction: printed as \"17 5 percent\", rebuilt as \"17.5 percent\"; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) As opioids are generally taken intravenously, use of contaminated needles or injections increases the chances of hepatitis B (liver disease).\n(b) Direct drug-related disease means diseases due to overdoses of opioids / fatal overdose of opioids.\n(c)(i) Papaver somniferum; latex.\nOR\n(c)(ii) Drop in academic performance, unexplained absence from school or college, lack of interest in personal hygiene, withdrawal, isolation, depression, fatigue, aggressive/rebellious behaviour, deteriorating relationships with family and friends, loss of interest in hobbies, change in sleeping and eating habits, fluctuations in weight/appetite, stealing, mental and financial distress, or any other correct point. (any two signs)"
+      },
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(a)",
+      "choiceGroup": "31",
+      "page": 25,
+      "section": "E",
+      "sectionTitle": "Biology",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Explain how does double fertilisation take place in a flowering plant.\n(ii) Write the fate of the products of double fertilization in these plants.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "After entering one of the synergids, the pollen tube releases the two male gametes into the cytoplasm of the synergid; one male gamete moves towards the egg cell and fuses with its nucleus, completing syngamy to form the zygote; the other male gamete moves towards the two polar nuclei in the central cell and fuses with them, causing triple fusion to form the Primary Endosperm Nucleus (PEN)/Primary Endosperm Cell (PEC).\n(ii) The Primary Endosperm Cell develops into the endosperm, while the zygote develops into the embryo."
+      },
+      "chapter": "sexual-reproduction-in-flowering-plants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(b)",
+      "choiceGroup": "31",
+      "page": 25,
+      "section": "E",
+      "sectionTitle": "Biology",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Explain the structure of testicular lobules in human male reproductive system. Name the two types of cells present in the seminiferous tubules and state their role.\n(ii) Describe the role of hypothalamic hormone GnRH in spermatogenesis.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Each testicular lobule consists of 1-3 highly coiled seminiferous tubules, in which sperms are produced. Two types of cells: male germ cells/spermatogonia, which undergo meiotic divisions finally leading to sperm formation; and Sertoli cells, which provide nutrition to the germ cells.\n(ii) GnRH acts at the anterior pituitary gland and stimulates secretion of two gonadotropins - luteinising hormone (LH) and follicle stimulating hormone (FSH)."
+      },
+      "chapter": "human-reproduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": "(a)",
+      "choiceGroup": "32",
+      "page": 27,
+      "section": "E",
+      "sectionTitle": "Biology",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Name and explain the biotechnological strategy wherein the infection by the nematode Meloidegyne incognitia can be prevented using Agrobacterium vectors in the roots of tobacco plant by RNA interference.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "RNA interference (RNAi). Steps: Using Agrobacterium vectors, nematode-specific genes were introduced into the host plants. The introduction of DNA was such that it produced both sense and anti-sense RNA in the host cells. The two complementary RNAs form a double-stranded RNA (dsRNA), which initiated RNAi and silenced the specific mRNA of the nematode (consequently the parasite could not survive in a transgenic host expressing the specific interfering RNA)."
+      },
+      "chapter": "biotechnology-and-its-applications",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": "(b)",
+      "choiceGroup": "32",
+      "page": 27,
+      "section": "E",
+      "sectionTitle": "Biology",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Explain the amplification of gene of interest using the technique of Polymerase chain reaction (PCR).",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Each cycle in PCR has three steps - denaturation, annealing, extension. Denaturation: DNA is subjected to high temperature, and the two strands of DNA separate due to broken hydrogen bonds between nitrogenous bases. Annealing: two sets of primers, which are complementary, attach on the 3' end of both template strands. Extension: a new strand of DNA is formed using the thermostable Taq polymerase enzyme (derived from Thermus aquaticus), which extends the primers using the nucleotides provided in the reaction and the genomic DNA as template. The process is repeated about 30 times; the segment of DNA is amplified about 1 billion times, i.e. 1 billion copies are made. (Marks to be allotted if the key points are depicted in the form of a diagram.)"
+      },
+      "chapter": "biotechnology-principles-and-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(a)",
+      "choiceGroup": "33",
+      "page": 27,
+      "section": "E",
+      "sectionTitle": "Biology",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Describe the population growth curve applicable in a population of any species in nature that has limited resources at its disposal.\n(ii) Give the equation of this growth curve.\n(iii) Name the growth curve and depict a graphical plot for this type of population growth.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) A population growing in a habitat with limited resources initially shows a lag phase, followed by phases of acceleration and deceleration, and finally an asymptote when the population density reaches the carrying capacity.\n(ii) [equation image not reproduced in the marking scheme's text layer] (N = population density at time t, r = intrinsic rate of natural increase, k = carrying capacity)\n(iii) Logistic growth curve / Verhulst-Pearl Logistic Growth curve / sigmoid growth curve / S-shaped curve. [graphical plot image not reproduced]"
+      },
+      "chapter": "organisms-and-populations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(b)",
+      "choiceGroup": "33",
+      "page": 27,
+      "section": "E",
+      "sectionTitle": "Biology",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Explain the Species-Area relationship within a natural forest and also predict the nature of graph when species richness is plotted against the area for a wide variety of taxa.\n(ii) Depict the graphical relationship between species richness and area.\n(iii) Give the equation of the Species-Area relationship for a wide variety of taxa on a logarithmic scale.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Within a region, species richness increases with increasing explored area, but only up to a limit. Nature of the graph: rectangular hyperbola.\n(ii) [graph image not reproduced in the marking scheme's text layer]\n(iii) log S = log C + Z log A (S = Species richness, A = Area, Z = slope of the line/regression coefficient, C = Y-intercept)"
+      },
+      "chapter": "biodiversity-and-its-conservation",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

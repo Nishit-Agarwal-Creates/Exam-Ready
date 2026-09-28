@@ -48,7 +48,7 @@ try {
 if (!seeded || reset) {
   execFileSync(process.execPath, [join(root, "scripts", "build-seed.mjs")], { cwd: root, stdio: "inherit" });
   wrangler(["d1", "execute", "DB", "--local", "--file", join("drizzle", "seed", "seed.sql")], { capture: true });
-  console.log("[examready] Demo data loaded. Every demo question is labelled DEMO DATA in the app.");
+  console.log("[examready] AI practice bank loaded. Every one of these questions is stamped AI practice in the app.");
 } else {
   console.log("[examready] Local database already seeded. Run `npm run db:reset` to reload demo data.");
 }

@@ -1,0 +1,1243 @@
+{
+  "source": {
+    "key": "isc-2027-xii-chemistry-specimen",
+    "title": "ISC 2027 Examination Specimen Question Paper, Chemistry Paper 1 (Theory)",
+    "board": "icse",
+    "class": 12,
+    "subject": "chemistry",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations",
+    "paperType": "SPECIMEN",
+    "examYear": 2027,
+    "session": "Specimen Question Paper for the ISC 2027 Examination",
+    "paperName": "Chemistry Paper 1 (Theory)",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2026/07/862A-CHEMISTRY-PAPER-1-THEORY-SQP-AK.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2026/07/862A-CHEMISTRY-PAPER-1-THEORY-SQP-AK.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 21,
+    "sha256": "f76b335cd7a8df44f47268ca803ca8536df195cb94c35617739ce1c8e1b0f324",
+    "maxMarks": 70,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "accessedOn": "2026-09-28",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "notes": "Found via the official page https://cisce.org/specimen-question-papers-isc-class-xii-2027/. The PDF contains the Chemistry Paper 1 (Theory) Specimen Question Paper (10 printed pages, PDF pages 1-10) immediately followed in the same file by its own 'ANSWER KEY' (11 printed pages of its own numbering, PDF pages 11-21); answerSourceUrl is therefore the same URL as sourceUrl and answerSourceFile is null, as instructed. Maximum Marks 70, Time Allotted Three Hours (durationMinutes=180) plus an additional fifteen minutes reading time (noted here, not added to durationMinutes). Printed instructions: 21 questions across four sections - Section A (Question 1, 14 subparts, 1 mark each, 14 marks), Section B (Questions 2-11, ten questions, 2 marks each, 20 marks), Section C (Questions 12-18, seven questions, 3 marks each, 21 marks), Section D (Questions 19-21, three questions, 5 marks each, 15 marks); 14+20+21+15=70 matches maxMarks. Internal choice ('Internal choices have been provided in two questions each in Sections B, C and D'): Questions 4 and 9 (Section B), 14 and 17 (Section C), 19 and 21 (Section D) each print an 'OR' splitting the question into two alternatives. Each alternative is entered as its own question sharing choiceGroup = the question number; the 'part' field is the roman-numeral label that begins that alternative as printed in the PDF. In three cases the OR divides unevenly across the printed sub-numbering: Question 14's first alternative is '(i)+(ii)' together (part recorded as '(i)') and its second alternative is '(iii)' alone; Question 19's first alternative is '(i)' alone and its second alternative is '(ii)+(iii)' together (part recorded as '(ii)', with (iii) embedded in the same entry's text since the PDF prints (iii) directly after (ii) with no further 'OR', i.e. (iii) belongs to whichever answer starts on the (ii) side of that specific OR). Because both alternatives of every OR pair are entered at their full printed mark value, the pack's marks sum to 90 (14 Section A + 24 Section B + 27 Section C + 25 Section D), not 70: a candidate only answers one side of each of the six OR pairs (Question 4: 2, 9: 2, 14: 3, 17: 3, 19: 5, 21: 5 = 20 extra marks) to reach the printed maximum of 70. This is expected and not an error, matching the approach used in the ICSE Class 10 specimen packs in this project. Question 1(C) is a shared reading passage (about alcohols/phenols, bracketed '[3x1]') with three separately 1-mark-each sub-questions (i)-(iii); each is entered as its own SHORT_ANSWER entry with the full passage reproduced in its text (since it is needed context), rather than merged into one case-based entry, because the paper itself marks them as three separate 1-mark items. Question 1(A)'s four fill-in-the-blank items share one printed word bank ('methyl alcohol, ethyl alcohol, paired, one, Cannizzaro, d-d, salicylaldehyde, Perkin's, unpaired, f-f, salicylic acid, Kolbe's, two, 193000, 96500, Reimer-Tiemann'); this is noted per item rather than repeated in the text. Where a combined bracket (e.g. '[2]' or '[3]') covers several top-level, independently-answerable sub-items with no further per-item bracket, and the number of items divides the total evenly, the sub-items were split with marksSource SECTION_INSTRUCTIONS and an assumed even split (Questions 6, 7, 15, 16, 18). Where such a split is NOT even or the sub-items do not stand alone independently, the sub-items were kept together as one entry instead (Question 13's (i) vs (ii)(a)-(c); Question 20's (i)/(ii)/(iii), which carries the whole printed '[5]' with no OR so no split was needed or invented). Chemistry-specific extraction notes: chemical formula subscripts and ionic charges came out flat throughout the text layer (e.g. H2SO4, CoCl3.6NH3, Mg2+, OH-1) and are kept as printed, flagged per question. Purely mathematical notation (scientific-notation exponents such as '10-4', rate-law fractional exponents such as '[A]1/2[B]3/2', degree symbols flattened to plain numerals) was rebuilt inline only where the layout makes it unambiguous, per question, with confidence set to MEDIUM and an extractionIssue noting the rebuild. Structural formulas and reaction schemes drawn as diagrams (the d-orbital splitting diagram in Question 4(ii); the coupling/Balz-Schiemann reaction schemes in Question 9(i); the reagent-over-arrow reaction chains in Question 19(ii); the cis/trans platinum structures and octahedral cobalt complex structure in the Question 20 answer key) were never redrawn or invented; hasFigure is set true on the question where a diagram is needed to answer it, and where only the OFFICIAL ANSWER contains a lost structure/diagram this is flagged via extractionIssues on that entry per the 'Official answer partly missing in extraction' rule instead. Branched structural formulas in official answers that were spread across lines by the PDF layout (e.g. Question 3's compounds [A] and [C]) are reproduced using the same linear fragment the text layer extracted, annotated '(with a CH3 branch, as printed)' rather than redrawn, and flagged for verification against the PDF; nothing was written or drawn from scratch. Question 1(B)(v)'s four MCQ options each end in a blank after the reaction arrow ('C2H5NC -> LiAlH4 _________') in the extracted text; this is flagged as a probable loss of the reaction-product structure from each option (hasFigure true), though the option text needed to identify the correct answer (reactant + reagent) remained legible. Question 17(ii)'s official answer restates 'Λmo (CH3COO)2Mg = 126.9' in its own printed 'Given' line, which duplicates the NaI value and conflicts with 187.8 (the value the same answer actually uses in its calculation, matching the question's own printed data); this is reproduced verbatim as printed in the marking scheme, not corrected, and flagged. Chapter mapping: the valid chapter list for icse/12/chemistry (from `node scripts/check-sources.mjs --chapters icse 12 chemistry`) has no chapter for radioactivity/nuclear chemistry; Question 5 (a half-life/radioactive-decay numerical) was mapped to the nearest genuinely related chapter, chemical-kinetics, since the half-life and first-order-decay mathematics used to solve it is taught there; this is flagged as an approximate mapping rather than left null, since it is not a wild guess. No question in this pack was left with chapter: null."
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(A)(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "FILL_BLANK",
+      "text": "Formaldehyde reacts with conc. alkali to give sodium formate and _________ due to the absence of α - hydrogen atom. The reaction is known as _________ reaction.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Blanks to be filled from the shared word bank printed once for (A)(i)-(iv): 'methyl alcohol, ethyl alcohol, paired, one, Cannizzaro, d-d, salicylaldehyde, Perkin's, unpaired, f-f, salicylic acid, Kolbe's, two, 193000, 96500, Reimer-Tiemann'."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Methyl alcohol, Cannizzaro"
+      },
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(A)(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "FILL_BLANK",
+      "text": "Electrochemical equivalent (Z) is the quantity of substance deposited or discharged by a charge of ________ coulomb, whereas the equivalent conductance (E) is the amount of substance deposited or discharged by a charge of _________ coulombs.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Blanks to be filled from the shared word bank printed once for (A)(i)-(iv): 'methyl alcohol, ethyl alcohol, paired, one, Cannizzaro, d-d, salicylaldehyde, Perkin's, unpaired, f-f, salicylic acid, Kolbe's, two, 193000, 96500, Reimer-Tiemann'."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "One, 96,500"
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "1",
+      "part": "(A)(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "FILL_BLANK",
+      "text": "The colour of transition metal ions is due to ________ electron(s) in d-subshell and _________ transition.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Blanks to be filled from the shared word bank printed once for (A)(i)-(iv): 'methyl alcohol, ethyl alcohol, paired, one, Cannizzaro, d-d, salicylaldehyde, Perkin's, unpaired, f-f, salicylic acid, Kolbe's, two, 193000, 96500, Reimer-Tiemann'."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Unpaired, d-d"
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analyse"
+    },
+    {
+      "number": "1",
+      "part": "(A)(iv)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "FILL_BLANK",
+      "text": "The product formed when sodium phenoxide is treated with CO2 at 400K, under 4-7 atm pressure and then acidified with dilute HCl is _________. The reaction is known as _______ reaction.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Blanks to be filled from the shared word bank printed once for (A)(i)-(iv): 'methyl alcohol, ethyl alcohol, paired, one, Cannizzaro, d-d, salicylaldehyde, Perkin's, unpaired, f-f, salicylic acid, Kolbe's, two, 193000, 96500, Reimer-Tiemann'.",
+        "Subscript flattened: CO2."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Salicylic acid, Kolbe's"
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(B)(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The correct order of freezing point of 0·5M solution of urea, AlCl3, KCl and MgCl2 is:",
+      "options": [
+        "AlCl3 > MgCl2 > KCl > urea",
+        "Urea > KCl > MgCl2 > AlCl3",
+        "MgCl2 > KCl > AlCl3 > urea",
+        "KCl > MgCl2 > AlCl3 > urea"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: AlCl3, MgCl2, KCl."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) / Urea > KCl > MgCl2 > AlCl3",
+        "correctOption": 1
+      },
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Evaluate"
+    },
+    {
+      "number": "1",
+      "part": "(B)(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Glucose molecules react with (x) number of molecules of phenyl hydrazine to yield glucosazone. The melting point of glucosazone is 206°C. The value of (x) is:",
+      "options": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (degree symbol: 206°C, printed as '2060C'); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) / three",
+        "correctOption": 2
+      },
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(B)(iii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Cobalt (III) chloride forms several octahedral complexes with ammonia.\n\nWhich of the following will NOT give a test for chloride ions with silver nitrate solution at 25°C?",
+      "options": [
+        "CoCl3.6NH3",
+        "CoCl3.5NH3",
+        "CoCl3.4NH3",
+        "CoCl3.3NH3"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: CoCl3.6NH3, CoCl3.5NH3, CoCl3.4NH3, CoCl3.3NH3.",
+        "Notation rebuilt from the PDF layout (degree symbol: 25°C, printed as '250C'); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) / CoCl3.3NH3",
+        "correctOption": 3
+      },
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "1",
+      "part": "(B)(iv)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The following data was obtained for a hypothetical reaction 2A+B → 2AB\n\nS. No. | [A] (mol L-1) | [B] (mol L-1) | Initial rate (mol L-1 sec-1)\n1 | 0·5 | 0·5 | 1·8 × 10^-4\n2 | 1·0 | 0·5 | 3·6 × 10^-4\n3 | 1·0 | 1·0 | 3·6 × 10^-4\n\nThe rate law expression for this reaction is:",
+      "options": [
+        "rate = k[A]^1[B]^1",
+        "rate = k[A]^1[B]^0",
+        "rate = k[A]^2[B]^1",
+        "rate = k[A]^0[B]^1"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table (S.No., [A], [B], Initial rate for rows 1-3) reconstructed from the printed layout; check against the PDF.",
+        "Notation rebuilt from the PDF layout (exponents in rate/concentration units and in the rate-law options); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) / rate = k[A]^1[B]^0",
+        "correctOption": 1
+      },
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Apply"
+    },
+    {
+      "number": "1",
+      "part": "(B)(v)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following reactions will NOT give primary amine?",
+      "options": [
+        "C2H5NC → (LiAlH4) _________",
+        "C2H5CN → (LiAlH4) _________",
+        "C2H5CONH2 → (Br2/KOH) _________",
+        "CH3CONH2 → (Br2/KOH) _________"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Reaction-product figure/structure after the arrow in each option was not captured by the text layer (prints as a blank); options given as extracted (reactant/reagent only).",
+        "Subscripts flattened: C2H5NC, C2H5CN, C2H5CONH2, CH3CONH2, Br2, KOH.",
+        "Official answer in the marking scheme reproduces only the option letter plus the option's own (incomplete) text ('LiAlH4 (a) C2H5NC → __________'); no separate explanation is printed."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) / C2H5NC → (LiAlH4) _________",
+        "correctOption": 0
+      },
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "1",
+      "part": "(B)(vi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion and Reason. Read the two statements carefully and select the correct option.\n\nAssertion: When an ether containing a primary alkyl group and tertiary alkyl group is treated with hydrogen iodide, tertiary alkyl iodide is formed.\n\nReason: The reaction takes place via SN1 mechanism, and the more stable tertiary carbocation is formed easily which combines with iodide ion to form tertiary alkyl iodide.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for Assertion.",
+        "Assertion is true and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: SN1 (printed as 'SN1')."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) / Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "correctOption": 0
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analyse"
+    },
+    {
+      "number": "1",
+      "part": "(B)(vii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion and Reason. Read the two statements carefully and select the correct option.\n\nAssertion: Magnesium metal can liberate H2 gas from an aqueous solution of HCl.\n\nReason: Magnesium has positive value of standard reduction electrode potential.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for Assertion.",
+        "Assertion is true and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: H2, HCl."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) / Assertion is true and Reason is false.",
+        "correctOption": 2
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analyse"
+    },
+    {
+      "number": "1",
+      "part": "(C)(i)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Read the passage carefully and answer the questions that follow.\n\nThe hydroxy derivatives of aliphatic hydrocarbons are called alcohols. Ethanol is perhaps the most important aliphatic alcohol. During COVID-19 pandemic alcohol-based sanitizers became an essential protective tool worldwide, reducing the spread of the virus. Nowadays, it is also used as a substitute for petrol in internal combustion engines.\n\nThe boiling points of alcohols are considerably higher than those of the corresponding ethers due to the presence of intermolecular hydrogen bonding in alcohols and it increases with increase in molecular mass. For isomeric alcohols the boiling point follows the order: Primary (1°) alcohol > Secondary (2°) alcohol > Tertiary (3°) alcohol, which is evident from the following data:\n\nCompound: Propan-1-ol, Butan-1-ol, Butan-2-ol, 2-methyl-propan-2-ol\nBoiling point: 370K, 391K, 371K, 356K\n\nAliphatic alcohols behave as weak acids and ionize to a small extent. Their acidic strength is even less than that of both water and phenol. Phenols are hydroxy derivatives of arenes and have varied application in manufacturing of dyes, plastics, drugs, explosives, etc. At different concentrations, phenols are used both as a disinfectant and an antiseptic.\n\nThe boiling point of 2-methyl-propan-2-ol is much lower than that of butan-1-ol, although both have the same molecular formula. Give a reason to explain such observation.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Passage shared with the other parts of Question 1(C); reproduced in full in each entry's text since it is necessary context.",
+        "Table (boiling points of four alcohols) reconstructed from the printed layout; check against the PDF.",
+        "Notation rebuilt from the PDF layout (degree symbols: 1°, 2°, 3° for primary/secondary/tertiary); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "The boiling point of 2-methyl propan-2-ol is much lower than that of butan-1-ol. This is due to the fact that with branching the surface area decreases. Consequently, boiling point also decreases."
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Evaluate"
+    },
+    {
+      "number": "1",
+      "part": "(C)(ii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Read the passage carefully and answer the questions that follow.\n\nThe hydroxy derivatives of aliphatic hydrocarbons are called alcohols. Ethanol is perhaps the most important aliphatic alcohol. During COVID-19 pandemic alcohol-based sanitizers became an essential protective tool worldwide, reducing the spread of the virus. Nowadays, it is also used as a substitute for petrol in internal combustion engines.\n\nThe boiling points of alcohols are considerably higher than those of the corresponding ethers due to the presence of intermolecular hydrogen bonding in alcohols and it increases with increase in molecular mass. For isomeric alcohols the boiling point follows the order: Primary (1°) alcohol > Secondary (2°) alcohol > Tertiary (3°) alcohol, which is evident from the following data:\n\nCompound: Propan-1-ol, Butan-1-ol, Butan-2-ol, 2-methyl-propan-2-ol\nBoiling point: 370K, 391K, 371K, 356K\n\nAliphatic alcohols behave as weak acids and ionize to a small extent. Their acidic strength is even less than that of both water and phenol. Phenols are hydroxy derivatives of arenes and have varied application in manufacturing of dyes, plastics, drugs, explosives, etc. At different concentrations, phenols are used both as a disinfectant and an antiseptic.\n\nAlthough alcohols are weaker acids than water, phenol is more acidic than alcohols. Justify.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Passage shared with the other parts of Question 1(C); reproduced in full in each entry's text since it is necessary context.",
+        "Table (boiling points of four alcohols) reconstructed from the printed layout; check against the PDF.",
+        "Notation rebuilt from the PDF layout (degree symbols: 1°, 2°, 3° for primary/secondary/tertiary); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "The greater acidic character of phenol as compared to alcohols can be explained on the basis of resonance. The oxygen attracts the electron pair of O-H bond strongly towards itself, weakens the O-H bond and therefore facilitates the release of H+ more easily."
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Evaluate"
+    },
+    {
+      "number": "1",
+      "part": "(C)(iii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Read the passage carefully and answer the questions that follow.\n\nThe hydroxy derivatives of aliphatic hydrocarbons are called alcohols. Ethanol is perhaps the most important aliphatic alcohol. During COVID-19 pandemic alcohol-based sanitizers became an essential protective tool worldwide, reducing the spread of the virus. Nowadays, it is also used as a substitute for petrol in internal combustion engines.\n\nThe boiling points of alcohols are considerably higher than those of the corresponding ethers due to the presence of intermolecular hydrogen bonding in alcohols and it increases with increase in molecular mass. For isomeric alcohols the boiling point follows the order: Primary (1°) alcohol > Secondary (2°) alcohol > Tertiary (3°) alcohol, which is evident from the following data:\n\nCompound: Propan-1-ol, Butan-1-ol, Butan-2-ol, 2-methyl-propan-2-ol\nBoiling point: 370K, 391K, 371K, 356K\n\nAliphatic alcohols behave as weak acids and ionize to a small extent. Their acidic strength is even less than that of both water and phenol. Phenols are hydroxy derivatives of arenes and have varied application in manufacturing of dyes, plastics, drugs, explosives, etc. At different concentrations, phenols are used both as a disinfectant and an antiseptic.\n\nIn what form (i.e. concentration), does phenol act as a disinfectant or an antiseptic?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Passage shared with the other parts of Question 1(C); reproduced in full in each entry's text since it is necessary context.",
+        "Table (boiling points of four alcohols) reconstructed from the printed layout; check against the PDF.",
+        "Notation rebuilt from the PDF layout (degree symbols: 1°, 2°, 3° for primary/secondary/tertiary); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "A 0·2% of phenol acts as an antiseptic, whereas its 1% solution is used as a disinfectant."
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The standard reduction electrode potential (E°) of some metals is given below:\n\nMetal: Ag+/Ag, Mg2+/Mg, Li+/Li, Cu2+/Cu, Fe2+/Fe\nE°: +0·80V, -2·37V, -3·05V, +0·34V, -0·44V\n\nArrange these metals in the increasing order of their reducing power. Justify the order.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table (standard reduction potentials of five metals) reconstructed from the printed layout; check against the PDF.",
+        "Superscripts/subscripts flattened: Ag+/Ag, Mg2+/Mg, Li+/Li, Cu2+/Cu, Fe2+/Fe."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Increasing order of reducing power of metals is Ag < Cu < Fe < Mg < Li.\nReducing power = 1 / Reduction potential, i.e., as the reduction potential (value of metal) decreases, reducing power of metal increases."
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Apply"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "An alkene [A] with molecular formula, C5H10 on ozonolysis and subsequent hydrolysis gives a mixture of two compounds, [B] and [C]. Compound [B] gives positive Fehling's test and also reacts with iodine and NaOH solution. Compound [C] does not give Fehling's test but forms iodoform.\n\nIdentify compounds [A], [B] and [C]. Write the iodoform reaction either with compound [B] or [C].",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: C5H10.",
+        "Official answer's structural formulas for compounds [A] and [C] (branched, drawn across multiple lines with a CH3 substituent) are reproduced using the same linear fragment the text layer extracted, annotated 'with a CH3 branch, as printed' rather than redrawn; verify against the PDF.",
+        "Subscripts flattened in the official answer: CH3CHO, NaOH, CHI3, NaI, HCOONa, H2O, CH3COONa.",
+        "The marking scheme's own answer for [B] reads 'CH3CHO or acetaldehyde or ethanol' verbatim (ethanol appears to be a typo for ethanal in the marking scheme); reproduced as printed, not corrected."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "[A] CH3–CH=C–CH3 (with a CH3 branch, as printed) or 2-methyl but-2-ene\n[B] CH3CHO or acetaldehyde or ethanol\n[C] CH3–C=O (with a CH3 branch, as printed) or propanone or acetone\n\nIodoform reaction with compound [B]:\nCH3CHO + 3I2 + 4NaOH →(Δ) CHI3 + 3NaI + HCOONa + 3H2O\n\nOr, iodoform reaction with compound [C]:\nCH3–C=O (with a CH3 branch) + 3I2 + 4NaOH →(Δ) CHI3 + 3NaI + CH3COONa + 3H2O"
+      },
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "4",
+      "part": "(i)",
+      "choiceGroup": "4",
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Answer the following questions with respect to the coordination complex ion [Cr(NH3)6]3+\n(a) What is the hybridisation state of the central metal atom?\n(b) Comment on the magnetic nature of the complex ion.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "This is one of two OR alternatives for Question 4 (choiceGroup 4); the candidate answers only (i) or (ii).",
+        "Sub-parts carry different printed cognitive tags: (a) Understand, (b) Analyse; kept as one entry around the shared complex ion, so no single cognitiveLevel is recorded.",
+        "Subscripts/superscripts flattened: [Cr(NH3)6]3+."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Type of hybridisation: d2sp3\n(b) Magnetic behaviour: paramagnetic. Reason: There are three unpaired electrons."
+      },
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(ii)",
+      "choiceGroup": "4",
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Observe the diagram below of splitting of d-orbital in octahedral field and answer the following questions.\n\n[diagram of octahedral crystal-field splitting; extracted axis labels only: '+0.60Δo', '-0.40Δo', 'Δo or 10Dq']\n\n(a) Identify the electronic configuration of d5 ion, if Δo < P.\n(b) Comment on the relationship between crystal field stabilisation energy (Δo) and the strength of the ligand.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "This is the other of two OR alternatives for Question 4 (choiceGroup 4); the candidate answers only (i) or (ii).",
+        "Diagram of octahedral d-orbital splitting (eg/t2g energy-level diagram) on page 5 not reproduced; only its extracted axis labels are kept in the text ('+0.60Δo', '-0.40Δo', 'Δo or 10Dq').",
+        "Sub-parts carry different printed cognitive tags: (a) Understand, (b) Analyse; kept as one entry, so no single cognitiveLevel is recorded.",
+        "Subscripts flattened: d5.",
+        "Notation rebuilt from the PDF layout (subscripts/superscripts in the electronic configuration, printed as 't23geg2'); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) t2g^3 eg^2\n(b) If the value of CFSE (Δo) is more, ligand is strong (i.e. low spin complex)."
+      },
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Rohan, a patient of thyroid disorder, was given certain amount of radioactive Iodine-131 as a part of his treatment.\n\nWhat amount of Iodine-131 will be left in Rohan's body after 48 days, if it is known that the half-life period of radioactive iodine-131 is 12 days? Assume that no amount of the isotope was eliminated through biological processes.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers in the half-life calculation); check against the PDF.",
+        "Chapter mapping note: this radioactivity/half-life problem has no dedicated chapter in the valid ICSE Class 12 Chemistry chapter list; mapped to the nearest related chapter (chemical-kinetics) since the half-life/first-order-decay mathematics is taught there."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Given: t1/2 = 12 days, t = 48 days.\nNumber of half lives = Total time / Half life period = 48/12 = 4\nAmount left after 4 half lives: A = Ao × (1/2)^4 = Ao × 1/16\ni.e., 1/16 of the initial amount."
+      },
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Apply"
+    },
+    {
+      "number": "6",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "How can the following conversion be carried out? (Write the chemical equation): Aniline to chlorobenzene",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'How can the following conversions be carried out? (Write the chemical equations):' and combined mark [2] printed once for (i)-(ii); assumed 1 mark each (even split).",
+        "Subscripts flattened: C6H5N2Cl, C6H5Cl, N2, Cu2Cl2."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "C6H5N2Cl → (Cu2Cl2/HCl) C6H5Cl + N2\nor\nC6H5N2Cl → (Cu/HCl) C6H5Cl + N2"
+      },
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "6",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "How can the following conversion be carried out? (Write the chemical equation): Chloroethane to n-butane",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'How can the following conversions be carried out? (Write the chemical equations):' and combined mark [2] printed once for (i)-(ii); assumed 1 mark each (even split).",
+        "Subscripts flattened: C2H5Cl, NaCl."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "C2H5Cl + 2Na + ClC2H5 → (ether) C2H5–C2H5 + 2NaCl (n-butane)"
+      },
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "7",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Substantiate the following statement with a reason.\nCobalt is attracted in a magnetic field whereas Zinc is not.\n(Atomic number of Co = 27 and Zn =30)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Substantiate the following statements with reasons.' and combined mark [2] printed once for (i)-(ii); assumed 1 mark each (even split).",
+        "Subscripts flattened: d7, d10."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Cobalt has d7 electrons in the outer shell and therefore, has three unpaired electrons. Therefore, it will be attracted in a magnetic field.\nZinc has completely filled d10 configuration and therefore, will not be attracted by the magnetic field."
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "7",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Substantiate the following statement with a reason.\nThe melting points and boiling points of Zn, Cd and Hg are low.\n(Atomic number of Zn = 30, Cd = 48 and Hg = 80)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Substantiate the following statements with reasons.' and combined mark [2] printed once for (i)-(ii); assumed 1 mark each (even split)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "In Zn, Cd and Hg, all the electrons in d-subshell are paired. Hence, the metallic bonds present in them are weak. Therefore, they have low melting and boiling points."
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Write the Nernst equation and calculate the emf of the following cell at 298K.\n\nMg(s) / Mg2+ (1×10-3M) // Cu2+(1×10-4M) / Cu(s)\n\nGiven: E°(Mg2+/Mg)= -2·373V, E°(Cu2+/Cu)= +0·337V",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts flattened: Mg2+, Cu2+, Mg(s), Cu(s).",
+        "Notation rebuilt from the PDF layout (exponents in the molar concentrations 1×10-3M, 1×10-4M); check against the PDF.",
+        "Official answer's Nernst-equation layout (numerator/denominator/exponent terms) reconstructed from the printed line breaks; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Ecell = E°cell – (0.059/n) log ([Mg2+]/[Cu2+]) (Nernst equation)\nE°cell = E°cathode – E°anode = 0.337V – (–2.373V) = +2.71V\nEcell = 2.71 – (0.059/2) log (1×10^-3 / 1×10^-4)\n= 2.71 – 0.0295 log 10\n= 2.71 – 0.0295 × 1\nEcell = 2.6805 V"
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Apply"
+    },
+    {
+      "number": "9",
+      "part": "(i)",
+      "choiceGroup": "9",
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Illustrate the following reactions with an example in each case:\n(a) Coupling reaction\n(b) Balz-Schiemann reaction",
+      "hasFigure": true,
+      "extractionIssues": [
+        "This is one of two OR alternatives for Question 9 (choiceGroup 9); the candidate answers only (i) or (ii).",
+        "Reaction-scheme figures (diazonium-salt structures, reagents/conditions over arrows) on page 6 were flattened and reordered by the text layer into disconnected fragments (e.g. 'N2+. Cl−', 'alkali', '273–278K', 'N=N OH + HCl', 'p-hydroxyazobenzene' for (a); 'N2+.Cl−', 'HBF4', '273–278K', 'N2+.BF4−', 'heat', 'Fluorobenzene' for (b)); only the extracted textual fragments below are reproduced, not a reconstructed equation; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Coupling reaction (alkali, 273–278K) → p-hydroxyazobenzene (or any other correct example)\n(b) Balz-Schiemann reaction: (273–278K, then heat, using HBF4) → Fluorobenzene (or any other correct example)"
+      },
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "9",
+      "part": "(ii)",
+      "choiceGroup": "9",
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "An organic compound [A] with molecular formula C3H7NO forms compound [B] on heating with Br2 and KOH. Compound [B] on heating with CHCl3 and alcoholic KOH produces a pungent smelling compound [C]. Compound [B] on reacting with C6H5SO2Cl forms compound [D] which is soluble in alkali.\n\nWrite the structures of compounds [A], [B], [C] and [D].",
+      "hasFigure": false,
+      "extractionIssues": [
+        "This is the other of two OR alternatives for Question 9 (choiceGroup 9); the candidate answers only (i) or (ii).",
+        "Subscripts flattened: C3H7NO, Br2, KOH, CHCl3, C6H5SO2Cl.",
+        "Official answer's structure for compound [D] (drawn with the H on the N shown on a separate line) is reproduced with the line break preserved, not redrawn; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "[A] C2H5CONH2\n[B] C2H5NH2\n[C] C2H5N≡C\n[D] C6H5SO2–N–C2H5 (H on the N, shown on a separate line in the PDF, as printed)"
+      },
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "In general, it is observed that the rate of a reaction becomes double with every 10°C rise in temperature. If this generalisation holds true for a reaction, calculate the value of activation energy when temperature changes from 295 K to 305 K.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (degree symbol: 10°C, printed as '10oC'); check against the PDF.",
+        "Official answer's Arrhenius-equation layout (fractions across lines) reconstructed from the printed line breaks; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Given: T1 = 295K, T2 = 305K, k2/k1 = 2\nlog(k2/k1) = Ea/2.303R × (1/T1 − 1/T2)\nlog 2 = Ea/(2.303 × 8.314) × (1/295 − 1/305)\n0.3010 = Ea × 10 / (19.147 × 295 × 305)\nEa = 0.3010 × 19.147 × 295 × 305 / 10 = 151854.8 J K-1 mol-1\nEa = 151.854 kJ mol-1"
+      },
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Apply"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The students of Class XII were on a study trip. They visited a nearby lake and took some water samples which were rich in sodium chloride salt. The boiling point of lake water was found to be 373·032 K.\n\nIf 500 g of lake water sample was used which contained 0·45 g of NaCl, what is the observed molecular weight of NaCl in the lake sample? Assume that NaCl ionises completely in lake water.\n(Given: kb of water = 0·52K kg mol-1, boiling point of pure water = 373 K)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: kb.",
+        "Official answer's formula (numerator/denominator across lines) reconstructed from the printed layout; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Given: ΔTb = 0.032 K, w = 0.45g, W = 500g, Kb = 0.52 K kg mol-1, NaCl → Na+ + Cl-, i = 2\nM(obs) = (i × 1000 × Kb × w) / (ΔTb × W) = (2 × 1000 × 0.52 × 0.45) / (0.032 × 500)\nM(obs) = 29.25 g mol-1"
+      },
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analyse"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Two students Rehan and Ananya were given the same compound, alkyl halide (C2H5Cl) by their chemistry teacher and asked to perform different reactions.\n\n• Rehan was instructed to use alcoholic KCN as a reagent and Ananya was instructed to use alcoholic AgCN.\n• Rehan observed a compound was formed that could be converted to a carboxylic acid on hydrolysis but Ananya could not obtain the same acid.\n• The teacher explained that the difference was due to the bonding behaviour of cyanide ions in the reagents.\n\nWrite the chemical equations of the reactions and the IUPAC names of the compounds formed by Rehan and Ananya.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: C2H5Cl, KCN, AgCN."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Rehan's Reaction: C2H5Cl + KCN →(alc) C2H5CN + KCl (Propane nitrile)\nAnanya's Reaction: C2H5Cl + AgCN →(alc) C2H5NC + AgCl (Ethyl carbylamine)"
+      },
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(i) For a given first order reaction, it takes 5 minutes for the initial concentration of 0·6 moles litre-1 to become 0·2 moles litre-1. Calculate the rate constant for this reaction.\n\n(ii) Find the overall order of the reactions which have the following rate law expression:\n(a) Rate = k[A]^(1/2)[B]^(3/2)\n(b) Rate = k[A]^(3/2)[B]^-1\n(c) Rate = k[A]^1[B]^2",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marks not itemised between (i) and (ii)(a)-(c) (only the combined total [3] is printed for the whole question); kept together as one entry.",
+        "Sub-parts carry different printed cognitive tags: (i) Apply, (ii) Understand; no single cognitiveLevel recorded.",
+        "Notation rebuilt from the PDF layout (fractional/negative exponents in the rate laws); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) Given: t = 5 minutes, a = 0.6 moles litre-1, (a−x) = 0.2 moles litre-1\nK = (2.303/t) log10 [a/(a−x)] = (2.303/5) log10 (0.6/0.2) = (2.303/5) log 3 = (2.303 × 0.477)/5\nK = 0.2197 min-1\n\n(ii)(a) Rate = k[A]^(1/2)[B]^(3/2): overall order = 1/2 + 3/2 = 2\n(b) Rate = k[A]^(3/2)[B]^-1: overall order = 3/2 − 1 = 1/2\n(c) Rate = k[A]^1[B]^2: overall order = 1 + 2 = 3"
+      },
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": "(i)",
+      "choiceGroup": "14",
+      "page": 7,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "(i) Compounds [X] and [Y] are functional isomers of each other with molecular formula C2H6O.\n(a) Draw the structural formula of both the isomers.\n(b) Which of the compounds will have a lower boiling point and why?\n\n(ii) Methanol does not give yellow precipitate of iodoform when heated with iodine and alkali, but ethanol gives iodoform test with the same reagents. Explain.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "This is one of two OR alternatives for Question 14 (choiceGroup 14; this alternative starting at (i) also includes (ii)); the candidate answers only (i)+(ii) or (iii).",
+        "Subscript flattened: C2H6O."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i)(a) Functional isomers: [X] = CH3CH2OH, [Y] = CH3-O-CH3\n(b) Compound [Y] will have lower boiling point as it is an ether which cannot form associated molecules by intermolecular hydrogen bond.\n\n(ii) Methanol does not have a CH3-CH(OH)- group and therefore does not give the iodoform test: CH3OH + I2 + NaOH →(Δ) No reaction.\nEthanol contains a CH3-CH(OH)- group and gives the iodoform test: CH3CH2OH + I2 + NaOH →(Δ) CHI3 (Iodoform)"
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "14",
+      "part": "(iii)",
+      "choiceGroup": "14",
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(iii) How will the following be converted? (Give chemical equations)\n(a) Diethyl ether from sodium ethoxide\n(b) Propan-2-ol from Grignard's reagent\n(c) Phenol from Cumene",
+      "hasFigure": false,
+      "extractionIssues": [
+        "This is the other of two OR alternatives for Question 14 (choiceGroup 14); the candidate answers only (i)+(ii) or (iii).",
+        "Official answer's structures for (b) and (c) (multi-line, with substituents drawn above/below the main chain) are reproduced in condensed line notation following the PDF's own line breaks/labels as closely as possible, not redrawn; verify against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) C2H5ONa + BrC2H5 →(330K) C2H5-O-C2H5 + NaBr (Diethyl ether)\n(b) CH3CHO + CH3MgBr →(dry ether) CH3-CH(OMgBr)-CH3 →(H2O,H+; -Mg(OH)Br) CH3-CH(OH)-CH3 (Propan-2-ol)\n(c) Cumene [CH3-CH(CH3)-C6H5] + O2 → CH3-C(CH3)(C6H5)-O-O-H →(H+,H2O) Phenol + CH3CO-CH3 (acetone)"
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "15",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Complete and balance the following chemical equation.\n\nKMnO4 + H2SO4 + H2S → _____ + _____ + _____ + _____",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split).",
+        "Subscripts flattened: KMnO4, H2SO4, H2S."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "2KMnO4 + 3H2SO4 + 5H2S → K2SO4 + 2MnSO4 + 8H2O + 5S"
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "15",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Why do transition metals form alloys?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Atoms of transition metal can easily take the place in the crystal lattice of another metal in the molten state and are miscible with each other and thus form alloys."
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "15",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Potassium dichromate (K2Cr2O7) acts as a powerful oxidising agent in acidic medium. Explain.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split).",
+        "Subscript flattened: K2Cr2O7."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "In the presence of dilute sulphuric acid, K2Cr2O7 liberates nascent oxygen and therefore, acts as an oxidising agent.\nOr: K2Cr2O7 + 4H2SO4 → K2SO4 + Cr2(SO4)3 + 4H2O + 3[O]"
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analyse"
+    },
+    {
+      "number": "16",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Identify the non-reducing sugar which on hydrolysis gives two reducing monosaccharides.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Sucrose"
+      },
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understand"
+    },
+    {
+      "number": "16",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Which structure of protein is normally unaffected during denaturation of protein?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Primary structure"
+      },
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "16",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Name the vitamins whose deficiency cause the following diseases.\n(a) Rickets\n(b) Night blindness",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Rickets – Vitamin D\n(b) Night blindness – Vitamin A"
+      },
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "17",
+      "part": "(i)",
+      "choiceGroup": "17",
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Three electrolytic cells (X), (Y) and (Z) containing solutions of AgNO3, CuSO4 and ZnSO4 respectively are connected in series. A steady current of 1·5 ampere is passed through these electrolytic cells until 1·45g of silver is deposited at the cathode of cell (X).\n\n(Atomic weight of Ag =108, Cu = 63·5 and Zn = 65·3)\n\n(a) How much of charge is given to the electrolyte solution?\n(b) What mass of copper and zinc is deposited at the respective cathode?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "This is one of two OR alternatives for Question 17 (choiceGroup 17); the candidate answers only (i) or (ii).",
+        "Sub-parts carry different printed cognitive tags: (a) Apply, (b) Analyse; no single cognitiveLevel recorded.",
+        "Subscripts flattened: AgNO3, CuSO4, ZnSO4.",
+        "Official answer's fraction layouts (numerator/denominator across lines) reconstructed from the printed line breaks; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Cell [X] contains AgNO3: AgNO3 ⇌ Ag+ + NO3-; Ag+ + e- ⇌ Ag (at cathode)\n(a) 1 mole (108 g) of Ag is deposited by 96500 coulombs. 1.45 g of Ag is deposited by (96500 × 1.45)/108 = 1295.6 coulombs.\n(b) Cell [Y]: Cu2+ + 2e- → Cu. 2×96500 coulombs deposit 63.5 g of Cu; 1295.6 coulombs deposit (63.5 × 1295.6)/(2×96500) = 0.426 g of Cu.\nCell [Z]: Zn2+ + 2e- → Zn. 2×96500 coulombs deposit 65.3 g of Zn; 1295.6 coulombs deposit (65.3 × 1295.6)/(2×96500) = 0.438 g of Zn."
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(ii)",
+      "choiceGroup": "17",
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The molar conductivities at infinite dilution for NaI, CH3COONa and (CH3COO)2Mg are 126·9, 91·0 and 187·8 ohm-1 cm2 mol-1 respectively at 25°C.\n\nFind out the molar conductivity of MgI2 at infinite dilution by using Kohlrausch's law of independent migration of ions.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "This is the other of two OR alternatives for Question 17 (choiceGroup 17); the candidate answers only (i) or (ii).",
+        "Subscripts flattened: NaI, CH3COONa, (CH3COO)2Mg, MgI2.",
+        "Notation rebuilt from the PDF layout (degree symbol: 25°C, printed as '25oC'); check against the PDF.",
+        "The marking scheme's own 'Given' restatement lists Λmo((CH3COO)2Mg) = 126.9, which duplicates the NaI value and conflicts with 187.8 (the value the same answer actually uses in its calculation below, matching the question's own printed data); reproduced verbatim as printed in the marking scheme, not corrected."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Given: Λmo(NaI) = 126.9, Λmo(CH3COONa) = 91.0, Λmo((CH3COO)2Mg) = 126.9 ohm-1 cm2 mol-1 [as printed in the marking scheme's 'Given' line]\nΛmo(MgI2) = Λmo((CH3COO)2Mg) + 2Λmo(NaI) − 2Λmo(CH3COONa)\n= 187.8 + 2(126.9) − 2(91.0)\n= 259.6 ohm-1 cm2 mol-1"
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Apply"
+    },
+    {
+      "number": "18",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Write the chemical equation for the following conversion: Nitrobenzene to benzene",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split).",
+        "Subscripts flattened: C6H5NO2, C6H5NH2, C6H6, H3PO2, H2O."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "C6H5NO2 + 6[H] →(Sn/HCl) C6H5NH2 →(HNO2+HCl, 273–278K) C6H5N2+Cl- →(H3PO2+H2O) C6H6 (or any other correct reaction)"
+      },
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "18",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Write the chemical equation for the following conversion: Aniline to bromobenzene",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split).",
+        "Official answer's structural drawing (benzene ring with substituents) is reproduced as its extracted linear formula fragments, not redrawn; verify against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "NH2-C6H5 + HNO2 + HCl →(273–278K) N2+Cl- -C6H5 →(Cu2Br2+HBr) Br-C6H5 + N2 (or any other correct reaction)"
+      },
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "18",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Write the chemical equation for the following conversion: Methyl cyanide to ethylamine",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "CH3CN + 4[H] →(Na/alcohol or H2/Ni) CH3CH2NH2"
+      },
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "19",
+      "part": "(i)",
+      "choiceGroup": "19",
+      "page": 9,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "An organic compound [A] with molecular formula C2Cl3O2H is obtained when compound [B] reacts with red phosphorous and Cl2. The organic compound [B] can be obtained on the reaction of methyl magnesium bromide with carbon dioxide followed by acid hydrolysis. Upon partial reduction, compound [B] forms compound [C] with molecular formula C2H4O, which gives yellow precipitate of iodoform on heating with iodine in presence of sodium hydroxide. Compound [C] also reacts with dilute NaOH to form compound [D].\n\n(a) Identify the compounds [A], [B], [C] and [D].\n(b) Write down the reaction for the formation of [A] from [B]. What is the reaction called?\n(c) Write the chemical test to distinguish between compound [C] and acetone.\n(d) Which will be more acidic, compound [A] or [B]? Why?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "This is one of two OR alternatives for Question 19 (choiceGroup 19); the candidate answers only (i) or (ii).",
+        "Sub-parts carry different printed cognitive tags: (a) Understand, (b) Recall, (c) Analyse, (d) Evaluate; no single cognitiveLevel recorded.",
+        "Subscripts flattened: C2Cl3O2H, Cl2, C2H4O.",
+        "Official answer's structure for compound [D] (drawn with the OH substituent on a separate line, indicating 2-hydroxybutanal) is reproduced with the line breaks preserved, not redrawn; verify against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) [A] Cl3C-COOH or trichloroacetic acid\n[B] CH3COOH or acetic acid\n[C] CH3CHO or acetaldehyde\n[D] CH3-C(OH)(H)-CH2-CHO or 2-hydroxybutan-al (OH on the middle carbon, shown on a separate line in the PDF, as printed)\n(b) CH3COOH + 3Cl2 →(Red P) Cl3C-COOH + 3HCl — Hell-Volhard-Zelinsky (HVZ) reaction\n(c) Compound [C] acetaldehyde gives Tollen's reagent test (silver mirror), Fehling's solution test (Red ppt of Cu2O), Schiff's reagent test (pink colour), whereas acetone does not respond to these tests. (or any other correct test)\n(d) Compound [A] i.e. trichloroacetic acid will be more acidic due to the electron withdrawing tendency of Cl atoms (-I effect). It stabilises the carboxylate anion by dispersing the negative charge and therefore, strengthening the acid. Compound [B] i.e. acetic acid is less acidic due to the absence of -I effect."
+      },
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(ii)",
+      "choiceGroup": "19",
+      "page": 9,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "(ii) Identify the compounds [A], [B] and [C] in the following reactions:\n(a) CH3C≡N → (SnCl2/HCl, H2O) [A] → (CH3MgBr, H2O) [B] → (Acidified K2Cr2O7) [C]\n(b) H–C≡C–H → (H2O, Hg2+/H2SO4) [A] → ([O], K2Cr2O7 + H2SO4) [B] → (PCl5) [C]\n\n(iii) Write chemical equations to convert the following:\n(a) Acetone to propene\n(b) Benzaldehyde to cinnamic acid",
+      "hasFigure": true,
+      "extractionIssues": [
+        "This is the other of two OR alternatives for Question 19 (choiceGroup 19; this alternative starting at (ii) also includes the compulsory (iii), which the PDF prints directly after (ii) with no further 'OR'); the candidate answers only (i) or (ii)+(iii).",
+        "Reaction schemes (a) and (b) in (ii) are diagrams with reagents over/under arrows; the text layer flattened and reordered the reagent labels relative to the arrows (extracted as 'CH3C≡N SnCl2/HCl [A] CH3MgBr [B] Acidified [C] H2O H2O K2Cr2O7' and similarly for (b)); the reagent-to-arrow assignment above is a best-effort reading and should be checked against the PDF.",
+        "Subscripts/superscripts flattened throughout: SnCl2, CH3MgBr, K2Cr2O7, H2SO4, Hg2+, PCl5.",
+        "Sub-parts carry different printed cognitive tags: (ii) Analyse, (iii) Recall; no single cognitiveLevel recorded."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(ii)(a) [A] CH3CHO\n[B] CH3CH(OH)CH3\n[C] CH3COCH3\n(b) [A] CH3CHO\n[B] CH3COOH\n[C] CH3COCl\n\n(iii)(a) Acetone to Propene: (CH3)2C=O →(LiAlH4) (CH3)2CH-OH →(443K, H2SO4) CH3-CH=CH2 + H2O\n(b) Benzaldehyde to cinnamic acid: C6H5CHO + (CH3CO)2O →(i. CH3COONa; ii. H2O, boil) C6H5CH=CHCOOH + CH3COOH (Cinnamic acid)"
+      },
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) The compound [PtCl2(NH3)2] also known as cis-platin, is used in chemotherapy. It also demonstrates how coordination geometry impacts medical science.\n(a) Write its IUPAC name and the type of isomerism it exhibits.\n(b) What is the geometry of the compound?\n\n(ii) What type of structural isomers are [Pt(NH3)3Br]NO3 and [Pt(NH3)3(NO3)]Br? How can they be distinguished by using a chemical test?\n\n(iii) A coordination compound CoCl3.4H2O precipitates silver chloride when treated with silver nitrate. The molar conductance of its solution corresponds to a total of two ions. Write the structural formula of the compound and name it.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marks not itemised across (i), (ii) and (iii) (only the combined total [5] is printed for the whole question, and there is no OR here); kept together as one entry.",
+        "Sub-parts carry different printed cognitive tags: (i) Recall, (ii) Analyse, (iii) Evaluate; no single cognitiveLevel recorded.",
+        "Subscripts/superscripts flattened: [PtCl2(NH3)2], [Pt(NH3)3Br]NO3, [Pt(NH3)3(NO3)]Br, CoCl3.4H2O.",
+        "Official answer's structural diagrams for the cis/trans isomers of (i) and the octahedral structural formula for (iii) are structures drawn across multiple lines in the PDF; reproduced here in condensed line notation following the PDF's own labels as closely as possible, not redrawn; verify against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i)(a) diamminedichloridoplatinum (II); geometrical isomerism.\ncis-diamminedichloridoplatinum(II): Cl and NH3 ligands drawn on the same side (as printed); trans-diamminedichloridoplatinum(II): Cl and NH3 ligands drawn on opposite sides (as printed).\n(b) Square planar geometry.\n\n(ii) Ionisation isomers.\n[Pt(NH3)3Br]NO3 → [Pt(NH3)3Br]+ + NO3−. Aqueous solution of this isomer when heated strongly with conc. H2SO4 gives brown fumes of NO2; it also gives a brown ring test with freshly prepared FeSO4 solution and conc. H2SO4.\n[Pt(NH3)3NO3]Br → [Pt(NH3)3NO3]+ + Br−. Aqueous solution of this isomer reacts with AgNO3 solution to give a yellow precipitate of AgBr which is sparingly soluble in excess NH4OH.\n\n(iii) [Co(H2O)4Cl2]Cl → [Co(H2O)4Cl2]+ + Cl−; AgNO3 + Cl− →(aq) AgCl(ppt) + NO3−.\nStructural formula: an octahedral Co(III) centre with four H2O and two Cl ligands (drawn as a diagram in the PDF, not reproduced here).\nIUPAC Name – tetraaquadichlorocobalt(III) chloride."
+      },
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(i)",
+      "choiceGroup": "21",
+      "page": 10,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "(a) 300 ml of aqueous solution of protein contains 1·85g of protein, the osmotic pressure of the solution at 25°C is found to be 3·05 × 10-3atm. Calculate the molar mass of the protein.\n(b) Phenol (C6H5OH) associates in benzene to form a dimer. A solution of 2·5g of phenol in 120g of benzene lowers its freezing point by 0·85K. Calculate the degree of association of phenol.\n(kf for benzene = 5·12 K kg mol-1, molecular mass of phenol = 94 g mol-1)\n(c) The molecular weight of potassium chloride and sucrose is determined by the depression of freezing point method. Compared to their theoretical molecular weight, what will be their observed molecular weights when determined by the above method? Justify your answer.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "This is one of two OR alternatives for Question 21 (choiceGroup 21); the candidate answers only (i) or (ii).",
+        "Marks not itemised across (a)-(c) (only the combined [5] for the whole alternative is printed); kept together as one entry.",
+        "Sub-parts carry different printed cognitive tags: (a) Apply, (b) Apply, (c) Evaluate; kept as one entry since (a) and (b) share 'Apply' but (c) differs, so no single cognitiveLevel is recorded.",
+        "Notation rebuilt from the PDF layout (exponent in 3.05 × 10-3atm); check against the PDF.",
+        "Subscripts flattened: C6H5OH, kf.",
+        "Official answer's fraction layouts reconstructed from the printed line breaks throughout; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Given: π = 3.05×10^-3 atm, T = 298K, V = 300/1000 = 0.3 L, w = 1.85 g\nπ = CRT = (w×R×T)/(m×V)\nm = (1.85 × 0.0821 × 298) / (3.05×10^-3 × 0.3)\nm = 49466 g mol-1 [as printed]\n\n(b) Given: kf = 5.12 K kg mol-1, ΔTf = 0.85K, m = 94 g mol-1, w = 2.5 g, W = 120 g, n = 2\nM(observed) = (1000 × kf × w)/(ΔTf × W) = (1000 × 5.12 × 2.5)/(0.85 × 120) = 125.49 g mol-1\ni = M(normal)/M(observed) = 94/125.49 = 0.749\nα (degree of association) = (1−i)/(1−1/n) = (1−0.749)/(1−1/2) = 0.251/0.5 = 0.502 or 50.2%\n\n(c) The observed molecular mass of potassium chloride will be half of its theoretical molecular mass. The depression in freezing point is a colligative property which depends upon the number of solute particles present in solution. KCl is a strong electrolyte; it furnishes two ions, KCl → K+ + Cl-.\nThe observed molecular mass of sucrose as determined by the depression in freezing point method will be the same as the theoretical molecular mass."
+      },
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(ii)",
+      "choiceGroup": "21",
+      "page": 10,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "(a) Arrange the following aqueous solutions in increasing order of osmotic pressure. Give reasons in support of your answer.\n(1) 6·0g per litre of urea solution (molecular weight of urea = 60g mol-1)\n(2) 72·0g per litre of glucose solution (molecular weight of glucose = 180g mol-1)\n(3) 5·85g per litre of sodium chloride solution (molecular weight of sodium chloride = 58·5g mol-1)\n\n(b) Calculate the mole fraction (x) of ethanol and water if 92g of ethanol is dissolved in 540g of water.\n(Atomic mass of C = 12, O = 16 and H = 1)\n\n(c) What type of azeotropic mixture will be formed by a solution of chloroform and acetone? Justify your answer based on strength of intermolecular interactions that develops in the solution.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "This is the other of two OR alternatives for Question 21 (choiceGroup 21); the candidate answers only (i) or (ii).",
+        "Marks not itemised across (a)-(c) (only the combined [5] for the whole alternative is printed); kept together as one entry.",
+        "Sub-parts carry different printed cognitive tags: (a) Analyse, (b) Apply, (c) Evaluate; no single cognitiveLevel recorded.",
+        "Notation rebuilt from the PDF layout (fractions in the mole-fraction and mole calculations); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Osmotic pressure ∝ number of solute particles.\n(1) Moles of urea = 6/60 = 0.1 mol → 0.1 × 6.023×10^23 = 6.023×10^22 particles\n(2) Moles of glucose = 72/180 = 0.4 mol → 0.4 × 6.023×10^23 = 24.092×10^22 particles\n(3) Moles of NaCl = 5.85/58.5 = 0.1 mol; NaCl → Na+ + Cl-, so 0.1 mol NaCl → 2 × 6.023×10^23 × 0.1 = 12.046×10^22 particles\nTherefore, increasing order of osmotic pressure is: Urea < NaCl < glucose\n\n(b) Given: wt. of C2H5OH = 92 g, wt. of H2O = 540 g, mol. wt. of C2H5OH = 46 g mol-1, mol. wt. of H2O = 18 g mol-1\nNo. of moles of C2H5OH (n) = 92/46 = 2 moles\nNo. of moles of H2O (N) = 540/18 = 30 moles\nMole fraction of C2H5OH = n/(n+N) = 2/32 = 0.0625\nMole fraction of water = N/(n+N) = 30/32 = 0.9375\n\n(c) The mixture of chloroform and acetone is an example of maximum boiling azeotrope. It shows negative deviation from Raoult's Law because of the increase in intermolecular forces of attraction between chloroform and acetone, since they form hydrogen bonds between them."
+      },
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

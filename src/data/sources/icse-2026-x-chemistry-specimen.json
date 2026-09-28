@@ -1,0 +1,1782 @@
+{
+  "source": {
+    "key": "icse-2026-x-chemistry-specimen",
+    "title": "ICSE 2026 Examination Specimen Question Paper, Chemistry (Science Paper – 2)",
+    "board": "icse",
+    "class": 10,
+    "subject": "chemistry",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations",
+    "paperType": "SPECIMEN",
+    "examYear": 2026,
+    "session": "Specimen Question Paper for the ICSE 2026 Examination",
+    "paperName": "Chemistry (Science Paper – 2)",
+    "paperCode": "T26 522",
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-522-SCI2.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-522-SCI2.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 20,
+    "sha256": "a021b2b35429b86990b2899876c93d4b0966ccd5e6e0f7bcbae9c8b4717ba331",
+    "maxMarks": 80,
+    "durationMinutes": 120,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "accessedOn": "2026-09-28",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "notes": "SPECIMEN Question Paper for the ICSE 2026 Examination, Chemistry (Science Paper – 2), printed 'T26 522 – SPECIMEN' on every page (used as paperCode). Maximum Marks 80, Time allowed Two hours (120 minutes). Section A (Question 1–2, 40 marks) is compulsory; Section B (Question 3–8, 40 marks) instructs 'Attempt any four questions' out of six, each worth 10 marks — these are six independent, complete questions, NOT internal-choice OR pairs (the paper prints no 'OR' anywhere in Section B), so all six are included here without choiceGroup/part alternatives. Summing every printed mark in this pack therefore totals 100 (40 + 6×10), which is expected and not an error: a candidate only answers 4 of the 6 Section-B questions to reach the printed maximum of 80. The official marking scheme ('ICSE 2026 SPECIMEN DRAFT MARKING SCHEME – CHEMISTRY (SCIENCE PAPER 2)') is printed in the same PDF (pages 16–20) and is itself labelled 'DRAFT' by CISCE; answerSourceUrl is therefore the same URL as sourceUrl and answerSourceFile is null. Question 1's 15 MCQ/assertion-reason sub-parts are each 1 mark (marking scheme marks them '[15x1]'); the printed [15] is the Question-1 total. Cognitive-level tags ('[Recall]'/'[Understanding]'/'[Application]'/'[Analysis]', and compound tags such as '[Understanding & Application]' or '[Recall & Understanding]') are printed in the paper's right margin. Unlike some other ICSE specimens where every lettered sub-part carries its own tag, in THIS document only ONE tag is printed per roman-numeral item — confirmed by inspecting the raw (non-layout) text extraction of every page, which shows exactly one bracketed tag following each item's full block of lettered sub-parts (e.g. Q2(ii)'s five 'Identify the following' sub-items (a)-(e) carry a single trailing '[Recall]'). Where such an item was split into several self-contained lettered entries (because each sub-answer is independently gradable), that one shared tag was applied to every split entry, since only one tag exists for the whole block and there is no ambiguity about which entry it belongs to. Compound tags are recorded verbatim as printed (e.g. cognitiveLevel 'Understanding & Application'), per the instruction to record cognitive tags exactly as printed. The PDF text layer drops the reaction-arrow glyph entirely (extracts as a blank gap) throughout every chemical equation in both the question paper and the marking scheme (confirmed by inspecting the raw bytes around several such gaps in both UTF-8 and Latin-1 extraction — the arrow glyph simply is not present in the text layer, unlike subscripts/superscripts which are extracted flat). Since every such gap sits unambiguously between one reactant block and one product block, it was rebuilt as '→' and flagged per question, with confidence set to MEDIUM for the affected entries — the same treatment the format guide gives to unambiguous fraction/power reconstruction. Chemical formula subscripts came out flat throughout (e.g. H2SO4, CO2, NH4Cl) and are kept as extracted, flagged per question; a few superscripts (e.g. 'Al³+', '10²²') rendered correctly via Unicode superscript characters and needed no flagging. Sub-questions built around a shared stem, diagram or dataset — Q2(i)'s three-step electroplating apparatus, Q3(iii)'s electron-affinity comparison of X and Y, Q4(iii)'s salt-X analysis narrative, Q4(iv)'s esterification set-up, Q6(i)'s two-experiment picture, Q6(iii)'s ammonium dichromate decomposition, Q7(iv)'s pH 2/7/13 solutions, Q8(iii)'s zinc-compound conversion scheme, and Q8(iv)'s elements L/M/N — were kept together as one CASE_BASED/NUMERICAL/SHORT_ANSWER entry with the parts embedded in the text, per the brief, since the parts cannot stand alone without that shared context; each such entry uses the shared block's marks as printed (marksSource PRINTED) rather than guessing a per-part split. Sub-questions that are independently self-contained despite a shared instruction line (e.g. Q2(ii)/(iii) 'Identify the following'/'Complete the following', Q3(i)/(ii) 'observation'/'reasons' pairs, Q3(iv), Q4(i)/(ii), Q5(iii)/(iv), Q6(ii)/(iv), Q7(i)/(ii)/(iii), Q8(i)) were split into separate entries; where the QP/marking scheme give only one combined bracket mark for the group with no per-item breakdown, marksSource is SECTION_INSTRUCTIONS and an even split is assumed (noted per entry); where the marking scheme gives an explicit per-part breakdown (e.g. Q2(v) '[3+2]'), marksSource is PRINTED. Q2(v)(a) (IUPAC names of two unshown organic structures, marking-scheme marks '3') and Q2(v)(b) (draw structural diagrams for three named compounds, marking-scheme marks '2') are each kept as one entry rather than split further, since 3 marks over 2 items and 2 marks over 3 items do not divide evenly and no per-item confirmation exists; Q2(v)(b) has no officialAnswer since the marking scheme's answer is itself an undrawn structural diagram not present in the text layer (same for Q8(ii), 'draw the electron dot diagram of ammonium ion'). Diagrams, a picture and one conversion-scheme table are not reproduced and are flagged per question with hasFigure and extractionIssues: Q1(v) (four unlabelled reactions shown only in a diagram, unanswerable — confidence LOW), Q1(ix) (four hydrocarbon structures shown only in a diagram, unanswerable — confidence LOW), Q1(xi) (a pH-change table flattened by the text layer, reconstructed from the printed row order — confidence MEDIUM), Q1(xv) (an electrorefining-of-copper apparatus diagram; answerable from general knowledge of the process — confidence MEDIUM), Q2(i) (the step-1 electroplating apparatus diagram), Q2(v)(a) (two unshown organic structures, unanswerable — confidence LOW), Q6(i) (a picture showing which solutions are mixed in Experiments 1 and 2; the solutions themselves are not named anywhere in the extracted text, so the question is unanswerable without the figure — confidence LOW), and Q8(iii) (a conversion-scheme diagram for ZnSO4/Zn/ZnS/Zn(OH)2 whose arrows and order are not reliably reconstructable from the flattened text layout — confidence LOW). Every question was mapped to one of the 12 valid chemistry chapter slugs; none required chapter: null."
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following will dissociate in aqueous solution, to give a positive ion other than hydronium ion, and a negative ion other than hydroxyl ion?",
+      "options": [
+        "KOH",
+        "dil. HCl",
+        "NaCl",
+        "CH3COOH"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: CH3COOH."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) / NaCl",
+        "correctOption": 2
+      },
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A compound P is heated in a test tube with sodium hydroxide solution. A red litmus paper held at the mouth of the test tube turns blue.\n\nWhich of the following could compound P be?",
+      "options": [
+        "Zinc sulphate",
+        "Copper sulphate",
+        "Ferrous sulphate",
+        "Ammonium sulphate"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) / ammonium sulphate",
+        "correctOption": 3
+      },
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): Aqueous solution of potassium chloride can conduct electricity.\nReason (R): Conduction of electric current is due to the presence of free ions.",
+      "options": [
+        "(A) is true and (R) is false.",
+        "(A) is false and (R) is true.",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A)."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) / Both (A) and (R) are the true and (R) is the correct explanation of (A).",
+        "correctOption": 2
+      },
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Identify the ion that contain one lone pair of electrons.",
+      "options": [
+        "OH-1",
+        "H3O+",
+        "NH4+",
+        "H+"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts/subscripts flattened in the options: OH-1 (OH⁻), H3O+, NH4+, H+."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) / H3O+",
+        "correctOption": 1
+      },
+      "chapter": "chemical-bonding",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Four reactions are shown below in the diagram:\n1.\n2.\n3.\n4.\n\nWhich reactions produce water?",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "3 and 4",
+        "2 and 3"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of four numbered reactions on pages 6-7 (PDF pages) not reproduced; question cannot be answered without it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(c) / 3 and 4",
+        "correctOption": 2
+      },
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "When compound X reacts with dilute sulphuric acid, it releases a gas that turns acidified potassium dichromate solution from orange to green. Which of the following could be compound X?",
+      "options": [
+        "Lead nitrate",
+        "Copper carbonate",
+        "Sodium chloride",
+        "Potassium sulphite"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) / Potassium sulphite",
+        "correctOption": 3
+      },
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The volume occupied by 2 moles of a gas at STP is:",
+      "options": [
+        "22.4L",
+        "2.24L",
+        "44.8L",
+        "4.48L"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) / 44.8L",
+        "correctOption": 2
+      },
+      "chapter": "mole-concept-and-stoichiometry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Identify from the following metal oxide which can react with an acid as well as an alkali.",
+      "options": [
+        "Silver oxide",
+        "Calcium oxide",
+        "Copper(II) oxide",
+        "Aluminium oxide"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) / Aluminium oxide",
+        "correctOption": 3
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The structures of four hydrocarbons are shown below:\n\nHow many isomers of butene are shown in the above structures?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of four hydrocarbon structures on page 5 (PDF page) not reproduced; question cannot be answered without it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(b) / 2",
+        "correctOption": 1
+      },
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which element amongst the following has the largest atomic radius?",
+      "options": [
+        "Al",
+        "S",
+        "Mg",
+        "Na"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) / Na",
+        "correctOption": 3
+      },
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "For which pH change is there the maximum increase in acidity?",
+      "options": [
+        "Initial pH 1, Final pH 3",
+        "Initial pH 2, Final pH 6",
+        "Initial pH 3, Final pH 1",
+        "Initial pH 6, Final pH 2"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table (Initial pH / Final pH for options (a)-(d)) on page 6 (PDF page) was flattened by the text layer; reconstructed from the printed row order (a: 1→3, b: 2→6, c: 3→1, d: 6→2); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) / Initial pH 6, Final pH 2",
+        "correctOption": 3
+      },
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The equation below shows the reaction between element ‘X’ and dilute sulphuric acid.\nX(s) + H2SO4 (aq.) → XSO4 (aq.) + H2 (g)\nWhich particles are responsible for conducting electricity in dilute sulphuric acid and compound XSO4?",
+      "options": [
+        "Electrons",
+        "Only positive ions",
+        "Only negative ions",
+        "Both positive and negative ions"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: H2SO4, XSO4, H2.",
+        "Reaction arrow not present in text layer (glyph not extracted); rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) / Both positive and negative ions",
+        "correctOption": 3
+      },
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Methanol and ethanol belong to the same homologous series.\nWhat does this statement mean?",
+      "options": [
+        "Their molecules contain atoms only of carbon and hydrogen.",
+        "Their molecules have the same number of carbon atoms.",
+        "They have the same functional group.",
+        "They have the same relative molecular mass."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) / They have the same functional group.",
+        "correctOption": 2
+      },
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The ratio between the volumes occupied by 22 grams of carbon dioxide and 10 grams of hydrogen gas is:",
+      "options": [
+        "2.2 :1",
+        "1: 2.2",
+        "1:10",
+        "10:1"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: CO2, H2 (in the notes accompanying the question)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) / 1:10",
+        "correctOption": 2
+      },
+      "chapter": "mole-concept-and-stoichiometry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In the process of Electrorefining of Copper shown in the diagram below, which of the following statements is correct?",
+      "options": [
+        "The anode is made of pure Copper.",
+        "The cathode is made of impure Copper.",
+        "Copper is deposited at the anode.",
+        "Copper ions from the anode move to the cathode and get deposited as pure Copper."
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of the electrorefining-of-copper apparatus on page 7 (PDF page) not reproduced."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) / Copper ions from the anode move to the cathode and get deposited as pure Copper.",
+        "correctOption": 3
+      },
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Electroplating steel objects with silver involves a three-step process.\nstep 1  A coating of copper is applied to the object.\nstep 2  A coating of nickel is applied to the object.\nstep 3  The coating of silver is applied to the object.\n\n(a) A diagram of the apparatus used for step 1 is shown.\n1. The chemical process taking place on the surface of the object is Cu2+ (aq) + 2e- → Cu(s). What is the observation seen on the surface of the object?\n2. Explain why the concentration of copper ions in the electrolyte remains constant throughout step 1.\n(b) Give two changes which would be needed in order to coat nickel onto the object in step 2.\n(c) Write down the reaction taking place at the positive electrode during step 3.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of the step-1 electroplating apparatus on page 8 (PDF page) not reproduced.",
+        "Marking scheme splits the 5 marks as (a)=2 [covering both a.1 and a.2], (b)=2, (c)=1; kept as one case-based entry around the shared three-step scenario and diagram, so the printed [5] is used as-is.",
+        "Subscript/superscript flattened in the question and official answer: Cu2+, Ag+, e-."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a).1 Reddish brown deposit/ pink deposit/ mass increases\n(a).2 As anode released copper ions, the concentration of copper ions does not decrease\n(b) Anode should be made up of Nickel and the electrolyte should be aq. Nickel sulphate or any salt solution of Nickel\n(c) Ag → Ag+ + e-"
+      },
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "2",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A bond formed between two atoms by sharing of a pair of electrons, with both electrons being provided by the same atom.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the following:' printed once for (a)-(e); combined mark [5] is printed for the five items together, not itemised in the QP or marking scheme; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Coordinate bond"
+      },
+      "chapter": "chemical-bonding",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "2",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A salt formed by the complete neutralisation of an acid by a base.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the following:' printed once for (a)-(e); combined mark [5] is printed for the five items together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Normal salt"
+      },
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "2",
+      "part": "(ii)(c)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A reaction in which the hydrogen of an alkane is replaced by a halogen.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the following:' printed once for (a)-(e); combined mark [5] is printed for the five items together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Substitution"
+      },
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "2",
+      "part": "(ii)(d)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The energy required to remove an electron from a neutral gaseous atom.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the following:' printed once for (a)-(e); combined mark [5] is printed for the five items together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Ionisation potential"
+      },
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "2",
+      "part": "(ii)(e)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A homogenous mixture of two or more metals or a metal and a non-metal in a definite proportion in their molten state.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the following:' printed once for (a)-(e); combined mark [5] is printed for the five items together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Alloy"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "When dilute sulphuric acid reacts with zinc granules, the gas evolved is __________ (hydrogen / carbon dioxide), which can be tested using a burning splint.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Complete the following by choosing the correct answers from the bracket:' printed once for (a)-(e); combined mark [5] is printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Hydrogen"
+      },
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "A solution of copper(II) sulphate in sodium hydroxide solution forms a __________ (pale blue / green) precipitate.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Complete the following by choosing the correct answers from the bracket:' printed once for (a)-(e); combined mark [5] is printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Pale blue"
+      },
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "In methane, each hydrogen atom share(s) __________ (one / two) electron(s) with the central carbon atom to complete its valence shell.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Complete the following by choosing the correct answers from the bracket:' printed once for (a)-(e); combined mark [5] is printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "One"
+      },
+      "chapter": "chemical-bonding",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(d)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "The electron affinity of element X is greater than that of element Y. The oxidising power of X is likely to be ________ (more / less) than that of element Y.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Complete the following by choosing the correct answers from the bracket:' printed once for (a)-(e); combined mark [5] is printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "More"
+      },
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(e)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "The naturally occurring compound of a metal from which the metal can be extracted is called its _________ (ore / mineral).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Complete the following by choosing the correct answers from the bracket:' printed once for (a)-(e); combined mark [5] is printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Ore"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Match Column A with Column B.\nColumn A: (a) Aluminium  (b) Sulphuric acid  (c) Calcination  (d) Calcium Chloride  (e) Carbon tetrachloride\nColumn B: 1. Covalent compound  2. Carbonate ore  3. Hall Heroult's process  4. Contact Process  5. Electrovalent compound",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Column A/Column B pairing reconstructed from the printed row order (the table's own layout was flattened by the text extraction); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) → 3. Hall Heroult's process\n(b) → 4. Contact Process\n(c) → 2. Carbonate ore\n(d) → 5. Electrovalent compound\n(e) → 1. Covalent compound"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(v)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give the IUPAC name of the following organic compounds:\n1.\n2.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Two structural diagrams (organic compounds 1 and 2) on page 10 (PDF page) not reproduced; question cannot be answered without them.",
+        "Marking scheme splits the printed [5] as (a)=3, (b)=2; kept (a) as one entry since its two items share the undivided 3 marks with no per-item confirmation."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "1) propanol\n2) pentene"
+      },
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(v)(b)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Draw the structural diagram for the following compounds:\n1. but-2-yne\n2. 1, 1, 1, trichloro methane\n3. pentan-2-ol",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marking scheme splits the printed [5] as (a)=3, (b)=2; kept as one entry since 2 marks over 3 items do not divide evenly and no per-item confirmation exists.",
+        "Official answer is a structural diagram for each compound in the marking scheme; not present in the text layer."
+      ],
+      "confidence": "HIGH",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "3",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Excess of chlorine gas reacts with ammonia.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give one significant observation when:' printed once for (a)-(b); combined mark [2] printed for (a)+(b) together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Yellow oily explosive liquid"
+      },
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "3",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Zinc nitrate is strongly heated in a test tube.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give one significant observation when:' printed once for (a)-(b); combined mark [2] printed for (a)+(b) together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Reddish-brown gas/ a gas which rekindles a glowing splinter/ a residue which is yellow when hot and white when cold is formed"
+      },
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "3",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "When ammonia gas is passed over black copper oxide in a combustion tube a reddish-brown substance is left behind.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give reasons:' printed once for (a)-(b); combined mark [2] printed for (a)+(b) together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Because copper oxide is reduced to copper"
+      },
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "3",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Quick lime is not used to dry hydrogen chloride gas.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give reasons:' printed once for (a)-(b); combined mark [2] printed for (a)+(b) together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Because quick lime reacts with hydrogen chloride gas"
+      },
+      "chapter": "study-of-compounds-hydrogen-chloride",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "3",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The electron affinity of an element X is greater than that of element Y.\n(a) How is the oxidising power of X likely to compare with that of Y?\n(b) How is the electronegativity of X likely to compare with that of Y?\n(c) State whether X is likely to be placed to the left or to the right of Y in the periodic table?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) X has more oxidising power than Y\n(b) X will be more electronegative than Y\n(c) X will be placed to the right of Y"
+      },
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "3",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Ammonium chloride reacts with calcium hydroxide.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Write balanced chemical equations for the following reactions:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: NH4Cl, Ca(OH)2, CaCl2, H2O, NH3.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "2NH4Cl + Ca(OH)2 → CaCl2 + 2H2O + 2NH3"
+      },
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Nitric acid reacts with zinc carbonate.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Write balanced chemical equations for the following reactions:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: HNO3, ZnCO3, Zn(NO3)2, H2O, CO2.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "2HNO3 + ZnCO3 → Zn(NO3)2 + H2O + CO2"
+      },
+      "chapter": "study-of-compounds-nitric-acid",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Concentrated sulphuric acid is added to hydrated copper sulphate.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Write balanced chemical equations for the following reactions:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: H2SO4, CuSO4.5H2O.",
+        "Reaction arrow not present in text layer; rendered as → based on layout.",
+        "Marking scheme's printed equation repeats 'H2SO4' on both sides (H2SO4 + CuSO4.5H2O → CuSO4 + 5H2O + H2SO4); likely 'conc. H2SO4' was a condition written above the arrow (a dehydrating agent, not consumed) that flattened into the inline text; kept verbatim as extracted."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "H2SO4 + CuSO4.5H2O → CuSO4 + 5H2O + H2SO4"
+      },
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "4",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Name the main metal present in the following alloy: Duralumin.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Name the main metal present in the following alloys:' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Aluminium"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "4",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Name the main metal present in the following alloy: Brass.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Name the main metal present in the following alloys:' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Copper"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "4",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Laboratory preparation of hydrochloric acid from a less volatile acid.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Write balanced chemical equations for the following:' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: NaHSO4, H2SO4.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "NaCl + conc. H2SO4 → NaHSO4 + HCl"
+      },
+      "chapter": "study-of-compounds-hydrogen-chloride",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "4",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Bromine gas is passed over ethene in the presence of carbon tetrachloride.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Write balanced chemical equations for the following:' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: C2H4, Br2, C2H4Br2.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "C2H4 + Br2 → C2H4Br2"
+      },
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "4",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Abhishek was given a salt 'X' for analysis which was white in colour. On strong heating it produced a yellow residue, a colourless gas, and also a reddish-brown gas. The solution of the salt 'X' when tested with excess of ammonium hydroxide produced a chalky white insoluble precipitate.\n(a) Name the coloured gas evolved when Abhishek heated the salt strongly.\n(b) Which cation was present in the sample given to Abhishek?\n(c) Identify the salt given to Abhishek for analysis.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Nitrogen dioxide\n(b) Lead ion\n(c) Lead nitrate"
+      },
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "4",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "In a round bottom flask, a mixture of ethanol, acetic acid and concentrated sulphuric acid was heated:\n(a) Name the type of reaction occurring in the above set up.\n(b) What is the role of sulphuric acid in this reaction?\n(c) State one observation that takes place during the reaction.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Esterification\n(b) Dehydrating agent\n(c) Fruity smell is obtained"
+      },
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "5",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Identify the reactant and write the balanced equation for the following:\nNitric acid reacts with compound Q to give a salt Calcium nitrate, water and carbon dioxide.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: HNO3, Ca(NO3)2, CaCO3, Ca(HCO3)2, CO2, H2O.",
+        "Reaction arrows not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Q is Calcium carbonate or Calcium bicarbonate\nCaCO3 + 2HNO3 → Ca(NO3)2 + H2O + CO2\nOR\nCa(HCO3)2 + 2HNO3 → Ca(NO3)2 + 2H2O + 2CO2"
+      },
+      "chapter": "study-of-compounds-nitric-acid",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "5",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "What will be the mass of carbon dioxide that will contain the same number of molecules as present in 3.2g of oxygen gas?\n[At. Wt: O=16, C=12]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: CO2."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "3.2 g of oxygen contains 6.023×10²² molecules\nso 4.4g of CO2 will contain 6.023×10²² molecules\nAnswer 4.4g of CO2"
+      },
+      "chapter": "mole-concept-and-stoichiometry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "5",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Sulphur with concentrated sulphuric acid.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State the property exhibited by sulphuric acid in each of the following reactions:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Oxidizing property"
+      },
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "5",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Conversion of ferrous sulphide to hydrogen sulphide gas using sulphuric acid.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State the property exhibited by sulphuric acid in each of the following reactions:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Acidic property"
+      },
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "5",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Ethanol with concentrated sulphuric acid.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State the property exhibited by sulphuric acid in each of the following reactions:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Dehydrating property"
+      },
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "5",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Laboratory preparation of ethyne from calcium carbide.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give balanced equations for the following:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: CaC2, H2O, Ca(OH)2, C2H2.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "CaC2 + 2H2O → Ca(OH)2 + C2H2"
+      },
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "5",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Conversion of acetic acid to ethyl acetate.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give balanced equations for the following:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: CH3COOH, C2H5OH, CH3COOC2H5, H2O.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "CH3COOH + C2H5OH → CH3COOC2H5 + H2O"
+      },
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "5",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Laboratory preparation of nitric acid.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give balanced equations for the following:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: NaNO3, H2SO4, NaHSO4, HNO3.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "NaNO3 + conc. H2SO4 → NaHSO4 + 2HNO3"
+      },
+      "chapter": "study-of-compounds-nitric-acid",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "6",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A student was asked to perform two experiments in the laboratory based on the instructions given:\nObserve the picture given below and state one observation for each of the Experiments 1 and 2 that you would notice on mixing the given solutions.\n(a) Experiment 1\n(b) Experiment 2",
+      "hasFigure": true,
+      "extractionIssues": [
+        "A diagram/picture showing the solutions mixed in Experiments 1 and 2 (spanning pages 11-12, PDF pages) is not reproduced; the reacting solutions are not named anywhere in the extracted text, so the question cannot be answered without the figure."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) White precipitate is formed.\n(b) Blue precipitate dissolves to form an inky blue solution."
+      },
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "6",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Using suitable chemicals from the list given (Sodium hydroxide solution, copper carbonate, zinc, hydrochloric acid, copper, dilute sulphuric acid), write a balanced chemical equation for the preparation of the salt: copper sulphate.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared reagent list and instruction 'Using suitable chemicals from the list given, write balanced chemical equation for the preparation of the salts mentioned below:' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: CuCO3, H2SO4, CuSO4, H2O, CO2.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "CuCO3 + H2SO4 → CuSO4 + H2O + CO2"
+      },
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "6",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Using suitable chemicals from the list given (Sodium hydroxide solution, copper carbonate, zinc, hydrochloric acid, copper, dilute sulphuric acid), write a balanced chemical equation for the preparation of the salt: sodium zincate.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared reagent list and instruction 'Using suitable chemicals from the list given, write balanced chemical equation for the preparation of the salts mentioned below:' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: Zn, NaOH, Na2ZnO2, H2.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Zn + 2NaOH → Na2ZnO2 + H2"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "6",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Solid ammonium dichromate decomposes as under:\n(NH4)2Cr2O7 → N2 + Cr2O3 + 4H2O\nIf 126 g of ammonium dichromate decomposes, calculate:\n(a) the number of moles of ammonium dichromate that undergoes decomposition.\n(b) the mass of chromic oxide formed at the same time.\n(c) the volume of nitrogen gas evolved at STP.\n[At. Wt: N=14, Cr=52, O=16, H=1]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: (NH4)2Cr2O7, N2, Cr2O3, H2O.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 252 g of Ammonium dichromate = 1 mole; 126 g of Ammonium dichromate = 0.5 moles\n(b) 252 g of ammonium dichromate gives 152 g of chromic oxide; 126 g of ammonium dichromate provides 152×126/252 = 76 g of chromic oxide\n(c) 252 g of ammonium dichromate produces 22.4 l of nitrogen; 126 g of ammonium dichromate produces 22.4×126/252 = 11.2 l of nitrogen"
+      },
+      "chapter": "mole-concept-and-stoichiometry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "6",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Identify the reactant P in the following reaction:\nCopper oxide + P → Copper + water",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the reactants P, Q and R in the following reactions:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Hydrogen"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "6",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Identify the reactant Q in the following reaction:\nIron pyrite + Q → Iron oxide + Sulphur dioxide",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the reactants P, Q and R in the following reactions:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Oxygen"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "6",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Identify the reactant R in the following reaction:\nSodium chloride + R → Sodium nitrate + Silver chloride",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the reactants P, Q and R in the following reactions:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Silver Nitrate"
+      },
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "7",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Nitric acid does not normally liberate hydrogen gas when it reacts with active metals.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give reasons for the following:' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Nitric Acid is a very strong oxidising agent and hence oxidises hydrogen to water. So, it is not used for obtaining hydrogen from metals."
+      },
+      "chapter": "study-of-compounds-nitric-acid",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "7",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Silver-plated cutlery is not considered as pure silver.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give reasons for the following:' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Because it is not made fully of silver, only its top coating is of silver"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "7",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The following questions relate to the extraction of Aluminium by electrolysis.\nName the other compound which contains aluminium added to alumina.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'The following questions relate to the extraction of Aluminium by electrolysis.' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Cryolite"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "7",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The following questions relate to the extraction of Aluminium by electrolysis.\nGive a balanced equation for the reaction that takes place at the cathode.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'The following questions relate to the extraction of Aluminium by electrolysis.' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Al³+ + 3e– → Al"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "7",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Action of warm water on aluminium nitride.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give balanced equations for each of the following:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: AlN, H2O, Al(OH)3, NH3.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "AlN + 3H2O → Al(OH)3 + NH3"
+      },
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "7",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Oxidation of carbon with conc. nitric acid.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give balanced equations for each of the following:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: HNO3, CO2, H2O, NO2.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "C + 4HNO3 → CO2 + 2H2O + 4NO2"
+      },
+      "chapter": "study-of-compounds-nitric-acid",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "7",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Laboratory preparation of ethanol by using chloroethane and aqueous sodium hydroxide.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give balanced equations for each of the following:' printed once for (a)-(c); combined mark [3] printed together, not itemised; assumed 1 mark each.",
+        "Subscripts flattened: C2H5Cl, C2H5OH.",
+        "Reaction arrow not present in text layer; rendered as → based on layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "C2H5Cl + aq. NaOH → C2H5OH + NaCl"
+      },
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "7",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Rohit has solutions X, Y and Z that have pH 2, 7 and 13 respectively.\nWhich solution:\n(a) will liberate sulphur dioxide gas when heated with sodium sulphite?\n(b) will liberate ammonia gas when reacted with ammonium chloride?\n(c) will not have any effect on litmus paper?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) X\n(b) Z\n(c) Y"
+      },
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "8",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State giving reasons if zinc metal and aluminium metal can be distinguished by heating the metal powders separately in two different test tubes with concentrated sodium hydroxide solution.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State giving reasons if:' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "No, both will liberate hydrogen gas which burns with a pop sound"
+      },
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "8",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State giving reasons if calcium nitrate and lead nitrate can be distinguished by adding ammonium hydroxide solution to the salt solution.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State giving reasons if:' printed once for (a)-(b); combined mark [2] printed together, not itemised; assumed 1 mark each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Yes, white ppt. will be formed with lead nitrate but no ppt. is formed with calcium nitrate/ or no visible reaction"
+      },
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "8",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Draw the electron dot diagram of ammonium ion.\n[Atomic No.: N = 7, H = 1]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer is an electron-dot structure diagram in the marking scheme; not present in the text layer."
+      ],
+      "confidence": "HIGH",
+      "chapter": "chemical-bonding",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "8",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write balanced chemical equation for the following conversions (A to C):",
+      "hasFigure": true,
+      "extractionIssues": [
+        "A conversion-scheme diagram (referencing ZnSO4, Zn, ZnS, Zn(OH)2) is partially visible in the text layer but its arrows/order are not reliably reconstructable from the flattened layout; not reproduced; question cannot be answered without it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "A = Zn + H2SO4 → ZnSO4 + H2\nB = Zn + S → ZnS\nC = ZnSO4 + 2NaOH → Zn(OH)2 + Na2SO4 (or with NH4OH)"
+      },
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "8",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "L, M and N are three elements with atomic numbers 13, 7 and 10 respectively. Answer the following questions using only the alphabets given. Do not identify the elements.\nWhich element:\n(a) can combine with hydrogen to form a gas which produces dense white fumes with concentrated HCl?\n(b) has zero electron affinity?\n(c) can form an ionic compound with oxygen?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) M\n(b) N\n(c) L"
+      },
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    }
+  ]
+}

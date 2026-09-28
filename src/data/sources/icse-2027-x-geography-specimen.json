@@ -1,0 +1,1644 @@
+{
+  "source": {
+    "key": "icse-2027-x-geography-specimen",
+    "title": "ICSE 2027 Specimen Question Paper, Geography (H.C.G. Paper – 2)",
+    "board": "icse",
+    "class": 10,
+    "subject": "geography",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations",
+    "paperType": "SPECIMEN",
+    "examYear": 2027,
+    "session": "Specimen paper for the ICSE 2027 examination",
+    "paperName": "Geography (H.C.G. Paper – 2)",
+    "paperCode": "T27 502",
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2026/08/ICSE-2027-SPECIMEN-502-GEOGRAPHY-QP-MS.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2026/08/ICSE-2027-SPECIMEN-502-GEOGRAPHY-QP-MS.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 24,
+    "sha256": "e9dbb1ea7758725cb4308a3455448f8bc7f27884b23951a31a032b34ca32be53",
+    "maxMarks": 80,
+    "durationMinutes": 120,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "notes": "Found on the official page https://cisce.org/specimen-question-papers-icse-class-x-2027/. This is a SPECIMEN paper for the 2027 ICSE examination (examYear=2027), not a past board exam. The single PDF contains the question paper (14 printed pages, PDF pages 1-14), a blank map insert page (PDF page 15, for Question 2's outline map of India, no text), and a 'DRAFT MARKING SCHEME' (9 printed pages, PDF pages 16-24); answerSourceUrl is the same URL, answerSourceFile is null. Paper code printed on every page: 'T27 502 - SPECIMEN' / 'T27 502 – SPECIMEN'. Part I (30 marks, compulsory, all questions attempted): Question 1 (map work on a supplied Survey of India Map Sheet No. G43S10, 10 marks), Question 2 (marking/labelling an outline Map of India, 10 marks), Question 3 (ten 1-mark MCQ/assertion-reason items, 10 marks). Part II (50 marks): the instruction is 'Attempt any five questions from this Part' over nine 10-mark questions (Questions 4-12); this is a pick-5-of-9 choice, NOT a standard two-alternative 'OR' pair, so choiceGroup is not used for these questions — all nine are included as ordinary questions and a student attempting any five scores the printed maximum of 80. Because this pack includes all nine Part II questions plus the importable parts of Part I, the sum of question marks in this file (105) exceeds maxMarks (80); that is expected for a pick-5-of-9 paper with a reduced Question 1 (see below), not an error. Question 1 (Topographical map work) and Question 2 (Map of India marking) both depend on map sheets that are not in this file's text layer (Question 1 depends on the supplied Survey of India extract; Question 2 is marked directly on the blank outline-map insert page). Per project convention, only Question 1 sub-parts whose text stands alone were imported (5 of 10): (i)(b) definition of RF, (ii)(b) length of the National Highway between two named Distance Stones (computed textually as |226-222|=4 km, cross-checked against the marking scheme's '4 kms'), (iii)(b) area enclosed by given Eastings/Northings (computed as (67-63)x(32-29)=12 sq km using the standard 1 km grid interval for a 1:50,000 Survey of India sheet, a convention not itself printed in this item; cross-checked against the marking scheme's '12 square km' — flagged MEDIUM confidence since it relies on that unstated convention rather than the item's own text alone), (v)(a) benefit of causeways, and (v)(b) significance of fire lines — all five are flagged hasFigure true with the issue 'Topographical map / outline map not reproduced'. The other 5 sub-parts of Question 1 require directly reading the map (a contour/spot-height figure at a named grid square, a transport-mode inference along a specific route, comparative settlement evidence, a conventional symbol at a six-figure grid reference, a drainage pattern in a named grid square) and are skipped entirely, per the choice instructions for this pack. Question 2 is skipped entirely as a pure map-marking item (the marking scheme prints only 'Question 2 [10]' with no answer text). Cognitive-level tags ('[Recall]', '[Understanding]', '[Application]', '[Analysis]', and one combined '[Application & Analysis]') are printed next to most items, but the PDF's marks/tag column repeatedly overlaps the question-text column in extraction, scrambling the vertical order in several multi-part groups (flagged per affected entry). Where a printed tag applies unambiguously to a single question entry it is recorded as cognitiveLevel; where a merged multi-part entry covers differently tagged sub-parts, or a single tag is printed once for a split pair whose sub-parts are on different topics, cognitiveLevel is omitted and the printed tag(s) are listed in that entry's extractionIssues instead. Several Part II questions print a shared stem followed by lettered sub-parts under one bracketed mark total with no per-sub-part mark shown in the question paper; these were split into separate entries (one mark per sub-part) only when (a) the group's printed mark total divides evenly across the sub-items, (b) the marking scheme confirms that even split, and (c) no sub-part uses a pronoun ('it' / 'this state' / 'the above') to refer to a sibling sub-part's own answer. Sub-parts that fail any of those conditions — a pronoun back-reference to a sibling sub-part, a shared picture/table, or (in two cases, Question 10(iv) and Question 12(iii)) an odd mark total with no printed or inferable even split — were kept together as one CASE_BASED entry, with the per-sub-part cognitive tags listed in extractionIssues. Several Part II sub-questions reference 'the picture below' / 'the image given below' (Question 7(iv), Question 8(ii), Question 8(iv), Question 9(iv)(a)-(b), Question 12(i)); none of these pictures are present in the PDF's text layer, so they are imported with hasFigure true and confidence LOW, using the marking scheme's answer text. Question 4(iv)'s climatic-data table for 'station X' was reconstructed from the extracted number sequence (two 12-value rows following the month labels); the row order (first row = Temperature ºC, second row = Rainfall cm) was inferred and then cross-checked against the marking scheme (maximum rainfall in August matches 261 in the second row; annual temperature range 35.2-9=26.2°C matches the marking scheme's '26.2 º C' from the first row) — flagged MEDIUM confidence, notation rebuilt from the PDF layout. Valid chapter slugs confirmed via `node scripts/check-sources.mjs --chapters icse 10 geography`; each Part II question (4-12) maps to one syllabus chapter matching its topic (climate, soil-resources, natural-vegetation, water-resources, mineral-and-energy-resources, agriculture, manufacturing-industries, transport, waste-management respectively), and Question 1's imported items map to interpretation-of-topographical-maps.",
+    "accessedOn": "2026-09-28",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced."
+  },
+  "questions": [
+    {
+      "number": "1",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": true,
+      "mappingStatus": "AI_SUGGESTED",
+      "chapter": "interpretation-of-topographical-maps",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 2,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What does RF in ‘RF 1:50,000’ denote?",
+      "extractionIssues": [
+        "Topographical map / outline map not reproduced (Survey of India Map Sheet No. G43S10 supplied with the paper)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Representative Fraction"
+      },
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": true,
+      "mappingStatus": "AI_SUGGESTED",
+      "chapter": "interpretation-of-topographical-maps",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 2,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What would be the actual length of the National Highway between Distance Stones 222 and 226?",
+      "extractionIssues": [
+        "Topographical map / outline map not reproduced (Survey of India Map Sheet No. G43S10 supplied with the paper).",
+        "Answerable from the printed Distance Stone numbers alone (|226-222| = 4 km) without seeing the map image; cross-checked against the marking scheme's '4 kms'."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "4 kms"
+      },
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": true,
+      "mappingStatus": "AI_SUGGESTED",
+      "chapter": "interpretation-of-topographical-maps",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 2,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Calculate the area of the map extract enclosed by Eastings 63 and 67 and Northings 29 and 32. Give your answer in km square.",
+      "extractionIssues": [
+        "Topographical map / outline map not reproduced (Survey of India Map Sheet No. G43S10 supplied with the paper).",
+        "Computed from the printed grid numbers using the standard 1 km grid interval for a 1:50,000 Survey of India sheet (a convention not itself printed in this item), (67-63) x (32-29) = 12 sq km; cross-checked against the marking scheme's '12 square km'."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "12 square km"
+      },
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "1",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": true,
+      "mappingStatus": "AI_SUGGESTED",
+      "chapter": "interpretation-of-topographical-maps",
+      "part": "(v)(a)",
+      "choiceGroup": null,
+      "page": 2,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "How do the local people benefit from the causeways seen in this region?",
+      "extractionIssues": [
+        "Topographical map / outline map not reproduced (Survey of India Map Sheet No. G43S10 supplied with the paper)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Causeways are raised roads that help people to cross minor seasonal streams when they have water during monsoons."
+      },
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "1",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": true,
+      "mappingStatus": "AI_SUGGESTED",
+      "chapter": "interpretation-of-topographical-maps",
+      "part": "(v)(b)",
+      "choiceGroup": null,
+      "page": 2,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain why Fire Lines are significant from the point of view of the environment.",
+      "extractionIssues": [
+        "Topographical map / outline map not reproduced (Survey of India Map Sheet No. G43S10 supplied with the paper)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Fire lines prevent forest fires from spreading and help in protection of forest reserves."
+      },
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "3",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 1,
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 3,
+      "type": "MCQ",
+      "text": "The place that is likely to experience less rainfall from June to September is:",
+      "options": [
+        "Kochi",
+        "Goa",
+        "Mumbai",
+        "Chennai"
+      ],
+      "officialAnswer": {
+        "text": "(d) / Chennai",
+        "correctOption": 3
+      },
+      "chapter": "climate",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "3",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 1,
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 4,
+      "type": "MCQ",
+      "text": "Black soil : Maharashtra :: Red soil : __________.",
+      "options": [
+        "Uttar Pradesh",
+        "Bihar",
+        "Odisha",
+        "Punjab"
+      ],
+      "officialAnswer": {
+        "text": "(c) / Odisha",
+        "correctOption": 2
+      },
+      "chapter": "soil-resources",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 1,
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 4,
+      "type": "MCQ",
+      "text": "Which of the following is NOT a characteristic feature of the Tropical Evergreen Forest?",
+      "options": [
+        "Dense",
+        "Pure stands",
+        "Layered structure",
+        "Hardwood"
+      ],
+      "officialAnswer": {
+        "text": "(b) / Pure stands",
+        "correctOption": 1
+      },
+      "chapter": "natural-vegetation",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "3",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 1,
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 4,
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): In intensive farming, most of the work is done by manual labour.\nReason (R): The landholdings are small in size.",
+      "options": [
+        "(A) is true but (R) is false.",
+        "(A) is false but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A)."
+      ],
+      "officialAnswer": {
+        "text": "(c) / Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "correctOption": 2
+      },
+      "chapter": "agriculture",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "3",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 1,
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 4,
+      "type": "MCQ",
+      "text": "Which of the following may be used for the recharging of underground water?",
+      "options": [
+        "Planting of shelter belt",
+        "Plugging of gullies and ravines",
+        "Percolation pit",
+        "Tube-well irrigation"
+      ],
+      "officialAnswer": {
+        "text": "(c) / Percolation pit",
+        "correctOption": 2
+      },
+      "chapter": "water-resources",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "3",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table rows P-S laid out in two columns in the PDF; reproduced here as a plain list joined with an em dash."
+      ],
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 1,
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 5,
+      "type": "MCQ",
+      "text": "Identify the pair which is INCORRECTLY matched:\nP Brown coal – Lignite\nQ Coking coal – Bituminous\nR Highest calorific value – Magnetite\nS Reddish brown in colour – Haematite",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "officialAnswer": {
+        "text": "(c) / R",
+        "correctOption": 2
+      },
+      "chapter": "mineral-and-energy-resources",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 1,
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 5,
+      "type": "MCQ",
+      "text": "Bhanu cultivates jute in the state that leads in the production of this crop. Which state does he work in?",
+      "options": [
+        "Karnataka",
+        "West Bengal",
+        "Andhra Pradesh",
+        "Gujarat"
+      ],
+      "officialAnswer": {
+        "text": "(b) / West Bengal",
+        "correctOption": 1
+      },
+      "chapter": "agriculture",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 1,
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 5,
+      "type": "MCQ",
+      "text": "Which steel plant amongst the following does NOT belong to the public sector?",
+      "options": [
+        "Tata Steel",
+        "Bhilai",
+        "Vishakhapatnam",
+        "Rourkela"
+      ],
+      "officialAnswer": {
+        "text": "(a) / Tata Steel",
+        "correctOption": 0
+      },
+      "chapter": "manufacturing-industries",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "3",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 1,
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 5,
+      "type": "MCQ",
+      "text": "Fresh flowers need to be sent from Bengaluru to New Delhi as a birthday gift. Which mode of transport should be used in this case?",
+      "options": [
+        "Roadways",
+        "Airways",
+        "Railways",
+        "Waterways"
+      ],
+      "officialAnswer": {
+        "text": "(b) / Airways",
+        "correctOption": 1
+      },
+      "chapter": "transport",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "3",
+      "section": "I",
+      "sectionTitle": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 1,
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 6,
+      "type": "MCQ",
+      "text": "Which of the following bags will take the longest time to degenerate and degrade?",
+      "options": [
+        "Cloth bag",
+        "Jute bag",
+        "Paper bag",
+        "Plastic bag"
+      ],
+      "officialAnswer": {
+        "text": "(d) / Plastic bag",
+        "correctOption": 3
+      },
+      "chapter": "waste-management",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "4",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Why does monsoon begin to retreat after September?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marks split 1+1 for (i)(a)/(i)(b) taken from the marking scheme; the question paper prints a single combined [2] for the pair.",
+        "Printed cognitive tag '[Application & Analysis]' appears once for the (i)(a)/(i)(b) pair, not per sub-part; cognitiveLevel is omitted here rather than guessing which sub-part it belongs to."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The apparent southward migration of the sun during this time causes the Indian landmass to cool down that increases air pressure over land. As a result, the monsoon trough weakens and the south-west monsoon winds begin to withdraw."
+      },
+      "chapter": "climate",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Which is the first state to receive rain from the South-West monsoon winds?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marks split 1+1 for (i)(a)/(i)(b) taken from the marking scheme; the question paper prints a single combined [2] for the pair.",
+        "Printed cognitive tag '[Application & Analysis]' appears once for the (i)(a)/(i)(b) pair, not per sub-part; cognitiveLevel is omitted here rather than guessing which sub-part it belongs to."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Kerala"
+      },
+      "chapter": "climate",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name the branch of South-West Monsoon wind, that brings rain to each of the following regions:\n(a) Windward slope of Khasi Hills",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Bay of Bengal Branch"
+      },
+      "chapter": "climate",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "4",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name the branch of South-West Monsoon wind, that brings rain to each of the following regions:\n(b) Western slopes of Western Ghats",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Arabian Sea branch"
+      },
+      "chapter": "climate",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "4",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason for each of the following:\n(a) Interior parts of the Deccan Plateau receive low annual rainfall.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The interior parts of the Deccan Plateau lie in the rain shadow region (leeward side) of the Western Ghats. Hence, the moisture-laden Southwest Monsoon Winds of the Arabian Sea branch, become dry by the time they reach here / the Bay of Bengal branch of the South West Monsoon winds run parallel to the Eastern Coast and hence, no rainfall occurs from this source."
+      },
+      "chapter": "climate",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "4",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason for each of the following:\n(b) The hills of peninsular India are devoid of snow.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Hills of peninsular India are low in elevation, hence do not receive snowfall."
+      },
+      "chapter": "climate",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "4",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason for each of the following:\n(c) It is difficult to hold a cricket match in Chennai in the winter season.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Chennai lies on the east coast that receives winter rainfall from the North-East Monsoon winds that pick-up moisture from the Bay of Bengal. Thus, chances of outdoor cricket match getting abandoned is very high."
+      },
+      "chapter": "climate",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "4",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Study the climatic data of station X and answer the questions that follow:\nMonths: Jan Feb Mar Apr May June July Aug Sep Oct Nov Dec\nTemperature (ºC): 9 16.5 24.3 30.4 35.2 33.8 27.2 28.4 27.1 22 16.4 10.7\nRainfall (cm): 15 12.9 4.7 4.9 11.4 61.7 240 261 124 55.8 1.2 9.9\n(a) In which month does the station receive maximum rainfall?\n(b) Calculate the annual range of temperature.\n(c) Why do you think the temperature drops significantly in the month of July?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table reconstructed from two 12-value number rows in the extracted text; row order (Temperature then Rainfall) inferred and cross-checked against the marking scheme (max rainfall of 261 cm in August; temperature range 35.2-9=26.2°C), confidence MEDIUM.",
+        "Cognitive-level tags printed per sub-part: (a) Application, (b) Understanding, (c) Analysis — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) August\n(b) 26.2 º C\n(c) The onset of the South-West Monsoon causes heavy rain that lowers the average temperature."
+      },
+      "chapter": "climate",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain how conservation of soil helps in the conservation of the following:\n(a) Forests",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Soil is the only medium of plant growth. Hence, conserving soil will enable trees to grow and forests to develop."
+      },
+      "chapter": "soil-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "5",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain how conservation of soil helps in the conservation of the following:\n(b) Groundwater reserve",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Soil cover, especially in vegetated areas, allow rainwater to infiltrate and collect underground. In this way, conserving soil can help to recharge underground water table."
+      },
+      "chapter": "soil-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "5",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "State any two similarities between red soil and laterite soil.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Both are red in colour due to high concentration of iron oxides / infertile soil / porous and cannot retain moisture / acidic / coarse in texture / in-situ"
+      },
+      "chapter": "soil-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "5",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "With reference to Black Soil, answer the following questions:\n(a) How does its mode of formation determine its name?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Cognitive-level tag position for (iii)(a)-(c) was ambiguous in the PDF's two-column layout; the tag order used here (Application, Recall, Understanding) was inferred from the raw-text extraction sequence."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Black soil is formed due to the weathering and denudation of basaltic lava rocks, which are dark in colour. Hence the origin gives it its name, Black soil."
+      },
+      "chapter": "soil-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "5",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "With reference to Black Soil, answer the following questions:\n(b) Mention two minerals that this soil is rich in.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Cognitive-level tag position for (iii)(a)-(c) was ambiguous in the PDF's two-column layout; the tag order used here (Application, Recall, Understanding) was inferred from the raw-text extraction sequence."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Lime / Calcium / Potash / Iron / Magnesium (Any two)"
+      },
+      "chapter": "soil-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "5",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "With reference to Black Soil, answer the following questions:\n(c) Why is this soil called an in-situ soil?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Cognitive-level tag position for (iii)(a)-(c) was ambiguous in the PDF's two-column layout; the tag order used here (Application, Recall, Understanding) was inferred from the raw-text extraction sequence."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Black soil develops at its place of origin, over the parent rock."
+      },
+      "chapter": "soil-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "5",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason for each of the following statements:\n(a) Farmers prefer soil that is rich in humus.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Humus or decayed organic matter adds fertility to the soil and increases crop production."
+      },
+      "chapter": "soil-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "5",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason for each of the following statements:\n(b) Rice can be cultivated in red soil only if irrigation is provided.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Rice requires clayey soil that can hold moisture. Red soil is coarse and porous, therefore unsuitable."
+      },
+      "chapter": "soil-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "5",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason for each of the following statements:\n(c) Khadar soil can hold more moisture than Bhangar.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Khadar is more compact / has finer soil particles / more clayey / Bhangar is coarser / has lime nodules called kankars."
+      },
+      "chapter": "soil-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "6",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "While visiting the Andaman Islands, Sneha comes across Tropical Evergreen Forests characterised by dark forest floors.\n(a) Why are the forest floors dark?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Thick canopy blocks sunlight"
+      },
+      "chapter": "natural-vegetation",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "6",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "While visiting the Andaman Islands, Sneha comes across Tropical Evergreen Forests characterised by dark forest floors.\n(b) State the rainfall requirements for this type of forest.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "> 200 cm of annual rainfall"
+      },
+      "chapter": "natural-vegetation",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "6",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Van Mahotsav is a significant event in India’s forest conservation program. State two reasons in favour of this statement.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Expands green cover / restores degraded land / creates awareness about protection and conservation of forest (Any two)"
+      },
+      "chapter": "natural-vegetation",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "6",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "(a) Why are long and deep roots a typical characteristic of desert vegetation?\n(b) State the rainfall condition required for the above type of vegetation to evolve.\n(c) Mention one region in India where this vegetation is predominant.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-parts (b) and (c) refer back to 'the above type of vegetation' / 'this vegetation' named in (a) (desert vegetation), so kept together as one entry rather than split.",
+        "Cognitive-level tags printed per sub-part: (a) Analysis, (b) Application, (c) Understanding — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) The long roots help to draw water from deep underneath as rainfall is scanty.\n(b) Less than 25cm of rain per annum.\n(c) Parts of Rajasthan / Interior parts of Deccan Plateau / south-western Punjab / Saurashtra region of Gujarat / Kutch. (Any one)"
+      },
+      "chapter": "natural-vegetation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Forests are ‘Green Gold’. Give three reasons in support of this statement.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Provides us with oxygen and purifies air / Absorbs carbon dioxide and reduces rate of global warming / Allows percolation of water and recharges ground water / Flood control / Habitat for numerous species of plants & animals / Roots hold the soil particles & checks soil erosion / Transpiration induces rainfall / Provides raw materials to forest-based industries. (Any three points)"
+      },
+      "chapter": "natural-vegetation",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "7",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Drip irrigation is a powerful solution to prevent crop failure, especially during critical dry periods. Give two suitable reasons in support of this statement.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Waters the crops at the root zone and hence conserves water. As the water is provided in drops and released at a slow rate, it prevents wastage of water due to evaporation and run off."
+      },
+      "chapter": "water-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "7",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Why is canal irrigation a more suitable method of irrigation in the northern plains of India? Mention any two reasons.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Region is flat and level for canals to be built / Presence of many perennial rivers / Soft soil / Agriculturally important so requires water (Any two)"
+      },
+      "chapter": "water-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "7",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "(a) Name one state in India where tube wells are commonly used.\n(b) Mention two geographical conditions that favour tube well irrigation in this state.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-part (b) refers to 'this state' from the answer to (a), so kept together as one entry rather than split.",
+        "Cognitive-level tags printed per sub-part: (a) Recall, (b) Application — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Punjab / Haryana / Uttar Pradesh / Bihar / West Bengal (Any one)\n(b) High groundwater table / Steady supply of electricity / Soft soil / Fertile, productive land that can make this expensive method viable (Any two)"
+      },
+      "chapter": "water-resources",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Study the picture given below and answer the questions that follow:\n(a) Name the water conservation method shown in the picture.\n(b) State two ways in which this method helps to reduce water scarcity in India.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Picture referenced in (a) not reproduced (no image in the text layer); (b) refers to 'this method' identified from the picture, so kept together as one entry.",
+        "Cognitive-level tags printed per sub-part: (a) Recall, (b) Application — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Rainwater harvesting / Collection and storage of rainwater for future use\n(b) Collects and stores water for use in dry season / Recharges underground water / Reduces ground water pollution / any other relevant point (Any two)"
+      },
+      "chapter": "water-resources",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "There is ample potential of setting up biogas plants in India. The National Bioenergy Programme has been recommended by the concerned Ministry, for implementation in two phases. The spread of biogas technology is a boon for Indian farmers with its direct and guaranteed benefits. -(https://biogas.mnre.gov.in)\n(a) Why can generation of biogas be achieved in every household of rural India?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Every rural household generates organic kitchen waste and animal waste which can be converted into useful biogas."
+      },
+      "chapter": "mineral-and-energy-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "8",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "There is ample potential of setting up biogas plants in India. The National Bioenergy Programme has been recommended by the concerned Ministry, for implementation in two phases. The spread of biogas technology is a boon for Indian farmers with its direct and guaranteed benefits. -(https://biogas.mnre.gov.in)\n(b) Mention two ways in which generation of this form of energy can prove to be a boon for Indian farmers.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Generation of biogas produces bio-fertilizer as by-product. / It reduces the volume of waste. / It brings about improved hygiene in rural areas. / It is cheap as no raw materials need to be purchased. (Any two)"
+      },
+      "chapter": "mineral-and-energy-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "8",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "With reference to the picture given below, answer the following questions:\n(a) On which river is this project based?\n(b) Name an Indian state benefitted by this project.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Picture referenced not reproduced (no image in the text layer); both (a) and (b) depend on identifying 'this project' from the picture, so kept together as one entry."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) River Mahanadi\n(b) Odisha"
+      },
+      "chapter": "mineral-and-energy-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "8",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason to explain each of the following:\n(a) Though a fossil fuel, the popularity of natural gas is very high in both domestic and industrial sectors.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Natural gas is cheaper / cleaner, less polluting / eco-friendly as it produces less greenhouse gases"
+      },
+      "chapter": "mineral-and-energy-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "8",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason to explain each of the following:\n(b) Use of Copper as a vital base for major alloys is undeniable.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Copper adds strength when mixed with zinc to produce brass / mixed with tin to produce bronze"
+      },
+      "chapter": "mineral-and-energy-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "8",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason to explain each of the following:\n(c) Bituminous coal is mostly widely used in generation of thermal power.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Bituminous coal is abundantly found in India / high carbon content leading to high calorific value"
+      },
+      "chapter": "mineral-and-energy-resources",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "8",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Observe the image given below and answer the questions that follow:\n(a) Identify the type of energy being harnessed in the above picture.\n(b) Why is this form of energy preferred over fossil fuels?\n(c) Why does India stand at an advantage in the production of this type of energy?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Image not reproduced (no image in the text layer); (a) identifies the energy type from the picture and (b)/(c) refer to 'this form of energy' / 'this type of energy' from (a), so kept together as one entry.",
+        "Cognitive-level tags printed per sub-part: (a) Recall, (b) Understanding, (c) Understanding — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Solar energy\n(b) Clean source of energy / Inexhaustible / Reduces pressure on fossil fuel / Cheaper in the long run (Any one)\n(c) India has a tropical location and receives more or less strong rays of the sun for a large part of the year."
+      },
+      "chapter": "mineral-and-energy-resources",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Despite being the backbone of the Indian economy, our agricultural sector faces several problems. Mention any two such problems.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Too much dependence on rainfall which is erratic, unevenly distributed and hence, unreliable. / Illiteracy of farmers leads to reluctance in using modern scientific methods of farming. / Poverty in the farming community does not allow farmers to use high yielding seeds, fertilisers, pesticides and irrigation facilities. / Fragmentation of land holding makes agriculture less profitable. / Lack of easy finance and credit facilities for poor farmers keep them debt-ridden in the hands of unscrupulous moneylenders. / Pressure of population on land degrades soil quality that reduces yields. / Primitive land tenure system exploits poor farmers. (Any two)"
+      },
+      "chapter": "agriculture",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "9",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The Green Revolution marked a transformation in Indian agriculture.\n(a) In the light of the above statement, explain how Green Revolution has been particularly significant for the Indian economy.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Bumper production of food crops / self-sufficiency in food grains, removed food scarcity / stimulated industrial growth / raised rural income / reduced imports and saved foreign exchange (Any one)"
+      },
+      "chapter": "agriculture",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "9",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The Green Revolution marked a transformation in Indian agriculture.\n(b) State two key inputs whose widespread use helped usher in the Green Revolution.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Irrigation / High Yielding Variety seeds / Pesticides / fertilisers / farm machinery. (Any two)"
+      },
+      "chapter": "agriculture",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "9",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "With reference to the cultivation of cash crops, answer the following questions:\n(a) Name the crop that predominantly grows in the hilly regions of West Bengal.\n(b) Give two climatic conditions present in this state that favours the cultivation of the crop mentioned in (a).\n(c) Which other state of India is noted as the leading producer of the crop mentioned in (a)?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "(b) and (c) refer back to 'this state' and 'the crop mentioned in (a)', so kept together as one entry rather than split.",
+        "Cognitive-level tags printed per sub-part: (a) Recall, (b) Understanding, (c) Understanding — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Tea\n(b) Temperature-10-35 degrees Celsius, Rainfall-150-250 cm well distributed throughout the year, Shade is needed as it is sensitive to direct sunlight, Deep, well-drained, friable loamy soil rich in nitrogen, Sloping land to avoid stagnation of water at root zone, Between 900 to 2000 metres altitude (Any two)\n(c) Assam"
+      },
+      "chapter": "agriculture",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(iv)(a)-(b)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Study the picture and answer the questions that follow:\n(a) Identify the type of farming depicted here.\n(b) State one way in which it provides economic benefit to the farmer.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Picture not reproduced (no image in the text layer); (b) refers to 'it', the farming type identified in (a), so kept together as one entry."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Mixed farming\n(b) Provides more than one source of income / saves expenditure as animal waste is used as manure & crop residue is used as fodder / animal products substitute income in case of crop failure, reduces risk."
+      },
+      "chapter": "agriculture",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason why some crops are considered as cash crops.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Cash crops are grown specifically to sell for profit in the market rather than for the farmer’s own consumption."
+      },
+      "chapter": "agriculture",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "10",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "(a) In which state is the Vishakhapatnam Steel Plant located?\n(b) Why is it called a ‘shore-based’ plant?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "(b) refers to 'it' (the Vishakhapatnam Steel Plant named in (a)), so kept together as one entry.",
+        "Cognitive-level tags printed per sub-part: (a) Recall, (b) Analysis — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Andhra Pradesh\n(b) Vishakhapatnam has a coastal location and hence called a shore-based plant."
+      },
+      "chapter": "manufacturing-industries",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(a) Small-scale industries play a vital role in fostering economic development in India. Give a reason to support this statement.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Provide employment opportunities to skilled and unskilled labour / do not require large capital / contribute to national income / boosts export (Any one)"
+      },
+      "chapter": "manufacturing-industries",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "10",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(b) State one difference between small-scale and large-scale industries.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Large scale industries employ large numbers of workers / need large capital investment / production of goods is on a large-scale. Small scale industries require less capital and labour."
+      },
+      "chapter": "manufacturing-industries",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "10",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a geographical reason to explain each of the following:\n(a) Setting up petrochemical plants near oil refineries proves beneficial.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The by-products of petroleum refining process serve as raw materials to the petrochemical industries / reduces transport cost"
+      },
+      "chapter": "manufacturing-industries",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "10",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a geographical reason to explain each of the following:\n(b) The electronic industry continues to shape our modern life and living.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Smart devices reduce our workload at home / contributes to health care / communication network / entertainment / any suitable & pertinent example"
+      },
+      "chapter": "manufacturing-industries",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "10",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a geographical reason to explain each of the following:\n(c) The sugar industry continues to be a major industry of Uttar Pradesh.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Uttar Pradesh continues to be a large producer of sugarcane, the chief raw material for the sugar industry."
+      },
+      "chapter": "manufacturing-industries",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "10",
+      "part": "(iv)(a)-(b)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "(a) State two locational advantages that have helped Mumbai to emerge as an important centre of cotton-textile in India.\n(b) Mention any two types of silk produced in India.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "(a) and (b) are on unrelated topics with no printed per-sub-part mark (only a combined [3] for the pair) and no even 2-way split is stated anywhere in the paper or marking scheme; kept together as one entry rather than guessing a split.",
+        "Cognitive-level tags printed per sub-part: (a) Analysis, (b) Recall — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Steady supply of raw cotton from the nearby black soil region of Deccan Plateau / good network of transport to bring raw materials and distribute finished goods / humid climate favours spinning / cheap hydel power / excellent financial and credit facilities / abundant cheap labour (Any two)\n(b) Mulberry / Eri / Tussar / Muga (Any two)"
+      },
+      "chapter": "manufacturing-industries",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention two advantages of road transport over rail transport.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Roads are cheaper and easier to build. Suitable for short and medium distances. / Connect rural areas with urban centres. Flexible and provide door-to-door service. / Complement other modes of transport. (Any two)"
+      },
+      "chapter": "transport",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "11",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "State two reasons why perishable products are best transported with the help of roadways over short distances.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Perishable products need to be transported fast without stopping at various stations along the way. / They can be delivered directly at the markets, to the consumers. / The timings are flexible, can depart and arrive as per the needs of the hour. / Routes are flexible and can be altered to meet the need of the consumers. (Any two)"
+      },
+      "chapter": "transport",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "11",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain any three problems faced by the railways in India.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Railway tracks cannot be laid in hilly rugged terrain. / It is difficult and expensive to build a railway network where there are many rivers and streams like in the north-eastern part of India. / It offers less flexibility in routes and timings. / It cannot cross oceans and seas and hence unsuitable for international trade. / Needs huge capital investment. (Any three)"
+      },
+      "chapter": "transport",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "11",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give one reason to explain each of the following:\n(a) Coastal waterways predominate over inland waterways in Peninsular India.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Peninsular India is surrounded by seas and oceans on three sides giving it long coastline / peninsular rivers are seasonal, flow over uneven terrain, have rapids & waterfalls, hence unfit for navigation."
+      },
+      "chapter": "transport",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "11",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give one reason to explain each of the following:\n(b) Air transport is especially beneficial for relief and evacuation purposes.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Air transport is quick / can cross physical barriers / travel to remote areas / drop food, water, medicines directly to victims / airlift injured and stranded people"
+      },
+      "chapter": "transport",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "11",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give one reason to explain each of the following:\n(c) Families with elderly members choose railways to travel from one place to another.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Railways offer a comfortable journey especially for long distance travel as it provides facilities to sleep and stretch. Hence it is preferred for elderly members."
+      },
+      "chapter": "transport",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "12",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "(a) Identify the safe waste disposal method depicted in the picture below.\n(b) How does it convert waste to wealth?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Picture not reproduced (no image in the text layer); (b) refers to 'it', the method identified in (a) from the picture, so kept together as one entry.",
+        "Cognitive-level tags printed per sub-part: (a) Understanding, (b) Analysis — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Composting\n(b) Composting converts organic wastes to nutrient-rich manure through natural processes of decomposition. This manure helps to fertilise soil and enhance crop production without incurring expense."
+      },
+      "chapter": "waste-management",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is the significance of ‘Reduce’ in the 3R’s of sustainable waste management?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Reduction of waste prevents waste accumulation and its negative impacts. / It saves valuable natural resources. / Decreases rate of pollution. / Reduces emission of greenhouse gases. (Any two)"
+      },
+      "chapter": "waste-management",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "12",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "(a) Name any two items of daily use that can be recycled.\n(b) Explain two ways in which recycling is beneficial for the environment.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "(a) and (b) have no printed per-sub-part mark (only a combined [3] for the pair) and no even 2-way split is stated anywhere in the paper or marking scheme; kept together as one entry rather than guessing a split.",
+        "Cognitive-level tags printed per sub-part: (a) Understanding, (b) Analysis — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Newspaper / waste paper / broken glass / plastic items / metal objects / any other pertinent answer (Any two)\n(b) Conserves natural resources / Reduces waste accumulation / Reduces pollution (Any two)"
+      },
+      "chapter": "waste-management",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "State three measures that can be taken at the household level to reduce solid waste generation.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Segregation of waste / Reuse wastes / Reduce waste generation / Composting / Judicious use of natural resources / any relevant point (Any three)"
+      },
+      "chapter": "waste-management",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    }
+  ]
+}

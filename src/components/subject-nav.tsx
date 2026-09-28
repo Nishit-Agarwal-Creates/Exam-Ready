@@ -5,7 +5,7 @@ export function SubjectNav({ base, current }: { base: string; current: "overview
   const tabs = [
     { key: "overview", href: base, label: "Overview" },
     { key: "chapter-wise", href: `${base}/chapter-wise`, label: "Chapter-wise questions" },
-    { key: "pyq", href: `${base}/pyq`, label: "Previous-year questions" },
+    { key: "pyq", href: `/pyq${base}`, label: "Previous-year questions" },
   ] as const;
   return (
     <nav aria-label="Subject sections" className="mt-6 overflow-x-auto border-b border-rule">

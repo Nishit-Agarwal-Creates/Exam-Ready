@@ -7,11 +7,21 @@ import { QuestionBlock } from "@/components/question-block";
 import { getDb, schema } from "@/db";
 import { searchQuestions } from "@/lib/data/questions";
 import { AUTHORITY_LABELS, PAPER_TYPE_LABELS } from "@/lib/provenance";
+import { Pagination } from "@/components/pagination";
+import { one, type SearchParams } from "@/lib/filters";
 import { pageMetadata } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
 
-type Props = { params: Promise<{ id: string }> };
+type Props = { params: Promise<{ id: string }>; searchParams: Promise<SearchParams> };
+
+/** Pack notes carry "Usage: …" and "Accessed YYYY-MM-DD." at the end; show them as their own rows. */
+function splitNotes(notes: string) {
+  const accessed = notes.match(/Accessed (\d{4}-\d{2}-\d{2})\.?/)?.[1] ?? null;
+  const usageMatch = notes.match(/Usage: (.*?)(?= Accessed \d{4}-|$)/);
+  const body = notes.replace(/ ?Usage: .*?(?= Accessed \d{4}-|$)/, "").replace(/ ?Accessed \d{4}-\d{2}-\d{2}\.?/, "").trim();
+  return { body, usage: usageMatch?.[1]?.trim() ?? null, accessed };
+}
 
 async function load(idStr: string) {
   const id = Number(idStr);
@@ -39,14 +49,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-export default async function SourcePage({ params }: Props) {
+export default async function SourcePage({ params, searchParams }: Props) {
   const row = await load((await params).id);
   if (!row) notFound();
   const p = row.paper;
+  const page = Math.max(1, Math.floor(Number(one((await searchParams).page))) || 1);
   const [all, published] = await Promise.all([
-    searchQuestions({ paperId: p.id, pageSize: 1 }, false),
-    searchQuestions({ paperId: p.id, publicOnly: true, realPyqOnly: p.paperType === "BOARD_EXAM" ? true : undefined, pageSize: 100 }, false),
+    searchQuestions({ paperId: p.id, pageSize: 1 }, false, { light: true }),
+    searchQuestions(
+      { paperId: p.id, publicOnly: true, realPyqOnly: p.paperType === "BOARD_EXAM" ? true : undefined, sort: "paper", page, pageSize: 12 },
+      false,
+    ),
   ]);
+  const notes = splitNotes(p.sourceNotes ?? "");
   const meta: [string, string | null][] = [
     ["Board", row.board],
     ["Class", row.cls],
@@ -66,6 +81,9 @@ export default async function SourcePage({ params }: Props) {
     ["Extraction", p.extractionMethod ? `${p.extractionMethod === "PDF_TEXT_LAYER" ? "Text layer of the PDF" : p.extractionMethod === "OCR" ? "OCR" : p.extractionMethod === "MANUAL" ? "Typed manually" : "Pasted text"}${p.extractionTool ? ` (${p.extractionTool})` : ""}` : null],
     ["OCR confidence", p.ocrUsed && p.ocrConfidence !== null ? `${Math.round(p.ocrConfidence)}%` : null],
     ["File checksum", p.sha256 ? `SHA-256 ${p.sha256.slice(0, 16)}…` : null],
+    ["Questions imported", String(all.total)],
+    ["Usage", notes.usage],
+    ["Accessed", notes.accessed ? new Date(notes.accessed).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" }) : null],
     ["Added", new Date(p.createdAt).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })],
   ];
 
@@ -91,7 +109,7 @@ export default async function SourcePage({ params }: Props) {
                 </div>
               ))}
           </dl>
-          {p.sourceNotes && <p className="mt-4 text-[0.95rem] text-pencil">{p.sourceNotes}</p>}
+          {notes.body && <p className="prose-width mt-4 text-[0.95rem] text-pencil">{notes.body}</p>}
         </div>
         <aside className="space-y-4">
           <div className="sheet p-5">
@@ -125,7 +143,7 @@ export default async function SourcePage({ params }: Props) {
               <p className="mt-3 text-[0.85rem] text-pencil">Links go to the publisher. ExamReady isn&apos;t affiliated with or endorsed by any board.</p>
             </div>
           )}
-          <Link href={`/${row.boardSlug}/${row.classSlug}/${row.subjectSlug}/pyq`} className="btn btn-secondary w-full">
+          <Link href={`/pyq/${row.boardSlug}/${row.classSlug}/${row.subjectSlug}`} className="btn btn-secondary w-full">
             {row.subject} previous-year questions
           </Link>
         </aside>
@@ -133,7 +151,7 @@ export default async function SourcePage({ params }: Props) {
 
       <section className="mt-10" aria-labelledby="qs-title">
         <h2 id="qs-title" className="text-[1.6rem]">
-          Verified questions from this source
+          {p.paperType === "BOARD_EXAM" ? "Verified questions from this paper" : "Verified questions from this document"}
         </h2>
         {published.items.length === 0 ? (
           <p className="panel mt-4 rounded-2xl p-6 text-pencil">None yet. Questions appear here once an editor has verified them.</p>
@@ -143,12 +161,13 @@ export default async function SourcePage({ params }: Props) {
               const link = q.sources.find((s) => s.paperId === p.id);
               return (
                 <li key={q.id} className="sheet p-4 sm:p-6">
-                  <QuestionBlock number={`${link?.questionNumber ?? "?"}${link?.part ?? ""}`} q={q} headingLevel={3} />
+                  <QuestionBlock number={`${link?.questionNumber ?? "?"}${link?.part ?? ""}`} q={q} headingLevel={3} provenance="line" />
                 </li>
               );
             })}
           </ol>
         )}
+        <Pagination page={published.page} pages={published.pages} href={(n) => `/sources/${p.id}${n > 1 ? `?page=${n}` : ""}`} />
       </section>
     </div>
   );

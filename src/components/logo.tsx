@@ -1,6 +1,7 @@
 /**
- * ExamReady identity. The mark is an "E" whose middle stroke becomes a rising tick:
- * an exam paper's ruled lines turning into "ready". It reads at 16px and works in one colour.
+ * ExamReady identity. The mark is an "E" drawn from an exam paper's ruled lines, whose middle
+ * stroke climbs like a progress line and lands on a red-pen point: preparation rising to the mark.
+ * It reads at 16px and works in one colour.
  *
  *   <LogoMark />                 colour mark (midnight tile, white strokes, red-pen tick)
  *   <LogoMark variant="mono" />  single colour (currentColor), for print and dark/light overlays
@@ -25,7 +26,8 @@ export function LogoMark({ size = 30, variant = "color", className = "" }: { siz
         </>
       )}
       <path d="M10 9.5h12M10 22.5h12M10 9.5v13" fill="none" stroke={mono ? "currentColor" : "#fff"} strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M10 16h3.2l2.3 2.6 5.7-6.6" fill="none" stroke={mono ? "currentColor" : "#ff5a6a"} strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M10 16h3.4l2.9-3 2.3 1.6 2.6-3.3" fill="none" stroke={mono ? "currentColor" : "#6fe3ff"} strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="22.9" cy="10.1" r="2.3" fill={mono ? "currentColor" : "#ff5a6a"} />
     </svg>
   );
 }

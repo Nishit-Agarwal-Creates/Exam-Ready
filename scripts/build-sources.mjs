@@ -8,13 +8,13 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { boardIdSql, chapterIdSql, classIdSql, contentHash, q, similarity, subjectIdSql, taxonomySql } from "./lib/sql.mjs";
+import { boardIdSql, chapterIdSql, classIdSql, contentHash, normaliseForHash, q, similarity, subjectIdSql, taxonomySql } from "./lib/sql.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dir = join(root, "src", "data", "sources");
 const outFile = join(root, "drizzle", "seed", "sources.sql");
 
-const TYPE_MAP = { MCQ: "MCQ", ASSERTION_REASON: "ASSERTION_REASON", SHORT_ANSWER: "SHORT_ANSWER", LONG_ANSWER: "LONG_ANSWER", CASE_BASED: "CASE_BASED", NUMERICAL: "NUMERICAL" };
+const TYPE_MAP = { MCQ: "MCQ", ASSERTION_REASON: "ASSERTION_REASON", FILL_BLANK: "FILL_BLANK", SHORT_ANSWER: "SHORT_ANSWER", LONG_ANSWER: "LONG_ANSWER", CASE_BASED: "CASE_BASED", NUMERICAL: "NUMERICAL" };
 const SOURCE_TYPE = { BOARD_EXAM: "VERIFIED_PYQ", SPECIMEN: "OFFICIAL_SAMPLE", SAMPLE: "OFFICIAL_SAMPLE", SCHOOL_EXAM: "USER_CONTRIBUTED", OTHER: "PENDING_REVIEW" };
 
 const tax = JSON.parse(readFileSync(join(root, "src", "data", "taxonomy.json"), "utf8"));
@@ -45,7 +45,7 @@ for (const pack of packs) {
     year: q(s.examYear ?? null),
     paper_type: q(s.paperType),
     source_url: q(s.sourceUrl ?? null),
-    source_notes: q(s.notes ?? ""),
+    source_notes: q([s.notes, s.usage ? `Usage: ${s.usage}` : null, s.accessedOn ? `Accessed ${s.accessedOn}.` : null].filter(Boolean).join(" ")),
     is_demo: "0",
     source_key: q(s.key),
     authority: q(s.authority ?? "OTHER"),
@@ -116,23 +116,35 @@ for (const pack of packs) {
         key,
       )}), ${paperId}, ${q(String(item.number))}, ${q(item.part ?? null)}, ${q(item.page ?? null)}, ${q(
         [item.section, item.sectionTitle].filter(Boolean).join(" ") || null,
-      )}, ${item.marks}, 1, ${q(item.marksSource === "SECTION_INSTRUCTIONS" ? "Marks taken from the section instructions." : "")} WHERE (SELECT id FROM questions WHERE external_key = ${q(
+      )}, ${item.marks}, 1, ${q(
+        [item.marksSource === "SECTION_INSTRUCTIONS" ? "Marks taken from the section instructions." : null, item.cognitiveLevel ? `Cognitive level printed on the paper: ${item.cognitiveLevel}.` : null]
+          .filter(Boolean)
+          .join(" "),
+      )} WHERE (SELECT id FROM questions WHERE external_key = ${q(
         key,
       )}) IS NOT NULL AND ${paperId} IS NOT NULL ON CONFLICT(question_id, paper_id) DO NOTHING;`,
     );
-    all.push({ key, text: item.text, hash: contentHash(item.text), subject: `${board}/${level}/${subject}`, type });
+    all.push({ key, text: item.text, hash: contentHash(item.text), subject: `${board}/${level}/${subject}`, type, marks: item.marks, words: wordCount(item.text) });
   }
 }
 
-// Duplicate detection: exact normalised match, or near-identical wording, within a subject.
-// The first occurrence (by pack order) is canonical. Existing canonical links are never overwritten.
+// Duplicate detection: exact normalised match, or near-identical wording, within a subject, with the
+// same marks and enough words to compare. Short texts (often where symbols, structures or figures were
+// lost in extraction) are never auto-linked, so different questions are not merged by accident; an
+// editor can still link them in /admin/duplicates. The first occurrence (by pack order) is canonical.
+// Existing canonical links are never overwritten.
+function wordCount(text) {
+  return new Set(normaliseForHash(text).split(" ").filter((w) => w.length > 2)).size;
+}
 let dupes = 0;
 for (let i = 0; i < all.length; i++) {
   for (let j = 0; j < i; j++) {
     const a = all[j];
     const b = all[i];
     if (a.subject !== b.subject || a.key.split("#")[0] === b.key.split("#")[0]) continue;
-    if (a.hash === b.hash || (a.type === b.type && similarity(a.text, b.text) >= 0.85)) {
+    const enoughWords = Math.min(a.words, b.words);
+    const same = a.hash === b.hash ? enoughWords >= 5 : a.type === b.type && enoughWords >= 8 && similarity(a.text, b.text) >= 0.85;
+    if (same && a.marks === b.marks) {
       out.push(
         `UPDATE questions SET canonical_question_id = (SELECT COALESCE(canonical_question_id, id) FROM questions WHERE external_key = ${q(
           a.key,

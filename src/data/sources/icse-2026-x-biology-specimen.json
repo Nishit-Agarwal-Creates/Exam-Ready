@@ -1,0 +1,1628 @@
+{
+  "source": {
+    "key": "icse-2026-x-biology-specimen",
+    "title": "ICSE 2026 Specimen Question Paper, Biology (Science Paper – 3)",
+    "board": "icse",
+    "class": 10,
+    "subject": "biology",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations",
+    "paperType": "SPECIMEN",
+    "examYear": 2026,
+    "session": "Specimen paper for the ICSE 2026 examination",
+    "paperName": "Biology (Science Paper – 3)",
+    "paperCode": "T26 523",
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-523-SCI3.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-523-SCI3.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 19,
+    "sha256": "e986d2b97ad183a72a080388802e0cbc90efcec084669a457552532a848919e2",
+    "maxMarks": 80,
+    "durationMinutes": 120,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "notes": "Found on the official page https://cisce.org/specimen-question-papers-icse-class-x-2026-2/. This is a SPECIMEN paper for the 2026 ICSE examination (examYear=2026), not a past board exam. The single PDF contains both the question paper (13 printed pages, PDF pages 1-14 — PDF page 1 is the cover/instructions page footed \"1 of 13\", PDF page 2 is an unnumbered inserted 'NOTE' page about the specimen paper's purpose, and PDF pages 3-14 carry printed page numbers \"2 of 13\" through \"13 of 13\") and a 5-page 'DRAFT MARKING SCHEME' (PDF pages 15-19, printed \"1 of 5\" to \"5 of 5\"); answerSourceUrl is the same URL, answerSourceFile is null. Paper code printed on every page: 'T26 523 – SPECIMEN'. Section A is compulsory (Question 1: 15 one-mark MCQ/assertion-reason items; Question 2: five 5-mark sub-questions (i)-(v), each made of five 1-mark parts (a)-(e)), 40 marks total, per the printed instruction 'Attempt all questions from this Section.' Section B prints 'Attempt any four questions from this Section' over six 10-mark questions (Questions 3-8); this is a pick-4-of-6 choice, NOT a standard two-alternative 'OR' pair, so choiceGroup is not used for these — all six are included as ordinary questions and a student attempting any four scores the printed maximum of 80. Because this pack (correctly) includes all six Section B questions, the sum of question marks in this file is 100 (40 Section A + 60 Section B), not 80; that is expected for a pick-4-of-6 paper, not an error. Sub-parts of Section B questions that reference a shared scenario/picture and cannot stand alone (e.g. Q3(iii) Ayush's carrom match, Q4(v) the plant-hormone picture, Q5(v) Surya's variegated-leaf experiment, Q6(v) Santosh's pea plants, Q7(iii) Meena's plastic-bag setup, Q8(v) the horizontally-placed pots) are kept together as one SHORT_ANSWER entry per the brief; other sub-parts that are independently answerable (e.g. Q5(iii)(a)/(b) two separate food chains, Q6(ii)(a)/(b), Q6(iii)(a)/(b)) are split into their own entries. Cognitive-level tags ('Recall'/'Understanding'/'Application'/'Analysis'/'Skill', sometimes combined as e.g. '[Understanding & Recall]') are printed next to almost every item; combined tags are recorded verbatim (e.g. cognitiveLevel: 'Understanding & Recall') since the paper prints them as a single joint tag for that one item, not as separate tags for separate sub-parts. In Question 1's marking scheme, pdftotext's default (layout) mode linearised the printed two-column answer table (a column of 15 correct letters, then a column of 15 answer texts) into a scrambled, misaligned block; raw (non-layout) extraction recovered the two clean columns, and each of the 15 correctOption/text values below was obtained by pairing the Nth letter with the Nth text (in that clean raw order) and then verifying the paired text against that item's own four printed options in the question paper — this succeeded for 14 of 15 items. For item 1(xi) (onset of menstruation), the paired answer text ('Vasectomy in males, Tubectomy in females') does not match any of the four printed options for that question at all; officialAnswer is omitted for that entry and the raw scheme text is quoted in its extractionIssues for editorial review, rather than substituting a self-derived answer. accessedOn 2026-09-28. Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced."
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Allen’s blood report showed an abnormal decrease in the number of R.B.C. He is suffering from:",
+      "options": [
+        "Polycythemia",
+        "Erythropenia",
+        "Glycosuria",
+        "Haemophilia"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) / Erythropenia",
+        "correctOption": 1
+      },
+      "chapter": "circulatory-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A farmer notices that storing ripe mangoes with unripe ones speeds up the ripening process. The phytohormone primarily responsible for this phenomenon is:",
+      "options": [
+        "Auxins",
+        "Cytokinins",
+        "Gibberellins",
+        "Ethylene"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) / Ethylene",
+        "correctOption": 3
+      },
+      "chapter": "chemical-coordination-in-plants",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): Oxygen is produced during light dependent reactions of photosynthesis.\nReason (R): Oxygen is released as a byproduct during photolysis.",
+      "options": [
+        "(A) is true and (R) is false.",
+        "(A) is false and (R) is true.",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "In the marking scheme's Question 1 block, the correct letters and answer texts for the 15 items were printed as two separate columns (a column of 15 letters, then a column of 15 answer texts) that pdftotext's default (layout) mode linearised into a scrambled, misaligned block; raw (non-layout) extraction recovered the two clean columns and correctOption/text below were matched by pairing the Nth letter with the Nth text and verifying that text against this item's own printed options."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) / Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "correctOption": 2
+      },
+      "chapter": "photosynthesis",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Reena gets emotionally stressed when the school examinations are approaching. Which hormone is responsible for this condition?",
+      "options": [
+        "Adrenaline",
+        "Thyroxine",
+        "Insulin",
+        "Growth hormone"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) / Adrenaline",
+        "correctOption": 0
+      },
+      "chapter": "endocrine-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The diagram given below is that of a Neutrophil. The function is ___________:",
+      "options": [
+        "secreting hormone",
+        "transporting food",
+        "phagocytosis",
+        "producing antibodies"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of a neutrophil (page 4) not reproduced; question is answerable from general knowledge without it."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) / phagocytosis",
+        "correctOption": 2
+      },
+      "chapter": "circulatory-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): Pituitary gland is known as the master gland.\nReason (R): It regulates the activities of other exocrine glands.",
+      "options": [
+        "(A) is true and (R) is false.",
+        "(A) is false and (R) is true.",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marking scheme's answer text for this item reads \"(A) is True but (R) is False\" (case/wording differs slightly from the option as printed in the question paper, \"(A) is true and (R) is false.\"); matched to this item's option (a) by content."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) / (A) is True but (R) is False",
+        "correctOption": 0
+      },
+      "chapter": "endocrine-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Aruna went to a theatre to watch a movie on a bright sunny morning. As she came out of the theatre, she felt a dazzling effect and could not open her eyes. After a few minutes her vision became normal. This is due to:",
+      "options": [
+        "Accommodation of eye",
+        "Mutation",
+        "Polarisation",
+        "Adaptation of eyes"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) / Adaptation of eyes",
+        "correctOption": 3
+      },
+      "chapter": "sense-organs",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Reflex actions provide a survival advantage because they:",
+      "options": [
+        "are controlled by the cerebrum.",
+        "are controlled by the medulla oblongata.",
+        "require no conscious thought, allowing rapid responses.",
+        "always involve the spinal cord."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) / require no conscious thought, allowing rapid responses.",
+        "correctOption": 2
+      },
+      "chapter": "nervous-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Industrial melanism is the phenomenon by which the peppered moth:",
+      "options": [
+        "die due to industrial growth.",
+        "in polluted areas, became darker in colour for better camouflage.",
+        "became lighter in colour due to natural selection.",
+        "became resistant to industrial pollution."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) / in polluted areas, became darker in colour for better camouflage.",
+        "correctOption": 1
+      },
+      "chapter": "human-evolution",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The hormone that maintains the thickening of the endometrium during pregnancy is:",
+      "options": [
+        "Oestrogen",
+        "ACTH",
+        "Progesterone",
+        "Oxytocin"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) / Progesterone",
+        "correctOption": 2
+      },
+      "chapter": "reproductive-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The onset of menstruation in a human female is called:",
+      "options": [
+        "Menopause",
+        "Menarche",
+        "Ovulation",
+        "Oogenesis"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "The marking scheme's answer text for this item, recovered from the raw (non-layout) extraction, is \"Vasectomy in males, Tubectomy in females\" (letter (a)) — this does not match any of the four options printed for this question (Menopause/Menarche/Ovulation/Oogenesis) and appears to be leftover/misaligned content from a different or earlier version of the question, not a usable answer for the question as printed. officialAnswer omitted; see marking scheme page 15 of the PDF (\"1 of 5\"), item (xi), for the raw scheme text."
+      ],
+      "confidence": "LOW",
+      "chapter": "reproductive-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The number of autosomes and allosomes present in a human cell:",
+      "options": [
+        "22 allosomes, 1 autosome",
+        "22 pairs of autosomes, 1 pair of allosome",
+        "22 autosomes, 1 allosome",
+        "22 pairs of allosomes, 1pair of autosome"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) / 22 pairs of autosomes, 1 pair of allosome",
+        "correctOption": 1
+      },
+      "chapter": "genetics",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Cultural revolution favours a steep rise in human population. Identify the correct sequence of revolution:",
+      "options": [
+        "Tool making, Scientific and Industrial, Agricultural",
+        "Agricultural, Tool making, Scientific and Industrial",
+        "Scientific and Industrial, Agricultural, Tool making",
+        "Tool making, Agricultural, Scientific and Industrial"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "No dedicated population-history chapter exists in this taxonomy for this specific item; mapped to the nearest available chapter (population)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) / Tool making, Agricultural, Scientific and Industrial",
+        "correctOption": 3
+      },
+      "chapter": "population",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Tanvi tried to match the phases of menstrual cycle with the number of days as given in the table below:\nP – Follicular Phase: Day 5 – 12\nQ – Luteal Phase: Day 15 – 28\nR – Menstrual Phase: Day 3 – 5\nS – Ovulatory Phase: Day 13 or 14\nIdentify the correct sequence:",
+      "options": [
+        "P, Q, R, S",
+        "Q, S, R, P",
+        "R, P, S, Q",
+        "S, R, P, Q"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) / R, P, S, Q",
+        "correctOption": 2
+      },
+      "chapter": "reproductive-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Aditya who is fond of roller skating. Identify the correct terms which help him to maintain his body balance:",
+      "options": [
+        "Cerebellum, Semicircular canals, Vestibule",
+        "Vestibule, Sclera, Cerebrum",
+        "Malleus, Semicircular canals, Utriculus",
+        "Sacculus, Stapes, Cochlea"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) / Cerebellum, Semicircular canals, Vestibule",
+        "correctOption": 0
+      },
+      "chapter": "sense-organs",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis & Application"
+    },
+    {
+      "number": "2",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give the biological/technical terms for the following: A mixture of smoke and fog.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Smog"
+      },
+      "chapter": "pollution",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "2",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give the biological/technical terms for the following: The inner lining of uterus.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Endometrium"
+      },
+      "chapter": "reproductive-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "2",
+      "part": "(i)(c)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give the biological/technical terms for the following: The pressure that is responsible for the movement of water molecules across the cortical cells of the root.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Root pressure"
+      },
+      "chapter": "absorption-by-roots",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "2",
+      "part": "(i)(d)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give the biological/technical terms for the following: The ground substance present in a chloroplast.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Stroma"
+      },
+      "chapter": "photosynthesis",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "2",
+      "part": "(i)(e)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give the biological/technical terms for the following: The fluid present between the layers of meninges.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "No dedicated brain/meninges chapter exists in this taxonomy; mapped to the nearest available chapter (nervous-system)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Cerebrospinal fluid"
+      },
+      "chapter": "nervous-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "2",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Given below is the diagram of a human heart. Read the information below the diagram and fill in the blanks: The human heart pumps blood throughout the body. It is the size of a large fist. The heart is located between the lungs in the thoracic cavity. It has four chambers. The heart functions all through the lifespan of a person and is responsible for the survival of the person. The heart is enclosed by a membrane called (a) ____________ (Pericardium / Pleura). The ventricles give rise to two large blood vessels called (b) ____________ (Pulmonary vein / Pulmonary artery) and (c) ____________ (Aorta / Venacava). The flaps of the cuspid valves are kept in position by (d) ____________ (Chordae tendinae / Endometrium). (e) ____________ (Hepatic / Coronary) arteries supply oxygenated blood to the walls of the heart.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "This is one continuous fill-in-the-blank passage with blanks (a)-(e); the full passage (identical) is repeated in each of the 5 split entries and the target blank is identified by this entry's part label and officialAnswer.",
+        "Diagram of a human heart (page 8) not reproduced; blanks are answerable from the passage's own bracketed word choices without it."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Pericardium"
+      },
+      "chapter": "circulatory-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Application"
+    },
+    {
+      "number": "2",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Given below is the diagram of a human heart. Read the information below the diagram and fill in the blanks: The human heart pumps blood throughout the body. It is the size of a large fist. The heart is located between the lungs in the thoracic cavity. It has four chambers. The heart functions all through the lifespan of a person and is responsible for the survival of the person. The heart is enclosed by a membrane called (a) ____________ (Pericardium / Pleura). The ventricles give rise to two large blood vessels called (b) ____________ (Pulmonary vein / Pulmonary artery) and (c) ____________ (Aorta / Venacava). The flaps of the cuspid valves are kept in position by (d) ____________ (Chordae tendinae / Endometrium). (e) ____________ (Hepatic / Coronary) arteries supply oxygenated blood to the walls of the heart.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "This is one continuous fill-in-the-blank passage with blanks (a)-(e); the full passage (identical) is repeated in each of the 5 split entries and the target blank is identified by this entry's part label and officialAnswer.",
+        "Diagram of a human heart (page 8) not reproduced; blanks are answerable from the passage's own bracketed word choices without it."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Pulmonary artery"
+      },
+      "chapter": "circulatory-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Application"
+    },
+    {
+      "number": "2",
+      "part": "(ii)(c)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Given below is the diagram of a human heart. Read the information below the diagram and fill in the blanks: The human heart pumps blood throughout the body. It is the size of a large fist. The heart is located between the lungs in the thoracic cavity. It has four chambers. The heart functions all through the lifespan of a person and is responsible for the survival of the person. The heart is enclosed by a membrane called (a) ____________ (Pericardium / Pleura). The ventricles give rise to two large blood vessels called (b) ____________ (Pulmonary vein / Pulmonary artery) and (c) ____________ (Aorta / Venacava). The flaps of the cuspid valves are kept in position by (d) ____________ (Chordae tendinae / Endometrium). (e) ____________ (Hepatic / Coronary) arteries supply oxygenated blood to the walls of the heart.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "This is one continuous fill-in-the-blank passage with blanks (a)-(e); the full passage (identical) is repeated in each of the 5 split entries and the target blank is identified by this entry's part label and officialAnswer.",
+        "Diagram of a human heart (page 8) not reproduced; blanks are answerable from the passage's own bracketed word choices without it."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Aorta"
+      },
+      "chapter": "circulatory-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Application"
+    },
+    {
+      "number": "2",
+      "part": "(ii)(d)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Given below is the diagram of a human heart. Read the information below the diagram and fill in the blanks: The human heart pumps blood throughout the body. It is the size of a large fist. The heart is located between the lungs in the thoracic cavity. It has four chambers. The heart functions all through the lifespan of a person and is responsible for the survival of the person. The heart is enclosed by a membrane called (a) ____________ (Pericardium / Pleura). The ventricles give rise to two large blood vessels called (b) ____________ (Pulmonary vein / Pulmonary artery) and (c) ____________ (Aorta / Venacava). The flaps of the cuspid valves are kept in position by (d) ____________ (Chordae tendinae / Endometrium). (e) ____________ (Hepatic / Coronary) arteries supply oxygenated blood to the walls of the heart.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "This is one continuous fill-in-the-blank passage with blanks (a)-(e); the full passage (identical) is repeated in each of the 5 split entries and the target blank is identified by this entry's part label and officialAnswer.",
+        "Diagram of a human heart (page 8) not reproduced; blanks are answerable from the passage's own bracketed word choices without it."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Chordae tendinae"
+      },
+      "chapter": "circulatory-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Application"
+    },
+    {
+      "number": "2",
+      "part": "(ii)(e)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Given below is the diagram of a human heart. Read the information below the diagram and fill in the blanks: The human heart pumps blood throughout the body. It is the size of a large fist. The heart is located between the lungs in the thoracic cavity. It has four chambers. The heart functions all through the lifespan of a person and is responsible for the survival of the person. The heart is enclosed by a membrane called (a) ____________ (Pericardium / Pleura). The ventricles give rise to two large blood vessels called (b) ____________ (Pulmonary vein / Pulmonary artery) and (c) ____________ (Aorta / Venacava). The flaps of the cuspid valves are kept in position by (d) ____________ (Chordae tendinae / Endometrium). (e) ____________ (Hepatic / Coronary) arteries supply oxygenated blood to the walls of the heart.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "This is one continuous fill-in-the-blank passage with blanks (a)-(e); the full passage (identical) is repeated in each of the 5 split entries and the target blank is identified by this entry's part label and officialAnswer.",
+        "Diagram of a human heart (page 8) not reproduced; blanks are answerable from the passage's own bracketed word choices without it."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Coronary"
+      },
+      "chapter": "circulatory-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Application"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the odd term out from the following set of terms and mention the category to which the remaining three belong: Sulphur dioxide, Oxygen, Carbon monoxide, Nitrogen dioxide.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "O – Oxygen; C – Air pollutants"
+      },
+      "chapter": "pollution",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the odd term out from the following set of terms and mention the category to which the remaining three belong: Pons, Epidermis, Xylem, Phloem.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "No dedicated plant-tissues chapter exists in this taxonomy; chapter left null."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "O – Pons; C – Plant tissues"
+      },
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the odd term out from the following set of terms and mention the category to which the remaining three belong: Tympanum, Pinna, Auditory canal, Malleus.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "O – Malleus; C – Parts of outer ear"
+      },
+      "chapter": "sense-organs",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(d)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the odd term out from the following set of terms and mention the category to which the remaining three belong: Ureter, Urethra, Uterus, Renal Pelvis.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "O – Uterus; C – Parts of urinary system"
+      },
+      "chapter": "excretory-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(e)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the odd term out from the following set of terms and mention the category to which the remaining three belong: Stomata, Lenticles, Cuticle, Root hair.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "O – Root hair; C – Parts through which transpiration takes place."
+      },
+      "chapter": "transpiration",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "2",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Rajeev, a 10 year old boy, went to an Ophthalmologist to get his eyes tested. He noticed a poster in the clinic with questions related to the parts of human eye. Help Rajeev answer the questions: Which is the fluid that lubricates the eye?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Tears"
+      },
+      "chapter": "sense-organs",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application & Recall"
+    },
+    {
+      "number": "2",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Rajeev, a 10 year old boy, went to an Ophthalmologist to get his eyes tested. He noticed a poster in the clinic with questions related to the parts of human eye. Help Rajeev answer the questions: Which cells help in colour vision?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Cones"
+      },
+      "chapter": "sense-organs",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application & Recall"
+    },
+    {
+      "number": "2",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Rajeev, a 10 year old boy, went to an Ophthalmologist to get his eyes tested. He noticed a poster in the clinic with questions related to the parts of human eye. Help Rajeev answer the questions: Which nerve sends impulses from the eyeball to the brain?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Optic nerve"
+      },
+      "chapter": "sense-organs",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application & Recall"
+    },
+    {
+      "number": "2",
+      "part": "(iv)(d)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Rajeev, a 10 year old boy, went to an Ophthalmologist to get his eyes tested. He noticed a poster in the clinic with questions related to the parts of human eye. Help Rajeev answer the questions: Name the structure that gives colour to the eyes.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Iris"
+      },
+      "chapter": "sense-organs",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application & Recall"
+    },
+    {
+      "number": "2",
+      "part": "(iv)(e)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Rajeev, a 10 year old boy, went to an Ophthalmologist to get his eyes tested. He noticed a poster in the clinic with questions related to the parts of human eye. Help Rajeev answer the questions: Name the part that allows entry of light rays into the eye.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Pupil"
+      },
+      "chapter": "sense-organs",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application & Recall"
+    },
+    {
+      "number": "2",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Study the diagram given below and match the structure with its function:\nExample: Scrotum - (f)\nFunctions:\n(a) Secrete Testosterone\n(b) Transports sperms to Epididymis\n(c) Stores sperms till maturation\n(d) Transport sperms to urethra\n(e) Produce sperms\n(f) Regulates temperature of Testis.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure/diagram on page 9 with labelled structures not reproduced; the 'Structure' column (names to be identified from the diagram) is not available as text.",
+        "Official answer partly relies on the diagram: structure names are taken from the marking scheme and matched to functions (a)-(e)."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) – Interstitial cells; (b) – Efferent Ducts; (c) – Epididymis; (d) – Vas deferens; (e) – Seminiferous tubules"
+      },
+      "chapter": "reproductive-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "3",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain the term Menarche.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It is the onset of menstruation in a young female around the age of 13 years."
+      },
+      "chapter": "reproductive-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "In what form is water lost during transpiration and guttation from plants?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Transpiration – As water vapour. Guttation – As water droplets."
+      },
+      "chapter": "transpiration",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Ayush was in the final round of a carrom match. He was focussing intently on the strokes of the opponent player.\n(a) Which part of the brain helps Ayush to focus on the game?\n(b) Name the part of the brain that co-ordinates his muscles while using the striker.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Cerebrum\n(b) Cerebellum"
+      },
+      "chapter": "nervous-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis & Application"
+    },
+    {
+      "number": "3",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "State the permeability of cell membrane and cell wall.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Cell membrane - Semipermeable. Cell wall – Freely permeable."
+      },
+      "chapter": "absorption-by-roots",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Draw a neat, labelled diagram of a cross section of an Artery and a Vein.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Official answer is a diagram (not reproduced in text extraction); the marking scheme gives no text for this item, only the mark allocation."
+      ],
+      "confidence": "LOW",
+      "chapter": "circulatory-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Skill"
+    },
+    {
+      "number": "4",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is Excretion?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It is the removal of harmful nitrogenous waste products from the body."
+      },
+      "chapter": "excretory-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "4",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Differentiate between Diabetes mellitus and Diabetes insipidus with reference to the hormone involved.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Diabetes mellitus – Hyposecretion of Insulin. Diabetes insipidus – Hyposecretion of ADH."
+      },
+      "chapter": "endocrine-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "4",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give the common name and the scientific name of the plant on which Gregor Mendel conducted his breeding experiments.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Common name – Garden pea. Scientific name – Pisum sativum"
+      },
+      "chapter": "genetics",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "4",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name the tonicity of the solutions for a living cell to show Endosmosis and Exosmosis.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Endosmosis – Hypotonic solution. Exosmosis – Hypertonic solution"
+      },
+      "chapter": "absorption-by-roots",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "4",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Plant hormones are produced in extremely low concentrations in plants to regulate the physiological processes and tropic movements –\n(a) Name one plant hormone responsible for the changes shown in the above picture.\n(b) Identify a hormone that has an opposite effect to the one depicted in the picture.\n(c) Give an example of a plant that shows Thigmotropism.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure/picture referenced in part (a)/(b) (page 11) not reproduced; parts (a) and (b) cannot be answered with certainty without it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Abscisic acid, Ethylene\n(b) Auxin\n(c) Peas, Grapes, Ivy"
+      },
+      "chapter": "chemical-coordination-in-plants",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis & Application"
+    },
+    {
+      "number": "5",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What are non-biodegradable wastes?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Materials that can not be broken down by the microorganism. They persist in the environment causing pollution."
+      },
+      "chapter": "pollution",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "5",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention any two objectives of the Swachh Bharat Abhiyan.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "To eliminate open defecation. To clean streets, infrastructure of cities and towns."
+      },
+      "chapter": "pollution",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "5",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Arrange the following food chain in a proper sequence: Small fish, Penguin, Algae, Seal, Mosquito larvae",
+      "hasFigure": false,
+      "extractionIssues": [
+        "No dedicated ecosystem/food-chain chapter exists in this taxonomy; mapped to the nearest available chapter (pollution)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Algae, Mosquito larvae, Small fish, Seal, Penguin."
+      },
+      "chapter": "pollution",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "5",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Arrange the following food chain in a proper sequence: Woodpecker, Caterpillar, Mountain lion, Fox, Cabbage",
+      "hasFigure": false,
+      "extractionIssues": [
+        "No dedicated ecosystem/food-chain chapter exists in this taxonomy; mapped to the nearest available chapter (pollution)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Cabbage, Caterpillar, Wood pecker, Fox, Mountain lion."
+      },
+      "chapter": "pollution",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "5",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention the number of cranial nerves and spinal nerves in a human being.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Cranial nerves – 12 pairs. Spinal nerves – 31 pairs"
+      },
+      "chapter": "nervous-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "5",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Surya used a plant with variegated leaves for an experiment on photosynthesis. He tested a leaf with iodine after keeping the plant in sunlight for a few hours.\n(a) Which parts of the leaf will turn blue black after the iodine test?\n(b) What does this tell us about the role of chlorophyll in photosynthesis?\n(c) Write the overall chemical equation for photosynthesis.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: CO2, H2O, C6H12O6, O2."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Green parts\n(b) Green parts contain chlorophyll which traps sunlight for photosynthesis.\n(c) 6CO2 + 6H2O → C6H12O6 + 6O2 + 6H2O (Carbon dioxide) (Water) (Glucose) (Oxygen) (Water)"
+      },
+      "chapter": "photosynthesis",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application & Recall"
+    },
+    {
+      "number": "6",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "State Mendel’s Law of Dominance.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Out of a pair of contrasting characters present together, only one is able to express itself while the other remains suppressed."
+      },
+      "chapter": "genetics",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "6",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State the rate of transpiration when the air surrounding a plant has more atmospheric humidity.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Less transpiration"
+      },
+      "chapter": "transpiration",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "6",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State the rate of transpiration when the air surrounding a plant has hot and dry air.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "More transpiration"
+      },
+      "chapter": "transpiration",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "6",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Expand the following abbreviation: ACTH",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Adreno Cortico Tropic Hormone"
+      },
+      "chapter": "endocrine-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "6",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Expand the following abbreviation: ADH",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Antidiuretic Hormone"
+      },
+      "chapter": "endocrine-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "6",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Which part of the ear equalizes air pressure on either side of the ear drum? Where is this structure located?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Eustachian tube. Located in the middle ear."
+      },
+      "chapter": "sense-organs",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "6",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Santosh loved his garden, especially his pea plants. One year, he noticed that all the pea plants he grew from one batch of seeds had round seeds. Curious, he took the seeds from one of those plants and grew a new generation. To his surprise, 75% of the new plants had round seeds, but 25% had wrinkled seeds.\n(a) What were the genotypes of the parent plants that Santosh originally planted?\n(b) Which trait is dominant – round or wrinkled seeds?\n(c) What is the genotypic ratio of the second generation (F2) plants?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Heterozygous dominant – Rr\n(b) Round\n(c) 1:2:1"
+      },
+      "chapter": "genetics",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis"
+    },
+    {
+      "number": "7",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain the term Natality.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It is the number of live births per 1000 people of population per year."
+      },
+      "chapter": "population",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "7",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Distinguish between Sympathetic system and Parasympathetic system on the basis of heartbeat.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Sympathetic System – Heartbeat increases. Parasympathetic System – Heartbeat decreases and becomes normal."
+      },
+      "chapter": "nervous-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "7",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Meena covered a potted plant as shown below with a transparent plastic bag. She observed water droplets inside the bag after a few hours when kept in sunlight.\n(a) Name the process that resulted in the formation of water droplets inside the bag.\n(b) Define the process mentioned above.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure showing the plant-and-plastic-bag setup (page 13) not reproduced; answerable from the text description alone."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Transpiration\n(b) It is the loss of water as water vapour from the aerial parts of a plant."
+      },
+      "chapter": "transpiration",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis & Application"
+    },
+    {
+      "number": "7",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention the regions of the kidney where we can find glomerulus and Henle’s loop.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Glomerulus – Renal cortex. Henle’s loop – Renal medulla"
+      },
+      "chapter": "excretory-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "7",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Draw a neat, labelled diagram to show the internal structure of a root hair.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Official answer is a diagram (not reproduced in text extraction); the marking scheme gives no text for this item, only the mark allocation."
+      ],
+      "confidence": "LOW",
+      "chapter": "absorption-by-roots",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis & Application"
+    },
+    {
+      "number": "8",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "How does the ozone layer depletion affect life on earth?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Causes skin cancer, cataract, reduced crop yields, harms marine life."
+      },
+      "chapter": "pollution",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "8",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention two body features of Australopithecus.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Chin absent, Prognathus face, Projecting eyebrow ridges (Any two)"
+      },
+      "chapter": "human-evolution",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "8",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Identical twins are always of the same gender. Explain why.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Because they develop from a single fertilised egg."
+      },
+      "chapter": "reproductive-system",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "8",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "We should not insert sharp objects into the ear to removes ear wax. Give a suitable reason.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It may rupture the ear drum leading to deafness."
+      },
+      "chapter": "sense-organs",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "8",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "In a school experiment, a few students grow plants in pots placed horizontally as shown below. After a few days, the students observed that the roots bent downward, and the shoots curved upward.\n(a) Name the tropic movement seen in shoots.\n(b) Why do roots always grow downwards?\n(c) Which phytohormone regulates the above tropic movements?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure showing the horizontally-placed pots (page 14) not reproduced; answerable from the text description alone."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Phototropism\n(b) Because the roots are positively Geotropic and Hydrotropic.\n(c) Auxins"
+      },
+      "chapter": "chemical-coordination-in-plants",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analysis & Application"
+    }
+  ]
+}

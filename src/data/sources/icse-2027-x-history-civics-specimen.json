@@ -1,0 +1,1097 @@
+{
+  "source": {
+    "key": "icse-2027-x-history-civics-specimen",
+    "title": "ICSE 2027 Specimen Question Paper, History & Civics (H.C.G. Paper – 1)",
+    "board": "icse",
+    "class": 10,
+    "subject": "history-civics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations",
+    "paperType": "SPECIMEN",
+    "examYear": 2027,
+    "session": "Specimen paper for the ICSE 2027 examination",
+    "paperName": "History & Civics (H.C.G. Paper – 1)",
+    "paperCode": "T27 501",
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2026/07/ICSE-2027-SPECIMEN-501-HISTORY-CIVICS-QP-MS.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2026/07/ICSE-2027-SPECIMEN-501-HISTORY-CIVICS-QP-MS.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 20,
+    "sha256": "d522702de20f35c7dde44c4f4484562144e1364ea1b54cf1eab05b8f0da5459b",
+    "maxMarks": 80,
+    "durationMinutes": 120,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw/-layout/-table modes",
+    "ocrUsed": false,
+    "notes": "Found on the official page https://cisce.org/specimen-question-papers-icse-class-x-2027/. This is a SPECIMEN paper for the 2027 ICSE examination (examYear=2027), not a past board exam. The single PDF contains both the question paper (13 printed pages, PDF pages 1-13) and a 'DRAFT MARKING SCHEME' (7 printed pages, PDF pages 14-20); answerSourceUrl is the same URL, answerSourceFile is null. Paper code printed on every page: 'T27 501 - SPECIMEN'. Structure: Part I (30 marks, compulsory) = Question 1 (16 one-mark MCQ/assertion-reason items, (i)-(xvi)) + Question 2 (seven 2-mark short-answer items, (i)-(vii)); printed instruction 'Attempt all questions from Part I (Compulsory).' Part II is choice-based, printed instruction: 'A total of five questions are to be attempted from Part II, two out of three questions from Section A and three out of five questions from Section B.' Section A = Questions 3-5 (each a 10-mark question split 3+3+4 across three sub-parts), pick 2 of 3. Section B = Questions 6-10 (each a 10-mark question split 3+3+4), pick 3 of 5. Per the brief, these are NOT internal-choice 'OR' pairs (no 'OR' is printed between Questions 3-5 or 6-10), so choiceGroup is not used and all 8 questions (3-5, 6-10) are included as ordinary entries; a student attempting the required 2-of-3 and 3-of-5 scores the printed maximum of 80. Because this pack includes all 8 Part II questions, the sum of question marks in this file is 110 (30 Part I + 30 Section A + 50 Section B), not 80; that is expected for a pick-2-of-3/pick-3-of-5 paper, not an error. Within a numbered question, sub-parts that can be answered independently are split into separate entries with their own part/marks/chapter/cognitiveLevel (e.g. Questions 3, 4, 5, 7, 9, 10, and Question 6's sub-part (iii)). Where a sub-part's text contains an unresolved back-reference to another sub-part or to a shared passage (e.g. Question 6(i)/(ii) both depend on the printed excerpt about the 1857 Rebellion; Question 8(ii) depends on 'this march' from Question 8(i) and Question 8(iii) depends on 'this movement' from (i)/(ii)), those sub-parts are kept together in one CASE_BASED entry per the brief. Cognitive-level tags ('[Recall]', '[Understanding]', '[Application]', '[Analysis]', '[Evaluation]', and combinations like '[Recall & Analysis]') are printed in the right margin next to almost every item; their alignment to specific sub-parts was verified using 'pdftotext -table' mode (which reconstructs the two-column layout far more reliably than plain '-layout' mode, where tags visually drifted onto unrelated lines). Four MCQ items in Question 1 ((ii) headline, (iv) picture, (xi) picture, (xiv) cartoon, (xvi) diagram) and Question 2(v) (picture) and Question 9(i) (picture/headline) require an image not present in the text layer; these are flagged hasFigure=true with confidence LOW, though the official answer is still recorded from the marking scheme. accessedOn 2026-09-28.",
+    "usage": "Official ICSE (CISCE) publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Identify the exclusive powers of the Rajya Sabha from the following:\nP: Can introduce a new All India Service\nQ: Can impeach the President\nR: Can never be dissolved as a whole\nS: Can introduce a Money Bill",
+      "options": [
+        "P and Q",
+        "R and S",
+        "P and R",
+        "Q and S"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) / P and R",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-union-legislature",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Who is authorised to make amendments related to the headline given below?",
+      "options": [
+        "The Supreme Court",
+        "The President",
+        "The Parliament",
+        "The Prime Minister"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Headline (image) on page 3 not reproduced in the text layer; the question depends on it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(c) / The Parliament",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "the-union-legislature",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Cabinet : inner core :: __________: junior-most ministers",
+      "options": [
+        "Ministers of State",
+        "Deputy Ministers",
+        "Council of Ministers",
+        "State Ministers"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) / Deputy Ministers",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "prime-minister-and-council-of-ministers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which option best describes the picture given below?",
+      "options": [
+        "All ministers have portfolios.",
+        "All ministers meet frequently.",
+        "There are three categories of ministers.",
+        "The ministers work together like a team."
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (picture) on page 4 not reproduced in the text layer; the question depends on it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(d) / The ministers work together like a team.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "prime-minister-and-council-of-ministers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Choose the correct option to replace the underlined word:\nThe Council of Ministers is individually responsible to the Lok Sabha.",
+      "options": [
+        "Prime Minister",
+        "Rajya Sabha",
+        "President",
+        "Speaker"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Which word is underlined in the printed sentence is not preserved in the text layer (underline formatting is lost); based on the official answer, the underlined word is 'Lok Sabha'."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) / President",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "prime-minister-and-council-of-ministers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Ravi, a college student, was taken into police custody without being informed of the reasons for his arrest. His family was not told where he was detained, and he was not produced before a magistrate within 24 hours. Ravi's parents filed a case in the Supreme Court requesting that the police produce Ravi before the court. Which writ will the court issue in this case?",
+      "options": [
+        "Habeas Corpus",
+        "Certiorari",
+        "Prohibition",
+        "Mandamus"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) / Habeas Corpus",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "the-supreme-court",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): The Muslim League was formed in 1906.\nReason (R): The Congress split into two factions in 1907.",
+      "options": [
+        "(A) is true and (R) is false.",
+        "(A) is false and (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A)."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) / Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "first-phase-of-the-indian-national-movement",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Identify the option which shows the correct chronology of the following events:\n1. The Dandi March\n2. The Second Round Table Conference\n3. The Simon Commission",
+      "options": [
+        "3-1-2",
+        "1-3-2",
+        "3-2-1",
+        "2-1-3"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) / 3-1-2",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Recall & Analysis",
+      "chapter": "second-phase-of-the-indian-national-movement",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Mira notices that the children in her apartment are writing on the newly painted walls. If she decides to address this issue using methods inspired by the Early Nationalists, which approach is she MOST LIKELY to follow?",
+      "options": [
+        "Fight with the children",
+        "Write a letter to the welfare association highlighting the problem",
+        "Paint all the dirty walls",
+        "Boycott the families of the children"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) / Write a letter to the welfare association highlighting the problem",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "growth-of-nationalism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Choose the option which shows the correct match:\nColumn A: 1. Militarism  2. Alliance System  3. Nationalism\nColumn B: A. Intense pride in one's nation  B. Glorification of military power  C. Division of nations into rival groups",
+      "options": [
+        "1-B, 2-C, 3-A",
+        "1-A, 2-B, 3-C",
+        "1-C, 2-B, 3-A",
+        "1-B, 2-A, 3-C"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "The Column A / Column B table was reconstructed from the PDF layout into plain text; the pairing shown was verified against the printed layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) / 1-B, 2-C, 3-A",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "the-first-world-war",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following organisations is connected to the given picture?",
+      "options": [
+        "UNESCO",
+        "UNICEF",
+        "WHO",
+        "UNDP"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (picture) on page 6 not reproduced in the text layer; the question depends on it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) / UNESCO",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "the-united-nations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Who among the following is NOT an Assertive Nationalist Leader?",
+      "options": [
+        "Bipin Chandra Pal",
+        "Dadabhai Naoroji",
+        "Lala Lajpat Rai",
+        "Bal Gangadhar Tilak"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) / Dadabhai Naoroji",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "first-phase-of-the-indian-national-movement",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Read the description and choose the correct option:\nA major global conflict broke out in the early twentieth century, beginning in Europe and soon spreading to other parts of the world. Powerful nations formed rival alliances, and an assassination triggered widespread fighting. The war reshaped political boundaries and weakened old empires. Its immediate cause was___________.",
+      "options": [
+        "Formation of alliances",
+        "Annexation of Austria",
+        "Imperialism",
+        "Sarajevo Crisis"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) / Sarajevo Crisis",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Application & Recall",
+      "chapter": "the-first-world-war",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following countries will NOT be a part of the cartoon given below?",
+      "options": [
+        "China",
+        "Japan",
+        "Russia",
+        "Britain"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (cartoon) on page 7 not reproduced in the text layer; the question depends on it.",
+        "The chapter suggestion for this item (the-second-world-war) is uncertain without seeing the cartoon; it is a guess based on the option set (three Allied nations vs. Japan) and the official answer."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(b) / Japan",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "the-second-world-war",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Identify the correct pair from the given options:",
+      "options": [
+        "Surendranath Banerjee – Assertive Nationalist",
+        "Raja Ram Mohan Roy – Delhi Durbar",
+        "Dadabhai Naoroji – First President of Congress",
+        "Jyotiba Phule – Women's Education"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) / Jyotiba Phule – Women's Education",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "growth-of-nationalism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xvi)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Connect the information given in the diagram below and identify X.",
+      "options": [
+        "Mahatma Gandhi",
+        "Subhash Chandra Bose",
+        "Bipin Chandra Pal",
+        "Jawaharlal Nehru"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram on page 8 not reproduced in the text layer; the question depends on it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(b) / Subhash Chandra Bose",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "forward-bloc-and-ina",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Read the extract given below and answer the question that follows:\nIn India, the Supreme Court can exercise advisory jurisdiction under Article 143 of the Constitution. With regard to the President, these opinions are purely advisory.\nMention any two points about the Supreme Court that can be inferred from the given extract.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The President can request the Supreme Court to give its opinion on any question of law or public importance / the Supreme Court may or may not give their opinion as it is not executable as a judgement of the Supreme Court / Supreme Court’s opinion is merely advisory and not binding on the President. (Any two)"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "the-supreme-court",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Which category of power is being exercised by the President in the following?\n(a) Appointment of Cabinet ministers\n(b) Approval of a Money Bill",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Appointment of Cabinet Minister – Executive power\n(b) Approval of a Money Bill – Financial power"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "the-president",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "“The whole plan may not be perfect but like all plans, its success will depend on the spirit of goodwill with which it is carried out.”\n– Lord Mountbatten\nGive two reasons for the acceptance of the above plan by the Congress.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It was the only solution to the communal problem of India / The experience of working with the League in the Interim Government had convinced the Congress that it is impossible to have a joint administration / The League had joined the Government to obstruct and not to cooperate / The only alternative to partition was a weak Centre / A smaller India with a strong authority was better than a bigger State with a weak Centre / Any further continuation of British rule would mean a greater calamity for India / Any further delay in transfer of power could lead to a Civil War / Partition would rid the Constitution of separate electorates and other undemocratic procedures. (Any two)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "independence-and-partition-of-india",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Imagine you were an artisan in the year 1856. Mention any two ways in which the economic policies of the British would have affected you.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Loss of livelihood / Spinning and weaving stopped / Heavy taxation / Competition from machine made goods / Loss of patronage / Unavailability of raw materials / Any other relevant point. (Any two)"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "the-first-war-of-independence-1857",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Look at the picture given below and answer the question that follows:\nIdentify the leader seen in the picture. Mention any one of his contributions.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (picture) on page 9 not reproduced in the text layer; the question depends on it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Bipin Chandra Pal\n• He worked for the Bengal Public Opinion, The Tribune and New India to propagate nationalism.\n• He was imprisoned for his writings.\n• He advocated the use of Swadeshi and Boycott movements.\n• He encouraged National Education. (Any one)"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "first-phase-of-the-indian-national-movement",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention any two objectives of the League of Nations.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "States were prohibited from entering into secret treaties and alliances / could not maintain huge armies / had to respect each other’s independence / had to refer their mutual disputes if any to the League / had to take necessary action as directed by the League / had to promote cultural, social and economic cooperation. (Any two)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-first-world-war",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention any two ideologies of dictators.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Belief in totalitarian rule / despise democratic political systems / state is supreme / suppress rights of citizens / one party - one leader / believe in aggressive nationalism / imperialism / regard war as an instrument / anti-democratic / anti-Communist. (Any two)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "rise-of-dictatorships",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention any three key differences in power between the Lok Sabha and the Rajya Sabha that make the Lok Sabha more influential.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Motions of No-Confidence against the government can only be introduced and passed in the Lok Sabha / the Council of Ministers is answerable to the Lok Sabha only / enjoy power only until they enjoy the trust of the house / Money bills can be introduced only in the Lok Sabha and the Rajya Sabha cannot reject or amend it / Budget is passed / controls the national purse / has complete control over finance / In case of a deadlock between the two houses, the decision of the Lok Sabha prevails due to its higher numerical strength / Can pass an Adjournment Motion (Any three)"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "the-union-legislature",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "“Rajya Sabha adjourned sine die, overall productivity at 79 percent.”\n– Deccan Herald, 21 December 2023.\nWho can adjourn the above session? Explain the composition of this house.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The Chairman or the Vice President of India.\nThere is a total of 250 members, 238 from the states and 12 members are nominated by the President."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-union-legislature",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention any four legislative powers of the Parliament.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Legislative powers of the Parliament:\n• Passes the budget\n• When the budget amount is not sufficient, it can pass supplementary grants\n• Fixes the salaries of the MPs\n• Gives permission to introduce, increase or decrease tax\n• Vote on Account – A procedure which allows the executive to draw funds from the Consolidated Fund of India until the budget is passed. (Any four)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-union-legislature",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention any three legislative powers of the President which justify his nominal position.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The President performs the following functions on the advice of the Prime Minister and his cabinet:\nAddresses the first session of the Parliament / Sends messages to the Parliament / Can summon and prorogue the Parliament / Can dissolve the Lok Sabha / Nominates 12 members to the Rajya Sabha / Gives assent to a bill to make it a law / Can promulgate ordinances / Can give his/her assent to some state bills / Previous sanction to the Money bills / Give approval for introduction of Bills regarding alteration of State / formation of State / Can call for a joint session of the Parliament. (Any three)"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "the-president",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention any three points to enumerate the financial powers vested in the President of India.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Approve introduction of Money Bills / Annual budget is presented on behalf of the President / Annual Financial statement is laid on his behalf / Can authorise withdrawal of advances from the Consolidated Fund of India / Appoints the Finance Commission. (Any three)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-president",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Describe the constitutional procedure to remove the President.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Can be introduced in any house / Passed by 2/3 majority and sent to the second house / In the second house it is investigated and the President can also be present / If both houses pass it by 2/3 majority the President will be impeached."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-president",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention three cases which fall under the Original Jurisdiction of the High Court.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "State revenue and its collection / cases regarding wills / divorce, marriage / company law / contempt of court / interpretation of constitution / enforcement of Fundamental Rights / election petitions challenging election of members. (Any three)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-high-courts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Who appoints the High Court Judges? Mention any two qualifications required for a person to be appointed as a High Court Judge.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The President\nQualifications: Must be a citizen of India / Must not be above 62 years of age / Must have held a judicial office in India for at least 10 years / Must have been a High Court advocate for at least 10 years. (Any two points)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-high-courts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "“Lok Adalat brings justice to the doorstep of the common.”\nJustify this statement with any four points.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed sentence ends '...doorstep of the common.' — likely missing the word 'man' (apparent typo in the source PDF); kept verbatim."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Reduces the burden on the higher courts/ works on the spirit of sacrifice / reduces time / is cheaper."
+      },
+      "cognitiveLevel": "Evaluation",
+      "chapter": "subordinate-courts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Read the excerpt given below and answer the questions that follow:\nThe Indian Rebellion of 1857, also known as the Indian Mutiny, the Sepoy Mutiny, or the First War of Indian Independence, was a widespread uprising against British rule in India that began in May, 1857. The rebellion was sparked by the sepoys' mutiny in Meerut on May 10, 1857, and quickly spread to other parts of India. On May 10, 1857, Indian soldiers, known as sepoys, rebelled against their British officers in the town of Meerut, triggering a rebellion. The rebellion quickly spread to other parts of India with many Indian princes and soldiers joining the uprising.\n– [Edited] timesofindia.com, May 10, 2023\n(i) What was the immediate cause for the rebellion? (3)\n(ii) Mention any three socio-religious causes of the Revolt. (3)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "This entry's part is labelled '(i)' but it merges printed sub-parts (i) AND (ii): both depend on the shared excerpt ('the rebellion' / 'the Revolt') and cannot be answered standing alone (label kept as '(i)' only to avoid an external-key collision with the separate '(iii)' entry below). Sub-part (iii), which is self-contained (about the Subsidiary Alliance, not the excerpt), is recorded as a separate entry."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Immediate cause: Introduction of Enfield rifles / Cartridges used were greased with cow and pig fat / The cartridges had greased paper that had to be bitten off / Introduction of these cartridges was a deliberate move to hurt Hindu and Muslim sentiments / Muslims consider pig as taboo while Hindus were upset with the use of cow fat / News of this spread / The sepoys refused to use these cartridges. (Any three)\n(ii) Interference with social customs / Fears about modern innovations / Policy of racial discrimination / Corruption in administration / Oppression of the poor / Increase in the activities of the missionaries to convert people to Christianity / Fears regarding Western Education / Taxing religious places / Law of property which enabled a convert from Hinduism to other religions to inherit his father's property. (Any three)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-first-war-of-independence-1857",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The Subsidiary Alliance proved to be disastrous to the Indian Kingdoms. Justify this statement by stating any four clauses of this alliance.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The Indian rulers who agreed to this accepted the British as their superpower and lost their independence / They agreed to maintain the British troops at their own cost / Accepted a British resident at their court / They could not enter into any alliance with other European Powers. (Any four)"
+      },
+      "cognitiveLevel": "Evaluation",
+      "chapter": "the-first-war-of-independence-1857",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name the first President of the Congress. Mention any two objectives of the Congress.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "W.C. Bonnerjee\nTo promote friendly relations between nationalist political workers from different parts of the country / To develop and consolidate feelings of national unity irrespective of caste, religion or province / To formulate popular demands and present them before the government / To train and organise public opinion. (Any two)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "growth-of-nationalism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Whether it is fiction, non-fiction, or periodical, all kinds of literature contributed at large in the national consciousness of India in pre-independence times. Mention any three points to analyse the role of the press in the growth of nationalism.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The press helped spread the ideals of patriotism, modern liberal ideas of liberty / freedom / equality / home rule / and independence / Criticised the British policies / Helped Indians exchange views / Made them aware of the happenings in the world / Any other relevant point. (Any three)"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "growth-of-nationalism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain any four policies of Lord Lytton that showcased his attitude of racial superiority, eventually leading to the growth of nationalism.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The Vernacular Press Act / Gagging Act / Press Regulation / The Indian Arms Act / Organising the Grand Delhi Durbar / Reduced the maximum age for the Indian Civil Service Examination from 21 to 19 years / Removed the import duties on British textiles which destroyed Indian Industries. (Any four points)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "growth-of-nationalism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 10,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Mahatma Gandhi led the freedom movement using non-violent methods. With reference to the Gandhian movements, answer the following questions:\n(i) Name the march led by Mahatma Gandhi to break the salt law. Which movement did this march lead to? In which year was that movement launched? (3)\n(ii) The movement which began with this march made a considerable impact on the social and political surroundings of the country.\nAnalyse this statement by mentioning any three such impacts. (3)\n(iii) Mention any four clauses of the pact which led to the suspension of this movement. (4)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "This entry merges all three printed sub-parts: (ii) depends on 'this march' identified in (i), and (iii) depends on 'this movement' established by (i)/(ii); none can stand alone.",
+        "Cognitive-level tags printed per sub-part: (i) Recall, (ii) Analysis, (iii) Recall — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) March to break salt law – Dandi March. Led to – Civil Disobedience Movement. Civil Disobedience Movement year – 1930.\n(ii) Created patriotic feelings / Widened the base of freedom struggle / Made people understand the significance of non-violence / There was improvement in the status of the depressed classes / Women became part of the movement / New methods of propaganda like Prabhat Pheris were used / Congress took part in Legislative elections. (Any three)\n(iii) The British agreed to: Withdraw all ordinances and end prosecutions / Release all political prisoners, except those guilty of violence / Permit peaceful picketing of liquor and foreign cloth shops / Restore the confiscated properties of satyagrahis / Permit the free collection of salt by persons near seacoast. The Congress agreed to: Suspend the Civil Disobedience Movement / Participate in the Second Round Table Conference / Not to press for investigation into police atrocities. (Any four)"
+      },
+      "chapter": "mahatma-gandhi-and-the-mass-movements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Observe the picture given below and answer the following questions:\nWhich country was responsible for the bombing referred to in the headline? Mention any two consequences of the World War associated with this incident.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (picture/headline) on page 13 not reproduced in the text layer; the question depends on it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Japan\nConsequences: Formation of the UN / Defeat of axis powers / Cold war (Any two points of explanation)"
+      },
+      "cognitiveLevel": "Recall & Understanding",
+      "chapter": "the-second-world-war",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain the Policy of Appeasement which led to the Second World War.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Policy of Appeasement – Appeasement meant accepting the hostile demands of an aggressive nation to gain peace. Britain and France followed this policy towards dictatorial countries like Germany and Italy because they felt that the dictators had a real cause of grievance due to the humiliating terms of the Treaty of Versailles and if their grievances were removed, they would not disturb world peace. They also wanted to check the rise of communism and limit the influence of Russia. Therefore, they allowed Germany to rearm and remilitarise Rhineland and capture Austria and Czechoslovakia. This policy of appeasement led to the war as it encouraged dictatorship. (Any three points)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-second-world-war",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The unfair Treaty of Versailles led to the rise of dictatorship in Germany. Mention any four clauses of this treaty to justify this statement.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Germany was declared guilty of aggression / had to pay war reparation of 33 billion dollars / The area of the Rhine valley was demilitarised and the German territory, west of Rhine was to be occupied by the Allied troops for 15 years / Danzig became a free port in Polish territory / Lost Alsace Lorraine to France / The Saar coal mines were given to France / Lost all her colonies to the allies / The German force was restricted to 1 lakh / the Navy to 15,000 men / and 24 ships / The Air force and submarines were banned / German merchant ships were distributed among the allies / Germany had to supply huge quantities of coal to France / Germany ceded the Ruhr industrial areas to the allies / German colonies in the Pacific and the areas under her control in China were given to Japan / Italy got only two small islands and the coastal region of Dalmatia / Belgium- Got Eupen-et–Malmedy / Germany ceded Schleswig to Denmark / Complete Independence was granted to Belgium, Poland, Czechoslovakia and Yugoslavia / The League of Nations was set up to maintain peace and prevent another war. (Any four points)"
+      },
+      "cognitiveLevel": "Evaluation",
+      "chapter": "rise-of-dictatorships",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is the composition of the International Court of Justice?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Composition of the International Court of Justice:\nConsists of 15 judges / Elected for a period of 9 years / Elected by General Assembly and Security Council / Each judge is from different country / Elects its President and Vice President for a period of 3 years / Appoints a registrar / Retired judge may be re-elected. (Any three points)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-united-nations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention any three exclusive functions of the General Assembly.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Exclusive functions of the General Assembly:\nTo make recommendations in maintenance of international peace and security / discuss any question relating to peace and security / To make recommendations on any question within the scope of the charter / initiate studies / To make recommendations to promote international political, social and economic cooperation / Make recommendations for peaceful settlement of disputes / receive and consider reports from Security Council and other organs / To consider and approve the budget of the United Nations / To elect the non-permanent members of the Security Council / The ECOSOC / Trusteeship Council and judges of the International Court of Justice / Uniting for peace / to appoint Secretary-General on the recommendation of the Security Council / Admission of new members / Amend the charter / Distribute the Contributions among member states / friendly relations between nations. (Any three points)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "the-united-nations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Kolkata's famous Durga Puja received the intangible heritage tag.\nWhich agency of the United Nations is authorised to give this tag? Mention any three other contributions of that agency in the preservation of culture.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "UNESCO: Provides technical advice and assistance / Provides funds to preserve monuments and works of art / Prepares a World Heritage list / identifies monuments to be protected / Protects rare manuscripts / Encourages artistic creations in literature and fine arts / Cultural development through films / Any other relevant point. (Any three points)"
+      },
+      "cognitiveLevel": "Understanding & Recall",
+      "chapter": "the-united-nations",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

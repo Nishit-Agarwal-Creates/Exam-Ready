@@ -2,11 +2,12 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import type { PaperMode } from "@/db/schema";
+import type { PaperMode, QuestionType } from "@/db/schema";
 import type { YearCoverage } from "@/lib/engine/coverage";
 import { MODE_LABELS, suggestedMinutes, type Composition, type GenerateFailure, type Stage } from "@/lib/engine/generator";
 import type { CatalogBoard } from "@/lib/data/taxonomy";
 import { CompositionBar } from "./composition";
+import { SubjectGlyph } from "./subject-glyph";
 
 type Initial = { subjectId?: number; chapterIds?: number[]; mode?: PaperMode };
 type Difficulty = "MIXED" | "EASY" | "MEDIUM" | "HARD";
@@ -27,6 +28,25 @@ const TIME_PRESETS = [30, 45, 60, 90, 120, 180];
 const PYQ_MODES: PaperMode[] = ["PYQ_ONLY", "RECENT_PYQ", "MOST_REPEATED", "PYQ_PRIORITY", "EXAM_SIMULATION", "PYQ_PLUS_OFFICIAL"];
 const PRACTICE_MODES: PaperMode[] = ["PRACTICE", "AI_SUPPLEMENTARY"];
 const FILLABLE: PaperMode[] = ["PYQ_PRIORITY", "EXAM_SIMULATION"];
+const TYPE_OPTIONS: [QuestionType, string][] = [
+  ["MCQ", "Multiple choice"],
+  ["ASSERTION_REASON", "Assertion–reason"],
+  ["SHORT_ANSWER", "Short answer"],
+  ["LONG_ANSWER", "Long answer"],
+  ["CASE_BASED", "Case-based"],
+  ["NUMERICAL", "Numerical"],
+  ["FILL_BLANK", "Fill in the blank"],
+];
+
+function Tick() {
+  return (
+    <span className="pick-tick" aria-hidden="true">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M2.5 6.5 5 9l4.5-6" />
+      </svg>
+    </span>
+  );
+}
 
 function findSubject(catalog: CatalogBoard[], subjectId?: number) {
   for (const b of catalog) for (const c of b.classes) for (const s of c.subjects) if (s.id === subjectId) return { b, c, s };
@@ -53,6 +73,10 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
   const [difficulty, setDifficulty] = useState<Difficulty>("MIXED");
   const [mode, setMode] = useState<PaperMode>(initial.mode ?? "PYQ_ONLY");
   const [allowSupplement, setAllowSupplement] = useState(false);
+  const [types, setTypes] = useState<QuestionType[]>([]);
+  const [yearFrom, setYearFrom] = useState<number | undefined>();
+  const [yearTo, setYearTo] = useState<number | undefined>();
+  const [excludeFigures, setExcludeFigures] = useState(false);
 
   const [estState, setEstState] = useState<{ key: string; data?: EstimateResponse; error?: string } | null>(null);
   const [submitting, setSubmitting] = useState(false);
@@ -66,7 +90,19 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
   const ready = Boolean(subject) && marksValid && minutesValid && (scope === "full" || chapterIds.length > 0);
 
   const payload = subject
-    ? { subjectId: subject.id, chapterIds: effectiveChapters, totalMarks: marks, durationMinutes: minutes, difficulty, mode, allowSupplement: FILLABLE.includes(mode) && allowSupplement }
+    ? {
+        subjectId: subject.id,
+        chapterIds: effectiveChapters,
+        totalMarks: marks,
+        durationMinutes: minutes,
+        difficulty,
+        mode,
+        allowSupplement: FILLABLE.includes(mode) && allowSupplement,
+        questionTypes: types,
+        yearFrom,
+        yearTo,
+        excludeFigures,
+      }
     : null;
   const payloadKey = payload && marksValid && minutesValid ? JSON.stringify(payload) : "";
 
@@ -215,7 +251,9 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
                         setChapterIds([]);
                       }}
                     />
-                    <span className="font-serif text-[1.08rem] font-semibold">{c.level}</span>
+                    <span key={classId === c.id ? "on" : "off"} className={`font-serif text-[1.08rem] font-semibold ${classId === c.id ? "numeral-roll" : ""}`}>
+                      {c.level}
+                    </span>
                   </label>
                 ))}
               </div>
@@ -233,7 +271,7 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
                 {cls.subjects.map((s) => {
                   const a = availability[s.id];
                   return (
-                    <label key={s.id} className="choice">
+                    <label key={s.id} className="choice glyph-host items-center">
                       <input
                         type="radio"
                         name="subject"
@@ -243,6 +281,9 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
                           setChapterIds([]);
                         }}
                       />
+                      <span className="text-ink">
+                        <SubjectGlyph slug={s.slug} size={30} />
+                      </span>
                       <span>
                         <span className="block font-bold">{s.name}</span>
                         <span className="block text-[0.85rem] text-pencil">
@@ -290,10 +331,11 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
                       </button>
                     )}
                   </p>
-                  <div className="grid gap-2 sm:grid-cols-2">
+                  <div className="flex flex-wrap gap-2">
                     {subject.chapters.map((c) => (
-                      <label key={c.id} className="choice">
+                      <label key={c.id} className="pick" data-fx="ripple">
                         <input type="checkbox" name="chapter" checked={chapterIds.includes(c.id)} onChange={() => toggleChapter(c.id)} />
+                        <Tick />
                         <span>{c.name}</span>
                       </label>
                     ))}
@@ -408,6 +450,62 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
             </label>
           )}
         </Step>
+
+        <Step n={6} title="Refine (optional)" muted={!subject}>
+          <fieldset>
+            <legend className="field-label">Question types</legend>
+            <div className="flex flex-wrap gap-2">
+              {TYPE_OPTIONS.map(([t, label]) => (
+                <label key={t} className="pick" data-fx="ripple">
+                  <input type="checkbox" name="qtype" checked={types.includes(t)} onChange={() => setTypes((prev) => (prev.includes(t) ? prev.filter((x) => x !== t) : [...prev, t]))} />
+                  <Tick />
+                  <span>{label}</span>
+                </label>
+              ))}
+            </div>
+            <p className="field-hint mt-1">{types.length ? `Only ${types.length} type${types.length === 1 ? "" : "s"}.` : "All types. Tick some to narrow the paper."}</p>
+          </fieldset>
+          <fieldset className="mt-5">
+            <legend className="field-label">Exam years for PYQs</legend>
+            {avail && avail.years.length > 0 ? (
+              <div className="flex flex-wrap items-center gap-2">
+                <label className="sr-only" htmlFor="year-from">
+                  From year
+                </label>
+                <select id="year-from" className="select max-w-[9rem]" value={yearFrom ?? ""} onChange={(e) => setYearFrom(e.target.value ? Number(e.target.value) : undefined)}>
+                  <option value="">Earliest</option>
+                  {[...avail.years].sort((a, b) => a - b).map((y) => (
+                    <option key={y} value={y}>
+                      {y}
+                    </option>
+                  ))}
+                </select>
+                <span className="text-pencil">to</span>
+                <label className="sr-only" htmlFor="year-to">
+                  To year
+                </label>
+                <select id="year-to" className="select max-w-[9rem]" value={yearTo ?? ""} onChange={(e) => setYearTo(e.target.value ? Number(e.target.value) : undefined)}>
+                  <option value="">Latest</option>
+                  {[...avail.years].sort((a, b) => b - a).map((y) => (
+                    <option key={y} value={y}>
+                      {y}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            ) : (
+              <p className="text-[0.95rem] text-pencil">No verified exam years for this subject yet, so there&apos;s nothing to narrow.</p>
+            )}
+          </fieldset>
+          <label className="mt-5 flex items-start gap-3">
+            <input type="checkbox" className="mt-1 size-5 accent-[var(--color-ink)]" checked={excludeFigures} onChange={(e) => setExcludeFigures(e.target.checked)} />
+            <span>
+              <span className="block font-bold">Leave out questions that need a figure</span>
+              <span className="block text-[0.9rem] text-pencil">Figures and tables from source papers aren&apos;t reproduced, so these questions link to the source page instead.</span>
+            </span>
+          </label>
+          <p className="mt-4 text-[0.9rem] text-pencil">The same question from several paper sets is always used once.</p>
+        </Step>
       </div>
 
       <aside className="lg:sticky lg:top-24" aria-labelledby="summary-title">
@@ -427,6 +525,17 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
               <dt className="text-pencil">Mode</dt>
               <dd>{MODE_LABELS[mode].name}</dd>
             </dl>
+            {subject && scope === "chapters" && chapterIds.length > 0 && (
+              <ol className="chapter-chain mt-3" aria-label="Chapters in this paper">
+                {subject.chapters
+                  .filter((c) => chapterIds.includes(c.id))
+                  .map((c) => (
+                    <li key={c.id} className="expand-in">
+                      {c.name}
+                    </li>
+                  ))}
+              </ol>
+            )}
 
             <div className="mt-5 border-t border-rule pt-5" aria-live="polite" aria-busy={estLoading}>
               {!subject ? (
@@ -519,7 +628,13 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
               </p>
             )}
 
-            <button type="submit" className="btn btn-primary mt-5 w-full text-[1.05rem]" disabled={submitting || Boolean(subject && est?.failure && !estLoading)} data-magnetic>
+            <button
+              type="submit"
+              className="btn btn-primary fx-sweep mt-5 w-full text-[1.05rem]"
+              disabled={submitting || Boolean(subject && est?.failure && !estLoading)}
+              data-magnetic
+              data-fx="pulse"
+            >
               {submitting ? "Building your paper…" : "Build paper"}
             </button>
             {avail && avail.verified === 0 && avail.ai > 0 && (

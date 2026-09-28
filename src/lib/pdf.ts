@@ -202,8 +202,21 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
   };
   const rule = (thickness = 0.8) => page.drawLine({ start: { x: M, y }, end: { x: W - M, y }, thickness, color: ink });
 
-  // Header
-  text("ExamReady", M, 9, sans, grey);
+  // Header: the ExamReady mark (vector, same geometry as components/logo.tsx) and name
+  {
+    const k = 14 / 32; // 32-unit mark drawn at 14pt
+    const top = y + 10;
+    page.drawSvgPath("M9 0.5H23A8.5 8.5 0 0 1 31.5 9V23A8.5 8.5 0 0 1 23 31.5H9A8.5 8.5 0 0 1 0.5 23V9A8.5 8.5 0 0 1 9 0.5Z", {
+      x: M,
+      y: top,
+      scale: k,
+      color: rgb(0.106, 0.145, 0.627),
+    });
+    page.drawSvgPath("M10 9.5H22M10 22.5H22M10 9.5V22.5", { x: M, y: top, scale: k, borderColor: rgb(1, 1, 1), borderWidth: 2.8 * k * 2.2 });
+    page.drawSvgPath("M10 16H13.4L16.3 13L18.6 14.6L21.2 11.3", { x: M, y: top, scale: k, borderColor: rgb(0.435, 0.89, 1), borderWidth: 2.6 * k * 2.2 });
+    page.drawCircle({ x: M + 22.9 * k, y: top - 10.1 * k, size: 2.3 * k, color: rgb(1, 0.353, 0.416) });
+  }
+  text("ExamReady", M + 19, 9, sans, grey);
   y -= 22;
   centered(`${paper.board.name} ${paper.cls.name} ${paper.subject.name}`, 17, bold);
   y -= 18;
@@ -220,7 +233,7 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
   y -= 16;
 
   if (paper.hasDemo) {
-    const demo = "DEMO DATA: these are demonstration questions, not verified previous-year questions.";
+    const demo = "Includes AI practice questions: written by AI, not from any exam, not previous-year questions.";
     page.drawRectangle({ x: M, y: y - 5, width: W - 2 * M, height: 18, color: rgb(1, 0.94, 0.82), borderColor: rgb(0.48, 0.24, 0), borderWidth: 0.8 });
     text(demo, M + 6, 9.5, sans, rgb(0.48, 0.24, 0));
     y -= 24;
@@ -362,7 +375,7 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
   pages.forEach((p, i) => {
     const footer = `Page ${i + 1} of ${pages.length}`;
     p.drawText(footer, { x: W - M - sans.widthOfTextAtSize(footer, 8.5), y: 30, size: 8.5, font: sans, color: grey });
-    const left = paper.hasDemo ? "ExamReady practice paper. Contains demo data." : "ExamReady practice paper";
+    const left = paper.hasDemo ? "ExamReady practice paper. Includes AI practice questions." : "ExamReady practice paper";
     p.drawText(left, { x: M, y: 30, size: 8.5, font: sans, color: grey });
   });
 

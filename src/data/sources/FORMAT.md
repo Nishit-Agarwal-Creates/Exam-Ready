@@ -22,6 +22,7 @@ Rules:
     "authority": "OFFICIAL_BOARD",                 // OFFICIAL_BOARD | OFFICIAL_INSTITUTION | REPOSITORY | USER_UPLOAD | OTHER
     "authorityName": "Central Board of Secondary Education",
     "paperType": "BOARD_EXAM",                     // BOARD_EXAM | SPECIMEN | SAMPLE | SCHOOL_EXAM | OTHER
+                                                   // SPECIMEN/SAMPLE → OFFICIAL_SAMPLE questions, never PYQs
     "examYear": 2026,
     "session": "Main examination",                 // or null
     "paperName": "Science (086)",
@@ -38,7 +39,9 @@ Rules:
     "extractionMethod": "PDF_TEXT_LAYER",           // PDF_TEXT_LAYER | OCR | MANUAL
     "extractionTool": "pdftotext (poppler)",
     "ocrUsed": false,
-    "notes": "…"
+    "notes": "…",
+    "usage": "Official … publication, freely available on …; reproduced for study with attribution.", // how the content may be used
+    "accessedOn": "2026-09-28"                      // date the document was downloaded
   },
   "questions": [
     {
@@ -50,16 +53,20 @@ Rules:
       "sectionTitle": "Biology", // as printed, or null
       "marks": 2,                // as printed or as stated in the section instructions
       "marksSource": "PRINTED",  // PRINTED | SECTION_INSTRUCTIONS
-      "type": "MCQ",             // MCQ | ASSERTION_REASON | SHORT_ANSWER | LONG_ANSWER | CASE_BASED | NUMERICAL
+      "type": "MCQ",             // MCQ | ASSERTION_REASON | FILL_BLANK | SHORT_ANSWER | LONG_ANSWER | CASE_BASED | NUMERICAL
       "text": "…verbatim…",
       "options": ["…", "…", "…", "…"],   // MCQ / assertion-reason only, verbatim without the (A) labels
       "hasFigure": false,        // true when the question needs a diagram/table not reproducible as text
       "extractionIssues": [],    // e.g. ["Figure on page 5 not reproduced", "Superscripts flattened: Al2O3"]
       "confidence": "HIGH",      // HIGH | MEDIUM | LOW — extraction confidence
       "officialAnswer": { "text": "…verbatim value points…", "correctOption": 2 }, // omit when no official scheme
+      "cognitiveLevel": "Application",    // only when printed on the paper (e.g. CISCE specimens); never inferred
       "chapter": "life-processes",        // suggested chapter slug
       "mappingStatus": "AI_SUGGESTED"
     }
   ]
 }
 ```
+
+Check a pack before loading it: `node scripts/check-sources.mjs [file]`. List the valid chapter slugs for a
+subject with `node scripts/check-sources.mjs --chapters <board> <class> <subject>`.

@@ -7,15 +7,6 @@
 import { sql } from "drizzle-orm";
 import { cache } from "react";
 import { getDb } from "@/db";
-import { coverageOf } from "@/lib/engine/coverage";
-import { getPool } from "./questions";
-
-export const getSubjectCoverage = cache(async (subjectId: number) => {
-  const pool = await getPool(subjectId, [], false);
-  const cov = coverageOf(pool);
-  const aiPractice = pool.filter((q) => q.sourceType === "AI_SUPPLEMENTARY" && q.isPublished).length;
-  return { ...cov, aiPractice };
-});
 
 export type SubjectTrends = {
   papers: number;

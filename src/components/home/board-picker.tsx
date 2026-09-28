@@ -37,8 +37,15 @@ export function BoardPicker({ boards }: { boards: PickerBoard[] }) {
               <Link
                 href={`/${board.slug}/${c.slug}`}
                 className="tilt-card flex h-full min-h-28 flex-col justify-between rounded-2xl border border-rule bg-sheet p-4"
+                data-fx="ripple"
               >
-                <span className="font-serif text-[1.35rem] font-semibold leading-tight">{c.name.replace(" (ISC)", "")}</span>
+                <span className="font-serif text-[1.35rem] font-semibold leading-tight">
+                  Class{" "}
+                  <span key={board.slug} className="numeral-roll" style={{ ["--d" as string]: `${i * 45}ms` }}>
+                    {c.level}
+                  </span>
+                  {c.name.includes("ISC") && <span className="ml-1 font-sans text-[0.8rem] font-bold text-pencil">ISC</span>}
+                </span>
                 <span className="mt-3 text-[0.82rem] leading-snug">
                   {c.verified > 0 ? (
                     <span className="font-bold text-verified">{c.verified} verified PYQs</span>

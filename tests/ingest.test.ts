@@ -78,6 +78,18 @@ test("frequency counts distinct exam years, not sets of one year", () => {
   const set2 = { ...set1, paperId: 2, title: "2026 set 2" };
   const y2024 = { ...set1, paperId: 3, year: 2024 };
   assert.deepEqual(frequencyOf([set1, set2]).years, [2026]);
-  assert.equal(frequencyLine({ ...verified, sources: [set1] }, [set1, set2]), "Appeared in 2 sets of the 2026 paper");
-  assert.equal(frequencyLine({ ...verified, sources: [set1] }, [set1, set2, y2024]), "Asked in 2 exam years (2026, 2024)");
+  assert.equal(frequencyLine({ ...verified, sources: [set1] }, [set1, set2]), "Seen in 2 paper sets of the 2026 exam (one exam year)");
+  assert.equal(frequencyLine({ ...verified, sources: [set1] }, [set1, set2, y2024]), "Appeared in 2 verified exam years (2026, 2024), 3 paper sets in all");
+});
+
+test("trend tags are factual and only for verified PYQs", async () => {
+  const { trendTags } = await import("../src/lib/provenance.ts");
+  const verified = { sourceType: "VERIFIED_PYQ" as const, verificationStatus: "VERIFIED" as const, isDemo: false };
+  const p = (paperId: number, year: number) => ({ paperId, title: `p${paperId}`, paperType: "BOARD_EXAM" as const, sourceUrl: null, questionNumber: "1", isDemo: false, year });
+  // Two sets of one year: a same-year repeat, not a multi-year one.
+  assert.deepEqual(trendTags({ ...verified, sources: [p(1, 2026)] }, [p(1, 2026), p(2, 2026)], 2026), ["2 sets, 2026", "Recent: 2026"]);
+  // Three exam years, first seen long before the latest year.
+  assert.deepEqual(trendTags({ ...verified, sources: [p(1, 2026)] }, [p(1, 2026), p(3, 2024), p(4, 2019)], 2026), ["3 exam years", "Recent: 2026", "First seen 2019"]);
+  // Pending questions never get tags.
+  assert.deepEqual(trendTags({ ...verified, verificationStatus: "UNVERIFIED", sources: [p(1, 2026)] }, [p(1, 2026), p(2, 2025)], 2026), []);
 });

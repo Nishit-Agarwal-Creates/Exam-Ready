@@ -1,0 +1,1140 @@
+{
+  "source": {
+    "key": "cbse-2023-x-science-31-2-1",
+    "title": "CBSE Secondary School Examination 2023, Science (086), Q.P. Code 31/2/1",
+    "board": "cbse",
+    "class": 10,
+    "subject": "science",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Central Board of Secondary Education",
+    "paperType": "BOARD_EXAM",
+    "examYear": 2023,
+    "session": null,
+    "paperName": "Science (086)",
+    "paperCode": "31/2/1",
+    "setCode": "SET-1",
+    "seriesCode": "Z1XYW/2",
+    "language": "English (from a bilingual Hindi/English paper)",
+    "sourceUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/SCIENCE.zip",
+    "sourceFile": "SCIENCE/31_2_1_Science.pdf",
+    "answerSourceUrl": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2023/X/Science_English_Medium.zip",
+    "answerSourceFile": "Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+    "fileType": "pdf",
+    "pageCount": 27,
+    "sha256": "9ba44e7b4c4133960fa0bbde019733e3331fc340f28519216794f4a249fea6f0",
+    "maxMarks": 80,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "notes": "Paper prints: Series Z1XYW/2, 'SET~1' (text layer; stored as SET-1), Q.P. Code 31/2/1, 27 printed pages, 39 questions, Maximum Marks 80, Time allowed 3 hours. Session is not printed on the paper. English text is on odd pages (Hindi on even pages). Official answers are from the 31/2/1 section of the Science_English_Medium 'ALL SETS' marking scheme; several marking-scheme equations and diagrams are images and are missing from the extracted answer text (flagged per question). The archive's other Q.P. codes in the 31/1 series (31_1_1, 31_1_2, 31_1_3 - 'Set 1') are scanned image PDFs with no extractable text layer at all (pdftotext returns empty pages), so per the brief's instruction to choose an extractable English/bilingual paper, extraction moved to the next code in Q.P.-code order, 31/2/1, which does have a real text layer and a matching marking-scheme section. Separately, on pages 9 (Q12, Q13, Q14) and 19/23-25 (Q34(a), Q37 OR alternative), the PDF text layer is missing chunks of printed text unrelated to the Hindi/English column split (confirmed present in both -layout and -raw pdftotext modes); this looks like a font/encoding or embedded-graphic issue specific to those spans and is flagged per question rather than reconstructed. Question 6 (electrons in the outermost shell of a non-metal atom) belongs to the 'Periodic Classification of Elements' topic, which is not a chapter in the current rationalised NCERT chapter list for this subject; it has been mapped to the nearest genuinely related listed chapter, 'metals-and-non-metals' (valence-electron configuration is discussed there in relation to metallic/non-metallic character).",
+    "accessedOn": "2026-09-28",
+    "usage": "Official CBSE publication, freely available on cbse.gov.in; question text reproduced for study with attribution and a link to the original. Figures are not reproduced."
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following is an example of endothermic process ?",
+      "options": [
+        "Formation of slaked lime",
+        "Decomposition of vegetable matter into compost",
+        "Dissolution of ammonium chloride in water",
+        "Digestion of food in our body"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Dissolution of ammonium chloride in water",
+        "correctOption": 2
+      },
+      "chapter": "chemical-reactions-and-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In the given experimental set-up, if the experiment is carried out separately with each of the following solutions the cases in which the bulb will glow is/are :\n(i) Dilute hydrochloric acid\n(ii) Dilute sulphuric acid\n(iii) Glucose solution\n(iv) Alcohol",
+      "options": [
+        "(i) only",
+        "(ii) only",
+        "(i) and (ii)",
+        "(ii), (iii) and (iv)"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of the bulb/electrode test apparatus (\"+ Solution\") on page 5 not reproduced; the question is still answerable from the listed solutions."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) (i) and (ii)",
+        "correctOption": 2
+      },
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In order to balance the following chemical equation, the values of the coefficients x and y respectively are :\nx Pb(NO3)2 Heat 2 PbO + y NO2 + O2",
+      "options": [
+        "2, 4",
+        "2, 2",
+        "2, 3",
+        "4, 2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Reaction arrow lost in extraction; \"Heat\" was printed above the arrow. Printed (raw) as \"x Pb(NO3)2 Heat 2 PbO + y NO2 + O2\".",
+        "Subscripts flattened: Pb(NO3)2, NO2, O2"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 2, 4",
+        "correctOption": 0
+      },
+      "chapter": "chemical-reactions-and-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "When zinc reacts with sodium hydroxide, the product formed is :",
+      "options": [
+        "Sodium oxide",
+        "Sodium zincate",
+        "Zinc hydroxide",
+        "Zinc oxide"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Sodium zincate",
+        "correctOption": 1
+      },
+      "chapter": "metals-and-non-metals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Among the following, the metal with lowest density is :",
+      "options": [
+        "Lithium",
+        "Lead",
+        "Magnesium",
+        "Aluminium"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Lithium",
+        "correctOption": 0
+      },
+      "chapter": "metals-and-non-metals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The number of electrons in the outermost shell of the atom of a non-metal can be :",
+      "options": [
+        "1, 2 or 3",
+        "3, 4 or 5",
+        "5, 6 or 7",
+        "5, 6 or 8"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) 5, 6 or 7",
+        "correctOption": 2
+      },
+      "chapter": "metals-and-non-metals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The total number of electrons shared in the formation of an ethyne molecule is :",
+      "options": [
+        "6",
+        "3",
+        "10",
+        "4"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) 10",
+        "correctOption": 2
+      },
+      "chapter": "carbon-and-its-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Sphincter muscles are present at the exit of :",
+      "options": [
+        "Stomach and small intestine",
+        "Stomach and anus",
+        "Small intestine and large intestine",
+        "Oesophagus and stomach"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Stomach and anus",
+        "correctOption": 1
+      },
+      "chapter": "life-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In the following diagram, identify the cells through which massive amounts of gaseous exchange takes place for photosynthesis :",
+      "options": [
+        "I",
+        "IV",
+        "III",
+        "II"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (labelled cells I-IV, likely stomata/guard cells) on page 7 not reproduced; the options refer directly to labels in the figure so the question cannot be answered without it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(b) IV",
+        "correctOption": 1
+      },
+      "chapter": "life-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "During vigorous exercise, the occurrence of cramps in the outer muscles of an athlete is due to the conversion of pyruvate to :",
+      "options": [
+        "Glucose",
+        "Ethanol",
+        "Lactic acid",
+        "Lactose"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Lactic acid",
+        "correctOption": 2
+      },
+      "chapter": "life-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Plants which bear unisexual flowers are :",
+      "options": [
+        "Mustard and Papaya",
+        "Hibiscus and Watermelon",
+        "Mustard and Hibiscus",
+        "Watermelon and Papaya"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) Watermelon and Papaya",
+        "correctOption": 3
+      },
+      "chapter": "how-do-organisms-reproduce",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "following combination of chromosomes :",
+      "options": [
+        "44 + XX",
+        "44 + XY",
+        "22 + XX",
+        "22 + XY"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "The question stem before \"following combination of chromosomes\" is missing from the PDF text layer (likely referred to a diagram, e.g. a zygote/karyotype illustration); not recovered. See page 9 of the PDF."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) 44 + XX",
+        "correctOption": 0
+      },
+      "chapter": "heredity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "An object is placed in front of a convex mirror at infinity. According to the New Cartesian Sign Convention, the sign of the focal length and the sign of the image distance in this case are respectively :",
+      "options": [
+        "+ ,",
+        ", +",
+        ",",
+        "+ , +"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Minus-sign glyphs for the focal-length/image-distance sign options did not extract from the PDF text layer; each option should show two signs but only some '+' signs and commas survived (printed/raw as \"(a) + , (b) , + (c) , (d) + , +\"). See page 9 of the PDF."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(d) + , +",
+        "correctOption": 3
+      },
+      "chapter": "light-reflection-and-refraction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "For v we show the arrangement of different circuit components. We find that with respect to the resistor, the :",
+      "options": [
+        "ammeter is connected in parallel and the voltmeter in series.",
+        "ammeter is connected in series and the voltmeter in parallel.",
+        "ammeter and voltmeter are both connected in series.",
+        "ammeter and voltmeter are both connected in parallel."
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Text between \"For v\" and \"we show the arrangement\" is missing from the PDF text layer (likely referred to verification of Ohm's law and an embedded circuit diagram); the diagram itself is also not reproduced. See page 9 of the PDF."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(b) ammeter is connected in series and the voltmeter in parallel.",
+        "correctOption": 1
+      },
+      "chapter": "electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In a resistive circuit if the current is increased to two times, the percentage change in the amount of heat dissipated in the circuit would be :",
+      "options": [
+        "400%",
+        "300%",
+        "200%",
+        "100%"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) 300%",
+        "correctOption": 1
+      },
+      "chapter": "electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A positron enters a uniform magnetic field at right angles to it as shown. The direction of force experienced by the positron will be :",
+      "options": [
+        "to the right",
+        "to the left",
+        "into the page",
+        "out of the page"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram showing the positron's entry direction and the magnetic field direction on page 11 not reproduced; needed to determine the force direction."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(c) into the page",
+        "correctOption": 2
+      },
+      "chapter": "magnetic-effects-of-electric-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : Sodium oxide is an amphoteric oxide.\nReason (R) : Metal oxides which react with both acids as well as bases are known as amphoteric oxides.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion-Reason answer codes (options) are printed once, before Question 17, for Questions 17-20."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) Assertion (A) is false, but Reason (R) is true.",
+        "correctOption": 3
+      },
+      "chapter": "metals-and-non-metals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : When a bacterium divides into two, and the resultant two bacteria divide again, the four bacteria produced would be almost similar.\nReason (R) : DNA copying involves small inaccuracies in the reproduction process.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion-Reason answer codes (options) are printed once, before Question 17, for Questions 17-20."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "correctOption": 0
+      },
+      "chapter": "heredity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : A person suffering from myopia cannot see the distant objects clearly.\nReason (R) : A converging lens is used for the correction of myopic eye as it can form real as well as virtual images of the objects placed in front of it.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion-Reason answer codes (options) are printed once, before Question 17, for Questions 17-20."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Assertion (A) is true, but Reason (R) is false.",
+        "correctOption": 2
+      },
+      "chapter": "human-eye-and-colourful-world",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : Magnetic field lines do not intersect each other.\nReason (R) : Magnetic field lines are imaginary lines, the tangent to which at any point gives the direction of the field at that point.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion-Reason answer codes (options) are printed once, before Question 17, for Questions 17-20."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "correctOption": 1
+      },
+      "chapter": "magnetic-effects-of-electric-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(a)",
+      "choiceGroup": "21",
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is observed when aqueous solutions of potassium iodide and lead nitrate are mixed together ? Name the type of reaction and write the chemical equation for the reaction that occurs.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: Pb(NO3)2, KI, PbI2, KNO3"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Yellow precipitate of lead iodide is formed. Double displacement reaction / Precipitation reaction. Pb(NO3)2 + 2KI -> PbI2 + 2KNO3"
+      },
+      "chapter": "chemical-reactions-and-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(b)",
+      "choiceGroup": "21",
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "When copper powder is heated in a watch glass, a black substance is formed.\n(i) Why is this black substance formed ? Name it.\n(ii) How can this black substance be reversed to its original form ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: CuO, O2, H2, H2O",
+        "Delta (heat) symbol above the alternative equations' arrows not distinguishable in extraction."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) Oxygen is added to copper / Copper is oxidised; the black substance is copper oxide / CuO. (ii) By passing hydrogen gas over it. Alternative answer: (i) 2Cu + O2 -> 2CuO (heat) (ii) CuO + H2 -> Cu + H2O (heat)"
+      },
+      "chapter": "chemical-reactions-and-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(a) Why is it important to prevent oxygenated and deoxygenated blood from mixing in birds and mammals ?\n(b) Which animals can tolerate some mixing of the oxygenated and deoxygenated blood streams ? On what factor does the body temperature of these animals depend ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark (2) is printed; the split between (a) and (b) is not printed on the paper (marking scheme gives 1 mark each)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Birds and mammals have high energy needs to maintain their body temperature. The separation of oxygenated and deoxygenated blood allows a highly efficient supply of oxygen to maintain their body temperature. (b) Amphibians / reptiles; the body temperature of these animals depends on the temperature of the environment."
+      },
+      "chapter": "life-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mendel crossed a pure tall pea plant (TT) with a pure short pea plant (tt) and obtained all tall plants in F1 generation.\n(a) What is the gene combination present in the plants of F1 generation ?\n(b) Give reason why only tall plants are observed in F1 progeny.\n(c) What will be the ratio of the plants obtained in the F2 generation when F1 plants are self-pollinated ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: F1, F2",
+        "Only the total mark (2) is printed; the split between (a), (b) and (c) is not printed."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Tt (b) Because only the dominant trait (Tall) is expressed in the F1 generation / Tallness is dominant over the recessive short trait. (c) F2 generation - Tall : short = 3 : 1"
+      },
+      "chapter": "heredity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": "(a)",
+      "choiceGroup": "24",
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "When and where does a rainbow appear in the sky ? Draw a labelled ray diagram to show its formation.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer includes a rainbow ray diagram (red/violet colour labels) that is an image and is not reproduced in the extracted text.",
+        "Official answer partly missing in extraction (figure/equation)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "It is formed after a rain shower. It is always formed in a direction opposite to that of the Sun. [ray diagram not reproduced]"
+      },
+      "chapter": "human-eye-and-colourful-world",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": "(b)",
+      "choiceGroup": "24",
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is scattering of light ? Why does the clear sky appear blue ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The phenomenon of the change in direction of propagation of light caused by large-sized molecules / caused by colloidal particles. When sunlight passes through the atmosphere, fine particles in the air scatter blue light (shorter wavelengths) more than the red colour (longer wavelengths)."
+      },
+      "chapter": "human-eye-and-colourful-world",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "V-I graph for two conducting wires A and B are as shown. If both wires are of the same length and same diameter, which of the two is made of a material of high resistivity ? Give reasons to justify your answer.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "V-I graph for wires A and B on page 15 not reproduced; needed to identify which wire has higher resistivity."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Wire B. For conductors of the same dimensions, the greater the resistance, the greater is the resistivity."
+      },
+      "chapter": "electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "We do not clean ponds or lakes but an aquarium needs to be cleaned regularly. Why ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "An aquarium is a man-made ecosystem in which natural cleansing agents like decomposers are not present, so it needs periodic cleaning; ponds and lakes are natural ecosystems which have natural cleansing agents (decomposers)."
+      },
+      "chapter": "our-environment",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Silver chloride kept in a china dish turns grey in sunlight.\n(a) Write the colour of silver chloride when it was kept in the china dish.\n(b) Name the type of chemical reaction taking place and write the chemical equation for the reaction.\n(c) State one use of the reaction. Name one more chemical which can be used for the same purpose.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: AgCl, Cl2, AgBr"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) White. (b) Decomposition reaction / Photolytic decomposition; 2AgCl -> (Sunlight) 2Ag + Cl2. (c) Used in black and white photography; AgBr / Silver Bromide."
+      },
+      "chapter": "chemical-reactions-and-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "With the help of suitable chemical equations, list the two main differences between roasting and calcination. How is metal reduced from the product obtained after roasting/calcination of the ore ? Write the chemical equation for the reaction involved.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened throughout the equations: ZnS, O2, ZnO, SO2, ZnCO3, CO2, HgS, HgO, CaCO3, CaO, Cu2S, Cu2O, PbCO3, PbO, Hg"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Roasting is carried out for sulphide ores; calcination is carried out for carbonate ores. In roasting the ore is heated in excess of air; in calcination the ore is heated in the absence or limited supply of air, e.g. 2ZnS + 3O2 -> 2ZnO + 2SO2 (roasting) / ZnCO3 -> (heat) ZnO + CO2 (calcination) (or the equivalent HgS/CaCO3 or Cu2S/PbCO3 examples). Reduction with the help of carbon: ZnO + C -> Zn + CO. (Alternate: reduction with heat alone, e.g. 2HgO -> (heat) 2Hg + O2, or auto-reduction, e.g. 2Cu2O + Cu2S -> (heat) 6Cu + SO2, or any other correct example.)"
+      },
+      "chapter": "metals-and-non-metals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": "(a)",
+      "choiceGroup": "29",
+      "page": 17,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(i) What is the first step in the breakdown of glucose during aerobic and anaerobic respiration ? Where does it take place ?\n(ii) ATP is called the energy currency of the cell. Why ?\n(iii) What is meant by residual volume of air in a breathing cycle ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Glucose -> Pyruvic acid / Pyruvate, in the cytoplasm. (ii) It is used as fuel for all activities in a cell / ATP is broken down giving rise to a fixed amount of energy which drives endothermic reactions in the cell. (iii) When air is taken in and let out, the lungs always contain a residual volume of air so that there is sufficient time for oxygen to be absorbed and for carbon dioxide to be released / the volume of air present in the lungs after exhalation."
+      },
+      "chapter": "life-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": "(b)",
+      "choiceGroup": "29",
+      "page": 17,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write in sequence the steps for experimental verification of the fact that sunlight is essential for photosynthesis.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "A potted plant is taken and kept in the dark for 24 hours to destarch it. Cover a part of a leaf of the plant with black paper to prevent that area from getting sunlight. Keep the plant in sunlight for 24 hours. Pluck the leaf, remove the black paper, boil it in alcohol and dip the leaf in iodine solution for the starch test. The covered part showed no change in colour, indicating that starch has not been produced due to the absence of sunlight. The rest of the leaf turned blue-black, proving that starch is produced during photosynthesis and sunlight is essential for that."
+      },
+      "chapter": "life-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name the hormone released and the gland which secretes it in human beings during scary situations. How does the body respond to enable it to deal with the situation ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Adrenaline hormone; Adrenal gland. Response: heart beats faster resulting in supply of more oxygen to muscles; breathing rate increases; blood supply to digestive system and skin is reduced; blood supply diverted to skeletal muscles. (Any two of these responses)"
+      },
+      "chapter": "control-and-coordination",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(a)",
+      "choiceGroup": "31",
+      "page": 19,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A student has focussed the image of an object of height 3 cm on a white screen using a concave mirror of focal length 12 cm. If the distance of the object from the mirror is 18 cm, find the values of the following :\n(i) Distance of the image from the mirror\n(ii) Height of the image",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer uses stacked fractions for the mirror formula; linearised here with '/' from the layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "h = 3 cm; f = -12 cm; u = -18 cm. (i) 1/f = 1/v + 1/u, so 1/v = 1/f - 1/u = 1/(-12 cm) - 1/(-18 cm), giving v = -36 cm. (ii) h' = -(v/u) x h = -[(-36 cm)/(-18 cm)] x 3 cm = -6 cm."
+      },
+      "chapter": "light-reflection-and-refraction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(b)",
+      "choiceGroup": "31",
+      "page": 19,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Define power of a lens. The focal length of a lens is 10 cm. Write the nature of the lens and find its power. If an object is placed at a distance of 20 cm from the optical centre of this lens, according to the New Cartesian Sign Convention, what will be the sign of magnification in this case ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer uses stacked fractions for the power formula; linearised here with '/' from the layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Power of a lens: the ability of a lens to converge or diverge light rays falling on it / the degree of convergence or divergence of light achieved by a lens / the reciprocal of the focal length of the lens in metres (any one). It is a diverging/concave lens. P = 1/f(m) = 100/f(cm); P = 100/(-10 cm) = -10 D. Sign of magnification = + or positive."
+      },
+      "chapter": "light-reflection-and-refraction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain the meaning of overloading of an electrical circuit. List two possible causes due to which overloading may occur in household circuits. Write one preventive measure that should be taken to avoid overloading of domestic circuits.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Overloading: overloading of an electrical circuit happens when an excessive amount of electric current flows through the wires. Two causes: (i) contact between live and neutral wire / short-circuiting; (ii) connecting too many appliances to a single socket; (iii) accidental hike in supply voltage. (Any two) Preventive measure: (i) use wires of proper insulation/proper rating; (ii) do not connect too many appliances to a single socket; (iii) use fuse wires. (Any one)"
+      },
+      "chapter": "electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain how some harmful chemicals enter our bodies through the food chain. Why is the concentration of these harmful chemicals found to be maximum in human beings ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Some harmful substances like pesticides are used to protect crops. When these chemicals are washed down into the soil or water bodies, they are absorbed by plants along with water and minerals, and by animals from water. When we consume these food items, the pesticides enter our body. (Alternate: crediting an explanation through the food chain.) As human beings occupy the top level in any food chain, the maximum concentration of these chemicals gets accumulated in them."
+      },
+      "chapter": "our-environment",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "34",
+      "part": "(a)",
+      "choiceGroup": "34",
+      "page": 19,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(a) ...he presence... ...ium ethanoate.\n\nWrite the chemical equation for the reaction involved and name it, giving justification for the name.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Most of the question stem before \"Write the chemical equation...\" is missing from the PDF text layer; only the fragments \"he presence\" and \"ium ethanoate\" survived. The marking scheme shows this question is about a compound 'X' (ethanoic acid) reacting with 'Y' (ethanol) to form 'Z' (ethyl ethanoate), which further reacts with NaOH to give ethanol and sodium ethanoate, but the exact printed wording could not be recovered. See page 19 of the PDF.",
+        "Official answer partly missing in extraction (figure/equation)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "'X' - CH3COOH / Ethanoic Acid / Acetic Acid. 'Y' - C2H5OH / Ethanol. 'Z' - CH3COOC2H5 / Ethyl Ethanoate. CH3COOH + C2H5OH -> (acid catalyst) CH3COOC2H5 + H2O - Esterification Reaction. CH3COOC2H5 + NaOH -> C2H5OH + CH3COONa - Saponification Reaction. It is used in the preparation of soap."
+      },
+      "chapter": "carbon-and-its-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "34",
+      "part": "(b)",
+      "choiceGroup": "34",
+      "page": 21,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Name the simplest saturated hydrocarbon. Draw its electron dot structure. Which type of bonds exist in this compound ?\n(ii) Name any two mixtures of the carbon compound used as a fuel in daily life, of which the above mentioned compound is an important component.\n(iii) In which homologous series of carbon compounds can this compound be placed ? Write the general formula of the series.\n(iv) Which type of flame is produced on burning it ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer for (i) includes an electron-dot structure diagram that is an image and is not reproduced in the extracted text.",
+        "Official answer partly missing in extraction (figure/equation)",
+        "Subscripts/superscripts flattened: CH4, CnH2n+2"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) Methane / CH4; Covalent bond / Single covalent bond / Single bond. (ii) Biogas; Compressed Natural Gas / CNG. (iii) Alkanes; CnH2n+2. (iv) Clean flame / blue flame."
+      },
+      "chapter": "carbon-and-its-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "35",
+      "part": "(a)",
+      "choiceGroup": "35",
+      "page": 21,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) List three points of difference between nervous and hormonal mechanisms for control and coordination in animals.\n(ii) How are auxins related with the bending of plant shoot towards unidirectional light ? Explain.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Nervous control vs hormonal control (any three): messages are sent as electrical impulses vs chemicals (hormones); carried through neurons vs through blood; nerve impulses produce rapid responses vs hormones produce slow responses; nerve impulses produce short-lived responses vs hormones produce long-lasting responses. (ii) When a growing shoot is exposed to unidirectional light, auxin shifts towards the shaded side. More auxin causes more growth of the shoot on the shaded side, resulting in the bending of the stem towards the source of light."
+      },
+      "chapter": "control-and-coordination",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "35",
+      "part": "(b)",
+      "choiceGroup": "35",
+      "page": 21,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Name the disorder which a person is likely to suffer from due to the following :\n(I) Over-secretion of growth hormone\n(II) Deficiency of oestrogen in females\n(III) Less secretion of thyroxine\nAlso name the gland that secretes each of the hormones mentioned above.\n(ii) How is the timing and amount of hormone released regulated ? Explain with the help of an example.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) (I) Gigantism - Pituitary gland. (II) Delay in puberty - Ovary. (III) Goitre - Thyroid gland. (ii) The timing and amount of hormone released are regulated by feedback mechanisms. Example: if the sugar level in the blood rises, more insulin is produced; as the blood sugar level falls, insulin secretion is reduced."
+      },
+      "chapter": "control-and-coordination",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "36",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(a) An object is placed in front of a convex lens of focal length f. If the distance of the object from the lens is 2f, draw a ray diagram to show the formation of the image. Write the value of magnification in this case.\n(b) A student has focussed the image of a candle flame on a white screen using a convex lens. The situation is as given below :\nLength of the flame = 2 cm\nFocal length of the lens = 12 cm\nDistance of the flame from the lens = 16 cm\nIf the flame is perpendicular to the principal axis of the lens, calculate the values of the following :\n(i) Distance of the image from the lens\n(ii) Length of the image formed",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer for (a) includes a ray-diagram image that is not reproduced in the extracted text.",
+        "Official answer partly missing in extraction (figure/equation)",
+        "Subscripts flattened: ho, hi"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Magnification = -1 (deduct half a mark for not marking arrows in the ray diagram). (b) u = -16 cm; f = +12 cm. 1/v - 1/u = 1/f, so 1/v = 1/f + 1/u = 1/12 cm + 1/(-16 cm), giving v = +48 cm. (i) Distance of image from the lens = 48 cm. (ii) hi = (v/u) x ho = [(+48 cm)/(-16 cm)] x 2 cm = -6 cm; the image is 6 cm in size."
+      },
+      "chapter": "light-reflection-and-refraction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "37",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Read the following passage and answer the questions that follow :\nThe teacher while conducting practicals in the laboratory divided the students into three groups and gave them various solutions to find out their pH and classify them into acidic, basic and neutral solutions.\nGroup A - Lemon juice, vinegar, colourless aerated drink\nGroup B - Tomato juice, coffee, ginger juice\nGroup C - Sodium hydroxide, sodium chloride, lime water\n(a) For the solutions provided, which group is/are likely to have pH value (i) less than 7, and (ii) greater than 7 ?\n(b) List two ways of determining pH of a solution.\n(c) Explain, why the sour substances such as lemon juice are effective in cleaning the tarnished copper vessels.\nOR\n(c) ...by giving two examples.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The OR alternative for (c) is missing most of its text in the PDF text layer; only the trailing fragment \"by giving two examples.\" survived. The marking scheme suggests it asked about the importance of maintaining pH (digestion, tooth decay, plant/animal defence, aquatic life), but the exact printed wording could not be recovered. See pages 23-25 of the PDF."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) (i) Groups A and B - less than 7. (ii) Group C - greater than 7. (b) pH paper and universal indicator. (c) Copper vessel is tarnished due to the formation of basic copper oxide; lemon juice, being acidic, reacts with the copper oxide and the salt formed is washed away. OR (c) An optimal pH is required for digestion. Change in pH can cause tooth decay. Animals and plants defend themselves through a change in pH. Survival of aquatic life becomes difficult when the pH of river water becomes low. (Any two, or any other suitable example)"
+      },
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "38",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Read the following passage and answer the questions that follow :\nAll the reproductive methods of living organisms are broadly categorized into two types : 1. Asexual reproduction, and 2. Sexual reproduction.\nAsexual reproduction involves the participation of a single parent without the formation of gametes, fertilisation and transfer of genetic material. This method is a common means of rapidly increasing offsprings under favourable conditions.\n(a) Name the type of fission that occurs in Leishmania and Plasmodium.\n(b) Write one advantage of sexual mode of reproduction over asexual reproduction.\n(c) Give reasons why :\n(i) Colonies of yeast fail to multiply in water but multiply in sugar solution.\n(ii) Rhizopus individuals do not grow on a dry slice of bread.\nOR\n(c) Name the filamentous structures a student could identify when he collected water from a pond that appeared dark green. How do these organisms multiply ? Explain.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Leishmania - binary fission; Plasmodium - multiple fission. (b) Sexual reproduction leads to more variations, which are useful for ensuring the survival of a species. (c) (i) Sugar solution provides nutrients for growth and multiplication, whereas water does not. (ii) Moisture is required for the growth of Rhizopus. OR (c) Spirogyra. Fragmentation - Spirogyra simply breaks up into smaller pieces upon maturation; each piece grows into a new individual."
+      },
+      "chapter": "how-do-organisms-reproduce",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "39",
+      "part": null,
+      "choiceGroup": null,
+      "page": 27,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Consider the following electrical circuit diagram in which nine identical resistors of 3 each are connected as shown. If the reading of the ammeter A1 is 1 ampere, answer the following questions :\n(a) What is the relationship between the readings of A1 and A3 ? Give reasons for your answer.\n(b) What is the relationship between the readings of A2 and A3 ?\n(c) Determine the reading of the voltmeter V1.\nOR\n(c) Find the total resistance of the circuit.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Circuit diagram (nine 3-ohm resistors and the positions of A1, A2, A3, V1) on page 27 not reproduced; needed to determine the series/parallel arrangement for all three sub-parts.",
+        "Ohm symbol lost in extraction throughout (resistor/answer values print as bare numbers, e.g. \"resistors of 3 each\", \"Rp = 3/2\").",
+        "Subscripts flattened: R1, R2, Rp",
+        "Official answer uses stacked fractions; linearised here with '/' from the layout."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Both have the same reading, A1 = A3; both are connected in series. (b) Reading of A2 = 1/4 A, as the current is equally divided among the four identical resistors / A2 = 1/4 x reading of A3 / A2 = 0.25 A / A2 < A3. (c) 1/Rp = 1/R1 + 1/R2 (parallel combination), giving Rp = 3/2; V = IR, so V1 = 1A x 3/2 = 1.5 V. OR (c) Total resistance: R = Rp1 + Rp2 + Rp3 = 3/4 + 1 + 3/4 = 13/4 (approx. 3.25)."
+      },
+      "chapter": "electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "_comment": "Boards, classes and subjects beyond the ICSE 8-10 demo bank. Chapters are only listed where the syllabus is known precisely (NCERT Class 10 Science and Mathematics, rationalised syllabus). Subjects without chapters show as 'coverage not available yet'. Loaded by migration 0002 and scripts/build-sources.mjs (idempotent).",
+  "_comment": "Boards, classes and subjects. Chapters are listed only where they come from an official syllabus document (details[subject].syllabusSource): NCERT/CBSE 2025-26 curriculum, CISCE ICSE/ISC 2027 syllabuses. ICSE Class 8-10 Mathematics/Physics/Chemistry/Biology chapters come from the practice bank (src/data/demo) and were checked against the ICSE 2027 syllabus. Subjects without chapters show as 'source collection in progress'. Loaded by migration 0002 and scripts/build-sources.mjs (idempotent).",
   "boards": [
     {
       "slug": "icse",
@@ -8,13 +8,542 @@
       "description": "ICSE (Class 10) and ISC (Class 12) are conducted by the Council for the Indian School Certificate Examinations (CISCE). Classes 6 to 9 and 11 are school-examined on the CISCE syllabus.",
       "sortOrder": 1,
       "classes": [
-        { "level": 6, "name": "Class 6", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
-        { "level": 7, "name": "Class 7", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
-        { "level": 8, "name": "Class 8", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
-        { "level": 9, "name": "Class 9", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
-        { "level": 10, "name": "Class 10", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
-        { "level": 11, "name": "Class 11 (ISC)", "subjects": ["mathematics", "physics", "chemistry", "biology"] },
-        { "level": 12, "name": "Class 12 (ISC)", "subjects": ["mathematics", "physics", "chemistry", "biology"] }
+        {
+          "level": 6,
+          "name": "Class 6",
+          "subjects": [
+            "mathematics",
+            "physics",
+            "chemistry",
+            "biology"
+          ]
+        },
+        {
+          "level": 7,
+          "name": "Class 7",
+          "subjects": [
+            "mathematics",
+            "physics",
+            "chemistry",
+            "biology"
+          ]
+        },
+        {
+          "level": 8,
+          "name": "Class 8",
+          "subjects": [
+            "mathematics",
+            "physics",
+            "chemistry",
+            "biology"
+          ]
+        },
+        {
+          "level": 9,
+          "name": "Class 9",
+          "subjects": [
+            "mathematics",
+            "physics",
+            "chemistry",
+            "biology"
+          ]
+        },
+        {
+          "level": 10,
+          "name": "Class 10",
+          "subjects": [
+            "mathematics",
+            "physics",
+            "chemistry",
+            "biology",
+            "history-civics",
+            "geography"
+          ],
+          "details": {
+            "history-civics": {
+              "overview": "ICSE History & Civics is Paper 1 of History, Civics and Geography (H.C.G., subject code 50). In Class X it is one 2-hour paper of 80 marks plus 20 marks of internal assessment (a project marked by internal and external examiners). Section A (Civics) covers the Union Legislature, the Union Executive and the Judiciary. Section B (History) covers the Indian National Movement (1857–1917), the Mass Phase of the National Movement (1915–1947) and the Contemporary World. The syllabus lists topics with lettered sub-topics, not chapters, so the sub-topics are used here as chapters.",
+              "syllabusSource": {
+                "title": "CISCE, ICSE Examination Year 2027 syllabus: History, Civics and Geography (50), Paper 1 History & Civics, Class X",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/ICSE-History-Civics.pdf",
+                "pages": "PDF pp. 6-8 (printed pp. 3-5)"
+              },
+              "chapters": [
+                {
+                  "slug": "the-union-legislature",
+                  "name": "The Union Legislature",
+                  "summary": "Civics (Section A), Topic 1. The federal setup, Lok Sabha and Rajya Sabha, parliamentary procedures, the Speaker, and the powers and functions of Parliament."
+                },
+                {
+                  "slug": "the-president",
+                  "name": "The President",
+                  "summary": "Civics (Section A), Topic 2 The Union Executive (a). Election, term, impeachment, and executive, legislative, financial, judicial, discretionary and emergency powers."
+                },
+                {
+                  "slug": "the-vice-president",
+                  "name": "The Vice-President",
+                  "summary": "Civics (Section A), Topic 2 The Union Executive (b). Qualifications, election, removal, term and powers."
+                },
+                {
+                  "slug": "prime-minister-and-council-of-ministers",
+                  "name": "Prime Minister and Council of Ministers",
+                  "summary": "Civics (Section A), Topic 2 The Union Executive (c). Appointment, functions, collective and individual responsibility, and the Council of Ministers versus the Cabinet."
+                },
+                {
+                  "slug": "the-supreme-court",
+                  "name": "The Supreme Court",
+                  "summary": "Civics (Section A), Topic 3 The Judiciary (a). Composition, appointment, independence, jurisdiction, judicial review and writs."
+                },
+                {
+                  "slug": "the-high-courts",
+                  "name": "The High Courts",
+                  "summary": "Civics (Section A), Topic 3 The Judiciary (b). Composition, appointment, jurisdiction and functions."
+                },
+                {
+                  "slug": "subordinate-courts",
+                  "name": "Subordinate Courts",
+                  "summary": "Civics (Section A), Topic 3 The Judiciary (c). District Judge's Court versus Sessions Court, and Lok Adalats."
+                },
+                {
+                  "slug": "the-first-war-of-independence-1857",
+                  "name": "The First War of Independence, 1857",
+                  "summary": "History (Section B), Topic 1 The Indian National Movement (1857–1917) (a). Causes and consequences only."
+                },
+                {
+                  "slug": "growth-of-nationalism",
+                  "name": "Factors Leading to the Growth of Nationalism",
+                  "summary": "History (Section B), Topic 1 (b). Economic exploitation, colonial policies, reform movements, the Press, and the foundation of the Indian National Congress."
+                },
+                {
+                  "slug": "first-phase-of-the-indian-national-movement",
+                  "name": "First Phase of the Indian National Movement (1885–1907)",
+                  "summary": "History (Section B), Topic 1 (c). Objectives and methods of the Early Nationalists."
+                },
+                {
+                  "slug": "second-phase-of-the-indian-national-movement",
+                  "name": "Second Phase of the Indian National Movement (1905–1916)",
+                  "summary": "History (Section B), Topic 1 (c). Partition of Bengal, the Surat Split, the Assertive Nationalists, the Muslim League and the Lucknow Pact."
+                },
+                {
+                  "slug": "mahatma-gandhi-and-the-mass-movements",
+                  "name": "Mahatma Gandhi: Non-Cooperation, Civil Disobedience and Quit India Movements",
+                  "summary": "History (Section B), Topic 2 Mass Phase of the National Movement (1915–1947) (a)."
+                },
+                {
+                  "slug": "forward-bloc-and-ina",
+                  "name": "Forward Bloc and the INA",
+                  "summary": "History (Section B), Topic 2 (b). Objectives of the Forward Bloc, and the INA and the contribution of Subhas Chandra Bose."
+                },
+                {
+                  "slug": "independence-and-partition-of-india",
+                  "name": "Independence and Partition of India",
+                  "summary": "History (Section B), Topic 2 (c). The Cabinet Mission Plan, the Mountbatten Plan and the Indian Independence Act, 1947."
+                },
+                {
+                  "slug": "the-first-world-war",
+                  "name": "The First World War",
+                  "summary": "History (Section B), Topic 3 The Contemporary World (a). Causes and results, including the Treaty of Versailles and the League of Nations."
+                },
+                {
+                  "slug": "rise-of-dictatorships",
+                  "name": "Rise of Dictatorships",
+                  "summary": "History (Section B), Topic 3 (b). The rise of Fascism in Italy and Nazism in Germany."
+                },
+                {
+                  "slug": "the-second-world-war",
+                  "name": "The Second World War",
+                  "summary": "History (Section B), Topic 3 (c). Causes and consequences, including the formation of the UN and the Cold War (meaning only)."
+                },
+                {
+                  "slug": "the-united-nations",
+                  "name": "The United Nations",
+                  "summary": "History (Section B), Topic 3 (d). Objectives, principal organs and major agencies, and the Universal Declaration of Human Rights (meaning only)."
+                },
+                {
+                  "slug": "non-aligned-movement",
+                  "name": "Non-Aligned Movement",
+                  "summary": "History (Section B), Topic 3 (e). Meaning, objectives, Panchsheel, and the role of Jawaharlal Nehru."
+                }
+              ]
+            },
+            "geography": {
+              "overview": "ICSE Geography is Paper 2 of History, Civics and Geography (H.C.G., subject code 50). In Class X it is one 2-hour paper of 80 marks plus 20 marks of internal assessment (project work). Part I (Map Work) covers interpretation of topographical maps and the map of India. Part II (Geography of India) covers climate, soil, natural vegetation, water, minerals and energy, agriculture, manufacturing industries, transport and waste management.",
+              "syllabusSource": {
+                "title": "CISCE, ICSE Examination Year 2027 syllabus: History, Civics and Geography (50), Paper 2 Geography, Class X",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/ICSE-Geography.pdf",
+                "pages": "PDF pp. 8-10 (printed pp. 5-7)"
+              },
+              "chapters": [
+                {
+                  "slug": "interpretation-of-topographical-maps",
+                  "name": "Interpretation of Topographical Maps",
+                  "summary": "Part I: Map Work, Topic 1. Grid references, contours, conventional symbols, scale, directions, drainage and settlement patterns on Survey of India maps."
+                },
+                {
+                  "slug": "map-of-india",
+                  "name": "Map of India",
+                  "summary": "Part I: Map Work, Topic 2. Locating, marking and naming physical features, rivers, winds, minerals, soils, cities and population distribution on an outline map of India."
+                },
+                {
+                  "slug": "climate",
+                  "name": "Climate",
+                  "summary": "Part II: Geography of India, Topic 3. Factors affecting India's climate, the monsoon mechanism and seasons."
+                },
+                {
+                  "slug": "soil-resources",
+                  "name": "Soil Resources",
+                  "summary": "Part II: Geography of India, Topic 4. Types of soil, soil erosion and soil conservation."
+                },
+                {
+                  "slug": "natural-vegetation",
+                  "name": "Natural Vegetation",
+                  "summary": "Part II: Geography of India, Topic 5. Importance of forests, types of vegetation and forest conservation."
+                },
+                {
+                  "slug": "water-resources",
+                  "name": "Water Resources",
+                  "summary": "Part II: Geography of India, Topic 6. Sources, conservation, rainwater harvesting and methods of irrigation."
+                },
+                {
+                  "slug": "mineral-and-energy-resources",
+                  "name": "Mineral and Energy Resources",
+                  "summary": "Part II: Geography of India, Topic 7. Iron ore, manganese, copper and bauxite, and conventional and non-conventional energy sources."
+                },
+                {
+                  "slug": "agriculture",
+                  "name": "Agriculture",
+                  "summary": "Part II: Geography of India, Topic 8. Indian agriculture, the Green Revolution, types of farming, cropping seasons and major crops."
+                },
+                {
+                  "slug": "manufacturing-industries",
+                  "name": "Manufacturing Industries",
+                  "summary": "Part II: Geography of India, Topic 9. Classification, agro-based (sugar, textiles) and mineral-based (iron and steel, petrochemicals, electronics) industries."
+                },
+                {
+                  "slug": "transport",
+                  "name": "Transport",
+                  "summary": "Part II: Geography of India, Topic 10. Roadways, railways, airways and waterways: advantages and disadvantages."
+                },
+                {
+                  "slug": "waste-management",
+                  "name": "Waste Management",
+                  "summary": "Part II: Geography of India, Topic 11. Impact of waste accumulation, safe disposal methods, and reduce, reuse and recycle."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "level": 11,
+          "name": "Class 11 (ISC)",
+          "subjects": [
+            "mathematics",
+            "physics",
+            "chemistry",
+            "biology"
+          ]
+        },
+        {
+          "level": 12,
+          "name": "Class 12 (ISC)",
+          "subjects": [
+            "mathematics",
+            "physics",
+            "chemistry",
+            "biology"
+          ],
+          "details": {
+            "physics": {
+              "overview": "ISC Class XII Physics has a 3-hour, 70-mark theory paper (Paper I) and a 30-mark Paper II made up of practical (15), project work (10) and practical file (5). The theory is organised into nine units from Electrostatics to Electronic Devices. The units' numbered sub-units match the rationalised NCERT chapter titles and are used here as chapters.",
+              "syllabusSource": {
+                "title": "CISCE, ISC Examination Year 2027 syllabus: Physics, Class XII",
+                "url": "https://cisce.org/wp-content/uploads/2026/02/ISC-2027-Physics.pdf",
+                "pages": "PDF pp. 15-24"
+              },
+              "chapters": [
+                {
+                  "slug": "electric-charges-and-fields",
+                  "name": "Electric Charges and Fields",
+                  "summary": "Unit 1: Electrostatics (i). Coulomb's law, electric field and dipole, lines of force, and Gauss's theorem."
+                },
+                {
+                  "slug": "electrostatic-potential-potential-energy-and-capacitance",
+                  "name": "Electrostatic Potential, Potential Energy and Capacitance",
+                  "summary": "Unit 1: Electrostatics (ii). Potential and potential energy, capacitors and dielectrics."
+                },
+                {
+                  "slug": "current-electricity",
+                  "name": "Current Electricity",
+                  "summary": "Unit 2: Current Electricity. Drift velocity and mobility, Ohm's law, emf, Kirchhoff's laws, and electrical energy and billing."
+                },
+                {
+                  "slug": "moving-charges-and-magnetism",
+                  "name": "Moving Charges and Magnetism",
+                  "summary": "Unit 3: Magnetic Effects of Current and Magnetism (i). Oersted's experiment, the Biot-Savart law, Ampere's law, and forces on charges and conductors."
+                },
+                {
+                  "slug": "magnetism-and-matter",
+                  "name": "Magnetism and Matter",
+                  "summary": "Unit 3: Magnetic Effects of Current and Magnetism (ii). The current loop as a magnetic dipole, and magnetic properties of materials."
+                },
+                {
+                  "slug": "electromagnetic-induction",
+                  "name": "Electromagnetic Induction",
+                  "summary": "Unit 4: Electromagnetic Induction and Alternating Currents (i)."
+                },
+                {
+                  "slug": "alternating-current",
+                  "name": "Alternating Current",
+                  "summary": "Unit 4: Electromagnetic Induction and Alternating Currents (ii). RMS values, reactance, LCR circuits (phasors) and resonance."
+                },
+                {
+                  "slug": "electromagnetic-waves",
+                  "name": "Electromagnetic Waves",
+                  "summary": "Unit 5: Electromagnetic Waves. Displacement current, properties of EM waves, and the electromagnetic spectrum."
+                },
+                {
+                  "slug": "ray-optics-and-optical-instruments",
+                  "name": "Ray Optics and Optical Instruments",
+                  "summary": "Unit 6: Optics (i). Reflection, refraction, prisms, lenses and optical instruments."
+                },
+                {
+                  "slug": "wave-optics",
+                  "name": "Wave Optics",
+                  "summary": "Unit 6: Optics (ii). Wavefronts, Huygens' principle, interference (Young's double slit) and diffraction."
+                },
+                {
+                  "slug": "dual-nature-of-radiation-and-matter",
+                  "name": "Dual Nature of Radiation and Matter",
+                  "summary": "Unit 7: Dual Nature of Radiation and Matter. The photoelectric effect, Einstein's equation, and de Broglie waves (Davisson-Germer, qualitative)."
+                },
+                {
+                  "slug": "atoms",
+                  "name": "Atoms",
+                  "summary": "Unit 8: Atoms and Nuclei (i). Rutherford's model, Bohr's model of the hydrogen atom, and spectral series."
+                },
+                {
+                  "slug": "nuclei",
+                  "name": "Nuclei",
+                  "summary": "Unit 8: Atoms and Nuclei (ii). Composition and size of the nucleus, mass-energy relation, binding energy, fission and fusion."
+                },
+                {
+                  "slug": "semiconductor-electronics-materials-devices-and-simple-circuits",
+                  "name": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+                  "summary": "Unit 9: Electronic Devices (i) and (ii). Energy bands, p-n junction, diode as a rectifier, LED, photodiode, solar cell and the Zener diode as a voltage regulator."
+                }
+              ]
+            },
+            "chemistry": {
+              "overview": "ISC Class XII Chemistry has a 3-hour, 70-mark theory paper (Paper I) and a 30-mark Paper II made up of practical (15), project work (10) and practical file (5). The theory has 10 units weighted by branch: Physical Chemistry (units 1–3) 25 marks, Inorganic Chemistry (units 4–5) 14 marks and Organic Chemistry (units 6–10) 31 marks.",
+              "syllabusSource": {
+                "title": "CISCE, ISC Examination Year 2027 syllabus: Chemistry, Class XII",
+                "url": "https://cisce.org/wp-content/uploads/2025/04/19.-ISC-Chemistry-1.pdf",
+                "pages": "PDF pp. 14-22"
+              },
+              "chapters": [
+                {
+                  "slug": "solutions",
+                  "name": "Solutions",
+                  "summary": "Physical Chemistry, Unit 1. Concentration, Raoult's law, colligative properties, abnormal molecular mass and the van't Hoff factor."
+                },
+                {
+                  "slug": "electrochemistry",
+                  "name": "Electrochemistry",
+                  "summary": "Physical Chemistry, Unit 2. Electrode potentials, the Nernst equation, conductance and electrolysis."
+                },
+                {
+                  "slug": "chemical-kinetics",
+                  "name": "Chemical Kinetics",
+                  "summary": "Physical Chemistry, Unit 3. Rate of reaction, order and molecularity, integrated rate equations and half-life."
+                },
+                {
+                  "slug": "d-and-f-block-elements",
+                  "name": "d- and f-Block Elements",
+                  "summary": "Inorganic Chemistry, Unit 4. Transition elements, lanthanoids and actinoids."
+                },
+                {
+                  "slug": "coordination-compounds",
+                  "name": "Coordination Compounds",
+                  "summary": "Inorganic Chemistry, Unit 5. Nomenclature, isomerism and bonding theories of coordination compounds."
+                },
+                {
+                  "slug": "haloalkanes-and-haloarenes",
+                  "name": "Haloalkanes and Haloarenes",
+                  "summary": "Organic Chemistry, Unit 6."
+                },
+                {
+                  "slug": "alcohols-phenols-and-ethers",
+                  "name": "Alcohols, Phenols and Ethers",
+                  "summary": "Organic Chemistry, Unit 7."
+                },
+                {
+                  "slug": "aldehydes-ketones-and-carboxylic-acids",
+                  "name": "Aldehydes, Ketones and Carboxylic Acids",
+                  "summary": "Organic Chemistry, Unit 8."
+                },
+                {
+                  "slug": "organic-compounds-containing-nitrogen",
+                  "name": "Organic Compounds containing Nitrogen",
+                  "summary": "Organic Chemistry, Unit 9. Amines, diazonium salts, and cyanides and isocyanides."
+                },
+                {
+                  "slug": "biomolecules",
+                  "name": "Biomolecules",
+                  "summary": "Organic Chemistry, Unit 10. Carbohydrates, proteins and nucleic acids (DNA and RNA)."
+                }
+              ]
+            },
+            "biology": {
+              "overview": "ISC Class XII Biology has a 3-hour, 70-mark theory paper (Paper I) and a 30-mark Paper II made up of practical (15), project work (10) and practical file (5). The theory has five units: Reproduction (16 marks), Genetics and Evolution (15), Biology and Human Welfare (14), Biotechnology and its Applications (10), and Ecology and Environment (15). Their numbered sub-units are used here as chapters.",
+              "syllabusSource": {
+                "title": "CISCE, ISC Examination Year 2027 syllabus: Biology, Class XII",
+                "url": "https://cisce.org/wp-content/uploads/2025/04/20.-ISC-Biology.pdf",
+                "pages": "PDF pp. 13-18"
+              },
+              "chapters": [
+                {
+                  "slug": "sexual-reproduction-in-flowering-plants",
+                  "name": "Sexual Reproduction in Flowering Plants",
+                  "summary": "Unit 1: Reproduction (i). Pre-fertilisation structures, pollination, artificial hybridisation, double fertilisation, and post-fertilisation events."
+                },
+                {
+                  "slug": "human-reproduction",
+                  "name": "Human Reproduction",
+                  "summary": "Unit 1: Reproduction (ii). Reproductive systems, gametogenesis, the menstrual cycle, fertilisation, implantation and pregnancy."
+                },
+                {
+                  "slug": "reproductive-health",
+                  "name": "Reproductive Health",
+                  "summary": "Unit 1: Reproduction (iii)."
+                },
+                {
+                  "slug": "principles-of-inheritance-and-variation",
+                  "name": "Principles of Inheritance and Variation",
+                  "summary": "Unit 2: Genetics and Evolution (i)."
+                },
+                {
+                  "slug": "molecular-basis-of-inheritance",
+                  "name": "Molecular Basis of Inheritance",
+                  "summary": "Unit 2: Genetics and Evolution (ii)."
+                },
+                {
+                  "slug": "evolution",
+                  "name": "Evolution",
+                  "summary": "Unit 2: Genetics and Evolution (iii). Evidences, mechanisms (including gene flow and genetic drift) and human evolution."
+                },
+                {
+                  "slug": "human-health-and-diseases",
+                  "name": "Human Health and Diseases",
+                  "summary": "Unit 3: Biology and Human Welfare (i). Pathogens and diseases, and immunity (innate and acquired, humoral and cell-mediated)."
+                },
+                {
+                  "slug": "microbes-in-human-welfare",
+                  "name": "Microbes in Human Welfare",
+                  "summary": "Unit 3: Biology and Human Welfare (ii). Microbes in household and industrial products, and sewage treatment."
+                },
+                {
+                  "slug": "biotechnology-principles-and-processes",
+                  "name": "Biotechnology - Principles and Processes",
+                  "summary": "Unit 4: Biotechnology and its Applications (i)."
+                },
+                {
+                  "slug": "biotechnology-and-its-applications",
+                  "name": "Biotechnology and its Applications",
+                  "summary": "Unit 4: Biotechnology and its Applications (ii). Bt crops, transgenic animals, gene therapy (SCID), molecular diagnosis and biosafety."
+                },
+                {
+                  "slug": "organisms-and-populations",
+                  "name": "Organisms and Populations",
+                  "summary": "Unit 5: Ecology and Environment (i)."
+                },
+                {
+                  "slug": "ecosystem",
+                  "name": "Ecosystem",
+                  "summary": "Unit 5: Ecology and Environment (ii)."
+                },
+                {
+                  "slug": "biodiversity-and-its-conservation",
+                  "name": "Biodiversity and its Conservation",
+                  "summary": "Unit 5: Ecology and Environment (iii). Including in-situ and ex-situ conservation methods."
+                }
+              ]
+            },
+            "mathematics": {
+              "overview": "ISC Class XII Mathematics (860) has a 3-hour, 80-mark theory paper (Paper I) and a 20-mark project (Paper II). The ISC 2027 syllabus is NOT divided into Sections A/B/C. It lists seven units: Relations and Functions (10 marks), Algebra (10), Calculus (35), Vector Algebra (5), Three-Dimensional Geometry (6), Linear Programming (5) and Probability (9). In the ISC 2026 syllabus, Section A (65 marks) was compulsory and candidates chose Section B (Vectors, 3-D Geometry, Applications of Integrals) or Section C (Application of Calculus, Linear Regression, Linear Programming) for 15 marks. The 2027 syllabus drops Application of Calculus (commerce) and Linear Regression, and all units are compulsory.",
+              "syllabusSource": {
+                "title": "CISCE, ISC Examination Year 2027 syllabus: Mathematics (860), Class XII",
+                "url": "https://cisce.org/wp-content/uploads/2025/04/17.-ISC-Mathematics.pdf",
+                "pages": "PDF pp. 11-16"
+              },
+              "chapters": [
+                {
+                  "slug": "relations-and-functions",
+                  "name": "Relations and Functions",
+                  "summary": "Unit 1: Relations and Functions (i). Types of relations, one-one and onto functions, and composite and inverse functions."
+                },
+                {
+                  "slug": "inverse-trigonometric-functions",
+                  "name": "Inverse Trigonometric Functions",
+                  "summary": "Unit 1: Relations and Functions (ii). Principal values, graphs and elementary properties."
+                },
+                {
+                  "slug": "matrices",
+                  "name": "Matrices",
+                  "summary": "Unit 2: Algebra (i). Types of matrices, operations (square matrices up to order 3) and invertible matrices."
+                },
+                {
+                  "slug": "determinants",
+                  "name": "Determinants",
+                  "summary": "Unit 2: Algebra (ii). Properties, minors and cofactors, adjoint and inverse, and consistency of linear systems."
+                },
+                {
+                  "slug": "continuity-differentiability-and-differentiation",
+                  "name": "Continuity, Differentiability and Differentiation",
+                  "summary": "Unit 3: Calculus (i)."
+                },
+                {
+                  "slug": "applications-of-derivatives",
+                  "name": "Applications of Derivatives",
+                  "summary": "Unit 3: Calculus (ii). Rate of change, increasing and decreasing functions, tangents and normals, and maxima and minima."
+                },
+                {
+                  "slug": "integrals",
+                  "name": "Integrals",
+                  "summary": "Unit 3: Calculus (iii)."
+                },
+                {
+                  "slug": "application-of-integrals",
+                  "name": "Application of Integrals",
+                  "summary": "Unit 3: Calculus (iv). Area under simple curves and area enclosed between two curves."
+                },
+                {
+                  "slug": "differential-equations",
+                  "name": "Differential Equations",
+                  "summary": "Unit 3: Calculus (v)."
+                },
+                {
+                  "slug": "vector-algebra",
+                  "name": "Vector Algebra",
+                  "summary": "Unit 4: Vector Algebra. Types of vectors, section formula, and scalar and vector products and projections."
+                },
+                {
+                  "slug": "three-dimensional-geometry",
+                  "name": "Three-Dimensional Geometry",
+                  "summary": "Unit 5: Three-Dimensional Geometry. Lines (including skew lines and shortest distance) and planes."
+                },
+                {
+                  "slug": "linear-programming",
+                  "name": "Linear Programming",
+                  "summary": "Unit 6: Linear Programming. Formulation and graphical solution of two-variable problems."
+                },
+                {
+                  "slug": "probability",
+                  "name": "Probability",
+                  "summary": "Unit 7: Probability. Conditional probability, Bayes' theorem, random variables and their probability distributions and mean."
+                }
+              ]
+            }
+          }
+        }
       ]
     },
     {
@@ -24,14 +553,46 @@
       "description": "CBSE conducts the Class 10 (Secondary School) and Class 12 (Senior School Certificate) board examinations and publishes its board question papers and marking schemes on cbse.gov.in. Classes 6 to 9 and 11 are school-examined on the NCERT-based syllabus.",
       "sortOrder": 2,
       "classes": [
-        { "level": 6, "name": "Class 6", "subjects": ["mathematics", "science"] },
-        { "level": 7, "name": "Class 7", "subjects": ["mathematics", "science"] },
-        { "level": 8, "name": "Class 8", "subjects": ["mathematics", "science"] },
-        { "level": 9, "name": "Class 9", "subjects": ["mathematics", "science"] },
+        {
+          "level": 6,
+          "name": "Class 6",
+          "subjects": [
+            "mathematics",
+            "science"
+          ]
+        },
+        {
+          "level": 7,
+          "name": "Class 7",
+          "subjects": [
+            "mathematics",
+            "science"
+          ]
+        },
+        {
+          "level": 8,
+          "name": "Class 8",
+          "subjects": [
+            "mathematics",
+            "science"
+          ]
+        },
+        {
+          "level": 9,
+          "name": "Class 9",
+          "subjects": [
+            "mathematics",
+            "science"
+          ]
+        },
         {
           "level": 10,
           "name": "Class 10",
-          "subjects": ["mathematics", "science"],
+          "subjects": [
+            "mathematics",
+            "science",
+            "social-science"
+          ],
           "details": {
             "science": {
               "overview": "CBSE Class 10 Science (subject code 086) follows the NCERT textbook and covers chemistry (reactions, acids and bases, metals, carbon compounds), biology (life processes, control and coordination, reproduction, heredity, environment) and physics (light, the human eye, electricity and magnetism). The board paper is 80 marks in 3 hours, with 20 marks of internal assessment.",
@@ -42,19 +603,142 @@
                 "Revise definitions and laws word for word; short answers are marked against specific value points."
               ],
               "chapters": [
-                { "slug": "chemical-reactions-and-equations", "name": "Chemical Reactions and Equations", "summary": "Writing and balancing chemical equations, and the main types of reactions: combination, decomposition, displacement, double displacement and redox, with everyday effects such as corrosion and rancidity.", "topics": ["Balancing chemical equations", "Types of chemical reactions", "Oxidation and reduction"] },
-                { "slug": "acids-bases-and-salts", "name": "Acids, Bases and Salts", "summary": "Properties and reactions of acids and bases, indicators and the pH scale, and the preparation and uses of common salts such as baking soda, washing soda and bleaching powder.", "topics": ["Indicators and pH", "Reactions of acids and bases", "Salts and their uses"] },
-                { "slug": "metals-and-non-metals", "name": "Metals and Non-metals", "summary": "Physical and chemical properties of metals and non-metals, the reactivity series, ionic compounds, extraction of metals and prevention of corrosion.", "topics": ["Properties of metals and non-metals", "Reactivity series", "Ionic compounds", "Extraction and corrosion"] },
-                { "slug": "carbon-and-its-compounds", "name": "Carbon and its Compounds", "summary": "Covalent bonding in carbon, versatile nature of carbon, homologous series, functional groups and nomenclature, and the chemical properties of carbon compounds including ethanol and ethanoic acid, soaps and detergents.", "topics": ["Covalent bonding", "Homologous series and nomenclature", "Chemical properties of carbon compounds", "Soaps and detergents"] },
-                { "slug": "life-processes", "name": "Life Processes", "summary": "Nutrition, respiration, transportation and excretion in plants and humans.", "topics": ["Nutrition", "Respiration", "Transportation", "Excretion"] },
-                { "slug": "control-and-coordination", "name": "Control and Coordination", "summary": "The nervous system, reflex actions and the human brain, coordination in plants through plant hormones, and hormones in animals.", "topics": ["Nervous system and reflexes", "Coordination in plants", "Hormones in animals"] },
-                { "slug": "how-do-organisms-reproduce", "name": "How do Organisms Reproduce?", "summary": "Modes of asexual reproduction, sexual reproduction in flowering plants and humans, and reproductive health.", "topics": ["Asexual reproduction", "Sexual reproduction in flowering plants", "Human reproduction and reproductive health"] },
-                { "slug": "heredity", "name": "Heredity", "summary": "Accumulation of variation, Mendel's experiments and rules of inheritance, and sex determination.", "topics": ["Variation", "Mendel's experiments", "Sex determination"] },
-                { "slug": "light-reflection-and-refraction", "name": "Light – Reflection and Refraction", "summary": "Reflection by spherical mirrors, refraction through glass slabs and spherical lenses, the mirror and lens formulae, magnification and power of a lens.", "topics": ["Spherical mirrors", "Refraction and refractive index", "Spherical lenses", "Power of a lens"] },
-                { "slug": "human-eye-and-colourful-world", "name": "The Human Eye and the Colourful World", "summary": "Structure and defects of the human eye and their correction, refraction through a prism, dispersion, atmospheric refraction and scattering of light.", "topics": ["The human eye and its defects", "Dispersion by a prism", "Atmospheric refraction and scattering"] },
-                { "slug": "electricity", "name": "Electricity", "summary": "Electric current and potential difference, Ohm's law, resistance and resistivity, resistors in series and parallel, heating effect of current and electric power.", "topics": ["Current and potential difference", "Ohm's law and resistance", "Series and parallel combinations", "Heating effect and electric power"] },
-                { "slug": "magnetic-effects-of-electric-current", "name": "Magnetic Effects of Electric Current", "summary": "Magnetic field and field lines, the field due to a current-carrying conductor, force on a conductor in a magnetic field, and domestic electric circuits.", "topics": ["Magnetic field and field lines", "Field due to a current-carrying conductor", "Force on a current-carrying conductor", "Domestic electric circuits"] },
-                { "slug": "our-environment", "name": "Our Environment", "summary": "Ecosystems and their components, food chains and webs, trophic levels, and how human activities affect the environment, including ozone depletion and waste management.", "topics": ["Ecosystem and food chains", "Trophic levels", "Ozone layer and waste management"] }
+                {
+                  "slug": "chemical-reactions-and-equations",
+                  "name": "Chemical Reactions and Equations",
+                  "summary": "Writing and balancing chemical equations, and the main types of reactions: combination, decomposition, displacement, double displacement and redox, with everyday effects such as corrosion and rancidity.",
+                  "topics": [
+                    "Balancing chemical equations",
+                    "Types of chemical reactions",
+                    "Oxidation and reduction"
+                  ]
+                },
+                {
+                  "slug": "acids-bases-and-salts",
+                  "name": "Acids, Bases and Salts",
+                  "summary": "Properties and reactions of acids and bases, indicators and the pH scale, and the preparation and uses of common salts such as baking soda, washing soda and bleaching powder.",
+                  "topics": [
+                    "Indicators and pH",
+                    "Reactions of acids and bases",
+                    "Salts and their uses"
+                  ]
+                },
+                {
+                  "slug": "metals-and-non-metals",
+                  "name": "Metals and Non-metals",
+                  "summary": "Physical and chemical properties of metals and non-metals, the reactivity series, ionic compounds, extraction of metals and prevention of corrosion.",
+                  "topics": [
+                    "Properties of metals and non-metals",
+                    "Reactivity series",
+                    "Ionic compounds",
+                    "Extraction and corrosion"
+                  ]
+                },
+                {
+                  "slug": "carbon-and-its-compounds",
+                  "name": "Carbon and its Compounds",
+                  "summary": "Covalent bonding in carbon, versatile nature of carbon, homologous series, functional groups and nomenclature, and the chemical properties of carbon compounds including ethanol and ethanoic acid, soaps and detergents.",
+                  "topics": [
+                    "Covalent bonding",
+                    "Homologous series and nomenclature",
+                    "Chemical properties of carbon compounds",
+                    "Soaps and detergents"
+                  ]
+                },
+                {
+                  "slug": "life-processes",
+                  "name": "Life Processes",
+                  "summary": "Nutrition, respiration, transportation and excretion in plants and humans.",
+                  "topics": [
+                    "Nutrition",
+                    "Respiration",
+                    "Transportation",
+                    "Excretion"
+                  ]
+                },
+                {
+                  "slug": "control-and-coordination",
+                  "name": "Control and Coordination",
+                  "summary": "The nervous system, reflex actions and the human brain, coordination in plants through plant hormones, and hormones in animals.",
+                  "topics": [
+                    "Nervous system and reflexes",
+                    "Coordination in plants",
+                    "Hormones in animals"
+                  ]
+                },
+                {
+                  "slug": "how-do-organisms-reproduce",
+                  "name": "How do Organisms Reproduce?",
+                  "summary": "Modes of asexual reproduction, sexual reproduction in flowering plants and humans, and reproductive health.",
+                  "topics": [
+                    "Asexual reproduction",
+                    "Sexual reproduction in flowering plants",
+                    "Human reproduction and reproductive health"
+                  ]
+                },
+                {
+                  "slug": "heredity",
+                  "name": "Heredity",
+                  "summary": "Accumulation of variation, Mendel's experiments and rules of inheritance, and sex determination.",
+                  "topics": [
+                    "Variation",
+                    "Mendel's experiments",
+                    "Sex determination"
+                  ]
+                },
+                {
+                  "slug": "light-reflection-and-refraction",
+                  "name": "Light – Reflection and Refraction",
+                  "summary": "Reflection by spherical mirrors, refraction through glass slabs and spherical lenses, the mirror and lens formulae, magnification and power of a lens.",
+                  "topics": [
+                    "Spherical mirrors",
+                    "Refraction and refractive index",
+                    "Spherical lenses",
+                    "Power of a lens"
+                  ]
+                },
+                {
+                  "slug": "human-eye-and-colourful-world",
+                  "name": "The Human Eye and the Colourful World",
+                  "summary": "Structure and defects of the human eye and their correction, refraction through a prism, dispersion, atmospheric refraction and scattering of light.",
+                  "topics": [
+                    "The human eye and its defects",
+                    "Dispersion by a prism",
+                    "Atmospheric refraction and scattering"
+                  ]
+                },
+                {
+                  "slug": "electricity",
+                  "name": "Electricity",
+                  "summary": "Electric current and potential difference, Ohm's law, resistance and resistivity, resistors in series and parallel, heating effect of current and electric power.",
+                  "topics": [
+                    "Current and potential difference",
+                    "Ohm's law and resistance",
+                    "Series and parallel combinations",
+                    "Heating effect and electric power"
+                  ]
+                },
+                {
+                  "slug": "magnetic-effects-of-electric-current",
+                  "name": "Magnetic Effects of Electric Current",
+                  "summary": "Magnetic field and field lines, the field due to a current-carrying conductor, force on a conductor in a magnetic field, and domestic electric circuits.",
+                  "topics": [
+                    "Magnetic field and field lines",
+                    "Field due to a current-carrying conductor",
+                    "Force on a current-carrying conductor",
+                    "Domestic electric circuits"
+                  ]
+                },
+                {
+                  "slug": "our-environment",
+                  "name": "Our Environment",
+                  "summary": "Ecosystems and their components, food chains and webs, trophic levels, and how human activities affect the environment, including ozone depletion and waste management.",
+                  "topics": [
+                    "Ecosystem and food chains",
+                    "Trophic levels",
+                    "Ozone layer and waste management"
+                  ]
+                }
               ]
             },
             "mathematics": {
@@ -66,29 +750,588 @@
                 "Case-based questions often combine two chapters; identify which formula each sub-part needs before calculating."
               ],
               "chapters": [
-                { "slug": "real-numbers", "name": "Real Numbers", "summary": "The Fundamental Theorem of Arithmetic, HCF and LCM, and proofs of irrationality.", "topics": ["Fundamental Theorem of Arithmetic", "Irrational numbers"] },
-                { "slug": "polynomials", "name": "Polynomials", "summary": "Zeroes of a polynomial and the relationship between zeroes and coefficients of quadratic polynomials.", "topics": ["Geometrical meaning of zeroes", "Zeroes and coefficients"] },
-                { "slug": "pair-of-linear-equations-in-two-variables", "name": "Pair of Linear Equations in Two Variables", "summary": "Graphical and algebraic methods (substitution and elimination) for solving a pair of linear equations, and consistency of the system.", "topics": ["Graphical method", "Substitution and elimination", "Word problems"] },
-                { "slug": "quadratic-equations", "name": "Quadratic Equations", "summary": "Solving quadratic equations by factorisation and the quadratic formula, and the nature of roots.", "topics": ["Factorisation", "Quadratic formula", "Nature of roots"] },
-                { "slug": "arithmetic-progressions", "name": "Arithmetic Progressions", "summary": "The nth term and the sum of the first n terms of an arithmetic progression, with applications.", "topics": ["nth term", "Sum of n terms"] },
-                { "slug": "triangles", "name": "Triangles", "summary": "Similarity of triangles, the Basic Proportionality Theorem and criteria for similarity.", "topics": ["Basic Proportionality Theorem", "Criteria for similarity"] },
-                { "slug": "coordinate-geometry", "name": "Coordinate Geometry", "summary": "The distance formula and the section formula.", "topics": ["Distance formula", "Section formula"] },
-                { "slug": "introduction-to-trigonometry", "name": "Introduction to Trigonometry", "summary": "Trigonometric ratios, ratios of specific angles, and trigonometric identities.", "topics": ["Trigonometric ratios", "Ratios of specific angles", "Trigonometric identities"] },
-                { "slug": "some-applications-of-trigonometry", "name": "Some Applications of Trigonometry", "summary": "Heights and distances using angles of elevation and depression.", "topics": ["Heights and distances"] },
-                { "slug": "circles", "name": "Circles", "summary": "Tangents to a circle and the number and properties of tangents from an external point.", "topics": ["Tangent to a circle", "Tangents from an external point"] },
-                { "slug": "areas-related-to-circles", "name": "Areas Related to Circles", "summary": "Areas of sectors and segments of a circle.", "topics": ["Sector and segment areas"] },
-                { "slug": "surface-areas-and-volumes", "name": "Surface Areas and Volumes", "summary": "Surface areas and volumes of combinations of solids.", "topics": ["Combination of solids"] },
-                { "slug": "statistics", "name": "Statistics", "summary": "Mean, median and mode of grouped data.", "topics": ["Mean of grouped data", "Mode and median of grouped data"] },
-                { "slug": "probability", "name": "Probability", "summary": "Theoretical probability of simple events.", "topics": ["Theoretical probability"] }
+                {
+                  "slug": "real-numbers",
+                  "name": "Real Numbers",
+                  "summary": "The Fundamental Theorem of Arithmetic, HCF and LCM, and proofs of irrationality.",
+                  "topics": [
+                    "Fundamental Theorem of Arithmetic",
+                    "Irrational numbers"
+                  ]
+                },
+                {
+                  "slug": "polynomials",
+                  "name": "Polynomials",
+                  "summary": "Zeroes of a polynomial and the relationship between zeroes and coefficients of quadratic polynomials.",
+                  "topics": [
+                    "Geometrical meaning of zeroes",
+                    "Zeroes and coefficients"
+                  ]
+                },
+                {
+                  "slug": "pair-of-linear-equations-in-two-variables",
+                  "name": "Pair of Linear Equations in Two Variables",
+                  "summary": "Graphical and algebraic methods (substitution and elimination) for solving a pair of linear equations, and consistency of the system.",
+                  "topics": [
+                    "Graphical method",
+                    "Substitution and elimination",
+                    "Word problems"
+                  ]
+                },
+                {
+                  "slug": "quadratic-equations",
+                  "name": "Quadratic Equations",
+                  "summary": "Solving quadratic equations by factorisation and the quadratic formula, and the nature of roots.",
+                  "topics": [
+                    "Factorisation",
+                    "Quadratic formula",
+                    "Nature of roots"
+                  ]
+                },
+                {
+                  "slug": "arithmetic-progressions",
+                  "name": "Arithmetic Progressions",
+                  "summary": "The nth term and the sum of the first n terms of an arithmetic progression, with applications.",
+                  "topics": [
+                    "nth term",
+                    "Sum of n terms"
+                  ]
+                },
+                {
+                  "slug": "triangles",
+                  "name": "Triangles",
+                  "summary": "Similarity of triangles, the Basic Proportionality Theorem and criteria for similarity.",
+                  "topics": [
+                    "Basic Proportionality Theorem",
+                    "Criteria for similarity"
+                  ]
+                },
+                {
+                  "slug": "coordinate-geometry",
+                  "name": "Coordinate Geometry",
+                  "summary": "The distance formula and the section formula.",
+                  "topics": [
+                    "Distance formula",
+                    "Section formula"
+                  ]
+                },
+                {
+                  "slug": "introduction-to-trigonometry",
+                  "name": "Introduction to Trigonometry",
+                  "summary": "Trigonometric ratios, ratios of specific angles, and trigonometric identities.",
+                  "topics": [
+                    "Trigonometric ratios",
+                    "Ratios of specific angles",
+                    "Trigonometric identities"
+                  ]
+                },
+                {
+                  "slug": "some-applications-of-trigonometry",
+                  "name": "Some Applications of Trigonometry",
+                  "summary": "Heights and distances using angles of elevation and depression.",
+                  "topics": [
+                    "Heights and distances"
+                  ]
+                },
+                {
+                  "slug": "circles",
+                  "name": "Circles",
+                  "summary": "Tangents to a circle and the number and properties of tangents from an external point.",
+                  "topics": [
+                    "Tangent to a circle",
+                    "Tangents from an external point"
+                  ]
+                },
+                {
+                  "slug": "areas-related-to-circles",
+                  "name": "Areas Related to Circles",
+                  "summary": "Areas of sectors and segments of a circle.",
+                  "topics": [
+                    "Sector and segment areas"
+                  ]
+                },
+                {
+                  "slug": "surface-areas-and-volumes",
+                  "name": "Surface Areas and Volumes",
+                  "summary": "Surface areas and volumes of combinations of solids.",
+                  "topics": [
+                    "Combination of solids"
+                  ]
+                },
+                {
+                  "slug": "statistics",
+                  "name": "Statistics",
+                  "summary": "Mean, median and mode of grouped data.",
+                  "topics": [
+                    "Mean of grouped data",
+                    "Mode and median of grouped data"
+                  ]
+                },
+                {
+                  "slug": "probability",
+                  "name": "Probability",
+                  "summary": "Theoretical probability of simple events.",
+                  "topics": [
+                    "Theoretical probability"
+                  ]
+                }
+              ]
+            },
+            "social-science": {
+              "overview": "CBSE Class 10 Social Science (code 087) is examined through an 80-mark board paper made up of four 20-mark parts: History (India and the Contemporary World – II), Geography (Contemporary India – II), Political Science (Democratic Politics – II) and Economics (Understanding Economic Development). A further 20 marks are internally assessed through periodic tests, an interdisciplinary project, a portfolio and subject enrichment activities. Some chapters or subtopics are assessed only internally or only through map work, as noted chapter by chapter.",
+              "syllabusSource": {
+                "title": "CBSE Secondary Curriculum 2025-26: Social Science (Code 087), Class X course structure and internal assessment",
+                "url": "https://cbseacademic.nic.in/web_material/CurriculumMain26/Sec/Social_Science_Sec_2025-26.pdf",
+                "pages": "PDF pp. 11-13 (Class X course structure), p. 22 (internal assessment)"
+              },
+              "chapters": [
+                {
+                  "slug": "the-rise-of-nationalism-in-europe",
+                  "name": "The Rise of Nationalism in Europe",
+                  "summary": "History (India and the Contemporary World – II), Section I: Events and Processes. Evaluated in the board examination; History carries 20 marks (18 + 2 map pointing)."
+                },
+                {
+                  "slug": "nationalism-in-india",
+                  "name": "Nationalism in India",
+                  "summary": "History (India and the Contemporary World – II), Section I: Events and Processes. Evaluated in the board examination, with map pointing."
+                },
+                {
+                  "slug": "the-making-of-a-global-world",
+                  "name": "The Making of a Global World",
+                  "summary": "History (India and the Contemporary World – II), Section II: Livelihoods, Economies and Societies. Only subtopics 1 to 1.3 (pre-modern world to conquest, disease and trade) are evaluated in the board examination. Subtopics 2 to 4.4 are covered by the interdisciplinary project, internally assessed for 5 marks."
+                },
+                {
+                  "slug": "the-age-of-industrialisation",
+                  "name": "The Age of Industrialisation",
+                  "summary": "History (India and the Contemporary World – II), Section II: Livelihoods, Economies and Societies. Assessed only in periodic assessment, not in the board examination."
+                },
+                {
+                  "slug": "print-culture-and-the-modern-world",
+                  "name": "Print Culture and the Modern World",
+                  "summary": "History (India and the Contemporary World – II), Section III: Everyday Life, Culture and Politics."
+                },
+                {
+                  "slug": "resources-and-development",
+                  "name": "Resources and Development",
+                  "summary": "Geography (Contemporary India – II), Chapter 1. Geography carries 20 marks (17 + 3 map pointing)."
+                },
+                {
+                  "slug": "forest-and-wildlife-resources",
+                  "name": "Forest and Wildlife Resources",
+                  "summary": "Geography (Contemporary India – II), Chapter 2."
+                },
+                {
+                  "slug": "water-resources",
+                  "name": "Water Resources",
+                  "summary": "Geography (Contemporary India – II), Chapter 3."
+                },
+                {
+                  "slug": "agriculture",
+                  "name": "Agriculture",
+                  "summary": "Geography (Contemporary India – II), Chapter 4."
+                },
+                {
+                  "slug": "minerals-and-energy-resources",
+                  "name": "Minerals and Energy Resources",
+                  "summary": "Geography (Contemporary India – II), Chapter 5."
+                },
+                {
+                  "slug": "manufacturing-industries",
+                  "name": "Manufacturing Industries",
+                  "summary": "Geography (Contemporary India – II), Chapter 6."
+                },
+                {
+                  "slug": "lifelines-of-national-economy",
+                  "name": "Lifelines of National Economy",
+                  "summary": "Geography (Contemporary India – II), Chapter 7. Only map pointing is evaluated in the board examination. The chapter is also used for the internally assessed interdisciplinary project (5 marks)."
+                },
+                {
+                  "slug": "power-sharing",
+                  "name": "Power-sharing",
+                  "summary": "Political Science (Democratic Politics – II), Unit I, Chapter 1. Political Science carries 20 marks."
+                },
+                {
+                  "slug": "federalism",
+                  "name": "Federalism",
+                  "summary": "Political Science (Democratic Politics – II), Unit I, Chapter 2."
+                },
+                {
+                  "slug": "gender-religion-and-caste",
+                  "name": "Gender, Religion and Caste",
+                  "summary": "Political Science (Democratic Politics – II), Unit II, Chapter 3."
+                },
+                {
+                  "slug": "political-parties",
+                  "name": "Political Parties",
+                  "summary": "Political Science (Democratic Politics – II), Unit III, Chapter 4."
+                },
+                {
+                  "slug": "outcomes-of-democracy",
+                  "name": "Outcomes of Democracy",
+                  "summary": "Political Science (Democratic Politics – II), Unit IV, Chapter 5."
+                },
+                {
+                  "slug": "development",
+                  "name": "Development",
+                  "summary": "Economics (Understanding Economic Development), Chapter 1. Economics carries 20 marks."
+                },
+                {
+                  "slug": "sectors-of-the-indian-economy",
+                  "name": "Sectors of the Indian Economy",
+                  "summary": "Economics (Understanding Economic Development), Chapter 2."
+                },
+                {
+                  "slug": "money-and-credit",
+                  "name": "Money and Credit",
+                  "summary": "Economics (Understanding Economic Development), Chapter 3."
+                },
+                {
+                  "slug": "globalisation-and-the-indian-economy",
+                  "name": "Globalisation and the Indian Economy",
+                  "summary": "Economics (Understanding Economic Development), Chapter 4. Some subtopics (e.g. What is Globalisation?, Factors that have enabled Globalisation) are evaluated in the board examination. Others (production across countries, Chinese toys in India, WTO, the struggle for a fair globalisation) go to the internally assessed interdisciplinary project."
+                },
+                {
+                  "slug": "consumer-rights",
+                  "name": "Consumer Rights",
+                  "summary": "Economics (Understanding Economic Development), Chapter 5. Listed as project work only (one of the internal-assessment project options), not evaluated in the board examination."
+                }
               ]
             }
           }
         },
-        { "level": 11, "name": "Class 11", "subjects": ["physics", "chemistry", "mathematics", "biology"] },
-        { "level": 12, "name": "Class 12", "subjects": ["physics", "chemistry", "mathematics", "biology"] }
+        {
+          "level": 11,
+          "name": "Class 11",
+          "subjects": [
+            "physics",
+            "chemistry",
+            "mathematics",
+            "biology"
+          ]
+        },
+        {
+          "level": 12,
+          "name": "Class 12",
+          "subjects": [
+            "physics",
+            "chemistry",
+            "mathematics",
+            "biology"
+          ],
+          "details": {
+            "physics": {
+              "overview": "CBSE Class 12 Physics (code 042) has a 3-hour, 70-mark theory paper across 9 units and 14 NCERT chapters, plus 30 marks of practicals. The units run from Electrostatics to Electronic Devices and follow the rationalised NCERT Class XII Physics Parts I and II.",
+              "syllabusSource": {
+                "title": "CBSE Senior Secondary Curriculum 2025-26: Physics (Code 042), Class XII",
+                "url": "https://cbseacademic.nic.in/web_material/CurriculumMain26/SrSec/Physics_SrSec_2025-26.pdf",
+                "pages": "PDF pp. 12-16 (theory), p. 17 (practicals)"
+              },
+              "chapters": [
+                {
+                  "slug": "electric-charges-and-fields",
+                  "name": "Electric Charges and Fields",
+                  "summary": "Unit I: Electrostatics. Coulomb's law, electric field and dipoles, electric flux and Gauss's theorem."
+                },
+                {
+                  "slug": "electrostatic-potential-and-capacitance",
+                  "name": "Electrostatic Potential and Capacitance",
+                  "summary": "Unit I: Electrostatics. Potential, equipotential surfaces, potential energy, dielectrics and capacitors."
+                },
+                {
+                  "slug": "current-electricity",
+                  "name": "Current Electricity",
+                  "summary": "Unit II: Current Electricity. Drift velocity, Ohm's law, resistivity, emf and internal resistance, Kirchhoff's rules and the Wheatstone bridge."
+                },
+                {
+                  "slug": "moving-charges-and-magnetism",
+                  "name": "Moving Charges and Magnetism",
+                  "summary": "Unit III: Magnetic Effects of Current and Magnetism. Biot-Savart and Ampere's laws, forces on moving charges and currents, and the moving coil galvanometer."
+                },
+                {
+                  "slug": "magnetism-and-matter",
+                  "name": "Magnetism and Matter",
+                  "summary": "Unit III: Magnetic Effects of Current and Magnetism. The bar magnet as a magnetic dipole, field lines, and para-, dia- and ferromagnetic materials."
+                },
+                {
+                  "slug": "electromagnetic-induction",
+                  "name": "Electromagnetic Induction",
+                  "summary": "Unit IV: Electromagnetic Induction and Alternating Currents. Faraday's laws, Lenz's law, and self and mutual induction."
+                },
+                {
+                  "slug": "alternating-current",
+                  "name": "Alternating Current",
+                  "summary": "Unit IV: Electromagnetic Induction and Alternating Currents. RMS values, reactance and impedance, LCR circuits, resonance, power factor, AC generator and transformer."
+                },
+                {
+                  "slug": "electromagnetic-waves",
+                  "name": "Electromagnetic Waves",
+                  "summary": "Unit V: Electromagnetic Waves. Displacement current, characteristics of EM waves, and the electromagnetic spectrum."
+                },
+                {
+                  "slug": "ray-optics-and-optical-instruments",
+                  "name": "Ray Optics and Optical Instruments",
+                  "summary": "Unit VI: Optics. Reflection, refraction, total internal reflection, lenses, prisms, microscopes and telescopes."
+                },
+                {
+                  "slug": "wave-optics",
+                  "name": "Wave Optics",
+                  "summary": "Unit VI: Optics. Huygens' principle, interference and Young's double slit, and single-slit diffraction."
+                },
+                {
+                  "slug": "dual-nature-of-radiation-and-matter",
+                  "name": "Dual Nature of Radiation and Matter",
+                  "summary": "Unit VII: Dual Nature of Radiation and Matter. The photoelectric effect, Einstein's equation and de Broglie matter waves."
+                },
+                {
+                  "slug": "atoms",
+                  "name": "Atoms",
+                  "summary": "Unit VIII: Atoms and Nuclei. Alpha-particle scattering, Rutherford's model, and the Bohr model and line spectra of hydrogen."
+                },
+                {
+                  "slug": "nuclei",
+                  "name": "Nuclei",
+                  "summary": "Unit VIII: Atoms and Nuclei. Nuclear composition and size, mass defect, binding energy, fission and fusion."
+                },
+                {
+                  "slug": "semiconductor-electronics-materials-devices-and-simple-circuits",
+                  "name": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+                  "summary": "Unit IX: Electronic Devices. Energy bands, intrinsic and extrinsic semiconductors, the p-n junction, and the diode as a rectifier."
+                }
+              ]
+            },
+            "chemistry": {
+              "overview": "CBSE Class 12 Chemistry (code 043) has a 3-hour, 70-mark theory paper over 10 units, plus 30 marks of practicals. The syllabus covers physical chemistry (solutions, electrochemistry, kinetics), inorganic chemistry (d- and f-block elements, coordination compounds) and organic chemistry (haloalkanes to biomolecules). It is based on the NCERT Class XII Chemistry Parts I and II.",
+              "syllabusSource": {
+                "title": "CBSE Senior Secondary Curriculum 2025-26: Chemistry (Code 043), Class XII",
+                "url": "https://cbseacademic.nic.in/web_material/CurriculumMain26/SrSec/Chemistry_SrSec_2025-26.pdf",
+                "pages": "PDF pp. 9-11"
+              },
+              "chapters": [
+                {
+                  "slug": "solutions",
+                  "name": "Solutions",
+                  "summary": "Unit 1 (7 marks). Concentration, Raoult's law, colligative properties and the van't Hoff factor."
+                },
+                {
+                  "slug": "electrochemistry",
+                  "name": "Electrochemistry",
+                  "summary": "Unit 2 (9 marks). EMF, the Nernst equation, conductance, Kohlrausch's law, batteries, fuel cells and corrosion."
+                },
+                {
+                  "slug": "chemical-kinetics",
+                  "name": "Chemical Kinetics",
+                  "summary": "Unit 3 (7 marks). Rate laws, order and molecularity, integrated rate equations, half-life and the Arrhenius equation."
+                },
+                {
+                  "slug": "d-and-f-block-elements",
+                  "name": "d- and f-Block Elements",
+                  "summary": "Unit 4 (7 marks). Trends in transition metals, K2Cr2O7 and KMnO4, lanthanides and actinides."
+                },
+                {
+                  "slug": "coordination-compounds",
+                  "name": "Coordination Compounds",
+                  "summary": "Unit 5 (7 marks). Ligands, IUPAC nomenclature, Werner's theory, VBT and CFT, and isomerism."
+                },
+                {
+                  "slug": "haloalkanes-and-haloarenes",
+                  "name": "Haloalkanes and Haloarenes",
+                  "summary": "Unit 6 (6 marks). The C–X bond, substitution mechanisms, and uses and environmental effects of polyhalogen compounds."
+                },
+                {
+                  "slug": "alcohols-phenols-and-ethers",
+                  "name": "Alcohols, Phenols and Ethers",
+                  "summary": "Unit 7 (6 marks). Preparation, properties and uses of alcohols, phenols and ethers."
+                },
+                {
+                  "slug": "aldehydes-ketones-and-carboxylic-acids",
+                  "name": "Aldehydes, Ketones and Carboxylic Acids",
+                  "summary": "Unit 8 (8 marks). The carbonyl group, nucleophilic addition, alpha-hydrogen reactivity, and carboxylic acids."
+                },
+                {
+                  "slug": "amines",
+                  "name": "Amines",
+                  "summary": "Unit 9 (6 marks). Classification, preparation and properties of amines, and diazonium salts."
+                },
+                {
+                  "slug": "biomolecules",
+                  "name": "Biomolecules",
+                  "summary": "Unit 10 (7 marks). Carbohydrates, proteins, enzymes, vitamins and nucleic acids."
+                }
+              ]
+            },
+            "biology": {
+              "overview": "CBSE Class 12 Biology (code 044) has a 3-hour, 70-mark theory paper across five units (VI–X) and 13 chapters, plus 30 marks of practicals. The units are Reproduction (16 marks), Genetics and Evolution (20), Biology and Human Welfare (12), Biotechnology and its Applications (12), and Ecology and Environment (10).",
+              "syllabusSource": {
+                "title": "CBSE Senior Secondary Curriculum 2025-26: Biology (Code 044), Class XII",
+                "url": "https://cbseacademic.nic.in/web_material/CurriculumMain26/SrSec/Biology_SrSec_2025-26.pdf",
+                "pages": "PDF pp. 9-11"
+              },
+              "chapters": [
+                {
+                  "slug": "sexual-reproduction-in-flowering-plants",
+                  "name": "Sexual Reproduction in Flowering Plants",
+                  "summary": "Unit VI: Reproduction. Flower structure, gametophytes, pollination, double fertilisation, seed and fruit formation."
+                },
+                {
+                  "slug": "human-reproduction",
+                  "name": "Human Reproduction",
+                  "summary": "Unit VI: Reproduction. Reproductive systems, gametogenesis, the menstrual cycle, fertilisation, implantation and pregnancy."
+                },
+                {
+                  "slug": "reproductive-health",
+                  "name": "Reproductive Health",
+                  "summary": "Unit VI: Reproduction. STD prevention, contraception, MTP, amniocentesis, infertility and ART."
+                },
+                {
+                  "slug": "principles-of-inheritance-and-variation",
+                  "name": "Principles of Inheritance and Variation",
+                  "summary": "Unit VII: Genetics and Evolution. Mendelian inheritance and deviations, sex determination, linkage, and genetic disorders."
+                },
+                {
+                  "slug": "molecular-basis-of-inheritance",
+                  "name": "Molecular Basis of Inheritance",
+                  "summary": "Unit VII: Genetics and Evolution. DNA structure and replication, the central dogma, the lac operon, genome projects and DNA fingerprinting."
+                },
+                {
+                  "slug": "evolution",
+                  "name": "Evolution",
+                  "summary": "Unit VII: Genetics and Evolution. The origin of life, evidences and mechanisms of evolution, Hardy-Weinberg principle and human evolution."
+                },
+                {
+                  "slug": "human-health-and-diseases",
+                  "name": "Human Health and Diseases",
+                  "summary": "Unit VIII: Biology and Human Welfare. Pathogens and diseases, immunology and vaccines, cancer, HIV/AIDS, and drug and alcohol abuse."
+                },
+                {
+                  "slug": "microbes-in-human-welfare",
+                  "name": "Microbes in Human Welfare",
+                  "summary": "Unit VIII: Biology and Human Welfare. Microbes in food, industry, sewage treatment, energy, biocontrol and biofertilisers."
+                },
+                {
+                  "slug": "biotechnology-principles-and-processes",
+                  "name": "Biotechnology - Principles and Processes",
+                  "summary": "Unit IX: Biotechnology and its Applications. Genetic engineering (recombinant DNA technology)."
+                },
+                {
+                  "slug": "biotechnology-and-its-applications",
+                  "name": "Biotechnology and its Applications",
+                  "summary": "Unit IX: Biotechnology and its Applications. Insulin and vaccine production, gene therapy, Bt crops, transgenic animals and biosafety."
+                },
+                {
+                  "slug": "organisms-and-populations",
+                  "name": "Organisms and Populations",
+                  "summary": "Unit X: Ecology and Environment. Population interactions and population attributes."
+                },
+                {
+                  "slug": "ecosystem",
+                  "name": "Ecosystem",
+                  "summary": "Unit X: Ecology and Environment. Ecosystem components, productivity, decomposition, energy flow and ecological pyramids."
+                },
+                {
+                  "slug": "biodiversity-and-its-conservation",
+                  "name": "Biodiversity and its Conservation",
+                  "summary": "Unit X: Ecology and Environment. Patterns and loss of biodiversity, hotspots and in-situ/ex-situ conservation."
+                }
+              ]
+            },
+            "mathematics": {
+              "overview": "CBSE Class 12 Mathematics (code 041) has one 80-mark theory paper and 20 marks of internal assessment. The paper covers six units: Relations and Functions (8 marks), Algebra (10), Calculus (35), Vectors and Three-Dimensional Geometry (14), Linear Programming (5) and Probability (8). These units contain 13 NCERT chapters.",
+              "syllabusSource": {
+                "title": "CBSE Senior Secondary Curriculum 2025-26: Mathematics (Code 041), Class XII",
+                "url": "https://cbseacademic.nic.in/web_material/CurriculumMain26/SrSec/Maths_SrSec_2025-26.pdf",
+                "pages": "PDF pp. 7-9"
+              },
+              "chapters": [
+                {
+                  "slug": "relations-and-functions",
+                  "name": "Relations and Functions",
+                  "summary": "Unit I: Relations and Functions. Types of relations, equivalence relations, and one-one and onto functions."
+                },
+                {
+                  "slug": "inverse-trigonometric-functions",
+                  "name": "Inverse Trigonometric Functions",
+                  "summary": "Unit I: Relations and Functions. Domain, range, principal value branches and graphs."
+                },
+                {
+                  "slug": "matrices",
+                  "name": "Matrices",
+                  "summary": "Unit II: Algebra. Types of matrices, matrix operations, transpose, symmetric and skew-symmetric matrices, and invertibility."
+                },
+                {
+                  "slug": "determinants",
+                  "name": "Determinants",
+                  "summary": "Unit II: Algebra. Determinants up to 3 × 3, minors and cofactors, adjoint and inverse, and solving linear systems."
+                },
+                {
+                  "slug": "continuity-and-differentiability",
+                  "name": "Continuity and Differentiability",
+                  "summary": "Unit III: Calculus. The chain rule, implicit and parametric differentiation, logarithmic differentiation and second-order derivatives."
+                },
+                {
+                  "slug": "applications-of-derivatives",
+                  "name": "Applications of Derivatives",
+                  "summary": "Unit III: Calculus. Rate of change, increasing and decreasing functions, and maxima and minima."
+                },
+                {
+                  "slug": "integrals",
+                  "name": "Integrals",
+                  "summary": "Unit III: Calculus. Integration by substitution, partial fractions and parts, and definite integrals and their properties."
+                },
+                {
+                  "slug": "application-of-integrals",
+                  "name": "Application of the Integrals",
+                  "summary": "Unit III: Calculus. Area under simple curves (lines, circles, parabolas, ellipses in standard form)."
+                },
+                {
+                  "slug": "differential-equations",
+                  "name": "Differential Equations",
+                  "summary": "Unit III: Calculus. Order and degree, separation of variables, and homogeneous and linear first-order equations."
+                },
+                {
+                  "slug": "vectors",
+                  "name": "Vectors",
+                  "summary": "Unit IV: Vectors and Three-Dimensional Geometry. Types of vectors, components, section formula, and dot and cross products."
+                },
+                {
+                  "slug": "three-dimensional-geometry",
+                  "name": "Three-dimensional Geometry",
+                  "summary": "Unit IV: Vectors and Three-Dimensional Geometry. Direction cosines and ratios, equations of a line, skew lines and shortest distance."
+                },
+                {
+                  "slug": "linear-programming",
+                  "name": "Linear Programming",
+                  "summary": "Unit V: Linear Programming Problem. Graphical solution of two-variable problems with up to three non-trivial constraints."
+                },
+                {
+                  "slug": "probability",
+                  "name": "Probability",
+                  "summary": "Unit VI: Probability. Conditional probability, the multiplication theorem, independent events, total probability and Bayes' theorem."
+                }
+              ]
+            }
+          }
+        }
       ]
     }
   ],
-  "subjectNames": { "mathematics": "Mathematics", "physics": "Physics", "chemistry": "Chemistry", "biology": "Biology", "science": "Science" },
-  "subjectOrder": ["mathematics", "science", "physics", "chemistry", "biology"]
+  "subjectNames": {
+    "mathematics": "Mathematics",
+    "physics": "Physics",
+    "chemistry": "Chemistry",
+    "biology": "Biology",
+    "science": "Science",
+    "social-science": "Social Science",
+    "history-civics": "History & Civics",
+    "geography": "Geography"
+  },
+  "subjectOrder": [
+    "mathematics",
+    "science",
+    "physics",
+    "chemistry",
+    "biology",
+    "social-science",
+    "history-civics",
+    "geography"
+  ]
 }

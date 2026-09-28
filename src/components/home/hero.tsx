@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { AcademicArt, type ArtKind } from "@/components/home/academic-art";
+import { AcademicField } from "@/components/motion/academic-field";
 import { PointerField } from "@/components/motion/pointer-field";
 import { AUTHORITY_LABELS, PAPER_TYPE_LABELS } from "@/lib/provenance";
 import type { PaperType, SourceAuthority } from "@/db/schema";
@@ -18,92 +20,25 @@ export type HeroSource = {
   verified: number;
 } | null;
 
-/** Academic objects that start dispersed and converge toward the centre card. */
-const OBJECTS: { key: string; x: string; y: string; fromX: string; fromY: string; r: string; depth: number; size: number; d: number; o?: number }[] = [
-  { key: "flask", x: "6%", y: "18%", fromX: "-140px", fromY: "-60px", r: "-30deg", depth: 22, size: 64, d: 0 },
-  { key: "atom", x: "84%", y: "10%", fromX: "160px", fromY: "-80px", r: "40deg", depth: 30, size: 76, d: 80 },
-  { key: "sigma", x: "90%", y: "62%", fromX: "180px", fromY: "60px", r: "25deg", depth: 18, size: 58, d: 160 },
-  { key: "compass", x: "2%", y: "70%", fromX: "-160px", fromY: "90px", r: "-45deg", depth: 26, size: 70, d: 240 },
-  { key: "pencil", x: "22%", y: "88%", fromX: "-60px", fromY: "160px", r: "-20deg", depth: 14, size: 60, d: 320 },
-  { key: "formula", x: "70%", y: "90%", fromX: "80px", fromY: "170px", r: "15deg", depth: 12, size: 120, d: 400, o: 0.9 },
-  { key: "ruler", x: "74%", y: "34%", fromX: "140px", fromY: "0px", r: "30deg", depth: 10, size: 86, d: 480, o: 0.7 },
-  { key: "stamp", x: "14%", y: "40%", fromX: "-150px", fromY: "0px", r: "-15deg", depth: 16, size: 64, d: 560, o: 0.85 },
+/**
+ * Study objects around the centre card. x/y are percentages of the field; depth sets parallax;
+ * charge > 0 is pushed away by the cursor, charge < 0 is pulled (the magnetic ones). `phone` marks
+ * the smaller set shown on narrow screens.
+ */
+const OBJECTS: { kind: ArtKind; x: number; y: number; depth: number; charge: number; size: number; o?: number; phone?: boolean }[] = [
+  { kind: "flask", x: 3, y: 12, depth: 22, charge: 1, size: 60, phone: true },
+  { kind: "book", x: 28, y: 0, depth: 12, charge: 1, size: 62 },
+  { kind: "circuit", x: 55, y: 1, depth: 16, charge: 1, size: 70, phone: true },
+  { kind: "atom", x: 82, y: 4, depth: 30, charge: -1, size: 72, phone: true },
+  { kind: "dna", x: 94, y: 30, depth: 20, charge: 1, size: 66 },
+  { kind: "sigma", x: 89, y: 57, depth: 18, charge: 1, size: 54, phone: true },
+  { kind: "molecule", x: 83, y: 83, depth: 24, charge: 1, size: 60 },
+  { kind: "formula", x: 55, y: 92, depth: 12, charge: 1, size: 116, o: 0.92, phone: true },
+  { kind: "graph", x: 25, y: 91, depth: 14, charge: 1, size: 70 },
+  { kind: "pencil", x: 4, y: 84, depth: 16, charge: 1, size: 56, phone: true },
+  { kind: "compass", x: -1, y: 58, depth: 26, charge: 1, size: 64 },
+  { kind: "globe", x: 0, y: 33, depth: 20, charge: -1, size: 62, phone: true },
 ];
-
-function ObjectArt({ kind, size }: { kind: string; size: number }) {
-  const s = { width: size, height: size };
-  const stroke = "rgb(214 222 255 / 0.9)";
-  switch (kind) {
-    case "flask":
-      return (
-        <svg {...s} viewBox="0 0 64 64" aria-hidden="true">
-          <path d="M24 6h16M27 6v16L12 50a6 6 0 0 0 5 9h30a6 6 0 0 0 5-9L37 22V6" fill="rgb(111 227 255 / 0.08)" stroke={stroke} strokeWidth="2.2" strokeLinejoin="round" />
-          <path d="M17 44h30" stroke="#6fe3ff" strokeWidth="2.2" />
-          <circle cx="28" cy="50" r="2.4" fill="#6fe3ff" />
-          <circle cx="37" cy="53" r="1.8" fill="#6fe3ff" />
-        </svg>
-      );
-    case "atom":
-      return (
-        <svg {...s} viewBox="0 0 64 64" aria-hidden="true" className="orbit">
-          <ellipse cx="32" cy="32" rx="26" ry="10" fill="none" stroke={stroke} strokeWidth="2" />
-          <ellipse cx="32" cy="32" rx="26" ry="10" fill="none" stroke={stroke} strokeWidth="2" transform="rotate(60 32 32)" />
-          <ellipse cx="32" cy="32" rx="26" ry="10" fill="none" stroke={stroke} strokeWidth="2" transform="rotate(120 32 32)" />
-          <circle cx="32" cy="32" r="4.5" fill="#ff5a6a" />
-        </svg>
-      );
-    case "sigma":
-      return (
-        <svg {...s} viewBox="0 0 64 64" aria-hidden="true">
-          <rect x="4" y="4" width="56" height="56" rx="14" fill="rgb(255 255 255 / 0.05)" stroke="rgb(255 255 255 / 0.18)" />
-          <path d="M44 18H22l12 14-12 14h22" fill="none" stroke={stroke} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      );
-    case "compass":
-      return (
-        <svg {...s} viewBox="0 0 64 64" aria-hidden="true">
-          <circle cx="32" cy="12" r="5" fill="none" stroke={stroke} strokeWidth="2.2" />
-          <path d="M30 16 16 56M34 16l14 40M21 42h22" fill="none" stroke={stroke} strokeWidth="2.2" strokeLinecap="round" />
-          <path d="M8 52a28 28 0 0 0 48 0" fill="none" stroke="#6fe3ff" strokeWidth="1.6" strokeDasharray="3 4" />
-        </svg>
-      );
-    case "pencil":
-      return (
-        <svg {...s} viewBox="0 0 64 64" aria-hidden="true">
-          <path d="M12 52 44 20l8 8-32 32H12v-8Z" fill="rgb(255 228 92 / 0.18)" stroke={stroke} strokeWidth="2.2" strokeLinejoin="round" />
-          <path d="m40 24 8 8M12 52l8 8" stroke={stroke} strokeWidth="2.2" />
-          <path d="m44 20 4-4a4 4 0 0 1 6 0l2 2a4 4 0 0 1 0 6l-4 4" fill="#ff5a6a" stroke="#ff5a6a" strokeWidth="1" />
-        </svg>
-      );
-    case "formula":
-      return (
-        <svg width={size} height={size * 0.42} viewBox="0 0 120 50" aria-hidden="true">
-          <rect x="1" y="1" width="118" height="48" rx="12" fill="rgb(255 255 255 / 0.06)" stroke="rgb(255 255 255 / 0.18)" />
-          <text x="60" y="32" textAnchor="middle" fontFamily="Newsreader, Georgia, serif" fontSize="19" fill="#e6ebff">
-            V = IR
-          </text>
-        </svg>
-      );
-    case "ruler":
-      return (
-        <svg width={size} height={size * 0.34} viewBox="0 0 90 30" aria-hidden="true">
-          <rect x="1" y="1" width="88" height="28" rx="5" fill="rgb(111 227 255 / 0.08)" stroke={stroke} strokeWidth="1.8" />
-          {Array.from({ length: 10 }, (_, i) => (
-            <path key={i} d={`M${8 + i * 8} 1v${i % 2 ? 7 : 12}`} stroke={stroke} strokeWidth="1.4" />
-          ))}
-        </svg>
-      );
-    case "stamp":
-      return (
-        <svg {...s} viewBox="0 0 64 64" aria-hidden="true">
-          <circle cx="32" cy="32" r="26" fill="none" stroke="#3ddc97" strokeWidth="2.5" strokeDasharray="5 3" />
-          <path d="m21 33 7 7 15-17" fill="none" stroke="#3ddc97" strokeWidth="3.4" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      );
-    default:
-      return null;
-  }
-}
 
 const PARTICLES = Array.from({ length: 22 }, (_, i) => ({
   left: `${(i * 37) % 100}%`,
@@ -111,6 +46,8 @@ const PARTICLES = Array.from({ length: 22 }, (_, i) => ({
   t: `${3 + (i % 5)}s`,
   d: `${(i % 7) * 0.4}s`,
 }));
+
+const SUGGESTIONS = ["Class 10 CBSE electricity", "ICSE Class 10 physics", "2026 Science QP 31/2/1"];
 
 export function Hero({ source }: { source: HeroSource }) {
   return (
@@ -137,46 +74,71 @@ export function Hero({ source }: { source: HeroSource }) {
               Previous-year questions taken from official board papers, each one traceable to the page it came from. Build a paper, practise against the
               clock, and see exactly where every question came from.
             </p>
-            <div className="rise-in mt-9 flex flex-col gap-3 sm:flex-row" style={{ ["--d" as string]: "240ms" }}>
-              <Link href="/pyqs" className="btn btn-glow px-6 text-[1.05rem]" data-magnetic>
-                Explore PYQs
-              </Link>
-              <Link href="/practice" className="btn btn-night px-6 text-[1.05rem]" data-magnetic>
+            <form action="/search" method="get" role="search" className="rise-in mt-8 max-w-[36rem]" style={{ ["--d" as string]: "220ms" }} data-field-focus>
+              <label htmlFor="hero-q" className="sr-only">
+                Search questions by chapter, topic, year or paper code
+              </label>
+              <div className="search-hero">
+                <svg className="search-hero-icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+                  <circle cx="11" cy="11" r="7" />
+                  <path d="m20 20-3.5-3.5" />
+                </svg>
+                <input id="hero-q" name="q" type="search" className="search-hero-input" placeholder="e.g. electricity or 31/2/1" autoComplete="off" enterKeyHint="search" />
+                <button type="submit" className="btn btn-primary search-hero-button" data-fx="pulse">
+                  Search
+                </button>
+              </div>
+              <p className="mt-3 flex flex-wrap gap-2 text-[0.88rem]">
+                {SUGGESTIONS.map((q) => (
+                  <Link key={q} href={`/search?q=${encodeURIComponent(q)}`} className="chip-link min-h-8 px-3 text-[0.86rem]" data-fx="ripple">
+                    {q}
+                  </Link>
+                ))}
+              </p>
+            </form>
+            <div className="rise-in mt-7 flex flex-col gap-3 sm:flex-row" style={{ ["--d" as string]: "300ms" }}>
+              <Link href="/practice" className="btn btn-glow px-6 text-[1.05rem]" data-magnetic data-fx="pulse">
                 Build a paper
               </Link>
+              <Link href="/pyqs" className="btn btn-night px-6 text-[1.05rem]" data-magnetic>
+                Explore PYQs
+              </Link>
             </div>
-            <p className="rise-in mt-6 text-[0.95rem] text-soft" style={{ ["--d" as string]: "320ms" }}>
+            <p className="rise-in mt-6 text-[0.95rem] text-soft" style={{ ["--d" as string]: "380ms" }}>
               Free to use. No sign-up. Verified questions are backed by their listed source.
             </p>
           </div>
 
-          <div className="relative mx-auto aspect-[1/1] w-full max-w-[34rem] lg:max-w-none">
-            {OBJECTS.map((o) => (
+          <AcademicField className="mx-auto aspect-[4/5] w-full max-w-[34rem] sm:aspect-square lg:max-w-none">
+            {OBJECTS.map((o, i) => (
               <div
-                key={o.key}
+                key={o.kind}
                 aria-hidden="true"
-                className="parallax absolute"
-                style={{ left: o.x, top: o.y, ["--depth" as string]: `${o.depth}px` }}
+                data-field-object
+                data-depth={o.depth}
+                data-charge={o.charge}
+                className={`field-object ${o.phone ? "" : "hidden sm:block"}`}
+                style={{ ["--x" as string]: `${o.x}%`, ["--y" as string]: `${o.y}%` }}
               >
                 <div
                   className="converge"
                   style={{
-                    ["--from-x" as string]: o.fromX,
-                    ["--from-y" as string]: o.fromY,
-                    ["--from-r" as string]: o.r,
-                    ["--d" as string]: `${o.d}ms`,
+                    ["--from-x" as string]: `${(o.x - 50) * 3.2}px`,
+                    ["--from-y" as string]: `${(o.y - 50) * 3.2}px`,
+                    ["--from-r" as string]: `${(i % 2 ? 1 : -1) * (20 + i * 3)}deg`,
+                    ["--d" as string]: `${i * 55}ms`,
                     ["--o" as string]: String(o.o ?? 1),
-                    ["--float" as string]: `${-6 - (o.depth % 7)}px`,
+                    ["--float" as string]: `${-5 - (o.depth % 7)}px`,
                   }}
                 >
-                  <ObjectArt kind={o.key} size={o.size} />
+                  <AcademicArt kind={o.kind} size={o.size} />
                 </div>
               </div>
             ))}
-            <div className="parallax absolute inset-[16%] grid place-items-center" style={{ ["--depth" as string]: "-8px" }}>
+            <div className="parallax absolute inset-x-[9%] inset-y-[15%] grid place-items-center sm:inset-[16%]" style={{ ["--depth" as string]: "-8px" }}>
               <SourceCard source={source} />
             </div>
-          </div>
+          </AcademicField>
         </div>
       </PointerField>
     </section>

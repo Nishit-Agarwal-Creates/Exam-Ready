@@ -1,0 +1,1950 @@
+{
+  "source": {
+    "key": "icse-2026-x-physics-specimen",
+    "title": "ICSE 2026 Examination, Specimen Question Paper, Physics (Science Paper 1)",
+    "board": "icse",
+    "class": 10,
+    "subject": "physics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations",
+    "paperType": "SPECIMEN",
+    "examYear": 2026,
+    "session": "Specimen question paper for the ICSE 2026 Examination",
+    "paperName": "Physics (Science Paper 1)",
+    "paperCode": "T26 521",
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-521-SCI1.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-521-SCI1.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 23,
+    "sha256": "30d89dfa85910f8ce78961173bf944ee6b7e7c96f76780fa6ceb091c144eea1d",
+    "maxMarks": 80,
+    "durationMinutes": 120,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes, page-by-page",
+    "ocrUsed": false,
+    "notes": "Single PDF (code 'T26 521 – SPECIMEN', printed footer) contains both the Question Paper (17 printed pages) and a 'DRAFT MARKING SCHEME' (5 printed pages). Found on the official specimen-papers listing page https://cisce.org/specimen-question-papers-icse-class-x-2026-2/ ; the specimen is published for the ICSE 2026 examination, so examYear is 2026. Maximum Marks 80, Time allowed Two hours; first 15 minutes are reading time only. PDF page numbers do NOT equal the printed page numbers: PDF page 2 is an unnumbered 'NOTE' insert page (about the specimen paper's purpose), so printed page N (N>=2) sits on PDF page N+1; the question paper spans PDF pages 1-18 (printed '1 of 17' to '17 of 17') and the marking scheme spans PDF pages 19-23 (printed '1 of 5' to '5 of 5'). The 'page' field on each question below is the PDF page number. Official ExamReady field 'session' set to a descriptive label because no exam session (e.g. 'March 2026') is printed. Structure: SECTION A (40 Marks) is compulsory - Question 1 (15 one-mark MCQ/assertion-reason sub-parts (i)-(xv)), Question 2 ([6] one-mark fill-in-the-blank sub-parts under (i), a [2] match-the-column (ii), and a [2] short-answer (iii)), and Question 3 (seven sub-questions (i)-(vii) totalling 15 marks). SECTION B (40 Marks) prints 'Attempt any four questions from this Section' and offers six 10-mark questions (Question 4 - Question 9); this pack extracts ALL SIX Section B questions (60 marks) because the choice is of whole questions, not internal alternatives, so the pack's marks total (100) intentionally exceeds maxMarks (80) - a student scores at most 80 by answering 40 (Section A) + 40 (best 4 of 6 Section B questions, 10 each). No question in this paper prints an internal-choice 'OR' between alternative sub-parts, so choiceGroup is null throughout. Where a single printed mark bracket (e.g. '[3]') covers two or more lettered sub-parts and the marking scheme does not print a mark against each sub-part individually, the total was split across the sub-parts based on the relative complexity/number of steps shown in the marking scheme working; this is flagged per question and confidence is set to MEDIUM. Several marking-scheme phrases use an embedded math-italic font whose glyphs did not map to correct Unicode in the PDF text layer: a genuine single-letter variable (e.g. 't', 'v', 'R') consistently extracts as that same character doubled and was decoded by removing the duplicate; a multi-letter word extracts as a single wrong glyph repeated 2x-the-letter-count times (e.g. a 7-repeat-14 run decoding to 'Voltage', a 9-repeat-18 run decoding to 'secondary') - where letter-count and surrounding physics vocabulary made the intended word unambiguous it was reconstructed and flagged per-question with MEDIUM confidence (e.g. Q1(xii)'s transformer options, decoded as 'Voltage/Current/number of turns/Power' x 'primary/secondary'); where a derivation's wording could not be reliably reconstructed (e.g. the parenthetical remark in Q8(iii)(d)) it was left out and flagged, keeping only the clearly-extracted final results/numbers per the pack rules (no derivations were invented). Figures, circuit diagrams, ray diagrams and graphs are never reproduced; each affected question is flagged with hasFigure true and an extractionIssues entry. Cognitive-level tags ('[Application]', '[Recall]', combined tags like '[Recall & Understanding]', etc.) are printed in the right margin of the question paper; the raw (non -layout) text extraction places all of a page's tags together in question order at the end of the page content, which was used to assign each tag to its sub-part in the same top-to-bottom order print on that page (this is unambiguous and was cross-checked page by page). Usage: Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced."
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A moment of couple has a tendency to rotate the body in an anticlockwise direction. The moment of couple is taken as:",
+      "options": [
+        "positive",
+        "negative",
+        "maximum",
+        "zero"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) positive",
+        "correctOption": 0
+      },
+      "chapter": "force",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The kinetic energy of a given body depends on the:",
+      "options": [
+        "position",
+        "centre of gravity",
+        "momentum",
+        "displacement"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) momentum",
+        "correctOption": 2
+      },
+      "chapter": "work-energy-power",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "During power production in a coal-based thermoelectric power plant, the correct sequence of energy conversions taking place is:",
+      "options": [
+        "heat → mechanical → chemical",
+        "heat → mechanical → electrical",
+        "chemical → heat → light",
+        "heat → chemical → electrical"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Arrow symbols (→) between the energy-conversion steps did not extract in the PDF text layer (they appeared as blank gaps); reinserted as → since the question stem ('sequence of energy conversions') makes the intended symbol unambiguous."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) heat → mechanical → electrical",
+        "correctOption": 1
+      },
+      "chapter": "work-energy-power",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Anita used a single movable pulley to lift a bucket of water from a well. She lubricates the pulley. Which of the following statements is true regarding the performance of the pulley used?",
+      "options": [
+        "Mechanical Advantage decreases and efficiency increases.",
+        "Velocity Ratio increases and efficiency decreases.",
+        "Mechanical Advantage remains unchanged and efficiency increases.",
+        "Velocity Ratio remains unchanged and efficiency increases."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) Velocity Ratio remains unchanged and efficiency increases.",
+        "correctOption": 3
+      },
+      "chapter": "machines",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Inside the prism, during the dispersion of white light, compared to blue, red light:",
+      "options": [
+        "slows down less and refracts more.",
+        "slows down more and refracts less.",
+        "slows down more and refracts more.",
+        "slows down less and refracts less."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) slows down less and refracts less.",
+        "correctOption": 3
+      },
+      "chapter": "spectrum",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Application"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "When objects are viewed through the rising heat of a campfire they appear to shimmer. The optical phenomenon responsible for this effect is:",
+      "options": [
+        "refraction",
+        "reflection",
+        "scattering",
+        "total internal reflection"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) refraction",
+        "correctOption": 0
+      },
+      "chapter": "refraction-plane-surfaces",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A convex lens with a focal length of 12 cm has an object at a distance of 20 cm in front of the lens. A blurred image is obtained on the screen placed at a distance of 23 cm in front of the lens. In order to obtain a clear image, the screen has to be moved:",
+      "options": [
+        "towards the lens.",
+        "away from the lens.",
+        "to a position very far from the lens.",
+        "either towards or away from the lens."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) away from the lens.",
+        "correctOption": 1
+      },
+      "chapter": "refraction-through-lens",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): Soldiers avoid firing at a target in foggy weather conditions.\nReason (R): In foggy weather, light gets scattered by tiny water droplets, reducing visibility.",
+      "options": [
+        "(A) is true but (R) is false.",
+        "(A) is false but (R) is true.",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A)."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "correctOption": 2
+      },
+      "chapter": "spectrum",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Two sound waves X and Y have the same amplitude and the same wave pattern but their frequencies are 60 Hz and 120 Hz respectively, then:",
+      "options": [
+        "X will be shriller and Y will be grave.",
+        "X will be grave and Y will be shriller.",
+        "X will differ in quality than Y.",
+        "X is louder than Y."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) X will be grave and Y will be shriller.",
+        "correctOption": 1
+      },
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "In the circuit given below, identify the correct relation between the currents flowing through the 2 Ω, 3 Ω, and 5 Ω resistors:",
+      "options": [
+        "current through 2Ω > current through 3Ω",
+        "current through 5Ω < current through 3Ω",
+        "current through 2Ω = current through 5Ω",
+        "current through 5Ω > current through 3Ω"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Circuit diagram (2 Ω, 3 Ω, 5 Ω resistors) on page 5 not reproduced."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(c) current through 2Ω = current through 5Ω",
+        "correctOption": 2
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "According to the old convention, the colour of the earth wire is:",
+      "options": [
+        "black",
+        "green",
+        "yellow",
+        "red"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) green",
+        "correctOption": 1
+      },
+      "chapter": "household-circuits",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "For an ideal step up transformer:",
+      "options": [
+        "Voltage primary / Voltage secondary > 1",
+        "Current primary / Current secondary < 1",
+        "number of turns primary / number of turns secondary = 1",
+        "Power primary / Power secondary = 1"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Options use an embedded math-italic font whose glyphs did not map to correct Unicode; each word extracted as a single wrong glyph repeated 2x-the-letter-count times (e.g. a 14-repeat run = a 7-letter word). Reconstructed word-by-word from letter counts and transformer-physics context (Voltage/Current/number of turns/Power, paired with primary/secondary) and cross-checked against the marking scheme's identical run pattern for the correct option; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) Power primary / Power secondary = 1",
+        "correctOption": 3
+      },
+      "chapter": "electro-magnetism",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Heat capacity of a body is the:",
+      "options": [
+        "energy needed to melt a body without change in its temperature.",
+        "energy needed to raise the temperature of a body by 1°C.",
+        "increase in volume of the body when its temperature increases by 1°C.",
+        "total amount of internal energy that is constant."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) energy needed to raise the temperature of a body by 1°C.",
+        "correctOption": 1
+      },
+      "chapter": "calorimetry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The amount of heat energy required to melt a given mass of a substance at its melting point, without any rise in its temperature is called the:",
+      "options": [
+        "specific heat capacity.",
+        "specific latent heat of fusion.",
+        "latent heat of fusion.",
+        "specific latent heat of freezing."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) latent heat of fusion.",
+        "correctOption": 2
+      },
+      "chapter": "calorimetry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A nucleus of an atom consists of 146 neutrons and 95 protons. It decays after emitting an alpha particle. How many protons and neutrons are left in the nucleus after an alpha emission?",
+      "options": [
+        "protons = 93, neutrons = 142",
+        "protons = 95, neutrons = 144",
+        "protons = 93, neutrons = 144",
+        "protons = 95, neutrons = 142"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) protons = 93, neutrons = 144",
+        "correctOption": 2
+      },
+      "chapter": "radioactivity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "A ___________ [Class II / Class III] lever will always have M.A. > 1.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Class II"
+      },
+      "chapter": "machines",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "A boy uses a GPS device to locate his missing friend in a crowded area; the system primarily uses __________ [ultraviolet waves / microwaves] to track the location.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "microwaves"
+      },
+      "chapter": "spectrum",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(i)(c)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Unit of specific heat capacity is _______. [kg²m²s⁻²K⁻¹ / m²s⁻²K⁻¹]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Unit exponents flattened in the PDF text layer ('kg2m2s-2K-1 / m2s-2K-1'); rebuilt as superscripts."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "m²s⁻²K⁻¹"
+      },
+      "chapter": "calorimetry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(i)(d)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "The threshold of hearing is __________. [0dB, 20Hz]",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "0dB"
+      },
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(i)(e)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Two copper wires can have different resistivity if they have different __________. [lengths / temperatures]",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "temperatures"
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(i)(f)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "The reaction responsible for the production of energy in the sun is __________. [Nuclear Fusion / Nuclear Fission]",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Nuclear fusion"
+      },
+      "chapter": "radioactivity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall & Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Match the movement of the body part in Column A to the class of lever in Column B.\nColumn A: (a) Nodding head (b) Lifting body weight on your toes\nColumn B: Class III / Class II / Class I",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Nodding head — Class I\n(b) Lifting body weight on your toes — Class II"
+      },
+      "chapter": "machines",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "2",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(a) Name the wave used for echo depth sounding.\n(b) Give one reason why the wave mentioned in (a) is used for the above purpose.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Ultrasonic waves\n(b) They travel long distance without deviation / not easily absorbed by the medium OR can be confined to a narrow beam."
+      },
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Refer to the diagram given below. A lens is made of two materials of different refractive indices (µ1, µ2) as shown. If the rays are coming from a distant object, then how many images will be seen?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (lens made of two materials of refractive indices µ1, µ2) on page 8 not reproduced.",
+        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "2 images will be seen."
+      },
+      "chapter": "refraction-through-lens",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "3",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A glass lens always forms a virtual, erect, and diminished image of an object kept in front of it. Identify the lens.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "concave lens."
+      },
+      "chapter": "refraction-through-lens",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The image given below displays kilowatt-hour meter readings recorded at two distinct points in time.\nAssuming a continuously running 2000W air conditioner as the sole electrical device in use, calculate the time interval, in hours, between these two meter readings.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Meter-reading image on page 8 not reproduced in the text layer; the meter readings (1567 kWh and 856 kWh) used in the marking scheme are not printed anywhere in the extracted question text."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Energy spent = 1567 − 856 = 711 kWh\nTime in hours = 711/2 = 355.5 hours"
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "3",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "ABCDE is a regular pentagon with its centre of gravity at O. What will be the most probable position (W, X, Y, Z or O) of the new centre of gravity if a piece of clay is attached at point A?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (regular pentagon ABCDE with marked positions W, X, Y, Z, O) on page 9 not reproduced.",
+        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "X"
+      },
+      "chapter": "force",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "3",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "ABCDE is a regular pentagon with its centre of gravity at O. What will be the most probable position (W, X, Y, Z or O) of the new centre of gravity if the pentagon is cut along the line PQ? (Of the remaining part DCBQPE)",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (regular pentagon ABCDE with marked positions W, X, Y, Z, O and cut line PQ) on page 9 not reproduced.",
+        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Z"
+      },
+      "chapter": "force",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A solid of mass 60 g at 100°C is placed in 150 g of water at 20°C. The final steady temperature is 25°C. Calculate the heat capacity of the solid.\n[sp. heat capacity of water = 4.2 J g⁻¹ K⁻¹]",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "By principle of mixtures, Heat lost = Heat gained\n(m × c × ΔT) metal = (m c ΔT) water\nc’ × 75 = 150 × 4.2 × 5\nc’ = 42 J K⁻¹"
+      },
+      "chapter": "calorimetry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Evaluate"
+    },
+    {
+      "number": "3",
+      "part": "(v)(a)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The diagram given below shows a copper wire wound around a U-shape soft iron bar. An iron pin is brought near the arrangement. First Source P and then Source Q are connected across AB, each operating independently.\nState True or False: Source P as well as Source Q, when connected across AB, can attract the iron pin.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (copper wire wound on a U-shaped soft iron bar with terminals A, B and sources P, Q) on page 9 not reproduced; the exact nature of sources P and Q (revealed by the marking scheme to be AC and DC) is not stated in the extracted question text.",
+        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "True"
+      },
+      "chapter": "electro-magnetism",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "part": "(v)(b)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The diagram given below shows a copper wire wound around a U-shape soft iron bar. An iron pin is brought near the arrangement. First Source P and then Source Q are connected across AB, each operating independently.\nJustify your answer to (a) with a suitable reason.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (copper wire wound on a U-shaped soft iron bar with terminals A, B and sources P, Q) on page 9 not reproduced.",
+        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Both currents AC & DC produce magnetic field around it."
+      },
+      "chapter": "electro-magnetism",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "part": "(vi)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name the radiation that is emitted during the decay of a nucleus that has the highest penetrating power.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "gamma / γ"
+      },
+      "chapter": "radioactivity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "3",
+      "part": "(vi)(b)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Does the emission of the above-mentioned radiation result in a change in the mass number?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "No."
+      },
+      "chapter": "radioactivity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "3",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Advanced optical sensors in air-to-air missiles use fiber optic cables to transmit light signals with minimal loss. This relies on a physical phenomenon that confines light within the fibers, making the system very dependable for guiding the missile precisely.\n(a) Name the optical phenomenon that allows light signals to remain confined within the fiber optic cables during transmission.\n(b) Explain the two main conditions necessary for this phenomenon to occur.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) total internal reflection\n(b) 1. Light ray should travel from denser to rarer medium.\n2. Angle of incidence must be greater than critical angle."
+      },
+      "chapter": "refraction-plane-surfaces",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "4",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The diagram below shows a fish in the tank and its image seen on the surface of water.\nName the phenomenon responsible for the formation of this image.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (fish in a tank and its image on the water surface) on page 10 not reproduced.",
+        "The printed [3] mark bracket covers both (a) and (b) of Question 4(i); the split is not printed; 1 mark assigned to (a) and 2 marks to (b) since (b) has two sub-answers."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Total internal reflection."
+      },
+      "chapter": "refraction-plane-surfaces",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "4",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A double convex lens with refractive index μ1 is placed inside two liquids of refractive indices μ2 and μ3 as shown in the diagrams below. The refractive indices are such that μ2 > μ1 and μ1 > μ3.\nHow would a parallel incident beam of light refract when it comes out of the lens (1) in Figure a. (2) in Figure b.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagrams (Figure a, Figure b: double convex lens between two liquids of refractive indices μ1, μ2, μ3) on page 11 not reproduced.",
+        "The printed [3] mark bracket covers both (a) and (b) of Question 4(i); the split is not printed; 1 mark assigned to (a) and 2 marks to (b) since (b) has two sub-answers."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "1. Converge\n2. Diverge"
+      },
+      "chapter": "refraction-through-lens",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "4",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A scientist lowers a metallic ruler vertically into a transparent oil tank. The ruler touches an object placed at the bottom of the tank and gets wet up to the 25 cm mark. If the refractive index of the glycerin is 1.25:\nUp to which mark will the ruler get wet, if the scientist lowers it up to the image of the object?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The printed [3] mark bracket covers both (a) and (b) of this item; the split is not printed; 2 marks assigned to (a) and 1 mark to (b), matching the multi-step calculation in (a)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Real depth = 25 cm\nRefractive index = 1.25\nApparent depth = Real depth / Refractive index\n= 25/1.25 = 20 cm."
+      },
+      "chapter": "refraction-plane-surfaces",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Evaluate"
+    },
+    {
+      "number": "4",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A scientist lowers a metallic ruler vertically into a transparent oil tank. The ruler touches an object placed at the bottom of the tank and gets wet up to the 25 cm mark. If the refractive index of the glycerin is 1.25:\nHow will this length in (a) change if another liquid of μ>1.25 is used?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The printed [3] mark bracket covers both (a) and (b) of this item; the split is not printed; 2 marks assigned to (a) and 1 mark to (b)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "length will decrease"
+      },
+      "chapter": "refraction-plane-surfaces",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "4",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A mixture of red, blue, and green light rays is passed through a convex lens, as illustrated in the diagram below. State whether the ray passes through a single point or through different points on the principal axis after refraction.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (convex lens refracting a mixed red/blue/green beam) on page 11 not reproduced."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Different points."
+      },
+      "chapter": "refraction-through-lens",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "4",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name the invisible radiation which is studied using the quartz prism.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Ultraviolet radiation"
+      },
+      "chapter": "spectrum",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "4",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "State one use of the radiation mentioned by you in (b) above.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Sterilization purposes / Detecting purity of gems, eggs / in producing vitamin D"
+      },
+      "chapter": "spectrum",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "4",
+      "part": "(iii)(d)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name one type of radiation with a wavelength greater than that of the radiation mentioned by you in (b) above.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Visible or infra-red or microwaves or radio waves."
+      },
+      "chapter": "spectrum",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "5",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "An object is placed at a distance of 24 cm in front of a convex lens of focal length 8 cm.\nWhat is the nature of the image so formed?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The printed [3] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to (a) and 2 marks to (b), matching the lens-formula working shown for (b)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Real, inverted"
+      },
+      "chapter": "refraction-through-lens",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Evaluate"
+    },
+    {
+      "number": "5",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "An object is placed at a distance of 24 cm in front of a convex lens of focal length 8 cm.\nCalculate the distance of the image from the lens.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The printed [3] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to (a) and 2 marks to (b)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "1/v − 1/u = 1/f ∴ 1/v − 1/(−24) = 1/8 (identifying 'u' and 'f' with correct sign convention)\n1/v = 3/24 − 1/24 ∴ v = 12 cm"
+      },
+      "chapter": "refraction-through-lens",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Evaluate"
+    },
+    {
+      "number": "5",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The diagram below shows a cooling curve for a substance X. State the temperature at which the substance condenses.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Cooling curve diagram for substance X on page 12 not reproduced; the temperature value in the official answer could not be verified against the graph."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "150°C"
+      },
+      "chapter": "calorimetry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "5",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The diagram below shows a cooling curve for a substance X. Mention the temperature range in which the substance is in its liquid state.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Cooling curve diagram for substance X on page 12 not reproduced; the temperature range in the official answer could not be verified against the graph."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "150°C to 60°C"
+      },
+      "chapter": "calorimetry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "5",
+      "part": "(ii)(c)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The diagram below shows a cooling curve for a substance X. State True or False: The amount of heat released when a substance is cooled by 10°C in its liquid state is greater than the heat released when it is cooled by the same amount in its solid state.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Cooling curve diagram for substance X on page 12 not reproduced."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "True."
+      },
+      "chapter": "calorimetry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "5",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "In an experiment to measure the temperature of the flame of a Bunsen burner, a lump of copper of mass 0.12 kg is heated on the flame for a long time. The copper then is quickly transferred into a beaker of negligible heat capacity containing 0.84 kg of water and the temperature of the water rose from 15°C to 35°C. Calculate the temperature of the flame.\n[Given sp. heat capacity of copper = 0.4 J g⁻¹ °C⁻¹, Sp. heat capacity of water = 4.2 J g⁻¹ °C⁻¹.]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Specific heat values were converted from J g⁻¹ °C⁻¹ (as given in the question) to J kg⁻¹ °C⁻¹ (400 and 4200) in the marking scheme working without an explicit note in the extracted text."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Heat lost by Cu = 0.12 × 400 × (t − 35)\nHeat gained by water = 0.84 × 4200 × (35 − 15)\nt − 35 = (0.84×4200×20)/(0.12×400) = 7×42×5 = 1470 °C\nt = 1470 + 35 = 1505 °C"
+      },
+      "chapter": "calorimetry",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "6",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A metal rod AB of length 80 cm is balanced at 45 cm from the end A with 100 gf weights suspended from the two ends. If this rod is cut at the centre C, then compare the weight of AC to the weight of BC. (Use >, < or =)",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Weight of AC < weight of BC"
+      },
+      "chapter": "force",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "6",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A metal rod AB of length 80 cm is balanced at 45 cm from the end A with 100 gf weights suspended from the two ends. Give a reason for your answer in (a).",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Even though the weights present are the same at both ends, the torque arm of B is less than the torque arm of A. This means the moment of the weight of the rod acts from side B and the C.G. lies beyond 40. Thus, more weight is concentrated between C to B."
+      },
+      "chapter": "force",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "6",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "For each of the following scenarios, state whether the work done by gravity is positive, negative, or zero.\nA person walks on a levelled road.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "No work is done."
+      },
+      "chapter": "work-energy-power",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "6",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "For each of the following scenarios, state whether the work done by gravity is positive, negative, or zero.\nA person climbs a ladder.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Negative work is done."
+      },
+      "chapter": "work-energy-power",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "6",
+      "part": "(ii)(c)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "For each of the following scenarios, state whether the work done by gravity is positive, negative, or zero.\nA car in a neutral gear is coming down the slope.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Positive work is done."
+      },
+      "chapter": "work-energy-power",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Recall"
+    },
+    {
+      "number": "6",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A, B, C and D are four points on a hemispherical cup placed inverted on the ground. Diameter BC = 360 cm and AE = R/3 (R is the radius of the cup). A small spherical mass 500 g at rest at the point A, slides down along the smooth surface of the cup. Assuming that there is no loss of energy, calculate its Potential Energy at A relative to B.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (hemispherical cup with points A, B, C, D, E) on page 13-14 not reproduced; point E and the value of R are only defined via the figure.",
+        "The printed [4] mark bracket covers (a), (b) and (c); the split is not printed; 1 mark assigned to (a), 2 to (b), 1 to (c), matching the number of working steps shown for each."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "PE at A = mgh = 0.5 × 10 × 1.8 = 9 J"
+      },
+      "chapter": "work-energy-power",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application & Evaluate"
+    },
+    {
+      "number": "6",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A, B, C and D are four points on a hemispherical cup placed inverted on the ground. Diameter BC = 360 cm and AE = R/3 (R is the radius of the cup). A small spherical mass 500 g at rest at the point A, slides down along the smooth surface of the cup. Assuming that there is no loss of energy, calculate its Speed at the point B (lowest point).",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (hemispherical cup with points A, B, C, D, E) on page 13-14 not reproduced.",
+        "The printed [4] mark bracket covers (a), (b) and (c); the split is not printed; 1 mark assigned to (a), 2 to (b), 1 to (c)."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Using energy conservation, PE at A = KE at B ⇒ mgh = ½ mv²\nv = √(2gh) = √(2×10×1.8) = 6 m/s"
+      },
+      "chapter": "work-energy-power",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application & Evaluate"
+    },
+    {
+      "number": "6",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A, B, C and D are four points on a hemispherical cup placed inverted on the ground. Diameter BC = 360 cm and AE = R/3 (R is the radius of the cup). A small spherical mass 500 g at rest at the point A, slides down along the smooth surface of the cup. Assuming that there is no loss of energy, calculate its Kinetic Energy at D (g = 10 ms⁻²).",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (hemispherical cup with points A, B, C, D, E) on page 13-14 not reproduced.",
+        "The printed [4] mark bracket covers (a), (b) and (c); the split is not printed; 1 mark assigned to (a), 2 to (b), 1 to (c)."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Height above B = 2R/3 = 1.2 m\nP.E. at D = mgh = 0.5 × 10 × 1.2 = 6 J\nK.E. at D = TE − PE at D = 9 − 6 = 3 J"
+      },
+      "chapter": "work-energy-power",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application & Evaluate"
+    },
+    {
+      "number": "7",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A block and tackle system of pulleys has velocity ratio 4. Draw a labelled diagram of the system indicating clearly, the direction of the load and effort.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "This item asks for a drawn, labelled pulley diagram; it cannot be captured as extracted text. Only the marking scheme's grading rubric survived extraction.",
+        "The printed [3] mark bracket covers (a) and (b); the split is not printed; 2 marks assigned to (a) (drawing) and 1 to (b) (calculation), matching the marking-scheme rubric shown."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Grading rubric (no diagram reproduced): Pulleys drawn correctly with support; correct connection of tackle, marking load, effort with correct direction and tension."
+      },
+      "chapter": "machines",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "7",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A block and tackle system of pulleys has velocity ratio 4. Calculate the potential energy gained by load of 100 kgf, lifted by this pulley to a height of 5 m. (g = 10 ms⁻²)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The printed [3] mark bracket covers (a) and (b); the split is not printed; 2 marks assigned to (a) and 1 to (b)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "U = mgh = 100 × 10 × 5\nU = 5000 J"
+      },
+      "chapter": "machines",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Evaluate"
+    },
+    {
+      "number": "7",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A person standing in front of a cliff fires a gun and hears its echo after 3 s. Speed of sound in air is 336 ms⁻¹. Calculate the distance of the person from the cliff.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The printed [3] mark bracket covers (a) and (b); the split is not printed; 2 marks assigned to (a) and 1 to (b), matching the working steps shown for each."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "d = (s×t)/2 ∴ d = (336×3)/2 = 168×3 = 504 m"
+      },
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Evaluate"
+    },
+    {
+      "number": "7",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A person standing in front of a cliff fires a gun and hears its echo after 3 s. Speed of sound in air is 336 ms⁻¹. After moving a certain distance from the cliff, he fires the gun again and this time the echo is heard 1.5 s later than the first. Calculate the distance that the person has moved.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The printed [3] mark bracket covers (a) and (b); the split is not printed; 2 marks assigned to (a) and 1 to (b)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "d = (s×t)/2 ∴ d = (336×1.5)/2 = 168×1.5 = 252 m\nDistance moved = 504 − 252 = 252 m"
+      },
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Evaluate"
+    },
+    {
+      "number": "7",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The above picture shows a mother pushing her daughter sitting on a swing. The swing is going through the positions A, B, C where A and C are extreme positions and B is the mean position. Which is the right position i.e. at A, B or C, for the mother to give a constant periodic push to the swing, every time in the forward direction, to increase the amplitude of the swing?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Image (picture) of the swing (positions A, B, C) on page 15 not reproduced."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "At A"
+      },
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "7",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The above picture shows a mother pushing her daughter sitting on a swing. Name the phenomenon involved in this.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Image (picture) of the swing (positions A, B, C) on page 15 not reproduced."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Resonance"
+      },
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "7",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The above picture shows a mother pushing her daughter sitting on a swing. On the basis of this example, explain how this phenomenon helps to increase the amplitude of the swing.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Image (picture) of the swing (positions A, B, C) on page 15 not reproduced.",
+        "The printed [4] mark bracket covers (a), (b) and (c); the split is not printed; 1 mark each assigned to (a) and (b), 2 to (c)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "The natural frequency of the swing will match the frequency of the force applied by mother; this will increase the amplitude."
+      },
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "number": "8",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The circuit depicted in the figure is employed for studying Ohm's Law. Instead of using a standard resistor, a student opts for a glass tube filled with mercury (tube 1), connected to the circuit through two electrodes E1 & E2. He records the readings of the ammeter and voltmeter, thereby calculates the resistance. The student repeats the experiment by substituting tube 1 with tube 2, where the same amount of mercury fills the tube 2. Neglecting internal resistance of the cell, use (> or < or =) to compare the resistance in both cases.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Circuit diagram and tube 1 / tube 2 dimensions on page 15-16 not reproduced; the comparison depends on the (unseen) relative length/cross-section of tube 2 versus tube 1."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Resistance of tube 2 < resistance of tube 1"
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "8",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The circuit depicted in the figure is employed for studying Ohm's Law, comparing tube 1 and tube 2 (same amount of mercury). Neglecting internal resistance of the cell, use (> or < or =) to compare the voltmeter readings in both cases.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Circuit diagram and tube 1 / tube 2 dimensions on page 15-16 not reproduced."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "The voltmeter reading for tube 1 is the same as the voltmeter reading for tube 2."
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "8",
+      "part": "(i)(c)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The circuit depicted in the figure is employed for studying Ohm's Law, comparing tube 1 and tube 2 (same amount of mercury). Neglecting internal resistance of the cell, use (> or < or =) to compare the specific resistance in both cases.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Circuit diagram and tube 1 / tube 2 dimensions on page 15-16 not reproduced."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "The specific resistance in both cases is the same."
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "number": "8",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "An appliance with a metal covering, rated at 2 kW, 220 V, is to be connected in a circuit. Given below are four diagrams (P, Q, R & S) depicting different circuit configurations. Identify the safest circuit.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Four circuit diagrams (P, Q, R, S) on page 16 not reproduced."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "S"
+      },
+      "chapter": "household-circuits",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application & Evaluate"
+    },
+    {
+      "number": "8",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "An appliance with a metal covering, rated at 2 kW, 220 V, is to be connected in a circuit. Write two reasons, supported by mathematical calculations, where applicable, to justify your choice of the safest circuit.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Four circuit diagrams (P, Q, R, S) on page 16 not reproduced.",
+        "The printed [3] mark bracket covers (a) and (b); the split is not printed; 1 mark assigned to (a) and 2 to (b)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "The metal body of the appliance is earthed.\nI = P/V = 2000/220 = 9.09 A; a 10 A fuse is appropriate."
+      },
+      "chapter": "household-circuits",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application & Evaluate"
+    },
+    {
+      "number": "8",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A nichrome wire X with length (l) & cross-sectional area (A) is connected to a 10 V source and another nichrome wire Y with length (2l) & cross-sectional area (A/2), is connected to a 20 V source. Compare the resistances of wires X and Y. [Given that the resistivity of nichrome is (ρ).]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The marking scheme's working uses an embedded math-italic font whose glyphs did not map to correct Unicode in the marking scheme; the derivation (Res X = ρl/A, Res Y = ρ(2l)/(A/2) = 4ρl/A) was reconstructed from letter-run counts and standard resistance formula; only the final ratio is kept as the official answer per the pack rules (no derivation invented). Check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Res X : Res Y = 1 : 4"
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analyse & Evaluate"
+    },
+    {
+      "number": "8",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A nichrome wire X with length (l) & cross-sectional area (A) is connected to a 10 V source and another nichrome wire Y with length (2l) & cross-sectional area (A/2), is connected to a 20 V source. Compare the electrical power consumed by each wire.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Working uses an embedded math-italic font whose glyphs did not map to correct Unicode in the marking scheme and is not fully reproduced; only the final ratio is kept as the official answer per the pack rules."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Pₓ : Pᵧ = 1 : 1"
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analyse & Evaluate"
+    },
+    {
+      "number": "8",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A nichrome wire X with length (l) & cross-sectional area (A) is connected to a 10 V source and another nichrome wire Y with length (2l) & cross-sectional area (A/2), is connected to a 20 V source. Compare the masses of these wires. (Given that the density of nichrome is d.)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Working (mass of X = A×l×d, mass of Y = A×2l×d) uses an embedded math-italic font whose glyphs did not map to correct Unicode in the marking scheme; only the final ratio is kept."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "mₓ : mᵧ = 1 : 1"
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analyse & Evaluate"
+    },
+    {
+      "number": "8",
+      "part": "(iii)(d)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A nichrome wire X with length (l) & cross-sectional area (A) is connected to a 10 V source and another nichrome wire Y with length (2l) & cross-sectional area (A/2), is connected to a 20 V source. State True or False: Wire X and wire Y both show the same rise in temperature in the same time.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation): the marking scheme's supporting derivation (heat produced per wire, Eq1/Eq2 = 1) uses a corrupted math-italic font; the parenthetical explanatory remark could not be reliably reconstructed and is omitted per the pack rules."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "True"
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Analyse & Evaluate"
+    },
+    {
+      "number": "9",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Three bulbs of powers P1, P2 and P3 (P1<P2<P3) are connected in a certain way that P3 glows brightest. What type of connection exists between these bulbs?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "parallel"
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "9",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Three bulbs of powers P1, P2 and P3 (P1<P2<P3) are connected in a certain way that P3 glows brightest. Compare the voltage across these bulbs. (Use >, < or =)",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "V1 = V2 = V3"
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "9",
+      "part": "(i)(c)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Three bulbs of powers P1, P2 and P3 (P1<P2<P3) are connected in a certain way that P3 glows brightest. Will the circuit still function if one of the bulbs is fused?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Yes"
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "9",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The given diagram shows the output of an AC generator. If the speed of the generator coil is doubled, then what is the effect on the physical quantity indicated by 'a'?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of the AC generator output (labelled quantities 'a' and 'b') on page 16 not reproduced; which physical quantities 'a' and 'b' represent is not stated in the extracted question text."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "It will be doubled."
+      },
+      "chapter": "electro-magnetism",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "9",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The given diagram shows the output of an AC generator. If the speed of the generator coil is doubled, then what is the effect on the physical quantity indicated as 'b'?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of the AC generator output (labelled quantities 'a' and 'b') on page 16 not reproduced."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "It will be halved."
+      },
+      "chapter": "electro-magnetism",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "9",
+      "part": "(ii)(c)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The given diagram shows the output of an AC generator. If the speed of the generator coil is doubled, give reason for your answer in (b).",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of the AC generator output (labelled quantities 'a' and 'b') on page 16 not reproduced."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "If speed is doubled, it means time of a cycle will be halved."
+      },
+      "chapter": "electro-magnetism",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "9",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 17,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The graph (Fig. A) illustrates the correlation between the number of protons (x-axis) and the number of neutrons (y-axis) for elements A, B, C, D, and E in the periodic table. These elements are denoted by the letters rather than their conventional symbols.\nIdentify the radioactive radiation emitted when element C decays into element E. Represent this using a nuclear reaction.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph (Fig. A: protons vs neutrons for elements A-E) on pages 16-17 not reproduced; which specific elements C, D, E and B are was read only from the marking scheme's nuclear equation, not from the graph itself.",
+        "The printed [4] mark bracket covers (a), (b) and (c); the split is not printed; 2 marks assigned to (a) (naming + equation) and 1 mark each to (b) and (c)."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "β (beta particle); ₉₂C²³⁸ → ₉₃E²³⁸ + ₋₁β⁰"
+      },
+      "chapter": "radioactivity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "9",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 17,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The graph (Fig. A) illustrates the correlation between the number of protons and the number of neutrons for elements A, B, C, D, and E in the periodic table. What is the special name given to elements D and E?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph (Fig. A: protons vs neutrons for elements A-E) on pages 16-17 not reproduced."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "isotopes"
+      },
+      "chapter": "radioactivity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    },
+    {
+      "number": "9",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 18,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The graph (Fig. A) illustrates the correlation between the number of protons and the number of neutrons for elements A, B, C, D, and E in the periodic table. If element C transforms into element B by emitting a radioactive ray, how will this ray behave in an electric field?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph (Fig. A: protons vs neutrons for elements A-E) on pages 16-17 not reproduced."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "It will shift towards the negative plate"
+      },
+      "chapter": "radioactivity",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding"
+    }
+  ]
+}

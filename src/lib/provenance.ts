@@ -1,6 +1,11 @@
 import type { PaperType, SourceAuthority, SourceType, VerificationStatus } from "@/db/schema";
 
-export const DEMO_LABEL = "DEMO DATA — NOT A VERIFIED PREVIOUS-YEAR QUESTION";
+/**
+ * Label for the AI-written practice bank (stored with is_demo = 1). It is truthful practice content:
+ * written by AI, never from an exam, never counted as a PYQ. Kept under the old export name so every
+ * surface that used the demo label now says what the content actually is.
+ */
+export const DEMO_LABEL = "AI practice: written by AI, not from any exam";
 
 /**
  * Category definitions. `badge` is the short student-facing stamp; each category has its own
@@ -39,13 +44,13 @@ export const SOURCE_LABELS: Record<SourceType, { badge: string; short: string; l
   },
 };
 
-/** Composition labels for papers built from demo data, so demo data never reads as a real category. */
+/** Composition labels for questions from the AI practice bank, so they never read as a real category. */
 export const DEMO_SOURCE_LABELS: Record<SourceType, string> = {
-  VERIFIED_PYQ: "Demo questions",
-  OFFICIAL_SAMPLE: "Demo questions",
-  USER_CONTRIBUTED: "Demo questions",
-  AI_SUPPLEMENTARY: "Demo AI practice",
-  PENDING_REVIEW: "Demo questions",
+  VERIFIED_PYQ: "AI practice",
+  OFFICIAL_SAMPLE: "AI practice",
+  USER_CONTRIBUTED: "AI practice",
+  AI_SUPPLEMENTARY: "AI practice",
+  PENDING_REVIEW: "AI practice",
 };
 
 export const STATUS_LABELS: Record<VerificationStatus, string> = {
@@ -147,15 +152,38 @@ export function frequencyOf(groupSources: SourceLink[]) {
   const board = groupSources.filter(isBoardPaperWithYear);
   const years = [...new Set(board.map((s) => s.year as number))].sort((a, b) => b - a);
   const papers = new Set(board.map((s) => s.paperId)).size;
-  return { years, papers };
+  // Paper sets per exam year: several sets of one year are one sitting, not a repeat.
+  const setsByYear = new Map<number, number>();
+  for (const y of years) setsByYear.set(y, new Set(board.filter((s) => s.year === y).map((s) => s.paperId)).size);
+  return { years, papers, setsByYear };
 }
 
+/**
+ * Factual frequency wording. Distinct exam years and same-year sets are reported separately:
+ *   "Appeared in 3 verified exam years (2026, 2025, 2023)"
+ *   "Seen in 2 paper sets of the 2026 exam (one exam year)"
+ */
 export function frequencyLine(q: ProvenanceInput, groupSources: SourceLink[] = q.sources): string | null {
   if (!isRealVerifiedPyq(q)) return null;
   const { years, papers } = frequencyOf(groupSources);
-  if (years.length >= 2) return `Asked in ${years.length} exam years (${years.join(", ")})`;
-  if (papers >= 2 && years.length === 1) return `Appeared in ${papers} sets of the ${years[0]} paper`;
+  if (years.length >= 2) {
+    const sets = papers > years.length ? `, ${papers} paper sets in all` : "";
+    return `Appeared in ${years.length} verified exam years (${years.join(", ")})${sets}`;
+  }
+  if (papers >= 2 && years.length === 1) return `Seen in ${papers} paper sets of the ${years[0]} exam (one exam year)`;
   return null;
+}
+
+/** Short factual trend tags for a verified PYQ. `latestYear` is the most recent verified year for its subject. */
+export function trendTags(q: ProvenanceInput, groupSources: SourceLink[] = q.sources, latestYear?: number | null): string[] {
+  if (!isRealVerifiedPyq(q)) return [];
+  const { years, papers } = frequencyOf(groupSources);
+  const tags: string[] = [];
+  if (years.length >= 2) tags.push(`${years.length} exam years`);
+  else if (papers >= 2) tags.push(`${papers} sets, ${years[0]}`);
+  if (latestYear && years[0] === latestYear) tags.push(`Recent: ${latestYear}`);
+  if (years.length && years[years.length - 1] < (latestYear ?? years[0]) - 2) tags.push(`First seen ${years[years.length - 1]}`);
+  return tags;
 }
 
 /** One-line citation for a source link, built only from stored fields. */

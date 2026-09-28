@@ -1,0 +1,1017 @@
+{
+  "source": {
+    "key": "isc-2027-xii-biology-specimen",
+    "title": "ISC Specimen Question Paper 2027, Biology Paper 1 (Theory), with Answer Key",
+    "board": "icse",
+    "class": 12,
+    "subject": "biology",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations",
+    "paperType": "SPECIMEN",
+    "examYear": 2027,
+    "session": "Specimen Question Paper for the ISC 2027 examination",
+    "paperName": "Biology Paper 1 (Theory)",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2026/08/863A-BIOLOGY-PAPER-1-SQP-AK.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2026/08/863A-BIOLOGY-PAPER-1-SQP-AK.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 20,
+    "sha256": "14e37b8ec9425d97799262bf0a252acb4b17a548d84157926d52b77349c08b39",
+    "maxMarks": 70,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, layout mode",
+    "ocrUsed": false,
+    "notes": "This is a SPECIMEN paper published by CISCE for the ISC 2027 examination (examYear 2027); found on https://cisce.org/specimen-question-papers-isc-class-xii-2027/. The PDF has 20 pages: pages 1-13 are the question paper (13 printed pages) and pages 14-20 are the Answer Key for the same paper, so answerSourceUrl equals sourceUrl and answerSourceFile is null. Cover page states Maximum Marks 70, Time Allotted Three Hours plus an additional fifteen minutes reading time (not included in durationMinutes=180, which is the writing time only). Section A is one Question 1 with eighteen roman-numeral subparts (i)-(xviii); subparts (xvi) and (xviii) each contain two further lettered (a)/(b) subparts, each printed with its own [1] mark, so Section A is stored as 20 separate one-mark entries (number '1', part '(i)' ... '(xviii)(b)') totalling the printed 20 marks for the section. Sections B, C and D each have questions offering an internal choice marked 'OR' between two whole alternatives (e.g. Question 6 (i) OR (ii)); each alternative is stored as its own entry sharing choiceGroup = the question number, with any lettered sub-parts inside that alternative kept together in one entry's text because they are not printed with individual marks. Where a question has multiple sub-parts but no internal 'OR' and no individually printed marks (e.g. Questions 3, 4, 7, 11), the sub-parts are kept together in a single entry for that question number. cognitiveLevel is recorded only where a single Bloom's-style tag (e.g. '(Recall)', '(Analyse)') is printed for the whole stored entry; where a combined entry's sub-parts carry different printed tags, cognitiveLevel is omitted rather than guessed. Several questions reference a pie chart, Venn diagram, bar graph, flowchart, pedigree chart, nucleotide diagram or hand-drawn graph that is not reproduced by text extraction; each such question is flagged with hasFigure/extractionIssues. The filename code '863A' does not appear anywhere in the extracted document text, so paperCode was left null rather than guessed from the filename. The table in Question 17(ii)(b) (fruits X/Y/Z) extracted with an apparent row misalignment versus the official answer (the description that matches Fruit X in the answer key appears on the 'Y' row, and the 'X' row is blank); this is flagged rather than silently corrected. Stacked fractions in a few official answers (Question 12(ii), Question 18(ii)(a)) were linearised with '/' or rebuilt inline; each is flagged with a notation-rebuilt issue and MEDIUM confidence.",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Stuti ate a cake containing nuts and immediately developed swelling of the lips and difficulty in breathing. Identify the chemical responsible for Stuti’s condition.",
+      "options": [
+        "Insulin",
+        "Histamine",
+        "Interferon",
+        "Adrenaline"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Histamine",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A survey was conducted to study the age structure of a human population. The data obtained is shown below:\nAge Group | Number of Individuals\nAdults | 60,000\nChildren | 35,000\nOld | 50,000\nBased on the above data, identify the MOST appropriate shape of the age pyramid for this population.",
+      "options": [
+        "Pyramidal",
+        "Triangular",
+        "Urn-shaped",
+        "Bell-shaped"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table (age group / number of individuals) flattened from a table layout in the PDF"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Urn-shaped",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "organisms-and-populations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In a single-stranded segment of a DNA molecule, the base ratio (A+T):(G+C) is found to be 0∙0.3:1. What will be the ratio (A + G):(T + C) for the entire double-stranded DNA molecule?",
+      "options": [
+        "1:1",
+        "3:10",
+        "10:3",
+        "13:3"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) 1:1",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Identify the vectors used for cloning genes into eukaryotic organisms.\n(P) BAC\n(Q) Bacteriophages\n(R) Ti plasmid\n(S) Disarmed retroviruses",
+      "options": [
+        "Only (P) and (Q)",
+        "Only (P) and (R)",
+        "Only (Q) and (S)",
+        "Only (R) and (S)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) Only (R) and (S)",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "biotechnology-principles-and-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In an ecosystem, interspecific interaction of population is explained through certain signs. (+) sign is assigned for beneficial interaction, (-) sign is assigned for harmful interaction, and (0) is assigned for neutral interaction.\nWhich of the following represents amensalism?",
+      "options": [
+        "Species A (-), Species B (0)",
+        "Species A (+), Species B (+)",
+        "Species A (-), Species B (-)",
+        "Species A (+), Species B (0)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Species A (-), Species B (0)",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "organisms-and-populations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion and Reason. Read both the statements carefully and choose the correct option.\nAssertion: Excess dose of cocaine produces a sense of euphoria, increased energy and hallucinations.\nReason: Cocaine interferes with the transport of dopamine leading to abnormalities in the brain.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for Assertion.",
+        "Assertion is true and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion and Reason. Read both the statements carefully and choose the correct option.\nAssertion: In a majority of flowering plants, the embryo sac development is called monosporic.\nReason: Embryo sac develops from one of the two megaspores formed by meiosis of megaspore mother cell.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for Assertion.",
+        "Assertion is true and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Assertion is true and Reason is false.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "sexual-reproduction-in-flowering-plants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A patient was found to have a mass of pancreatic cells in the liver producing large amounts of amylase. Further medical tests revealed a tumor in the pancreas. What type of tumour had developed in the pancreas?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Metastatic tumour"
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A research scholar isolated a novel restriction enzyme from Bacillus anthracis strain ZT4. It was the third restriction enzyme to be extracted from this specific strain. Derive the scientific name for this enzyme by applying the standard rules of biological nomenclature.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer prints as 'Ban Z III' with a space before 'Z'; possible spacing artifact from extraction (restriction-enzyme names are normally run together, e.g. 'BanZ III'), kept as printed"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Ban Z III"
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "biotechnology-principles-and-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Why do leguminous crops fertilise the soil but cereals do not?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Legumes have symbiotic association with Rhizobium bacteria which fixes the atmospheric nitrogen while cereals do not."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "microbes-in-human-welfare",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The pie chart given below represents the extent of global biodiversity of invertebrates. Which specific phylum of invertebrates does ‘B’ represent?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Pie chart (a graph/diagram of global biodiversity of invertebrates, segment 'B') on page 4 not reproduced in text layer; question cannot be answered without it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Phylum Mollusca"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "biodiversity-and-its-conservation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Construct an ecological pyramid of biomass for the following food chain:\nGrass → Deer → Fleas",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Official answer is a diagram (ecological pyramid of biomass) not reproduced in text layer; no answer text is present in the extraction"
+      ],
+      "confidence": "LOW",
+      "cognitiveLevel": "Understand",
+      "chapter": "ecosystem",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "FILL_BLANK",
+      "text": "Observe the relation between the first two words and complete the analogy.\nSigma factor : Initiation :: __________ : Termination",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Rho factor"
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A retroviral RNA undergoes reverse transcription to produce a double-stranded DNA molecule containing a six-nucleotide-long palindromic sequence. A partial segment of this double-stranded DNA is shown below:\n5′ – GGA --- – 3′\n3′ – --- --- --- – 5′\nObtain the six nucleotide long palindromic DNA sequence on the 3′ – 5′ strand of DNA.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The dashes '---' in the partial DNA sequence represent blank nucleotide positions in the printed diagram; kept as printed"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "3′ - CCTAGG - 5′"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A rural area has a population density of 150 individuals per sq. km. If the area is 250 sq. km, what will be the total population of the rural area?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Total population = 150 × 250 = 37,500"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "organisms-and-populations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xvi)(a)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Answer the following:\nExpand the abbreviation KVIC.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Khadi and Village Industries Commission"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "microbes-in-human-welfare",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xvi)(b)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Answer the following:\nAlexander Fleming had discovered an antibiotic which was later successfully purified by a team of scientists and used to save countless lives. Name the scientists who purified it and established it as a lifesaving drug.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Ernest Chain and Howard Florey"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "microbes-in-human-welfare",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xvii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "State the underlying principle of ELISA test.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Antigen antibody reaction"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xviii)(a)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason for each of the following statements:\nOur government has imposed strict conditions and regulations on Medical Termination of Pregnancy.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It prevents illegal misuse for sex-selective abortions (female foeticide)."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "reproductive-health",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xviii)(b)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason for each of the following statements:\nIn the biolistic method of gene transfer, microparticles are preferred to be made of gold rather than copper.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Gold is inert and non-toxic whereas copper is reactive and toxic."
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "biotechnology-principles-and-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The image shown below represents an ecological hypothesis proposed by Paul Ehrlich. Study it carefully and answer the following question.\nIdentify and explain this ecological hypothesis.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Image (ecological hypothesis diagram) on page 5 not reproduced in text layer; the hypothesis cannot be reliably identified from text alone"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Rivet Popper Hypothesis\nExplanation:\n• In an airplane (ecosystem), all parts are joined together using thousands of rivets (species)\n• If the passengers travelling in it start popping a rivet (causing species to become extinct), it may not affect flight safety (proper functioning of the ecosystem) initially but as more and more rivets are removed, the plane becomes weak over a period.\n• If rivets from wings are removed (important species), the flight safety (ecosystem) is affected immediately."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "biodiversity-and-its-conservation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "An alien gene was ligated by a research scholar at Sal I site of pBR322 plasmid. It affected a selectable marker.\n(i) Name the selectable marker which was affected.\n(ii) State the underlying principle due to which the selectable marker was affected.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Tetracycline resistance (TetR) gene\n(ii) Insertional inactivation"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "biotechnology-principles-and-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A scientist retrieved an embryo from the uterus of a human female just after implantation for the purpose of cloning.\n(i) Identify the specific stage of the embryonic development at which the scientist retrieved it.\n(ii) Which part of the embryo referred to in subpart (i) is most suitable for cloning?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Blastocyst\n(ii) Inner cell mass"
+      },
+      "chapter": "human-reproduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Study the following Venn diagram and answer the questions that follow.\n(i) Which contraceptive method occupies the shaded region in the given Venn diagram?\n(ii) How does Multiload – 375 function as a contraceptive agent?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Venn diagram on page 6 not reproduced in text layer; part (i) cannot be answered without it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) Intrauterine device (IUD)\n(ii) Multiload - 375 is a copper releasing IUD. Copper reduces sperm motility. / Increases phagocytosis of sperms"
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "reproductive-health",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(i)",
+      "choiceGroup": "6",
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The given pie chart shows the distribution of genotypes in a population of 9000 pea plants.\nThe population is in Hardy-Weinberg equilibrium. It is known that 360 plants are homozygous recessive (tt).\nUsing this information, calculate the following:\n(a) Frequency of the dominant allele (T)\n(b) Number of heterozygous pea plants",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Pie chart (a graph/diagram of genotype distribution) on page 7 not reproduced in text layer; the values needed for the calculation (9000 plants, 360 homozygous recessive) are given in the text"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Frequency of dominant allele (T) p = 0.8\n(b) The number of heterozygous pea plants = 2pq = 0.32 of 9000 = 2880"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "principles-of-inheritance-and-variation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(ii)",
+      "choiceGroup": "6",
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A gene normally transcribes an mRNA of 603 nucleotides, including the stop codon, which encodes a functional protein. However, during DNA replication the 150th nucleotide was deleted.\n(a) Predict how many amino acids will remain unchanged before the mutation site.\n(b) Explain how the mutation is likely to affect the resulting protein.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) First 49 amino acids will remain unchanged.\n(b) 50th amino acid and all subsequent amino acids are likely to be altered due to frame shift mutation."
+      },
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A married couple was unable to conceive for five years. Diagnostic tests showed that the wife had normal ovulatory cycles and healthy Fallopian tubes, but the husband had a low sperm count.\n(i) Suggest an assisted reproductive technique which can help the couple conceive.\n(ii) State one specific abnormality, other than low sperm count, in the husband’s sperm that would necessitate the suggested technique over standard IVF procedure.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Intracytoplasmic Sperm Injection (ICSI)\n(ii) Abnormality in male’s semen: poor sperm motility / abnormal shape of sperm"
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "reproductive-health",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(i)",
+      "choiceGroup": "8",
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Cattle excreta is an important source for producing domestic fuel.\n(a) Name the largest component of this domestic fuel.\n(b) Write the biological name of the microbe responsible for production of this domestic fuel.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Methane\n(b) Methanococcus"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "microbes-in-human-welfare",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(ii)",
+      "choiceGroup": "8",
+      "page": 8,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The flowchart provided below represents the life cycle of Plasmodium, alternating between its human host and the female Anopheles mosquito. Study the flowchart and answer the questions that follow.\n(a) Identify Stage ‘X’.\n(b) Name the toxin directly responsible for the recurring chills and fever experienced by a patient suffering from malaria.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Flowchart diagram (Plasmodium life cycle: mosquito bite, sporozoites, liver stage, Stage X, blood meal, fertilisation, sporogony) on page 8 was extracted only as isolated text labels; the connecting sequence/arrows are not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Merozoite\n(b) Haemozoin"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(i)",
+      "choiceGroup": "9",
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Draw a neat, labelled diagram of the Graafian follicle.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Official answer is a labelled diagram (Graafian follicle) not reproduced in text layer",
+        "The printed marks '[3]' and cognitive tag '(Recall)' for this question appear, due to page layout, just above the 'Question 9' heading rather than after it; marks were confirmed against the Section C total (21 = 7×3)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Diagram of Graafian follicle"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "human-reproduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(ii)",
+      "choiceGroup": "9",
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Draw a neat, labelled diagram of the L.S. of an anatropous ovule.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Official answer is a labelled diagram (L.S. of anatropous ovule) not reproduced in text layer"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Diagram of L.S. of anatropous ovule"
+      },
+      "chapter": "sexual-reproduction-in-flowering-plants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(i)",
+      "choiceGroup": "10",
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A biotechnologist successfully inserts a gene for drought tolerance into isolated somatic cells of a wheat plant. She now needs to regenerate thousands of genetically identical, pathogen-free complete plants from these modified cells.\n(a) Which technique should the biotechnologist use to develop these genetically modified cells of wheat into a complete plant?\n(b) Explain two major steps involved in this technique.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Micropropagation / Plant tissue culture\n(b) Major steps:\n• Explant is transferred to the culture medium under aseptic conditions.\n• Auxin and cytokinin induce callus formation / differentiation."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "biotechnology-principles-and-processes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(ii)",
+      "choiceGroup": "10",
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The bar graph given below shows the growth of E. coli in two different media (Medium – A and Medium – B), along with the corresponding β-galactosidase activity and the state of the lac operon in each case.\nBased on the above graph, answer the following questions:\n(a) Why is the operon switched OFF in one medium?\n(b) The lac operon is described as an example of negative regulation of gene expression. Explain the statement with reference to the role of the operator site.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Bar graph (E. coli growth, β-galactosidase activity and lac operon state in Medium A/B) on page 9 not reproduced in text layer; only the medium labels were captured, so part (a) cannot be tied to a specific medium from text alone"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) In the Medium A, only glucose is present and the inducer (lactose) is absent, so the repressor protein remains bound to the operator site, blocking RNA polymerase. Thus, the operon is switched OFF.\n(b) In the Medium B, only lactose is present. It stops the repressor protein from binding to the operator site, allowing RNA polymerase to transcribe the structural genes. The operon gets switched ON."
+      },
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "pBR322 was used in the making of genetically engineered insulin. What was the possible role played by this plasmid?\nCan this plasmid be used for gene transfer in plants? Substantiate your opinion with a reason.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Plasmid acted as a suitable vector.\n(ii) No\nReason: It lacks the T-DNA / vir gene system necessary for transferring DNA into plant cells."
+      },
+      "chapter": "biotechnology-and-its-applications",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The following graph shows seasonal variations in Net Primary Productivity at the level of the surface and 1m depth in a marshy area of India during a study.\n(i) Account for the difference in primary productivity at points ‘X’ and ‘Y’.\n(ii) The GPP of a terrestrial ecosystem is 2700 kg/m²/yr and 3/10th of its energy is used for respiration. Calculate the amount of energy available as NPP.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph (seasonal NPP variation at surface and 1 m depth, points X and Y) on page 9 not reproduced in text layer; part (i) cannot be answered without it",
+        "Notation rebuilt from the PDF layout (stacked fraction '3 x 2700' over '10' in the official answer, rebuilt inline as '(3 × 2700)/10'); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) Primary productivity decreases with decrease in temperature.\n(ii) R = (3 × 2700)/10 = 810 kg/m²/yr\nNPP = GPP – R\nNPP = 2700 – 810\nNPP = 1890 kg/m²/yr"
+      },
+      "chapter": "ecosystem",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Describe three types of natural selection, illustrating each with a suitable graph.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "The marking scheme's illustrative graphs for each type of natural selection are not reproduced in text layer; only the textual descriptions were captured"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Types of natural selection\n• Stabilising - More individuals acquire mean character value.\n• Directional - More individuals acquire value other than the mean character value.\n• Disruptive - More individuals acquire peripheral character value at both ends of the distribution curve."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "evolution",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "During an experiment, Sneha was given the following base sequence of mRNA of E. coli and asked to derive an amino acid sequence from it.\n5′ GUG GCU CAA 3′\n• She successfully derived the amino acid sequence as valine, alanine and glycine.\n• Then, she was given the amino acid sequence of arginine, serine, proline and was asked to derive the base sequence of mRNA from it.\n(i) Sneha could not derive the mRNA sequence successfully. Provide a scientific reason to explain why she could not determine it.\n(ii) Later, she observed that GCU codon changed to GCA and the amino acid was alanine in the fungal cell. Which feature of genetic code enabled it?\n(iii) Based on the sequence provided above, deduce the anticodon sequence of the tRNA and write it in the 5′ → 3′ orientation.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Due to degeneracy of codon, because one amino acid is coded by more than one codon.\n(ii) Genetic code is universal.\n(iii) Anticodon sequence 5′ UUG AGC CAC 3′"
+      },
+      "chapter": "molecular-basis-of-inheritance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Two patients A and B were admitted to a hospital. Patient A suffered from Typhoid and Patient B from Chikungunya. Upon analysis of their blood samples, it was found that their lymphocytes produced certain immunological proteins, referred to as ‘X’ and ‘Y’ respectively.\nThe table below presents some features of proteins ‘X’ and ‘Y’. Study it and answer the following questions:\nFeatures | Protein X | Protein Y\nPatient suffering from the disease | Typhoid | Chikungunya\nMode of action | Slow but long lasting | Rapid but temporary\nEffective against cancer cells | No | Yes\n(i) Identify the proteins ‘X’ and ‘Y’.\n(ii) How does protein ‘Y’ develop an immunological response in the patient suffering from Chikungunya?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table (features of proteins X and Y) flattened from a table layout in the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) X: Antibodies, Y: Interferons\n(ii) Interferons stimulate the cellular DNA to produce a series of antiviral proteins or enzymes. These enzymes bind to viral mRNA and block their protein synthesis."
+      },
+      "chapter": "human-health-and-diseases",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Marfan Syndrome is a human genetic disorder caused by a mutation in the FBN1 gene. This gene codes for fibrillin – 1, a protein that gives connective tissues strength and flexibility. People suffering from Marfan Syndrome show symptoms like dislocation of the eye lens, flat feet, unusually tall height and rupturing of aorta.\nThe following pedigree chart represents the pattern of inheritance of Marfan Syndrome in a family (Generations I, II and III).\n(i)(a) Identify the type of inheritance from the given pedigree chart.\n(i)(b) If the parents of a child are heterozygous for this particular trait, calculate the probability of the child being unaffected using a Punnett square.\n(ii) Prisha is provided with two nucleotides as shown below. Which of these nucleotides should she choose to make an ideal genetic material? Give a reason.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Pedigree chart (Marfan Syndrome inheritance, Generations I-III) on page 11 not fully reproduced in text layer; only generation/individual numbering was captured, the family-tree connecting lines are lost",
+        "Diagram of two nucleotide structures on page 11 not reproduced in text layer; part (ii) cannot be fully answered without it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i)(a) Autosomal dominant\n(i)(b) Probability of unaffected child = 25%\n(ii) Prisha should choose Nucleotide (2).\n• The 2–OH group present in the nucleotide (1) is a reactive group. It will make the genetic material unstable and easily degradable.\n• Nucleotide (2) is non-reactive."
+      },
+      "chapter": "principles-of-inheritance-and-variation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(i)",
+      "choiceGroup": "17",
+      "page": 11,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(a) Differentiate between the following based on the parameter specified below:\n(1) Leydig cells and Sertoli cells based on Location in testis\n(2) Corpus luteum and Placenta based on Endocrine function\n(b) What would happen if the zona pellucida disappears prematurely at the morula stage of human embryonic development?\n(c) Name and state the function of the middle wall of the human uterus.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer for (a) is a two-column comparison table, flattened row by row"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a)(1) Leydig cells: Located in the interstitial spaces (connective tissue) surrounding the seminiferous tubules. | Sertoli cells: Located in the seminiferous epithelium within the seminiferous tubules.\n(a)(2) Corpus luteum: Secretes progesterone | Placenta: Secretes chorionic gonadotropin, estrogen, progesterone, relaxin, hPL\n(b) Without zona pellucida, which prevents adhesion, the morula may prematurely attach to the wall of the Fallopian tube and may lead to ectopic pregnancy.\n(c) Myometrium\nIt brings about powerful contractions of the uterus during parturition."
+      },
+      "chapter": "human-reproduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(ii)",
+      "choiceGroup": "17",
+      "page": 12,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(a) For artificial hybridisation of pea plants, fresh pollens from the anther can be used, whereas preserved pollens are mandatory for wheat hybridisation. Why?\n(b) Study the table below and answer the following questions:\nFruit | Fruit and Seed formation\nX |\nY | Cells of the integument develop into an embryo\n | Ovary develops into seedless fruit by the application of phytohormones\nZ | Peduncle contributes to fruit formation\n(1) Which of these fruits exhibits polyembryony? Will its embryos exhibit genetic variation? Justify your answer with a reason.\n(2) Identify the fruit type of ‘Y’.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table (fruit X/Y/Z formation) on page 12 appears misaligned in extraction: the description that matches Fruit X in the official answer ('embryo develops from the cells of the integument by mitosis') is printed on the 'Y' row, and the 'X' row is blank in the text layer; confirm the row-to-fruit mapping against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Pea plant belongs to the Leguminosae family whose pollen can remain viable for several months and years. But pollens of wheat remain viable for only 30 minutes.\n(b)(1) Fruit X\nIt will not exhibit genetic variation.\nThis is so because the embryo develops from the cells of the integument by mitosis and not by fertilisation.\n(b)(2) ‘Y’ is a parthenocarpic fruit."
+      },
+      "chapter": "sexual-reproduction-in-flowering-plants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(i)",
+      "choiceGroup": "18",
+      "page": 12,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The graph provided below shows a classic predator-prey interaction, with predator population peaks lagging slightly behind prey population peaks.\n(a) Assume that a sudden viral disease wipes out 80% of the predator population at Year 6 (instead of the natural decline shown in the graph). Construct a new version of the above graph from Year 6 onward showing both the prey and predator curves.\n(b) Interpret the population dynamics responsible for changes in the constructed graph.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Predator-prey population graph on page 12 not reproduced in text layer; part (a) requires it",
+        "Official answer for (a) is a hand-drawn continuation of the graph; not reproduced in text layer (only fragmented axis/legend text, e.g. 'Predator Population', 'Prey Population', was extracted)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(b) • The abundant prey provides more food, allowing the predator population to recover gradually over the following years.\n• As predators recover, the prey population begins to decline, approaching a new ecological balance."
+      },
+      "chapter": "organisms-and-populations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(ii)",
+      "choiceGroup": "18",
+      "page": 13,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A population of 100 beetles is introduced into an environment with a carrying capacity of 500. The intrinsic rate of natural increase for this beetle species is 0↗0.2 per year.\n(a) Calculate the change in population size after the first year.\n(b) Using the given data, draw a population growth curve showing how the beetle population changes with time as it approaches the carrying capacity. Label the following in the graph.\n• Initial population\n• Carrying capacity\n• Phase of maximum growth rate\n• Stationary phase",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (logistic growth equation dN/dt = rN((K-N)/K), stacked in the PDF); check against the PDF",
+        "Official answer for (b) includes a hand-drawn population growth curve graph not reproduced in text layer; only the label 'Phase of maximum growth (N=k/2)' was captured"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) dN/dt = rN((K − N)/K)\ndN/dt = 0.2 × 100 × ((500 − 100)/500)\ndN/dt = 20 × 0.8 = 16\n(b) Phase of maximum growth (N=k/2)"
+      },
+      "chapter": "organisms-and-populations",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

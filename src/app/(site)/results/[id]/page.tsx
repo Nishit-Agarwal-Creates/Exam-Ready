@@ -8,7 +8,7 @@ import type { SourceType } from "@/db/schema";
 import { getAttemptResult } from "@/lib/data/attempts";
 import { canAutoGrade } from "@/lib/engine/grading";
 import { CountUp } from "@/components/motion/count-up";
-import { DEMO_LABEL, DEMO_SOURCE_LABELS, SOURCE_LABELS } from "@/lib/provenance";
+import { DEMO_SOURCE_LABELS, SOURCE_LABELS } from "@/lib/provenance";
 import { formatDuration, pct } from "@/lib/text";
 
 export const dynamic = "force-dynamic";
@@ -68,7 +68,11 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
         <span>Results</span>
       </nav>
 
-      {paper.hasDemo && <p className="demo-banner mb-6 px-4 py-3 font-bold">{DEMO_LABEL}. These results are from a paper built with demo questions.</p>}
+      {paper.hasDemo && (
+        <p className="ai-note mb-6 px-4 py-3">
+          <strong>This paper included AI practice questions.</strong> They were written by AI and have never appeared in an exam.
+        </p>
+      )}
 
       {/* Score */}
       <section className="sheet sheet-ruled py-7 pr-5 sm:py-10 sm:pr-10" aria-labelledby="score-title">

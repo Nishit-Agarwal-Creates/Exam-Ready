@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { PaperMode, QuestionType, SourceType, VerificationStatus } from "@/db/schema";
-import { DEMO_LABEL, type SourceLink } from "@/lib/provenance";
+import type { SourceLink } from "@/lib/provenance";
 import { rememberAttempt } from "@/lib/history";
 import { randomId } from "@/lib/text";
 import { Logo } from "./logo";
@@ -236,7 +236,11 @@ export function ExamRunner({ paper, questions }: { paper: ExamPaper; questions: 
                 .map(([k, v]) => `${v} ${k.toLowerCase()}`)
                 .join(", ")}
             </p>
-            {paper.hasDemo && <p className="demo-banner mt-5 px-4 py-3 text-[0.95rem] font-bold">{DEMO_LABEL}. Questions in this test are demo data.</p>}
+            {paper.hasDemo && (
+              <p className="ai-note mt-5 px-4 py-3 text-[0.95rem]">
+                <strong>Includes AI practice questions.</strong> Written by AI for practice; not from any exam.
+              </p>
+            )}
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <button type="button" className="btn btn-primary px-8 text-[1.05rem]" onClick={start}>
                 Start test
@@ -384,7 +388,7 @@ export function ExamRunner({ paper, questions }: { paper: ExamPaper; questions: 
                   <legend className="sr-only">Choose one answer</legend>
                   <div className="grid gap-2">
                     {q.options.map((o, i) => (
-                      <label key={i} className="choice text-[1.03rem]">
+                      <label key={i} className="choice exam-option fx-spring text-[1.03rem]" data-fx="ripple">
                         <input type="radio" name={`q-${q.id}`} checked={answer === String(i)} onChange={() => setAnswer(q.id, String(i))} />
                         <span>
                           <span className="font-bold">({LETTERS[i]})</span> {o}

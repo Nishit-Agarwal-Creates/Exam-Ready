@@ -1,0 +1,974 @@
+{
+  "source": {
+    "key": "isc-2027-xii-physics-specimen",
+    "title": "ISC 2027 Specimen Question Paper, Physics Paper 1 (Theory)",
+    "board": "icse",
+    "class": 12,
+    "subject": "physics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations",
+    "paperType": "SPECIMEN",
+    "examYear": 2027,
+    "session": "Specimen paper for the ISC 2027 examination",
+    "paperName": "Physics Paper 1 (Theory)",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2026/08/861-PHYSICS-SQP-AK-1.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2026/08/861-PHYSICS-SQP-AK-1.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 19,
+    "sha256": "bf6c7e72c7a194d997a795dfbb58aad9c917407baba453c10457a8e87460cb40",
+    "maxMarks": 70,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "notes": "Found on the official page https://cisce.org/specimen-question-papers-isc-class-xii-2027/. This is a SPECIMEN paper for the 2027 ISC examination (examYear=2027), not a past board exam. The single PDF contains both the question paper (11 printed pages, PDF pages 1-11) and an 'ANSWER KEY' (7 printed pages, PDF pages 12-19); answerSourceUrl is the same URL, answerSourceFile is null. Printed instructions: 'Maximum Marks: 70', 'Time Allotted: Three Hours', plus an additional fifteen minutes' reading time (not included in durationMinutes). Twenty questions in four sections: Section A (Question 1, fourteen one-mark subparts, 14 marks), Section B (Questions 2-8, seven two-mark questions, 14 marks), Section C (Questions 9-17, nine three-mark questions, 27 marks), Section D (Questions 18-20, three five-mark questions, 15 marks). 'Internal choices have been provided in two questions each in Sections B, C and D' (Q2/Q4 in B, Q9/Q10 in C, Q18/Q19 in D); these OR pairs are split into two entries sharing a choiceGroup, each carrying the full question marks (not divided), per the brief. Question 1 is printed as (A) seven MCQ subparts (i)-(vii) then (B) seven short-answer subparts (i)-(vii), each with its own printed [1] mark; to keep (number, part) unique this pack labels them '(A)(i)'..'(A)(vii)' and '(B)(i)'..'(B)(vii)' (the nesting as printed, concatenated). Every other multi-part question in Sections B/C/D (i.e. one that is NOT one half of an OR pair) prints only a single total mark value for the whole question, with no marks given for its individual (i)/(ii)/(iii)/(a)/(b) sub-parts; per the brief's rule those sub-parts are kept together as one entry (type CASE_BASED, SHORT_ANSWER or LONG_ANSWER depending on whether a shared stem/scenario/figure ties the sub-parts together) using the printed total marks. This paper prints a cognitive-level tag next to nearly every item/sub-part, using the words (Recall), (Understand), (Apply), (Analyse), (Evaluate); recorded verbatim without the parentheses as cognitiveLevel. Where a merged multi-part entry's sub-parts carry different tags, cognitiveLevel is omitted on that entry and the per-sub-part tags are listed in extractionIssues instead (the tags are kept out of the text field itself); where all sub-parts of a merged entry share the same tag, that single tag is used. The marking-scheme (answer key) formulas are frequently badly broken across lines/columns by the PDF text extraction, worst in Q8, Q9(i)/(ii), Q10(i)/(ii), Q14, Q18(i)/(ii), Q19(i)/(ii) and Q20: for these, officialAnswer keeps only the printed final results/values and any surrounding words that extracted cleanly; the multi-step equation working itself is NOT reconstructed from standard physics formulas and is dropped, each flagged 'Official answer partly missing in extraction (equation working not in the text layer); see page N' and set to LOW confidence. A small number of one-line, single split fraction/power fixes elsewhere (e.g. Q2(i)/(ii), Q4(ii), and the final result lines in Q10, Q19(i)(b)) were reflowed inline since they are unambiguous and confined to one formula, flagged 'Notation rebuilt from the PDF layout (fractions/powers); check against the PDF' with MEDIUM confidence where nothing else is wrong with that entry. Simple same-line flattened sub/superscripts (e.g. '10-17C', 'x2', 'A1/3', 'mu1') are kept exactly as printed and flagged 'Superscript/subscript flattened: ...' without necessarily lowering confidence. Q1(A)(iv)'s printed two-column match table and Q14's two-row prism table are reflowed into plain sentences preserving every value (no data lost, so hasFigure is false for those). Several questions depend on a diagram or graph that is not reproducible as text and could not be answered without it, so are set to LOW confidence with a hasFigure issue: Q1(A)(i) and Q1(A)(iii) (Figures 1/2, relative positions of points/wire), Q10(i) (Figure 4 - only 4 of the paper's own 'five other resistors' are visible in the extracted text; the fifth, R5 = 40 ohm, is recoverable only from the official answer), Q10(ii) (Figure 5, Wheatstone-bridge/meter-bridge layout), Q11 (Figure 6, direction of v relative to B), Q12 (Figure 7, needed only for sub-part (ii)), Q16 (Figure 9, three photoelectric images, only image B's photon energy is given as text), and Q18(i) (a current-vs-time graph; the period and peak current used in the official answer are read off the graph, not stated as text). Q3's official answer is itself an unreproduced circuit diagram (the extracted text shows only point labels 'P' and 'Q'); Q18(ii)(a)'s official answer is likewise a drawn one-cycle sine graph not reproduced as text; both are flagged with 'Official answer partly missing in extraction (figure/equation)'. accessedOn 2026-09-28.",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(A)(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "A point charge −Q and three points A, B and C are shown in Figure 1 below. If V is electric potential and E is electric field intensity, we can infer that:",
+      "options": [
+        "EA > EB > EC",
+        "EA < EB < EC",
+        "VA < VC < VB",
+        "VA > VC > VB"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 1 (point charge −Q and points A, B, C) on page 2 not reproduced; the relative positions of A, B and C are needed to answer this question.",
+        "Subscript flattened: EA, EB, EC, VA, VB, VC"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(c) VA < VC < VB",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "electrostatic-potential-potential-energy-and-capacitance",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "Select the odd one out from the following options.",
+      "options": [
+        "Iron",
+        "Nickel",
+        "Cobalt",
+        "Platinum"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) Platinum",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "magnetism-and-matter",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "In Figure 2 below, CD is an infinitely long and straight metallic wire carrying a current I. Point P is at a perpendicular distance r from it. Which combination of I and r gives maximum magnetic field at point P, pointing into the plane of the paper?",
+      "options": [
+        "I = 4A towards C, with r = 0·500 m",
+        "I = 4A towards D, with r = 0·250 m",
+        "I = 8A towards C, with r = 0·125 m",
+        "I = 8A towards C, with r = 0·050 m"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 2 (wire CD and point P) on page 2 not reproduced; needed to confirm the geometry referred to in the options."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(d) I = 8A towards C, with r = 0·050 m",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "moving-charges-and-magnetism",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(iv)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "Match the entries in Column I with those in Column II.\nColumn I: 1. Planck 2. Einstein 3. Bohr 4. de Broglie\nColumn II: A. Hydrogen spectrum B. Wave nature of particles C. Quantum theory D. Mass energy relation",
+      "options": [
+        "1-C, 2-D, 3-A, 4-B",
+        "1-B, 2-D, 3-C, 4-A",
+        "1-C, 2-A, 3-B, 4-D",
+        "1-A, 2-B, 3-D, 4-C"
+      ],
+      "extractionIssues": [
+        "Printed as a two-column match table; reflowed into plain text with all entries preserved."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) 1-C, 2-D, 3-A, 4-B",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(v)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "Identify the phenomena that occur when a P-N junction diode is forward biased.\n(P) The width of the depletion layer decreases.\n(Q) The height of the potential barrier is lowered.\n(R) The effective resistance of the diode increases significantly.\n(S) The reverse current flows mainly due to the diffusion of majority charge carriers.",
+      "options": [
+        "Both (P) and (Q)",
+        "Both (R) and (S)",
+        "Both (P) and (S)",
+        "Both (Q) and (R)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both (P) and (Q)",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(vi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "In an astronomical telescope of refracting type,",
+      "options": [
+        "Objective lens has smaller focal length, and eyepiece lens has greater focal length.",
+        "Objective lens has greater focal length, and eyepiece lens has smaller focal length.",
+        "Both objective lens and eyepiece lens have large focal length.",
+        "Both objective lens and eyepiece lens have small focal length."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Objective lens has greater focal length, and eyepiece lens has smaller focal length.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "ray-optics-and-optical-instruments",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(vii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked, Assertion and Reason. Read the two statements and choose the correct option.\nAssertion: The focal length of a convex mirror will increase, if the mirror is placed in water.\nReason: The focal length of a convex mirror is equal to half its radius of curvature.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for Assertion.",
+        "Assertion is true and Reason is false.",
+        "Assertion is false and Reason is true."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) Assertion is false and Reason is true.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "ray-optics-and-optical-instruments",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(i)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "SHORT_ANSWER",
+      "text": "Two point charges Q1 and Q2, separated by a distance, are such that there is no neutral point (where electric field is zero) in their vicinity. What is the relation between Q1 and Q2?",
+      "extractionIssues": [
+        "Subscript flattened: Q1, Q2"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Q2 = −Q1 Or Q1 and Q2 form an electric dipole."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "electric-charges-and-fields",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(ii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "SHORT_ANSWER",
+      "text": "Compare resistance of an ideal voltmeter with that of an ideal ammeter.",
+      "extractionIssues": [
+        "Subscript flattened: Rv, Ra"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Rv = ∞ and Ra = 0. Voltmeter has a very high resistance while an ammeter has a very low resistance."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "current-electricity",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(iii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "SHORT_ANSWER",
+      "text": "How can the focal length of a given convex lens be measured in Physics laboratory using only a metre scale?",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The focal length of a convex lens can be measured using only a metre scale through the Distant Object Method. This method relies on focusing light rays from a very distant source onto a surface to find the lens's focal point."
+      },
+      "chapter": "ray-optics-and-optical-instruments",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(iv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "SHORT_ANSWER",
+      "text": "What is the difference between a moving metallic ball colliding with another ball in motion and a photon colliding with an electron?",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "When a photon collides with an electron, it loses either its entire energy or none at all, whereas a moving ball can lose any fraction of its energy."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(v)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "SHORT_ANSWER",
+      "text": "When can a gamma ray photon produce a proton and an antiproton pair?",
+      "extractionIssues": [
+        "Superscript/subscript flattened: 2(mp)c2"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The gamma ray photon should have the minimum energy of 2(mp)c2. Or The gamma ray photon should have the Combined Minimum Energy E = 938·3 + 938·3 = 1876·6MeV."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(vi)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "SHORT_ANSWER",
+      "text": "Explain why resistance of a semiconductor material decreases when its temperature is increased.",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "As temperature rises, large number of electrons break their covalent bonds and cross the forbidden band gap into the conduction band. Thus, there are large number of free electrons in the conduction band which result in reduction in resistance."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(vii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "FILL_BLANK",
+      "text": "Fill in the blank with an appropriate term from the bracket.\nWhen a light wave travels from one medium to another, its ________ (amplitude, wavelength, frequency, speed) remains unaltered.",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Frequency"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "wave-optics",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)",
+      "choiceGroup": "2",
+      "page": 4,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "type": "NUMERICAL",
+      "text": "A negatively charged thundercloud above the earth's surface may be perceived as a parallel plate capacitor. The lower plate of the capacitor is the Earth's surface, and the upper plate is the base of the thundercloud. The area of the base of the thundercloud = 4·5 × 108m2, distance of thundercloud base from the earth's surface = 4425m. Calculate the capacitance of this capacitor.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 3 (thundercloud/capacitor illustration) on page 4 not reproduced; not essential since the needed values are given in the text.",
+        "Superscript flattened: 108 (area exponent, m2)",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "C = ε0A/d = (8·85×10−12×4·5×108)/4425 = 0·009×10−4 = 9×10−7 F"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "electrostatic-potential-potential-energy-and-capacitance",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(ii)",
+      "choiceGroup": "2",
+      "page": 4,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "type": "NUMERICAL",
+      "text": "A tiny bird carrying a charge of q = 8 × 10-17C dives vertically down towards a large positively charged metallic plate kept on a table in a horizontal position. What should be the surface charge density (σ) of the plate so that the bird stops in its flight, close to the plate? (Mass of the bird = 50g)",
+      "extractionIssues": [
+        "Superscript flattened: 10-17",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "qE = mg, where E = σ/2ε0. So σ = 2mgε0/q = (2×50×10−3×9·8×8·85×10−12)/(8×10−17) = 10·8×104 V m-1"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "electric-charges-and-fields",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "Draw a labelled diagram of an arrangement used in Physics laboratory to compare emfs of two given cells X and Y.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation): the marking scheme shows only point labels 'P' and 'Q' from a comparison-of-emf potentiometer circuit diagram on page 13, not reproduced."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "P    Q"
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "current-electricity",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(i)",
+      "choiceGroup": "4",
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "According to Ohm's law, V = IR, so if potential difference (V) between the two ends of a conductor is varied, will its resistance (R) change? Explain your answer in brief.",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "No, resistance R of a conductor is constant. Its value does not depend on V or I."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "current-electricity",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(ii)",
+      "choiceGroup": "4",
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "Heating power developed in a resistor R is given by P = V²/R. It implies that power P ∝ 1/R i.e., power varies inversely with R. Heating power developed in a resistor R is also given by P = I²R. It implies that power P ∝ R i.e., power varies directly with R. Under what conditions, are the above-mentioned statements valid?",
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "P ∝ 1/R when V is constant i.e. when resistors are connected in parallel. P ∝ R when I is constant i.e., when resistors are connected in series."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "current-electricity",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "Explain why a blue coloured spark appears in a switch contact when a circuit containing a load like a heater, geyser or an electric iron is switched off.",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "This is due to a large induced emf which produces an electric discharge through air. Ionised air molecules emit light when they return to ground state from their excited states."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "electromagnetic-induction",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "There are seven types of electromagnetic waves having different frequency ranges. Arrange them in the increasing order of their frequencies.",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The correct arrangement of the seven electromagnetic waves in increasing order of their frequencies (from lowest to highest frequency) is: 1. Radio Waves (Lowest frequency) 2. Microwaves 3. Infrared Waves 4. Visible Light 5. Ultraviolet (UV) Rays 6. X-rays 7. Gamma Rays (Highest frequency)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "electromagnetic-waves",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "(i) Why the current flowing is extremely small during reverse biasing of a junction diode?\n(ii) Extrinsic semiconductors are neither good nor bad conductors of electricity. Why are they still considered useful?",
+      "extractionIssues": [
+        "Marks for Question 7 are printed only as a single total [2] for the whole question, not per sub-part (i)/(ii); kept as one entry per the brief."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) The current flowing through the diode during reverse bias is extremely small because it is entirely due to minority charge carriers, which are much smaller in number (in comparison with number of majority carriers).\n(ii) Extrinsic semiconductors are highly useful because their electrical conductivity can be precisely controlled, tuned, and manipulated by altering the concentration of dopant atoms (impurities) added to the crystal.\nOr\nElectronic devices like diodes, transistors, solar cells etc. can be made out of extrinsic semiconductors, which have many applications in electronic gadgets."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "Two particles A and B of masses mA and mB have de Broglie wavelength λA and λB. If λA = 2 λB, compare their kinetic energies.",
+      "extractionIssues": [
+        "Subscript flattened: mA, mB, λA, λB",
+        "Official answer partly missing in extraction (equation working not in the text layer); see page 14"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Given: λA = 2λB\n(KE)A : (KE)B = mB : 4mA"
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(i)",
+      "choiceGroup": "9",
+      "page": 5,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "Obtain an expression of intensity of electric field at a point lying on the axis of an electric dipole.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Official answer includes a diagram (dipole axis labelled with A, C, B, P, r, l) on page 15 not reproduced.",
+        "Official answer partly missing in extraction (equation working not in the text layer); see page 15"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "This is the required expression."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "electric-charges-and-fields",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(ii)",
+      "choiceGroup": "9",
+      "page": 6,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "An electric dipole is kept in a uniform electric field E with its axis making an angle θ with the field. Show forces acting on each charge and hence prove that torque acting is given by τ = pE sinθ",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Official answer includes a diagram (dipole with forces F = qE marked at each charge) on page 15 not reproduced.",
+        "Official answer partly missing in extraction (equation working not in the text layer); see page 15"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "F = qE\nτ = pE sinθ (where p = qL)\nThis is the required expression."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "electric-charges-and-fields",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(i)",
+      "choiceGroup": "10",
+      "page": 6,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "NUMERICAL",
+      "text": "Three identical cells each of emf 1·5V and internal resistance of 2Ω are connected in series to form a battery B. This battery is connected to an ammeter A (of negligible resistance) and five other resistors as shown in Figure 4 below. Calculate the reading of the ammeter A.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 4 (resistor network) on page 6 not reproduced; only four of the five resistor values are visible in the extracted text (R1=10Ω, R2=120Ω, R3=14Ω, R4=30Ω) — R5's value (40Ω, used in the official answer) is not present in the question's extracted text.",
+        "Official answer partly missing in extraction (equation working not in the text layer); see pages 15-16"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "R4, R5 and R2 are in parallel. Their equivalent resistance R6 = 15Ω. Now, R1, R6 and R3 are in series. R = 10 + 15 + 14 = 39Ω. Reading of ammeter = 0·1A."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "current-electricity",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(ii)",
+      "choiceGroup": "10",
+      "page": 6,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "NUMERICAL",
+      "text": "In the circuit shown in Figure 5 below, the central zero galvanometer G shows no deflection when the key K is closed. Calculate the value of resistor R1.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 5 (Wheatstone-bridge/meter-bridge circuit) on page 6 not reproduced in full; component positions (R1, R2=12Ω, R3=24Ω, a 2V cell, key K, galvanometer G, and a 0-100cm bridge wire with the jockey at 60cm) are only partly recoverable from the extracted text.",
+        "Official answer partly missing in extraction (equation working not in the text layer); see page 16"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "R2 and R3 are in parallel. Their equivalent resistance R4 = 8Ω. It is a balanced Wheatstone bridge. R1 = 12Ω."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "current-electricity",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "CASE_BASED",
+      "text": "An alpha particle is moving with a velocity v. It enters a uniform magnetic field (B) as shown below. The magnetic field is perpendicular and into the plane of the paper. A uniform electric field is applied in the same region as the magnetic field so that the alpha particle passes undeviated through the combined fields.\n(i) What should be the direction of the electric field?\n(ii) Without any change in the electric and magnetic field, the alpha particle is replaced by a proton moving with a velocity v. Will there be any change in the path of the particle? Give a reason for your answer.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 6 (velocity-selector diagram showing the direction of v relative to B) on page 7 not reproduced; the exact geometry needed to answer part (i) is not in the extracted text.",
+        "Vector-arrow glyphs over E and B did not extract cleanly (rendered as stray characters in the marking scheme); reconstructed as plain E, B.",
+        "Cognitive-level tags printed per sub-part: (i) Analyse, (ii) Evaluate — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) The electric field should be in the plane of the paper, pointing vertically downwards.\n(ii) Since the alpha particle travels undeviated, the magnetic force equals the electric force: Bqv = qE, so v = E/B. Since protons also obey the same relation (same v, same E and same B), they will also travel undeviated."
+      },
+      "chapter": "moving-charges-and-magnetism",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "(i) State any one difference between the nature of magnetic field inside a current carrying solenoid and that along the axis of a current carrying circular coil.\n(ii) A current is passed through a circular coil A in a clockwise direction, as shown in Figure 7. B is another circular coil which does not carry any current. However, when it is moved towards the coil A, current is induced in it. What is the direction of this induced current?\n(iii) Why is steel preferred to soft iron in making permanent magnets.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 7 (coils A and B with an observer O) on page 7 not reproduced; needed to determine the geometric orientation for part (ii).",
+        "Cognitive-level tags printed per sub-part: (i) Recall, (ii) Analyse, (iii) Recall — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) Magnetic field inside a solenoid is uniform whereas magnetic field along the axis of a circular coil is non-uniform.\n(ii) In anticlockwise direction (according to Lenz's law).\n(iii) It has a large coercive force i.e. it is more difficult to demagnetise steel than iron."
+      },
+      "chapter": "moving-charges-and-magnetism",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "CASE_BASED",
+      "text": "A physics teacher drew a ray diagram on the board as shown below and asked the following questions to the students. State whether the answer of the student is correct or incorrect. Correct the incorrect response with an explanation in brief.\n(i) Teacher: There is a point P on the screen where the path difference between two interfering light waves is exactly 1·2 × 10-6 m. If the light emitted by the source has a wavelength of 600 nm, can anyone tell me whether a bright or a dark fringe will form at the point P?\nStudent: Dark fringe will be obtained.\n(ii) Teacher: Two students performed the same Young's double slit experiment. One student obtained wider fringes. What is the possible reason for this observation?\nStudent: The student who obtained wider fringes must have increased the distance between the two slits.\n(iii) Teacher: If one of the slits is closed with a finger while performing the experiment, what change will be noticed on the screen?\nStudent: The screen will get illuminated uniformly.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 8 (ray diagram) on page 8 not reproduced (illustrative; the numeric values needed for part (i) are given in the text).",
+        "Superscript flattened: 10-6"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) Incorrect, bright fringe (since path difference = 2λ)\n(ii) Incorrect, because the slit separation should have been decreased.\n(iii) Incorrect, diffraction pattern is seen on the screen."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "wave-optics",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "A student uses two prisms, A and B, made of different materials but having the same prism angle (60°). Prism A: Minimum Deviation 34°. Prism B: Minimum Deviation 47°.\n(i) Calculate the refractive index of the material of prism A.\n(ii) 'Since prism B has larger minimum deviation, the student claims it must also have the greater dispersive power.' Is this statement always correct? Justify your answer.",
+      "extractionIssues": [
+        "Printed as a two-row table (Prism / Minimum Deviation); reflowed into plain text with both values preserved.",
+        "Cognitive-level tags printed per sub-part: (i) Apply, (ii) Evaluate — not captured in a single cognitiveLevel field because they differ per sub-part.",
+        "Official answer partly missing in extraction (equation working not in the text layer); see page 17"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) n = 1·47\n(ii) The student's statement is not always correct. A larger minimum deviation indicates a higher mean refractive index, whereas dispersive power depends on the difference in refractive indices for violet and red light."
+      },
+      "chapter": "ray-optics-and-optical-instruments",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "(i) An equiconvex lens forms a full size magnified image of a candle flame on a screen. How will this image change, if at all, when the lens is cut horizontally into two equal parts and only one of them is used? Explain.\n(ii) State what happens to magnifying power of a simple microscope if its focal length is decreased.",
+      "extractionIssues": [
+        "Cognitive-level tags printed per sub-part: (i) Analyse, (ii) Recall — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) The nature, size, and position of the image will not change at all, but the brightness (intensity) of the image will be reduced to half because there is no change in focal length and same object and image distances.\n(ii) Magnifying power increases when the focal length is decreased."
+      },
+      "chapter": "ray-optics-and-optical-instruments",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "CASE_BASED",
+      "text": "Study the images shown in Figure 9 below given below carefully and answer the questions that follow. (All three surfaces have same work function = 2·3eV)\n(i) Why are no photoelectrons emitted in image 'A'?\n(ii) Which image corresponds to the highest stopping potential?\n(iii) If the photon energy in image B = 2·8 eV, calculate the maximum kinetic energy of the emitted photo electrons.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 9 (three images A, B, C showing incident photon energies/currents for a photoelectric-effect setup) on page 9 not reproduced; parts (i) and (ii) cannot be answered from the extracted text alone (only image B's photon energy, 2·8 eV, is given in text).",
+        "Cognitive-level tags printed per sub-part: (i) Analyse, (ii) Recall, (iii) Apply — not captured in a single cognitiveLevel field because they differ per sub-part."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) No photoelectrons are emitted because the energy of the incident photons is less than the work function of the material. For photoelectric emission to take place, the incident photon energy must be greater than or equal to the threshold work function.\n(ii) C\n(iii) Using Einstein's photoelectric equation: Kmax = E − φ = 2·8 − 2·3 = 0·5eV. The maximum kinetic energy of the emitted photoelectrons in image B is 0·5 eV."
+      },
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "(i) What is a solar cell?\n(ii) Explain its working in brief.\n(iii) In an energy band diagram of a certain material, forbidden band is absent. Identify the material.",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) A solar cell (also known as a photovoltaic cell) is a semiconductor p-n junction diode that directly converts solar energy (light energy) into electrical energy.\n(ii) The incoming photons break covalent bonds near the junction, generating free electron-hole pairs. This build-up of charges creates a voltage difference (electromotive force). When an external load or circuit is connected, a direct electric current begins to flow.\n(iii) Metal"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(i)",
+      "choiceGroup": "18",
+      "page": 9,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "type": "CASE_BASED",
+      "text": "(a) The graph below shows variation of current (I) flowing through an electrical device with time (t), when an ac source e = 240sin(ωt) V is connected to it.\n(1) Identify the device. (resistor, capacitor or an inductor)\n(2) Calculate the frequency of the current flowing through the device.\n(3) How much is the opposition offered by this device?\n(b) A train is moving on horizontal tracks that are 1·2m apart. Its displacement (x) depends on time (t) as x(m) = 3t2 + 6. Vertical component of earth's magnetic field in its region of motion is 2 × 10-5 T. Calculate the emf induced between two ends of its axle rod 10s after the train starts moving.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph on page 9 (current vs time waveform, gridlines at ±6, ±12 A and 20-160 ms) not reproduced; the values needed to answer (2) and (3) — period and peak current — are only visible in the graph, not stated as text.",
+        "Superscript flattened: 3t2, 10-5",
+        "Cognitive-level tags printed per sub-part: (a)(1) Recall, (a)(2) Apply, (a)(3) Apply, (b) Apply — not captured in a single cognitiveLevel field because they differ per sub-part.",
+        "Official answer partly missing in extraction (equation working not in the text layer for (2) and (3)); see pages 17-18"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) (1) Capacitor (current is leading over applied emf by 90°)\n(2) f = 12·5 Hz\n(3) Xc = 40Ω\n(b) x = 3t2 + 6, so dx/dt = 6t, v = 6t. After 10s, v = 6×10 = 60 ms-1. E = BLv = 2×10-5×1·2×60 = 1·44×10-3 V"
+      },
+      "chapter": "alternating-current",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(ii)",
+      "choiceGroup": "18",
+      "page": 10,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "type": "CASE_BASED",
+      "text": "An ac generator generating an emf e = 300 sin (100πt)V is connected to a 100Ω resistor.\n(a) Draw a labelled graph of current (I) flowing through it versus time (t). Draw one cycle only.\n(b) Calculate the average power consumed by the resistor.\n(c) Why ac is preferred to dc, though it has varying values whereas the latter has a fixed value?\n(d) State any one difference between a transformer used at the power generating station and the transformer in a city which is used to supply power to households.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation): the marking scheme's graph for part (a) (one cycle of a 3A-amplitude sine wave) is not reproduced as text.",
+        "Cognitive-level tags printed per sub-part: (a) Recall, (b) Apply, (c) Understand, (d) Recall — not captured in a single cognitiveLevel field because they differ per sub-part.",
+        "Official answer partly missing in extraction (equation working not in the text layer for (a) and (b)); see page 18"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) i0 = 3·00A. 2πf = 100π, so f = 50Hz, T = 0·02Hz [as printed]. [Graph of one cycle of the sinusoidal current — not reproduced.]\n(b) <P> = 450W\n(c) Because ac can be stepped up or down with the help of a transformer whereas dc cannot be stepped up or down.\n(d) The former is a step up transformer whereas the latter is a step down transformer."
+      },
+      "chapter": "alternating-current",
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(i)",
+      "choiceGroup": "19",
+      "page": 10,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "type": "LONG_ANSWER",
+      "text": "(a) Write Bohr's equations for circular motion of an electron around the nucleus and conservation of angular momentum. Using them, obtain an expression for orbital velocity of an electron.\n(b) Prove that 1u = 931·5 MeV where the terms have their usual meaning.",
+      "extractionIssues": [
+        "Part (a)'s derivation in the marking scheme was heavily reordered across lines/columns and could not be safely read back in order.",
+        "Official answer partly missing in extraction (equation working not in the text layer for part (a)); see page 18"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) v = Ze²/(2ε0nh)\n(b) 1u = 1·66×10-27 kg. c = 3×108 m/s. E = mc² = 1·66×10-27×(3×108)² = 14·929×10-11 J. E = 14·929×10-11/1·6×10-19 = 9·315×108 eV = 931·5 MeV."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "atoms",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(ii)",
+      "choiceGroup": "19",
+      "page": 10,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "type": "LONG_ANSWER",
+      "text": "(a) Assuming that nuclei are spherical in shape, whose radius R is given by R = R0A1/3 where R0 is a constant, show that the nuclear density (i.e. density of nuclear matter) is independent of mass number (A) of the nucleus / atom.\n(b) What are isotones?\n(c) Name the series of lines in hydrogen spectrum which lies in (1) Visible region (2) UV region",
+      "extractionIssues": [
+        "Superscript flattened: R0A1/3",
+        "Cognitive-level tags printed per sub-part: (a) Apply, (b) Recall, (c) Recall — not captured in a single cognitiveLevel field because they differ per sub-part.",
+        "Official answer partly missing in extraction (equation working not in the text layer for part (a)'s density derivation and final result); see page 19"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) R = R0A1/3, where R0 = constant, A = mass number of the nucleus. Nuclear matter density, ρ = mass of the nucleus / volume of the nucleus. Let m be the average mass of the nucleon. Hence, mass of the nucleus = mA.\n(b) Isotones are atoms or nuclei that have the same number of neutrons (N) but different numbers of protons (Z)\n(c) (1) Balmer series lies in the visible region. (2) The Lyman series lies in the ultraviolet (UV) region."
+      },
+      "chapter": "nuclei",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "type": "CASE_BASED",
+      "text": "An innovative optical sensor system for a miniature drone incorporates a combination of various optical elements. A beam of light from an LED source first passes through a convex spherical refracting surface (radius of curvature R = 20 cm) separating air μ1= 1·0 from a glass medium of refractive index μ2= 1·5. The light then enters a thin biconvex lens of focal length 10 cm. Finally, the beam strikes a concave spherical mirror of radius of curvature 30 cm, which acts as a collector, focusing the rays onto a photodetector (optical instrument application) to measure light intensity.\n(i) If the drone operates in a highly humid or misty environment where a film of water completely coats the lens surfaces, how will the refractive power of this lens change?\n(ii) A point object is placed in air at a distance of 60 cm in front of the convex spherical refracting surface. What is the position of the image formed by this surface?\n(iii) If this setup is to be modified to function as a reflecting astronomical telescope, what roles would be played by the mirror and the lens?\n(iv) Which mirror collects light from a distant object most efficiently?",
+      "extractionIssues": [
+        "Subscript flattened: μ1, μ2",
+        "Cognitive-level tags printed per sub-part: (i) Apply, (ii) Understand, (iii) Understand, (iv) Recall — not captured in a single cognitiveLevel field because they differ per sub-part.",
+        "Official answer partly missing in extraction (equation working not in the text layer for part (ii)); see page 19"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) The refractive power of the lens will decrease (focal length will increase).\n(ii) v = +180 cm. The image is formed at a distance of 180cm inside the denser medium (glass), measured from the pole of the refracting surface.\n(iii) Objective: The concave spherical mirror must act as the objective. Eyepiece: The thin biconvex lens must act as the eyepiece.\n(iv) A parabolic mirror."
+      },
+      "chapter": "ray-optics-and-optical-instruments",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

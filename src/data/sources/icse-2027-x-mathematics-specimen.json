@@ -1,0 +1,1068 @@
+{
+  "source": {
+    "key": "icse-2027-x-mathematics-specimen",
+    "title": "ICSE 2027 Examination, Specimen Question Paper, Mathematics",
+    "board": "icse",
+    "class": 10,
+    "subject": "mathematics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations",
+    "paperType": "SPECIMEN",
+    "examYear": 2027,
+    "session": null,
+    "paperName": "Mathematics",
+    "paperCode": "T27 511",
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2026/07/ICSE-2027-SPECIMEN-511-MATHEMATICS-QP-MS-1.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2026/07/ICSE-2027-SPECIMEN-511-MATHEMATICS-QP-MS-1.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 24,
+    "sha256": "a3f747873745c06bc784db13865b4dd91e59f27812092092d2485bce3a3c9ff6",
+    "maxMarks": 80,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "accessedOn": "2026-09-28",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "notes": "Single PDF combines the question paper (printed pages '1 of 14'-'14 of 14' = physical PDF pages 1-14) and a 'DRAFT MARKING SCHEME - MATHEMATICS' (printed 'Page 1 of 10'-'Page 10 of 10' = physical PDF pages 15-24); 'page' below is the physical PDF page of the English question text. Found via https://cisce.org/specimen-question-papers-icse-class-x-2027/ (specimen for the ICSE 2027 examination; examYear=2027 accordingly). Paper prints 'Maximum Marks: 80', 'Time allowed: Three hours', and instruction 'Attempt all questions from Section A and any four questions from Section B.' Section A (40 marks, compulsory) = Q1 (15 objective sub-parts, 1 mark each, MCQ/assertion-reason, split as number '1' part '(i)'.. '(xv)') + Q2 (3 sub-parts, 4 marks each) + Q3 (3 sub-parts: 4, 4, 5 marks). Section B (40 marks) offers Questions 4-10, each worth 10 marks split 3+3+4 across its (i)/(ii)/(iii) sub-parts, candidate attempts any 4 of the 7; the paper prints NO 'OR' alternatives anywhere (no internal-choice pairs), so choiceGroup is null throughout and each (i)/(ii)/(iii) sub-part is its own entry (they are on unrelated syllabus topics and are marked separately); the (a)/(b)/(c) items inside a sub-part are kept together in one entry's text because they share one scenario/date set and cannot be answered stand-alone. Cognitive-level tags printed in the margin (e.g. '[Application]', '[Understanding & Evaluation]') were extracted as floating text and re-attached to their sub-part by position/adjacency in the layout- and raw-mode text; two sub-parts (Q5(iii) and, arguably, one occurrence for Q10(ii)) had no tag reliably attributable and are left without a cognitiveLevel field. IMPORTANT EXTRACTION DEFECT: the PDF's equation-editor text uses a broken font/CMap - italic single-letter variables (x, p, a, b, r, n, y, z, v, w, theta) are simply doubled (each glyph drawn/mapped twice) and were safely de-duplicated, but multi-letter runs (trigonometric function names sin/cos/tan/cot/sec, and ordinary prose words typed via the same equation fields, e.g. 'Interest', 'Slope', 'radius') collapse so that EVERY letter in the run maps to the SAME repeated Unicode character - the actual letters are not recoverable from the text layer at all. Where this affects a value-bearing term (chiefly the trig identity in Q4(iii) and the assertion/reason in Q1(xiii)) the function names were inferred purely from mathematical necessity (the stated identity/result being true) and flagged LOW confidence; where it only affected connective prose in the marking scheme, the wording was reconstructed conservatively from context (flagged MEDIUM) or trimmed with '...'. Matrix questions (Q1(vii), Q4(ii)) print matrix brackets as undecodable glyphs in the text layer; both were reconstructed as row/column notation and cross-checked against the marking scheme's own arithmetic, which matched exactly, but are still flagged MEDIUM per the notation rule. The paper itself prints 'A finite Geometric Proportion (G.P.) series' in Q10(i) (apparently a paper typo for 'Progression'); reproduced verbatim, not corrected. Figures/graphs referenced as 'given figure/diagram' are not reproduced anywhere; question text for such items is otherwise reproduced in full. Two constructions (Q6(iii)) and the ogive/histogram graph questions (Q9(i), Q10(iii)) have marking-scheme content that is itself a hand-drawn diagram/graph in the PDF and did not extract as text; officialAnswer is omitted or trimmed to the one line of text that did extract, as noted per question."
+  },
+  "questions": [
+    {
+      "part": "(i)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark by standard ICSE MCQ convention."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "A customer pays a total GST of ₹ 600 on an article in an intra-state sale, and the tax rate is 12%. The price of the article is:",
+      "options": [
+        "₹ 2,000",
+        "₹ 3,000",
+        "₹ 5,000",
+        "₹ 7,200"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) ₹ 5000",
+        "correctOption": 2
+      },
+      "chapter": "goods-and-services-tax",
+      "cognitiveLevel": "Understanding & Evaluation"
+    },
+    {
+      "part": "(ii)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark by standard ICSE MCQ convention.",
+        "Options (a)/(b) rephrased from the printed '(A) is true and (R) is false.' to 'Assertion (A) is true and Reason (R) is false.' only to avoid an ambiguous leading '(A)' label; meaning unchanged."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): In a recurring deposit account, a man deposits ₹ 1000 per month for 1 year. On maturity he receives ₹ 13500. The amount of interest he earns is ₹1500.\nReason (R): Interest earned = Maturity value − Total amount deposited.",
+      "options": [
+        "Assertion (A) is true and Reason (R) is false.",
+        "Assertion (A) is false and Reason (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation for (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation for (A)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Both (A) and (R) are true and (R) is the correct explanation for (A).",
+        "correctOption": 2
+      },
+      "chapter": "banking",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "part": "(iii)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark by standard ICSE MCQ convention."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "A man buys 50, ₹ 100 shares of a company at ₹ 125 paying 6% dividend per annum. At the end of the year, the company will pay a total dividend on:",
+      "options": [
+        "₹ 100",
+        "₹ 125",
+        "₹ 5000",
+        "₹ 6250"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) ₹ 5000",
+        "correctOption": 2
+      },
+      "chapter": "shares-and-dividends",
+      "cognitiveLevel": "Understanding & Analysis"
+    },
+    {
+      "part": "(iv)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened in the text layer (x2, p2 printed without superscript formatting); rebuilt inline as x², p²."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "If the roots of the quadratic equation x² − 8x + p² = 0 are equal, then the positive value of p is:",
+      "options": [
+        "16",
+        "8",
+        "4",
+        "2"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) 4",
+        "correctOption": 2
+      },
+      "chapter": "quadratic-equations",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "part": "(v)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark by standard ICSE MCQ convention."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "12, 18 and x are in continued proportion. The value of x is:",
+      "options": [
+        "24",
+        "27",
+        "30",
+        "36"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) 27",
+        "correctOption": 1
+      },
+      "chapter": "ratio-and-proportion",
+      "cognitiveLevel": "Understanding & Evaluation"
+    },
+    {
+      "part": "(vi)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened in the text layer (x3, x2); rebuilt inline as x³, x²."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "(x + 2) and (x + 3) are the factors of x³ + 4x² + x − 6. The third factor of the given polynomial is:",
+      "options": [
+        "(x − 1)",
+        "(x − 4)",
+        "(x + 1)",
+        "(x + 4)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) (x − 1)",
+        "correctOption": 0
+      },
+      "chapter": "factorisation",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "part": "(vii)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Matrix brackets did not extract as text (rendered as undecodable glyphs in the PDF); matrices reconstructed as row/column notation. Reconstruction cross-checked against the marking scheme's arithmetic (A×B = (−1)(3)+(2)(4) = 5), which matches exactly."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "Given two matrices A and B, where A = [−1  2] (a 1×2 matrix) and B = [3; 4] (a 2×1 matrix, top-to-bottom 3 then 4), then product AB is:",
+      "options": [
+        "[−3; 8] (2×1 matrix, top-to-bottom −3 then 8)",
+        "5",
+        "[5]",
+        "[−3  8]"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) [5]",
+        "correctOption": 2
+      },
+      "chapter": "matrices",
+      "cognitiveLevel": "Understanding & Evaluation"
+    },
+    {
+      "part": "(viii)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscript flattened in the text layer (2n printed without superscript formatting); rebuilt inline as 2ⁿ."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "If the nth term of a Geometric Progression (G.P.) is given by 5 × 2ⁿ then the common ratio is:",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "20"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 2",
+        "correctOption": 0
+      },
+      "chapter": "geometric-progression",
+      "cognitiveLevel": "Analysis & Application"
+    },
+    {
+      "part": "(ix)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "The line y = 2x passes through which pair of coordinates?",
+      "options": [
+        "(0, 0) and (2, 2)",
+        "(0, 2) and (2, 4)",
+        "(1, 2) and (-1, -2)",
+        "(2, 2) and (-2, -2)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) (1, 2) and (- 1, - 2)",
+        "correctOption": 2
+      },
+      "chapter": "equation-of-a-line",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "part": "(x)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened in the text layer (km2 printed without superscript formatting); rebuilt inline as km²."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "On a map of scale 1 : 50,000, a rectangular plot has sides 4 cm by 3 cm. The actual area of the plot on ground is:",
+      "options": [
+        "3 km²",
+        "9 km²",
+        "12 km²",
+        "16 km²"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 3 km²",
+        "correctOption": 0
+      },
+      "chapter": "similarity",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "part": "(xi)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (circle, centre O, tangents PA and PB) not reproduced; not essential to solve (radius and right angle between tangents are stated in the text).",
+        "Option (a) is a stacked fraction in the PDF layout (3 over cm over √2); rebuilt inline as 3/√2 cm."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "In the given diagram, the radius of the circle with centre O is 3 cm. PA and PB are the tangents to the circle which are at right angle to each other. The length of OP is:",
+      "options": [
+        "3/√2 cm",
+        "3 cm",
+        "3√2 cm",
+        "6√2 cm"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) 3√2 cm",
+        "correctOption": 2
+      },
+      "chapter": "circles",
+      "cognitiveLevel": "Analysis & Evaluation"
+    },
+    {
+      "part": "(xii)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened in the text layer (m3, m2); rebuilt inline as m³, m²."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "A conical tent with a capacity of 616 m³ has a base area 154 m². The height of the tent is:",
+      "options": [
+        "3 m",
+        "4 m",
+        "7 m",
+        "12 m"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) 12 m",
+        "correctOption": 3
+      },
+      "chapter": "mensuration",
+      "cognitiveLevel": "Understanding, Analysis & Evaluation"
+    },
+    {
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction; see page 6. The trigonometric function names are not recoverable from the text layer: a PDF font/CMap defect maps every letter within a run to one repeated character (e.g. what should be 'sec' and 'tan' both appear only as strings of one repeated glyph). 'sec' was inferred from the printed identity being mathematically valid only for sec²θ−tan²θ=1 (not, e.g., for sin); the angle symbol θ is confirmed directly since it survives as a distinct, undoubled character in the Reason clause.",
+        "Options (a)/(b) rephrased from the printed '(A) is true and (R) is false.' to 'Assertion (A) is true and Reason (R) is false.' only to avoid an ambiguous leading '(A)' label; meaning unchanged."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): If secθ + tanθ = a and secθ − tanθ = b, then ab = 1.\nReason (R): sec²θ − tan²θ = 1",
+      "options": [
+        "Assertion (A) is true and Reason (R) is false.",
+        "Assertion (A) is false and Reason (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation for (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation for (A)."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(c) Both (A) and (R) are true and (R) is the correct explanation for (A).",
+        "correctOption": 2
+      },
+      "chapter": "trigonometry",
+      "cognitiveLevel": "Understanding & Analysis"
+    },
+    {
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "Consider the following distribution 30, 34, 35, 36, 37, 38, 39, 40. If the value 35 is removed from the given data, then the median changes by:",
+      "options": [
+        "0.5",
+        "1.0",
+        "1.5",
+        "2.0"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) 0.5",
+        "correctOption": 0
+      },
+      "chapter": "statistics",
+      "cognitiveLevel": "Analysis & Evaluation"
+    },
+    {
+      "part": "(xv)",
+      "choiceGroup": null,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Options are stacked fractions in the PDF layout (numerator above denominator); rebuilt inline with '/'."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "1",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "type": "MCQ",
+      "text": "A game of chance consists of spinning an arrow which is equally likely to come to rest pointing to one of the numbers 1, 2, 3……12. The probability that it will point to an odd number is:",
+      "options": [
+        "1/6",
+        "1/12",
+        "1/2",
+        "5/12"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) 1/2",
+        "correctOption": 2
+      },
+      "chapter": "probability",
+      "cognitiveLevel": "Understanding & Analysis"
+    },
+    {
+      "part": "(i)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Stacked fraction (π = 22 over 7) rebuilt inline as 22/7."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "2",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "type": "NUMERICAL",
+      "text": "Three students A, B and C of Class 10 are each given an equal amount of Play-Dough to form different shaped solids for a mathematics project. A forms a cone of radius 7 cm and height 28 cm. B forms a sphere of radius r and C forms a cylinder of radius 14 cm. Find the:\n(a) radius r of the sphere so formed.\n(b) height of the cylinder so formed.\n(c) Volume of the dough given to each of them.\nGive your answers to (b) and (c) correct to the nearest whole number.\n(Use π = 22/7)",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 4/3 πr³ = 1/3 πR²H → 4/3 πr³ = 1/3 π(7²)(28) → r³ = 7³ → r = 7 cm\n(b) 4/3 πr³ = πR'²H' → 4×π×7×7×7/3 = π×14²×H' → H' = 7/3 cm = 2.33 cm = 2 cm\n(c) 1/3 πR²H = 1/3 × 22/7 × 7² × 28 = 1437.33 = 1437 cm³"
+      },
+      "chapter": "mensuration",
+      "cognitiveLevel": "Analysis, Application & Evaluation"
+    },
+    {
+      "part": "(ii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscript flattened ((x-2)2 printed without superscript formatting); rebuilt inline as (x−2)²."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "2",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "type": "NUMERICAL",
+      "text": "Solve the quadratic equation (x − 2)² + 11x − 7 = 0 and give your answer correct to 3 significant figures.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(x−2)² + 11x − 7 = 0\nx² + 4 − 4x + 11x − 7 = 0\nx² + 7x − 3 = 0\nx = [−7 ± √(49−4(1)(−3))] / (2×1) = (−7 ± √61)/2 = (−7 ± 7.8102)/2\nx = 0.4051, x = −7.4051\nx = 0.405, x = −7.41"
+      },
+      "chapter": "quadratic-equations",
+      "cognitiveLevel": "Application"
+    },
+    {
+      "part": "(iii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "2",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "type": "NUMERICAL",
+      "text": "A line is formed joining the two points P(−4, 1) and Q(11, −2). Straight line PQ intersects the x-axis at R. Find the:\n(a) ratio PR : RQ.\n(b) coordinates of the point R.\n(c) equation of the line perpendicular to PQ at R.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) R(x,0), m(−2)+n(1)=0 → −2m+n=0 → m:n = 1:2\n∴ PR:RQ = 1:2\n(b) x = [1(11)+2(−4)]/(1+2) = 1, R(1, 0)\n(c) slope of PQ = (−2−1)/(11+4) = −1/5\nslope of line perpendicular to PQ = 5 (reconstructed from context; the descriptive phrase itself is unrecoverable from the text layer)\ny − 0 = 5(x − 1)\n5x − y = 5"
+      },
+      "chapter": "section-and-mid-point-formula",
+      "cognitiveLevel": "Analysis & Evaluation"
+    },
+    {
+      "part": "(i)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "3",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "type": "NUMERICAL",
+      "text": "A shopkeeper marked an article at ₹ 2000. The rate of GST on the article is 18%. The customer has only ₹ 1888 with him and he requests the shopkeeper to reduce the price so that he can buy the article at ₹ 1888 including GST. What percent discount must the shopkeeper give to do so?",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Let the reduced price be x\nx + 18% of x = 1888 → x = ₹ 1600\nReduction in price = ₹ 2000 − ₹1600 = ₹400\nPercentage reduction = (400 × 100)/2000 = 20%"
+      },
+      "chapter": "goods-and-services-tax",
+      "cognitiveLevel": "Analysis & Evaluation"
+    },
+    {
+      "part": "(ii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "3",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "type": "NUMERICAL",
+      "text": "An Arithmetic Progression (A.P.) consists of all whole numbers which are divisible by 3 and 5.\n(a) Write its first term and the common difference.\n(b) Find the 10th term of the A.P.\n(c) Find the sum of the first 10 terms of the A.P.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) a = 15 and d = 15\n(b) T10 = a + (10−1)d = 15 + 9×15 = 150\n(c) S10 = 10/2 [2×15 + 9×15] = 825"
+      },
+      "chapter": "arithmetic-progression",
+      "cognitiveLevel": "Application & Evaluation"
+    },
+    {
+      "part": "(iii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph (points A-I, N plotted on axes) on page 8 not reproduced; the question cannot be answered without it."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "3",
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 5,
+      "type": "SHORT_ANSWER",
+      "text": "Study the graph and answer the given questions:\n(a) Write down the coordinates of A, B, C, D and E.\n(b) Write down the image of A under reflection on the y-axis.\n(c) Name the point, with its coordinates, which is the image of C under reflection through the origin.\n(d) What is the image of the polygon ABCDEFGHI when reflected on the y-axis?\n(e) Write down the equation of the line joining the points N and D.",
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) A(0, 3), B(1, 2), C(2, 2), D(2, 1) and E(3, 0)\n(b) image of A under reflection on the y-axis is A(0, 3)\n(c) K(−2, −2)\n(d) A'B'C'D'E'F'G'H'I' (prime/image marks may not have survived extraction)\n(e) y = 1"
+      },
+      "chapter": "reflection",
+      "cognitiveLevel": "Analysis & Creativity"
+    },
+    {
+      "part": "(i)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "4",
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "NUMERICAL",
+      "text": "A man opened a recurring deposit account in a bank. He deposits ₹ 1000 per month for 2 years. The matured value is equal to 26 times the amount he pays per month. Find the:\n(a) interest paid by the bank.\n(b) rate of interest per annum that the bank was paying for the recurring deposit account.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "P = ₹1000, n = 2 yrs, MV = 26P ∴ MV = ₹26000\n(a) I = ₹26000 − ₹24000 = ₹2000\n(b) Interest = [P×n(n+1)/2] × r/100 × 1/12 = 2000\nr = 8% p.a."
+      },
+      "chapter": "banking",
+      "cognitiveLevel": "Application & Evaluation"
+    },
+    {
+      "part": "(ii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Matrix brackets did not extract as text (rendered as undecodable glyphs in the PDF); matrices reconstructed as row/column notation and cross-checked against the marking scheme's own working (AB = [x²+x−2; 4x−4] = [0; 0]), which matches exactly."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "4",
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "NUMERICAL",
+      "text": "Given, matrix A = [[x, 1], [2, 2]] (a 2×2 matrix, rows x,1 and 2,2) and B = [x; x−2] (a 2×1 matrix, top-to-bottom x then x−2), such that AB is a null matrix. Find the:\n(a) order of the null matrix.\n(b) value of x, given that x > 0.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) order of matrix AB is (2×1) = order of the null matrix\n(b) AB = [x²+x−2; 4x−4] = [0; 0]\n4x−4 = 0\nx = 1"
+      },
+      "chapter": "matrices",
+      "cognitiveLevel": "Analysis & Evaluation"
+    },
+    {
+      "part": "(iii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction; see page 9. The trigonometric function names are not recoverable from the text layer: a PDF font/CMap defect maps every letter within a run to one repeated character. 'cos', 'sin', 'tan' and 'cot' were reconstructed from the algebra of the marking scheme's own step-by-step derivation, which is internally consistent with this identity, but the words themselves were never directly read."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "4",
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "type": "LONG_ANSWER",
+      "text": "Prove the following trigonometric identity:\ncos²θ/(1 − tanθ) + sin²θ/(1 − cotθ) = 1 + cosθ sinθ",
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "LHS = cos²θ/(1−tanθ) + sin²θ/(1−cotθ) = cos³θ/(cosθ−sinθ) + sin³θ/(sinθ−cosθ) = (cos³θ−sin³θ)/(cosθ−sinθ) = (cosθ−sinθ)(cos²θ+sin²θ+cosθsinθ)/(cosθ−sinθ) = 1 + cosθsinθ = RHS"
+      },
+      "chapter": "trigonometry",
+      "cognitiveLevel": "Application & Analysis"
+    },
+    {
+      "part": "(i)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "5",
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "NUMERICAL",
+      "text": "Ms. Kaur invested ₹ 8000 in buying ₹ 100 shares of a company paying 6% dividend at ₹ 80. After a year, she sold these shares at ₹ 75 each and invested the proceeds including the dividend received during the first year in buying ₹ 20 shares paying 15% dividend at ₹ 27 each. Find the:\n(a) dividend received by her during the first year.\n(b) number of shares she purchased using the total proceeds including the dividend.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) No. of shares = 8000/80 = 100\nDividend = (6×100×100)/100 = ₹600\n(b) Sale proceeds = ₹75×100 = ₹7500\nand Total proceeds = ₹7500 + ₹600 = ₹8100\nNo. of shares = 8100/27 = 300"
+      },
+      "chapter": "shares-and-dividends",
+      "cognitiveLevel": "Understanding, Application & Evaluation"
+    },
+    {
+      "part": "(ii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction; see page 10. Faint '5' characters are printed beneath each term of the compound inequality in the PDF layout, suggesting each expression may be divided by 5 in the original, but this could not be reliably confirmed from the text layer, and the marking scheme's own worked steps are only partly consistent with a simple (non-fraction) reading of the inequality as printed above. Verify the exact inequality and the officialAnswer's final bounds against PDF page 10 (question) / marking-scheme page 4."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "5",
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "Solve the following inequation, write the solution set and represent it on the real number line.\n−6 + 12x ≤ 7x − 3 < 2 + 2x, x ∈ R.",
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "5x ≤ 3; −3x < 17 → x > −17/3 (≈ −5⅔). Solution set: {x : −17/3 < x ≤ ..., x ∈ R}…"
+      },
+      "chapter": "linear-inequations",
+      "cognitiveLevel": "Application, Evaluation & Creativity"
+    },
+    {
+      "part": "(iii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (circle, centre O, points A, B, C and angle labels x, y, z, v, w) on page 10 not reproduced; the question cannot be answered without it.",
+        "Triangle/quadrilateral vertex labels in the officialAnswer (e.g. which triangle 'x' belongs to) are reconstructed from context and may not exactly match the printed letters, since the underlying letters are not distinguishable in the corrupted text runs.",
+        "No cognitive-level tag could be reliably attributed to this sub-part in the extracted text; omitted rather than guessed."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "5",
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "type": "SHORT_ANSWER",
+      "text": "In the given figure, O is the centre of the circle and AB = AC. If ∠BAC = 32°, find the angles x, y, z, v and w.",
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "∠BCA = 90° (∠ in a semi-circle) ∴ x + 90° + 32° = 180°, x = 58°\ny = x = 58° (angles in the same segment)\nz = x = 58° (∠s of the same segment)\nAB = AC (given) ∴ ∠ABC = ∠ACB = z = 58°\nv + z + z = 180° → v = 180°−116° = 64°\nv + w = 180° (opp. ∠s of cyclic quad. and semicircle)\nw = 180° − 64° = 116°"
+      },
+      "chapter": "circles"
+    },
+    {
+      "part": "(i)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened in the text layer (2x3, 5x2); rebuilt inline as 2x³, 5x²."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "6",
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "NUMERICAL",
+      "text": "Using Remainder and Factor Theorem, factorise the following polynomial:\n2x³ + 5x² − 28x − 15.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "f(x) = 2x³+5x²−28x−15\nf(3) = 2(3)³+5(3)²−28(3)−15 = 54+45−84−15 = 99−99 = 0\n∴ (x−3) is a factor of f(x).\n2x³+5x²−28x−15 ÷ (x−3) = 2x²+11x+5\nf(x) = (x−3)(2x²+11x+5)\nf(x) = (x−3)(x+5)(2x+1)"
+      },
+      "chapter": "factorisation",
+      "cognitiveLevel": "Application, Analysis & Evaluation"
+    },
+    {
+      "part": "(ii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (points A, D, G, E, C, F, B and the parallel lines) on page 10 not reproduced; the question cannot be answered without it.",
+        "Triangle names in the officialAnswer are reconstructed from context; the exact printed letters are not distinguishable in the corrupted text runs."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "6",
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "In the given diagram, AD ∥ GE ∥ BC, DE = 18 cm, EC = 3 cm, AD = 35 cm.\nFind:\n(a) AF : FC and AG : GB\n(b) length of EF\n(c) area (trapezium ADEF) : area (Δ EFC)",
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) FE is parallel to AD (given)\n∴ AF/FC = DE/EC = 18/3 = 6 (B.P.T.)\nAF : FC = 6 : 1\nSimilarly AG : GB = 6 : 1\n(b) triangles are similar, ∴ EF/AD = EC/DE → EF/35 = 3/21 ∴ EF = 5 cm\n(c) area(trapezium ADEF) : area(ΔEFC) = (AF²−EF²) : EF² = (35²−5²) : 5² = 40×30 : 25 → 48 : 1"
+      },
+      "chapter": "similarity",
+      "cognitiveLevel": "Analysis & Application"
+    },
+    {
+      "part": "(iii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The marking scheme's answer for this construction is a hand-drawn diagram in the PDF and did not extract as text; no officialAnswer text is available."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "6",
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "type": "LONG_ANSWER",
+      "text": "Use ruler and compass for this question:\n(a) Draw line segment AB of length 6 cm.\n(b) Construct the locus of points which are equidistant from A and B. Mark a point on the locus which is 4.5 cm from A. Name this point as O.\n(c) Construct the locus of all points which are 4.5 cm from O.\n(d) Mark the point of intersection of loci (b) and (c) as P, which is on the same side of AB as O.\n(e) Construct the locus of points which are equidistant from AP and AB.",
+      "confidence": "HIGH",
+      "chapter": "loci",
+      "cognitiveLevel": "Analysis & Creativity"
+    },
+    {
+      "part": "(i)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "7",
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "NUMERICAL",
+      "text": "A bag contains identical cards numbered 1 to 50. A card is selected randomly. Find the probability that the card selected, is:\n(a) divisible by 6.\n(b) not divisible by 2 and 3.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) {6,12,18,24,30,36,42,48}, P(divisible by 6) = 8/50 = 4/25\n(b) P(not divisible by 2 and 3) = 1 − 4/25 = 21/25"
+      },
+      "chapter": "probability",
+      "cognitiveLevel": "Application & Evaluation"
+    },
+    {
+      "part": "(ii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (parallelogram ABCD and circle touching it at P, Q, R, S) on page 11 not reproduced; the proof is fully determined by the stated configuration (tangent-length theorem) without needing exact figure positions."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "7",
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "LONG_ANSWER",
+      "text": "In the given figure, the parallelogram ABCD circumscribes a circle, touching the circle at P, Q, R and S. Prove that:\n(a) AB = BC\n(b) diagonals AC and BD bisect each other at right angles.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) AP=AS, BP=BQ, CR=CQ, DR=DS (tangents drawn from an external point are equal)\nAdding, (AP+BP)+(CR+DR) = (AS+DS)+(BQ+CQ)\nAB+CD = AD+BC\nAB+AB = BC+BC (opp. sides of parallelogram are equal)\n2AB = 2BC\nAB = BC\n(b) In quad ABCD, AB = BC = CD = DA\n∴ ABCD is a rhombus\n∴ AC and BD bisect each other at right angles (diagonals of rhombus)"
+      },
+      "chapter": "circles",
+      "cognitiveLevel": "Analysis & Application"
+    },
+    {
+      "part": "(iii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Stacked fraction and superscripts rebuilt inline from the PDF layout."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "7",
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "type": "SHORT_ANSWER",
+      "text": "Given,\n(a + 2b + x)/(a − 2b + x) = (a + b)²/(a − b)², a ≠ 0\nUsing properties of proportion, find the value of x.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Applying C and D,\n[(a+2b+x)+(a−2b+x)] / [(a+2b+x)−(a−2b+x)] = [(a+b)²+(a−b)²] / [(a+b)²−(a−b)²]\n2(a+x)/4b = 2(a²+b²)/4ab\n(a+x)/b = (a²+b²)/(ab)\n(a+x) = (a²+b²)/a\nx = b²/a (final step reconstructed algebraically to match the printed intermediate lines; not directly legible in the text layer)"
+      },
+      "chapter": "ratio-and-proportion",
+      "cognitiveLevel": "Understanding & Application"
+    },
+    {
+      "part": "(i)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table reconstructed from the PDF layout (columns were laid out with values below headers)."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "8",
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "NUMERICAL",
+      "text": "The mean of the following distribution is 27 and the sum of all the frequencies is 50. Find the missing frequencies x and y.\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nFrequency: 8, x, 12, 13, y",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Class | midpoint x | f | fx\n0-10 | 5 | 8 | 40\n10-20 | 15 | x | 15x\n20-30 | 25 | 12 | 300\n30-40 | 35 | 13 | 455\n40-50 | 45 | y | 45y\nx+y+33=50\nMean = Σfx/Σf = (795+15x+45y)/50 = 27\n3x+9y=111 and x+y=17\nx = 7 and y = 10"
+      },
+      "chapter": "statistics",
+      "cognitiveLevel": "Application & Evaluation"
+    },
+    {
+      "part": "(ii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (rectangle 12 m × 10 m with a path of width x) on page 12 not reproduced; the exact geometry of the shaded region depends on it. Superscript flattened (m2); rebuilt inline as m²."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "8",
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "NUMERICAL",
+      "text": "In the given diagram, the area of the shaded region is 57 m². Form an equation in x and solve it to find the possible value of x.\n[Diagram: a 12 m by 10 m rectangle with a path of width x.]",
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "12×10 − (12−x)(10−x) = 57\n120−120+22x−x² = 57\nx²−22x+57=0 → (x−19)(x−3)=0\nx=19 is not possible, ∴ x = 3 m"
+      },
+      "chapter": "quadratic-equations",
+      "cognitiveLevel": "Application, Analysis & Evaluation"
+    },
+    {
+      "part": "(iii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of the two glasses on page 12 not reproduced; illustrative only, all dimensions needed are stated in the text. Stacked fraction (π = 22 over 7) rebuilt inline as 22/7."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "8",
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "type": "NUMERICAL",
+      "text": "Two beakers (drinking glasses) are cylindrical in shape having diameter and height 7 cm and 10 cm respectively. Glass A has hemispherical raised bottom, and glass B has a conical raised bottom of height 3.5 cm. Determine which glass has a greater capacity and calculate the difference in their capacities. Give your answer correct to 2 decimal places.\n(Use π = 22/7)",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "VA = πr²h − (2/3)πr³ = π×3.5²×10 − (2/3)×π×3.5³\nVB = πr²h − (1/3)πr²h' = π×3.5²×10 − (1/3)×π×3.5³\n∴ VB > VA\nVB − VA = (2/3)πr³ − (1/3)πr²h' = (1/3)×(22/7)×3.5³ = 44.916 ≈ 44.92\nDifference in capacity of Glass A and Glass B = 44.92 cm³. Glass B has greater capacity than Glass A."
+      },
+      "chapter": "mensuration",
+      "cognitiveLevel": "Analysis, Application & Evaluation"
+    },
+    {
+      "part": "(i)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table given in full in the question; the ogive itself is drawn by the candidate, so no figure is needed to answer. The marking-scheme values for (a) and (c) are printed as approximate ranges ('±') because they are read off a hand-drawn graph, not rounding introduced by extraction."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "9",
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 5,
+      "type": "LONG_ANSWER",
+      "text": "The distribution given below represents marks obtained by 200 students in a Mathematics Examination with maximum marks 80.\nMarks: 0-10, 10-20, 20-30, 30-40, 40-50, 50-60, 60-70, 70-80\nNo. of students: 8, 12, 16, 24, 29, 38, 42, 31\nUsing graph paper draw an ogive for the given distribution. Along one axis take 2 cm equal to 10 marks and along the other axis take 1 cm equal to 10 students.\nUse your graph to find the following:\n(a) Median\n(b) Number of students who scored above 75 marks\n(c) If the pass percentage is 35%, find the number of students who scored 35% and below.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Cumulative frequencies: 8, 20, 36, 60, 89, 127, 169, 200\n(a) Median = 53 ± 1\n(b) Number of students who scored above 75 = 200−186 = 14\n(c) Number of students who scored 35% and below = 33 ± 2"
+      },
+      "chapter": "statistics",
+      "cognitiveLevel": "Understanding, Application & Creativity"
+    },
+    {
+      "part": "(ii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Question is self-contained (candidate draws their own diagram); vertex labels in the officialAnswer are reconstructed from context."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "9",
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 5,
+      "type": "NUMERICAL",
+      "text": "Draw the necessary diagram for this question.\nA man on the top of a lighthouse observes the angle of depression of two ships on the opposite sides of the lighthouse as 32° and 58° respectively. If the height of the lighthouse is 120 m, find the distance between the two ships. Give your answer correct to the nearest meter.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "BD/AD = tan(90°−32°)\nBD = 120 × tan58° = 120×1.600 = 192\nCD/AD = tan(90°−58°)\nCD = 120 × tan32° = 120×0.6249 = 74.988 m\nBC = BD+CD = 120×1.600+120×0.6249 = 120×2.2249 = 266.988 = 267 m"
+      },
+      "chapter": "heights-and-distances",
+      "cognitiveLevel": "Understanding, Creativity, Application & Evaluation"
+    },
+    {
+      "part": "(i)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Paper prints 'Geometric Proportion (G.P.)'; reproduced verbatim (apparent paper typo for 'Progression', not corrected)."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "10",
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "NUMERICAL",
+      "text": "A finite Geometric Proportion (G.P.) series contains 10 terms. The sum of the first three terms is 7 and that of the last three terms is 896. Find the first term and the common ratio.",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Let the terms be a, ar, ar², …, ar⁹\nGiven, a+ar+ar² = 7 and ar⁷+ar⁸+ar⁹ = 896\n(ar⁷+ar⁸+ar⁹)/(a+ar+ar²) = 896/7\nar⁷(1+r+r²)/[a(1+r+r²)] = 128\nr⁷ = 128 → r = 2\na(1+2+2²) = 7 → a = 1"
+      },
+      "chapter": "geometric-progression",
+      "cognitiveLevel": "Application & Evaluation"
+    },
+    {
+      "part": "(ii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "10",
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "type": "NUMERICAL",
+      "text": "In a circle with centre O, PA and PB are tangents drawn from an external point P. If PA = 9 cm and ∠APB = 60°, find the:\n(a) length of PB.\n(b) radius of the circle.",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "PA = PB = 9 cm (tangents from the same point)\nIn ∆OAP, OA/PA = tan30° = 1/√3\nradius = OA = 9 × 1/√3 = 3√3 = 3×1.7321 = 5.1963 = 5.2 cm"
+      },
+      "chapter": "circles",
+      "cognitiveLevel": "Application & Evaluation"
+    },
+    {
+      "part": "(iii)",
+      "choiceGroup": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The modal-weight derivation is graph-based (read off a hand-drawn histogram); only the final result 'Mode: 51.5kg' extracted as text, the histogram itself is not reproduced."
+      ],
+      "mappingStatus": "AI_SUGGESTED",
+      "number": "10",
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "type": "LONG_ANSWER",
+      "text": "The table given below shows a record of the weight in kilogram of 100 students of a school.\nWeight(kg): 30-35, 35-40, 40-45, 45-50, 50-55, 55-60, 60-65, 65-70\nNo. of Students: 5, 7, 14, 21, 25, 15, 7, 6\nDraw a histogram and find the modal weight.\n[Take 2 cm = 5 kg along one axis and 2 cm = 5 students along the other axis]",
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Mode: 51.5 kg"
+      },
+      "chapter": "statistics",
+      "cognitiveLevel": "Understanding, Application & Creativity"
+    }
+  ]
+}

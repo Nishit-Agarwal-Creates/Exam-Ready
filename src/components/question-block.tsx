@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { QuestionType } from "@/db/schema";
 import type { QuestionView } from "@/lib/data/questions";
 import { answerAddsInfo } from "@/lib/answer-text";
+import { citation } from "@/lib/provenance";
 import { ProvenanceDetails, SourceStamp } from "./provenance";
 
 export const TYPE_NAMES: Record<QuestionType, string> = {
@@ -71,6 +72,29 @@ export function FigureNotice({ q }: { q: QuestionView }) {
   );
 }
 
+/** One-line source citation for lists; the question's own page has the full source details. */
+function CitationLine({ q }: { q: QuestionView }) {
+  const src = q.sources.find((s) => !s.isDemo);
+  if (!src) return null;
+  return (
+    <p className="mt-2 text-[0.85rem] text-pencil">
+      Source:{" "}
+      <Link href={`/sources/${src.paperId}`} className="link">
+        {citation(src)}
+      </Link>
+      {src.pageNumber ? `, page ${src.pageNumber}` : ""}
+      {q.extractionIssues.length > 0 && (
+        <>
+          {" "}
+          <Link href={`/questions/${q.id}`} className="text-contrib underline underline-offset-2">
+            extraction notes
+          </Link>
+        </>
+      )}
+    </p>
+  );
+}
+
 /**
  * A question as printed on the paper: number, text, options and marks, with a quiet metadata
  * line (provenance stamp, chapter, type) and expandable source details.
@@ -82,6 +106,7 @@ export function QuestionBlock({
   showAnswer = false,
   showMeta = true,
   headingLevel = 3,
+  provenance = "full",
 }: {
   number: number | string;
   q: QuestionView;
@@ -89,6 +114,8 @@ export function QuestionBlock({
   showAnswer?: boolean;
   showMeta?: boolean;
   headingLevel?: 2 | 3 | 4;
+  /** "line" shows a one-line citation instead of the expandable source details (lighter, for long lists). */
+  provenance?: "full" | "line";
 }) {
   const H = `h${headingLevel}` as "h2" | "h3" | "h4";
   const m = marks ?? q.marks;
@@ -124,7 +151,10 @@ export function QuestionBlock({
             <span>{TYPE_NAMES[q.type]}</span>
           </div>
         )}
-        {showMeta && <ProvenanceDetails q={q} groupSources={q.groupSources} answerSource={q.answer ? q.answerSource : undefined} issues={q.extractionIssues} />}
+        {showMeta && provenance === "full" && (
+          <ProvenanceDetails q={q} groupSources={q.groupSources} answerSource={q.answer ? q.answerSource : undefined} issues={q.extractionIssues} />
+        )}
+        {showMeta && provenance === "line" && <CitationLine q={q} />}
         {showAnswer && q.answer && (
           <div className="mt-3">
             <AnswerKeyText q={q} />

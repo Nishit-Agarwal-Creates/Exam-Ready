@@ -203,3 +203,22 @@ test("grading: objective types, missing answer keys, descriptive", () => {
   assert.equal(parseNumber("1,200"), 1200);
   assert.equal(parseNumber("3/4"), 0.75);
 });
+
+test("pool filters: types, PYQ year range and figures", async () => {
+  const { filterPool, describeFilters } = await import("../src/lib/engine/generator.ts");
+  const pool = [
+    q({ questionType: "MCQ", year: 2026 }),
+    q({ questionType: "MCQ", year: 2023 }),
+    q({ questionType: "LONG_ANSWER", year: 2025, hasFigure: true }),
+    q({ sourceType: "AI_SUPPLEMENTARY", questionType: "MCQ" }),
+  ];
+  assert.equal(filterPool(pool, { types: ["MCQ"] }).length, 3);
+  // The year range only constrains verified PYQs; AI practice has no year and is kept.
+  assert.deepEqual(
+    filterPool(pool, { yearFrom: 2024, yearTo: 2026 }).map((x) => x.year),
+    [2026, 2025, null],
+  );
+  assert.equal(filterPool(pool, { excludeFigures: true }).length, 3);
+  assert.equal(describeFilters({ yearFrom: 2024, yearTo: 2026, excludeFigures: true }, {}), "Filters: PYQs from 2024–2026; questions that need a figure left out.");
+  assert.equal(describeFilters({}, {}), null);
+});

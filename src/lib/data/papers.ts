@@ -1,8 +1,19 @@
 import { asc, desc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod";
 import { getDb, getEnv, schema } from "@/db";
-import { DIFFICULTIES, PAPER_MODES, type PaperMode, type SourceType } from "@/db/schema";
-import { emptyComposition, estimatePaper, generatePaper, type Composition, type GenerateFailure, type PoolQuestion, type Stage } from "@/lib/engine/generator";
+import { DIFFICULTIES, PAPER_MODES, QUESTION_TYPES, type PaperMode, type SourceType } from "@/db/schema";
+import {
+  describeFilters,
+  emptyComposition,
+  estimatePaper,
+  filterPool,
+  generatePaper,
+  type Composition,
+  type GenerateFailure,
+  type PoolFilters,
+  type PoolQuestion,
+  type Stage,
+} from "@/lib/engine/generator";
 import { isRealVerifiedPyq } from "@/lib/provenance";
 import { coverageOf } from "@/lib/engine/coverage";
 export type { YearCoverage } from "@/lib/engine/coverage";
@@ -19,8 +30,28 @@ export const paperRequestSchema = z.object({
   difficulty: z.enum(["MIXED", ...DIFFICULTIES]).default("MIXED"),
   mode: z.enum(PAPER_MODES),
   allowSupplement: z.coerce.boolean().default(false),
+  /** Empty = every type. */
+  questionTypes: z.array(z.enum(QUESTION_TYPES)).max(QUESTION_TYPES.length).default([]),
+  yearFrom: z.coerce.number().int().min(1990).max(2100).optional(),
+  yearTo: z.coerce.number().int().min(1990).max(2100).optional(),
+  excludeFigures: z.coerce.boolean().default(false),
 });
 export type PaperRequest = z.infer<typeof paperRequestSchema>;
+
+const TYPE_LABELS: Record<string, string> = {
+  MCQ: "multiple choice",
+  ASSERTION_REASON: "assertion–reason",
+  FILL_BLANK: "fill in the blank",
+  NUMERICAL: "numerical",
+  SHORT_ANSWER: "short answer",
+  LONG_ANSWER: "long answer",
+  CASE_BASED: "case-based",
+};
+
+function filtersOf(req: PaperRequest): PoolFilters {
+  const [a, b] = [req.yearFrom, req.yearTo];
+  return { types: req.questionTypes, yearFrom: a && b ? Math.min(a, b) : a, yearTo: a && b ? Math.max(a, b) : b, excludeFigures: req.excludeFigures };
+}
 
 export async function includeDemoData(): Promise<boolean> {
   const env = await getEnv();
@@ -59,7 +90,7 @@ async function validChapterIds(subjectId: number, ids: number[]): Promise<number
 export async function estimate(req: PaperRequest) {
   const chapterIds = await validChapterIds(req.subjectId, req.chapterIds);
   const includeDemo = await includeDemoData();
-  const pool = await getPool(req.subjectId, chapterIds, includeDemo);
+  const pool = filterPool(await getPool(req.subjectId, chapterIds, includeDemo), filtersOf(req));
   const est = estimatePaper(pool, { mode: req.mode, totalMarks: req.totalMarks, difficulty: req.difficulty, allowSupplement: req.allowSupplement });
   return { ...est, poolHasDemo: pool.some((p) => p.isDemo && p.isPublished), coverage: coverageOf(pool) };
 }
@@ -71,7 +102,8 @@ export async function createPaper(req: PaperRequest): Promise<CreatePaperResult>
   if (!ctx) return { ok: false, error: "That subject doesn't exist." };
   const chapterIds = await validChapterIds(req.subjectId, req.chapterIds);
   const includeDemo = await includeDemoData();
-  const pool = await getPool(req.subjectId, chapterIds, includeDemo);
+  const filters = filtersOf(req);
+  const pool = filterPool(await getPool(req.subjectId, chapterIds, includeDemo), filters);
   const seed = Math.floor(Math.random() * 2 ** 31);
   const result = generatePaper(pool, { mode: req.mode, totalMarks: req.totalMarks, difficulty: req.difficulty, seed, allowSupplement: req.allowSupplement });
   if (!result.ok) return { ok: false, failure: result };
@@ -100,7 +132,7 @@ export async function createPaper(req: PaperRequest): Promise<CreatePaperResult>
     difficulty: req.difficulty,
     chapterIds: JSON.stringify(chapterIds),
     composition: JSON.stringify(result.composition),
-    notices: JSON.stringify(result.notices),
+    notices: JSON.stringify([describeFilters(filters, TYPE_LABELS), ...result.notices].filter(Boolean)),
     hasDemo,
     seed,
   });

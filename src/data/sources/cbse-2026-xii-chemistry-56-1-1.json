@@ -1,0 +1,948 @@
+{
+  "source": {
+    "key": "cbse-2026-xii-chemistry-56-1-1",
+    "title": "CBSE Senior Secondary School Examination 2026 (XIIth), Chemistry (043), Q.P. Code 56/1/1",
+    "board": "cbse",
+    "class": 12,
+    "subject": "chemistry",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Central Board of Secondary Education",
+    "paperType": "BOARD_EXAM",
+    "examYear": 2026,
+    "session": null,
+    "paperName": "Chemistry (043)",
+    "paperCode": "56/1/1",
+    "setCode": "SET-1",
+    "seriesCode": "SQRP1",
+    "language": "English (from a bilingual Hindi/English paper)",
+    "sourceUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2026/XII/Chemistry.zip",
+    "sourceFile": "Chemistry/56-1-1_Chemistry.pdf",
+    "answerSourceUrl": "https://www.cbse.gov.in/cbsenew/marking-scheme/2026/XII/Chemistry.zip",
+    "answerSourceFile": "Chemistry/English/043_56_1_1_English.pdf",
+    "fileType": "pdf",
+    "pageCount": 24,
+    "sha256": "773ccce1bfaf98e59155c5d27629cb718b4ddf6f682e6df2998e4011a2aa564f",
+    "maxMarks": 70,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes, page-by-page",
+    "ocrUsed": false,
+    "notes": "Paper prints: Series SQRP1, 'SET~1' (text layer; stored as SET-1), Q.P. Code 56/1/1, 23 printed pages (24 PDF pages incl. a trailing blank), 33 questions, Maximum Marks 70, Time allowed 3 hours. Session is not printed on the paper. Each page carries bilingual Hindi+English content followed by a pure-English repeat page; question/page numbers reference the pure-English page. Section A (1-16) is MCQ/Assertion-Reason (1 mark); Section B (17-21) very short answer (2 marks); Section C (22-28) short answer (3 marks); Section D (29-30) case-based with internal choice in one sub-part each (4 marks); Section E (31-33) long answer/numerical, each with a full internal-choice alternative (5 marks). Many multi-part questions print a stray digit (e.g. '3  1') after the marks value in the source PDF; this was treated as an unexplained footnote/layout artifact, not an additional mark, and the printed section-level mark was used. The official marking scheme is heavy with hand-drawn structures, reaction schemes and multi-line calculations that render as images and are not present in its text layer (flagged per question); where nothing at all was recoverable, officialAnswer is omitted and the gap is noted in extractionIssues.",
+    "usage": "Official CBSE publication, freely available on cbse.gov.in; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following curve represents the first order reaction ?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Answer options (A)-(D) are curves/graphs (images) on page 5, not reproduced in the text layer; the question cannot be answered without them"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(B)"
+      },
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following solutions will have the lowest freezing point in water ?",
+      "options": [
+        "0.1 M Glucose",
+        "0.1 M CaCl2",
+        "0.1 M KCl",
+        "0.1 M Urea"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: CaCl2"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) / 0.1 M CaCl2",
+        "correctOption": 1
+      },
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following is not a transition metal ?",
+      "options": [
+        "Sc",
+        "Ag",
+        "Hg",
+        "Cu"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / Hg",
+        "correctOption": 2
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following represents the fraction of molecules with energies equal to or greater than Ea ?",
+      "options": [
+        "+Ea/RT",
+        "e^(–Ea/RT)",
+        "–Ea/RT",
+        "e^(+Ea/RT)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fraction Ea/RT split across lines in each option, and exponent e^(...) inferred from adjacent glyphs); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(B) / e^(–Ea/RT)",
+        "correctOption": 1
+      },
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "What will happen during the electrolysis of aqueous solution of CuCl2 by using platinum electrodes ?",
+      "options": [
+        "Cu will deposit at Anode",
+        "H2 gas will be released at cathode",
+        "O2 gas will be released at anode",
+        "Cl2 gas will be released at anode"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: CuCl2, H2, O2, Cl2"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / Cl2 gas will be released at anode",
+        "correctOption": 3
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Aspirin is obtained by acetylation of",
+      "options": [
+        "Phenol",
+        "Salicylaldehyde",
+        "2-Hydroxybenzoic acid",
+        "Benzoic acid"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / 2-Hydroxybenzoic acid",
+        "correctOption": 2
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The secondary valency of Co in the complex [Co(NH3)5(NO2)]2+ is",
+      "options": [
+        "5",
+        "1",
+        "4",
+        "6"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts flattened: [Co(NH3)5(NO2)]2+"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / 6",
+        "correctOption": 3
+      },
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "At low temperature, phenol reacts with dil. HNO3 to yield",
+      "options": [
+        "2, 4, 6-Trinitrophenol",
+        "o-Nitrophenol only",
+        "p-Nitrophenol only",
+        "ortho-and para-nitrophenol"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: HNO3"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / ortho-and para-nitrophenol",
+        "correctOption": 3
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following is ‘not’ true about enantiomers ?",
+      "options": [
+        "They have the same chemical reactivity.",
+        "They have the same specific rotation.",
+        "They have the same melting or boiling point.",
+        "They have the same refractive index."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) / They have the same specific rotation.",
+        "correctOption": 1
+      },
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Aniline on direct nitration yields",
+      "options": [
+        "51%-ortho, 47%-para, 2%-meta derivatives",
+        "51%-meta, 47%-ortho, 2%-para derivatives",
+        "51%-para, 47%-meta, 2%-ortho derivatives",
+        "51%-ortho, 47%-meta, 2%-para derivatives"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / 51%-para, 47%-meta, 2%-ortho derivatives",
+        "correctOption": 2
+      },
+      "chapter": "amines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following amines has lowest pKb value ?",
+      "options": [
+        "C6H5 – N(CH3)2",
+        "C6H5 – NH(CH3)",
+        "C6H5 – NH2",
+        "[Structural formula on page 7 not reproduced]"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Subscripts flattened: C6H5, N(CH3)2, NH(CH3), NH2",
+        "Option (D) is a structural formula (image) on page 7, not reproduced in the text layer"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(A) / C6H5 – N(CH3)2",
+        "correctOption": 0
+      },
+      "chapter": "amines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The deficiency of which of the following vitamins causes increased fragility of red blood cells and muscular weakness :",
+      "options": [
+        "Vitamin A",
+        "Vitamin K",
+        "Vitamin E",
+        "Vitamin D"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / Vitamin E",
+        "correctOption": 2
+      },
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : It is not possible to separate the components of an azeotrope by fractional distillation.\nReason (R) : Components of an azeotrope have the same composition in liquid and vapour phase and boil at a constant temperature.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) / Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "correctOption": 0
+      },
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : The presence of –OH group in phenols directs the incoming group to meta position in the ring.\nReason (R) : –OH group in phenols activates the aromatic ring towards electrophilic substitution reaction.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / Assertion (A) is false, but Reason (R) is true.",
+        "correctOption": 3
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : Actinoids show wide range of oxidation states.\nReason (R) : Actinoids are radioactive in nature.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) / Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "correctOption": 1
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : The pentaacetate of glucose does not react with H2N – OH.\nReason (R) : It indicates the presence of free – CHO group in glucose.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: H2N–OH"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / Assertion (A) is true, but Reason (R) is false.",
+        "correctOption": 2
+      },
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What type of deviation from Raoult’s law is shown by a mixture of phenol and aniline ? Give reason.\nWhat will happen to the boiling point of the solution on mixing phenol and aniline ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Negative deviation.\nSolute-solvent interactions are stronger than solute-solute and solvent-solvent interactions. / The intermolecular hydrogen bonding between the phenolic proton and the lone pair on the nitrogen atom of aniline is stronger than the respective intermolecular hydrogen bonding between similar molecules.\nBoiling point of the solution increases."
+      },
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Why are haloarenes less reactive towards nucleophilic substitution reaction ? Give two reasons.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Because of:\n(i) C–X acquires partial double bond character due to resonance\n(ii) sp2 hybridisation of the C of C–X makes it more electronegative and holds the electron pair tightly\n(iii) repulsion between the nucleophile and the electron-rich arene ring\n(iv) instability of the phenyl cation\n(Any two)"
+      },
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(a)",
+      "choiceGroup": "19",
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write IUPAC names of the following coordination compounds :\n(i) [Ag(NH3)2] [Ag(CN)2]\n(ii) K3[Fe(C2O4)3]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: [Ag(NH3)2][Ag(CN)2], K3[Fe(C2O4)3]"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Diamminesilver(I) dicyanidoargentate(I)\n(ii) Potassium trioxalatoferrate(III)"
+      },
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(b)",
+      "choiceGroup": "19",
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(i) Give a chemical test to show that [Co(NH3)5SO4]Cl and [Co(NH3)5Cl]SO4 are ionisation isomers.\n(ii) What is meant by the ‘Chelate effect’ ? Give an example.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: [Co(NH3)5SO4]Cl, [Co(NH3)5Cl]SO4"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) [Co(NH3)5(SO4)]Cl with AgNO3 solution gives a white precipitate of AgCl, whereas [Co(NH3)5Cl]SO4 does not. / [Co(NH3)5Cl]SO4 with BaCl2 gives a white precipitate of BaSO4, whereas [Co(NH3)5(SO4)]Cl does not.\n(ii) Formation of stable complexes by a di- or polydentate ligand with a single metal atom/ion (or any other correct example). For example: [Co(en)3]3+"
+      },
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Differentiate between the following :\n(i) Peptide linkage and Glycosidic linkage\n(ii) Essential amino acids and Non-essential amino acids",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) It is an amide linkage formed between two amino acids through –CONH– / an amide linkage formed between –COOH and –NH2 groups, whereas in glycosidic linkage two or more monosaccharides are joined together by an oxygen atom.\n(ii) Those which cannot be synthesised in the body and must be obtained through diet are known as essential amino acids. The amino acids which can be synthesised in the body are known as non-essential amino acids."
+      },
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Following reaction takes place in one step :\n2A + B → 2C\nHow will the rate of above reaction change if the volume of the reaction vessel is decreased to one third of its original volume ? Will there be any change in the order of reaction with the reduced volume ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Reaction arrow reconstructed (printed as a dash in the text layer)",
+        "Official-answer equals signs and exponents lost in extraction; rebuilt from spacing/context (rate law k[A]²[B]); check against the marking scheme PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Rate = k[A]²[B]. If the volume is decreased to 1/3rd of the original, concentration increases 3 times.\nRate′ = k[3A]²[3B] = 27 k[A]²[B]\nHence rate will be increased by 27 times.\nOrder remains same."
+      },
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "For the first order thermal decomposition reaction, following data was obtained :\nC2H5Cl(g) → C2H4(g) + HCl(g)\nS. No. | Time(s) | Total Pressure (atm)\n1 | 0 | 0.30\n2 | 30 | 0.50\nCalculate rate constant. [Given : log 3 = 0.48]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: C2H5Cl, C2H4, HCl",
+        "Data table flattened into text rows from the page layout",
+        "Official answer (rate-constant calculation) is entirely equations/images in the marking scheme, not present in the text layer"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": "(a)",
+      "choiceGroup": "23",
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Answer the following :\n(i) Why is the Equilibrium Constant (Kc) related to E°cell and not to Ecell ?\n(ii) Two metals ‘A’ and ‘B’ have standard electrode potential values of –0.24 V and + 0.80 V respectively. Which of these will liberate hydrogen gas from dil. H2SO4 ?\n(iii) Write the cell reaction which occurs in lead storage battery when it is in charging.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: H2SO4"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Because at equilibrium, Ecell = 0.\n(ii) Metal ‘A’.\n(iii) 2PbSO4(s) + 2H2O(l) → PbO2(s) + Pb(s) + 2H2SO4(aq)"
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": "(b)",
+      "choiceGroup": "23",
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What type of battery is Mercury cell ? Why it is more advantageous than dry cell ? Write overall reaction taking place in Mercury cell.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Mercury cell – Primary cell. It provides a constant potential difference throughout its life.\nZn(Hg) + HgO(s) → ZnO(s) + Hg(l)"
+      },
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Calculate the boiling point of a solution containing 0.61 g of benzoic acid (Molar mass = 122 g mol–1) in 5 g of CS2 in which it dimerises to the extent of 88%. The boiling point and Kb of CS2 are 46.2°C and 2.3 K kg mol–1 respectively.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Degree symbol rebuilt: '46.2 C' read as '46.2°C'; unambiguous from context",
+        "Subscript flattened: CS2",
+        "Official answer (boiling-point calculation) is entirely equations/images in the marking scheme, not present in the text layer"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write the reactions of D-Glucose with the following :\n(a) HI\n(b) Br2 water\n(c) Conc. HNO3",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: Br2",
+        "Official answer (three reaction equations for D-glucose) is entirely images in the marking scheme, not present in the text layer"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give reasons for the following :\n(a) Carboxylic acids have higher boiling point than alcohols of comparable molecular masses.\n(b) Alpha (α) hydrogens of aldehydes and ketones are acidic in nature.\n(c) Nucleophilic addition of ammonia and its derivatives does not occur with carbonyl group in strongly acidic medium.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Greek letter alpha (α) lost in extraction, printed as 'Alpha ( )'; rebuilt from context"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Due to extensive association of carboxylic acid molecules through intermolecular hydrogen bonding. / Dimer formation takes place.\n(b) Due to the strong electron withdrawing effect of the carbonyl group / resonance stabilisation of their conjugate base.\n(c) Protonation of nucleophile takes place in strongly acidic medium."
+      },
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write the reaction involved in the following :\n(a) Reimer-Tiemann reaction\n(b) Kolbe’s reaction\n(c) Friedal-Crafts acylation of anisole",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer (three named-reaction equations) is entirely images in the marking scheme, not present in the text layer"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Compound ‘X’ with molecular formula C4H9Br reacts with aqueous KOH to give an alcohol. The rate of this reaction depends only on the concentration of the compound ‘X’. When an optically active isomer ‘Y’ of the compound ‘X’ was treated with aqueous KOH solution, the rate of reaction was found to be dependent on concentration of compound ‘Y’ and aqueous KOH both.\n(a) Write down the structural formula of both ‘X’ and ‘Y’.\n(b) Out of ‘X’ and ‘Y’, which one will undergo racemisation and why ?\n(c) Out of ‘X’ and ‘Y’, which one will form product with inversion of configuration and why ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: C4H9Br",
+        "Official answer for (a) (structural formulas of X and Y) is images in the marking scheme, not present in the text layer"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) X, because the reaction is SN1 / due to formation of a planar carbocation as intermediate. (Full marks awarded if the student writes Y, which is optically active.)\n(c) Y, because the reaction is SN2 / due to rear-side attack of the nucleophile."
+      },
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The reaction of amines with mineral acids to form ammonium salts shows that these are basic in nature. Aliphatic amines are stronger bases than ammonia whereas aromatic amines are weaker bases than ammonia. Aliphatic and aromatic primary and secondary amines react with acid chlorides, anhydrides and esters by nucleophilic substitution reaction. The main problem encountered during electrophilic substitution reactions of aromatic amines is that of their high reactivity. Substitution tends to occur at ortho-and para-positions. Hinsberg reagent is used for the identification and distinction between primary, secondary and tertiary amines. Aryldiazonium salts, usually obtained from arylamines, undergo replacement of the diazonium group with a variety of nucleophiles to provide advantageous methods for producing aryl halides, cyanides, phenols and arenes.\nAnswer the following questions :\n(a) (i) Why CH3 – NH2 is a stronger base than (CH3)3N in aqueous solution ?\n(ii) Write structural formulae of the compound A and B :\nCH3CONH2 –(NaOBr / Base)→ A –(C6H5COCl)→ B\n(b) A compound ‘X’ with molecular formula C3H9N reacts with Hinsberg reagent to give a product insoluble in alkali. Identify ‘X’.\nOR\n(b) How can you convert aniline to benzonitrile ?\n(c) Why is –NH2 group of aniline acetylated before carrying out nitration ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: CH3–NH2, (CH3)3N, C3H9N, CH3CONH2, C6H5COCl, C6H5",
+        "Sub-part marks shown in brackets ('2 1', '1') were printed in the margin; total of 4(2+1+1) taken from the section header"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) (i) Due to combined effect of the inductive effect, solvation effect and steric hinderance of the alkyl group.\n(ii) A = CH3NH2, B = CH3NHCOC6H5\n(b) CH3CH2NHCH3 / N-Methylethanamine\nOR\n(b) [conversion of aniline to benzonitrile – reaction scheme is an image in the marking scheme, not extracted]\n(c) The nitration reaction can be controlled and the p-nitro derivative can be obtained as the major product / To prevent the formation of anilinium ion which is meta directing."
+      },
+      "chapter": "amines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The Valence Bond Theory (VBT) explains the formation, magnetic behaviour and geometry of coordination compounds. The Crystal Field Theory (CFT) of coordination compounds is based on the effect of different crystal fields (provided by the ligands taken as point charges), on the degeneracy of d-orbital energies of the central metal atom/ion. The splitting of the d-orbitals provides different electronic arrangements in strong and weak crystal fields.\nAnswer the following questions :\n(a) In octahedral crystal field, energies of which d-orbitals will be raised when ligands approach the central metal atom/ion ? Give reason in support of your answer.\n(b) Using crystal field theory, write the electronic configuration of central metal atom/ion of the following :\n(i) [CoF6]3–\n(ii) [Co(NH3)6]3+ [At. No. : Co = 27]\n(c) [NiCl4]2– is paramagnetic while [Ni(CO)4] is diamagnetic though both are tetrahedral. Why ? [Atomic No. : Ni = 28]\nOR\n(c) Write hybridization and magnetic behaviour of the complex [Fe(CN)6]3–. [Atomic No. : Fe = 26]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts flattened: [CoF6]3–, [Co(NH3)6]3+, [NiCl4]2–, [Ni(CO)4], [Fe(CN)6]3–"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) dx²–y² and dz² orbitals. In octahedral crystal field, ligands approach the metal atom/ion along the axis, due to which dx²–y² and dz² orbitals experience more repulsion (their energies are raised).\n(b) (i) [CoF6]3–: Co3+ = 3d6\n(ii) [Co(NH3)6]3+: Co3+ = 3d6\n(c) In [NiCl4]2–, Cl– is a weak field ligand and does not pair up the unpaired electrons in the 3d-orbital, hence paramagnetic. In [Ni(CO)4], CO being a strong field ligand pairs up the unpaired electrons, hence diamagnetic.\nOR\n(c) Hybridisation – d2sp3. Magnetic behaviour: Paramagnetic."
+      },
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(a)",
+      "choiceGroup": "31",
+      "page": 19,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) An organic compound (X) has the molecular formula C5H10O. Draw structures for (X) if it :\n(I) does not give Tollen’s test but gives a positive iodoform test.\n(II) does not give Tollen’s test and iodoform test but undergoes Aldol condensation.\n(III) undergoes Cannizzaro’s reaction.\n(ii) Show how each of the following compounds can be converted to benzoic acid :\n(I) Acetophenone\n(II) Ethyl benzene",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: C5H10O",
+        "Marks printed as '3 + 2' for (i) and (ii)",
+        "Official answer for 31(a) (structures and conversion reactions) is entirely images/equations in the marking scheme, not present in the text layer"
+      ],
+      "confidence": "HIGH",
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(b)",
+      "choiceGroup": "31",
+      "page": 21,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Draw structure of the 2, 4-dinitrophenylhydrazone derivative of benzaldehyde.\n(ii) Arrange the following in increasing order of their reactivity towards HCN :\nDi-tert. butyl ketone, Acetaldehyde, Acetone\n(iii) Give a simple chemical test to distinguish between benzoic acid and ethyl benzoate.\n(iv) Write the name of the reagent to convert Ethanenitrile to Ethanal.\n(v) Draw the structure of ‘X’ in the following reaction :\n[starting compound] –(CrO3)→ ‘X’",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Starting compound structure for part (v) (before CrO3 oxidation) on page 21 is a drawn structure/image, not reproduced in the text layer; the question cannot be fully answered without it",
+        "Subscript flattened: CrO3",
+        "Marks printed as '5 x 1'"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(ii) Di-tert-butyl ketone < Acetone < Acetaldehyde\n(iii) Add NaHCO3 to both; benzoic acid will give a brisk effervescence while ethyl benzoate will not.\n(iv) (I) DIBAL-H, then H3O+ / (I) SnCl2-HCl, then H3O+\n(i) and (v): structural formulas – images in the marking scheme, not extracted"
+      },
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": "(a)",
+      "choiceGroup": "32",
+      "page": 21,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) From the given data of E° values, answer the following questions :\nE°(M2+/M) (V) – Cr, Mn, Fe, Co, Ni, Cu : –1.18, –0.91, –1.18, –0.44, –0.28, –0.25, +0.34\n(I) Why does E°(M2+/M) show irregular trend in the above values ?\n(II) Why is E°(Cu2+/Cu) value exceptionally positive ?\n(III) Why is E°(Mn2+/Mn) value highly negative ?\n(ii) Write the ionic equations for the oxidising action of potassium permanganate for its reaction with I– in both acidic and alkaline solutions.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The E°(M2+/M) data table lists 6 element labels (Cr, Mn, Fe, Co, Ni, Cu) but 7 numeric values in the extracted text layer; the alignment between elements and values is uncertain – see PDF page 21",
+        "Subscripts/superscripts flattened throughout"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) (I) Due to the irregular variation of ionisation enthalpies (ΔiH1+ΔiH2) and sublimation enthalpies.\n(II) Due to low ΔhydH° and high ΔaH° of Cu.\n(III) Because Mn2+ is highly stable due to half-filled 3d5 configuration.\n(ii) [ionic equations for KMnO4 oxidation of I– in acidic and alkaline media – coefficients/charges scrambled across lines in extraction, not reliably reconstructable; see marking scheme page 7]"
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": "(b)",
+      "choiceGroup": "32",
+      "page": 23,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Name a member of the lanthanoid series :\n(I) which exhibits +4 oxidation state\n(II) which exhibits +2 oxidation state.\n(ii) Why do transition metals act as good catalysts ?\n(iii) Why does Cr have a higher melting point than Mn ?\n(iv) What happens when an acidic solution of potassium permanganate is allowed to stand for some time ? Give the equation involved. What is this type of reaction called ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marks printed as '1 + 1 + 1 + 2'"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) (I) Cerium\n(II) Europium / Ytterbium (or any other correct example)\n(ii) Because of their ability to show multiple oxidation states / complex formation / due to large surface area.\n(iii) Involvement of a greater number of electrons from (n-1)d and ns orbitals in interatomic metallic bonding.\n(iv) [decomposition equation not present in text layer – image] Redox reaction (disproportionation)."
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(a)",
+      "choiceGroup": "33",
+      "page": 23,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Calculate emf and ΔG for the following cell at 298 K :\nMg(s) / Mg2+(0.01 M) // Ag+(0.001 M) / Ag(s)\nGiven : E°(Mg2+/Mg) = –2.37 V, E°(Ag+/Ag) = +0.80 V\n[1 F = 96500 C mol–1, log 10 = 1]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts flattened: Mg2+, Ag+",
+        "Official answer (emf and ΔG calculation) is entirely equations/images in the marking scheme, not present in the text layer"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(b)",
+      "choiceGroup": "33",
+      "page": 23,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "For the reaction :\n2AgCl(s) + H2(g) (0.4 atm) → 2Ag(s) + 2H+(0.1 M) + 2Cl–(0.2 M)\nCalculate emf of the cell at 25°C.\nGiven : ΔG = –43500 J mol–1\n[log 10 = 1, 1 F = 96500 C mol–1]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts flattened: H2(g), H+, Cl–",
+        "Official answer (emf calculation) is entirely equations/images in the marking scheme, not present in the text layer"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

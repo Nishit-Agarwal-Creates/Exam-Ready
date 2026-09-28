@@ -15,6 +15,7 @@ const COLUMNS = [
     links: [
       { href: "/icse", label: "ICSE and ISC" },
       { href: "/cbse", label: "CBSE" },
+      { href: "/pyq", label: "Previous-year questions" },
       { href: "/pyqs", label: "PYQ explorer" },
     ],
   },
@@ -23,6 +24,7 @@ const COLUMNS = [
     links: [
       { href: "/how-it-works", label: "How it works" },
       { href: "/sources", label: "Question sources" },
+      { href: "/coverage", label: "Coverage" },
       { href: "/search", label: "Search" },
       { href: "/admin", label: "Admin sign-in" },
     ],
@@ -58,7 +60,7 @@ export function SiteFooter() {
       <div className="border-t border-rule">
         <div className="container-page flex flex-col gap-2 py-5 text-sm text-pencil sm:flex-row sm:justify-between">
           <p>© {new Date().getFullYear()} ExamReady. Not affiliated with CISCE, CBSE or any examination board.</p>
-          <p>Demo and AI practice questions are labelled wherever they appear.</p>
+          <p>Every question is stamped with where it came from. AI practice is never presented as a previous-year question.</p>
         </div>
       </div>
     </footer>

@@ -1,0 +1,976 @@
+{
+  "source": {
+    "key": "cbse-2025-xii-physics-55-4-1",
+    "title": "CBSE Senior School Certificate Examination 2025, Physics (042), Q.P. Code 55/4/1",
+    "board": "cbse",
+    "class": 12,
+    "subject": "physics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Central Board of Secondary Education",
+    "paperType": "BOARD_EXAM",
+    "examYear": 2025,
+    "session": null,
+    "paperName": "Physics (042)",
+    "paperCode": "55/4/1",
+    "setCode": "SET-1",
+    "seriesCode": "X4YZW",
+    "language": "English (from a bilingual Hindi/English paper)",
+    "sourceUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2025/XII/PHYSICS.zip",
+    "sourceFile": "PHYSICS/55-4-1_Physics.pdf",
+    "answerSourceUrl": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2025/XII/Physics.zip",
+    "answerSourceFile": "Physics/042 Physics English Medium/XII_042_Physics_MS_55_4_1,2,3.pdf",
+    "fileType": "pdf",
+    "pageCount": 31,
+    "sha256": "928351c9f65e16076f5af205068c7daee3ce0c434f5b5f70a43331efddec823f",
+    "maxMarks": 70,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "notes": "Paper prints: Series X4YZW, 'SET ~ 1' (text layer; stored as SET-1), Q.P. Code 55/4/1, Maximum Marks 70, Time allowed 3 hours, 33 questions in 5 sections (A: Q1-16 MCQ 1 mark; B: Q17-21 VSA 2 marks; C: Q22-28 SA 3 marks; D: Q29-30 Case Study 4 marks; E: Q31-33 LA 5 marks). No overall choice; internal choice provided in some questions in all sections except A. Session is not printed on the paper. The paper is bilingual: within the QP.zip archive, Q.P. Codes 55/1/1, 55/1/2, 55/1/3, 55/2/1, 55/2/2 and 55/2/3 (checked in that Q.P.-code order, the order they appear in the official zip) all extract to an EMPTY text layer with pdftotext (scanned/image-only pages; 0 non-whitespace characters across all pages) and were SKIPPED per instructions. Q.P. Code 55/4/1 is the first code in the archive with a usable text layer and was used for this pack. Within 55/4/1's own PDF, English and Hindi text alternate by page (Hindi on odd pages, English on even pages, except the cover/instructions on pages 1-2 which are Hindi and page 3 which is the English general instructions); the 'page' field on each question below is the PDF page (1-based) carrying that question's English text. A recurring extraction problem specific to this PDF (beyond the usual dropped Greek letters/degree/ohm signs seen in other CBSE packs) is that a number of MCQ options and even some question-stem clauses are rendered as embedded vector/image glyphs with NO text at all (not even digits) - this affects option (B)-(D) of Q6, and large parts of the Section D case-study MCQ options (Q29 sub-parts (i)-(iii) and (iv)(a); Q30 sub-parts (i)-(ii) and (iv)(a)); in several other places a clause or short phrase is missing outright (e.g. the opening sentence of Q21, the question stem of Q24, part of the Q29 case-study introduction, a physical-quantity word in Q30(iv)(a), the refractive index value in Q33(a)(ii)). Each such loss is flagged per-question in extractionIssues; nothing was invented to fill these gaps. The official marking scheme (XII_042_Physics_MS_55_4_1,2,3.pdf, matching Q.P. Code 55/4/1 in its first ~20-page section, inside 'Physics/042 Physics English Medium/' of the marking-scheme archive) DOES have a usable text layer and was used to source officialAnswer for every question/part; its own text also has some symbol/formula losses (flagged per question where they affect the officialAnswer).",
+    "usage": "Official CBSE publication, freely available on cbse.gov.in; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A body acquires charge 8·0 × 10⁻¹² C. The mass of the body :",
+      "options": [
+        "increases by 4·5 × 10⁻⁷ kg",
+        "decreases by 1·0 × 10⁻⁶ kg",
+        "decreases by 4·55 × 10⁻²³ kg",
+        "increases by 9·1 × 10⁻²³ kg"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (negative powers of ten, e.g. '10 12' → '10⁻¹²'); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(C) decreases by 4.55×10⁻²³ kg",
+        "correctOption": 2
+      },
+      "chapter": "electric-charges-and-fields",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A current flows through a cylindrical conductor of radius R. The current density at a point in the conductor is j = r (along its axis), here is a constant and r is distance from the axis of the conductor. The current flowing through the portion of the conductor from r = 0 to r = is proportional to :",
+      "options": [
+        "R",
+        "R²",
+        "R³",
+        "R⁴"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Greek letter α (the proportionality constant in 'j = αr') not extracted; appears as a blank before 'is a constant'; see page 5",
+        "Upper integration limit 'R' missing after the second 'r =' ('from r = 0 to r = is proportional'; almost certainly 'r = 0 to r = R'); see page 5",
+        "Notation rebuilt from the PDF layout (powers of R in the options, confirmed unambiguous against the marking scheme's own 'R³' answer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(C) R³",
+        "correctOption": 2
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A particle having charge +q enters a uniform magnetic field as shown in the figure. The particle will describe :",
+      "options": [
+        "a circular path in XZ plane",
+        "a semicircular path in XY plane",
+        "a helical path with its axis parallel to Y-axis",
+        "a semicircular path in YZ plane"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure showing the field/axis orientation on page 5 not reproduced; the question cannot be answered without it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(B) a semicircular path in XY plane",
+        "correctOption": 1
+      },
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A bar magnet is initially at right angles to a uniform magnetic field. The magnet is rotated till the torque acting on it becomes one-half of its initial value. The angle through which the bar magnet is rotated is :",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "75°"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Degree symbol (°) not extracted after each option value; rebuilt as 30°, 45°, 60°, 75°; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(C) 60°",
+        "correctOption": 2
+      },
+      "chapter": "magnetism-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which one out of the following materials is not paramagnetic ?",
+      "options": [
+        "Aluminium",
+        "Sodium Chloride",
+        "Calcium",
+        "Copper Chloride"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) Sodium Chloride",
+        "correctOption": 1
+      },
+      "chapter": "magnetism-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "An ammeter connected in series in an ac circuit reads 10 A. The maximum value of current at any instant in the circuit is :",
+      "options": [
+        "10 2 A",
+        "A",
+        "A",
+        "A"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Option (A) almost certainly reads '10√2 A' with the square-root symbol lost; kept as extracted ('10 2 A')",
+        "Options (B)-(D) render as embedded image/vector glyphs in the source PDF with NO text extracted at all (only the unit 'A' recovered, with no numeric coefficient); their values could not be recovered; question cannot be reliably answered from the extracted text without checking the PDF, page 7"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(A) 10√2 A",
+        "correctOption": 0
+      },
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The amplitude of electric field in an electromagnetic wave in free space is 1000 Vm⁻¹. The amplitude of the magnetic field in this electromagnetic wave is :",
+      "options": [
+        "3·0 × 10⁻³ T",
+        "3·33 × 10⁻⁸ T",
+        "3·0 × 10¹¹ T",
+        "3·33 × 10⁻⁶ T"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (negative powers of ten); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(D) 3.33×10⁻⁶ T",
+        "correctOption": 3
+      },
+      "chapter": "electromagnetic-waves",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The magnification produced by a spherical mirror is 2·0. The mirror used and the nature of the image formed will be",
+      "options": [
+        "Convex and virtual",
+        "Concave and real",
+        "Concave and virtual",
+        "Convex and real"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) Concave and real",
+        "correctOption": 1
+      },
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct statement :",
+      "options": [
+        "Photons of light show diffraction whereas electrons do not show diffraction.",
+        "Electrons have momentum whereas photons do not have momentum.",
+        "Photons of light and electrons both exhibit dual nature.",
+        "All electromagnetic radiations do not have photons."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) Photons of light and electrons both exhibit dual nature",
+        "correctOption": 2
+      },
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A beam of red light and a beam of blue light have equal intensities. Which of the following statements is true ?",
+      "options": [
+        "The blue beam has more number of photons than the red beam.",
+        "The red beam has more number of photons than the blue beam.",
+        "Wavelength of red light is lesser than wavelength of blue light.",
+        "The blue light beam has lesser energy per photon than that in the red light beam."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) The red beam has more numbers of photons than the blue beam",
+        "correctOption": 1
+      },
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following is an electrical conductor at room temperature ?",
+      "options": [
+        "Sn",
+        "Mica",
+        "Si",
+        "C"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) Sn",
+        "correctOption": 0
+      },
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A long straight wire is held vertically and carries a steady current in upward direction. The shape of magnetic field lines produced by the current-carrying wire are :",
+      "options": [
+        "horizontal straight lines directed radially out from the wire.",
+        "straight lines parallel to the current-carrying wire.",
+        "concentric horizonal circles around the wire.",
+        "coaxial helixes around the wire."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "'horizonal' in option (C) is a typo printed in the source PDF (for 'horizontal'); reproduced verbatim as printed"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) Concentric horizontal circles around the wire",
+        "correctOption": 2
+      },
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : n-type semiconductor is not negatively charged.\nReason (R) : Neutral pentavalent impurity atom doped in intrinsic semiconductor (neutral) donates its fifth unpaired electron to the crystal lattice and becomes a positive donor.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Both Assertion (A) and Reason (R) are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion-Reason answer codes are printed once on page 11 before Questions 13-16"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A)",
+        "correctOption": 0
+      },
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : A series LCR circuit behaves as a pure resistive circuit at resonance.\nReason (R) : At resonance, XL = XC gives = .",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Both Assertion (A) and Reason (R) are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion-Reason answer codes are printed once on page 11 before Questions 13-16",
+        "Reason (R) ends with 'XL = XC gives = .'; the final equality (almost certainly 'ω = 1/√(LC)' or similar) is not extracted; see page 11"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A)",
+        "correctOption": 0
+      },
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : In double slit experiment if one slit is closed, diffraction pattern due to the other slit will appear on the screen.\nReason (R) : For interference, at least two waves are required.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Both Assertion (A) and Reason (R) are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion-Reason answer codes are printed once on page 11 before Questions 13-16"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) Assertion (A) is true but Reason (R) is false",
+        "correctOption": 2
+      },
+      "chapter": "wave-optics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": "Multiple Choice (MCQ)",
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : For monochromatic incident radiation, the emitted photoelectrons from a given metal have speed ranging from zero to a certain maximum value.\nReason (R) : Each metal has a definite work function.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Both Assertion (A) and Reason (R) are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion-Reason answer codes are printed once on page 11 before Questions 13-16"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) Both Assertion (A) and Reason (R) are true but reason (R) is not the correct explanation of the Assertion (A)",
+        "correctOption": 1
+      },
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(a)",
+      "choiceGroup": "17",
+      "page": 13,
+      "section": "B",
+      "sectionTitle": "Very Short Answer (VSA)",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "In the given figure, three identical bulbs P, Q and S are connected to a battery.\n(i) Compare the brightness of bulbs P and Q with that of bulb S when key K is closed.\n(ii) Compare the brightness of the bulbs S and Q when the key K is opened.\nJustify your answer in both cases.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Circuit figure (bulbs P, Q, S and battery with key K) on page 13 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) Brightness of bulb 'S' will be more than bulbs 'P' and 'Q'; the current through 'S' is twice the current through 'P' and 'Q'. (ii) Brightness of 'S' and 'Q' will be the same; the current through both bulbs is the same. [Alternatively, argued via potential difference: p.d. across 'S' is twice that across 'P'/'Q'; p.d. across 'S' and 'Q' is the same.]"
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(b)",
+      "choiceGroup": "17",
+      "page": 13,
+      "section": "B",
+      "sectionTitle": "Very Short Answer (VSA)",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Two cells of emf 10 V each, two resistors of 20 Ω and 10 Ω and a bulb B of 10 Ω resistance are connected together as shown in the figure. Find the current that flows through the bulb.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Ohm symbol (Ω) not extracted after the resistor values (20, 10, 10); rebuilt as 20 Ω, 10 Ω, 10 Ω; check against the PDF",
+        "Circuit figure on page 13 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "By Kirchhoff's loop rule on closed loops ABCFA and FCDEF: 2I₁ − 3I₂ = 1 …(1); I₁ + I₂ = 1 …(2). On solving, current through the bulb, I₂ = 1/5 A."
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": "Very Short Answer (VSA)",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Find the angle of diffraction (in degrees) for first secondary maximum of the pattern due to diffraction at a single slit. The width of the slit and wavelength of light used are 0·55 mm and 550 nm, respectively.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "θ = (2n+1)λ/2a; for the first secondary maximum n = 1, θ = 3λ/2a = (3 × 550×10⁻⁹)/(2 × 0.55×10⁻³); θ = 1.5×10⁻³ radian ≈ 0.086°."
+      },
+      "chapter": "wave-optics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": "Very Short Answer (VSA)",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "An equiconvex lens is made of glass of refractive index 1·55. If the focal length of the lens is 15·0 cm, calculate the radius of curvature of its surfaces.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "1/f = (n₂₁ − 1)(1/R₁ − 1/R₂); for an equiconvex lens R₁ = R and R₂ = −R; 1/15 = (1.55 − 1)(2/R); R = 16.5 cm."
+      },
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": "Very Short Answer (VSA)",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Calculate the mass of an alpha-particle in atomic mass unit (u). Given, mass of a normal helium atom = 4·002603 u; mass of carbon atom = 1·9926 × 10⁻²⁶ kg.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (negative power of ten '10 26' → '10⁻²⁶'); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "1 u = (1/12) × mass of carbon atom = 1.9926×10⁻²⁶/12 kg ≈ 1.661×10⁻²⁷ kg; mass of two electrons = 2 × 9.1×10⁻³¹ kg = 0.00109638 u; mass of α-particle = mass of normal helium atom − mass of two electrons = 4.0026030 − 0.00109638 = 4.00150662 u."
+      },
+      "chapter": "nuclei",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": "Very Short Answer (VSA)",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "8 m⁻³. On doping with impurity atoms, the hole concentration becomes 8 × 10¹² m⁻³.\n(a) Identify (i) the type of dopant and (ii) the extrinsic semiconductor so formed.\n(b) Calculate the electron concentration in the extrinsic semiconductor.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The opening clause of the question is missing from extraction; per the marking scheme it gives the intrinsic-semiconductor electron concentration as ni = 5 × 10⁸ m⁻³, but only a fragment ('8 m⁻³.') survives in the text layer; see page 15"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a)(i) Trivalent dopant. (ii) p-type semiconductor. (b) Electron concentration nₑ = nᵢ²/nₕ = (5×10⁸)²/(8×10¹²); nₑ = 3.125×10⁴ m⁻³."
+      },
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": "(a)",
+      "choiceGroup": "22",
+      "page": 15,
+      "section": "C",
+      "sectionTitle": "Short Answer (SA)",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(i) Derive an expression for the resistivity of a conductor in terms of number density of free electrons and relaxation time.\n(ii) The figure shows the plot of current through a cross-section of wire over two different time intervals. Compare the charges (Q1 and Q2) that pass through the cross-section during these time intervals.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Current-vs-time graph on page 15 not reproduced; part (ii) cannot be answered without it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) ρ = m/(ne²τ), derived from I = neAv_d with v_d = eEτ/m, giving J = ne²Eτ/m = E/ρ. (ii) From the graph, Q₁ = area under the I-t graph over the first interval (rectangle), Q₂ = area over the second interval (triangle); per the marking scheme Q₁ ≠ Q₂ [exact comparison figures garbled in the scheme's extracted text; see extractionIssues]."
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": "(b)",
+      "choiceGroup": "22",
+      "page": 15,
+      "section": "C",
+      "sectionTitle": "Short Answer (SA)",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(i) A battery of emf E and internal resistance r is connected to a variable external resistance R.\n(I) Obtain the expression for current I in the circuit and the value of maximum current the battery can supply.\n(II) Obtain the terminal voltage V across the battery and its maximum possible value.\n(ii) The above battery sends a current I1 when R = R1 and a current I2 when R = R2. Obtain the internal resistance of the battery in terms of I1, I2, R1 and R2.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i)(I) I = E/(R+r); for maximum current, R = 0, so I_max = E/r. (II) V = E − Ir; V_max = E, when I = 0. (ii) I₁R₁ + I₁r = I₂R₂ + I₂r, so r = (I₂R₂ − I₁R₁)/(I₁ − I₂)."
+      },
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "C",
+      "sectionTitle": "Short Answer (SA)",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "(a) Write vector form of Biot-Savart law.\n(b) Two insulated long straight wires, each carrying 2·0 A current are kept along xx' and yy' axis as shown in the figure. Find the magnitude and direction of resultant magnetic field at point P (4m, 5m).",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (wires along xx' and yy' axes, point P) on page 17 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) d𝐁 = (μ₀ I (d𝐥 × r̂))/(4π r²). (b) B₁ (due to wire along xx', at perpendicular distance 5) = μ₀·2·2×10⁻⁷/5 = 8×10⁻⁸ T; B₂ (due to wire along yy', at perpendicular distance 4) = μ₀·2·2×10⁻⁷/4 = 10×10⁻⁸ T; Bnet = B₂ − B₁ = 2×10⁻⁸ T, directed along the −Z axis."
+      },
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "C",
+      "sectionTitle": "Short Answer (SA)",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "situations, justifying your answers :\nCoil 2 Coil 1\n(a)\n(b)\n(c)\ncoils stationary.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "The question stem is almost entirely missing from the text layer: only the trailing phrase 'situations, justifying your answers :' survives before the figure/option labels. Per the marking scheme, the question shows two coils (Coil 1 and Coil 2, the latter connected to a galvanometer/ammeter) and asks for the direction of the induced current in Coil 1 for three situations: (a) Coil 2 moving towards Coil 1, (b) Coil 2 moving away from Coil 1, (c) the resistance in Coil 2's circuit being increased while both coils are stationary. None of this appears in the extracted question text or option labels (a)/(b)/(c), which are blank; see page 17. Nothing has been invented to fill the gap."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Coil 2 moving towards Coil 1: induced current in Coil 1 is clockwise (the approaching face of Coil 2 behaves like a south pole, so Coil 1's near face becomes a south pole too, opposing it). (b) Coil 2 moving away: induced current in Coil 1 is anticlockwise. (c) Resistance in Coil 2 increased, both coils stationary: induced current in Coil 1 is anticlockwise while the flux is decreasing, then zero once steady."
+      },
+      "chapter": "electromagnetic-induction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "C",
+      "sectionTitle": "Short Answer (SA)",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(a) State any three characteristics of electromagnetic waves.\n(b) Briefly explain how and where the displacement current exists during the charging of a capacitor.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Any three: EM waves carry energy; carry momentum; travel at the speed of light in vacuum; E, B and the direction of propagation are mutually perpendicular; they are transverse in nature; they need no medium to propagate; they consist of oscillating electric and magnetic fields. (b) During charging of a capacitor, the time-varying electric field/flux between the plates induces the displacement current, which exists in the region between the plates of the capacitor."
+      },
+      "chapter": "electromagnetic-waves",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "C",
+      "sectionTitle": "Short Answer (SA)",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A double slit set-up was initially placed in a tank filled with water and the interference pattern was obtained using a laser light. When water is replaced by a transparent liquid of refractive index n > n(water), what will be the effect on the following ?\n(a) Speed, frequency and wavelength of the light of laser beam.\n(b) The fringe width, shape of interference fringes and shift in the position of central maximum.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscript flattened: 'nwater' (refractive index of water, printed as a subscript) reproduced as 'n(water)'; see page 17"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Speed of light decreases; frequency remains unaffected; wavelength decreases. (b) Fringe width decreases; shape of the fringes does not change; position of the central maximum does not change."
+      },
+      "chapter": "wave-optics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "C",
+      "sectionTitle": "Short Answer (SA)",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain the following observations using\n(a) Photoelectric emission does not occur from a surface when the frequency of the light incident on it is less than a certain minimum value.\n(b) It is the frequency, and not the intensity of the incident light which affects the maximum kinetic energy of the photoelectrons.\n(c) The cut-off voltage (Vo) versus frequency (v) of the incident light curve is a straight line with a slope .",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Words after 'using' (almost certainly 'Einstein's photoelectric equation.') not extracted; see page 19",
+        "Slope value at the end of part (c) (almost certainly 'h/e') not extracted; see page 19"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Einstein's equation: hν = hν₀ + K_max ⇒ K_max = h(ν − ν₀); for ν < ν₀, K_max would be negative, so photoelectric emission is not possible. (b) K_max = h(ν − ν₀) ⇒ K_max depends only on frequency, not on intensity. (c) eV₀ = hν − hν₀ ⇒ V₀ = (h/e)ν − (h/e)ν₀, the equation of a straight line (y = mx + c) with slope h/e."
+      },
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "C",
+      "sectionTitle": "Short Answer (SA)",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(a) What are majority and minority charge carriers of p-type and n-type semiconductors ?\n(b) Explain briefly the formation of diffusion current and drift current in a p-n junction diode.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) p-type: majority carriers – holes, minority carriers – electrons. n-type: majority carriers – electrons, minority carriers – holes. (b) Diffusion current: due to the concentration gradient across the junction, holes diffuse from the p-side to the n-side and electrons diffuse from the n-side to the p-side. Drift current: due to the electric field at the junction, electrons on the p-side move to the n-side and holes on the n-side move to the p-side."
+      },
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "D",
+      "sectionTitle": "Case Study-Based",
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A parallel plate capacitor consists of two conducting plates kept generally parallel to each other at a distance. When the capacitor is charged, the charge resides on the inner surfaces of the plates and an electric field is set up between them. Thus, electrostatic energy is stored in the capacitor.\nparallel and equidistant from each other. The space between P1 and P2 and P2 and P3 is completely filled with mica sheets of dielectric constant\n2 is connected to point A and other plates P1 and P3 are connected to point B. Point A is maintained at a positive potential with respect to point B and the potential difference between A and B is V.\n\n(i) The capacitance of the system between A and B will be :\n(A)\n(B)\n(C)\n(D)\n\n(ii) The charge on plate P1 is :\n(A)\n(B)\n(C)\n(D)\n\n(iii) The electric field in the region between P1 and P2 is :\n(A)\n(B)\n(C)\n(D)\n\n(iv) (a) The separation between the plates of same area (L²) of a parallel plate air capacitor having capacitance equal to that of this system, will be :\n(A)\n(B)\n(C)\n(D)\nOR\n(b) If the source of potential difference applied between A and B is removed, and then A and B are connected by a conducting wire, the net charge on the system will be :\n(A)\n(B)\n(C)\n(D) Zero",
+      "hasFigure": true,
+      "extractionIssues": [
+        "A sentence describing the physical set-up (three identical plates P1, P2, P3 of side L, placed parallel and equidistant from each other, with the dielectric constant K of the mica sheets, and which plate is connected to A) is missing between 'stored in the capacitor.' and 'parallel and equidistant from each other.'; only fragments survive; see page 19",
+        "Figure showing the three-plate arrangement (P1, P2, P3) not reproduced",
+        "Options (A)-(D) for sub-parts (i), (ii), (iii) and (iv)(a) render as embedded image/vector glyphs in the source PDF with NO text extracted at all; only option (D) 'Zero' of sub-part (iv)(b) survived as text; see pages 19-21. The question cannot be answered from the extracted text without checking the PDF.",
+        "Internal choice ('OR') in sub-part (iv) is kept inline within this case-based question's text, not split into a separate entry, as it applies to only one of the four sub-parts"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) (C) C = 2ε₀KL²/d\n(ii) (B) Charge on P1 = ε₀VKL²/d\n(iii) (A) E = V/d\n(iv)(a) (C) d/2K\nOR\n(iv)(b) (D) Zero"
+      },
+      "chapter": "electrostatic-potential-and-capacitance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "D",
+      "sectionTitle": "Case Study-Based",
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A hydrogen atom consists of an electron revolving in a circular orbit of radius r with certain velocity v around a proton located at the nucleus of the atom. The electrostatic force of attraction between the revolving electron and the proton provides the requisite centripetal force to keep it in certain stable orbits. The angular momentum of the electron in these orbits is some integral multiple of\nFurther, when an electron makes a transition from one orbit of higher energy to that of lower energy, a photon is emitted having energy equal to the difference between energies of the initial and final states. Assuming the mass and charge of an electron as m and e respectively, answer the following questions.\n\n(i) The expression for the speed of electron v in terms of radius of the orbit (r) and physical constant (K = ) is :\n(A)\n(B)\n(C)\n(D)\n\n(ii) The total energy of the atom in terms of r and physical constant K is :\n(A)\n(B)\n(C)\n(D)\n\n(iii) A photon of wavelength 500 nm is emitted when an electron makes a transition from one state to the other state in an atom. The change in the total energy of the electron and change in its kinetic energy respectively (in eV) are :\n(A) 2·48, 2·48\n(B) 1·24, 1·24\n(C) 2·48, 2·48\n(D) 1·24, 1·24\n\n(iv) (a) of electron in its nth orbit is proportional to :\n(A) n\n(B)\n(C)\n(D)\nOR\n(b) An electron makes a transition from 3·4 eV state to the ground state in hydrogen atom. Its radius of orbit changes by : (radius of orbit of electron in ground state = 0·53 Å)\n(A) 0·53 Å\n(B) 1·06 Å\n(C) 1·59 Å\n(D) 2·12 Å",
+      "hasFigure": false,
+      "extractionIssues": [
+        "'Some integral multiple of' is followed by a blank where 'h/2π' (the angular-momentum quantisation constant) should be; not extracted; see page 23",
+        "The physical quantity being asked about in sub-part (iv)(a) (a word such as 'frequency of revolution', immediately before 'of electron in its nth orbit is proportional to') is not extracted; see page 25",
+        "Options (A)-(D) for sub-parts (i), (ii) and (iv)(a) render as embedded image/vector glyphs with NO text extracted at all; see pages 23-25",
+        "The four numeric options in sub-part (iii) all print as '2·48, 2·48' / '1·24, 1·24' pairs; the +/- signs that must distinguish the four options are not extracted; kept as extracted; see pages 23-25",
+        "Internal choice ('OR') in sub-part (iv) is kept inline within this case-based question's text, not split into a separate entry, as it applies to only one of the four sub-parts"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) (C) v = √(Ke²/mr) [square-root symbol lost in the scheme's own extraction; kept as 'Ke²/mr']\n(ii) (B) Total energy = −Ke²/2r\n(iii) (C) −2.48 eV, 2.48 eV\n(iv)(a) (D) [value garbled in the scheme's extraction, appears as '3' over 'n'; official answer partly missing/garbled — see extractionIssues]\nOR\n(iv)(b) (C) 1.59 Å"
+      },
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(a)",
+      "choiceGroup": "31",
+      "page": 25,
+      "section": "E",
+      "sectionTitle": "Long Answer (LA)",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Two point charges +q and –q are held at (a, 0) and (–a, 0) in x-y plane. Obtain an expression for the net electric field due to the charges at a point (0, y). Hence, find electric field at a far off point (y >> a).\n(ii) Three point charges of –2 nC, –1 nC, and +5 nC are kept at the vertices A, B and C of an equilateral triangle of side 0·2 m. Find the total amount of work done in shifting the charges from A to A1, B to B1 and C to C1. Here A1, B1 and C1 are the midpoints of sides AB, BC and CA, respectively.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) E = −(2qa)/(4πε₀(y²+a²)^(3/2)) p̂, directed opposite to the dipole moment; at a far-off point (y >> a), E ≈ −(2qa)/(4πε₀y³) p̂. (ii) U₁ = (1/4πε₀)[qAqB/AB + qCqA/AC + qCqB/BC] = −5.85×10⁻⁷ J; U₂ (with A1, B1, C1 as midpoints) = −11.7×10⁻⁷ J; W = U₂ − U₁ = −5.85×10⁻⁷ J."
+      },
+      "chapter": "electric-charges-and-fields",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(b)",
+      "choiceGroup": "31",
+      "page": 27,
+      "section": "E",
+      "sectionTitle": "Long Answer (LA)",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) law. Using it, derive an expression for the electric field due to a uniformly charged thin spherical shell of radius r at a point at a distance y from the centre of the shell such that (I) y > r, and (II) y < r.\n(ii) A point charge of +2 nC is kept at the origin of a three-dimensional coordinate system. Find the type and magnitude of the charge which should be kept at (0, 0, 6m) so that the potential due to the system becomes zero at (0, 0, 2m).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Beginning of part (i) is missing (almost certainly 'Show that Gauss's theorem is consistent with Coulomb's', of which only the trailing word 'law.' survives); see page 27"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) Gauss's theorem is based on the inverse-square dependence contained in Coulomb's law; ∮E·ds = q/ε₀ ⇒ E = q/(4πε₀r²), and force on q₀ in this field F = qq₀/(4πε₀r²) matches Coulomb's law. (I) For y > r: E(4πy²) = σ4πr²/ε₀ ⇒ E = q/(4πε₀y²) r̂. (II) For y < r: charge enclosed = 0 ⇒ E = 0. (ii) Let charge at (0,0,6m) be q. V at (0,0,2m): V = (1/4πε₀)[2×10⁻⁹/2 + q/6] = 0 ⇒ q = −8×10⁻⁹ C."
+      },
+      "chapter": "electric-charges-and-fields",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": "(a)",
+      "choiceGroup": "32",
+      "page": 27,
+      "section": "E",
+      "sectionTitle": "Long Answer (LA)",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) of conservation of energy principle.\n(ii) A square shaped loop of side is initially lying outside a region of uniform magnetic field as shown in the figure. The loop is moved towards right with a constant velocity till it goes out of the region of magnetic field.\n(I) What will be the directions of induced current when the loop enters the field and when it leaves the field ?\n(II) Draw the plots showing the variation of magnetic flux linked with the loop with time t and variation of induced emf E with time t. Mark the relevant values of E, and t on the graphs.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Beginning of part (i) is missing (almost certainly 'State Lenz's law and show that it is a consequence'); only the trailing phrase 'of conservation of energy principle.' survives; see page 27",
+        "Side length of the square loop (a number) not extracted after 'square shaped loop of side'; see page 27",
+        "Figure showing the loop and the field region on page 27 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) Lenz's law: the polarity of the induced emf is such that it opposes the change in magnetic flux that produces it; this is consistent with conservation of energy since mechanical work done to move the magnet/loop converts into electrical energy. (ii)(I) Induced current is anticlockwise while the loop enters the field and clockwise while it leaves. (II) [Graphs of flux vs t and emf vs t with marked values — not reproducible as text.]"
+      },
+      "chapter": "electromagnetic-induction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": "(b)",
+      "choiceGroup": "32",
+      "page": 29,
+      "section": "E",
+      "sectionTitle": "Long Answer (LA)",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) Differentiate between peak and rms values of alternating current. How are they related ?\n(ii) A current element X is connected across an ac source of emf V = V0 sin 2 vt. It is found that the voltage leads the current in phase by radian. If element X was replaced by element Y, the voltage lags behind the current in phase by radian.\n(I) Identify elements X and Y by drawing phasor diagrams.\n(II) Obtain the condition of resonance when both elements X and Y are connected in series to the source and obtain expression for resonant frequency. What is the impedance value in this case ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Greek letter π (angular frequency, 'V = V0 sin 2πvt') not extracted; see page 29",
+        "Phase angle values ('leads ... by radian', 'lags ... by radian', almost certainly π/2 in both cases) not extracted; see page 29"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) Peak value is the maximum value of the alternating current; rms value is the equivalent dc current that would produce the same average power/heating effect. Relation: I_rms = I₀/√2. (ii)(I) X = Inductor (L), Y = Capacitor (C). (II) Impedance Z = XL − XC; at resonance Z = 0, so XL = XC ⇒ ω = 1/√(LC), i.e. ν = 1/(2π√(LC)); impedance at resonance Z = 0."
+      },
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(a)",
+      "choiceGroup": "33",
+      "page": 29,
+      "section": "E",
+      "sectionTitle": "Long Answer (LA)",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) An object is placed 30 cm from a thin convex lens of focal length 10 cm. The lens forms a sharp image on a screen. If a thin concave lens is placed in contact with the convex lens, the sharp image on the screen is formed when the screen is moved by 45 cm from its initial position. Calculate the focal length of the concave lens.\n(ii) Calculate the angle of minimum deviation of an equilateral prism. The refractive index of the prism is . Calculate the angle of incidence for this case of minimum deviation also.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Refractive index value at the end of part (ii) ('The refractive index of the prism is .') is missing; per the marking scheme's calculation it is √3; the square-root symbol/value was not extracted; see page 29"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) For the convex lens alone: 1/f₁ = 1/v₁ − 1/u₁ ⇒ 1/10 = 1/v₁ − 1/(−30) ⇒ v₁ = 15 cm. For the combination (screen moved by 45 cm, so v₃ = 15+45 = 60 cm): 1/f₃ = 1/60 − 1/(−30) ⇒ f₃ = 20 cm. For the concave lens: 1/f₃ = 1/f₁ + 1/f₂ ⇒ 1/f₂ = 1/20 − 1/10 ⇒ f₂ = −20 cm. (ii) μ = sin((A+δm)/2)/sin(A/2); with A = 60° and μ = √3, δm = 60° and the angle of incidence i = (A+δm)/2 = 60°."
+      },
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(b)",
+      "choiceGroup": "33",
+      "page": 31,
+      "section": "E",
+      "sectionTitle": "Long Answer (LA)",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(i) A physics teacher wants to demonstrate interference with the help of double slit experiment using a laser beam of 633 nm wavelength. Since the hall is large enough, interference pattern is formed on the wall 5·0 m from the slits. For clear and comfortable view by all the students they want the fringe width 5 mm.\n(I) Find the slit separation for obtaining the desired interference pattern.\n(II) How far will the first minimum be from the central maximum ?\n(ii) A parallel beam of light of wavelength 650 nm passes through a slit of width 0·6 mm. The diffraction pattern is obtained on a screen kept 60 cm away from the slit. Find the distance between first order minima on both sides of the central maximum.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i)(I) d = Dλ/β = (5 × 633×10⁻⁹)/(5×10⁻³) = 633×10⁻⁶ m = 633 μm. (II) First minimum from central maximum, x = (2n−1)λD/2d with n=1: x = (633×10⁻⁹ × 5)/(2×5×10⁻³) = 316.5×10⁻⁶ m = 316.5 μm. (ii) Distance between first-order minima on both sides, W = 2Dλ/d = (2×650×10⁻⁹×60×10⁻²)/(0.6×10⁻³) = 1.3×10⁻³ m."
+      },
+      "chapter": "wave-optics",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

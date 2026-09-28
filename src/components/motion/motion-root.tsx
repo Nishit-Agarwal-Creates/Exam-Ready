@@ -8,6 +8,7 @@ import { useEffect } from "react";
  *  - [data-reveal]      fades/rises in when scrolled into view (IntersectionObserver)
  *  - .tilt-card         tilts toward the pointer and moves a soft highlight (--rx/--ry/--px/--py)
  *  - [data-magnetic]    buttons drift slightly toward the pointer
+ *  - [data-fx]          press feedback: "pulse" (electric ring) and/or "ripple" (ink), see globals.css
  * Everything is skipped under prefers-reduced-motion or on coarse (touch) pointers where noted.
  */
 export function MotionRoot() {
@@ -34,6 +35,56 @@ export function MotionRoot() {
     els.forEach((el) => io.observe(el));
     return () => io.disconnect();
   }, [pathname]);
+
+  // Press feedback (mouse and touch): data-fx="pulse" draws an electric ring with sparks from the
+  // press point; data-fx="ripple" spreads ink inside the element. Transient spans remove themselves.
+  useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const onDown = (e: PointerEvent) => {
+      if (e.button !== 0) return;
+      const el = (e.target as Element | null)?.closest?.<HTMLElement>("[data-fx]");
+      if (!el || el.matches(":disabled,[aria-disabled='true']")) return;
+      const kinds = (el.dataset.fx ?? "").split(" ");
+      const r = el.getBoundingClientRect();
+      const x = e.clientX - r.left;
+      const y = e.clientY - r.top;
+      if (getComputedStyle(el).position === "static") el.style.position = "relative";
+      const onNight = Boolean(el.closest(".night"));
+      if (kinds.includes("pulse")) {
+        const burst = document.createElement("span");
+        burst.className = "fx-burst";
+        burst.setAttribute("aria-hidden", "true");
+        burst.style.setProperty("--fx-x", `${x}px`);
+        burst.style.setProperty("--fx-y", `${y}px`);
+        burst.style.setProperty("--fx-size", `${Math.max(90, Math.min(220, r.width * 0.9))}px`);
+        if (!onNight) burst.style.setProperty("--fx-color", "#4f63ff");
+        for (let i = 0; i < 6; i++) {
+          const spark = document.createElement("i");
+          spark.style.setProperty("--a", `${i * 60 + ((x + y) % 40)}deg`);
+          spark.style.setProperty("--reach", `${22 + (i % 3) * 8}px`);
+          burst.appendChild(spark);
+        }
+        el.appendChild(burst);
+        setTimeout(() => burst.remove(), 650);
+      }
+      if (kinds.includes("ripple")) {
+        const layer = document.createElement("span");
+        layer.className = "fx-layer";
+        layer.setAttribute("aria-hidden", "true");
+        const ink = document.createElement("span");
+        ink.className = "fx-ink";
+        ink.style.setProperty("--fx-x", `${x}px`);
+        ink.style.setProperty("--fx-y", `${y}px`);
+        ink.style.setProperty("--fx-size", `${Math.hypot(r.width, r.height) * 2}px`);
+        if (onNight) ink.style.setProperty("--fx-color", "#6fe3ff");
+        layer.appendChild(ink);
+        el.appendChild(layer);
+        setTimeout(() => layer.remove(), 700);
+      }
+    };
+    document.addEventListener("pointerdown", onDown, { passive: true });
+    return () => document.removeEventListener("pointerdown", onDown);
+  }, []);
 
   useEffect(() => {
     const fine = window.matchMedia("(pointer: fine)").matches;

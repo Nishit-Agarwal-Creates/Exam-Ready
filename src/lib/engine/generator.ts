@@ -29,7 +29,41 @@ export type PoolQuestion = {
   groupId: number;
   /** Distinct verified exam years across the duplicate group. */
   groupYears: number;
+  /** Needs a figure or table that isn't reproduced as text. */
+  hasFigure?: boolean;
 };
+
+/** Optional builder filters, applied to the pool before a paper is estimated or generated. */
+export type PoolFilters = { types?: QuestionType[]; yearFrom?: number; yearTo?: number; excludeFigures?: boolean };
+
+/**
+ * Narrows the pool by question type, exam-year range and figures. The year range only constrains
+ * verified PYQs (other categories have no exam year and are never given one).
+ */
+export function filterPool(pool: PoolQuestion[], f: PoolFilters): PoolQuestion[] {
+  const types = f.types?.length ? new Set(f.types) : null;
+  return pool.filter((q) => {
+    if (types && !types.has(q.questionType)) return false;
+    if (f.excludeFigures && q.hasFigure) return false;
+    if (q.isRealPyq && (f.yearFrom || f.yearTo)) {
+      if (q.year === null) return false;
+      if (f.yearFrom && q.year < f.yearFrom) return false;
+      if (f.yearTo && q.year > f.yearTo) return false;
+    }
+    return true;
+  });
+}
+
+/** Plain-language summary of active filters, stored with the paper so it can explain its selection. */
+export function describeFilters(f: PoolFilters, typeNames: Record<string, string>): string | null {
+  const parts: string[] = [];
+  if (f.types?.length) parts.push(`question types: ${f.types.map((t) => typeNames[t] ?? t).join(", ")}`);
+  if (f.yearFrom && f.yearTo) parts.push(f.yearFrom === f.yearTo ? `PYQs from ${f.yearFrom}` : `PYQs from ${f.yearFrom}–${f.yearTo}`);
+  else if (f.yearFrom) parts.push(`PYQs from ${f.yearFrom} onwards`);
+  else if (f.yearTo) parts.push(`PYQs up to ${f.yearTo}`);
+  if (f.excludeFigures) parts.push("questions that need a figure left out");
+  return parts.length ? `Filters: ${parts.join("; ")}.` : null;
+}
 
 export type DifficultyPref = "MIXED" | Difficulty;
 

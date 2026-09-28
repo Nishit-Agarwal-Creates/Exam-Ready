@@ -7,7 +7,6 @@ import { PaperHeader } from "@/components/paper-header";
 import { QuestionBlock } from "@/components/question-block";
 import { getPaper } from "@/lib/data/papers";
 import { MODE_LABELS } from "@/lib/engine/generator";
-import { DEMO_LABEL } from "@/lib/provenance";
 
 export const dynamic = "force-dynamic";
 
@@ -45,8 +44,9 @@ export default async function PaperPage({ params, searchParams }: Props) {
       <div className="grid gap-8 lg:grid-cols-[1fr_20rem] lg:items-start">
         <div className="min-w-0">
           {paper.hasDemo && (
-            <p className="demo-banner no-print mb-5 px-4 py-3 font-bold">
-              {DEMO_LABEL}. This paper was built from demo questions written to show how ExamReady works. None of them are real board exam questions.
+            <p className="ai-note no-print mb-5 px-4 py-3">
+              <strong>Includes AI practice questions.</strong> They were written by AI for practice, have never appeared in an exam and are not previous-year
+              questions. Each one is stamped where it appears.
             </p>
           )}
           <article className="sheet sheet-ruled py-6 pr-4 sm:py-10 sm:pr-10">

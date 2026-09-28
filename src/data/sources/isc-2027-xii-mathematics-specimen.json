@@ -1,0 +1,1242 @@
+{
+  "source": {
+    "key": "isc-2027-xii-mathematics-specimen",
+    "title": "ISC 2027 Examination, Specimen Question Paper, Mathematics",
+    "board": "icse",
+    "class": 12,
+    "subject": "mathematics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations",
+    "paperType": "SPECIMEN",
+    "examYear": 2027,
+    "session": null,
+    "paperName": "Mathematics",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2026/08/860-MATHEMATICS-SQP-AK-1.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2026/08/860-MATHEMATICS-SQP-AK-1.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 32,
+    "sha256": "3f110da6a4e507b7357f438bc4f8e776c7a152f5dd12657d45922f5826831db7",
+    "maxMarks": 80,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes, per-page extraction",
+    "ocrUsed": false,
+    "accessedOn": "2026-09-28",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "notes": "Found via https://cisce.org/specimen-question-papers-isc-class-xii-2027/ (specimen for the ISC 2027 examination; examYear=2027 accordingly). Single PDF combines the question paper (printed pages 1-14 = physical PDF pages 1-14, confirmed by per-page pdftotext extraction of the footer text) and 'MATHEMATICS ANSWER KEY' (printed pages 1-18 = physical PDF pages 15-32); 'page' below is always the physical PDF page of the English question text, never the answer key's page. No paper code, set code or series code is printed anywhere in the text layer (only the filename contains the digits '860', CISCE's subject code, which is not printed on the document itself, so paperCode is left null per the no-guessing rule). Paper prints 'Maximum Marks: 80', 'Time Allotted: Three Hours', 'Reading Time: Additional Fifteen Minutes' (durationMinutes=180 for the writing time only), and 'It consists of twenty questions and four sections: Sections A, B, C and D... Section A consists of very short answer questions of 1 mark each... Section B ... 2 marks each... Section C ... 3 marks each... Section D ... 5 marks each... Internal choices have been provided in three questions, each in Sections B, C and D.' In the actual paper this means THREE OR-pairs per section (not three total): Section B has OR pairs at Q5, Q6, Q7; Section C at Q12, Q13, Q15; Section D at Q17, Q18, Q19 (nine OR pairs total), each given its own choiceGroup equal to the question number. Every cognitive-level tag in parentheses (e.g. '(Understand)', '(Apply)', '(Analyse)', '(Evaluate)', '(Recall)') is reproduced verbatim as printed as cognitiveLevel, capitalised exactly as printed. Two tags in Question 18 ('(Understand) [2]' and '(Evaluate) [3]' appearing twice, once for each OR branch) could not be reliably attributed to sub-part (a) vs (b) after the PDF's two-column tag/mark layout collapsed into one text stream; cognitiveLevel is omitted for both Q18 entries rather than guessed. Question 1's 20 subparts (i)-(xx) are each self-contained (their own stem, own printed [1] mark) and are kept as 20 separate entries, matching how the paper itself itemises them; items (v) and (xiv) use a 'Statement I / Statement II' two-proposition format with four truth-combination options (kept as MCQ, since the paper never labels them Assertion/Reason), while items (xvi) and (xvii) are explicitly labelled 'Assertion' / 'Reason' and are kept as ASSERTION_REASON. For every other question (Q2 onward), sub-parts that share one paragraph of scenario context, one shared diagram/graph, or one shared given function/equation (and so cannot be answered stand-alone without repeating that whole context) are kept together in a single entry, its parts and their printed per-part marks reproduced in the text, and the entry's marks set to the sum of the printed per-part marks (this always matches the printed top-level bracket, e.g. Question 17(i) parts (a)[1]+(b)[1]+(c)[2]+(d)[1]=5). Questions 2, 3, 4, 5(i), 6(i)/(ii), 7(i)/(ii), 10, 12(i), 13(i), 15(i) have no further sub-parts and are single entries. IMPORTANT recurring notation-extraction issue: the PDF's text layer frequently collapses a fraction such as 'x/2' to the same flattened glyph sequence as a power 'x2' would produce (no baseline shift survives extraction), so a bare 'N' immediately after a variable is genuinely ambiguous between a power and a division by N. Every such instance in this pack was resolved, wherever possible, by working through the printed marking-scheme derivation on the same page and checking which reading (power or fraction) makes that derivation's arithmetic self-consistent (this is noted per-question); where no such cross-check exists (chiefly Question 1(iii) options (a),(c),(d) and Question 1(viii) options (a)-(c), which the marking scheme does not itemise), the reconstruction is the mathematically most plausible one but is explicitly flagged as unconfirmed and marked LOW confidence rather than guessed as HIGH/MEDIUM. Definite-integral bounds are written using Unicode sub/superscript digits inline on the integral sign (e.g. ∫₁⁵ for ∫ from 1 to 5) to mirror the printed layout compactly; fractions are written inline with '/'; square roots as √(...); determinants/matrices as '|row1; row2; row3|' / '[row1; row2; row3]' with rows separated by ';', matching the convention used in the existing icse-2027-x-mathematics-specimen.json pack. Figures/graphs referenced as 'the given diagram/graph/figure' are never reproduced; where the printed graph's axis labels and plotted-point coordinates themselves extracted as ordinary text (Question 9's feasible-region graph), those coordinates are reproduced in the question text (cross-checked against the marking scheme's own vertex arithmetic, which matched exactly) but hasFigure is still set true and an issue is recorded. Two graphs (Question 5(ii), Question 16) are read purely from a hand-drawn curve with no surviving coordinate text; those entries are flagged accordingly."
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A relation R is defined on ℤ as aRb if and only if a² − 7ab + 6b² = 0. Then R is:",
+      "options": [
+        "reflexive and symmetric",
+        "transitive but not reflexive",
+        "symmetric but not reflexive",
+        "reflexive but not symmetric"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened in the text layer (a2, b2 printed without superscript formatting); rebuilt inline as a², b²."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) reflexive but not symmetric. Reflexive: ∀ a∈ℤ, a²−7a·a+6a² = 0 ⇒ (a,a)∈R ∴ relation is reflexive. Symmetric: for (6,1), 6²−76×6×1+6×1²=36−42+6=0 ⇒ (6,1)∈R. But for (1,6): 1²−7×1×6+6×6²=1−42+216≠0 ⇒ (1,6)∉R. ∴ relation is not symmetric.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If θ = sin⁻¹x + cos⁻¹x − tan⁻¹x, x ≥ 0, then the smallest interval in which θ lies is:",
+      "options": [
+        "π/2 ≤ θ ≤ 3π/4",
+        "0 < θ < π",
+        "−π/4 ≤ θ ≤ 0",
+        "π/4 ≤ θ ≤ π/2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fractions (halves/quarters) split across lines in the layout; rebuilt inline as π/2, 3π/4, π/4, cross-checked against the marking scheme's own derivation."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) π/4 ≤ θ ≤ π/2. sin⁻¹x and cos⁻¹x are defined for −1≤x≤1; tan⁻¹x is defined for all real x. Given x≥0, valid domain is 0≤x≤1. For all x∈[−1,1], sin⁻¹x+cos⁻¹x=π/2, so θ=π/2−tan⁻¹x. Principal value range of tan⁻¹x is (−π/2,π/2); since x≥0 and x≤1, tan⁻¹x∈[0,π/4]. So 0≤tan⁻¹x≤π/4 ⇒ −π/4≤−tan⁻¹x≤0 ⇒ π/4≤π/2−tan⁻¹x≤π/2 ⇒ π/4≤θ≤π/2.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Let A be the area of a triangle having vertices (x₁, y₁), (x₂, y₂) and (x₃, y₃). Which of the following is correct?",
+      "options": [
+        "|x₁ y₁ 1; x₂ y₂ 1; x₃ y₃ 1| = +A",
+        "|x₁ y₁ 1; x₂ y₂ 1; x₃ y₃ 1| = ±2A",
+        "|x₁ y₁ 1; x₂ y₂ 1; x₃ y₃ 1| = ±A/2",
+        "|x₁ y₁ 1; x₂ y₂ 1; x₃ y₃ 1|² = A²"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction; see page 2. This is a 3×3 determinant reconstructed from a badly jumbled PDF layout (rows/columns interleaved with option labels). Option (b) is confirmed correct and its exact form is fully cross-checked against the marking scheme's own working. Options (a), (c) and (d) are the most mathematically plausible reconstructions of the remaining jumbled text (a plain +A, a halved ±A/2, and a squared determinant = A²) but are NOT independently confirmed by the marking scheme, which only restates option (b); verify (a), (c), (d) against PDF page 2."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(b) |x₁ y₁ 1; x₂ y₂ 1; x₃ y₃ 1| = ±2A. Area of triangle formed by three points is A = (1/2)|x₁ y₁ 1; x₂ y₂ 1; x₃ y₃ 1|. Since the determinant may be positive or negative, |x₁ y₁ 1; x₂ y₂ 1; x₃ y₃ 1| = ±2A.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "determinants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A particle moves along the curve 6y = x³ + 2. At what point(s) on the curve, is the y-coordinate changing 8 times as fast as the x-coordinate?",
+      "options": [
+        "(2, 5/3) only",
+        "(4,11) only",
+        "(4,11) and (−4, −31/3)",
+        "(8,86) and (−8, −85)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fractions (thirds) split across lines in the layout; rebuilt inline as 5/3 and −31/3, cross-checked against the marking scheme."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) (4,11) and (−4, −31/3). Differentiating w.r.t. t: 6 dy/dt = 3x² dx/dt. Substituting dy/dt = 8 dx/dt gives x = ±4. When x=4, y=11; when x=−4, y=−31/3. ∴ points are (4,11) and (−4, −31/3).",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Statement I: If a satellite's altitude function h(t) has a positive derivative (h′(t) > 0), the satellite is moving away from the Earth.\nStatement II: At the apogee (highest point), the instantaneous velocity (dh/dt) of the satellite relative to its altitude is zero.\nWhich of the following is correct?",
+      "options": [
+        "Statement I is true and Statement II is false.",
+        "Statements I is false and Statement II is true.",
+        "Both the statements are true.",
+        "Both the statements are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Both the statements are true. Statement I: if h′(t)>0, altitude increases with time, so the satellite is moving away from Earth ∴ true. Statement II: at the apogee, altitude is maximum, and at a maximum point dh/dt = 0, meaning the change in altitude is zero ∴ true.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "For what value(s) of k do the tangents of two curves x = y² and xy = k cut at right angles?",
+      "options": [
+        "k = ±1/4",
+        "k = ±1",
+        "k = 0",
+        "k = ±1/(2√2)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fraction split across lines in the layout; rebuilt inline as ±1/4 and ±1/(2√2), cross-checked against the marking scheme."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) k = ±1/(2√2). x=y² ⇒ 1=2y(dy/dx) ⇒ dy/dx=1/(2y). xy=k ⇒ x(dy/dx)+y=0 ⇒ dy/dx=−y/x. Since the tangents are at right angles, product of slopes = −1 ⇒ (1/2y)×(−y/x)=−1 ⇒ x=1/2=y². ∴ k²=x²y²=1/8 ∴ k=±1/(2√2).",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Evaluate the nature of the point (0,0) for the curve y = x⁴, given that f′′(0) = 0.",
+      "options": [
+        "The function at the point (0,0) is undefined because the second derivative test fails.",
+        "It is a point of local maximum because the first derivative is changing its sign from positive to negative as x increases through 0.",
+        "It is a local minimum because the second derivative is positive for all x ≠ 0.",
+        "It is a point of neither local maximum nor local minimum because the second derivative is zero."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscript flattened (x4 printed without superscript formatting); rebuilt inline as x⁴."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) It is a local minimum because the second derivative is positive for all x ≠ 0. dy/dx=4x³ ⇒ d²y/dx²=12x². Though d²y/dx²=0 when x=0, the fact that d²y/dx²=12x² is always positive for x≠0 confirms the curve is concave up at x=0. The function attains a local minimum at (0,0).",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The expression for finding the area of the shaded region is: [Graph: a curve/region in the first quadrant with the vertical line x = 2 marked, bounded region between the curve, the line x = 2 and the axes.]",
+      "options": [
+        "∫₂⁸ (4 − x/2 − 2) dx",
+        "∫₂⁸ (x/2 + 4) dx",
+        "∫₂⁸ (y/2 + 4) dy",
+        "∫₂⁸ (4 − x/2) dx"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Figure (graph with the shaded region and the line x = 2) on page 4 not reproduced; the question cannot be answered without it.",
+        "The PDF's text layer flattens 'x/2' to the same glyph sequence as 'x2' would produce; option (d) is confirmed correct and its exact reading as x/2 (not x²) is fully cross-checked against the marking scheme's derivation (from the line x+2y=8). Options (a)-(c) are the most plausible reconstructions by analogy with the same ∫₂⁸(...)d[x or y] pattern but are NOT individually confirmed by the marking scheme; verify against PDF page 4."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(d) ∫₂⁸ (4 − x/2) dx. Given equation of line: x + 2y = 8 ⇒ x/8+y/4=1 ⇒ y = 4 − x/2. Required area is the area bounded by x=2, y=4−x/2 and the x-axis. ∴ required area = ∫₂⁸ (4 − x/2) dx.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "application-of-integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Shown below is a solved anti-differentiation problem to obtain f(x):\nd/dx f(x) = 1/(x(log x)²), such that f(e) = −1\nTaking anti-derivative: f(x) = ∫ 1/(x(log x)²) dx + C\nStep 1 ⇒ f(x) = ∫ (log x)⁻² d(log x) + C\nStep 2 ⇒ f(x) = −1/(log x) + C\nGiven f(e) = −1 ⇒ f(e) = −1 + C ⇒ C = 0\nStep 3 ⇒ f(x) = −1/log x\nIn which step is there an error (if any) in the solution?",
+      "options": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "No error"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fraction/exponent notation (1/(x(log x)²), (log x)⁻²) split and flattened across lines in the layout; rebuilt inline, cross-checked step-by-step for internal mathematical consistency (each step follows correctly from the previous one, matching the printed 'No error' answer)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) No error.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "On solving ∫ −3/√(1−x²) dx, Anil's answer was ∫ −3/√(1−x²) dx = 3 cos⁻¹x + c and Jaspreet's answer was ∫ −3/√(1−x²) dx = −3 ∫ 1/√(1−x²) dx = −3 sin⁻¹x + c. Whose answer was correct?",
+      "options": [
+        "Only Anil's answer was correct.",
+        "Only Jaspreet's answer was correct.",
+        "Both of them were correct.",
+        "Neither of them was correct."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fraction (−3 over √(1−x²)) split across lines in the layout; rebuilt inline, cross-checked against the marking scheme's equivalence argument."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) Both of them were correct. Notice that cos(−sin⁻¹x + π/2) = sin(sin⁻¹x) = x, so the two antiderivatives differ only by a constant and the answers are equivalent.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If a⃗ = 2î + 3ĵ − k̂, b⃗ = −î + 2ĵ − 4k̂, c⃗ = î + ĵ + k̂, then (a⃗ × b⃗)·(a⃗ × c⃗) is:",
+      "options": [
+        "60",
+        "64",
+        "74",
+        "−74"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) −74. a⃗×b⃗ = |î ĵ k̂; 2 3 −1; −1 2 −4| = −10î+9ĵ+7k̂. a⃗×c⃗ = |î ĵ k̂; 2 3 −1; 1 1 1| = 4î−3ĵ−k̂. ∴ (a⃗×b⃗)·(a⃗×c⃗) = −40−27−7 = −74.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "vector-algebra",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The point of intersection of the lines (x−1)/2 = (y−2)/3 = (3−z)/(−4) and (x−1)/5 = (2−y)/(−2) = (z−3)/1 is:",
+      "options": [
+        "(1, 2, −3)",
+        "(−1, 2, 3)",
+        "(1, −2, 3)",
+        "(1, 2, 3)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Symmetric line-equation fractions split across lines in the layout; rebuilt inline, cross-checked against the marking scheme (which normalises both lines' signs and confirms (1,2,3))."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) (1, 2, 3). Given lines are (x−1)/2=(y−2)/3=(z−3)/4 and (x−1)/5=(y−2)/2=(z−3)/1 (after normalising signs). Both lines pass through (1,2,3) ∴ the point of intersection is (1,2,3).",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "An objective function Z = ax + by is maximum at points (8,10) and (7,12). If a, b ≥ 0 and ab = 72, then the maximum value of the function is equal to:",
+      "options": [
+        "84",
+        "132",
+        "156",
+        "176"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) 156. Maximum at (8,10) and (7,12) ⇒ 8a+10b=7a+12b ⇒ a=2b. But ab=72 ⇒ 2b²=72 ⇒ b²=36 ⇒ b=6. ∴ a=2b=12. Maximum value = 8×12+10×6=156.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "linear-programming",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Statement I: Every Linear Programming Problem has at least one optimal solution.\nStatement II: If a Linear Programming Problem has two optimal solutions, then it has infinitely many solutions.\nWhich of the statements is correct?",
+      "options": [
+        "Statement I is true and Statement II is false.",
+        "Statements I is false and Statement II is true.",
+        "Both the statements are true.",
+        "Both the statements are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Statement I is false and Statement II is true. Statement I is false – some LPPs are infeasible. Statement II is true – if two points give the same maximum value, then all points on the line joining them also give the same value, so infinitely many optimal solutions exist.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "linear-programming",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If P(A) = m, P(B|Ā) = 3m, P(B|A) = 6m, then what will be P(A|B)?",
+      "options": [
+        "2m/(1+m)",
+        "4m/(1+m)",
+        "7m/(1+m)",
+        "9m/(1+m)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Conditional-probability notation (P(B|A) printed without a clear '|' separator) and fractions rebuilt from the layout, cross-checked against the marking scheme's own derivation."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 2m/(1+m). P(B|A)=6m ⇒ P(A∩B)=P(A)×6m=6m². P(B|Ā)=3m ⇒ P(B∩Ā)=P(Ā)×3m=3m(1−m)=3m−3m². P(B)−P(A∩B)=3m−3m² ⇒ P(B)=3m−3m²+6m²=3m+3m². P(A|B)=P(A∩B)/P(B)=6m²/(3m+3m²)=2m/(1+m).",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xvi)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Observe the given graph: [Graph: two curves shown, described in the Assertion/Reason below.]\nAssertion: The curves given above can be considered as f(x) and f⁻¹(x).\nReason: The curves are reflections of each other across the line x = y.\nWhich one of the following is correct?",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+        "Assertion is true and Reason is false.",
+        "Assertion is false and Reason is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Graph (the two curves) on page 6 not reproduced, but the Assertion and Reason are both generic, self-contained mathematical statements about reflection and inverse functions that the marking scheme evaluates as a general true fact, not by reading specific curve coordinates; question is answerable from the text alone."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Both Assertion and Reason are true, and Reason is the correct explanation of Assertion. The reflection of a curve across the line y=x yields the graph of the inverse function because the geometric reflection swaps the x and y coordinates, which corresponds to the algebraic definition of an inverse mapping.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xvii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Assertion: ∫₋₁¹ x³ cos x dx = 0\nReason: If f(x) is a continuous function defined on [0, a], then ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a − x)dx\nWhich one of the following is correct?",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+        "Assertion is true and Reason is false.",
+        "Assertion is false and Reason is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion. Let f(x)=x³cos x. f(−x)=−x³cos x=−f(x) ⇒ f(x) is an odd function ⇒ ∫₋₁¹ x³cos x dx=0 since ∫₋ₐᵃ f(x)dx=0 for an odd function. Hence Assertion is true. The stated property ∫₀ᵃf(x)dx=∫₀ᵃf(a−x)dx is also true in general but is not what is used to establish the Assertion.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xviii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Using the properties of matrices, explain why the following concept is incorrect:\nSince (a + b)(a − b) = a² − b², therefore, (A + B)(A − B) = A² − B² also must be true if A and B are matrices.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened in the text layer (a2, b2, A2, B2 printed without superscript formatting); rebuilt inline as a², b², A², B²."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Matrix multiplication is non-commutative (AB ≠ BA). (A+B)(A−B) = A²−AB+BA−B². But AB≠BA ∴ (A+B)(A−B) ≠ A²−B². Hence, the concept is incorrect."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xix)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "If the solution of the differential equation dy/dx = (ax+3)/(2y+5) represents a circle, then find the value of a.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fraction (dy/dx, and (ax+3)/(2y+5)) split across lines in the layout; rebuilt inline."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "a = −2. (2y+5)dy=(ax+3)dx. Integrating: ∫(2y+5)dy=∫(ax+3)dx ⇒ y²+5y+c = (a/2)x²+3x ⇒ −(a/2)x²−3x+y²+5y+c=0. If a=−2, the equation becomes x²+y²−3x+5y+c=0, which is the equation of a circle. ∴ a=−2."
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xx)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The probability distribution of random variable X is given below.\nX: 1, 2, 3, 4, 5\nP(X): m, 3m, a, 5m, b\nIf P(X ≤ 2) = 0.28 and P(X ≥ 4) = 0.52, find P(X = 3).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table reconstructed from the PDF layout (columns were laid out with values below headers)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "P(X=3) = 0.2. P(X≤2)=0.28 ⇒ 4m=0.28 ⇒ m=0.07. P(X≥4)=0.52 ⇒ 5m+b=0.52 ⇒ b=0.52−0.35=0.17. 9m+a+b=1 ⇒ a=1−0.63−0.17=0.2. ∴ P(X=3)=0.2."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A straight line Lθ has vector equation r⃗ = 5î + λ(5î + sinθ ĵ + cosθ k̂) and a plane πP has equation x = p, p∈ℝ.\nShow that the angle between Lθ and πP is independent of both θ and p.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fraction (|d⃗·n⃗|/(|d⃗||n⃗|)) split across lines in the layout; rebuilt inline."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Direction vector of the line d⃗ = 5î+sinθ ĵ+cosθ k̂. Equation of plane πP is x=p ⇒ r⃗·n⃗=p where n⃗ is the normal vector to the plane ∴ n⃗=î. sinθ = |d⃗·n⃗|/(|d⃗||n⃗|) = |5|/(√26·1). θ = sin⁻¹(5/√26). Since this does not involve p, and does not depend on the value of θ itself (it defines θ), the angle is independent of both θ and p. Hence proved."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "In a school, for a period of 8 working days, it is equally likely that Tanishka is present or absent on any given day.\nWhat is the probability that she is present in school for at least 5 consecutive working days?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Exponents (2³, 2², 2⁸) flattened in the text layer; rebuilt inline, cross-checked against the marking scheme's own arithmetic (2³+2²+2²+2²=20, 20/256=5/64)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "5/64. Total possible outcomes = 2⁸. Let P = present, A = absent. Case 1: present for at least the first 5 consecutive days (PPPPP _ _ _): remaining 3 days free → 2³ ways. Case 2: present for any other 5 consecutive days, preceded by an absence (APPPPP_ _, _APPPPP_, or _ _APPPPP): remaining 2 days free each → 2² ways, 3 sub-cases. ∴ Probability = (2³+2²+2²+2²)/2⁸ = 20/256 = 5/64."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Solve the following differential equation:\ndx/dy = x/y + f′(x/y)/f(x/y)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction; see page 7. The right-hand side is a fraction with f′(x/y) in the numerator and f(x/y) in the denominator, reconstructed entirely from the marking scheme's own step-by-step derivation (which substitutes v=x/y and integrates f′(v)dv/f(v)=dy/y); the printed order of numerator/denominator in the original PDF could not be independently verified beyond this derivation."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "f(x/y) = cy. Given equation is homogeneous, of the type dx/dy = f(x/y). Substituting x=vy i.e. v=x/y ⇒ dx/dy = v + y(dv/dy). ⇒ v + y(dv/dy) = v + f′(v)/f(v) ⇒ y(dv/dy) = f′(v)/f(v) ⇒ f′(v)dv/f(v) = dy/y. Integrating both sides: ∫ d(f(v))/f(v) = ∫ dy/y + log c ⇒ log|f(v)| = log y + log c ⇒ f(v) = cy ⇒ f(x/y) = cy, which is the required solution."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(i)",
+      "choiceGroup": "5",
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Determine the values of constants p and q such that the function\nf(x) = { p sin x + q, for x ≤ 0 ; x² + 2x + 1, for x > 0 }\nis differentiable at x = 0.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Piecewise-function braces and the two cases' domains were jumbled by the layout extraction; rebuilt as a standard piecewise definition, cross-checked against the marking scheme's own left/right-limit and left/right-derivative computations, which match exactly."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "p = 2, q = 1. Since differentiability implies continuity, LHL=RHL at x=0 must be equal. LHL = lim(x→0⁻) p sin x+q = q. RHL = lim(x→0⁺) x²+2x+1 = 1. At x=0, f(0)=q=LHL=RHL ⇒ q=1. LHD must equal RHD at x=0. LHD = d/dx(p sin x+q)=p cos x, at x=0, LHD=p. RHD = d/dx(x²+2x+1)=2x+2, at x=0, RHD=2. ⇒ p=2."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(ii)",
+      "choiceGroup": "5",
+      "page": 8,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Observe the graph given below: [Graph of a function with one removable discontinuity and additional points of non-differentiability, not reproduced.]\n(a) State the value(s) of x where the function has removable discontinuity.\n(b) State the value(s) of x where the graph of the function is not differentiable.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph on page 8 not reproduced; the question cannot be answered without it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) At x = −2 the function has a removable discontinuity (at x=−2, LHL=RHL but f(−2) is missing).\n(b) f(x) is discontinuous at x=−2, x=0 and x=2, hence not differentiable at those points."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(i)",
+      "choiceGroup": "6",
+      "page": 8,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Parag is working on a school project on right-angled triangles. He draws a right-angled triangle PQR with ∠R = 90°. The sides opposite angles P, Q, R are p, q, r respectively.\nEvaluate the expression: tan⁻¹(p/(q+r)) + tan⁻¹(q/(r+p)).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fractions inside the inverse-tangent arguments split across lines in the layout; rebuilt inline, cross-checked against the marking scheme's derivation using r²=p²+q²."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "π/4. Given ∠R=90° ⇒ r²=p²+q² (Pythagoras) ...(i). tan⁻¹(p/(q+r)) + tan⁻¹(q/(r+p)) = tan⁻¹[ (p/(q+r)+q/(r+p)) / (1−(p/(q+r))(q/(r+p))) ] = tan⁻¹[ (pr+p²+q²+qr) / (qr+pq+r²+pr−pq) ] = tan⁻¹[ (pr+r²+qr) / (pr+r²+qr) ] (using (i)) = tan⁻¹(1) = π/4."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(ii)",
+      "choiceGroup": "6",
+      "page": 8,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The equation given below has equal roots:\nax² + sin⁻¹(x² − 2x + 2) + cos⁻¹(x² − 2x + 2) = 0\nWhat is the value of 'a'?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened (x2 printed without superscript formatting); rebuilt inline as x²."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "a = −π/2. Since sin⁻¹x+cos⁻¹x=π/2, ax²+π/2=0 ...(i). For the given inverse functions, −1≤x²−2x+2≤1. Now x²−2x+2=(x−1)²+1; since (x−1)²≥0, minimum value occurs at x=1, so (x−1)²+1≥1. To satisfy the domain ≤ 1 we need (x−1)²+1=1 ⇒ (x−1)²=0 ⇒ x=1, so only one value of x exists, i.e. the roots are equal at x=1. ∴ a(1)²+π/2=0 ⇒ a=−π/2."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(i)",
+      "choiceGroup": "7",
+      "page": 8,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Find the vector projection of B⃗ = 6î + 3ĵ + 2k̂ on A⃗ = î − 2ĵ − 2k̂ and the scalar component of B⃗ on A⃗.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fractions split across lines in the layout; rebuilt inline, cross-checked against the marking scheme's arithmetic (|A⃗|=3, B⃗·A⃗=−4)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Vector projection of B⃗ on A⃗ = (B⃗·A⃗/|A⃗|²) A⃗ = −(4/9)(î−2ĵ−2k̂). Scalar component of B⃗ on A⃗ = B⃗·A⃗/|A⃗| = (6î+3ĵ+2k̂)·((1/3)î−(2/3)ĵ−(2/3)k̂) = −4/3."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "vector-algebra",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(ii)",
+      "choiceGroup": "7",
+      "page": 8,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "If the position vectors of three points A, B, C are respectively î + ĵ + k̂, 2î + 3ĵ − 4k̂ and 7î + 4ĵ + 9k̂, find the unit vector perpendicular to the plane of triangle ABC.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(31î−38ĵ−9k̂)/√2486. AB⃗ = î+2ĵ−5k̂ and AC⃗ = 6î+3ĵ+8k̂. AB⃗×AC⃗ = |î ĵ k̂; 1 2 −5; 6 3 8| = 31î−38ĵ−9k̂. |31î−38ĵ−9k̂| = √2486. Unit vector = (31î−38ĵ−9k̂)/√2486."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "vector-algebra",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Three landmarks of Dehradun are joined by straight roads. Clock Tower of Dehradun is considered as the 'origin'. IMA (I) is 3 km east and 9 km north of Clock Tower and Rajpur (R) is 5 km east and 5 km south of IMA. A bus stop (S) is situated two thirds of the way along the road from Clock Tower to IMA.\nConsidering î as a 1 km vector pointing east and ĵ as a 1 km vector pointing north:\n(i) Find the position vector of the bus stop (S) relative to the Clock Tower.\n(ii) Prove that the bus stop (S) is the closest point to Rajpur (R) on the Clock Tower to IMA(I) Road.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Position vector of I relative to Clock Tower, O⃗I⃗ = 3î+9ĵ. Position vector of R relative to Clock Tower, O⃗R⃗ = 8î+4ĵ (I is 3 east, 9 north; R is 5 east, 5 south of I, i.e. (3+5)î+(9−5)ĵ). Position vector of S relative to Clock Tower, O⃗S⃗ = (2/3)(3î+9ĵ) = 2î+6ĵ.\n(ii) R⃗S⃗ = O⃗S⃗−O⃗R⃗ = 2î+6ĵ−8î−4ĵ = −6î+2ĵ. O⃗S⃗·R⃗S⃗ = −12+12 = 0 ⇒ bus stop S is the closest point to Rajpur on the Clock Tower to IMA road (since RS is perpendicular to OS, the road)."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "vector-algebra",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The feasible region determined by some constraints is represented by the shaded region in the graph given below: [Graph: a triangular feasible region with labelled points A(1,1), B(3,3) and C(1,7); the line 2x+y=9 is also plotted, crossing the axes at (9/2,0) and (0,9); axes scaled 2,4,6,8,10,12.]\n(i) Formulate the constraints which represent the above feasible region.\n(ii) Hence, maximise the objective function given by Z = x + y.\n(iii) What change in the constraints will make the feasible region unbounded?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph (feasible-region triangle) on page 9 not reproduced as an image; the plotted point labels and axis scale did extract as text and are reproduced above, cross-checked against the marking scheme's own constraint/vertex arithmetic, which matches exactly (the triangle's vertices A(1,1), B(3,3), C(1,7) are exactly where the marking scheme's three constraints 2x+y≤9, y≥x, x≥1 pairwise intersect)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) 2x + y ≤ 9, y ≥ x, x ≥ 1.\n(ii) Z = 8 at C(1,7).\n(iii) Changing the constraint 2x + y ≤ 9 to 2x + y ≥ 9 will make the feasible region unbounded."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "linear-programming",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If x = 3z + 1 and y = f(x), then prove that 9 (d²y/dx²) = d²y/dz²",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Second-derivative fraction notation (d²y/dx², d²y/dz²) split across lines in the layout; rebuilt inline via the chain rule, cross-checked against the marking scheme's derivation."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "dx/dz = 3, and dy/dz = (dy/dx)(dx/dz) ⇒ dy/dz = 3(dy/dx). d²y/dz² = 3 d/dz(dy/dx) = 3 [d/dx(dy/dx)]·(dx/dz) = 3(d²y/dx²)·3 = 9(d²y/dx²). ∴ d²y/dz² = 9 d²y/dx²."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(i) Find the derivative of the function f(x) = log[(√(1+x²)+x)/(√(1+x²)−x)] + tan⁻¹(2x/(1−x²)) with respect to x.\n(ii) An analyst claims that the function f(x) has a local maximum at some point x = c. Evaluate this claim using the expression for f′(x).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Complex nested fraction/root notation split across lines in the layout; rebuilt inline, fully cross-checked against the marking scheme's own multi-step simplification (rationalising the log argument to (√(1+x²)+x)², and tan⁻¹(2x/(1−x²))=2tan⁻¹x), which matches exactly."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) Rationalising: f(x) = log[(√1+x²+x)²/(1+x²−x²)] + 2tan⁻¹x = 2log(√1+x²+x) + 2tan⁻¹x. f′(x) = 2·(1/(√1+x²+x))·(x/√1+x²+1) + 2/(1+x²) = 2/√(1+x²) + 2/(1+x²).\n(ii) The claim is incorrect. Since x²≥0, both 2/√(1+x²) and 2/(1+x²) are always positive, so f′(x) > 0 for all real x. A local maximum requires f′(x) to be zero and change sign; here the function is strictly increasing, so there is no local maximum."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": "(i)",
+      "choiceGroup": "12",
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A vector n⃗ of magnitude 8 units is inclined to the x-axis at 45°, the y-axis at 60° and at an acute angle with the z-axis. A plane through the point (√2, −1, 1) is normal to n⃗.\nFind the equation of the plane in vector form.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fractions (direction cosines 1/√2, 1/2) split across lines in the layout; rebuilt inline, cross-checked against the marking scheme."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "r⃗·(√2 î + ĵ + k̂) = 2. Let γ be the angle n⃗ makes with the z-axis; direction cosines l=cos45°=1/√2, m=cos60°=1/2, n=cosγ. Since l²+m²+n²=1, n²=1/4, n=1/2 (taking the acute angle). ∴ n⃗ = |n⃗|(l î+m ĵ+n k̂) = 8(î/√2 + ĵ/2 + k̂/2) = 4√2 î+4ĵ+4k̂. Plane passes through (√2,−1,1), position vector a⃗=√2 î−ĵ+k̂. Vector equation: (r⃗−a⃗)·n⃗=0 ⇒ r⃗·(4√2 î+4ĵ+4k̂) = (√2 î−ĵ+k̂)·(4√2 î+4ĵ+4k̂) = 8 ⇒ r⃗·(√2 î+ĵ+k̂) = 2."
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": "(ii)",
+      "choiceGroup": "12",
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The planes π1 and π2 have equations 2x + 6y − 2z = 5 and 3x + 9y + pz = −51/2 respectively.\n(a) Verify that the point P (2, 1/2, 1) lies on the plane π1.\n(b) Determine the value of p if π2 is parallel to π1.\n(c) A line through P normal to π1 meets π2 at the point Q. Find the coordinates of Q.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fractions (1/2, −51/2) split across lines in the layout; rebuilt inline, cross-checked against the marking scheme's own substitution and coordinate arithmetic."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Substituting P(2, 1/2, 1) into π1: LHS = 2×2 + 6×(1/2) − 2×1 = 4+3−2 = 5 = RHS.\n(b) Given π2 ∥ π1 ⇒ 3/2 = 9/6 = p/(−2) ⇒ p = −3.\n(c) Equation of the line perpendicular to π1 is (x−2)/1 = (y−1/2)/3 = (z−1)/(−1) = λ. General points on the line are (λ+2, 3λ+1/2, −λ+1). ∵ Q lies on π2 ⇒ 3(λ+2) + 9(3λ+1/2) − 3(1−λ) = −51/2 ⇒ λ+2+9λ+3−1+λ = −17/2 ⇒ 11λ=−11 ⇒ λ=−1. ∴ Co-ordinates of Q (1, −5/2, 2)."
+      },
+      "cognitiveLevel": "Apply & Analyse",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": "(i)",
+      "choiceGroup": "13",
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If x, y, z are distinct non-zero real numbers, prove that\nΔ = |x x² yz; y y² zx; z z² xy| = |y² z² x²; y³ z³ x³; 1 1 1|.\nHence or otherwise evaluate Δ in its simplest form if xy + yz + zx = 1.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "3×3 determinant reconstructed from a heavily jumbled PDF layout; rebuilt as |x x² yz; y y² zx; z z² xy| = |y² z² x²; y³ z³ x³; 1 1 1|, fully cross-checked against the marking scheme's own row-multiplication and factoring steps, which are internally consistent with this exact identity."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Δ = (x−y)(y−z)(z−x). Multiplying row 1 by x, row 2 by y, row 3 by z (which multiplies Δ by xyz): xyz·Δ = |x² x³ xyz; y² y³ xyz; z² z³ xyz| = xyz|x² x³ 1; y² y³ 1; z² z³ 1| (factoring xyz from column 3) ⇒ Δ = |x² x³ 1; y² y³ 1; z² z³ 1|, which equals |y² z² x²; y³ z³ x³; 1 1 1| (transpose and a cyclic column permutation, an even permutation that preserves the determinant's sign). Applying R1→R1−R2 and R2→R2−R3, then factoring (x−y)(y−z), then R2→R2−R1 and factoring (z−x): Δ = (x−y)(y−z)(z−x)(xy+yz+zx). Since xy+yz+zx=1, Δ = (x−y)(y−z)(z−x)."
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "determinants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": "(ii)",
+      "choiceGroup": "13",
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A school is organising its Annual Day function and plans to decorate every chair with a ribbon and every table with a cover. There are 150 chairs and 20 tables, all of which need decorations. Company A charges ₹ 12 per chair ribbon and ₹ 180 per table cover. Company B charges ₹ 10 per chair ribbon and ₹ 200 per table cover.\nBy setting up one matrix equation that includes both companies, compare the overall prices that would be charged by the two companies.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Let Q = [150 20] be the quantities of chair ribbons and table covers needed. Let P = [12 10; 180 200] represent the prices per chair ribbon and table cover charged by Company A and Company B respectively. Total cost matrix C = QP = [150 20][12 10; 180 200] = [150×12+20×180, 150×10+20×200] = [1800+3600, 1500+4000] = [5400 5500]. Thus, the price of Company A (₹5400) is ₹100 less than the price of Company B (₹5500)."
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Let ∫₁⁵ 3f(x)dx = 12.\n(i) Show that ∫₅¹ f(x)dx = −4.\n(ii) Find the value of ∫₁² (x + f(x)) dx + ∫₂⁵ (x + f(x)) dx.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Definite-integral bounds flattened in the text layer; rebuilt inline with Unicode sub/superscripts, cross-checked against the marking scheme's arithmetic (final answer 16)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) Given ∫₁⁵ 3f(x)dx=12 ⇒ ∫₁⁵ f(x)dx=4 ⇒ −∫₁⁵ f(x)dx=−4 ⇒ ∫₅¹ f(x)dx=−4 [since ∫ₐᵇf(x)dx=−∫ᵇₐf(x)dx]. Hence proved.\n(ii) ∫₁²(x+f(x))dx + ∫₂⁵(x+f(x))dx = ∫₁⁵(x+f(x))dx = ∫₁⁵x dx + ∫₁⁵f(x)dx = [x²/2]₁⁵ + 4 = (25/2−1/2)+4 = 12+4 = 16."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(i)",
+      "choiceGroup": "15",
+      "page": 11,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The diagram below shows the graph of f(x) = 2x√(a² − x²), for −1 ≤ x ≤ a, where a > 1. [Diagram: curve f, tangent line L to f at the origin O, point P(a,b) on L above Q, and point Q(a,0) on the x-axis; point (−1,0) also marked.] The line L is the tangent to the graph of f(x) at the origin O.\nGiven that f′(x) = (2a²−4x²)/√(a²−x²), for −1 ≤ x < a.\nUsing integration, find the area of ∆OPQ in terms of a.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of the curve/tangent/triangle on page 11 not reproduced; illustrative only, since P, Q and the tangent line L are fully determined algebraically from the given f′(x) (question is answerable from the text alone). Fraction/root notation split across lines in the layout; rebuilt inline, cross-checked against the marking scheme's derivation."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Area of ∆OPQ = a³ sq. units. L is tangent to f at O, so slope of L = f′(0) = 2a²/√(a²) = 2a. Equation of L: y−0=2a(x−0) ⇒ y=2ax. ∴ area of ∆OPQ = ∫₀ᵃ 2ax dx = 2a[x²/2]₀ᵃ = a³ sq. units."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "application-of-integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(ii)",
+      "choiceGroup": "15",
+      "page": 11,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A line with equation y = −3x + 9 intersects the axes at the points P and Q. A parabola of the form y = ax² + c, where a, c ∈ ℤ, also passes through the points P and Q as shown in the diagram below. [Diagram: the line and parabola both passing through P (on the y-axis) and Q (on the x-axis), with the region between them shaded.]\n(a) Obtain the equation of the parabola.\n(b) Using integration find the area of the shaded region.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram not reproduced; P and Q are fully determined algebraically from the line's equation, and the parabola's equation is derived in part (a), so the question is answerable from the text alone."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Putting x=0 in y=−3x+9, y=9 ⇒ P(0,9). Putting y=0, x=3 ⇒ Q(3,0). Parabola y=ax²+c: satisfying (0,9) gives c=9; satisfying (3,0) gives a=−1. ∴ equation of parabola: y=−x²+9.\n(b) Equation of line PQ: x/3+y/9=1, i.e. y=9−3x. Area of shaded region = ∫₀³(9−x²−9+3x)dx = ∫₀³(3x−x²)dx = [3x²/2 − x³/3]₀³ = 27/2−9 = 9/2 sq. units."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "application-of-integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The graph of f(x) = x − 6√x + 1 is shown below. [Graph of f(x) = x−6√x+1, with the value 9 marked on the x-axis, not reproduced.]\n(i) State the natural domain of f(x).\n(ii) Does f(x) have an inverse function? Explain your answer.\n(iii) Let g(x) = x − 6√x + 1, 0 ≤ x ≤ 9. Find g⁻¹(x) and verify (g ∘ g⁻¹)(4) = 4.\n(iv) Let h(x) = x − 6√x + 1, x ≥ 9. Find h⁻¹(x) and verify (h ∘ h⁻¹)(16) = 16.\n(v) Find the value of x such that g⁻¹(x) = h⁻¹(x)",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph on page 12 not reproduced; part (ii)'s reasoning ('the graph fails the horizontal line test') references it directly, though the algebraic parts (i), (iii)-(v) are answerable from the given formula alone."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) Natural domain of f(x) is x ≥ 0, i.e. [0, ∞).\n(ii) As the graph fails the horizontal line test, f is not one-one ⇒ f(x) is not invertible. [From y=x−6√x+1: (√x)²−6√x+(1−y)=0 ⇒ √x = [6±√(36−4(1−y))]/2 = 3±√(y+8) ⇒ x=(3±√(y+8))², confirming two branches.]\n(iii) g⁻¹(x) = (3−√(x+8))². (g∘g⁻¹)(x) = (3−√(x+8))²−6(3−√(x+8))+1 = 9−6√(x+8)+x+8−18+6√(x+8)+1 = x. ∴ (g∘g⁻¹)(4)=4.\n(iv) h⁻¹(x) = (3+√(x+8))². (h∘h⁻¹)(x) = (3+√(x+8))²−6(3+√(x+8))+1 = 9+6√(x+8)+x+8−18−6√(x+8)+1 = x. ∴ (h∘h⁻¹)(16)=16.\n(v) g⁻¹(x)=h⁻¹(x) ⇒ (3−√(x+8))²=(3+√(x+8))² ⇒ 9−6√(x+8)+x+8 = 9+6√(x+8)+x+8 ⇒ √(x+8)=0 ⇒ x=−8."
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(i)",
+      "choiceGroup": "17",
+      "page": 12,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "An engineering team is designing a section of a new roller coaster track. The vertical profile of the track for a specific horizontal stretch is modelled by the function:\nf(x) = (1/3)x³ − 2x² + 3x + 5\nwhere x represents the horizontal distance from the start of the section (in meters) and f(x) represents the height of the track (in meters). To ensure safety and a thrilling experience, the engineering team must analyse the steepness and the peaks of this track.\n(a) Identify the intervals of x where the roller coaster is climbing (increasing height) and where it is descending (decreasing height).\n(b) A support beam must be placed at the point where the track's slope is exactly zero. Find the coordinates of the points where the support beam must be placed.\n(c) Determine the maximum and minimum heights reached by the roller coaster in the interval x ∈ [0, 4].\n(d) At the point x = 1, a maintenance ladder must be placed perpendicular to the track (along the normal). Find the equation of the maintenance ladder at x = 1.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Fraction (1/3) split across lines in the layout; rebuilt inline, cross-checked against the marking scheme."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "f′(x)=x²−4x+3. f′(x)=0 ⇒ (x−1)(x−3)=0 ⇒ x=1, x=3.\n(a) Climbing (f′(x)>0) on [0,1)∪(3,∞). Descending (f′(x)<0) on (1,3).\n(b) At x=1, f(1)=1−2+3+5=6.33; at x=3, f(3)=9−18+9+5=5. Coordinates: (1, 6.33) and (3, 5).\n(c) Evaluating at critical points and endpoints: f(0)=5, f(1)=6.33, f(3)=5, f(4)=64/3−32+12+5=6.33. Absolute maximum is 6.33 at x=1 and x=4. Absolute minimum is 5 at x=0 and x=3.\n(d) Slope of tangent at x=1 is f′(1)=0, i.e. the tangent is horizontal ⇒ the normal is a vertical line, x=1."
+      },
+      "cognitiveLevel": "Analyse & Evaluate",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(ii)",
+      "choiceGroup": "17",
+      "page": 13,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A large industrial water tank is shaped like an inverted right circular cone with a semi-vertical angle of tan⁻¹(0.5). Water is being drained out for a manufacturing process at a constant rate of 5 m³/min. [Diagram: cone of semi-vertical angle α with tanα=0.5, water height h=4 m marked, dV/dt=−5 m³/min.]\n(a) Find the rate at which the water level is dropping when the height of the water is 4 meters.\n(b) Show that the wetted surface area of the tank S(h) is a strictly increasing function of the water depth h.\n(c) A chemical additive must be added to the interior surface of the water tank. If the cost of the additive is proportional to the square of the surface area (C = KS²), find the depth h at which the cost is increasing most rapidly relative to time.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram (labelled cone with r, h=4m, tanα=0.5, dV/dt) not reproduced; all needed numeric values are stated in the text. Fractions/roots split across lines in the layout; rebuilt inline, cross-checked against the marking scheme."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Let r, h, V, α be the radius, height, volume and semi-vertical angle. tanα = r/h = 0.5 ⇒ r=0.5h. dV/dt = −5 m³/min. V = (1/3)πr²h.\n(a) V = (1/3)π(0.5h)²h = 0.25πh³/3 = (π/12)h³. dV/dt = (π/12)·3h²(dh/dt) = (π/4)h²(dh/dt) ⇒ dh/dt = dV/dt ÷ ((π/4)h²). Substituting dV/dt=−5 and h=4: −5 = (π/4)(16)(dh/dt) = 4π(dh/dt) ⇒ dh/dt = −5/(4π) m/min.\n(b) Slant height l = √(r²+h²) = √((0.5h)²+h²) = √(1.25h²) = (√5/2)h. Curved surface area S = πrl = π(0.5h)(√5/2)h = (√5/4)πh². dS/dh = (√5/2)πh. Since h>0 for a physical tank, dS/dh>0 ⇒ S is strictly increasing on (0,∞).\n(c) C = KS² = K((√5/4)πh²)² = (5Kπ²/16)h⁴. Rate of change of cost dC/dt = (dC/dh)(dh/dt) = (5Kπ²/4)h³·(πh²/4)×... = 25Kπh (as simplified in the marking scheme). The rate of cost change dC/dt is a linear function of h and increases as h increases; the cost is therefore increasing most rapidly at the maximum possible depth h allowed by the tank."
+      },
+      "cognitiveLevel": "Evaluate & Analyse",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(i)",
+      "choiceGroup": "18",
+      "page": 13,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(a) Evaluate: ∫ ln x dx.\n(b) Hence, evaluate: ∫ ln[ln((1+x)/(1−x))] / (1−x²) dx",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Nested fraction/log notation split across lines in the layout; rebuilt inline, fully cross-checked against the marking scheme's own substitution t=ln((1+x)/(1−x)), dt=2/(1−x²)dx.",
+        "The printed cognitive-level tags for this question's two OR branches ('(Understand) [2]' and '(Evaluate) [3]') could not be reliably attributed to sub-part (a) vs (b) after the PDF's tag/mark layout collapsed into one text stream; cognitiveLevel is omitted rather than guessed."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) ∫ ln x dx = ln x·∫1 dx − ∫{d(ln x)/dx · ∫1 dx} dx = ln x·x − ∫(1/x)·x dx = x ln x − ∫1 dx = x(ln x − 1) + c.\n(b) Let t = ln((1+x)/(1−x)). Differentiating, dt = [2/(1−x²)] dx. ∴ I = ∫ ln t · (1/2) dt = (1/2)∫ ln t dt = (1/2)·t(ln t − 1) + c = (1/2) ln((1+x)/(1−x)) [ln(ln((1+x)/(1−x))) − 1] + c."
+      },
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(ii)",
+      "choiceGroup": "18",
+      "page": 13,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(a) Evaluate: ∫ tan x dx\n(b) Hence, evaluate: ∫ dx / [cot(x/2) cot(x/3) cot(x/6)]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Nested cotangent/fraction notation split across lines in the layout; rebuilt inline, fully cross-checked against the marking scheme's own identity x/2=x/3+x/6 and its resulting tan(x/2)tan(x/3)tan(x/6)=tan(x/2)−tan(x/3)−tan(x/6).",
+        "The printed cognitive-level tags for this question's two OR branches could not be reliably attributed to sub-part (a) vs (b) after the PDF's tag/mark layout collapsed into one text stream; cognitiveLevel is omitted rather than guessed."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) ∫ tan x dx = ∫ (sin x/cos x) dx = −∫ d(cos x)/cos x = −ln|cos x| + c.\n(b) I = ∫ dx/[cot(x/2)cot(x/3)cot(x/6)] = ∫ tan(x/2)tan(x/3)tan(x/6) dx. Since x/2 = x/3+x/6, tan(x/2) = [tan(x/3)+tan(x/6)]/[1−tan(x/3)tan(x/6)] ⇒ tan(x/2)tan(x/3)tan(x/6) = tan(x/2)−tan(x/3)−tan(x/6). ∴ I = ∫tan(x/2)dx − ∫tan(x/3)dx − ∫tan(x/6)dx = −2ln|cos(x/2)| + 3ln|cos(x/3)| + 6ln|cos(x/6)| + c."
+      },
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(i)",
+      "choiceGroup": "19",
+      "page": 14,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "In a game show, a contestant is shown three closed doors: Door A, Door B and Door C. Behind one door is a laptop while the other two doors have nothing behind them. The laptop is placed randomly, so each door is equally likely to contain the laptop.\nThe contestant first selects Door A. The host, who knows where the laptop is and never opens the door containing the laptop, opens Door B and reveals that there is nothing behind the door.\nThe host then asks whether the contestant would like to choose Door A or change to Door C.\n(a) Find the probability that the laptop is behind Door A, given that Door B has been opened.\n(b) Find the probability that the laptop is behind Door C, given that Door B has been opened.\n(c) Hence, state, giving reasons, whether the contestant should change their selection or not.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Conditional-probability fractions split across lines in the layout; rebuilt inline, cross-checked against the marking scheme's own Bayes'-theorem arithmetic."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "P(laptop behind A) = P(behind B) = P(behind C) = 1/3. If the laptop is behind A, either B or C can be opened ⇒ P(B opened | laptop behind A) = 1/2. Since the host never reveals the laptop, P(B opened | laptop behind B) = 0. If the laptop is behind C, only B can be opened (A is the contestant's selection) ⇒ P(B opened | laptop behind C) = 1.\n(a) P(laptop behind A | B opened) = (1/2×1/3) / (1/2×1/3 + 0×1/3 + 1×1/3) = 1/3.\n(b) P(laptop behind C | B opened) = (1×1/3) / (1/2×1/3 + 0×1/3 + 1×1/3) = 2/3.\n(c) The contestant should change their selection to Door C, as the probability of the laptop being behind C (2/3) is greater than behind A (1/3)."
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(ii)",
+      "choiceGroup": "19",
+      "page": 14,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "In a large organisation, only 1 out of every 1,500 emails contains a harmful attachment. An automated filtering system is used to detect such emails.\nThe filtering system correctly marks a harmful email as dangerous 97% of the time. It also correctly marks a safe email as safe 97% of the time.\n(a) Find the probability that the email is safe.\n(b) Find the probability that, given the email is harmful, the filter marks it safe.\n(c) One particular email has been flagged as dangerous by the system. Find the probability that this email is actually safe.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Conditional-probability fractions split across lines in the layout; rebuilt inline, cross-checked against the marking scheme's own Bayes'-theorem arithmetic (final answer ≈ 0.98)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Let A = email is harmful, B = filter marks email dangerous. P(A) = 1/1500.\n(a) P(safe) = P(Ā) = 1499/1500.\n(b) P(filter marks it dangerous | harmful) = P(B|A) = 0.97. P(filter marks it safe | safe) = P(B̄|Ā) = 0.97. P(filter marks it safe | harmful) = P(B̄|A) = 1−0.97 = 0.03.\n(c) P(B) = P(B|A)P(A) + P(B|Ā)P(Ā) = 0.97×(1/1500) + 0.03×(1499/1500) ≈ 0.0306. P(email is safe | flagged dangerous) = P(Ā|B) = P(B|Ā)P(Ā)/P(B) = (0.03×1499/1500) / (0.97×1/1500 + 0.03×1499/1500) ≈ 0.9789 ≈ 0.98."
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A ball is thrown vertically downwards from the top of a cliff, and its position is tracked from when it is first thrown until it hits the ground (at which point it may be assumed that the ball comes instantaneously to rest).\nThe height of the ball above the ground after t seconds is given by the equation S(t) = at² + bt + c, where a, b and c are real constants and the height s is measured in meters. It is observed that after 1 second, the ball is 285 m above the ground; after 2 seconds, its height is 260 m and after 4 seconds it is 180 m.\nSet up and solve a matrix equation to find the height of the cliff.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Height of the cliff = 300 m. S(1)=a+b+c=285 …(i); S(2)=4a+2b+c=260 …(ii); S(4)=16a+4b+c=180 …(iii). As AX=B with A=[1 1 1; 4 2 1; 16 4 1], X=[a;b;c], B=[285;260;180]. |A| = 1(2−4)−1(4−16)+1(16−32) = −2+12−16 = −6 ≠ 0 ∴ A⁻¹ exists. adj.A = [−2 3 −1; 12 −15 3; −16 12 −2]. A⁻¹ = (1/|A|)adj.A = −(1/6)[−2 3 −1; 12 −15 3; −16 12 −2]. X = A⁻¹B ⇒ [a;b;c] = −(1/6)[−2 3 −1; 12 −15 3; −16 12 −2][285;260;180] = −(1/6)[−570+780−180; 3420−3900+540; −4560+3120−360] = −(1/6)[30;60;−1800] ⇒ a=−5, b=−10, c=300. ∴ S(t)=−5t²−10t+300. At t=0, S(0)=300. ∴ height of the cliff = 300 m."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

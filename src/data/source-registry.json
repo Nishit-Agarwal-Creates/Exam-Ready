@@ -1,0 +1,104 @@
+{
+  "_comment": "Official source locations found during research (2026-09-28), with what was imported and what could not be used. Shown in /admin/research. Only official board sites are listed; nothing here is claimed to be complete.",
+  "checkedOn": "2026-09-28",
+  "sources": [
+    {
+      "id": "cbse-question-papers",
+      "authority": "Central Board of Secondary Education",
+      "board": "cbse",
+      "kind": "Board exam question papers",
+      "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+      "coverage": "Class X and XII, main and compartment examinations 2023–2026, every subject, as .zip archives per subject (several sets per paper).",
+      "access": "OPEN",
+      "notes": "Some sets are scanned images without a text layer: 2024 X Science 31/1–31/3, 2023 X Science 31/1, 2026 X Social Science 32/1–32/3. These need OCR (the admin importer runs OCR in the browser); the next set with a text layer was imported instead. Every 2025 Class XII Mathematics set (65/1/1 to 65/7/3) is scanned, so no 2025 Class XII Mathematics paper could be imported."
+    },
+    {
+      "id": "cbse-marking-schemes",
+      "authority": "Central Board of Secondary Education",
+      "board": "cbse",
+      "kind": "Official marking schemes",
+      "url": "https://www.cbse.gov.in/cbsenew/marking-scheme.html",
+      "coverage": "Marking schemes for the same examinations, 2023–2026.",
+      "access": "OPEN",
+      "notes": "The 2026 Class XII Physics marking scheme (Physics_UPD_U.zip) is image-only: its answers could not be extracted, so the imported 2026 Physics questions have no official answers."
+    },
+    {
+      "id": "cbse-sqp-x",
+      "authority": "Central Board of Secondary Education (CBSE Academic)",
+      "board": "cbse",
+      "kind": "Sample question papers with marking schemes",
+      "url": "https://cbseacademic.nic.in/SQP_CLASSX_2025-26.html",
+      "coverage": "Class X sample papers for 2025-26 in every subject, each with a marking scheme (English and Hindi).",
+      "access": "OPEN",
+      "notes": "Earlier sessions are on sibling pages, e.g. https://cbseacademic.nic.in/sqp_classx_2024-25.html."
+    },
+    {
+      "id": "cbse-sqp-xii",
+      "authority": "Central Board of Secondary Education (CBSE Academic)",
+      "board": "cbse",
+      "kind": "Sample question papers with marking schemes",
+      "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2025-26.html",
+      "coverage": "Class XII sample papers for 2025-26 in every subject, each with a marking scheme.",
+      "access": "OPEN",
+      "notes": ""
+    },
+    {
+      "id": "cbse-curriculum",
+      "authority": "Central Board of Secondary Education (CBSE Academic)",
+      "board": "cbse",
+      "kind": "Curriculum (chapter lists)",
+      "url": "https://cbseacademic.nic.in/curriculum_2026.html",
+      "coverage": "2025-26 curriculum documents; used for the Class X Social Science and Class XII Physics, Chemistry, Biology and Mathematics chapter lists.",
+      "access": "OPEN",
+      "notes": ""
+    },
+    {
+      "id": "cisce-icse-specimens",
+      "authority": "Council for the Indian School Certificate Examinations",
+      "board": "icse",
+      "kind": "ICSE specimen question papers",
+      "url": "https://cisce.org/specimen-question-papers",
+      "coverage": "ICSE Class X specimen papers for 2017–2027 and Class IX for several years. The 2027 set includes marking schemes (QP-MS files) for History & Civics, Geography, Mathematics, Physics, Chemistry, Biology and Literature in English.",
+      "access": "OPEN",
+      "notes": "CISCE publishes specimen papers, not past ICSE board papers. Past ICSE/ISC board papers are sold as printed publications and are not on the website, so no ICSE/ISC question can be a verified PYQ until a legitimately obtained paper is added through the importer."
+    },
+    {
+      "id": "cisce-isc-specimens",
+      "authority": "Council for the Indian School Certificate Examinations",
+      "board": "icse",
+      "kind": "ISC specimen question papers with answer keys",
+      "url": "https://cisce.org/specimen-question-papers-isc-class-xii-2027/",
+      "coverage": "ISC Class XII specimen papers with answer keys for 2026 and 2027 (Physics, Chemistry, Biology, Mathematics, Geography and more).",
+      "access": "OPEN",
+      "notes": ""
+    },
+    {
+      "id": "cisce-syllabus",
+      "authority": "Council for the Indian School Certificate Examinations",
+      "board": "icse",
+      "kind": "Regulations and syllabuses",
+      "url": "https://cisce.org/regulations-and-syllabus-icse-2027/",
+      "coverage": "ICSE 2027 and ISC 2027 syllabuses; used for the ICSE History & Civics and Geography and the ISC Physics, Chemistry, Biology and Mathematics chapter lists.",
+      "access": "OPEN",
+      "notes": "https://cisce.org/regulations-and-syllabuses-isc-2/ returned 404 on 2026-09-28; the ISC 2027 page was used."
+    }
+  ],
+  "notImported": [
+    {
+      "what": "CBSE Mathematics Basic, English, Hindi, languages, Computer Applications, Informatics Practices and other subjects",
+      "why": "Not yet processed; the official papers are available on the pages above."
+    },
+    {
+      "what": "ICSE and ISC specimen papers before 2027 and ICSE Class IX specimens",
+      "why": "Not yet processed."
+    },
+    {
+      "what": "Scanned CBSE sets without a text layer",
+      "why": "Need OCR and careful checking; import them through /admin/import, which runs OCR in the editor's browser."
+    },
+    {
+      "what": "Figures, maps, diagrams and tables from source papers",
+      "why": "Not reproduced. Questions that need them are flagged and link to the source page."
+    }
+  ]
+}

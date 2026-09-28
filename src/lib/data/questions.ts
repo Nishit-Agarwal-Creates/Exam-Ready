@@ -49,6 +49,7 @@ export async function getPool(subjectId: number, chapterIds: number[], includeDe
       year: latestYearSql,
       canonical: questions.canonicalQuestionId,
       groupYears: groupYearsSql,
+      hasFigure: questions.hasFigure,
     })
     .from(questions)
     .where(and(...conds));
@@ -67,6 +68,7 @@ export async function getPool(subjectId: number, chapterIds: number[], includeDe
     year: r.year === null ? null : Number(r.year),
     groupId: r.canonical ?? r.id,
     groupYears: Number(r.groupYears ?? 0),
+    hasFigure: Boolean(r.hasFigure),
   }));
 }
 
@@ -274,7 +276,11 @@ export async function getQuestionViews(ids: number[], withAnswers: boolean): Pro
 export type QuestionFilters = {
   boardId?: number;
   classId?: number;
+  /** Class level across boards (e.g. every "Class 10"). */
+  classLevel?: number;
   subjectId?: number;
+  /** Any of these subjects (e.g. "physics" in every class). */
+  subjectIds?: number[];
   chapterId?: number;
   sourceType?: SourceType;
   status?: VerificationStatus;
@@ -283,18 +289,25 @@ export type QuestionFilters = {
   marks?: number;
   year?: number;
   paperId?: number;
+  /** Q.P. code printed on a linked source paper, e.g. "31/2/1". */
+  paperCode?: string;
+  /** Question number in a linked source paper, e.g. "34". */
+  questionNumber?: string;
   q?: string;
   demo?: "only" | "exclude";
   /** Only questions that pass the verified-PYQ rule. */
   realPyqOnly?: boolean;
   /** Only verified PYQs whose duplicate group spans 2+ exam years. */
   repeatedOnly?: boolean;
+  /** One question per duplicate group: the canonical one, or a duplicate whose canonical isn't published. */
+  groupOnce?: boolean;
   /** Public browsing only shows published, reviewed questions. */
   publicOnly?: boolean;
   /** Editor queues. */
   issues?: "figure" | "low" | "any";
   published?: boolean;
-  sort?: "recent" | "chapter";
+  /** "paper" orders by question number within f.paperId (source pages). */
+  sort?: "recent" | "chapter" | "paper";
   page?: number;
   pageSize?: number;
 };
@@ -304,6 +317,8 @@ function filterConditions(f: QuestionFilters): SQL[] {
   if (f.boardId) conds.push(eq(questions.boardId, f.boardId));
   if (f.classId) conds.push(eq(questions.classId, f.classId));
   if (f.subjectId) conds.push(eq(questions.subjectId, f.subjectId));
+  if (f.subjectIds?.length) conds.push(inArray(questions.subjectId, f.subjectIds.slice(0, 50)));
+  if (f.classLevel) conds.push(sql`${questions.classId} IN (SELECT id FROM classes WHERE level = ${f.classLevel})`);
   if (f.chapterId) conds.push(eq(questions.chapterId, f.chapterId));
   if (f.sourceType) conds.push(eq(questions.sourceType, f.sourceType));
   if (f.status) conds.push(eq(questions.verificationStatus, f.status));
@@ -320,14 +335,28 @@ function filterConditions(f: QuestionFilters): SQL[] {
   }
   if (f.realPyqOnly) conds.push(sql`${realPyqSql} = 1`);
   if (f.repeatedOnly) conds.push(sql`${realPyqSql} = 1 AND ${groupYearsSql} >= 2`);
-  if (f.year) conds.push(sql`EXISTS (SELECT 1 FROM question_sources qs JOIN papers p ON p.id = qs.paper_id WHERE qs.question_id = ${QID} AND p.year = ${f.year} AND p.is_demo = 0)`);
+  if (f.groupOnce)
+    conds.push(
+      sql`(${QCANON} IS NULL OR NOT EXISTS (SELECT 1 FROM questions c WHERE c.id = ${QCANON} AND c.is_published = 1 AND c.verification_status = 'VERIFIED'))`,
+    );
+  // "Appeared in year X": the question itself or any question in its duplicate group was in a paper of that year.
+  if (f.year)
+    conds.push(
+      sql`EXISTS (SELECT 1 FROM questions q2 JOIN question_sources qs ON qs.question_id = q2.id JOIN papers p ON p.id = qs.paper_id WHERE COALESCE(q2.canonical_question_id, q2.id) = COALESCE(${QCANON}, ${QID}) AND p.year = ${f.year} AND p.is_demo = 0)`,
+    );
   if (f.paperId) conds.push(sql`EXISTS (SELECT 1 FROM question_sources qs WHERE qs.question_id = ${QID} AND qs.paper_id = ${f.paperId})`);
+  if (f.paperCode || f.questionNumber) {
+    const code = f.paperCode ? sql` AND p.paper_code = ${f.paperCode}` : sql``;
+    const num = f.questionNumber ? sql` AND qs.question_number = ${f.questionNumber}` : sql``;
+    conds.push(sql`EXISTS (SELECT 1 FROM question_sources qs JOIN papers p ON p.id = qs.paper_id WHERE qs.question_id = ${QID}${code}${num})`);
+  }
   if (f.issues === "figure") conds.push(eq(questions.hasFigure, true));
   if (f.issues === "low") conds.push(eq(questions.extractionConfidence, "LOW"));
   if (f.issues === "any") conds.push(sql`(${questions.hasFigure} = 1 OR ${questions.extractionConfidence} IN ('LOW','MEDIUM'))`);
   if (f.q && f.q.trim()) {
-    const term = `%${f.q.trim().replace(/[%_]/g, "").slice(0, 100)}%`;
-    conds.push(or(like(questions.questionText, term), like(questions.externalKey, term))!);
+    // Every word must appear (in any order), so "refraction light" finds "refraction of light".
+    const terms = f.q.trim().replace(/[%_]/g, "").slice(0, 100).split(/\s+/).filter(Boolean).slice(0, 8);
+    for (const t of terms) conds.push(or(like(questions.questionText, `%${t}%`), like(questions.externalKey, `%${t}%`))!);
   }
   return conds;
 }
@@ -343,10 +372,15 @@ export async function searchQuestions(f: QuestionFilters, withAnswers: boolean, 
   const pageSize = Math.min(Math.max(f.pageSize ?? 20, 1), 100);
   const page = Math.max(f.page ?? 1, 1);
   const [{ n }] = await db.select({ n: sql<number>`count(*)` }).from(questions).where(where);
+  const paperOrder = f.paperId
+    ? sql`(SELECT CAST(qs.question_number AS INTEGER) FROM question_sources qs WHERE qs.question_id = ${QID} AND qs.paper_id = ${f.paperId})`
+    : null;
   const order =
-    f.sort === "recent"
-      ? [desc(latestYearSql), asc(questions.id)]
-      : [asc(chapters.sortOrder), asc(questions.marks), asc(questions.id)];
+    f.sort === "paper" && paperOrder
+      ? [asc(paperOrder), asc(questions.id)]
+      : f.sort === "recent"
+        ? [desc(latestYearSql), asc(questions.id)]
+        : [asc(chapters.sortOrder), asc(questions.marks), asc(questions.id)];
   const rows = await db
     .select(viewColumns)
     .from(questions)

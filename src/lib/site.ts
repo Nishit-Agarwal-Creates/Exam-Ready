@@ -14,6 +14,9 @@ export function absoluteUrl(path: string): string {
   return `${siteUrl()}${path.startsWith("/") ? path : `/${path}`}`;
 }
 
+/** Social preview image (public/brand/og.png, 1200×630). */
+export const OG_IMAGE = { url: "/brand/og.png", width: 1200, height: 630, alt: "ExamReady: prepare from real exam questions. ICSE and CBSE, Classes 6 to 12." };
+
 /** Builds page metadata with a canonical URL and matching Open Graph/Twitter tags. */
 export function pageMetadata(opts: { title: string; description: string; path: string; noindex?: boolean }): Metadata {
   const url = absoluteUrl(opts.path);
@@ -21,8 +24,8 @@ export function pageMetadata(opts: { title: string; description: string; path: s
     title: opts.title,
     description: opts.description,
     alternates: { canonical: url },
-    openGraph: { title: opts.title, description: opts.description, url, siteName: SITE_NAME, type: "website", locale: "en_IN" },
-    twitter: { card: "summary", title: opts.title, description: opts.description },
+    openGraph: { title: opts.title, description: opts.description, url, siteName: SITE_NAME, type: "website", locale: "en_IN", images: [OG_IMAGE] },
+    twitter: { card: "summary_large_image", title: opts.title, description: opts.description, images: [OG_IMAGE.url] },
     robots: opts.noindex ? { index: false, follow: true } : undefined,
   };
 }

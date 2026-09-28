@@ -37,10 +37,12 @@ function Clock() {
   );
 }
 
+/** Stamp for the AI-written practice bank: the same shape and colour as every other AI practice question. */
 export function DemoStamp({ compact = false }: { compact?: boolean }) {
   return (
-    <span className="stamp stamp-demo" title={DEMO_LABEL}>
-      {compact ? "Demo · AI practice" : DEMO_LABEL}
+    <span className="stamp stamp-ai" title={DEMO_LABEL}>
+      <Spark />
+      {compact ? "AI practice" : "AI practice · not from an exam"}
     </span>
   );
 }
@@ -157,9 +159,7 @@ export function ProvenanceDetails({
       </summary>
       <div className="expand-in mt-2 space-y-2 rounded-xl border border-rule bg-desk/60 p-3">
         {q.isDemo && (
-          <p className="font-bold text-demo">
-            {DEMO_LABEL}. This question was written by AI for demonstration. It has never appeared in an exam.
-          </p>
+          <p className="font-bold text-ai">Written by AI for practice. It has never appeared in an exam and is never counted as a previous-year question.</p>
         )}
         <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
           <dt className="text-pencil">Category</dt>
@@ -215,7 +215,7 @@ export function ProvenanceDetails({
             </ul>
           </div>
         )}
-        {!q.isDemo && <p className="text-pencil">{SOURCE_LABELS[q.sourceType].description}</p>}
+        <p className="text-pencil">{SOURCE_LABELS[q.isDemo ? "AI_SUPPLEMENTARY" : q.sourceType].description}</p>
       </div>
     </details>
   );

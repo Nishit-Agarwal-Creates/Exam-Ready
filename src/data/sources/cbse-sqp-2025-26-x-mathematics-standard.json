@@ -1,0 +1,1148 @@
+{
+  "source": {
+    "key": "cbse-sqp-2025-26-x-mathematics-standard",
+    "title": "CBSE Sample Question Paper, Mathematics Standard (041), Class X, 2025-26",
+    "board": "cbse",
+    "class": 10,
+    "subject": "mathematics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Central Board of Secondary Education",
+    "paperType": "SAMPLE",
+    "examYear": 2026,
+    "session": "Sample Question Paper, academic session 2025-26",
+    "paperName": "Mathematics Standard (041)",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/MathsStandard-SQP.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/MathsStandard-MS.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 8,
+    "sha256": "40ce8f3b05a95458230d0c0813a7f9c5c45a796fcbff4c5613709409bc61fc53",
+    "maxMarks": 80,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "accessedOn": "2026-09-28",
+    "usage": "Official CBSE publication, freely available on cbseacademic.nic.in; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "notes": "This is the CBSE Sample Question Paper (SQP) for the 2025-26 academic session, examined in the year 2026 board exams (examYear=2026). It is not tied to a specific past board exam; there is no Q.P./set code printed (only the fixed subject code 041, included in paperName). 38 questions, 8 printed pages, Maximum Marks 80, Time 3 hours; English-medium only (no Hindi text observed in the extraction). The paper prints a 'For Visually Impaired candidates' alternative question for Q7, Q24(A), Q26, Q31, and for the whole of Q37 (replacing the case study's figure with the coordinates as text); these alternatives were intentionally NOT imported into this pack, per instructions. The marking scheme (MathsStandard-MS.pdf, 12 pages) lost a large amount of fraction/equation content during text extraction (numerators, denominators and some full derivation lines are blank in the text layer even though pdftotext parsed the page); every officialAnswer built from an incomplete scheme line is flagged with 'Official answer partly missing in extraction (figure/equation)'. Where the underlying numeric value could still be derived unambiguously (matching the scheme's stated final answer), it is included and flagged as notation rebuilt from the PDF layout. The source PDF's text layer frequently splits fractions/powers across lines and renders variables as math italic Unicode (e.g. x, theta); such notation is rebuilt to plain-text form (x, /, ^, theta) only where the layout makes it unambiguous (flagged MEDIUM), otherwise left as extracted and flagged LOW. Two tables (Q35(A) frequency distribution, Q35(B) cumulative-frequency heights) were extracted with column values out of row order and were reconstructed positionally, cross-checked against the marking scheme's own working."
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If a = 2^2 × 3^x, b = 2^2 × 3 × 5, c = 2^2 × 3 × 7 and LCM (a, b, c) = 3780, then x is equal to",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(C) 3. LCM(a,b,c) = 2^2 × 3 × 5 × 7 = 140 × 3 = 3780, so 3^x = 3^3 and x = 3.",
+        "correctOption": 2
+      },
+      "chapter": "real-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The shortest distance (in units) of the point (2,3) from y-axis is",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "1"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) 2. The shortest distance from (2, 3) to the y-axis is the x coordinate, i.e., 2.",
+        "correctOption": 0
+      },
+      "chapter": "coordinate-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If the lines given by 3x + 2ky = 2 and 2x + 5y + 1 = 0 are not parallel, then k has to be",
+      "options": [
+        "15/4",
+        "≠15/4",
+        "any rational number",
+        "any rational number having 4 as denominator"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(B) k ≠ 15/4 (lines are parallel when 3/2 = 2k/5, i.e. k = 15/4; they are not parallel for every other value of k).",
+        "correctOption": 1
+      },
+      "chapter": "pair-of-linear-equations-in-two-variables",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A quadrilateral ABCD is drawn to circumscribe a circle. If BC=7cm, CD=4cm and AD=3cm, then the length of AB is",
+      "options": [
+        "3cm",
+        "4cm",
+        "6cm",
+        "7cm"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) 6cm. AB+CD = AD+BC ⇒ AB+4 = 3+7 ⇒ AB = 6cm.",
+        "correctOption": 2
+      },
+      "chapter": "circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If secθ + tanθ = x, then secθ − tanθ will be",
+      "options": [
+        "x",
+        "x^2",
+        "2/x",
+        "1/x"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(D) 1/x, since (secθ+tanθ)(secθ−tanθ) = sec²θ−tan²θ = 1, so secθ−tanθ = 1/x.",
+        "correctOption": 3
+      },
+      "chapter": "introduction-to-trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which one of the following is not a quadratic equation?",
+      "options": [
+        "(x +2)^2 = 2(x +3)",
+        "x^2 +3x = (-1)(1- 3x)^2",
+        "x^3 - x^2 + 2x + 1 = (x +1)^3",
+        "(x +2)(x +1) = x^2 + 2x +3"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(D) (x+2)(x+1) = x²+2x+3, so x²+3x+2 = x²+2x+3 gives x−1=0, a linear (not quadratic) equation.",
+        "correctOption": 3
+      },
+      "chapter": "quadratic-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Given below is the picture of the Olympic rings made by taking five congruent circles of radius 1cm each, intersecting in such a way that the chord formed by joining the point of intersection of two circles is also of length 1cm. Total area of all the dotted regions (assuming the thickness of the rings to be negligible) is",
+      "options": [
+        "4[π/12 - √3/4] cm^2",
+        "[π/6 - √3/4] cm^2",
+        "4[π/6 - √3/4] cm^2",
+        "8[π/6 - √3/4] cm^2"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 2 (picture of the Olympic rings / dotted regions) not reproduced; the number of overlapping segments (8, per the marking scheme) is read from the image and is not stated numerically in the text, so the question cannot be answered without it.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(D) 8[π/6 − √3/4] cm². Required area = 8 × area of one segment (r=1cm, θ=60°) = 8 × [(60/360)π(1)² − (√3/4)(1)²] = 8[π/6 − √3/4] cm².",
+        "correctOption": 3
+      },
+      "chapter": "areas-related-to-circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A pair of dice is tossed. The probability of not getting the sum eight is",
+      "options": [
+        "5/36",
+        "31/36",
+        "5/18",
+        "5/9"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(B) 31/36. P(sum 8) = 5/36, so P(not sum 8) = 1 − 5/36 = 31/36.",
+        "correctOption": 1
+      },
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If 2sin5x = √3, 0˚≤ x ≤90ᵒ, then x is equal to",
+      "options": [
+        "10ᵒ",
+        "12ᵒ",
+        "20ᵒ",
+        "50ᵒ"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) 12ᵒ. sin5x = √3/2, so 5x = 60° and x = 12°.",
+        "correctOption": 1
+      },
+      "chapter": "introduction-to-trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The sum of two numbers is 1215 and their HCF is 81, then the possible pairs of such numbers are",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) 4. Since HCF=81, the numbers can be 81x and 81y with x+y=15 and x,y coprime, giving 4 pairs: (1,14), (2,13), (4,11), (7,8).",
+        "correctOption": 2
+      },
+      "chapter": "real-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If the area of the base of a right circular cone is 51cm2 and it's volume is 85cm2, then the height of the cone is given as",
+      "options": [
+        "5/6 cm",
+        "5/3 cm",
+        "5/2 cm",
+        "5 cm"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Volume is printed as '85cm2' in the extracted text; given the base area is also '...cm2', this is likely a flattened/misprinted exponent for cm3 (cubic units expected for a volume) — kept as printed since this cannot be confirmed from the text layer alone."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(D) 5cm. πr²=51; V=(1/3)πr²h; 85=(1/3)(51)h; h = 85×3/51 = 5cm.",
+        "correctOption": 3
+      },
+      "chapter": "surface-areas-and-volumes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If zeroes of the quadratic polynomial ax^2 + bx +c (a, c ≠0) are equal, then",
+      "options": [
+        "c and b must have opposite signs",
+        "c and a must have opposite signs",
+        "c and b must have same signs",
+        "c and a must have same signs"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(D) c and a must have same signs. For equal roots, b²=4ac, hence ac = b²/4 > 0, so c and a must have the same sign.",
+        "correctOption": 3
+      },
+      "chapter": "quadratic-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The area (in cm2) of a sector of a circle of radius 21cm cut off by an arc of length 22cm is",
+      "options": [
+        "441",
+        "321",
+        "231",
+        "221"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(C) 231. Area of sector = (1/2)×l×r = (1/2)×22×21 = 231cm².",
+        "correctOption": 2
+      },
+      "chapter": "areas-related-to-circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If ∆ABC ~∆DEF, AB=6cm, DE=9cm, EF=6cm and FD=12cm, then the perimeter of ∆ABC is",
+      "options": [
+        "28cm",
+        "28.5cm",
+        "18cm",
+        "23cm"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) 18cm. ∆ABC~∆DEF gives AB/DE=BC/EF=CA/FD=6/9=2/3, so BC=(2/3)(6)=4cm and CA=(2/3)(12)=8cm; perimeter of ∆ABC = 6+4+8 = 18cm.",
+        "correctOption": 2
+      },
+      "chapter": "triangles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If the probability of the letter chosen at random from the letters of the word “Mathematics” to be a vowel is 2/(2x+1), then x is equal to",
+      "options": [
+        "4/11",
+        "9/4",
+        "11/4",
+        "4/9"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(B) 9/4. The word “Mathematics” has 11 letters of which 4 are vowels, so probability = 4/11 = 2/(2x+1), giving 2x+1 = 11/2 and x = 9/4.",
+        "correctOption": 1
+      },
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The points A(9,0), B(9, -6), C(-9,0) and D(-9,6) are the vertices of a",
+      "options": [
+        "Square",
+        "Rectangle",
+        "Parallelogram",
+        "Trapezium"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) Parallelogram, by plotting the points on the coordinate plane.",
+        "correctOption": 2
+      },
+      "chapter": "coordinate-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The median of a set of 9 distinct observation is 20.5. If each of the observations of a set is increased by 2, then the median of a new set",
+      "options": [
+        "is increased by 2",
+        "is decreased by 2",
+        "is two times the original number",
+        "Remains same as that of original observations"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) is increased by 2.",
+        "correctOption": 0
+      },
+      "chapter": "statistics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The length of a tangent drawn to a circle of radius 9 cm from a point at a distance of 41cm from the centre of the circle is",
+      "options": [
+        "40cm",
+        "9cm",
+        "41cm",
+        "50cm"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) 40cm. In ∆OPT right angled at T (tangent ⊥ radius): OP²=OT²+TP²; 41²=9²+TP²; TP²=1681−81=1600; TP=40cm.",
+        "correctOption": 0
+      },
+      "chapter": "circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": null,
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): The number 5^n cannot end with the digit 0, where n is a natural number\nReason (R): A number ends with 0, if its prime factorization contains both 2 and 5",
+      "options": [
+        "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)",
+        "Both assertion (A) and reason (R) are true and reason (R) is not the correct explanation of assertion (A)",
+        "Assertion (A) is true but reason (R) is false.",
+        "Assertion (A) is false but reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion-Reason option text (A)-(D) reconstructed from a jumbled two-column layout on page 3; check against the PDF.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(A) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A).",
+        "correctOption": 0
+      },
+      "chapter": "real-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): If cosA + cos^2A =1, then sin^2A + sin^4A =1\nReason (R): sin^2A + cos^2A =1",
+      "options": [
+        "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)",
+        "Both assertion (A) and reason (R) are true and reason (R) is not the correct explanation of assertion (A)",
+        "Assertion (A) is true but reason (R) is false.",
+        "Assertion (A) is false but reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Assertion-Reason option text (A)-(D) reconstructed from a jumbled two-column layout on page 3; check against the PDF.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(A) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A). From (i) cosA+cos²A=1, using sin²A+cos²A=1 (ii) gives cosA=sin²A; substituting in (i) gives sin²A+sin⁴A=1.",
+        "correctOption": 0
+      },
+      "chapter": "introduction-to-trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(A)",
+      "choiceGroup": "21",
+      "page": 4,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The A.P 8, 10, 12,……. has 60 terms. Find the sum of last 10 terms.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "n=60, a=8, d=2. t60 = 8+59(2) = 126. t51 = 8+50(2) = 108. Sum of last 10 terms (t51+…+t60) = (10/2)(108+126) = 1170."
+      },
+      "chapter": "arithmetic-progressions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(B)",
+      "choiceGroup": "21",
+      "page": 4,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the middle term of A.P 6,13, 20, ……., 230",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "230 = 6+(n−1)7 gives n=33. Middle term = t17 = 6+(16)(7) = 118."
+      },
+      "chapter": "arithmetic-progressions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": null,
+      "choiceGroup": null,
+      "page": 4,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If sin(A + B) = 1 and cos(A − B) = √3/2, 0° < A, B < 90°, find the measure of angles A and B.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "sin(A+B)=1 gives A+B=90°; cos(A−B)=√3/2 gives A−B=30°. Solving, A=60° and B=30°."
+      },
+      "chapter": "introduction-to-trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": null,
+      "choiceGroup": null,
+      "page": 4,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If AP and DQ are medians of triangles ABC and DEF respectively, where ∆ABC~ ∆DEF, then prove that AB/DE = AP/DQ",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ).",
+        "Official answer partly missing in extraction (figure/equation)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "∆ABC∼∆DEF ⇒ AB/DE = BC/EF = CA/FD. Since AP, DQ are medians, BP = BC/2 and EQ = EF/2, so BP/EQ = BC/EF = AB/DE. In ∆ABP and ∆DEQ, AB/DE = BP/EQ and ∠B=∠E (as ∆ABC∼∆DEF), so ∆ABP∼∆DEQ. Hence AB/DE = AP/DQ. [Some equation lines did not extract cleanly.]"
+      },
+      "chapter": "triangles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": "(A)",
+      "choiceGroup": "24",
+      "page": 4,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A horse, a cow and a goat are tied, each by ropes of length 14m, at the corners A, B and C respectively, of a grassy triangular field ABC with sides of lengths 35m, 40m and 50 m. Find the area of grass field that can be grazed by them.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Area grazed = (θA+θB+θC)/360 × πr², where θA+θB+θC=180° (angle sum of the triangle) and r=14m: = (180/360)×π×14² = 98π = 308 m²."
+      },
+      "chapter": "areas-related-to-circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": "(B)",
+      "choiceGroup": "24",
+      "page": 4,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the area of the major segment (in terms of π) of a circle of radius 5cm, formed by a chord subtending an angle of 90˚ at the centre.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Official answer partly missing in extraction (figure/equation)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Area of minor segment = area of sector − area of triangle = (90/360)π(5)² − (1/2)(5)(5) = (25π/4 − 25/2) cm². Area of major segment = area of circle − area of minor segment = 25π − (25π/4 − 25/2) = (75π/4 + 25/2) cm²."
+      },
+      "chapter": "areas-related-to-circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": null,
+      "choiceGroup": null,
+      "page": 4,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A ∆ABC is drawn to circumscribe a circle of radius 4 cm such that the segments BD and DC are of lengths 10 cm and 8 cm respectively. Find the lengths of the sides AB and AC, if it is given that ar(∆ABC) = 90cm2",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Let AF=AE=x, BD=BE=10cm, CD=CF=8cm, r=4cm. ar(∆ABC)=ar(∆AOC)+ar(∆BOC)+ar(∆AOB): 90=(1/2)r(AC+BC+AB)=(1/2)(4)(x+8+18+x+10) gives x=4.5cm. So AB=4.5+10=14.5cm and AC=4.5+8=12.5cm."
+      },
+      "chapter": "circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "In Figure, XY and X′Y′ are two parallel tangents to a circle with centre O and another tangent AB with point of contact C intersecting XY at A and X′Y′ at B. Prove that ∠ AOB = 90°",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 5 (circle with parallel tangents XY, X′Y′ and tangent AB touching at C) not reproduced."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "In ∆APO and ∆ACO: AP=AC (tangents from an external point), AO=AO (common), OP=OC (radii), so ∆APO≅∆ACO. Similarly ∆BQO≅∆BCO. ∠POQ=180° (PQ is a diameter). ∠POA+∠COA+∠QOB+∠COB=180°, i.e. 2∠COA+2∠COB=180°, so ∠COA+∠COB=90°, i.e. ∠AOB=90°."
+      },
+      "chapter": "circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "In a workshop, the number of teachers of English, Hindi and Science are 36, 60 and 84 respectively. Find the minimum number of rooms required, if in each room the same number of teachers are to be seated and all of them being of the same subject.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "HCF(36,60,84) = 12. Required number of rooms = 36/12 + 60/12 + 84/12 = 3+5+7 = 15."
+      },
+      "chapter": "real-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the zeroes of the quadratic polynomial 2x^2 – (1 + 2√2) x + √2 and verify the relationship between the zeroes and coefficents of the polynomial.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ).",
+        "Official answer partly missing in extraction (figure/equation)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "2x²−(1+2√2)x+√2 = 2x²−x−2√2x+√2 = (2x−1)(x−√2). Hence the zeroes are 1/2 and √2. [The verification of sum/product of zeroes against the coefficients did not extract cleanly.]"
+      },
+      "chapter": "polynomials",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": "(a)",
+      "choiceGroup": "29",
+      "page": 5,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If sinθ + cosθ = √3, then prove that tanθ + cotθ = 1",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "sinθ+cosθ=√3 ⇒ (sinθ+cosθ)²=3 ⇒ 1+2sinθcosθ=3 ⇒ 2sinθcosθ=2 ⇒ sinθcosθ=1. So tanθ+cotθ = sinθ/cosθ + cosθ/sinθ = (sin²θ+cos²θ)/(sinθcosθ) = 1/1 = 1."
+      },
+      "chapter": "introduction-to-trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": "(b)",
+      "choiceGroup": "29",
+      "page": 5,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Prove that (cosA−sinA+1)/(cosA+sinA−1) = cosecA + cotA",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Official answer partly missing in extraction (figure/equation)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Dividing numerator and denominator by sinA and simplifying using cos²A=1−sin²A leads to (cosA−sinA+1)/(cosA+sinA−1) = cosecA+cotA. [Several intermediate equation lines did not extract cleanly.]"
+      },
+      "chapter": "introduction-to-trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "On a particular day, Vidhi and Unnati couldn’t decide on who would get to drive the car. They had one coin each and flipped their coin exactly three times. The following was agreed upon:\n1. If Vidhi gets two heads in a row, she would drive the car\n2. If Unnati gets a head immediately followed by a tail, she would drive the car.\nWho has greater probability to drive the car that day? Justify your answer.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "P(Vidhi drives the car) = 3/8, as favourable outcomes are HHT, THH, HHH. P(Unnati drives the car) = 4/8, as favourable outcomes are THT, THH, HTH, TTH. As 4/8 > 3/8, Unnati has greater probability to drive the car."
+      },
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(A)",
+      "choiceGroup": "31",
+      "page": 5,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The monthly income of Aryan and Babban are in the ratio 3:4 and their monthly expenditures are in ratio 5:7. If each saves ₹ 15,000 per month, find their monthly incomes.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Let incomes be 3x and 4x, expenditures 5y and 7y. 3x−5y=15000 and 4x−7y=15000. Solving, x=30000, so incomes are ₹90,000 and ₹1,20,000 respectively."
+      },
+      "chapter": "pair-of-linear-equations-in-two-variables",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(B)",
+      "choiceGroup": "31",
+      "page": 5,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Solve the following system of equations graphically:\n2x + y =6, 2x – y – 2=0. Find the area of the triangle so formed by two lines and x-axis.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Solving graphically, the solution is x=2, y=2. Area of the triangle formed by the two lines and the x-axis = 2 sq. units."
+      },
+      "chapter": "pair-of-linear-equations-in-two-variables",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A train travels at a certain average speed for a distance of 63km and then travels at a distance of 72km at an average speed of 6km/hr more than its original speed. If it takes 3 hours to complete the total journey, what is the original average speed?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Let original speed be x km/hr. 63/x + 72/(x+6) = 3. This gives 63(x+6)+72x = 3(x+6)x ⇒ 135x+378 = 3x²+18x ⇒ 3x²−117x−378=0 ⇒ x²−39x−126=0 ⇒ x²−42x+3x−126=0 ⇒ (x+3)(x−42)=0. As x can't be negative, x=42 km/hr."
+      },
+      "chapter": "quadratic-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Prove that if a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, the other two sides are divided in the sameratio.\nHence in ΔPQR, prove that a line ℓ intersects the sides PQ and PR of a ∆PQR at L and M respectively such that LM II QR. If PL = 5.7cm, PQ=15.2cm and MR=5.5cm, then find the length of PM (in cm)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Official answer partly missing in extraction (figure/equation)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Correct given, figure and construction; correct proof (Basic Proportionality Theorem). Since LM∥QR, PL/LQ = PM/MR. LQ = PQ−PL = 15.2−5.7 = 9.5cm. PM = (PL×MR)/LQ = (5.7×5.5)/9.5 = 3.3cm."
+      },
+      "chapter": "triangles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "34",
+      "part": "(A)",
+      "choiceGroup": "34",
+      "page": 6,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "From a solid right circular cone, whose height is 6cm and radius of base is 12cm, a right circular cylindrical cavity of height 3cm and radius 4cm is hollowed out such that bases of cone and cylinder form concentric circles. Find the surface area of the remaining solid in terms of π.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Slant height L=√(R²+H²)=√(12²+6²)=3√20 cm. Curved surface area of cone=πRL=π×12×3√20=(36√20)π cm². Area of exposed base circle of cone (outer − cylinder cross-section, plus top of cylinder)=πR²=144π cm². Curved surface area of cylinder=2πrh=2π×4×3=24π cm². Surface area of remaining solid = 36√20π+144π+24π = (168+36√20)π cm²."
+      },
+      "chapter": "surface-areas-and-volumes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "34",
+      "part": "(B)",
+      "choiceGroup": "34",
+      "page": 6,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "An empty cone of radius 3cm and height 12cm is filled with ice-cream such that the lower part of the cone which is (1/6)th of the volume of the cone is unfilled (empty) but a hemisphere is formed on the top. Find the volume of the ice-cream.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Volume of cone = (1/3)πr²h = (1/3)π×3×3×12 = 36πcm³. Volume of ice-cream in the cone = (5/6)×36π = 30π cm³. Volume of ice-cream in the hemispherical part = (2/3)πr³ = (2/3)π×3×3×3 = 18π cm³. Total volume of ice-cream = 30π+18π = 48π ≈ 150.86 cm³ (approx.)."
+      },
+      "chapter": "surface-areas-and-volumes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "35",
+      "part": "(A)",
+      "choiceGroup": "35",
+      "page": 6,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "If the mode of the following distribution is 55, then find the value of x. Hence, find the mean.\n\nClass interval: 0–15, 15–30, 30–45, 45–60, 60–75, 75–90\nFrequency: 10, 7, x, 15, 10, 12",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on page 6 (class interval / frequency distribution) reconstructed from a jumbled layout; check the class intervals and frequencies against the PDF.",
+        "Math italic Unicode letters normalised to plain text (e.g. 𝑥→x, ϑ→θ)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Modal class 45–60: l=45, h=15, f1=15, f0=x, f2=10. Mode = l + [(f1−f0)/(2f1−f0−f2)]×h. 55=45+[(15−x)/(20−x)]×15 gives x=5. With frequencies 10,7,5,15,10,12 and midpoints 7.5,22.5,37.5,52.5,67.5,82.5: Σfi=59, Σfixi=2872.5, Mean = 2872.5/59 = 48.68."
+      },
+      "chapter": "statistics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "35",
+      "part": "(B)",
+      "choiceGroup": "35",
+      "page": 6,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A survey regarding heights (in cm) of 51 girls of class X of a school was conducted and the following data was obtained:\n\nHeights (in cm) less than 140: 04\nHeights (in cm) less than 145: 11\nHeights (in cm) less than 150: 29\nHeights (in cm) less than 155: 40\nHeights (in cm) less than 160: 46\nHeights (in cm) less than 165: 51\n\nFind the median height of girls. If mode of the above distribution is 148.05, find the mean using empirical formula.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on page 6 ('less than' cumulative frequency distribution of heights) presented here as a reconstructed list; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Class intervals/frequencies: 135–140:4, 140–145:7, 145–150:18, 150–155:11, 155–160:6, 160–165:5 (N=51). Median class 145–150 (N/2=25.5): l=145, cf=11, f=18, h=5. Median = 145+[(25.5−11)/18]×5 = 149.03cm. Using 3×Median = Mode+2×Mean: 3×149.03 = 148.05+2×Mean, so Mean = 149.52."
+      },
+      "chapter": "statistics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "36",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "In a class, the teacher asks every student to write an example of A.P. Two boys Aryan and Roshan writes the progression as −5, −2,1,4, …… and 187, 184, 181, …. respectively. Now the teacher asks his various students the following questions on progression.\n\nHelp the students to find answers for the following:\n\n(i) Find the sum of the common difference of two progressions. (1)\n(ii) Find the 34th term of progression written by Roshan. (1)\n(iii) (A) Find the sum of first 10 terms of the progression written by Aryan. (2)\nOR\n(iii) (B) Which term of the progressions will have the same value? (2)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-part marks shown in brackets were printed in the margin.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) Common difference of Aryan's A.P. = 3; of Roshan's A.P. = −3. Sum = 0.\n(ii) t34 (Roshan) = 187+(34−1)(−3) = 88.\n(iii)(A) Sum of first 10 terms (Aryan) = (10/2)[2(−5)+(10−1)(3)] = 85.\nOR\n(iii)(B) −5+(n−1)3 = 187+(n−1)(−3) gives n = 33."
+      },
+      "chapter": "arithmetic-progressions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "37",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A group of class X students goes to picnic during winter holidays. The position of three friends Aman, Kirti and Chahat are shown by the points P, Q and R\n\n(i) Find the distance between P and R. (1)\n(ii) Is Q, the midpoint of PR? Justify by finding midpoint of PR. (1)\n(iii) (A) Find the point on x-axis which is equidistant from P and Q. (2)\nOR\n(iii) (B) Let S be a point which divides the line joining PQ in ratio 2:3. Find the coordinates of S. (2)",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 7 (coordinate graph plotting the points P, Q and R) not reproduced; the coordinates of P, Q and R are not printed in this version of the question and can only be read from the graph, so the question cannot be answered from the text alone. (The 'For Visually Impaired candidates' alternative on the same page, not imported, states them as P(2,5), Q(4,4), R(8,3).)",
+        "Sub-part marks shown in brackets were printed in the margin.",
+        "Official answer partly missing in extraction (figure/equation)."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) PR = √[(8−2)²+(3−5)²] = 2√10.\n(ii) Q=(4,4); midpoint of PR=(5,4); so Q is not the midpoint of PR.\n(iii)(A) Let the point be (x,0): (2−x)²+25=(4−x)²+16 … [value of x did not extract].\nOR\n(iii)(B) Coordinates of S … [did not extract]."
+      },
+      "chapter": "coordinate-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "38",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "India gate (formerly known as All India war memorial) is located near Karthavya path. (formerly Rajpath) at New Delhi. It stands as a memorial to 74187 soldiers of Indian Army, who gave their life in the first world war. This 42m tall structure was designed by Sir Edwin Lutyens in the style of Roman triumphal arches. A student Shreya of height 1 m visited India Gate as a part of her study tour.\n\n(i) What is the angle of elevation from Shreya’s eye to the top of India Gate, if she is standing at a distance of 41m away from the India Gate? (1)\n(ii) If Shreya observes the angle of elevation from her eye to the top of India Gate to be 60ᵒ, then how far is the she standing from the base of the India Gate? (1)\n(iii) (A) If the angle of elevation from Shreya’s eye changes from 45° to 30°, when she moves some distance back from the original position. Find the distance she moves back. (2)\nOR\n(iii) (B) If Shreya moves to a point which is at a distance of 41/√3 m from the India Gate, then find the angle of elevation made by her eye to the top of India Gate. (2)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text corrupted in extraction on page 8 for sub-part (iii)(B) (rendered as 'mmfrfforroommmthe'); reconstructed as '41/√3 m from the' using a nearby split fraction ('41' over '√3') and the marking scheme (tanθ=41/(41/√3)=√3, θ=60°); check against the PDF.",
+        "Sub-part marks shown in brackets were printed in the margin.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) tanθ = 41/41 = 1, so θ = 45°.\n(ii) tan60° = 41/x, so x = 41/√3 m.\n(iii)(A) tan30° = 41/(41+x) … x = (41√3−41) m = 41(√3−1) m; distance moved back = 41(√3−1) m.\nOR\n(iii)(B) tanθ = 41/(41/√3) = √3, so θ = 60°."
+      },
+      "chapter": "some-applications-of-trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

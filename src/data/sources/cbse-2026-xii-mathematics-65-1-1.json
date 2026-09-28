@@ -1,0 +1,1194 @@
+{
+  "source": {
+    "key": "cbse-2026-xii-mathematics-65-1-1",
+    "title": "CBSE Senior Secondary Examination 2026, Mathematics (041), Q.P. Code 65/1/1",
+    "board": "cbse",
+    "class": 12,
+    "subject": "mathematics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Central Board of Secondary Education",
+    "paperType": "BOARD_EXAM",
+    "examYear": 2026,
+    "session": null,
+    "paperName": "Mathematics (041)",
+    "paperCode": "65/1/1",
+    "setCode": "SET-1",
+    "seriesCode": "1PQRS",
+    "language": "English (from a bilingual Hindi/English paper)",
+    "sourceUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2026/XII/Mathematics.zip",
+    "sourceFile": "Mathematics/2413-1_65-1-1_Mathematics.pdf",
+    "answerSourceUrl": "https://www.cbse.gov.in/cbsenew/marking-scheme/2026/XII/Mathematics.zip",
+    "answerSourceFile": "Mathematics 041\\MS_XII_041_Mathematics_65-1-1_2025-26.pdf",
+    "fileType": "pdf",
+    "pageCount": 24,
+    "sha256": "17e9839359f199313e704017ac23ec6f856c5926d6ee4ef24031534e0b8d6fef",
+    "maxMarks": 80,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes",
+    "ocrUsed": false,
+    "notes": "Paper prints: Series 1PQRS, SET-1, Q.P. Code 65/1/1, 23 printed pages (+1 cover), 38 questions, Maximum Marks 80, Time allowed 3 hours. Session is not printed on the paper. English text is on odd PDF pages (Hindi on even pages, page 1 is a bilingual cover). This is a Mathematics paper: the PDF's text layer systematically drops many mathematical glyphs that other CBSE papers keep as plain text, specifically ≤, ≥, ∈, ×, ·, ∩, π, √, ∫, the transpose prime ('), the vector-line parameter λ and vector arrow/hat marks, while <, >, +, -, =, digits, letters and | (absolute value) extract normally; multi-row matrices/determinants collapse to flattened digit strings. Per the brief, such losses were left as extracted and flagged with 'Mathematical notation lost in extraction' at LOW confidence rather than guessed; only unambiguous stacked fractions and plain integer powers (e.g. 'x2' -> 'x²') were rebuilt, at MEDIUM confidence. The official marking scheme's Section A (Q1-20, MCQ and Assertion-Reason) shows the correct option only as an image/highlight with no extractable text at all for any of the 20 items, so officialAnswer is omitted for Q1-20 and flagged instead. The marking scheme's Section B-E extracts with much better Unicode math (√, ∫, italic variables) and was used, trimmed to final value points; a few multi-step workings and one diagram (Q38(i)) are images and were flagged as lost working rather than reproduced. The rupee sign extracted as a backtick '`' in the case-study questions and was normalised to ₹ (unambiguous one-to-one substitution).",
+    "usage": "Official CBSE publication, freely available on cbse.gov.in; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If 2 cos⁻¹x = y, then",
+      "options": [
+        "0 y",
+        "– y",
+        "0 y 2",
+        "– y 0"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (comparison operators ≤/≥ and π symbols in the options); see page 3",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following cannot be the order of a row-matrix ?",
+      "options": [
+        "2 × 1",
+        "1 × 2",
+        "1 × 1",
+        "1 × n"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (× between matrix dimensions); check against the PDF",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following properties is/are true for two matrices of suitable orders ?\n(i) (A + B) = A + B\n(ii) (A – B) = B – A\n(iii) (AB) = AB\n(iv) (kAB) = kBA (k is a scalar)",
+      "options": [
+        "(i) only",
+        "(i), (ii) and (iii)",
+        "(i) and (ii)",
+        "(i) and (iv)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (transpose prime symbols on the matrix expressions in (i)-(iv) are not shown); see page 5",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If A₁ =\n1 0 0\n0 2 0\n0 0 3\nand A₂ =\n0 2 0\n1 0 0\n0 0 6\n, then",
+      "options": [
+        "1 =22",
+        "2 =–21",
+        "1 =2",
+        "2 =–1"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Matrix labels and the relations between A1 and A2 in the options are garbled and could not be reconstructed unambiguously from extraction; see page 5",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "One of the values of x for which\ncos x sin x\n–sin x cos x\n= 1 is",
+      "options": [
+        "0",
+        "4",
+        "3",
+        "2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (2x2 matrix/determinant layout; options are fraction denominators with the numerator symbol, likely π, not extracted, e.g. possibly π/4, π/3, π/2); see page 5",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "determinants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If A and B are skew symmetric matrices of same order, then which of the following matrices is also skew symmetric ?",
+      "options": [
+        "AB",
+        "AB + BA",
+        "(A + B)²",
+        "A – B"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (power: (A + B)2 → (A + B)²); check against the PDF",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The least value of f(x) = x³ – 12x, x [0, 3] is",
+      "options": [
+        "–16",
+        "–9",
+        "0",
+        "16"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (∈ symbol before the interval [0, 3]; power rebuilt: x3 → x³); see page 5",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If ∫ 3ax / (b² + c²x²) dx = A log |b² + c²x²| + K, then the value of A is",
+      "options": [
+        "3a 3a",
+        "2b2",
+        "b2c2 3a",
+        "2c2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (the fraction structure of the options and the integrand's denominator power are uncertain); see page 7",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The value of ∫₋₁¹ x³ / (x² + 2|x| + 1) dx is",
+      "options": [
+        "0",
+        "log 2",
+        "2 log 2",
+        "(1/2) log 2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (integral limits, powers and the fraction option (1/2) log 2); check against the PDF",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The area bounded by the curve y = x|x|, x-axis and the ordinates x = –1 and x = 1 is given by",
+      "options": [
+        "0",
+        "1/3",
+        "2/3",
+        "4/3"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (stacked fractions in options); check against the PDF",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "application-of-integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The integrating factor of the differential equation R dx/dy + Px = Q where P, Q, R are functions of y is",
+      "options": [
+        "e^(P dy/Q)",
+        "e^(P dy)",
+        "e^(P dy/R)",
+        "e^(P dx/R)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (integral sign in the exponents; fraction layout in the options rebuilt from the PDF layout); see page 7",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The order and degree of the differential equation d/dx(e^y) = 0 respectively are",
+      "options": [
+        "0, 1",
+        "1, 1",
+        "2, 1",
+        "1, not defined"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (the differential equation is incompletely extracted — only 'd/dx(e^y) = 0' remains and more terms were likely present in the original); see page 9",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The value of p for which vectors i + 2j + 3k and 2i – pj + k are perpendicular to each other is",
+      "options": [
+        "0",
+        "1",
+        "5/2",
+        "–5/2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Vector notation (i, j, k unit vectors) hats not preserved in extraction",
+        "Notation rebuilt from the PDF layout (fractions 5/2, –5/2 in options); check against the PDF",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "vectors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The value of m for which the points with position vectors –i – j + 2k, 2i + mj + 5k and 3i + 11j + 6k are collinear, is",
+      "options": [
+        "8",
+        "–8",
+        "2",
+        "5/2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Vector notation (i, j, k unit vectors) hats not preserved in extraction",
+        "Notation rebuilt from the PDF layout (fraction 5/2 in option D); check against the PDF",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "vectors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If |a| = 8, |b| = 3 and |a b| = 12, then the value of |a b| is",
+      "options": [
+        "6 3",
+        "8 3",
+        "12 3",
+        "3 12"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (cross/dot product symbols between the vectors; √ root symbols in the options); see page 9",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "vectors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The length of perpendicular drawn from point (2, 5, 7) on line x/1 = y/0 = z/0 is",
+      "options": [
+        "2",
+        "5",
+        "74",
+        "78"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (√ root symbols in the options; the line's equation denominators are uncertain, possibly direction ratios with a lost sign); see page 9",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The feasible region of a linear programming problem with objective function Z = 5x + 7y is shown below :\nThe maximum value of Z – minimum value of Z is",
+      "options": [
+        "8",
+        "29",
+        "35",
+        "43"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Feasible region graph on page 11 not reproduced; the question cannot be answered without it",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "linear-programming",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The degree of an objective function of a linear programming problem is",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Any natural number"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "linear-programming",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : In an experiment of throwing an unbiased die, the probability of getting a prime number given that number appearing on the die being odd is 2/3.\nReason (R) : For any two events A and B, P(A|B) = P(A∩B)/P(B)",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true and Reason (R) is false.",
+        "Assertion (A) is false and Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fraction 2/3 in the Assertion)",
+        "Mathematical notation lost in extraction (∩ symbol in the Reason's formula); see page 11",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A) : Lines given by x = py + q, z = ry + s and x = p'y + q', z = r'y + s' are perpendicular to each other when pp' + rr' = 1.\nReason (R) : Two lines r = a1 + b1 and r = a2 + b2 are perpendicular to each other if b1 b2 = 0.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true and Reason (R) is false.",
+        "Assertion (A) is false and Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (λ parameter and vector notation in the Reason's line equations; · dot-product symbol before 'b1 b2 = 0'); see page 13",
+        "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": null,
+      "cognitiveLevel": null,
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(a)",
+      "choiceGroup": "21",
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Check whether function f(x) defined as\n\nx3 , x<3\n2(x 3)\n\nf(x) =\n\nx6 , x≥3\n6\n\nis continuous at x = 3 or not ?",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (piecewise function definition: minus signs, parentheses and the inequality symbol are not preserved); see page 13"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "LHL = RHL = f(3) = –1/2, hence the function f(x) is continuous at x = 3."
+      },
+      "cognitiveLevel": null,
+      "chapter": "continuity-and-differentiability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(b)",
+      "choiceGroup": "21",
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If 3(x² + y²) = 4xy, then find dy/dx at (1/2, 3/2).",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers x², y²; fraction point (1/2, 3/2))",
+        "Mathematical notation lost in extraction (a square-root symbol may be missing before the second coordinate, possibly √3/2 rather than 3/2 — the marking scheme's working uses √3); see page 13"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "dy/dx = (2y – √3x)/(√3y – 2x); at (1/2, √3/2), dy/dx = √3"
+      },
+      "cognitiveLevel": null,
+      "chapter": "continuity-and-differentiability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A room freshner bottle in the shape of an inverted cone sprays the perfume at regular intervals such that volume of the perfume in the bottle decreases at the steady rate of 1 mm³/min. Find the rate at which level of perfume is dropping at an instant when level of perfume in the bottle is 10 mm, if the semi-vertical angle of conical bottle is 6.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (a symbol, likely π, immediately before the final '6', giving an angle of possibly π/6, was not extracted); see page 13"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "The level of perfume is dropping at the rate of 3/(100π) mm/min"
+      },
+      "cognitiveLevel": null,
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the vector of magnitude 14 in the direction of QP, where P and Q are the points (1, 3, 2) and (–1, 0, 8) respectively.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "QP = 2i + 3j – 6k, |QP| = 7; required vector = 4i + 6j – 12k"
+      },
+      "cognitiveLevel": null,
+      "chapter": "vectors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Vectors a = 3i – 2j + 2k and b = i + 2k represent the two adjacent sides of a parallelogram. Find the vectors representing its diagonals and hence find their lengths.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Diagonal 1 = 4i – 2j + 4k (or its negative), diagonal 2 = 2i – 2j (or its negative); lengths = √(16+4+16) = 6 and √(4+4) = 2√2"
+      },
+      "cognitiveLevel": null,
+      "chapter": "vectors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": "(a)",
+      "choiceGroup": "25",
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Simplify : tan⁻¹[(cos 2x sin 2x)/(cos 2x sin 2x)], 0 < x < /4.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (operators between the cos 2x and sin 2x terms in the numerator and denominator; π symbol before /4); see page 15"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "π/4 – 2x"
+      },
+      "cognitiveLevel": null,
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": "(b)",
+      "choiceGroup": "25",
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Evaluate : tan[sin⁻¹ 1 + cos⁻¹ 1/2]",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (the arguments and brackets of the inverse-trig expression are unclear); see page 15"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "–√3 (an intermediate simplification step is partly garbled in the marking scheme extraction; final value only)"
+      },
+      "cognitiveLevel": null,
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Evaluate : ∫₀¹ x tan⁻¹x dx.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (integral limits and integrand order); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "π/4 – 1/2"
+      },
+      "cognitiveLevel": null,
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": "(a)",
+      "choiceGroup": "27",
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find : ∫ (x + 2)/(x – 2) dx",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fraction (x+2)/(x-2))",
+        "Mathematical notation lost in extraction (a square-root symbol may be missing on the denominator, possibly ∫(x+2)/√(x–2) dx — the marking scheme's working uses √(x–2)); see page 15"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "√(x²–4) + 2 log|x + √(x²–4)| + C"
+      },
+      "cognitiveLevel": null,
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": "(b)",
+      "choiceGroup": "27",
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find : ∫ x²/[(x² + 9)(x² + 16)] dx",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (integral and fraction); a stray digit near the denominator in the extraction did not fit the expression and was not included; check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "–(3/7) tan⁻¹(x/3) + (4/7) tan⁻¹(x/4) + C"
+      },
+      "cognitiveLevel": null,
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If I1 = ∫ dx/(1 + cos 2x) from –π/4 to π/4, and I2 = ∫ |x| dx from –1/2 to 1/2, then show that I1 – 4I2 = 0.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (π symbol in the limits of I1); limits of I2 rebuilt from the PDF layout (fraction ±1/2); see page 15"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "I1 = 1, I2 = 1/4, so I1 – 4I2 = 0"
+      },
+      "cognitiveLevel": null,
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": "(a)",
+      "choiceGroup": "29",
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the general solution of the following differential equation : x² (dy/dx) = x² + xy + y²",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers and dy/dx); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "tan⁻¹(y/x) = log|x| + C"
+      },
+      "cognitiveLevel": null,
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": "(b)",
+      "choiceGroup": "29",
+      "page": 15,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the particular solution of the differential equation xy dy/dx = (x + 2)(y + 2), given that y(1) = –1.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (dy/dx); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "y – 2log|y+2| = x + 2log|x| – 2 (or y = x + 2log|x(y+2)| – 2)"
+      },
+      "cognitiveLevel": null,
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Solve the following linear programming problem graphically :\nMinimize Z = 13x – 15y\nSubject to constraints\nx + y 7,\n2x – 3y + 6 0,\nx 0, y 0",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (≤/≥ inequality symbols in the constraints); see page 17",
+        "Official answer's graph/shading of the feasible region is an image and not in the extraction"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Corner points: (0,0)→0, (7,0)→91, (3,4)→–21, (0,2)→–30; minimum value of Z is –30 at x=0, y=2"
+      },
+      "cognitiveLevel": null,
+      "chapter": "linear-programming",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(a)",
+      "choiceGroup": "31",
+      "page": 17,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Out of two bags, bag I contains 3 red and 4 white balls and bag II contains 8 red and 6 white balls. A die is thrown. If it shows a number less than 3 then a ball is drawn at random from bag I, otherwise a ball is drawn at random from bag II. Find the probability that the ball drawn from one of the bags is a red ball.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Required probability = P(E1)P(A/E1) + P(E2)P(A/E2) = (2/6)(3/7) + (4/6)(8/14) = 11/21"
+      },
+      "cognitiveLevel": null,
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": "(b)",
+      "choiceGroup": "31",
+      "page": 17,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The probability of simultaneous occurrence of atleast one of the two events X and Y is a. If the probability that exactly one of the events X, Y occurs is b, prove that P(X) + P(Y) = 2 – 2a + b.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (complement bars over X and Y are likely missing — the marking scheme proves P(X′) + P(Y′), not P(X) + P(Y)); see page 17"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "P(X∩Y) = a – b; P(X′) + P(Y′) = 2 – [P(X∪Y) + P(X∩Y)] = 2 – [a + (a–b)] = 2 – 2a + b"
+      },
+      "cognitiveLevel": null,
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": "(a)",
+      "choiceGroup": "32",
+      "page": 17,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A relation R is defined on Z, the set of integers, as R = {(x, y) : |x – y| is divisible by a prime number 'p', x, y Z} check whether R is an equivalence relation or not.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (∈ symbol before 'Z' in the relation's definition); see page 17"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "R is reflexive (|x–x|=0, divisible by any prime), symmetric (|x–y|=|y–x|), and transitive (if p|(x–y) and p|(y–z) then p|(x–z)); hence R is an equivalence relation."
+      },
+      "cognitiveLevel": null,
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": "(b)",
+      "choiceGroup": "32",
+      "page": 17,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A function f : R – {3/5} → R – {3/5} is defined as f(x) = (3x + 2)/(5x – 3). Show that f is one-one and onto.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions 3/5 and (3x+2)/(5x–3)); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "One-one: f(x1)=f(x2) ⇒ x1=x2. Onto: for y∈R–{3/5}, x=(3y+2)/(5y–3)∈ domain satisfies f(x)=y. Hence f is one-one and onto."
+      },
+      "cognitiveLevel": null,
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(a)",
+      "choiceGroup": "33",
+      "page": 19,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "If A =\n0 2 1\n2 1 2\n1 1 0\n, find A⁻¹ and use it to solve the following system of equations :\n–2y + z = 7, 2x – y – z = 8, x – 2y = 10",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (minus signs in the matrix A are not clearly preserved; matrix layout flattened); see page 19"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "|A| = –1; adj A = [[–2,–1,–3],[–2,–1,–2],[3,2,4]]; A⁻¹ = (1/|A|)adjA = [[2,1,3],[2,1,2],[–3,–2,–4]]; solving AᵀX=B gives x=0, y=–5, z=–3"
+      },
+      "cognitiveLevel": null,
+      "chapter": "determinants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(b)",
+      "choiceGroup": "33",
+      "page": 19,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "If\n3 –1 sin 3x\n7 4 cos 2x\n11 7 2\nis a singular matrix, then find all values of x where x [0, /2].",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Mathematical notation lost in extraction (matrix layout; ∈ symbol; π symbol in the interval); see page 19"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Determinant = 0 ⇒ 2cos2x + sin3x = 2 ⇒ sinx(2sinx–1)(2sinx+3) = 0 ⇒ x = 0, π/6"
+      },
+      "cognitiveLevel": null,
+      "chapter": "determinants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "34",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "If x = cos t, y = cos mt, prove that (1 – x²) d²y/dx² – x dy/dx + m²y = 0.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (second-derivative fraction d²y/dx² and dy/dx, reordered from the stacked layout); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "dy/dx = m sin(mt)/sin t; differentiating again and substituting cos t = x, cos mt = y gives (1–x²)d²y/dx² – x dy/dx + m²y = 0"
+      },
+      "cognitiveLevel": null,
+      "chapter": "continuity-and-differentiability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "35",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Check whether the lines given by (x–1)/2 = (y–2)/3 = (z–3)/4 and (x–4)/5 = (y–1)/2 = z are parallel or not. If parallel, find the distance between them, otherwise find their point of intersection, if the lines are intersecting.",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (symmetric line equations as stacked fractions); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "DRs are <2,3,4> and <5,2,1>, not proportional, so the lines are not parallel. Solving, λ=–1, μ=–1 satisfy all three equations, so the lines intersect at (–1,–1,–1)."
+      },
+      "cognitiveLevel": null,
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "36",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "An online delivery company in a city has 5000 subscribers and collects annual subscription fees of ₹300 per subscriber for unlimited free deliveries.\nThe company wishes to increase the annual subscription fee. It is predicted that, for every increase of ₹1, ten subscribers will discontinue. Assume that the company increased the annual fee by ₹x.\nBased on the given information, answer the following questions :\n(i) How many subscribers will discontinue after an increase of ₹x in annual fee ? (1)\n(ii) If R(x) denotes the total revenue collected after the increase of ₹x in subscription fee, express R(x) as a function of x. (1)\n(iii) (a) Find the value of x for which R(x) is maximum. (2)\nOR\n(iii) (b) Find the sub-intervals of (0, 5000) in which R(x) is increasing and decreasing. (2)",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-part marks shown in brackets were printed in the margin"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) 10x\n(ii) R(x) = (5000 – 10x)(300 + x)\n(iii)(a) R′(x) = 2000 – 20x; R′(x)=0 ⇒ x=100; R″(x)=–20<0, so R(x) is maximum at x=100\nOR\n(iii)(b) R(x) is increasing in (0,100) and decreasing in (100,5000)"
+      },
+      "cognitiveLevel": null,
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "37",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "In an online jackpot, there is one first prize of ₹3,00,000, two second prizes of ₹2,00,000 each and three third prizes of ₹50,000 each.\nA total of 1,00,000 jackpot tickets each costing ₹100 were sold there by raising a fund of ₹1,00,00,000.\nRohan bought one ticket.\nBased on given information, answer the following questions :\n(i) What are the possible amounts, the person can win ? (1)\n(ii) (a) What is the probability that the person wins atleast ₹2,00,000 ? (2)\nOR\n(ii) (b) What is the probability that the person does not win any amount ? (2)\n(iii) In another jackpot, Rohan also bought a ticket having a prize money of ₹5,00,000. The chances of winning the jackpot are 1 in 1,00,000. Find the probability that on exactly one of tickets he wins the jackpot. (1)",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) ₹3,00,000; ₹2,00,000; ₹50,000\n(ii)(a) 3/100000\nOR\n(ii)(b) 99994/100000 (or 49997/50000)\n(iii) P(exactly one wins) = (6/100000)(99999/100000) + (99994/100000)(1/100000) = 174997/2500000000"
+      },
+      "cognitiveLevel": null,
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "38",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "E",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Roundabouts are often made on busy roads to ease the traffic and avoid red lights.\nOne such round-about is made such that equation representing its boundary is given by C1 : x² + y² = 64.\nThere is a circular pond with a fountain in the middle of the roundabout whose equation is given by C2 : x² + y² = 4.\nBased on the given information, answer the following questions :\n(i) Represent the given equations C1 and C2 with the help of a diagram. (1)\n(ii) Express y as a function of x, (y = f(x)), for both C1 and C2. (1)\n(iii) (a) Using integration find the area of region covered by the roundabout. (2)\nOR\n(iii) (b) Using integration, find the area of region covered by circular pond. (2)",
+      "options": null,
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers x², y²); check against the PDF",
+        "Official answer for (i) is a diagram image not in the text layer"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(ii) C1: y=√(64–x²) or y=–√(64–x²); C2: y=√(4–x²) or y=–√(4–x²)\n(iii)(a) Area = 4∫₀⁸√(64–x²)dx = 64π\nOR\n(iii)(b) Area = 4∫₀²√(4–x²)dx = 4π"
+      },
+      "cognitiveLevel": null,
+      "chapter": "application-of-integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

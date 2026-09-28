@@ -11,6 +11,7 @@ export const metadata: Metadata = { title: { default: "Admin", template: "%s | E
 const ADMIN_NAV = [
   { href: "/admin", label: "Dashboard" },
   { href: "/admin/review", label: "Review queue" },
+  { href: "/admin/research", label: "Research" },
   { href: "/admin/questions", label: "Questions" },
   { href: "/admin/papers", label: "Sources" },
   { href: "/admin/import", label: "Import" },

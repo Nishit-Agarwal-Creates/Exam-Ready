@@ -3,6 +3,13 @@
  * phrased with "typically"; students are pointed to the current CISCE regulations for specifics.
  */
 export function classExamNote(boardSlug: string, level: number): string {
+  if (boardSlug === "cbse") {
+    if (level === 10)
+      return "Class 10 ends with the CBSE Secondary School Examination. The board papers imported here (Science, Mathematics Standard and Social Science) each print a maximum of 80 marks for the written paper. Check the current CBSE curriculum and sample papers for the exact pattern.";
+    if (level === 12)
+      return "Class 12 ends with the CBSE Senior School Certificate Examination. The Physics, Chemistry and Biology papers imported here print a maximum of 70 marks for the theory paper, alongside practical work. Check the current CBSE curriculum and sample papers for the exact pattern.";
+    return `There is no board examination in Class ${level}. Schools set their own exams on the CBSE/NCERT syllabus, so previous questions for this class come from school papers or official material. Only questions checked against a stored paper are marked verified.`;
+  }
   if (boardSlug !== "icse") return "";
   if (level === 10) {
     return "Class 10 ends with the ICSE board examination conducted by CISCE. Theory papers in Mathematics, Physics, Chemistry and Biology are typically marked out of 80, with the remaining 20 marks from internal assessment. Check the current CISCE regulations and specimen papers for the exact pattern and timing.";

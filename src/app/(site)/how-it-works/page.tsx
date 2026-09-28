@@ -30,7 +30,7 @@ export default function HowItWorksPage() {
               ["#modes", "Paper modes"],
               ["#marking", "Marking and results"],
               ["#ai", "Where AI fits"],
-              ["#demo", "Demo data"],
+              ["#ai-practice", "The AI practice bank"],
             ].map(([h, l]) => (
               <li key={h}>
                 <a href={h} className="inline-flex min-h-9 items-center text-pencil hover:text-ink hover:underline">
@@ -148,14 +148,16 @@ export default function HowItWorksPage() {
             </p>
           </section>
 
-          <section id="demo" aria-labelledby="demo-title">
-            <h2 id="demo-title" className="text-[1.8rem]">
-              Demo data
+          <section id="ai-practice" aria-labelledby="ai-practice-title">
+            <h2 id="ai-practice-title" className="text-[1.8rem]">
+              The AI practice bank
             </h2>
-            <p className="demo-banner mt-3 px-4 py-3 font-bold">{DEMO_LABEL}</p>
+            <p className="mt-3">
+              <span className="stamp stamp-ai">{DEMO_LABEL}</span>
+            </p>
             <p className="mt-3 text-pencil">
-              The ICSE practice bank in this build was written by AI for demonstration. It is stored as AI practice, has no source paper, no year and no
-              frequency, and carries the label above wherever it appears, including in PDFs. It never counts as a previous-year question.
+              The ICSE Classes 8–10 practice bank was written by AI. It is stored as AI practice, has no source paper, no year and no frequency, and is
+              stamped AI practice wherever it appears, including in PDFs. It is never counted as a previous-year question and never fills a PYQ-only paper.
             </p>
           </section>
 

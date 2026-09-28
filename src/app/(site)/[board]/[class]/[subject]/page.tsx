@@ -4,7 +4,8 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { JsonLd } from "@/components/json-ld";
 import { SubjectNav } from "@/components/subject-nav";
 import { CoveragePanel, TrendsPanel } from "@/components/coverage-panels";
-import { getSubjectCoverage, getSubjectTrends } from "@/lib/data/trends";
+import { getSubjectCoverage as getAllSubjectCoverage, getSubjectYearCoverage, publishedTotal } from "@/lib/data/coverage";
+import { getSubjectTrends } from "@/lib/data/trends";
 import { loadSubjectPage, subjectMetaContext } from "@/lib/data/seo";
 import { subjectExamNote } from "@/lib/exam-info";
 import { absoluteUrl, pageMetadata } from "@/lib/site";
@@ -16,7 +17,7 @@ type Props = { params: Promise<{ board: string; class: string; subject: string }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const m = await subjectMetaContext(await params);
   if (!m) return { title: "Not found", robots: { index: false } };
-  const cov = await getSubjectCoverage(m.ctx.subject.id);
+  const cov = (await getAllSubjectCoverage()).find((r) => r.subjectId === m.ctx.subject.id);
   return pageMetadata({
     title: `${m.name}: chapters, previous-year questions and practice papers`,
     description: m.ctx.chapters.length
@@ -24,14 +25,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : `${m.name} on ExamReady: current question coverage and practice options.`,
     path: m.base,
     // Pages with no chapters and no questions would be thin; keep them out of search results.
-    noindex: m.ctx.chapters.length === 0 && cov.verifiedPyqs === 0 && cov.aiPractice === 0,
+    noindex: m.ctx.chapters.length === 0 && !(cov && publishedTotal(cov) > 0),
   });
 }
 
 export default async function SubjectPage({ params }: Props) {
   const d = await loadSubjectPage(await params);
   const { subject, chapters, stats, totals, base, name } = d;
-  const [coverage, trends] = await Promise.all([getSubjectCoverage(subject.id), getSubjectTrends(subject.id)]);
+  const [coverage, trends] = await Promise.all([getSubjectYearCoverage(subject.id), getSubjectTrends(subject.id)]);
 
   return (
     <div className="container-page py-8 sm:py-12">

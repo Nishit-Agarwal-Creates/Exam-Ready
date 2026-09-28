@@ -6,7 +6,8 @@ import { QUESTION_TYPES } from "@/db/schema";
 import { includeDemoData } from "@/lib/data/papers";
 import { searchQuestions } from "@/lib/data/questions";
 import { getCatalog } from "@/lib/data/taxonomy";
-import { getAllCoverage, getPublicSources, getSubjectCoverage } from "@/lib/data/trends";
+import { getSubjectYearCoverage } from "@/lib/data/coverage";
+import { getAllCoverage, getPublicSources } from "@/lib/data/trends";
 import { filtersToQuery, parseQuestionFilters, type SearchParams } from "@/lib/filters";
 import { pageMetadata } from "@/lib/site";
 
@@ -112,9 +113,9 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
     publicOnly: true,
     demo: includeDemo ? f.demo : ("exclude" as const),
     sort: "recent" as const,
-    pageSize: 15,
+    pageSize: 10,
   };
-  const [result, coverage, sources] = await Promise.all([searchQuestions(filters, true), getSubjectCoverage(selected.id), getPublicSources()]);
+  const [result, coverage, sources] = await Promise.all([searchQuestions(filters, true), getSubjectYearCoverage(selected.id), getPublicSources()]);
   const subjectSources = sources.filter((s) => s.board === selected.board.name && s.cls === selected.cls.name && s.subject === selected.name);
   const base = `/pyqs?subject=${selected.id}`;
   const q = (o: Record<string, string | number | undefined>) => `/pyqs${filtersToQuery({ ...f, subjectId: selected.id }, { source: sourceParam, page: undefined, ...o })}`;
@@ -268,7 +269,21 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
             ))}
           </select>
         </div>
-        <label className="flex items-center gap-2 font-bold lg:col-span-3">
+        <div>
+          <label htmlFor="f-difficulty" className="field-label">
+            Difficulty
+          </label>
+          <select id="f-difficulty" name="difficulty" className="select" defaultValue={f.difficulty ?? ""} aria-describedby="f-difficulty-hint">
+            <option value="">Any</option>
+            <option value="EASY">Easy</option>
+            <option value="MEDIUM">Medium</option>
+            <option value="HARD">Hard</option>
+          </select>
+          <p id="f-difficulty-hint" className="field-hint mt-1">
+            Practice questions only. Board papers don&apos;t rate difficulty.
+          </p>
+        </div>
+        <label className="flex items-center gap-2 font-bold lg:col-span-2">
           <input type="checkbox" name="repeated" value="1" defaultChecked={f.repeatedOnly} className="size-5 accent-[var(--color-ink)]" />
           Only questions asked in more than one exam year
         </label>
@@ -314,7 +329,7 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
         <ol className="mt-4 space-y-4">
           {result.items.map((item, i) => (
             <li key={item.id} data-reveal className="sheet p-4 sm:p-6" style={{ ["--d" as string]: `${Math.min(i, 6) * 40}ms` }}>
-              <QuestionBlock number={(result.page - 1) * result.pageSize + i + 1} q={item} headingLevel={2} />
+              <QuestionBlock number={(result.page - 1) * result.pageSize + i + 1} q={item} headingLevel={2} provenance="line" />
               {item.answer && (
                 <details className="mt-3 sm:ml-[3.25rem]">
                   <summary className="inline-flex min-h-9 cursor-pointer items-center font-bold text-ink hover:underline">Show answer</summary>
@@ -323,6 +338,22 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
                   </div>
                 </details>
               )}
+              <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[0.9rem] sm:ml-[3.25rem]">
+                <Link href={`/questions/${item.id}`} className="link">
+                  View question
+                </Link>
+                {item.sources.find((s) => !s.isDemo) && (
+                  <Link href={`/sources/${item.sources.find((s) => !s.isDemo)!.paperId}`} className="link">
+                    View source
+                  </Link>
+                )}
+                <Link href={`/questions/${item.id}#similar`} className="link">
+                  Find similar
+                </Link>
+                <Link href={`/practice?subject=${selected.id}&chapter=${item.chapter.id}`} className="link">
+                  Practise this chapter
+                </Link>
+              </div>
             </li>
           ))}
         </ol>

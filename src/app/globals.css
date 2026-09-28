@@ -391,6 +391,16 @@
     border: 1.5px solid color-mix(in srgb, var(--color-demo) 55%, transparent);
     border-radius: 4px;
   }
+  /* Informational note for papers that include AI practice (not a warning: the content is labelled practice) */
+  .ai-note {
+    color: var(--color-graphite);
+    background: var(--color-ai-soft);
+    border: 1.5px dashed color-mix(in srgb, var(--color-ai) 50%, transparent);
+    border-radius: var(--radius-control);
+  }
+  .ai-note strong {
+    color: var(--color-ai);
+  }
   .stamp-demo {
     color: var(--color-demo);
     background: var(--color-demo-soft);
@@ -844,5 +854,644 @@
   .js [data-reveal] {
     opacity: 1 !important;
     transform: none !important;
+  }
+}
+
+/* ───────────────────────── Interaction system (v3) ─────────────────────────
+   One tactile vocabulary, applied where an action happens rather than everywhere:
+     data-fx="pulse"   electric ring from the press point (buttons that commit something)
+     data-fx="ripple"  ink ripple inside the element (chips, options, tiles)
+     .fx-spring        compresses on press and springs back
+     .fx-lift          paper lifts off the desk on hover
+     .fx-sweep         a single energy sweep on hover/focus
+     .fx-buzz          a brief, tiny shake for a refused action
+   <MotionRoot> inserts the transient .fx-burst / .fx-ink spans; everything is transform/opacity. */
+@keyframes fx-ring {
+  from {
+    opacity: 0.9;
+    transform: translate(-50%, -50%) scale(0.2);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes fx-spark {
+  0% {
+    opacity: 0;
+    transform: rotate(var(--a)) translateX(4px) scaleX(0.3);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(var(--a)) translateX(var(--reach, 26px)) scaleX(1);
+  }
+}
+@keyframes fx-ink {
+  from {
+    opacity: 0.3;
+    transform: translate(-50%, -50%) scale(0);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes fx-buzz {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  20% {
+    translate: -2px 0;
+  }
+  40% {
+    translate: 2px 0;
+  }
+  60% {
+    translate: -1.5px 0;
+  }
+  80% {
+    translate: 1px 0;
+  }
+}
+@keyframes fx-sweep {
+  from {
+    transform: translateX(-130%) skewX(-20deg);
+  }
+  to {
+    transform: translateX(260%) skewX(-20deg);
+  }
+}
+@keyframes fx-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(42 56 209 / 0);
+  }
+  40% {
+    box-shadow: 0 0 0 5px rgb(42 56 209 / 0.18);
+  }
+}
+
+.fx-burst {
+  position: absolute;
+  left: var(--fx-x, 50%);
+  top: var(--fx-y, 50%);
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  z-index: 3;
+}
+.fx-burst::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--fx-size, 120px);
+  height: var(--fx-size, 120px);
+  border-radius: 999px;
+  border: 2px solid var(--fx-color, var(--color-glow));
+  box-shadow:
+    0 0 12px var(--fx-color, var(--color-glow)),
+    inset 0 0 8px color-mix(in srgb, var(--fx-color, var(--color-glow)) 60%, transparent);
+  animation: fx-ring 520ms var(--ease-out) forwards;
+}
+.fx-burst i {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 10px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--fx-color, var(--color-glow));
+  box-shadow: 0 0 6px var(--fx-color, var(--color-glow));
+  transform-origin: 0 50%;
+  animation: fx-spark 440ms var(--ease-out) forwards;
+}
+.fx-layer {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+.fx-ink {
+  position: absolute;
+  left: var(--fx-x, 50%);
+  top: var(--fx-y, 50%);
+  width: var(--fx-size, 240px);
+  height: var(--fx-size, 240px);
+  border-radius: 999px;
+  background: var(--fx-color, var(--color-ink));
+  animation: fx-ink 620ms var(--ease-out) forwards;
+}
+.fx-spring {
+  transition: transform 380ms var(--ease-spring);
+}
+.fx-spring:active {
+  transform: scale(0.965);
+  transition-duration: 90ms;
+}
+.fx-lift {
+  transition:
+    transform 260ms var(--ease-out),
+    box-shadow 260ms var(--ease-out),
+    border-color 260ms var(--ease-out);
+}
+.fx-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lift);
+}
+.fx-sweep {
+  position: relative;
+  overflow: hidden;
+}
+.fx-sweep::before {
+  content: "";
+  position: absolute;
+  inset: -2px auto -2px 0;
+  width: 35%;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.55), transparent);
+  transform: translateX(-130%) skewX(-20deg);
+}
+.fx-sweep:hover::before,
+.fx-sweep:focus-visible::before {
+  animation: fx-sweep 800ms var(--ease-out);
+}
+.fx-buzz {
+  animation: fx-buzz 320ms linear;
+}
+.fx-glow-once {
+  animation: fx-glow 700ms var(--ease-out);
+}
+
+/* Smart search bar */
+.search-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.4rem 0.4rem 3rem;
+  border-radius: 16px;
+  background: var(--color-sheet);
+  border: 1.5px solid var(--color-rule-strong);
+  box-shadow: var(--shadow-sheet);
+  transition:
+    border-color 180ms var(--ease-out),
+    box-shadow 280ms var(--ease-out);
+}
+.search-hero:focus-within {
+  border-color: var(--color-ink);
+  box-shadow:
+    0 0 0 4px rgb(42 56 209 / 0.14),
+    var(--shadow-lift);
+}
+.search-hero-icon {
+  position: absolute;
+  left: 1rem;
+  color: var(--color-pencil);
+}
+.search-hero-input {
+  flex: 1;
+  min-width: 0;
+  min-height: 2.9rem;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 1.08rem;
+  color: var(--color-graphite);
+}
+.search-hero-input::placeholder {
+  color: #6b7188;
+}
+.search-hero-input:focus {
+  outline: none;
+}
+.search-hero-button {
+  position: relative;
+  flex-shrink: 0;
+}
+.night .search-hero {
+  background: rgb(255 255 255 / 0.97);
+  border-color: rgb(255 255 255 / 0.4);
+  box-shadow: var(--shadow-glow);
+}
+.chip-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding: 0.25rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-rule-strong);
+  background: var(--color-sheet);
+  color: var(--color-graphite);
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    border-color 150ms var(--ease-out),
+    background-color 150ms var(--ease-out);
+}
+.chip-link:hover {
+  border-color: var(--color-ink);
+  background: var(--color-ink-soft);
+}
+.night .chip-link {
+  background: rgb(255 255 255 / 0.06);
+  border-color: rgb(255 255 255 / 0.22);
+  color: #fff;
+}
+.night .chip-link:hover {
+  background: rgb(255 255 255 / 0.14);
+  border-color: rgb(255 255 255 / 0.45);
+}
+.intent-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0.2rem 0.75rem;
+  border-radius: 999px;
+  border-width: 1.5px;
+  border-style: solid;
+  font-weight: 700;
+  font-size: 0.92rem;
+  animation: expand-in 420ms var(--ease-spring) both;
+  animation-delay: var(--d, 0ms);
+}
+
+/* Selectable chips (chapters, types): the chip swells and a tick draws in. Native input inside a label. */
+.pick {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.6rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 12px;
+  border: 1.5px solid var(--color-rule-strong);
+  background: var(--color-sheet);
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    transform 320ms var(--ease-spring),
+    border-color 160ms var(--ease-out),
+    background-color 160ms var(--ease-out),
+    box-shadow 260ms var(--ease-out);
+}
+.pick:hover {
+  border-color: var(--color-pencil);
+}
+.pick input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.pick-tick {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 6px;
+  border: 1.5px solid var(--color-rule-strong);
+  background: var(--color-sheet);
+  transition:
+    background-color 160ms var(--ease-out),
+    border-color 160ms var(--ease-out);
+}
+.pick-tick svg {
+  stroke-dasharray: 16;
+  stroke-dashoffset: 16;
+  transition: stroke-dashoffset 260ms var(--ease-out) 60ms;
+}
+.pick:has(input:checked) {
+  border-color: var(--color-ink);
+  background: var(--color-ink-soft);
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px -14px rgb(27 37 160 / 0.7);
+}
+.pick:has(input:checked) .pick-tick {
+  background: var(--color-ink);
+  border-color: var(--color-ink);
+}
+.pick:has(input:checked) .pick-tick svg {
+  stroke-dashoffset: 0;
+}
+.pick:has(input:focus-visible) {
+  outline: 3px solid var(--color-ink);
+  outline-offset: 2px;
+}
+.pick:has(input:disabled) {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Subject glyphs: each subject has its own small, quiet motion on hover/focus of its card. */
+.glyph .g-draw {
+  stroke-dasharray: var(--len, 60);
+  stroke-dashoffset: 0;
+}
+.glyph-host:hover .glyph .g-draw,
+.glyph-host:focus-visible .glyph .g-draw,
+.glyph-host:focus-within .glyph .g-draw {
+  animation: g-draw 900ms var(--ease-out);
+}
+@keyframes g-draw {
+  from {
+    stroke-dashoffset: var(--len, 60);
+  }
+}
+.glyph .g-spin {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.glyph-host:hover .glyph .g-spin,
+.glyph-host:focus-within .glyph .g-spin {
+  animation: orbit 1.6s var(--ease-out);
+}
+.glyph .g-pulse {
+  opacity: 0;
+}
+.glyph-host:hover .glyph .g-pulse,
+.glyph-host:focus-within .glyph .g-pulse {
+  animation: g-pulse 1.1s var(--ease-out);
+}
+@keyframes g-pulse {
+  0% {
+    offset-distance: 0%;
+    opacity: 0;
+  }
+  15%,
+  85% {
+    opacity: 1;
+  }
+  100% {
+    offset-distance: 100%;
+    opacity: 0;
+  }
+}
+.glyph .g-slide {
+  transition: transform 700ms var(--ease-out);
+}
+.glyph-host:hover .glyph .g-slide,
+.glyph-host:focus-within .glyph .g-slide {
+  transform: translateX(var(--slide, 6px));
+}
+.glyph .g-twist {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 800ms var(--ease-spring);
+}
+.glyph-host:hover .glyph .g-twist,
+.glyph-host:focus-within .glyph .g-twist {
+  transform: scaleX(-1);
+}
+.glyph .g-unroll {
+  transform-box: fill-box;
+  transform-origin: left center;
+  transition: transform 700ms var(--ease-out);
+}
+.glyph-host:hover .glyph .g-unroll,
+.glyph-host:focus-within .glyph .g-unroll {
+  transform: scaleX(1.15);
+}
+.glyph .g-drop {
+  transition: transform 500ms var(--ease-spring);
+}
+.glyph-host:hover .glyph .g-drop,
+.glyph-host:focus-within .glyph .g-drop {
+  transform: translateY(-4px);
+}
+
+/* Class numerals roll up when a class is shown or chosen */
+@keyframes numeral-roll {
+  from {
+    transform: translateY(60%);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.numeral-roll {
+  display: inline-block;
+  animation: numeral-roll 460ms var(--ease-spring) both;
+  animation-delay: var(--d, 0ms);
+}
+
+/* Academic field (home hero): objects are moved by <AcademicField> with transforms only. */
+.field {
+  position: relative;
+  touch-action: pan-y;
+}
+.field-object {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  will-change: transform;
+}
+.field-lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+}
+.field-lines line {
+  stroke: var(--color-glow);
+  stroke-width: 1.1;
+  stroke-linecap: round;
+}
+.field-tap {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+.field-tap::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 220px;
+  height: 220px;
+  border-radius: 999px;
+  border: 1.5px solid rgb(111 227 255 / 0.7);
+  animation: fx-ring 800ms var(--ease-out) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fx-burst,
+  .fx-layer,
+  .field-lines,
+  .field-tap {
+    display: none !important;
+  }
+  .fx-buzz,
+  .intent-chip,
+  .numeral-roll {
+    animation: none !important;
+  }
+  .pick:has(input:checked),
+  .fx-lift:hover {
+    transform: none;
+  }
+}
+
+/* Selected chapters in the builder summary, joined like a study path */
+.chapter-chain {
+  position: relative;
+  display: grid;
+  gap: 0.35rem;
+  padding-left: 1.1rem;
+  font-size: 0.9rem;
+}
+.chapter-chain::before {
+  content: "";
+  position: absolute;
+  left: 0.3rem;
+  top: 0.55rem;
+  bottom: 0.55rem;
+  width: 2px;
+  border-radius: 2px;
+  background: linear-gradient(var(--color-ink), var(--color-glow));
+}
+.chapter-chain li {
+  position: relative;
+}
+.chapter-chain li::before {
+  content: "";
+  position: absolute;
+  left: -1.02rem;
+  top: 0.5rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: var(--color-sheet);
+  border: 2px solid var(--color-ink);
+}
+
+/* Online test: choosing an answer gives a short tactile response (ripple from the press point, a
+   spring on release, one glow when it becomes the chosen option). It never hints at correctness. */
+.exam-option:has(input:checked) {
+  animation: fx-glow 700ms var(--ease-out);
+}
+.exam-option > span {
+  position: relative;
+  z-index: 1;
+}
+
+/* Row headers inside table bodies read like cells, not column headers */
+.table tbody th {
+  border-bottom: 1px solid var(--color-rule);
+  white-space: normal;
+  vertical-align: top;
+  padding: 0.65rem 0.75rem;
+}
+
+/* PDF build: sheets fan in, stack into a paper, and a verified seal lands when it's ready */
+.pdf-build {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-control);
+  background: var(--color-ink-soft);
+  color: var(--color-ink-deep);
+}
+.pdf-sheet {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition:
+    transform 520ms var(--ease-spring),
+    opacity 300ms var(--ease-out);
+}
+.pdf-build[data-stage="questions"] .pdf-sheet {
+  transform: translateX(calc((var(--i) - 1) * 30px)) rotate(calc((var(--i) - 1) * 9deg)) scale(0.8);
+  animation: float-y 1.4s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 120ms);
+}
+.pdf-build[data-stage="pages"] .pdf-sheet {
+  transform: translate(calc(var(--i) * -3px), calc(var(--i) * -3px)) rotate(calc((var(--i) - 1) * 2deg));
+}
+.pdf-build[data-stage="done"] .pdf-sheet {
+  transform: translate(calc(var(--i) * -2px), calc(var(--i) * -2px));
+}
+.pdf-done {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.pdf-build[data-stage="done"] .pdf-done {
+  animation: stamp-land 480ms var(--ease-out) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .pdf-sheet {
+    transform: none !important;
+    animation: none !important;
+  }
+  .pdf-build[data-stage="done"] .pdf-done {
+    opacity: 1;
+  }
+}
+
+/* Buttons never push the page wider than the screen; on phones long labels wrap. */
+.btn {
+  max-width: 100%;
+}
+@media (max-width: 639px) {
+  .btn {
+    white-space: normal;
+    text-align: center;
+  }
+}
+
+/* Tables that restack into labelled cards on phones (cells carry data-label) */
+@media (max-width: 639px) {
+  .table-stack thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .table-stack,
+  .table-stack tbody,
+  .table-stack tr,
+  .table-stack th,
+  .table-stack td {
+    display: block;
+    width: 100%;
+  }
+  .table-stack tr {
+    padding: 0.75rem 0.9rem;
+    border-bottom: 1px solid var(--color-rule);
+  }
+  .table-stack tbody th {
+    border: 0;
+    padding: 0 0 0.35rem;
+  }
+  .table-stack td {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 0;
+    padding: 0.2rem 0;
+    text-align: right;
+  }
+  .table-stack td::before {
+    content: attr(data-label);
+    color: var(--color-pencil);
+    font-size: 0.88rem;
+    text-align: left;
+  }
+  .table-stack tbody tr:hover td {
+    background: transparent;
   }
 }

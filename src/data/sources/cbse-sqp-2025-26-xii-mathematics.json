@@ -1,0 +1,1130 @@
+{
+  "source": {
+    "key": "cbse-sqp-2025-26-xii-mathematics",
+    "title": "CBSE Sample Question Paper, Class XII (2025-26), Mathematics (041)",
+    "board": "cbse",
+    "class": 12,
+    "subject": "mathematics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Central Board of Secondary Education",
+    "paperType": "SAMPLE",
+    "examYear": 2026,
+    "session": "Sample Question Paper, academic session 2025-26",
+    "paperName": "Mathematics (041)",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Maths-SQP.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Maths-MS.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 10,
+    "sha256": "50fce5e707ee9a46ab1f48be5bc48698b56106cc2b752e248f6b7a20bd34035c",
+    "maxMarks": 80,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler/xpdf), -enc UTF-8, table/layout/raw modes",
+    "ocrUsed": false,
+    "notes": "Paper prints 'MATHEMATICS – Code No. 041', 'SAMPLE QUESTION PAPER, CLASS - XII (2025-26)', 38 questions, Maximum Marks 80, Time 3 hours. Session and exam year are not printed as such on the paper itself; the official listing page (SQP_CLASSXII_2025-26.html) and file path identify it as the Class XII Sample Question Paper for academic session 2025-26 (examined 2026), so examYear is set to 2026 per the ExamReady convention for CBSE SQPs. The paper carries a footnote on every page: 'Please note that the assessment scheme of the Academic Session 2024-25 will continue in the current session i.e. 2025-26' (omitted from question text as page furniture). This is an English-only paper (no bilingual Hindi text). Each MCQ/short-answer question in Sections B, C, D and E that offers an internal choice also prints a 'For Visually Impaired' alternative version; per project instructions these VI alternatives were skipped entirely (not extracted) and only the standard question was kept. Heavy use of stacked fractions, exponents and matrices in this paper's PDF text layer caused many questions to extract in a scrambled reading order; these were rebuilt into plain-text notation (e.g. 'a/b' for fractions, 'x²' for exponents, '[r1;r2;r3]' for matrix rows) only where the reconstruction could be cross-checked against the official marking scheme's worked solution, and are flagged per question with confidence MEDIUM. Two questions (1 and 16) depend on a graph/figure not reproduced in the text layer and are flagged LOW confidence. Question 18's option (D) has a denominator missing from the extracted text layer and is flagged LOW confidence. Official answers are trimmed to final results/value points per project convention; full step-by-step working shown in the marking scheme is not reproduced.",
+    "usage": "Official CBSE publication, freely available on cbseacademic.nic.in; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "page": 1,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "Identify the function shown in the graph",
+      "options": [
+        "sin⁻¹x",
+        "sin⁻¹(2x)",
+        "(1/2) sin⁻¹x",
+        "2 sin⁻¹x"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (graph of the function) on page 1 not reproduced in text layer; question cannot be answered without it",
+        "Option (C) fraction rebuilt from the PDF layout as '(1/2) sin⁻¹x' (printed as sin⁻¹(x) over 2); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(B) / sin⁻¹(2x)",
+        "correctOption": 1
+      },
+      "chapter": "inverse-trigonometric-functions",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "page": 2,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "If for three matrices A = [a_ij]_{m×4}, B = [b_ij]_{n×3} and C = [c_ij]_{p×q} products AB and AC both are defined and are square matrices of same order, then value of m, n, p and q are:",
+      "options": [
+        "m = q = 3 and n = p = 4",
+        "m = 2, q = 3 and n = p = 4",
+        "m = q = 4 and n = p = 3",
+        "m = 4, p = 2 and n = q = 3"
+      ],
+      "extractionIssues": [
+        "Matrix order subscripts (e.g. m×4) rebuilt from a flattened extraction; check against the PDF (page 2)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(A) / m = q = 3 and n = p = 4",
+        "correctOption": 0
+      },
+      "chapter": "matrices",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "page": 2,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "If the matrix A = [0, r, −2; 3, p, t; q, −4, 0] is skew-symmetric, then value of (q+t)/(p+r) is….",
+      "options": [
+        "−2",
+        "0",
+        "1",
+        "2"
+      ],
+      "extractionIssues": [
+        "3×3 matrix in the question stem reconstructed from a text layer spread across lines; verified against the marking scheme's values (p=0, q=2, r=−3, t=4); check against the PDF (page 2)",
+        "Fraction (q+t)/(p+r) rebuilt from the PDF layout"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(A) / −2",
+        "correctOption": 0
+      },
+      "chapter": "matrices",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "page": 2,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "If A is a square matrix of order 4 and |adj A| = 27, then A (adj A) is equal to",
+      "options": [
+        "3",
+        "9",
+        "3 I",
+        "9 I"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / 3 I",
+        "correctOption": 2
+      },
+      "chapter": "determinants",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "page": 2,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "The inverse of the matrix [3, 0, 0; 0, 2, 0; 0, 0, 5] is…",
+      "options": [
+        "[0, 0, 3; 0, 2, 0; 5, 0, 0]",
+        "[1/3, 0, 0; 0, 1/2, 0; 0, 0, 1/5]",
+        "[−1/3, 0, 0; 0, −1/2, 0; 0, 0, −1/5]",
+        "[−3, 0, 0; 0, −2, 0; 0, 0, −5]"
+      ],
+      "extractionIssues": [
+        "Matrix options for this MCQ reconstructed from a text layer spread across multiple lines/columns (3×3 matrices); option (B) cross-verified against the marking scheme; check against the PDF (page 2)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(B) / [1/3, 0, 0; 0, 1/2, 0; 0, 0, 1/5]",
+        "correctOption": 1
+      },
+      "chapter": "determinants",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "page": 2,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "Value of the determinant |sin 23°, cos 67°; cos 23°, sin 67°| is",
+      "options": [
+        "0",
+        "1/2",
+        "√3/2",
+        "1"
+      ],
+      "extractionIssues": [
+        "Determinant entries' row order reconstructed from the PDF layout; could not be fully confirmed (result is 0 either way); check against the PDF (page 2)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(A) / 0",
+        "correctOption": 0
+      },
+      "chapter": "determinants",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "page": 2,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "If a function defined by f(x) = {kx + 1, x ≤ π; cos x, x > π} is continuous at x = π, then the value of k is",
+      "options": [
+        "π",
+        "−1/π",
+        "0",
+        "−2/π"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / −2/π",
+        "correctOption": 3
+      },
+      "chapter": "continuity-and-differentiability",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "page": 2,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "If f(x) = x tan⁻¹x, then f′(1) is equal to",
+      "options": [
+        "π/4 − 1/2",
+        "π/4 + 1/2",
+        "−π/4 − 1/2",
+        "−π/4 + 1/2"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) / π/4 + 1/2",
+        "correctOption": 1
+      },
+      "chapter": "continuity-and-differentiability",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "page": 2,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "A function f(x) = 10 − x − 2x² is increasing on the interval",
+      "options": [
+        "(−∞, −1/4]",
+        "(−∞, 1/4)",
+        "[−1/4, ∞)",
+        "[−1/4, 1/4]"
+      ],
+      "extractionIssues": [
+        "Exponent (x²) rebuilt from a flattened extraction ('2x2'); unambiguous given the surrounding solution; check against the PDF (page 2)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(A) / (−∞, −1/4]",
+        "correctOption": 0
+      },
+      "chapter": "applications-of-derivatives",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "page": 2,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "The solution of the differential equation x dx + y dy = 0 represents a family of",
+      "options": [
+        "straight lines",
+        "parabolas",
+        "Circles",
+        "Ellipses"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / Circles",
+        "correctOption": 2
+      },
+      "chapter": "differential-equations",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "page": 3,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "If f(a + b − x) = f(x), then ∫[a,b] x f(x) dx is equal to",
+      "options": [
+        "(a+b)/2 · ∫[a,b] f(b − x) dx",
+        "(a+b)/2 · ∫[a,b] f(a − x) dx",
+        "(b−a)/2 · ∫[a,b] f(x) dx",
+        "(a+b)/2 · ∫[a,b] f(x) dx"
+      ],
+      "extractionIssues": [
+        "Definite integral limits and fractions (a+b)/2, (b−a)/2 rebuilt from a flattened extraction; check against the PDF (page 3)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(D) / (a+b)/2 · ∫[a,b] f(x) dx",
+        "correctOption": 3
+      },
+      "chapter": "integrals",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "page": 3,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "If ∫ x³ sin⁴(x⁴) cos(x⁴) dx = a sin⁵(x⁴) + C, then a is equal to",
+      "options": [
+        "−1/10",
+        "1/20",
+        "1/4",
+        "1/5"
+      ],
+      "extractionIssues": [
+        "Exponents (x³, sin⁴, x⁴, sin⁵) rebuilt from a flattened extraction; unambiguous given the surrounding solution; check against the PDF (page 3)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(B) / 1/20",
+        "correctOption": 1
+      },
+      "chapter": "integrals",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "page": 3,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "A bird flies through a distance in a straight line given by the vector î + 2ĵ + k̂. A man standing beside a straight metro rail track given by r⃗ = (3 + λ)î + (2λ − 1)ĵ + 3λk̂ is observing the bird. The projected length of its flight on the metro track is",
+      "options": [
+        "6/√14 units",
+        "14/√6 units",
+        "8/√14 units",
+        "5/√6 units"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / 8/√14 units",
+        "correctOption": 2
+      },
+      "chapter": "vectors",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "page": 3,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "The distance of the point with position vector 3î + 4ĵ + 5k̂ from the y-axis is",
+      "options": [
+        "4 units",
+        "√34 units",
+        "5 units",
+        "5√2 units"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(B) / √34 units",
+        "correctOption": 1
+      },
+      "chapter": "three-dimensional-geometry",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "page": 3,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "If a⃗ = 3î + 2ĵ + 4k̂, b⃗ = î + ĵ − 3k̂ and c⃗ = 6î − ĵ + 2k̂ are three given vectors, then (2a⃗.î)î − (b⃗.ĵ)ĵ + (c⃗.k̂)k̂ is same as the vector",
+      "options": [
+        "a⃗",
+        "b⃗ + c⃗",
+        "a⃗ − b⃗",
+        "c⃗"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / c⃗",
+        "correctOption": 3
+      },
+      "chapter": "vectors",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "page": 3,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "A student of class XII studying Mathematics comes across an incomplete question in a book.\nMaximise Z = 3x + 2y + 1\nSubject to the constraints x ≥ 0, y ≥ 0, 3x + 4y ≤ 12,\nHe/ She notices the below shown graph for the said LPP problem, and finds that a constraint is missing in it:\nHelp him/her choose the required constraint from the graph.\nThe missing constraint is",
+      "options": [
+        "x + 2y ≤ 2",
+        "2x + y ≥ 2",
+        "2x + y ≤ 2",
+        "x + 2y ≥ 2"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph (feasible region) on page 3 not reproduced in text layer; question requires reading points from it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(B) / 2x + y ≥ 2",
+        "correctOption": 1
+      },
+      "chapter": "linear-programming",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "page": 4,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "The feasible region of a linear programming problem is bounded but the objective function attains its minimum value at more than one point. One of the points is (5,0).\nThen one of the other possible points at which the objective function attains its minimum value is",
+      "options": [
+        "(2,9)",
+        "(6,6)",
+        "(4,7)",
+        "(0,0)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(A) / (2,9)",
+        "correctOption": 0
+      },
+      "chapter": "linear-programming",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "page": 4,
+      "section": "A",
+      "marks": 1,
+      "type": "MCQ",
+      "text": "A person observed the first 4 digits of your 6-digit PIN. What is the probability that the person can guess your PIN?",
+      "options": [
+        "1/81",
+        "1/100",
+        "1/90",
+        "1"
+      ],
+      "extractionIssues": [
+        "Denominator for option (D) is not present in the extracted text layer (only '1' is present for that option); see page 4"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(B) / 1/100",
+        "correctOption": 1
+      },
+      "chapter": "probability",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "page": 5,
+      "section": "A",
+      "marks": 1,
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): Value of the expression sin⁻¹(√3/2) + tan⁻¹1 − sec⁻¹(√2) is π/4.\nReason (R): Principal value branch of sin⁻¹x is [−π/2, π/2] and that of sec⁻¹x is [0, π] − {π/2}.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+        "(A) is true but (R) is false.",
+        "(A) is false but (R) is true."
+      ],
+      "extractionIssues": [
+        "Assertion-Reason answer codes (A)-(D) are printed once on page 5 for Questions 19 and 20"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(D) / Assertion (A) is false, but Reason (R) is true.",
+        "correctOption": 3
+      },
+      "chapter": "inverse-trigonometric-functions",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "page": 5,
+      "section": "A",
+      "marks": 1,
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): Given two non-zero vectors a⃗ and b⃗. If r⃗ is another non-zero vector such that r⃗ × (a⃗ + b⃗) = 0⃗. Then r⃗ is perpendicular to a⃗ × b⃗.\nReason (R): The vector (a⃗ + b⃗) is perpendicular to the plane of a⃗ and b⃗",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+        "(A) is true but (R) is false.",
+        "(A) is false but (R) is true."
+      ],
+      "extractionIssues": [
+        "Assertion-Reason answer codes (A)-(D) are printed once on page 5 for Questions 19 and 20"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(C) / Assertion (A) is true, but Reason (R) is false.",
+        "correctOption": 2
+      },
+      "chapter": "vectors",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(a)",
+      "choiceGroup": "21",
+      "page": 5,
+      "section": "B",
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "Evaluate tan (tan⁻¹(−1) + π/3)",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "tan(tan⁻¹(−1) + π/3) = (√3 − 1)/(1 + √3) or 2 − √3."
+      },
+      "chapter": "inverse-trigonometric-functions",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(b)",
+      "choiceGroup": "21",
+      "page": 5,
+      "section": "B",
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "Find the domain of cos⁻¹(3x − 2)",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Domain of cos⁻¹(3x − 2) is [1/3, 1]."
+      },
+      "chapter": "inverse-trigonometric-functions",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "page": 5,
+      "section": "B",
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "If y = log tan (π/4 + x/2), then prove that dy/dx − sec x = 0",
+      "extractionIssues": [
+        "Fraction π/4 + x/2 rebuilt from the PDF layout; check against the PDF (page 5)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Differentiating, dy/dx = sec x, hence dy/dx − sec x = 0, as required. (Step-by-step working in the marking scheme trimmed to the final result.)"
+      },
+      "chapter": "continuity-and-differentiability",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": "(a)",
+      "choiceGroup": "23",
+      "page": 5,
+      "section": "B",
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "Find: ∫ [(x−3)/(x−1)³] eˣ dx",
+      "extractionIssues": [
+        "Fraction (x−3)/(x−1)³ rebuilt from a spread text-layer extraction; cross-checked against the marking scheme's working; check against the PDF (page 5)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "∫ [(x−3)/(x−1)³] eˣ dx = eˣ/(x−1)² + c."
+      },
+      "chapter": "integrals",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": "(b)",
+      "choiceGroup": "23",
+      "page": 5,
+      "section": "B",
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "Find out the area of shaded region in the enclosed figure.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure ('the enclosed figure', a shaded region bounded by a curve) on page 5 not reproduced in text layer; question cannot be answered without it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Area = ∫[0,4] x dy = 16/3 sq. units. (Marking scheme integrates x with respect to y from 0 to 4, per the figure, which is not reproduced.)"
+      },
+      "chapter": "application-of-integrals",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "page": 6,
+      "section": "B",
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "If f(x + y) = f(x)f(y) for all x, y ∈ R and f(5) = 2, f′(0) = 3, then using the definition of derivatives, find f′(5).",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "f′(5) = 6."
+      },
+      "chapter": "continuity-and-differentiability",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "page": 6,
+      "section": "B",
+      "marks": 2,
+      "type": "SHORT_ANSWER",
+      "text": "The two vectors î + ĵ + k̂ and 3î − ĵ + 3k̂ represent the two sides OA and OB, respectively of a ∆OAB, where O is the origin. The point P lies on AB such that OP is a median. Find the area of the parallelogram formed by the two adjacent sides as OA and OP.",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Area of the parallelogram = 2√2 square units."
+      },
+      "chapter": "vectors",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": "(a)",
+      "choiceGroup": "26",
+      "page": 6,
+      "section": "C",
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "If xy = eˣ⁻ʸ prove that dy/dx = log x / (log(xe))² and hence find its value at x = e.",
+      "extractionIssues": [
+        "Fraction log x / (log(xe))² rebuilt from a spread text-layer extraction; cross-checked against the marking scheme's working; check against the PDF (page 6)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "dy/dx = log x / (log(xe))²; value at x = e is 1/4."
+      },
+      "chapter": "continuity-and-differentiability",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": "(b)",
+      "choiceGroup": "26",
+      "page": 6,
+      "section": "C",
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "If x = a(θ − sin θ), y = a (1 − cos θ) find d²y/dx².",
+      "extractionIssues": [
+        "Second-derivative notation 'd²y/dx²' rebuilt from a flattened extraction; unambiguous given the marking scheme's working; check against the PDF (page 6)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "d²y/dx² = −(1/4a) cosec⁴(θ/2)."
+      },
+      "chapter": "continuity-and-differentiability",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "page": 6,
+      "section": "C",
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "A spherical ball of ice melts in such a way that the rate at which its volume decreases at any instant is directly proportional to its surface area. Prove that the radius of the ice ball decreases at a constant rate.",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "dr/dt = −k, a constant; hence the radius of the ice ball decreases at a constant rate."
+      },
+      "chapter": "applications-of-derivatives",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": "(a)",
+      "choiceGroup": "28",
+      "page": 6,
+      "section": "C",
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "Sketch the graph y = |x + 1|. Evaluate ∫[−4,2] |x + 1| dx. What does the value of this integral represent on the graph?",
+      "extractionIssues": [
+        "Definite integral limits (−4, 2) rebuilt from a flattened extraction; check against the PDF (page 6)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "∫[−4,2] |x + 1| dx = 9; it represents the area of the region bounded by the curve y = |x + 1|, the x-axis and the lines x = −4 and x = 2."
+      },
+      "chapter": "application-of-integrals",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": "(b)",
+      "choiceGroup": "28",
+      "page": 6,
+      "section": "C",
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "Using integration find the area of the region {(x, y) : x² − 4y ≤ 0, y − x ≤ 0}",
+      "extractionIssues": [
+        "Exponent (x²) rebuilt from a flattened extraction; unambiguous given the marking scheme's working; check against the PDF (page 6)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Required area = 8/3 sq. units."
+      },
+      "chapter": "application-of-integrals",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": "(a)",
+      "choiceGroup": "29",
+      "page": 6,
+      "section": "C",
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "Find the distance of the point (2, −1, 3) from the line\nr⃗ = (2î − ĵ + 2k̂) + μ(3î + 6ĵ + 2k̂)\nmeasured parallel to the z-axis.",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Point of intersection with the line through (2,−1,3) parallel to the z-axis is (2,−1,2); distance from (2,−1,3) is 1 unit."
+      },
+      "chapter": "three-dimensional-geometry",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": "(b)",
+      "choiceGroup": "29",
+      "page": 6,
+      "section": "C",
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "Find the point of intersection of the line r⃗ = (3î + k̂) + μ(î + ĵ + k̂) and the line through (2, −1, 1) parallel to the z-axis. How far is this point from the z-axis?",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Point of intersection is (2, −1, 0); distance from the z-axis = √5 units."
+      },
+      "chapter": "three-dimensional-geometry",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "page": 7,
+      "section": "C",
+      "marks": 3,
+      "type": "LONG_ANSWER",
+      "text": "Solve graphically:\nMaximise Z = 2x + y subject to\nx + y ≤ 1200\nx + y ≥ 600\ny ≤ x/2\nx ≥ 0, y ≥ 0 .",
+      "extractionIssues": [
+        "Fraction x/2 rebuilt from the PDF layout; check against the PDF (page 7)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Corner points A(600,0), B(1200,0), C(800,400), D(400,200). Z: Z_A=1200, Z_B=2400, Z_C=2000, Z_D=1000. Maximum Z = 2400 when x = 1200, y = 0."
+      },
+      "chapter": "linear-programming",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "page": 7,
+      "section": "C",
+      "marks": 3,
+      "type": "SHORT_ANSWER",
+      "text": "Two students Mehul and Rashi are seeking admission in a college. The probability that Mehul is selected is 0.4 and the probability of selection of exactly one of the them is 0.5. Chances of selection of them is independent of each other. Find the chances of selection of Rashi. Also find the probability of selection of at least one of them.",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Probability of selection of Rashi = 0.5; probability of selection of at least one of them = 0.7."
+      },
+      "chapter": "probability",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "page": 7,
+      "section": "D",
+      "marks": 5,
+      "type": "LONG_ANSWER",
+      "text": "For two matrices A = [3, −6, −1; 2, −5, −1; −2, 4, 1] and B = [1, −2, −1; 0, −1, −1; 2, 0, 3], find the product AB and hence solve the system of equations:\n3x − 6y − z = 3\n2x − 5y − z + 2 = 0\n−2x + 4y + z = 5",
+      "extractionIssues": [
+        "3×3 matrices A and B reconstructed from a text layer spread across lines; verified arithmetically (AB = I) against the marking scheme; check against the PDF (page 7)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "AB = I, so A⁻¹ = B. Writing the system as AX = C and solving X = A⁻¹C = BC gives x = 2, y = −3, z = 21."
+      },
+      "chapter": "matrices",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(a)",
+      "choiceGroup": "33",
+      "page": 7,
+      "section": "D",
+      "marks": 5,
+      "type": "LONG_ANSWER",
+      "text": "Evaluate: ∫[0,1] log(1+x) / (1+x²) dx",
+      "extractionIssues": [
+        "Definite integral limits and fraction log(1+x)/(1+x²) rebuilt from a spread text-layer extraction; cross-checked against the marking scheme's working; check against the PDF (page 7)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "I = (π/8) log 2."
+      },
+      "chapter": "integrals",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": "(b)",
+      "choiceGroup": "33",
+      "page": 7,
+      "section": "D",
+      "marks": 5,
+      "type": "LONG_ANSWER",
+      "text": "Find ∫ [(3 sin θ − 2) cos θ] / (5 − cos²θ − 4 sin θ) dθ",
+      "extractionIssues": [
+        "Fraction (3 sin θ − 2) cos θ / (5 − cos²θ − 4 sin θ) rebuilt from a spread text-layer extraction; cross-checked against the marking scheme's working; check against the PDF (page 7)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "∫ [(3 sin θ − 2) cos θ] / (5 − cos²θ − 4 sin θ) dθ = 3 log|sin θ − 2| − 4/(sin θ − 2) + C."
+      },
+      "chapter": "integrals",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "34",
+      "part": "(a)",
+      "choiceGroup": "34",
+      "page": 7,
+      "section": "D",
+      "marks": 5,
+      "type": "LONG_ANSWER",
+      "text": "Solve the differential equation: y + d(xy)/dx = x (sin x + x)",
+      "extractionIssues": [
+        "Derivative notation 'd(xy)/dx' rebuilt from a flattened extraction; check against the PDF (page 7)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "y x² = −x² cos x + 2(x sin x + cos x) + x⁴/4 + C."
+      },
+      "chapter": "differential-equations",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "34",
+      "part": "(b)",
+      "choiceGroup": "34",
+      "page": 7,
+      "section": "D",
+      "marks": 5,
+      "type": "LONG_ANSWER",
+      "text": "Find the particular solution of the differential equation:\n2y e^(x/y) dx + (y − 2x e^(x/y)) dy = 0 given that y(0) = 1",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Required solution: 2 e^(x/y) + log|y| = 2."
+      },
+      "chapter": "differential-equations",
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "35",
+      "page": 8,
+      "section": "D",
+      "marks": 5,
+      "type": "LONG_ANSWER",
+      "text": "The two lines (x−1)/3 = −y, z + 1 = 0 and −x/2 = (y+1)/2 = z + 2 intersect at a point whose y-coordinate is 1. Find the co-ordinates of their point of intersection. Find the vector equation of a line perpendicular to both the given lines and passing through this point of intersection.",
+      "extractionIssues": [
+        "The two line equations were reconstructed from a text layer spread across lines; cross-checked against the marking scheme's direction vectors and intersection point; check against the PDF (page 8)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Point of intersection: (−2, 1, −1). Vector equation of the required line: r⃗ = (−2î + ĵ − k̂) + μ(−î − 3ĵ + 4k̂)."
+      },
+      "chapter": "three-dimensional-geometry",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "36",
+      "page": 8,
+      "section": "E",
+      "marks": 4,
+      "type": "CASE_BASED",
+      "text": "Case Study -1\nA city’s traffic management department is planning to optimize traffic flow by analyzing the connectivity between various traffic signals. The city has five major spots labelled A, B, C, D, and E.\nThe department has collected the following data regarding one-way traffic flow between spots:\n1. Traffic flows from A to B, A to C, and A to D.\n2. Traffic flows from B to C and B to E.\n3. Traffic flows from C to E.\n4. Traffic flows from D to E and D to C.\nThe department wants to represent and analyze this data using relations and functions. Use the given data to answer the following questions:\nI. Is the traffic flow reflexive? Justify. [1]\nII. Is the traffic flow transitive? Justify. [1]\nIII A. Represent the relation describing the traffic flow as a set of ordered pairs. Also state the domain and range of the relation. [2]\nOR\nIII B. Does the traffic flow represent a function? Justify your answer. [2]",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "I. Not reflexive, as (A,A) ∉ R.\nII. Not transitive, as (A,B) ∈ R and (B,E) ∈ R, but (A,E) ∉ R.\nIII A. R = {(A,B),(A,C),(A,D),(B,C),(B,E),(C,E),(D,E),(D,C)}; Domain = {A,B,C,D}; Range = {B,C,D,E}.\nOR\nIII B. No, the traffic flow does not represent a function, as A has three images."
+      },
+      "chapter": "relations-and-functions",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "37",
+      "page": 9,
+      "section": "E",
+      "marks": 4,
+      "type": "CASE_BASED",
+      "text": "Case Study -2\nLED bulbs are energy-efficient because they use significantly less electricity than traditional bulbs while producing the same amount of light. They convert more energy into light rather than heat, reducing waste. Additionally, their long lifespan means fewer replacements, saving resources and money over time.\nA company manufactures a new type of energy-efficient LED bulb. The cost of production and the revenue generated by selling x bulbs (in an hour) are modelled as\nC(x) = 0.5x² − 10x + 150 and R(x) = −0.3x² + 20x respectively, where C(x) and R(x) are both in ₹.\nTo maximize the profit, the company needs to analyze these functions using calculus. Use the given models to answer the following questions:\nI. Derive the profit function P(x) [1]\nII. Find the critical points of P(x). [1]\nIII A. Determine whether the critical points correspond to a maximum or a minimum profit by using the second derivative test. [2]\nOR\nIII B. Identify the possible practical value of x (i.e., the number of bulbs that can realistically be produced and sold) that can maximize the profit, if the resources available and the expenditure on machines allows to produce minimum 10 but not more than 18 bulbs per hour. Also calculate the maximum profit. [2]",
+      "extractionIssues": [
+        "Exponents (x²) rebuilt from a flattened extraction ('0.5x2' etc.); unambiguous given the marking scheme's working; check against the PDF (page 9)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "I. P(x) = R(x) − C(x) = −0.8x² + 30x − 150.\nII. Critical point: x = 18.75.\nIII A. P''(x) = −1.6 < 0 at x = 18.75, so it corresponds to a maximum profit.\nOR\nIII B. Practical value x = 18 bulbs gives maximum profit; P(18) = ₹130.80."
+      },
+      "chapter": "applications-of-derivatives",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "38",
+      "page": 10,
+      "section": "E",
+      "marks": 4,
+      "type": "CASE_BASED",
+      "text": "Case Study -3\nExcessive use of screens can result in vision problems, obesity, sleep disorders, anxiety, low retention problems and can impede social and emotional comprehension and expression. It is essential to be mindful of the amount of time we spend on screens and to reduce our screen-time by taking regular breaks, setting time limits, and engaging in non-screen-based activities.\nIn a class of students of the age group 14 to 17, the students were categorised into three groups according to a feedback form filled by them. The first group constituted of the students who spent more than 4 hours per day on the mobile screen or the gaming screens, while the second group spent 2 to 4 hours /day on the same activities. The third group spent less than 2 hours /day on the same. The first group with the high screen time is 60% of all the students, whereas the second group with moderate screen time is 30% and the third group with low screen time is only 10% of the total number of students. It was observed that 80% students of first group faced severe anxiety and low retention issues, with 70% of second group, and 30% of third group having the same symptoms.\nI. What is the total percentage of students who suffer from anxiety and low retention issues in the class? [2]\nII. A student is selected at random, and he is found to suffer from anxiety and low retention issues. What is the probability that he/she spends screen time more than 4 hours per day? [2]",
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "I. P(A) = 72%.\nII. P(E1|A) = 2/3."
+      },
+      "chapter": "probability",
+      "part": null,
+      "choiceGroup": null,
+      "sectionTitle": null,
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}
