@@ -14,26 +14,40 @@ import { useEffect } from "react";
 export function MotionRoot() {
   const pathname = usePathname();
 
+  // One observer for the page's lifetime. A MutationObserver hands it every [data-reveal] element added later
+  // (pagination, filters and client navigations replace content without a pathname change), so new content can
+  // never stay hidden. Pathname is a dependency only as a safety net.
   useEffect(() => {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const els = [...document.querySelectorAll<HTMLElement>("[data-reveal]:not(.is-visible)")];
-    if (reduce || !("IntersectionObserver" in window)) {
-      els.forEach((el) => el.classList.add("is-visible"));
-      return;
-    }
-    const io = new IntersectionObserver(
-      (entries) => {
-        for (const e of entries) {
-          if (e.isIntersecting) {
-            e.target.classList.add("is-visible");
-            io.unobserve(e.target);
-          }
-        }
-      },
-      { rootMargin: "0px 0px -8% 0px", threshold: 0.08 },
-    );
-    els.forEach((el) => io.observe(el));
-    return () => io.disconnect();
+    const reveal = (el: Element) => el.classList.add("is-visible");
+    const io =
+      reduce || !("IntersectionObserver" in window)
+        ? null
+        : new IntersectionObserver(
+            (entries) => {
+              for (const e of entries) {
+                if (e.isIntersecting) {
+                  reveal(e.target);
+                  io?.unobserve(e.target);
+                }
+              }
+            },
+            { rootMargin: "0px 0px -8% 0px", threshold: 0.08 },
+          );
+    const track = (root: Document | Element) => {
+      const found = root instanceof Element && root.matches("[data-reveal]:not(.is-visible)") ? [root] : [];
+      found.push(...root.querySelectorAll("[data-reveal]:not(.is-visible)"));
+      for (const el of found) (io ? io.observe(el) : reveal(el));
+    };
+    track(document);
+    const mo = new MutationObserver((records) => {
+      for (const r of records) for (const n of r.addedNodes) if (n instanceof Element) track(n);
+    });
+    mo.observe(document.body, { childList: true, subtree: true });
+    return () => {
+      mo.disconnect();
+      io?.disconnect();
+    };
   }, [pathname]);
 
   // Press feedback (mouse and touch): data-fx="pulse" draws an electric ring with sparks from the

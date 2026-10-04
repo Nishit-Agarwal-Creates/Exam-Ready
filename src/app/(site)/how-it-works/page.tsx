@@ -41,12 +41,12 @@ export default function HowItWorksPage() {
           </ul>
         </nav>
 
-        <div className="prose-width space-y-14">
+        <div className="prose-width min-w-0 space-y-14">
           <section id="sources" aria-labelledby="sources-title">
             <h2 id="sources-title" className="text-[1.8rem]">
               Question sources
             </h2>
-            <p className="mt-3 text-pencil">Every question in the bank belongs to exactly one of four categories, shown as a stamp next to it.</p>
+            <p className="mt-3 text-pencil">Every question in the bank belongs to exactly one of these categories, shown as a stamp next to it. Official documents are also named for what they are: a board paper, a specimen, a sample paper, a question bank or a school paper.</p>
             <dl className="mt-6 space-y-5">
               {(
                 [
@@ -57,7 +57,7 @@ export default function HowItWorksPage() {
                   ["PENDING_REVIEW", "stamp-pending"],
                 ] as const
               ).map(([k, cls]) => (
-                <div key={k} className="grid gap-2 sm:grid-cols-[11rem_1fr]">
+                <div key={k} className="grid min-w-0 gap-2 sm:grid-cols-[11rem_1fr]">
                   <dt>
                     <span className={`stamp ${cls}`}>{SOURCE_LABELS[k].short}</span>
                   </dt>

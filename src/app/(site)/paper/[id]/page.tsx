@@ -32,7 +32,7 @@ export default async function PaperPage({ params, searchParams }: Props) {
   let number = 0;
 
   return (
-    <div className="container-page py-8 sm:py-10">
+    <div className="container-page pt-8 pb-28 sm:pt-10 lg:pb-10">
       <nav aria-label="Breadcrumb" className="no-print mb-4 text-sm text-pencil">
         <Link href="/practice" className="link">
           Build a paper
@@ -88,7 +88,7 @@ export default async function PaperPage({ params, searchParams }: Props) {
           </article>
         </div>
 
-        <aside className="no-print space-y-5 lg:sticky lg:top-24">
+        <aside id="paper-actions" className="no-print scroll-mt-24 space-y-5 lg:sticky lg:top-24">
           <div className="sheet p-5">
             <h2 className="font-sans text-[1.05rem] font-bold">What next?</h2>
             <PaperActions paperId={paper.id} showAnswers={showAnswers} />
@@ -115,6 +115,16 @@ export default async function PaperPage({ params, searchParams }: Props) {
             )}
           </div>
         </aside>
+      </div>
+
+      {/* On phones the actions sit below the whole paper, so the main one stays in reach. */}
+      <div className="mobile-action-bar no-print lg:hidden">
+        <Link href={`/test/${paper.id}`} className="btn btn-primary flex-1">
+          Start online test
+        </Link>
+        <a href="#paper-actions" className="btn btn-secondary">
+          PDF and more
+        </a>
       </div>
     </div>
   );

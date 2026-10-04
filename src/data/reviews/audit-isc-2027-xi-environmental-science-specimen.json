@@ -1,0 +1,47 @@
+{
+  "pack": "isc-2027-xi-environmental-science-specimen",
+  "auditedOn": "2026-10-01",
+  "method": "Re-checked against the official CISCE PDF (SHA-256 matched) with pdftotext -layout, -raw and -table, per-page text checks for page numbers, and the answer key in the same PDF; chapters checked against the ISC Class XI syllabus unit summaries.",
+  "checks": [
+    {
+      "key": "isc-2027-xi-environmental-science-specimen#1iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-environmental-science-specimen#10i",
+      "agree": false,
+      "reason": "Stored official answer is cut at 1200 characters mid-sentence (\"including neurological…\"), dropping \", reproductive and certain cancers.\" from the last key point on answer-key page 7."
+    },
+    {
+      "key": "isc-2027-xi-environmental-science-specimen#1xiib",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-environmental-science-specimen#1ix",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-environmental-science-specimen#1viii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-environmental-science-specimen#4ii",
+      "agree": false,
+      "reason": "Stored official answer is cut at 1200 characters and ends with a dangling \"(Ca…\" fragment of the examiner note instead of the full key text."
+    },
+    {
+      "key": "isc-2027-xi-environmental-science-specimen#2ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-environmental-science-specimen#10ii",
+      "agree": false,
+      "reason": "Stored official answer is cut at 1200 characters mid-word (\"cutting-edge reforms th…\"), dropping the key's whole closing paragraph on ethical concerns (germline editing, biopiracy, GMO side effects), which is part of the \"examine\" answer."
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "pack": "isc-cfq-2024-xii-physics",
+  "auditedOn": "2026-10-01",
+  "method": "Re-checked against the official PDF (SHA-256 matched) with pdftotext -layout, -raw and -table, pypdfium2 page renders for notation/figures, and the bank's own Answer Key.",
+  "checks": [
+    {
+      "key": "isc-cfq-2024-xii-physics#1",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#6",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#7",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#9",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#10",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#13",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#15",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#20",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#31",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#32",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#33",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#35",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#39",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#40",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#41",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#42",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#44",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#45",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#48",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#53",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#58",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#60",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#61",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#63",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#67",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#68",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#69",
+      "agree": false,
+      "reason": "Stored official answer has only (a) 2.08 kHz; the Answer Key (PDF p53) answers (b) with a plotted current-frequency resonance curve, which is not stored, so the answer is incomplete."
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#70",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#71",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#72",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#78",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#79",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#81",
+      "agree": false,
+      "reason": "Stored official answer ends in \"(c) Graph:\" with nothing after it; the E-d graph in the Answer Key (PDF p56) is not reproduced, so part (c) has no answer."
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#82",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#84",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#85",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#86",
+      "agree": false,
+      "reason": "Stored answer ends in \"(b) r0 ∝ 1/m Graph:\" with the key graph (PDF p58) missing, and the key gives angular momentum in \"kg m/s\" (wrong unit; it should be J s or kg m²/s). r0 ∝ 1/m also holds only at fixed velocity, not at the fixed energy E the question states."
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#87",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#88",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#89",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#90",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#91",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#94",
+      "agree": false,
+      "reason": "Key (b) \"X-rays penetrate through the flesh and rebound back from the bone\" is physically wrong: bone absorbs X-rays, it does not reflect them. Also, (c) \"Radio waves\" for Google Maps navigation is doubtful, since GPS uses microwave-band signals."
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#95",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#62",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#11",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#16",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#23",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#14",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-cfq-2024-xii-physics#34",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

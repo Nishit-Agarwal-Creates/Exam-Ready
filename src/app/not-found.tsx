@@ -1,5 +1,8 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Logo } from "@/components/logo";
+
+export const metadata: Metadata = { title: "Page not found", robots: { index: false, follow: true } };
 
 export default function NotFound() {
   return (
@@ -16,6 +19,9 @@ export default function NotFound() {
           </Link>
           <Link href="/subjects" className="btn btn-secondary">
             Browse subjects
+          </Link>
+          <Link href="/search" className="btn btn-ghost">
+            Search questions
           </Link>
         </div>
       </div>

@@ -1,0 +1,995 @@
+{
+  "source": {
+    "key": "isc-2026-xii-physics-specimen",
+    "title": "ISC 2026 Examination, Specimen Question Paper with Answer Key, Physics Paper 1 (Theory)",
+    "board": "icse",
+    "class": 12,
+    "subject": "physics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "SPECIMEN",
+    "examYear": 2026,
+    "session": "ISC (Class XII) Specimen Question Paper 2026",
+    "paperName": "Physics Paper 1 (Theory)",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2025/08/861A-PHYSICS-PAPER-1-SQP-AK.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2025/08/861A-PHYSICS-PAPER-1-SQP-AK.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 24,
+    "sha256": "01705501cc8b67f4d6d510620a3e8da201e4bf7a3eef582db35d9393c76a1b3a",
+    "maxMarks": 70,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler) and pdfplumber text layer; notation checked against page renders (pypdfium2)",
+    "ocrUsed": false,
+    "accessedOn": "2026-09-28",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "notes": "Every page footer prints 'ISC (CLASS XII) SPECIMEN QUESTION PAPER 2026' (pages 1-14) or 'ISC (CLASS XII) SPECIMEN ANSWER KEY 2026' (pages 15-24); examYear 2026 is the examination year the specimen is published for. Listed on cisce.org under specimen-question-papers-isc-class-xii-2026. The key is headed 'ANSWER KEY (Equivalent answers are acceptable.)'. 'page' is the physical PDF page of the question. Paper prints 'Maximum Marks: 70', three hours, 20 questions in Sections A (14 marks: Question 1 with parts (A)(i)-(vii) MCQ and (B)(i)-(vii) short answers, 1 mark each), B (Q2-Q8, 2 marks each), C (Q9-Q17, 3 marks each) and D (Q18-Q20, 5 marks each). Internal choices (OR) in Q2, Q4, Q10, Q12, Q18, Q19; alternatives are labelled (i)/(ii) as printed and share choiceGroup = question number. Sub-parts inside a question carry no separate printed marks, so each question (or OR alternative) is one entry with its sub-parts in the text; Q20 (i) and (ii) are both compulsory and are kept as one 5-mark entry for the same reason. Cognitive tags (Recall, Understanding, Application, Analysis) are printed in green and are reproduced as printed; where the parts of a combined entry carry different tags the field is omitted. The text layer loses many symbols (λ, α, ε₀, μ₀, ∝, subscripts and powers of ten); these were rebuilt from the rendered pages and flagged per question. Figures, circuit diagrams and graphs are not reproduced; answers that exist only as images (Q1(B)(i) graph, Q1(A)(iii) graph option, Q10(i) final expression, Q16(ii) ray diagram) are flagged and not rebuilt. The 'Useful constants and relations' table on page 14 is not included as a question."
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(A)(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Two point charges +50nc and -50nc separated a distance of 1mm are kept well inside a large sphere of radium 1m. Electric flux emanating from the sphere is:",
+      "options": [
+        "50 × 10⁻¹² Vm",
+        "50 × 10⁻⁹ Vm",
+        "50 × 10⁻⁶ Vm",
+        "Zero"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF (powers of ten in the options)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) or Zero",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "electric-charges-and-fields",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Three straight, parallel wires are coplanar and perpendicular to the plane of the page. The currents I₁ and I₃ are directed out of the page. If wire 3 experiences no force due to the currents I₁ and I₂, then the current in the wire 2 is:",
+      "options": [
+        "I₂ = 2I₁ and directed into the page",
+        "I₂ = 0.5I₁ and directed into the page",
+        "I₂ = 2I₁ and directed out of the page",
+        "I₂ = 0.5I₁ and directed out of the page"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 1 on page 2 (positions of wires 1, 2, 3 with separations 2r and r) not reproduced; the question cannot be answered without it",
+        "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF (current subscripts)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(c) or I₂ = 2I₁ and directed out of the page",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The variation of magnetic susceptibility (x) with absolute temperature (T) for a diamagnetic substance is:",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Options (a)–(d) are graphs of susceptibility against T on pages 2–3 and are not reproduced; the question cannot be answered without them",
+        "Official answer partly missing in extraction (figure/equation): the key prints '(a) or' followed by the graph"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "magnetism-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(iv)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The wavelength λₑ of an electron and λₚ of a photon of same energy E are related by:",
+      "options": [
+        "λₚ ∝ √λₑ",
+        "λₚ ∝ 1/√λₑ",
+        "λₚ ∝ λₑ²",
+        "λₚ ∝ λₑ"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "λ and ∝ symbols are missing from the text layer and the options extract as blanks; question and options rebuilt from the rendered page 3; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) or λₚ ∝ λₑ²",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(v)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "In which of the following figures, is the p-n diode forward biased?",
+      "options": [
+        "Only (P), (Q) and (S)",
+        "Only (R)",
+        "Only (P) and (R)",
+        "Only (Q) and (S)"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Circuit diagrams (P), (Q), (R), (S) on pages 3–4 not reproduced; the question cannot be answered without them"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(b) or Only (R)",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(vi)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "When a beam of white light is incident on a prism, the prism:",
+      "options": [
+        "only disperses the incident light.",
+        "only deviates the incident light.",
+        "deviates as well as disperses incident light.",
+        "neither deviates nor disperses incident light."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) or deviates as well as disperses incident light.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(A)(vii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked, Assertion and Reason. Read the two statements and choose the correct option.\nAssertion: The focal length of the convex mirror will increase, if the mirror is placed in water.\nReason: The focal length of a convex mirror of radius R is equal to R/2.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true but Reason is not the correct explanation for Assertion.",
+        "Assertion is true and Reason is false.",
+        "Assertion is false and Reason is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) or Assertion is false and Reason is true.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(i)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Current I flowing through a metallic wire is gradually increased. Show graphically how heating power (P) developed in it varies with the current (I).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer is a graph only (page 15) and is not reproduced; no answer text in the text layer"
+      ],
+      "confidence": "HIGH",
+      "cognitiveLevel": "Application",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(ii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "State one method to minimise flux loss in a transformer.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "By winding the primary and secondary coils close together, ideally one over the other (interleaving), and by using a core with a high permeability."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(iii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Why are giant telescopes of reflecting type? Give any one scientific reason.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Images formed by a reflecting telescope are free from the defect of chromatic aberration. / Images formed by a reflecting telescope are free from the defect of spherical aberration. / Images formed by a reflecting telescope are brighter."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(iv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give any one example where a ray of light travelling from one optical medium to another travels undeviated.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation): the key's ray diagram (medium 1 / medium 2) on page 16 is not reproduced",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "When a ray of light is incident normally on the surface of separation OR When refractive index of medium 1is equal to refractive index of medium 2. OR μ₁ = μ₂"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(v)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Two charged particles having same charge but different masses, are passed through a potential difference V. When V is varied, de-Broglie wavelength (λ) of the particles varies as shown in graphs below. Which graph is for heavier particles and why?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph on page 5 (λ against 1/√V, lines A and B) not reproduced; the question cannot be answered without it",
+        "The wavelength symbol extracts as the Hebrew letter 'ג' in the text layer; given as λ (as rendered)",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "M_B > M_A as slope of line B > slope of line A. S = h/√(2meV) OR Graph B refers to heavier particles."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(vi)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What happens when an electron collides with a positron?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "They annihilate each other producing gamma ray photons."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "nuclei",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(B)(vii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is the direction of flow of electrons in a solar cell?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Electrons move towards the n-type material, and holes move towards the p-type material, creating a flow of current when a circuit is connected."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)",
+      "choiceGroup": "2",
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the capacitance of the following combinations between terminals A and B. Area of each plate is A and separation between nearest two plates is ‘d’.\n(a) Figure 2\n(b) Figure 3",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figures 2 and 3 on page 5 (plate arrangements) not reproduced; the question cannot be answered without them",
+        "Official answer partly missing in extraction (figure/equation): the key's charge-distribution and equivalent-circuit diagrams on pages 16–17 are not reproduced",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF (ε₀ extracts as '0')"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) When A and B are connected to the positive and negative plates of the battery respectively, the charges will appear on them as: It is clear from the figure that two capacitors form which are in parallel. Thus, C_AB = 2C = 2ε₀A/d\n(b) There are three capacitors in parallel. Thus, C_AB = 3C = 3ε₀A/d"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "electrostatic-potential-potential-energy-and-capacitance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(ii)",
+      "choiceGroup": "2",
+      "page": 5,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The current (I)-voltage (V) graphs for a conductor are given at two different temperatures T₁ and T₂.\n(a) At which temperature T₁ or T₂ is the resistance higher?\n(b) Which temperature T₁ or T₂ is higher?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "I-V graph on page 5 (lines T₁, T₂ at angles θ₁, θ₂) not reproduced; the question cannot be answered without it",
+        "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) For the I-V graph, the slope of the I-V graph gives the conductance R = V/I = 1/tanθ. Since θ₁ > θ₂, tanθ₁ > tanθ₂. So Resistance at T₁ < Resistance at T₂.\n(b) Since the resistance of a conductor rises with temperature and ‘R’ at T₂ is higher than ‘R’ at T₁, so T₂ > T₁."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Arrangement of an oxygen ion and two hydrogen ions in a water molecule is shown in Figure 4 below.\nCalculate electric dipole moment of water molecule. Express your answer in terms of e (charge on hydrogen ion), l and θ.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 4 on page 6 (O ion with two H⁺ ions at distance l, angle θ between them) not reproduced; the geometry of θ is defined only by the figure",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "P₁ = P₂ = e × l; P = 2p cos α = 2 e × l cos (θ/2)"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "electric-charges-and-fields",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(i)",
+      "choiceGroup": "4",
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Two cells of same emf E, but different internal resistance r₁ and r₂ are connected to an external resistance R as shown in Figure 5 given below. The voltmeter V reads zero. Obtain an expression for R in terms of r₁ and r₂. (Assume that the voltmeter V is of infinite resistance).",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 5 on page 6 (circuit; the voltmeter is across the first cell) not reproduced; needed to know which cell the voltmeter reads",
+        "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "The total emf in the circuit is, E+E = 2E. The total resistance in the circuit is, R+r₁+r₂. The current in the circuit is given by: I = 2E/(R+r₁+r₂). Given V = E - Ir₁ = 0 ∴ Ir₁ = E ∴ 2E/(R + r₁ + r₂) × r₁ = E. R = r₁ − r₂"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(ii)",
+      "choiceGroup": "4",
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Ramesh performed an experiment to determine an unknown resistance R using the circuit shown in Figure 6 below. X is a resistance box and PQ is a 100cm potentiometer wire. He closed the key and inserted X = 1Ω, 2Ω ….. and recorded the null point (l) corresponding to different values of X.\n(a) Identify the principle involved in calculating R.\n(b) Write down a relation required to calculate the resistance R in terms of X and (l).",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 6 on page 6 (metre-bridge circuit with resistance box X, coiled resistor R, galvanometer G, wire PQ) not reproduced; needed for the relation in (b)",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Wheatstone Bridge Principle\n(b) R = X(100−l)/l"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Two moving coil galvanometers G₁ and G₂ are identical except that they have 50 turns and 20 turns and resistance of 10Ω and 1Ω respectively. Perform necessary calculations to check which one has greater voltage sensitivity.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Voltage sensitivity β = BAN/CR. β(G₁) = B.A.50/(C.10) = 5 BA/c. β(G₂) = B.A.20/(C.1) = 20 BA/c. G₂ has greater voltage sensitivity."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Two similar convex lenses are made up of two different materials as shown in Figures 7 and 8 below. Find the number of images formed in the following set ups:\n(i) Figure 7\n(ii) Figure 8",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figures 7 and 8 on page 7 (lenses made of two materials, split differently) not reproduced; the question cannot be answered without them"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) Two images\n(ii) One image"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name the electromagnetic wave used in:\n(a) radars\n(b) crystallography",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The answer key labels the parts (i)/(ii) although the question labels them (a)/(b)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Microwaves\n(ii) X rays"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "electromagnetic-waves",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "In the photoelectric effect, the maximum kinetic energy of the emitted photoelectron is ‘a’ and the work function of the metal is W₀. If the frequency of incident radiation is made ‘K’ times, then calculate the change in maximum KE of the ejected electron.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "a₁ = hν – Wo; a₂ = h (kν) – Wo; a₂ – a₁ = (khν – Wo) – (hν – Wo) = khν – hν = (k–1) hν"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Obtain an expression for electric potential (V) at a point near a point charge ‘Q’.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation): the key's diagram (charge Q at O, point P at distance r, element dx) on page 19 is not reproduced",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "F = (1/4πε₀) · (Q×1)/x² = (1/4πε₀) Q/x². dW = -Fdx = -(1/4πε₀)(Q/x²) dx. V = W = ∫_∞^r dW = ∫_∞^r −(1/4πε₀)(Q/x²) dx. V = (1/4πε₀) Q/r. This is the desired expression."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "electrostatic-potential-potential-energy-and-capacitance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(i)",
+      "choiceGroup": "10",
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Five identical charges Q = 2μC are placed equidistant on a semicircle as shown in Figure 9. Another point charge q = 1μC is kept at the center of the circle of radius 2cm. Calculate the electrostatic force experienced by the charge q.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 9 on page 8 (five charges on a semicircle around q) not reproduced; needed for the geometry",
+        "Official answer partly missing in extraction (figure/equation): the key's final expression for the resultant force (page 19) is an image and is not in the text layer",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Force acting on q due to Q₁ and Q₅ are opposite direction, so cancel to each other. Force acting on q due to Q₃ is F₃ = qQ₃/(4πε₀R²). Force acting on q due to Q₂ and Q₄. Resolving in two-component method: (1) Vertical Component: Q₂ Sin θ and Q₄ Sinθ are equal and opposite directions, so they cancel to each other. (2) Horizontal Component: Q₂ Sin θ and Q₄ cos θ are equal and same direction, so they can get added. F₂₄ = F₂q + F₄q = F₂ cos 45° + F₄ cos 45°; F₂₄ = qQ₂/(4πε₀R²) cos 45° + qQ₄/(4πε₀R²) cos 45°. Resultant net force F …"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "electric-charges-and-fields",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(ii)",
+      "choiceGroup": "10",
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Using Kirchoff’s laws of electrical networks, calculate the current I₃.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "The key's first line reads 'I₃ = I₃ + I₂' as printed (kept verbatim)",
+        "Figure 10 on page 8 (network ABCDEF with 33 V/1 Ω and 24 V/2 Ω cells, 2 Ω, 6 Ω, 8 Ω resistors) not reproduced; the question cannot be answered without it",
+        "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "I₃ = I₃ + I₂. Applying KVL to the loop ABCDEFA, 2I₁ + 8(I₁ + I₂) + 1I₁ = 33; 11I₁ + 8I₂ = 33. Applying KVL to the loop BCDEB, 6I₂ + 8(I₁ + I₂) + 2I₂ = 26; 8I₁ + 9I₂ = 24. On solving, we get I₁ = 3A, I₂ = 0 ∴ I₃ = 3A"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Using Ampere circuital law, obtain an expression for magnetic field ‘B’ at a point at a perpendicular distance ‘r’ from a long current carrying conductor.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation): the key's diagram (Amperian loop of radius r around the wire) on page 20 is not reproduced",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "By Ampere Circuital law, ∮B⃗.dl⃗ = μ₀I; ∮Bdl cos θ° = μ₀I; ∮Bdl = μ₀I; B∮dl = μ₀I; B.2πr = μ₀I; B = μ₀I/2πr"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": "(i)",
+      "choiceGroup": "12",
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A student records the following data for the magnitudes (B) of the magnetic field at axial points at different distances x (See Figure 11 given below) from the centre O of a circular coil of radius a carrying a current I.\nVerify (for any two) that these observations are in good agreement with the expected theoretical values of B.\nx: x = 0, x = a, x = 2a, x = 3a\nB: B₀, B₀/(2√2), B₀/(5√5), B₀/(10√10)",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on page 9 reproduced inline from the text layer (fractions rebuilt from the rendered page); Figure 11 (circular coil with axial point P) not reproduced, not needed to answer",
+        "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
+        "Official answer partly missing in extraction (figure/equation): the key's axial-field formula is garbled in the text layer (reads '02NI(a 2 )… 4 3 r'); rebuilt from the rendered page 20",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "The expression for B at an axial point of a circular coil carrying current is, B = (μ0/4π)·2NI(πa²)/r³, for N turns; B = (μ0/4π)·2I(πa²)/r³, for N = 1 turn. At the center, x = 0: = (μ0/2)(I/a). At x = a: = B0/(2√2). At x = 2a: = B0/(5√5). At x = 3a: = B0/(10√10)"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": "(ii)",
+      "choiceGroup": "12",
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "An electron moving along positive X axis with a velocity of 8 ×10⁷ ms⁻¹ enters a region having uniform magnetic field B = 1·3 × 10⁻³ T along positive Y axis.\n(a) Explain why the electron describes a circular path.\n(b) Calculate the radius of the circular path described by the electron.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Because force exerted by the magnetic field is always perpendicular to its velocity. So, it provides the necessary centripetal force to the electron.\n(b) e/m = v/Br; (1·6 × 10⁻¹⁹)/(9·1 × 10⁻³¹) = (8 × 10 × 7)/(1·3 × 10⁻³ × r). So, r = 0·35m"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Study the diagram shown in Figure 12 given below.\nIdentify the following in Figure 12.\n(i) A primary wavefront\n(ii) A secondary wavefront\n(iii) A wave normal",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 12 on page 10 (source S, wavefronts ABCD and A’B’C’D’, wave normals WN) not reproduced; the question cannot be answered without it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) ABCD\n(ii) A’B’C’D’\n(iii) SDD’ or SCC’ or SBB’ or SAA’"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "wave-optics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "In Young’s double slit experiment, show that fringe width ω (fringe separation) is given by\nω = λD/d\nwhere the terms have their usual meaning.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
+        "The key prints 'y_m = mλ/d' (kept verbatim)",
+        "Official answer partly missing in extraction (figure/equation): the key's geometry diagram (slits A, B, screen point P at y_m) on page 21 is not reproduced",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Because θ is small, tan θ ≈ sin θ; y_m/D = BN/AB = mλ/d; y_m = mλ/d; ω = y_m − y_(m−1) = mλD/d − (m − 1)λD/d; ω = λD/d (Proved)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "wave-optics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "With reference to the lens maker’s formula, answer the following questions:\n(i) Apply the formula (expression) of refraction at a single spherical surface to:\n(a) refraction at first spherical surface.\n(b) refraction at second spherical surface.\n(ii) Combine these two expressions / equations to obtain an expression for focal length of the lens.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 13 on page 10 (lens between media μ₁, μ₂ with sign conventions for u, v, R₁, R₂) not reproduced",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i)(a) μ₁/u + μ₂/ϑ′ = (μ₂ − μ₁)/R₁; 1/μ + μ₂/ϑ′ = (μ₂ − 1)/R₁ (b) μ₂/(−ϑ′) + μ₂/ϑ = (μ₂ − 1)/R₂\n(ii) Adding 1/u + 1/ϑ = (μ₂ − 1)(1/R₁ + 1/R₂). When u = ∞, ϑ = f: 1/∞ + 1/f = (μ₂ − 1)(1/R₁ + 1/R₂) ∴ 1/f = (μ₂ − 1)(1/R₁ + 1/R₂)"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "(i) A student studies details of a microorganism with the help of an instrument. Name the instrument used by him.\n(ii) Draw a labelled ray diagram of an image formed by this instrument, assuming\n(a) a small upright object.\n(b) image lies at least distance of distinct vision.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation): the answer to (ii) is a ray diagram on page 22 and is not reproduced"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Compound microscope"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "In a hydrogen atom, an electron jumps from the first excited state to the ground state, and a photon is emitted. This photon is incident on a metal surface having a work function of 2eV. Calculate the stopping potential of the electron emitted from the metal surface.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "E = -3.4 –(-13.6) = 10.2ev; eVo = E – Wo = 10.2 – 2; Or, V = 8.2V"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(i)",
+      "choiceGroup": "18",
+      "page": 11,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(a) Define the co-efficient of self-inductance.\n(b) (1) Consider an A.C. source of frequency (200/л) Hz applied across a coil. For each value of V- I in the tabulation, evaluate Inductive reactance and Self – Inductance of the coil.\nS.No. | V(volt) | I(A) | Inductive Reactance | Self - Inductance\n1 | 3.0 | 0.5 | | \n2 | 6.0 | 1.0 | | \n3 | 9.0 | 1.5 | |\n(2) If a D.C. source be connected to the same coil, what would be the value of inductive reactance?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on page 11 reproduced inline from the text layer",
+        "Frequency printed as the fraction 200/л with a Cyrillic 'л' (not π); kept as printed",
+        "Parts carry different printed cognitive tags ((a) Recall; (b)(1) and (b)(2) Analysis), so cognitiveLevel is omitted for the combined entry"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) It is defined as magnetic flux linked with the solenoid when unit current flows through it. Or It is defined as a ratio of magnetic flux linked with the solenoid to the current flowing through it.\n(b) (1) S.No. 1: 3∙0 V, 0∙5 A, Inductive Reactance 6∙0 Ω, Self-Inductance 0∙015H; S.No. 2: 6∙0 V, 1∙0 A, 6∙0 Ω, 0∙015H; S.No. 3: 9∙0 V, 1∙5 A, 6∙0 Ω, 0∙015H\n(2) Zero"
+      },
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(ii)",
+      "choiceGroup": "18",
+      "page": 12,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Three students, X, Y and Z performed an experiment for studying the variation of A.C. with frequency in a series LCR circuit and obtained the graphs as shown below. They all used an AC source of the same emf and inductance of the same value.\n(a) Who used minimum resistance?\n(b) In which case will the quality Q factor be maximum?\n(c) What did the students conclude about the nature of impedance at resonant frequency (f₀)?\n(d) An ideal capacitor is connected across 220V, 50Hz, and 220V, 100Hz supplies. Find the ratio of current flowing through it in the two cases.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 14 on page 12 (resonance curves X, Y, Z about f₀) not reproduced; (a) and (b) cannot be answered without it",
+        "Parts carry different printed cognitive tags ((a)–(c) Analysis; (d) Application), so cognitiveLevel is omitted for the combined entry",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Resistance used by X is the least and resistance used by Z is the maximum.\n(b) Q will be maximum for X.\n(c) At resonance impedance is equal to ohmic resistance.\n(d) In a capacitor the current is dependent directly on frequency I₁/I₂ = 1/2"
+      },
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(i)",
+      "choiceGroup": "19",
+      "page": 12,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(a) Study the graph shown below and answer the questions that follow.\nIndicate which region corresponds to:\n(1) Nuclei prone to fission\n(2) Nuclei prone to fusion\n(3) Most stable nuclei\n(b) In Rutherford’s scattering experiment when an alpha particle (charge = +2e, mass = 4mₚ) approaches a gold nucleus (Z = 79), it is continuously repelled, so it loses its kinetic energy(K) and its potential energy increases. Finally, α-particle comes to rest momentarily when whole of the kinetic energy is change into the potential energy of the charge at that distance from the nucleus. Let this distance be r₀ after which α-particle returns back again due to electrostatic repulsion.\nUsing the above information, derive an expression for r₀.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph on page 12 (binding energy per nucleon against mass number, Regions A, B, C) not reproduced; part (a) cannot be answered without it",
+        "α extracts as a blank in the text layer; restored from the rendered page 13",
+        "Parts carry different printed cognitive tags ((a) Recall; (b) Application), so cognitiveLevel is omitted for the combined entry",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) (1) Region C (2) Region A (3) Region B\n(b) At the distance of closest approach r₀ this energy has changed into potential energy U of the α-particle. U = (1/4πϵ₀) × (Ze·2e)/r₀, where Z = 79 is the atomic number of gold nucleus. Thus we have, K = (1/4πϵ₀) × 2(79)e²/r₀; r₀ = (1/4πϵ₀) × 158e²/K"
+      },
+      "chapter": "nuclei",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(ii)",
+      "choiceGroup": "19",
+      "page": 13,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "(a) In an atom X, electrons absorb the energy from an external source. This energy “excites” the electrons from a lower-energy level to a higher-energy level around the nucleus of the atom. When electrons return to the ground state, they emit photons.\nFigure 15 below is the energy level diagram of atom X with three energy levels, E₁ = 0·00eV, E₂ = 1·78eV and E₃ = 2·95eV. The ground state is considered 0 eV for reference.\nWhat wavelength of radiation is needed to excite the atom to energy level E₂ from E₁?\n(b) According to Bohr’s theory of hydrogen atom, calculate\n(1) angular momentum of the electron in second Bohr orbit.\n(2) radius of the third Bohr orbit.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 15 on page 13 (energy-level diagram) not reproduced; the level values are given in the text",
+        "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) E = E₂ − E₁; hc/λ = E₂ − E₁ = (6∙6 × 10⁻³⁴ × 3 × 10⁸)/λ = (1∙78 − 0) × 1∙6 × 10⁻¹⁹; λ = (6∙6 × 3 × 10⁻²⁶)/(1∙78 × 1∙6 × 10⁻¹⁹); λ = 6∙952 × 10⁻⁷m\n(b) (1) l₂ = 2h = 2h/2π = (6∙6 × 10⁻³⁴)/3∙14 = 2∙1 × 10⁻³⁴Js (2) rₙ = n² a₀; r₃ = 3² × 5∙3 × 10⁻¹¹ = 47∙7 × 10⁻¹¹m"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "(i) A band gap is the distance between the valence band of electrons and the conduction band. Essentially, the band gap represents the minimum energy that is required to excite an electron up to a state in the conduction band where it can participate in conduction. The lower energy level is the valence band, and thus if a gap exists between this level and the higher energy conduction band, energy must be input for electrons to become free.\nAn LED is made of a p-type semiconductor material (which has a higher concentration of \"holes\" or positive charge carriers) and an n-type semiconductor material (which has a higher concentration of electrons or negative charge carriers). This recombination process releases energy in the form of light and heat. The specific wavelength (and therefore the colour) of the emitted light depends on the energy band gap of the semiconductor material used.\nI-V characteristic of LED bulb is given below.\nIdentify the wavelength that has:\n(a) The maximum energy gap\n(b) The minimum energy gap\n(ii) E is the energy of the incident photon and Eg is energy gap, which is produced across the depletion layer. What will happen in the following cases:\n(a) E > Eg\n(b) E = Eg\n(c) E < Eg",
+      "hasFigure": true,
+      "extractionIssues": [
+        "I-V characteristic graph on page 14 (curves labelled 1, 2, 3) not reproduced; part (i) cannot be answered without it",
+        "No per-part marks are printed (only [5] for the whole question), so (i) and (ii) are kept as one entry",
+        "Parts carry different printed cognitive tags ((i) Application; (ii) Understanding), so cognitiveLevel is omitted for the combined entry"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) (a) 3 (b) 1\n(ii) (a) Emission of photon with energy (b) Emission of photon with no energy (c) No emission of photon"
+      },
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

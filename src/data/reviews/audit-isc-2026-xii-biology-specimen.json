@@ -1,0 +1,37 @@
+{
+  "pack": "isc-2026-xii-biology-specimen",
+  "auditedOn": "2026-10-01",
+  "method": "Re-checked against the official PDF (SHA-256 matched) with pdftotext -layout, -raw and -table, page renders (pypdfium2) zoomed on notation, and the answer key in the same PDF.",
+  "checks": [
+    {
+      "key": "isc-2026-xii-biology-specimen#8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#12",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#10ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#1iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#1xva",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#13",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

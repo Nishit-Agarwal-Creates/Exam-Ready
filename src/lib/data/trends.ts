@@ -94,6 +94,8 @@ export type BoardCoverageRow = {
   subjectName: string;
   verified: number;
   pending: number;
+  /** Every verified, published question from a real document (board papers, specimens, CISCE banks, school exams); never AI. */
+  authentic: number;
   aiPractice: number;
   years: number[];
   pendingYears: number[];
@@ -123,6 +125,12 @@ const computeAllCoverage = async (): Promise<BoardCoverageRow[]> => {
     WHERE q.is_demo = 0 AND q.source_type = 'VERIFIED_PYQ'
       AND EXISTS (SELECT 1 FROM question_sources qs JOIN papers p ON p.id = qs.paper_id WHERE qs.question_id = q.id AND p.paper_type = 'BOARD_EXAM' AND p.is_demo = 0 AND p.year IS NOT NULL)
     GROUP BY q.subject_id`);
+  const authentic = await db.all<{ subject_id: number; n: number }>(sql`
+    SELECT q.subject_id, COUNT(DISTINCT COALESCE(q.canonical_question_id, q.id)) AS n
+    FROM questions q
+    WHERE q.is_demo = 0 AND q.is_published = 1 AND q.verification_status = 'VERIFIED' AND q.source_type <> 'AI_SUPPLEMENTARY'
+    GROUP BY q.subject_id`);
+  const auth = new Map(authentic.map((a) => [a.subject_id, Number(a.n)]));
   const tot = new Map(totals.map((t) => [t.subject_id, t]));
   return subjects.map((s) => {
     const ys = years.filter((y) => y.subject_id === s.subject_id);
@@ -137,6 +145,7 @@ const computeAllCoverage = async (): Promise<BoardCoverageRow[]> => {
       subjectName: s.subject_name,
       verified: Number(tot.get(s.subject_id)?.verified ?? 0),
       pending: Number(tot.get(s.subject_id)?.pending ?? 0),
+      authentic: auth.get(s.subject_id) ?? 0,
       aiPractice: Number(s.ai ?? 0),
       years: ys.filter((y) => Number(y.verified) > 0).map((y) => Number(y.year)).sort((a, b) => b - a),
       pendingYears: ys.filter((y) => Number(y.pending) > 0).map((y) => Number(y.year)).sort((a, b) => b - a),

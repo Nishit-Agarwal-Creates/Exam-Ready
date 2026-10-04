@@ -106,15 +106,21 @@ export async function saveSelfReview(attemptId: string, marks: { questionId: num
   return { ok: true as const };
 }
 
-type Bucket = { key: string; label: string; max: number; scored: number; evaluatedMax: number; count: number };
+/** `answered*` count only questions the student attempted: a skipped question shows what wasn't reached, not a weakness. */
+type Bucket = { key: string; label: string; max: number; scored: number; evaluatedMax: number; count: number; answeredScored: number; answeredMax: number; skipped: number };
 
-function bump(map: Map<string, Bucket>, key: string, label: string, max: number, scored: number | null) {
-  const b = map.get(key) ?? { key, label, max: 0, scored: 0, evaluatedMax: 0, count: 0 };
+function bump(map: Map<string, Bucket>, key: string, label: string, max: number, scored: number | null, answered: boolean) {
+  const b = map.get(key) ?? { key, label, max: 0, scored: 0, evaluatedMax: 0, count: 0, answeredScored: 0, answeredMax: 0, skipped: 0 };
   b.max += max;
   b.count++;
+  if (!answered) b.skipped++;
   if (scored !== null) {
     b.scored += scored;
     b.evaluatedMax += max;
+    if (answered) {
+      b.answeredScored += scored;
+      b.answeredMax += max;
+    }
   }
   map.set(key, b);
 }
@@ -174,12 +180,12 @@ export async function getAttemptResult(id: string) {
     }
     // Unanswered descriptive questions score 0 without needing review.
     const scored = auto ? (a?.marksAwarded ?? 0) : a?.evaluationMethod === "SELF" ? (a.marksAwarded ?? 0) : answered ? null : 0;
-    bump(chapters, String(item.question.chapter.id), item.question.chapter.name, item.marks, scored);
-    bump(types, item.question.type, TYPE_LABELS[item.question.type], item.marks, scored);
+    bump(chapters, String(item.question.chapter.id), item.question.chapter.name, item.marks, scored, answered);
+    bump(types, item.question.type, TYPE_LABELS[item.question.type], item.marks, scored, answered);
     const cat: SourceType = isRealVerifiedPyq(item.question) ? "VERIFIED_PYQ" : item.question.sourceType === "VERIFIED_PYQ" ? "PENDING_REVIEW" : item.question.sourceType;
     const srcKey = item.question.isDemo ? `DEMO_${cat}` : cat;
-    bump(sources, srcKey, srcKey, item.marks, scored);
-    if (item.section) bump(sections, item.section, `Section ${item.section}`, item.marks, scored);
+    bump(sources, srcKey, srcKey, item.marks, scored, answered);
+    if (item.section) bump(sections, item.section, `Section ${item.section}`, item.marks, scored, answered);
     return { ...item, answer: a ?? null, scored };
   });
 
@@ -189,9 +195,11 @@ export async function getAttemptResult(id: string) {
   const pendingReview = items.filter((i) => i.scored === null).length;
 
   const chapterList = [...chapters.values()].sort((a, b) => a.label.localeCompare(b.label));
+  // Weak = under 60% on the questions actually answered (and marked). Chapters only skipped are listed separately.
   const weak = chapterList
-    .filter((c) => c.evaluatedMax > 0 && c.scored / c.evaluatedMax < 0.6)
-    .sort((a, b) => a.scored / a.evaluatedMax - b.scored / b.evaluatedMax);
+    .filter((c) => c.answeredMax > 0 && c.answeredScored / c.answeredMax < 0.6)
+    .sort((a, b) => a.answeredScored / a.answeredMax - b.answeredScored / b.answeredMax);
+  const notReached = chapterList.filter((c) => c.skipped === c.count);
 
   return {
     attempt,
@@ -218,6 +226,7 @@ export async function getAttemptResult(id: string) {
     sections: [...sections.values()].sort((a, b) => a.key.localeCompare(b.key)),
     sources: [...sources.values()] as (Bucket & { key: SourceType | `DEMO_${SourceType}` })[],
     weak,
+    notReached,
   };
 }
 

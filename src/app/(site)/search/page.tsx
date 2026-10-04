@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { SearchBox } from "@/components/search-box";
 import { Pagination } from "@/components/pagination";
 import { QuestionBlock } from "@/components/question-block";
 import { includeDemoData } from "@/lib/data/papers";
@@ -65,6 +66,10 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
       if (ids.length) f.subjectIds = ids;
     }
     f.chapterId ??= intent.chapterId;
+    if (!f.chapterId && intent.chapterIds?.length) {
+      f.chapterIds = intent.chapterIds;
+      if (!f.subjectId) f.subjectIds = intent.subjectIds;
+    }
     f.year ??= intent.year;
     f.marks ??= intent.marks;
     f.type ??= intent.type;
@@ -76,6 +81,16 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
     f.hasFigure ??= intent.hasFigure;
   }
   const pyqOnly = source === "pyq" || Boolean(intent?.pyqOnly) || Boolean(f.repeatedOnly);
+  // Removing a chip drops the words that produced it (each once, case-insensitively) and searches again.
+  const removeHref = (match: string) => {
+    const words = rawQ.split(/\s+/).filter(Boolean);
+    for (const w of match.toLowerCase().split(/\s+/).filter(Boolean)) {
+      const i = words.findIndex((x) => x.toLowerCase().replace(/[^a-z0-9/.-]/g, "") === w);
+      if (i >= 0) words.splice(i, 1);
+    }
+    const next = words.join(" ").trim();
+    return next ? `/search?q=${encodeURIComponent(next)}` : "/search";
+  };
   const hasQuery = Boolean(rawQ || f.subjectId || f.boardId || f.classId || f.year || f.chapterId || f.paperType || f.marks || f.hasAnswer !== undefined || f.hasFigure !== undefined || source !== "all");
   const result = hasQuery
     ? await searchQuestions(
@@ -84,6 +99,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
           realPyqOnly: pyqOnly ? true : undefined,
           sourceType: pyqOnly || source === "all" ? undefined : manual.sourceType,
           publicOnly: true,
+          groupOnce: true,
           demo: includeDemo ? f.demo : "exclude",
           sort: "recent",
           pageSize: 12,
@@ -110,16 +126,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
             <circle cx="11" cy="11" r="7" />
             <path d="m20 20-3.5-3.5" />
           </svg>
-          <input
-            id="s-q"
-            name="q"
-            type="search"
-            className="search-hero-input"
-            defaultValue={rawQ}
-            placeholder="e.g. Class 10 CBSE electricity"
-            autoComplete="off"
-            enterKeyHint="search"
-          />
+          <SearchBox id="s-q" className="search-hero-input" defaultValue={rawQ} placeholder="e.g. Class 10 CBSE electricity" />
           <button type="submit" className="btn btn-primary search-hero-button" data-fx="pulse">
             Search
           </button>
@@ -142,6 +149,13 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
             {intent.chips.map((c, i) => (
               <span key={`${c.kind}-${i}`} className={`intent-chip ${CHIP_STYLE[c.kind]}`} style={{ ["--d" as string]: `${i * 60}ms` }}>
                 {c.label}
+                {c.match && (
+                  <Link href={removeHref(c.match)} className="intent-chip-remove" aria-label={`Remove ${c.label}`} title={`Remove ${c.label}`}>
+                    <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+                      <path d="M3 3l6 6M9 3 3 9" />
+                    </svg>
+                  </Link>
+                )}
               </span>
             ))}
             <Link href={`/search?q=${encodeURIComponent(rawQ)}&exact=1`} className="link ml-1 text-[0.9rem]">
@@ -329,6 +343,19 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
             {result.items.map((item, i) => (
               <li key={item.id} className="sheet p-4 sm:p-6">
                 <QuestionBlock number={(result.page - 1) * result.pageSize + i + 1} q={item} headingLevel={2} provenance="line" />
+                <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[0.9rem] sm:ml-[3.25rem] [&>a]:inline-flex [&>a]:min-h-6 [&>a]:items-center">
+                  <Link href={`/questions/${item.id}`} className="link">
+                    View question
+                  </Link>
+                  {item.sources.find((s) => !s.isDemo) && (
+                    <Link href={`/sources/${item.sources.find((s) => !s.isDemo)!.paperId}`} className="link">
+                      View source
+                    </Link>
+                  )}
+                  <Link href={`/questions/${item.id}#similar`} className="link">
+                    Find similar
+                  </Link>
+                </div>
               </li>
             ))}
           </ol>

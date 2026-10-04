@@ -301,6 +301,8 @@ export type QuestionFilters = {
   /** Any of these subjects (e.g. "physics" in every class). */
   subjectIds?: number[];
   chapterId?: number;
+  /** Several chapters at once (e.g. "Electricity" in every class that has it). */
+  chapterIds?: number[];
   sourceType?: SourceType;
   status?: VerificationStatus;
   type?: QuestionType;
@@ -344,6 +346,7 @@ function filterConditions(f: QuestionFilters): SQL[] {
   if (f.subjectIds?.length) conds.push(inArray(questions.subjectId, f.subjectIds.slice(0, 50)));
   if (f.classLevel) conds.push(sql`${questions.classId} IN (SELECT id FROM classes WHERE level = ${f.classLevel})`);
   if (f.chapterId) conds.push(eq(questions.chapterId, f.chapterId));
+  if (f.chapterIds?.length) conds.push(inArray(questions.chapterId, f.chapterIds.slice(0, 50)));
   if (f.sourceType) conds.push(eq(questions.sourceType, f.sourceType));
   if (f.status) conds.push(eq(questions.verificationStatus, f.status));
   if (f.type) conds.push(eq(questions.questionType, f.type));

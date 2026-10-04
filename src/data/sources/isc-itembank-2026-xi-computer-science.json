@@ -1,0 +1,1897 @@
+{
+  "source": {
+    "key": "isc-itembank-2026-xi-computer-science",
+    "title": "CISCE Competency-Focused Practice Questions (Item Bank), ISC Class XI Computer Science",
+    "board": "icse",
+    "class": 11,
+    "subject": "computer-science",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "QUESTION_BANK",
+    "examYear": null,
+    "session": "Competency-Focused Practice Questions (Item Bank), ISC Class XI, first edition August 2026",
+    "paperName": "Computer Science, ISC Class XI",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2026/09/Computer-Science-XI.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2026/09/Computer-Science-XI.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 43,
+    "sha256": "ae299a897af8337e7bf497a8dfb1f1d35b41de6cafa8c4d1d4f5c2c1d015bb72",
+    "maxMarks": null,
+    "durationMinutes": null,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdfplumber (layout mode) and pdftotext (poppler); pages rendered with pypdfium2 to check code, symbols and notation",
+    "ocrUsed": false,
+    "notes": "Official CISCE item bank 'ISC Competency Focused Practice Questions, Computer Science, Class - XI' (cover prints 'cLASS - XI'; page headers 'ISC-Class XI'; 'First edition: August 2026'; preface dated 31st August 2026; uploaded to cisce.org in 2026/09). It is a question bank, not an examination paper: examYear is null and no maximum marks or duration are printed. 43 PDF pages: questions on printed pages 1-26 (PDF pages 6-31; PDF page = printed page + 5), Answer Key on printed pages 27-37 (PDF pages 32-42). 75 questions in six sections with marks in each section header: I MCQs (Q1-20, 1 mark), II Assertion-Reason (Q21-25, 1 mark), III Very Short Answer (Q26-50, 1 mark), IV Short Answer (Q51-65, 2 marks), V Long Answer (Q66-70, 5 marks), VI Very Long Answer (Q71-75, 10 marks); marksSource is SECTION_INSTRUCTIONS and the 155-mark total is just the sum of the bank. Multi-part questions are kept as one entry. Each question prints a topic tag in square brackets and a cognitive domain in parentheses (recorded as cognitiveLevel). pdftotext -layout drops overlapping lines on several pages, so text was taken from pdfplumber and checked against page renders. Code is reproduced line by line with its printed characters (including typographic quotes, primes and spacing slips such as 'Class Ex', 'i< =5', 's1= = s2', which are not corrected); indentation is approximated from the layout because the PDF sets code in a proportional font. officialAnswer comes from the bank's Answer Key ('neither limiting nor exhaustive'), copied as printed and never extended; answer programs longer than 1200 characters are trimmed with '…'. The copyright page reserves all rights; reproduction here is for study with attribution and a link to the original.",
+    "usage": "Official CISCE question bank from cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-29"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A number X satisfies the following condition:\nX₁₆ = 101011₂\nWhat is the value of X in hexadecimal?",
+      "options": [
+        "2B",
+        "2A",
+        "3B",
+        "3A"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) 2B",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A student multiplies two binary numbers:\n101₂ × 11₂\nWhat will be the result?",
+      "options": [
+        "111",
+        "1011",
+        "1111",
+        "1001"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) 1111",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "What is the main limitation of ASCII encoding?",
+      "options": [
+        "It uses too many bits",
+        "It cannot represent characters of many world languages",
+        "It cannot represent numbers",
+        "It cannot represent uppercase letters"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) It cannot represent characters of many world languages",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "encodings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A digital circuit receives two inputs A and B and produces the following truth table.\nA | B | Output\n0 | 0 | 0\n0 | 1 | 0\n1 | 0 | 0\n1 | 1 | 1\nWhich logical gate does the above truth table represent?",
+      "options": [
+        "OR gate",
+        "AND gate",
+        "NAND gate",
+        "XOR gate"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Truth table on page 7 reproduced as text rows (cells separated by '|'); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) AND gate",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Consider the propositional statement:\nP ∧ Q\nWhere,\nP: “It is raining”\nQ: “The ground is wet”\nThe statement P ∧ Q will be true when:",
+      "options": [
+        "Only P is true",
+        "Only Q is true",
+        "Both P and Q are true",
+        "Both P and Q are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "The ∧ symbols are displaced in the text layer; positions restored from the page render"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) Both P and Q are true",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A digital circuit that uses two half adders and one OR gate to perform binary addition of two bits along with a carry input is:",
+      "options": [
+        "Half Adder",
+        "Full Adder",
+        "XOR Gate",
+        "NAND Gate"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Full Adder",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A person has both an Aadhaar Card and a PAN Card, representing:\nThis represents:",
+      "options": [
+        "One object with multiple references",
+        "Multiple objects with same data",
+        "Two constructors",
+        "Method overloading"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Image on page 8 not reproduced (a person holding an Aadhaar card and a PAN card); the question can be answered from the text"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) One object with multiple references",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "objects",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "What is the output of the following code snippet?\nClass Ex\n{\n  int x = 10;\n }\n public class chk\n {\n  public static void main(String[ ] args)\n  {\n    Ex obj1 = new Ex();\n    Ex obj2 = obj1;\n    obj2.x = 50;\n    System.out.println(obj1.x);\n  }\n}\nOutput?",
+      "options": [
+        "10",
+        "50",
+        "0",
+        "Compilation error"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF",
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) 50",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "objects",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "What is the output of the following snippet ?\nint x=1000 ;\nbyte z=(byte) x;\nSystem.out.println(z);",
+      "options": [
+        "-24",
+        "24",
+        "1000",
+        "1000B"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) -24",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Analysis & Evaluate",
+      "chapter": "primitive-values-wrapper-classes-types-and-casting",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "What will be the output of code , if calc() method is called after creating an object of the class Exam?\nClass Exam\n{\n  int x=90;\n  void calc()\n   {\n      int x=30, b=10, c=67 ;\n       if( x<b &&  x< c ) ;\n       {\n         b=20;\n         System.out.print(this.x + b +″,″);\n        }\n       System.out.println(x +″,″+b);\n    }\n  }",
+      "options": [
+        "110,30,20",
+        "Compile time error",
+        "30,10",
+        "None of above"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF",
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) 110,30,20",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "statements-and-scope",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "How many times the loop will execute ?\nfor (int i=0; i< 5 ; i=i++)\n      System.out.print(i);",
+      "options": [
+        "6 times",
+        "5 times",
+        "infinite times",
+        "3 times"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) infinite times",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "statements-and-scope",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Choose the correct option\nclass X\n{\n  static\n {\n   System.out.print(“S “);\n }\n X()\n {\n   System.out.print(“C “);\n }\n static void X()\n {\n   System.out.print(“M “);\n }\n public static void main(String[] args)\n {\n   X.X();\n   new  X();\n }\n}",
+      "options": [
+        "S M C",
+        "M S C",
+        "S C M",
+        "Compilation error"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF",
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) S M C",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "methods-and-constructors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "What will be the output after executing the following snippet?\nint[][] arr = { {10, 20, 30, 40, 50}, {60, 70, 80, 90, 100}};\nSystem.out.println(arr[arr.length][arr[0].length – 1]);",
+      "options": [
+        "100",
+        "ArrayIndexOutOfBoundsException",
+        "50",
+        "90"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected) (en dash '–' printed in place of minus)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) ArrayIndexOutOfBoundsException",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which statement about length is correct?",
+      "options": [
+        "length is a method of array class.",
+        "length is a variable of array object.",
+        "length() must be used to get size.",
+        "Arrays do not store their length"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) length is a variable of array object.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which one is the disadvantage of handling text file in java?",
+      "options": [
+        "It is human readable.",
+        "Text file portable and lightweight.",
+        "The data processing is slower for large data set .",
+        "Text file is not easy to edit."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) The data processing is slower for large data set",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-input-output-and-text-file-handling",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Consider following Statements in Python\na = 3\nb = a\nHow many objects and how many references will be created upon executing above statements",
+      "options": [
+        "One integer object, one reference",
+        "One integer object, two references",
+        "Two integer objects, one reference",
+        "Two integer objects"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) One integer object, two references",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Consider the following piece of code in Python.\na=3\nif a==0:\n  print(“I am nothing!”,end=’ ‘)\nelif a==3:\n  print(“Am I odd?”,end=’ ‘)\nelse:\n  print(“Am I even?”,end=’ ‘)\nprint(“Got it!”)\nWhat will be the output upon execution?",
+      "options": [
+        "I am nothing!",
+        "I am nothing! Got it!",
+        "Am I odd?",
+        "Am I odd? Got it!"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Python code: indentation approximated from the PDF layout (proportional font) and is significant; check against the PDF",
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) Am I odd? Got it!",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following is an expression in Python?",
+      "options": [
+        "x + y- 2",
+        "b = 5",
+        "print(9)",
+        "if a<5:"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) x + y - 2",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Akshaj receives a message saying, “We are glad to inform you that you have won a free iPhone. Click on this link and enter your personal details to claim it.” What type of cyber threat is this?",
+      "options": [
+        "Spamming",
+        "Phishing",
+        "Hacking",
+        "Data backup"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Phishing",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "trends-in-computing-and-ethical-issues",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "In online communication, writing a message in ALL CAPITAL LETTERS is generally interpreted as:",
+      "options": [
+        "Showing excitement",
+        "Showing respect",
+        "Shouting or being rude",
+        "Writing formally"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Shouting or being rude",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "trends-in-computing-and-ethical-issues",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "II",
+      "sectionTitle": "Assertion- Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion (A) and Reason (R). Read the statements carefully and select the correct option.\nAssertion (A): A well-formed formula (WFF) is a logical expression constructed using propositional variables and logical connectives.\nReason (R): Logical connectives include implication and equivalence.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+        "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+        "Assertion is true but Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "II",
+      "sectionTitle": "Assertion- Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Choose the correct option:\nclass Demo\n{\n  static void display()\n {\n    System.out.println(“Hello”);\n  }\n  public static void main(String[] args)\n {\n    Demo  d = null;\n    d.display();\n }\n}\nAssertion (A): The program runs without throwing a NullPointerException.\nReason (R): Static methods are resolved at compile time using the reference type, not the object.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+        "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+        "Assertion is true but Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF",
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "methods-and-constructors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "II",
+      "sectionTitle": "Assertion- Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion (A) and Reason (R). Read the statements carefully and select the correct option.\nAssertion (A): Java provide Security ,memory efficiency ,thread safety, and better performance using String\nReason (R): A String is sometimes immutable in nature.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+        "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+        "Assertion is true but Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) Both Assertion and Reason are false",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "II",
+      "sectionTitle": "Assertion- Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion (A) and Reason (R). Read the statements carefully and select the correct option.\nAssertion (A): In the text file we write throwsIOExcetion after method prototype .\nReason (R): The readLine() method is not responsible for this run time error.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+        "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+        "Assertion is true but Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Assertion is true but Reason is false",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "basic-input-output-and-text-file-handling",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "II",
+      "sectionTitle": "Assertion- Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion (A) and Reason (R). Read the statements carefully and select the correct option.\nAssertion (A): Exceptions may occur even if the program is free from all types of errors.\nReason (R): Anomalies occurring during runtime are called exceptions",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+        "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+        "Assertion is true but Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "The bank tags this question [Data processing in Python]; mapped to the Python chapter"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Determine in which number system the number 1021 cannot be represented based on the permissible digits in that base.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "binary or base 2"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The above pictures represent CAB and CAFÉ in the hexadecimal format, what should be added to convert CAB in hexadecimal to CAFÉ in hexadecimal?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Image (pictures) on page 15 not reproduced (a taxi = CAB, arrow, a café logo = CAFE); the question can be answered from the text"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "CAFÉ – CAB = BC53"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Examine the following numbers written in different number systems and identify which one is not valid for its specified base:\n101₂, 239₁₀, 128₈, 1AF₁₆.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Base subscripts separated from the numbers in the text layer; rebuilt from the page render (question and answer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "128₈"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "ASCII uses 7 bits to represent characters. What is the maximum number of different characters that can be represented using standard ASCII?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "128"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "encodings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A text file contains characters from Hindi, English, and Chinese languages. Which encoding system is most suitable to store this text without loss of characters?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Unicode"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "encodings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Simplify the following logical expression and determine its logical equivalence:\n(P⇒Q) ∧ (Q⇒P)\nIdentify the single logical connective that represents the equivalent statement.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Logic symbols displaced or dropped in the text layer; restored from the page render; check against the PDF",
+        "Official answer partly missing in extraction: the ⇔ symbol is absent from the answer key text layer and was restored from the page render"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "P ⇔ q OR Biconditional (⇔)"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Verify if, the logical expression P ∨ ~P is a Contradiction, Tautology or Contingency",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Logic symbols displaced or dropped in the text layer; restored from the page render; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Tautology"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "If P is false, what is the truth value of P ⇒ Q regardless of Q?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Logic symbols displaced or dropped in the text layer; restored from the page render; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "true"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "34",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Student object =new student();\nWhat is the difference between object and Object ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "object - is the instance of student class\nObject - Object class is the superclass of all classes in Java.\nIt is defined in the java.lang package"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "objects",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "35",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "What is the output of the following snippet ?\nInteger a=130 , b=130 ;\nSystem.out.println( a==b );",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "false"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "primitive-values-wrapper-classes-types-and-casting",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "36",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": " int x = 5;\n if (x > 10 && ++x > 5)\nSystem.out.println(x);\nelse\n System.out.println(x);",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF",
+        "No question stem is printed; the code is the whole item"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "5"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "variables-and-expressions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "37",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Toshali executes the following code , gets the output 0 1 . whereas she desires to get the output as 0 1 4 9. Identify one statement which has an logical error , correct the same to get the desired output.\nvoid Isc()\n{   int s=0;\n    for(int i=1 ; i< =5 ; i++)\n     {\n       if( i%2==0 )\n         break ;\n       System.out.print(s+ ″\\t″);\n       s+=i;\n     }\n    System.out.print(s);\n }",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF",
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)",
+        "Topic tag printed garbled as '[Statement, S).pe]'"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Replace break with continue"
+      },
+      "cognitiveLevel": "Analysis and Application",
+      "chapter": "statements-and-scope",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "38",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A class Course has only parameterized constructors. A programmer writes:\nCourse c = new Course();\nIt gives compilation errors. Why?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "If a class defines at least one constructor explicitly, Java does NOT provide a default (no-argument) constructor automatically."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "methods-and-constructors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "39",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "What is the purpose of a private constructor?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It restricts object creation outside the class."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "methods-and-constructors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "40",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Write one difference between concat() and “+” operator ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "concat() method : This method is use to merge only two Strings\n“+” operator: This Operator is use to merge not only two String, it can also merge any primitive data type with String."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "41",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Where are String literals stored in memory?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "String literals are stored in String constant pool area"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "42",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "What are the default values stored in String []=new String[5]",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "null"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "43",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Which exceptions will be raised if user enters a String literal “ISC” on the execution of following code?\nimport java.util.*;\nclass Merge\n{\n    public void input( )\n     {\n       System.out.println(“enter a Name “);\n       int z= new Scanner(System.in).nextInt();\n       System.out.println(“OUTPUT=”+z);\n     }\n }",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF",
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "InputMismatchException"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-input-output-and-text-file-handling",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "44",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "In character-oriented IO, which class increases the efficiency of file reading?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "BufferedReader class"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "basic-input-output-and-text-file-handling",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "45",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give the output of the Python statements given below.\nPrint(0o10)\nprint(0Xe)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "8\n14"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "46",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give the output of the Python statements given below.\nFor I in range(-2,1,1):\n  print (I,”\\t”,i*i)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Python code: indentation approximated from the PDF layout (proportional font) and is significant; check against the PDF",
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "-2 4\n-1 1\n0 0"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "47",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Name the following:\n(a) [ 20, 'Jessa', 35.75, [30, 60, 90] ]\n(b) ( 20, 'Jessa', 35.75, [30, 60, 90] )",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) List\n(b) Tuple"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "48",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Fill in the empty boxes (1) and (2) with appropriate tokens of python.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 18 not reproduced (diagram 'Tokens in Python' with boxes Keywords, Identifiers, (1), Strings, (2), Operators and examples); the question cannot be answered without it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "1. Constants 2. Delimiters"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "49",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Romila receives a phone call from a person claiming to be a police officer. The caller says Romila’s mobile number is involved in a crime and he orders her to stay on a video call while transferring money to avoid immediate arrest.\nWhat type of cyber fraud is Romila being targeted with?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Digital arrest scam / Phishing"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "trends-in-computing-and-ethical-issues",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "50",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "What is the main goal of the Free Software Foundation?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "To promote the use, development, and distribution of free and open software."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "trends-in-computing-and-ethical-issues",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "51",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A number 33 in base b is equal to 27₁₀.\n(a) Find the value of b.\n(b) Write the largest valid digit that can appear in base b.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) b = 8\n(b) largest valid digit = 7"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "52",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A student claims:\n“Since Unicode supports many languages, ASCII is no longer useful.”\nQuestions:\n(a) Is the student’s statement completely correct?\n(b) Give one reason for your answer.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) No\n(b) ASCII is still used because it is simple, efficient, and included within Unicode."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "encodings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "53",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Consider the propositional statements:\nP: “The switch is ON”\nQ: “The bulb glows”\nA logical expression is written as P ⇒ Q then,\n(a) What does the statement P ⇒ Q mean in words?\n(b) When will this statement be false?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Logic symbols displaced or dropped in the text layer; restored from the page render; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) If the switch is ON, then the bulb glows.\n(b) It is false when P is true and Q is false."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "54",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Two gates are connected as follows:\n1. Inputs A and B go into a NAND gate\n2. The output goes into a NOT gate\n(a) Which logic gate does this circuit behave like?\n(b) Write the Boolean expression.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Answer key ∧ symbol displaced in the text layer; restored from the page render"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) AND Gate\n(b) A ∧ B"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "55",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A digital circuit produces output 1 only when exactly one of the two inputs is 1.\n(a) Identify which logical operation this represents.\n(b) Can this operation be implemented using only NOR gates?\nBriefly justify your answer.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Exclusive OR (XOR)\n(b) NOR gate is also a universal gate, meaning it can be used to construct NOT, AND, OR, and hence XOR."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "56",
+      "part": null,
+      "choiceGroup": null,
+      "page": 20,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "One remote. Three screens. Total control.\nclass TV\n{\n  int volume = 20;\n  public class Test\n  {\n     public static void main(String[] args)\n     {\n        TV screen1 = new TV();\n        TV screen2 = screen1;\n        TV screen3 = new TV();\n        screen2.volume = 80;\n        screen2 = screen3;\n        screen3.volume = 40;\n        System.out.println(screen1.volume + “ ” +\n        screen2.volume);\n     }\n   }\n}\nWhat will be output for the above Java code?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Image on page 20 not reproduced (a remote pointed at three TV screens); the question can be answered from the code",
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF",
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "80 40"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "objects",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "57",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Read the following snippet and answer the following question:\nclass JYG\n{\n void WrapOPeration(Integer a , Integer b)\n {\n    Integer c=a+b;\n    if(c<7);\n    {\n       c+=b;\n       b/=c;\n       c-=b;\n     }\n    System.out.println(“C=”+c+”,B=”+b);\n }\n}\nWhat is the final value of c and b if we call the function WrapOPeration(7, 8)?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF",
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "C=23, B=0"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "primitive-values-wrapper-classes-types-and-casting",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "58",
+      "part": null,
+      "choiceGroup": null,
+      "page": 22,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Read the following snippet and answer the following question:\nclass Camera\n{\n   String brand;\n   Camera()\n   {\n     init();\n   }\n    void init()\n    {\n    System.out.println(brand.length());\n    }\n     void Camera(String b)\n    {\n      brand = b;\n     }\n }\npublic class Test\n{\n  public static void main(String[] args)\n  {\n    Camera  obj = new Camera();\n  }\n}\n(a) Does the program compile?\n(b) What happens at runtime? Give the reason.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Yes, the program compiles successfully.\nIt throws a NullPointerException at runtime."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "methods-and-constructors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "59",
+      "part": null,
+      "choiceGroup": null,
+      "page": 22,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "What is the output of the following snippet?\nString s1= new String(″Comp Sc″);\nString s2=″Comp  Sc″;\nString s3= new String(″AI & ML”);\nString s4=″AI & ML″;\nSystem.out.print( s1= = s2 ) ;\nSystem.out.print( s3.equals (s4) ) ;",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF",
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected) ('s1= = s2' printed with a space)"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "false true"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "60",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "String s1 = \"Hello\";\nString s2 = s1;\ns1.concat(\" World\");\nSystem.out.println(s1);\nSystem.out.println(s2);\nWhat will be the output of the above Java code?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Hello\nHello"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "61",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Which streams are utilised in text files to carry out IO operations?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Character streams:\nFileReader, FileWriter, BufferedReader, BufferedWriter, PrintWriter"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "basic-input-output-and-text-file-handling",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "62",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "What distinguishes the Scanner class's two methods, hasNext() and hasNextInt() ?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "hasNext() : This method returns true if the input has another token .\nhasNextInt() : This method returns true if the input has another token and that token can be interpreted as an integer."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-input-output-and-text-file-handling",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "63",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "(a) Following code contains syntax errors. Rewrite the code after rectifying it.\nFor I in “aeiou”\nprint(I,’,’,end=’ ‘)\n(b) Give output of the rectified code.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code printed as in the PDF (typographic quotes/primes, spacing and capitalisation not corrected)",
+        "Answer key code: indentation approximated from the PDF layout"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) for i in \"aeiou\":\n    print(i,',',end=' ')\n(b) a , e , i , o , u ,"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "64",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Write a piece of code for generating the following output.\n@ @ @ @\n@ @ @ @\n@ @ @ @",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Answer key code: indentation approximated from the PDF layout"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "for i in range(3):\n  for j in range (1,5): or for j in range (4):\n    print('@',end=' ')\n  print()"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "65",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A mobile application allows users to view and place virtual furniture within their actual surroundings using a smartphone camera. In contrast, virtual property walkthroughs enable users to explore a completely computer-generated environment as if they were physically present there.\nThe first is an application of Augmented Reality (AR), whereas the latter is an application of Virtual Reality (VR).\nDifferentiate between Augmented Reality (AR) and Virtual Reality (VR).",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "AR uses a real-world setting while VR is completely virtual.\nAR can be accessed with a smartphone but VR requires a headset device.\nAR users can control their presence in the real world; VR users are controlled by the system."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "trends-in-computing-and-ethical-issues",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "66",
+      "part": null,
+      "choiceGroup": null,
+      "page": 24,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "A Hospital Treatment Committee includes a Senior Doctor (D), Specialist (S), and Ethics Officer (I). The treatment is approved only if:\n• The Senior Doctor agrees and the Ethics Officer disagrees,\nOR\n• The Specialist agrees while the Senior Doctor disagrees,\nOR\n• All three agree\nThe Inputs are:\nINPUTS\nD | Denotes the Senior Doctor’s vote\nS | Denotes the Specialist’s vote\nE | Denotes the Ethics Officer’s vote\n[In all the above cases, 1 indicates agrees and 0 indicates disagrees]\nOutput: X – Denotes approved [1 indicates agrees and 0 indicates disagrees in all cases]\nDraw the truth table for the inputs and outputs. Also, write the Boolean expression X(D,S,E) with disjunctive operators for each of the false values (0s) from the output column of the truth table.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Inputs table on page 24 reproduced as text rows (cells separated by '|')",
+        "Answer key truth table (page 35) reproduced as text rows; the answer uses the characters ˅ ˄ as they are in the text layer (rendered as ∨ ∧)",
+        "The stem names the Ethics Officer '(I)' but the table uses E, as printed"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "D S E | X\n0 0 0 | 0\n0 0 1 | 0\n0 1 0 | 1\n0 1 1 | 1\n1 0 0 | 1\n1 0 1 | 0\n1 1 0 | 1\n1 1 1 | 1\nFinal Expression (Disjunctive form using OR of 0’s conditions)\nX(D,S,E) = (D ˅ S ˅ E) ˄ (D ˅ S ˅ ~E) ˄ (~D ˅ S ˅ ~E)"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "67",
+      "part": null,
+      "choiceGroup": null,
+      "page": 24,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "Write a method to reverse each column of the 2D array x[ ][ ] without using another array.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Answer key code: indentation approximated from the PDF layout"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "void ope(int x[][])\n  {\n    int r=x.length;int c=x[0].length;\n     for (int i=0;i<c;i++)\n    {int p=r-1;\n       for (int j=0;j<=r/2;j++)\n       { int t=x[j][i]; x[j][i]=x[p][i]; x[p][i]=t;\n         p=p-1;\n       }\n    }\n}"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "68",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "The employee names and employee IDs are stored in a text file “Employee.txt.”\nvoid search(String str) will accept str and will display the employee’s record if name begins with str. Write the method void search(String).\nSample Input :\nEmployee Id | Employee name\nPVM0076 | Anamika\nPVM0069 | Sinjini\nPVM0045 | Anagsha\nPVM0032 | Chetan\nSearch name beginning with: An\nOutput:\nPVM0076 | Anamika\nPVM0045 | Anagsha",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Tables on page 25 reproduced as text rows (cells separated by '|'); check against the PDF",
+        "Answer key code: indentation approximated from the PDF layout"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "void search(String str)\n {\n       BufferedReader br = new BufferedReader(new FileReader(\"Employee.txt\"));\n       String line;\n       while ((line = br.readLine()) != null)\n       {\n         String parts[] = line.split(\"\\\\s+\");\n         String empId = parts[0];\n         String empName = parts[1];\n         if (empName.startsWith(str)) {\n           System.out.println(empId + \"\\t\" + empName);\n        }\n       br.close();\n }"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "basic-input-output-and-text-file-handling",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "69",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "Write a program in Python to display all Mersenne numbers Mₙ , where n should range from 2 to 10, i.e. 2<=n<=10. Along with the generated Mersenne numbers display their status as Mersenne Prime or Mersenne Composite.\nA Mersenne number is a positive integer that is one less than a power of two, i.e. Mₙ=2ⁿ-1, where n is an integer.\nE.g. M₂=2²-1= 3\nM₃=2³-1= 7\nM₄=2⁴-1 = 15\nIf the generated Mersenne number is a prime number, then it is called a Mersenne prime. E.g. 7\nIf the generated Mersenne number is a composite number, then it is called a Mersenne composite. E.g. 15",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts and powers flattened in the text layer; rebuilt from the page render (Mₙ, 2ⁿ, M₂=2²…); check against the PDF",
+        "Python code: indentation approximated from the PDF layout (proportional font) and is significant; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "print(\"List of Mersenne numbers for n ranging from 2 to 10\\n\")\nfor n in range(2,11):\n  merse=2**n-1\n  for j in range(2,merse):\n    if merse%j==0:\n       print(merse,\"\\tMersenne Composite\")\n       break\n  else:\n    print(merse,\"\\tMersenne Prime\")"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "70",
+      "part": null,
+      "choiceGroup": null,
+      "page": 26,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "Write a program in Python to input 3 sides of the triangle. Check and display if they can form a triangle or not. If yes, then display if it is equilateral, isosceles or scalene triangle.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Python code: indentation approximated from the PDF layout (proportional font) and is significant; check against the PDF"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "print(\"Enter 3 sides of a triangle:\")\ns1=int(input(\"Enter 1st side:\"))\ns2=int(input(\"Enter 2nd side:\"))\ns3=int(input(\"Enter 3rd side:\"))\nif(s1+s2>=s3 and s1+s3>=s2 and s2+s3>=s1):\n      if(s1==s2 and s2==s3):\n        print(s1,',',s2,',',s3,\"form an equilateral triangle\")\n      elif(s1==s2 or s2==s3 or s3==s1):\n        print(s1,',',s2,',',s3,\"form an isosceles triangle\")\n      else:\n        print(s1,',',s2,',',s3,\"form a scalene triangle\")\nelse:\n  print(s1,',',s2,',',s3,\"can-not form a triangle\")"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "71",
+      "part": null,
+      "choiceGroup": null,
+      "page": 27,
+      "section": "VI",
+      "sectionTitle": "Very Long Answer Questions",
+      "marks": 10,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "Design a class NeonNumGen to generate Neon numbers.\n[A Neon number is a number where the sum of digits of its square is equal to the number.]\nExample: 9\nSquare = 81 → 8 + 1 = 9 and 9² = 81\nHence, 9 is a Neon number\nSome of the members of the class are given below:\nClass name                    :   NeonNumGen\nData members/instance\nvariables:\n   m                          :   to store the start of range\n   n                          :   to store the end of range\nMember   functions/methods:\n   NeonNumGen(   )            :   default constructor to initialise data members\n                                  with legal initial values\n   void accept( )             :   to accept the values of ‘m’ and ‘n’\n   int sum_digits(int)        :   returns the sum of digits of the number ‘n’\nSpecify the class NeonNumGen, giving the details of the constructor( ), void accept( ), int sum_digits(int) and void generate( ). Define the main( ) function to create an object and call the functions accordingly to enable the task.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Member list printed as a two-column table ('name : description'); reproduced as text lines, check against the PDF",
+        "Power '9²' flattened to '92' in the text layer; rebuilt from the page render",
+        "Answer key code: indentation approximated from the PDF layout"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "import java.util.Scanner;\nclass NeonNumGen\n {\n   int m;\n   int n;\n   NeonNumGen()\n   {\n     m = 1;\n     n = 100;\n   }\n   void accept()\n   {\n     Scanner sc = new Scanner(System.in);\n     System.out.print(\"Enter start of range (m): \");\n     m = sc.nextInt();\n     System.out.print(\"Enter end of range (n): \");\n     n = sc.nextInt();\n   }\n   int sum_digits(int num)\n   {\n     int sum = 0;\n     while (num > 0)\n     {\n       sum += num  % 10;\n       num /= 10;\n     }\n     return sum;\n   }\n   void generate()\n   {\n     System.out.println(\"Neon numbers between \" + m + \" and \" + n + \" are:\");\n     for (int i = m; i <= n; i++)\n      {\n       int square = i * i;\n       int sum = sum_digits(square);\n       if (sum == i)\n            System.out.println(i);\n      }\n   }\n   public static void main(String[] args)\n   {\n     NeonNumGen   obj = new NeonNumGen();\n     obj.accept();\n     obj.generate();\n   }\n}"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "statements-and-scope",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "72",
+      "part": null,
+      "choiceGroup": null,
+      "page": 28,
+      "section": "VI",
+      "sectionTitle": "Very Long Answer Questions",
+      "marks": 10,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "A class StrFrequency contains a string which counts the frequency of each character.\nExample:\nInput: \"banana\"\nOutput:\nb = 1\na = 3\nn = 2\nSome of the members of the class are given below:\nClass name                     :    StrFrequency\nData members/instance\nvariables:\n   str                         :    to store the string\n   len                         :    to store the length of the string\nMember   functions/methods:\n   StrFrequency ( )            :    default constructor to assign legal initial\n                                    values to data members\n   void input( )               :    to accept a string\n   void freq_Char( )           :    to count and display frequency of each\n                                    character\n   void display( )             :    to display the string and its frequency\n                                    result by invoking freq_Char( )\nSpecify the class StrFrequency, giving the details of the constructor( ), void input( ), void freq_Char( ) and void display( ). Define the main( ) function to create an object and call the functions accordingly to enable the task.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Member list printed as a two-column table ('name : description'); reproduced as text lines, check against the PDF",
+        "Answer key code: indentation approximated from the PDF layout"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "import java.util.Scanner;\nclass StrFrequency\n{\n  String str;\n  int len;\n  StrFrequency()\n  {\n     str = \"\";\n     len = 0;\n    }\n  void input()\n  {\n     Scanner sc = new Scanner(System.in);\n     System.out.print(\"Enter a string: \");\n     str = sc.nextLine();\n     len = str.length();\n   }\n  void freq_Char()\n   {\n     String s = str.toLowerCase();\n     boolean visited[] = new boolean[len];\n     for (int i = 0; i < len; i++)\n     {\n       if (visited[i] == true)\n         continue;\n       int count = 1;\n       for (int j = i + 1; j < len; j++)\n       {\n         if (s.charAt(i) == s.charAt(j))\n         {\n           count++;\n           visited[j] = true;\n          }\n       }\n       System.out.println(s.charAt(i) + \" = \" + count);\n      }\n    }\n  void display()\n   {\n     System.out.println(\"\\nEntered String: \" + str);\n     System.out.println(\"Character Frequencies:\");\n     freq_Char();\n   }\n  public static void main(String[] args)\n  {\n     StrFrequency obj = new StrFrequency();\n     obj.input();\n     obj.display();\n  }\n}"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "73",
+      "part": null,
+      "choiceGroup": null,
+      "page": 29,
+      "section": "VI",
+      "sectionTitle": "Very Long Answer Questions",
+      "marks": 10,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "A class DiagSum contains a square matrix which finds the sum of the principal diagonal elements.\nExample: if array size is [3][3] and elements are:\n11 2 19\n13 15 5\n6 34 12\nPrincipal diagonal elements = 11, 15, 12\nSum = 38\nSome of the members of the class are given below:\nClass name                     :    Diagsum\nData members/instance\nvariables:\n   arr[ ][ ]                   :    array to store integer elements\n   n                           :    to store the order of the matrix\nMember   functions/methods:\n   Diagsum( int nn)            :    parameterized constructor to initialize the\n                                    data member n=nn and to declare the array\n   void accept( )              :    to accept the array elements\n   void diagonal_sum( )        :    to find and display the sum of principal\n                                    diagonal elements\n   void display( )             :    to display the array elements in matrix\n                                    form along with the sum of principal\n                                    diagonal by invoking diagonal_sum()\nSpecify the class Diagsum, giving the details of the constructor(), void accept( ), void diagonal_sum( ) and void display( ). Define the main( ) function to create an object and call the functions accordingly to enable the task.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Member list printed as a two-column table ('name : description'); reproduced as text lines, check against the PDF",
+        "Example matrix reproduced as text rows",
+        "Answer key code: indentation approximated from the PDF layout"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "import java.util.Scanner;\nclass Diagsum\n {\n   int arr[][];\n   int n;\n   Diagsum(int nn)\n   {\n     n = nn;\n     arr = new int[n][n];\n   }\n   void accept()\n   {\n     Scanner sc = new Scanner(System.in);\n     System.out.println(\"Enter elements of the matrix:\");\n     for (int i = 0; i < n; i++)\n      {\n       for (int j = 0; j < n; j++)\n            arr[i][j] = sc.nextInt();\n       }\n    }\n   void diagonal_sum()\n   {\n     int sum = 0;\n     for (int i = 0; i < n; i++)\n          sum += arr[i][i];\n     System.out.println(\"Sum of principal diagonal = \" + sum);\n   }\n   void display()\n   {\n     System.out.println(\"Matrix is:\");\n     for (int i = 0; i < n; i++)\n     {\n       for (int j = 0; j < n; j++)\n            System.out.print(arr[i][j] + \"\\t\");\n       System.out.println();\n     }\n     diagonal_sum();\n    }\n   public static void main(String[] args)\n   {\n     Scanner sc = new Scanner(System.in);\n     System.out.print(\"Enter order of matrix: \");\n     int n = sc.nextInt();\n     Diagsum obj = new Diagsum(n);\n     obj.accept();\n     obj.display();\n   }\n}"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "74",
+      "part": null,
+      "choiceGroup": null,
+      "page": 30,
+      "section": "VI",
+      "sectionTitle": "Very Long Answer Questions",
+      "marks": 10,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "Design a class FileSort to read integers from a text file “Number.txt” (containing 50 numbers) and display them in ascending order.\nSome of the members of the class are given below:\nClass name                      :   FileSort\nData members/instance\nvariables:\n    file[ ]                     :   array to store integer elements\n    m                           :   to store the maximum size of the array\nMember   functions/methods:\n    FileSort( int mm)           :   parameterized constructor to initialize the\n                                    data member m=mm  and to declare the array\n    void readFile( )            :   to read integers from the file “Number.txt”\n                                    and store them in file[ ]\n    void sort( )                :   to arrange the numbers in ascending order\n                                    using any standard sorting technique\n    void show( )                :   to display the numbers in sorted order\nSpecify the class FileSort, giving the details of the constructor(), void readFile( ), void sort( ) and void show( ). Define the main( ) function to create an object and call the functions accordingly to enable the task.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Member list printed as a two-column table ('name : description'); reproduced as text lines, check against the PDF",
+        "Answer key code: indentation approximated from the PDF layout"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "import java.io.*;\nimport java.util.*;\nclass FileSort\n{ int file[];\n  int m;\n  FileSort(int mm)\n  {\n     m = mm;\n     file = new int[m];\n   }\n  void readFile()\n   {\n       File f = new File(\"Number.txt\");\n       Scanner sc = new Scanner(f);\n       int i = 0;\n       while (sc.hasNextInt() && i < m)\n       {\n         file[i] = sc.nextInt();\n         i++;\n        }\n       sc.close();\n    }\n   void sort()\n    {\n     for (int i = 0; i < m - 1; i++)\n      {\n       for (int j = 0; j < m - i - 1; j++)\n       {\n         if (file[j] > file[j + 1])\n         { int temp = file[j];\n           file[j] = file[j + 1];\n           file[j + 1] = temp;\n          }\n        }\n      }\n    }\n  void show()\n  {\n     System.out.println(\"Numbers in ascending order:\");\n     for (int i = 0; i < m; i++)\n       System.out.print(file[i] + \" \");\n   }\n  public static void main(String[] args)\n  {\n     FileSort obj = new FileSort(50);\n     obj.readFile();\n     obj.sort();\n     obj.show();\n  }\n}"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "basic-input-output-and-text-file-handling",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "75",
+      "part": null,
+      "choiceGroup": null,
+      "page": 31,
+      "section": "VI",
+      "sectionTitle": "Very Long Answer Questions",
+      "marks": 10,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "Write a program to create a text file \"Authenticity.txt\" that stores only valid passwords with customer names by taking input from the keyboard.\nEnter ‘N’ records (customer name and password) from the user. Check for the password rules and store ONLY the valid records having valid password in the file \"Authenticity.txt\"\nPassword rules:\n• Password must be 6 characters long\n• It should contain only letters and at least one digit\n• No spaces are allowed\n• It must start with a lowercase letter\nExample: If input is…\nCUSTOMER NAME | Password\nBijoy | covid21\nSaheli | btsp07\nAnima | gtsm67\nGurmeet | Loveb12\nthen, only the following records will be stored in the file \"Authenticity.txt\" as their passwords are valid:\nSaheli | btsp07\nAnima | gtsm67\nSome of the members of the class are given below:\nClass name                           :  ValidPass\nData member/instance  variable:\n   n                                 :  to store the number of customers\nMember   functions/methods:\n   ValidPass ( )                     :  default constructor to initialise data\n                                        member  with legal initial value\n   void accept( )                    :  to accept the number of customers\n   boolean isValid(String k)         :  checks if password ‘k’ is valid and\n                                        returns true if valid, otherwise returns\n                                        false\n   void createFile( )                :  stores only the valid passwords with\n                                        customer’s name in \"Authenticity.txt\"\n                                        by invoking isValid()\nSpecify the class ValidPass, giving the details of the constructor(), void accept( ), boolean isValid(String) and void createFile( ). Define the main( ) function to create an object and call the functions accordingly to enable the task.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Member list printed as a two-column table ('name : description'); reproduced as text lines, check against the PDF",
+        "Example tables reproduced as text rows (cells separated by '|')",
+        "Answer key code: indentation approximated from the PDF layout",
+        "Official answer (program) trimmed to fit; see the Answer Key in the PDF for the full code"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "import java.io.*;\nimport java.util.*;\nclass ValidPass\n{  int n;\n  ValidPass()\n  {  n = 0;\n  }\n  void accept()\n  {  Scanner sc = new Scanner(System.in);\n     System.out.print(\"Enter number of customers: \");\n     n = sc.nextInt();\n  }\n  boolean isValid(String k)\n  {\n     if (k.length() != 6)\n       return false;\n     if (!Character.isLowerCase(k.charAt(0)))\n       return false;\n     if (k.contains(\" \"))\n       return false;\n     boolean hasDigit = false;\n     for (int i = 0; i < k.length(); i++)\n     { char ch = k.charAt(i);\n       if (Character.isDigit(ch))\n            hasDigit = true;\n       else if (!Character.isLetter(ch))\n         return false;\n      }\n     return hasDigit;\n  }\n  void createFile()\n   {  Scanner sc = new Scanner(System.in);\n      FileWriter fw = new FileWriter(\"Authenticity.txt\");\n       for (int i = 1; i <= n; i++)\n       { System.out.print(\"Enter customer name: \");\n         String name = sc.next();\n         System.out.print(\"Enter password: \");\n         String pass = sc.next();\n         if (isValid(pass))\n           fw.write(name + \"\\t\" + pass + \"\\n\");\n       }\n       fw.close();\n       System.out.println(\"Valid records stored in file.\");\n  }…"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "basic-input-output-and-text-file-handling",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

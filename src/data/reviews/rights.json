@@ -1,15 +1,17 @@
 {
-  "note": "Whether each board's published material may be reproduced on ExamReady. Consolidation only auto-publishes questions from boards marked PERMITTED; the rest wait as HOLD_RIGHTS with every other check already passed. Change a status only when the evidence changes (for example written permission received), and record that evidence here.",
-  "checkedOn": "2026-09-28",
+  "note": "Whether each board's material may be published on ExamReady. Consolidation auto-publishes questions from boards whose status is PERMITTED or OWNER_AUTHORISED; the rest wait as HOLD_RIGHTS with every other check already passed. Record the evidence for every status. OWNER_AUTHORISED means the site owner decided to publish with attribution; it is not a permission from the board.",
+  "checkedOn": "2026-09-29",
   "boards": {
     "cbse": {
       "status": "PERMITTED",
       "evidence": "CBSE publishes its question papers, marking schemes, sample papers and item banks openly on cbse.gov.in and cbseacademic.nic.in with no restrictive notice found on those pages; the item banks state that teachers \"can use the bank of questions in whatever way you wish\". Questions are reproduced with attribution and a link to the original."
     },
     "icse": {
-      "status": "PERMISSION_REQUIRED",
+      "status": "OWNER_AUTHORISED",
+      "decidedOn": "2026-09-29",
+      "decision": "The ExamReady owner chose to publish ICSE/ISC questions, including third-party-hosted school and specimen papers, with attribution to the original document and a link to where it was obtained, accepting the risk described below.",
       "evidence": "CISCE's legal disclaimer (https://cisce.org/legal-disclaimer/) says: \"No material from this website may be copied, reproduced, republished, uploaded, posted, transmitted, distributed, or otherwise used for public or commercial purposes without the prior written permission of CISCE\" and that no part may be \"incorporated into any other website, publication, database, or work\" without express written consent.",
-      "action": "Ask CISCE for written permission to reproduce specimen-paper questions with attribution. Until then ICSE/ISC documents are linked, not reproduced."
+      "action": "Seek written permission from CISCE; if CISCE or a source owner objects, set this back to PERMISSION_REQUIRED (or hold the affected source) and re-run consolidation."
     }
   }
 }

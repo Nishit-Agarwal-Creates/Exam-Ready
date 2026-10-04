@@ -3,6 +3,8 @@ import type { QuestionType } from "@/db/schema";
 import type { QuestionView } from "@/lib/data/questions";
 import { answerAddsInfo } from "@/lib/answer-text";
 import { citation } from "@/lib/provenance";
+import { MathText } from "./math-text";
+import { isIndented } from "@/lib/math-markup";
 import { ProvenanceDetails, SourceStamp } from "./provenance";
 
 export const TYPE_NAMES: Record<QuestionType, string> = {
@@ -38,10 +40,37 @@ export function AnswerKeyText({ q }: { q: QuestionView }) {
       <p className={`text-sm font-bold ${official ? "text-verified" : "text-ink"}`}>
         {official ? "Official marking scheme" : q.answerSource === "AI" ? "Model answer (written by AI)" : "Model answer"}
       </p>
-      {keyLine && <p className="mt-1 font-bold">{keyLine}</p>}
-      {hasText && <p className="paper-text mt-1 text-[1rem]">{q.answer.text}</p>}
+      {keyLine && (
+        <p className="mt-1 font-bold">
+          <MathText text={keyLine} />
+        </p>
+      )}
+      {hasText && (
+        <p className="paper-text mt-1 text-[1rem]" data-indented={isIndented(q.answer.text) || undefined}>
+          <MathText text={q.answer.text} />
+        </p>
+      )}
       {q.answer.explanation && <p className="mt-2 text-[0.95rem] text-pencil">{q.answer.explanation}</p>}
+      {official && hasText && /(…|\.\.\.)\s*$/.test(q.answer.text) && <ShortenedNote q={q} />}
     </div>
+  );
+}
+
+/** Long official answers are stored shortened to their value points; say so and point to the full text. */
+function ShortenedNote({ q }: { q: QuestionView }) {
+  const src = q.sources.find((s) => !s.isDemo);
+  return (
+    <p className="mt-2 text-[0.88rem] text-pencil">
+      Shortened here. The full official answer is in{" "}
+      {src ? (
+        <a href={`/sources/${src.paperId}`} className="link">
+          the source document
+        </a>
+      ) : (
+        "the source document"
+      )}
+      .
+    </p>
   );
 }
 
@@ -126,13 +155,17 @@ export function QuestionBlock({
         {number}.
       </H>
       <div className="min-w-0">
-        <p className="paper-text">{q.text}</p>
+        <p className="paper-text" data-indented={isIndented(q.text) || undefined}>
+          <MathText text={q.text} />
+        </p>
         {q.options && q.options.length > 0 && (
           <ol className="mt-2 grid gap-1 font-serif text-[1.03rem] sm:grid-cols-2 sm:gap-x-6">
             {q.options.map((o, i) => (
               <li key={i} className="flex gap-2">
                 <span className="font-semibold">({LETTERS[i]})</span>
-                <span>{o}</span>
+                <span>
+                  <MathText text={o} />
+                </span>
               </li>
             ))}
           </ol>
@@ -145,10 +178,8 @@ export function QuestionBlock({
               {q.chapter.name}
               {q.mappingStatus === "SUGGESTED" && <span className="ml-1 text-[0.8rem] italic">(chapter suggested, not yet confirmed)</span>}
             </span>
-            <span aria-hidden="true" className="text-rule-strong">
-              |
-            </span>
-            <span>{TYPE_NAMES[q.type]}</span>
+            {/* A dot drawn before the type, kept with it so a wrap never leaves a stray separator at a line start. */}
+            <span className="inline-flex items-center gap-2 before:size-1 before:rounded-full before:bg-rule-strong before:content-['']">{TYPE_NAMES[q.type]}</span>
           </div>
         )}
         {showMeta && provenance === "full" && (

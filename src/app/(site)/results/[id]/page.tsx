@@ -156,9 +156,11 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
           </h2>
           {r.weak.length === 0 ? (
             <p className="mt-3 text-pencil">
-              {s.evaluatedMax === 0
-                ? "Mark your written answers first, then this list will fill in."
-                : "No chapter is below 60% on the marked questions. Try a harder or longer paper next."}
+              {s.attempted === 0
+                ? "You didn't answer any questions, so there's nothing to judge yet."
+                : s.evaluatedMax === 0
+                  ? "Mark your written answers first, then this list will fill in."
+                  : "No chapter is below 60% on the questions you answered. Try a harder or longer paper next."}
             </p>
           ) : (
             <ol className="mt-3 space-y-3">
@@ -167,7 +169,7 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
                   <span>
                     <strong>{c.label}</strong>
                     <span className="num block text-[0.9rem] text-pencil">
-                      {c.scored} of {c.evaluatedMax} mark{c.evaluatedMax === 1 ? "" : "s"} ({pct(c.scored, c.evaluatedMax)}%)
+                      {c.answeredScored} of {c.answeredMax} mark{c.answeredMax === 1 ? "" : "s"} on answered questions ({pct(c.answeredScored, c.answeredMax)}%)
                     </span>
                   </span>
                   <Link href={`/practice?subject=${paper.subject.id}&chapter=${c.key}`} className="btn btn-secondary btn-sm">
@@ -178,8 +180,13 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
             </ol>
           )}
           <p className="mt-4 border-t border-rule pt-3 text-sm text-pencil">
-            {r.weak.length > 5 ? `The five weakest of ${r.weak.length} chapters under 60% are shown. See all of them in the chapter breakdown.` : "Chapters scoring under 60% on marked questions are listed, weakest first."}
+            {r.weak.length > 5 ? `The five weakest of ${r.weak.length} chapters under 60% are shown. See all of them in the chapter breakdown.` : "Chapters under 60% on the questions you answered are listed, weakest first. Skipped questions don't count against a chapter."}
           </p>
+          {r.notReached.length > 0 && (
+            <p className="mt-2 text-sm text-pencil">
+              <strong className="text-graphite">Not attempted:</strong> {r.notReached.map((c) => c.label).join(", ")}.
+            </p>
+          )}
         </section>
 
         <section className="sheet p-5 sm:p-6" aria-labelledby="types-title">
@@ -309,7 +316,10 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
         <Link href={`/practice?subject=${paper.subject.id}`} className="btn btn-primary">
           Build another {paper.subject.name} paper
         </Link>
-        <Link href={`/paper/${paper.id}`} className="btn btn-secondary">
+        <Link href={`/test/${paper.id}`} className="btn btn-secondary">
+          Retake this test
+        </Link>
+        <Link href={`/paper/${paper.id}`} className="btn btn-ghost">
           View the paper again
         </Link>
       </div>

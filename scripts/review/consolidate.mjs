@@ -170,7 +170,7 @@ function main() {
         state = "HOLD_AUDIT";
         reasons = [`The audit disputed ${Math.round(auditRate * 100)}% of this source's sampled decisions, so it needs a fresh review.`];
       }
-      if (state === "AUTO_VERIFIED" && rights[pack.source.board]?.status !== "PERMITTED") {
+      if (state === "AUTO_VERIFIED" && !["PERMITTED", "OWNER_AUTHORISED"].includes(rights[pack.source.board]?.status)) {
         state = "HOLD_RIGHTS";
         reasons = [`Passed every check. ${pack.source.board === "icse" ? "CISCE" : pack.source.board.toUpperCase()}'s terms require written permission before its questions are reproduced; it stays linked, not shown, until permission is recorded.`];
       }

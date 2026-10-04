@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { MathText } from "./math-text";
+import { isIndented } from "@/lib/math-markup";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { PaperMode, QuestionType, SourceType, VerificationStatus } from "@/db/schema";
@@ -366,7 +368,9 @@ export function ExamRunner({ paper, questions }: { paper: ExamPaper; questions: 
               {q.isDemo && <SourceStamp q={q} compact />}
             </p>
 
-            <p className="paper-text mt-4 text-[1.12rem]">{q.text}</p>
+            <p className="paper-text mt-4 text-[1.12rem]" data-indented={isIndented(q.text) || undefined}>
+              <MathText text={q.text} />
+            </p>
             {q.hasFigure && (
               <p className="mt-3 rounded-lg bg-contrib-soft/70 px-3 py-2 text-[0.92rem] text-contrib">
                 This question uses a figure or table that isn&apos;t reproduced here.
@@ -391,7 +395,7 @@ export function ExamRunner({ paper, questions }: { paper: ExamPaper; questions: 
                       <label key={i} className="choice exam-option fx-spring text-[1.03rem]" data-fx="ripple">
                         <input type="radio" name={`q-${q.id}`} checked={answer === String(i)} onChange={() => setAnswer(q.id, String(i))} />
                         <span>
-                          <span className="font-bold">({LETTERS[i]})</span> {o}
+                          <span className="font-bold">({LETTERS[i]})</span> <MathText text={o} />
                         </span>
                       </label>
                     ))}
@@ -439,7 +443,7 @@ export function ExamRunner({ paper, questions }: { paper: ExamPaper; questions: 
             </div>
 
             <div className="mt-6 flex flex-wrap items-center gap-2 border-t border-rule pt-4">
-              <button type="button" className={`btn btn-sm ${inReview ? "btn-danger" : "btn-secondary"}`} aria-pressed={inReview} onClick={() => toggleReview(q.id)}>
+              <button type="button" className={`btn btn-sm btn-secondary ${inReview ? "review-on" : ""}`} aria-pressed={inReview} onClick={() => toggleReview(q.id)}>
                 <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill={inReview ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2">
                   <path d="M5 21V4h11l-2 4 2 4H5" />
                 </svg>

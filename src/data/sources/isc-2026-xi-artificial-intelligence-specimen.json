@@ -1,0 +1,857 @@
+{
+  "source": {
+    "key": "isc-2026-xi-artificial-intelligence-specimen",
+    "title": "ISC (Class XI) Specimen Question Paper 2026, Artificial Intelligence, Paper 1 (Theory), with Answer Key",
+    "board": "icse",
+    "class": 11,
+    "subject": "artificial-intelligence",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "SPECIMEN",
+    "examYear": 2026,
+    "session": "ISC (Class XI) Specimen Question Paper 2026 (specimen for the 2026 examination; not a past paper)",
+    "paperName": "Artificial Intelligence, Paper 1 (Theory)",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2025/08/883-ARTIFICIAL-INTELLIGENCE-SQP-AK.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2025/08/883-ARTIFICIAL-INTELLIGENCE-SQP-AK.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 13,
+    "sha256": "59fe875ece8868535b1079c524f9dd92cdb439b087f29cc193728715fc314463",
+    "maxMarks": 70,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes; page renders (pdfplumber) used to check notation",
+    "ocrUsed": false,
+    "notes": "Official CISCE specimen paper with answer key in one PDF. Every page footer prints 'ISC (CLASS XI) SPECIMEN QUESTION PAPER 2026' (question paper, PDF pages 1-7) or 'ISC (CLASS XI) SPECIMEN ANSWER KEY 2026' (answer key, PDF pages 8-13); examYear=2026 is the examination year the specimen is published for. It is a SPECIMEN, not a past board paper. No paper/set/series code is printed (the subject code appears only in the file name), so those fields are null. Official answers are taken only from the answer key in the same PDF, trimmed to value points. Cognitive-level tags are recorded as printed. 'page' is the physical PDF page of the question text. Artificial Intelligence Paper 1 (Theory), maximum 70. Part I (20 marks, compulsory): Question 1 (ten 1-mark subparts) and Question 2 (five 2-mark subparts). Part II (50 marks): 'Answer any five questions' from Questions 3-9, 10 marks each; this is a free choice of five of seven, not OR pairs, so no choiceGroup is set and the sum of all entries' marks (90) exceeds the 70 a candidate answers. Subparts with their own printed marks are separate entries; lettered parts sharing one stem/table (5(i)-(iii), 6(i), 8(i), 9(i)) are kept together with part marks in the text. The paper was published in 2025/08 on cisce.org; the footer prints 'ISC (CLASS XI) SPECIMEN QUESTION PAPER 2026', so examYear=2026.",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following is NOT a commonly used application of Artificial Intelligence?",
+      "options": [
+        "Email Spam Filtering",
+        "Online Shopping Recommendations",
+        "Manual Typewriting",
+        "Voice Assistants"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) or Manual Typewriting",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "state-of-art-of-ai-nlp-and-potential-use-of-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion and Reason. Read the statements carefully and choose the correct option.\nAssertion: Data cleaning improves the quality of data for analysis.\nReason: Data cleaning helps in generating random missing values for analysis.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation for the Assertion.",
+        "Both Assertion and Reason are true but Reason is not the correct explanation for the Assertion.",
+        "Assertion is true and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) or Assertion is true and Reason is false.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which stage in an AI project involves understanding the business issue and defining objectives?",
+      "options": [
+        "Data Exploration",
+        "Problem Scoping",
+        "Modelling",
+        "Evaluation"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) or Problem Scoping",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following is an example of a Natural Language Processing (NLP) application?",
+      "options": [
+        "Image recognition",
+        "Crop monitoring",
+        "Language translation",
+        "Transport management system"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) or Language translation",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "state-of-art-of-ai-nlp-and-potential-use-of-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion and Reason. Read the statements carefully and choose the correct option.\nAssertion: The drop duplicates() method in Pandas is used to clean a dataset by removing redundant entries.\nReason: Duplicated rows can lead to skewed or inaccurate results during data analysis.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation for the Assertion.",
+        "Both Assertion and Reason are true but Reason is not the correct explanation for the Assertion.",
+        "Assertion is true and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) or Both Assertion and Reason are true and Reason is the correct explanation for the Assertion.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion and Reason. Read the statements carefully and choose the correct option.\nAssertion: AI systems can unintentionally amplify existing social biases in training data.\nReason: Bias in AI arises only when developers deliberately add it.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation for the Assertion.",
+        "Both Assertion and Reason are true but Reason is not the correct explanation for the Assertion.",
+        "Assertion is true and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) or Assertion is true and Reason is false.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following operations is valid for two matrices of the same order?",
+      "options": [
+        "Finding inverse",
+        "Scalar product",
+        "Determinant",
+        "Addition"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) or Addition",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following measures is least affected by extreme values in a dataset?",
+      "options": [
+        "Mean",
+        "Median",
+        "Mode",
+        "Variance"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) or Median",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Define artificial intelligence. Mention one application of AI in Transportation.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Artificial Intelligence is the ability of machines to mimic human intelligence and perform tasks such as learning, reasoning, and problem-solving. One application in transportation is AI driven traffic Management Systems."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is the primary goal of data visualisation in AI?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "To represent data graphically for easier understanding of patterns, trends, and insights."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is the difference between deterministic and probabilistic systems? Give one example of each.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Deterministic systems always produce the same output for a given input. Example: A calculator performing 2 + 2. Probabilistic systems may produce different outcomes for the same input due to uncertainty. Example: A weather prediction model."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write a Python command using Matplotlib to display a line graph with x = [1, 2, 3] and y = [3, 2, 1].",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "import matplotlib.pyplot as plt\nplt.plot([1, 2, 3], [3, 2, 1])\nplt.show()"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Mention two chart types and briefly state when each is most suitable.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Bar Chart - Best for comparing values across categories. Scatter Plot- Useful to identify relationships or correlations between two variables."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Differentiate between dependent and independent variables in the context of regression analysis with one example.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Dependent Variable: The outcome or variable being predicted (e.g., house price). Independent Variable: The predictor or input variable (e.g., square footage). Example: In predicting a student’s score based on hours studied: Hours studied → Independent variable; Exam score → Dependent variable"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "List two ethical responsibilities developers must consider while creating AI systems.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Ensuring the privacy and security of user data. Minimizing algorithmic bias to promote fairness and equity."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain the role of AI in improving healthcare and agriculture. Mention two specific uses for each domain.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "In Healthcare: 1. Diagnosis Enhancement – AI helps doctors detect diseases early using image-based diagnosis like X-rays and MRIs. 2. Personalized Treatment Plans – AI analyses patient data to recommend personalized treatment options. In Agriculture: 1. Precision Farming – AI tools monitor soil health, weather, and crop conditions to optimize farming. 2. Yield Prediction – AI models forecast crop output, helping farmers plan harvest and sales."
+      },
+      "cognitiveLevel": "Application & Analysis",
+      "chapter": "state-of-art-of-ai-nlp-and-potential-use-of-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write a Python function check_even_odd(n) that takes a number as input and prints whether it is even or odd. Also, call the function with n = 7.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The answer key's code is printed with broken line breaks/indentation ('print(\"Even\") else:' on one line); reproduced as printed, not corrected.",
+        "No chapter in the list covers basic Python programming; mapped to the data-processing chapter as the nearest (editor to confirm)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "def check_even_odd(n):\n    if n % 2 == 0:\nprint(\"Even\") else:\n    print(\"Odd\")\ncheck_even_odd(7)"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Differentiate between Machine Learning (ML) and Deep Learning (DL). Mention one real-world application of each.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Machine Learning (ML) is a subset of AI where algorithms learn from data and make predictions or decisions. Example: Email spam filtering. Deep Learning (DL) is a subset of ML that uses neural networks with many layers to model complex patterns. Example: Facial recognition in images."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Compare Matplotlib and Seaborn libraries in terms of features, ease of use, and application. Which one would you recommend for statistical plots?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Matplotlib: Low-level, flexible, great for custom plots but requires more code. Seaborn: Built on top of Matplotlib, provides high-level, attractive, and informative statistical graphics. Ease of use: Seaborn has simpler syntax for complex visualizations. Recommendation: Seaborn is better for statistical plots like boxplots and heatmaps due to built-in features and aesthetics"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain the advantages of using data visualisation in the field of AI.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "○ Helps in understanding large and complex datasets ○ Identifies trends, outliers, and relationships ○ Aids in communicating results clearly to stakeholders"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write a Python program using Matplotlib to create a bar chart showing the number of students interested in three domains: AI (30), Robotics (20), IoT (15)",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "import matplotlib.pyplot as plt\ndomains = ['AI', 'Robotics', 'IoT']\nstudents = [30, 20, 15]\nplt.bar(domains, students)\nplt.title('Student Interests')\nplt.ylabel('Number of Students')\nplt.show()"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "As a data analyst for the company Shopping Paradise, you are analysing data of online customer purchases. The data from two tables is given below:\nTable A: Customer Info\nID | NAME | CITY\n1 | AMAN | DELHI\n2 | BEENA | MUMBAI\n3 | CHITRA | CHENNAI\nTable B: Purchases\nID | PRODUCT | PRICE\n2 | LAPTOP | 55000\n1 | KEYBOARD | 1500\n3 | MOUSE | 600\nAnswer the following:\n(a) Identify the type of join needed to combine customer details with their purchases. [1]\n(b) Perform the join and write the resulting table. [1]\n(c) Explain how this is an application of Set Theory in AI data preparation. [2]",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Tables on page 5 (and the key's result table) reproduced as text rows ('|' separates cells); values checked against the rendered page.",
+        "Cognitive tags differ by part ((a)/(b) Application, (c) Analysis); cognitiveLevel omitted."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Type of Join: Inner Join on the column ID. (b) Resulting Table (after join): ID | Name | City | Product | Price; 1 | Aman | Delhi | Keyboard | 1500; 2 | Beena | Mumbai | Laptop | 55000; 3 | Chitra | Chennai | Mouse | 600. (c) This operation links two sets (Customer Info and Purchases) by a common attribute (ID), a classic application of Set Theory and Relational Algebra. Joins are used in AI to combine datasets for training models or generating features from multiple tables."
+      },
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Consider the matrices and perform the below:\nA = [[1, 2], [3, 4]]; B = [[5, 6], [7, 8]]\n(a) Perform A + B [1]\n(b) Find the transpose of matrix A [1]\n(c) Determine the product A × B [1]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The matrices A and B are printed as an image with no text layer; transcribed from the page render (rows written as [row 1], [row 2]) — check against page 5.",
+        "Official answer missing in extraction: the answer key's working for (a)-(c) on page 10 is an image with no text layer, so no officialAnswer is recorded."
+      ],
+      "confidence": "MEDIUM",
+      "cognitiveLevel": "Application",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A dataset records the scores of 5 students in a test: 55, 60, 65, 70, 95.\n(a) Calculate the mean score. [1]\n(b) Identify the median. [1]\n(c) Is the mode defined for this dataset? Justify your answer. [1]",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Mean = (55 + 60 + 65 + 70 + 95) / 5 = 69. (b) Median = 65 (middle value of ordered list) (c) Mode = Not defined / No mode. All values are unique, so no value repeats."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "You downloaded a CSV file from Kaggle containing missing values, duplicate entries, and inconsistent column formatting.\nWrite a Python program using Pandas to:\n(a) Load the file. [1]\n(b) Remove duplicates. [1]\n(c) Fill the missing values with the column mean. [1]\n(d) Convert a column called City to title case. [1]",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "import pandas as pd\n(a) df = pd.read_csv('dataset.csv')\n(b) df = df.drop_duplicates()\n(c) df = df.fillna(df.mean(numeric_only=True))\n(d) df['City'] = df['City'].str.title()"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What are the three common data cleaning tasks performed before analysing a dataset? Illustrate each briefly.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Removing Duplicates – Eliminate repeated rows using drop_duplicates() Handling Missing Values – Fill or drop rows with NaN using fillna() or dropna() Correcting Inconsistent Data – Standardize formats or fix spelling using mapping or string functions"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is the purpose of a Least Squares Regression Line in Linear Regression? Explain how it is determined.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The Least Squares Regression Line minimizes the sum of the squared differences between observed and predicted values. It is determined by calculating the slope and intercept that minimize the total squared residuals (errors) using statistical formulas."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The table below shows the number of hours studied and marks obtained by students:\nHours Studied (X) | Marks (Y)\n2 | 50\n3 | 60\n5 | 80\nUsing the method of least squares, find the linear regression equation of Y on X.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on page 6 reproduced as text rows ('|' separates cells).",
+        "Official answer partly missing in extraction (figure/equation): the key's slope and intercept formulas and working are an image; only the text-layer statements are kept."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "The linear regression equation is of the form Y=a+bX, where: b is the slope of the line. a is the y-intercept. The formulas to calculate b and a are: [formulas as image] Substitute the values of a=30 and b=10 into the equation Y=a+bX: Y=30+10X. The linear regression equation of Y on X is Y=30+10X."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "List and briefly describe any three types of data models used in data modelling.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Relational Model – Represents data in tables (relations) with rows and columns. Dimensional Model – Optimized for data warehousing, involving fact and dimension tables. Entity-Relational Model – Uses entities, attributes, and relationships to design a conceptual schema of data."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain with an example how poor ethical considerations in AI design can negatively impact society.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "If a facial recognition system is trained primarily on lighter-skinned faces, it may misidentify or fail to recognize individuals with darker skin tones. This can lead to discrimination, such as wrongful accusations or denial of services, thereby causing social harm and undermining public trust in AI."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "You are working with a Kaggle dataset on housing prices. Write a Python code to:\n(a) Remove duplicate rows [1]\n(b) Handle missing values in the 'Price' column [1]\n(c) Standardize the 'Area' column using z-score normalization [2]",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "import pandas as pd\nfrom scipy.stats import zscore\ndf = pd.read_csv(\"housing.csv\")\n(a) df = df.drop_duplicates()\n(b) df['Price'] = df['Price'].fillna(df['Price'].mean())\n(c) df['Area'] = zscore(df['Area'])"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Differentiate between Narrow AI, General AI, and Superintelligent AI with one real-world or hypothetical example for each.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "○ Narrow AI: Google Maps (specific task) ○ General AI: A robot with human-like reasoning (still theoretical) ○ Superintelligent AI: Exceeds human intelligence (hypothetical future)"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write a Python program to plot a bar chart showing the number of AI projects completed by four students: A: 3, B: 5, C: 2, D: 4",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "import matplotlib.pyplot as plt\nnames = ['A', 'B', 'C', 'D']\nprojects = [3, 5, 2, 4]\nplt.bar(names, projects)\nplt.xlabel('Students')\nplt.ylabel('AI Projects')\nplt.title('Projects Completed')\nplt.show()"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "You are given a dataset containing the number of study hours and corresponding student scores.\nYou plan to apply Linear Regression to predict scores.\nBefore that, answer the following:\n(a) What type of data modelling is suitable for this problem and why? [1]\n(b) Define dependent and independent variables in this context. [1]\n(c) Explain why bias in data collection must be avoided when training this model. [2]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Several cognitive tags are printed for this question (Analysis; (a) Application, (b) Analysis, (c) Understanding); cognitiveLevel omitted."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Relational data modelling is suitable, as the data can be stored in a structured format (rows and columns) with a clear relationship between attributes (study hours ↔ scores) (b) Independent variable: Study hours (input), Dependent variable: Scores (output). (c) Bias can lead to unfair or inaccurate predictions. For example, if the dataset only includes high-performing students, the model will overestimate scores for students who study less, making it unreliable and ethically problematic."
+      },
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Describe the role of data acquisition and data exploration in an AI project. Why are these steps critical?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Data Acquisition: Gathering relevant data from sources (sensors, web, CSV files). Data Exploration: Understanding patterns, distributions, and anomalies in data. These steps ensure data quality and guide the modelling direction."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "Part II",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain how environmental concerns should be addressed in AI development. Provide one example.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "AI systems should be designed to optimize energy efficiency, use sustainable hardware, and minimize carbon footprint. Example: Training smaller ML models instead of massive ones to reduce energy consumption in data centers."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

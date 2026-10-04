@@ -1,0 +1,177 @@
+{
+  "source": {
+    "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023",
+    "title": "Assessment - I, Grade - VIII, Computer",
+    "board": "icse",
+    "class": 8,
+    "subject": "computer-studies",
+    "authority": "REPOSITORY",
+    "authorityName": "School examination paper (school not named); obtained from icseboard.org, originally from icseonline.com",
+    "paperType": "SCHOOL_EXAM",
+    "examYear": 2023,
+    "session": null,
+    "paperName": "Computer",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://www.icseboard.org/pdf/class-8/assessment/computer-applications/2023/icse-class-8-assessment-1-computer-150323-2023.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": null,
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 2,
+    "sha256": "6a95d5e5f76d21276f58c18beb83f2f9aea95b3b21787ef0bd0f838e037cd268",
+    "maxMarks": 50,
+    "durationMinutes": 120,
+    "extractionMethod": "OCR",
+    "extractionTool": "RapidOCR, corrected against page images",
+    "ocrUsed": true,
+    "notes": "ICSE Grade VIII school assessment paper. Header prints 'Grade - VIII', 'SCHOOL' (no school name), 'Assessment - I', 'Computer', 'Time- 2 hours', 'M.M: 50'. No year is printed on the paper; examYear 2023 is taken from the file name (...-150323-2023) and the icseboard.org folder. The PDF has no text layer (watermark only); text was OCRed with RapidOCR and corrected against the page images. Marks are printed only per group, so each group is one entry with its printed total. 'VIII. Practical [20]' is printed with no question text, so it is not included; the listed questions total 30 of 50. No answer key is printed; no official answers exist.",
+    "usage": "School examination paper published on icseboard.org (originally icseonline.com); question text reproduced for study with attribution and a link to where it was obtained. Figures are not reproduced.",
+    "accessedOn": "2026-10-01"
+  },
+  "questions": [
+    {
+      "number": "I",
+      "part": null,
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "I. Choose the correct answer:-",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the correct answer:-\n1. With GUI the users have to (a) Type commands (b) Select Icons (c) Speak out commands (d) Choose commands on screen\n2. Choose the odd one (a) MS Dos (b) MS Windows (c) Linux (d) MS office\n3. A formula in MS Excel begins with (a) _ (b) ( (c) number (d) None of these\n4. ____is the symbol for decision making (a) Oval (b) Rectangle (c) diamond (d) Arrow\n5. What is the output of the function =Count(50,30,20) (a) 100 (b) 3 (c) 50 (d) 0.3\n6. Linux is an (a) Application Software (b)Operating System for networked environment (c) Open Source Operating System (d) Software owned by a company",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marks printed only for the group; kept as one entry with the group total",
+        "Group spans several chapters; mapped to the main one",
+        "Six multiple-choice items kept together (options shown inline)",
+        "Item 3 option (a) is printed as a short dash on the scan (possibly a faint '='); kept as '_'"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "operating-system-and-graphical-user-interface",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "II",
+      "part": null,
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "II. State True/False",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "State True/False\n1. In GUI, U stands for Utility.\n2. To find the maximum value in a given range, the function is =MAXIMUM( )\n3. By default text data is right aligned and numbers are left aligned.\n4. The function to calculate the product of the values in cells A1 and A2 is =Mult(A1,A2)\n5. Utilities are programs used to carry out routine tasks that are often needed by a user.\n6. We cannot delete a row in an Excel worksheets.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marks printed only for the group; kept as one entry with the group total",
+        "Group spans several chapters; mapped to the main one"
+      ],
+      "confidence": "HIGH",
+      "chapter": "spreadsheet-functions-and-charts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "III",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": null,
+      "sectionTitle": "III. Fill in the blanks",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "FILL_BLANK",
+      "text": "Fill in the blanks\n1. ____feature is useful to automatically fill the data series in cells.\n2. ____is a pictorial representation of a given problem.\n3. Output of the function =MAX(80,40,30,83) is____.\n4. Print option is present in____button.\n5. An oval symbol is used to____in a flowchart.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marks printed only for the group; kept as one entry with the group total",
+        "Group spans several chapters; mapped to the main one"
+      ],
+      "confidence": "HIGH",
+      "chapter": "spreadsheet-functions-and-charts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "IV",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": null,
+      "sectionTitle": "IV. Name the following Symbols and their functions",
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name the following Symbols and their functions\n1. 2. 3. 4.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Marks printed only for the group; kept as one entry with the group total",
+        "Depends on a figure/map that is not reproduced",
+        "Figure on page 2 not reproduced (four flowchart symbols)"
+      ],
+      "confidence": "LOW",
+      "chapter": "algorithms-and-flowcharts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "V",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": null,
+      "sectionTitle": "V. Give proper formulas for the following",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give proper formulas for the following\n1. To add data in cells A1,B1,C1,D1.\n2. To display “Excellent” if value in cell B5>80,else “Work hard”.\n3. To find the average of the number in the cells C3 to C14.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marks printed only for the group; kept as one entry with the group total"
+      ],
+      "confidence": "HIGH",
+      "chapter": "spreadsheet-functions-and-charts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "VI",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": null,
+      "sectionTitle": "VI. There are some errors in the following formulas, identify the errors and write the corrected formulas.",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "There are some errors in the following formulas, identify the errors and write the corrected formulas.\n1.=If(C10>3,”****”, “**”)\n2.=MAX(A1- A12)\n3. =AVG(C1:C10)\n4. SUM(H1:H4)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marks printed only for the group; kept as one entry with the group total"
+      ],
+      "confidence": "HIGH",
+      "chapter": "spreadsheet-functions-and-charts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "VII",
+      "part": null,
+      "choiceGroup": null,
+      "page": 2,
+      "section": null,
+      "sectionTitle": "VII. Answer the following questions",
+      "marks": 10,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Answer the following questions\n1. Explain IF( ) function with example.\n2. Write any four functions of operating Systems.\n3. What are the advantages of writing an algorithm before coding a program?\n4. What do you mean by automatic recalculation.\n5. Write down an algorithm and draw a flowchart that will Read the two sides of a rectangle and calculate its area.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Marks printed only for the group; kept as one entry with the group total",
+        "Group spans several chapters; mapped to the main one"
+      ],
+      "confidence": "HIGH",
+      "chapter": "spreadsheet-functions-and-charts",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

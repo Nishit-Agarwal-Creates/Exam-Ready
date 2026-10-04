@@ -15,8 +15,389 @@
             "mathematics",
             "physics",
             "chemistry",
-            "biology"
-          ]
+            "biology",
+            "english",
+            "history-civics",
+            "geography",
+            "computer-studies"
+          ],
+          "details": {
+            "mathematics": {
+              "overview": "The CISCE Upper Primary curriculum organises Class VI Mathematics into six themes (Number System, Ratio and Proportion, Algebra, Geometry, Mensuration, Data Handling); the key-concept sub-headings of the Number System and Geometry themes are used here as separate chapters.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Mathematics, Class VI",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 100-114 (printed pp. 70-84)"
+              },
+              "chapters": [
+                {
+                  "slug": "numbers",
+                  "name": "Numbers",
+                  "summary": "Place value, operations and word problems on large numbers up to 8 digits, estimation, and the Indian and International systems of numeration."
+                },
+                {
+                  "slug": "natural-and-whole-numbers",
+                  "name": "Natural Numbers and Whole Numbers",
+                  "summary": "Natural and whole numbers, their properties (commutative, associative, distributive, identities), the number line and patterns in operations."
+                },
+                {
+                  "slug": "negative-numbers-and-integers",
+                  "name": "Negative Numbers and Integers",
+                  "summary": "The need for negative numbers, integers on the number line, their ordering and comparison, and addition and subtraction of integers."
+                },
+                {
+                  "slug": "sets",
+                  "name": "Sets",
+                  "summary": "The idea and representation of sets, finite, infinite and empty sets, and the cardinality of a set."
+                },
+                {
+                  "slug": "fractions",
+                  "name": "Fractions",
+                  "summary": "Types of fractions, equivalent fractions, comparison and operations on fractions, and decimal fractions with place value and conversion."
+                },
+                {
+                  "slug": "playing-with-numbers",
+                  "name": "Playing with Numbers",
+                  "summary": "Simplification of brackets, multiples and factors, divisibility rules, prime and composite numbers, prime factorisation, and HCF and LCM."
+                },
+                {
+                  "slug": "ratio-and-proportion",
+                  "name": "Ratio and Proportion",
+                  "summary": "Ratio as comparison, proportion as equality of two ratios, the unitary method, the idea of percent, and problems on speed, time and distance."
+                },
+                {
+                  "slug": "algebra",
+                  "name": "Algebra",
+                  "summary": "Constants, variables and unknowns through patterns, algebraic terminology, framing and evaluating algebraic expressions, and an introduction to linear equations in one variable."
+                },
+                {
+                  "slug": "basic-geometrical-ideas",
+                  "name": "Basic Geometrical Ideas",
+                  "summary": "Lines, line segments, rays, open and closed figures, angles, and the parts of triangles, quadrilaterals and circles."
+                },
+                {
+                  "slug": "understanding-elementary-shapes",
+                  "name": "Understanding Elementary Shapes",
+                  "summary": "Measuring line segments and angles, types of angles and pairs of lines, classification of triangles and quadrilaterals, simple polygons, and 3-D shapes with their elements and nets."
+                },
+                {
+                  "slug": "symmetry",
+                  "name": "Symmetry",
+                  "summary": "Reflection symmetry of 2-D objects, taking mirror images and identifying axes of symmetry."
+                },
+                {
+                  "slug": "constructions",
+                  "name": "Constructions",
+                  "summary": "Constructions with straight edge, protractor and compasses: line segments, perpendicular bisectors, angles of 60, 120, 30, 45 and 90 degrees, angle bisectors, perpendiculars and circles."
+                },
+                {
+                  "slug": "mensuration",
+                  "name": "Mensuration",
+                  "summary": "Perimeter of different shapes, area of rectangles and squares, and conversion of units of mass, time, money and capacity."
+                },
+                {
+                  "slug": "data-handling",
+                  "name": "Data Handling",
+                  "summary": "Collecting and organising data with tally marks and tables, pictographs, bar graphs, and the mean and median of up to ten observations."
+                }
+              ]
+            },
+            "physics": {
+              "overview": "The CISCE Upper Primary curriculum sets Class VI Physics as six themes: Matter, Physical Quantities and Measurement, Force, Energy, Light and Magnetism.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Physics, Class VI",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 208-214 (printed pp. 172-178)"
+              },
+              "chapters": [
+                {
+                  "slug": "matter",
+                  "name": "Matter",
+                  "summary": "The meaning of matter, the three states of matter, and the characteristics and distinguishing properties of solids, liquids and gases."
+                },
+                {
+                  "slug": "physical-quantities-and-measurement",
+                  "name": "Physical Quantities and Measurement",
+                  "summary": "Measuring length, mass, time, temperature and the area of regular shapes, with their units and symbols."
+                },
+                {
+                  "slug": "force",
+                  "name": "Force",
+                  "summary": "Force as a push or pull, its effects on the motion, direction, shape and size of objects, and friction with its types, advantages and disadvantages."
+                },
+                {
+                  "slug": "energy",
+                  "name": "Energy",
+                  "summary": "Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers."
+                },
+                {
+                  "slug": "light",
+                  "name": "Light",
+                  "summary": "Rectilinear propagation of light and its applications, the pinhole camera, and natural shadows and eclipses."
+                },
+                {
+                  "slug": "magnetism",
+                  "name": "Magnetism",
+                  "summary": "Magnetic and non-magnetic materials, properties of magnets, magnetic fields including the Earth's, making magnets, electromagnets, and care, storage and demagnetisation of magnets."
+                }
+              ]
+            },
+            "chemistry": {
+              "overview": "The CISCE Upper Primary curriculum sets Class VI Chemistry as five themes: Introduction to Chemistry; Elements, Compounds and Mixtures; Matter; Water; and Air and Atmosphere.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Chemistry, Class VI",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 239-247 (printed pp. 202-210)"
+              },
+              "chapters": [
+                {
+                  "slug": "introduction-to-chemistry",
+                  "name": "Introduction to Chemistry",
+                  "summary": "The meaning and importance of chemistry, its historical development, notable chemists, and chemistry in food, cosmetics, clothing, medicines and industry."
+                },
+                {
+                  "slug": "elements-compounds-and-mixtures",
+                  "name": "Elements, Compounds and Mixtures",
+                  "summary": "Elements and symbols of the first 20 elements, molecules of elements and compounds, mixtures, and separation by sieving, sedimentation, decantation, filtration, evaporation, magnetic separation and sublimation."
+                },
+                {
+                  "slug": "matter",
+                  "name": "Matter",
+                  "summary": "Classification of matter into solids, liquids and gases, the arrangement of particles and intermolecular spaces, and the effect of heat on matter."
+                },
+                {
+                  "slug": "water",
+                  "name": "Water",
+                  "summary": "The importance and sources of water, water as a solvent with solute, solvent and solution, and water pollution and conservation."
+                },
+                {
+                  "slug": "air-and-atmosphere",
+                  "name": "Air and Atmosphere",
+                  "summary": "Air as a mixture of gases, its percentage composition, uses of its components, and the atmosphere as the layer of air around the earth."
+                }
+              ]
+            },
+            "biology": {
+              "overview": "The CISCE Upper Primary curriculum sets Class VI Biology as five themes (Plant Life, The Cell, Human Body, Health and Hygiene, Adaptation); the sub-headings of Plant Life and Human Body are used here as separate chapters.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Biology, Class VI",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 271-277 (printed pp. 234-240)"
+              },
+              "chapters": [
+                {
+                  "slug": "the-leaf",
+                  "name": "The Leaf",
+                  "summary": "External structure of a leaf, simple and compound leaves, venation, functions and modifications of leaves, insectivorous plants, and vegetative propagation by leaves."
+                },
+                {
+                  "slug": "the-flower",
+                  "name": "The Flower",
+                  "summary": "The four whorls of a flower, pollination and its agents, fertilisation, formation and parts of fruits, and the parts, types and germination of seeds."
+                },
+                {
+                  "slug": "the-cell",
+                  "name": "The Cell",
+                  "summary": "Plant and animal cells, the structure and functions of the cell wall, cell membrane, plastids, nucleus, vacuole and cytoplasm, and differences between plant and animal cells."
+                },
+                {
+                  "slug": "digestive-system",
+                  "name": "Digestive System",
+                  "summary": "Organs of the digestive system and their functions, and the digestion of carbohydrates, proteins and fats."
+                },
+                {
+                  "slug": "respiratory-system",
+                  "name": "Respiratory System",
+                  "summary": "Main parts of the respiratory system, respiration versus breathing, the mechanism of breathing, and common respiratory diseases."
+                },
+                {
+                  "slug": "circulatory-system",
+                  "name": "Circulatory System",
+                  "summary": "The heart, blood and blood vessels, the process of circulation, components of blood, blood groups, blood pressure, heartbeat and pulse."
+                },
+                {
+                  "slug": "health-and-hygiene",
+                  "name": "Health and Hygiene",
+                  "summary": "Communicable and non-communicable diseases, their modes of transmission and prevention, and ways of keeping surroundings clean and hygienic."
+                },
+                {
+                  "slug": "adaptation",
+                  "name": "Adaptation",
+                  "summary": "Habitats and the adaptations of plants and animals to aquatic, desert, mountain and aerial habitats."
+                }
+              ]
+            },
+            "english": {
+              "overview": "The CISCE Upper Primary curriculum sets out English for Class VI in four skill areas (Listening and Speaking, Reading, Writing, and Grammar and Vocabulary in Context), each with learning outcomes and suggested content.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - English",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 33-41 (Class VI English: Listening and Speaking pp. 33-35; Reading pp. 36-37; Writing pp. 38-39; Grammar and Vocabulary in Context pp. 40-41)"
+              },
+              "chapters": [
+                {
+                  "slug": "listening-and-speaking",
+                  "name": "Listening and Speaking",
+                  "summary": "Listening to stories, poems, narratives and lectures for aural/written comprehension; comprehending issues raised in spoken texts (public address, televised interview, internet videos); group discussions, debates, speech, drama and presentations; analysing language in newspapers, television and advertising; adapting tone, stress, gestures and voice modulation; dictation of chunks of language. Recitation may be included in internal assessment."
+                },
+                {
+                  "slug": "reading",
+                  "name": "Reading",
+                  "summary": "Reading literary and non-literary texts on themes such as self and family, neighbourhood, the nation's diversity and heritage (myths, legends, folktales), the world, adventure, sports and yoga, adolescence, science and technology, peace, travel, mass media, art, health and environmental concerns, for comprehension and inference; discussing rhyme, rhythm, metre, imagery, metaphor and simile in poems."
+                },
+                {
+                  "slug": "writing",
+                  "name": "Writing",
+                  "summary": "Simple messages, invitations, notices, short paragraphs, letters and applications; short compositions based on pictures; simple narrative and descriptive pieces; creative writing (stories, poems, dialogues); organising sentences in sequence with linkers such as 'firstly', 'then' and 'finally'; the process approach of planning, revising, reviewing, editing and rewriting. Classes VI and VII write informal letters."
+                },
+                {
+                  "slug": "grammar-and-vocabulary-in-context",
+                  "name": "Grammar and Vocabulary in Context",
+                  "summary": "Pronouns in the proper case, reflexive pronouns and pronoun-antecedent agreement; subject-verb agreement with intervening phrases and clauses; transitive and intransitive verbs; tenses and inappropriate shifts in verb tense; vocabulary in context, affixes and roots; using dictionaries and reference materials; figures of speech in context."
+                }
+              ]
+            },
+            "history-civics": {
+              "overview": "The CISCE Upper Primary curriculum sets out History & Civics for Class VI as numbered History themes followed by Civics themes, each with learning outcomes, key concepts and suggested classroom processes.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - History & Civics",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 140-151 (Class VI History Themes 1-6 pp. 140-149; Civics Themes 1-2 pp. 149-151)"
+              },
+              "chapters": [
+                {
+                  "slug": "the-river-valley-civilizations",
+                  "name": "The River Valley Civilizations",
+                  "summary": "History Theme 1: why the earliest societies developed near rivers, and what the early river valley civilisations contributed to human heritage, studied from historical evidence."
+                },
+                {
+                  "slug": "the-vedic-civilization",
+                  "name": "The Vedic Civilization",
+                  "summary": "History Theme 2: India's past about 3500 years ago, and how the Vedas and the Epics give insight into it and into the origins of present-day society."
+                },
+                {
+                  "slug": "mahavira-and-buddha-great-preachers",
+                  "name": "Mahavira and Buddha - Great Preachers",
+                  "summary": "History Theme 3: the teachings of Mahavira and Gautam Buddha, the similarities and differences between the two, and the importance of Ahimsa and tolerance."
+                },
+                {
+                  "slug": "rise-of-kingdoms-and-republicans",
+                  "name": "Rise of Kingdoms and Republicans",
+                  "summary": "History Theme 4: how rulers emerged in the past and how ambitions to expand kingdoms led to wars and invasions."
+                },
+                {
+                  "slug": "the-mauryan-empire",
+                  "name": "The Mauryan Empire",
+                  "summary": "History Theme 5: the Mauryan Empire, with emphasis on Emperor Ashoka's turn from war and his welfare state, and Chanakya's ideas in the Arthashastra."
+                },
+                {
+                  "slug": "the-golden-age-gupta-empire",
+                  "name": "The Golden Age - Gupta Empire",
+                  "summary": "History Theme 6: advances in trade, economy, literature, astronomy, Ayurveda and mathematics under the Guptas, and why the period is called the Golden Age."
+                },
+                {
+                  "slug": "rural-local-self-government",
+                  "name": "Rural Local Self Government",
+                  "summary": "Civics Theme 1: the main features and functions of the Panchayati Raj System and its three tiers, and other rural local bodies."
+                },
+                {
+                  "slug": "urban-local-self-government",
+                  "name": "Urban Local Self Government",
+                  "summary": "Civics Theme 2: the composition and functions of Municipal Corporations and the civic duties of citizens."
+                }
+              ]
+            },
+            "geography": {
+              "overview": "The CISCE Upper Primary curriculum sets out Geography for Class VI as numbered themes, starting with representing geographical features on maps and ending with a study of continents or of India.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - Geography",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 176-186 (Class VI Geography Themes 1-6)"
+              },
+              "chapters": [
+                {
+                  "slug": "representation-of-geographical-features",
+                  "name": "Representation of Geographical Features",
+                  "summary": "Theme 1: types of maps by scale, representing scale, symbols and directions on a map, and diagrams of geographical features."
+                },
+                {
+                  "slug": "landforms",
+                  "name": "Landforms",
+                  "summary": "Theme 2: the forces that form mountains, valleys, plateaus and plains, and where these landforms are found on the world map."
+                },
+                {
+                  "slug": "water-bodies",
+                  "name": "Water Bodies",
+                  "summary": "Theme 3: seas, rivers and lakes and where they are in the world, and water pollution as a link between local and global issues."
+                },
+                {
+                  "slug": "agriculture",
+                  "name": "Agriculture",
+                  "summary": "Theme 4: farming practices around the world, the geographical factors behind crop growth, and the distribution of major crops."
+                },
+                {
+                  "slug": "minerals",
+                  "name": "Minerals",
+                  "summary": "Theme 5: minerals and ores, their distribution in the world, and the need to conserve them."
+                },
+                {
+                  "slug": "study-of-continents-north-america-and-south-america",
+                  "name": "Study of Continents: North America and South America",
+                  "summary": "Theme 6: an overview of North America and South America, with a case study from each continent."
+                }
+              ]
+            },
+            "computer-studies": {
+              "overview": "The CISCE Upper Primary curriculum names this subject Computer Studies and sets it out for Class VI as numbered topics, each with learning outcomes and suggested content.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - Computer Studies",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF p. 298 (core concepts chart) and pp. 299-306 (Class VI Topics 1-8)"
+              },
+              "chapters": [
+                {
+                  "slug": "categories-of-computers-and-computer-languages",
+                  "name": "Categories of Computers and Computer Languages",
+                  "summary": "Topic 1: classifying computers by generation, type, purpose, size, speed, processing power and price; machine, assembly and high-level languages; translators."
+                },
+                {
+                  "slug": "file-management-organisation-of-data",
+                  "name": "File Management - Organisation of Data",
+                  "summary": "Topic 2: file formats and common file operations (edit, view, copy, move, delete) and organising files by type, name, size and date."
+                },
+                {
+                  "slug": "word-processor-tabular-presentation",
+                  "name": "Word Processor - Tabular Presentation",
+                  "summary": "Topic 3: inserting, drawing and modifying simple and complex tables in a word processor."
+                },
+                {
+                  "slug": "word-processor-mail-merge",
+                  "name": "Word Processor - Mail Merge",
+                  "summary": "Topic 4: using mail merge to create personalised letters for bulk mailing, and address or mailing labels."
+                },
+                {
+                  "slug": "presentation-visual-effects",
+                  "name": "Presentation - Visual Effects",
+                  "summary": "Topic 5: making slide presentations more attractive and interactive with animation, sound and video."
+                },
+                {
+                  "slug": "scratch-programming-introduction-to-game-creation",
+                  "name": "Scratch Programming - Introduction to Game Creation",
+                  "summary": "Topic 6: working with the Looks, Control, Pen and Sound blocks of Scratch to create games."
+                },
+                {
+                  "slug": "html-an-introduction",
+                  "name": "HTML - An Introduction",
+                  "summary": "Topic 7: what a web page and HTML are, and designing and saving a simple web page with an HTML editor."
+                },
+                {
+                  "slug": "internet-online-surfing",
+                  "name": "Internet - Online Surfing",
+                  "summary": "Topic 8: internet services such as e-mail, e-commerce, blogging, podcasting and Google Drive."
+                }
+              ]
+            }
+          }
         },
         {
           "level": 7,
@@ -25,8 +406,434 @@
             "mathematics",
             "physics",
             "chemistry",
-            "biology"
-          ]
+            "biology",
+            "english",
+            "history-civics",
+            "geography",
+            "computer-studies"
+          ],
+          "details": {
+            "mathematics": {
+              "overview": "The CISCE Upper Primary curriculum organises Class VII Mathematics into six themes (Number System, Ratio and Proportion, Algebra, Geometry, Mensuration, Data Handling); the topics listed as key concepts within the themes are used here as chapters.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Mathematics, Class VII",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 115-123 (printed pp. 85-93)"
+              },
+              "chapters": [
+                {
+                  "slug": "integers",
+                  "name": "Integers",
+                  "summary": "Multiplication and division of integers, properties of operations on integers, and word problems involving integers."
+                },
+                {
+                  "slug": "rational-numbers",
+                  "name": "Rational Numbers",
+                  "summary": "Introduction to rational numbers with representation on the number line, their decimal representation, and word problems on rational numbers."
+                },
+                {
+                  "slug": "fractions-and-decimals",
+                  "name": "Fractions and Decimals",
+                  "summary": "Fraction as an operator, reciprocal of a fraction, and multiplication and division of decimal fractions."
+                },
+                {
+                  "slug": "exponents",
+                  "name": "Exponents",
+                  "summary": "Exponents with natural numbers, the laws of exponents through patterns, and their use in simple daily-life problems."
+                },
+                {
+                  "slug": "sets",
+                  "name": "Sets",
+                  "summary": "Revision of sets, equal, equivalent and universal sets, and the cardinal property of sets."
+                },
+                {
+                  "slug": "ratio-and-proportion",
+                  "name": "Ratio and Proportion",
+                  "summary": "Revision of ratio and proportion and consolidation of the unitary method with its general expression."
+                },
+                {
+                  "slug": "percentage",
+                  "name": "Percentage",
+                  "summary": "Percentage as a fraction with denominator 100 and conversion between fractions, decimals and percentages."
+                },
+                {
+                  "slug": "profit-and-loss",
+                  "name": "Profit and Loss",
+                  "summary": "Application of percentage to profit and loss in single transactions."
+                },
+                {
+                  "slug": "simple-interest",
+                  "name": "Simple Interest",
+                  "summary": "Application of percentage to simple interest for time periods in complete years."
+                },
+                {
+                  "slug": "speed-distance-and-time",
+                  "name": "Speed, Distance and Time",
+                  "summary": "Problems relating speed, distance and time."
+                },
+                {
+                  "slug": "algebraic-expressions",
+                  "name": "Algebraic Expressions",
+                  "summary": "Algebraic terms such as constants, variables, coefficients and like and unlike terms, generating expressions, and addition and subtraction of expressions with integral coefficients."
+                },
+                {
+                  "slug": "simple-linear-equations",
+                  "name": "Simple Linear Equations",
+                  "summary": "Simple linear equations in one variable in contextual problems with two operations."
+                },
+                {
+                  "slug": "inequalities",
+                  "name": "Inequalities",
+                  "summary": "Inequalities and the solution of simple inequalities in one variable."
+                },
+                {
+                  "slug": "understanding-shapes",
+                  "name": "Understanding Shapes",
+                  "summary": "Pairs of angles, properties of parallel lines cut by a transversal, the angle sum and exterior angle properties of triangles, and verification of Pythagoras theorem."
+                },
+                {
+                  "slug": "symmetry",
+                  "name": "Symmetry",
+                  "summary": "Recalling reflection symmetry and the idea of rotational symmetry of 2-D objects (90, 120 and 180 degrees)."
+                },
+                {
+                  "slug": "representing-3d-in-2d",
+                  "name": "Representing 3-D in 2-D",
+                  "summary": "Counting vertices, edges and faces, nets for cubes, cuboids, cylinders and cones, and mapping the surrounding space by visual estimation."
+                },
+                {
+                  "slug": "congruence",
+                  "name": "Congruence",
+                  "summary": "Congruence through superimposition, extended to triangles and circles, and the criteria of congruence."
+                },
+                {
+                  "slug": "construction",
+                  "name": "Construction",
+                  "summary": "Constructing a line parallel to a given line from a point outside it and constructing simple triangles."
+                },
+                {
+                  "slug": "mensuration",
+                  "name": "Mensuration",
+                  "summary": "Revision of perimeter, the idea of circumference of a circle, and areas of squares, rectangles, triangles, parallelograms, circles, rings and combined figures."
+                },
+                {
+                  "slug": "data-handling",
+                  "name": "Data Handling",
+                  "summary": "Collecting and organising data for testing a hypothesis, mean, median and mode of ungrouped data, and constructing and interpreting bar graphs."
+                },
+                {
+                  "slug": "probability",
+                  "name": "Probability",
+                  "summary": "A feel of probability through experiments such as tossing coins and throwing dice, tabulating outcomes and the notion of randomness."
+                }
+              ]
+            },
+            "physics": {
+              "overview": "The CISCE Upper Primary curriculum sets Class VII Physics as seven themes: Physical Quantities and Measurement, Force and Pressure: Motion, Energy, Light Energy, Heat, Sound, and Electricity and Magnetism.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Physics, Class VII",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 215-222 (printed pp. 179-186)"
+              },
+              "chapters": [
+                {
+                  "slug": "physical-quantities-and-measurement",
+                  "name": "Physical Quantities and Measurement",
+                  "summary": "Measurement of volume, estimating the area of irregular shapes, density of regular solids, and calculation of speed with simple numericals."
+                },
+                {
+                  "slug": "motion",
+                  "name": "Force and Pressure: Motion",
+                  "summary": "Motion as change of position with time, translatory, circular, oscillatory and periodic motion, uniform and non-uniform motion with average speed, and mass versus weight."
+                },
+                {
+                  "slug": "energy",
+                  "name": "Energy",
+                  "summary": "Energy as the capacity to do work, its units and forms, inter-conversion of energy and the law of conservation of energy."
+                },
+                {
+                  "slug": "light-energy",
+                  "name": "Light Energy",
+                  "summary": "Reflection and its laws, images formed by a plane mirror, the speed of light, primary and secondary colours, and the colour of objects."
+                },
+                {
+                  "slug": "heat",
+                  "name": "Heat",
+                  "summary": "Heat as energy and its units, temperature scales, effects of heat, conductors and insulators, and conduction, convection and radiation."
+                },
+                {
+                  "slug": "sound",
+                  "name": "Sound",
+                  "summary": "Sources of sound, sound as a longitudinal wave, amplitude and frequency, the need for a medium, reflection and absorption of sound, and its relative speed in different media."
+                },
+                {
+                  "slug": "electricity-and-magnetism",
+                  "name": "Electricity and Magnetism",
+                  "summary": "The law of magnetism, electromagnets and the electric bell, current as flow of charge, cells and batteries, circuit symbols, series and parallel circuits, and conductors and insulators."
+                }
+              ]
+            },
+            "chemistry": {
+              "overview": "The CISCE Upper Primary curriculum sets Class VII Chemistry as seven themes: Matter and its Composition; Physical and Chemical Changes; Elements, Compounds and Mixtures; Atomic Structure; Language of Chemistry; Metals and Non-Metals; and Air and Atmosphere.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Chemistry, Class VII",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 248-257 (printed pp. 211-220)"
+              },
+              "chapters": [
+                {
+                  "slug": "matter-and-its-composition",
+                  "name": "Matter and its Composition",
+                  "summary": "The definition of matter as having mass and occupying space, and its composition from tiny particles."
+                },
+                {
+                  "slug": "physical-and-chemical-changes",
+                  "name": "Physical and Chemical Changes",
+                  "summary": "Physical and chemical changes, how to distinguish and classify them, and the changes involved in change of state and change of energy."
+                },
+                {
+                  "slug": "elements-compounds-and-mixtures",
+                  "name": "Elements, Compounds and Mixtures",
+                  "summary": "Identifying elements and compounds, homogeneous and heterogeneous mixtures, and separation by evaporation, distillation, separating funnel, sublimation, fractional distillation and paper chromatography."
+                },
+                {
+                  "slug": "atomic-structure",
+                  "name": "Atomic Structure",
+                  "summary": "Atoms, molecules and radicals, atomicity, names and symbols of the first 20 elements, and valency."
+                },
+                {
+                  "slug": "language-of-chemistry",
+                  "name": "Language of Chemistry",
+                  "summary": "Chemical reactions and the characteristics by which they are observed, and writing word equations."
+                },
+                {
+                  "slug": "metals-and-non-metals",
+                  "name": "Metals and Non-Metals",
+                  "summary": "General properties of metals and non-metals, rusting and its prevention, uses of common metals, and metalloids."
+                },
+                {
+                  "slug": "air-and-atmosphere",
+                  "name": "Air and Atmosphere",
+                  "summary": "Composition of air, oxygen and combustion, reactions of elements with oxygen, acid rain and its effects, air quality, and respiration, combustion and rusting compared."
+                }
+              ]
+            },
+            "biology": {
+              "overview": "The CISCE Upper Primary curriculum sets Class VII Biology as five themes (Tissue, Kingdom Classification, Plant Life, Human Body, Health and Hygiene); the sub-headings of Plant Life and Human Body are used here as separate chapters.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Biology, Class VII",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 278-284 (printed pp. 241-247)"
+              },
+              "chapters": [
+                {
+                  "slug": "tissues",
+                  "name": "Tissues",
+                  "summary": "Plant tissues (meristematic, and simple and complex permanent) and animal tissues (epithelial, connective, muscular and nerve) with their location and functions."
+                },
+                {
+                  "slug": "kingdom-classification",
+                  "name": "Kingdom Classification",
+                  "summary": "The need for classification and the characteristics of Monera, Protista, Fungi, Plantae and Animalia, including the major invertebrate phyla."
+                },
+                {
+                  "slug": "photosynthesis",
+                  "name": "Photosynthesis",
+                  "summary": "The definition and basic process of photosynthesis, factors affecting it, its significance, and an experiment to demonstrate it."
+                },
+                {
+                  "slug": "respiration-in-plants",
+                  "name": "Respiration in Plants",
+                  "summary": "Respiration as an energy-releasing process, aerobic and anaerobic respiration with word equations, and differences between respiration and photosynthesis."
+                },
+                {
+                  "slug": "excretory-system",
+                  "name": "Excretory System",
+                  "summary": "Excretory organs and products, the kidneys, ureters, urinary bladder and urethra, filtration by nephrons, and common urinary disorders."
+                },
+                {
+                  "slug": "nervous-system",
+                  "name": "Nervous System",
+                  "summary": "The brain (cerebrum, cerebellum, medulla oblongata), the spinal cord and nerves, with their location and functions."
+                },
+                {
+                  "slug": "health-and-hygiene",
+                  "name": "Health and Hygiene",
+                  "summary": "Allergy and common allergens, their entry routes, symptoms, seasonal and perennial allergies, and precautions for allergy-prone people."
+                }
+              ]
+            },
+            "english": {
+              "overview": "The CISCE Upper Primary curriculum sets out English for Class VII in four skill areas (Listening and Speaking, Reading, Writing, and Grammar and Vocabulary in Context), each with learning outcomes and suggested content.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - English",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 42-48 (Class VII English: Listening and Speaking pp. 42-43; Reading pp. 44-45; Writing pp. 46-47; Grammar and Vocabulary in Context p. 48)"
+              },
+              "chapters": [
+                {
+                  "slug": "listening-and-speaking",
+                  "name": "Listening and Speaking",
+                  "summary": "Listening to texts from different genres and registers (story, poem, narrative, lecture, speech, dialogue) for aural/written comprehension; comprehending speeches, lectures, discourse, debates and discussions; group discussions; using graphics, images, music and visual displays in presentations; analysing language in newspapers, television, billboards and advertising; adapting speech to context."
+                },
+                {
+                  "slug": "reading",
+                  "name": "Reading",
+                  "summary": "Literary and non-literary texts across genres and registers on themes such as family and pets, community, the nation's diversity and heritage, myths and folktales, India's neighbours and other countries, adventure, sports and yoga, adolescence (drugs, values, life skills), science and technology, peace, travel, mass media, art and health."
+                },
+                {
+                  "slug": "writing",
+                  "name": "Writing",
+                  "summary": "Messages, invitations, short paragraphs, formal and informal letters and applications; simple narrative and descriptive pieces; creative writing (stories, poems); posters; organising sentences sequentially with linkers such as 'however' and 'therefore'; the process approach of planning, revising, reviewing, editing and rewriting."
+                },
+                {
+                  "slug": "grammar-and-vocabulary-in-context",
+                  "name": "Grammar and Vocabulary in Context",
+                  "summary": "Phrases and clauses in simple, compound and complex sentences; active and passive voice; synonyms, antonyms and analogy in context; figurative language (irony, pun, personification, alliteration, metaphor, simile, assonance, onomatopoeia); age-appropriate and domain-specific vocabulary."
+                }
+              ]
+            },
+            "history-civics": {
+              "overview": "The CISCE Upper Primary curriculum sets out History & Civics for Class VII as numbered History themes followed by Civics themes, each with learning outcomes, key concepts and suggested classroom processes.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - History & Civics",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 151-162 (Class VII History 'The Medieval World' Themes 1-6 pp. 151-160; Civics Themes 1-2 pp. 160-162)"
+              },
+              "chapters": [
+                {
+                  "slug": "medieval-europe-rise-and-spread-of-christianity",
+                  "name": "Medieval Europe - Rise and Spread of Christianity",
+                  "summary": "History Theme 1: Europe's transition from the ancient Roman Empire to the medieval Byzantine Empire, and the rise and spread of Christianity."
+                },
+                {
+                  "slug": "rise-and-spread-of-islam",
+                  "name": "Rise and Spread of Islam",
+                  "summary": "History Theme 2: the conditions and processes behind the emergence of Islam and its spread across continents, and its effect on politics, life and culture."
+                },
+                {
+                  "slug": "the-delhi-sultanate",
+                  "name": "The Delhi Sultanate",
+                  "summary": "History Theme 3: the rule of the Delhi Sultanate - its capital, administration, achievements and socio-cultural developments."
+                },
+                {
+                  "slug": "the-vijayanagar-and-bahamani-kingdoms",
+                  "name": "The Vijayanagar and Bahamani Kingdoms",
+                  "summary": "History Theme 4: the rise of these two South Indian kingdoms after the decline of the Tughlaq Empire, and their art and architecture."
+                },
+                {
+                  "slug": "the-mughal-empire",
+                  "name": "The Mughal Empire",
+                  "summary": "History Theme 5: why and how the Mughal Empire became the most important empire of later medieval India, and Mughal art and architecture."
+                },
+                {
+                  "slug": "making-of-composite-culture",
+                  "name": "Making of Composite Culture",
+                  "summary": "History Theme 6: the legacy of the Bhakti and Sufi movements since the eighth century and the teachings of Bhakti and Sufi saints."
+                },
+                {
+                  "slug": "the-constitution-of-india",
+                  "name": "The Constitution of India",
+                  "summary": "Civics Theme 1: the need for a Constitution and the main features of the Constitution of India as the supreme law of the land."
+                },
+                {
+                  "slug": "directive-principles-of-state-policy",
+                  "name": "Directive Principles of State Policy",
+                  "summary": "Civics Theme 2: the principles that direct the State to create opportunities for the welfare of all citizens."
+                }
+              ]
+            },
+            "geography": {
+              "overview": "The CISCE Upper Primary curriculum sets out Geography for Class VII as numbered themes, starting with representing geographical features on maps and ending with a study of continents or of India.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - Geography",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 187-193 (Class VII Geography Themes 1-7)"
+              },
+              "chapters": [
+                {
+                  "slug": "representation-of-geographical-features",
+                  "name": "Representation of Geographical Features",
+                  "summary": "Theme 1: reading topographical sheets through directions, colours and conventional symbols, and measuring distances with a scale."
+                },
+                {
+                  "slug": "atmosphere",
+                  "name": "Atmosphere",
+                  "summary": "Theme 2: the importance of the atmosphere and the gases in it, and global warming and its impact on people."
+                },
+                {
+                  "slug": "weather-and-climate",
+                  "name": "Weather and Climate",
+                  "summary": "Theme 3: the elements of weather, how weather differs from climate, and instruments for measuring rain, temperature and pressure."
+                },
+                {
+                  "slug": "weathering-and-soil-formation",
+                  "name": "Weathering and Soil Formation",
+                  "summary": "Theme 4: types of weathering and how weathering forms soil, soil profiles and soil conservation."
+                },
+                {
+                  "slug": "industries",
+                  "name": "Industries",
+                  "summary": "Theme 5: the factors that decide where industries are located, how industries are classified by inputs, and industrial pollution and its prevention."
+                },
+                {
+                  "slug": "energy-and-power-resources",
+                  "name": "Energy and Power Resources",
+                  "summary": "Theme 6: renewable and non-renewable energy resources and conserving energy in daily life."
+                },
+                {
+                  "slug": "study-of-continents-europe-africa-australia-and-antarctica",
+                  "name": "Study of Continents: Europe, Africa, Australia and Antarctica",
+                  "summary": "Theme 7: an introduction to Europe, Africa, Australia and Antarctica, with case studies."
+                }
+              ]
+            },
+            "computer-studies": {
+              "overview": "The CISCE Upper Primary curriculum names this subject Computer Studies and sets it out for Class VII as numbered topics, each with learning outcomes and suggested content.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - Computer Studies",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF p. 298 (core concepts chart) and pp. 307-313 (Class VII Topics 1-7)"
+              },
+              "chapters": [
+                {
+                  "slug": "computer-hardware-components",
+                  "name": "Computer - Hardware Components",
+                  "summary": "Topic 1: external and internal hardware (monitor, keyboard, CPU, motherboard, drives, sound and video cards) and how hardware and software work together."
+                },
+                {
+                  "slug": "number-system-an-introduction",
+                  "name": "Number System - An Introduction",
+                  "summary": "Topic 2: the decimal, binary, octal and hexadecimal number systems and converting between them."
+                },
+                {
+                  "slug": "computer-virus",
+                  "name": "Computer Virus",
+                  "summary": "Topic 3: what computer viruses are, their types, symptoms and harm, and antivirus software and protection."
+                },
+                {
+                  "slug": "ethics-and-safety-measures-in-computing",
+                  "name": "Ethics and Safety Measures in Computing",
+                  "summary": "Topic 4: computer ethics, unethical practices such as cyberbullying, phishing and software piracy, online safety measures, and digital footprints."
+                },
+                {
+                  "slug": "spreadsheets-an-introduction",
+                  "name": "Spreadsheets - An Introduction",
+                  "summary": "Topic 5: the components of a spreadsheet, entering different types of data, and creating, saving and modifying a workbook."
+                },
+                {
+                  "slug": "database-and-dbms-an-introduction",
+                  "name": "Database and DBMS - An Introduction",
+                  "summary": "Topic 6: databases and Database Management Systems, creating a database and writing simple queries."
+                },
+                {
+                  "slug": "html-advanced-features",
+                  "name": "HTML - Advanced Features",
+                  "summary": "Topic 7: advanced HTML tags for lists, images, links, tables and forms."
+                }
+              ]
+            }
+          }
         },
         {
           "level": 8,
@@ -35,8 +842,479 @@
             "mathematics",
             "physics",
             "chemistry",
-            "biology"
-          ]
+            "biology",
+            "english",
+            "history-civics",
+            "geography",
+            "computer-studies"
+          ],
+          "details": {
+            "mathematics": {
+              "overview": "The CISCE Upper Primary curriculum organises Class VIII Mathematics into six themes (Number System, Ratio and Proportion, Algebra, Geometry, Mensuration, Data Handling); the key concepts listed under each theme are used here as chapters.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Mathematics, Class VIII",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 124-133 (printed pp. 94-103)"
+              },
+              "chapters": [
+                {
+                  "slug": "rational-numbers",
+                  "name": "Rational Numbers",
+                  "summary": "Properties of rational numbers in general form (closure, commutativity, associativity, identity and inverse), their representation on the number line, rational numbers between any two rational numbers, and word problems."
+                },
+                {
+                  "slug": "exponents",
+                  "name": "Exponents (Powers)",
+                  "summary": "Writing repeated multiplication and division using integers as exponents, and the laws of exponents with integral powers."
+                },
+                {
+                  "slug": "squares-square-roots",
+                  "name": "Squares and Square Roots",
+                  "summary": "Patterns in square numbers, and square roots by the factor and division methods for numbers of no more than 4 digits and no more than 2 decimal places, with estimation."
+                },
+                {
+                  "slug": "cubes-cube-roots",
+                  "name": "Cubes and Cube Roots",
+                  "summary": "Patterns in perfect cubes, and cube roots by the factor method for numbers of at most 3 digits."
+                },
+                {
+                  "slug": "playing-with-numbers",
+                  "name": "Playing with Numbers",
+                  "summary": "Writing 2- and 3-digit numbers in generalised form (100a + 10b + c), puzzles with missing digits, and deducing the divisibility tests for 2, 3, 5, 9 and 10."
+                },
+                {
+                  "slug": "sets",
+                  "name": "Sets",
+                  "summary": "Union and intersection of sets, disjoint sets and the complement of a set."
+                },
+                {
+                  "slug": "percent-percentage",
+                  "name": "Percentage",
+                  "summary": "Slightly advanced problems applying percentages, built on ratio and proportion, to daily-life situations such as banking, taxation and loans."
+                },
+                {
+                  "slug": "profit-loss-discount",
+                  "name": "Profit, Loss, Discount and Tax",
+                  "summary": "Problems on profit and loss including overhead expenses, discount and tax."
+                },
+                {
+                  "slug": "simple-compound-interest",
+                  "name": "Simple and Compound Interest",
+                  "summary": "The difference between simple and compound interest (compounded yearly up to 3 years or half-yearly up to 3 steps), arriving at the compound interest formula through patterns and using it for simple problems."
+                },
+                {
+                  "slug": "direct-and-inverse-variation",
+                  "name": "Direct and Inverse Variation",
+                  "summary": "Simple and direct word problems on direct and inverse variation."
+                },
+                {
+                  "slug": "time-and-work",
+                  "name": "Time and Work",
+                  "summary": "Simple and direct word problems on time and work."
+                },
+                {
+                  "slug": "algebraic-expressions",
+                  "name": "Algebraic Expressions",
+                  "summary": "Multiplication and division of algebraic expressions with integer coefficients, and the identities (a ± b)² = a² ± 2ab + b² and a² − b² = (a − b)(a + b), avoiding common errors such as 2 + x = 2x."
+                },
+                {
+                  "slug": "factorisation",
+                  "name": "Factorisation",
+                  "summary": "Factorising simple algebraic expressions of the types a(x + y), (x ± y)², a² − b² and (x + a)(x + b) using identities."
+                },
+                {
+                  "slug": "inequalities",
+                  "name": "Inequalities",
+                  "summary": "Properties of inequalities and their use to find solutions of inequalities in one variable."
+                },
+                {
+                  "slug": "linear-equations",
+                  "name": "Linear Equations in One Variable",
+                  "summary": "Solving linear equations in one variable in contextual word problems involving multiplication and division, with simple rational coefficients."
+                },
+                {
+                  "slug": "understanding-shapes",
+                  "name": "Understanding Shapes",
+                  "summary": "The angle-sum property of quadrilaterals and, by verification, the properties of parallelograms and of the diagonals of rectangles, rhombuses and squares."
+                },
+                {
+                  "slug": "representing-3d-in-2d",
+                  "name": "Representing 3-D in 2-D",
+                  "summary": "Matching pictures with nested and joint 2-D and 3-D shapes, drawing 2-D representations and nets of 3-D objects, and counting vertices, edges and faces to verify Euler's relation for cubes, cuboids, tetrahedrons, prisms and pyramids."
+                },
+                {
+                  "slug": "construction",
+                  "name": "Construction",
+                  "summary": "Constructing quadrilaterals with compasses and straight edge given four sides and one diagonal, three sides and two diagonals, three sides and two included angles, or two adjacent sides and three angles."
+                },
+                {
+                  "slug": "symmetry",
+                  "name": "Symmetry",
+                  "summary": "The idea of reflection symmetry and symmetrical shapes, and finding lines of symmetry by paper folding."
+                },
+                {
+                  "slug": "circle",
+                  "name": "Circle",
+                  "summary": "Parts of a circle: centre, radius, diameter, arc, chord, sector and segment."
+                },
+                {
+                  "slug": "mensuration",
+                  "name": "Mensuration",
+                  "summary": "Area of a trapezium, a polygon and a semicircle, total and curved surface areas of a cube, cuboid and cylinder, and the volume and capacity of cubes, cuboids and cylinders."
+                },
+                {
+                  "slug": "data-handling",
+                  "name": "Data Handling",
+                  "summary": "Arranging ungrouped data into groups, constructing and interpreting bar graphs of grouped data, and simple pie charts."
+                },
+                {
+                  "slug": "probability",
+                  "name": "Probability",
+                  "summary": "Consolidating the notion of chance through repeated throws of coins and dice, aggregating outcomes over many trials, and relating chance to life events."
+                }
+              ]
+            },
+            "physics": {
+              "overview": "The CISCE Upper Primary curriculum sets Class VIII Physics as eight themes: Matter, Physical Quantities and Measurement, Force and Pressure, Energy, Light Energy, Heat Transfer, Sound, and Electricity.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Physics, Class VIII",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 223-235 (printed pp. 187-199)"
+              },
+              "chapters": [
+                {
+                  "slug": "matter",
+                  "name": "Matter",
+                  "summary": "The three states of matter in terms of the movement and energy of particles, and changes of state (melting, boiling, evaporation, condensation, sublimation, deposition and freezing) explained by the kinetic theory."
+                },
+                {
+                  "slug": "physical-quantities-and-measurement",
+                  "name": "Physical Quantities and Measurement",
+                  "summary": "Measuring the density of irregular solids and of liquids, comparing densities of solids, liquids and gases, floatation in terms of relative density, and simple numericals on density."
+                },
+                {
+                  "slug": "force-and-pressure",
+                  "name": "Force and Pressure",
+                  "summary": "The turning effect of a force and moment of force, pressure and its units with simple numericals, and pressure exerted by liquids and gases, including atmospheric pressure."
+                },
+                {
+                  "slug": "energy",
+                  "name": "Energy",
+                  "summary": "Work and its unit, kinetic and gravitational potential energy with simple problems, energy transformation in daily life, and the distinction between energy and power."
+                },
+                {
+                  "slug": "light-energy",
+                  "name": "Light Energy",
+                  "summary": "Refraction with examples, concave and convex spherical mirrors and their terms, ray diagrams and real and virtual images, and dispersion of white light by a prism."
+                },
+                {
+                  "slug": "heat-transfer",
+                  "name": "Heat Transfer",
+                  "summary": "Boiling compared with evaporation, and linear, superficial and volume thermal expansion with the expansivity of solids, liquids and gases."
+                },
+                {
+                  "slug": "sound",
+                  "name": "Sound",
+                  "summary": "Pitch and frequency in wind, membrane and string instruments, monotone, and loudness, amplitude and the decibel."
+                },
+                {
+                  "slug": "electricity",
+                  "name": "Electricity",
+                  "summary": "Household consumption of electricity, live, neutral and earth wires, fuses and circuit breakers, static electricity, conservation, conduction and induction of charge, the electroscope, lightning conductors and electrical safety."
+                }
+              ]
+            },
+            "chemistry": {
+              "overview": "The CISCE Upper Primary curriculum sets Class VIII Chemistry as nine themes: Matter, Physical and Chemical Changes, Elements, Compounds and Mixtures, Atomic Structure, Language of Chemistry, Chemical Reactions, Hydrogen, Water, and Carbon and its Compounds.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Chemistry, Class VIII",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 258-268 (printed pp. 221-231)"
+              },
+              "chapters": [
+                {
+                  "slug": "matter",
+                  "name": "Matter",
+                  "summary": "The main postulates of the kinetic theory of matter, change of state in terms of interparticle space, attraction and collision, and the law of conservation of mass."
+                },
+                {
+                  "slug": "physical-and-chemical-changes",
+                  "name": "Physical and Chemical Changes",
+                  "summary": "Activities on familiar changes in nature, and distinguishing and classifying physical and chemical changes."
+                },
+                {
+                  "slug": "elements-compounds-and-mixtures",
+                  "name": "Elements, Compounds and Mixtures",
+                  "summary": "Classifying substances as elements, compounds and mixtures by their properties, and separating mixtures with the principle behind each technique."
+                },
+                {
+                  "slug": "atomic-structure",
+                  "name": "Atomic Structure",
+                  "summary": "Electrons, protons and neutrons, atomic number and mass number, and the valency of elements and radicals in terms of the hydrogen atoms they combine with."
+                },
+                {
+                  "slug": "language-of-chemistry",
+                  "name": "Language of Chemistry",
+                  "summary": "Symbols of elements, formulae of compounds from the valencies of elements and radicals, and writing and balancing chemical equations using the law of conservation of mass."
+                },
+                {
+                  "slug": "chemical-reactions",
+                  "name": "Chemical Reactions",
+                  "summary": "Types of chemical reactions with examples, basic, acidic, amphoteric and neutral oxides, and the effect of heat on oxides of some metals."
+                },
+                {
+                  "slug": "hydrogen",
+                  "name": "Hydrogen",
+                  "summary": "Hydrogen from the electrolysis of water and in the laboratory from zinc and acid, its properties and uses, and oxidation and reduction as addition or removal of oxygen or hydrogen."
+                },
+                {
+                  "slug": "water",
+                  "name": "Water",
+                  "summary": "Water as a universal solvent, solutions, suspensions and colloids, saturated, unsaturated and supersaturated solutions, water of crystallisation, reactions of metals with cold water and steam, and hard and soft water and its softening."
+                },
+                {
+                  "slug": "carbon-and-its-compounds",
+                  "name": "Carbon and its Compounds",
+                  "summary": "Allotropy and the allotropes of carbon, properties of graphite and diamond, and the laboratory preparation, uses and reactions (with lime water and litmus) of carbon dioxide."
+                }
+              ]
+            },
+            "biology": {
+              "overview": "The CISCE Upper Primary curriculum sets Class VIII Biology as six themes: Transport of Food and Minerals in Plants, Reproduction in Plants and Animals, Ecosystems, Human Body (Endocrine, Circulatory and Nervous Systems), Health and Hygiene, and Food Production; the two halves of Theme 2 and the three systems of Theme 4 are used here as separate chapters.",
+              "syllabusSource": {
+                "title": "CISCE (RDCD), Curriculum for Upper Primary Classes (VI - VIII), First Edition, November 2016: Biology, Class VIII",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 285-294 (printed pp. 248-257)"
+              },
+              "chapters": [
+                {
+                  "slug": "transportation-in-plants",
+                  "name": "Transport of Food and Minerals in Plants",
+                  "summary": "Diffusion, osmosis and root pressure, macro- and micronutrients and their deficiency symptoms, and transpiration, its role in xylem transport and the factors affecting its rate."
+                },
+                {
+                  "slug": "reproduction-in-plants",
+                  "name": "Reproduction in Plants",
+                  "summary": "Vegetative propagation by cuttings, budding and other methods in plants such as rose, potato and Bryophyllum, and pollination by insects such as butterflies and honeybees."
+                },
+                {
+                  "slug": "reproduction-in-humans",
+                  "name": "Reproduction in Animals",
+                  "summary": "Sexual reproduction as the fertilisation of an egg cell by a sperm cell to produce offspring that may closely resemble the parents."
+                },
+                {
+                  "slug": "ecosystems",
+                  "name": "Ecosystems",
+                  "summary": "Biotic and abiotic components, producers, consumers and decomposers, food chains, food webs and pyramids of numbers, and symbiosis, parasitism and predation."
+                },
+                {
+                  "slug": "endocrine-system-and-adolescence",
+                  "name": "Human Body: Endocrine System and Adolescence",
+                  "summary": "Hormonal control alongside nervous control, endocrine and exocrine glands, the thyroid, adrenal, pituitary and pancreas, changes during adolescence and the management of stress."
+                },
+                {
+                  "slug": "circulatory-system",
+                  "name": "Human Body: Circulatory System",
+                  "summary": "The heart and the circulatory system, lymph, and the functions of red and white blood cells."
+                },
+                {
+                  "slug": "nervous-system",
+                  "name": "Human Body: Nervous System",
+                  "summary": "The neuron, reflex action and the functions of the nervous system."
+                },
+                {
+                  "slug": "diseases-and-first-aid",
+                  "name": "Health and Hygiene",
+                  "summary": "Communicable and vector-borne diseases with their causative agents and symptoms, personal hygiene, vaccination and immunisation, the harmful effects of tobacco, alcohol and drugs, and simple first aid."
+                },
+                {
+                  "slug": "food-production",
+                  "name": "Food Production",
+                  "summary": "Bacteria, mushrooms and yeast in the food industry, agriculture, horticulture, pisciculture, apiculture and sericulture, the green and white revolutions, food and cash crops, and animal husbandry."
+                }
+              ]
+            },
+            "english": {
+              "overview": "The CISCE Upper Primary curriculum sets out English for Class VIII in four skill areas (Listening and Speaking, Reading, Writing, and Grammar and Vocabulary in Context), each with learning outcomes and suggested content.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - English",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 49-55 (Class VIII English: Listening and Speaking pp. 49-50; Reading pp. 51-52; Writing pp. 53-54; Grammar and Vocabulary in Context p. 55)"
+              },
+              "chapters": [
+                {
+                  "slug": "listening-and-speaking",
+                  "name": "Listening and Speaking",
+                  "summary": "Listening to texts of different genres for aural/written comprehension; comprehending speeches, lectures, discourse, debates and discussions; group discussions; analysing language in media and advertising; adapting tone, stress, gestures, body language, voice modulation and word choice; collating ideas to keep discussions relevant; multimedia presentations on social messages such as drug abuse, values and life skills."
+                },
+                {
+                  "slug": "reading",
+                  "name": "Reading",
+                  "summary": "Literary and non-literary texts across genres and registers on themes including family, community, the nation's diversity and heritage, myths and folktales, the world, adventure, sports and yoga, adolescence, science and technology, peace, travel, mass media, art and culture, and health and sanitation."
+                },
+                {
+                  "slug": "writing",
+                  "name": "Writing",
+                  "summary": "Paragraphs of 250-300 words; formal and informal letters (formal letters are introduced in Class VIII); advertisements, diary and journal entries, notices, posters, articles, reports, personal narratives, anecdotes, stories, poems, features and dialogues; argumentative writing; writing across disciplines; using technology for research; the process approach to writing."
+                },
+                {
+                  "slug": "grammar-and-vocabulary-in-context",
+                  "name": "Grammar and Vocabulary in Context",
+                  "summary": "Phrases and clauses and their function in sentences; sentence analysis into main and subordinate clauses; transforming simple sentences into complex or compound sentences; using phrases, idioms and figures of speech in context."
+                }
+              ]
+            },
+            "history-civics": {
+              "overview": "The CISCE Upper Primary curriculum sets out History & Civics for Class VIII as numbered History themes followed by Civics themes, each with learning outcomes, key concepts and suggested classroom processes.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - History & Civics",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 163-175 (Class VIII History Themes 1-8 pp. 163-172; Civics Themes 1-2 pp. 173-175)"
+              },
+              "chapters": [
+                {
+                  "slug": "a-period-of-transition",
+                  "name": "A Period of Transition",
+                  "summary": "History Theme 1: change in the world brought about by the Renaissance (14th-18th centuries), the Industrial Revolution and imperialism."
+                },
+                {
+                  "slug": "the-growth-of-nationalism",
+                  "name": "The Growth of Nationalism",
+                  "summary": "History Theme 2: the demands for equality and liberty that led to the revolutions in America and France and the end of monarchy there."
+                },
+                {
+                  "slug": "india-in-the-18th-century",
+                  "name": "India in the 18th Century",
+                  "summary": "History Theme 3: the decline of the Mughal Empire after Aurangzeb, the rise of independent regional kingdoms, and India's transition from the Mughal era to the British period."
+                },
+                {
+                  "slug": "traders-to-rulers",
+                  "name": "Traders to Rulers",
+                  "summary": "History Theme 4: how the British gained political control over India, including the Battles of Plassey and Buxar and expansionist policies."
+                },
+                {
+                  "slug": "british-policies-and-impacts",
+                  "name": "British Policies and Impacts",
+                  "summary": "History Theme 5: British educational, administrative and economic policies and their impact on native traders, peasants and artisans."
+                },
+                {
+                  "slug": "the-great-uprising-of-1857",
+                  "name": "The Great Uprising of 1857",
+                  "summary": "History Theme 6: the causes and results of the First War of Independence of 1857 and the beginning of the National Movement."
+                },
+                {
+                  "slug": "socio-religious-reforms",
+                  "name": "Socio-Religious Reforms",
+                  "summary": "History Theme 7: 19th-century socio-religious reform movements led by educated Indians, and resistance to colonial ideas of superiority."
+                },
+                {
+                  "slug": "indias-struggle-for-freedom",
+                  "name": "India's Struggle for Freedom",
+                  "summary": "History Theme 8: the rise of nationalism, the founding of the Indian National Congress, and Gandhi's Satyagraha and non-violence leading to Independence."
+                },
+                {
+                  "slug": "the-three-main-organs-of-the-indian-government",
+                  "name": "The Three Main Organs of the Indian Government: Legislature, Executive, Judiciary",
+                  "summary": "Civics Theme 1: the Union Legislature (Lok Sabha and Rajya Sabha), the Union Executive (President, Vice-President, Prime Minister and Ministers) and the Judiciary, and their functions."
+                },
+                {
+                  "slug": "united-nations",
+                  "name": "United Nations",
+                  "summary": "Civics Theme 2: the formation of the United Nations in 1945 and the work of its organs and agencies for peace, security and human welfare."
+                }
+              ]
+            },
+            "geography": {
+              "overview": "The CISCE Upper Primary curriculum sets out Geography for Class VIII as numbered themes, starting with representing geographical features on maps and ending with a study of continents or of India.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - Geography",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF pp. 194-201 (Class VIII Geography Themes 1-8)"
+              },
+              "chapters": [
+                {
+                  "slug": "representation-of-geographical-features",
+                  "name": "Representation of Geographical Features",
+                  "summary": "Theme 1: contours, reading toposheets through contours, symbols and colours, and drawing valleys, hills and plateaus as contours."
+                },
+                {
+                  "slug": "population-dynamics",
+                  "name": "Population Dynamics",
+                  "summary": "Theme 2: causes of population growth, the terms birth rate, death rate, population density and migration, and the effects of fast population growth, studied through a case study."
+                },
+                {
+                  "slug": "migration",
+                  "name": "Migration",
+                  "summary": "Theme 3: types of migration and their socio-economic impact, including brain drain from India."
+                },
+                {
+                  "slug": "urbanisation",
+                  "name": "Urbanisation",
+                  "summary": "Theme 4: the concept, causes and effects of urbanisation and how it relates to migration."
+                },
+                {
+                  "slug": "natural-and-man-made-disasters",
+                  "name": "Natural and Man-made Disasters",
+                  "summary": "Theme 5: case studies of selected disasters, disaster management, and the Government's role in it."
+                },
+                {
+                  "slug": "asia-the-largest-continent",
+                  "name": "Asia: The Largest Continent",
+                  "summary": "Theme 6: the physical features and natural environment of Asia, the largest and most populous continent."
+                },
+                {
+                  "slug": "india-geographical-features",
+                  "name": "India: Geographical Features",
+                  "summary": "Theme 7: a more detailed study of India's geography, building on Class VI."
+                },
+                {
+                  "slug": "india-human-resources",
+                  "name": "India: Human Resources",
+                  "summary": "Theme 8: people as a resource for socio-economic development, and how a healthy, educated and skilled population is an asset to the country."
+                }
+              ]
+            },
+            "computer-studies": {
+              "overview": "The CISCE Upper Primary curriculum names this subject Computer Studies and sets it out for Class VIII as numbered topics, each with learning outcomes and suggested content.",
+              "syllabusSource": {
+                "title": "CISCE Curriculum for Upper Primary Classes (VI - VIII), RDCD, First Edition November 2016 - Computer Studies",
+                "url": "https://cisce.org/wp-content/uploads/2025/03/UpperPrimary.pdf",
+                "pages": "PDF p. 298 (core concepts chart) and pp. 314-319 (Class VIII Topics 1-6)"
+              },
+              "chapters": [
+                {
+                  "slug": "operating-system-and-graphical-user-interface",
+                  "name": "Operating System (OS) and Graphical User Interface (GUI) - Role and Functions",
+                  "summary": "Topic 1: the operating system and its functions (booting, managing peripherals, memory and CPU), and character (CUI) versus graphical (GUI) interfaces."
+                },
+                {
+                  "slug": "spreadsheet-functions-and-charts",
+                  "name": "Spreadsheet - Functions and Charts",
+                  "summary": "Topic 2: built-in spreadsheet functions and charts."
+                },
+                {
+                  "slug": "algorithms-and-flowcharts",
+                  "name": "Algorithms and Flowcharts",
+                  "summary": "Topic 3: writing algorithms and drawing flowcharts, with their standard symbols, to solve problems step by step."
+                },
+                {
+                  "slug": "program-coding",
+                  "name": "Program Coding",
+                  "summary": "Topic 4: writing, compiling and running programs in a programming language, covering literals, declarations, the assignment operator and basic constructs."
+                },
+                {
+                  "slug": "app-development",
+                  "name": "App Development",
+                  "summary": "Topic 5: what apps are, common apps and their uses, and building an app with free app-development software."
+                },
+                {
+                  "slug": "networks",
+                  "name": "Networks",
+                  "summary": "Topic 6: computer networks and their components and topologies, network devices (modem, switch, hub, router), protocols (HTTP, FTP, TCP/IP, IMAP, SMTP), the Internet and cloud computing."
+                }
+              ]
+            }
+          }
         },
         {
           "level": 9,
@@ -45,8 +1323,629 @@
             "mathematics",
             "physics",
             "chemistry",
-            "biology"
-          ]
+            "biology",
+            "english",
+            "history-civics",
+            "geography",
+            "computer-applications"
+          ],
+          "details": {
+            "mathematics": {
+              "overview": "In the ICSE 2028 syllabus, Class IX Mathematics is one three-hour, 80-mark paper with 20 marks of internal assessment, in eight sections: Pure Arithmetic, Commercial Mathematics, Algebra, Geometry, Statistics, Mensuration, Trigonometry and Coordinate Geometry. The numbered sub-topics of Algebra and Geometry are used here as chapters.",
+              "syllabusSource": {
+                "title": "ICSE Examination Year 2028 - Mathematics (51), CISCE RDCD, January 2026",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/9.-Mathematics.pdf",
+                "pages": "PDF pp. 4-7 (printed pp. 1-4: Class IX sections 1-8)"
+              },
+              "chapters": [
+                {
+                  "slug": "rational-irrational-numbers",
+                  "name": "Rational and Irrational Numbers",
+                  "summary": "1. Pure Arithmetic: rational and irrational numbers as real numbers, surds and rationalising the denominator, representation on the number line, and proofs of the irrationality of √2, √3 and √5."
+                },
+                {
+                  "slug": "compound-interest",
+                  "name": "Compound Interest",
+                  "summary": "2. Commercial Mathematics: compound interest as repeated simple interest over 2 or 3 years and by formula, interest compounded half-yearly, the difference between CI and SI, and rate of growth and depreciation (equal instalments excluded)."
+                },
+                {
+                  "slug": "expansions",
+                  "name": "Expansions",
+                  "summary": "3. Algebra (i): recall and use of (a ± b)², (a ± b)³, (x ± a)(x ± b) and (a ± b ± c)²."
+                },
+                {
+                  "slug": "factorisation",
+                  "name": "Factorisation",
+                  "summary": "3. Algebra (ii): factorising a² − b², a³ ± b³, and ax² + bx + c by splitting the middle term."
+                },
+                {
+                  "slug": "simultaneous-linear-equations",
+                  "name": "Simultaneous Linear Equations",
+                  "summary": "3. Algebra (iii): solving simultaneous linear equations in two variables (numerical coefficients only) by elimination, substitution and cross-multiplication, and framing equations for simple problems."
+                },
+                {
+                  "slug": "indices",
+                  "name": "Indices / Exponents",
+                  "summary": "3. Algebra (iv): positive, fractional, negative and zero indices, and simplifying expressions with the laws of exponents."
+                },
+                {
+                  "slug": "logarithms",
+                  "name": "Logarithms",
+                  "summary": "3. Algebra (v): interchanging logarithmic and exponential forms, and the laws of logarithms and their use in expanding expressions."
+                },
+                {
+                  "slug": "triangles",
+                  "name": "Triangles (Congruency)",
+                  "summary": "4. Geometry (i)(a): congruency of triangles by SSS, SAS, AAS and RHS, illustrated with cut-outs, and simple applications."
+                },
+                {
+                  "slug": "isosceles-triangles",
+                  "name": "Isosceles Triangles",
+                  "summary": "4. Geometry (i)(b): problems (proofs not required) on angles opposite equal sides and the converse, the greater angle opposite the greater side and the converse, the sum of two sides exceeding the third, and the perpendicular as the shortest line from an outside point."
+                },
+                {
+                  "slug": "mid-point-theorem",
+                  "name": "Mid-Point Theorem and its Converse, Equal Intercept Theorem",
+                  "summary": "4. Geometry (i)(c): proof and simple applications of the mid-point theorem, its converse and the equal intercept theorem."
+                },
+                {
+                  "slug": "pythagoras-theorem",
+                  "name": "Pythagoras Theorem",
+                  "summary": "4. Geometry (i)(d): area-based proof and simple applications of Pythagoras theorem and its converse."
+                },
+                {
+                  "slug": "rectilinear-figures",
+                  "name": "Rectilinear Figures",
+                  "summary": "4. Geometry (ii)(a): proof and use of theorems on parallelograms, with the rhombus, rectangle and square as special cases distinguished by their diagonals."
+                },
+                {
+                  "slug": "constructions-of-polygons",
+                  "name": "Constructions of Polygons",
+                  "summary": "4. Geometry (ii)(b): constructing quadrilaterals (including parallelograms and rhombuses) and a regular hexagon with ruler and compasses only."
+                },
+                {
+                  "slug": "area-theorems",
+                  "name": "Area Theorems on Parallelograms",
+                  "summary": "4. Geometry (ii)(c): parallelograms and triangles on the same base and between the same parallels, and triangles of equal area on the same base having equal altitudes."
+                },
+                {
+                  "slug": "circle",
+                  "name": "Circle",
+                  "summary": "4. Geometry (iii): chord properties (the perpendicular from the centre, equal chords equidistant from the centre, the circle through three non-collinear points) and arc and chord properties for equal angles at the centre."
+                },
+                {
+                  "slug": "statistics",
+                  "name": "Statistics",
+                  "summary": "5. Statistics: raw, arrayed and grouped data, tally marks, discrete and continuous variables, mean and median of ungrouped data, class intervals and frequency tables, converting to continuous intervals, and frequency polygons."
+                },
+                {
+                  "slug": "mensuration",
+                  "name": "Mensuration",
+                  "summary": "6. Mensuration: area and perimeter of triangles (including Heron's formula) and quadrilaterals, area and circumference of circles including inner and outer areas, and surface area and volume of cubes and cuboids."
+                },
+                {
+                  "slug": "trigonometry",
+                  "name": "Trigonometry",
+                  "summary": "7. Trigonometry: the six trigonometric ratios, ratios of 0°, 30°, 45°, 60° and 90°, simple 2-D problems with one right-angled triangle, and ratios of complementary angles."
+                },
+                {
+                  "slug": "coordinate-geometry",
+                  "name": "Coordinate Geometry",
+                  "summary": "8. Coordinate Geometry: dependent and independent variables, plotting ordered pairs in the Cartesian plane, solving simultaneous linear equations graphically, and the distance formula."
+                }
+              ]
+            },
+            "physics": {
+              "overview": "In the ICSE 2028 syllabus, Class IX Physics (Science Paper 1) is one two-hour, 80-mark paper with 20 marks of internally assessed practical work, in eight sections; the two numbered parts of Fluids and of Electricity and Magnetism are used here as separate chapters.",
+              "syllabusSource": {
+                "title": "ICSE Examination Year 2028 - Science (52): Physics, CISCE RDCD, January 2026",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/10.-Physics.pdf",
+                "pages": "PDF pp. 4-7 (printed pp. 1-4: Class IX sections 1-8)"
+              },
+              "chapters": [
+                {
+                  "slug": "measurements-and-experimentation",
+                  "name": "Measurements and Experimentation",
+                  "summary": "1: SI, fps and cgs units, least count and zero error of Vernier callipers and the screw gauge, and the simple pendulum with the l versus T² graph and T = 2π√(l/g)."
+                },
+                {
+                  "slug": "motion-in-one-dimension",
+                  "name": "Motion in One Dimension",
+                  "summary": "2: scalar and vector quantities, distance, displacement, speed, velocity and acceleration, distance-time and velocity-time graphs, motion under gravity, and graphical derivation of the equations of uniformly accelerated motion."
+                },
+                {
+                  "slug": "laws-of-motion",
+                  "name": "Laws of Motion",
+                  "summary": "3: contact and non-contact forces, Newton's first law and inertia, the second law with linear momentum and F = ma, the third law and action-reaction pairs, and the universal law of gravitation, g, mass and weight."
+                },
+                {
+                  "slug": "pressure-in-fluids",
+                  "name": "Fluids: Pressure",
+                  "summary": "4. Fluids (i): thrust and pressure, p = hρg and its consequences (dam bases, divers' suits), and transmission of pressure in liquids and Pascal's law with simple numericals (hydraulic machines excluded)."
+                },
+                {
+                  "slug": "upthrust-and-floatation",
+                  "name": "Buoyancy, Archimedes' Principle and Floatation",
+                  "summary": "4. Fluids (ii): upthrust and its properties, Archimedes' principle for bodies denser and lighter than the liquid, relative density of solids and liquids, and floatation of ships, submarines, icebergs and balloons."
+                },
+                {
+                  "slug": "heat-and-energy",
+                  "name": "Heat and Energy",
+                  "summary": "5: heat and temperature (1 cal = 4.186 J), anomalous expansion of water and Hope's experiment, global warming and the greenhouse effect, and energy degradation."
+                },
+                {
+                  "slug": "reflection-of-light",
+                  "name": "Light",
+                  "summary": "6: laws of reflection, multiple images in parallel plane mirrors, and concave and convex mirrors with ray diagrams, f = R/2, the sign convention and mirror-formula numericals."
+                },
+                {
+                  "slug": "propagation-of-sound-waves",
+                  "name": "Sound",
+                  "summary": "7: transverse and longitudinal waves, the need for a medium, V = fλ, factors affecting the speed of sound and its comparison with light, and infrasonic, sonic and ultrasonic frequencies and their applications."
+                },
+                {
+                  "slug": "current-electricity",
+                  "name": "Current Electricity",
+                  "summary": "8. Electricity and Magnetism (i): free electrons and types of conductors, charge and its quantisation, current, potential difference V = W/q, resistance, circuit symbols, sources of direct current, and Ohm's law with simple numericals."
+                },
+                {
+                  "slug": "magnetism",
+                  "name": "Magnetism",
+                  "summary": "8. Electricity and Magnetism (ii): magnetism induced in magnetic materials, magnetic field lines and their properties, the earth's magnetic field and the compass, and neutral points with a bar magnet along the magnetic meridian."
+                }
+              ]
+            },
+            "chemistry": {
+              "overview": "In the ICSE 2028 syllabus, Class IX Chemistry (Science Paper 2) is one two-hour, 80-mark paper with 20 marks of internally assessed practical work, in eight sections, each used here as a chapter.",
+              "syllabusSource": {
+                "title": "ICSE Examination Year 2028 - Science (52): Chemistry, CISCE RDCD, January 2026",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/11.-Chemistry.pdf",
+                "pages": "PDF pp. 4-8 (printed pp. 1-5: Class IX sections 1-8)"
+              },
+              "chapters": [
+                {
+                  "slug": "the-language-of-chemistry",
+                  "name": "The Language of Chemistry",
+                  "summary": "1: symbols, valency, radicals and formulae of compounds, balancing equations by hit and trial, and relative atomic and molecular masses with percentage composition."
+                },
+                {
+                  "slug": "chemical-changes-and-reactions",
+                  "name": "Chemical Changes and Reactions",
+                  "summary": "2: direct combination, decomposition, displacement and double displacement reactions, and energy changes in exothermic and endothermic reactions."
+                },
+                {
+                  "slug": "water",
+                  "name": "Water",
+                  "summary": "3: water as a universal solvent, solutions, colloids and suspensions, solubility curves, water of crystallisation, efflorescence, deliquescence and hygroscopy, drying and dehydrating agents, hard and soft water and the removal of hardness, and making water potable."
+                },
+                {
+                  "slug": "atomic-structure-and-chemical-bonding",
+                  "name": "Atomic Structure and Chemical Bonding",
+                  "summary": "4: constituents of the atom, Rutherford's gold foil experiment and Bohr's model, the 2n² and octet rules, isotopes, and electrovalent and covalent bonding with orbit structures."
+                },
+                {
+                  "slug": "the-periodic-table",
+                  "name": "The Periodic Table",
+                  "summary": "5: Dobereiner's triads, Newlands' law of octaves, Mendeleev's periodic law, the modern periodic law and table (groups 1-18, periods 1-7), and the alkali metals, alkaline earth metals, halogens and zero group."
+                },
+                {
+                  "slug": "study-of-the-first-element-hydrogen",
+                  "name": "Study of the First Element - Hydrogen",
+                  "summary": "6: position of hydrogen in the periodic table, hydrogen from water, dilute acids and alkalis, its laboratory preparation and the Bosch process, and oxidation, reduction and redox reactions."
+                },
+                {
+                  "slug": "study-of-gas-laws",
+                  "name": "Study of Gas Laws",
+                  "summary": "7: behaviour of gases explained by molecular motion, Boyle's and Charles's laws, absolute zero, the gas equation, Kelvin-Celsius conversion and STP."
+                },
+                {
+                  "slug": "atmospheric-pollution",
+                  "name": "Atmospheric and Environmental Chemistry",
+                  "summary": "8: acid rain, global warming and greenhouse gases, ozone depletion, and water pollution including toxic heavy metals (Minamata disease), plastics, sewage and pesticides."
+                }
+              ]
+            },
+            "biology": {
+              "overview": "In the ICSE 2028 syllabus, Class IX Biology (Science Paper 3) is one two-hour, 80-mark paper with 20 marks of internally assessed practical work, in seven sections; their numbered sub-topics are used here as chapters. The last five chapters come from the earlier demo bank and have no counterpart in this syllabus.",
+              "syllabusSource": {
+                "title": "ICSE Examination Year 2028 - Science (52): Biology, CISCE RDCD, January 2026",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/12.-Biology.pdf",
+                "pages": "PDF pp. 4-6 (printed pp. 1-3: Class IX sections 1-7)"
+              },
+              "chapters": [
+                {
+                  "slug": "cell-unit-of-life",
+                  "name": "The Cell: A Unit of Life",
+                  "summary": "1. Basic Biology (i): cell theory, plant and animal cell organelles and their functions, the cell wall and membrane, and differences between prokaryotic and eukaryotic, and plant and animal, cells."
+                },
+                {
+                  "slug": "tissues",
+                  "name": "Tissues",
+                  "summary": "1. Basic Biology (ii): types of plant and animal tissues, their location, structure and functions, and their roles in physiological processes."
+                },
+                {
+                  "slug": "the-flower",
+                  "name": "The Flower",
+                  "summary": "2. Flowering Plants (i): complete and incomplete flowers, essential and non-essential whorls of a bisexual flower and their functions, and the meaning of inflorescence and placentation."
+                },
+                {
+                  "slug": "pollination-and-fertilization",
+                  "name": "Pollination and Fertilisation",
+                  "summary": "2. Flowering Plants (ii)-(iii): self- and cross-pollination, agents of pollination and features of flowers pollinated by them, events from pollination to the zygote, double fertilisation and triple fusion, and fruit and seed."
+                },
+                {
+                  "slug": "seeds",
+                  "name": "Seeds: Structure and Germination",
+                  "summary": "3. Plant Physiology (i): structure of the bean seed and maize grain, monocot and dicot seeds, hypogeal and epigeal germination, and conditions for germination."
+                },
+                {
+                  "slug": "respiration-in-plants",
+                  "name": "Respiration in Plants",
+                  "summary": "3. Plant Physiology (ii): an outline of respiration with glycolysis and the Krebs cycle, aerobic and anaerobic respiration with equations, and experiments on gaseous exchange and heat production."
+                },
+                {
+                  "slug": "diversity-in-animal-kingdom",
+                  "name": "Diversity in Animal Kingdom",
+                  "summary": "4: Kingdom Animalia, from the non-chordates (Porifera to Echinodermata) to all five classes of chordates."
+                },
+                {
+                  "slug": "economic-importance-of-bacteria-and-fungi",
+                  "name": "Economic Importance of Bacteria and Fungi",
+                  "summary": "5: useful roles of bacteria in medicine, agriculture (the nitrogen cycle) and industry, harmful bacteria in food spoilage, disease and bio-weapons, and fungi in brewing, baking, cheese and mushroom cultivation."
+                },
+                {
+                  "slug": "nutrition",
+                  "name": "Nutrition",
+                  "summary": "6. Human Anatomy and Physiology (i): classes of food and their functions, vitamins and deficiency diseases, balanced diet, cellulose, kwashiorkor and marasmus, and the structure and types of teeth with the adult dental formula."
+                },
+                {
+                  "slug": "digestive-system",
+                  "name": "Digestive System",
+                  "summary": "6. Human Anatomy and Physiology (i): organs and glands of the digestive system, enzymes, and the digestion, absorption and assimilation of food."
+                },
+                {
+                  "slug": "movement-and-locomotion",
+                  "name": "Skeleton - Movement and Locomotion",
+                  "summary": "6. Human Anatomy and Physiology (ii): functions of the human skeleton, the axial and appendicular skeleton, and immovable, slightly movable and freely movable joints."
+                },
+                {
+                  "slug": "skin",
+                  "name": "Structure and Functions of Skin",
+                  "summary": "6. Human Anatomy and Physiology (iii): parts of the skin and their functions, its derivatives (sweat and sebaceous glands, hair, nails, mammary glands), and heat regulation by vasodilation and vasoconstriction."
+                },
+                {
+                  "slug": "diseases",
+                  "name": "Health and Hygiene: Diseases",
+                  "summary": "7. Health and Hygiene (i)-(ii): communicable, non-communicable, endemic, epidemic, pandemic and sporadic diseases, transmission by air, water and vectors, and bacterial, viral, protozoan and helminthic diseases with their symptoms and control."
+                },
+                {
+                  "slug": "aids-to-health",
+                  "name": "Aids to Health",
+                  "summary": "7. Health and Hygiene (iii): vaccination, immunisation, antitoxins, serum, antiseptics, disinfectants and antibiotics, and the body's local defence system."
+                },
+                {
+                  "slug": "health-organisations",
+                  "name": "Health Organisations",
+                  "summary": "7. Health and Hygiene (iv): the major activities of the Red Cross and WHO."
+                },
+                {
+                  "slug": "introducing-biology",
+                  "name": "Introducing Biology",
+                  "summary": "Introduces the meaning and scope of biology, its main branches, and contributions of some important biologists."
+                },
+                {
+                  "slug": "five-kingdom-classification",
+                  "name": "Five Kingdom Classification",
+                  "summary": "Explains the need for classification, binomial nomenclature and the characteristics of Monera, Protista, Fungi, Plantae and Animalia."
+                },
+                {
+                  "slug": "respiratory-system",
+                  "name": "The Respiratory System",
+                  "summary": "Describes the human respiratory organs, the mechanism of breathing and the exchange of gases in the alveoli."
+                },
+                {
+                  "slug": "hygiene",
+                  "name": "Hygiene",
+                  "summary": "Covers personal and community hygiene, safe drinking water and sanitation."
+                },
+                {
+                  "slug": "waste-generation-and-management",
+                  "name": "Waste Generation and Management",
+                  "summary": "Covers sources and types of waste, their effects on health and environment, and methods of disposal and management."
+                }
+              ]
+            },
+            "english": {
+              "overview": "In the ICSE 2028 syllabus, Paper 1 English Language (Classes IX and X) is a two-hour, 80-mark paper of five compulsory questions: composition, letter, notice and e-mail, unseen comprehension with summary, and grammar; a further 20 marks come from internally assessed listening and speaking.",
+              "syllabusSource": {
+                "title": "ICSE Examination Year 2028 - English (01), CISCE RDCD, January 2026",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/2.-English.pdf",
+                "pages": "PDF pp. 4-5 (printed pp. 1-2: Paper 1 English Language, Questions 1-5); PDF p. 7 (printed p. 4: internal assessment of listening and speaking)"
+              },
+              "chapters": [
+                {
+                  "slug": "composition",
+                  "name": "Composition",
+                  "summary": "Question 1: a composition of about 300-350 words, chosen from several subjects (some may be prompted by pictures), testing the ability to describe, narrate, report, explain, persuade or argue, and to present ideas coherently in the right style."
+                },
+                {
+                  "slug": "letter-writing",
+                  "name": "Letter Writing",
+                  "summary": "Question 2: a formal or friendly letter chosen from two subjects; the format (address, introduction, conclusion) and a tone and vocabulary suited to the context are assessed."
+                },
+                {
+                  "slug": "notice-and-email-writing",
+                  "name": "Notice and E-mail Writing",
+                  "summary": "Question 3: for a given situation, write the text of a notice following the directions given, and an e-mail with the same content."
+                },
+                {
+                  "slug": "comprehension-and-summary",
+                  "name": "Comprehension and Summary",
+                  "summary": "Question 4: an unseen prose passage of about 500 words, with a vocabulary question, short-answer questions testing explicit content and inference, and a summary that separates main ideas from supporting detail."
+                },
+                {
+                  "slug": "functional-grammar",
+                  "name": "Functional Grammar",
+                  "summary": "Question 5: compulsory short-answer items on functional grammar, structure and usage, covering prepositions, conjunctions, verbs and sentence structure."
+                },
+                {
+                  "slug": "listening-and-speaking-skills",
+                  "name": "Listening and Speaking Skills",
+                  "summary": "Internal assessment (20 marks, three assessments in Class IX): listening to a passage of about 300 words read aloud, followed by an objective test; and a two-minute oral presentation followed by a discussion with the examiners."
+                }
+              ]
+            },
+            "history-civics": {
+              "overview": "In the ICSE 2028 syllabus, Class IX History & Civics (H.C.G. Paper 1) is a two-hour, 80-mark paper with an internally assessed project worth 20 marks, divided into Section A: Civics and Section B: History.",
+              "syllabusSource": {
+                "title": "ICSE Examination Year 2028 - History, Civics and Geography (50): History and Civics, CISCE",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/5.-History-Civics.pdf",
+                "pages": "PDF pp. 4-6 (printed pp. 1-3: Class IX, Section A Civics and Section B History, internal assessment)"
+              },
+              "chapters": [
+                {
+                  "slug": "our-constitution",
+                  "name": "Our Constitution",
+                  "summary": "Civics 1: definition of a constitution, and the dates of adoption and enforcement; features including single citizenship, universal adult franchise, Fundamental Rights and Duties, and Directive Principles; how Fundamental Rights differ from Directive Principles; the meaning of a welfare state."
+                },
+                {
+                  "slug": "elections",
+                  "name": "Elections",
+                  "summary": "Civics 2: the meaning of elections; the composition and functions of the Election Commission of India; direct and indirect elections; general, mid-term and by-elections."
+                },
+                {
+                  "slug": "the-state-legislatures",
+                  "name": "The State Legislatures",
+                  "summary": "Civics 3: the Legislative Assembly and the Legislative Council; unicameral and bicameral legislatures; term, composition, qualifications for membership, and powers and functions."
+                },
+                {
+                  "slug": "the-harappan-civilisation",
+                  "name": "The Harappan Civilisation",
+                  "summary": "History 1: sources (Great Bath, Citadel, seals, bearded man, dancing girl, dockyard, granaries, script); urban planning, trade, art and craft, and decline."
+                },
+                {
+                  "slug": "the-vedic-period",
+                  "name": "The Vedic Period",
+                  "summary": "History 2: the four Vedas and the epics as sources; early Vedic social organisation and the assemblies (Sabha, Samiti, Vidhatha); women and the economy in the Early and Later Vedic periods; the four classes, the four Ashramas and education."
+                },
+                {
+                  "slug": "jainism-and-buddhism",
+                  "name": "Jainism and Buddhism",
+                  "summary": "History 3: sources (Angas, Tripitakas, Jatakas); why both arose in the 6th century B.C.; Jain doctrines (Tri-ratnas, Karma, Moksha) and Buddhist doctrines (Four Noble Truths, Eightfold Path, Nirvana)."
+                },
+                {
+                  "slug": "the-mauryan-empire",
+                  "name": "The Mauryan Empire",
+                  "summary": "History 4: sources (Arthashastra, Indika, Ashokan Edicts, Sanchi Stupa); the kings in chronological order; administration; Ashoka's Dhamma and its impact."
+                },
+                {
+                  "slug": "the-sangam-age",
+                  "name": "The Sangam Age",
+                  "summary": "History 5: sources (Tirukkural, megaliths); society and the position of women; the economy (agriculture and trade)."
+                },
+                {
+                  "slug": "the-age-of-the-guptas",
+                  "name": "The Age of the Guptas",
+                  "summary": "History 6: sources (Fa-hien's account, the Allahabad Pillar Inscription); the kings and administration; contributions to education (Nalanda), science (Aryabhatta), medicine (Sushruta) and culture (Kalidasa, the Deogarh temple)."
+                },
+                {
+                  "slug": "medieval-india-the-cholas",
+                  "name": "Medieval India: The Cholas",
+                  "summary": "History 7(a): sources (inscriptions, Brihadishwara Temple); the Chola kings in chronological order, their administration, and Chola art."
+                },
+                {
+                  "slug": "medieval-india-the-delhi-sultanate",
+                  "name": "Medieval India: The Delhi Sultanate",
+                  "summary": "History 7(b): sources (inscriptions, Qutab Minar); the dynasties in order; Alauddin Khilji's market, military and revenue reforms and Deccan expedition; Muhammad bin Tughlaq's transfer of capital, token currency, Doab taxation and plans of conquest."
+                },
+                {
+                  "slug": "medieval-india-the-mughal-empire",
+                  "name": "Medieval India: The Mughal Empire",
+                  "summary": "History 7(c): sources (Ain-i-Akbari, Taj Mahal, Jama Masjid, Red Fort); the kings in order; Babur's three battles; Akbar's Rajput policy, steps towards integration, reforms and the mansabdari system."
+                },
+                {
+                  "slug": "medieval-india-composite-culture",
+                  "name": "Medieval India: Composite Culture",
+                  "summary": "History 7(d): the factors behind a composite culture; the principles and impact of the Bhakti and Sufi movements; the impact of Christian missionaries."
+                },
+                {
+                  "slug": "the-modern-age-in-europe-renaissance",
+                  "name": "The Modern Age in Europe: Renaissance",
+                  "summary": "History 8(a): the definition and causes of the Renaissance (fall of Constantinople, decline of feudalism, new trade routes, printing press); its impact on art, literature and science (Leonardo da Vinci, Shakespeare, Copernicus); its consequences."
+                },
+                {
+                  "slug": "the-modern-age-in-europe-reformation",
+                  "name": "The Modern Age in Europe: Reformation",
+                  "summary": "History 8(b): the meaning and causes of the Reformation, Martin Luther's contribution, and the Counter Reformation."
+                },
+                {
+                  "slug": "the-modern-age-in-europe-industrial-revolution",
+                  "name": "The Modern Age in Europe: Industrial Revolution",
+                  "summary": "History 8(c): the definition and causes of the Industrial Revolution; the meaning of capitalism and socialism and why each arose."
+                }
+              ]
+            },
+            "geography": {
+              "overview": "In the ICSE 2028 syllabus, Class IX Geography (H.C.G. Paper 2) is a two-hour, 80-mark paper on the Principles of Geography, ending with world map work, with 20 marks of internally assessed practical or project work.",
+              "syllabusSource": {
+                "title": "ICSE Examination Year 2028 - History, Civics and Geography (50): Geography, CISCE",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/6.-Geography.pdf",
+                "pages": "PDF pp. 4-7 (printed pp. 1-4: Class IX, Principles of Geography units 1-7, internal assessment)"
+              },
+              "chapters": [
+                {
+                  "slug": "earth-as-a-planet",
+                  "name": "Our World: Earth as a Planet",
+                  "summary": "Unit 1(a): the shape of the earth and the conditions that make it home to humankind."
+                },
+                {
+                  "slug": "geographic-grid-latitudes-and-longitudes",
+                  "name": "Our World: Geographic Grid - Latitudes and Longitudes",
+                  "summary": "Unit 1(b): the main latitudes and their uses; longitudes, the Prime Meridian, local and standard time, time zones, GMT and the International Date Line; finding locations; calculating time; great circles."
+                },
+                {
+                  "slug": "rotation-and-revolution",
+                  "name": "Our World: Rotation and Revolution",
+                  "summary": "Unit 1(c): rotation and its effects (day and night, the Coriolis effect); revolution and the inclined axis, which cause changing lengths of day and night and the seasons, with equinoxes and solstices."
+                },
+                {
+                  "slug": "earths-structure",
+                  "name": "Structure of the Earth: Earth's Structure",
+                  "summary": "Unit 2(a): the core, mantle and crust - their meaning, extent and composition."
+                },
+                {
+                  "slug": "landforms-of-the-earth",
+                  "name": "Structure of the Earth: Landforms of the Earth",
+                  "summary": "Unit 2(b): fold, residual and block mountains; intermont and volcanic plateaus; structural and depositional plains; examples from the world and India."
+                },
+                {
+                  "slug": "rocks",
+                  "name": "Structure of the Earth: Rocks",
+                  "summary": "Unit 2(c): how minerals differ from rocks; igneous, sedimentary and metamorphic rocks and how they form; the rock cycle."
+                },
+                {
+                  "slug": "volcanoes",
+                  "name": "Structure of the Earth: Volcanoes",
+                  "summary": "Unit 2(d): active, dormant and extinct volcanoes; their constructive and destructive effects; the main volcanic zones of the world."
+                },
+                {
+                  "slug": "earthquakes",
+                  "name": "Structure of the Earth: Earthquakes",
+                  "summary": "Unit 2(e): the meaning, causes and measurement of earthquakes; their destructive and constructive effects; the earthquake zones of the world."
+                },
+                {
+                  "slug": "weathering-and-denudation",
+                  "name": "Structure of the Earth: Weathering and Denudation",
+                  "summary": "Unit 2(f): physical, chemical and biological weathering; agents of denudation; the work of rivers (V-shaped valley, waterfall, meander, delta) and of wind (deflation hollows, sand dunes)."
+                },
+                {
+                  "slug": "hydrosphere",
+                  "name": "Hydrosphere",
+                  "summary": "Unit 3: the meaning of hydrosphere; how tides form and their pattern; the circulation and effects of ocean currents (Gulf Stream, North Atlantic Drift, Labrador, Kuro Shio, Oya Shio)."
+                },
+                {
+                  "slug": "composition-and-structure-of-the-atmosphere",
+                  "name": "Atmosphere: Composition and Structure",
+                  "summary": "Unit 4(a): the troposphere, stratosphere, ionosphere and exosphere; ozone and its depletion; global warming and its impact."
+                },
+                {
+                  "slug": "insolation",
+                  "name": "Atmosphere: Insolation",
+                  "summary": "Unit 4(b): insolation and terrestrial radiation; factors affecting temperature (latitude, altitude, distance from the sea, slope, winds, ocean currents)."
+                },
+                {
+                  "slug": "atmospheric-pressure-and-winds",
+                  "name": "Atmosphere: Atmospheric Pressure and Winds",
+                  "summary": "Unit 4(c): factors affecting pressure; the pressure belts; pressure gradient and Coriolis effect; permanent, periodic, local and variable winds (cyclones and anticyclones); jet streams."
+                },
+                {
+                  "slug": "humidity",
+                  "name": "Atmosphere: Humidity",
+                  "summary": "Unit 4(d): relative and absolute humidity; forms of condensation and precipitation; relief, convectional and cyclonic rainfall."
+                },
+                {
+                  "slug": "pollution",
+                  "name": "Pollution",
+                  "summary": "Unit 5: air, water, soil, radiation and noise pollution - their sources, their effects on the environment and health, and preventive measures."
+                },
+                {
+                  "slug": "natural-regions-of-the-world",
+                  "name": "Natural Regions of the World",
+                  "summary": "Unit 6: location, area, climate, natural vegetation and human adaptation in the Equatorial, Tropical grassland, Tropical desert, Tropical monsoon, Mediterranean, Temperate grassland, Taiga and Tundra regions."
+                },
+                {
+                  "slug": "map-work",
+                  "name": "Map Work",
+                  "summary": "Unit 7: locating, marking and naming on a world outline map the natural regions and the listed oceans, seas, gulfs, straits, rivers, mountains and plateaus."
+                }
+              ]
+            },
+            "computer-applications": {
+              "overview": "In the ICSE 2028 syllabus, Class IX Computer Applications is a two-hour, 100-mark theory paper on Java programming with an object-oriented approach, together with 100 marks of internal assessment made up of at least 15 programming assignments and a project on ethical computing.",
+              "syllabusSource": {
+                "title": "ICSE Examination Year 2028 - Computer Applications (86), CISCE",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/18.-Computer-Applications.pdf",
+                "pages": "PDF pp. 4-6 (printed pp. 1-3: Class IX theory topics 1-11); PDF p. 7 (printed p. 4: internal assessment)"
+              },
+              "chapters": [
+                {
+                  "slug": "introduction-to-object-oriented-programming-concepts",
+                  "name": "Introduction to Object Oriented Programming Concepts",
+                  "summary": "Topic 1: procedure-oriented versus object-oriented programming; the four OOP principles; open source, IDEs and tools (OpenJDK, BlueJ, NetBeans); Java applets and applications, the compilation process, bytecode and the JVM; Java's features."
+                },
+                {
+                  "slug": "elementary-concept-of-objects-and-classes",
+                  "name": "Elementary Concept of Objects and Classes",
+                  "summary": "Topic 2: modelling entities as objects with state and behaviour; a class as a blueprint and object factory, and as a user-defined data type; computation as message passing between objects."
+                },
+                {
+                  "slug": "identifiers-and-literals",
+                  "name": "Identifiers and Literals",
+                  "summary": "Topic 3: the Java character set, ASCII and Unicode, escape sequences; tokens (keywords, identifiers, literals, punctuators, operators); primitive and non-primitive types; implicit and explicit type conversion."
+                },
+                {
+                  "slug": "operators-in-java",
+                  "name": "Operators in Java",
+                  "summary": "Topic 4: unary, binary and ternary operators; arithmetic, relational, logical, assignment, increment/decrement and shorthand operators; precedence and associativity; the new and dot operators; print and println. Bitwise and shift operators are excluded."
+                },
+                {
+                  "slug": "basic-structure-of-a-class-in-java",
+                  "name": "Basic Structure of a Class in Java",
+                  "summary": "Topic 5: the standard structure of a Java class with a main method, including the version that imports java.util and uses the Scanner class for input."
+                },
+                {
+                  "slug": "data-processing-in-java",
+                  "name": "Data Processing in Java",
+                  "summary": "Topic 6: input by initialisation, by parameters and through the Scanner class methods; introduction to packages; syntax, runtime and logical errors; single-line and multi-line comments."
+                },
+                {
+                  "slug": "mathematical-library-methods",
+                  "name": "Mathematical Library Methods",
+                  "summary": "Topic 7: the java.lang package and Math class methods (pow, sqrt, cbrt, ceil, floor, round, abs, max, min, random, rint, hypot and others) used in Java expressions."
+                },
+                {
+                  "slug": "conditional-statements-in-java",
+                  "name": "Conditional Statements in Java",
+                  "summary": "Topic 8: if, if-else, if-else-if ladder, nested if, and switch-case with default, break and fall-through; menu-driven programs; System.exit(0)."
+                },
+                {
+                  "slug": "iterative-statements-in-java",
+                  "name": "Looping / Iterative Statements in Java",
+                  "summary": "Topic 9: entry-controlled loops (for, while) and the exit-controlled do-while loop; converting between them; finite and infinite loops; break and continue."
+                },
+                {
+                  "slug": "nested-for-loops",
+                  "name": "Nested for Loops",
+                  "summary": "Topic 10: nested for loops with break and continue; square, rectangular and right-angled-triangle patterns of numbers and characters; series. Nested while and do-while are excluded."
+                },
+                {
+                  "slug": "ethical-computing",
+                  "name": "Ethical Computing",
+                  "summary": "Topic 11: intellectual property rights (copyright, patent), privacy and data protection, spam, software piracy and cyber ethics, online safety, digital etiquette and responsible use of social media; done as a project and assessed internally."
+                }
+              ]
+            }
+          }
         },
         {
           "level": 10,
@@ -239,8 +2138,829 @@
             "mathematics",
             "physics",
             "chemistry",
-            "biology"
-          ]
+            "biology",
+            "english",
+            "accountancy",
+            "commerce",
+            "economics",
+            "computer-science",
+            "business-studies",
+            "artificial-intelligence",
+            "environmental-science",
+            "biotechnology"
+          ],
+          "details": {
+            "mathematics": {
+              "overview": "ISC Class XI Mathematics (860) has a 3-hour, 80-mark theory paper (Paper I) and a 20-mark project (Paper II). The theory has five units: Sets and Functions (18 marks), Algebra (26), Coordinate Geometry (20), Calculus (8) and Statistics & Probability (8). Their numbered sub-units are used here as chapters.",
+              "syllabusSource": {
+                "title": "CISCE, ISC Examination Year 2028 syllabus: Mathematics (860), Class XI",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/17.-Mathematics.pdf",
+                "pages": "PDF pp. 4-11 (printed pp. 1-8)"
+              },
+              "chapters": [
+                {
+                  "slug": "sets",
+                  "name": "Sets",
+                  "summary": "Unit 1: Sets and Functions (i). Representation and types of sets, subsets and intervals, power set, universal set, Venn diagrams, and union, intersection, difference and complement."
+                },
+                {
+                  "slug": "relations-and-functions",
+                  "name": "Relations and Functions",
+                  "summary": "Unit 1: Sets and Functions (ii). Ordered pairs, Cartesian products, relations, functions as mappings, standard real-valued functions and their graphs, and algebra of functions."
+                },
+                {
+                  "slug": "trigonometry",
+                  "name": "Trigonometry",
+                  "summary": "Unit 1: Sets and Functions (iii). Radian and degree measure, trigonometric functions via the unit circle, their signs, domains, ranges and graphs, and compound, multiple-angle and sum-product identities."
+                },
+                {
+                  "slug": "complex-numbers",
+                  "name": "Complex Numbers",
+                  "summary": "Unit 2: Algebra (i). Algebraic properties, the Argand plane and polar form, conjugate, modulus and argument, square roots of complex numbers, and cube roots of unity."
+                },
+                {
+                  "slug": "quadratic-equations",
+                  "name": "Quadratic Equations",
+                  "summary": "Unit 2: Algebra (ii). Solution and nature of roots, forming equations from given roots, quadratic functions and their graphs, and linear and quadratic inequalities."
+                },
+                {
+                  "slug": "permutations-and-combinations",
+                  "name": "Permutations and Combinations",
+                  "summary": "Unit 2: Algebra (iii). The fundamental principle of counting, factorial notation, nPr and nCr, restricted and circular permutations, and mixed problems."
+                },
+                {
+                  "slug": "binomial-theorem",
+                  "name": "Binomial Theorem",
+                  "summary": "Unit 2: Algebra (iv). Statement and proof for positive integral indices, Pascal's triangle, binomial coefficients, and general and middle terms."
+                },
+                {
+                  "slug": "sequence-and-series",
+                  "name": "Sequence and Series",
+                  "summary": "Unit 2: Algebra (v). Arithmetic and geometric progressions, arithmetic and geometric means and their relation, infinite G.P., and the special sums of n, n squared and n cubed."
+                },
+                {
+                  "slug": "straight-lines",
+                  "name": "Straight Lines",
+                  "summary": "Unit 3: Coordinate Geometry (i). Section formula and area of a triangle, slope and angle between lines, forms of the equation of a line, distance of a point from a line, families of lines, and locus."
+                },
+                {
+                  "slug": "circles",
+                  "name": "Circles",
+                  "summary": "Unit 3: Coordinate Geometry (ii). Standard, diameter, general and parametric forms of the equation of a circle, intercepts on the axes, and relative position of two circles."
+                },
+                {
+                  "slug": "conic-sections",
+                  "name": "Conic Sections",
+                  "summary": "Unit 3: Coordinate Geometry (iii). Conics as sections of a cone, focus, directrix and eccentricity, and the standard equations and properties of the parabola, ellipse and hyperbola."
+                },
+                {
+                  "slug": "introduction-to-three-dimensional-geometry",
+                  "name": "Introduction to Three-dimensional Geometry",
+                  "summary": "Unit 3: Coordinate Geometry (iv). Coordinate axes and planes in three dimensions, coordinates of a point, the distance formula and the section formula."
+                },
+                {
+                  "slug": "limits-and-derivatives",
+                  "name": "Limits and Derivatives",
+                  "summary": "Unit 4: Calculus (i). Limits of algebraic, trigonometric, exponential and logarithmic functions, the derivative as rate of change and slope, first principles, and derivatives of sums, products and quotients."
+                },
+                {
+                  "slug": "statistics",
+                  "name": "Statistics",
+                  "summary": "Unit 5: Statistics and Probability (i). Range, mean deviation about the mean, variance and standard deviation of ungrouped and grouped data, and combined mean and standard deviation."
+                },
+                {
+                  "slug": "probability",
+                  "name": "Probability",
+                  "summary": "Unit 5: Statistics and Probability (ii). Random experiments, sample spaces, types of events, axiomatic probability, and the probability of 'not', 'and' and 'or' events."
+                }
+              ]
+            },
+            "physics": {
+              "overview": "ISC Class XI Physics has a 3-hour, 70-mark theory paper (Paper I) and a 30-mark Paper II made up of practical (15), project work (10) and practical file (5). The theory has ten units, with marks given for groups of units (units 1-3: 23 marks, 4-6: 17, 7-9: 20, 10: 10). Their numbered sub-units are used here as chapters.",
+              "syllabusSource": {
+                "title": "CISCE, ISC Examination Year 2028 syllabus: Physics, Class XI",
+                "url": "https://cisce.org/wp-content/uploads/2026/02/ISC-2028-Physics.pdf",
+                "pages": "PDF pp. 4-12 (the PDF text layer carries no printed page numbers)"
+              },
+              "chapters": [
+                {
+                  "slug": "units-and-measurements",
+                  "name": "Units and Measurements",
+                  "summary": "Unit 1: Physical World and Measurement. Systems of units and SI base units, errors in measurement, significant figures, and dimensions and dimensional analysis."
+                },
+                {
+                  "slug": "motion-in-a-straight-line",
+                  "name": "Motion in a Straight Line",
+                  "summary": "Unit 2: Kinematics (i). Frame of reference, speed, velocity and acceleration, motion graphs, equations of uniformly accelerated motion, and elementary differentiation and integration."
+                },
+                {
+                  "slug": "motion-in-a-plane",
+                  "name": "Motion in a Plane",
+                  "summary": "Unit 2: Kinematics (ii). Scalars and vectors, vector addition, resolution and products, projectile motion and uniform circular motion."
+                },
+                {
+                  "slug": "laws-of-motion",
+                  "name": "Laws of Motion",
+                  "summary": "Unit 3: Laws of Motion. Newton's laws, impulse, conservation of linear momentum, equilibrium of concurrent forces, friction, and dynamics of uniform circular motion."
+                },
+                {
+                  "slug": "work-energy-and-power",
+                  "name": "Work, Energy and Power",
+                  "summary": "Unit 4: Work, Energy and Power. Work by constant and variable forces, kinetic and potential energy, the work-energy theorem, power, conservation of mechanical energy, and collisions."
+                },
+                {
+                  "slug": "motion-of-system-of-particles-and-rigid-body",
+                  "name": "Motion of System of Particles and Rigid Body",
+                  "summary": "Unit 5: Motion of System of Particles and Rigid Body. Centre of mass, torque, angular momentum and its conservation, rotational equations of motion, and moment of inertia with the parallel and perpendicular axes theorems."
+                },
+                {
+                  "slug": "gravitation",
+                  "name": "Gravitation",
+                  "summary": "Unit 6: Gravitation. Kepler's laws, the universal law of gravitation, variation of g, gravitational potential and potential energy, escape and orbital velocity, and geostationary satellites."
+                },
+                {
+                  "slug": "mechanical-properties-of-solids",
+                  "name": "Mechanical Properties of Solids",
+                  "summary": "Unit 7: Properties of Bulk Matter (i). Elasticity, stress-strain relationship, Hooke's law, Young's, bulk and shear moduli, Poisson's ratio and elastic energy."
+                },
+                {
+                  "slug": "mechanical-properties-of-fluids",
+                  "name": "Mechanical Properties of Fluids",
+                  "summary": "Unit 7: Properties of Bulk Matter (ii). Fluid pressure and Pascal's law, viscosity and Stokes' law, streamline flow and Bernoulli's theorem, and surface tension and capillary rise."
+                },
+                {
+                  "slug": "thermal-properties-of-matter",
+                  "name": "Thermal Properties of Matter",
+                  "summary": "Unit 8: Heat and Thermodynamics (i). Thermal expansion, specific heat capacity, calorimetry and latent heat, heat transfer, black-body radiation, Wien's and Stefan's laws, and Newton's law of cooling."
+                },
+                {
+                  "slug": "thermodynamics",
+                  "name": "Thermodynamics",
+                  "summary": "Unit 8: Heat and Thermodynamics (ii). Thermal equilibrium and the zeroth law, heat, work and internal energy, the first law, isothermal and adiabatic processes, and the second law."
+                },
+                {
+                  "slug": "kinetic-theory",
+                  "name": "Behaviour of Perfect Gases and Kinetic Theory of Gases",
+                  "summary": "Unit 9: Behaviour of Perfect Gases and Kinetic Theory of Gases. Equation of state of a perfect gas, kinetic theory and pressure, kinetic interpretation of temperature, rms speed, degrees of freedom, equipartition of energy, and mean free path."
+                },
+                {
+                  "slug": "oscillations",
+                  "name": "Oscillations",
+                  "summary": "Unit 10: Oscillations and Waves (i). Periodic motion, simple harmonic motion and its energy, oscillations of a spring, and the simple pendulum."
+                },
+                {
+                  "slug": "waves",
+                  "name": "Waves",
+                  "summary": "Unit 10: Oscillations and Waves (ii). Transverse and longitudinal waves, wave speed, progressive waves, superposition and reflection, standing waves in strings and organ pipes, harmonics, and beats."
+                }
+              ]
+            },
+            "chemistry": {
+              "overview": "ISC Class XI Chemistry has a 3-hour, 70-mark theory paper (Paper I) and a 30-mark Paper II made up of practical (15), project work (10) and practical file (5). The theory has nine units, with marks given by branch: Physical Chemistry 41, Inorganic Chemistry 6 and Organic Chemistry 23.",
+              "syllabusSource": {
+                "title": "CISCE, ISC Examination Year 2028 syllabus: Chemistry, Class XI",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/19.-Chemistry.pdf",
+                "pages": "PDF pp. 4-13 (printed pp. 1-10)"
+              },
+              "chapters": [
+                {
+                  "slug": "some-basic-concepts-of-chemistry",
+                  "name": "Some Basic Concepts of Chemistry",
+                  "summary": "Unit 1. Laws of chemical combination, Dalton's atomic theory, atomic and molecular masses, the mole concept, empirical and molecular formulae, chemical equivalents, and stoichiometry."
+                },
+                {
+                  "slug": "structure-of-atom",
+                  "name": "Structure of Atom",
+                  "summary": "Unit 2. Fundamental particles, the Thomson, Rutherford and Bohr models, dual nature and the uncertainty principle, quantum numbers, orbitals, and electronic configuration."
+                },
+                {
+                  "slug": "classification-of-elements-and-periodicity-in-properties",
+                  "name": "Classification of Elements and Periodicity in Properties",
+                  "summary": "Unit 3. Mendeleev's and the Modern Periodic Law, the long form of the periodic table, and periodic trends in atomic and ionic radii, ionisation enthalpy, electron gain enthalpy and electronegativity."
+                },
+                {
+                  "slug": "chemical-bonding-and-molecular-structure",
+                  "name": "Chemical Bonding and Molecular Structure",
+                  "summary": "Unit 4. Ionic and covalent bonds, bond parameters, Lewis structures, Fajan's rules, VSEPR theory, hybridisation, molecular orbital theory, resonance and hydrogen bonding."
+                },
+                {
+                  "slug": "chemical-thermodynamics",
+                  "name": "Chemical Thermodynamics",
+                  "summary": "Unit 5. Systems and state functions, the first law with internal energy and enthalpy, the second law with entropy and spontaneity, and the third law."
+                },
+                {
+                  "slug": "equilibrium",
+                  "name": "Equilibrium",
+                  "summary": "Unit 6. Chemical equilibrium, the law of mass action and Le Chatelier's principle, and ionic equilibrium including pH, buffers, hydrolysis of salts and solubility product."
+                },
+                {
+                  "slug": "redox-reactions",
+                  "name": "Redox Reactions",
+                  "summary": "Unit 7. Oxidation and reduction, oxidation number, and balancing redox reactions by the oxidation number and ion-electron methods."
+                },
+                {
+                  "slug": "organic-chemistry-some-basic-principles-and-techniques",
+                  "name": "Organic Chemistry: Some Basic Principles and Techniques",
+                  "summary": "Unit 8. Classification, IUPAC nomenclature and isomerism of organic compounds, purification and analysis, electronic displacement effects, bond fission, and types of organic reactions."
+                },
+                {
+                  "slug": "hydrocarbons",
+                  "name": "Hydrocarbons",
+                  "summary": "Unit 9. Alkanes, alkenes and alkynes (nomenclature, preparation, properties) and aromatic hydrocarbons, with benzene and electrophilic substitution."
+                }
+              ]
+            },
+            "biology": {
+              "overview": "ISC Class XI Biology has a 3-hour, 70-mark theory paper (Paper I) and a 30-mark Paper II made up of practical (15), project work (10) and practical file (5). The theory has five units: Diversity of Living Organisms (9 marks), Structural Organisation in Animals and Plants (11), Cell: Structure and Function (15), Plant Physiology (17) and Human Physiology (18). Their numbered sub-units are used here as chapters.",
+              "syllabusSource": {
+                "title": "CISCE, ISC Examination Year 2028 syllabus: Biology, Class XI",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/20.-Biology.pdf",
+                "pages": "PDF pp. 4-9 (printed pp. 1-6)"
+              },
+              "chapters": [
+                {
+                  "slug": "the-living-world",
+                  "name": "The Living World",
+                  "summary": "Unit 1: Diversity of Living Organisms (i). The need for classification, taxonomy and systematics, the concept of species, taxonomic hierarchy, and binomial nomenclature."
+                },
+                {
+                  "slug": "biological-classification",
+                  "name": "Biological Classification",
+                  "summary": "Unit 1: Diversity of Living Organisms (ii). Three domains of life, five-kingdom classification of Monera, Protista, Fungi, Plantae and Animalia, and lichens, viruses, viroids and prions."
+                },
+                {
+                  "slug": "plant-kingdom",
+                  "name": "Plant Kingdom",
+                  "summary": "Unit 1: Diversity of Living Organisms (iii). Characteristics and examples of algae, bryophytes, pteridophytes and gymnosperms."
+                },
+                {
+                  "slug": "animal-kingdom",
+                  "name": "Animal Kingdom",
+                  "summary": "Unit 1: Diversity of Living Organisms (iv). Levels of organisation, body plans, symmetry, germ layers and coelom as the basis of animal classification."
+                },
+                {
+                  "slug": "morphology-of-flowering-plants",
+                  "name": "Morphology of Flowering Plants",
+                  "summary": "Unit 2: Structural Organisation in Animals and Plants (i). Morphology and modifications of root, stem and leaf, the structure of a typical flower, and types of inflorescence."
+                },
+                {
+                  "slug": "anatomy-of-flowering-plants",
+                  "name": "Anatomy of Flowering Plants",
+                  "summary": "Unit 2: Structural Organisation in Animals and Plants (ii). Meristematic and permanent plant tissues, tissue systems, and the internal structure of plant organs."
+                },
+                {
+                  "slug": "structural-organisation-in-animals-frog",
+                  "name": "Structural Organisation in Animals: Frog",
+                  "summary": "Unit 2: Structural Organisation in Animals and Plants (iii). A brief account of the morphology, anatomy and organ systems of the frog."
+                },
+                {
+                  "slug": "cell-the-unit-of-life",
+                  "name": "Cell: The Unit of Life",
+                  "summary": "Unit 3: Cell: Structure and Function (i). Cell theory, prokaryotic and eukaryotic cells, the cell envelope, membrane and wall, and the ultrastructure and functions of cell organelles."
+                },
+                {
+                  "slug": "biomolecules",
+                  "name": "Biomolecules",
+                  "summary": "Unit 3: Cell: Structure and Function (ii). Carbohydrates, proteins, lipids, enzymes and secondary metabolites."
+                },
+                {
+                  "slug": "cell-cycle-and-cell-division",
+                  "name": "Cell Cycle and Cell Division",
+                  "summary": "Unit 3: Cell: Structure and Function (iii). Stages of the cell cycle, and mitosis and meiosis with their significance."
+                },
+                {
+                  "slug": "photosynthesis-in-higher-plants",
+                  "name": "Photosynthesis in Higher Plants",
+                  "summary": "Unit 4: Plant Physiology (i). Site and pigments of photosynthesis, photochemical and biosynthetic phases, photophosphorylation, the chemiosmotic hypothesis, photorespiration, and C3 and C4 pathways."
+                },
+                {
+                  "slug": "respiration-in-plants",
+                  "name": "Respiration in Plants",
+                  "summary": "Unit 4: Plant Physiology (ii). Glycolysis, fermentation, the TCA cycle and electron transport system, ATP yield, amphibolic pathways and respiratory quotient."
+                },
+                {
+                  "slug": "plant-growth-and-development",
+                  "name": "Plant Growth and Development",
+                  "summary": "Unit 4: Plant Physiology (iii). Seed germination, phases and rate of plant growth, differentiation, and the growth regulators auxin, gibberellin, cytokinin, ethylene and ABA."
+                },
+                {
+                  "slug": "breathing-and-exchange-of-gases",
+                  "name": "Breathing and Exchange of Gases",
+                  "summary": "Unit 5: Human Physiology (i). The human respiratory system, the mechanism of breathing, exchange and transport of gases, regulation of breathing, respiratory volumes and disorders."
+                },
+                {
+                  "slug": "body-fluids-and-circulation",
+                  "name": "Body Fluids and Circulation",
+                  "summary": "Unit 5: Human Physiology (ii). Blood, blood groups and coagulation, lymph, the human heart and blood vessels, the cardiac cycle, ECG, double circulation, and circulatory disorders."
+                },
+                {
+                  "slug": "excretory-products-and-their-elimination",
+                  "name": "Excretory Products and their Elimination",
+                  "summary": "Unit 5: Human Physiology (iii). Modes of excretion, the human excretory system, urine formation, osmoregulation, regulation of kidney function, and disorders."
+                },
+                {
+                  "slug": "locomotion-and-movement",
+                  "name": "Locomotion and Movement",
+                  "summary": "Unit 5: Human Physiology (iv). Types of movement, skeletal muscle and muscle contraction, the skeletal system, and joints and their disorders."
+                },
+                {
+                  "slug": "neural-control-and-coordination",
+                  "name": "Neural Control and Coordination",
+                  "summary": "Unit 5: Human Physiology (v). Neurons and nerves, the central, peripheral and visceral nervous systems, and the generation and conduction of nerve impulses."
+                },
+                {
+                  "slug": "chemical-coordination-and-integration",
+                  "name": "Chemical Co-ordination and Integration",
+                  "summary": "Unit 5: Human Physiology (vi). The human endocrine glands, the mechanism of hormone action, and disorders due to hypo- and hyperactivity of hormones."
+                }
+              ]
+            },
+            "english": {
+              "overview": "In the ISC 2028 syllabus, English Language for Class XI is an 80-mark, three-hour theory paper of four compulsory questions (composition, directed and proposal writing, grammar, and comprehension with summary), plus 20 marks of project work assessing listening and speaking.",
+              "syllabusSource": {
+                "title": "ISC Examination Year 2028 - English (801): English Language, CISCE",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/2.-English-1.pdf",
+                "pages": "PDF pp. 4-5 (printed pp. 1-2: Paper I Theory, Questions One-Four); PDF p. 6 (printed p. 3: Project Work for Class XI)"
+              },
+              "chapters": [
+                {
+                  "slug": "composition",
+                  "name": "Composition",
+                  "summary": "Question One: one composition of 400-450 words chosen from six topics (narrative, descriptive, reflective, argumentative/persuasive, expository, or an original short story), marked on quality of language and organisation."
+                },
+                {
+                  "slug": "directed-writing",
+                  "name": "Directed Writing",
+                  "summary": "Question Two (a): 250-300 words based on given information and points - a feature article, book review, blog, newspaper report or statement of purpose - with the correct format."
+                },
+                {
+                  "slug": "proposal-writing",
+                  "name": "Proposal Writing",
+                  "summary": "Question Two (b): a proposal for a given situation, in the format prescribed by CISCE, with an introduction or heading, objectives, a list of measures and a concluding statement."
+                },
+                {
+                  "slug": "grammar",
+                  "name": "Grammar",
+                  "summary": "Question Three: compulsory short-answer items testing functional grammar and structure - transformation of sentences, phrasal verbs, and verbs and tenses."
+                },
+                {
+                  "slug": "comprehension-and-summary",
+                  "name": "Comprehension and Summary",
+                  "summary": "Question Four: a passage of about 700 words with questions on analysis, vocabulary, content and inference, and a summary written in grid form within a word limit."
+                },
+                {
+                  "slug": "listening-and-speaking-skills",
+                  "name": "Listening and Speaking Skills (Project Work)",
+                  "summary": "Paper II for Class XI (20 marks, assessed internally): a listening test on an unseen 500-word passage read aloud twice, and a three-minute individual presentation followed by a discussion."
+                }
+              ]
+            },
+            "accountancy": {
+              "overview": "In the ISC 2028 syllabus, Class XI Accountancy is an 80-mark, three-hour theory paper of ten units, from Introduction to Accounting to the Computerised Accounting System, plus 20 marks of project work (two projects).",
+              "syllabusSource": {
+                "title": "ISC Examination Year 2028 - Accountancy (858), CISCE",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/15.-Accountancy.pdf",
+                "pages": "PDF p. 4 (printed p. 1: unit weightage table); PDF pp. 5-8 (printed pp. 2-5: Paper I units 1-10); PDF pp. 9-10 (project work)"
+              },
+              "chapters": [
+                {
+                  "slug": "introduction-to-accounting",
+                  "name": "Introduction to Accounting",
+                  "summary": "Unit 1 (2 marks): a brief history of accounting; basic terms (transactions, vouchers, capital, assets, liabilities, stock, revenue, drawings); book-keeping, accounting and accountancy; the accounting cycle; stakeholders; financial, cost and management accounting."
+                },
+                {
+                  "slug": "accounting-concepts",
+                  "name": "Accounting Concepts",
+                  "summary": "Unit 2 (4 marks): GAAP concepts (going concern, entity, money measurement, accrual, dual aspect, matching, prudence and others); cash and accrual bases; Accounting Standards; a brief introduction to IFRS."
+                },
+                {
+                  "slug": "journal-ledger-and-trial-balance",
+                  "name": "Journal, Ledger and Trial Balance",
+                  "summary": "Unit 3 (12 marks): the accounting equation; double entry and rules of journalising; the journal, ledger posting and balancing; subsidiary books (cash books, petty cash book, day books, journal proper); the Trial Balance. Transactions with GST are excluded."
+                },
+                {
+                  "slug": "bank-reconciliation-statement",
+                  "name": "Bank Reconciliation Statement",
+                  "summary": "Unit 4 (10 marks): the meaning of and need for a BRS; preparing it from cash book or pass book balances or extracts; preparing an amended cash book."
+                },
+                {
+                  "slug": "depreciation",
+                  "name": "Depreciation",
+                  "summary": "Unit 5 (10 marks): the meaning and causes of depreciation; Straight Line and Written Down Value methods; recording through the asset account or a provision for depreciation; purchase and sale of assets."
+                },
+                {
+                  "slug": "bills-of-exchange",
+                  "name": "Bills of Exchange",
+                  "summary": "Unit 6 (7 marks): negotiable instruments, bills of exchange, promissory notes and cheques, and related terms; entries for endorsement, discounting, dishonour, renewal and retirement in the books of the drawer, drawee and endorsee."
+                },
+                {
+                  "slug": "final-accounts",
+                  "name": "Final Accounts",
+                  "summary": "Unit 7 (14 marks): capital and revenue items; provisions and reserves; the Trading and Profit and Loss Account and Balance Sheet of a sole trader, with and without adjustments; marshalling of the Balance Sheet."
+                },
+                {
+                  "slug": "rectification-of-errors",
+                  "name": "Rectification of Errors",
+                  "summary": "Unit 8 (8 marks): errors of omission, commission and principle, and compensating errors; rectifying errors after the Trial Balance and after the Final Accounts; the Suspense Account."
+                },
+                {
+                  "slug": "accounting-for-not-for-profit-organisations",
+                  "name": "Accounting for Not-for-Profit Organisations",
+                  "summary": "Unit 9 (10 marks): the Receipts and Payments Account, the Income and Expenditure Account and the Balance Sheet; preparing Income and Expenditure accounts from Receipts and Payments data; treating special items."
+                },
+                {
+                  "slug": "computerised-accounting-system",
+                  "name": "Computerised Accounting System (CAS)",
+                  "summary": "Unit 10 (3 marks): the components, features, advantages and limitations of CAS, and the Accounting Information System."
+                }
+              ]
+            },
+            "commerce": {
+              "overview": "In the ISC 2027 syllabus (the latest that lists Commerce; the ISC 2028 syllabus page has no Commerce document), Class XI Commerce is an 80-mark, three-hour theory paper of eight units plus 20 marks of project work.",
+              "syllabusSource": {
+                "title": "ISC Examination Year 2027 - Commerce (857), CISCE, February 2025",
+                "url": "https://cisce.org/wp-content/uploads/2025/04/14.-ISC-Commerce.doc.pdf",
+                "pages": "PDF p. 4 (printed p. 1: unit weightage table); PDF pp. 5-7 (printed pp. 2-4: Paper I units 1-8)"
+              },
+              "chapters": [
+                {
+                  "slug": "nature-and-purpose-of-business",
+                  "name": "Nature and Purpose of Business",
+                  "summary": "Unit 1 (10 marks): economic and non-economic activities; how business, profession and employment differ; industry (by activity and size) and commerce (trade and aids to trade); business objectives and the role of profit."
+                },
+                {
+                  "slug": "forms-of-business-organisation",
+                  "name": "Forms of Business Organisation",
+                  "summary": "Unit 2 (25 marks): private, public and joint sectors and PPPs; sole trader; partnership (deed, registration, types of partners); joint stock companies (formation, promotion, incorporation, MOA and AOA, prospectus, public and private companies, global enterprises); public sector undertakings; co-operatives."
+                },
+                {
+                  "slug": "social-responsibility-of-business-and-business-ethics",
+                  "name": "Social Responsibility of Business and Business Ethics",
+                  "summary": "Unit 3 (5 marks): the concept of and need for social responsibility towards owners, investors, consumers, employees, government, the community and the environment; the meaning and importance of business ethics."
+                },
+                {
+                  "slug": "emerging-modes-of-business",
+                  "name": "Emerging Modes of Business",
+                  "summary": "Unit 4 (5 marks): e-business (scope, resources, online transactions, payment, security); e-commerce; quick commerce and the use of artificial intelligence, including dark stores."
+                },
+                {
+                  "slug": "stock-exchange",
+                  "name": "Stock Exchange",
+                  "summary": "Unit 5 (5 marks): the meaning, functions and services of a stock exchange; BSE and NSE; brokers, jobbers, bulls and bears; terms such as ex-dividend and cum-dividend; SEBI; the demat account."
+                },
+                {
+                  "slug": "trade",
+                  "name": "Trade",
+                  "summary": "Unit 6 (10 marks): the services of wholesalers; retail trade and its types (itinerant, fixed shops, departmental and chain stores, vending machines); documents in home trade; trade and cash discounts."
+                },
+                {
+                  "slug": "foreign-trade",
+                  "name": "Foreign Trade",
+                  "summary": "Unit 7 (10 marks): internal versus international trade; export and import procedures; documents in export and import trade; the WTO."
+                },
+                {
+                  "slug": "insurance",
+                  "name": "Insurance",
+                  "summary": "Unit 8 (10 marks): the meaning of insurance, re-insurance and double insurance; insurable and non-insurable risks; the principles of insurance; types of insurance (life, health, fire, marine, motor, social, fidelity)."
+                }
+              ]
+            },
+            "economics": {
+              "overview": "In the ISC 2028 syllabus, Class XI Economics is an 80-mark, three-hour theory paper in three units (Understanding Economics, Indian Economic Development, Statistics), plus 20 marks of project work (two projects).",
+              "syllabusSource": {
+                "title": "ISC Examination Year 2028 - Economics (856), CISCE",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/13.-Economics-1.pdf",
+                "pages": "PDF pp. 4-6 (printed pp. 1-3: Class XI Paper I units 1-3)"
+              },
+              "chapters": [
+                {
+                  "slug": "definitions-of-economics",
+                  "name": "Definitions of Economics",
+                  "summary": "Unit 1(i): the definitions of economics given by Adam Smith, Alfred Marshall, Lionel Robbins and Samuelson, their features and criticisms, framed by scarcity and the allocation of resources."
+                },
+                {
+                  "slug": "micro-and-macro-economics-and-basic-concepts",
+                  "name": "Micro and Macro Economics and Basic Concepts",
+                  "summary": "Unit 1(ii): micro versus macro economics; basic concepts - wants, factors of production, utility (total, marginal, diminishing), price, value, wealth, welfare, money, market, capital, investment, income, production, consumption and saving."
+                },
+                {
+                  "slug": "basic-problems-of-an-economy",
+                  "name": "Basic Problems of an Economy",
+                  "summary": "Unit 1(iii): what, how and for whom to produce; scarcity and choice explained with the Production Possibility Curve, including shifts and rotation due to technology."
+                },
+                {
+                  "slug": "types-of-economies-and-economic-systems",
+                  "name": "Types of Economies and Economic Systems",
+                  "summary": "Unit 1(iv): developed and developing economies; regional and global groupings (SAARC, EU, ASEAN, G-8, G-20); capitalism, socialism and the mixed economy, and how each solves the basic problems through the price mechanism and government."
+                },
+                {
+                  "slug": "indian-economy-post-liberalisation",
+                  "name": "Indian Economy Post Liberalisation",
+                  "summary": "Unit 2(i): the main features, problems and policies of agriculture, industry and foreign trade in India after liberalisation."
+                },
+                {
+                  "slug": "parameters-of-development",
+                  "name": "Parameters of Development",
+                  "summary": "Unit 2(ii): per capita income and its limitations; the meaning and construction of the Human Development Index; India's position in the UNDP report."
+                },
+                {
+                  "slug": "planning-and-economic-development-in-india",
+                  "name": "Planning and Economic Development in India",
+                  "summary": "Unit 2(iii): the objectives of the Five-Year Plans; NITI Aayog's objectives and role."
+                },
+                {
+                  "slug": "structural-changes-after-liberalisation",
+                  "name": "Structural Changes in the Indian Economy after Liberalisation",
+                  "summary": "Unit 2(iv): the need for, meaning and features of liberalisation, globalisation and privatisation; the meaning of disinvestment."
+                },
+                {
+                  "slug": "current-challenges-facing-the-indian-economy",
+                  "name": "Current Challenges Facing the Indian Economy",
+                  "summary": "Unit 2(v): poverty and poverty-alleviation programmes; rural credit, agricultural marketing, cooperatives and organic farming; human capital formation and education; types, causes and policy measures for unemployment."
+                },
+                {
+                  "slug": "economic-growth-and-development",
+                  "name": "Economic Growth and Development",
+                  "summary": "Unit 2(vi): the meaning of economic growth and development and how they differ."
+                },
+                {
+                  "slug": "sustainable-development",
+                  "name": "Sustainable Development",
+                  "summary": "Unit 2(vii): the effect of development on resources and the environment; the concept of and need for sustainable development; global warming."
+                },
+                {
+                  "slug": "statistics-definition-scope-and-limitations",
+                  "name": "Statistics: Definition, Scope and Limitations",
+                  "summary": "Unit 3(i): the definition, scope and limitations of statistics and its importance in economics."
+                },
+                {
+                  "slug": "collection-organisation-and-presentation-of-data",
+                  "name": "Collection, Organisation and Presentation of Data",
+                  "summary": "Unit 3(ii): primary and secondary data and how they are collected; variables and frequency; tables, bar and pie diagrams, line graphs, histograms, polygons and ogives."
+                },
+                {
+                  "slug": "measures-of-central-value",
+                  "name": "Measures of Central Value",
+                  "summary": "Unit 3(iii): simple and weighted arithmetic mean, median and mode for ungrouped and grouped data; the relationship between mean, median and mode; symmetrical and skewed distributions."
+                },
+                {
+                  "slug": "measures-of-dispersion",
+                  "name": "Measures of Dispersion",
+                  "summary": "Unit 3(iv): range, quartile deviation, mean deviation, standard deviation and coefficient of variation, with numericals."
+                },
+                {
+                  "slug": "correlation",
+                  "name": "Correlation",
+                  "summary": "Unit 3(v): the meaning, types and degrees of correlation; scatter diagrams; Karl Pearson's coefficient and Spearman's rank correlation."
+                },
+                {
+                  "slug": "index-numbers",
+                  "name": "Index Numbers",
+                  "summary": "Unit 3(vi): simple and weighted index numbers; the Laspeyres, Paasche and Fisher methods; WPI, CPI and the Index of Industrial Production; uses of index numbers and problems in constructing a price index."
+                },
+                {
+                  "slug": "mathematical-tools-used-in-economics",
+                  "name": "Some Mathematical Tools Used in Economics",
+                  "summary": "Unit 3(vii): the equation and slope of a straight line."
+                }
+              ]
+            },
+            "computer-science": {
+              "overview": "In the ISC 2028 syllabus, Class XI Computer Science is a 70-mark, three-hour theory paper in three sections (A: Hardware, B: Java, C: Python and conceptual aspects), plus a 30-mark practical paper in Java.",
+              "syllabusSource": {
+                "title": "ISC Examination Year 2028 - Computer Science (868), CISCE",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/25.-Computer-Science.pdf",
+                "pages": "PDF p. 5 (printed p. 2: unit and marks table); PDF pp. 6-9 (printed pp. 3-6: Paper I units 1-13)"
+              },
+              "chapters": [
+                {
+                  "slug": "system-of-numeration",
+                  "name": "System of Numeration",
+                  "summary": "Section A, Unit 1: numbers in binary, octal, decimal and hexadecimal and converting between them; addition, subtraction (1's and 2's complement) and multiplication in different bases."
+                },
+                {
+                  "slug": "encodings",
+                  "name": "Encodings",
+                  "summary": "Section A, Unit 2: character encodings (ASCII, ISCII, Unicode) and the limits of ASCII for other languages."
+                },
+                {
+                  "slug": "propositional-logic-and-hardware-implementation",
+                  "name": "Propositional Logic, Hardware Implementation, Arithmetic Operations",
+                  "summary": "Section A, Unit 3: logical connectives, well-formed formulae, truth tables, and satisfiable, unsatisfiable and valid formulae; basic and universal gates, NAND, NOR, XOR and XNOR; half and full adders."
+                },
+                {
+                  "slug": "introduction-to-oop-using-java",
+                  "name": "Introduction to Object Oriented Programming using Java",
+                  "summary": "Section B, Unit 4: an introduction to object-oriented programming in Java, taught alongside units 5-11 together with classes and their definitions."
+                },
+                {
+                  "slug": "objects",
+                  "name": "Objects",
+                  "summary": "Section B, Unit 5: objects as attributes plus behaviour, and objects versus classes; real-world examples; the JVM, javac and java; compile-time and run-time errors; exceptions with try-catch, throw, throws and finally."
+                },
+                {
+                  "slug": "primitive-values-wrapper-classes-types-and-casting",
+                  "name": "Primitive Values, Wrapper Classes, Types and Casting",
+                  "summary": "Section B, Unit 6: primitive types and their wrapper classes; classes as user-defined types; casting and automatic type coercion."
+                },
+                {
+                  "slug": "variables-and-expressions",
+                  "name": "Variables, Expressions",
+                  "summary": "Section B, Unit 7: variables and named constants (final); arithmetic and logical expressions and their evaluation, with precedence and associativity; assignment; primitive versus reference variables."
+                },
+                {
+                  "slug": "statements-and-scope",
+                  "name": "Statements, Scope",
+                  "summary": "Section B, Unit 8: conditional statements (if, if-else, switch-case, the ternary operator); loops (for, while, do-while) with break and continue; blocks; block, method and class scope and visibility."
+                },
+                {
+                  "slug": "methods-and-constructors",
+                  "name": "Methods and Constructors",
+                  "summary": "Section B, Unit 9: formal and actual arguments; side effects; static methods and variables; the this operator; constructors and the new operator; problem solving with methods."
+                },
+                {
+                  "slug": "arrays-and-strings",
+                  "name": "Arrays, Strings",
+                  "summary": "Section B, Unit 10: single- and multi-dimensional arrays; searching and bubble, selection and insertion sorts; String class operations (characters, substrings, concatenation, replacement, indexOf)."
+                },
+                {
+                  "slug": "basic-input-output-and-text-file-handling",
+                  "name": "Basic Input/Output and Text File Handling",
+                  "summary": "Section B, Unit 11: input with the Scanner class; tokens, delimiters and StringTokenizer; I/O exceptions; data file handling with FileReader and FileWriter (create, read, write, append, search)."
+                },
+                {
+                  "slug": "introduction-to-python",
+                  "name": "Introduction to Python",
+                  "summary": "Section C, Unit 12: installing Python and IDEs; Python fundamentals, tokens and variables; data types (numbers, boolean, string, list, tuple, None, dictionary); input and output and errors; operators and type conversion; conditional and iterative flow of control."
+                },
+                {
+                  "slug": "trends-in-computing-and-ethical-issues",
+                  "name": "Trends in Computing and Ethical Issues",
+                  "summary": "Section C, Unit 13: AI, IoT, VR and AR; cyber security, privacy, netiquette, spam, phishing and digital arrest; intellectual property, software copyright, patents and licensing (GPL, BSD), and the Free Software Foundation."
+                }
+              ]
+            },
+            "business-studies": {
+              "overview": "In the ISC 2028 syllabus, Class XI Business Studies is an 80-mark, three-hour theory paper of five units, from Business: Purpose and Classification to Business Risks and Insurance, plus 20 marks of project work (two projects).",
+              "syllabusSource": {
+                "title": "ISC Examination Year 2028 - Business Studies (857), CISCE",
+                "url": "https://cisce.org/wp-content/uploads/2026/09/Business-Studies.pdf",
+                "pages": "PDF p. 4 (printed p. 1: unit weightage table); PDF pp. 5-6 (printed pp. 2-3: Paper I units 1-5)"
+              },
+              "chapters": [
+                {
+                  "slug": "business-purpose-and-classification",
+                  "name": "Business: Purpose and Classification",
+                  "summary": "Unit 1 (10 marks): the meaning and features of business; economic and social objectives and the role of profit; industry (primary, secondary, tertiary; micro to large) and commerce (trade and aids to trade); business ethics and CSR (meaning only)."
+                },
+                {
+                  "slug": "forms-and-types-of-business-organisations",
+                  "name": "Forms and Types of Business Organisations",
+                  "summary": "Unit 2 (30 marks): private and public sectors and PPPs; sole proprietorship; partnership (deed, registration, types of partners and firms, LLP); joint stock companies (formation, promotion, incorporation, MOA and AOA, commencement, prospectus, global enterprises); co-operatives and multistate co-operative societies."
+                },
+                {
+                  "slug": "contemporary-and-evolving-modes-of-business",
+                  "name": "Contemporary and Evolving Modes of Business",
+                  "summary": "Unit 3 (15 marks): e-business (payments, blockchain, crypto-assets, security); e-commerce, quick commerce and artificial intelligence; e-banking (RTGS, NEFT, IMPS, UPI, e-wallets, the digital rupee), mobile banking, debit and credit cards, online demand drafts."
+                },
+                {
+                  "slug": "domestic-trade",
+                  "name": "Domestic Trade",
+                  "summary": "Unit 4 (10 marks): wholesale trade and the services of wholesalers; retail trade and its types (itinerant, fixed shops, departmental, chain and dark stores); digital and omnichannel retailing."
+                },
+                {
+                  "slug": "business-risks-and-insurance",
+                  "name": "Business Risks and Insurance",
+                  "summary": "Unit 5 (15 marks): insurable and non-insurable risks; the meaning and principles of insurance; re-insurance and double insurance; assurance versus insurance; types of insurance."
+                }
+              ]
+            },
+            "artificial-intelligence": {
+              "overview": "In the ISC 2028 syllabus, Class XI Artificial Intelligence is a 70-mark, three-hour theory paper of seven units, plus a 30-mark practical component made up of a practical examination, project work and a practical file.",
+              "syllabusSource": {
+                "title": "ISC Examination Year 2028 - Artificial Intelligence (883), CISCE",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/36.-Artificial-Intelligence.pdf",
+                "pages": "PDF p. 4 (printed p. 1: unit weightage table); PDF pp. 5-6 (printed pp. 2-3: Paper I units 1-7)"
+              },
+              "chapters": [
+                {
+                  "slug": "basic-concepts-of-artificial-intelligence",
+                  "name": "Basic Concepts of Artificial Intelligence",
+                  "summary": "Unit 1 (8 marks): the definition, evolution, applications and benefits of AI; data types and exploring data, binary logic and gates, deterministic and probabilistic problems; decision making in machines and cyber security; the AI project framework; data representation and programming in Python."
+                },
+                {
+                  "slug": "state-of-art-of-ai-nlp-and-potential-use-of-ai",
+                  "name": "Introduction and State of Art of AI, Natural Language Processing (NLP), and Potential Use of AI",
+                  "summary": "Unit 2 (8 marks): machine learning, deep learning and neural networks and their applications; the NLP domain (text understanding and generation, translation, chatbots, voice assistants, types of search); uses of AI in various domains; AI and society."
+                },
+                {
+                  "slug": "mathematics-for-ai",
+                  "name": "Mathematics for AI",
+                  "summary": "Unit 3 (12 marks): matrices and matrix operations; vectors; set theory, relational algebra and data table joins; mean, median, mode, variance and standard deviation."
+                },
+                {
+                  "slug": "data-visualization",
+                  "name": "Data Visualization",
+                  "summary": "Unit 4 (16 marks): visualisation with matplotlib, seaborn and Excel; handling missing values and outliers with pandas; bar graphs, histograms, scatter plots and pie charts; the dimensionality of data."
+                },
+                {
+                  "slug": "theoretical-and-practical-aspects-of-data-processing",
+                  "name": "Theoretical and Practical Aspects of Data Processing",
+                  "summary": "Unit 5 (8 marks): data cleaning with pandas; exploring Kaggle datasets with DataFrames; transforming and standardising data."
+                },
+                {
+                  "slug": "data-modelling-and-simple-linear-regression",
+                  "name": "Data Modelling, Simple Linear Regression",
+                  "summary": "Unit 6 (12 marks): dimensional, relational and entity-relational data models; regression analysis; the least-squares regression line and regression coefficient; solving linear equations."
+                },
+                {
+                  "slug": "ethical-practices-in-ai",
+                  "name": "Ethical Practices in AI",
+                  "summary": "Unit 7 (6 marks): an AI code of ethics - avoiding bias, protecting user privacy and data, reducing environmental impact - and why AI ethics matters."
+                }
+              ]
+            },
+            "environmental-science": {
+              "overview": "In the ISC 2028 syllabus, Class XI Environmental Science is a 70-mark, three-hour theory paper of seven units, plus 30 marks of project work (two projects).",
+              "syllabusSource": {
+                "title": "ISC Examination Year 2028 - Environmental Science (877), CISCE",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/31.-Environmental-Science.pdf",
+                "pages": "PDF p. 4 (printed p. 1: unit weightage table); PDF pp. 5-10 (printed pp. 2-7: Paper I units 1-7)"
+              },
+              "chapters": [
+                {
+                  "slug": "environment-the-foundation-of-life",
+                  "name": "Environment - The Foundation of Life",
+                  "summary": "Unit 1 (5 marks): why Environmental Science is studied, and its scope and applications."
+                },
+                {
+                  "slug": "modes-of-existence",
+                  "name": "Modes of Existence",
+                  "summary": "Unit 2 (7 marks): hunting-gathering, pastoral, agricultural and industrial modes of existence; their use of resources, ecological impact, social organisation and view of the relationship between people and nature (case studies of the Sentinelese and the Jarawa); how the modes coexist in India and the conflicts between them."
+                },
+                {
+                  "slug": "ecology",
+                  "name": "Ecology",
+                  "summary": "Unit 3 (15 marks): ecosystems, food chains and webs, and relationships between organisms; habitats, niches and competitive exclusion; energy flow and ecological pyramids; nutrient cycles and ecological succession; terrestrial, freshwater and marine biomes."
+                },
+                {
+                  "slug": "pollution",
+                  "name": "Pollution",
+                  "summary": "Unit 4 (15 marks): air pollution, the greenhouse effect and ozone depletion; pollution prevention and control (Pollution Control Boards, catalytic converters, scrubbers, precipitators); indoor pollution; water, soil, radioactive, noise and microplastic pollution; coastal zone management."
+                },
+                {
+                  "slug": "legal-regimes-for-sustainable-development",
+                  "name": "Legal Regimes for Sustainable Development",
+                  "summary": "Unit 5 (10 marks): constitutional provisions and Indian environmental laws (the Environment Protection, Forest Conservation, Wildlife Protection, Biological Diversity, Water and Air Acts); the National Environment Policy; the NGT and its landmark cases; international regimes and institutions (UNEP, UNCTAD, WHO, UNDP, the Earth Summit, Agenda 21)."
+                },
+                {
+                  "slug": "technology-and-environment",
+                  "name": "Technology and Environment",
+                  "summary": "Unit 6 (10 marks): hi-tech, low-tech, intermediate, appropriate and traditional technology; Green AI; renewable energy sources; disease as an indicator of environmental health, sanitation and health services; traditional medicine and AYUSH; the potential and limits of biotechnology; bioremediation."
+                },
+                {
+                  "slug": "design-and-planning-for-environmental-conservation-and-protection",
+                  "name": "Design and Planning for Environmental Conservation and Protection",
+                  "summary": "Unit 7 (8 marks): ecosystem analysis (critical and state variables, indicator species, resilience); interactions between people and the environment and analysing issues through a case study; designing solutions in line with EIA, with the Goa beach tourism case study and a second case study of environmental sustainability."
+                }
+              ]
+            },
+            "biotechnology": {
+              "overview": "In the ISC 2028 syllabus, Class XI Biotechnology is a 70-mark, three-hour theory paper of five units, plus a 30-mark practical component made up of practical work, project work and a practical file.",
+              "syllabusSource": {
+                "title": "ISC Examination Year 2028 - Biotechnology (878), CISCE",
+                "url": "https://cisce.org/wp-content/uploads/2026/01/32.-Biotechnology.pdf",
+                "pages": "PDF p. 4 (printed p. 1: unit weightage table); PDF pp. 5-7 (printed pp. 2-4: Paper I units 1-5)"
+              },
+              "chapters": [
+                {
+                  "slug": "introduction-to-biotechnology",
+                  "name": "Introduction to Biotechnology",
+                  "summary": "Unit 1 (12 marks): the history and definitions (OECD, EFB) of biotechnology and key contributors; fermentation (curd, lactic acid, alcohol, beer); GLP and GMP; branches of biotechnology, IPR, ethical, legal and social issues (ELSI), biosafety and GEAC; Indian and global institutes; acids and bases, pH, buffers, probability and data types."
+                },
+                {
+                  "slug": "cell-biology",
+                  "name": "Cell Biology",
+                  "summary": "Unit 2 (14 marks): prokaryotic and eukaryotic cells; bacterial cell structure and Gram staining; cell organelles; chromosome organisation; the cell cycle and its regulation, mitosis and meiosis, mitotic index; stem cells; signal transduction; apoptosis; microscopy and karyotyping."
+                },
+                {
+                  "slug": "biomolecules-separation-techniques-and-defence-strategies",
+                  "name": "Biomolecules, Techniques to Separate the Biomolecules and Defence Strategies in Organisms",
+                  "summary": "Unit 3 (17 marks): carbohydrates, proteins and amino acids, lipids, vitamins and enzymes (mechanism, kinetics, inhibition); ion exchange and paper chromatography, centrifugation and isoelectric focusing; the immune system, ELISA, HLA and MHC; defence strategies and secondary metabolites in plants."
+                },
+                {
+                  "slug": "genetics",
+                  "name": "Genetics",
+                  "summary": "Unit 4 (12 marks): Mendel's experiments and laws; trait, gene, allele, genotype and phenotype; mutations and chromosomal aberrations; Turner's, Klinefelter's and Down's syndromes; inborn errors of metabolism; linkage, crossover value and gene mapping; cancer genetics."
+                },
+                {
+                  "slug": "introduction-to-cell-culture-technology",
+                  "name": "Introduction to Cell Culture Technology",
+                  "summary": "Unit 5 (15 marks): cell culture instruments (LAF, autoclave, haemocytometer, incubator and others); sterilisation; FACS sorting, cell counting and viability testing; nutrient media (LB, MS, White's, RPMI, DMEM, FBS) and their preparation; cryopreservation."
+                }
+              ]
+            }
+          }
         },
         {
           "level": 12,
@@ -1895,7 +4615,18 @@
     "science": "Science",
     "social-science": "Social Science",
     "history-civics": "History & Civics",
-    "geography": "Geography"
+    "geography": "Geography",
+    "computer-studies": "Computer Studies",
+    "computer-applications": "Computer Applications",
+    "english": "English",
+    "accountancy": "Accountancy",
+    "commerce": "Commerce",
+    "economics": "Economics",
+    "computer-science": "Computer Science",
+    "business-studies": "Business Studies",
+    "artificial-intelligence": "Artificial Intelligence",
+    "environmental-science": "Environmental Science",
+    "biotechnology": "Biotechnology"
   },
   "subjectOrder": [
     "mathematics",
@@ -1905,6 +4636,17 @@
     "biology",
     "social-science",
     "history-civics",
-    "geography"
+    "geography",
+    "computer-studies",
+    "computer-applications",
+    "english",
+    "accountancy",
+    "commerce",
+    "economics",
+    "computer-science",
+    "business-studies",
+    "artificial-intelligence",
+    "environmental-science",
+    "biotechnology"
   ]
 }

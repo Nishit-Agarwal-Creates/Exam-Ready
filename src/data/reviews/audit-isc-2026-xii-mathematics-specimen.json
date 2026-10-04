@@ -1,0 +1,227 @@
+{
+  "pack": "isc-2026-xii-mathematics-specimen",
+  "auditedOn": "2026-10-01",
+  "method": "Re-checked against the official PDF (SHA-256 matched) with pdftotext -layout, -raw and -table, page renders (pypdfium2) zoomed on notation, and the answer key in the same PDF.",
+  "checks": [
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1v",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1vi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1viii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1ix",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1x",
+      "agree": false,
+      "reason": "Official key (a) is doubtful: at x = 0 both tan(cot⁻¹ 0) = tan(π/2) and cot(tan⁻¹ 0) = cot 0 are undefined, so the Assertion 'true for all x ∈ R' as printed does not hold; the item should not be published with key (a) unchallenged."
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1xi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1xii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1xv",
+      "agree": false,
+      "reason": "Official answer 2/3 (key page 16) is inconsistent: it counts 'faulty then good' as identifying both faulty machines after two tests but omits 'good then faulty' (probability 1/3), which identifies them equally; under the key's own reasoning the probability is 1, so the stored answer is unreliable."
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#2i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#3",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#5i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#5ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#6",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#7",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#9i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#9ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#10i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#10ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#11",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#12i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#12ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#13i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#13ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#14",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#15i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#15ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#15iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#15iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#16i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#16ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#17ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#18",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#19iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#20i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#20ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#22i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#2ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1xiii",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

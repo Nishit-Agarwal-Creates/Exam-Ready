@@ -40,7 +40,7 @@ export function PyqListing({
   return (
     <>
       {years.length > 0 && (
-        <nav aria-label="Exam year" className="mt-6 flex flex-wrap items-center gap-2">
+        <nav aria-label="Exam year" className="chip-scroll -mx-4 mt-6 flex items-center gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 [&>*]:shrink-0">
           <span className="text-[0.92rem] text-pencil">Exam year</span>
           <Link href={href({})} className={`chip-link ${!year ? "!border-ink !bg-ink !text-white" : ""}`} aria-current={!year ? "page" : undefined}>
             All years
@@ -55,7 +55,7 @@ export function PyqListing({
 
       {chapters && chapters.some((c) => c.verifiedPyq > 0) && (
         <nav aria-label="Chapters" className="mt-4">
-          <ul className="flex flex-wrap gap-2">
+          <ul className="chip-scroll -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 [&>li]:shrink-0">
             {chapters
               .filter((c) => c.verifiedPyq > 0)
               .sort((a, b) => b.verifiedPyq - a.verifiedPyq)
@@ -126,18 +126,18 @@ export function PyqListing({
                     </div>
                   </details>
                   <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[0.9rem] sm:ml-[3.25rem]">
-                    <Link href={`/questions/${q.id}`} className="link">
+                    <Link href={`/questions/${q.id}`} className="link inline-flex min-h-6 items-center">
                       View question
                     </Link>
                     {src && (
-                      <Link href={`/sources/${src.paperId}`} className="link">
+                      <Link href={`/sources/${src.paperId}`} className="link inline-flex min-h-6 items-center">
                         View source
                       </Link>
                     )}
-                    <Link href={`/questions/${q.id}#similar`} className="link">
+                    <Link href={`/questions/${q.id}#similar`} className="link inline-flex min-h-6 items-center">
                       Find similar
                     </Link>
-                    <Link href={`/practice?subject=${subjectId}&chapter=${q.chapter.id}&mode=PYQ_ONLY`} className="link">
+                    <Link href={`/practice?subject=${subjectId}&chapter=${q.chapter.id}&mode=PYQ_ONLY`} className="link inline-flex min-h-6 items-center">
                       Practise this chapter
                     </Link>
                   </div>

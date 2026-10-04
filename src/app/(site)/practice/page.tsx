@@ -18,7 +18,7 @@ export default async function PracticePage({ searchParams }: { searchParams: Pro
   const sp = await searchParams;
   const [catalog, coverage] = await Promise.all([getCatalog(), getAllCoverage()]);
   const availability: Availability = Object.fromEntries(
-    coverage.map((r) => [r.subjectId, { verified: r.verified, pending: r.pending, ai: r.aiPractice, years: r.years }]),
+    coverage.map((r) => [r.subjectId, { verified: r.verified, pending: r.pending, authentic: r.authentic, ai: r.aiPractice, years: r.years }]),
   );
   const one = (v: string | string[] | undefined) => (Array.isArray(v) ? v[0] : v);
   const subjectId = Number(one(sp.subject)) || undefined;

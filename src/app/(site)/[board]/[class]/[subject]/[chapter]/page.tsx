@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const m = await subjectMetaContext(p);
   const chapter = m?.ctx.chapters.find((c) => c.slug === p.chapter);
   if (!m || !chapter) return { title: "Not found", robots: { index: false } };
-  const res = await searchQuestions({ subjectId: m.ctx.subject.id, chapterId: chapter.id, publicOnly: true, pageSize: 1 }, false);
+  const res = await searchQuestions({ subjectId: m.ctx.subject.id, chapterId: chapter.id, publicOnly: true, groupOnce: true, pageSize: 1 }, false);
   return pageMetadata({
     title: `${chapter.name}: ${m.name} questions`,
     description: `${chapter.name} for ${m.name}. ${chapter.summary} Practice questions with answers and a one-tap chapter test.`.slice(0, 300),
@@ -34,7 +34,7 @@ export default async function ChapterPage({ params }: Props) {
   const idx = d.chapters.findIndex((c) => c.slug === p.chapter);
   if (idx < 0) notFound();
   const chapter = d.chapters[idx];
-  const res = await searchQuestions({ subjectId: d.subject.id, chapterId: chapter.id, publicOnly: true, pageSize: 12 }, true);
+  const res = await searchQuestions({ subjectId: d.subject.id, chapterId: chapter.id, publicOnly: true, groupOnce: true, pageSize: 12 }, true);
   const s = d.stats.get(chapter.id);
   const prev = d.chapters[idx - 1];
   const next = d.chapters[idx + 1];

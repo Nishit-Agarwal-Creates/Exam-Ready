@@ -68,3 +68,30 @@ test("only real exam years become PYQ filters (and cache keys)", async () => {
   assert.equal(examYear("2025"), 2025);
   for (const v of ["", "abc", "12345", "2025.5", "1800", "-2025"]) assert.equal(examYear(v), undefined, v);
 });
+
+test("pack notation markup becomes super/subscripts without touching blanks", async () => {
+  const { parseMath } = await import("../src/lib/math-markup.ts");
+  const kinds = (s: string) => parseMath(s).map((p) => `${p.kind}:${p.value}`).join("|");
+  assert.equal(kinds("4 x 10^8 m/s"), "text:4 x 10|sup:8|text: m/s");
+  assert.equal(kinds("e^(–Ea/RT)"), "text:e|sup:–Ea/RT");
+  assert.equal(kinds("((3²)^(1/3))"), "text:((3²)|sup:1/3|text:)");
+  assert.equal(kinds("∫_{π/4}^{3π/4} f"), "text:∫|sub:π/4|sup:3π/4|text: f");
+  assert.equal(kinds("X^C blood"), "text:X|sup:C|text: blood");
+  assert.equal(kinds("Fill in ____ and ___"), "text:Fill in ____ and ___");
+  assert.equal(kinds("x^ab"), "text:x^ab");
+});
+
+test("isIndented keeps code indentation only for indented lines", async () => {
+  const { isIndented } = await import("../src/lib/math-markup.ts");
+  assert.equal(isIndented("for i in range(3):\n    print(i)"), true);
+  assert.equal(isIndented("if (x > 0)\n\treturn x;"), true);
+  assert.equal(isIndented("Define refraction.\nState Snell's law."), false);
+  assert.equal(isIndented("Trailing spaces \n"), false);
+  assert.equal(isIndented(null), false);
+});
+
+test("a whole class is measured against the 600-question goal", () => {
+  assert.equal(coverageStatus({ verifiedPyq: 0, officialSample: 177, community: 0 }, "class").tone, "limited");
+  assert.equal(coverageStatus({ verifiedPyq: 100, officialSample: 150, community: 0 }, "class").tone, "growing");
+  assert.equal(coverageStatus({ verifiedPyq: 400, officialSample: 250, community: 0 }, "class").tone, "strong");
+});

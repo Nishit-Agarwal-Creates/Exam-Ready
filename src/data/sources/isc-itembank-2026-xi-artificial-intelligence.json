@@ -1,0 +1,1897 @@
+{
+  "source": {
+    "key": "isc-itembank-2026-xi-artificial-intelligence",
+    "title": "CISCE Competency-Focused Practice Questions (Item Bank), ISC Class XI Artificial Intelligence",
+    "board": "icse",
+    "class": 11,
+    "subject": "artificial-intelligence",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "QUESTION_BANK",
+    "examYear": null,
+    "session": "Competency-Focused Practice Questions (Item Bank), ISC Class XI, first edition August 2026",
+    "paperName": "Artificial Intelligence, ISC Class XI",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2026/09/Artificial-Intelligence-XI.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2026/09/Artificial-Intelligence-XI.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 31,
+    "sha256": "a5d3d48dfaaf9ee5c63fb31add81aae60b29afaf14c7beb5e2fc30eeb0356bed",
+    "maxMarks": null,
+    "durationMinutes": null,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler) -layout and -raw, pdfplumber; pages rendered with pypdfium2 to check notation",
+    "ocrUsed": false,
+    "notes": "Official CISCE item bank 'ISC Competency Focused Practice Questions, Artificial Intelligence, Class - XI' (cover prints 'cLASS - XI'; page headers 'ISC-Class XI'; 'First edition: August 2026'; preface by the Chief Executive & Secretary dated 31st August 2026; file uploaded to cisce.org in 2026/09). It is a question bank, not an examination paper: examYear is null and no maximum marks or duration are printed. 31 PDF pages: questions on printed pages 1-18 (PDF pages 6-23; PDF page = printed page + 5), Answer Key on printed pages 19-25 (PDF pages 24-30). 76 questions in five sections with marks in each section header: I MCQs (Q1-25, 1 mark each), II Assertion-Reason (Q26-31, 1 mark each), III Very Short Answer (Q32-56, 1 mark each), IV Short Answer (Q57-71, 2 marks each), V Long Answer (Q72-76, 10 marks each); marksSource is SECTION_INSTRUCTIONS and the 136-mark total is just the sum of the bank. Multi-part questions (sub-part marks printed in brackets) are kept as one entry. Each question prints a topic tag in square brackets and a cognitive domain in parentheses (recorded as cognitiveLevel). The document uses a math font whose text layer doubles or garbles italic letters (e.g. 'AA' for A, wrong letters in Q19); those expressions were rebuilt from the rendered pages and flagged MEDIUM. officialAnswer comes from the bank's own Answer Key, which 'presents the possible answers to a given question, but it is neither limiting nor exhaustive'; copied as printed, never extended. Code in the answer key is kept line by line; its display indentation (proportional font) is approximated. The copyright page reserves all rights; reproduction here is for study with attribution and a link to the original.",
+    "usage": "Official CISCE question bank from cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which one of the following is most likely a probabilistic problem?",
+      "options": [
+        "Calculating simple interest on a fixed deposit",
+        "Checking whether a number is even or odd",
+        "Predicting tomorrow’s rainfall in a city",
+        "Converting Celsius temperature to Fahrenheit"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Predicting tomorrow’s rainfall in a city",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A hospital stores patient records in a relational database with fixed columns like ID, Name, Age and Diagnosis. This is an example of:",
+      "options": [
+        "Unstructured data",
+        "Semi-structured data",
+        "Structured data",
+        "Random data"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Structured data",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "In binary logic, which gate produces output 1 only when both inputs are 1?",
+      "options": [
+        "OR",
+        "AND",
+        "NOT",
+        "XOR"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) AND",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which step in an AI project framework most directly involves identifying stakeholders, goals and constraints?",
+      "options": [
+        "Data acquisition",
+        "Data exploration",
+        "Problem scoping",
+        "Model evaluation"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Problem scoping",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "An AI system that reads transaction records, learns patterns and flags suspicious activities in real time is primarily demonstrating:",
+      "options": [
+        "Evolution of computing hardware",
+        "Rule-based symbolic reasoning only",
+        "Data-driven decision making",
+        "Binary arithmetic operations"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Data-driven decision making",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "An online marketplace adjusts product prices automatically based on demand patterns and user behaviour. This is an example of AI used in:",
+      "options": [
+        "Scanner machines",
+        "Social networking",
+        "Web‑based auction or e‑commerce systems",
+        "Static word processing"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Web‑based auction or e‑commerce systems",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "state-of-art-of-ai-nlp-and-potential-use-of-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following is an example of applying Set Theory in AI data preparation?",
+      "options": [
+        "Creating a histogram of student scores",
+        "Performing an INNER JOIN to combine customer and purchase data",
+        "Training a neural network on image data",
+        "Converting text to lowercase for preprocessing"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Performing an INNER JOIN to combine customer and purchase data",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Let A = {1,2,3} and B = {3,4,5}. The union A ∪ B is:",
+      "options": [
+        "{3}",
+        "{1,2,3}",
+        "{3,4,5}",
+        "{1,2,3,4,5}"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Math italic letters are doubled/garbled in the text layer (e.g. 'AA' for A); expression rebuilt from the page render; check against the PDF",
+        "The stem also prints '[Competency: Recall]' after the question; omitted as a cognitive tag"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) {1,2,3,4,5}",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which statement about variance is correct?",
+      "options": [
+        "It is always equal to the mean",
+        "It is the average of squared deviations from the mean",
+        "It is the middle value of sorted data",
+        "It is the most frequent value in a dataset"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) It is the average of squared deviations from the mean",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which measure of central tendency is least affected by extreme outliers?",
+      "options": [
+        "Mean",
+        "Median",
+        "Mode",
+        "Variance"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Median",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A teacher wants to compare the number of students in four clubs: Music, Sports, Art and Coding. The most appropriate graph is:",
+      "options": [
+        "Histogram",
+        "Bar graph",
+        "Scatter plot",
+        "Pie chart with 20 slices"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Bar graph",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "In Pandas, which function is commonly used to remove rows with missing values?",
+      "options": [
+        "df.replace( )",
+        "df.dropna( )",
+        "df.groupby( )",
+        "df.sort_values( )"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) df.dropna( )",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which operation is most appropriate to replace wrong values such as -1 in an age column with the column mean?",
+      "options": [
+        "df[\"age\"].dropna()",
+        "df[\"age\"].astype(int)",
+        "df[\"age\"].replace(-1, df[\"age\"].mean())",
+        "df[\"age\"].fillna(0)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) df[\"age\"].replace(-1, df[\"age\"].mean())",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which statement about standardization (Z‑score scaling) is correct?",
+      "options": [
+        "It converts text to numbers",
+        "It rescales data to a fixed range between 0 and 1",
+        "It transforms data to have mean 0 and standard deviation 1",
+        "It removes all outliers automatically"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) It transforms data to have mean 0 and standard deviation 1",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A student is given a dataset with 50,000 rows containing missing values (NaN). The student performs statistical analysis directly without data cleaning. What will be the likely consequence?",
+      "options": [
+        "The analysis will be faster and more efficient",
+        "Missing values will be automatically filled with zeros",
+        "Calculations will produce inaccurate and misleading results, distorting statistical measures",
+        "Python will generate an error and halt all operations"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Calculations will produce inaccurate and misleading results, distorting statistical measures",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A retail company builds a linear regression model to predict daily sales from advertising expenditure. After training, the data scientist notices that the model’s predicted sales are very close to the actual sales, so the residuals (errors) are very small. The company plans to use these predictions for inventory planning and budgeting.\nIn this situation, why is it important for the model to have small residuals?",
+      "options": [
+        "To reduce randomness in the data",
+        "To increase the value of the regression slope",
+        "To improve the accuracy of sales predictions",
+        "To remove unnecessary data points"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) To improve the accuracy of sales predictions",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Why is min‑max scaling often used before distance-based algorithms?",
+      "options": [
+        "It converts all values to integers",
+        "It makes all features have the same number of unique values",
+        "It brings features to a similar range so one feature does not dominate due to scale",
+        "It guarantees zero variance"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) It brings features to a similar range so one feature does not dominate due to scale",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A data analyst is using linear regression to predict students’ marks based on study hours. She ensures that the model assumptions are satisfied and applies the least squares method. Why does she use the least squares method in linear regression?",
+      "options": [
+        "To maximize prediction errors",
+        "To minimize the sum of squared residuals",
+        "To increase the slope of the line",
+        "To remove all outliers"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) To minimize the sum of squared residuals",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A student uses simple linear regression to study how marks (Y) change with hours studied (X). Which equation correctly represents this relationship?",
+      "options": [
+        "Y = m + cX",
+        "X = mY + c",
+        "Y = mX + c",
+        "X = Y + c"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Math italic letters are doubled/garbled in the text layer (e.g. 'AA' for A); expression rebuilt from the page render; check against the PDF (options and answer key)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) Y = mX + c",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Outliers can affect a linear regression line because:",
+      "options": [
+        "They are always ignored by the least squares method",
+        "They reduce the number of points used",
+        "Their squared errors can be very large and pull the line towards them",
+        "They change the independent variable type"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Their squared errors can be very large and pull the line towards them",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A school introduces an AI-based system to evaluate scholarship applications. After a few months, it is observed that students from certain backgrounds are consistently receiving lower scores, even when their academic performance is similar to others. The school administration investigates whether the AI system is treating all applicants equally and without bias.\nWhich primary concern of AI Ethics is most relevant in this situation?",
+      "options": [
+        "Increasing the processing speed of AI systems",
+        "Ensuring fairness and reducing bias in AI decisions",
+        "Making AI models larger and more complex",
+        "Improving the popularity of AI applications"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Ensuring fairness and reducing bias in AI decisions",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A student plots a graph showing the relationship between the number of hours studied (X-axis) and marks obtained (Y-axis). A straight best-fit line is drawn through the data points. He observes that as study hours increase, the marks also increase steadily along the line.\nBased on the graph, what does the slope 'm' in the equation y = mx + c represent?",
+      "options": [
+        "The point where the line crosses the y-axis",
+        "The highest marks obtained by any student",
+        "The rate at which marks increase for each additional hour studied",
+        "The total number of data points plotted"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 11 not reproduced (scatter plot with best-fit line); the question can be answered from the text",
+        "Math italic letters are doubled/garbled in the text layer (e.g. 'AA' for A); expression rebuilt from the page render; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) The rate at which marks increase for each additional hour studied",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A company uses an AI system to shortlist candidates for job interviews. Over time, it is noticed that qualified candidates from certain groups are repeatedly rejected, while less qualified candidates from other groups are selected. What is the most likely effect of bias in AI systems in this scenario?",
+      "options": [
+        "Faster decision-making with completely accurate results",
+        "Incorrect predictions and unfair outcomes affecting certain groups",
+        "Greater accuracy and equal opportunities for all candidates",
+        "Increased transparency in the AI decision-making process"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Incorrect predictions and unfair outcomes affecting certain groups",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Designing AI agents that look and behave exactly like humans may create ethical risks because:",
+      "options": [
+        "Users may be clearly informed they are speaking to a machine",
+        "Users can easily distinguish them from humans",
+        "It can blur human–machine boundaries and mislead users",
+        "It eliminates all privacy concerns"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) It can blur human–machine boundaries and mislead users",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions (MCQs)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Why should organizations perform regular AI audits?",
+      "options": [
+        "To hide bias and errors",
+        "To ensure ethical compliance and detect issues early",
+        "To increase model size",
+        "To avoid human review"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) To ensure ethical compliance and detect issues early",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "II",
+      "sectionTitle": "Assertion- Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion (A) and Reason (R). Read the statements carefully and select the correct option.\nAssertion (A): A self-driving car deciding when to apply brakes is an example of machine decision making.\nReason (R): The car’s AI system processes sensor data and applies learned rules or models to choose an appropriate action.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation",
+        "Both Assertion and Reason are true but Reason is not the correct explanation",
+        "Assertion is true and Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both Assertion and Reason are true and Reason is the correct explanation",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "II",
+      "sectionTitle": "Assertion- Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion (A) and Reason (R). Read the statements carefully and select the correct option.\nAssertion (A): High variance in a dataset indicates that values are widely spread around the mean.\nReason (R): Variance is the mean of squared deviations from the mean.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation",
+        "Both Assertion and Reason are true but Reason is not the correct explanation",
+        "Assertion is true and Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both Assertion and Reason are true and Reason is the correct explanation",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "II",
+      "sectionTitle": "Assertion- Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion (A) and Reason (R). Read the statements carefully and select the correct option.\nAssertion (A): Deep Learning models often use multiple hidden layers to learn complex features from data.\nReason (R): Each additional layer can learn increasingly abstract representations of the input.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation",
+        "Both Assertion and Reason are true but Reason is not the correct explanation",
+        "Assertion is true and Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both Assertion and Reason are true and Reason is the correct explanation",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "state-of-art-of-ai-nlp-and-potential-use-of-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "II",
+      "sectionTitle": "Assertion- Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion (A) and Reason (R). Read the statements carefully and select the correct option.\nAssertion (A): Standardization of data using Z-score normalization is necessary before applying distance-based algorithms like K-means clustering.\nReason (R): Z-score normalization ensures all features have a mean of 0 and standard deviation of 1, preventing features with larger scales from dominating the algorithm.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation",
+        "Both Assertion and Reason are true but Reason is not the correct explanation",
+        "Assertion is true and Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both Assertion and Reason are true and Reason is the correct explanation",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "II",
+      "sectionTitle": "Assertion- Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion (A) and Reason (R). Read the statements carefully and select the correct option.\nAssertion (A): In regression, the independent variable is the value we are trying to predict.\nReason (R): The independent variable depends on the dependent variable.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation",
+        "Both Assertion and Reason are true but Reason is not the correct explanation",
+        "Assertion is true and Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) Both Assertion and Reason are false",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "II",
+      "sectionTitle": "Assertion- Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked Assertion (A) and Reason (R). Read the statements carefully and select the correct option.\nAssertion (A): Model pruning reduces AI’s environmental impact.\nReason (R): It removes unnecessary parts of the model, saving computation and energy.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation",
+        "Both Assertion and Reason are true but Reason is not the correct explanation",
+        "Assertion is true and Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both Assertion and Reason are true and Reason is the correct explanation",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Differentiate between structured and unstructured data with one example each.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Structured: organized in fixed schema (tables), easy to query; example: student database.\nUnstructured: no fixed format; example: social media images and posts."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "In the AI project framework, what is meant by data exploration?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Initial analysis of collected data to understand structure, quality and patterns; use of summary statistics, visualizations; detection of missing values, outliers, inconsistencies"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "basic-concepts-of-artificial-intelligence",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "34",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Distinguish between Machine Learning and Deep Learning in terms of data and model complexity.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Machine Learning includes a broad set of algorithms, can work with smaller feature sets.\nDeep Learning uses multi‑layer neural networks and usually needs large datasets for complex patterns"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "state-of-art-of-ai-nlp-and-potential-use-of-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "35",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Define Natural Language Processing (NLP) and mention one key task it performs.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "AI field enabling computers to understand/generate human language.\nTasks include text classification, sentiment analysis, translation, question answering"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "state-of-art-of-ai-nlp-and-potential-use-of-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "36",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Define a matrix and explain why matrices are important in AI.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Rectangular array of numbers; represent images, datasets, weights, transformations; crucial for neural networks, computer vision."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "37",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "For the dataset {10,10,20,30}, compute the mean and mode.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Mean = (10+10+20+30)/4 = 70/4 = 17.5\nMode = 10"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "38",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A movie platform represents user ratings in a matrix where rows are users and columns are movies. Most entries are zero because users’ rate only a few movies. What type of matrix does this ratings table resemble and why?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Sparse matrix; most entries are zero"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "39",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A school stores student marks in three subjects as a matrix where each row is [Maths, Physics, CS]. The AI system calculates summary statistics to identify overall trends. Which measures of central tendency could be used to summarize average performance per subject?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Math italic letters are doubled/garbled in the text layer (e.g. 'AA' for A); expression rebuilt from the page render; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Mean and median marks per subject"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "40",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A company maintains two tables: one with customer IDs and contact details, another with customer IDs and purchase histories. An AI model needs a combined dataset. Which set-like operation in relational algebra is used to combine these tables on customer ID?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Join (e.g., natural join or equi‑join)"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "41",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Define a vector and explain its significance in representing data points in AI.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "A vector is an ordered list of numbers (components) that can represent magnitude and direction.\nIn AI, a data instance (e.g., features of a customer) is represented as a vector so algorithms can compute distances, similarities, and transformations."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "42",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Given two vectors u⃗ = (1,2) and v⃗ = (3,4), compute their dot product.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Math italic letters are doubled/garbled in the text layer (e.g. 'AA' for A); expression rebuilt from the page render; check against the PDF (vector arrows)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Dot product: 1 ⋅ 3 + 2 ⋅ 4 = 3 + 8 = 11."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "43",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "How are data table joins related to set theory?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Joins combine rows from tables based on related keys, similar to performing set operations on sets of tuples."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "44",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Why is data visualization important in an AI project?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It helps understand patterns, distributions, trends and relationships in data, guiding feature engineering and model choice."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "45",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Explain how missing values can negatively affect a visualization and give one method to handle them.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It can distort averages, counts, shapes of histograms;\nHandling methods: drop rows (dropna), impute mean/median."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "46",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "What is an outlier?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Outlier: an observation significantly different from most data points."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "47",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "How would you handle duplicate rows in Data frame ‘df’ before plotting?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "df = df.drop_duplicates()\nThis ensures each observation is unique, preventing bias from repeated identical entries."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "48",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "How can a heatmap of correlations help in feature selection for an AI model?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It shows which features are strongly correlated with target or with each other; helps drop redundant features"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "49",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A marks dataset has \"marks\" between 0 and 100, but some rows show 999 due to entry errors. Why we should not simply ignore these invalid values when computing class statistics?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "They inflate averages and distort distribution; must be corrected or removed."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "50",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A teacher collects data for 10 students: hours studied (x) and exam scores (y). The teacher wants to use regression to predict score from hours studied. Identify the independent and dependent variables.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Independent: hours studied\nDependent: exam score."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "51",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A student plans a monthly budget: fixed internet bill ₹500 plus ₹3 per unit of electricity used (x). Total electricity cost (y) is linear in units. Write the linear equation for monthly cost y in terms of x.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Math italic letters are doubled/garbled in the text layer (e.g. 'AA' for A); expression rebuilt from the page render; check against the PDF (answer key)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "y = 500 + 3x."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "52",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State any two strategies to reduce bias in AI systems.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Use diverse/representative data; fairness audits; regular testing; human review; reweighting and balancing data."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "53",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "What ethical issue arises if a chatbot does not disclose that it is an AI system?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Deception, misplaced trust, over‑sharing personal info, reduced transparency."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "54",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "How can gender imbalance in the training data of a hiring model create biased outcomes?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "If historical data contains mostly male hires, the model may learn that “male” patterns are associated with success and may unfairly rank female candidates lower, even when equally qualified."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "55",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Why is transparency important when AI is used in high‑stakes decisions (e.g., admissions, loans)?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "People affected need to know that AI is being used, understand basic reasons for decisions, and have a way to question or appeal, which builds trust and helps detect errors or bias."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "56",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Explain why children’s data needs extra protection in AI systems used in schools.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Children are more vulnerable, may not fully understand risks, and misuse of their data can harm them for years (profiling, exploitation); hence stronger consent, minimization, and safeguards are required."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "57",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A company tracks monthly online advertising spend (X, in thousand rupees) and sales revenue (Y, in lakh rupees) for 8 months. A simple linear regression model is fitted: Ŷ = 5.2 + 3.1X\nWhat 5.2 and 3.1 represent in this context?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Math italic letters are doubled/garbled in the text layer (e.g. 'AA' for A); expression rebuilt from the page render; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Intercept 5.2: Predicted baseline sales of 5.2 lakhs when advertising spend is zero.\nSlope 3.1: For each additional 1 thousand rupees spent on ads, predicted sales increase by approximately 3.1 lakhs."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "58",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "What is the transpose of a matrix? How is it useful in vector and matrix operations?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The bank tags this question [Basic Concepts of Artificial Intelligence]; chapter suggested from the content",
+        "Answer key notation (Aᵀ, x⃗ᵀy⃗) rebuilt from the page render; the text layer doubles/garbles math letters; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "• Transpose of matrix A is obtained by interchanging rows and columns, denoted Aᵀ.\n• It is used to convert row vectors to column vectors, to express dot products in matrix form (x⃗ᵀy⃗), and in formulas for covariance and correlation."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "59",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A dataset of monthly online orders is: 20, 22, 25, 50. Compute the mean and median using Python.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The bank tags this question [Basic Concepts of Artificial Intelligence]; chapter suggested from the content"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "• Mean = (20+22+25+50)/4 = 117/4 = 29.25\n• Median = (22+25)/2 = 23.5 (since sorted data: 20,22,25,50).\nPython code :\nimport statistics as st\ndata = [20,22,25,50]\nprint(st.mean(data)) # 29.25\nprint(st.median(data)) # 23.5"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "60",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A robot collects acceleration data in 3D space at each time step as vectors of the form (a_x, a_y, a_z). These vectors are used to detect sudden movements.\n(a) How can you compute the magnitude of each acceleration vector using its components?\n(b) Why might a high standard deviation of magnitudes over time indicate unusual robot behaviour?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The bank tags this question [Basic Concepts of Artificial Intelligence]; chapter suggested from the content",
+        "Sub-part marks printed as [1] each; kept as one 2-mark entry",
+        "Subscripts written as a_x, a_y, a_z; Math italic letters are doubled/garbled in the text layer (e.g. 'AA' for A); expression rebuilt from the page render; check against the PDF",
+        "Answer (a) square root and powers rebuilt from the page render; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) √(a_x² + a_y² + a_z²).\n(b) High spread suggests irregular or abrupt movements, possibly collisions or instability."
+      },
+      "cognitiveLevel": "Application + Evaluate",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "61",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Briefly explain what is meant by dimensionality of data. How does high dimensionality impact visualization?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "• Dimensionality: number of features/variables describing each data point.\n• High dimensionality (many features) makes direct human visualization difficult; we must use projections (e.g., PCA), pairplots, or encode multiple dimensions via color, size, etc."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "62",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Why is it sometimes better to use a bar chart instead of a pie chart for category comparisons?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "• Bar charts allow easier comparison of lengths, especially with many categories or similar values.\n• Pie charts make it hard to judge and compare angles precisely."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "63",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Why is data visualization important in an AI project? Give one example.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It helps understand patterns, distributions, trends and relationships in data, guiding feature engineering and model choice.\nExample: A scatter plot of study hours vs marks reveals positive correlation, suggesting linear regression might be appropriate."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "64",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Define data cleaning and list any two common issues it addresses.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Identifying and correcting errors in data; issues: missing values, duplicates, inconsistent formats, wrong values."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "65",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "How can you detect missing values in each column using Pandas? Show the Python statement.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "missing_counts = df.isnull().sum()\nprint(missing_counts)\n#isnull() returns True where values are missing.\n#sum() counts True per column."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "66",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A simple linear regression model is fitted to data of advertising spend (x in ₹1000) vs sales (y in units). After fitting, residuals (errors) are plotted against fitted values and show no pattern.\n(a) What are residuals in regression?\n(b) Why is a random scatter of residuals desirable?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-part marks printed as [1] each; kept as one 2-mark entry",
+        "Answer (a) subscripts rebuilt from the page render (e_i = y_i − ŷ_i); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Differences between observed y and predicted ŷ: e_i = y_i − ŷ_i.\n(b) Suggests model assumptions (linearity, constant variance) are reasonable; no systematic pattern left."
+      },
+      "cognitiveLevel": "Understanding + Evaluate",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "67",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Explain the terms dependent variable and independent variable in regression analysis with a small AI‑relevant example.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Dependent variable: the outcome to be predicted (e.g., house price).\nIndependent variable: input features used for prediction (e.g., house size)."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "68",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "What is an Entity–Relationship (ER) diagram? Name its three main components.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "ER diagram is a conceptual representation of entities, attributes, and relationships in a domain.\nComponents: entities (rectangles), attributes (ovals), relationships (diamonds/lines)"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "69",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A college uses an AI system to score applicants for admission based on marks, entrance test and extracurricular activities. Later it is found that students from rural schools receive systematically lower scores even with similar marks.\n(a) Identify the ethical issue here.\n(b) Suggest one data‑related step to investigate the cause.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-part marks printed as [1] each; kept as one 2-mark entry"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Algorithmic bias / unfair discrimination against rural students.\n(b) Check training data distribution by school location, and compare model performance/average scores for rural vs urban groups."
+      },
+      "cognitiveLevel": "Analysis + Application",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "70",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A school deploys an AI app that tracks students’ browsing history, keystrokes and webcam feed to “improve discipline and learning”. Identify at least two privacy concerns.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Constant surveillance of online activity and webcam feed.\nCollection of sensitive personal information without clear limits or consent."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "71",
+      "part": null,
+      "choiceGroup": null,
+      "page": 20,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A school uses a chatbot that suggests careers to students. It often suggests engineering or coding roles to boys and fewer such options to girls, even when marks are similar.\n(a) What type of bias is visible?\n(b) Propose one ethical change in the chatbot’s design.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-part marks printed as [1] each; kept as one 2-mark entry"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Gender bias / stereotyping in recommendations.\n(b) Remove gender as an input feature and ensure career suggestions are based on interests and abilities, not stereotypes; regularly test outputs across genders."
+      },
+      "cognitiveLevel": "Analysis + Create",
+      "chapter": "ethical-practices-in-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "72",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 10,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "A hospital collects patient data to predict risk of heart disease. The dataset includes age, blood pressure, cholesterol, and exercise frequency. Issues found:\n• Some rows have missing cholesterol values\n• Several rows are exact duplicates\n• Exercise frequency is stored as \"low\", \"medium\", \"high\" in some rows and 0,1,2 in others\n(a) Identify two data quality problems from the above and explain how each can affect the AI model.\n(b) Write Python code using Pandas to:\n• Drop duplicate rows, and\n• Replace missing cholesterol values with the mean cholesterol.\nAssume the DataFrame is named df and cholesterol column is \"cholesterol\".\n(c) Name a suitable graph type to visualise the distribution of cholesterol values and explain why it is appropriate.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-part marks printed (a) [4], (b) [3], (c) [3]; kept as one 10-mark entry"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Any two\n• Missing values: leaving them untreated may cause errors in training or biased patterns if many rows are dropped.\n• Duplicate rows: over‑represent certain patients, biasing the model towards repeating those patterns.\n• Inconsistent formats for the same feature (exercise frequency): model or preprocessing code may misinterpret categories, leading to wrong one‑hot encoding or numerical mapping.\n(b) Suggested Python code:\nimport pandas as pd\n# Drop duplicate rows\ndf = df.drop_duplicates()\n# Fill missing cholesterol values with column mean\ndf['cholesterol'].fillna(df['cholesterol'].mean(), inplace=True)\n(c) A histogram: It shows how cholesterol values are distributed across ranges, making it easy to spot skewness and outliers."
+      },
+      "cognitiveLevel": "Analysis + Evaluate + Application + Understanding",
+      "chapter": "theoretical-and-practical-aspects-of-data-processing",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "73",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 10,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "An e‑commerce site wants to recommend AI‑related courses. They have:\n• Browsing history: courses viewed by each user\n• Purchase history: courses bought by each user\n• Ratings (1 to 5 stars) for purchased courses\n(a) Explain how the concepts of union and intersection can help in designing recommendation logic.\n(b) Assume you have a CSV file \"courses.csv\" with columns: \"user_id\", \"course_name\", \"rating\".\nWrite Python code to:\n• Load it into a DataFrame df, and\n• Display the first five rows of only \"user_id\" and \"course_name\" columns.\n(c) Explain how mean rating and number of ratings for each course can be used together for better recommendations.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-part marks printed (a) [4], (b) [3], (c) [3]; kept as one 10-mark entry"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) For a user, the union of viewed and purchased courses gives the set of all courses they have shown interest in; useful to infer preferences and build profile.\nThe intersection across users (courses that many people both view and buy) helps identify popular, high‑interest courses to recommend to similar users.\n(b) Suggested Python code:\nimport pandas as pd\ndf = pd.read_csv('courses.csv')\nprint(df[['user_id', 'course_name']].head())\n(c) Mean rating shows average satisfaction, but a high mean from only a few ratings may not be reliable.\nCombining mean rating with count of ratings helps prefer courses that are both well‑liked and widely rated, adding robustness."
+      },
+      "cognitiveLevel": "Analysis + Evaluate + Application",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "74",
+      "part": null,
+      "choiceGroup": null,
+      "page": 22,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 10,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "You are working with a 3×3 matrix that represents pixel intensities of an image patch:\nA =\n[10 20 30]\n[40 50 60]\n[70 80 90]\n(a) Let\nB =\n[1 1 1]\n[2 2 2]\n[3 3 3]\nCompute C = A + B.\nAlso, state one use of matrix addition in image processing.\n(b) Two 3‑dimensional vectors represent AI course preferences of two students:\nu = [1,3,2] and v = [2,1,0].\n(i) Compute u ⋅ v.\n(ii) In one line, explain how dot product can relate to similarity.\n(c) Write Python code (using NumPy) to create matrices A and B as above and compute C = A + B.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-part marks printed (a) [4], (b) [3], (c) [3]; kept as one 10-mark entry",
+        "Matrices A, B (and C in the answer key) are printed in bracket notation; rebuilt as one row per line from the page render",
+        "Math italic letters are doubled/garbled in the text layer (e.g. 'AA' for A); expression rebuilt from the page render; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) C =\n[11 21 31]\n[42 52 62]\n[73 83 93]\nUse (any one):\nAdding a filter or bias to an image.\nBlending/averaging two images (e.g., noise reduction or morphing).\n(b) (i) u ⋅ v = 1 × 2 + 3 × 1 + 2 × 0\n= 2 + 3 + 0 = 5.\n(ii) Larger dot product corresponds to higher alignment between vectors, often used as a measure of similarity in recommendation systems or embeddings.\n(c) Suggested Python code:\nimport numpy as np\nA = np.array([[10, 20, 30],\n          [40, 50, 60],\n          [70, 80, 90]])\nB = np.array([[1, 1, 1],\n          [2, 2, 2],\n          [3, 3, 3]])\nC = A + B\nprint(\"C =\\n\", C)"
+      },
+      "cognitiveLevel": "Analysis + Application + Understanding",
+      "chapter": "mathematics-for-ai",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "75",
+      "part": null,
+      "choiceGroup": null,
+      "page": 22,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 10,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "A start‑up records study hours (X) and test scores (Y) of 5 students:\nStudent | Study Hours (X) | Score (Y)\nA | 2 | 50\nB | 3 | 55\nC | 4 | 63\nD | 5 | 70\nE | 6 | 78\n(a) Using scikit-learn, write code to:\n• Store X and Y,\n• Fit a simple linear regression model,\n• Print the slope and intercept.\n(b) Suppose the fitted model is approximately:\nŶ = 35 + 7X.\nExplain in words what 35 and 7 means in the equation.\n(c) Give one way the teacher can use this regression model to plan support for students.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-part marks printed (a) [4], (b) [3], (c) [3]; kept as one 10-mark entry",
+        "Table on page 22 reproduced as text rows (cells separated by '|'); check against the PDF",
+        "Math italic letters are doubled/garbled in the text layer (e.g. 'AA' for A); expression rebuilt from the page render; check against the PDF (Ŷ = 35 + 7X)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Python code\nimport numpy as np\nfrom sklearn.linear_model import LinearRegression\nX = np.array([[2], [3], [4], [5], [6]])\nY = np.array([50, 55, 63, 70, 78])\nmodel = LinearRegression()\nmodel.fit(X, Y)\nprint(\"Intercept:\", model.intercept_)\nprint(\"Slope:\", model.coef_[0])\n(b) 35: Baseline predicted score when study hours = 0 (starting performance).\n7: For each extra hour of study, predicted score increases by 7 marks, assuming other factors unchanged\n(c) Predict expected scores for different planned study hours and advise students about how much they should study.\nIdentify students whose actual scores are much lower than predicted for their hours and provide targeted support."
+      },
+      "cognitiveLevel": "Application + Analysis/Understanding + Evaluate",
+      "chapter": "data-modelling-and-simple-linear-regression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "76",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 10,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "A company analyses three AI courses offered to students: AI Basics, Data Science, and Robotics. The data is:\nCourse | Students | Average Score\nAI Basics | 50 | 80\nData Science | 35 | 76\nRobotics | 25 | 72\n(a) Write Python code using `matplotlib` to plot a bar chart for the number of students in each course.\n(b) Suggest one additional graph type to compare average scores across the three courses and justify why it is effective.\n(c) Based on the data, mention one insight and one recommendation for the school.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Sub-part marks printed (a) [4], (b) [3], (c) [3]; kept as one 10-mark entry",
+        "Table on page 23 reproduced as text rows (cells separated by '|'); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Python code\nimport matplotlib.pyplot as plt\ncourses = ['AI Basics', 'Data Science', 'Robotics']\nstudents = [50, 35, 25]\nplt.figure(figsize=(6, 4))\nplt.bar(courses, students, color=['#4E79A7', '#F28E2B', '#76B7B2'],\nedgecolor='black')\nplt.title('Number of Students per Course')\nplt.xlabel('Course')\nplt.ylabel('Number of Students')\nplt.show()\n(b)\n• A bar chart of average scores is effective because it clearly shows the relative performance of each course (height of bars directly comparable).\n• Alternatively, a line graph with courses on the x-axis and average scores on the y-axis can show performance trend across courses. Explanation must mention ease of comparison.\n(c)\n• Insight: AI Basics has the highest enrolment and highest average score; Robotics has lowest enrolment and lowest scores.\n• Recommendation: Strengthen Robotics course (resources, teaching strategies) or promote it more to increase interest and performance."
+      },
+      "cognitiveLevel": "Application + Analysis + Evaluate",
+      "chapter": "data-visualization",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

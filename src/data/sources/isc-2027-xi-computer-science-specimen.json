@@ -1,0 +1,932 @@
+{
+  "source": {
+    "key": "isc-2027-xi-computer-science-specimen",
+    "title": "ISC (Class XI) Specimen Question Paper 2027, Computer Science, Paper 1 (Theory), with Answer Key",
+    "board": "icse",
+    "class": 11,
+    "subject": "computer-science",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "SPECIMEN",
+    "examYear": 2027,
+    "session": "ISC (Class XI) Specimen Question Paper 2027 (specimen for the 2027 examination; not a past paper)",
+    "paperName": "Computer Science, Paper 1 (Theory)",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2026/08/868A-COMPUTER-SCIENCE-PAPER-1-THEORY-SQP-AK.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2026/08/868A-COMPUTER-SCIENCE-PAPER-1-THEORY-SQP-AK.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 19,
+    "sha256": "aa2be8b9d3bbbc4ba06f9fc5611b67c3f1bb746e5ee5afb4ca7da3595ab59fdf",
+    "maxMarks": 70,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes; page renders (pdfplumber) used to check notation",
+    "ocrUsed": false,
+    "notes": "Official CISCE specimen paper with answer key in one PDF. Every page footer prints 'ISC (CLASS XI) SPECIMEN QUESTION PAPER 2027' (question paper, PDF pages 1-10) or 'ISC (CLASS XI) SPECIMEN ANSWER KEY 2027' (answer key, PDF pages 11-19); examYear=2027 is the examination year the specimen is published for. It is a SPECIMEN, not a past board paper. No paper/set/series code is printed (the subject code appears only in the file name), so those fields are null. Official answers are taken only from the answer key in the same PDF, trimmed to value points. Cognitive-level tags are recorded as printed. 'page' is the physical PDF page of the question text. Computer Science Paper 1 (Theory), maximum 70. Part I (20 marks, compulsory): Questions 1 and 2. Part II (50 marks): candidates answer two of three questions in each of Section A (Q3-5, 10 marks each), Section B (Q6-8, Java programs, 10 marks each) and Section C (Q9-11, Python / trends in computing, 5 marks each). These are 'any two of three' choices, not OR pairs, so no choiceGroup is set; the sum of all entries' marks (95) therefore exceeds the 70 a candidate answers. Sub-parts with their own printed marks are separate entries; parts sharing one code listing or one figure (2(iii), 5(iii)) are kept together. Question 2(iii) prints different tags for (a) Analyse and (b) Apply, so cognitiveLevel is omitted for that entry. Java program answers were compacted (whitespace only) to fit the answer-length limit.",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The hexadecimal equivalent of (349∙75)₁₀ is:",
+      "options": [
+        "16D∙7",
+        "15D∙C",
+        "15B∙C",
+        "5DC∙B"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Number-base subscripts/superscripts flattened in the text layer (e.g. (349∙75)10); rebuilt as subscripts from the page render."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) 15D∙C",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked, Assertion and Reason. Read the two statements carefully and choose the correct option.\nAssertion: In Python, loop with the else clause executes only in the case of normal termination of the loop.\nReason: In Python, break statement in the body of the loop results in unnatural exit from the loop.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for the Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for the Assertion.",
+        "Assertion is true and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both Assertion and Reason are true, and Reason is the correct explanation of the Assertion.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following is an example of open-source software?",
+      "options": [
+        "Linux",
+        "MS Word",
+        "Photoshop",
+        "Windows OS"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Linux",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "trends-in-computing-and-ethical-issues",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The proposition (X ∨ ~X) ∧ 1 will be equal to:",
+      "options": [
+        "1",
+        "0",
+        "X",
+        "~X"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) 1",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The logic gate represented by the Boolean Expression (A′ + B′) • (A + B) is:",
+      "options": [
+        "OR",
+        "AND",
+        "XOR",
+        "XNOR"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) XOR",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Consider the following statement written in Java class Kinetic where g is its data member.\nstatic final double g = 9∙8;\nWhich of the following statements are valid for g?\nI. It contains a common value for all objects class Kinetic.\nII. Its value is non-changeable.\nIII. At a time two access modifiers static and final, cannot be applied to a single data member g.",
+      "options": [
+        "Only I and II",
+        "Only II and III",
+        "Only I and III",
+        "Only III"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Only I and II",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "objects",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Given below are two statements marked, Assertion and Reason. Read the two statements carefully and choose the correct option.\nAssertion: ( p ∧ q ) is a satisfiable proposition.\nReason: A satisfiable formula is true for all possible truth assignments.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for the Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for the Assertion.",
+        "Assertion is true and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Assertion is true and Reason is false.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Name the File Stream Class in Java to perform the following operations:\n(a) to write data into a text file\n(b) to read data from a binary file",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) FileWriter [½] (b) FileInputStream [½]"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "basic-input-output-and-text-file-handling",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If,\n• E denotes “The exam is difficult”\n• S denotes “Students pass the exam”\nthen express the following statements in symbolic form:\n“If students do not pass the exam, then the exam was difficult.”",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The official key's answer (~S => ~E) is reproduced as printed; it does not match the plain reading of the statement (~S => E). Editor to check."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "~S => ~E"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "State the use of Python keywords pass and continue with respect to loops.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The statement pass does nothing but acts as a placeholder in the loop. It is a Null operation. The statement continue skips the statements in the current iteration and moves to the next iteration. It returns the control to the beginning of the loop. (½ mark each)"
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Convert the following arithmetic expression into Java statement:\ns = (a⁴ + bʳ) / √(ab)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Superscripts flattened in the text layer (a4, br); rebuilt as a⁴, bʳ from the page render."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "double s = (Math.pow(a, 4) + Math.pow(b, r)) / Math.sqrt(a * b);"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "variables-and-expressions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Define the term conjunction in propositional logic. Give one example.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Conjunction in propositional logic is a logical connective that combines two propositions using the word and. It is true only when both propositions are true and is represented by the symbol ∧. Ex: If, P: It is raining and Q: It is cold Then the conjunction is: P ∧ Q: It is raining and it is cold."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The following function puzzle() is a part of some Java class. Assume ‘p’ and ‘q’ are parameters to the function. Answer the questions given below along with dry run / working.\ndouble puzzle ( double p , int q )\n{ double r = 1 ;\n    int c = ( q<0 ) ? -q : q ;\n    if ( q == 0)\n        return 1 ;\n    else\n    { for (int i = 1; i <= c ;r=r*p, i++);\n        return (q>0)? r : 1/r;\n    }\n}\n}\n(a) What does the function puzzle( ) perform ? [1]\n(b) What will the function puzzle( ) return when the value of p = 2 and q= –3? [2]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Cognitive tags printed per sub-part: (a) Analyse, (b) Apply.",
+        "Answer-key powers flattened (pq, 2−3); rebuilt from the page layout."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Function puzzle( ) is calculating p raised to the power q (pᵠ) [1] (b) Given p = 2 and q = −3. Now pᵠ = 2⁻³ = 1/8 = 0∙125 [2]"
+      },
+      "chapter": "methods-and-constructors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "Part I",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Given below is the Python code and its output. There are some places in the code marked by ?1?, ?2?, ?3? which may be replaced by a statement / expression so that it gives the following output:\nHello mike check 1\n      mike check 2\nHello mike check 1\n      mike check 2\nHello mike check 1\n      mike check 2\nCode\nstr1=\"Hello\"\nstr2=\"mike check\"\nfor i in range(1,6,?1?):\n    print(str1,end=\" \")\n    for j in range(1,?2?):\n        print(\"\\t\",str2,?3?)\nWhat are the expressions or statements at ?1?, ?2? and ?3?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed output block and code indentation taken from the page render (the -layout text misplaces the 'Hello' labels).",
+        "Code indentation taken from the page render (the text layer loses Python indentation)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "?1? = 2 ?2? = 3 ?3? = j"
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Perform the following conversions / operations:\n(10111010∙101)₂ = (?)₈",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Number-base subscripts/superscripts flattened in the text layer (e.g. (349∙75)10); rebuilt as subscripts from the page render."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "010 111 010 ∙ 101 → 2 7 2 ∙ 5. Therefore, (10111010∙101)₂ = (272∙5)₈"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Perform the following conversions / operations:\n(5B3∙C)₁₆ − (2F∙19)₁₆",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Number-base subscripts/superscripts flattened in the text layer (e.g. (349∙75)10); rebuilt as subscripts from the page render."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Therefore, (5B3∙C)₁₆ − (2F∙19)₁₆ = (583∙A7)₁₆"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Perform the following conversions / operations:\n(5273)₈ × (23)₈",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Number-base subscripts/superscripts flattened in the text layer (e.g. (349∙75)10); rebuilt as subscripts from the page render."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Partial products 16145 and 125660; Therefore, (5273)₈ × (23)₈ = (145025)₈"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Perform the following conversions / operations:\n(1011010)₂ − (0110111)₂ (using 1’s complement)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Number-base subscripts/superscripts flattened in the text layer (e.g. (349∙75)10); rebuilt as subscripts from the page render."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "1's complement of 0110111 is 1001000; 1011010 + 1001000 = 10100010; end-around carry: 0100010 + 1 = 0100011. Therefore, (1011010)₂ − (0110111)₂ = (0100011)₂"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Perform the following conversions / operations:\n(110111∙10)₂ + (1010∙01)₂",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Number-base subscripts/superscripts flattened in the text layer (e.g. (349∙75)10); rebuilt as subscripts from the page render."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "110111∙10 + 001010∙01 = 1000001∙11. Therefore, (110111∙10)₂ + (1010∙01)₂ = (1000001∙11)₂"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "system-of-numeration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A Research Grant Committee includes a Director (D), Scientist (S), and Auditor (A). A research grant is sanctioned only if:\n• The Director and either Scientist or Auditor agrees\nOR\n• All three agree\nThe inputs are:\nINPUTS\nD | Denotes the Director’s vote\nS | Denotes the Scientist’s vote\nA | Denotes the Auditor’s vote\n(In all the above cases, 1 indicated YES and 0 indicates NO)\nOutput: X - Denotes sanction\n(1 = sanctioned and 0 = not sanctioned)\nDraw the truth table for the inputs and outputs given above.\nAlso, write the Boolean expression for X(D,S,A) with disjunctive operators for each of the false values (0’s) from the output column of the truth table.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Inputs table on page 5 reproduced as text rows ('|' separates cells).",
+        "Official truth table condensed to one line per row."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Truth table (D S A : X): 000:0, 001:0, 010:0, 011:0, 100:0, 101:1, 110:1, 111:1. X (D,S,A) = (D ˅ S ˅ A) ˄ (D ˅ S ˅ ~A) ˄ (D ˅ ~S ˅ A) ˄ (D ˅ ~S ˅ ~A) ˄ (~D ˅ S ˅ A) OR X(D,S,A) = (D+S+A) • (D+S+A′) • (D+S′+A) • (D+S′+A′) • (D′+S+A)"
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "From the logic gate diagram given below, derive the Boolean expression for (1) and (3). Also, derive the Boolean expression for F(A,B,C).",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Logic gate diagram on page 6 not reproduced; the question cannot be answered without it."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Expression at (1) = A+B Expression at (3) = [(A+B)•C ]′ Derived expression = [(A+B)•C ]′ + (A+B)"
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What are Universal gates? How can an OR gate be constructed using only NAND gates?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure): the NAND-only OR gate diagram is an image."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "NAND and NOR gates are called Universal Gates because they can be used to construct any other basic logic gate like AND, OR, and NOT. OR gate using only NAND gates: [diagram]"
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain the concept of a Half Adder in the context of binary addition. How does a Half Adder differ from a Full Adder?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Half Adder is a combinational circuit which adds two input binary digits and outputs (SUM and CARRY). Half adders add two binary bits whereas, Full adder add three binary bits."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Derive the Boolean expressions for the Sum and Carry outputs of a Half Adder and construct the logic gate diagram of a Half Adder using appropriate logic gates.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure): the half-adder circuit diagram is an image."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Expression for SUM: A′B + AB′ or A ⊕ B Expression for CARRY: A • B Logic circuit diagram of a Half adder: [diagram]"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Draw a truth table to verify the following proposition.\n(Y => X) V (X => Y) = 1",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "X Y | Y=>X | X=>Y | (Y=>X)˅(X=>Y): 0 0 | 1 | 1 | 1; 0 1 | 0 | 1 | 1; 1 0 | 1 | 0 | 1; 1 1 | 1 | 1 | 1. Verified that (Y => X) V ( X => Y) = 1 is true."
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "Part II, Section A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Study the logic gate given below and answer the questions that follow:\n(a) What is the output of the above gate if input A=1 and input B=0? [1]\n(b) What should be the input values of A and B to obtain an output of 1? [1]",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Logic gate symbol (inputs A, B; output) on page 6 not reproduced; the gate type is shown only in the figure."
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) 0 (b) A=0, B=0"
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "propositional-logic-and-hardware-implementation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 10,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Design a class FileAlpha to arrange the names in alphabetical order by reading from a text file “Student.txt” assuming the file contains names of 50 students.\nThe details of the members of the class are given below:\nClass name : FileAlpha\nData members / instance variables:\nstr[ ] : to store the names\nn : to store the maximum size of the array\nMember functions/methods:\nFileAlpha(int nn) : default constructor to initialise data member n=nn and to declare the array\nvoid readFile( ) : to read the names from the file “Student.txt” and store it in str[ ]\nvoid alphabetic( ) : to sort the names in str[ ] alphabetically\nvoid show( ) : to display the names in alphabetical order\nDefine the class FileAlpha giving details of the constructor( ), void readFile( ), void alphabetic( ) and void show( ). Define the main( ) function to create an object and call the functions accordingly to enable the task.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Class-member table reproduced as 'name : description' lines.",
+        "Official program's line breaks/indentation compacted to fit the answer length limit; tokens unchanged."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "import java.io.*;\nclass FileAlpha\n{\n String str[];\n int n;\n FileAlpha(int nn)\n { n = nn; str = new String[n]; }\n void readFile() throws Exception\n {\n  BufferedReader br = new BufferedReader(new FileReader(\"Student.txt\"));\n  for(int i=0;i<n;i++)\n   str[i] = br.readLine();\n  br.close();\n }\n void alphabetic()\n {\n  for(int i=0;i<n-1;i++)\n   for(int j=i+1;j<n;j++)\n    if(str[i].compareTo(str[j])>0)\n    { String t=str[i]; str[i]=str[j]; str[j]=t; }\n }\n void show()\n { for(int i=0;i<n;i++) System.out.println(str[i]); }\n public static void main(String args[]) throws Exception\n {\n  FileAlpha ob=new FileAlpha(50);\n  ob.readFile(); ob.alphabetic(); ob.show();\n }\n}"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "basic-input-output-and-text-file-handling",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 10,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A class SpyNumGen has been defined to generate all Spy numbers between a specific range.\n[A Spy number is a positive integer where the sum of its digits equals the product of its digits.]\nExample: 1124 Product = 1×1×2×4 = 8\nSum = 1+1+2+4 = 8\nHence, 1124 is a Spy number\nSome of the members of the class are given below:\nClass name : SpyNumGen\nData members/instance variables:\nstart : to store the start of range\nend : to store the end of range\nMethods/Member functions:\nSpyNumGen(int a, int b) : parameterised constructor to initialise the data members start=a and end=b\nint sum_digits(int n) : returns the sum of the digits of the number ‘n’\nint prod_digits(int n) : returns the product of the digits of the number ‘n’\nvoid generate( ) : generates all Spy numbers between start and end by invoking the functions sum_digits() and prod_digits()\nSpecify the class SpyNumGen giving details of the constructor( ), int sum_digits(int), int prod_digits(int) and void generate( ). Define the main( ) function to create an object and call the functions accordingly to enable the task.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Class-member table reproduced as 'name : description' lines.",
+        "Official program's line breaks/indentation compacted; tokens unchanged."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "class SpyNumGen\n{\n int start,end;\n SpyNumGen(int a,int b)\n { start=a; end=b; }\n int sum_digits(int n)\n { int s=0; while(n>0) { s+=n%10; n/=10; } return s; }\n int prod_digits(int n)\n { int p=1; while(n>0) { p*=n%10; n/=10; } return p; }\n void generate()\n {\n  for(int i=start;i<=end;i++)\n   if(sum_digits(i)==prod_digits(i))\n    System.out.println(i);\n }\n public static void main(String args[])\n { SpyNumGen ob=new SpyNumGen(1,500); ob.generate(); }\n}"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "methods-and-constructors",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "Part II, Section B",
+      "sectionTitle": null,
+      "marks": 10,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A class ColMin contains a square matrix which finds the smallest element in a given column.\nExample: if array size is [3][3] and elements are:\n17 2 19\n13 17 5\n7 34 8\nGiven, column = 0, then the smallest element is 7 at row 2 and column 0\nSome of the members of the class are given below:\nClass name : ColMin\nData member/instance variable:\nmat[ ][ ] : array to store integer elements\nm : to store the order of the matrix\nMember functions/methods:\nColMin(int mm) : parameterised constructor to initialise the data member m=mm and to declare the array\nvoid accept( ) : to accept the array elements\nvoid small_col(int n) : to find and display the smallest element in the ‘n’ th column along with row index and column index\nvoid display( ) : to display the array elements in matrix form\nSpecify the class ColMin, giving the details of the constructor( ), void accept( ), void small_col(int) and void display( ). Define the main( ) function to create an object and call the functions accordingly to enable the task.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Class-member table reproduced as 'name : description' lines.",
+        "Official program's line breaks/indentation compacted; tokens unchanged."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "import java.util.*;\nclass ColMin\n{\n int mat[][]; int m;\n ColMin(int mm) { m=mm; mat=new int[m][m]; }\n void accept()\n { Scanner sc=new Scanner(System.in);\n  for(int i=0;i<m;i++) for(int j=0;j<m;j++) mat[i][j]=sc.nextInt(); }\n void small_col(int n)\n { int min=mat[0][n]; int row=0;\n  for(int i=1;i<m;i++) if(mat[i][n]<min) { min=mat[i][n]; row=i; }\n  System.out.println(\"Smallest = \"+min);\n  System.out.println(\"Row = \"+row+\" Column = \"+n); }\n void display()\n { for(int i=0;i<m;i++) { for(int j=0;j<m;j++) System.out.print(mat[i][j]+\" \"); System.out.println(); } }\n public static void main(String args[])\n { ColMin ob=new ColMin(3); ob.accept(); ob.display(); ob.small_col(0); }\n}"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "arrays-and-strings",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A school has introduced a health programme for all its students which aims at promoting holistic physical development. As a part of the programme, the school wants to calculate BMI (Body Mass Index) of each student.\nWrite a program to input the name, weight in kilograms and height in meters of the students and to calculate the BMI based on the formula BMI = weight / height².\nThe output should display the name, BMI value and status of the student based on WHO criteria as per the chart given below.\nStatus of the student | WHO criteria for BMI\nUnderweight | <18∙5\nNormal | between 18∙5 to 24∙9\nOverweight | Between 25 to 29∙9\nObese | >= 30",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on page 10 reproduced as text rows ('|' separates cells); values checked against the rendered page.",
+        "Superscript flattened (height2); rebuilt as height².",
+        "Code indentation taken from the page render (the text layer loses Python indentation)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "name=input(\"Enter your name:\")\nweight=float(input(\"Enter your weight in kilograms:\"))\nheight=float(input(\"Enter your height in meters:\"))\nbmi=weight/height**2\nprint(name,\" your BMI is \",bmi,\"Status \",end=\" \")\nif bmi<18.5:\n  print(\"...Underweight\")\nelif bmi<25:\n  print(\"...Normal\")\nelif bmi<30:\n  print(\"...Overweight\")\nelse:\n  print(\"...Obese\")"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section C",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What will be the output for the following part of code? Show the working.\nx,y,z=4, −6,2\nresult=−(x+z)<y or x**z<10\nprint(result)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Answer-key power flattened (42); rebuilt as 4² from the page render."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "-(4+2)< -6 or 4² <10 → -6<-6 or 16<10 → False or False. Output - False"
+      },
+      "cognitiveLevel": "Analyse",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section C",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Write a program to input an integer. Check and display if it is a prime palindrome number or not.\n[Prime number is a number which is exactly divisible only by itself and by number one. Palindrome number is a number which remains the same on reversing its digits. Prime palindrome is a number which is prime as well as palindrome.]\nE.g. 101, 131, 313",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Code indentation taken from the page render (the text layer loses Python indentation)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "no=int(input(\"Enter a number\"))\nfor i in range(2,no//2+1):\n  if(no%i==0):\n    flag=False\n    break\nelse:\n  flag=True       # to check for prime\nn=no              # duplication of original value\nrev=0\nwhile(n>0):\n  dig=n%10\n  n=n//10\n  rev=rev*10+dig\nprint(\"\\nreverse of \",no,\"=\",rev, \"\\n\")\nif(rev==no and flag==True):\n  print(no,\" is a prime palindrome\")\nelse:\n  print(no,\" is a not a prime palindrome\")"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Construct a for loop statement which will generate multiples of 5 in descending order from 50 to 5, in a single line.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "for i in range(50,0,-5): print(i, end=' ')"
+      },
+      "cognitiveLevel": "Apply",
+      "chapter": "introduction-to-python",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "State one advantage and one challenge of IoT.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Advantage of IoT is task automation. Challenge of IoT is security and privacy risk."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "trends-in-computing-and-ethical-issues",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Explain Natural Language Processing (NLP).",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It is a branch of AI that enables computers to understand, interpret and produce human language."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "trends-in-computing-and-ethical-issues",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Give one example each of non-malicious spamming and malicious spamming.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Example of Non-malicious spamming: A renowned private bank continuing to send credit card promotional through mails. Example of Malicious spamming: A fake e-mail which claims that a package from a particular delivery company cannot be delivered to you until you download a “receipt” which would contain harmful spywares."
+      },
+      "cognitiveLevel": "Understand",
+      "chapter": "trends-in-computing-and-ethical-issues",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What is Open-Source Software (OSS)?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Open Source Software is a source code developed and maintained by open collaboration. These codes are freely available for use, and anyone can examine, modify and redistribute."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "trends-in-computing-and-ethical-issues",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "Part II, Section C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write the full form of GPL and explain its main feature.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "GPL stands for General Public Licence and as per GPL any modified or derived version of the OSS must also be released under the same GPL license. The source code must continue to remain open."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "trends-in-computing-and-ethical-issues",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

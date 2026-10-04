@@ -1,0 +1,1201 @@
+{
+  "source": {
+    "key": "isc-2025-xii-mathematics",
+    "title": "ISC 2025 Examination: Mathematics",
+    "board": "icse",
+    "class": 12,
+    "subject": "mathematics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "BOARD_EXAM",
+    "examYear": 2025,
+    "session": "ISC 2025 examination",
+    "paperName": "Mathematics (860)",
+    "paperCode": "1225-860",
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2025/08/ISC-QP-2025.zip",
+    "sourceFile": "ISC QP 2025/860 MATHEMATICS.pdf",
+    "answerSourceUrl": null,
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 11,
+    "sha256": "e32df1c5d5f65a3ab3b123e26ba960c66dd1350b244d2edfa75bc512bce4c3b0",
+    "maxMarks": 80,
+    "durationMinutes": 180,
+    "extractionMethod": "OCR",
+    "extractionTool": "Embedded OCR text layer of the scanned PDF (Adobe Scan for Android), read with pdftotext (poppler) -enc UTF-8 raw and -layout; pdfplumber to inspect the layer; every question checked and corrected against pypdfium2 page renders",
+    "ocrUsed": true,
+    "notes": "No official marking scheme is published with this paper; questions carry no official answer. From the CISCE Archive Library ISC 2025 question-paper bundle. The PDF is a phone scan (Adobe Scan) of the printed paper; its text layer is Adobe's OCR, which has many recognition errors (e.g. 'rcading', 'matr1x', '15 kg' for '1·5 kg') and loses nearly all mathematical notation (integrals, limits, matrices, determinants, fractions, powers, vector arrows). Every question was therefore transcribed against a render of the page image: OCR errors in words were corrected to what is printed and all maths was rebuilt inline (fractions as a/b, powers as Unicode superscripts, matrices/determinants as [row; row] / |row; row|, definite integrals as ∫_{lower}^{upper} or ∫₀¹); such items are flagged MEDIUM. Paper code '1225-860' is printed in the footer of every page; the number 'T5017028' printed at the top of the cover page appears to be a copy serial and is not used. Cover: 'Maximum Marks: 80', 'Time Allotted: Three Hours', 'Reading Time: Additional Fifteen minutes', 22 questions in three sections. Section A (65 marks) is compulsory; candidates attempt ALL questions of EITHER Section B (vectors, 3-D geometry, application of integrals; 15 marks) OR Section C (applications of calculus in commerce/economics, regression, linear programming; 15 marks). Both Sections B and C are included here, so the pack's marks total (95 counting one alternative per OR pair) exceeds maxMarks (80) by design. Internal OR choices (Q4, 6, 8, 9, 11, 12, 16, 18, 20, 21) share a choiceGroup equal to the question number; alternatives are labelled (i)/(ii) as printed. Question 1's 15 sub-parts and Question 13's four sub-parts are separate entries with their printed marks; Q15 and Q19 sub-parts are split likewise. Sub-parts sharing one context (Q5, Q9(ii), Q10, Q15(iv), Q17, Q18(i), Q19(iii), Q21) are kept together with per-part marks in the text. Tables are reproduced as text rows. Regression items in Section C (Q19(ii), Q19(iii), Q20) have no matching chapter slug and are left with chapter null. No cognitive-level tags are printed on this paper.",
+    "usage": "Official CISCE board examination paper from the CISCE Archive Library (cisce.org/archive-library); question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If A = [0 a; 0 0], then A¹⁶ is:",
+      "options": [
+        "Unit matrix",
+        "Null matrix",
+        "Diagonal matrix",
+        "Skew matrix"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "2×2 matrix rebuilt inline as [row 1; row 2]; Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which of the following is a homogenous differential equation?",
+      "options": [
+        "(4x² + 6y + 5) dy − (3y² + 2x + 4) dx = 0",
+        "(xy) dx − (x³ + y³) dy = 0",
+        "(x³ + 2y²) dx + 2xy dy = 0",
+        "y² dx + (x² − xy − y²) dy = 0"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Consider the graph of the function f(x) shown below:\nStatement 1: The function f(x) is increasing in (1/2, 2).\nStatement 2: The function f(x) is strictly increasing in (1/2, 1).\nWhich of the following is correct with respect to the above statements?",
+      "options": [
+        "Statement 1 is true and Statement 2 is false.",
+        "Statement 2 is true and Statement 1 is false.",
+        "Both the statements are true.",
+        "Both the statements are false."
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Graph on page 2 not reproduced; the question cannot be answered without it",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "∫₀¹ (x⁴ − 1)/(x² + 1) dx is equal to:",
+      "options": [
+        "2/3",
+        "1/3",
+        "−2/3",
+        "0"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Definite integral, its limits and the fraction were lost in the text layer; rebuilt from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion: Consider the two events A and B such that n(A) = n(B) and P(A/B) = P(B/A).\nReason: The events A and B are mutually exclusive.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true but Reason is not the correct explanation for Assertion.",
+        "Assertion is true and Reason is false.",
+        "Assertion is false and Reason is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Conditional probabilities printed as stacked fractions P(A over B); rebuilt inline as P(A/B). Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The existence of unique solution of the system of equations x + y = λ and 5x + ky = 2 depends on:",
+      "options": [
+        "λ only",
+        "λ/k = 1",
+        "both k and λ",
+        "k only"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "λ was lost in the text layer; restored from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "determinants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "A cylindrical popcorn tub of radius 10 cm is being filled with popcorns at the rate of 314 cm³ per minute. The level of the popcorns in the tub is increasing at the rate of:",
+      "options": [
+        "1 cm/minute",
+        "0·1 cm/minute",
+        "1·1 cm/minute",
+        "0·5 cm/minute"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Superscript (cm³) flattened in the text layer; rebuilt"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If f(x) = { x + 2, x < 0 ; −x² − 2, 0 ≤ x < 1 ; x, x ≥ 1 }\nthen the number of point(s) of discontinuity of f(x), is / are:",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "0"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Piecewise definition jumbled in the text layer; rebuilt inline from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion: If Set A has m elements, Set B has n elements and n < m, then the number of one-one function(s) from A → B is zero.\nReason: A function f: A → B is defined only if all elements in Set A have an image in Set B.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true but Reason is not the correct explanation for Assertion.",
+        "Assertion is true and Reason is false.",
+        "Assertion is false and Reason is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Let X be a discrete random variable. The probability distribution of X is given below:\nX: 30 | 10 | −10\nP(X): 1/5 | 3/10 | 1/2\nThen E(X) will be:",
+      "options": [
+        "1",
+        "4",
+        "2",
+        "30"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Table on page 4 reproduced as text rows; check against the PDF",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Statement 1: If 'A' is an invertible matrix, then (A²)⁻¹ = (A⁻¹)²\nStatement 2: If 'A' is an invertible matrix, then |A⁻¹| = |A|⁻¹",
+      "options": [
+        "Statement 1 is true and Statement 2 is false.",
+        "Statement 2 is true and Statement 1 is false.",
+        "Both the statements are true.",
+        "Both the statements are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Powers and inverses flattened/garbled in the text layer; rebuilt from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "determinants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write the smallest equivalence relation from the set A to A, where A = {1, 2, 3}.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image"
+      ],
+      "confidence": "HIGH",
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "For what value of x, is A = [0 1 −2; −1 0 3; x −3 0] a skew symmetric matrix?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "3×3 matrix lost in the text layer; rebuilt inline as [row 1; row 2; row 3] from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Three critics review a book. Odds in favour of the book are 5:2, 4:3 and 3:4 respectively for the three critics. Find the probability that all critics are in favour of the book.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image"
+      ],
+      "confidence": "HIGH",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Evaluate: ∫ 5/√(2x+7) dx",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Integral, fraction and root lost in the text layer; rebuilt from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the point on the curve y = 2x² − 6x − 4 at which the tangent is parallel to the x-axis.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the value of tan⁻¹ x − cot⁻¹ x, if (tan⁻¹x)² − (cot⁻¹x)² = 5π/8",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(i)",
+      "choiceGroup": "4",
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If xʸ = eˣ⁻ʸ, prove that dy/dx = logx/(1+logx)²",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Exponents x^y and e^(x−y) printed as superscripts; rebuilt as xʸ = eˣ⁻ʸ. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(ii)",
+      "choiceGroup": "4",
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If f(x) = log(1 + x) + 1/(1+x), show that f(x) attains its minimum value at x = 0.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Three shopkeepers Gaurav, Rizwan and Jacob use carry bags made of polythene, handmade paper and newspaper. The number of polythene bags, handmade bags and newspaper bags used by Gaurav, Rizwan and Jacob are (20, 30, 40), (30, 40, 20) and (40, 20, 30) respectively. One polythene bag costs ₹ 1, one handmade bag is for ₹ 5 and one newspaper bag costs ₹ 2. Gaurav, Rizwan and Jacob spend ₹ A, ₹ B and ₹ C respectively on these carry bags.\nUsing the concepts of matrices and determinants, answer the following questions:\n(i) Represent the above information in Matrix form.\n(ii) Find the values of ₹ A, ₹ B and ₹ C.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Rupee signs lost in the text layer; restored from the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(i)",
+      "choiceGroup": "6",
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Differentiate sin⁻¹(2ˣ⁺¹ 3ˣ/(1 + (36)ˣ)) with respect to x.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Argument of sin⁻¹ (a fraction with powers) lost in the text layer; rebuilt from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(ii)",
+      "choiceGroup": "6",
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Show that tan⁻¹ x + tan⁻¹ y = C is the general solution of the differential equation (1 + x²) dy + (1 + y²) dx = 0",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If x + y + z = 0 then show that |1 1 1; x y z; x³ y³ z³| = 0, using properties of determinant.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "3×3 determinant lost in the text layer; rebuilt inline as |row 1; row 2; row 3| from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "determinants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(i)",
+      "choiceGroup": "8",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Evaluate: ∫ cosx/(3cosx − 5) dx",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(ii)",
+      "choiceGroup": "8",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Evaluate: ∫(log x)² dx",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(i)",
+      "choiceGroup": "9",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If x = tan((1/a) logy) then show that (1 + x²) d²y/dx² + (2x − a) dy/dx = 0",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(ii)",
+      "choiceGroup": "9",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The graph of f(x) = − x³ + 27x − 2 is given below:\n(a) Find the slope of the above graph. [1]\n(b) Find the co-ordinates of turning points, A and B. [2]\n(c) Evaluate f″(−2), f(0) and f′(3) and arrange them in ascending order. [1]",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Graph on page 6 not reproduced (a cubic with turning points labelled A (a, b) and B (c, d)); the function is given, so the parts are answerable from the text",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Pia, Sia and Dia displayed their paintings in an art exhibition. The three artists displayed 15, 5 and 10 of their paintings respectively. A person bought three paintings from the exhibition.\n(i) Find the probability that he bought one painting from each of them. [2]\n(ii) Find the probability that he bought all the three paintings from the same person. [2]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image"
+      ],
+      "confidence": "HIGH",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": "(i)",
+      "choiceGroup": "11",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Prove: ∫_{π/4}^{3π/4} x dx/(1 + sinx) = (√2 − 1)π",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Limits of integration and the fraction lost in the text layer; rebuilt from the page image (lower limit π/4, upper limit 3π/4). Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": "(ii)",
+      "choiceGroup": "11",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Evaluate: ∫ x²/((x − 1)²(x² + 1)) dx",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Integrand lost in the text layer; rebuilt from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": "(i)",
+      "choiceGroup": "12",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Solve the differential equation:\n(x + 5y²) dy/dx = y when x = 2 and y = 1",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": "(ii)",
+      "choiceGroup": "12",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Find the particular solution of the differential equation:\n(x² − 2y²)dx + 2xydy = 0, when x = 1 and y = 1",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Observe the two graphs, Graph 1 and Graph 2 given below and answer the questions that follow.\nWhich one of the graphs represents y = sin⁻¹ x ?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Graph 1 and Graph 2 on page 7 not reproduced; the question cannot be answered without them"
+      ],
+      "confidence": "LOW",
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Write the domain and range of y = sin⁻¹ x.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Part of Question 13, whose stem refers to two graphs on page 7; this part does not need them"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Prove that sin⁻¹(1/√5) + sin⁻¹(2/√5) = π/2",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Fractions and roots lost in the text layer; rebuilt from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the value of tan⁻¹[2sin(2 cos⁻¹(√3/2))]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Nested argument lost in the text layer; rebuilt from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "An international conference takes place in a metropolitan city. International leaders, scientists and industrialists participate in it.\nThe organisers of the conference appoint three agencies namely X, Y and Z for the security of the participants. The track record of the success of X, Y and Z in providing security services is 99%, 98·5% and 98% respectively. The organisers assign the responsibility of ensuring the security of 1000 people to agency X, 2000 people to agency Y and 3000 people to agency Z.\nAt the end of the conference, one participant goes missing from the conference room.\nWhat is the probability that the missing participant was placed under the responsibility of the security agency X?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image"
+      ],
+      "confidence": "HIGH",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion: (a⃗ + b⃗)² + (b⃗ − a⃗)² = 2 (a² + b²)\nReason: Dot product of any two vectors is commutative.",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true but Reason is not the correct explanation for Assertion.",
+        "Assertion is true and Reason is false.",
+        "Assertion is false and Reason is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Vector arrows and squares lost in the text layer; rebuilt from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "vector-algebra",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The angle between the two planes x + y + 2z = 9 and 2x − y + z = 15 is:",
+      "options": [
+        "π/2",
+        "π/3",
+        "π",
+        "3π/4"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Show that points P(−2, 3, 5), Q(1, 2, 3) and R(7, 0, −1) are collinear.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image"
+      ],
+      "confidence": "HIGH",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Two honeybees are flying parallel to each other in the garden to collect the nectar. The path traced by the bees is given in the form of a straight line. The equation of the path traced by one honeybee is r⃗ = (î + 2ĵ + 3k̂) + λ(2î + 3ĵ + 4k̂).\n(a) Write the above-mentioned equation in cartesian form. [1]\n(b) Find the equation of the path traced by the other honeybee passing through the point (2, 4, 5). [1]",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Illustration of two bees on page 8 not reproduced (decorative; not needed to answer)",
+        "Vector equation garbled in the text layer; rebuilt from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": "(i)",
+      "choiceGroup": "16",
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the equation of the plane passing through the points (2, 2, −1), (3, 4, 2) and (7, 0, 6).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image"
+      ],
+      "confidence": "HIGH",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": "(ii)",
+      "choiceGroup": "16",
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the equation of the plane passing through the points (2, 3, 1), (4, −5, 3) and parallel to x-axis.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image"
+      ],
+      "confidence": "HIGH",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Consider the position vectors of A, B and C as OA⃗ = 2î − 2ĵ + k̂, OB⃗ = î + 2ĵ − 2k̂ and OC⃗ = 2î − ĵ + 4k̂\n(i) Calculate AB⃗ and BC⃗. [1]\n(ii) Find the projection of AB⃗ on BC⃗. [1]\n(iii) Find the area of the triangle ABC whose sides are AB⃗ and BC⃗. [2]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Vector arrows and unit-vector hats garbled in the text layer; rebuilt from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "vector-algebra",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(i)",
+      "choiceGroup": "18",
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The equation y = 4 − x² represents a parabola.\n(a) Make a rough sketch of the graph of the given function. [1]\n(b) Determine the area enclosed between the curve, the x-axis, the lines x = 0 and x = 2. [2]\n(c) Hence, find the area bounded by the parabola and the x-axis. [1]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "application-of-integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(ii)",
+      "choiceGroup": "18",
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A farmer has a field bounded by three lines x + 2y = 2, y − x = 1, 2x + y = 7. Using integration, find the area of the region bounded by these lines.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image"
+      ],
+      "confidence": "HIGH",
+      "chapter": "application-of-integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The total revenue received from the sale of 'x' units of a product is R(x) = 36x + 3x² + 5. Then, the actual revenue for selling the 10th item will be:",
+      "options": [
+        "27",
+        "90",
+        "93",
+        "33"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Powers/ordinal superscripts (3x², 10th) flattened; Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Read the following statements and choose the correct option.\n(I) The correlation coefficient and the regression coefficients are of the same sign.\n(II) The correlation coefficient is the arithmetic mean between the regression coefficients.\n(III) The product of two regression coefficients is always equal to 1.\n(IV) Both the regression coefficients cannot be numerically greater than unity.",
+      "options": [
+        "Only (IV) is correct.",
+        "Only (I) and (II) are correct.",
+        "Only (I) and (IV) are correct.",
+        "Only (III) and (IV) are correct."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Roman numerals (I)/(IV) misread in the text layer; restored from the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "Consider the following data:\nx: 1 | 2 | 3 | 6\ny: 6 | 5 | 4 | 1\nx − x̄: (blank) | (blank) | (blank) | (blank)\ny − ȳ: (blank) | (blank) | (blank) | (blank)\n(a) Calculate x̄ and ȳ [1]\n(b) Complete the table. [1]\n(c) Calculate bxy [1]",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Table on page 10 reproduced as text rows (last two rows are blank in the paper, to be completed); check against the PDF",
+        "Subscripts flattened: bxy (b with subscript xy)"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": "(i)",
+      "choiceGroup": "20",
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the regression line of best fit from the following data.\nΣx = 24, Σy = 44, Σxy = 306, Σx² = 164, Σy² = 576, n = 4",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Summation signs misread in the text layer; restored from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": "(ii)",
+      "choiceGroup": "20",
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Two lines of regression are given as 4x + 3y + 7 = 0 and 3x + 4y + 8 = 0. Identify the line of regression of x on y.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image"
+      ],
+      "confidence": "HIGH",
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(i)",
+      "choiceGroup": "21",
+      "page": 10,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A utensil manufacturer produces 'x' dinner sets per week and sells each set at ₹ p, where x = (600−p)/8. The cost of production of 'x' sets is ₹ x² + 78x + 2000\n(a) Write the revenue function. [1]\n(b) Write the profit function. [1]\n(c) Calculate the number of dinner sets to be produced and sold per week to ensure maximum profit. [2]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": "(ii)",
+      "choiceGroup": "21",
+      "page": 11,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The Average Cost of producing 'x' units of commodity is given by:\nAC = x²/200 − x/50 − 30 + 5000/x\n(a) Find the Cost function. [1]\n(b) Find the Marginal Cost function. [1]\n(c) Find the Marginal Average Cost function. [1]\n(d) Verify that d/dx(AC) = (MC−AC)/x [1]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "Fractions in AC and in part (d) lost in the text layer; rebuilt from the page image. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Two different types of books have to be stacked in the shelf of a library. The first type of book weighs 1 kg and has a thickness of 6 cm. The second type of book weighs 1·5 kg and has a thickness of 4 cm. The shelf is 96 cm long and can support a maximum weight of 21 kg.\nHow should both the types of books be placed in the shelf to include the maximum number of books? Formulate a Linear Programming Problem and solve it graphically.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
+        "The text layer reads '15 kg'; the page image shows '1·5 kg'"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "linear-programming",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

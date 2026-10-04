@@ -1,0 +1,167 @@
+{
+  "pack": "isc-2026-xii-chemistry-specimen",
+  "auditedOn": "2026-10-01",
+  "method": "Re-checked against the official PDF (SHA-256 matched) with pdftotext -layout, -raw and -table, page renders (pypdfium2) zoomed on notation, and the answer key in the same PDF.",
+  "checks": [
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Ai",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Aii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Aiii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Aiv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Bii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Biii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Bv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Bvi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Bvii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Ci",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Cii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#1Ciii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#5",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#7",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#10",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#13",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#14",
+      "agree": false,
+      "reason": "Part (i) is C6H5ONa + C2H5Cl (confirmed on page 7 render) but the stored/official answer gives diethyl ether CH3CH2-O-CH2CH3 instead of ethoxybenzene C6H5-O-C2H5; the key is wrong for this part."
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#16i",
+      "agree": false,
+      "reason": "Stored answer (b) reproduces the key's incorrect relation 'E°cell = E°cathode + E°anode' (page 15 render) while subtracting the values; the formula should be E°cathode − E°anode."
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#16ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#18",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#19",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#20",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#21i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#21ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#12",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#4",
+      "agree": false,
+      "reason": "Stored answer (i) reproduces the key's '[Co(NH3)6]SO4', which is charge-unbalanced for hexaamminecobalt(III) sulphate (correct formula [Co(NH3)6]2(SO4)3); the official answer is wrong and should not be published as is."
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#17",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#9i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#9ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-chemistry-specimen#3",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

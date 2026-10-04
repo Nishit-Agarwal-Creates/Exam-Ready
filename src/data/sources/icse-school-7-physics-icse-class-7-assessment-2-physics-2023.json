@@ -1,0 +1,500 @@
+{
+  "source": {
+    "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023",
+    "title": "Grade VII, School Assessment-II, Physics",
+    "board": "icse",
+    "class": 7,
+    "subject": "physics",
+    "authority": "REPOSITORY",
+    "authorityName": "School examination paper (school not named); obtained from icseboard.org, originally from icseonline.com",
+    "paperType": "SCHOOL_EXAM",
+    "examYear": 2023,
+    "session": "Assessment-II",
+    "paperName": "Physics, Grade VII",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://www.icseboard.org/pdf/class-7/assessment/physics/2023/icse-class-7-assessment-2-physics-2023.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": null,
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 3,
+    "sha256": "dcea970783e3fea0f474cdc10b7712b1b95b0192e22c12768676e043c51ed756",
+    "maxMarks": 40,
+    "durationMinutes": 120,
+    "extractionMethod": "OCR",
+    "extractionTool": "RapidOCR, corrected against page images",
+    "ocrUsed": true,
+    "notes": "Scanned school assessment paper (no text layer apart from the icseboard.org watermark). Header printed: 'GRADE VII  SCHOOL  PHYSICS / TIME 2 HOURS  ASSESSMENT-II  MM. 40' ('SCHOOL' stands in for the school name). No year is printed; examYear 2023 is taken from the file name and its icseboard.org folder (…/physics/2023/). Section A (20 marks, attempt all): I) eight true/false items [4], II) eight-pair matching [4], III) eight MCQs [4], IV) five one-word items [5], V) two definitions (3). Items worth half a mark cannot be stored (marks must be whole numbers): I), II) and V) are kept as single entries with their printed totals; the eight MCQs of III) are separate entries stored at 1 mark each although the printed [4] gives them ½ mark each (flagged per item). Section B (20 marks) says 'Attempt any Four questions (each question carry 2.5 marks)' over six questions, which conflicts with 20 marks for four questions; each question (parts a and b kept together because the part marks are not printed) is stored at 5 marks = 20/4, and flagged. Section B restarts its numbering at I), so its entries use numbers 'B-I' … 'B-VI'. Marks in this file total 54 against the printed 40 (half-mark rounding in III and the pick-4-of-6 choice). Pen ticks and a pen strike-through on the scan were ignored. No answer key.",
+    "usage": "School examination paper published on icseboard.org (originally icseonline.com); question text reproduced for study with attribution and a link to where it was obtained. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "I",
+      "part": null,
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Sate whether these statements is true or false- 1. A thick glass tumbler cracks when hot water is poured into it. 2. Mud houses are hot in summer and cold in winter. 3. The bottom part of cooking utensils is polished. 4. Compression are dense regions of air particles. 5. Speed of sound is maximum in gases. 6. Audible frequency range of human ear is 20Hz- 20,000Hz. 7. Current is the flow of charge carriers. 8. Secondary cell can be used again.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Eight items share the printed [4] (½ mark each); kept together. Items span heat, sound and electricity"
+      ],
+      "confidence": "HIGH",
+      "chapter": "heat",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "II",
+      "part": null,
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Match the column- A: 1. Electric circuit 2. Electromagnet 3. Frequency 4. Gong 5. Primary cell 6. Longitudinal wave 7. Amplitude 8. Ventilator. B: a) Cannot be reuse b) Electric bell c) Current carrying coil d) Number of vibrations in 1 second e) Path to the flow of current f) loudness g) Convection h) Sound wave",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Two-column matching table on page 1 written as two lists in the text",
+        "Eight pairs share the printed [4]; kept together. Items span sound, electricity and magnetism, and heat"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "III",
+      "part": "1",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Choose the correct option:- Heat causes :",
+      "options": [
+        "Change in temperature",
+        "Change in state",
+        "Change in dimension",
+        "all of these"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [4] covers eight MCQs (½ mark each); stored as 1 because marks must be whole numbers"
+      ],
+      "confidence": "HIGH",
+      "chapter": "heat",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "III",
+      "part": "2",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Choose the correct option:- The only liquid in which conduction is possible :",
+      "options": [
+        "Alcohol",
+        "Water",
+        "Mercury",
+        "Iodine"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [4] covers eight MCQs (½ mark each); stored as 1 because marks must be whole numbers"
+      ],
+      "confidence": "HIGH",
+      "chapter": "heat",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "III",
+      "part": "3",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Choose the correct option:- The fasted method of heat transfer from a hot body to:",
+      "options": [
+        "Conduction",
+        "Radiation",
+        "Convection",
+        "none of these"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [4] covers eight MCQs (½ mark each); stored as 1 because marks must be whole numbers",
+        "The word 'fasted' is struck through in pen on the scan (not part of the print); printed text kept"
+      ],
+      "confidence": "HIGH",
+      "chapter": "heat",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "III",
+      "part": "4",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Choose the correct option:- Sound requires:",
+      "options": [
+        "Material medium",
+        "Sound of vibration",
+        "both of these",
+        "none of these"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [4] covers eight MCQs (½ mark each); stored as 1 because marks must be whole numbers"
+      ],
+      "confidence": "HIGH",
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "III",
+      "part": "5",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Choose the correct option:- Direction of propagation of wave means :",
+      "options": [
+        "Flow of wave",
+        "Direction of vibration",
+        "direction in which energy of wave is moving",
+        "direction of electric field"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [4] covers eight MCQs (½ mark each); stored as 1 because marks must be whole numbers"
+      ],
+      "confidence": "HIGH",
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "III",
+      "part": "6",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Choose the correct option:- Strength of magnetic field of an electromagnet depends upon:",
+      "options": [
+        "Strength of electric current",
+        "Number of turns of wire",
+        "material of the wire",
+        "All of these"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [4] covers eight MCQs (½ mark each); stored as 1 because marks must be whole numbers"
+      ],
+      "confidence": "HIGH",
+      "chapter": "electricity-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "III",
+      "part": "7",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Choose the correct option:- Cell is an arrangement in which conversion of:",
+      "options": [
+        "Chemical energy to electrical energy",
+        "electrical energy to Chemical energy",
+        "both of these",
+        "none of these"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [4] covers eight MCQs (½ mark each); stored as 1 because marks must be whole numbers"
+      ],
+      "confidence": "HIGH",
+      "chapter": "electricity-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "III",
+      "part": "8",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Choose the correct option:- ________ is the surest test of magnetism.",
+      "options": [
+        "Attraction",
+        "Repulsion",
+        "electricity",
+        "none of these"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [4] covers eight MCQs (½ mark each); stored as 1 because marks must be whole numbers"
+      ],
+      "confidence": "HIGH",
+      "chapter": "electricity-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "IV",
+      "part": "1",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Answer in one word- Distance from the mean position to the top of crest.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "IV",
+      "part": "2",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Answer in one word- Range of Wave.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "IV",
+      "part": "3",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Answer in one word- High attraction points of magnet.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "electricity-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "IV",
+      "part": "4",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Answer in one word- Substances having free electrons .",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "electricity-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "IV",
+      "part": "5",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Answer in one word- Series combination of cell.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "electricity-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "V",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Define- 1. EMF 2. Sea breezes",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Two items share the printed (3); kept together. Item 2 (sea breezes) belongs to heat"
+      ],
+      "confidence": "HIGH",
+      "chapter": "electricity-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "B-I",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "a) How can you change the strength of electromagnet ? b) Write any two difference between conductors and insulators.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Section B restarts its numbering; printed as I) of Section B (stored as B-I)",
+        "Section B prints 'each question carry 2.5 marks', which conflicts with 20 marks for four questions; stored as 5 (= 20/4). Part marks not printed, so parts a) and b) are kept together"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "electricity-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "B-II",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "a) The radiator of a car is painted black. Why ? b) Name the three modes of transmission of heat energy.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Section B restarts its numbering; printed as II) of Section B (stored as B-II)",
+        "Section B prints 'each question carry 2.5 marks', which conflicts with 20 marks for four questions; stored as 5 (= 20/4). Part marks not printed, so parts a) and b) are kept together"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "heat",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "B-III",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "a) Why sound is called a longitudinal wave ? b) How sound propagates? Explain its propagation in air.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Section B restarts its numbering; printed as III) of Section B (stored as B-III)",
+        "Section B prints 'each question carry 2.5 marks', which conflicts with 20 marks for four questions; stored as 5 (= 20/4). Part marks not printed, so parts a) and b) are kept together"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "B-IV",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "a) Name some effects which can be caused by heat. b) Gaps are left in between rails while laying a railway track. Why ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Section B restarts its numbering; printed as IV) of Section B (stored as B-IV)",
+        "Section B prints 'each question carry 2.5 marks', which conflicts with 20 marks for four questions; stored as 5 (= 20/4). Part marks not printed, so parts a) and b) are kept together"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "heat",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "B-V",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "a) Why repulsion is called as a surest test ? b) What are resistors ? Draw the series and parallel combination of the . resistors ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Section B restarts its numbering; printed as V) of Section B (stored as B-V)",
+        "Section B prints 'each question carry 2.5 marks', which conflicts with 20 marks for four questions; stored as 5 (= 20/4). Part marks not printed, so parts a) and b) are kept together"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "electricity-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "B-VI",
+      "part": null,
+      "choiceGroup": null,
+      "page": 3,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "a) Why sound does not travel in space ? b) How sound is produced by human beings ?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Section B restarts its numbering; printed as VI) of Section B (stored as B-VI)",
+        "Section B prints 'each question carry 2.5 marks', which conflicts with 20 marks for four questions; stored as 5 (= 20/4). Part marks not printed, so parts a) and b) are kept together"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "sound",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

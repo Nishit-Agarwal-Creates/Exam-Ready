@@ -19,7 +19,12 @@ export type IntentCatalog = {
   }[];
 }[];
 
-export type IntentChip = { kind: "board" | "class" | "subject" | "chapter" | "year" | "paper" | "question" | "type" | "marks" | "repeated" | "pyq" | "doc" | "answer" | "text"; label: string };
+export type IntentChip = {
+  kind: "board" | "class" | "subject" | "chapter" | "year" | "paper" | "question" | "type" | "marks" | "repeated" | "pyq" | "doc" | "answer" | "text";
+  label: string;
+  /** The words of the query that produced this chip (absent for inferred chips); removing them drops the chip. */
+  match?: string;
+};
 
 export type SearchIntent = {
   boardId?: number;
@@ -28,6 +33,9 @@ export type SearchIntent = {
   classLevel?: number;
   subjectId?: number;
   chapterId?: number;
+  /** Same-named chapters in every matching class, when the query names no board, class or subject. */
+  chapterIds?: number[];
+  subjectIds?: number[];
   year?: number;
   paperCode?: string;
   questionNumber?: string;
@@ -104,57 +112,64 @@ export function interpretQuery(raw: string, catalog: IntentCatalog): SearchInten
     if (m) rest = rest.replace(m[0], " ");
     return m;
   };
+  const chip = (c: IntentChip, m?: RegExpMatchArray | null | string) =>
+    out.chips.push(m ? { ...c, match: typeof m === "string" ? m : m[0].trim() } : c);
 
   // Paper code, e.g. 31/2/1 or 430/4/1 (before years and question numbers so its digits aren't reused).
   const code = take(/\b(\d{2,3}\/\d{1,2}\/\d{1,2})\b/);
   if (code) {
     out.paperCode = code[1];
-    out.chips.push({ kind: "paper", label: `Q.P. ${code[1]}` });
+    chip({ kind: "paper", label: `Q.P. ${code[1]}` }, code);
   }
   const qn = take(/\b(?:q|q\.|question|ques)\s?(?:no\.?\s?)?(\d{1,2})\b/);
   if (qn) {
     out.questionNumber = qn[1];
-    out.chips.push({ kind: "question", label: `Question ${qn[1]}` });
+    chip({ kind: "question", label: `Question ${qn[1]}` }, qn);
   }
   const year = take(/\b(20[0-3]\d|19[89]\d)\b/);
   if (year) {
     out.year = Number(year[1]);
-    out.chips.push({ kind: "year", label: year[1] });
+    chip({ kind: "year", label: year[1] }, year);
   }
   const marks = take(/\b(\d{1,2})\s?-?\s?marks?\b|\b(\d{1,2})\s?-?\s?markers?\b/);
   if (marks) {
     out.marks = Number(marks[1] ?? marks[2]);
-    out.chips.push({ kind: "marks", label: `${out.marks} marks` });
+    chip({ kind: "marks", label: `${out.marks} marks` }, marks);
   }
-  if (take(/\b(most )?(repeated|recurring|frequently asked|repeat)\b/)) {
+  const repeated = take(/\b(most )?(repeated|recurring|frequently asked|repeat)\b/);
+  if (repeated) {
     out.repeatedOnly = true;
-    out.chips.push({ kind: "repeated", label: "Repeated in 2+ exam years" });
+    chip({ kind: "repeated", label: "Repeated in 2+ exam years" }, repeated);
   }
-  if (take(/\bprevious[- ]year\b|\bpast papers?\b|\bpyqs?\b/)) {
+  const pyq = take(/\bprevious[- ]year\b|\bpast papers?\b|\bpyqs?\b/);
+  if (pyq) {
     out.pyqOnly = true;
-    out.chips.push({ kind: "pyq", label: "Verified PYQs" });
+    chip({ kind: "pyq", label: "Verified PYQs" }, pyq);
   }
   for (const [re, paperType, label] of DOC_WORDS) {
-    if (take(re)) {
+    const m = take(re);
+    if (m) {
       out.paperType = paperType;
-      out.chips.push({ kind: "doc", label });
+      chip({ kind: "doc", label }, m);
       break;
     }
   }
-  if (take(/\bwith (official )?(answers?|solutions?|answer keys?|marking schemes?)\b|\bsolved\b/)) {
+  const answer = take(/\bwith (official )?(answers?|solutions?|answer keys?|marking schemes?)\b|\bsolved\b/);
+  if (answer) {
     out.hasAnswer = true;
-    out.chips.push({ kind: "answer", label: "With official answer" });
+    chip({ kind: "answer", label: "With official answer" }, answer);
   }
   // Only explicit "with/without figures" phrases: "ray diagram" is a topic, not a filter.
   const fig = take(/\b(with|without|no) (figures?|diagrams?|graphs?|pictures?)\b/);
   if (fig) {
     out.hasFigure = fig[1] === "with";
-    out.chips.push({ kind: "answer", label: out.hasFigure ? "Has a figure" : "No figure needed" });
+    chip({ kind: "answer", label: out.hasFigure ? "Has a figure" : "No figure needed" }, fig);
   }
   for (const [re, type, label] of TYPE_WORDS) {
-    if (take(re)) {
+    const m = take(re);
+    if (m) {
       out.type = type;
-      out.chips.push({ kind: "type", label });
+      chip({ kind: "type", label }, m);
       break;
     }
   }
@@ -170,7 +185,7 @@ export function interpretQuery(raw: string, catalog: IntentCatalog): SearchInten
   const board = boardSlug ? catalog.find((x) => x.slug === boardSlug) : undefined;
   if (board) {
     out.boardId = board.id;
-    out.chips.push({ kind: "board", label: b![1] === "isc" ? "ISC" : board.name });
+    chip({ kind: "board", label: b![1] === "isc" ? "ISC" : board.name }, b);
   }
 
   // Class: "class 10", "class x", "10th", "grade 9", "std 8".
@@ -189,7 +204,7 @@ export function interpretQuery(raw: string, catalog: IntentCatalog): SearchInten
     out.classLevel = level;
     const exact = classes.length === 1 ? classes[0] : null;
     if (exact) out.classId = exact.id;
-    out.chips.push({ kind: "class", label: `Class ${level}` });
+    chip({ kind: "class", label: `Class ${level}` }, c ?? (iscLevel ? b : null));
   }
 
   // Subject: the longest alias found in the text that exists in a candidate class.
@@ -199,8 +214,10 @@ export function interpretQuery(raw: string, catalog: IntentCatalog): SearchInten
     .flatMap(([slug, aliases]) => aliases.map((a) => ({ slug, a })))
     .filter(({ slug, a }) => subjectSlugsAvailable.has(slug) && new RegExp(`\\b${a.replace(/[&]/g, "\\&")}\\b`).test(rest))
     .sort((x, y) => y.a.length - x.a.length);
+  let subjectMatch: string | null = null;
   if (aliasHits.length) {
     subjectSlug = aliasHits[0].slug;
+    subjectMatch = aliasHits[0].a;
     take(new RegExp(`\\b${aliasHits[0].a.replace(/[&]/g, "\\&")}\\b`));
   }
 
@@ -222,7 +239,20 @@ export function interpretQuery(raw: string, catalog: IntentCatalog): SearchInten
     }
   }
   // Require a meaningful match: the whole short name, or at least half of a longer one.
-  if (best && best.score >= 0.75) {
+  // Nothing narrows the chapter (no board, class or subject named): "electricity" means that chapter in every
+  // class that has it, not one guessed subject.
+  const found = best && best.score >= 0.75 ? best : null;
+  const sameName =
+    found && !board && level === null && !subjectSlug
+      ? candidateSubjects.flatMap((s) => s.chapters.filter((ch) => words(ch.name).join(" ") === words(found.ch.name).join(" ")).map((ch) => ({ ch, s })))
+      : [];
+  if (found && new Set(sameName.map((x) => x.s.id)).size > 1) {
+    out.chapterIds = sameName.map((x) => x.ch.id);
+    out.subjectIds = [...new Set(sameName.map((x) => x.s.id))];
+    const usedSet = new Set(found.used);
+    rest = ` ${words(rest).filter((w) => !usedSet.has(w)).join(" ")} `;
+    chip({ kind: "chapter", label: `${found.ch.name} (every class)` }, found.used.join(" "));
+  } else if (best && best.score >= 0.75) {
     out.chapterId = best.ch.id;
     out.subjectId = best.subj.id;
     out.classId ??= best.subj.cls.id;
@@ -239,14 +269,14 @@ export function interpretQuery(raw: string, catalog: IntentCatalog): SearchInten
   }
   if (out.subjectId) {
     const s = candidateSubjects.find((x) => x.id === out.subjectId)!;
-    out.chips.push({ kind: "subject", label: s.name });
-    if (!board && out.boardId) out.chips.push({ kind: "board", label: s.cls.board.name });
-    if (level === null && out.classId) out.chips.push({ kind: "class", label: s.cls.name });
+    chip({ kind: "subject", label: s.name }, subjectMatch);
+    if (!board && out.boardId) chip({ kind: "board", label: s.cls.board.name });
+    if (level === null && out.classId) chip({ kind: "class", label: s.cls.name });
   } else if (subjectSlug) {
     const name = candidateSubjects[0]?.name ?? subjectSlug;
-    out.chips.push({ kind: "subject", label: `${name} (any class)` });
+    chip({ kind: "subject", label: `${name} (any class)` }, subjectMatch);
   }
-  if (out.chapterId && best) out.chips.push({ kind: "chapter", label: best.ch.name });
+  if (out.chapterId && best) chip({ kind: "chapter", label: best.ch.name }, best.used.join(" "));
 
   const text = words(rest)
     .filter((w) => !STOP.has(w))
@@ -254,7 +284,7 @@ export function interpretQuery(raw: string, catalog: IntentCatalog): SearchInten
     .trim();
   if (text.length >= 2) {
     out.text = text;
-    out.chips.push({ kind: "text", label: `“${text}”` });
+    chip({ kind: "text", label: `“${text}”` }, text);
   }
   // When the subject is known only by name (several classes), keep the candidates for the caller.
   if (!out.subjectId && subjectSlug) (out as SearchIntent & { subjectSlug?: string }).subjectSlug = subjectSlug;

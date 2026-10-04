@@ -1,0 +1,909 @@
+{
+  "source": {
+    "key": "icse-2026-x-mathematics",
+    "title": "ICSE 2026 Examination: Mathematics",
+    "board": "icse",
+    "class": 10,
+    "subject": "mathematics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "BOARD_EXAM",
+    "examYear": 2026,
+    "session": "Main examination",
+    "paperName": "Mathematics",
+    "paperCode": "T26 511",
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2026/07/ICSE-2026-MAIN-1.zip",
+    "sourceFile": "ICSE-2026-MAIN/ICSE 2026 MAIN/511 MAT - QP.pdf",
+    "answerSourceUrl": null,
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 16,
+    "sha256": "ed7dd387a0ae001ab88c1f98295e73237fa421cc4c6405f6916b2b2ce7fada4d",
+    "maxMarks": 80,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes; pdfplumber (pypdfium2) page renders for all mathematical notation",
+    "ocrUsed": false,
+    "notes": "ICSE 2026 board examination paper (code 'T26 511' printed on every page) from the official CISCE Archive Library bundle 'ICSE-2026-MAIN-1.zip' (session 'Main examination' taken from the bundle's 'ICSE 2026 MAIN' folder name). No official marking scheme is published with this paper; questions carry no official answer. Paper prints 'Maximum Marks: 80', 'Time allowed: Three hours' and 'Attempt all questions from Section A and any four questions from Section B.' Section A (40 marks) = Question 1 (fifteen 1-mark MCQ/assertion-reason items, [15] printed for the whole question) + Question 2 (4+4+4) + Question 3 (4+4+5). Section B = Questions 4-10, each 10 marks (3+3+4, except Question 7 = 5+5), candidate attempts any four; all are included, so the marks in this pack add up to 110 rather than 80. No 'OR' alternatives are printed, so choiceGroup is null throughout; each (i)/(ii)/(iii) sub-part is its own entry and its (a)/(b)/(c) items are kept together. IMPORTANT: the text layer of the bold equation-editor expressions is corrupt (math-italic glyphs doubled, 'sec/cos/cosec/sin' collapsed, stacked fractions and matrix brackets lose their layout); prose and most plain-font expressions extract cleanly. Every mathematical expression was transcribed from pages rendered with pdfplumber and checked visually (zoomed crops for 1(xiv) and 2(ii)); such items are MEDIUM and flagged. Fractions are written inline (a/b), powers as Unicode superscripts, matrices row by row as [[row 1], [row 2]], tables as '|'-separated rows. Items that depend on a diagram or graph for data are LOW. No cognitive-level tags are printed on this paper.",
+    "usage": "Official CISCE board examination paper from the CISCE Archive Library (cisce.org/archive-library); question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "(x + 3), 1, (3x − 7) and −5 are in proportion. The value of x is:",
+      "options": [
+        "–1",
+        "1",
+        "– 5",
+        "5"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "ratio-and-proportion",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The marked price of a refrigerator is ₹ 12,000 and GST paid by the customer is ₹ 2,160. The rate of GST is:",
+      "options": [
+        "5%",
+        "12%",
+        "18%",
+        "28%"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark."
+      ],
+      "confidence": "HIGH",
+      "chapter": "goods-and-services-tax",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Rakhi’s mobile number has the following integers:\n1, 6, 9, 8, 9, 1, 7, 8, 9\nThe mode of the above given data is:",
+      "options": [
+        "1",
+        "6",
+        "8",
+        "9"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark."
+      ],
+      "confidence": "HIGH",
+      "chapter": "statistics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A and B opened a recurring deposit account in a bank which is paying simple interest at 9% per annum. A deposited ₹ 1,500 for one year and B deposited ₹ 1,200 for 15 months. The amount invested by:",
+      "options": [
+        "A is ₹ 27 more than B",
+        "A is ₹ 300 more than B",
+        "A is ₹ 300 less than B",
+        "Both A and B are same (₹ 18,000)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark."
+      ],
+      "confidence": "HIGH",
+      "chapter": "banking",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Find the equation of a line whose y-intercept is 6 and is parallel to x-axis.",
+      "options": [
+        "y = 6",
+        "x = 6",
+        "x + y = 6",
+        "y – x = 6"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark."
+      ],
+      "confidence": "HIGH",
+      "chapter": "equation-of-a-line",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Asha buys ₹ 20 shares of a company which pays 9% dividend at such a price that she gets a return of 12% on her investment. At what price did she buy each share?",
+      "options": [
+        "₹ 20",
+        "₹ 15",
+        "₹ 25",
+        "₹ 18"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark."
+      ],
+      "confidence": "HIGH",
+      "chapter": "shares-and-dividends",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The total surface area of a solid sphere (S₁) and a solid hemisphere (S₂), as shown in the diagram, are equal. The ratio of radii R and r is:",
+      "options": [
+        "1 : 1",
+        "2 : 1",
+        "√3 : 2",
+        "2 : √3"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
+        "Figure on page 4 not reproduced (it only labels R as the sphere's radius and r as the hemisphere's).",
+        "Subscripts rebuilt: 'S1', 'S2' → S₁, S₂."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "mensuration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "In the given diagram, O is the centre of the circle and ABCD is a cyclic quadrilateral. If ∠CDE = 65°, then the value of x is:",
+      "options": [
+        "32.5°",
+        "65°",
+        "115°",
+        "130°"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
+        "Figure on page 4 not reproduced; the angle x (at O) and point E are defined only in the figure.",
+        "Degree marks printed as a raised 'o' are written as °.",
+        "In the text layer the label (viii) sits beside option (d) of item (vii); re-associated from the rendered page."
+      ],
+      "confidence": "LOW",
+      "chapter": "circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The nature of roots of quadratic equation 3x² − 6x − 3 = 0 are:",
+      "options": [
+        "real and equal",
+        "real, distinct and rational",
+        "real, distinct and irrational",
+        "no real roots"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "quadratic-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): If a die is rolled, the probability of getting a number greater than 6 is 1/6.\nReason (R): There are six possible outcomes when rolling a die, {1, 2, 3, 4, 5, 6}.",
+      "options": [
+        "(A) is true and (R) is false.",
+        "(A) is false and (R) is true.",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "If the areas of two similar triangles are in the ratio 9 : 64, then the ratio of their corresponding altitudes is:",
+      "options": [
+        "3 : 8",
+        "2 : 1",
+        "9 : 64",
+        "8 : 3"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark."
+      ],
+      "confidence": "HIGH",
+      "chapter": "similarity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "What must be added to x³ + 7x² + 3x + 2 so that the result is completely divisible by (x + 2)?",
+      "options": [
+        "– 40",
+        "–16",
+        "16",
+        "40"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "factorisation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "In the given diagram, ΔAOB is a right-angled triangle and C is the mid-point of AB. The coordinates of the point which is equidistant from the three vertices of ΔAOB is:",
+      "options": [
+        "(x, y)",
+        "(y, x)",
+        "(x/2, y/2)",
+        "(2x/3, 2y/3)"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
+        "Figure on page 6 not reproduced; the coordinates A(0, 2y), B(2x, 0) are given only in the figure.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
+      ],
+      "confidence": "LOW",
+      "chapter": "section-and-mid-point-formula",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Given matrix A = [[2, 3], [1, 2]] and matrix B = [[2, − 4]]. Product AB is a matrix of order:",
+      "options": [
+        "2 × 2",
+        "2 × 1",
+        "1 × 2",
+        "product AB is not possible"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image.",
+        "Matrices written row by row as [[row 1], [row 2]]; the printed brackets did not extract. B is printed as the single-row matrix [2  − 4]."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): The 9th term of a Geometric Progression (G.P.) 6, –12, 24, – 48… is a positive term.\nReason (R): The value of (–2)⁸ is always positive.",
+      "options": [
+        "(A) is true and (R) is false.",
+        "(A) is false and (R) is true.",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
+        "Superscripts rebuilt from the rendered page: '9th' (raised 'th') and the exponent 8 in (–2)⁸."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "geometric-progression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The fourth and seventh terms of an Arithmetic Progression (A.P.), are 60 and 114 respectively. Find the:\n(a) first term and common difference.\n(b) sum of its first 10 terms.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "arithmetic-progression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Given, A = [[3, 1], [5, 3]] and B = [[−1, a], [3, −5]] and product AB = [[b, 7], [4, 5]].\nFind the values of ‘a’ and ‘b’.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image.",
+        "Matrices written row by row as [[row 1], [row 2]]; the printed brackets did not extract."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "In the given diagram, O is the centre of the circle and the tangent DE touches the circle at B. If, ∠ADB = 32°. Find the values of x and y.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 8 not reproduced; the angles x and y are marked only in the figure.",
+        "Degree marks printed as a raised 'o' are written as °."
+      ],
+      "confidence": "LOW",
+      "chapter": "circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The polynomial kx³ + 3x² − 11x − 6 when divided by (x + 1), leaves a remainder of 6.\n(a) Find the value of k.\n(b) Using the value of k factorise completely the polynomial kx³ + 3x² − 11x − 6",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "factorisation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "An eye drop bottle is prepared consisting of a hemisphere, a cylinder and a conical cap, as shown in the given diagram. Height of the cylindrical and conical parts are each, equal to the diameter (7 cm). Find the:\n(a) minimum height of the cylindrical box required to pack this bottle.\n(b) volume of the liquid medicine (shaded part) in the bottle. Give your answer to the nearest whole number. (Use π = 22/7)",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 8 not reproduced; the arrangement of the hemisphere and the shaded part are shown only in the figure.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF (π = 22/7 is a stacked fraction)."
+      ],
+      "confidence": "LOW",
+      "chapter": "mensuration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Use ruler and compass for the following construction:\n(a) construct an equilateral triangle ABC of side 5 cm.\n(b) construct the circumcircle of ΔABC.\n(c) construct the locus of points which are equidistant from AB and BC. Mark the point where the circumcircle and locus meet, as D.\n(d) give the geometrical name of quadrilateral ABCD.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "constructions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Prove that:\n(secθ − cosθ)(cosecθ − sinθ) = sinθcosθ",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The cost price of a TV set is ₹ 20,000. The shopkeeper marked it for ₹ 24,000. He sells it to a customer at a discount of 10% on the marked price. If the sale is intra-state and the rate of GST is 12%, find the:\n(a) discounted price of the TV set.\n(b) amount paid by the customer to clear the bill.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "goods-and-services-tax",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "In the given diagram, DE ∥ BC and AD : DB = 2 : 3.\n(a) Prove that: ΔADE ~ ΔABC and hence find DE : BC\n(b) Prove: ΔDFE ~ ΔCFB\n(c) Given, area of ΔDFE = 16 square units, find the area of ΔCFB.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 9 not reproduced; that F is the intersection of BE and CD is shown only in the figure."
+      ],
+      "confidence": "LOW",
+      "chapter": "similarity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The histogram drawn on the graph represents the number of students of different heights (in cm).\nUsing the graph, answer the following:\n(a) the number of students whose height is 150 cm and above.\n(b) the modal height.\n(c) the total number of students.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph (histogram) on page 10 not reproduced; the question cannot be answered without it."
+      ],
+      "confidence": "LOW",
+      "chapter": "statistics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A(–10, –2) and B(2, 10) are two end points of a line segment. If AB intersects the x-axis at P, find the:\n(a) ratio in which ‘P’ divides AB.\n(b) coordinates of point P.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "section-and-mid-point-formula",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Solve the quadratic equation (x − 2)² − 5x − 3 = 0 and give your answer correct to 3 significant figures.\n(Use Mathematical Tables for this question if necessary.)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "quadratic-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Kabir bought 120 shares of a company with nominal value ₹ 100, available at a premium of ₹ 25. Find:\n(a) the money invested by Kabir in buying these shares.\n(b) the rate of dividend, if he received ₹ 1,080 as dividend from these shares after one year.\n(c) his rate of return.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "shares-and-dividends",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Find the mean of the following frequency distribution using step-deviation method.\nTake assumed mean = 28\nClass Interval | 0 – 8 | 8 – 16 | 16 – 24 | 24 – 32 | 32 – 40 | 40 – 48\nFrequency | 10 | 20 | 14 | 16 | 18 | 22",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table on page 11 reproduced as text rows ('|' separates cells); values checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "statistics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The difference of two natural numbers is 5 and sum of their reciprocals is 3/10. Find the two numbers.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF (3/10 is a stacked fraction whose denominator extracted as '1')."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "quadratic-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A flagpole is erected at the top of a building. The angle of elevation of the top and foot of the flagpole from a point 100 m away, on the same level as that of the foot of the building, are 33° and 31° respectively. Find the height of the flagpole. Give your answer correct to the nearest metre.\n(Use Mathematical Tables for this question.)",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 12 not reproduced; all data are also given in the text.",
+        "Degree marks printed as a raised 'o' are written as °."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "heights-and-distances",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Using a graph paper, draw an ogive for the following distribution which shows a record of weight in kilograms of 100 students.\nWeight (in kg) | Number of students\n35 – 40 | 4\n40 – 45 | 6\n45 – 50 | 10\n50 – 55 | 24\n55 – 60 | 26\n60 – 65 | 17\n65 – 70 | 8\n70 – 75 | 5\nUse your ogive to estimate the following:\n(a) the median weight of the students.\n(b) percentage of students whose weight is 60 kg or more.\n(c) the weight above which 20% of the students lie.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table on page 12 reproduced as text rows ('|' separates cells); values checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "statistics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Rohit and Vinay both opened a recurring deposit account in a bank for 2 years at 8% simple interest. Vinay deposited ₹ 300 per month. On maturity, Rohit’s interest was ₹ 800 more than Vinay’s interest. Find the:\n(a) interest earned by Vinay.\n(b) sum deposited by Rohit every month.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "banking",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The fourth term of a Geometric Progression (G.P.) is 16 and its seventh term is 128. Find its:\n(a) common ratio\n(b) first term",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "geometric-progression",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Use graph sheet for this question. Take 2 cm = 1 unit along both x and y axis. Graphically represent parallelogram OABC, where O(0, 0), A(2, 3), B(5, 3) and C(3, 0).\nReflect OABC:\n(a) on the x-axis and name its image as ODEC.\n(b) through the origin and name its image as OIJH.\n(c) on the y-axis and name its image as OFGH.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "chapter": "reflection",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Solve the following inequation, write the solution set and represent it on the real number line.\n−1 < (2x − 3)/3 − x/5 ≤ 1, x ∈ R",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "linear-inequations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 14,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Use the following graph and answer the given questions:\n(a) Write the co-ordinates of points A, B and C.\n(b) Find the equation of a line passing through the mid-point of AC and parallel to AB.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph on page 14 not reproduced; the question cannot be answered without it."
+      ],
+      "confidence": "LOW",
+      "chapter": "equation-of-a-line",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A solid wooden toy is prepared by joining a cone, a cylinder and a sphere, as shown in the given diagram. The radius of each of the three solids is 7 cm and heights of each of the cone and the cylinder is 24 cm. Find:\n(a) the total surface area of the given solid.\n(b) the cost of painting the total surface at the rate of ₹ 0.50 per cm².\n(Use π = 22/7)",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 15 not reproduced; how the three solids are joined is shown only in the figure.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF (π = 22/7 is a stacked fraction; 'cm2' → cm²)."
+      ],
+      "confidence": "LOW",
+      "chapter": "mensuration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 15,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "If x = 5ab/(a − b), a ≠ b,\n(a) Find: x/a\n(b) Using properties of proportion, find: (x + a)/(x − a)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "ratio-and-proportion",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A survey was conducted on 300 families having 2 children each. The results obtained are given below.\nNumber of girl child | 2 | 1 | 0 | Total\nNumber of families | 95 | 165 | 40 | 300\nIf one family is selected at random, find the probability that it will have:\n(a) one girl child\n(b) one or more girl child\n(c) no boy child",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table on page 16 reproduced as text rows ('|' separates cells); values checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 16,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "In the given figure ‘O’ is the centre of the circle. PQ is a tangent to the circle at B and AB = AC. If ∠CBQ = 40°, find the unknown angles x, y, z and w.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 16 not reproduced; the angles x, y, z and w are marked only in the figure.",
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
+      ],
+      "confidence": "LOW",
+      "chapter": "circles",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

@@ -1,0 +1,2435 @@
+{
+  "source": {
+    "key": "isc-cfq-2024-xii-physics",
+    "title": "CISCE Competency-Focused Practice Questions, ISC Class XII Physics",
+    "board": "icse",
+    "class": 12,
+    "subject": "physics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "QUESTION_BANK",
+    "examYear": null,
+    "session": "Competency-Focused Practice Questions (Item Bank), preface dated August 2024",
+    "paperName": "Physics, ISC Class XII",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2025/04/CFQ-ISC-Physics-XII.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2025/04/CFQ-ISC-Physics-XII.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 61,
+    "sha256": "f94c9437719d86058cb178f8743998665977237f791e274df50da6882f5f1f61",
+    "maxMarks": null,
+    "durationMinutes": null,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes; pages rendered with pypdfium2 to check notation",
+    "ocrUsed": false,
+    "notes": "Official CISCE item bank 'Competency-Focused Practice Questions, ISC-Class XII, Physics' (preface by the Chief Executive & Secretary dated August 2024; file uploaded to cisce.org in 2025/04). It is a question bank, not an examination paper: examYear is null, no maximum marks or duration are printed. 61 PDF pages: preface (p1), contents (p3), questions on printed pages 1-42 (PDF pages 4-45; PDF page = printed page + 3), Answer Key on printed pages 43-57 (PDF pages 46-60). 95 questions in six sections, with marks printed in each section header: I Multiple Choice Questions (Q1-21, 1 mark each), II Assertion-Reason (Q22-25, 1 mark each), III Very Short Answer (Q26-45, 1 mark each), IV Short Answer (Q46-65, 2 marks each), V Long Answer (Q66-90, 3 marks each), VI Very Long Answer (Q91-95, 5 marks each); marksSource is SECTION_INSTRUCTIONS; the 185-mark total is just the sum of the bank. Marks are given per question, not per sub-part, so multi-part questions are kept as one entry. Each question prints a topic tag in square brackets (e.g. [Optics]) and a cognitive domain in parentheses, recorded as cognitiveLevel. Some topic tags do not match the content (e.g. magnetic-field questions tagged as electromagnetic induction); chapters follow the content and such cases are noted in extractionIssues. officialAnswer comes from the bank's own Answer Key, which 'presents the possible answers to a given question, but it is neither limiting nor exhaustive'; it is copied as printed (including its own slips) and never extended. Answers that are diagrams only (Q30, Q37, Q38, Q62) are omitted. Equations, powers of ten, subscripts and vectors were rebuilt inline from the rendered pages where the text layer flattened them; those entries are MEDIUM and flagged.",
+    "usage": "Official CISCE question bank from cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 4,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Three lenses L₁, L₂, and L₃ are specified in the given table below. To construct an astronomical telescope, which one of the following is to be used as an eyepiece and as an objective? Lens | Aperture (cm) | Power (D): L₁ | 8 | 3; L₂ | 1 | 10; L₃ | 1 | 6",
+      "options": [
+        "L₁, L₂",
+        "L₂, L₁",
+        "L₂, L₃",
+        "L₃, L₁"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table on page 4 reproduced as inline text",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) L₂, L₁ Explanation: The objective should have a large aperture and large focal length, while the eyepiece should have a small aperture and small focal length.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 4,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "An ideal Moving Coil Galvanometer (MCG) cannot be used as an ammeter to measure the value of current in a given circuit. The following reasons are: (i) it has a high current sensitivity value. (ii) for a minimal amount of current the galvanometer deflection will be maximum. (iii) it has a low least count.",
+      "options": [
+        "(i) and (ii)",
+        "(i) and (iii)",
+        "(ii) and (iii)",
+        "(i), (ii), and (iii)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) (i) and (ii)",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "What will be the output for the given circuit?",
+      "options": [
+        "Zero",
+        "[waveform figure, see page 5]",
+        "[waveform figure, see page 5]",
+        "[waveform figure, see page 5]"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 5 not reproduced: Circuit diagram",
+        "Options (b), (c) and (d) are waveform figures on page 5; not reproduced",
+        "Official answer partly missing in extraction (figure/equation)"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(b) During the first half diode is in reverse biasing so it does not conduct, and we get the same voltage in output. But in the second half, it is in forward bias, so it conducts, hence the circuit is shortened, and we do not get any voltage in output.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The graphs shown below are for three different Inductance, Capacitance, and Resistance (LCR) circuits. Identify their nature based on the phase difference between Vs and I.",
+      "options": [
+        "Inductive, Capacitive, and Resistive.",
+        "Capacitive, Resistive, and Inductive.",
+        "Resistive, Capacitive, and Inductive.",
+        "Inductive, Resistive, and Capacitive."
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 5 not reproduced: Graphs (1), (2), (3)",
+        "Subscripts flattened: Vs"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(b) Capacitive, Resistive and Inductive.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Sheetal had 6 identical cells, each of electromotive force (emf) 4 V and internal resistance 'r'. She connected them to an external resistor 'R' in two different arrangements as shown and measured the current as 'I₁' and 'I₂' respectively. If 'I₂' is found to be greater than 'I₁', then which relation is true?",
+      "options": [
+        "R > r",
+        "R = r",
+        "R < r",
+        "R = 6r"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 6 not reproduced: Circuit arrangements",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(c) R < r",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Lorenz's force is:",
+      "options": [
+        "the vector sum of electrostatic and magnetic force acting on a moving charged particle.",
+        "the sum of electrostatic and magnetic force acting on a moving charged particle.",
+        "electrostatic force acting on a charged particle only.",
+        "the magnetic force acting on a moving charged particle only."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) The vector sum of electrostatic and magnetic force acting on a moving charged particle. Explanation: As Lorenz force is given by, F⃗ = q(E⃗ + v⃗ × B⃗) = qE⃗ + q(v⃗ × B⃗); F⃗ = F⃗E + F⃗B",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A charged particle is moving with velocity 'v⃗' in a magnetic field of induction 'B⃗'. The force on the particle will be maximum when:",
+      "options": [
+        "'v⃗' and 'B⃗' are at an angle of 45°.",
+        "'v⃗' and 'B⃗' are perpendicular.",
+        "'v⃗' and 'B⃗' are in the same direction i.e., at an angle of 0⁰.",
+        "'v⃗' and 'B⃗' are in opposite directions i.e., at an angle of 180⁰."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Vector symbols garbled in the text layer; rebuilt as v⃗ and B⃗ from the rendered page 7 (quote marks normalised)",
+        "Angles printed as 0⁰ and 180⁰ (superscript zero) as on the page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) 'v⃗' and 'B⃗' are perpendicular. Explanation: Since F = q ('v⃗' × 'B⃗') or |F| = qvB sin θ 'F' will be the maximum when θ = 90°.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Ampere's circuital law states that:",
+      "options": [
+        "the line integral of a magnetic field along the boundary of the closed loop is equal to µ₀ times the total current passing near the surface.",
+        "the line integral of a magnetic field along the boundary of the closed loop is equal to µ₀ times the total current passing through the surface.",
+        "the surface integral of the magnetic field over the closed loop is equal to µ₀ times the total current passing through the surface.",
+        "the surface integral of the magnetic field over the closed loop is equal to µ₀ times the total current passing near the surface."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) The line integral of a magnetic field along the boundary of the closed loop is equal to µ₀ times the total current passing through the surface. Explanation: According to Ampere's circuital law, ∮B⃗·dℓ⃗ = µ₀I",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The magnetic induction at any point due to a long straight wire carrying a current is:",
+      "options": [
+        "inversely proportional to the distance from the wire.",
+        "inversely proportional to the square of the distance from the wire.",
+        "does not depend on distance.",
+        "proportional to the distance from the wire."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed topic tag is 'Electromagnetic Induction and Alternating Currents'; mapped to the magnetic-field chapter",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) inversely proportional to the distance from the wire. Explanation: B = µ₀I/2πr or B ∝ I/r",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The energy of an electron in the ground state of a hydrogen atom is −13.6 eV. What will be the ratios of energies in the first orbit to that in the second orbit, if the radius of the first orbit is r₁ and the second radius is r₂?",
+      "options": [
+        "r₁² : r₂²",
+        "r₁: r₂",
+        "r₂: r₁",
+        "r₂² : r₁²"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) r₂: r₁ Solution: E = −e²/(8πε₀ r)",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following is NOT a limitation of Bohr’s theory?",
+      "options": [
+        "It does not include the electrical forces between electrons which necessarily appear in multi-electron atoms.",
+        "The model is unable to explain the relative intensities of the frequencies in the spectrum.",
+        "In a hydrogen atom, an electron revolves in certain stable orbits without the emission of radiant energy.",
+        "It cannot explain the characteristic line spectra of atoms of different elements."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) In a hydrogen atom, an electron revolves in certain stable orbits without the emission of radiant energy.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "It was found that certain metals like Zinc, Cadmium, Magnesium, etc. are photosensitive only to ultraviolet light. However, some alkali metals such as Lithium, Sodium, and Potassium, were photosensitive even to visible light. If ultraviolet light of the same frequency and the same intensity is incident on Zinc and Sodium metal, then which of the following quantities may be the same?",
+      "options": [
+        "Kinetic energy of the photoelectrons emitted by the two metals.",
+        "Photoelectric current flowing through the two metals.",
+        "Stopping potential.",
+        "The potential energy of the photoelectrons emitted by the two metals."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Photoelectric current flowing through the two metals.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "An alternating current (a.c.) voltage source at 50 Hz is applied to a series combination of resistor A of resistance ‘P' and component B of reactance ‘Y'. The phase angle is +π/4. Which of the following is true?",
+      "options": [
+        "B is a capacitor and Y = 2P.",
+        "B is an inductor and Y = 2P.",
+        "B is a capacitor and Y = P.",
+        "B is an inductor and Y = P."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) B is a capacitor and Y = P.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Consider an alternating current (a.c.) source whose angular frequency (ω) changes constantly but has a fixed peak voltage 'V'. This source is connected to an ideal capacitor (C) and electric bulb of resistance 'R'. When (ω) starts to reduce gradually, then which of the following condition happens?",
+      "options": [
+        "The bulb starts to dim.",
+        "The bulb starts to glow brighter than before.",
+        "The brightness of the bulb is independent of changes in (ω).",
+        "The bulb will fuse out."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) The bulb starts to dim.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The speed of electromagnetic waves in free space is given by (in usual notations):",
+      "options": [
+        "√(∈₀µ₀)",
+        "1/√(∈₀µ₀)",
+        "√(∈µ)",
+        "1/√(∈µ)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page (roots and fractions in the options)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) 1/√(∈₀µ₀)",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "electromagnetic-waves",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following statement is true?",
+      "options": [
+        "According to both Maxwell’s electromagnetic theory and Huygens’s wave theory, light is treated as a wave in nature and requires a medium to travel.",
+        "According to both Maxwell’s electromagnetic theory and Huygens’s wave theory, light is treated as a particle in nature and requires a medium to travel.",
+        "According to both Maxwell’s electromagnetic theory and Huygens’s wave theory, light is treated as a wave in nature and does not require a medium to travel.",
+        "According to Maxwell’s electromagnetic theory, light is treated as a wave in nature and requires no medium to travel. However, according to Huygens’s theory, light is treated as a wave in nature and requires a medium to travel."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) According to Maxwell’s electromagnetic theory, light is treated as a wave in nature and requires no medium to travel. However, according to Huygens's theory, light is treated as a wave in nature and requires a medium to travel.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "electromagnetic-waves",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The current passing through a wire varies with time as provided below. The charge passing through the wire from 0s to 5s is:",
+      "options": [
+        "12.5 mC",
+        "9 mC",
+        "4.5 mC",
+        "10.5 mC"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 10 not reproduced: Current-time graph"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(d) 10.5mC. Explanation: Under the graph",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A current I is flowing through a wire of non-uniform cross-section as shown in the figure. Which of the following options gives the correct variation of current (i), drift velocity (v), and current density (j) across the wire?",
+      "options": [
+        "Current: I₁ > I₂; Current density: j₂ = j₁; Drift velocity: v₂ < v₁",
+        "Current: I₁ = I₂; Current density: j₂ > j₁; Drift velocity: v₂ > v₁",
+        "Current: I₁ < I₂; Current density: j₂ < j₁; Drift velocity: v₂ = v₁",
+        "Current: I₁ = I₂; Current density: j₂ = j₁; Drift velocity: v₂ = v₁"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 11 not reproduced",
+        "Options printed as table rows (Current / Current density / Drift velocity); rebuilt as text",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) Current: I₁=I₂; Current density: j₂ > j₁; Drift velocity: v₂ > v₁",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Each of the batteries connected in the circuit is of electromotive force (emf) 4V and internal resistance of 1 ohm. What is the potential difference across the battery B₂?",
+      "options": [
+        "0 V",
+        "2.67 V",
+        "4 V",
+        "1.33 V"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 12 not reproduced: Circuit diagram",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) 0 V. Explanation: As the battery is short-circuited, the potential difference is 0 V.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A non-conducting sphere A, attached to an insulated handle is given a charge +q. It is brought near a non-conducting sphere B, having a charge +Q, placed on a platform attached to a spring and placed at a vertical distance R from sphere B. The spring compresses by a distance d₁. Now, if sphere B is replaced by a similar conducting sphere and sphere A is brought vertically at the same distance from B, without touching it, the spring compresses by a distance d₂. Choose the correct option based on the above situation and diagram:",
+      "options": [
+        "d₂ > d₁",
+        "d₂ < d₁",
+        "d₂ = d₁",
+        "insufficient information to compare d₂ and d₁."
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 13 not reproduced: Diagram",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) d₂ < d₁ Electrons on the conducting sphere will be attracted to the excess positive charges on Sphere A and move closer to Sphere A. This leaves the opposite side of the conducting sphere more positively charged which results in less electric repulsion between the spheres and as a result, less compression in the spring.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "electric-charges-and-fields",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The work function of caesium metal is 2.04 eV and a graph between the variation of photoelectric current with a collector plate potential of caesium, for incident radiation is given below. If the frequency of the incident radiation is doubled, which of the following combinations is correct?",
+      "options": [
+        "Work function: 2.04eV; Stopping potential: -0.6 V",
+        "Work function: 4.08 eV; Stopping potential: -0.6V",
+        "Work function: 4.08eV; Stopping potential: −3.24V",
+        "Work function: 2.04eV; Stopping potential: −3.24V"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 14 not reproduced: Graph of photoelectric current versus collector plate potential",
+        "Options printed as table rows (Work function / Stopping potential); rebuilt as text"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(d) Work function: 2.04 eV; Stopping Potential: -3.24V.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "II",
+      "sectionTitle": "Assertion-Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "The diagram below shows the equipotential surfaces in a given region of space. The potential difference between any two consecutive surfaces is equal. There are five points marked in the space, namely A, B, C, D, and E as shown. Assertion (A): The electric field strength is greatest at point A and reduces from A to E. Reason (R): The potential difference in a region of space is equal to the negative electric field gradient in that region.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for Assertion.",
+        "Assertion is true, and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 15 not reproduced: Equipotential surfaces diagram"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) Both Assertion and Reason are false.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "electrostatic-potential-potential-energy-and-capacitance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "II",
+      "sectionTitle": "Assertion-Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): In a ferromagnetic material, all the atomic magnets have dipole moments in the same direction. Reason (R): It is due to strong exchange coupling between neighbouring atoms in a domain.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for Assertion.",
+        "Assertion is false, and Reason is true.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Option (c) of this question is printed as 'Assertion is false, and Reason is true.'"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Assertion is false, and Reason is true.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "magnetism-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "II",
+      "sectionTitle": "Assertion-Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): The graph for 'v' versus 'u' of a concave mirror forming real images, falls within the second quadrant. Reason (R): For concave mirrors, according to the sign convention for real images, 'u' is negative, and 'v' is positive.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for Assertion.",
+        "Assertion is true, and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) Both Assertion and Reason are false.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "II",
+      "sectionTitle": "Assertion-Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): The wave nature of matter is what prevents atoms from collapsing and gives atoms their sizes. Reason (R): Only those orbits where the circumference of the orbit is an integral multiple of de Broglie wavelength exist or are “allowed.” And it is not possible lower than the lowest orbit in an atom.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for Assertion.",
+        "Assertion is true, and Reason is false.",
+        "Both Assertion and Reason are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The given graph shows the variation of charge on plates (q) versus the potential difference (V) between the plates of two capacitors C₁ and C₂. Both the capacitors have the same plate area but the plate separation of C₁ is twice that of C₂. Which graph corresponds to C₁?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 17 not reproduced: q-V graph (lines A and B)",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Slope = q/V = C. The higher slope corresponds to higher capacitance. Also, C ∝ 1/d. The lesser the value of 'd', the more the capacitance. Hence, graph 'B' corresponds to 'C₁'."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "electrostatic-potential-potential-energy-and-capacitance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A hollow sphere made of material 'X' is placed in a region of electric field. The pattern of electric field lines around the sphere is observed to be like the figure shown below. Plot the resistivity versus temperature graph for the material of the sphere.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 17 not reproduced: Field-line pattern",
+        "Official answer partly missing in extraction (figure/equation): the resistivity-temperature graph in the Answer Key (page 48) is not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Conductor"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "electric-charges-and-fields",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Four charges +Q, +Q, −Q, and –Q are placed in an arrangement as shown. The direction of the net electric field at a point 'P' (on the diagram) is best indicated by which of the following vectors: A, B, C, D, or E?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 18 not reproduced: Charge arrangement and vectors"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "C"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "electric-charges-and-fields",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Using a cell of electromotive force (e.m.f.) ε and internal resistance 'r', a student designs an electrical circuit to calculate current 'I' through a variable resistor 'R'. The student plots her findings on a graph as shown. What does the slope of the graph indicate?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 18 not reproduced: Graph of 1/I versus R",
+        "Printed topic tag is 'Electrostatics'; mapped to current electricity",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Slope = 1/ε"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A finite-length Movable wire (XY) carrying current i₁ is kept parallel to another infinite-length Fixed wire (PQ) carrying current i₂ above it. In this setup, the Movable wire (XY) is stationary as depicted below. Redraw a new setup such that the Movable wire (XY) remains stationary and is placed parallel below the Fixed wire (PQ) carrying current i₂. Label the direction of current i₁ in the Movable wire (XY).",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 19 not reproduced",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
+        "Official answer is a diagram only (Answer Key page 48); not reproduced, officialAnswer omitted"
+      ],
+      "confidence": "LOW",
+      "cognitiveLevel": "Create",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "A charge 10 µC enters a region of the uniform magnetic field with a velocity (4i + 5j) m/s and experiences a force (5i−Cj) N. Find the value of 'C'.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF",
+        "In the Answer Key a struck-through 'F × v = 0' precedes 'F.v = 0'; the struck-through expression is omitted"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "As we know magnetic force is always perpendicular to the velocity of the charge particle, given as F⃗ = q(v⃗ × B⃗). As F⃗ is perpendicular to v⃗, we use F.v = 0 (5î − Cĵ)·(4î + 5ĵ) = 0 20 – 5C = 0 C = 20/5 = 4"
+      },
+      "cognitiveLevel": "Analysis & Evaluate",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "A galvanometer of resistance 3G can carry a maximum current of 25 mA. Calculate the value of shunt resistance to be used so that it works as an ammeter to read the current up to 0.1 A.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "G"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "In the X - Y plane, a magnetic field of 4 T is applied along the Y-axis. Calculate the magnetic force on a proton, if it moves at 3 × 10⁶ m/s along the +Y-axis.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Zero"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "34",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "How is the refractive index of the material of a prism dependent on the angle of incidence?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "It is independent of the angle of incidence."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "35",
+      "part": null,
+      "choiceGroup": null,
+      "page": 20,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "If you had to construct an optical fibre using the two materials, which would you prefer for the core and the cladding? X: with a refractive index of 1.4905 or Y: of refractive index of 1.337?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Layout-mode text interleaves Q35 and Q36 on page 20; text taken in reading order from the rendered page"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "X: refractive index of 1.4905: Core Y: refractive index of 1.337: Cladding"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "36",
+      "part": null,
+      "choiceGroup": null,
+      "page": 20,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A lens forms the image of an object as shown in the figure. Identify the type of lens.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 20 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Convex lens"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "37",
+      "part": null,
+      "choiceGroup": null,
+      "page": 20,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Redraw the diagram with the correct orientation of the obscured (hidden) optical device, so that when a plane wavefront is incident upon it, the transmitted wavefront matches the depicted figure.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 20 not reproduced: Wavefront diagram",
+        "Official answer is a diagram only (Answer Key page 49); not reproduced, officialAnswer omitted"
+      ],
+      "confidence": "LOW",
+      "cognitiveLevel": "Create",
+      "chapter": "wave-optics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "38",
+      "part": null,
+      "choiceGroup": null,
+      "page": 20,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A light-emitting diode (LED) is connected in forward biasing. If its potential barrier is given by ‘V₀’ when no biasing is there, as shown in the diagram, then draw the diagram showing the new position of potential barrier.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 20 not reproduced: Potential barrier diagram",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
+        "Official answer is a diagram only (Answer Key page 49); not reproduced, officialAnswer omitted"
+      ],
+      "confidence": "LOW",
+      "cognitiveLevel": "Understanding",
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "39",
+      "part": null,
+      "choiceGroup": null,
+      "page": 20,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "An electron is revolving around the nucleus of a hydrogen atom. If the radius of the first orbit is 0.53 × 10⁻¹⁰ m, calculate the de Broglie wavelength of the moving electron in the orbit.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "According to Bohr’s quantization condition, 2πr = nλ. ∴ λ = 2πr, since n = 1 λ = 2 × 3.14 × 0.53 × 10⁻¹⁰ = 3.328 × 10⁻¹⁰ m."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "dual-nature-of-radiation-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "40",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A 9.2 eV electron beam is used to bombard gaseous hydrogen at room temperature. What series of wavelengths will be emitted if any?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Layout-mode text interleaves Q40-Q43 on page 21; text taken in reading order from the rendered page"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "No series. (At room temperature electrons remain present in the ground state.)"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "41",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "Calculate the wavelength of a photon needed to ionize a hydrogen atom.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed topic tag is 'Dual Nature of Radiation and Matter'; mapped to atoms (hydrogen ionisation energy)",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "λ = hc/E = (6.6 × 10⁻³⁴ × 3 × 10⁸)/(13.6 × 1.6 × 10⁻¹⁹) = 909.9 × 10⁻¹⁰ m"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "42",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The kinetic energy of an α-particle incident on a gold foil is doubled. How does the distance of the closest approach change?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "K.E. ∝ 1/r₀, where ‘r₀’ is the distance of closest approach. So, when the kinetic energy is doubled, the distance of the closest approach is halved."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "43",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The electric current flowing in a wire in the direction B to A is decreasing. What is the direction of the induced current in the metallic loop kept above the wire, as shown in the figure?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 21 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "By right-hand thumb rule, the magnetic field of the current in wire AB acts on the loop in a direction perpendicular to the plane of paper and inwards. By Lenz’s law, the induced current should oppose the decrease in flux, i.e., it should also produce inward flux. So, the induced current flows in the clockwise direction."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "electromagnetic-induction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "44",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "A circular coil of radius 8 cm and 20 turns rotates about its vertical diameter with an angular speed of 50 s⁻¹ in a uniform horizontal magnetic field of magnitude 3 × 10⁻² T. Obtain the average electromotive force (e.m.f.) induced in the coil in each rotation.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "ε = NBAω sin ωt = ε₀ sin ωt Since the average value of sin ωt over a cycle is zero, therefore, εav = 0."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "electromagnetic-induction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "45",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "III",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give the expression for the power factor in an LR circuit in terms of the resistance ‘R’ and inductive reactance ‘XL’.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: XL (X with subscript L)",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "cos θ = R/√(R² + XL²)"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "46",
+      "part": null,
+      "choiceGroup": null,
+      "page": 22,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Two long wires carrying current are kept crossed (not touching each other) as shown in figure. If resultant magnetic induction at P is zero, then find the relation between I₁ and I₂.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 22 not reproduced",
+        "Printed topic tag is 'Electromagnetic Induction and Alternating Currents'; mapped to the magnetic-field chapter",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "B⃗P = B⃗1(in) + B⃗2(out) BP = B₁ − B₂ = (µ₀/4π)(2I₁/x) - (µ₀/4π)(2I₂/y) The resultant magnetic field induction at point P is 0. 0 = (µ₀/4π)(2I₁/x) - (µ₀/4π)(2I₂/y) (µ₀/4π)(2I₁/x) = (µ₀/4π)(2I₂/y) ∴ I₁/I₂ = x/y"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "47",
+      "part": null,
+      "choiceGroup": null,
+      "page": 22,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Which material is used to make this glass slab? Material | Refractive Index: Zircon | 1.96 – 2.01; Sapphire | 1.76 – 1.77; Peridot | 1.65 – 1.69; Tourmaline | 1.62 – 1.64",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on page 22 reproduced as inline text from the rendered page (the text layer has no table text)",
+        "Figure on page 22 not reproduced: Ray diagram through the slab (10 cm, 30°, 5.7 cm)",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Lateral disp = t sin(i − r)/cos r → cos r = (10×0.5)/5.7 = 0.8772 → r = 28.69° Refractive index = sin i/sin r = sin 58.69/sin 28.69 = 1.77 The material is sapphire."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "48",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "In a Wheatstone bridge, three resistances P, Q, and R are connected in the three arms, and the fourth arm is formed by two resistances S1 and S2 connected in parallel. Evaluate the new condition for the bridge to be balanced.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 23 not reproduced: Wheatstone bridge diagram",
+        "Printed topic tag is 'Electrostatics'; mapped to current electricity",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "P/Q = R/S = R(S₁ + S₂)/(S₁S₂)"
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "49",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A thin convex lens of focal length f is cut into parts and then combined as shown in Fig 1 and Fig 2. Evaluate the focal length of the combination, in: (a) figure 1 (b) figure 2",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 23 not reproduced: Fig 1 and Fig 2"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) F = f/2 (b) F = ∞"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "50",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A changing electric field produces a magnetic field and vice versa, resulting in an electromagnetic wave. If a charged particle is passed through a crossed field, under what circumstances will this charge experience no deviation? Also, obtain a formula that proves that electromagnetic (e.m.) waves carry both energy and momentum.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed topic tag is 'Dual Nature of Radiation and Matter'; mapped to electromagnetic waves",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "When the velocity of the charged particle is E/B. Then, p = E/c proves that e.m. waves carry both energy and momentum."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "electromagnetic-waves",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "51",
+      "part": null,
+      "choiceGroup": null,
+      "page": 24,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The first diagram depicts a bar magnet of pole strength ‘m’ and separation between the poles ‘ℓ’. If the magnetic moment in the first diagram is ‘M’, then the new magnetic dipole moment in the second diagram is:",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 24 not reproduced: Diagram 1 and Diagram 2",
+        "Symbol ℓ missing from the text layer; restored from the rendered page 24",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "M = m × ℓ After bending, the new separation between the poles = 2r. Now, πr = ℓ ∴ r = ℓ/π New dipole moment, M₁ = m × 2r = m × 2ℓ/π ∴ M₁ = 2M/π"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "magnetism-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "52",
+      "part": null,
+      "choiceGroup": null,
+      "page": 24,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Observe the two diagrams and state which diagram corresponds to diamagnetic and ferromagnetic.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 24 not reproduced: Figure 1 and Figure 2"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Figure 1 – Diamagnetic Figure 2 – Ferromagnetic"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "magnetism-and-matter",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "53",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "A long straight wire in the horizontal plane carries a current of 50 A in the north-to-south direction. Give the magnitude and direction of ‘B’ at a point 2.5 m east of the wire.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed topic tag is 'Electromagnetic Induction and Alternating Currents'; mapped to the magnetic-field chapter",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "I = 50 A, r = 2.5 m B = (µ₀/4π)(2I/r) = (4π × 10⁻⁷ × 50)/(2π × 2.5) = 4 × 10⁻⁶ T Applying the right-hand thumb rule, we find the magnetic field will be perpendicular outward at a point 2.5 m east of the power line."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "54",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "(a) Name the type of mirror used here. (b) What is its focal length?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 25 not reproduced: Graph of |m| versus |v| in cm; the question stem is only this graph"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Concave mirror; (b) 20 cm"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "55",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "Calculate the refractive index of the material of the prism.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 25 not reproduced: Two prism ray diagrams with angles 53, 35, 42 and 45, 45; the data are only in the figure",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "From the first diagram, I + e = A + d A = 53 + 42 – 35 = 60° From the second diagram, the angle of minimum deviation = 2i – A = 30° Refractive index = sin((A + d)/2)/sin(A/2) = sin 45/sin30 = 1.414"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "56",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give the values of X and Y in terms of λ and the corresponding phase difference.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 25 not reproduced: Intensity versus path difference pattern marking X and Y",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "X – 2nd order maxima = −5λ/2, Phase difference = −5λ/2 × 2π/λ = −5π Y – 3rd minima = 3λ Phase difference = 3λ × 2π/λ = 6π"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "wave-optics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "57",
+      "part": null,
+      "choiceGroup": null,
+      "page": 26,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Two cells of electromotive forces (e.m.f.s.) approximately 5 V and 10 V are to be accurately compared using a potentiometer of length 400 cm. The student sets up the circuit as shown in the diagram. However, he is not able to measure the ratio of e.m.f.s correctly. Analyse the circuit shown and spot a minimum of two errors in the circuit. Explain with proper reasoning.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 26 not reproduced: Potentiometer circuit diagram"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(i) The electromotive force (emf) of the battery must be greater than 10 V, so that the potential difference across the wire is more than the e.m.f.s of the cell to be compared. Otherwise, the balance length for 10 V cannot be determined. (ii) A series variable resistant/rheostat must also be added to the primary circuit to minimize the current drawn from the cell and adjust the potential drop across the potentiometer."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "58",
+      "part": null,
+      "choiceGroup": null,
+      "page": 26,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "A student wants to place three charges ‘−q’, ‘Q’, and ‘−q’ in such a way that the potential energy of the system is zero. The three charges are arranged in a straight line at an equal distance from each other. Calculate the ratio of ‘Q’ to ‘q’ for such an arrangement.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "−kqQ/x − kQq/x + kqq/2x = 0 or −2kqQ/x = −kqq/2x Solving we get, Q: q = 1: 4"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "electrostatic-potential-potential-energy-and-capacitance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "59",
+      "part": null,
+      "choiceGroup": null,
+      "page": 27,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The student sets up an experiment in the lab to determine the internal resistance of a cell by graphical method. The setup of the circuit is done as shown below using a cell of e.m.f. ‘E’ and internal resistance ‘r’, a variable resistor ‘R’, and a milliammeter. A voltmeter ‘V’ is connected to the circuit as shown. (a) Draw the nature of the graph so determined. What does the Y-intercept of the graph represent? (b) How can internal resistance be calculated from the graph?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 27 not reproduced: Circuit diagram",
+        "Official answer partly missing in extraction (figure/equation): the V-I graph in the Answer Key (page 51) is not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Y-intercept gives the emf of the cell. (b) The slope of the graph = internal resistance."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "60",
+      "part": null,
+      "choiceGroup": null,
+      "page": 27,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Images produced by positron emitters have become important in recent years. When the emitted positron (β⁺) encounters an electron, mutual annihilation occurs, producing two γ-rays. These rays have identical 0.511 MeV energies and they move directly away from one another, allowing detectors to determine their point of origin accurately. The system is called positron emission tomography (PET). It requires detectors on opposite sides to simultaneously (i.e., at the same time) detect photons of 0.511-MeV energy and utilises computer imaging techniques similar to those in SPECT and computed tomography (CT) scans. Its resolution of 0.5 cm is better than that of Single-photon emission computed tomography (SPECT); the accuracy and sensitivity of PET scans make them useful for examining the brain’s anatomy and function. (a) Why two ‘γ’ photons are produced? (b) Why energy of each produced ‘γ’ photon is 0.511 MeV?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed topic tag is 'Dual Nature of Radiation and Matter'; mapped to nuclei (mass-energy equivalence)",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Two ‘γ’ photons are produced to conserve momentum. (b) Using E = mc² it can be shown that energy equivalent to mass of an electron is equal to 0.511 MeV."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "nuclei",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "61",
+      "part": null,
+      "choiceGroup": null,
+      "page": 27,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "In the first atomic bomb, the energy released was equivalent to about 30 kilotons of Trinitrotoluene (TNT), where a ton of TNT releases an energy of about 4 × 10⁹ J. Estimate the amount of mass converted into energy in this event.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Using E = mc² 4 × 10⁹ × 30 × 10³ = m × (2.99792 × 10⁸)² m = (4 × 10⁹ × 30 × 10³)/(2.99792 × 10⁸)² = 1.33 × 10⁻³ kg"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "nuclei",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "62",
+      "part": null,
+      "choiceGroup": null,
+      "page": 28,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Draw a graph showing the variation of binding energy (in eV) versus the first five principal quantum numbers in a hydrogen atom.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer is a graph only (Answer Key page 52); not reproduced, officialAnswer omitted"
+      ],
+      "confidence": "HIGH",
+      "cognitiveLevel": "Application",
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "63",
+      "part": null,
+      "choiceGroup": null,
+      "page": 28,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "An inductor-resistor circuit (LR) series circuit connected to an alternating current (a.c.) source of 220 V, 50 Hz, the resistor value is 11 ohms, and the power factor is 1/√2. Calculate the value of inductance in the circuit.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "cos φ = 1/√2 = R/Z; Z = 11√2, L = 0.035 H"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "64",
+      "part": null,
+      "choiceGroup": null,
+      "page": 28,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The graph here shows a variation of Irms with angular frequency ‘ω’ for two different LCR circuits. Which of the two will have: (a) lower power factor. (b) calculate resonance frequency for the two different LCR circuits.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 28 not reproduced: Graph of current versus ω (K rad/s) for R₁ and R₂",
+        "Subscripts flattened: Irms"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) For R₁; (b) 0.1592 Hz & 159.2 Hz"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "65",
+      "part": null,
+      "choiceGroup": null,
+      "page": 29,
+      "section": "IV",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Analyse the figures given below and mention the significance of electromagnetic waves in each case.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 29 not reproduced: fig-1 and fig-2",
+        "Official answer partly missing in extraction (figure/equation): the Answer Key figure for Figure 1 (page 52) is not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Figure. 1 – Infrared rays: Figure. 2 UV rays: Welders to protect their eyes from intense UV use welding glasses."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "electromagnetic-waves",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "66",
+      "part": null,
+      "choiceGroup": null,
+      "page": 30,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "A synchrotron uses a combination of solenoid and toroid to generate high magnetic fields. Charged particles like electrons and protons can be accelerated to very high energies using a synchrotron. A synchrotron adjusts the magnetic field such that the particles are kept in a circular orbit. It is used to study high-energy particle collisions. (a) If the magnetic field is parallel to the positive Y-axis and the charged particle is moving along the positive X-axis, which way would the Lorentz force be for: (i) an electron. (ii) a proton. (b) An electron does not suffer any deflection while passing through a region of uniform magnetic field. What is the direction of the magnetic field?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) (i) −ve Z-axis for an electron. (ii) +ve Z-axis for a proton. (b) The direction of motion of the electron should be parallel to the magnetic field direction."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "67",
+      "part": null,
+      "choiceGroup": null,
+      "page": 30,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "Both students i.e. Student 1 and Student 2, had an intention of stargazing at night and knew that a telescope would be required for viewing distant stars. Student 1 visited a shop to purchase the necessary equipment for stargazing and purchased two lenses X and Y, the former being thicker and the latter thinner. On the other hand, Student 2 opted for a different approach. He decided to build his telescope by combining a concave mirror of focal length 25 cm and a plane mirror, along with a convex lens of focal length 5 cm. (a) Which lens would Student 1 use as an objective, X or Y? (b) Give any one advantage of the telescope of Student 2 over the telescope of Student 1. (c) What is the length of the telescope of Student 1 when the final image is formed at infinity, assuming she uses the same eyepiece as Student 2 but achieves twice the magnifying power?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Y (b) Free of chromatic aberration / Image formed is brighter / Free from spherical aberration. (anyone relevant point) (c) Magnifying power of telescope of student 2 = f0/fe = 5 Hence, the magnifying power of the telescope of student 1 = 10. Since fe = 5 cm, hence f0 = 50 cm. Length = 50 + 5 = 55 cm."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "68",
+      "part": null,
+      "choiceGroup": null,
+      "page": 31,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "A student starts working on a problem on Gauss' theorem to calculate the flux and hence the electric field at a given point due to a system of discreet charges. The teacher gives him certain instructions and the student responds to each instruction as per her understanding of the concept. State whether the student's response is correct or incorrect. Give a reason for your answer. (a) Examiner: Draw a Gaussian surface for the given system of charges. Student: Draws a symmetric surface passing through the point at which the electric field is to be calculated. Examiner: Suggest a way to double the flux through the given surface. Student: Doubles the surface area of the Gaussian surface. (c) Examiner: Calculate the electric flux of a point charge of 2 µC, placed 5 cm above the centre of a square plate of side 10 cm, through the given plate. Student: As the charge is not enclosed by the surface, the flux through the surface is zero.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The second Examiner/Student pair carries no '(b)' label on the page (the Answer Key labels it (b))",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Response is correct. The Gaussian surface is an imaginary closed surface around a charge. (b) Response is incorrect. The electric flux does not change with the area of the Gaussian surface. (c) Response is incorrect. The total flux through the square plate = (1/6)(2 × 10⁻⁶/ε₀) = 3.77 × 10⁴ Nm²/C. (Reason is to be given for both correct as well as incorrect responses.)"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "electric-charges-and-fields",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "69",
+      "part": null,
+      "choiceGroup": null,
+      "page": 31,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "A student was given a frequency generator, a source, an inductor, a capacitor, a resistor and an ammeter. After connecting the circuit correctly, the student tabulated the readings as shown below. S.No. | Frequency (kHz) | Ammeter reading (mA): 1 | 1.20 | 13.8; 2 | 1.38 | 16.3; 3 | 1.71 | 19.4; 4 | 2.08 | 22.0; 5 | 2.39 | 19.5; 6 | 2.57 | 17.6; 7 | 2.79 | 16.0; 8 | 3.10 | 14.5 (a) What is the resonant frequency of the circuit? (b) Plot the graph for the given data using proper axes.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Table on page 31 reproduced as inline text",
+        "Official answer partly missing in extraction (figure/equation): the graph for (b) in the Answer Key (page 53) is not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 2.08 kHz"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "70",
+      "part": null,
+      "choiceGroup": null,
+      "page": 32,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Nuclear binding energy is the energy required to separate an atomic nucleus into its constituent protons and neutrons, or, equivalently, the energy that would be liberated by combining individual protons and neutrons into a single nucleus. For example, the nucleus of the hydrogen isotope deuterium, which is composed of one proton and one neutron, can be separated by supplying 2.23 million electron volts (MeV) of energy. Conversely, when a slowly moving neutron and proton combine to form a deuterium nucleus, 2.23 MeV energy is liberated in the form of gamma rays. (a) Why is the energy needed to separate an atomic nucleus into its constituents? (b) In the case of two atoms ₃X⁶ and ₃Y⁷, which atom is likely to be more stable and why? (c) Calculate mass defect when a neutron and a proton combine to form a deuterium nucleus.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page (nuclide notation ₃X⁶, ₃Y⁷)",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Nuclear binding energy is also energy needed to bind nucleons together in the nucleus. Therefore, energy is needed to break the nucleons' infinite distance apart OR energy is needed to work against the strong nuclear forces. (b) ₃Y⁷ is more stable as it has a greater number of neutrons as compared to ₃X⁶, therefore nuclear force is greater than the electrostatic force of repulsion between protons. (c) E = ∆m·c² 2.23 MeV = ∆m × 931.5 MeV ∆m = 2.23/931.5 = 0.00239398 u"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "nuclei",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "71",
+      "part": null,
+      "choiceGroup": null,
+      "page": 32,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "A circular coil of 20 turns and a radius of 10 cm is placed in a uniform magnetic field of 0.10 T normal to the plane of the coil. If the current in the coil is 5 A, what will be: (a) the total torque on the coil? (b) the total force on the coil? (c) average force on each electron in the coil due to the magnetic field. (The coil is made of copper wire of a cross-sectional area of 10⁻⁵ m², and the free electron density in copper is given to be about 10²⁹ m⁻³).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "N = 20, r = 10 × 10⁻² m, B = 0.10 T (a) τ = zero (b) Ftotal = zero (c) F = evdB = e(I/neA)B = 5 × 10⁻²⁵ N"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "72",
+      "part": null,
+      "choiceGroup": null,
+      "page": 33,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "A toroid is a hollow non-conducting circular ring, on which a large number of turns of a conducting wire are closely wound. If a solenoid is bent into a circular shape and the ends are joined, we get a toroid. Consider a toroid having centre O, number of turns N and each carrying a current I. By Ampere's law, in the case of a toroid: STEP 1: ∮B⃗ · dl⃗ = µ₀ (Total current) = µ₀__I (Rewrite STEP 1 and fill in the blank with an appropriate substitution) STEP 2: B___ = µ₀NI (Rewrite STEP 2 and fill in the blank with an appropriate substitution) ∴ B = µ₀NI/2πr = µ₀I[N/2πr] If n is the number of turns per unit length, then n = N/2πr STEP 3: B = µ₀___I (Rewrite STEP 3 and fill in the blank with an appropriate substitution)",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 33 not reproduced: Toroid diagram",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page (line integral, fractions)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "STEP 1: µ₀NI STEP 2: B 2πr = µ₀NI STEP 3: B = µ₀nI"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "73",
+      "part": null,
+      "choiceGroup": null,
+      "page": 33,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "An electron emitted by a heated cathode and accelerated through a potential difference of 2 kV, enters a region with a uniform magnetic field of 0.15 T. Determine the radius and the trajectory of the electron if the field is: (a) transverse to its initial velocity. (b) makes an angle of 30° with the initial velocity.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF",
+        "Official answer partly missing in extraction (figure/equation): a diagram in part (b) of the Answer Key (page 54) is not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) K.E. = ½mv² = eV v = √(2eV/m) = 2.65 × 10⁷ m/s mv²/r = qvB sin θ ∴ r = mv/qB = 9.95 × 10⁻⁴ m [Circular] (b) mv²/r' = qvB sin θ ∴ r' = (2r) = 2 × 9.95 × 10⁻⁴ m. [Spiral]"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "74",
+      "part": null,
+      "choiceGroup": null,
+      "page": 34,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "In the figure, the straight wire AB is fixed while the loop PQRS is free to move. Give a reason for your response in each sub-part. (a) What is the force experienced by arms QR and SP? (b) What is the nature of force experienced by arms PQ and RS? (c) In which direction, does the loop begin to move?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 34 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) No. The force is experienced since they are aligned perpendicular to the current carrying conductor AB. (b) There is a force of attraction between AB and PQ and a force of repulsion between AB and SR. (c) PQ is closer to AB than SR, so the force of attraction is stronger than the force of repulsion. So, the loop begins to move towards AB."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "75",
+      "part": null,
+      "choiceGroup": null,
+      "page": 34,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "The teacher is demonstrating the experiment of the focal length of a convex lens using the u-v method. After the teacher takes readings P and Q. He/she assigns two students (Student 1 and Student 2) to take the subsequent readings, assuming that the teacher is right. (a) What is the focal length of the given lens? (b) How should Student 2 adjust the screen to obtain an accurate reading? (c) What error do you observe in the readings of Student 1?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 34 not reproduced: u-v graph with readings P, Q, Student 1 and Student 2",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Focal length by using the teacher's reading = 1/20 + 1/20 = 2/20 = 1/10 ⇒ f = 10 cm (b) He should move his screen 3 cm farther from the lens. (c) Student 1 has kept his lens at F, the image would be at infinity."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "76",
+      "part": null,
+      "choiceGroup": null,
+      "page": 35,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "(a) If the graph depicts intensity versus phase difference for double-slit interference. What do points A and B symbolise? (b) If the waves have amplitudes 1:3, then find the ratio of intensities at A and C.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 35 not reproduced: Intensity versus phase difference graph"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) A = −π, B = 2π (b) Imin : Imax = (3 – 1)² : (3 + 1)² = 1 : 4"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "wave-optics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "77",
+      "part": null,
+      "choiceGroup": null,
+      "page": 35,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "(a) Identify two errors in the student's attempt to draw a ray diagram of a compound microscope. (b) Which position A, B, or C, is optimal for placing the object?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 35 not reproduced: Student's ray diagram"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Eyepiece is of shorter focal length / Image XY isn't between optical centre and F / Objective is having a larger aperture. (any two relevant points.) (b) A"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "78",
+      "part": null,
+      "choiceGroup": null,
+      "page": 35,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "For a science project, two fish tanks with lids were constructed as shown in the figure. Tank X has a lid with a convex shape, while Tank Y has a lid with a concave shape and no space between the lid and the liquid. Both tanks have the same height of 24 cm and are made of glass with a refractive index of 1.5. The radius of curvature of both lids is 40 cm. Which tank appears to have the fish positioned higher? Support the answer with necessary calculations.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 35 not reproduced",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "H(X) → n₂/v − n₁/u = (n₂ − n₁)/R = 1/H(X) − (3/2)/(−24) = (1 − 3/2)/(−40) H(X) = −20 cm H(Y) → n₂/v − n₁/u = (n₂ − n₁)/R = 1/H(Y) − (3/2)/(−24) = (1 − 3/2)/40 H(Y) = −13.33 cm"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "ray-optics-and-optical-instruments",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "79",
+      "part": null,
+      "choiceGroup": null,
+      "page": 36,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "An alpha particle is made to move through two plates 10 cm apart. The speed with which it enters the gap in the first plate is 2.5×10⁶ m s⁻¹. The particle exits the second plate with a velocity of 5×10⁶ m s⁻¹. (a) Calculate the potential difference between the plates. (b) Calculate the electric field between the plates. (c) Name a device where this principle is used.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 36 not reproduced",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) By conservation of energy, Change in K.E. + Change in P.E. = 0 or ∆K + q∆V = 0 ∆V = −∆K/q = −(½m(v² − u²))/q = (½ × 6.64×10⁻²⁷ × (25−6.25)×10¹²)/(3.2×10⁻¹⁹) = −1.95 × 10⁵ V (b) E = ∆V/d = 1.95 × 10⁶ V/m (c) Particle accelerator/Linear accelerators/Atom smashers."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "electrostatic-potential-potential-energy-and-capacitance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "80",
+      "part": null,
+      "choiceGroup": null,
+      "page": 36,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "For the given electrical circuit, calculate the current through each branch using Kirchhoff's laws.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 36 not reproduced: Circuit diagram (3 V, 2 Ω; 2.5 Ω; 5 Ω; 2 Ω; 3.5 Ω; 2 V, 0.5 Ω; 4 Ω); circuit values are only in the figure",
+        "Printed topic tag is 'Electrostatics'; mapped to current electricity",
+        "Official answer partly missing in extraction (figure/equation): the labelled circuit in the Answer Key (page 56) is not reproduced",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "I₃ = I₁ + I₂ In loop 1 (ABDEA): −2.5I₁ − 2I₃ − 4I₁ − 2I₁ + 3 = 0 or −10.5I₁ − 2I₂ = −3 or −10.5I₁ + 2I₂ = 3 ...(i) In loop 2 (BCDB): 2I₁ + 11I₂ = −2 … (ii) Solving (i) and (ii) we get: 4I₁ + 22I₂ = −4 −115.5I₁ + 22I₂ = −33 Subtracting, −111.5I₁ = −37 ⇒ I₁ = 0.33 A 11I₂ = − 2 − 0.66 ⇒ I₂ = −0.24 A I₃ = 0.33 − 0.24 ⇒ I₃ = 0.09 A"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "current-electricity",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "81",
+      "part": null,
+      "choiceGroup": null,
+      "page": 37,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "The computer’s keyboards make use of capacitors at the base of their keys (as shown in the diagram). Each key is connected to a movable plate, which represents one side of the capacitor. The fixed plate on the keyboard's bottom represents the capacitor's other side. External electronic circuits recognize each key in its capacitance when pressed. (a) How would the capacitance of the capacitor so formed change, when the key is pressed? (b) If the plate area is 2 cm² and the plate separation is 1 mm, calculate the charge density on the plate, if the potential difference between the plates is 3 V. The plates are separated by a dielectric of K = 5. (c) Sketch a graph showing the variation of electric field E between the plates with distance 'd' from the first plate till the second plate.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 37 not reproduced: Keyboard key diagram",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF",
+        "Official answer partly missing in extraction (figure/equation): the E-d graph for (c) in the Answer Key (page 56) is not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) When key is pressed, the distance between the plates decreases and hence, the capacitance increases. (b) C = Kε₀A/d = (5×8.85×10⁻¹²×2×10⁻⁴)/10⁻³ = 8.85 pF Q = CV = 26.55 pC Charge density = Q/A = 13.28 × 10⁻⁸ C/m² Alternately: E = σ/Kε₀ or σ = EKε₀ = (ε₀ KV/d) (c) Graph:"
+      },
+      "cognitiveLevel": "Understanding & Application",
+      "chapter": "electrostatic-potential-potential-energy-and-capacitance",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "82",
+      "part": null,
+      "choiceGroup": null,
+      "page": 37,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "Given two nuclei ₂₉Cu⁶⁴ and ₁₃Al²⁷. (a) Calculate the ratio of the radii. (b) What will be the ratio of their densities? (c) Compare their nuclear density to the density of water.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page (nuclide notation)",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) R ∝ A^(1/3) r₁/r₂ = 64^(1/3)/27^(1/3) r₁/r₂ = 4/3 r₁: r₂ = 4:3 (b) d₁:d₂ = 1:1 Nuclear density is constant. (c) 2.3 × 10¹⁴:1"
+      },
+      "cognitiveLevel": "Application & Analysis",
+      "chapter": "nuclei",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "83",
+      "part": null,
+      "choiceGroup": null,
+      "page": 38,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "A graph showing the variation of binding energy per nucleon with mass number is given below. In the graph mark regions where nuclei are: (a) Prone to fusion. (b) Prone to fission. (c) Give a reason for your marking.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 38 not reproduced: Binding energy per nucleon graph",
+        "Official answer partly missing in extraction (figure/equation): the marked graph for (a) & (b) in the Answer Key (page 57) is not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) Nuclear fission: Binding energy per nucleon is smaller for heavier nuclei than middle ones. When a heavier nucleus splits into lighter nuclei, the binding energy per nucleon changes from about 7.6 MeV to 8.4 MeV. Nuclear fusion: The binding energy per nucleon is small for light nuclei. So, when two light nuclei combine to form a heavier nucleus, the higher binding energy per nucleon of the latter results in the release of energy."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "nuclei",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "84",
+      "part": null,
+      "choiceGroup": null,
+      "page": 38,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "The energy of the thermal neutrons required for the fission of U²³⁵ nuclei is of the order of 0.025 eV. However, the neutrons produced in the fission of U²³⁵ possess quite large energy as compared to the energy of thermal neutrons. As these neutrons escape the U²³⁵ block without causing the fission of U²³⁵ nuclei. Due to this, in a nuclear reactor, it is important that the energy of neutrons is absorbed, and some neutrons are also absorbed. Name the substance: (a) used to absorb the energy of the neutrons. (b) used for absorbing neutrons. (c) write condition when U²³⁵ is said to be of critical size.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page (U²³⁵)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Heavy water/graphite rods. (b) Cadmium rods. (c) If the number of neutrons produced per second is equal to the number of neutrons lost per second in the block."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "nuclei",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "85",
+      "part": null,
+      "choiceGroup": null,
+      "page": 38,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "The Lyman series spectrum of an atom contains wavelengths of 176.7 nm and 137.5 nm. The energy of the ground level of the atom is -10 eV. Determine the ratio of kinetic energies of electrons in the first excited state and the second excited state.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "λ = hc/ΔE E₂-E₁ = (6.6×10⁻³⁴×3×10⁸)/(176.7×10⁻⁹×1.6×10⁻¹⁹) eV E₂ – E₁ = 7eV E₂ = -10eV + 7 eV = -3 eV Since K = -E, therefore K₂ = 3 eV ΔE for next spectral line = 9 eV Similarly, E₃ = -10 eV + 9 eV = -1 eV, therefore K₃ = 1 eV. and K₂:K₃ = 3:1"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "86",
+      "part": null,
+      "choiceGroup": null,
+      "page": 38,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "(a) Calculate the angular momentum of a ‘γ’ photon which is emitted when an electron jumps from the 3rd energy state to the 2nd energy state in a hydrogen atom. (b) A charged particle of energy, [ E = ½mv²] bombards a heavy target of charge Ze, then shows with the help of a graph how the distance of the closest approach varies with the mass of the particle.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF",
+        "Official answer partly missing in extraction (figure/equation): the r₀-mass graph for (b) in the Answer Key (page 58) is not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) ∆L ≈ −1.06×10⁻³⁴ kg m/s (Using ∆L = h(3−2)/2π) This negative value indicates that the angular momentum of the electron decreases during the transition. Finally, we can determine the angular momentum of the emitted photon using the principle of conservation of angular momentum. Since the angular momentum of the electron decreases by 1.06 × 10⁻³⁴ kg m/s, therefore the angular momentum of the emitted photon must be equal in magnitude but opposite in direction. Therefore, the angular momentum of the emitted photon is approximately 1.06 × 10⁻³⁴ kg m/s. (b) r₀ ∝ 1/m Graph:"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "atoms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "87",
+      "part": null,
+      "choiceGroup": null,
+      "page": 39,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "An arc lamp takes 10 A at 50 V. Calculate the impedance of a choke of 1-ohm resistance to be connected in series with an arc lamp so that the lamp may be used on 200 V, 50 Hz supply. Use the data from the circuit diagram and the phasor voltage triangle and calculate the total active power and the power factor. AB – drop across arc lamp BC – drop across 1-ohm resistance of the choke CD – drop across the inductor BD – total drop across the choke",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 39 not reproduced: Circuit diagram and phasor voltage triangle",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Total resistance in the circuit = 50/10 + 1 = 6 ohms VR = 10 × 6 = 60 V VL = √(200² − 60²) = 190.8 V BD = (10² + 190.8²)^(1/2) = 191.06 V Z = 191.06/10 = 19.106 ohms Power factor = cos θ = 60/200 = 0.3 Total active power = EI cos θ = 200 × 10 × 0.3 = 600 W"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "88",
+      "part": null,
+      "choiceGroup": null,
+      "page": 39,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "Power Corporation of India wanted to transmit power of 11 kW from tower 1 to tower 2 at 220 V or 22000 V. Which of the two voltages is better for transmission of alternating current (a.c.) power? Support the answer with a mathematical calculation.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "i₁ = P/V = 50 A, Power loss is 2500R watt i₂ = 0.5 A, power loss is 0.25R watt Comparing the two, the second mode is preferred."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "89",
+      "part": null,
+      "choiceGroup": null,
+      "page": 40,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "Match the following: 1. ωL > 1/ωC 2. ωL < 1/ωC 3. ωL = 1/ωC (i) The current is in phase with voltage V. (ii) The current lags in phase with voltage V. (iii) The current leads in phase with voltage V.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Two-column matching table on page 40 reproduced as inline text (left column, then right column)",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "1 – (ii), 2 – (iii), 3 – (i)"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "90",
+      "part": null,
+      "choiceGroup": null,
+      "page": 40,
+      "section": "V",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "In an inductance-capacitance-resistance (LCR) series circuit, which is connected to an alternating current (a.c.) source of a frequency (ν), its signal voltage (v) is equal to vx for an instantaneous time between 0 and half its time period (T) and equal to zero during the next half period. (a) Suppose the frequency of the source is gradually increased, what happens to inductance and capacitance? (b) Calculate the root mean square (r.m.s.) voltage of the signal. (c) If XC = 2XL = R, calculate the total impedance of the circuit.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts flattened: vx, XC, XL",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Inductive reactance increases and capacitive reactance decreases. (b) Vx/√2 (c) Z = R√5/2"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "alternating-current",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "91",
+      "part": null,
+      "choiceGroup": null,
+      "page": 41,
+      "section": "VI",
+      "sectionTitle": "Very Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Electrostatic precipitators: Electrostatic precipitators are devices used to remove particles, such as dust and ash, from a flowing gas using the force of an induced electrostatic charge. It consists of two sets of electrodes: positive and negative. The negative electrodes are in the form of a wire mesh, and the positive electrodes are plates. These electrodes are vertically placed and alternate to each other. High Direct Current (DC) voltage is fed to the discharge electrodes, generating a negative electric field around them. The gas-borne particles such as ash are ionised by the corona effect. When the polluted gas passes through the electric field, the particles become charged and are attracted to oppositely charged collector plates, where they adhere until they are removed. Answer the following questions. (a) Name any two electrostatic processes involved in the working of an electrostatic precipitator. (b) If the medium between the mesh and the plates is filled with a dielectric medium of dielectric constant K = 10, what will happen to the efficiency of working of the device? (c) What is the strength of the electric field between two parallel conducting plates separated by 2 cm and having a potential difference (voltage) between them of 1.50 × 10⁴ V? (d) Name any other device used in day-to-day life, based on the principle of the electrostatic precipitator.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 41 not reproduced: Electrostatic precipitator illustration",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Ionisation, electrostatic attraction, electric discharge. (b) On introducing the dielectric between the mesh and plates, the electric field between the plates reduces. Hence, the ionisation of gas molecules/dust particles reduces and the efficiency of the device decreases. (c) E = V/d = (1.50 × 10⁴)/(2 × 10⁻²) = 7.5 × 10⁵ N/C (d) Air purifier/Electrostatic air cleaner."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "electric-charges-and-fields",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "92",
+      "part": null,
+      "choiceGroup": null,
+      "page": 42,
+      "section": "VI",
+      "sectionTitle": "Very Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "Student 1 and Student 2 conducted experiments using coherent sources of light, with Student 1 using a single slit and Student 2 using a double slit. Answer the following questions. (a) Identify the patterns resulting from Student 1 and Student 2 experiments. (b) Give two reasons that assisted you in recognizing the patterns. (c) Upon utilizing a monochromatic source of light of 500 nm wavelength, Student 1 observed that the distance between the initial minimum and the centre of the fringe matched the width of the slit. Calculate the distance of this initial minimum from the centre of the fringe, given that the screen is situated 1 m away from the slit. (d) Student 2 observes 10 fringes within a specific portion of the screen using the same monochromatic source of light. If he were to immerse his entire experimental setup in a liquid of refractive index 5/3, what alteration should he make to the distance of the screen to maintain the same number of fringes?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 42 not reproduced: Patterns A, B and C; parts (a) and (b) need it",
+        "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Student 1– Pattern C; Student 2 – Pattern B. (b) Student 1- Utilisation of a single slit results in a diffraction pattern, characterized by a wider central maximum and diminishing fringe widths as they extend. Conversely, Student 2- Utilisation of double slits yields an interference pattern, as evidenced by uniform fringe widths across the pattern. Pattern C conforms to a diffraction pattern due to its wider central maximum and progressively decreasing fringe widths, while pattern B exhibits equal fringe widths indicative of an interference pattern. (c) Distance of the first minimum of the diffraction pattern from the centre, y = λD/d Let y = d = x x² = λD = 500 × 10⁻⁹ × 1 x = 70.7 × 10⁻⁵ m (d) New wavelength = λ/n 500 ÷ 5/3 D has to be increased 5/3 times as fringe width = λD/d."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "wave-optics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "93",
+      "part": null,
+      "choiceGroup": null,
+      "page": 43,
+      "section": "VI",
+      "sectionTitle": "Very Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "A solar cell is a junction diode. A very thin layer of p-type semiconductor is grown on a relatively thicker n-type semiconductor, having a few finer electrodes on the top of the p-type semiconductor layer. These electrodes do not obstruct light from reaching the thin p-type layer. Just below the p-type layer, there is a p-n junction. We also provide a current-collecting electrode at the bottom of the n-type layer. Similarly, the holes in the depletion can quickly come to the p-type side of the junction. Once, the newly created free electrons come to the n-type side, cannot further cross the junction because of the barrier potential of the junction. Similarly, the newly created holes once come to the p-type side cannot further cross the junction because of the same barrier potential of the junction. As the concentration of electrons becomes higher on one side, the p-n junction will behave like a small battery cell. A voltage is set up which is known as photovoltage. If we connect a small load across the junction, there will be a tiny current flowing through it. The IV characteristic of solar cells is given below: Answer the following questions. (a) Is the principle of a solar cell the same as that of a photodiode? (b) What is the suitable band gap of the semiconductors used as solar cell materials? (a) 0 to 0.5 eV (b) 0.5 to 1 eV (c) 1.1 to 2 eV (d) 0 to 0.8 eV (c) What does V₀ represent in the characteristic curve? (d) Is Imax independent of the intensity of incident radiation? (e) Why do holes in the depletion region quickly come to the p-side?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 43 not reproduced: I-V characteristic of a solar cell",
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
+        "Subscripts flattened: Imax"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Yes. (b) Option c – 1.1 to 2 eV (c) Maximum potential when the solar cell is in an open circuit. (d) No. (e) Due to potential barriers."
+      },
+      "cognitiveLevel": "Analysis & Evaluate",
+      "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "94",
+      "part": null,
+      "choiceGroup": null,
+      "page": 44,
+      "section": "VI",
+      "sectionTitle": "Very Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Read the passage and answer the questions carefully. A joint family stayed happily in a town. As a family, they watched the Asian games that took place in Hangzhou, China from September 23 to October 8, 2023. During advertising breaks, one of the parents made popcorn in the microwave oven for the family. One day, the grandparent tripped and fell on her elbows, and she was rushed to the hospital. However, the parent used Google Maps to find the way to the hospital. The orthopaedic with the help of an X-ray machine, imaged her ankle to confirm that the grandparent had a hairline fracture and treated her appropriately. As the grandparent was healed, the family decided to go on a pilgrimage in their car. There was unexpected fog and mist during their night journey, but they were still able to click clear pictures using their camera. Since they were thousands of kilometres away, the family was able to communicate with their relatives using mobile phones once a day. After a weeklong trip, the family resumed their daily activities. Based on the above situation, answer the questions that follow. (a) Popcorns are made in the microwave oven. Name one property of the waves in the oven that is used to make popcorn. (b) Why are X-rays not used to image the flesh of the body, but can photograph the bone? (c) Name the electromagnetic (e.m.) wave used for Google mapping to find the way to the hospital. (d) Name the type of wave that carries information from one mobile phone to another for thousands of kilometres. (e) What is the reason that the family was able to click clear pictures on camera despite fog?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) The microwaves are reflected within the metal interior of the oven where they are absorbed by food. (b) X-rays penetrate through the flesh and rebound back from the bone. (c) Radio waves. (d) Radio waves. (e) The basis of this camera is the use of infrared imaging."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "electromagnetic-waves",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "95",
+      "part": null,
+      "choiceGroup": null,
+      "page": 45,
+      "section": "VI",
+      "sectionTitle": "Very Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "LONG_ANSWER",
+      "text": "The diagram depicts v⃗, E⃗ and B⃗ are mutually perpendicular. If direction of E⃗ is indicated with ĵ, direction of B⃗ is indicated with k̂ then direction of v⃗ is indicated as ……. The force value in each case is stated. State the value of E and B as equal to zero or not equal to zero in each case. (a) The value of resultant F = 0 if E = 0 and B …… (choose B = 0 OR B ≠ 0) (b) The value of resultant F may be zero (if θ = 0° or 180°) if B ≠ 0 and E …… (choose E = 0 OR E ≠ 0) (c) F = 0 (if |F⃗e| = |F⃗m| and their directions are opposite) if E ≠ 0, B …… (choose B = 0 OR B ≠ 0) (d) F ≠ 0 (because v⃗ ≠ constant) if E ≠ 0, B …… (choose B = 0 OR B ≠ 0)",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 45 not reproduced: Diagram of v, E, B and forces",
+        "Vector arrows and unit-vector hats rebuilt from the rendered page 45",
+        "Subscripts flattened: Fe, Fm"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) B = 0 (b) E = 0 (c) B ≠ 0 (d) B = 0"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "moving-charges-and-magnetism",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

@@ -14,7 +14,7 @@
   --color-graphite: #161a2e;
   --color-pencil: #4a5068;
   --color-rule: #dde1ee;
-  --color-rule-strong: #a9b0c7;
+  --color-rule-strong: #8a92ad;
 
   --color-ink: #2a38d1;
   --color-ink-deep: #1b25a0;
@@ -93,6 +93,10 @@
     outline: 3px solid var(--color-ink);
     outline-offset: 2px;
     border-radius: 3px;
+  }
+  /* Ink on night is ~2.3:1; the glow keeps focus visible on dark sections (>= 3:1). */
+  .night :focus-visible {
+    outline-color: var(--color-glow);
   }
   ::selection {
     background: var(--color-highlight);
@@ -1769,5 +1773,313 @@
   .board-choice a {
     min-width: 0;
     padding-inline: 0.75rem;
+  }
+}
+
+/* Loading skeletons: a slow sweep, still under reduced motion */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--color-rule) 70%, transparent);
+}
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.55), transparent);
+  animation: skeleton-sweep 1400ms var(--ease-out) infinite;
+}
+@keyframes skeleton-sweep {
+  to {
+    transform: translateX(100%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .skeleton::after {
+    animation: none;
+  }
+}
+
+/* Removable search chips: the × is its own 24px target */
+.intent-chip-remove {
+  display: inline-grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: -0.2rem -0.45rem -0.2rem 0.3rem;
+  border-radius: 999px;
+  color: inherit;
+  opacity: 0.7;
+  transition:
+    opacity 150ms var(--ease-out),
+    background-color 150ms var(--ease-out);
+}
+.intent-chip-remove:hover,
+.intent-chip-remove:focus-visible {
+  opacity: 1;
+  background: color-mix(in srgb, currentColor 14%, transparent);
+}
+
+/* Mobile menu panel and backdrop */
+.mobile-nav-backdrop {
+  position: fixed;
+  inset: 4rem 0 0;
+  z-index: 38;
+  background: rgb(11 16 51 / 0.35);
+  animation: fade-in 180ms var(--ease-out) both;
+}
+.mobile-nav-panel {
+  position: absolute;
+  inset-inline: 0;
+  top: 4rem;
+  z-index: 39;
+  max-height: calc(100dvh - 4rem);
+  overflow-y: auto;
+  border-bottom: 1px solid var(--color-rule);
+  background: var(--color-sheet);
+  box-shadow: var(--shadow-lift);
+  animation: menu-drop 220ms var(--ease-out) both;
+}
+@keyframes menu-drop {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mobile-nav-backdrop,
+  .mobile-nav-panel {
+    animation: none;
+  }
+}
+
+/* Filter drawer: inline on large screens, a bottom sheet on phones once hydrated. */
+.filter-drawer-toggle,
+.filter-drawer-head {
+  display: none;
+}
+@media (max-width: 63.99rem) {
+  .filter-drawer[data-ready] .filter-drawer-toggle {
+    display: inline-flex;
+  }
+  .filter-drawer[data-ready]:not([data-open]) .filter-drawer-sheet {
+    display: none;
+  }
+  .filter-drawer[data-open] .filter-drawer-sheet {
+    position: fixed;
+    inset: auto 0 0;
+    z-index: 61;
+    max-height: 85dvh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-radius: 1.25rem 1.25rem 0 0;
+    background: var(--color-sheet);
+    box-shadow: var(--shadow-lift);
+    padding: 0 0.25rem calc(0.5rem + env(safe-area-inset-bottom));
+    animation: sheet-up 240ms var(--ease-out) both;
+  }
+  .filter-drawer[data-open] .filter-drawer-sheet > form {
+    margin-top: 0;
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+  .filter-drawer[data-open] .filter-drawer-head {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--color-rule);
+    background: var(--color-sheet);
+  }
+  .filter-drawer-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    background: rgb(11 16 51 / 0.4);
+    animation: fade-in 180ms var(--ease-out) both;
+  }
+}
+@keyframes sheet-up {
+  from {
+    transform: translateY(24px);
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .filter-drawer-sheet,
+  .filter-drawer-backdrop {
+    animation: none !important;
+  }
+}
+
+/* A single row of chips that scrolls sideways on phones (year and chapter pickers). */
+.chip-scroll {
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 2rem), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - 2rem), transparent);
+}
+.chip-scroll::-webkit-scrollbar {
+  display: none;
+}
+.chip-scroll > li {
+  scroll-snap-align: start;
+}
+@media (min-width: 40rem) {
+  .chip-scroll {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+}
+
+/* Search suggestions (combobox listbox under the search box) */
+.search-suggest {
+  position: absolute;
+  inset-inline: 0;
+  top: calc(100% + 0.4rem);
+  z-index: 30;
+  max-height: min(22rem, 60dvh);
+  overflow-y: auto;
+  padding: 0.35rem;
+  border: 1px solid var(--color-rule);
+  border-radius: 14px;
+  background: var(--color-sheet);
+  color: var(--color-graphite);
+  box-shadow: var(--shadow-lift);
+  text-align: left;
+  animation: menu-drop 160ms var(--ease-out) both;
+}
+.search-suggest[hidden] {
+  display: none;
+}
+.search-suggest-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.35rem 0.6rem 0.25rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-pencil);
+}
+.search-suggest-clear {
+  min-height: 1.75rem;
+  padding: 0 0.5rem;
+  border-radius: 8px;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.search-suggest-clear:hover {
+  background: var(--color-ink-soft);
+}
+.search-suggest-option {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 2.75rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.search-suggest-option > svg {
+  flex: none;
+  color: var(--color-pencil);
+}
+.search-suggest-option[aria-selected="true"] {
+  background: var(--color-ink-soft);
+  color: var(--color-ink);
+}
+.search-suggest-hint {
+  flex: none;
+  max-width: 45%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.8rem;
+  color: var(--color-pencil);
+}
+@media (prefers-reduced-motion: reduce) {
+  .search-suggest {
+    animation: none;
+  }
+}
+
+/* Sticky bottom action bar on phones (paper page) */
+.mobile-action-bar {
+  position: fixed;
+  inset: auto 0 0;
+  z-index: 35;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.65rem 1rem calc(0.65rem + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--color-rule);
+  background: color-mix(in srgb, var(--color-sheet) 94%, transparent);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 -10px 30px -18px rgb(27 37 160 / 0.35);
+}
+
+/* Program code inside a question keeps its indentation. */
+.paper-text[data-indented] {
+  white-space: pre-wrap;
+  tab-size: 4;
+}
+
+/* "Marked for review" in the exam: an active, neutral state (red is kept for time warnings). */
+.btn.review-on {
+  border-color: var(--color-ink);
+  background: var(--color-ink-soft);
+  color: var(--color-ink);
+}
+
+/* The same restacking up to tablet width, for wide tables (coverage) that would be clipped at 768px. */
+@media (max-width: 1023.98px) {
+  .table-stack-lg thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .table-stack-lg,
+  .table-stack-lg tbody,
+  .table-stack-lg tr,
+  .table-stack-lg th,
+  .table-stack-lg td {
+    display: block;
+    width: 100%;
+  }
+  .table-stack-lg tr {
+    padding: 0.75rem 0.9rem;
+    border-bottom: 1px solid var(--color-rule);
+  }
+  .table-stack-lg tbody th {
+    border: 0;
+    padding: 0 0 0.35rem;
+  }
+  .table-stack-lg td {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 0;
+    padding: 0.2rem 0;
+    text-align: right;
+  }
+  .table-stack-lg td::before {
+    content: attr(data-label);
+    color: var(--color-pencil);
+    font-size: 0.88rem;
+    text-align: left;
+  }
+  .table-stack-lg tbody tr:hover td {
+    background: transparent;
   }
 }

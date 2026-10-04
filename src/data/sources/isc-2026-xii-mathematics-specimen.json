@@ -1,0 +1,1421 @@
+{
+  "source": {
+    "key": "isc-2026-xii-mathematics-specimen",
+    "title": "ISC 2026 Examination, Specimen Question Paper with Answer Key, Mathematics",
+    "board": "icse",
+    "class": 12,
+    "subject": "mathematics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "SPECIMEN",
+    "examYear": 2026,
+    "session": "ISC (Class XII) Specimen Question Paper 2026",
+    "paperName": "Mathematics",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2025/08/860-MATHEMATICS-SQP-AK.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2025/08/860-MATHEMATICS-SQP-AK.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 29,
+    "sha256": "81ebc25e4dde85e5e2d668b2d0d6bed845a9b899044edd70a9027ce69730a2dc",
+    "maxMarks": 80,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler) and pdfplumber text layer; notation checked against page renders (pypdfium2)",
+    "ocrUsed": false,
+    "accessedOn": "2026-09-28",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "notes": "Every page footer prints 'ISC (CLASS XII) SPECIMEN QUESTION PAPER 2026' (pages 1-14) or 'ISC (CLASS XII) SPECIMEN ANSWER KEY 2026' (pages 15-29); examYear 2026 is the examination year the specimen is published for. Listed on cisce.org under specimen-question-papers-isc-class-xii-2026. The similarly named 2025_08_860-MATHEMATICS-SQP-AK-1.pdf is a different document (ISC Class XI specimen 2026) and was not used. 'page' is the physical PDF page of the question. The paper prints 'Maximum Marks: 80', three hours, 22 questions: Section A (65 marks, compulsory, Q1-Q14) and either Section B (Q15-Q18) or Section C (Q19-Q22), 15 marks each; the pack contains both B and C, so the summed marks (one alternative per OR group) are 95. OR alternatives are labelled (i)/(ii) as printed and share choiceGroup = question number. Cognitive tags (Understanding, Recall, Application, Analysis, Evaluate) are printed in green beside each question and are reproduced as printed. Multi-part questions whose parts share one scenario (Q10, Q11, Q13, Q14, Q16(i), Q22) are kept as single entries with their parts in the text. pdftotext dropped several lines on some pages (e.g. the stems of Q1(iii), Q10(ii), Q22); the full text was taken from the pdfplumber text layer and checked against the rendered pages. Fractions, powers, matrices and integral limits collapse in the text layer and were rebuilt inline from the rendered pages (flagged per question). Regression (Q19(ii), Q19(iii), Q21) and break-even (Q19(v)) have no matching chapter slug and are left with chapter null."
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If A and B are square matrices of order 3, A is non-singular matrix and AB = O, then the matrix B is:",
+      "options": [
+        "unit matrix",
+        "Scalar matrix",
+        "non-singular matrix",
+        "null matrix"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) or a null matrix",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If m and n are respectively the order and degree of the differential equation d/dx (dy/dx)³ = 0 then the value of (m − n) is:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) or 1",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The derivative of xy = c² with respect to x is:",
+      "options": [
+        "dy/dx = (2c − y)/x",
+        "dy/dx = c²/x²",
+        "dy/dx = −y/x",
+        "dy/dx = y/x"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) or dy/dx = −y/x",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Consider ∆ = |2a 2b 2c; 2e f g; 2i j k|\nAssertion: The value of ∆ = 4 × |a b c; e f g; i j k|\nReason: If all elements of one row or one column of a determinant are multiplied by a scalar, k then the value of the determinant is multiplied by k.\nWhich of the following is correct?",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation for Assertion.",
+        "Assertion is true and Reason is false.",
+        "Assertion is false and Reason is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Determinants printed as 3×3 arrays; rebuilt inline row by row (rows separated by ';'); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) or Assertion is false, and Reason is true.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "determinants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Five numbers x₁, x₂, x₃, x₄, x₅ are randomly selected from the numbers 1, 2, 3, ……., 18 and are arranged in the increasing order such that x₁ < x₂ < x₃ < x₄ < x₅.\nWhat is the probability that x₂ = 7 and x₄ = 11?",
+      "options": [
+        "26/51",
+        "3/104",
+        "1/68",
+        "1/34"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF (subscripts x₁…x₅ and fraction options)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) or 1/68",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If A = (a 0 0; 0 a 0; 0 0 a), then Aⁿ equals to",
+      "options": [
+        "(aⁿ 0 0; 0 aⁿ 0; 0 0 aⁿ)",
+        "(a 0 0; 0 aⁿ 0; 0 0 a)",
+        "(aⁿ 0 0; 0 a 0; 0 0 aⁿ)",
+        "(na 0 0; 0 na 0; 0 0 aⁿ)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Matrices printed as 3×3 arrays; rebuilt inline row by row (rows separated by ';') with superscript n restored from the rendered page; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) or (aⁿ 0 0; 0 aⁿ 0; 0 0 aⁿ)",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "matrices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Observe the following graphs (a), (b), (c), and (d), each representing different types of functions.\nStatement 1: A function which is continuous at a point may not be differentiable at that point.\nStatement 2: Graph (c) is an example of a function that is continuous but not differentiable at the origin.\nWhich of the following is correct?",
+      "options": [
+        "Statement 1 is true and Statement 2 is false.",
+        "Statement 2 is true and Statement 1 is false.",
+        "Both the statements are true.",
+        "Both the statements are false."
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 4 (four graphs (a)–(d)) not reproduced; Statement 2 cannot be judged without it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) or Statement 1 is true and Statement 2 is false.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If f(x) = kx² + 7x − 4 and f ′(5) = 97 then what is the value of k?",
+      "options": [
+        "−4",
+        "0",
+        "4",
+        "9"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) or 9",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Statement 1: If a relation R on a set A satisfies R = R⁻¹, then R is symmetric.\nStatement 2: For a relation R to be symmetric, it is necessary that R = R⁻¹\nWhich one of the following is correct?",
+      "options": [
+        "Statement 1 is true and Statement 2 is false.",
+        "Statement 2 is true and Statement 1 is false.",
+        "Both the statements are true.",
+        "Both the statements are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF (R⁻¹)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) or Both the statements are true.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion: The equality tan(cot⁻¹ x) = cot(tan⁻¹ x), is true for all x ∈ R\nReason: The identity tan⁻¹ x + cot⁻¹ x = π/2, is true for all x ∈ R\nWhich of the following is correct?",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
+        "Both Assertion and Reason are true but Reason is not the correct explanation for Assertion.",
+        "Assertion is true and Reason is false.",
+        "Assertion is false and Reason is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) or Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Given two events A and B such that P(A/B) = 0.25 and P(A ∩ B) = 0·12.\nThe value P(A’ ∩ B) is:",
+      "options": [
+        "0·36",
+        "0·48",
+        "0·88",
+        "0·036"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF (P(A/B) printed as a stacked fraction A over B)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) or 0·36",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The value of the determinant of a matrix A of order 3 is 3. If C is the matrix of cofactors of the matrix A, then what is the value of determinant of C²?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "n = 3, |A| = 3. As per question, C = (adj A)ᵀ ∴ |C| = |(adj A)ᵀ| = |adj A| ∴ |C| = |A|ⁿ⁻¹ = 3³⁻¹ = 3² = 9. |C²| = |C| ⋅ |C| = 9 × 9 = 81. Ans: 81"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "determinants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If a relation R on the set {a, b, c} defined by R = {(b, b)}, then classify the relation.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "The relation is symmetric, transitive but not reflexive."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The given function f: R → R is many to one function. Give reason.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph of f(x) on page 5 not reproduced; the question cannot be answered without it"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "The curve crosses x -axis at three different points. That shows, for different value of x, the value of y is zero. That is more than one domain, mapped to the same point “zero”"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "There are three machines and 2 of them are faulty. They are tested one by one in a random order till both the faulty machines are identified. What is the probability that only two tests are needed to identify the faulty machines?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Two tests will be required if first machine is faulty and second is good OR both machines are faulty. Probability that only two tests are needed = 2/3 × 1/2 + 2/3 × 1/2 = 2/3. Ans: 2/3"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)",
+      "choiceGroup": "2",
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If x = e^(x/y), then prove that dy/dx = (x − y)/(x log x)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF (exponent x/y printed as a raised fraction)",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "x = e^(x/y); log x = (x/y) log e = x/y; y log x = x. By differentiating on both sides, y · 1/x + log x dy/dx = 1; log x dy/dx = 1 − y/x; dy/dx = (x − y)/(x log x)"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(ii)",
+      "choiceGroup": "2",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the values of ′a′ for which the function f(x) = b − ax + sin x is increasing on R.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "f′(x) = −a + cos x ≥ 0. It implies a ≤ cos x. But −1 ≤ cos x ≤ 1 so a ≤ −1."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the point on the curve y = (x − 2)² at which the tangent is parallel to the chord joining the end points (2,0) and (4,4).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF (letter-spaced 'a t w h i c h t h e' in the text layer joined as 'at which the')",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "y = (x − 2)²; dy/dx = 2(x − 2). Slope of the chord = (4−0)/(4−2) = 2. Let P(x₁, y₁) be the point on the curve. Since the tangent is parallel to the chord. Therefore, their slopes are equal. ∴ 2(x₁ − 2) = 2 ⟹ x₁ = 3 and y₁ = 1. So, the point P is (3,1)."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Show that the general solution of the differential equation: dy/dx = y cot2x is log y = (1/2) log|sin2x| + C",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "dy/dx = y cot2x, by separation of variable dy/y = cot2x dx. Integrating both sides ∫ dy/y = ∫ cot2x dx ⟹ log y = (1/2) log|sin2x| + C"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(i)",
+      "choiceGroup": "5",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If ∫ x⁵ cos(x⁶) dx = k sin(x⁶) + C, find the value of ‘k’.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Let x⁶ = t; 6x⁵dx = dt. ∫ cos(t) dt/6 = (1/6) sin t + c = (1/6) sin(x⁶) + c. On comparing k sin(x⁶) = (1/6) sin(x⁶); k = 1/6"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(ii)",
+      "choiceGroup": "5",
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Evaluate: ∫₀⁵ √x/(√(5−x) + √x) dx",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF (definite integral limits 0 to 5 and stacked fraction)",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Applying ∫₀ᵃ f(x) = ∫₀ᵃ f(a − x) dx: I = ∫₀⁵ √(5−x)/(√x + √(5−x)) dx. 2I = ∫₀⁵ √(5−x) dx/(√(5−x) + √x) + ∫₀⁵ √x dx/(√(5−x) + √x). 2I = ∫₀⁵ 1dx = [x]₀⁵. I = 5/2 = 2.5"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A music streaming app uses the function: f(x) = tan⁻¹(x/10) to assign a mood score based on the number of hours a user listens to music per week.\nLet the listening times (in hours/week) of two users, User A and User B, be 6 and 8 respectively.\nCompute the combined mood score of user A and user B, that is, f(6) + f(8).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "tan⁻¹(6/10) + tan⁻¹(8/10) = tan⁻¹[(7/5)/(1 − 12/25)] = tan⁻¹(35/13)"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Solve: sin⁻¹(x) + sin⁻¹(1 − x) = cos⁻¹ x.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "sin⁻¹(x) + sin⁻¹(1 − x) = cos⁻¹ x ⇒ sin⁻¹(x) + sin⁻¹(1 − x) = π/2 − sin⁻¹ x ⇒ sin⁻¹(1 − x) = π/2 − 2 sin⁻¹ x ⇒ (1 − x) = sin(π/2 − 2 sin⁻¹ x) ⇒ (1 − x) = cos(2 sin⁻¹ x) ⇒ (1 − x) = cos(cos⁻¹(1 − 2x²)) ⇒ (1 − x) = 1 − 2x² ⇒ 2x² − x = 0 ∴ x = 0, 1/2"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "inverse-trigonometric-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "If y = (A + Bx)e⁻²ˣ, prove that: d²y/dx² + 4 dy/dx + 4y = 0",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF (the text layer scrambles d²y/dx² as 'dx2 d2y')",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Given, y = (A + Bx)e⁻²ˣ. Differentiating w.r.t ‘x’ ⟹ dy/dx = (A + Bx)(−2e⁻²ˣ) + e⁻²ˣB ⟹ dy/dx = (−2y) + e⁻²ˣB ⟹ dy/dx + 2y = e⁻²ˣB (i). Differentiating w.r.t ‘x’ ⟹ d²y/dx² + 2 dy/dx = −2e⁻²ˣB (ii). (i) and (ii) ⟹ d²y/dx² + 2 dy/dx = −2(dy/dx + 2y) ⟹ d²y/dx² + 4 dy/dx + 4y = 0, Hence Proved."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "continuity-differentiability-and-differentiation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(i)",
+      "choiceGroup": "9",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Solve the following differential equation:\nx dy/dx = y − x tan(y/x)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "dy/dx = y/x − tan(y/x). Let y = vx ⇒ dy/dx = v + x dv/dx ⇒ v + x dv/dx = v − tanv ⇒ dv/tan v = −dx/x. Integrating both sides ⇒ ∫ cot v dv = −∫ dx/x ⇒ log|sin v| = −logx + logc ⇒ log|sin y/x| = −logx + logc = log c/x ⇒ x sin y/x = c"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": "(ii)",
+      "choiceGroup": "9",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Solve the following differential equation:\n(1 + x²) dy/dx + 2xy = 4x²",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "dy/dx + 2xy/(1+x²) = 4x²/(1+x²). Comparing with dy/dx + Py = Q: P = 2x/(1+x²), Q = 4x²/(1+x²). I.F. = e^∫(2x/(1+x²))dx = e^log(1+x²) = (1 + x²). Thus, the solution of the differential equation is, y(1 + x²) = ∫ 4x²/(1+x²) (1 + x²)dx ⟹ y(1 + x²) = 4x³/3 + c"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "differential-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(i)",
+      "choiceGroup": "10",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Three friends go to a restaurant to have pizza. They decide who will pay for the pizza by tossing a coin. It is decided that each one of them will toss a coin and if one person gets a different result (heads or tails) than the other two, that person would pay. If all three get the same result (all heads or all tails), they will toss again until they get a different result.\n(a) What is the probability that all three friends will get the same result (all heads or all tails) in one round of tossing?\n(b) What is the probability that they will get a different result in one round of tossing?\n(c) What is the probability that they will need exactly four rounds of tossing to determine who would pay?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) P (no odd person) = P(HHH) + P(TTT) = 1/2 × 1/2 × 1/2 + 1/2 × 1/2 × 1/2 = 1/4\n(b) P (odd person) = 1 − 1/4 = 3/4\n(c) P (odd person in 4th round) = 1/4 × 1/4 × 1/4 × 3/4 = 3/256"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": "(ii)",
+      "choiceGroup": "10",
+      "page": 7,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A school offers students the choice of three modes for attending classes:\n• Mode A: Offline (in-person) – 40% of students\n• Mode B: Online (live virtual classes) – 35% of students\n• Mode C: Recorded lectures – 25% of students\nAfter a feedback survey:\n• 20% of students from Mode A reported the class as “Excellent”\n• 30% from Mode B rated it as “Excellent”\n• 50% from Mode C rated it as “Excellent”\nA student is selected at random from the entire group, and it is found that they rated the class as “Excellent.”\n(a) Represent the data in terms of probability. Define the events clearly.\n(b) Using Bayes’ Theorem, find the probability that the student attended the Recorded lectures (Mode C), given that they rated the class as “Excellent.”\n(c) Interpret your result. Which mode has the highest likelihood of being chosen if a student says “Excellent”?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The stem line 'A school offers students the choice of three modes for attending classes:' and 'After a feedback survey:' are missing from pdftotext output but present in the text layer (pdfplumber) and on the rendered page",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Let: A: student chose Mode A → P(A) = 0.40; B: student chose Mode B → P(B) = 0.35; C: student chose Mode C → P(C) = 0.25. Let E: student rated the class as Excellent. Given: P(E/A) = 0.20, P(E/B) = 0.30, P(E/C) = 0.50\n(b) P(C/E) = P(C) × P(E/C) / [P(A) × P(E/A) + P(B) × P(E/B) + P(C) × P(E/C)] = 0.25 × 0.50 / [(0.40×0.20) + (0.35×0.30) + (0.25×0.50)] = 0.25 × 0.50 / [(0.08) + (0.105) + (0.125)] = 0.403\n(c) There’s about a 40.3% chance that a student who rated the class as “Excellent” attended Recorded lectures. … By checking the numerators of P(C/E), P(B/E) and P(A/E) we observed 0.125 > 0.105 > 0.08. Therefore, recorded lectures (Mode C) have the highest likelihood of being the chosen mode among students who gave an excellent rating."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "To raise money for an orphanage, students of three schools A, B and C organised an exhibition in their residential colony, where they sold paper bags, scrap books and pastel sheets made by using recycled paper. Student of school A sold 30 paper bags, 20 scrap books and 10 pastel sheets and raised ₹ 410. Student of school B sold 20 paper bags, 10 scrap books and 20 pastel sheets and raised ₹ 290. Student of school C sold 20 paper bags, 20 scrap books and 20 pastel sheets and raised ₹ 440.\nAnswer the following question:\n(i) Translate the problem into a system of equations.\n(ii) Solve the system of equation by using matrix method.\n(iii) Hence, find the cost of one paper bag, one scrap book and one pastel sheet.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer matrices rebuilt inline row by row (rows separated by ';') from the rendered answer-key page; check against the PDF"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Let the cost of one paper bag, one scrap book and one pastel sheet be x, y and z respectively. 30x + 20y + 10z = 410 ⇒ 3x + 2y + z = 41; 20x + 10y + 20z = 290 ⇒ 2x + y + 2z = 29; 20x + 20y + 20z = 440 ⇒ x + y + z = 22\n(ii) Given system of equations is equivalent to AX = B where A = [3 2 1; 2 1 2; 1 1 1], X = [x; y; z], B = [41; 29; 22]. |A| = −2 ≠ 0 ⇒ A⁻¹ exists. adj A = [−1 −1 3; 0 2 −4; 1 −1 −1]. Thus A⁻¹ = (1/|A|) adj A = −(1/2)[−1 −1 3; 0 2 −4; 1 −1 −1]. AX = B ⇒ X = A⁻¹B = [2; 15; 5] ∴ x = 2, y = 15, z = 5\n(iii) The cost of one paper bag, one scrap book and one pastel sheet be Rs 2, Rs 15 and Rs 5 respectively."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "determinants",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": "(i)",
+      "choiceGroup": "12",
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Evaluate: ∫ (x² + x + 1)/((x + 2)(x² + 1)) dx",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF (the text layer scrambles the stacked integrand)",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Let: (x² + x + 1)/((x + 2)(x² + 1)) = A/(x + 2) + (Bx + C)/(x² + 1). Equating the coefficients of x², x and constant respectively, we get A + B = 1, 2B + C = 1, A + 2C = 1. Solving for A, B, C we get, C = 1/5, B = 2/5 and A = 3/5. ∴ ∫ (x² + x + 1)/((x + 2)(x² + 1)) dx = ∫ [3/(5(x + 2)) + (2x + 1)/(5(x² + 1))] dx. Integrating, we get = (3/5) ln|x + 2| + (1/5)[ln|x² + 1| + tan⁻¹(x)] + C"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": "(ii)",
+      "choiceGroup": "12",
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Evaluate: ∫_{π/4}^{3π/4} x dx/(1+ sin x) dx",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF (limits π/4 to 3π/4 and stacked fraction; 'dx' appears both in the numerator and after the fraction, as printed)",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "I = ∫_{π/4}^{3π/4} x/(1 + sin x) dx. Here, a = π/4 and b = 3π/4, so a + b = π. Using ∫ₐᵇ f(x)dx = ∫ₐᵇ f(a + b − x)dx: I = ∫_{π/4}^{3π/4} (π − x)/(1 + sin (π − x)) dx = ∫_{π/4}^{3π/4} (π − x)/(1 + sin x) dx. Adding, both integrals, I + I = ∫ (x + (π − x))/(1 + sin x) dx = π ∫ 1/(1 + sin x) dx ⟹ 2I = π ∫ (1−sin x)/(1− sin² x) dx = π ∫ (sec²x − secx tanx) dx ⟹ 2I = π[tanx − secx]_{π/4}^{3π/4}. I = (√2 − 1)π"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": "(i)",
+      "choiceGroup": "13",
+      "page": 8,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A person has manufactured a water tank in the shape of a closed right circular cylinder. The volume of the cylinder is 539/2 cubic units. If the height and radius of the cylinder be h and r.\n(a) Express h in terms of radius r and given volume.\n(b) Let the total surface area of the closed cylinder tank be S, express S in term of radius r.\n(c) If the total surface area of the tank is minimum, then prove that radius r = 7/2 units.\n(d) Find the height of the tank.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 8 (cylinder labelled height(h), radius(r)) not reproduced; not needed to answer",
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) volume V = πr²h; 539/(2πr²) = h\n(b) S = 2πrh + 2πr²; S = 2πr · 539/(2πr²) + 2πr²; S = 2πr² + 539/r\n(c) ds/dr = 4πr − 539/r². Setting ds/dr = 0 for stationary point, we get 539 = 4πr³; r = 7/2 unit. Now, d²s/dr² = 4π + (539×2)/r³ > 0, when r = 7/2 units. Therefore, the total surface area (S) of the tank is minimum when r = 7/2 units.\n(d) h = 539/(2πr²) = (539×4×7)/(2×22×7×7) = 7 units."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": "(ii)",
+      "choiceGroup": "13",
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "A Dolphin jumps and taken a path given by the equation h(t) = (1/2)(−7t² + 3t + 2), (t ≥ 0), h(t) is the height of the Dolphin at any point of time.\n(a) Is the function differentiable for t ≥ 0? Justify.\n(b) Find the instantaneous rate of change of height at t = 1/14.\n(c) h(t) is increasing in (−∞, 3/14). Is this true or false? Justify.\n(d) Find the time at which the Dolphin will attains the maximum height. Also find the maximum height.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Photograph on page 9 (image of a dolphin) not reproduced; not needed to answer",
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) h(t) = (1/2)(−7t² + 3t + 2), is a polynomial function, and all polynomial functions are continuous and differentiable everywhere on R. ∴ The function is differentiable for t ≥ 0.\n(b) dh/dt = (1/2)(−14t + 3) = −7(t − 3/14). ∴ The instantaneous rate of change of height at t = 1/14 = [dh/dt] at t = 1/14 = 3/2 − 1/2 = 1 unit.\n(c) dh/dt = −7(t − 3/14). Given, t ≥ 0. In (0, 3/14), dh/dt > 0. i.e., h(t) is increasing in (0, 3/14). ∴ h(t) is increasing in (−∞, 3/14). is false.\n(d) Setting dh/dt = 0, for stationary point, we get −7(t − 3/14) = 0 ⇒ t = 3/14. Now, d²h/dt² = −7 < 0. ∴ h = f(t) has a local maximum at t = 3/14. ∴ Maximum height = [h(t)] at 3/14 = 1.161 units."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 6,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "In a school, three subject teachers English, Math, and Science sometimes give surprise tests on the same day. Based on past records:\n• The English teacher gives a test 90% of the time\n• The Math teacher gives a test 80% of the time\n• The Science teacher gives a test 70% of the time\nEach teacher decides independently. If the average number of surprise tests is less than 2.3 then the teachers should coordinate better to increase the performance of the students. Otherwise, no action is needed.\nLet X be the number of surprise tests a student gets on a given day.\nSo, X ∈ {0,1,2,3}.\n(i) Find the probability for each possible number of surprise tests.\n(ii) Use the probabilities to build a distribution table.\n(iii) Calculate the average number of surprise tests per day.\n(iv) Based on your calculations, decide: Should the teachers coordinate better? Or is the current plan acceptable?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer's distribution table given inline; fractions rebuilt from the rendered answer-key page; check against the PDF"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(i) Let P(E) = 9/10, P(M) = 4/5 and P(S) = 7/10 ⟹ P(Ē) = 1/10, P(M̄) = 1/5 and P(S̄) = 3/10. P(X = 0) = 1/10 × 1/5 × 3/10 = 3/500; P(X = 1) = (9/10 × 1/5 × 3/10) + (1/10 × 4/5 × 3/10) + (1/10 × 1/5 × 7/10) = 46/500; P(X = 2) = (9/10 × 4/5 × 3/10) + (9/10 × 1/5 × 7/10) + (1/10 × 4/5 × 7/10) = 199/500; P(X = 3) = 9/10 × 4/5 × 7/10 = 252/500\n(ii) X: 0, 1, 2, 3; P(X): 3/500, 46/500, 199/500, 252/500\n(iii) Average number of surprise tests = E(X) = 0 + (1 × 46/500) + (2 × 199/500) + (3 × 252/500) = 1200/500 = 2.4\n(iv) Average number of surprise tests = 2.4 > 2.3. Students are getting a good average of surprise tests. So, the current system is balanced, and the teachers do not need to change anything."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Consider the following statements and choose the correct option:\nStatement 1: If a⃗ and b⃗ represents two adjacent sides of a parallelogram then the diagonals are represented by a⃗ + b⃗ and a⃗ − b⃗.\nStatement 2: If a⃗ and b⃗ represents two diagonals of a parallelogram then the adjacent sides are represented by 2(a⃗ + b⃗) and 2(a⃗ − b⃗).\nWhich of the following is correct?",
+      "options": [
+        "Statement 1 is true and Statement 2 is false.",
+        "Statement 2 is true and Statement 1 is false.",
+        "Both the statements are true.",
+        "Both the statements are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) or Statement 1 is true and Statement 2 is false.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "vector-algebra",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "A plane passes through three points A, B and C with position vectors î + ĵ, ĵ + k̂ and k̂ + î respectively. The equation of the line passing through the point P with position vector î + 2ĵ + 2k̂ and normal to the plane is",
+      "options": [
+        "r⃗ = (î + 2ĵ + 2k̂) + λ(î + ĵ + k̂), λ ∈ R",
+        "r⃗ = (î + ĵ + k̂) + λ(î + 2ĵ + 2k̂), λ ∈ R",
+        "r⃗ · (î − ĵ − k̂) = î + 2ĵ + 2k̂",
+        "x − 1 = y = z"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) or r⃗ = (î + 2ĵ + 2k̂) + λ(î + ĵ + k̂), λ ∈ ℝ. AB⃗ = (ĵ + k̂) − (î + ĵ) = −î + k̂; AC⃗ = (k̂ + î) − (î + ĵ) = −ĵ + k̂; n⃗ = AB⃗ × AC⃗ = |î ĵ k̂; −1 0 1; 0 −1 1| = î + ĵ + k̂; r⃗ = î + 2ĵ + 2k̂ + λ(î + ĵ + k̂)",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "If the direction cosines of a line are < 1/c, 1/c, 1/c > then",
+      "options": [
+        "c > 0",
+        "0 < c < 1",
+        "c = ±√3",
+        "c > 2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) or c = ±√3. Using, l² + m² + n² = 1 ⇒ 1/c² + 1/c² + 1/c² = 1 ⇒ 3/c² = 1 ⇒ c² = 3 ⇒ c = ±√3",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "If a⃗ and b⃗ are unit vectors enclosing an angle θ and |a⃗ + b⃗| < 1, then find the values between which θ lies.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "|a⃗ + b⃗| < 1 ⇒ |a⃗ + b⃗|² < 1 ⇒ |a⃗|² + |b⃗|² + 2 a⃗.b⃗ < 1 ⇒ 1 + 1 + 2 a⃗.b⃗ < 1 ⇒ a⃗ · b⃗ < −1/2 ⇒ |a⃗||b⃗| cos θ < −1/2 ⇒ cos θ < −1/2 ⇒ −1 ≤ cos θ < −1/2 ⇒ 2π/3 < θ ≤ π i.e., θ ∈ (2π/3, π]"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "vector-algebra",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Shown below is a cuboid. Find BA⃗ . BC⃗",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
+        "Figure on page 11 (cuboid with axes and dimensions 2 cm, 3 cm, 4 cm, points A, B, C) not reproduced; the question cannot be answered without it",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Placing the coordinate axes as illustrated, coordinates of A is (2,0,0), B (0,4,3) and C (1,4,0). ∴ BA⃗ = 2î - 4ĵ -3k̂ and BC⃗ = î -3k̂ ∴ BA⃗ . BC⃗ = 2 + 9 = 11"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "vector-algebra",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": "(i)",
+      "choiceGroup": "16",
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A building is to be constructed in the form of a triangular pyramid ABCD as shown in the figure. Let the angular points be A (0, 1, 2), B (3, 0, 1), C (4, 3, 6) and D (2, 3, 2) and let G be the point of intersection of the medians of ∆BCD.\nUsing the above information, answer the following\n(a) What will be the length of vector AG⃗ ?\n(b) Find the area of ∆ABC.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 11 (triangular pyramid ABCD) not reproduced; the coordinates are given in the text, so it is not needed to answer",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) G is the centroid of ∆BCD. The coordinates are ((3 + 4 + 2)/3, (0 + 3 + 3)/3, (1 + 6 + 2)/3) = (3,2,3). AG⃗ = (3 − 0)î + (2 − 1)ĵ + (3 − 2)k̂ = 3î + ĵ + k̂; |AG⃗| = √(3² + 1² + 1²) = √11 units\n(b) AB⃗ = 3î − ĵ − k̂; AC⃗ = 4î + 2ĵ + 4k̂. Area of ∆ABC = (1/2)|AB⃗ × AC⃗|. AB⃗ × AC⃗ = |î ĵ k̂; 3 −1 −1; 4 2 4| = −2î − 16ĵ + 10k̂ and |AB⃗ × AC⃗| = 6√10. Hence area of ∆ABC = (1/2)|AB⃗ × AC⃗| = 3√10 sq units"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "vector-algebra",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": "(ii)",
+      "choiceGroup": "16",
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "What are the values of x for which the angle between the vectors?\n2x²î + 3xĵ + k̂ and î − 2ĵ + x²k̂ is obtuse?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Let a⃗ = 2x²î + 3xĵ + k̂ and b⃗ = î − 2ĵ + x²k̂. ∵ angle between the vectors is obtuse ⇒ cos θ < 0 ⇒ a⃗.b⃗/(|a⃗||b⃗|) < 0 ⇒ a⃗.b⃗ < 0 ⇒ 2x² − 6x + x² < 0 ⇒ 3x(x − 2) < 0 ⇒ 0 < x < 2. i.e. x ∈ (0,2)"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "vector-algebra",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(i)",
+      "choiceGroup": "17",
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Given, B and C lie on the line (x+3)/5 = (y−1)/2 = (z+4)/3 and BC = 5 units find the area of ∆ABC.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 11 (triangle ABC with foot D on BC) not reproduced; the coordinates of A, (0,2,3), are printed only inside the figure, so the question cannot be answered from the text alone",
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Let (x+3)/5 = (y−1)/2 = (z+4)/3 = λ. ∴ D(5λ − 3, 2λ + 1, 3λ − 4). Dr of AD ⟨5λ − 3, 2λ − 1, 3λ − 7⟩ and Dr of given line L ⟨5,2,3⟩. AD ⊥ L, so 5(5λ − 3) + 2(2λ − 1) + 3(3λ − 7) = 0 ⇒ λ = 1. Coordinates of D are (2, 3, −1). AD = √((2 − 0)² + (3 − 2)² + (−1 − 3)²) = √21. Area of ∆ABC = (1/2) × BC × AD = (1/2) × 5 × √21 = (5/2)√21 sq. units"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(ii)",
+      "choiceGroup": "17",
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Find the equation of the plane containing the line x/(−2) = (y−1)/3 = (1−z)/1 and the point (−1, 0, 2).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Method-I: Let the equation of the plane be a(x − x₁) + b(y − y₁) + c(z − z₁) = 0 is passing through (−1, 0, 2) ⇒ a(x + 1) + b(y – 0) + c(z – 2) = 0 …(1). Given line (x−0)/(−2) = (y−1)/3 = (z−1)/(−1) passing through (0, 1, 1) and having d.r. ⟨−2, 3, −1⟩. Since the plane contains the line and the point ⇒ a(1) + b(1) + c(1 – 2) = 0 ⇒ a + b – c = 0 …(2). Also the line and normal to the plane are perpendicular ⇒ –2a + 3b – c = 0 …(3). Solving (2) and (3) a/2 = b/3 = c/5 = k. Hence required equation of the plane is ⇒ 2(x + 1) + 3(y − 0) + 5(z − 2) = 0 ⇒ 2x + 3y + 5z − 8 = 0. Method–II: … required equation of the plane is |x+1 y z−2; 1 1 −1; −2 3 −1| = 0 ⇒ 2(x + 1) + 3(y − 0) + 5(z − 2) = 0 ⇒ 2x + 3y + 5z − 8 = 0"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Find the area bounded by the curve, y = x(4 − x) and the x-axis from x = 0 to x = 5 as shown in the figure given above.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 12 (graph of y = x(4 − x) with shaded regions from 0 to 5) not reproduced; the curve and limits are given in the text",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "The required area is in two parts – one part above the x -axis and the other below the x -axis. A = ∫₀⁴ y dx + ∫₄⁵ −y dx = ∫₀⁴ x(4 − x) dx + ∫₄⁵ x(x − 4) dx = [2x² − x³/3]₀⁴ + [x³/3 − 2x²]₄⁵ = (32 − 64/3) + (125/3 − 50) − (64/3 − 32) = 32/3 − 25/3 + 32/3 = 13 sq units"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "application-of-integrals",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which condition is true if Average Cost (AC) is constant at all levels of output?",
+      "options": [
+        "MC > AC",
+        "MC = AC",
+        "MC < AC",
+        "MC = (1/2) AC"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF (option (d) fraction 1/2)"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) or MC = AC",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 12,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following statement(s) is/are correct with respect to regression coefficients?\nStatement 1: It measures the degree of linear relationship between two variables.\nStatement 2: It gives the value by which one variable changes for a unit change in the other variable.\nWhich of the following is correct?",
+      "options": [
+        "Statement 1 is true and Statement 2 is false.",
+        "Statement 2 is true and Statement 1 is false.",
+        "Both the statements are true.",
+        "Both the statements are false."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
+        "Answer key prints '(b) or Both statements are true but Statement 2 is not the correct explanation of Statement 1.' The letter (b) is recorded as correctOption, but the key's wording does not match option (b) as printed in the question ('Statement 2 is true and Statement 1 is false.'); editor must check"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) or Both statements are true but Statement 2 is not the correct explanation of Statement 1.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Mean of x = 53, mean of y = 28 regression co-efficient y on x = −1 · 2, regression co-efficient x on y = −0 · 3. Find coefficient of correlation (r).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Given: x̄ = 53, ȳ = 28, b_yx = −1.2, b_xy = −0.3. Using, r² = b_yx × b_xy = −1.2 × −0.3 = 0.36 ⇒ r = −0.6. Ans : − 0 · 6"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The total revenue received from the sale of x unit of a product is given by R(x) = 3x² + 36x + 5. Find the marginal revenue when x = 5.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Given, R(x) = 36x + 3x² + 5 ⇒ MR = d/dx (36x + 3x² + 5) = 36 + 6x ∴ MR(x = 5) = 66. Ans: 66"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A manufacturing company finds that the daily cost of producing x item of product is given by C(x) = 210x + 7000. Find the minimum number that must be produced and sold daily for break even, if each item is sold for ₹280.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Given C(x) = 210x + 7000, R(x) = 280x. Minimum number must be sold daily when R(x) = C(x) ⇒ 210x + 7000 = 280x ⇒ 70x = 7000 ⇒ x = 100. ∴ Minimum number that must be sold is 100. Ans: 100"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": "(i)",
+      "choiceGroup": "20",
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A real estate company is going to build a new residential complex. The land they have purchased can hold at the most 500 apartments. Also, if they make x apartments, then the monthly maintenance cost for the whole complex would be as follows:\nFixed cost = ₹ 4000\nVariable cost = ₹ (14x − 0 ∙ 04x²)\nHow many apartments should the complex have in order to minimize the maintenance costs?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Image on page 13 (illustration of apartment buildings) not reproduced; not needed to answer",
+        "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "C(x) = 4000 + 14x − 0.04x² ⇒ C′(x) = 14 − 0.08x. Now, C′(x) = 0 ⇒ 14 = 0.08x ⇒ x = 175. C″(x) = −0.08 < 0 ∴ C(x) will be maximum at x = 175. As per question, we have to minimise the maintenance cost. Since x can be 0 to 500 apartments, C(0) = 4000 + 14 × 0 − 0.04 × (0)² = 4000; C(500) = 4000 + 14 × 500 − 0.04 × (500)² = 1000 ∴ The complex must have 500 apartments to minimise the maintenance cost."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": "(ii)",
+      "choiceGroup": "20",
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The demand function of a monopoly is given by x = 100 − 4p. Find the quantity at which the Marginal Revenue will be zero.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Given, x = 100 − 4p ⇒ p = (100 − x)/4 ∴ R(x) = px = (100x − x²)/4 ⇒ MR = d/dx ((100x − x²)/4) = (100 − 2x)/4. ∵ MR = 0 ∴ x = 50"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "applications-of-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A survey of 50 families to study the relationships between expenditure on accommodation in (₹ x) and expenditure on food and entertainment (₹ y) gave the following results:\n∑x = 8500, ∑y = 9600, σₓ = 60, σᵧ = 20, r = 0.6\nEstimate the expenditure on food and entertainment when expenditure on accommodation is ₹200.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts σₓ, σᵧ flattened in the text layer; rebuilt from the rendered page",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "x̄ = ∑x/n = 170, ȳ = ∑y/n = 192, b_yx = r σᵧ/σₓ = 0.6 × 20/60 = 0.2. Regression equation y on x is y − 192 = 0.2(x − 170) ⇒ y − 192 = 0.2x − 34 ⇒ y = 0.2x + 158. Putting, x = 200 ⇒ y = 0.2(200) + 158 = 198 ∴ Expenditure on food and entertainment = ₹ 198."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": "(i)",
+      "choiceGroup": "22",
+      "page": 14,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A linear programming problem is given by Z = px + qy where p, q > 0 subject to the constraints:\nx + y ≤ 60, 5x + y ≤ 100, x ≥ 0 and y ≥ 0\n(a) Solve graphically to find the corner points of the feasible region.\n(b) If Z = px + qy is maximum at (0,60) and (10, 50), find the relation of p and q. Also mention the number of optimal solution(s) in this case.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation): the answer key's hand-drawn graph for (a) on page 29 is not reproduced"
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) From graph, corner points are: A (0, 60), B (10, 50), C (20,0), D (0, 0)\n(b) Z = px + qy. Given, Z is maximum at (0, 60) and (10, 50) ∴ 0. p + 60. p = 10. p + 50. q ⇒ 10p = 10q ⇒ p = q. So, there can be infinite number of optimal solutions."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "linear-programming",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": "(ii)",
+      "choiceGroup": "22",
+      "page": 14,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 4,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "The feasible region for an L.P.P. is shown in the adjoining figure:\nBased on the given graph, answer the following questions.\n(a) Write the constraints for the L.P.P.\n(b) Find the co-ordinates of the point B.\n(c) Find the maximum value of the objective function Z = x + y.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph on page 14 (feasible region with points A(25,0), C(0,20), D(0,50), E(40,0) and B) not reproduced; the question cannot be answered without it",
+        "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Equation of line AD: x/25 + y/20 = 1 ⇒ 2x + y = 50. Equation of line EC: x/40 + y/20 = 1 ⇒ x + 2y = 40. As origin lies in the region, 2x + y ≤ 50 and x + 2y ≤ 40. Therefore, the constraints are, 2x + y ≤ 50, x + 2y ≤ 40, x ≥ 0, y ≥ 0\n(b) Solving simultaneously, the coordinate of B is (20, 10).\n(c) The corner points are O(0,0), C(0,20), B(20,10) and A(25,0). At O, Z = 0; At C, Z = 20; At B, Z = 30; At A, Z = 25 ∴ Maximum value of Z is 30."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "linear-programming",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

@@ -1,0 +1,1755 @@
+{
+  "source": {
+    "key": "icse-2023-x-chemistry",
+    "title": "ICSE 2023 Examination: Chemistry (Science Paper 2)",
+    "board": "icse",
+    "class": 10,
+    "subject": "chemistry",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "BOARD_EXAM",
+    "examYear": 2023,
+    "session": null,
+    "paperName": "Chemistry (Science Paper – 2)",
+    "paperCode": "T23 522",
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2025/08/ICSE-2023-QPs.zip",
+    "sourceFile": "2023/ICSE 2023 - 522 SCI2.pdf",
+    "answerSourceUrl": null,
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 11,
+    "sha256": "97b5f34b2cee1d4d9d71a8647b93664f06592e127b93ad3248a41fddb733a95a",
+    "maxMarks": 80,
+    "durationMinutes": 120,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler) -enc UTF-8 raw and -layout modes; pdfplumber for sub/superscript and glyph checks",
+    "ocrUsed": false,
+    "accessedOn": "2026-09-28",
+    "usage": "Official CISCE board examination paper from the CISCE Archive Library (cisce.org/archive-library); question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "notes": "No official marking scheme is published with this paper; questions carry no official answer. ICSE 2023 board examination paper, Chemistry (Science Paper – 2), from the official CISCE Archive Library ZIP bundle ICSE-2023-QPs.zip; every page footer prints 'T23 522' (used as paperCode); the year 2023 comes from the bundle/file name and the 'T23' prefix. Maximum Marks 80, Time allowed Two hours. Section A (Questions 1–2, 40 marks) is compulsory; Section B (Questions 3–8, 10 marks each) says 'Attempt any four questions', so the printed marks in this pack add up to 100 (40 + 6 × 10), which is expected. Question 1 (i)–(xv) are 1-mark MCQs (the [15] is the Question 1 total). Where a printed mark covers several lettered sub-parts (e.g. [2] for (a)–(b)), each sub-part is its own entry with the mark split evenly (marksSource SECTION_INSTRUCTIONS) and the shared instruction repeated in its text. Chemical formula subscripts and ionic charges are printed as smaller lowered/raised glyphs and were rebuilt as Unicode (H₂SO₄, Zn²⁺, e⁻) after checking glyph size and baseline with pdfplumber; reaction arrows are an unmapped Wingdings glyph (U+F0E0) and are rendered as →. The paper prints '200⁰C' with a superscript zero, kept as printed. Figures not reproduced: the alumina-to-aluminium electrolysis sketch (page 5, Q2(ii)) and the two structural formulae for IUPAC naming (page 6, Q2(v)(b))."
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "An element in period 3, whose electron affinity is zero:",
+      "options": [
+        "Neon",
+        "Sulphur",
+        "Sodium",
+        "Argon"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "HIGH",
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "An element with the largest atomic radius among the following is:",
+      "options": [
+        "Carbon",
+        "Nitrogen",
+        "Lithium",
+        "Beryllium"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "HIGH",
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The compound that is not an ore of aluminium:",
+      "options": [
+        "Cryolite",
+        "Corundum",
+        "Fluorspar",
+        "Bauxite"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "HIGH",
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The vapour density of CH₃OH is ___________. (At. Wt. C=12, H=1, O=16)",
+      "options": [
+        "32",
+        "18",
+        "16",
+        "34"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): CH₃OH; check against the PDF",
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "mole-concept-and-stoichiometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following reactions takes place at the anode during the electroplating of an article with silver?",
+      "options": [
+        "Ag – 1e⁻ → Ag¹⁺",
+        "Ag + 1e⁻ → Ag¹⁻",
+        "Ag – 1e⁻ → Ag",
+        "None of the above"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): 1e⁻, Ag¹⁺, Ag¹⁻; check against the PDF",
+        "Reaction arrow is a Wingdings glyph (U+F0E0) not mapped in the text layer; rendered as →",
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The metallic hydroxide which forms a deep inky blue solution with excess ammonium hydroxide solution is:",
+      "options": [
+        "Fe(OH)₂",
+        "Cu(OH)₂",
+        "Ca(OH)₂",
+        "Fe(OH)₃"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): Fe(OH)₂, Cu(OH)₂, Ca(OH)₂, Fe(OH)₃; check against the PDF",
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "An example of a cyclic organic compound is:",
+      "options": [
+        "Propene",
+        "Pentene",
+        "Butene",
+        "Benzene"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "HIGH",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "In the laboratory preparation, HCl gas is dried by passing through:",
+      "options": [
+        "dilute nitric acid",
+        "concentrated sulphuric acid",
+        "dilute sulphuric acid",
+        "acidified water"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-hydrogen-chloride",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The nitrate which on thermal decomposition leaves behind a residue which is yellow when hot and white when cold:",
+      "options": [
+        "Lead nitrate",
+        "Ammonium nitrate",
+        "Copper nitrate",
+        "Zinc nitrate"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-nitric-acid",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The salt formed when concentrated sulphuric acid reacts with KNO₃ above 200⁰C:",
+      "options": [
+        "K₂SO₄",
+        "K₂SO₃",
+        "KHSO₄",
+        "KHSO₃"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): KNO₃, K₂SO₄, K₂SO₃, KHSO₄, KHSO₃; check against the PDF",
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "study-of-compounds-nitric-acid",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The property exhibited by concentrated sulphuric acid when it is used to prepare hydrogen chloride gas from potassium chloride:",
+      "options": [
+        "Dehydrating property",
+        "Drying property",
+        "Oxidizing property",
+        "Non-volatile acid property"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The hydrocarbon formed when sodium propanoate and soda lime are heated together:",
+      "options": [
+        "Methane",
+        "Ethane",
+        "Ethene",
+        "Propane"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "HIGH",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The acid which does not form acid salt by a basic radical:",
+      "options": [
+        "H₂CO₃",
+        "H₃PO₄",
+        "H₂SO₄",
+        "CH₃COOH"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): H₂CO₃, H₃PO₄, H₂SO₄, CH₃COOH; check against the PDF",
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The general formula of hydrocarbons with single covalent bonds is:",
+      "options": [
+        "CₙH₂ₙ₊₂",
+        "CₙH₂ₙ",
+        "CₙH₂ₙ₋₂",
+        "CₙH₂ₙ₋₆"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): CₙH₂ₙ₊₂, CₙH₂ₙ, CₙH₂ₙ₋₂, CₙH₂ₙ₋₆ (printed with en dash for minus); check against the PDF",
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The indicator which changes to pink colour in an alkaline solution is:",
+      "options": [
+        "Blue Litmus",
+        "Methyl Orange",
+        "Red Litmus",
+        "Phenolphthalein"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [15] is the Question 1 total; 1 mark per sub-part"
+      ],
+      "confidence": "HIGH",
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Match the Column A with Column B:\nColumn A\n(a) Sodium Chloride\n(b) Methane\n(c) Hydrogen chloride gas\n(d) Oxidation reaction\n(e) Water\nColumn B\n1. has two shared pair of electrons\n2. has high melting and boiling points\n3. a greenhouse gas\n4. has low melting and boiling points\n5. Zn – 2e⁻ → Zn²⁺\n6. S + 2e⁻ → S²⁻",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Two-column matching table flattened into text (Column A, then Column B)",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): 2e⁻, Zn²⁺, S²⁻; check against the PDF",
+        "Reaction arrow is a Wingdings glyph (U+F0E0) not mapped in the text layer; rendered as →"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "chemical-bonding",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "CASE_BASED",
+      "text": "The following sketch illustrates the process of conversion of Alumina to Aluminium:\nStudy the diagram and answer the following:\n(a) Name the constituent of the electrolyte mixture which has a divalent metal in it.\n(b) Name the powdered substance ‘X’ sprinkled on the surface of the electrolyte mixture.\n(c) What is the name of the process?\n(d) Write the reactions taking place at the electrodes ‘Y’ (anode) and ‘Z’ (cathode) respectively.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure on page 5 (sketch of the electrolytic cell with labels X, Y, Z) not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Fill in the blanks with the choices given in the brackets:\nMetals are good _________. [oxidizing agents / reducing agents]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Fill in the blanks with the choices given in the brackets:' printed once for (a)-(e); combined mark [5] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Fill in the blanks with the choices given in the brackets:\nNon-polar covalent compounds are __________ [good / bad] conductors of heat and electricity.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Fill in the blanks with the choices given in the brackets:' printed once for (a)-(e); combined mark [5] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "chemical-bonding",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Fill in the blanks with the choices given in the brackets:\nHigher the pH value of a solution, the more __________ [acidic / alkaline] it is.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Fill in the blanks with the choices given in the brackets:' printed once for (a)-(e); combined mark [5] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(d)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Fill in the blanks with the choices given in the brackets:\n__________, [Silver chloride / Lead chloride] is a white precipitate that is soluble in excess of Ammonium hydroxide solution.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Fill in the blanks with the choices given in the brackets:' printed once for (a)-(e); combined mark [5] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iii)(e)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Fill in the blanks with the choices given in the brackets:\nConversion of ethene to ethane is an example of __________. [hydration / hydrogenation]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Fill in the blanks with the choices given in the brackets:' printed once for (a)-(e); combined mark [5] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State the terms / process for the following:\nThe energy released when an atom in the gaseous state accepts an electron to form an anion.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State the terms / process for the following:' printed once for (a)-(e); combined mark [5] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State the terms / process for the following:\nTendency of an element to form chains of identical atoms.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State the terms / process for the following:' printed once for (a)-(e); combined mark [5] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State the terms / process for the following:\nThe name of the process by which Ammonia is manufactured on a large scale.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State the terms / process for the following:' printed once for (a)-(e); combined mark [5] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iv)(d)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State the terms / process for the following:\nA type of salt formed by partial replacement of hydroxyl radicals with an acid radical.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State the terms / process for the following:' printed once for (a)-(e); combined mark [5] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(iv)(e)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State the terms / process for the following:\nThe ratio of the mass of a certain volume of gas to the same volume of hydrogen measured under the same conditions of temperature and pressure.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State the terms / process for the following:' printed once for (a)-(e); combined mark [5] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "mole-concept-and-stoichiometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(v)(a)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give the structural formula of the following organic compounds:\n1. 2-chlorobutane\n2. Methanal\n3. But-2-yne",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Printed [5] covers (v)(a) and (v)(b) together; split here as 3 marks for (a) (three compounds) and 2 for (b) (two compounds), 1 mark per compound assumed"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(v)(b)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": "SECTION A (40 Marks)",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give the IUPAC name of the following organic compounds:\n1.\n2.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Printed [5] covers (v)(a) and (v)(b) together; split here as 3 marks for (a) (three compounds) and 2 for (b) (two compounds), 1 mark per compound assumed",
+        "Figure on page 6 (two structural formulae, 1 and 2) not reproduced; question cannot be answered without it"
+      ],
+      "confidence": "LOW",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Identify the cation in each of the following cases:\nAmmonium hydroxide solution when added to Solution B gives a white precipitate which does not dissolve in excess of ammonium hydroxide solution.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the cation in each of the following cases:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Identify the cation in each of the following cases:\nSodium hydroxide solution when added to Solution C gives a white precipitate which is insoluble in excess of sodium hydroxide solution.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the cation in each of the following cases:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Fill in the blanks by choosing the correct answer from the brackets:\nDuring electrolysis, the compound _________ in its molten state liberates reddish brown fumes at the anode. [NaCl / PbBr₂]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Fill in the blanks by choosing the correct answer from the brackets:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): PbBr₂; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Fill in the blanks by choosing the correct answer from the brackets:\nThe ion which could be discharged most readily during electrolysis is __________. [Fe²⁺ / Cu²⁺]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Fill in the blanks by choosing the correct answer from the brackets:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): Fe²⁺, Cu²⁺ (raised glyphs extracted flat as 'Fe2+ / Cu2+'); check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Arrange the following as per the instruction given in the brackets:\nAl, K, Mg, Ca (decreasing order of its reactivity)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Arrange the following as per the instruction given in the brackets:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Arrange the following as per the instruction given in the brackets:\nN, Be, O, C (increasing order of non-metallic character)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Arrange the following as per the instruction given in the brackets:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Arrange the following as per the instruction given in the brackets:\nP, Si, F, Be (decreasing order of valence electrons)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Arrange the following as per the instruction given in the brackets:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Complete and balance the following equations:\nNH₄Cl + Ca(OH)₂ →",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Complete and balance the following equations:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): NH₄Cl, Ca(OH)₂; check against the PDF",
+        "Reaction arrow is a Wingdings glyph (U+F0E0) not mapped in the text layer; rendered as →"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Complete and balance the following equations:\nCuSO₄ + NH₄OH →",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Complete and balance the following equations:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): CuSO₄, NH₄OH; check against the PDF",
+        "Reaction arrow is a Wingdings glyph (U+F0E0) not mapped in the text layer; rendered as →"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Complete and balance the following equations:\nCu + Conc. HNO₃ →",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Complete and balance the following equations:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): HNO₃; check against the PDF",
+        "Reaction arrow is a Wingdings glyph (U+F0E0) not mapped in the text layer; rendered as →"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "study-of-compounds-nitric-acid",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State a relevant reason for the following:\nHydrogen chloride gas cannot be dried over quick lime.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State a relevant reason for the following:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-hydrogen-chloride",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State a relevant reason for the following:\nAmmonia gas is not collected over water.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State a relevant reason for the following:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Identify the alloy in each case from the given composition:\naluminium, magnesium, manganese, copper",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the alloy in each case from the given composition:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Identify the alloy in each case from the given composition:\niron, nickel, chromium, carbon",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Identify the alloy in each case from the given composition:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Solve the following numerical problem.\nEthane burns in oxygen according to the chemical equation:\n2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O\nIf 80 ml of ethane is burnt in 300 ml of oxygen, find the composition of the resultant gaseous mixture when measured at room temperature.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): 2C₂H₆, 7O₂, 4CO₂, 6H₂O; check against the PDF",
+        "Reaction arrow is a Wingdings glyph (U+F0E0) not mapped in the text layer; rendered as →"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "mole-concept-and-stoichiometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The following questions are pertaining to the laboratory preparation of Ammonia gas from Magnesium nitride:\nWrite a balanced chemical equation for its preparation.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'The following questions are pertaining to the laboratory preparation of Ammonia gas from Magnesium nitride:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The following questions are pertaining to the laboratory preparation of Ammonia gas from Magnesium nitride:\nWhy is this method seldom used?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'The following questions are pertaining to the laboratory preparation of Ammonia gas from Magnesium nitride:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The following questions are pertaining to the laboratory preparation of Ammonia gas from Magnesium nitride:\nHow do you identify the gas formed?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'The following questions are pertaining to the laboratory preparation of Ammonia gas from Magnesium nitride:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Write one use of the following alloys:\nBronze",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Write one use of the following alloys:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Write one use of the following alloys:\nFuse metal",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Write one use of the following alloys:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Draw the electron dot structure for the following:\nAmmonium ion\n[At. No.: N =7, H = 1]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Draw the electron dot structure for the following:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed",
+        "The shared data line '[At. No.: N =7, H = 1]' printed once after (a)-(b) is repeated in each entry"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "chemical-bonding",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Draw the electron dot structure for the following:\nA molecule of nitrogen\n[At. No.: N =7, H = 1]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Draw the electron dot structure for the following:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed",
+        "The shared data line '[At. No.: N =7, H = 1]' printed once after (a)-(b) is repeated in each entry"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "chemical-bonding",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give a balanced chemical equation for the following conversions with conditions:\nEthene from ethanol",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give a balanced chemical equation for the following conversions with conditions:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give a balanced chemical equation for the following conversions with conditions:\nEthyne from calcium carbide",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give a balanced chemical equation for the following conversions with conditions:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give a balanced chemical equation for the following conversions with conditions:\nMonochloromethane from methane",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give a balanced chemical equation for the following conversions with conditions:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Study the following observations and name the anions present in each of the reactions.\nWhen a crystalline solid ‘P’ is warmed with concentrated H₂SO₄ and copper turnings a reddish brown gas is released.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Study the following observations and name the anions present in each of the reactions.' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): H₂SO₄; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "study-of-compounds-nitric-acid",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Study the following observations and name the anions present in each of the reactions.\nWhen few drops of dilute sulphuric acid is added to Salt ‘R’ and heated, a colourless gas is released which turns moist lead acetate paper silvery black.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Study the following observations and name the anions present in each of the reactions.' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Study the following observations and name the anions present in each of the reactions.\nWhen few drops of barium nitrate solution is added to the salt solution ‘Q’, a white precipitate is formed which is insoluble in HCl.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Study the following observations and name the anions present in each of the reactions.' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Define / State:\nElectronegativity",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Define / State:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Define / State:\nGay-Lussac’s Law of combining volumes",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Define / State:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "mole-concept-and-stoichiometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "The Empirical formula of an organic compound is CHCl₂.\nIf its relative molecular mass is 168, what is its molecular formula?\n[At. Wt. C = 12, H = 1, Cl = 35.5]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): CHCl₂; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "mole-concept-and-stoichiometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the substances given in the box below to answer the following questions:\nIron, Magnesium sulphite, Zinc, Sodium sulphide, Lead, Ferric chloride, Copper, Ferrous sulphate\nThe metal that will not produce hydrogen gas when reacted with dilute acids.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Choose the substances given in the box below to answer the following questions:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed",
+        "Boxed list of substances on page 9 is laid out as a 4 × 2 grid; listed here in reading order separated by commas"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the substances given in the box below to answer the following questions:\nIron, Magnesium sulphite, Zinc, Sodium sulphide, Lead, Ferric chloride, Copper, Ferrous sulphate\nThe compound that will produce sulphur dioxide gas when reacted with dilute HCl.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Choose the substances given in the box below to answer the following questions:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed",
+        "Boxed list of substances on page 9 is laid out as a 4 × 2 grid; listed here in reading order separated by commas"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the substances given in the box below to answer the following questions:\nIron, Magnesium sulphite, Zinc, Sodium sulphide, Lead, Ferric chloride, Copper, Ferrous sulphate\nThe solution of this compound produces dirty green precipitate with NaOH.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Choose the substances given in the box below to answer the following questions:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed",
+        "Boxed list of substances on page 9 is laid out as a 4 × 2 grid; listed here in reading order separated by commas"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State one relevant observation for each of the following:\nTo the copper nitrate solution, initially few drops of sodium hydroxide solution is added and then added in excess.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State one relevant observation for each of the following:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "analytical-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State one relevant observation for each of the following:\nBurning of ammonia in excess of oxygen.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State one relevant observation for each of the following:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "State one relevant observation for each of the following:\nDry ammonia gas is passed over heated PbO.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'State one relevant observation for each of the following:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Name the following:\nOrganic compounds with same molecular formula but different structural formula.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Name the following:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 9,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Name the following:\nGroup of organic compounds where the successive members follow a regular structural pattern, successive compounds differ by a ‘CH₂’ group.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Name the following:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): CH₂; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give reason for the following:\nIonisation potential decreases down a group.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give reason for the following:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "periodic-properties",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give reason for the following:\nIonic compounds do not conduct electricity in solid state.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Give reason for the following:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "chemical-bonding",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Calculate:\n(a) The percentage of phosphorus in the fertilizer super phosphate Ca(H₂PO₄)₂ correct to 1 decimal point. [At. Wt. H=1, P=31, O=16, Ca=40]\n(b) Write the empirical formula of C₈H₁₈.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): Ca(H₂PO₄)₂, C₈H₁₈; check against the PDF",
+        "Printed [3] covers (a) and (b) together; kept as one entry because the mark split is not printed"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "mole-concept-and-stoichiometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Answer the following questions with reference to electrorefining of copper:\nWhat is the anode made of?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Answer the following questions with reference to electrorefining of copper:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Answer the following questions with reference to electrorefining of copper:\nWhat do you observe at the cathode?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Answer the following questions with reference to electrorefining of copper:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Answer the following questions with reference to electrorefining of copper:\nWrite the reaction taking place at the cathode.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Answer the following questions with reference to electrorefining of copper:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Arrange the following according to the instructions given in brackets:\nC₂H₂, C₃H₆, CH₄, C₂H₄ (In the increasing order of the molecular weight)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Arrange the following according to the instructions given in brackets:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): C₂H₂, C₃H₆, CH₄, C₂H₄; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "organic-chemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(i)(b)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Arrange the following according to the instructions given in brackets:\nCu²⁺, Na⁺, Zn²⁺, Ag⁺ (The order of Preferential discharge at the cathode)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Arrange the following according to the instructions given in brackets:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): Cu²⁺, Na⁺, Zn²⁺, Ag⁺; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(ii)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Differentiate between the following pairs based on the criteria given in the brackets:\nCane sugar and hydrated copper sulphate [using concentrated H₂SO₄]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Differentiate between the following pairs based on the criteria given in the brackets:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): H₂SO₄; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(ii)(b)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Differentiate between the following pairs based on the criteria given in the brackets:\nSulphuric acid and hydrochloric acid [type of salts formed]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Differentiate between the following pairs based on the criteria given in the brackets:' printed once for (a)-(b); combined mark [2] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(iii)(a)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Convert the following reactions into a balanced chemical equation:\nAmmonia to nitric oxide using oxygen and platinum catalyst.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Convert the following reactions into a balanced chemical equation:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-ammonia",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(iii)(b)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Convert the following reactions into a balanced chemical equation:\nSodium hydroxide to sodium sulphate using sulphuric acid.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Convert the following reactions into a balanced chemical equation:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-sulphuric-acid",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(iii)(c)",
+      "choiceGroup": null,
+      "page": 10,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Convert the following reactions into a balanced chemical equation:\nFerrous sulphide to hydrogen sulphide using hydrochloric acid.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Convert the following reactions into a balanced chemical equation:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed"
+      ],
+      "confidence": "HIGH",
+      "chapter": "study-of-compounds-hydrogen-chloride",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(iv)(a)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the answer from the list which fits in the description:\n[CCl₄, PbO, NaCl, CuO, NH₄Cl]\nA compound which undergoes thermal dissociation.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Choose the answer from the list which fits in the description:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): CCl₄, NH₄Cl; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "acids-bases-and-salts",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(iv)(b)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the answer from the list which fits in the description:\n[CCl₄, PbO, NaCl, CuO, NH₄Cl]\nAn amphoteric oxide.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Choose the answer from the list which fits in the description:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): CCl₄, NH₄Cl; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "metallurgy",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": "(iv)(c)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": "SECTION B (40 Marks)",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Choose the answer from the list which fits in the description:\n[CCl₄, PbO, NaCl, CuO, NH₄Cl]\nA compound which is a non-electrolyte.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the shared instruction 'Choose the answer from the list which fits in the description:' printed once for (a)-(c); combined mark [3] printed for the items together, not itemised; 1 mark each assumed",
+        "Subscripts/charges rebuilt as Unicode from the PDF layout (smaller lowered/raised glyphs confirmed with pdfplumber): CCl₄, NH₄Cl; check against the PDF"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "electrolysis",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

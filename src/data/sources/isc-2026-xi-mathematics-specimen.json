@@ -1,0 +1,1254 @@
+{
+  "source": {
+    "key": "isc-2026-xi-mathematics-specimen",
+    "title": "ISC (Class XI) Specimen Question Paper 2026, Mathematics, with Answer Key",
+    "board": "icse",
+    "class": 11,
+    "subject": "mathematics",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "SPECIMEN",
+    "examYear": 2026,
+    "session": "ISC (Class XI) Specimen Question Paper 2026 (specimen for the 2026 examination; not a past paper)",
+    "paperName": "Mathematics",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2025/08/860-MATHEMATICS-SQP-AK-1.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2025/08/860-MATHEMATICS-SQP-AK-1.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 27,
+    "sha256": "b870bf98843e13618d3d62e344264c5b5b48fb5ae23d4b31baee58f872443a39",
+    "maxMarks": 80,
+    "durationMinutes": 180,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes; page renders (pdfplumber) used to check notation",
+    "ocrUsed": false,
+    "notes": "Official CISCE specimen paper with answer key in one PDF. Every page footer prints 'ISC (CLASS XI) SPECIMEN QUESTION PAPER 2026' (question paper, PDF pages 1-11) or 'ISC (CLASS XI) SPECIMEN ANSWER KEY 2026' (answer key, PDF pages 12-27); examYear=2026 is the examination year the specimen is published for. It is a SPECIMEN, not a past board paper. No paper/set/series code is printed (the subject code appears only in the file name), so those fields are null. Official answers are taken only from the answer key in the same PDF, trimmed to value points. Cognitive-level tags are recorded as printed. 'page' is the physical PDF page of the question text. Question paper: 20 questions, Sections A (20 x 1 mark), B (7 x 2), C (7 x 3), D (5 x 5), maximum 80. Internal choice ('OR') is printed in Questions 5, 6, 7 (B), 13, 14, 15 (C) and 16, 17, 18 (D); each alternative is a separate entry sharing a choiceGroup. Question 1 (i)-(xx) are separate 1-mark entries. Multi-part questions whose parts share one stem (9, 14(i), 15(ii), 16(ii), 17(ii), 18) are kept together with printed part marks in the text. Math-italic glyphs in the text layer are written as plain letters; powers, fractions and subscripts were rebuilt from the page renders (flagged MEDIUM). The answer key itself has two internal inconsistencies (Q1(v), Q1(xv): printed option letter disagrees with its own stated answer); correctOption is omitted there.",
+    "usage": "Official CISCE publication, freely available on cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": "(i)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Additive inverse of i is expressed as a + i b, then b =",
+      "options": [
+        "0",
+        "1",
+        "−1",
+        "−i"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) or −1. Additive inverse of i = −i = 0 + (−1)i. ∴ b = −1",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "complex-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The centre of the circle 2x² + 2y² − 4x − 8y − 45 = 0 is:",
+      "options": [
+        "(2, 4)",
+        "(−2, −4)",
+        "(−1, −2)",
+        "(1,2)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) or (1,2). ⇒ x² + y² + 2(−1)x + 2(−2)y − 45/2 = 0. ∴ The centre of the circle is: (1,2)",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The number of terms in the expansion of (a² − 2 b/a⁻¹ + b²)¹⁰ is:",
+      "options": [
+        "20",
+        "15",
+        "21",
+        "11"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) or 21. (a² − 2b/a⁻¹ + b²)¹⁰ = (a² − 2ab + b²)¹⁰ = (a − b)²⁰ ∴ Total number of terms = 20 + 1 = 21",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "binomial-theorem",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The equation of line intersecting the x-axis at a distance of 3 units to the left of origin with slope −2 is:",
+      "options": [
+        "2x + y + 6 = 0",
+        "2x − y + 6 = 0",
+        "−2x + y + 6 = 0",
+        "2x − y − 6 = 0"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) or 2x + y + 6 = 0. The point of intersection of the line and x-axis is (−3,0). Given, slope = −2. Required equation of the line is: y − 0 = −2(x + 3) ⇒ 2x + y + 6 = 0",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "straight-lines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The Cartesian product A × A has 16 elements among which are (0,2) and (1,3). Which of the following statements is correct?\nStatement I: It is possible to determine the set A.\nStatement II: A × A contains the element (3,2).",
+      "options": [
+        "Both the statements are true.",
+        "Both the statements are false.",
+        "Statement I is true and Statement II is false.",
+        "Statements I is false and Statement II is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer key is internally inconsistent: it prints option letter (c) but its text ('Both I and II', 'Both statements are true') matches option (a). correctOption omitted; editor to resolve."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) or Both I and II. Hence 0,2,1,3 all are element of the set A. i.e. A = {0,1,2,3}. Also (3,2) ∈ A × A ⇒ Both statements are true."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "sets",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Which one of the following is NOT true in the IIIrd. quadrant?",
+      "options": [
+        "tan θ increases from 0 to ∞",
+        "sin θ increases from 0 to − 1",
+        "cot θ decreases from ∞ to 0",
+        "cos θ decreases from − 1 to 1"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Answer key restates option (d) as 'from − 1 to 0' while the printed option reads 'from − 1 to 1'; both kept as printed."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) or cos θ decreases from − 1 to 0. In IIIrd quadrant cos θ decreases from − 1 to 0",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Variance of the data 2, 4, 5, 6, 8, 17 is 23∙33. Then variance of 4, 8, 10, 12, 16, 34 will be:",
+      "options": [
+        "93∙32",
+        "25∙33",
+        "46∙66",
+        "48∙66"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) or 93∙32. Revised observations are: 4, 8, 10, 12, 16, 34 i.e. 2xᵢ. Hence, variance of revised observations = 2²σₓ² = 4 × 23∙33 = 93∙32.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "statistics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The eccentricity of the ellipse with foci at (± 5, 0) and x = 36/5 as one of the directrices is:",
+      "options": [
+        "5/6",
+        "3/5",
+        "6/5",
+        "5/9"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) or 5/6. ⇒ ae = 5 and a/e = 36/5 ⇒ a² = 36 ⇒ a = 6 ∴ e = 5/6",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "conic-sections",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Shown below is a solved differentiation problem:\ny = sin³x.cos³x\n(Step 1) = (1/8) sin³2x\nDifferentiating w.r.t ‘x’ we get\n(Step 2) ⇒ dy/dx = (3/8) sin²2x × d/dx (sin 2x)\n(Step 3) ⇒ dy/dx = (3/8) sin²2x. cos 2x × d/dx (x)\n(Step 4) ⇒ dy/dx = (3/4) sin²2x. cos 2x\nIn which step there is an error in solving?",
+      "options": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) or step-3. ⇒ dy/dx = (3/8) sin²2x. cos 2x × d/dx (2x) (step-3) ⇒ dy/dx = (3/4) sin²2x. cos 2x.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "limits-and-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "For any two sets A and B, (A − B) ∩ B =",
+      "options": [
+        "B",
+        "A",
+        "Null set (φ)",
+        "Universal set (ξ)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) or Null set(φ). (A − B) ∩ B = (A ∩ B′) ∩ B = A ∩ (B′ ∩ B) [Associative law] = A ∩ φ [Laws of complementation] = φ [Boundedness law]",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "sets",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "What is the equation of directrix of parabola y² = 4px, where p < 0 and p² + p − 2 = 0?",
+      "options": [
+        "x + 1 = 0",
+        "x − 2 = 0",
+        "x − 1 = 0",
+        "x + 2 = 0"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) or x − 2 = 0. p² + p − 2 = 0 ⇒ (p + 2)(p − 1) = 0 ⇒ p = −2, (∵ p < 0). Required equation of directrix is: x = −(−2) ⇒ x − 2 = 0",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "conic-sections",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "The sum of the first n terms of a series S is 3n² + 5n. Which one of the following statements is correct?",
+      "options": [
+        "The terms of S form an arithmetic progression with common ratio 6.",
+        "The terms of S form a geometric progression having first term 8.",
+        "The terms of S form an arithmetic progression with common difference 14.",
+        "The terms of S form an arithmetic progression with common difference 6."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) or The terms of S form an arithmetic progression with common difference 6. Tₙ = Sₙ − Sₙ₋₁ = 3n² + 5n − [3(n − 1)² + 5(n − 1)] = 6n + 2 ∴ T₁ = 8, T₂ = 14, T₃ = 20, ….. Above is an A.P., having 1st term = 8 and common difference = 6",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "sequence-and-series",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "What is the number of selections of at most 3 things from 6 different things?",
+      "options": [
+        "20",
+        "22",
+        "41",
+        "42"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) or 42. Total number of selections = C(6,0) + C(6,1) + C(6,2) + C(6,3) = 42.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "permutations-and-combinations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "If −2/(x−3) > 0, then x belongs to:",
+      "options": [
+        "(3, ∞)",
+        "[3, −∞]",
+        "(−∞, 3)",
+        "(−∞, 3]"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "The fraction −2/(x−3) did not extract from the text layer (only 'x−3' survived); transcribed from the page render. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page.",
+        "Topic (linear inequalities) not in the chapter list; chapter left null."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) or (−∞, 3). −2/(x−3) > 0 ⇒ (x−3)/(x−3)² < 0 ⇒ x − 3 < 0 ⇒ x < 3 i.e. x ∈ (−∞, 3)",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Consider the following in respect of the circle 4x² + 4y² − 4ax − 4ay + a² = 0\n(P) The circle touches both the axes.\n(Q) The diameter of the circle is 2a.\n(R) The centre of the circle lies on the line x + y = a.\nHow many of the statements given above are correct?",
+      "options": [
+        "Only (P)",
+        "Only (P) and (Q)",
+        "Only (P) and (R)",
+        "Only (Q) and (R)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page.",
+        "Official answer key is internally inconsistent: it prints option letter (b) (printed as 'Only (P) and (Q)') but states 'Only (P) and (R)', which is option (c). correctOption omitted; editor to resolve."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) or Only (P) and (R). ⇒ (x − a/2)² + (y − a/2)² = (a/2)² ∴ Centre (a/2, a/2), Radius: a/2 ⇒ The circle touches both the axes. Diameter = a. (a/2, a/2) satisfies x + y = a."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xvi)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): Cardinal number of the power set of {{0, {1}, 3}}= 8\nReason (R): If A is a set with n(A) = m, the n (P(A)) = 2ᵐ\nWhich one of the following is correct?",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+        "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+        "Assertion is true and Reason is false.",
+        "Assertion is false and Reason is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) or A is false but R is true. Cardinal number of the set = 1 ⇒ Cardinal number of the power set of {{0, {1}, 3}} = 2¹ = 2. Hence Assertion (A): is false. Reason (R): If A is a set with n(A) = m, the n (P(A)) = 2ᵐ is true.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "sets",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xvii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Coordinate of the point P is (2, 4, 5).\nAssertion: The image of the point F in YZ plane is (−2,4,5).\nReason: When reflecting a point (x, y, z) in the XOY plane, the Z-coordinate changes its sign. The reflected point becomes (x, y, −z).\nWhich one of the following is correct?",
+      "options": [
+        "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+        "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+        "Assertion is true and Reason is false.",
+        "Assertion is false and Reason is true."
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (cuboid with points A–F, P on the axes) on page 6 not reproduced; needed to locate point F."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) or A is false but R is true. ⇒ coordinate of the point F is (2, 0, 5). [∵ F lies on ZX plane] ∴ The image of the point F in YZ plane is (−2,0,5). Hence Assertion (A): is false. Reason is true.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "introduction-to-three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xviii)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the sum of the intercepts of a line whose normal from the origin has a length of 4 units and makes an angle of 15° with the positive X-axis.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "x cos 15° + y sin 15° = 4 ⇒ Intercepts are: 4/cos 15° and 4/sin 15° ∴ Sum of the intercepts = 4/cos 15° + 4/sin 15° = 4[2√2/(√3−1) + 2√2/(√3+1)] = 8√2[(√3+1+√3−1)/2] = 8√6"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "straight-lines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xix)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find number of words that can be formed with the letters of the word 'LAHORE', if L and A are always together.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(LA) HORE ∴ Total number of words = 5! × 2! = 240"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "permutations-and-combinations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xx)",
+      "choiceGroup": null,
+      "page": 6,
+      "section": "A",
+      "sectionTitle": null,
+      "marks": 1,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A function is defined by f(x) = π + sin²x. Find the range of the function.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "−1 ≤ sin x ≤ 1 ⇒ 0 ≤ sin²x ≤ 1 ⇒ π ≤ π + sin²x ≤ π + 1 ∴ Range of the function: [π, π + 1]"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Imagine you are designing a straight ramp that needs to connect two points at different elevations. Point P is at a horizontal distance of 10 meters and a vertical height of 2 meters from the starting point Q.\nWrite the equation of the line representing the ramp, considering the starting point Q as the origin. What is the angle of inclination of the ramp?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "The ramp connects Q(0, 0) and P(10, 2). The equation of the ramp is y = x/5 or x − 5y = 0. tanθ = m = 1/5, θ = tan⁻¹(1/5) ≈ (11.31)°."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "straight-lines",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If a, b and c (a > 0, c > 0) are in G.P, justify the following with respect to the equation ax² + bx + c = 0:\n(i) The equation has imaginary roots.\n(ii) The product of the roots of the equation b²/a²",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Given, a, b and c ⇒ b² = ac. (i) Discriminant (D) = b² − 4ac = ac − 4ac = −3ac < 0, since a, c > 0. Hence equation has imaginary roots. (ii) Product of the roots = c/a = ac/a² = b²/a²"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "quadratic-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If f(x) = x sinx/(1 + cosx), then find f′(π/2).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "f(x) = x sinx/(1+cosx) = x × 2 sin(x/2) cos(x/2)/(2cos²(x/2)) = x tan(x/2). f′(x) = tan(x/2) + (x/2) sec²(x/2) ∴ f′(π/2) = tan(π/4) + (π/4) sec²(π/4) = 1 + π/2"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "limits-and-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(i)",
+      "choiceGroup": "5",
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If the sum of binomial coefficients in the expansion of (x + y)ⁿ is 256, then in which term of the expansion does the greatest binomial coefficient occurs?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "⇒ 2ⁿ = 256 ⇒ 2ⁿ = 2⁸ ⇒ n = 8. ∴ Total number of terms = 8 + 1 = 9. The coefficient of middle most term is the greatest. Hence ((9+1)/2)th i.e. 5th term coefficient is the greatest."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "binomial-theorem",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": "(ii)",
+      "choiceGroup": "5",
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If the coefficient of (r − 5)th and (2r − 1)th terms in the expansion of (1 + x)³⁴ are equal, then find the value of r.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Tᵣ₋₅ = T₁₊₍ᵣ₋₆₎ = C(34, r − 6)xʳ⁻⁶; T₂ᵣ₋₁ = T₁₊₍₂ᵣ₋₂₎ = C(34, 2r − 2)x²ʳ⁻². C(34, r − 6) = C(34, 2r − 2) ⇒ 34 = r − 6 + 2r − 2 ⇒ 3r = 42 ⇒ r = 14 ∴ Value of r = 14."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "binomial-theorem",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(i)",
+      "choiceGroup": "6",
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Does lim_(x→0) |sinx|/x exist? Give justification.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "L.H.L. = lt_(x→0⁻) |sinx|/x = lt_(x→0⁻) −(sinx)/x = −1. R.H.L. = lt_(x→0⁺) |sinx|/x = lt_(x→0⁺) sinx/x = 1. ∴ L.H.L. ≠ R.H.L. ∴ limit does not exist"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "limits-and-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": "(ii)",
+      "choiceGroup": "6",
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Evaluate: lt_(x→π) (1 − Sin(x/2)) / (Cos(x/2)[Cos(x/4) − Sin(x/4)])",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "= lt_(x→π) (Cos(x/4) − Sin(x/4))² / ((Cos²(x/4) − Sin²(x/4))(Cos(x/4) − Sin(x/4))) = lt_(x→π) 1/(Cos(x/4) + Sin(x/4)). By applying limit, we get = 1/(Cos(π/4) + Sin(π/4)) = 1/(1/√2 + 1/√2) = √2/2 = 1/√2 Ans."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "limits-and-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(i)",
+      "choiceGroup": "7",
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Two finite sets have 'm' and 'n' elements. The number of subsets of the first set is 112 more than that of second set. Find the values of 'm' and 'n'.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "2ᵐ − 2ⁿ = 112 ⇒ 2ⁿ(2ᵐ⁻ⁿ − 1) = 2⁴ × 7. On comparing we get n = 4 and 2ᵐ⁻ⁿ − 1 = 7 ⇒ 2ᵐ⁻ⁿ = 8 = 2³ ⇒ m − n = 3 ⇒ m = 7. Ans. m=7, n=4"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "sets",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": "(ii)",
+      "choiceGroup": "7",
+      "page": 7,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If A and B are two sets and U is the universal set such that n(U) = 700, n(A) = 290, n(B) = 240 and n (A ∩ B)= 110, then find n (A′ ∩ B′).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Answer key prints '29' for n(A) (=290) in its working; reproduced as printed."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "n(A′ ∩ B′) = n(A ∪ B)′ = n(U) − n(A ∪ B) = n(U) − [n(A) + n(B) − n(A ∩ B)] = n(U) − [29 + 240 − 110] = n(U) − [530 − 110] = 700 − 420 = 280 Ans."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "sets",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "Two cards are drawn at random without replacement from a deck of 52 cards. What is the probability that both the cards drawn are kings?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "P(1st card a king) = 4/52 = 1/13. P(2nd card a king) = 3/51 = 1/17. ∴ Probability of Both Cards being Kings = 1/13 × 1/17 = 1/221"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "probability",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A (1,2,3), B (0,4,1), C(−1, −1, −3) are the vertices of a triangle ABC. Find the following:\n(i) Length of AB and AC. [1]\n(ii) Coordinates of the point in which the bisector of the ∠BAC meets BC. [2]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points.",
+        "Answer key heading prints [4] for Question 9; the question paper prints [3]."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(i) Length AB = 3 and AC = 7. (ii) By the Angle Bisector Theorem, D divides BC internally in the ratio AB : AC = 3 : 7. Applying section formula, the coordinates of the point where the bisector of ∠BAC meets BC are (−3/10, 5/2, −1/5)."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "introduction-to-three-dimensional-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Given that α and β are the roots of qx² − px + r = 0, form an equation whose roots are α + 1/β and β + 1/α.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "α + β = p/q, α.β = r/q. S = α + β + (α+β)/(αβ) = p/q + p/r = p((q+r)/(qr)). P = αβ + 1/(αβ) + 2 = r/q + q/r + 2 = (q+r)²/(qr). Required equation: x² − p((q+r)/(qr))x + (q+r)²/(qr) = 0"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "quadratic-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the points of intersection of the line y = x + 1 and the circle x² + y² = 5. Hence or otherwise, find the length of the chord.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "x² + (x + 1)² = 5 ⇒ x² + x − 2 = 0 ⇒ (x + 2)(x − 1) = 0 ⇒ x = −2 or x = 1. The line intersects the circle at the points (−2, −1) and (1,2). Length of the chord = √((1 + 2)² + (2 + 1)²) = √18 = 3√2 Units"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "circles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "NUMERICAL",
+      "text": "A plot of land is in the shape of a sector of a circle of radius 55m. The length of fencing that is erected along the edge of the plot to enclose the land is 176m. Calculate the area of the plot of land.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "55 + 55 + l = 176 ⇒ l = 66 m. l = rθᶜ ⇒ 66 = 55θ ⇒ θᶜ = 66/55 = 6/5. Area of the sector = (1/2) r²θᶜ = (1/2) × 55² × 6/5 = 55 × 33 = 1815 m²"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": "(i)",
+      "choiceGroup": "13",
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If 2 − i√3 where i = √−1 is a root of the equation x² + ax + b = 0, then find the value of a + b.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Other root is 2 + i√3. S = 4, P = (2 − i√3)(2 + i√3) = 4 + 3 = 7. ⇒ x² − 4x + 7 = 0. On comparing we get, a = −4, b = 7. ∴ a + b = −4 + 7 = 3."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "complex-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": "(ii)",
+      "choiceGroup": "13",
+      "page": 8,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If z is a complex number such that (z−1)/(z+1) is purely imaginary, then what is |z| equal to?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Let z = x + iy. Since (z − 1)/(z + 1) is purely imaginary ⇒ Re((z−1)/(z+1)) = 0 ⇒ (x² − 1 + y²)/((x + 1)² + y²) = 0 ⇒ x² + y² = 1 ⇒ |z|² = 1 ⇒ |z| = 1"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "complex-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": "(i)",
+      "choiceGroup": "14",
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The curve G has equation y = 1 − x³ − 6x² − 9x and part of the graph of G is shown below:\n(a) Find the derivative of y with respect to x.\n(b) If the tangents drawn to the curve at the points B and C are parallel to x-axis, then find the coordinates of B and C respectively.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page.",
+        "Graph of G (points A, B, C) on page 9 not reproduced."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) dy/dx = −3x² − 12x − 9. (b) dy/dx = 0 ⇒ x² + 4x + 3 = 0 ⇒ (x + 3)(x + 1) = 0 ⇒ x = −3, −1. When x = −3, y = 1; when x = −1, y = 5. Hence, coordinates of B(−3,1), C(−1,5)."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "limits-and-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": "(ii)",
+      "choiceGroup": "14",
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Find the derivative of √(3x + 4) by using first principle.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "f(x) = √(3x + 4); dy/dx = lt_(h→0) [√(3(x + h) + 4) − √(3x + 4)]/h = lt_(h→0) 3/[√(3x + 3h + 4) + √(3x + 4)] = 3/(√(3x + 4) + √(3x + 4)); dy/dx = 3/(2√(3x+4)) Ans."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "limits-and-derivatives",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(i)",
+      "choiceGroup": "15",
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "The alternative voltage V, in a domestic electrical circuit 't' seconds after it is switched on is modelled by the function, V = 115 Sinωt + 115√3cosωt.\nExpress 115 Sinωt + 115√3cosωt in the form RSin(ωt + α), where R and α are the constants to be found, R> 0 and α is acute.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The symbol α did not extract from the question text layer (blank glyphs); restored from the page render.",
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Let Rcosα = 115 and Rsinα = 115√3 ∴ R² = (115)² + (115√3)² ⇒ R² = 52900 ⇒ R = 230. tanα = 115√3/115 = √3 ∴ α = π/3. V = 230 sin(ωt + π/3) Ans."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": "(ii)",
+      "choiceGroup": "15",
+      "page": 9,
+      "section": "C",
+      "sectionTitle": null,
+      "marks": 3,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "If A and B are two acute angles having its sum equal to π/4, then answer the following:\n(a) Find the value of (cotA − 1)(cotB − 1).\n(b) Hence, find the value of cot(π/8).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) A + B = π/4 ⇒ cot(A + B) = 1 ⇒ (cot A.cot B − 1)/(cot B + cot A) = 1 ⇒ … ⇒ (cotA − 1)(cotB − 1) = 2. (b) ∵ π/8 + π/8 = π/4 ∴ (cot(π/8) − 1)² = 2 ∴ cot(π/8) − 1 = ±√2 ⇒ cot(π/8) = √2 + 1 (as π/8 = acute angle ∴ cot(π/8) = +ve) Ans."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": "(i)",
+      "choiceGroup": "16",
+      "page": 9,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "A focal chord of the parabola y² = 8x makes an angle of 60° with the x − axis. Find the length of this focal chord.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page.",
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "4a = 8, a = 2, focus S(2,0). Line: y = √3x − 2√3. Substituting: 3x² − 20x + 12 = 0; x₁ + x₂ = 20/3, x₁x₂ = 4; (x₂ − x₁)² = 400/9 − 16 = 256/9 ⇒ x₂ − x₁ = 16/3. Length of focal chord = 2(x₂ − x₁) = 2 × 16/3 = 32/3 units."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "conic-sections",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": "(ii)",
+      "choiceGroup": "16",
+      "page": 10,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "A satellite moves in an Elliptical orbit around the earth as shown in the figure below. It moves so that the sum of its distances from the points f2 (-2,0) and f1 (2,0) is 8 units.\nBased on the above information, find the following:\n(a) The length of its semi-major axis of the elliptical orbit. [1]\n(b) Eccentricity of the elliptical orbit. [1]\n(c) Equation of the elliptical orbit. [2]\n(d) Distance between f1 and P(Perigee). [1]",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (satellite orbit with apogee, perigee, foci) on page 10 not reproduced.",
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "2a = 8. (a) Length of semi-major axis a is 4 units. ae = 2 (b) ⇒ e = 2/4 = 1/2. Using b² = a²(1 − e²), b² = 12. (c) Required equation of elliptical orbit is x²/16 + y²/12 = 1. (d) f₁P = a − ae = 4 − 2 = 2 units."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "conic-sections",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(i)",
+      "choiceGroup": "17",
+      "page": 10,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "For the word 'DEVASTATION', determine the number of 4-letter combinations and 4-letter permutations.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points.",
+        "Answer key's final permutation total (702) is reproduced as printed."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Case I: 4 distinct letters from 9: C(9,4) = 126. Case II: one pair from [AA, TT] and 2 distinct from 8: C(2,1) × C(8,2) = 56. Case III: two pairs: C(2,2) = 1. ∴ Total number of selections = 126 + 56 + 1 = 183. Total number of permutations = 126 × 4! + 56 × 4!/2! + 1 × 4!/(2!×2!) = 126 × 24 + 56 × 12 + 1 × 6 = 702."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "permutations-and-combinations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": "(ii)",
+      "choiceGroup": "17",
+      "page": 10,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "The letters of the word ‘CRICKET’ are written in all possible orders.\n(a) Find the total number words with or without meaning. [1]\n(b) If these words are written out as in a dictionary, find the rank of the word ‘CRICKET’. [4]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Total number of words = 7!/2! = 2520. (b) CC***** = 120, CE***** = 120, CI***** = 120, CK***** = 120, CRC**** = 24, CRE**** = 24, CRICE** = 2; Total = 530. The next word is CRICKET. Hence the rank of the word CRICKET is 531."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "permutations-and-combinations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(i)",
+      "choiceGroup": "18",
+      "page": 10,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Evaluate: cos α + cos(α + 2π/3) + cos(α + 4π/3). [2]\n(a) Hence prove that: [1]\ncos³α + cos³(α + 2π/3) + cos³(α + 4π/3) = 3 cos α cos(α + 2π/3) cos(α + 4π/3)\n(b) If cos³α + cos³(α + 2π/3) + cos³(α + 4π/3) = (k/(k+1)) cos kα, find k. [2]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page.",
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "cos α + {cos(4π/3 + α) + cos(2π/3 + α)} = cos α + 2 cos(π + α) cos(π/3) = cos α − 2 cos α . 1/2 = 0. With x = cos α, y = cos(2π/3 + α), z = cos(4π/3 + α): if x + y + z = 0 then x³ + y³ + z³ = 3xyz, which proves (a). 3 cos α cos(α + 2π/3) cos(α + 4π/3) = … = (3/4) cos α {4cos²α − 3} = (3/4) cos 3α ∴ k = 3"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": "(ii)",
+      "choiceGroup": "18",
+      "page": 11,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "The function f is defined by f(x) = x² − 6x + 17. [2]\nSketch the graph of the function.\nHence or otherwise:\n(a) Find the maximum / minimum value of the function. [1]\n(b) Determine the sign of the function. [1]\n(c) Find the range of f(x). [1]",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer includes a sketched graph (page 25) not reproduced; answer partly missing in extraction (figure)."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(x − 3)² = (y − 8), an upward parabola with vertex (3,8) (graph drawn in the key). Minimum value of f(x) = 8. f(x) > 0 ∀x ∈ R; function is always positive. Range: [8, +∞)."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "relations-and-functions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "Find the mean and standard deviation using the deviation method for the following:\nAge | 20-25 | 25-30 | 30-35 | 35-40 | 40-45 | 45-50 | 50-55\nNo of employees | 170 | 110 | 80 | 45 | 40 | 30 | 25\nFind the percentage of the employees in an organisation whose age lies between x̄ − σ and x̄ + σ.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table on page 11 reproduced as text rows ('|' separates cells); values checked against the rendered page.",
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Assumed mean A = 37∙5; N = 500; Σfd = −3175; Σfd² = 60875. Mean = 37∙5 − 6∙35 = 31∙15. σ = √(60875/500 − (−3175/500)²) = 9∙02. x̄ − σ = 22∙13, x̄ + σ = 40∙17; employees in range = 170 + 110 + 80 + 45 = 405; percentage = 405/500 × 100 = 81%. Answers: Mean = 31∙15, Standard Deviation = 9∙02, Percentage = 81%"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "statistics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "D",
+      "sectionTitle": null,
+      "marks": 5,
+      "marksSource": "PRINTED",
+      "type": "LONG_ANSWER",
+      "text": "S₁, S₂, S₃, ..., Sₙ are the sums of n infinite geometric progressions. The first terms of these progressions are 1, 2² − 1, 2³ − 1, ..., 2ⁿ − 1 and the common ratios 1/2, 1/2², 1/2³, …, 1/2ⁿ. Find S₁+S₂+S₃+...+Sₙ.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page.",
+        "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "S₁ = 1/(1 − 1/2) = 2, S₂ = (2² − 1)/(1 − 1/2²) = 2², S₃ = 2³, …, Sₙ = (2ⁿ − 1)/(1 − 1/2ⁿ) = 2ⁿ. ∴ S₁+S₂+S₃+...+Sₙ = 2 + 2² + 2³ + … + 2ⁿ = 2(2ⁿ − 1)/(2 − 1) = 2(2ⁿ − 1)"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "sequence-and-series",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

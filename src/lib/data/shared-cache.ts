@@ -56,6 +56,8 @@ export async function sharedCache<T>(key: string, ttlSeconds: number, compute: (
 /** Forget every cached aggregate (after an editor verifies, rejects, imports or edits). */
 export async function clearSharedCache() {
   memory.clear();
+  // The rendered-page cache kept by the Worker entry (worker.ts) in this isolate.
+  (globalThis as { __erPageCache?: Map<string, unknown> }).__erPageCache?.clear();
   try {
     const db = await getDb();
     await db.run(sql`DELETE FROM cache_entries`);

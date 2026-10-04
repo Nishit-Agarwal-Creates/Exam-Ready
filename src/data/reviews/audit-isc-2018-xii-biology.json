@@ -1,0 +1,37 @@
+{
+  "pack": "isc-2018-xii-biology",
+  "auditedOn": "2026-10-01",
+  "method": "Re-checked against the official CISCE PDF (sha256 matched) with pdftotext -layout and -raw, and rendered pages via pypdfium2 to confirm sub/superscripts, charges and equation-font notation. No marking scheme exists for this paper (answer NONE).",
+  "checks": [
+    {
+      "key": "isc-2018-xii-biology#12",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2018-xii-biology#1dii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2018-xii-biology#18b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2018-xii-biology#9b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2018-xii-biology#8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2018-xii-biology#1ei",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

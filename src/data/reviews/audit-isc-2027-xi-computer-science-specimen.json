@@ -1,0 +1,37 @@
+{
+  "pack": "isc-2027-xi-computer-science-specimen",
+  "auditedOn": "2026-10-01",
+  "method": "Re-checked against the official CISCE PDF (SHA-256 matched) with pdftotext -layout, -raw and -table, pdfplumber for the code pages, pypdfium2 renders of question and key pages; code compared token by token with the answer key in the same PDF.",
+  "checks": [
+    {
+      "key": "isc-2027-xi-computer-science-specimen#1vi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-computer-science-specimen#9i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-computer-science-specimen#5ia",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-computer-science-specimen#8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-computer-science-specimen#1i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-computer-science-specimen#10ii",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

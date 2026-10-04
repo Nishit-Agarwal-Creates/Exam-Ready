@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SearchBox } from "@/components/search-box";
 import { AcademicArt, type ArtKind } from "@/components/home/academic-art";
 import { AcademicField } from "@/components/motion/academic-field";
 import { PointerField } from "@/components/motion/pointer-field";
@@ -71,20 +72,31 @@ export function Hero({ source }: { source: HeroSource }) {
               Prepare from <span className="gradient-text">real exam questions.</span>
             </h1>
             <p className="rise-in mt-6 max-w-[36rem] text-[1.15rem] leading-relaxed text-soft sm:text-[1.25rem]" style={{ ["--d" as string]: "160ms" }}>
-              Previous-year questions taken from official board papers, each one traceable to the page it came from. Build a paper, practise against the
-              clock, and see exactly where every question came from.
+              For ICSE, ISC and CBSE students in Classes 6 to 12: practise with questions from official board papers, specimens and school exams,
+              each one traceable to the page it came from.
             </p>
-            <form action="/search" method="get" role="search" className="rise-in mt-8 max-w-[36rem]" style={{ ["--d" as string]: "220ms" }} data-field-focus>
-              <label htmlFor="hero-q" className="sr-only">
-                Search questions by chapter, topic, year or paper code
+            <div className="rise-in mt-8 flex flex-col gap-3 sm:flex-row" style={{ ["--d" as string]: "220ms" }}>
+              <Link href="/practice" className="btn btn-glow min-h-14 px-7 text-[1.1rem]" data-magnetic data-fx="pulse">
+                Start practising
+                <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </Link>
+              <Link href="/pyq" className="btn btn-night min-h-14 px-6 text-[1.05rem]">
+                Explore PYQs
+              </Link>
+            </div>
+            <form action="/search" method="get" role="search" className="rise-in mt-7 max-w-[36rem]" style={{ ["--d" as string]: "300ms" }} data-field-focus>
+              <label htmlFor="hero-q" className="mb-2 block text-[0.92rem] font-bold text-white/80">
+                Or find a question
               </label>
               <div className="search-hero">
                 <svg className="search-hero-icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
                   <circle cx="11" cy="11" r="7" />
                   <path d="m20 20-3.5-3.5" />
                 </svg>
-                <input id="hero-q" name="q" type="search" className="search-hero-input" placeholder="e.g. electricity or 31/2/1" autoComplete="off" enterKeyHint="search" />
-                <button type="submit" className="btn btn-primary search-hero-button" data-fx="pulse">
+                <SearchBox id="hero-q" className="search-hero-input" placeholder="Chapter, topic, year or paper code" />
+                <button type="submit" className="btn btn-secondary search-hero-button">
                   Search
                 </button>
               </div>
@@ -96,14 +108,6 @@ export function Hero({ source }: { source: HeroSource }) {
                 ))}
               </p>
             </form>
-            <div className="rise-in mt-7 flex flex-col gap-3 sm:flex-row" style={{ ["--d" as string]: "300ms" }}>
-              <Link href="/practice" className="btn btn-glow px-6 text-[1.05rem]" data-magnetic data-fx="pulse">
-                Build a paper
-              </Link>
-              <Link href="/pyqs" className="btn btn-night px-6 text-[1.05rem]" data-magnetic>
-                Explore PYQs
-              </Link>
-            </div>
             <p className="rise-in mt-6 text-[0.95rem] text-soft" style={{ ["--d" as string]: "380ms" }}>
               Free to use. No sign-up. Verified questions are backed by their listed source.
             </p>
@@ -180,7 +184,7 @@ function SourceCard({ source }: { source: HeroSource }) {
             {source.verified > 0 ? (
               <span className="rounded-full bg-[#3ddc97]/20 px-2.5 py-1 font-bold text-[#8ff0c4]">{source.verified} verified</span>
             ) : (
-              <span className="rounded-full border border-dashed border-white/35 px-2.5 py-1 font-bold text-white/80">Awaiting editor review</span>
+              <span className="rounded-full border border-dashed border-white/35 px-2.5 py-1 font-bold text-white/80">Being checked</span>
             )}
           </div>
           <Link href={`/sources/${source.id}`} className="mt-4 inline-flex text-[0.9rem] font-bold text-[#9fe9ff] underline underline-offset-4">

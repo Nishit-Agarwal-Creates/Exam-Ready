@@ -1,0 +1,37 @@
+{
+  "pack": "icse-2024-x-history-civics",
+  "auditedOn": "2026-09-28",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme.",
+  "checks": [
+    {
+      "key": "icse-2024-x-history-civics#1i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2024-x-history-civics#2iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2024-x-history-civics#5iii",
+      "agree": false,
+      "reason": "Stored text drops the Question 5 stem 'With reference to the Supreme Court of India', so 'Original Jurisdiction' and 'cases which come under this jurisdiction' are ambiguous (the High Court also has original jurisdiction, with different cases) and the item is not answerable as stored."
+    },
+    {
+      "key": "icse-2024-x-history-civics#1v",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2024-x-history-civics#1xi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "icse-2024-x-history-civics#6iii",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

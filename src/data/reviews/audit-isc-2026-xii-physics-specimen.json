@@ -1,0 +1,107 @@
+{
+  "pack": "isc-2026-xii-physics-specimen",
+  "auditedOn": "2026-10-01",
+  "method": "Re-checked against the official PDF (SHA-256 matched) with pdftotext -layout, -raw and -table, page renders (pypdfium2) zoomed on notation, and the answer key in the same PDF.",
+  "checks": [
+    {
+      "key": "isc-2026-xii-physics-specimen#1Ai",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#1Aiv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#1Avii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#1Biv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#5",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#9",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#11",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#12i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#12ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#14",
+      "agree": false,
+      "reason": "The stored official derivation (copied from key page 21) contains the step 'y_m = mλ/d', which drops D and contradicts the next line (mλD/d); for a 'show that' question the derivation is the answer, so it should not be published with this error."
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#15",
+      "agree": false,
+      "reason": "Stored answer reproduces the key's garbled working ('1/μ' for 1/u in (i)(a) and 'μ₂/ϑ' for 1/ϑ in (i)(b), key page 22), so (b) plus (a) does not give the stated sum; the sign convention also relies on Figure 13 (page 10), which the stored text does not reference."
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#17",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#19ii",
+      "agree": false,
+      "reason": "Stored answer (b)(1) reproduces the key's 'l₂ = 2h = 2h/2π' (key page 24), which states angular momentum as 2h instead of 2ħ (= 2h/2π); the written relation is physically wrong."
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#1Biii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#16",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#7",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#1Bvii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#1Bii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#1Avi",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

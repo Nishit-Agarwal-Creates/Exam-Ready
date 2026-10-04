@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { FilterDrawer } from "@/components/filter-drawer";
 import { Pagination } from "@/components/pagination";
 import { AnswerKeyText, QuestionBlock, TYPE_NAMES } from "@/components/question-block";
 import { QUESTION_TYPES } from "@/db/schema";
@@ -81,6 +82,10 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
                               <span className="mt-1 text-[0.92rem] font-bold text-verified">{cov.verified} verified PYQs</span>
                               <span className="mt-auto pt-2 text-[0.85rem] text-pencil">Years: {cov.years.join(", ")}</span>
                             </>
+                          ) : cov && cov.authentic > 0 ? (
+                            <span className="mt-1 text-[0.92rem] font-bold text-verified">
+                              {cov.authentic} verified questions from specimens, question banks and school exams
+                            </span>
                           ) : cov && cov.pending > 0 ? (
                             <span className="mt-1 text-[0.92rem] text-pending">
                               {cov.pending} extracted from {cov.pendingYears.join(", ")} papers, awaiting review
@@ -104,21 +109,40 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
   // Subject chosen.
   const includeDemo = await includeDemoData();
   if (f.chapterId && !selected.chapters.some((c) => c.id === f.chapterId)) f.chapterId = undefined;
-  const sourceParam = String(sp.source ?? "pyq");
+  // Subjects without board-exam PYQs (most ICSE classes below 10, ISC 11) open on everything verified instead of an empty list.
+  const subjectCoverage = await getSubjectYearCoverage(selected.id);
+  const sourceParam = String(sp.source ?? (subjectCoverage.verifiedPyqs > 0 ? "pyq" : "all"));
   const filters = {
     ...f,
     subjectId: selected.id,
     realPyqOnly: sourceParam === "pyq" ? true : undefined,
     sourceType: sourceParam === "pyq" || sourceParam === "all" ? undefined : f.sourceType,
     publicOnly: true,
+    // One card per duplicate group (the same question in several sets), so counts match the PYQ hubs.
+    groupOnce: true,
     demo: includeDemo ? f.demo : ("exclude" as const),
     sort: "recent" as const,
     pageSize: 10,
   };
-  const [result, coverage, sources] = await Promise.all([searchQuestions(filters, true), getSubjectYearCoverage(selected.id), getPublicSources()]);
+  const [result, coverage, sources] = await Promise.all([
+    searchQuestions(filters, true, { cachedIds: true }),
+    subjectCoverage,
+    getPublicSources(),
+  ]);
   const subjectSources = sources.filter((s) => s.board === selected.board.name && s.cls === selected.cls.name && s.subject === selected.name);
   const base = `/pyqs?subject=${selected.id}`;
   const q = (o: Record<string, string | number | undefined>) => `/pyqs${filtersToQuery({ ...f, subjectId: selected.id }, { source: sourceParam, page: undefined, ...o })}`;
+  // Filters set in the form, shown as removable chips above the results (year and paper have their own rows above).
+  const chapterName = selected.chapters.find((c) => c.id === f.chapterId)?.name;
+  const active = [
+    f.q && { label: `“${f.q}”`, href: q({ q: undefined }) },
+    sourceParam !== "pyq" && { label: SOURCES.find(([v]) => v === sourceParam)?.[1] ?? sourceParam, href: q({ source: "pyq" }) },
+    chapterName && { label: chapterName, href: q({ chapter: undefined }) },
+    f.type && { label: TYPE_NAMES[f.type], href: q({ type: undefined }) },
+    f.marks && { label: `${f.marks} mark${f.marks === 1 ? "" : "s"}`, href: q({ marks: undefined }) },
+    f.difficulty && sourceParam !== "pyq" && { label: f.difficulty[0] + f.difficulty.slice(1).toLowerCase(), href: q({ difficulty: undefined }) },
+    f.repeatedOnly && { label: "Asked in 2+ years", href: q({ repeated: undefined }) },
+  ].filter(Boolean) as { label: string; href: string }[];
 
   return (
     <div className="container-page page-enter py-8 sm:py-12">
@@ -158,14 +182,14 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
         <h2 id="years-title" className="sr-only">
           Exam years
         </h2>
-        <ul className="flex flex-wrap gap-2">
-          <li>
+        <ul className="chip-scroll -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
+          <li className="shrink-0">
             <Link href={q({ year: undefined })} className={`inline-flex min-h-10 items-center rounded-full border px-4 font-bold ${!f.year ? "border-night bg-night text-white" : "border-rule bg-sheet"}`}>
               All years
             </Link>
           </li>
           {coverage.byYear.map((y) => (
-            <li key={y.year}>
+            <li key={y.year} className="shrink-0">
               <Link
                 href={q({ year: y.year })}
                 aria-current={f.year === y.year ? "true" : undefined}
@@ -208,7 +232,9 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
         </section>
       )}
 
-      <form method="get" className="panel mt-6 grid gap-3 rounded-2xl p-4 sm:grid-cols-2 lg:grid-cols-6" aria-label="Filter questions">
+      <div className="mt-6">
+      <FilterDrawer count={active.length}>
+      <form method="get" className="panel grid gap-3 rounded-2xl p-4 sm:grid-cols-2 lg:grid-cols-6" aria-label="Filter questions">
         <input type="hidden" name="subject" value={selected.id} />
         {f.year && <input type="hidden" name="year" value={f.year} />}
         {f.paperId && <input type="hidden" name="paper" value={f.paperId} />}
@@ -269,6 +295,7 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
             ))}
           </select>
         </div>
+        {sourceParam !== "pyq" && (
         <div>
           <label htmlFor="f-difficulty" className="field-label">
             Difficulty
@@ -283,6 +310,7 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
             Practice questions only. Board papers don&apos;t rate difficulty.
           </p>
         </div>
+        )}
         <label className="flex items-center gap-2 font-bold lg:col-span-2">
           <input type="checkbox" name="repeated" value="1" defaultChecked={f.repeatedOnly} className="size-5 accent-[var(--color-ink)]" />
           Only questions asked in more than one exam year
@@ -296,6 +324,30 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
           </Link>
         </div>
       </form>
+      </FilterDrawer>
+      </div>
+
+      {active.length > 0 && (
+        <ul className="mt-4 flex flex-wrap gap-2" aria-label="Active filters">
+          {active.map((a) => (
+            <li key={a.href}>
+              <span className="intent-chip">
+                {a.label}
+                <Link href={a.href} className="intent-chip-remove" aria-label={`Remove filter: ${a.label}`}>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" aria-hidden="true">
+                    <path d="M6 6l12 12M18 6 6 18" />
+                  </svg>
+                </Link>
+              </span>
+            </li>
+          ))}
+          <li>
+            <Link href={base} className="btn btn-ghost btn-sm">
+              Clear all
+            </Link>
+          </li>
+        </ul>
+      )}
 
       <p className="mt-4 text-pencil">
         <strong className="num text-graphite">{result.total}</strong> question{result.total === 1 ? "" : "s"}
@@ -338,7 +390,7 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
                   </div>
                 </details>
               )}
-              <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[0.9rem] sm:ml-[3.25rem]">
+              <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[0.9rem] sm:ml-[3.25rem] [&>a]:inline-flex [&>a]:min-h-6 [&>a]:items-center">
                 <Link href={`/questions/${item.id}`} className="link">
                   View question
                 </Link>

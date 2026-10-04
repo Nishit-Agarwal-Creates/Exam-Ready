@@ -1,0 +1,67 @@
+{
+  "pack": "isc-2027-xi-business-studies-specimen",
+  "auditedOn": "2026-10-01",
+  "method": "Re-checked against the official CISCE PDF (SHA-256 matched) with pdftotext -layout, -raw and -table, per-page text checks for page numbers, and the answer key in the same PDF; chapters checked against the ISC Class XI Business Studies unit summaries.",
+  "checks": [
+    {
+      "key": "isc-2027-xi-business-studies-specimen#1viii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-business-studies-specimen#1xa",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-business-studies-specimen#4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-business-studies-specimen#5",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-business-studies-specimen#11ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-business-studies-specimen#12i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-business-studies-specimen#1ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-business-studies-specimen#3i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-business-studies-specimen#8",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-business-studies-specimen#12iii",
+      "agree": false,
+      "reason": "Stored official answer is cut at 1200 characters mid-word, ending with a dangling \"…and explain a…\" fragment of the examiner note (key page reads \"and explain any three of its contents in brief.\")."
+    },
+    {
+      "key": "isc-2027-xi-business-studies-specimen#11iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2027-xi-business-studies-specimen#10ii",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

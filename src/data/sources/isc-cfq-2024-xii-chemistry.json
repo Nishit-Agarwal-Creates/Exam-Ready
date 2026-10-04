@@ -1,0 +1,2486 @@
+{
+  "source": {
+    "key": "isc-cfq-2024-xii-chemistry",
+    "title": "ISC Class XII Chemistry: Competency-Focused Practice Questions (CISCE Item Bank, 2024)",
+    "board": "icse",
+    "class": 12,
+    "subject": "chemistry",
+    "authority": "OFFICIAL_BOARD",
+    "authorityName": "Council for the Indian School Certificate Examinations (CISCE)",
+    "paperType": "QUESTION_BANK",
+    "examYear": null,
+    "session": "Competency-Focused Practice Questions, 2024",
+    "paperName": "Chemistry (ISC Class XII)",
+    "paperCode": null,
+    "setCode": null,
+    "seriesCode": null,
+    "language": "English",
+    "sourceUrl": "https://cisce.org/wp-content/uploads/2025/04/ISC-Chemistry-XII.pdf",
+    "sourceFile": null,
+    "answerSourceUrl": "https://cisce.org/wp-content/uploads/2025/04/ISC-Chemistry-XII.pdf",
+    "answerSourceFile": null,
+    "fileType": "pdf",
+    "pageCount": 49,
+    "sha256": "49b3e0f12485a2336bbeb7f89fe8afbfe871857088358ac55c9d869e960ca7a6",
+    "maxMarks": null,
+    "durationMinutes": null,
+    "extractionMethod": "PDF_TEXT_LAYER",
+    "extractionTool": "pdftotext (poppler) -layout and raw modes; pdfplumber character sizes and pypdfium2 page renders to check sub/superscripts",
+    "ocrUsed": false,
+    "notes": "CISCE item bank 'ISC Competency-Focused Practice Questions', Chemistry, ISC-Class XII. The preface (PDF page 2) is dated July 2024 and signed by the Chief Executive & Secretary, CISCE; it says competency-focused questions are part of ICSE/ISC examinations from 2024, and that the Answer Key 'presents the possible answers to a given question, but it is neither limiting nor exhaustive'. No examination year, paper code, maximum marks or duration is printed. The file is 49 PDF pages: page 1 blank, page 2 preface, page 3 table of contents, pages 4-33 questions (printed pages 1-30), pages 34-48 'ANSWER KEY' (printed pages 31-45), page 49 blank. answerSourceUrl is the same PDF. 97 questions in six sections, marks from the section headings: I Multiple Choice Questions (1-23, 1 Mark Each), II Assertion-Reason (24-28, 1 Mark Each), III Fill in the Blanks (29-38, 1 Mark Each), IV Very Short Answer (39-62, 2 Marks Each), V Short Answer (63-92, 3 Marks Each), VI Long Answer (93-97, 5 Marks Each); total 201 marks (not a paper, so no maximum). Each question prints a topic in square brackets (used for the chapter suggestion; 'Block Elements' is mapped to d-and-f-block-elements) and a cognitive tag in brackets, recorded as cognitiveLevel as printed (e.g. 'Evaluate & Analysis'); questions 89 and 90 print separate tags per sub-part and have no single cognitiveLevel. Sub-parts (a)/(b)/(c) are kept together in one entry because marks are only given per question. In the text layer questions 27/28 and 29-38 (and answers 43/44) are laid out out of order; they were matched to their numbers using the rendered pages. Chemical subscripts, superscripts and ionic charges print flat in the text layer; they were rebuilt as Unicode sub/superscripts only where pdfplumber character sizes and the rendered page confirm them (flagged per question, confidence MEDIUM). Where the page itself prints a formula flat (e.g. '[Co(en)3]3+' in Q40, 'CoCl3.6NH3' in Q94) it is kept flat. Letter subscripts (Kb, Kf, ∆Tf) are written inline. Typos are kept as printed (e.g. 'Enzaldehyde' in Q52). Figures, graphs, structure images and reaction schemes are not reproduced; where an official answer is only a drawing, the answer entry ends at the part label and is flagged.",
+    "usage": "Official CISCE question bank from cisce.org; question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
+    "accessedOn": "2026-09-28"
+  },
+  "questions": [
+    {
+      "number": "1",
+      "part": null,
+      "choiceGroup": null,
+      "page": 4,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following reactions will NOT form an ether through Williamsons synthesis?\nI: C₂H₅ONa + CH₃Br →\nII: C₆H₅Cl + C₂H₅ONa→\nIII: C₆H₅ONa + CH₃I →\nIV: C₂H₅ONa + (CH₃)₃C—Br →",
+      "options": [
+        "I and III",
+        "II and III",
+        "III and IV",
+        "II and IV"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) II and IV",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": null,
+      "choiceGroup": null,
+      "page": 4,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The correct order of acidic strength among the following organic compound is:",
+      "options": [
+        "Z > X > Y",
+        "Y > X > Z",
+        "Z> Y > X",
+        "X > Z > Y"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table of structures X, Y, Z (images) on page 4 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(c) Z> Y > X",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "3",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "For the reaction:\nWhat are X and R respectively in the given reaction?",
+      "options": [
+        "X: Acetaldehyde R: methyl",
+        "X: Formaldehyde R: methyl",
+        "X: Acetaldehyde R: ethyl",
+        "X: Formaldehyde R: ethyl"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Reaction scheme (image) on page 5 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(d) X: Formaldehyde R: ethyl",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "4",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "An element [X] has an outer electronic configuration as 3d⁵ 4s². The maximum oxidation state and most common oxidising state of the element will be:",
+      "options": [
+        "+5, +3",
+        "+2, +2",
+        "+7, +3",
+        "+7, +2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) +7, +2",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Secondary amines can be prepared by reduction. Identify the compound that will form a secondary amine on reaction with LiAlH₄?",
+      "options": [
+        "Methyl cyanide",
+        "Methyl isocyanide",
+        "Acetamide",
+        "Nitroethane"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) Methyl isocyanide",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "6",
+      "part": null,
+      "choiceGroup": null,
+      "page": 5,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following is most basic?",
+      "options": [
+        "Aniline",
+        "Ethylamine",
+        "Ammonia",
+        "Benzylamine"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Ethylamine",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "7",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Depression in freezing point is a colligative property. At the same concentration in aqueous solution, select the solution that will show the largest freezing point depression.",
+      "options": [
+        "Na₃PO₄",
+        "C₁₂H₂₂O₁₁",
+        "NaCl",
+        "K₂SO₄"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Na₃PO₄",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "8",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "When the molality of the dilute solution is multiplied by four, what will be the resulting effect on the molal depression constant (Kf)?",
+      "options": [
+        "Four times",
+        "Unchanged",
+        "Halved",
+        "Eight times"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Letter subscripts (Kb, Kf, Ka, ∆Tf, ∆Tb) are written inline as plain letters."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(b) Unchanged",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "9",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "If Sodium nitrate is completely dissociated into cations and anions in aqueous solution, the change in freezing point of water (∆Tf), when 0.05 mol of sodium nitrate is dissolved in 1 kg of water is: (Kf = 1.86 K kg mol⁻¹)",
+      "options": [
+        "0.1860",
+        "1.860",
+        "0.0186",
+        "0.279"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Letter subscripts (Kb, Kf, Ka, ∆Tf, ∆Tb) are written inline as plain letters."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 0.1860",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "10",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "For a reaction A → B + C, when a student X doubled the concentration of ‘A’, the rate of reaction was found to increase by eight times. The unit of rate constant (k) will be:",
+      "options": [
+        "s⁻¹",
+        "mol⁻¹Ls⁻¹",
+        "mol⁻²L²s⁻¹",
+        "mol L⁻¹s⁻¹"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) mol⁻²L²s⁻¹",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "11",
+      "part": null,
+      "choiceGroup": null,
+      "page": 6,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following combinations is INCORRECT regarding order and molecularity of a hypothetical reaction?",
+      "options": [
+        "order = 2, molecularity = 1",
+        "order = 3/2, molecularity 2",
+        "order =1 molecularity =2",
+        "order = ½ molecularity = 3/2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) order = ½ molecularity = 3/2",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "12",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "With which of the following reagent both glucose and fructose will produce the same product?",
+      "options": [
+        "Bromine water",
+        "Hydroxyl amine",
+        "Phenyl hydrazine",
+        "Conc. HNO₃"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) Phenyl hydrazine",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "13",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "What kind of bond will be formed when glycine and alanine are condensed together?",
+      "options": [
+        "Zwitter ionic bond",
+        "Glycosidic bond",
+        "Peptide bond",
+        "Coordinate bond"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Peptide bond",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "14",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The reaction of the compound A with NH₃ give an aromatic amine B. This amine on treatment with nitrous acid forms a diazonium salt which is used in the preparation of A.\nIdentify A and B.",
+      "options": [
+        "C₆H₅NH₂ and C₆H₅Cl.",
+        "C₆H₅Cl and C₆H₅OH.",
+        "C₆H₅CN and C₆H₅Cl.",
+        "C₆H₅Cl and C₆H₅NH₂"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) C₆H₅Cl and C₆H₅NH₂",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "15",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Rahul wants to prepare chloroform in the laboratory using ethanol. The correct order of preparation is:",
+      "options": [
+        "oxidation, liberation of Cl₂, hydrolysis and chlorination.",
+        "liberation of Cl₂, oxidation, chlorination, hydrolysis.",
+        "hydrolysis, oxidation, chlorination, liberation of chlorine.",
+        "chlorination, hydrolysis, oxidation, liberation of chlorine."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) liberation of Cl₂, oxidation, chlorination, hydrolysis.",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Recall & Understanding",
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "16",
+      "part": null,
+      "choiceGroup": null,
+      "page": 7,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The C-X bond length in haloarenes is shorter due to:",
+      "options": [
+        "resonance with Benzene ring.",
+        "formation of carbocation.",
+        "Van der Waals forces.",
+        "polarisation of bond."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) resonance with Benzene ring.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Recall & Understanding",
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "17",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "How much charge is required for the reduction of 1mole of Cu⁺² to Cu?",
+      "options": [
+        "193500C",
+        "193000C",
+        "192500C",
+        "193600C"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(b) 193000C",
+        "correctOption": 1
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "18",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "The above graph indicates the variation of molar conductivity of different electrolytes. NaCl, CH₃COOH, KCl represented as I, II, and III respectively. The order of increase in molar conductivity with concentration is:",
+      "options": [
+        "(II), (III), (I)",
+        "(I), (III), (II)",
+        "(III), (II), (I)",
+        "(III), (I), (II)"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph (molar conductivity against √C for I, II, III) on page 8 not reproduced",
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) III, II, and I",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Evaluate & Analysis",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "19",
+      "part": null,
+      "choiceGroup": null,
+      "page": 8,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "On adding silver nitrate solution to CoBr₂Cl. 4NH₃, I mole of light-yellow precipitate of compound X is obtained. Which of the following statement explains this?",
+      "options": [
+        "2 bromine atoms are linked by primary valency.",
+        "2 bromine atoms are linked by secondary valency.",
+        "1 bromine atom is linked by primary valency.",
+        "1 chlorine atom is linked by primary valency."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Formula printed in an italic equation font; letters normalised to plain text."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) 1 chlorine atom is linked by primary valency.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "20",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Gia applied magnetic field around [Fe(H₂O)₆]²⁺ and [Fe(CN)₆]⁴⁻, she found that [Fe(H₂O)₆]²⁺ is strongly attracted towards magnet.\nWhich of the following explains this correctly?\n(P) CN⁻ is a weak ligand.\n(Q) H₂O is a weak ligand.\n(R) [Fe(H₂O)₆]²⁺ is inner orbital complex.\n(S) Fe(CN)₆]⁴⁻ is low spin complex.",
+      "options": [
+        "Only (S)",
+        "Both (P) and (Q)",
+        "Only (R)",
+        "Both (Q) and (S)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Formulae printed in an italic equation font; letters normalised to plain text. Statement (S) lacks the opening bracket, as printed."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(d) Both (Q) and (S)",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "21",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Toluene reacts with chromyl chloride in CCl₄ to give compound (X). Which of the following test is most likely to be shown by compound (X)?",
+      "options": [
+        "Yellow precipitate of iodoform",
+        "Brick red precipitate by Fehling solution",
+        "Silver mirror by Tollen’s test",
+        "Orange red dye by coupling reaction"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(c) Silver mirror by Tollen’s test.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "22",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "Which of the following compound is the most and least reactive towards nucleophilic substitution reaction respectively?\n(I) Acetone\n(II) Benzaldehyde\n(III) Formaldehyde\n(IV) Acetophenone",
+      "options": [
+        "(III) and (IV)",
+        "(I) and (II)",
+        "(II) and (I)",
+        "(IV) and (III)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) (III) & (IV)",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "23",
+      "part": null,
+      "choiceGroup": null,
+      "page": 9,
+      "section": "I",
+      "sectionTitle": "Multiple Choice Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "MCQ",
+      "text": "From a plot of rate (Y-axis) and concentration (X- axis), a student concluded that the order of reaction is zero. What he must have observed in the graph?",
+      "options": [
+        "A parallel line with X axis.",
+        "A line passing from the origin with positive slope.",
+        "A line with negative slope with an intercept.",
+        "A zig zag curve."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) A parallel line with X axis.",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "24",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "II",
+      "sectionTitle": "Assertion-Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): Electrophilic substitution reactions in haloarenes takes place in ortho and para positions and the major product is para substituted haloarenes.\nReason (R): The halogen in the ring is not ortho and para directing, and the yield is more of para because of resonance stabilisation.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are correct, and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are correct, and Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) Assertion (A) is true, but Reason (R) is false.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "25",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "II",
+      "sectionTitle": "Assertion-Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion(A): Benzaldehyde on nitration gives Ortho and para nitro benzaldehyde.\nReason (R): -CHO group in benzaldehyde shows –I effect and benzene ring shows +R effect.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are correct, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and reason (R) are correct, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(d) Assertion (A) is false, but Reason (R) is true.",
+        "correctOption": 3
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "26",
+      "part": null,
+      "choiceGroup": null,
+      "page": 10,
+      "section": "II",
+      "sectionTitle": "Assertion-Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): The half-life of a first order reaction does not depend on initial concentration of the reactant.\nReason(R): The initial reaction expression is present in the expression for rate constant.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are correct, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion(A) and Reason (R) are correct, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) The Assertion (A) is true, but Reason (R) is false.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "27",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "II",
+      "sectionTitle": "Assertion-Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): Ethanol is less acidic than water.\nReason (R): The electron releasing inductive effect of the ethyl group decreases the acidic character.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are correct, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are correct, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Assertion (A) and Reason (R) both are correct statements and Reason (R) is the correct explanation for Assertion (A).",
+        "correctOption": 0
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "28",
+      "part": null,
+      "choiceGroup": null,
+      "page": 11,
+      "section": "II",
+      "sectionTitle": "Assertion-Reason Questions",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "ASSERTION_REASON",
+      "text": "Assertion (A): Nucleic acids are present in all living cells.\nReason (R): They are not responsible for passing the genetic information from the parent cell to the new cell.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are correct, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are correct, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(c) The Assertion (A) is true, but Reason (R) is false.",
+        "correctOption": 2
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "29",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "III",
+      "sectionTitle": "Fill in the Blanks",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "The orange colour of dichromate solution changes to ____________ on heating with an alkali due to the formation of _____________ ions.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "yellow, Chromate"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "30",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "III",
+      "sectionTitle": "Fill in the Blanks",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "The pKa value of o-nitrophenol is __________ than p-nitrophenol and its acidic character is __________ than p-nitrophenol.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "greater, lower"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "31",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "III",
+      "sectionTitle": "Fill in the Blanks",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "______________amines do not undergo acylation as they lack replaceable hydrogen whereas ________ amines undergo acylation reaction.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The first blank is present in the text layer but its underline does not show on the rendered page."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Tertiary, primary/secondary"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "32",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "III",
+      "sectionTitle": "Fill in the Blanks",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "The Van't Hoff factor for aqueous acetic acid is _________ than one while that of acetic acid in benzene is ______________than one.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "greater, lesser"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "33",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "III",
+      "sectionTitle": "Fill in the Blanks",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "A first order reaction is half complete in 20 minutes, it will be 75% complete in _________ minutes and 87.5% complete in _________ minutes.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "40, 60"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "34",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "III",
+      "sectionTitle": "Fill in the Blanks",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Fibrous proteins are _________ in water whereas the globular proteins are _________ in water.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "insoluble, soluble"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "35",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "III",
+      "sectionTitle": "Fill in the Blanks",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "Elimination reactions of Haloalkanes takes place in the presence of _____KOH at_______ position of carbon atom.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer: the text layer encodes the Greek beta as a look-alike Latin character (ꞵ); written as β, as rendered."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Alcoholic, β"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "36",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "III",
+      "sectionTitle": "Fill in the Blanks",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "When the concentration of the solution of a weak electrolyte is _____, its ____ conductivity increases.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "lowered, molar"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "37",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "III",
+      "sectionTitle": "Fill in the Blanks",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "The melting point of acetic acid is ___________ than propanoic acid whereas the boiling point of acetic acid is ________than propanoic acid.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "more, less"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "38",
+      "part": null,
+      "choiceGroup": null,
+      "page": 12,
+      "section": "III",
+      "sectionTitle": "Fill in the Blanks",
+      "marks": 1,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "FILL_BLANK",
+      "text": "The complex ion [Co(NH₃)₅(NO₂)]²⁺ is ______ stable towards an acid than [Co(NH₃)₅(ONO)]²⁺. The type of isomerism shown is called __________ isomerism.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Formulae printed in an italic equation font; letters normalised to plain text."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "more, linkage"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "39",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The boiling point (b.p.) of methyl amine, ethane and methanol is 265K, 185K and 333K respectively. How can one account for these different boiling points?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "The boiling points are directly linked with H-bond. Greater is the extent of H-bond formation, higher is the boiling point (b.p.). Methylamine, CH₃NH₂, has two polar N-H bonds, due to which it forms intermolecular H-bond.\nIn methanol, CH₃OH, H-bonding is through the oxygen atom which is more electronegative than N-atom of amines. Therefore, N-H---N bonds are much weaker than O-H---O bonds. Hydrocarbons, ethane, C₂H₆, does not have any electronegative atom."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "40",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Do you think [Co(en)3]3+ will show optical isomerism? If yes, draw the possible isomers and name them. If no, explain why?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "'[Co(en)3]3+' is printed flat (no subscript/superscript) on the page; kept as printed."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Yes, d and l forms to be drawn, d -tris(ethylenediamine)cobalt (III)ion and l-tris (ethylenediamine) cobalt (III) ion."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "41",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Based on Valence Bond Theory (VBT), discuss the hybridisation, shape and charge on metal in [Ni(CO)₄] complex. Do you think, charge of copper metal will be same or different in [Cu(CO) ₄]?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Sp³, tetrahedral, zero, yes, the charge will be zero."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "42",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Two students X and Y were studying the basicity of compounds. X wrote that ammonia is less basic than methylamine whereas Y wrote that ammonia is more basic than methylamine. According to you, whose answer is correct? How have you concluded this?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "X is correct. Due to +I effect of methyl group, electron density at nitrogen atom increases. This increases the availability of N to potential acid thereby increasing the basicity."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "43",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A student has carried out a suitable test to differentiate between (a) ethyl amine and diethyl amine and (b) ethanol and ethyl amine. What could that chemical test be to differentiate the pairs in (a) and (b).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Carbylamine test, -ethyl amine will give obnoxious smell of carbylamine when treated with CHCl₃ and alc. KOH, whereas the diethylamine would not give the test.\n(b) Ethanol gives iodoform test yellow ppt with I₂ and KOH, when heated ethyl amine will not give this test."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "44",
+      "part": null,
+      "choiceGroup": null,
+      "page": 13,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give a reason for each given below:\n(a) Except glycine, all other naturally occurring ἀ-amino acids are optically active.\n(b) Zwitter ion is also known as a dipolar ion.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "The alpha is printed with an accent and encoded as 'ἀ' in the text layer; kept as extracted."
+      ],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) ἀ- Carbon atom present in them is asymmetric (except glycine).\n(b) It contains both a positive and a negative ion."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "45",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Complete:\n(a) CHO\n|\n(CHOH)₄ + HI → _______\n|\nCH₂OH\n(b) Enzymes are known as bio catalysts. Explain.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Open-chain structure printed vertically with '|' bonds; kept line by line as printed.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a)\nCH₃\n|\n(CH₂)₄\n|\nCH₃\n(b) They are produced by the living cells."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "46",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Predict the order of reaction and name X and Y axes.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph (straight line through the origin, axes labelled X and Y) on page 14 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "Order-First\nX-Rate of reaction.\nY- Concentration of the reactant"
+      },
+      "cognitiveLevel": "Recall and Understanding",
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "47",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "Find the three-fourths life, t₃/₄ of a first order reaction, k=7.4x10⁻⁵s⁻¹",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Official answer: fractions printed as stacked numerator/denominator rebuilt inline with '/' and brackets from the PDF layout; check against the PDF.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "k=2.303/t loga/a-x\n3/4th life a-x=a-3/4 a\nt₃/₄ = 2.303/(7.4×10⁻⁵) log a/(1/4 a)\n= 2.303/(7.4×10⁻⁵) log4\n= 2.303/(7.4×10⁻⁵) × 0.6020\n=1.87× 10⁴s."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "48",
+      "part": null,
+      "choiceGroup": null,
+      "page": 14,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Study the graph given below and label the numbers:",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Energy profile graph with positions numbered 1-5 on page 14 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(1) Potential Energy\n(2) Reactants\n(3) Activation Energy\n(4) Products\n(5) Reaction Coordinate"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "49",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Rohan arranged three coulometers in series and passed one faraday of charge for a definite time to all three electrolytes as shown in the picture given below:\n(a) What will be ratio of number of moles of positive ions liberated at cathode in each coulometer?\n(b) If he passed 4825 coulombs of charge through the electrolytes, how many gram-equivalent of copper will be deposited at the cathode?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (circuit picture of three coulometers (labelled 'HCL Solution', 'AgNO3 Solution', 'CuSO4 solution')) on page 15 not reproduced",
+        "Official answer: fractions printed as stacked numerator/denominator rebuilt inline with '/' and brackets from the PDF layout; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 1: 1: 2\n(b) 1 g-equivalent = 96500 C\nx g-equivalent = 4825C\n= 4825/96500 =\n0.05 g-equivalent."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "50",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Yash measures the conductivity of two different solutions of 1M Ethanoic acid and 1M HCl each at 25°C.\n(a) Will he observe the same conductivity value for both the solutions? Justify your answer.\n(b) What will be the effect on conductivities when he keeps on diluting the solutions? Explain with the help of a graph.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Degree mark printed as a raised 'o' is written as °.",
+        "Official answer partly missing in extraction (figure/equation): Graph of molar conductivity against √C for HCl and CH3COOH (answer to (b)) on page 37 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) No, the conductivity of 1 M HCl will be greater than 1M ethanoic acid. As it is a strong acid, complete ionization will occur so the number of ions will be more.\n(b)"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "51",
+      "part": null,
+      "choiceGroup": null,
+      "page": 15,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The standard reduction potentials of the following electrodes are given below. Answer the questions that follow:\nElectrodes | SRP values\nFe²⁺/Fe | -0.44V\nMg²⁺/Mg | -2.37V\nI₂/2I- | +0.54V\nAg⁺/ Ag | +0.88V\n(a)Which substance/s could be used to convert iodide ions to iodine?\n(b) From the given reactions which reaction is spontaneous and why?\nI: Fe²⁺ + 2Ag → 2Ag⁺¹ + Fe\nII: Fe²⁺ + Mg → Mg²⁺ + Fe",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Table on page 15 reproduced as text rows ('|' separates cells); values checked against the rendered page.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Ag⁺/ Ag\n(b) Reaction II is spontaneous as E°cell = positive."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "52",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "From the organic compounds given below:\nI. Acetophenone\nII. Enzaldehyde\nIII. Benzophenone\n(a) Arrange the compounds in the decreasing order of reactivity towards addition of HCN.\n(b) Give a chemical reaction when compound I is treated with compound II in the presence of a dilute alkali.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "'Enzaldehyde' (compound II) is printed so on the page; kept as printed.",
+        "Official answer partly missing in extraction (figure/equation): Reaction scheme for (b) on page 37 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) II > I > III\n(b)"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "53",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "How will you prepare the following compounds?\nGive chemical reaction for:\n(a) Butan-2-one from propanoic acid.\n(b) m-chlorotoluene from benzaldehyde.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
+        "Official answer partly missing in extraction (figure/equation): First step of (a) (CH3COOH + PCl5 reaction, an image) and the reaction scheme for (b) on page 38 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a)\n2 CH₃COCl+(C₂H₅)₂Cd→2CH₃COC₂H₅+CdCl₂\n(b)"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "54",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give reason:\n(a) d-block elements exhibit larger number of oxidation state than f-block elements.\n(b) Increase in atomic number does not change atomic radii among the transition elements.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) d- block elements exhibit more oxidation states as the energy gap is comparable and not much, while in f-block elements the energy gap between f and d subshell is comparatively higher.\n(b)With increase in atomic number in transition series, the nuclear charge increases which tends to decrease the size but addition of electron in d-subshell increases the screening effect. Therefore, the increased nuclear charge is partly balanced and hence, the atomic radii does not change much."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "55",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Halides of transition elements in higher oxidation states are more covalent. Give reason.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "This is because in higher oxidation states the size of the metal ion decreases/more vacant d-orbitals are available for bonding. Electronegativity difference between the transition metal and the halogen tends to decrease. This results in more equal sharing of electrons between the metal and the halogen."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "56",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Write equation for the following observations:\n(a) Potassium permanganate on reaction with potassium iodide in acidic medium releases iodine gas, water and the sulphates of potassium and manganese. Give the balanced equation for the reaction.\n(b) Potassium permanganate on reaction with oxalic acid in acidic medium gives salts of Potassium and Manganese along with water molecules and carbon dioxide gas. Give the complete and balanced equation.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
+        "Official answer (a): the '4' of the first 'K2SO4' is printed full size (not subscript) on the page; kept as printed."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) 2KMnO₄+8H₂SO₄+ 10KI→2K₂SO4+2MnSO₄+8H₂O+5I₂\n(b) 2KMnO₄+3H₂SO₄+ 5(COOH)₂→K₂SO₄+2MnSO₄+8H₂O+10CO₂"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "57",
+      "part": null,
+      "choiceGroup": null,
+      "page": 16,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "(a) What is meant by hydroboration –oxidation reaction? Explain with an equation to show the final product formed during the reaction.\n(b) Arrange the following in the increasing order of their acidic strength. Justify the order: Phenol, 4-methyl phenol, 3-nitrophenol.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
+        "Official answer (a): the reagents printed stacked above/below the arrow (B2H6 over H2O2 over OH−, in an equation font, flat) are written in brackets before the arrow; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) It is indirect hydration of an alkene using diborane to form alcohol.\nCH₃─ CH═ CH₂ (B2H6 / H2O2 / OH−) → CH₃CH₂─CH₂OH\n(b) 4-methyl phenol< phenol <3-nitrophenol.\nReason: +I group (−CH₃) in Phenols decreases its acidity while -I groups (−NO₂) increases it."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "58",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "You are provided with KOH (alc. and aq), Cl₂, HBr, acidified K₂Cr₂O₇, NaOH and soda lime. Using these reagents carry out following conversion:\n(a) Propanoic acid to Ethanol.\n(b) Chloropropane to propan-2-ol.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
+        "Official answer: reagents printed above the arrows are written as '—reagent→'; '(b) CH3CH2═CH2' is as printed."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) CH₃CH₂COOH —NaOH→ CH₃CH₂COONa —Sodalime→ C₂H₆ —Cl2→ CH₃CH₂Cl —aq.KOH→ CH₃CH₂OH\n(b) CH₃CH₂CH₂Cl —alc.KOH→ CH₃CH₂═CH₂ —HBr→ CH₃CH(Br)CH₃ —aq.KOH→ CH₃CH(OH)CH₃"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "59",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "(a) What is the significance of Van’t Hoff factor?\n(b) Devise the relationship between Van’t Hoff factor and degree of dissociation for the aqueous solution of barium chloride.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer: fractions printed as stacked numerator/denominator rebuilt inline with '/' and brackets from the PDF layout; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Van’t Hoff factor is useful in determination of correct molecular masses of the compounds undergoing association and dissociation.\n(b) i = (1−∝ +3∝)/1\n= 1+2∝"
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "60",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Observe the following diagram and answer the questions that follows:\n(a) In which direction, the flow of solvent will take place.\n(b) Infer on which compartment pressure should be applied to stop the flow of solvent? What is that pressure called?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Diagram of compartments A and B separated by a semipermeable membrane (solution labels are inside the image) on page 17 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) From compartment B to A.\nNaCl dissociates in aqueous solution, has a greater number of ions, shows higher osmotic pressure.\n(b) Compartment A.\nOsmotic pressure"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "61",
+      "part": null,
+      "choiceGroup": null,
+      "page": 17,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "2.517 g of Naphthalene is dissolved in 150 g CS₂,the solution boils at 319.70 K. The boiling point of CS₂ is 319.4 K. Calculate the molecular mass of naphthalene. Kb for CS₂ is 2.34 K kg mol⁻¹.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Letter subscripts (Kb, Kf, Ka, ∆Tf, ∆Tb) are written inline as plain letters.",
+        "Formulae printed in an italic equation font; letters normalised to plain text.",
+        "Official answer: fractions printed as stacked numerator/denominator rebuilt inline with '/' and brackets from the PDF layout; check against the PDF."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "∆Tb = Kb . m\n∆Tb = Kb × (w × 1000)/(W × M)\n0.3 = 2.34 × (2.517 × 1000)/(150 × M)\nM=130.8"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "62",
+      "part": null,
+      "choiceGroup": null,
+      "page": 18,
+      "section": "IV",
+      "sectionTitle": "Very Short Answer Questions",
+      "marks": 2,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Given below are the two types of mechanism of the reaction:\nAnswer the following questions:\n(a) Why is the product obtained in (A) pathway optically inactive?\n(b) Investigate the effect of plane polarised light on the product of (B) pathway? Which pathway shows faster reaction?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Reaction mechanism diagrams (Pathway A and Pathway B) on page 18 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) Pathway A follows SN1 mechanism in which attack of nucleophile on carbocation takes place from front and back side, gives racemic mixture which is optically inactive.\n(b) The product obtained in pathway B rotates the plane polarised light in opposite direction than that of substrate. Pathway A is faster than pathway B."
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "63",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "This box gives a list of aldehydes and ketones. Choose the appropriate aldehyde/ ketone that reacts with CH₃MgBr to form a 1⁰ alcohol, 2⁰ alcohol and a 3⁰ alcohol.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Box listing six molecular formulae (image) on page 19 not reproduced",
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Official answer partly missing in extraction (figure/equation): Reaction schemes with CH3MgBr for (a), (b) and (c) (images) on page 40 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) 1° alcohol\n(b) 2° alcohol\n(c) 3° alcohol"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "64",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Give reason:\n(a) The Ka for p- nitro hydroxy benzene is 6.9 x10⁻⁸ whereas o-nitro benzene is 6.0 x10⁻⁸.\n(b) Aromatic Ethers are insoluble in dipolar compounds.\n(c) The C-O bonds in ethers are polar.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Letter subscripts (Kb, Kf, Ka, ∆Tf, ∆Tb) are written inline as plain letters.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) -NO₂ is an electron withdrawing group and it is equally dispersed in the p-position.\n(b) They do not form hydrogen bonds.\n(c) Due to the electronegativity of oxygen."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "65",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Mention True or False and correct the wrong statements.\n(a) The observed order of basic strength of amines is: NH₃>(C₂H₅)₂NH>(C₂H₅)₃N.\n(b) +I effect is maximum in 1⁰ amine than 3⁰ amine.\n(c) N,N-dimethyl aniline is a stronger base than aniline.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
+        "Degree mark printed as a raised 'o' is written as °."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) False: (C₂H₅)₃N>(C₂H₅)₂NH>NH₃\n(b) False: +I effect is maximum for 3° amine than 1° amine.\n(c) True"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "66",
+      "part": null,
+      "choiceGroup": null,
+      "page": 19,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "In the box certain reagents are given in the form of clues. Identify the clue and complete the equation.\ndehydrating agent, alkali dissolved in alcohol, Primary amine, anaesthesia, poisonous gas, salt, universal solvent.\n-NH₂ +___+___ →\n___+___+___.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "The printed box of clues is reproduced as one line of text.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "R-NH₂ +CHCl₃ +3KOH(alc) →RNC +3KCl+3H₂O"
+      },
+      "cognitiveLevel": "Analysis & Application",
+      "chapter": "organic-compounds-containing-nitrogen",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "67",
+      "part": null,
+      "choiceGroup": null,
+      "page": 20,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "(a) A patient was given a certain amount of iodine-131 as a part of a diagnostic procedure for thyroid disorder. Given that the half-life of radioactive ¹³¹I is 8 days, what fraction of the initial ¹³¹I would be present in a patient after 32 days if none of it were eliminated through natural body processes?\n(b) The potential energy diagram, for a multistep reaction is given below:\n(i) Which step will be the rate determining step of the reaction?\n(ii) Which step is faster A→B or B→ C?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Potential energy diagram for (b) on page 20 not reproduced",
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
+        "Official answer: '[A0]' is printed with a subscript 0 in one line and a superscript 0 in the next; kept as printed."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) No. of half-lives = 32/8 = 4\nAmount left after 4 half-lives =\n[A₀]/ 2⁴\n= 1/16 x [A⁰]\n(b)\n(i)Step 2\n(ii) A to B is Faster."
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "68",
+      "part": null,
+      "choiceGroup": null,
+      "page": 21,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "(a) Aman and Rohan were working on the kinetics involved in decomposition of hydrogen peroxide in the presence of iodide ions.\nH₂O₂(l) → H₂O + ½ O₂(g)\nThey both had their respective hypothesis as follows:\nAccording to Aman the rate will be affected by changing the concentrations of hydrogen peroxide and iodide ions as iodide ions are involved in the reaction.\nAccording to Rohan the rate will only be affected by changing the concentration of hydrogen peroxide.\nThey carried out several experiments to check their respective hypothesis. Their results are shown graphically below:\n(i) What do you think whose hypothesis is correct and why?\n(ii) Do you think that the half -life of this reaction will change if concentration of hydrogen peroxide is reduced to half. Give a reason.\n(b) In a chemical reaction, two reactants take part. The rate of reaction is directly proportional to the concentration of one of them and inversely proportional to the concentration of other. What will be the unit of its rate constant if the concentration terms are in mol/L?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Two graphs (rate against [H2O2] and rate against [Iodide]) on page 21 not reproduced",
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "The reaction arrow in the equation is drawn as a graphic and is missing from the text layer; written as → from the rendered page.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) (i) Rohan’s hypothesis is correct as the rate does not change with the concentration of iodide ions.\n(ii) No, the half -life will not change as it is a first order reaction, and its half-life is independent of its initial concentration.\n(b) It’s a zero-order reaction.\nUnit: mol. L⁻¹ s⁻¹"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "chemical-kinetics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "69",
+      "part": null,
+      "choiceGroup": null,
+      "page": 22,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "(a) Observe the structures of protein given below and answer the questions that follows:\n(i) Which type of structures do A and B represent?\n(ii) How can these structures be converted to primary structure?\n(b) Write a balanced chemical reaction of D-glucose with excess of phenyl hydrazine.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Protein structure drawings A and B on page 22 not reproduced",
+        "Official answer partly missing in extraction (figure/equation): Reaction of glucose with phenyl hydrazine forming glucosazone for (b) on page 41 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a)(i) A = Secondary structure\nB = Quaternary structure\n(ii) Either by changing pH or temperature.\n(b)"
+      },
+      "cognitiveLevel": "Analysis",
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "70",
+      "part": null,
+      "choiceGroup": null,
+      "page": 23,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "(a) Two students took the solution of same amino acid at different pH and applied potential difference to their solutions respectively.\nStudent A\nStudent B\n(i) What do you think which student will observe a potential difference zero and why?\n(ii) What would you do in order to get a positive observation?\n(b) The graph given below shows the rate of enzyme-catalysed reaction with temperature:\n(i) Why does the rate of reaction decrease at high temperature?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Table pairing 'Student A' and 'Student B' with amino-acid structures (images) on page 23 not reproduced",
+        "Graph of enzyme-catalysed reaction rate against temperature on page 23 not reproduced"
+      ],
+      "confidence": "LOW",
+      "officialAnswer": {
+        "text": "(a) (i) Student B will observe zero potential difference as it forms zwitter ion and it does not migrate under the influence of applied electric field.\n(ii) Will change the pH of the solution.\n(b) (i) As enzymes are globular proteins and at high temperature denaturation takes place."
+      },
+      "cognitiveLevel": "Analysis & Application",
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "71",
+      "part": null,
+      "choiceGroup": null,
+      "page": 24,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "The molecular shape of [Ni(CO)₄] is tetrahedral while that of [Ni(CN)₄]²⁻ is square planar.\n(a) Justify the shape of the two compounds.\n(b) Find the oxidation state of Ni in each complex.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "The word 'is' after [Ni(CN)4]2- is printed raised (superscript) on the page; written as normal text.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
+        "Official answer: 'sp3', 'dsp2', '[Ni (CN)4]2-' and 'CN-' in the middle paragraph are printed flat on the page; kept as printed."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Oxidation state of Ni is zero in [Ni(CO)₄].\nCO is a stronger field ligand, and it can pair the unpaired electrons. The 3d orbital is now totally filled, while the 4s and 4p orbitals remain open. Therefore, exhibits sp3 hybridization and tetrahedral geometry.\nThe oxidation state of Ni in [Ni (CN)4]2- is +2. While in presence of CN- being a stronger field ligand all the electrons are paired up. The empty 3d, 3s and two 4p orbitals undergo dsp2 hybridization to make bonds with CN- ligands in square planar geometry.\n(b) Ni has 0 oxidation state in complex [Ni(CO)₄] and +2 oxidation state in [Ni(CN)₄]²⁻"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "72",
+      "part": null,
+      "choiceGroup": null,
+      "page": 24,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Nandini wants to electroplate her bracelet with silver. She gives the bracelet to an artist.\n(a) After electroplating she gets the information that 1.6117g of the metal is deposited when electric current of 0.2 ampere is passed for 2 hours. How will she make the confirmation that the metal deposited is silver by using the data?\n(b) Which law is applicable to solve the problem?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer: fractions printed as stacked numerator/denominator rebuilt inline with '/' and brackets from the PDF layout; check against the PDF.",
+        "Official answer printed in an italic equation font; letters normalised to plain text."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) w = ZIt\n1.6117 = At. mass/(Valency × 96500) × 0.2 × 3600 × 2\n1.6117 = At. mass/(1 × 96500) × 0.2 × 3600 × 2\nAtomic mass = 108 g\nThe deposited metal is silver.\n(b) Faraday’s first law of electrolysis."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "73",
+      "part": null,
+      "choiceGroup": null,
+      "page": 24,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "3-bromo 3-methylhexane reacts with aq. KOH to give racemic mixture of products.\n(a) Identify the type of reaction mechanism.\n(b) Draw the structure of the transition state intermediate.\n(c) If Bromine is replaced by fluorine, will the reaction proceed faster or slowly? Give reason.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
+        "Official answer partly missing in extraction (figure/equation): Carbocation structure for (b) on page 42 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) SN¹\n(b)\n(c) The reaction will become slow due to higher bond dissociation energy of C-F bond."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "74",
+      "part": null,
+      "choiceGroup": null,
+      "page": 24,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Which compound in each of the following pairs will react faster by SN² mechanism with –OH and why?\n(a) CH₃Br or CH₃ I\n(b) (CH₃)₃CCl or CH₃Cl",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "'SN2' is printed with a raised 2 in the question and a lowered 2 in the answer; kept as printed.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) CH₃I will react faster because I⁻ is a better leaving group. It has lower bond dissociation energy. Halides show following order of reactivity:\nR-F < R-Cl < R-Br < R-I\n(b) CH₃Cl, lacks bulky substituents on the carbon atom that bears the leaving group. As a result, in the SN₂ reaction with OH⁻, CH₃Cl has a faster reactivity than (CH₃)₃Cl."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "75",
+      "part": null,
+      "choiceGroup": null,
+      "page": 24,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "50 mg of Na₂SO₄ is dissolved in 3 litres of water at 27° Celsius. What would be the osmotic pressure for the solution?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Degree mark printed as a raised 'o' is written as °.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "i= 3 as salt is completely dissociated.\nMolar mass of sodium sulphate Na₂ So₄=142\nπV=inRT\nπ= inRT/V\n= 3x.050/142x0.0821x300/3\n= 1.23 atm"
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "76",
+      "part": null,
+      "choiceGroup": null,
+      "page": 24,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "During a study trip, students visited a lake and took out water sample which was rich in potassium chloride salt. They performed an experiment to calculate the boiling point of lake water which was found to be 100.025 degree Celsius. If 500 g of the water sample was used for calculation (Kb = 0.52 Kkgmol⁻¹ ) and there was 0.42 g KCl in the 500 ml sample, what is the observed molecular mass of KCl in the lake sample?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Letter subscripts (Kb, Kf, Ka, ∆Tf, ∆Tb) are written inline as plain letters.",
+        "Official answer: fractions printed as stacked numerator/denominator rebuilt inline with '/' and brackets from the PDF layout; check against the PDF.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "M’ = (i1000xKbxw)/(Wx∆Tb)\nM’ = 2x1000x0.52x0.42/\n500x0.025\n= 34.94 g mol⁻¹"
+      },
+      "cognitiveLevel": "Evaluate & Application",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "77",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "NUMERICAL",
+      "text": "A student X was doing an experiment by taking 0.15 g acetic acid in 40 g of benzene. He suddenly observed that the freezing point of the mixture is lowered by 0.40 degree Celsius. Do you think that association of acetic acid has taken place? If yes, what will be degree of association (∆Kf of benzene = 5.12K kgmol⁻¹).",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Letter subscripts (Kb, Kf, Ka, ∆Tf, ∆Tb) are written inline as plain letters.",
+        "Official answer partly missing in extraction (figure/equation): Hydrogen-bonded acetic acid dimer structure on page 43 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "Yes, association has taken place.\nn=2\nM(obs)= ix1000xKfxw/\nWx∆Tf\n= 2x1000x5.12x0.15/40x0.40\n= 96\nα = M(obs)-M(cal)/M(obs) x n/n-1\nα = 0.75"
+      },
+      "cognitiveLevel": "Application & Evaluation",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "78",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Starting with acetic acid, discuss the role of one F and one Cl groups play on the acidity of the acid when they replace a hydrogen atom of CH₃ group of acetic acid. Answer by arranging the acids in increasing acid strength followed by explanation.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "CH₃COOH < ClCH₂COOH < FCH₂COOH\nDiscussion: due to +I of CH₃ group the -OH bond is strong hence weak acid\nDue to -I effect of both F and Cl groups (F has more -I effect) the bond between O-H of carboxylic acid becomes weaker. Hence, release of H+ is easier."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "79",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "A scientist while working in the lab accidently removed the labels from the carboxylic acid bottles and phenol. He had three bottles in which he had kept formic acid, acetic acid and phenol. Can you suggest a chemical test which he can perform to positively identify the acids so that he can label the bottles correctly?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Treat small amount of compound from all bottles with the Tollen’s reagent and warm. The one which gives silver mirror is formic acid.\nTreat small amount of the other two compounds with neutral ferric chloride solution, the acid which gives wine red colouration is acetic acid. The one which gives violet/purple solution is phenol."
+      },
+      "cognitiveLevel": "Recall & Understanding",
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "80",
+      "part": null,
+      "choiceGroup": null,
+      "page": 25,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Geet has set-up the following galvanic cell by taking the electrolyte solution of Pb(NO₃)₂ and CrCl₃.\nE°= – 0.13 V\nE°= – 0.74 V\n(a) How will you design the feasible cell by taking appropriate salt solution in place of solution A and B?\n(b) What is the applicability of the above cell?\n(c) Consider, salt bridge is filled with Potassium Chloride (KCl) solution. How does salt bridge maintain electrical neutrality?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure (galvanic cell picture: solution A, solution B, salt bridge) on page 25 not reproduced",
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "E° is printed as E with a raised 'o'. The two E° values are printed below the picture; which electrode each belongs to is shown only in the picture.",
+        "Formulae printed in an italic equation font; letters normalised to plain text ('P b' in the text layer).",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Solution A:CrCl₃\nSolution B:Pb(NO₃)₂\n(b) To convert chemical energy into electrical energy by redox reaction.\n(c) In anodic half-cell, concentration of Cr³⁺ increases, hence, Cl⁻¹ ions are migrated from salt bridge to maintain electrical neutrality.\nIn cathodic half-cell, the concentration of Pb²⁺ decreases, hence, K⁺¹ ions are migrated from salt bridge to maintain electrical neutrality."
+      },
+      "cognitiveLevel": "Create",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "81",
+      "part": null,
+      "choiceGroup": null,
+      "page": 26,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "(a) Graphical method fails to give the value of molar conductivity at infinite dilution of weak electrolyte. Explain.\n(b) To know the value of molar conductivity at infinite dilution for weak electrolyte, Kohlrausch’s law is effective. Explain.\n(c) Draw the graph to show the variation of molar conductivity of a weak electrolyte with concentration.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer partly missing in extraction (figure/equation): Graph of molar conductivity of a weak electrolyte (CH3COOH) against √C for (c) on page 44 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) The curve of weak electrolyte cannot be extrapolated to obtain the limiting value of molar conductivity at infinite dilution.\n(b) Each ion makes a definite contribution to the molar conductivity of an electrolyte at infinite dilution irrespective of the nature of the other ion present in the electrolyte.\n(c)"
+      },
+      "cognitiveLevel": "Evaluate",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "82",
+      "part": null,
+      "choiceGroup": null,
+      "page": 26,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "SHORT_ANSWER",
+      "text": "Observe the following graph for ionisation enthalpies of first, second and third transition series.\nAnswer the following questions:\n(a) Why does the ionisation energy increase across a transition series?\n(b) The ionisation energies are nearly equal for first and second transition series but abruptly increases for third transition series. Explain.\n(c) Which element would have higher density, technetium or rhenium? Justify your answer.",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph of ionisation energy of 3d, 4d and 5d series elements on page 26 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Ionisation energy increases with increase in nuclear charge which increase with increase in atomic number. The added electron shields the added proton. The effect of increased nuclear charge is more than the shielding effect.\n(b) In the third transition series, after lanthanum, lanthanoids have electrons entered in 4f orbital, which shows poor shielding effect, hence atomic size decreases due to lanthanoid contraction, ionisation energy increases abruptly for decreased atomic size.\n(c) Rhenium has higher density due to decreased atomic size and increase in nuclear charge. Hence, the atomic volume decreases and electron density increases."
+      },
+      "cognitiveLevel": "Analysis & Understanding",
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "83",
+      "part": null,
+      "choiceGroup": null,
+      "page": 26,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Vitamins are required in very small amount for the healthy growth of organisms. When a person does not get a particular vitamin in diet, she/he may suffer from certain diseases. Normal functioning of an organism can be greatly affected due to deficiency of vitamins in the body.\n(a) Which vitamin deficiency causes rickets and scurvy?\n(b) Do you think, all vitamins are soluble in water? Explain by giving an example.\n(c) Explain avitaminosis.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Rickets- Vit D\nScurvy- Vit C\n(b) No, all vitamins are not water soluble. E.g. vitamin C is water soluble, but vitamin A is not soluble in water.\n(c) Multiple deficiencies caused by lack of more than one vitamin is known as avitaminosis."
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "84",
+      "part": null,
+      "choiceGroup": null,
+      "page": 27,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "The concept of Osmosis is frequently used in medical field. On the other hand, reverse osmosis has also found application in desalination process. Both these processes play a very useful role in the growth and development of humankind.\n(a) Explain where in medical field the concept of osmosis is used.\n(b) The place close to the sea can use reverse osmosis (RO) for desalination. Explain how that can be done.\n(c) A saturated salt solution makes a boiled peeled egg shrink. Why?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) In dialysis of kidneys the concept of osmosis is used.\n(b) The sea water contains different concentrations of many salts when they are separated from pure water through semipermeable membrane, the reverse osmosis (RO) takes place and water moves out from the sea water to pure water side.\n(c) As the salt concentration is less in egg than the saltwater solution, the water from egg moves towards saltwater solution and makes egg shrink."
+      },
+      "cognitiveLevel": "Recall & Understanding",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "85",
+      "part": null,
+      "choiceGroup": null,
+      "page": 27,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Chloroform was synthesised in the year 1847. It was mainly used in the medicine industry. When exposed to sunlight it forms a poisonous gas called phosgene. To prevent this, a small quantity of a compound which has a molecular formula C₂H₆O is added.\n(a) What is the chemical formula of phosgene?\n(b) Which chemical is added to prevent the formation of phosgene.\n(c) Where is chloroform used in the field of medicine?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) COCl₂\n(b) Ethanol\n(c) Anaesthesia"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "haloalkanes-and-haloarenes",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "86",
+      "part": null,
+      "choiceGroup": null,
+      "page": 27,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Ships, being exposed to saltwater and atmospheric conditions, are highly susceptible to rust and corrosion.\nThis is one method used to prevent corrosion.\nFigure 1\n(a) Give name of the method employed?\n(b) Name the cathode and anode in this process?\n(c) How is cathode protected?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Figure 1 (anode connected to an underground pipeline as cathode) on page 27 not reproduced",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Electrical protection.\n(b) Anode-Magnesium and Cathode-Iron\n(c) Anode oxidises and electrons are transferred. NH⁺ ions around the iron object and protects it from rusting."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "87",
+      "part": null,
+      "choiceGroup": null,
+      "page": 28,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Sodium ferrocyanide is used as anti-caking agent in salts and salt substitute. Due to contact with atmospheric moisture, table salt undergoes clumping. Adding certain amount of sodium ferrocyanide can prevent this from occurring.\nConsider the coordination compounds Na₄[Fe(CN)₆] and [Fe(H₂O)₆]Cl₂\nBased on above description, answer the following questions:\n(a) Though cyanide is poisonous, potassium ferrocyanide is used as food additive. Explain.\n(b) Which compound will be more stableNa₄[Fe(CN)₆] or[Fe(H₂O)₆]Cl₂ Justify your answer.\n(c) Write the hydrate isomer of [Fe(H₂O)₆]Cl₂, which gives one mole of precipitate with AgNO₃ solution.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Formulae printed in an italic equation font; letters normalised to plain text.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
+        "Official answer (c) ends 'H20' with a zero, as printed."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Cyanide in Na₄[Fe(CN)₆]\nIs not ionisable in aqueous solution and hence does not show poisonous effect.\n(b) Na₄[Fe(CN)₆]\nWill be more stable as cyanide is strong ligand and stabilise the compound by pairing the electron in low energy t₂g orbitals.\n(c) [Fe(H₂O)₅Cl]Cl. H₂0"
+      },
+      "cognitiveLevel": "Understanding & Application",
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "88",
+      "part": null,
+      "choiceGroup": null,
+      "page": 28,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Food and drug administration (FDA) has approved that Ethylenediamine tetra acetate (EDTA) is a medication in the treatment of lead poisoning. It is also used in the estimation of Ca²⁺ and Mg²⁺ during removal of hardness in water.\n(a) Which type of a ligand is EDTA?\n(b) Why EDTA is used in the treatment of lead poisoning?\n(c) What is the geometry of EDTA complex?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Structure of a metal-EDTA complex (image) on page 28 not reproduced",
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Chelating ligand\n(b) EDTA being chelating ligand forms more stable complex with heavy metal like lead.\n(c) Octahedral"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "89",
+      "part": null,
+      "choiceGroup": null,
+      "page": 29,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Alcohol and phenols are hydroxy derivatives of hydrocarbons. Both have the tendency to form intermolecular hydrogen bonding. Thus, they have higher boiling point and high solubility in water. As the O-H bond is polar in nature they also exhibit acidic property. Acidic characteristic depends upon inductive effect and resonance stabilization. The position and nature of substituents also affects the acidic strength.\n(a) Select from each pair as per the property mentioned in the bracket.\n(i) Ethanol, Methanol (most acidic)\n(ii) O-cresol and m-cresol (least acidic)\n(b) Correct the given statement and give a reason for your answer.\nThe solubility of phenol is higher than alcohol.\n(c) Compounds [X] and [Y] are functional isomers of each other with molecular formula C₃H₈O.\n(i) Draw the isomers.\n(ii)Which compound will have a lower boiling point and why?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
+        "Separate cognitive tags are printed per sub-part: (a) Application, (b) Understanding, (c) Application; no single tag recorded."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) (i)Methanol\n(ii) o-cresol\n(b)The solubility of phenol is lower than alcohol.\nThe phenyl group being more hydrophobic in nature, the tendency to form intermolecular hydrogen bonding decreases.\n(c) (i) X=CH₃CH₂CH₂OH; Y=CH₃CH₂OCH₃\n(ii) Compound [Y] will have lower boiling point as it is an ether which cannot form associated molecules by intermolecular hydrogen bond."
+      },
+      "chapter": "alcohols-phenols-and-ethers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "90",
+      "part": null,
+      "choiceGroup": null,
+      "page": 29,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Transition metals exhibit different oxidation states in their different types of compounds. Due to incompletely filled d-orbitals the transition metal shows variable oxidation states, magnetic property, and tendency to form complexes. The most stable oxidation state is the one that maximizes the charge without breaking the stable electronic configuration. The highest oxidation states of transition elements are observed in their fluorides and oxides.\n(a) In which compound VO/ V₂O₄ vanadium has a stable oxidation state and why?\n(b) Manganese achieves its highest oxidation state with fluorine. Correct the statement with a valid reason.\n(c) Select the ion/s from the given ones that will show maximum and minimum response to the applied magnetic field:\nZn²⁺, Cu²⁺, Mn²⁺",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "End-of-line hyphenation in the passage and in (c) ('com-pounds', 'oxi-dation', 'elec-tronic', 're-sponse') joined.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
+        "Separate cognitive tags are printed per sub-part: (a) Application, (b) Understanding, (c) Application; no single tag recorded."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) V₂O₄, vanadium has +4 oxidation state, and it achieves inert gas configuration.\n(b) Manganese can achieve it is highest oxidation state with oxygen.\nOxygen can form multiple bonds with Manganese.\n(c) Maximum: Mn²⁺; Minimum: Zn ²⁺"
+      },
+      "chapter": "d-and-f-block-elements",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "91",
+      "part": null,
+      "choiceGroup": null,
+      "page": 30,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Nucleic acids are present in the nuclei of all living cells. DNA analysis is vital in crime scene situations. RNA is essential for most biological functions. In modern world the knowledge of RNA and DNA is vital for us.\n(a) Which nitrogenous bases constitute RNA and DNA?\n(b) Identify pyrimidine and purine from (a) part answer.\n(c) What are the structural differences in RNA and DNA?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) RNA-A, G, C, U\nDNA-A, G, C, T\n(b) Purines- A and G\nPyrimidine- T, C, U\n(c) DNA- double stranded alpha-helix\nRNA- single stranded alpha helix"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "biomolecules",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "92",
+      "part": null,
+      "choiceGroup": null,
+      "page": 30,
+      "section": "V",
+      "sectionTitle": "Short Answer Questions",
+      "marks": 3,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Vapour pressure plays an important role in calculating boiling point and the freezing point of solutions. In cold countries salt is sprinkled on the road whereas while boiling egg, salt is added in water. Both these processes help the cause.\n(a) Explain relative lowering of vapour pressure.\n(b) How adding salt to water help in boiling of egg?\n(c) Why is salt sprinkled on road during winters?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "(a) Pure solvent has a certain vapour pressure. When a non-volatile solute is added into pure solvent, less solvent evaporates and hence, vapour pressure decreases. The ratio between the Vapour Pressure (V.P) difference to V.P. of pure solvent is known as relative lowering of V.P.\n(b) Addition of salt increases the boiling point of aqueous solution and eggs get more heat for cooking.\n(c) It lowers the freezing point of ice."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "93",
+      "part": null,
+      "choiceGroup": null,
+      "page": 31,
+      "section": "VI",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Water pollution caused by toxic elements is one of the most important environmental problems in the world. The objectives of this study were: the effects of chelating agents on heavy metals extraction from polluted water were carried out to examine Chelating agents like Ethylenediamine tetra acetate (EDTA), oxalic acid (OA) and citric acid (CA) were tested respectively. The effects of operating parameters, such as pH and extraction time were examined. Removal of metals was dependent on the concentration of extracting agent and raised with increasing concentration of chelating agents.\nSource: DOI : http://dx.doi.org/10.13005/ojc/330414\n(a) What are chelating agents?\n(b) Name any two heavy metals which are considered toxic.\n(c) From the above graph, arrange the order of chelating agents with respect to the % removal of toxic metals.\n(d) Draw the structure of EDTA.\n(e) What is the main factor on which the removal of metals depends on contaminated water using Chelating Agents?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Graph of % metal removal against pH for EDTA, OA and CA on page 31 not reproduced",
+        "Official answer partly missing in extraction (figure/equation): Structure of EDTA for (d) on page 46 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Chelating agents are agents which bind with the metal and form complexes.\n(b) Mercury/Copper/Lead\n(c) OA>CA>EDTA\n(d)\n(e) Concentration of the extracting agents."
+      },
+      "cognitiveLevel": "Understanding",
+      "chapter": "coordination-compounds",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "94",
+      "part": null,
+      "choiceGroup": null,
+      "page": 32,
+      "section": "VI",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "Water phase change in soil causes severe damage to roads, canals, airport runways and other buildings. The freezing point is an important indicator to judge whether the soil is frozen or not. It is found that the addition of salt can effectively reduce the frost heave of soil.\nThe graphs given below show the change in freezing point with different concentrations of salt and water:\nSource: https://www.mdpi.com/2073-4441/12/8/2232\nIt is clear from the graphs that as water content is high, depression is less and as the salt concentration is high, depression is more.\n(a) 2.1g CoCl3.6NH3 (molecular weight = 267.5) was dissolved in 100 g of water. The freezing point of the solution was -0.584°C. Assuming 100% ionization of the complex salt having coordination number 6, what will be the formula of the complex.\nGiven that: Kf for water = 1.86 K. kg. mol⁻¹.\n(b) Which salt solution is the best for de-icing?\n1% NaCl or 1% CaCl₂\n[Atomic weight of Na= 23, Ca = 40, Cl = 35.5 a.m.u]\n(c) Equimolal concentration of two different solutes X and Y undergoes dimerization and trimerization respectively in their respective solutions. What will be the ratio of observed lowering of vapour pressure in two cases?",
+      "hasFigure": true,
+      "extractionIssues": [
+        "Two graphs of freezing point against water content and salt content on page 32 not reproduced",
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Degree mark printed as a raised 'o' is written as °.",
+        "Letter subscripts (Kb, Kf, Ka, ∆Tf, ∆Tb) are written inline as plain letters.",
+        "'CoCl3.6NH3' in (a) is printed flat on the page; kept as printed.",
+        "Official answer: fractions printed as stacked numerator/denominator rebuilt inline with '/' and brackets from the PDF layout; check against the PDF.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) ∆Tf = (ixKfxw x1000)/(M xW)\nVan’t Hoff factor = (0.584 x 267.5)/(1.86 x 2.1 x10) = 3.99 = 4\nFormula = [Co(NH₃)₆] Cl₃\n(b) 1% NaCl is better for de-icing as its number of moles will be greater.\n(c) ∆TfX/∆TfY = 3/2"
+      },
+      "cognitiveLevel": "Application & Analysis",
+      "chapter": "solutions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "95",
+      "part": null,
+      "choiceGroup": null,
+      "page": 33,
+      "section": "VI",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "The aldol condensation takes its name from aldol (3-hydroxybutanal) a name introduced by Wurtz who first prepared the beta-hydroxy aldehyde from acetaldehyde in 1872. It is a base catalysed reaction, and the product of aldol condensation undergoes dehydration of intermediate beta-aldols or beta-ketals in presence of a dilute acid to form α, β unsaturated carbonyl compound.\nSource: https://www.researchgate.net/publication/229950129_The_Aldol_Condensation\n(a) Write the mechanism of aldol condensation starting with acetaldehyde.\n(b) Name the base used highlighting the role of the base catalyst in facilitating the reaction.\n(c) What is crossed aldol condensation? Name the product formed when benzaldehyde undergoes crossed aldol condensation with acetaldehyde.",
+      "hasFigure": false,
+      "extractionIssues": [
+        "End-of-line hyphenation ('benzalde-hyde') joined.",
+        "Official answer partly missing in extraction (figure/equation): Five-step aldol mechanism (images) for (a) on page 47 not reproduced"
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Mechanism:\n(b) Dil. NaOH/Ba (OH)2 can be used as catalyst. OH- from the dilute alkali attacks on the first molecule of aldehyde and removes the α hydrogen present in it to form an enolate ion which is resonance stabilised.\n(c) When aldol condensation takes place between molecules of different aldehydes or different ketones or one aldehyde and one ketone.\nCinnamaldehyde/ 3-phenylprop-2-enal."
+      },
+      "cognitiveLevel": "Application & Recall",
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "96",
+      "part": null,
+      "choiceGroup": null,
+      "page": 33,
+      "section": "VI",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "‘In 1915, a senior lecturer in Biochemistry at the University of Manchester named Dr. Chaim Weizmann invented a fermented process that converts starch into acetone and butanol by using Clostridium acetobutylicum. Acetone was the key component in the production of the smokeless gunpowder (cordite) used by the Allies in World War I. Acetone was previously made from calcium acetate imported from Germany, since Allies were in war with Germany, this was no longer possible.’\nSource: https://www.weizmann.ac.il/WeizmannCompass/sections/people-behind-the-science/chaim-weizmann%E2%80%99s-acetone-patent-turns-100\n(a) How will you prepare acetone from calcium acetate?\n(b) If butan-2-ol is oxidised by K₂Cr₂O₇, which ketone will be produced? Give the balanced chemical reaction.\n(c) How would you obtain acetone from acetyl chloride?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) By dry distillation of calcium acetate, we can obtain acetone\nCa (CH₃COO)₂--> CH₃COCH₃ + CaCO₃ (on heating)\n(b) CH₃CH(OH)CH₂CH₃ + [O] -----> CH₃COCH₂CH₃ + H₂O\n(c) 2CH₃COCl + (CH₃)₂Cd-----> 2CH₃COCH₃ + CdCl₂"
+      },
+      "cognitiveLevel": "Recall",
+      "chapter": "aldehydes-ketones-and-carboxylic-acids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "97",
+      "part": null,
+      "choiceGroup": null,
+      "page": 33,
+      "section": "VI",
+      "sectionTitle": "Long Answer Questions",
+      "marks": 5,
+      "marksSource": "SECTION_INSTRUCTIONS",
+      "type": "CASE_BASED",
+      "text": "‘Freidrich Wilhelm Georg Kohlrausch was a German physicist who studied the electrical conductivity of electrolytic solutions. From 1875-1879 he performed numerous experiments with aqueous solutions of different salts, acids and other electrolytes. He concluded that each type of migrating ion has a specific conductivity, and it does not depend on the origin of the ion. In a simple way, his conclusions were applicable to strong electrolytes as well as more complex behaviour was observed for weak electrolytes.’\nSource: https://doi.org/10.1002/elsa.202160008\n(a) What did Kohlrausch mean when he said that each ion has specific conductivity which is independent of origin of ions?\n(b) Explain the law proposed by Kohlrausch with example.\n(c) How do you propose to calculate the molar conductivity of a weak electrolyte (acetic acid) by using his law?",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
+      ],
+      "confidence": "MEDIUM",
+      "officialAnswer": {
+        "text": "(a) Na⁺ ions have the same value of specific conductivity irrespective of their source being sodium sulphate or sodium nitrate.\n(b) Correct explanation of the law with example.\nCH₃COONa+HCl→ CH₃COOH+NaCl\n(c) If molar conductivity at infinite dilution of HCl, NaCl and sodium acetate is known then Molar conductivity of acetic acid at infinite dilution can be calculated using this law."
+      },
+      "cognitiveLevel": "Application",
+      "chapter": "electrochemistry",
+      "mappingStatus": "AI_SUGGESTED"
+    }
+  ]
+}

@@ -22,8 +22,8 @@ const TONE: Record<string, string> = {
   none: "border-rule-strong bg-desk text-pencil",
 };
 
-function StatusChip({ c }: { c: CoverageCounts }) {
-  const s = coverageStatus(c);
+function StatusChip({ c, scope }: { c: CoverageCounts; scope?: "subject" | "class" }) {
+  const s = coverageStatus(c, scope);
   return <span className={`inline-flex rounded-full border px-2.5 py-0.5 text-[0.8rem] font-bold ${TONE[s.tone]}`}>{s.label}</span>;
 }
 
@@ -85,7 +85,7 @@ export default async function CoveragePage({ searchParams }: { searchParams: Pro
           ["Verified official samples & specimens", totals.officialSample, "text-official"],
           ["AI practice", totals.aiPractice, "text-ai"],
           ["Awaiting review", totals.awaitingReview, "text-pending"],
-          ["Held by review", totals.held, "text-contrib"],
+          ["Held back (figure, answer or check issue)", totals.held, "text-contrib"],
           ["Source documents", totals.sources, "text-ink"],
         ].map(([label, n, cls]) => (
           <div key={label as string} className="panel rounded-2xl p-4">
@@ -109,13 +109,13 @@ export default async function CoveragePage({ searchParams }: { searchParams: Pro
         ))}
       </div>
       {boardSlug === "icse" && (
-        <p className="prose-width mt-4 rounded-xl border border-contrib/30 bg-contrib-soft/60 px-4 py-3 text-[0.95rem]">
-          CISCE&apos;s terms require written permission before its specimen papers are reproduced on another website. ICSE and ISC questions that have
-          passed every check are counted as held until that permission is in place; the official documents themselves are linked on the{" "}
+        <p className="prose-width mt-4 rounded-xl border border-rule bg-sheet px-4 py-3 text-[0.95rem] text-pencil">
+          ICSE and ISC questions come from CISCE&apos;s own published papers (board examinations, specimens and item banks) and, for classes without
+          board papers, from school examination papers (the school is usually not named). Each one is credited to its original document and links to where it was obtained; see{" "}
           <Link href="/sources" className="link">
             Sources
-          </Link>{" "}
-          page.
+          </Link>
+          .
         </p>
       )}
 
@@ -133,7 +133,7 @@ export default async function CoveragePage({ searchParams }: { searchParams: Pro
                 <a href={`#class-${c.classId}`} className="tilt-card flex h-full flex-col rounded-2xl border border-rule bg-sheet p-4">
                   <span className="flex items-baseline justify-between gap-2">
                     <span className="font-serif text-[1.3rem] font-semibold">{c.className}</span>
-                    <StatusChip c={t} />
+                    <StatusChip c={t} scope="class" />
                   </span>
                   <span className="mt-3 grid grid-cols-2 gap-x-3 gap-y-1 text-[0.88rem]">
                     <span className="text-pencil">Verified, source-backed</span>
@@ -161,8 +161,8 @@ export default async function CoveragePage({ searchParams }: { searchParams: Pro
               <h2 id={`cov-${c.classId}`} className="text-[1.4rem]">
                 {c.className}
               </h2>
-              <div className="panel mt-3 rounded-2xl sm:overflow-x-auto">
-                <table className="table table-stack sm:min-w-[52rem]">
+              <div className="panel mt-3 rounded-2xl lg:overflow-x-auto">
+                <table className="table table-stack table-stack-lg lg:min-w-[52rem]">
                   <thead>
                     <tr>
                       <th scope="col">Subject</th>
@@ -214,7 +214,7 @@ export default async function CoveragePage({ searchParams }: { searchParams: Pro
                         <td className="text-right" data-label="Awaiting review">
                           <Cell n={r.awaitingReview} tone="pending" />
                         </td>
-                        <td className="text-right" data-label="Held by review">
+                        <td className="text-right" data-label="Held back">
                           <Cell n={r.held} tone="held" />
                         </td>
                         <td className="text-[0.9rem]" data-label="Exam years">
@@ -296,7 +296,7 @@ export default async function CoveragePage({ searchParams }: { searchParams: Pro
                       <td className="text-right" data-label="Awaiting review">
                         <Cell n={ch.awaitingReview} tone="pending" />
                       </td>
-                      <td className="text-right" data-label="Held by review">
+                      <td className="text-right" data-label="Held back">
                         <Cell n={ch.held} tone="held" />
                       </td>
                       <td className="text-[0.9rem]" data-label="Verified exam years">

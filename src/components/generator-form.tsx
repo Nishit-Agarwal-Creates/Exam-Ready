@@ -11,7 +11,7 @@ import { SubjectGlyph } from "./subject-glyph";
 
 type Initial = { subjectId?: number; chapterIds?: number[]; mode?: PaperMode };
 type Difficulty = "MIXED" | "EASY" | "MEDIUM" | "HARD";
-export type Availability = Record<number, { verified: number; pending: number; ai: number; years: number[] }>;
+export type Availability = Record<number, { verified: number; pending: number; authentic?: number; ai: number; years: number[] }>;
 
 type EstimateResponse = {
   eligibleCount: number;
@@ -289,7 +289,7 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
                       <span>
                         <span className="block font-bold">{s.name}</span>
                         <span className="block text-[0.85rem] text-pencil">
-                          {a?.verified ? `${a.verified} verified PYQs` : a?.pending ? `${a.pending} PYQs awaiting review` : "No verified PYQs yet"}
+                          {a?.verified ? `${a.verified} verified PYQs` : a?.authentic ? `${a.authentic} verified questions (no board PYQs)` : a?.pending ? `${a.pending} PYQs awaiting review` : "No verified PYQs yet"}
                           {a?.ai ? `, ${a.ai} AI practice` : ""}
                         </span>
                       </span>

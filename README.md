@@ -132,6 +132,7 @@ What was found, imported and blocked is recorded in `src/data/source-registry.js
   - Reusable classes: `.fx-spring`, `.fx-lift`, `.fx-sweep`, `.fx-buzz`, `.pick` (selectable chips), `.glyph` (per-subject motion: circuit pulse for physics, orbiting electron for chemistry, DNA twist for biology, compass arc for mathematics, scroll for history, turning globe for geography), `.numeral-roll`, `.pdf-build`.
   - `prefers-reduced-motion` shows a static final state everywhere.
 - **D1 free plan (5 million rows read per day)**: site-wide aggregates (coverage, catalogue, sources, trends, per-subject stats) are cached in the Worker isolate and in `cache_entries` for 10 minutes (`src/lib/data/shared-cache.ts`), and every editor action clears the cache. A warm home page now reads about 45 rows instead of about 44,000; without the cache, crawler traffic exhausted the daily allowance and every page returned 500 until midnight UTC. The PYQ hubs cache the ordered list of matching question ids per filter combination the same way (a repeat view reads about 230–400 rows instead of about 3,000), and the "appeared in year X" filter is a single uncorrelated subquery (it used to read about 1.3 million rows per view). `sources.sql` and `review.sql` end by emptying `cache_entries`, so applying them never leaves stale counts.
+- **Page cache (`worker.ts`)**: the Worker entry wraps OpenNext's handler and keeps anonymous full-page GETs of public pages in isolate memory for 60 seconds, so a burst of visitors or crawlers doesn't exhaust the CPU limit ("Worker exceeded resource limits", 1102). It never caches the admin (or anyone with the admin cookie), API routes, tests, results, papers, client-side navigation requests, non-200 responses, or a page whose render failed after streaming began. Admin actions clear it together with the shared cache.
 - **Cloudflare free plan (10 ms CPU per request)**: long lists are paginated (review queue 15, PYQ lists 10–12), list cards show a one-line citation instead of the full provenance panel, and coverage, the sitemap and the class pages use a handful of grouped queries instead of per-subject loops.
 
 ```
@@ -156,7 +157,7 @@ Official questions are checked against their documents by a pipeline that never 
 1. **Review** (`src/data/reviews/<pack>.json`): a reviewer compares every question with the official PDF (verified by SHA-256) and its marking scheme and records, per question, text, number/page, marks, options, notation, figure, answer and chapter verdicts plus a decision. `npm run review:check` validates the files.
 2. **Independent audit** (`src/data/reviews/audit-<pack>[--N].json`): a second reviewer re-checks every maths/science question that contains numbers or symbols, every rebuilt notation, corrected chapter or minor text difference, and a random sample of the rest, using `pdftotext -layout`, `-raw` and `-table` and pdfplumber. `npm run review:sample` picks the sample; `--missing` writes a follow-up sample for keys no audit covers yet.
 3. **Deterministic checks**: `scripts/review/minus-scan.py` finds minus signs drawn as shapes (invisible to every text extractor) and holds affected questions; flattened powers ("10-3", "cm2") and official answers that contain an extractor's reconstruction are held; `src/data/reviews/holds.json` lists questions whose official document itself looks wrong, for an editor.
-4. **Rights**: `src/data/reviews/rights.json` records whether each board's material may be reproduced. Only boards marked `PERMITTED` publish; the rest wait as `HOLD_RIGHTS`.
+4. **Rights**: `src/data/reviews/rights.json` records whether each board's material may be reproduced. Boards marked `PERMITTED` or `OWNER_AUTHORISED` publish; the rest wait as `HOLD_RIGHTS`. ICSE/ISC is `OWNER_AUTHORISED`: the site owner chose (September 2026) to publish CISCE papers, specimens and item banks, and third-party-hosted school papers, with attribution to the original document and a link to where it was obtained, while written permission from CISCE is sought. If CISCE or a source owner objects, set it back to `PERMISSION_REQUIRED` (or hold the source) and re-run consolidation.
 5. **Consolidation** (`npm run review:consolidate`) turns the evidence into `drizzle/seed/review.sql` and `src/data/reviews/summary.json`. A question is `AUTO_VERIFIED` only when every check passes; otherwise it gets exactly one hold state with its reasons. A disputed audit key is held; a pack whose audit disputes more than 20 % of its sample is held entirely. The SQL only touches questions that are still `UNVERIFIED`, so editor decisions are never overwritten, and it is safe to re-run.
 
 | Review state | Meaning |
@@ -167,6 +168,18 @@ Official questions are checked against their documents by a pipeline that never 
 | `HOLD_MISSING_FIGURE` / `HOLD_ANSWER` / `HOLD_MAPPING` / `HOLD_LOW_CONFIDENCE` / `HOLD_AUDIT` / `HOLD_MISSING_SOURCE` | Held, with the reason stored in `review_reason` and shown in the admin. |
 | `HOLD_RIGHTS` | Passed every check, but the board's terms require permission before reproduction. |
 | `REJECTED_DUPLICATE` / `REJECTED_INVALID` | Rejected. |
+
+### Scanned school papers (ICSE Classes 6–9, ISC 11)
+
+CISCE sets board examinations only in Classes 10 and 12, so the lower classes use real school examination papers listed on icseboard.org (originally icseonline.com; the school is usually not named). Most are scans, so the pipeline is:
+
+1. **Download and fingerprint** the one listed file (SHA-256 recorded in the pack).
+2. **OCR** with RapidOCR on pages rendered by pypdfium2, then a reviewer reads every page image and corrects the text by hand. Handwriting, ticks, watermarks and adverts are ignored; the paper's own spelling mistakes are kept.
+3. **Marks are never rounded, inferred or split.** If a paper prints only a total for a group of items, the group is one question carrying that total; if no mark is printed, the question is held.
+4. **Review and audit against the page images** (zoomed crops for every fraction, power, subscript and sign). A question is held when it depends on a figure, passage, map or underlining the stored text doesn't contain, when its items span several chapters, or when a builder's mark couldn't be confirmed.
+5. **Chapters** come from the official CISCE syllabuses: the Upper Primary curriculum (2016) for Classes 6–8, the ICSE 2028 syllabus for Class 9 and the ISC 2028 syllabus for Class 11. A question with no fitting chapter is not loaded.
+
+Questions from school papers are labelled as such and never counted as board-exam PYQs.
 
 ### Provenance categories
 

@@ -1,0 +1,47 @@
+{
+  "pack": "isc-itembank-2026-xi-accountancy",
+  "auditedOn": "2026-10-01",
+  "method": "Re-checked against the official CISCE PDF (SHA-256 confirmed) with pdftotext -layout and -raw (this pdftotext has no -table), pypdfium2 page renders (zoomed for maths and tables), and the bank's own Answer Key; numeric answers recomputed.",
+  "checks": [
+    {
+      "key": "isc-itembank-2026-xi-accountancy#11",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-itembank-2026-xi-accountancy#20",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-itembank-2026-xi-accountancy#7",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-itembank-2026-xi-accountancy#68",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-itembank-2026-xi-accountancy#9",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-itembank-2026-xi-accountancy#53",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-itembank-2026-xi-accountancy#28",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-itembank-2026-xi-accountancy#37",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

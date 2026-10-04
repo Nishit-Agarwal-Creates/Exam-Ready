@@ -1,0 +1,207 @@
+{
+  "pack": "isc-2019-xii-mathematics",
+  "auditedOn": "2026-10-01",
+  "method": "Re-checked against the official PDF (SHA-256 matched) with pdftotext -layout, -raw and -table, plus pypdfium2 page renders zoomed into every fraction, power, limit, matrix and sign; no marking scheme exists (answer NONE).",
+  "checks": [
+    {
+      "key": "isc-2019-xii-mathematics#1i",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#1ii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#1iii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#1iv",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#1v",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#1vi",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#1vii",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#1viii",
+      "agree": false,
+      "reason": "Rebuilt limit '(8ˣ − 4ˣ)/4x' is ambiguous in linear text (reads as ((8ˣ − 4ˣ)/4)·x, whose limit is trivially 0); the paper prints 4x as the whole denominator, so it must be '(8ˣ − 4ˣ)/(4x)'."
+    },
+    {
+      "key": "isc-2019-xii-mathematics#1ix",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#1x",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#2",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#3a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#3b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#4",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#5a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#5b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#6",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#7",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#8a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#8b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#9",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#10",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#11",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#12a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#12b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#13",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#14a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#14b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#15a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#15b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#15c",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#16a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#16b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#17a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#17b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#18",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#19b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#21a",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#21b",
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "key": "isc-2019-xii-mathematics#22",
+      "agree": true,
+      "reason": ""
+    }
+  ]
+}

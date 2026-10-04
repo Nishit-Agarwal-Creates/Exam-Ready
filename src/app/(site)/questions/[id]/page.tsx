@@ -59,6 +59,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
+/** Word-overlap score at which two questions are treated as the same wording, not a similar concept. */
+const SAME_WORDING = 0.9;
+
 export default async function QuestionPage({ params }: Props) {
   const r = await load((await params).id);
   if (!r) notFound();
@@ -67,13 +70,26 @@ export default async function QuestionPage({ params }: Props) {
   const freq = frequencyLine(q, q.groupSources);
   const includeDemo = await includeDemoData();
 
-  // Similar wording in the same chapter, ranked by word overlap (small, bounded set).
-  const pool = await searchQuestions({ subjectId: ctx.subjectId, chapterId: q.chapter.id, publicOnly: true, demo: includeDemo ? undefined : "exclude", pageSize: 60 }, false, { light: true });
-  const similar = pool.items
-    .filter((x) => x.id !== q.id && (x.canonicalId ?? x.id) !== (q.canonicalId ?? q.id))
+  // Similar concepts in the same chapter, ranked by word overlap (small, bounded set). One question per duplicate
+  // group, and never the same wording twice: repeats of a question belong under "Same question, other papers".
+  const pool = await searchQuestions(
+    { subjectId: ctx.subjectId, chapterId: q.chapter.id, publicOnly: true, groupOnce: true, demo: includeDemo ? undefined : "exclude", pageSize: 60 },
+    false,
+    { light: true },
+  );
+  const ownGroup = q.canonicalId ?? q.id;
+  const similar: { x: (typeof pool.items)[number]; score: number }[] = [];
+  const seenGroups = new Set([ownGroup]);
+  for (const c of pool.items
+    .filter((x) => x.id !== q.id)
     .map((x) => ({ x, score: similarity(q.text, x.text) }))
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 5);
+    .sort((a, b) => b.score - a.score)) {
+    const group = c.x.canonicalId ?? c.x.id;
+    if (seenGroups.has(group) || c.score >= SAME_WORDING || similar.some((k) => similarity(k.x.text, c.x.text) >= SAME_WORDING)) continue;
+    seenGroups.add(group);
+    similar.push(c);
+    if (similar.length === 5) break;
+  }
   // Other appearances of this exact question (its duplicate group), from stored links only.
   const otherPapers = q.groupSources.filter((s) => !q.sources.some((own) => own.paperId === s.paperId));
 
@@ -108,10 +124,20 @@ export default async function QuestionPage({ params }: Props) {
           </div>
           {freq && <p className="mt-4 rounded-xl border border-verified/30 bg-verified-soft/50 px-4 py-3 font-bold text-verified">{freq}</p>}
 
+          {/* On phones the aside comes after the whole Similar list, so its main action is repeated here. */}
+          <div className="mt-4 flex flex-wrap gap-2 lg:hidden">
+            <Link href={`/practice?subject=${ctx.subjectId}&chapter=${q.chapter.id}`} className="btn btn-primary btn-sm">
+              Practise this chapter
+            </Link>
+            <a href="#similar" className="btn btn-secondary btn-sm">
+              Similar questions
+            </a>
+          </div>
+
           {otherPapers.length > 0 && (
             <section className="mt-8" aria-labelledby="repeat-title">
               <h2 id="repeat-title" className="text-[1.4rem]">
-                The same question in other papers
+                Same question, other papers
               </h2>
               <ul className="mt-3 space-y-2">
                 {otherPapers.map((s) => (
@@ -128,7 +154,7 @@ export default async function QuestionPage({ params }: Props) {
 
           <section id="similar" className="mt-8 scroll-mt-24" aria-labelledby="similar-title">
             <h2 id="similar-title" className="text-[1.4rem]">
-              Similar questions in {q.chapter.name}
+              Similar concepts in {q.chapter.name}
             </h2>
             {similar.length === 0 ? (
               <p className="mt-3 text-pencil">No other published questions in this chapter yet.</p>
