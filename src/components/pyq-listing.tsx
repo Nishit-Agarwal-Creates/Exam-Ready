@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Pagination } from "@/components/pagination";
-import { AnswerKeyText, QuestionBlock } from "@/components/question-block";
+import { ListAnswer, QuestionBlock } from "@/components/question-block";
 import type { ChapterCoverage, SubjectCoverage } from "@/lib/data/coverage";
 import type { QuestionView } from "@/lib/data/questions";
 import { trendTags } from "@/lib/provenance";
@@ -119,12 +119,7 @@ export function PyqListing({
                       </span>
                     ))}
                   </div>
-                  <details className="mt-3 sm:ml-[3.25rem]">
-                    <summary className="inline-flex min-h-9 cursor-pointer items-center font-bold text-ink hover:underline">Show answer</summary>
-                    <div className="mt-2">
-                      <AnswerKeyText q={q} />
-                    </div>
-                  </details>
+                  <ListAnswer q={q} />
                   <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[0.9rem] sm:ml-[3.25rem]">
                     <Link href={`/questions/${q.id}`} className="link inline-flex min-h-6 items-center">
                       View question

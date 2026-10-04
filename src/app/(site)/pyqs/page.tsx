@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FilterDrawer } from "@/components/filter-drawer";
 import { Pagination } from "@/components/pagination";
-import { AnswerKeyText, QuestionBlock, TYPE_NAMES } from "@/components/question-block";
+import { ListAnswer, QuestionBlock, TYPE_NAMES } from "@/components/question-block";
 import { QUESTION_TYPES } from "@/db/schema";
 import { includeDemoData } from "@/lib/data/papers";
 import { searchQuestions } from "@/lib/data/questions";
@@ -209,7 +209,7 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
       {subjectSources.length > 0 && (
         <section aria-labelledby="papers-title" className="mt-6">
           <h2 id="papers-title" className="font-sans text-[1rem] font-bold text-pencil">
-            Official papers in the bank
+            Papers in the bank
           </h2>
           <ul className="mt-2 grid gap-2 md:grid-cols-3">
             {subjectSources.map((s) => (
@@ -382,14 +382,7 @@ export default async function PyqExplorer({ searchParams }: { searchParams: Prom
           {result.items.map((item, i) => (
             <li key={item.id} data-reveal className="sheet p-4 sm:p-6" style={{ ["--d" as string]: `${Math.min(i, 6) * 40}ms` }}>
               <QuestionBlock number={(result.page - 1) * result.pageSize + i + 1} q={item} headingLevel={2} provenance="line" />
-              {item.answer && (
-                <details className="mt-3 sm:ml-[3.25rem]">
-                  <summary className="inline-flex min-h-9 cursor-pointer items-center font-bold text-ink hover:underline">Show answer</summary>
-                  <div className="expand-in mt-2">
-                    <AnswerKeyText q={item} />
-                  </div>
-                </details>
-              )}
+              <ListAnswer q={item} />
               <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[0.9rem] sm:ml-[3.25rem] [&>a]:inline-flex [&>a]:min-h-6 [&>a]:items-center">
                 <Link href={`/questions/${item.id}`} className="link">
                   View question

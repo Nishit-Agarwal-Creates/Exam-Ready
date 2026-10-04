@@ -19,6 +19,24 @@ export const TYPE_NAMES: Record<QuestionType, string> = {
 
 const LETTERS = ["a", "b", "c", "d", "e", "f"];
 
+/** Whether a question has anything to reveal: an answer key or answer text. */
+export function hasAnswerContent(q: QuestionView) {
+  return Boolean(q.answer && (q.answer.key || q.answer.text?.trim()));
+}
+
+/** In lists: a "Show answer" toggle when there is an answer, otherwise a quiet note instead of an empty toggle. */
+export function ListAnswer({ q }: { q: QuestionView }) {
+  if (!hasAnswerContent(q)) return <p className="mt-3 text-[0.88rem] text-pencil sm:ml-[3.25rem]">No official answer published for this question.</p>;
+  return (
+    <details className="mt-3 sm:ml-[3.25rem]">
+      <summary className="inline-flex min-h-9 cursor-pointer items-center font-bold text-ink hover:underline">Show answer</summary>
+      <div className="expand-in mt-2">
+        <AnswerKeyText q={q} />
+      </div>
+    </details>
+  );
+}
+
 export function AnswerKeyText({ q }: { q: QuestionView }) {
   if (!q.answer) return null;
   const key = q.answer.key;

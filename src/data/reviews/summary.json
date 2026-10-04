@@ -2410,11 +2410,15 @@
     {
       "pack": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025",
       "reviewed": true,
-      "audit": null,
+      "audit": {
+        "sampled": 7,
+        "disputed": 0,
+        "heldPack": false
+      },
       "counts": {
         "HOLD_MAPPING": 7,
         "HOLD_MISSING_FIGURE": 2,
-        "HOLD_AUDIT": 14,
+        "AUTO_VERIFIED": 14,
         "HOLD_LOW_CONFIDENCE": 1
       }
     },
@@ -2473,10 +2477,14 @@
     {
       "pack": "icse-school-9-biology-icse-class-9-ut1-science-030424-2024",
       "reviewed": true,
-      "audit": null,
+      "audit": {
+        "sampled": 2,
+        "disputed": 0,
+        "heldPack": false
+      },
       "counts": {
         "HOLD_LOW_CONFIDENCE": 1,
-        "HOLD_AUDIT": 2,
+        "AUTO_VERIFIED": 2,
         "HOLD_MAPPING": 2
       }
     },
@@ -2510,10 +2518,14 @@
     {
       "pack": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025",
       "reviewed": true,
-      "audit": null,
+      "audit": {
+        "sampled": 10,
+        "disputed": 0,
+        "heldPack": false
+      },
       "counts": {
         "HOLD_MAPPING": 3,
-        "HOLD_AUDIT": 20,
+        "AUTO_VERIFIED": 20,
         "HOLD_LOW_CONFIDENCE": 6,
         "HOLD_MISSING_FIGURE": 1
       }
@@ -2534,10 +2546,14 @@
     {
       "pack": "icse-school-9-chemistry-icse-class-9-assessment-2-chemistry-190225-2025",
       "reviewed": true,
-      "audit": null,
+      "audit": {
+        "sampled": 16,
+        "disputed": 0,
+        "heldPack": false
+      },
       "counts": {
         "HOLD_MAPPING": 2,
-        "HOLD_AUDIT": 21,
+        "AUTO_VERIFIED": 21,
         "HOLD_LOW_CONFIDENCE": 2
       }
     },
@@ -2557,11 +2573,15 @@
     {
       "pack": "icse-school-9-chemistry-icse-class-9-chemistry-feb-131225-2025",
       "reviewed": true,
-      "audit": null,
+      "audit": {
+        "sampled": 19,
+        "disputed": 0,
+        "heldPack": false
+      },
       "counts": {
         "HOLD_MAPPING": 3,
         "HOLD_LOW_CONFIDENCE": 2,
-        "HOLD_AUDIT": 24
+        "AUTO_VERIFIED": 24
       }
     },
     {
@@ -2595,11 +2615,45 @@
     {
       "pack": "icse-school-9-chemistry-icse-class-9-ut1-science-030424-2024",
       "reviewed": true,
-      "audit": null,
+      "audit": {
+        "sampled": 5,
+        "disputed": 0,
+        "heldPack": false
+      },
       "counts": {
         "HOLD_LOW_CONFIDENCE": 1,
-        "HOLD_AUDIT": 5,
+        "AUTO_VERIFIED": 5,
         "HOLD_MISSING_FIGURE": 1
+      }
+    },
+    {
+      "pack": "icse-school-9-english-icse-class-9-assessment-1-english-language-p1-300924-2024",
+      "reviewed": true,
+      "audit": {
+        "sampled": 6,
+        "disputed": 0,
+        "heldPack": false
+      },
+      "counts": {
+        "AUTO_VERIFIED": 11,
+        "HOLD_MISSING_FIGURE": 9
+      }
+    },
+    {
+      "pack": "icse-school-9-english-icse-class-9-assessment-1-english-literature-paper-2-030424-2024",
+      "reviewed": false
+    },
+    {
+      "pack": "icse-school-9-english-icse-class-9-assessment-2-english-language-p1-270225-2025",
+      "reviewed": true,
+      "audit": {
+        "sampled": 6,
+        "disputed": 0,
+        "heldPack": false
+      },
+      "counts": {
+        "AUTO_VERIFIED": 12,
+        "HOLD_MISSING_FIGURE": 9
       }
     },
     {
@@ -2635,11 +2689,16 @@
     {
       "pack": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2018",
       "reviewed": true,
-      "audit": null,
+      "audit": {
+        "sampled": 19,
+        "disputed": 1,
+        "heldPack": false
+      },
       "counts": {
-        "HOLD_AUDIT": 19,
+        "AUTO_VERIFIED": 18,
         "HOLD_LOW_CONFIDENCE": 2,
         "HOLD_MISSING_FIGURE": 4,
+        "HOLD_AUDIT": 1,
         "HOLD_MAPPING": 2
       }
     },
@@ -2718,9 +2777,14 @@
     {
       "pack": "icse-school-9-mathematics-icse-class-9-mathematics-np20-511-2020",
       "reviewed": true,
-      "audit": null,
+      "audit": {
+        "sampled": 28,
+        "disputed": 2,
+        "heldPack": false
+      },
       "counts": {
-        "HOLD_AUDIT": 27,
+        "AUTO_VERIFIED": 25,
+        "HOLD_AUDIT": 2,
         "HOLD_LOW_CONFIDENCE": 3,
         "HOLD_MISSING_FIGURE": 3
       }
@@ -2751,10 +2815,15 @@
     {
       "pack": "icse-school-9-physics-icse-class-9-2-sem-physics-280425-2025",
       "reviewed": true,
-      "audit": null,
+      "audit": {
+        "sampled": 17,
+        "disputed": 1,
+        "heldPack": false
+      },
       "counts": {
         "HOLD_MISSING_FIGURE": 4,
-        "HOLD_AUDIT": 25,
+        "AUTO_VERIFIED": 24,
+        "HOLD_AUDIT": 1,
         "HOLD_LOW_CONFIDENCE": 2
       }
     },
@@ -2789,11 +2858,15 @@
     {
       "pack": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025",
       "reviewed": true,
-      "audit": null,
+      "audit": {
+        "sampled": 13,
+        "disputed": 0,
+        "heldPack": false
+      },
       "counts": {
         "HOLD_MISSING_FIGURE": 10,
         "HOLD_MAPPING": 1,
-        "HOLD_AUDIT": 17,
+        "AUTO_VERIFIED": 17,
         "HOLD_LOW_CONFIDENCE": 1
       }
     },
@@ -3350,19 +3423,17 @@
     }
   ],
   "totals": {
-    "AUTO_VERIFIED": 5509,
+    "AUTO_VERIFIED": 5702,
     "HOLD_MAPPING": 703,
-    "HOLD_MISSING_FIGURE": 915,
+    "HOLD_MISSING_FIGURE": 933,
     "HOLD_LOW_CONFIDENCE": 1421,
-    "HOLD_AUDIT": 604,
+    "HOLD_AUDIT": 434,
     "HOLD_ANSWER": 113
   },
   "reasons": {
-    "HOLD_MISSING_FIGURE: The extraction itself was rated low confidence.": 804,
+    "HOLD_MISSING_FIGURE: The extraction itself was rated low confidence.": 822,
     "HOLD_LOW_CONFIDENCE: The extraction itself was rated low confidence.": 505,
     "HOLD_LOW_CONFIDENCE: Only a group total is printed for this section; per-item marks were split by the builder.": 146,
-    "HOLD_AUDIT: Waiting for the independent audit (numbers, notation, a corrected chapter or a minor te…": 92,
-    "HOLD_AUDIT: Waiting for the independent audit of this source document.": 82,
     "HOLD_LOW_CONFIDENCE: No marks printed on the paper (0 placeholder).": 81,
     "HOLD_LOW_CONFIDENCE: No marks printed; stored marks are a 0 placeholder.": 75,
     "HOLD_AUDIT: The audit disputed 25% of this source's sampled decisions, so it needs a fresh review.": 67,
@@ -3387,6 +3458,7 @@
     "HOLD_AUDIT: The audit disputed 44% of this source's sampled decisions, so it needs a fresh review.": 18,
     "HOLD_MAPPING: The extraction itself was rated low confidence.": 17,
     "HOLD_LOW_CONFIDENCE: Only a group total (10) is printed for ten items; per-item marks were split by the buil…": 17,
+    "HOLD_MISSING_FIGURE: Depends on the comprehension passage, which is not reproduced.": 16,
     "HOLD_LOW_CONFIDENCE: No marks printed (0 placeholder).": 14,
     "HOLD_MAPPING: Group entry of five or more items spanning several chapters.": 13,
     "HOLD_MAPPING: Current Exploration contents do not clearly show this environment/biogeochemical topic …": 12,
@@ -3579,6 +3651,7 @@
     "HOLD_MAPPING: Motion (displacement-time graph) has no chapter in the Class VIII list.": 2,
     "HOLD_MAPPING: Motion (speed and velocity) has no chapter in the Class VIII list.": 2,
     "HOLD_AUDIT: The audit disputed 33% of this source's sampled decisions, so it needs a fresh review.": 2,
+    "HOLD_MISSING_FIGURE: Picture composition: the picture on page 1 is not reproduced.": 2,
     "HOLD_LOW_CONFIDENCE: Mark brackets for Q8(b)/(c) are printed offset; the 3 marks were assigned by the builde…": 2,
     "HOLD_MISSING_FIGURE: Figure on page 8 is needed to answer.": 2,
     "HOLD_MAPPING: Topic (valence electrons of a non-metal atom) is 'Periodic Classification of Elements',…": 1,
@@ -5010,6 +5083,7 @@
     "HOLD_MISSING_FIGURE: Figure on page 3 gives the arrangement of the circles and the shaded region": 1,
     "HOLD_LOW_CONFIDENCE: Printed mark '[2x20]' is not a usable mark; stored marks 0 is a placeholder.": 1,
     "HOLD_MISSING_FIGURE: Figure on page 1 (positions of C on DB) is needed to answer.": 1,
+    "HOLD_AUDIT: Chapter is wrong: a ruler-and-compasses construction of a parallelogram belongs to cons…": 1,
     "HOLD_MISSING_FIGURE: Angles 2x+10°, 92°, x+20° and y are given only on the figure on page 2.": 1,
     "HOLD_MAPPING: Construction of a regular hexagon with its incircle spans polygon construction and circ…": 1,
     "HOLD_MISSING_FIGURE: Side lengths and angles are given only on the figure on page 2.": 1,
@@ -5048,17 +5122,20 @@
     "HOLD_LOW_CONFIDENCE: The printed words 'average rain fall' are struck through with a handwritten insertion; …": 1,
     "HOLD_LOW_CONFIDENCE: Printed text of Q8 (c) is struck through and replaced by a handwritten instruction on p…": 1,
     "HOLD_MISSING_FIGURE: That B, C, D are collinear with the right angle at D is shown only on the figure on pag…": 1,
+    "HOLD_AUDIT: Chapter is wrong: a ruler-and-compass construction of a rhombus belongs to construction…": 1,
     "HOLD_LOW_CONFIDENCE: Page 3 is blurred: the trig expression (functions, angles, power) cannot be confirmed o…": 1,
     "HOLD_LOW_CONFIDENCE: Page 3 is blurred: the powers and +/- signs in AM^2 + BC^2 = AC^2 + BM^2 cannot be conf…": 1,
     "HOLD_MISSING_FIGURE: Frequency distribution table on page 3 is not in the stored text.": 1,
     "HOLD_MISSING_FIGURE: Point O (where AP meets BC) is defined only in the figure on page 5, which is not repro…": 1,
     "HOLD_MISSING_FIGURE: Angles x° and y° are defined only in the figure on page 6.": 1,
+    "HOLD_AUDIT: The paper prints the log bases as subscripts (log₂ a = 3, log₃ b = 2, log₄ c = 1), but …": 1,
     "HOLD_MAPPING: Fifteen MCQs span several chapters (expansions, factorisation, surds, trigonometry, ind…": 1,
     "HOLD_MISSING_FIGURE: The points A-E and their coordinates are given only on the graph on page 4.": 1,
     "HOLD_MISSING_FIGURE: The equal sides (AB = AC = CD) and C on BD are shown only by the figure on page 5.": 1,
     "HOLD_MISSING_FIGURE: Positions of D on AB and E on BC are given only by the figure on page 5.": 1,
     "HOLD_MISSING_FIGURE: Point O (intersection of AC and BD) and quadrilateral ABCD are defined only by the figu…": 1,
     "HOLD_MISSING_FIGURE: Group of 15 MCQs kept as one entry spans several chapters, and item iii) needs the fiel…": 1,
+    "HOLD_AUDIT: Copied as printed, but the paper is wrong: it calls power a fundamental quantity when p…": 1,
     "HOLD_MISSING_FIGURE: Wave graph on page 4 is needed to answer.": 1,
     "HOLD_MISSING_FIGURE: Arrangement of the two magnets (figure on page 4) is not in the stored text.": 1,
     "HOLD_LOW_CONFIDENCE: No marks printed for 8 a) (stored 0).": 1,

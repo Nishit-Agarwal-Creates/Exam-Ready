@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { AnswerKeyText, QuestionBlock } from "@/components/question-block";
+import { ListAnswer, QuestionBlock } from "@/components/question-block";
 import { searchQuestions } from "@/lib/data/questions";
 import { loadSubjectPage, subjectMetaContext } from "@/lib/data/seo";
 import { pageMetadata } from "@/lib/site";
@@ -96,12 +96,7 @@ export default async function ChapterPage({ params }: Props) {
             {res.items.map((q, i) => (
               <li key={q.id} className="sheet p-4 sm:p-6">
                 <QuestionBlock number={i + 1} q={q} />
-                <details className="mt-3 sm:ml-[3.25rem]">
-                  <summary className="inline-flex min-h-9 cursor-pointer items-center font-bold text-ink hover:underline">Show answer</summary>
-                  <div className="mt-2">
-                    <AnswerKeyText q={q} />
-                  </div>
-                </details>
+                <ListAnswer q={q} />
               </li>
             ))}
           </ol>

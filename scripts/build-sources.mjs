@@ -12,7 +12,10 @@ import { boardIdSql, chapterIdSql, classIdSql, contentHash, normaliseForHash, q,
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dir = join(root, "src", "data", "sources");
-const outFile = join(root, "drizzle", "seed", "sources.sql");
+// ONLY_PACKS=key1,key2 writes SQL for just those packs (to sources-partial.sql), for a small follow-up release that
+// stays within D1's daily write allowance. Every pack is still read, so duplicate detection sees all of them.
+const only = process.env.ONLY_PACKS ? new Set(process.env.ONLY_PACKS.split(",").map((k) => k.trim()).filter(Boolean)) : null;
+const outFile = join(root, "drizzle", "seed", only ? "sources-partial.sql" : "sources.sql");
 
 const TYPE_MAP = { MCQ: "MCQ", ASSERTION_REASON: "ASSERTION_REASON", FILL_BLANK: "FILL_BLANK", SHORT_ANSWER: "SHORT_ANSWER", LONG_ANSWER: "LONG_ANSWER", CASE_BASED: "CASE_BASED", NUMERICAL: "NUMERICAL" };
 const SOURCE_TYPE = { BOARD_EXAM: "VERIFIED_PYQ", SPECIMEN: "OFFICIAL_SAMPLE", SAMPLE: "OFFICIAL_SAMPLE", QUESTION_BANK: "OFFICIAL_SAMPLE", SCHOOL_EXAM: "USER_CONTRIBUTED", OTHER: "PENDING_REVIEW" };
@@ -29,6 +32,7 @@ const all = []; // for duplicate detection across packs
 
 for (const pack of packs) {
   const s = pack.source;
+  const push = !only || only.has(s.key) ? (line) => out.push(line) : () => {};
   const { board, class: level, subject } = s;
   const domain = (() => {
     try {
@@ -73,7 +77,7 @@ for (const pack of packs) {
   };
   const names = Object.keys(cols);
   const updatable = names.filter((n) => !["status", "source_key", "is_demo"].includes(n));
-  out.push(
+  push(
     `INSERT INTO papers (${names.join(", ")}) SELECT ${names.map((n) => cols[n]).join(", ")} WHERE ${cols.subject_id} IS NOT NULL ON CONFLICT(source_key) DO UPDATE SET ${updatable
       .map((n) => `${n} = excluded.${n}`)
       .join(", ")};`,
@@ -100,7 +104,7 @@ for (const pack of packs) {
     if (item.choiceGroup) noteParts.push(`Internal choice: alternative ${item.part ?? ""} of question ${item.choiceGroup}.`);
     noteParts.push("Awaiting editor verification against the official PDF.");
     const chId = chapterIdSql(board, level, subject, item.chapter);
-    out.push(
+    push(
       `INSERT INTO questions (external_key, board_id, class_id, subject_id, chapter_id, question_text, question_type, marks, difficulty, options, answer_key, answer_text, explanation, source_type, verification_status, verification_notes, is_published, is_demo, frequency_count, content_hash, mapping_status, mapping_source, answer_source, has_figure, extraction_confidence, extraction_issues, review_state) SELECT ${q(
         key,
       )}, ${boardIdSql(board)}, ${classIdSql(board, level)}, ${subjectIdSql(board, level, subject)}, ${chId}, ${q(item.text)}, ${q(type)}, ${item.marks}, 'UNRATED', ${q(
@@ -111,7 +115,7 @@ for (const pack of packs) {
         item.confidence ?? null,
       )}, ${q(JSON.stringify(issues))}, 'PENDING_REVIEW' WHERE ${chId} IS NOT NULL ON CONFLICT(external_key) DO NOTHING;`,
     );
-    out.push(
+    push(
       `INSERT INTO question_sources (question_id, paper_id, question_number, part, page_number, section, marks_in_paper, is_primary, notes) SELECT (SELECT id FROM questions WHERE external_key = ${q(
         key,
       )}), ${paperId}, ${q(String(item.number))}, ${q(item.part ?? null)}, ${q(item.page ?? null)}, ${q(
@@ -145,6 +149,7 @@ for (let i = 0; i < all.length; i++) {
     const enoughWords = Math.min(a.words, b.words);
     const same = a.hash === b.hash ? enoughWords >= 5 : a.type === b.type && enoughWords >= 8 && similarity(a.text, b.text) >= 0.85;
     if (same && a.marks === b.marks) {
+      if (only && !only.has(b.key.split("#")[0])) break;
       out.push(
         `UPDATE questions SET canonical_question_id = (SELECT COALESCE(canonical_question_id, id) FROM questions WHERE external_key = ${q(
           a.key,
@@ -156,7 +161,7 @@ for (let i = 0; i < all.length; i++) {
   }
 }
 
-out.push(
+if (!only) out.push(
   "UPDATE questions SET frequency_count = (SELECT COUNT(DISTINCT p.id) FROM question_sources qs JOIN papers p ON p.id = qs.paper_id WHERE qs.question_id = questions.id AND p.paper_type = 'BOARD_EXAM' AND p.is_demo = 0) WHERE is_demo = 0;",
 );
 
