@@ -59,16 +59,16 @@ Everything below comes from documents the boards publish themselves. **Every off
 | ISC Class 12 | Physics, Chemistry, Biology, Mathematics | 2018–2020 papers; 2025 Mathematics | 2026 and 2027 specimens; CISCE competency question banks |
 | CBSE Classes 6–10 | Mathematics, Science | none (Classes 6–9 have no board exam) | CBSE competency-based item banks (September 2021) |
 
-In numbers (after the Phase 5 release, October 2026): 256 source documents (100 published by the boards, 156 school examination papers) and 9,593 extracted questions. **5,837 are verified**: 5,702 by the automated review plus independent audit, 135 by an editor. 3,604 are held, each with a stated reason: 1,421 have text, notation or marks that couldn't be fully confirmed (including marks a school paper doesn't print per question), 933 need a figure, passage or map that isn't reproduced, 703 have a chapter that couldn't be confirmed (often a group of items spanning several chapters), 434 wait for or were disputed by the second reviewer, and 113 have an official answer that looks wrong. 152 are still awaiting review. Questions with no fitting syllabus chapter are not loaded.
+In numbers (after the Phase 5.1 release, October 2026): 256 source documents (100 published by the boards, 156 school examination papers) and 9,848 extracted questions. **8,086 are verified**: 7,951 by the automated review plus independent audit, 135 by an editor. 757 of them show a figure, table, graph, map or passage cropped from the original page. 1,686 are held, each with a stated reason: 709 have a chapter that couldn't be confirmed (often a topic outside the official syllabus summary), 552 have text, notation or marks that couldn't be fully confirmed, 195 wait for or were disputed by the second reviewer, 140 have an official answer that looks wrong or is drawn rather than written, and 90 need a figure that isn't printed, is illegible or couldn't be cropped cleanly. 152 are still awaiting review. Questions with no fitting syllabus chapter are not loaded.
 
 Verified questions per class (one per duplicate group, AI practice never counted):
 
 | Board | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ICSE / ISC | 103 | 210 | 640 | 604 | 1,444 | 851 | 935 |
-| CBSE | 54 | 11 | 39 | 43 | 562 | – | 279 |
+| ICSE / ISC | 726 | 758 | 725 | 754 | 1,725 | 899 | 1,064 |
+| CBSE | 76 | 47 | 47 | 128 | 665 | – | 373 |
 
-ICSE/ISC Classes 8–12 meet the 600-question goal. Classes 6 and 7 do not: CISCE sets no examinations below Class 10, and most available school papers print marks only for whole groups of items or not at all, so many of their questions are held rather than given invented marks.
+ICSE/ISC Classes 6–12 all meet the 600-question goal. Phase 5.1 recovered held questions from their source pages: figures cropped from the page, marks recorded only as printed (1,259 verified items show a printed group total and 342 a "no mark printed" note instead of an invented mark), printed groups split into their items, chapters mapped only where the official summary covers them, and every change independently re-audited.
 
 The ICSE Classes 8–10 practice bank (428 questions) was written by AI. It is stamped **AI practice** everywhere and is never counted or presented as a previous-year question.
 
