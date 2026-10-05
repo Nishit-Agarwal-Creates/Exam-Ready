@@ -207,15 +207,25 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Stored answer writes p to the power q as 'pᵠ' (superscript Greek phi), not q.",
-      "notes": "Question text and code match page 4; key p11 prints p^q, 2^-3 = 1/8 = 0.125."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Question text and code match page 4; key p11 prints p^q, 2^-3 = 1/8 = 0.125.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Answer key states 'p raised to the power q'; the wrong superscript phi (pᵠ) replaced with p^{q}.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xi-computer-science-specimen#2iv",
@@ -336,14 +346,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Logic gate diagram on page 6 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: logic gate diagram under Q4(ii) cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xi-computer-science-specimen#4iii",
@@ -416,14 +436,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The gate symbol (NOR) on page 6 is shown only in the figure.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: gate symbol under Q5(iii) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xi-computer-science-specimen#6",

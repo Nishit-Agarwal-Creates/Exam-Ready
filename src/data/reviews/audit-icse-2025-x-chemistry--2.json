@@ -1,0 +1,55 @@
+{
+  "pack": "icse-2025-x-chemistry",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked the recovered figures, text and marks against the official PDF (pdftotext -layout/-raw, page renders with grid); no marking scheme is published.",
+  "checks": [
+    {
+      "key": "icse-2025-x-chemistry#1viii",
+      "agree": false,
+      "reason": "Only the group total [15] is printed for the fifteen MCQs of Question 1; the stored 1 mark is a split of that total and there is no marksNote quoting the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-chemistry#2i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-chemistry#2vb1",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-chemistry#2vb2",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-chemistry#2vb3",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-chemistry#4iv",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-chemistry#6i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-chemistry#6ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

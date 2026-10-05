@@ -22,8 +22,18 @@
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Twelve-MCQ group spans several chapters, and items 11-12 need figures 1 and 2.",
-      "notes": ""
+      "reason": "Twelve-MCQ group spans several chapters (group not split); figures 1 and 2 cropped from page 1 but figure stays ESSENTIAL_MISSING until the group is split per item.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 1: figure 1 (item 11) and figure 2 (item 12) cropped from the right of the MCQ block; figure 2 is cut by the page bottom edge on the scan.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-chemistry-icse-class-8-half-yearly-chemistry-131225-2026#1ii",
@@ -102,8 +112,19 @@
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Atom diagram on page 2 is needed to answer.",
-      "notes": ""
+      "reason": "The atom diagram on page 2 is too faded in the scan (outer shells on the right barely visible, stray specks look like electrons) to count electrons reliably, so parts (b)-(d) cannot be answered from the figure.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 2 re-cropped wider and viewed: the dots on the right-hand shells are faint and mixed with scan specks; the electron count cannot be read with certainty.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-chemistry-icse-class-8-half-yearly-chemistry-131225-2026#7a",
@@ -160,14 +181,24 @@
       "marks": "MISMATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Flowchart on page 3 is needed and the marks bracket is illegible (0 placeholder).",
-      "notes": ""
+      "reason": "Marks bracket beside Q8(a) is illegible on the scan (0 placeholder); flowchart now cropped.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: flowchart under Q8(a) cropped; the marks bracket beside Q8(a) is too faded to read even on a zoomed crop.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-chemistry-icse-class-8-half-yearly-chemistry-131225-2026#8b",

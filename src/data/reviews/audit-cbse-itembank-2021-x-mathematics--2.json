@@ -1,0 +1,127 @@
+{
+  "pack": "cbse-itembank-2021-x-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the item mark scheme in the same document, and the page grid/crops of the recovered figures (scripts/recovery/page.py).",
+  "checks": [
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10GS3",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PR6a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PR6b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AKP6",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM8",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM7",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10ASR6",
+      "agree": false,
+      "reason": "Alt text calls chord RS 'parallel to the tangent', but the figure on p105 marks no parallel (no arrows); the alt describes something that is not visible.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AD9",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AD5b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10ASR10b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM3_5a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10MM3_5d",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SS1b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PS9a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10PS9b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10AR6b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RM3",
+      "agree": false,
+      "reason": "Chapter 'some-applications-of-trigonometry' (heights and distances, angles of elevation/depression) does not fit: the item only finds angle C of a right triangle from two sides (cos C = 7/14), which is 'Introduction to Trigonometry' (ratios of specific angles).",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10RM7a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SS4",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-x-mathematics#Maths10SK10a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

@@ -80,17 +80,33 @@
         "X > Z > Y"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Table of structures X, Y, Z (images) on page 4 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(c) Z> Y > X",
         "correctOption": 2
       },
       "cognitiveLevel": "Understanding",
       "chapter": "alcohols-phenols-and-ethers",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/2.png",
+          "kind": "TABLE",
+          "alt": "Table with columns X, Y and Z, each showing a benzene-ring structure with an OH group and substituents",
+          "width": 485,
+          "height": 280,
+          "page": 4,
+          "crop": {
+            "x": 0.32,
+            "y": 0.663,
+            "w": 0.272,
+            "h": 0.111
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -110,17 +126,33 @@
         "X: Formaldehyde R: ethyl"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Reaction scheme (image) on page 5 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(d) X: Formaldehyde R: ethyl",
         "correctOption": 3
       },
       "cognitiveLevel": "Application",
       "chapter": "alcohols-phenols-and-ethers",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/3.png",
+          "kind": "FIGURE",
+          "alt": "Reaction scheme: [X] + RMgBr, with (i) Dry ether and (ii) H+/H2O over the arrow, giving Propan-1-ol + Mg(Br)(OH)",
+          "width": 723,
+          "height": 247,
+          "page": 5,
+          "crop": {
+            "x": 0.28,
+            "y": 0.157,
+            "w": 0.405,
+            "h": 0.098
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -554,17 +586,34 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Graph (molar conductivity against √C for I, II, III) on page 8 not reproduced",
         "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page."
       ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(c) III, II, and I",
         "correctOption": 2
       },
       "cognitiveLevel": "Evaluate & Analysis",
       "chapter": "electrochemistry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/18.png",
+          "kind": "GRAPH",
+          "alt": "Graph of molar conductivity against square root of C with three curves labelled I, II and III",
+          "width": 509,
+          "height": 518,
+          "page": 8,
+          "crop": {
+            "x": 0.405,
+            "y": 0.285,
+            "w": 0.285,
+            "h": 0.205
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "19",
@@ -1244,16 +1293,32 @@
       "type": "SHORT_ANSWER",
       "text": "Predict the order of reaction and name X and Y axes.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph (straight line through the origin, axes labelled X and Y) on page 14 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "Order-First\nX-Rate of reaction.\nY- Concentration of the reactant"
       },
       "cognitiveLevel": "Recall and Understanding",
       "chapter": "chemical-kinetics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/46.png",
+          "kind": "GRAPH",
+          "alt": "Graph with a straight line starting at the origin O; vertical axis labelled X, horizontal axis labelled Y",
+          "width": 562,
+          "height": 366,
+          "page": 14,
+          "crop": {
+            "x": 0.385,
+            "y": 0.335,
+            "w": 0.315,
+            "h": 0.145
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "47",
@@ -1292,16 +1357,32 @@
       "type": "SHORT_ANSWER",
       "text": "Study the graph given below and label the numbers:",
       "hasFigure": true,
-      "extractionIssues": [
-        "Energy profile graph with positions numbered 1-5 on page 14 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(1) Potential Energy\n(2) Reactants\n(3) Activation Energy\n(4) Products\n(5) Reaction Coordinate"
       },
       "cognitiveLevel": "Analysis",
       "chapter": "chemical-kinetics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/48.png",
+          "kind": "GRAPH",
+          "alt": "Energy profile curve with a single peak between two troughs, with positions numbered 1 to 5",
+          "width": 474,
+          "height": 497,
+          "page": 14,
+          "crop": {
+            "x": 0.41,
+            "y": 0.68,
+            "w": 0.265,
+            "h": 0.197
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "49",
@@ -1316,7 +1397,6 @@
       "text": "Rohan arranged three coulometers in series and passed one faraday of charge for a definite time to all three electrolytes as shown in the picture given below:\n(a) What will be ratio of number of moles of positive ions liberated at cathode in each coulometer?\n(b) If he passed 4825 coulombs of charge through the electrolytes, how many gram-equivalent of copper will be deposited at the cathode?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure (circuit picture of three coulometers (labelled 'HCL Solution', 'AgNO3 Solution', 'CuSO4 solution')) on page 15 not reproduced",
         "Official answer: fractions printed as stacked numerator/denominator rebuilt inline with '/' and brackets from the PDF layout; check against the PDF."
       ],
       "confidence": "MEDIUM",
@@ -1325,7 +1405,25 @@
       },
       "cognitiveLevel": "Application",
       "chapter": "electrochemistry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/49.png",
+          "kind": "FIGURE",
+          "alt": "Three electrolytic cells in series with an ammeter A, rheostat, key and battery; cells labelled HCL Solution (Pt electrodes, O2 and H2 tubes), AgNO3 Solution (Ag electrodes) and CuSO4 solution (Cu electrodes)",
+          "width": 598,
+          "height": 417,
+          "page": 15,
+          "crop": {
+            "x": 0.375,
+            "y": 0.177,
+            "w": 0.335,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "50",
@@ -1574,16 +1672,32 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the following diagram and answer the questions that follows:\n(a) In which direction, the flow of solvent will take place.\n(b) Infer on which compartment pressure should be applied to stop the flow of solvent? What is that pressure called?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram of compartments A and B separated by a semipermeable membrane (solution labels are inside the image) on page 17 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(a) From compartment B to A.\nNaCl dissociates in aqueous solution, has a greater number of ions, shows higher osmotic pressure.\n(b) Compartment A.\nOsmotic pressure"
       },
       "cognitiveLevel": "Analysis",
       "chapter": "solutions",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/60.png",
+          "kind": "FIGURE",
+          "alt": "Container divided by a semipermeable membrane; left compartment A holds 0.1M glucose solution and right compartment B holds 0.1M NaCl solution",
+          "width": 634,
+          "height": 454,
+          "page": 17,
+          "crop": {
+            "x": 0.325,
+            "y": 0.385,
+            "w": 0.355,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "61",
@@ -1623,16 +1737,32 @@
       "type": "SHORT_ANSWER",
       "text": "Given below are the two types of mechanism of the reaction:\nAnswer the following questions:\n(a) Why is the product obtained in (A) pathway optically inactive?\n(b) Investigate the effect of plane polarised light on the product of (B) pathway? Which pathway shows faster reaction?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Reaction mechanism diagrams (Pathway A and Pathway B) on page 18 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(a) Pathway A follows SN1 mechanism in which attack of nucleophile on carbocation takes place from front and back side, gives racemic mixture which is optically inactive.\n(b) The product obtained in pathway B rotates the plane polarised light in opposite direction than that of substrate. Pathway A is faster than pathway B."
       },
       "cognitiveLevel": "Evaluate",
       "chapter": "haloalkanes-and-haloarenes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/62.png",
+          "kind": "FIGURE",
+          "alt": "Pathway A: tertiary alkyl halide R1R2R3C-X plus nucleophile Nu giving substituted compound and halide X; Pathway B: HO attacking a carbon bearing CH3, F, H and Br, through a bracketed transition state, to the product with HO, CH3, F and H plus Br",
+          "width": 768,
+          "height": 816,
+          "page": 18,
+          "crop": {
+            "x": 0.345,
+            "y": 0.15,
+            "w": 0.43,
+            "h": 0.323
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "63",
@@ -1647,17 +1777,34 @@
       "text": "This box gives a list of aldehydes and ketones. Choose the appropriate aldehyde/ ketone that reacts with CH₃MgBr to form a 1⁰ alcohol, 2⁰ alcohol and a 3⁰ alcohol.",
       "hasFigure": true,
       "extractionIssues": [
-        "Box listing six molecular formulae (image) on page 19 not reproduced",
         "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
         "Official answer partly missing in extraction (figure/equation): Reaction schemes with CH3MgBr for (a), (b) and (c) (images) on page 40 not reproduced"
       ],
-      "confidence": "LOW",
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(a) 1° alcohol\n(b) 2° alcohol\n(c) 3° alcohol"
       },
       "cognitiveLevel": "Application",
       "chapter": "aldehydes-ketones-and-carboxylic-acids",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/63.png",
+          "kind": "FIGURE",
+          "alt": "Box listing six formulae: CH2O, C2H4O, C3H6O, C3H8O, C2H3O, CHO",
+          "width": 411,
+          "height": 209,
+          "page": 19,
+          "crop": {
+            "x": 0.425,
+            "y": 0.262,
+            "w": 0.23,
+            "h": 0.083
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "64",
@@ -1747,7 +1894,6 @@
       "text": "(a) A patient was given a certain amount of iodine-131 as a part of a diagnostic procedure for thyroid disorder. Given that the half-life of radioactive ¹³¹I is 8 days, what fraction of the initial ¹³¹I would be present in a patient after 32 days if none of it were eliminated through natural body processes?\n(b) The potential energy diagram, for a multistep reaction is given below:\n(i) Which step will be the rate determining step of the reaction?\n(ii) Which step is faster A→B or B→ C?",
       "hasFigure": true,
       "extractionIssues": [
-        "Potential energy diagram for (b) on page 20 not reproduced",
         "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
         "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page.",
         "Official answer: '[A0]' is printed with a subscript 0 in one line and a superscript 0 in the next; kept as printed."
@@ -1758,7 +1904,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "chemical-kinetics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/67.png",
+          "kind": "FIGURE",
+          "alt": "Potential energy diagram: energy against reaction co-ordinate with points A, B and C, two peaks and activation energies marked Ea",
+          "width": 705,
+          "height": 434,
+          "page": 20,
+          "crop": {
+            "x": 0.295,
+            "y": 0.228,
+            "w": 0.395,
+            "h": 0.172
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "68",
@@ -1773,7 +1937,6 @@
       "text": "(a) Aman and Rohan were working on the kinetics involved in decomposition of hydrogen peroxide in the presence of iodide ions.\nH₂O₂(l) → H₂O + ½ O₂(g)\nThey both had their respective hypothesis as follows:\nAccording to Aman the rate will be affected by changing the concentrations of hydrogen peroxide and iodide ions as iodide ions are involved in the reaction.\nAccording to Rohan the rate will only be affected by changing the concentration of hydrogen peroxide.\nThey carried out several experiments to check their respective hypothesis. Their results are shown graphically below:\n(i) What do you think whose hypothesis is correct and why?\n(ii) Do you think that the half -life of this reaction will change if concentration of hydrogen peroxide is reduced to half. Give a reason.\n(b) In a chemical reaction, two reactants take part. The rate of reaction is directly proportional to the concentration of one of them and inversely proportional to the concentration of other. What will be the unit of its rate constant if the concentration terms are in mol/L?",
       "hasFigure": true,
       "extractionIssues": [
-        "Two graphs (rate against [H2O2] and rate against [Iodide]) on page 21 not reproduced",
         "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
         "The reaction arrow in the equation is drawn as a graphic and is missing from the text layer; written as → from the rendered page.",
         "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
@@ -1784,7 +1947,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "chemical-kinetics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/68.png",
+          "kind": "GRAPH",
+          "alt": "Two graphs: rate against [H2O2] starting at the origin, and rate against [Iodide]",
+          "width": 887,
+          "height": 632,
+          "page": 21,
+          "crop": {
+            "x": 0.3,
+            "y": 0.348,
+            "w": 0.497,
+            "h": 0.25
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "69",
@@ -1799,7 +1980,6 @@
       "text": "(a) Observe the structures of protein given below and answer the questions that follows:\n(i) Which type of structures do A and B represent?\n(ii) How can these structures be converted to primary structure?\n(b) Write a balanced chemical reaction of D-glucose with excess of phenyl hydrazine.",
       "hasFigure": true,
       "extractionIssues": [
-        "Protein structure drawings A and B on page 22 not reproduced",
         "Official answer partly missing in extraction (figure/equation): Reaction of glucose with phenyl hydrazine forming glucosazone for (b) on page 41 not reproduced"
       ],
       "confidence": "MEDIUM",
@@ -1808,7 +1988,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "biomolecules",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/69.png",
+          "kind": "FIGURE",
+          "alt": "Two protein structure drawings labelled (A) and (B); (B) has ends marked N and C",
+          "width": 420,
+          "height": 285,
+          "page": 22,
+          "crop": {
+            "x": 0.428,
+            "y": 0.173,
+            "w": 0.235,
+            "h": 0.113
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "70",
@@ -1822,17 +2020,48 @@
       "type": "SHORT_ANSWER",
       "text": "(a) Two students took the solution of same amino acid at different pH and applied potential difference to their solutions respectively.\nStudent A\nStudent B\n(i) What do you think which student will observe a potential difference zero and why?\n(ii) What would you do in order to get a positive observation?\n(b) The graph given below shows the rate of enzyme-catalysed reaction with temperature:\n(i) Why does the rate of reaction decrease at high temperature?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Table pairing 'Student A' and 'Student B' with amino-acid structures (images) on page 23 not reproduced",
-        "Graph of enzyme-catalysed reaction rate against temperature on page 23 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(a) (i) Student B will observe zero potential difference as it forms zwitter ion and it does not migrate under the influence of applied electric field.\n(ii) Will change the pH of the solution.\n(b) (i) As enzymes are globular proteins and at high temperature denaturation takes place."
       },
       "cognitiveLevel": "Analysis & Application",
       "chapter": "biomolecules",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/70.png",
+          "kind": "TABLE",
+          "alt": "Table: Student A and Student B, each with an amino-acid structure drawing",
+          "width": 614,
+          "height": 277,
+          "page": 23,
+          "crop": {
+            "x": 0.378,
+            "y": 0.212,
+            "w": 0.344,
+            "h": 0.11
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/70-2.png",
+          "kind": "GRAPH",
+          "alt": "Graph of rate of enzyme-catalysed reaction (arbitrary units, low to high) against temperature at which the rate was measured (10 to 60 °C)",
+          "width": 791,
+          "height": 818,
+          "page": 23,
+          "crop": {
+            "x": 0.323,
+            "y": 0.427,
+            "w": 0.443,
+            "h": 0.324
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "71",
@@ -2067,7 +2296,6 @@
       "text": "Geet has set-up the following galvanic cell by taking the electrolyte solution of Pb(NO₃)₂ and CrCl₃.\nE°= – 0.13 V\nE°= – 0.74 V\n(a) How will you design the feasible cell by taking appropriate salt solution in place of solution A and B?\n(b) What is the applicability of the above cell?\n(c) Consider, salt bridge is filled with Potassium Chloride (KCl) solution. How does salt bridge maintain electrical neutrality?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure (galvanic cell picture: solution A, solution B, salt bridge) on page 25 not reproduced",
         "Subscripts/superscripts/charges rebuilt from the PDF layout (the text layer prints them flat, e.g. C2H5ONa, mol-1, Fe2+); each checked against the rendered page.",
         "E° is printed as E with a raised 'o'. The two E° values are printed below the picture; which electrode each belongs to is shown only in the picture.",
         "Formulae printed in an italic equation font; letters normalised to plain text ('P b' in the text layer).",
@@ -2079,7 +2307,25 @@
       },
       "cognitiveLevel": "Create",
       "chapter": "electrochemistry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/80.png",
+          "kind": "FIGURE",
+          "alt": "Galvanic cell: two beakers labelled solution A and Solution B, each with a metal electrode, joined by a salt bridge; external wire with a meter and an arrow marked e-",
+          "width": 554,
+          "height": 354,
+          "page": 25,
+          "crop": {
+            "x": 0.395,
+            "y": 0.54,
+            "w": 0.31,
+            "h": 0.14
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "81",
@@ -2206,7 +2452,6 @@
       "text": "Ships, being exposed to saltwater and atmospheric conditions, are highly susceptible to rust and corrosion.\nThis is one method used to prevent corrosion.\nFigure 1\n(a) Give name of the method employed?\n(b) Name the cathode and anode in this process?\n(c) How is cathode protected?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 1 (anode connected to an underground pipeline as cathode) on page 27 not reproduced",
         "Official answer: subscripts/superscripts/charges rebuilt from the PDF layout; checked against the rendered page."
       ],
       "confidence": "MEDIUM",
@@ -2215,7 +2460,25 @@
       },
       "cognitiveLevel": "Understanding",
       "chapter": "electrochemistry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/86.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1: a vertical block labelled Anode joined by a wire (arrow e-) to a cylinder labelled Underground pipeline and Cathode",
+          "width": 724,
+          "height": 589,
+          "page": 27,
+          "crop": {
+            "x": 0.345,
+            "y": 0.548,
+            "w": 0.405,
+            "h": 0.233
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "87",
@@ -2371,7 +2634,6 @@
       "text": "Water pollution caused by toxic elements is one of the most important environmental problems in the world. The objectives of this study were: the effects of chelating agents on heavy metals extraction from polluted water were carried out to examine Chelating agents like Ethylenediamine tetra acetate (EDTA), oxalic acid (OA) and citric acid (CA) were tested respectively. The effects of operating parameters, such as pH and extraction time were examined. Removal of metals was dependent on the concentration of extracting agent and raised with increasing concentration of chelating agents.\nSource: DOI : http://dx.doi.org/10.13005/ojc/330414\n(a) What are chelating agents?\n(b) Name any two heavy metals which are considered toxic.\n(c) From the above graph, arrange the order of chelating agents with respect to the % removal of toxic metals.\n(d) Draw the structure of EDTA.\n(e) What is the main factor on which the removal of metals depends on contaminated water using Chelating Agents?",
       "hasFigure": true,
       "extractionIssues": [
-        "Graph of % metal removal against pH for EDTA, OA and CA on page 31 not reproduced",
         "Official answer partly missing in extraction (figure/equation): Structure of EDTA for (d) on page 46 not reproduced"
       ],
       "confidence": "MEDIUM",
@@ -2380,7 +2642,25 @@
       },
       "cognitiveLevel": "Understanding",
       "chapter": "coordination-compounds",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-chemistry/93.png",
+          "kind": "GRAPH",
+          "alt": "Line graph of %Precentage Metal Removal (30-70) against pH (0-12) for EDTA, OA and CA",
+          "width": 1167,
+          "height": 740,
+          "page": 31,
+          "crop": {
+            "x": 0.222,
+            "y": 0.378,
+            "w": 0.653,
+            "h": 0.293
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "94",

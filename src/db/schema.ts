@@ -93,6 +93,23 @@ export const EXTRACTION_METHODS = ["PDF_TEXT_LAYER", "OCR", "PASTED_TEXT", "MANU
 export type ExtractionMethod = (typeof EXTRACTION_METHODS)[number];
 
 export const CONFIDENCE_LEVELS = ["HIGH", "MEDIUM", "LOW"] as const;
+
+/** Whether a question's own mark is printed on the source paper (never inferred). */
+export const MARKS_STATUSES = ["PRINTED", "GROUP_TOTAL", "NOT_PRINTED", "FRACTIONAL"] as const;
+export type MarksStatus = (typeof MARKS_STATUSES)[number];
+
+/** A figure, table, graph, map or passage cropped from the original source page. Never redrawn. */
+export type FigureAsset = {
+  src: string;
+  kind: "FIGURE" | "TABLE" | "GRAPH" | "MAP" | "PASSAGE";
+  alt: string;
+  width: number;
+  height: number;
+  page: number;
+  crop: { x: number; y: number; w: number; h: number };
+  method: "SOURCE_PAGE_CROP";
+  confidence: "HIGH" | "MEDIUM";
+};
 export type Confidence = (typeof CONFIDENCE_LEVELS)[number];
 
 /** Where a chapter/topic mapping came from. Only CONFIRMED mappings are treated as fact. */
@@ -267,6 +284,12 @@ export const questions = sqliteTable(
     mappingSource: text("mapping_source").notNull().default("author"),
     answerSource: text("answer_source", { enum: ANSWER_SOURCES }).notNull().default("NONE"),
     hasFigure: integer("has_figure", { mode: "boolean" }).notNull().default(false),
+    /** Whether this item's own mark is printed (see migration 0005). Non-PRINTED questions have marks = 0. */
+    marksStatus: text("marks_status", { enum: MARKS_STATUSES }).notNull().default("PRINTED"),
+    /** For GROUP_TOTAL: the printed group total, e.g. "Q1 (10 items): [10]". */
+    marksNote: text("marks_note").notNull().default(""),
+    /** JSON array of figures cropped from the original source page (FigureAsset[]), or null. */
+    figure: text("figure"),
     extractionConfidence: text("extraction_confidence", { enum: CONFIDENCE_LEVELS }),
     /** JSON array of strings describing what extraction may have lost. */
     extractionIssues: text("extraction_issues").notNull().default("[]"),

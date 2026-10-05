@@ -23,7 +23,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Zoomed render: radical covers the 7 only (√7·x)."
+      "notes": "Zoomed render: radical covers the 7 only (√7·x).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1ii",
@@ -39,7 +49,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1iii",
@@ -55,7 +75,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1iv",
@@ -71,7 +101,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1v",
@@ -87,7 +127,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "All five matrices checked against render."
+      "notes": "All five matrices checked against render.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1vi",
@@ -96,14 +146,25 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 3 is needed: positions of D (on BC produced) and E (making ABCE cyclic) are shown only there.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "p3: diagram beside the options of 1(vi). | Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1vii",
@@ -119,7 +180,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1viii",
@@ -135,7 +206,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1ix",
@@ -151,7 +232,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1x",
@@ -167,7 +258,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "sin²A + sinA = 1; cos⁴A + cos²A = 1; 1 − sin²A = cos²A confirmed on render."
+      "notes": "sin²A + sinA = 1; cos⁴A + cos²A = 1; 1 − sin²A = cos²A confirmed on render.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1xi",
@@ -176,14 +277,25 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Side lengths (15 cm, 3 cm, 75 cm etc.) are given only in the figure on page 5.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "p5: the two figures printed beside the options (left figure ABDC, right figure GFEH). | Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1xii",
@@ -199,7 +311,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1xiii",
@@ -215,7 +337,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Item numbers (xiii)-(xv) stacked in text layer; association confirmed on render."
+      "notes": "Item numbers (xiii)-(xv) stacked in text layer; association confirmed on render.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1xiv",
@@ -231,7 +363,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed as 0 < −(x/3) < 2, minus before the fraction."
+      "notes": "Printed as 0 < −(x/3) < 2, minus before the fraction.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#1xv",
@@ -247,7 +389,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#2i",
@@ -288,14 +440,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 7 is needed: that D lies on AB (and E on AC) is shown only there.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p7: figure beside 2(iii).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#3i",
@@ -336,14 +498,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Coordinates of A, B, C, D are given only in the graph on page 8.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "p8: graph of parallelogram ABCD. | Page 8: re-cropped wider (x 0.185-0.795) so the x' label at the left end of the x-axis and the whole graph paper are inside; checked the PNG (colour kept).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#4i",
@@ -464,14 +637,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 11 is needed: the object of both angles of depression (top A of the tower) is shown only there.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p11: diagram beside 6(ii).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#7i",
@@ -496,14 +679,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph on page 12 is needed: Q on the negative y-axis is shown only there.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p12: graph below 7(ii).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#7iii",
@@ -608,14 +801,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 15 is needed: the chords and line OCB are shown only there.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p15: figure beside 9(iii).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-mathematics#10i",
@@ -656,14 +859,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Cumulative frequency graph on page 16 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p16: ogive with printed point labels.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

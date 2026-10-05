@@ -106,13 +106,29 @@
       "text": "Write the name of topology for the following: - (1) (2) (3) (4)",
       "hasFigure": true,
       "extractionIssues": [
-        "Marks printed only for the group; kept as one entry with the group total",
-        "Depends on a figure/map that is not reproduced",
-        "Figure on page 2 not reproduced (four network topology diagrams)"
+        "Marks printed only for the group; kept as one entry with the group total"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "networks",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-computer-studies-icse-class-8-assessment-2-computer-290224-2024/IV.png",
+          "kind": "FIGURE",
+          "alt": "Four network diagrams numbered (1) to (4), each showing computers connected in a different arrangement",
+          "width": 1304,
+          "height": 1012,
+          "page": 2,
+          "crop": {
+            "x": 0.085,
+            "y": 0.53,
+            "w": 0.73,
+            "h": 0.415
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "V",

@@ -176,14 +176,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Image of cells A-D on page 25 is needed to answer.",
-      "notes": "Scheme p26 gives D. Ch2 teaches nerve cells."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p26 gives D. Ch2 teaches nerve cells.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 25: the item's source box with cells A-D, cropped whole (the question is on page 26).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-science#Science8GS3a",
@@ -384,14 +394,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure 'Forces' on page 41 is needed; balanced forces are deferred to higher grades in Ch5.",
-      "notes": "Scheme p42 gives fig (b)."
+      "reason": "Chapter uncertain: balanced/unbalanced forces are deferred to higher grades in the current Grade 8 book; figure recovered.",
+      "notes": "Scheme p42 gives fig (b).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 41: source figure 'Fig- Forces' cropped whole with its caption. The chapter hold is unchanged.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-science#Science8SB4b",
@@ -512,14 +532,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure of the wheel with directions A-D on page 48 is needed to answer.",
-      "notes": "Scheme p49 gives B."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p49 gives B.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 48: source figure 'Fig: Wheel of a moving car' cropped whole with its caption.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-science#Science8SB2",
@@ -768,14 +798,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Eye figure on page 81 is needed; human eye structure is not in current Ch10.",
-      "notes": "Scheme p82 gives C."
+      "reason": "Chapter uncertain: human eye structure is not in the current Grade 8 Ch10; figure recovered.",
+      "notes": "Scheme p82 gives C.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 81: source eye diagram cropped whole. The chapter hold is unchanged.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-science#Science8RD4b",

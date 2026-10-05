@@ -43,25 +43,40 @@
       "type": "MCQ",
       "text": "A point charge −Q and three points A, B and C are shown in Figure 1 below. If V is electric potential and E is electric field intensity, we can infer that:",
       "options": [
-        "EA > EB > EC",
-        "EA < EB < EC",
-        "VA < VC < VB",
-        "VA > VC > VB"
+        "E_{A} > E_{B} > E_{C}",
+        "E_{A} < E_{B} < E_{C}",
+        "V_{A} < V_{C} < V_{B}",
+        "V_{A} > V_{C} > V_{B}"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 1 (point charge −Q and points A, B, C) on page 2 not reproduced; the relative positions of A, B and C are needed to answer this question.",
-        "Subscript flattened: EA, EB, EC, VA, VB, VC"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(c) VA < VC < VB",
+        "text": "(c) V_{A} < V_{C} < V_{B}",
         "correctOption": 2
       },
       "cognitiveLevel": "Analyse",
       "chapter": "electrostatic-potential-potential-energy-and-capacitance",
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-physics-specimen/1Ai.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1: a straight line with point O (charge −Q) and points A, C and B marked along it",
+          "width": 714,
+          "height": 169,
+          "page": 2,
+          "crop": {
+            "x": 0.28,
+            "y": 0.292,
+            "w": 0.4,
+            "h": 0.067
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -108,10 +123,8 @@
         "I = 8A towards C, with r = 0·050 m"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 2 (wire CD and point P) on page 2 not reproduced; needed to confirm the geometry referred to in the options."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(d) I = 8A towards C, with r = 0·050 m",
         "correctOption": 3
@@ -119,7 +132,25 @@
       "cognitiveLevel": "Analyse",
       "chapter": "moving-charges-and-magnetism",
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-physics-specimen/1Aiii.png",
+          "kind": "FIGURE",
+          "alt": "Figure 2: vertical wire CD with current I, and point P at distance r from the wire",
+          "width": 358,
+          "height": 333,
+          "page": 2,
+          "crop": {
+            "x": 0.4,
+            "y": 0.638,
+            "w": 0.2,
+            "h": 0.132
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -332,12 +363,10 @@
       "marks": 1,
       "type": "SHORT_ANSWER",
       "text": "When can a gamma ray photon produce a proton and an antiproton pair?",
-      "extractionIssues": [
-        "Superscript/subscript flattened: 2(mp)c2"
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "officialAnswer": {
-        "text": "The gamma ray photon should have the minimum energy of 2(mp)c2. Or The gamma ray photon should have the Combined Minimum Energy E = 938·3 + 938·3 = 1876·6MeV."
+        "text": "The gamma ray photon should have the minimum energy of 2(mₚ)c². Or The gamma ray photon should have the Combined Minimum Energy E = 938·3 + 938·3 = 1876·6MeV."
       },
       "cognitiveLevel": "Recall",
       "chapter": "dual-nature-of-radiation-and-matter",
@@ -396,21 +425,35 @@
       "sectionTitle": null,
       "marks": 2,
       "type": "NUMERICAL",
-      "text": "A negatively charged thundercloud above the earth's surface may be perceived as a parallel plate capacitor. The lower plate of the capacitor is the Earth's surface, and the upper plate is the base of the thundercloud. The area of the base of the thundercloud = 4·5 × 108m2, distance of thundercloud base from the earth's surface = 4425m. Calculate the capacitance of this capacitor.",
+      "text": "A negatively charged thundercloud above the earth's surface may be perceived as a parallel plate capacitor. (Refer to the image below.)\nThe lower plate of the capacitor is the Earth's surface, and the upper plate is the base of the thundercloud. The area of the base of the thundercloud = 4·5 × 10⁸m², distance of thundercloud base from the earth's surface = 4425m. Calculate the capacitance of this capacitor.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 3 (thundercloud/capacitor illustration) on page 4 not reproduced; not essential since the needed values are given in the text.",
-        "Superscript flattened: 108 (area exponent, m2)",
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "C = ε0A/d = (8·85×10−12×4·5×108)/4425 = 0·009×10−4 = 9×10−7 F"
+        "text": "C = ε₀A/d\n= (8·85 × 10⁻¹² × 4·5 × 10⁸)/4425\n= 0·009 × 10⁻⁴\n= 9 × 10⁻⁷F"
       },
       "cognitiveLevel": "Apply",
       "chapter": "electrostatic-potential-potential-energy-and-capacitance",
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-physics-specimen/2i.png",
+          "kind": "FIGURE",
+          "alt": "Figure 3: a cloud drawn above a horizontal line labelled Earth's surface, with the cloud base marked by a row of + signs, the gap labelled Air and a vertical arrow marked 4425m",
+          "width": 982,
+          "height": 479,
+          "page": 4,
+          "crop": {
+            "x": 0.23,
+            "y": 0.558,
+            "w": 0.55,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -651,18 +694,33 @@
       "type": "NUMERICAL",
       "text": "Three identical cells each of emf 1·5V and internal resistance of 2Ω are connected in series to form a battery B. This battery is connected to an ammeter A (of negligible resistance) and five other resistors as shown in Figure 4 below. Calculate the reading of the ammeter A.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 4 (resistor network) on page 6 not reproduced; only four of the five resistor values are visible in the extracted text (R1=10Ω, R2=120Ω, R3=14Ω, R4=30Ω) — R5's value (40Ω, used in the official answer) is not present in the question's extracted text.",
-        "Official answer partly missing in extraction (equation working not in the text layer); see pages 15-16"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "R4, R5 and R2 are in parallel. Their equivalent resistance R6 = 15Ω. Now, R1, R6 and R3 are in series. R = 10 + 15 + 14 = 39Ω. Reading of ammeter = 0·1A."
+        "text": "R₄, R₅ and R₂ are in parallel.\nTheir equivalent resistance R₆ is given by\n1/R₆ = 1/30 + 1/40 + 1/120\n∴ R₆ = 15Ω\nNow, R₁, R₆ and R₃ are in series.\n∴ R = 10 + 15 + 14 = 39Ω\nCurrent I delivered by the battery is given by\nI = E_{Total}/(R + r) = 4·5/(39 + 6)\n= 0·1A\nReading of ammeter = 0·1A"
       },
       "cognitiveLevel": "Apply",
       "chapter": "current-electricity",
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-physics-specimen/10i.png",
+          "kind": "FIGURE",
+          "alt": "Figure 4: circuit with battery B, ammeter A and resistors R1 = 10Ω, R2 = 120Ω, R3 = 14Ω, R4 = 30Ω and R5 = 40Ω",
+          "width": 1000,
+          "height": 505,
+          "page": 6,
+          "crop": {
+            "x": 0.23,
+            "y": 0.262,
+            "w": 0.56,
+            "h": 0.2
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",
@@ -676,17 +734,34 @@
       "text": "In the circuit shown in Figure 5 below, the central zero galvanometer G shows no deflection when the key K is closed. Calculate the value of resistor R1.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 5 (Wheatstone-bridge/meter-bridge circuit) on page 6 not reproduced in full; component positions (R1, R2=12Ω, R3=24Ω, a 2V cell, key K, galvanometer G, and a 0-100cm bridge wire with the jockey at 60cm) are only partly recoverable from the extracted text.",
         "Official answer partly missing in extraction (equation working not in the text layer); see page 16"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "R2 and R3 are in parallel. Their equivalent resistance R4 = 8Ω. It is a balanced Wheatstone bridge. R1 = 12Ω."
       },
       "cognitiveLevel": "Apply",
       "chapter": "current-electricity",
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-physics-specimen/10ii.png",
+          "kind": "FIGURE",
+          "alt": "Figure 5: metre bridge AB (0 cm to 100 cm) with jockey N at 60 cm, galvanometer G joined to point M, resistors R1, R2 = 12Ω and R3 = 24Ω between C and D, a 2V cell and key K",
+          "width": 973,
+          "height": 758,
+          "page": 6,
+          "crop": {
+            "x": 0.235,
+            "y": 0.548,
+            "w": 0.545,
+            "h": 0.3
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "11",
@@ -700,17 +775,34 @@
       "text": "An alpha particle is moving with a velocity v. It enters a uniform magnetic field (B) as shown below. The magnetic field is perpendicular and into the plane of the paper. A uniform electric field is applied in the same region as the magnetic field so that the alpha particle passes undeviated through the combined fields.\n(i) What should be the direction of the electric field?\n(ii) Without any change in the electric and magnetic field, the alpha particle is replaced by a proton moving with a velocity v. Will there be any change in the path of the particle? Give a reason for your answer.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 6 (velocity-selector diagram showing the direction of v relative to B) on page 7 not reproduced; the exact geometry needed to answer part (i) is not in the extracted text.",
         "Vector-arrow glyphs over E and B did not extract cleanly (rendered as stray characters in the marking scheme); reconstructed as plain E, B.",
         "Cognitive-level tags printed per sub-part: (i) Analyse, (ii) Evaluate — not captured in a single cognitiveLevel field because they differ per sub-part."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) The electric field should be in the plane of the paper, pointing vertically downwards.\n(ii) Since the alpha particle travels undeviated, the magnetic force equals the electric force: Bqv = qE, so v = E/B. Since protons also obey the same relation (same v, same E and same B), they will also travel undeviated."
       },
       "chapter": "moving-charges-and-magnetism",
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-physics-specimen/11.png",
+          "kind": "FIGURE",
+          "alt": "Figure 6: region of crosses marking a uniform magnetic field (B) into the page, with an alpha particle of velocity v entering from the left",
+          "width": 947,
+          "height": 430,
+          "page": 7,
+          "crop": {
+            "x": 0.215,
+            "y": 0.168,
+            "w": 0.53,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "12",
@@ -724,7 +816,6 @@
       "text": "(i) State any one difference between the nature of magnetic field inside a current carrying solenoid and that along the axis of a current carrying circular coil.\n(ii) A current is passed through a circular coil A in a clockwise direction, as shown in Figure 7. B is another circular coil which does not carry any current. However, when it is moved towards the coil A, current is induced in it. What is the direction of this induced current?\n(iii) Why is steel preferred to soft iron in making permanent magnets.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 7 (coils A and B with an observer O) on page 7 not reproduced; needed to determine the geometric orientation for part (ii).",
         "Cognitive-level tags printed per sub-part: (i) Recall, (ii) Analyse, (iii) Recall — not captured in a single cognitiveLevel field because they differ per sub-part."
       ],
       "confidence": "LOW",
@@ -733,7 +824,25 @@
       },
       "chapter": "moving-charges-and-magnetism",
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-physics-specimen/12.png",
+          "kind": "FIGURE",
+          "alt": "Figure 7: observer O, circular coil A with arrows showing the current direction, and circular coil B with an arrow showing it moving towards A",
+          "width": 920,
+          "height": 409,
+          "page": 7,
+          "crop": {
+            "x": 0.235,
+            "y": 0.605,
+            "w": 0.515,
+            "h": 0.162
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "13",
@@ -744,11 +853,10 @@
       "sectionTitle": null,
       "marks": 3,
       "type": "CASE_BASED",
-      "text": "A physics teacher drew a ray diagram on the board as shown below and asked the following questions to the students. State whether the answer of the student is correct or incorrect. Correct the incorrect response with an explanation in brief.\n(i) Teacher: There is a point P on the screen where the path difference between two interfering light waves is exactly 1·2 × 10-6 m. If the light emitted by the source has a wavelength of 600 nm, can anyone tell me whether a bright or a dark fringe will form at the point P?\nStudent: Dark fringe will be obtained.\n(ii) Teacher: Two students performed the same Young's double slit experiment. One student obtained wider fringes. What is the possible reason for this observation?\nStudent: The student who obtained wider fringes must have increased the distance between the two slits.\n(iii) Teacher: If one of the slits is closed with a finger while performing the experiment, what change will be noticed on the screen?\nStudent: The screen will get illuminated uniformly.",
+      "text": "A physics teacher drew a ray diagram on the board as shown below and asked the following questions to the students. State whether the answer of the student is correct or incorrect. Correct the incorrect response with an explanation in brief.\n(i) Teacher: There is a point P on the screen where the path difference between two interfering light waves is exactly 1·2 × 10⁻⁶ m. If the light emitted by the source has a wavelength of 600 nm, can anyone tell me whether a bright or a dark fringe will form at the point P?\nStudent: Dark fringe will be obtained.\n(ii) Teacher: Two students performed the same Young's double slit experiment. One student obtained wider fringes. What is the possible reason for this observation?\nStudent: The student who obtained wider fringes must have increased the distance between the two slits.\n(iii) Teacher: If one of the slits is closed with a finger while performing the experiment, what change will be noticed on the screen?\nStudent: The screen will get illuminated uniformly.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 8 (ray diagram) on page 8 not reproduced (illustrative; the numeric values needed for part (i) are given in the text).",
-        "Superscript flattened: 10-6"
+        "Figure 8 (ray diagram) on page 8 not reproduced (illustrative; the numeric values needed for part (i) are given in the text)."
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
@@ -817,16 +925,33 @@
       "text": "Study the images shown in Figure 9 below given below carefully and answer the questions that follow. (All three surfaces have same work function = 2·3eV)\n(i) Why are no photoelectrons emitted in image 'A'?\n(ii) Which image corresponds to the highest stopping potential?\n(iii) If the photon energy in image B = 2·8 eV, calculate the maximum kinetic energy of the emitted photo electrons.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 9 (three images A, B, C showing incident photon energies/currents for a photoelectric-effect setup) on page 9 not reproduced; parts (i) and (ii) cannot be answered from the extracted text alone (only image B's photon energy, 2·8 eV, is given in text).",
         "Cognitive-level tags printed per sub-part: (i) Analyse, (ii) Recall, (iii) Apply — not captured in a single cognitiveLevel field because they differ per sub-part."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) No photoelectrons are emitted because the energy of the incident photons is less than the work function of the material. For photoelectric emission to take place, the incident photon energy must be greater than or equal to the threshold work function.\n(ii) C\n(iii) Using Einstein's photoelectric equation: Kmax = E − φ = 2·8 − 2·3 = 0·5eV. The maximum kinetic energy of the emitted photoelectrons in image B is 0·5 eV."
       },
       "chapter": "dual-nature-of-radiation-and-matter",
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-physics-specimen/16.png",
+          "kind": "FIGURE",
+          "alt": "Figure 9: three images labelled A, B and C, each showing waves of light falling on a metal plate",
+          "width": 759,
+          "height": 316,
+          "page": 9,
+          "crop": {
+            "x": 0.26,
+            "y": 0.145,
+            "w": 0.425,
+            "h": 0.125
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "17",
@@ -858,21 +983,37 @@
       "sectionTitle": null,
       "marks": 5,
       "type": "CASE_BASED",
-      "text": "(a) The graph below shows variation of current (I) flowing through an electrical device with time (t), when an ac source e = 240sin(ωt) V is connected to it.\n(1) Identify the device. (resistor, capacitor or an inductor)\n(2) Calculate the frequency of the current flowing through the device.\n(3) How much is the opposition offered by this device?\n(b) A train is moving on horizontal tracks that are 1·2m apart. Its displacement (x) depends on time (t) as x(m) = 3t2 + 6. Vertical component of earth's magnetic field in its region of motion is 2 × 10-5 T. Calculate the emf induced between two ends of its axle rod 10s after the train starts moving.",
+      "text": "(a) The graph below shows variation of current (I) flowing through an electrical device with time (t), when an ac source e = 240sin(ωt) V is connected to it.\n(1) Identify the device. (resistor, capacitor or an inductor)\n(2) Calculate the frequency of the current flowing through the device.\n(3) How much is the opposition offered by this device?\n(b) A train is moving on horizontal tracks that are 1·2m apart. Its displacement (x) depends on time (t) as x(m) = 3t² + 6. Vertical component of earth's magnetic field in its region of motion is 2 × 10⁻⁵ T. Calculate the emf induced between two ends of its axle rod 10s after the train starts moving.",
       "hasFigure": true,
       "extractionIssues": [
-        "Graph on page 9 (current vs time waveform, gridlines at ±6, ±12 A and 20-160 ms) not reproduced; the values needed to answer (2) and (3) — period and peak current — are only visible in the graph, not stated as text.",
-        "Superscript flattened: 3t2, 10-5",
         "Cognitive-level tags printed per sub-part: (a)(1) Recall, (a)(2) Apply, (a)(3) Apply, (b) Apply — not captured in a single cognitiveLevel field because they differ per sub-part.",
         "Official answer partly missing in extraction (equation working not in the text layer for (2) and (3)); see pages 17-18"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(a) (1) Capacitor (current is leading over applied emf by 90°)\n(2) f = 12·5 Hz\n(3) Xc = 40Ω\n(b) x = 3t2 + 6, so dx/dt = 6t, v = 6t. After 10s, v = 6×10 = 60 ms-1. E = BLv = 2×10-5×1·2×60 = 1·44×10-3 V"
+        "text": "(a) (1) Capacitor (current is leading over applied emf by 90°)\n(2) f = 12·5 Hz\n(3) Xc = 40Ω\n(b) x = 3t² + 6, so dx/dt = 6t, v = 6t. After 10s, v = 6×10 = 60ms⁻¹. E = BLv = 2×10⁻⁵×1·2×60 = 1·44×10⁻³ V"
       },
       "chapter": "alternating-current",
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-physics-specimen/18i.png",
+          "kind": "GRAPH",
+          "alt": "Graph of current I (axis marked 12, 6, -6, -12) against time t (ms) marked 0 to 140",
+          "width": 893,
+          "height": 384,
+          "page": 9,
+          "crop": {
+            "x": 0.24,
+            "y": 0.615,
+            "w": 0.5,
+            "h": 0.152
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "18",

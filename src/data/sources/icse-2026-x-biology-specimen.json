@@ -910,16 +910,33 @@
       "text": "Study the diagram given below and match the structure with its function:\nExample: Scrotum - (f)\nFunctions:\n(a) Secrete Testosterone\n(b) Transports sperms to Epididymis\n(c) Stores sperms till maturation\n(d) Transport sperms to urethra\n(e) Produce sperms\n(f) Regulates temperature of Testis.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure/diagram on page 9 with labelled structures not reproduced; the 'Structure' column (names to be identified from the diagram) is not available as text.",
         "Official answer partly relies on the diagram: structure names are taken from the marking scheme and matched to functions (a)-(e)."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) – Interstitial cells; (b) – Efferent Ducts; (c) – Epididymis; (d) – Vas deferens; (e) – Seminiferous tubules"
       },
       "chapter": "reproductive-system",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding & Recall"
+      "cognitiveLevel": "Understanding & Recall",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-biology-specimen/2v.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a section through the testis and its ducts, with printed structure labels (the Structure column of the printed table)",
+          "width": 590,
+          "height": 644,
+          "page": 9,
+          "crop": {
+            "x": 0.162,
+            "y": 0.622,
+            "w": 0.33,
+            "h": 0.255
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -1020,7 +1037,7 @@
       "extractionIssues": [
         "Official answer is a diagram (not reproduced in text extraction); the marking scheme gives no text for this item, only the mark allocation."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "circulatory-system",
       "mappingStatus": "AI_SUGGESTED",
       "cognitiveLevel": "Understanding & Skill"
@@ -1121,16 +1138,32 @@
       "type": "SHORT_ANSWER",
       "text": "Plant hormones are produced in extremely low concentrations in plants to regulate the physiological processes and tropic movements –\n(a) Name one plant hormone responsible for the changes shown in the above picture.\n(b) Identify a hormone that has an opposite effect to the one depicted in the picture.\n(c) Give an example of a plant that shows Thigmotropism.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure/picture referenced in part (a)/(b) (page 11) not reproduced; parts (a) and (b) cannot be answered with certainty without it."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Abscisic acid, Ethylene\n(b) Auxin\n(c) Peas, Grapes, Ivy"
       },
       "chapter": "chemical-coordination-in-plants",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Analysis & Application"
+      "cognitiveLevel": "Analysis & Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-biology-specimen/4v.png",
+          "kind": "FIGURE",
+          "alt": "Picture of a twig with a leaf in three stages joined by arrows, captioned Healthy, green plant; Senescence, yellow plant; leaf fall",
+          "width": 868,
+          "height": 378,
+          "page": 11,
+          "crop": {
+            "x": 0.208,
+            "y": 0.29,
+            "w": 0.486,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -1512,7 +1545,7 @@
       "extractionIssues": [
         "Official answer is a diagram (not reproduced in text extraction); the marking scheme gives no text for this item, only the mark allocation."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "absorption-by-roots",
       "mappingStatus": "AI_SUGGESTED",
       "cognitiveLevel": "Analysis & Application"

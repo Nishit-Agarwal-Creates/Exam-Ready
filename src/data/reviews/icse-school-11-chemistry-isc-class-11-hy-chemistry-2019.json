@@ -368,14 +368,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Hand-drawn structures on page 4 are needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p4 right half (printed page 5): hand-drawn structures (i)-(iii) under Q12, before 'OR'. Hand-drawn but legible.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-11-chemistry-isc-class-11-hy-chemistry-2019#12b",
@@ -384,14 +394,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Hand-drawn structures on page 4 are needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p4 right half (printed page 5): hand-drawn OR set (i)-(iii) under Q12. Hand-drawn but legible.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-11-chemistry-isc-class-11-hy-chemistry-2019#13a",

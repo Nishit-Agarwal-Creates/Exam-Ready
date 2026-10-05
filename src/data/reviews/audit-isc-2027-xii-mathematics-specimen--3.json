@@ -1,0 +1,13 @@
+{
+  "pack": "isc-2027-xii-mathematics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF (paper and answer key in one file, sha256 confirmed) with pdftotext -layout and -raw, 3x page renders of the paper and key pages, and the published figure PNGs.",
+  "checks": [
+    { "key": "isc-2027-xii-mathematics-specimen#1xvi", "agree": false, "reason": "The official answer keeps the bold option but only one sentence of the key's explanation (p18); the lines 'The assertion states ... ∴ Assertion is true.' and '∴ Reason is true and Reason correctly explains the Assertion.' are missing, so it is not the scheme text exactly.", "round": "p51-fix" },
+    { "key": "isc-2027-xii-mathematics-specimen#9", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-mathematics-specimen#15i", "agree": false, "reason": "The official answer is paraphrased and reordered, not the key's text (p26): it starts with 'Area of ∆OPQ = a³ sq. units', replaces 'Given, L is the tangent to the graph of f at the origin O. Slope of the tangent at O = f′(0) = (2a²−0)/√(a²−0) = 2a' with its own wording ('2a²/√(a²)'), and adds 'area of'.", "round": "p51-fix" },
+    { "key": "isc-2027-xii-mathematics-specimen#15ii", "agree": false, "reason": "The official answer is paraphrased, not the key's text (p26-27): for example 'The parabola is of the form y = ax² + c, where a, c ∈ ℤ. Satisfying by, (0,9), we get c = 9.' becomes 'Parabola y=ax²+c: satisfying (0,9) gives c=9'.", "round": "p51-fix" },
+    { "key": "isc-2027-xii-mathematics-specimen#16", "agree": false, "reason": "The official answer is paraphrased with editorial wording not in the key (p27-28): (ii) puts the printed derivation inside an added bracket '[From ... confirming two branches.]' and changes 'As the graph fails the horizontal line test, hence it is not one-one' into its own sentence.", "round": "p51-fix" },
+    { "key": "isc-2027-xii-mathematics-specimen#17ii", "agree": false, "reason": "In (c) the official answer replaces the key's printed step '= (5kπ²/4)h³ · 5/((π/4)h²) = 25kπh' (p29) with invented text '(5Kπ²/4)h³·(πh²/4)×... = 25Kπh (as simplified in the marking scheme)', and the rest of the answer is paraphrased.", "round": "p51-fix" }
+  ]
+}

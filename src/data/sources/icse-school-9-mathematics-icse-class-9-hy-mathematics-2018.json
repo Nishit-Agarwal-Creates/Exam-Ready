@@ -110,11 +110,28 @@
       "type": "NUMERICAL",
       "text": "Find CD if ∠D = 90° AB = 16 cm BC = 12 Cm CA = 6 cm.",
       "extractionIssues": [
-        "Figure on page 1 not reproduced",
         "The degree sign prints as a superscript 'O'",
         "OCR text corrected against the page image"
       ],
-      "chapter": "pythagoras-theorem"
+      "chapter": "pythagoras-theorem",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-hy-mathematics-2018/2a.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABD with a right angle at D; point C on DB joined to A",
+          "width": 482,
+          "height": 290,
+          "page": 1,
+          "crop": {
+            "x": 0.32,
+            "y": 0.515,
+            "w": 0.27,
+            "h": 0.115
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "choiceGroup": null,
@@ -237,7 +254,7 @@
       "choiceGroup": null,
       "marksSource": "PRINTED",
       "hasFigure": true,
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "section": "A",
       "sectionTitle": "Section A [40 marks] (Attempt all questions)",
@@ -248,10 +265,27 @@
       "type": "NUMERICAL",
       "text": "ABCD is a trapezium. find the values of x and y.",
       "extractionIssues": [
-        "Figure on page 2 not reproduced (the angles 2x+10°, 92°, x+20° and y are given only on the figure)",
         "OCR text corrected against the page image"
       ],
-      "chapter": "rectilinear-figures"
+      "chapter": "rectilinear-figures",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-hy-mathematics-2018/4c.png",
+          "kind": "FIGURE",
+          "alt": "Trapezium ABCD with DC and AB marked parallel; angles marked 2x+10° at D, 92° at C, x+20° at A and y at B",
+          "width": 419,
+          "height": 260,
+          "page": 2,
+          "crop": {
+            "x": 0.39,
+            "y": 0.148,
+            "w": 0.235,
+            "h": 0.103
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "choiceGroup": null,
@@ -335,7 +369,7 @@
       "choiceGroup": null,
       "marksSource": "PRINTED",
       "hasFigure": true,
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "section": "B",
       "sectionTitle": "Section B (Attempt any four questions)",
@@ -346,10 +380,27 @@
       "type": "NUMERICAL",
       "text": "In the adjoining figure, ABCD is parallelogram find the values of x, y and z.",
       "extractionIssues": [
-        "Figure on page 2 not reproduced (sides (2x+2) cm, (3x−1) cm and angles 50°, 102°, y, z are given only on the figure)",
         "OCR text corrected against the page image"
       ],
-      "chapter": "rectilinear-figures"
+      "chapter": "rectilinear-figures",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-hy-mathematics-2018/6c.png",
+          "kind": "FIGURE",
+          "alt": "Parallelogram ABCD with diagonal AC extended beyond C; DC marked (2x+2) cm, AB marked (3x−1) cm; angles 50°, z, 102° and y marked",
+          "width": 536,
+          "height": 303,
+          "page": 2,
+          "crop": {
+            "x": 0.37,
+            "y": 0.513,
+            "w": 0.3,
+            "h": 0.12
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "choiceGroup": null,
@@ -366,10 +417,27 @@
       "type": "NUMERICAL",
       "text": "In the adjoining figure, ABC is an isosceles triangle with BC = 8 cm AB = AC = 12 cm. AD is perpendicular to BC and O is a point on AB such that ∠BOC = 90° find the area of shaded portion.",
       "extractionIssues": [
-        "Figure on page 2 not reproduced (the shaded portion is shown only on the figure)",
         "OCR text corrected against the page image"
       ],
-      "chapter": "mensuration"
+      "chapter": "mensuration",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-hy-mathematics-2018/7a.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABC with AD perpendicular to BC, point O on AD joined to B and C, and two regions hatched",
+          "width": 277,
+          "height": 341,
+          "page": 2,
+          "crop": {
+            "x": 0.42,
+            "y": 0.695,
+            "w": 0.155,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "choiceGroup": null,
@@ -534,7 +602,7 @@
       "choiceGroup": null,
       "marksSource": "PRINTED",
       "hasFigure": true,
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "section": "B",
       "sectionTitle": "Section B (Attempt any four questions)",
@@ -545,12 +613,30 @@
       "type": "NUMERICAL",
       "text": "ABCD is quadulateral in which AB = AD ∠A = 90° = ∠C, BC = 8 cm and CD = 6 cm. Find AB and area of ΔABD.",
       "extractionIssues": [
-        "No marks printed (marks 0 is a placeholder, not a real mark)",
-        "Figure on page 3 not reproduced (printed after part (b))",
         "'quadulateral' as printed",
         "OCR text corrected against the page image"
       ],
-      "chapter": "pythagoras-theorem"
+      "chapter": "pythagoras-theorem",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-hy-mathematics-2018/11a.png",
+          "kind": "FIGURE",
+          "alt": "Quadrilateral ABCD with diagonal BD, right angles marked at A and C, and AB and AD marked with equal ticks",
+          "width": 357,
+          "height": 291,
+          "page": 3,
+          "crop": {
+            "x": 0.42,
+            "y": 0.748,
+            "w": 0.2,
+            "h": 0.115
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "choiceGroup": null,

@@ -1,0 +1,18 @@
+{
+  "pack": "isc-itembank-2026-xi-environmental-science",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF (page renders with grid, pdftotext -layout and -raw) and the Answer Key printed in the same PDF; recovered figures opened and compared with the source page.",
+  "checks": [
+    { "key": "isc-itembank-2026-xi-environmental-science#49", "agree": true, "reason": "", "round": "p51" },
+    { "key": "isc-itembank-2026-xi-environmental-science#50", "agree": true, "reason": "", "round": "p51" },
+    { "key": "isc-itembank-2026-xi-environmental-science#140", "agree": false, "reason": "The stored official answer misnumbers part (b): the key on PDF page 80 prints (i) Energy advancements..., (ii) Mass Production..., (iii) Expansion of Global Trade..., (iv)-(vii) separate points, but the pack inserts '(ii)' to '(vii)' mid-sentence (e.g. 'while (ii) innovations', 'costs, (iv) making goods', '(vii) Expansion of Global Trade'), which comes from the misaligned layout text.", "round": "p51" },
+    { "key": "isc-itembank-2026-xi-environmental-science#178", "agree": true, "reason": "", "round": "p51" },
+    { "key": "isc-itembank-2026-xi-environmental-science#189", "agree": true, "reason": "", "round": "p51" },
+    { "key": "isc-itembank-2026-xi-environmental-science#193", "agree": true, "reason": "", "round": "p51" },
+    { "key": "isc-itembank-2026-xi-environmental-science#194", "agree": true, "reason": "", "round": "p51" },
+    { "key": "isc-itembank-2026-xi-environmental-science#201", "agree": true, "reason": "", "round": "p51" },
+    { "key": "isc-itembank-2026-xi-environmental-science#203", "agree": true, "reason": "", "round": "p51" },
+    { "key": "isc-itembank-2026-xi-environmental-science#205", "agree": true, "reason": "", "round": "p51" },
+    { "key": "isc-itembank-2026-xi-environmental-science#207", "agree": true, "reason": "", "round": "p51" }
+  ]
+}

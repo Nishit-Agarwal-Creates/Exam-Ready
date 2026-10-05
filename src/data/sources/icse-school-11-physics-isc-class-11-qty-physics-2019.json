@@ -428,19 +428,35 @@
       "type": "NUMERICAL",
       "text": "In the given graph find the ratio of velocity of A & B.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (displacement-time graph) on page 3 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "motion-in-a-straight-line",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-11-physics-isc-class-11-qty-physics-2019/7.png",
+          "kind": "GRAPH",
+          "alt": "Displacement-time graph with two straight lines A and B from the origin and angles 30° and 60° marked",
+          "width": 522,
+          "height": 358,
+          "page": 3,
+          "crop": {
+            "x": 0.6,
+            "y": 0.69,
+            "w": 0.22,
+            "h": 0.195
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
       "part": null,
       "choiceGroup": null,
       "page": 4,
-      "section": "SECTION C",
+      "section": "SECTION B",
       "sectionTitle": null,
       "marks": 3,
       "marksSource": "SECTION_INSTRUCTIONS",
@@ -459,7 +475,7 @@
       "part": null,
       "choiceGroup": null,
       "page": 4,
-      "section": "SECTION C",
+      "section": "SECTION B",
       "sectionTitle": null,
       "marks": 3,
       "marksSource": "SECTION_INSTRUCTIONS",
@@ -478,7 +494,7 @@
       "part": null,
       "choiceGroup": null,
       "page": 4,
-      "section": "SECTION C",
+      "section": "SECTION B",
       "sectionTitle": null,
       "marks": 3,
       "marksSource": "SECTION_INSTRUCTIONS",
@@ -497,41 +513,60 @@
       "part": "(a)",
       "choiceGroup": "11",
       "page": 4,
-      "section": "SECTION C",
+      "section": "SECTION B",
       "sectionTitle": null,
-      "marks": 3,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "A man can swim with a velocity of 10km/hr. in still water. If the river flows steadily at 5km/hr, in which direction should he swim in order to reach a point on the other bank directly opposite to the point from where he started. If the width of river is 2km find the time of crossing the river.",
       "hasFigure": false,
       "extractionIssues": [
-        "Alternative (a) of an OR pair; label (a) assigned by the editor, not printed",
-        "Marks not printed for this question; 3 taken from the printed marks of other questions in the same section"
+        "Alternative (a) of an OR pair; label (a) assigned by the editor, not printed"
       ],
       "confidence": "HIGH",
       "chapter": "motion-in-a-plane",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "11",
       "part": "(b)",
       "choiceGroup": "11",
       "page": 4,
-      "section": "SECTION C",
+      "section": "SECTION B",
       "sectionTitle": null,
-      "marks": 3,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "Find the acceleration of two blocks shown in figure below.",
       "hasFigure": true,
       "extractionIssues": [
-        "Alternative (b) (after OR); label (b) assigned by the editor, not printed",
-        "Marks not printed for this question; 3 taken from the printed marks of other questions in the same section",
-        "Figure (pulley with F = 100 N, 4kg and 5kg blocks, g = 10ms⁻²) on page 4 not reproduced"
+        "Alternative (b) (after OR); label (b) assigned by the editor, not printed"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "laws-of-motion",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": "",
+      "figures": [
+        {
+          "src": "/figures/icse-school-11-physics-isc-class-11-qty-physics-2019/11b.png",
+          "kind": "FIGURE",
+          "alt": "Pulley pulled up by a force F = 100 N with a string over it holding a 4 kg and a 5 kg block on the ground, g = 10 m s⁻²",
+          "width": 523,
+          "height": 413,
+          "page": 4,
+          "crop": {
+            "x": 0.19,
+            "y": 0.565,
+            "w": 0.22,
+            "h": 0.225
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "12",
@@ -786,12 +821,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "Alternative (a) of an OR pair; label (a) assigned by the editor, not printed; parts (i) and (ii) together form this alternative",
-        "Figure (4Kg block on a 30° incline, pulleys, 8 Kg block, g = 10m/s²) on page 2 not reproduced; part (ii) cannot be answered without it",
         "Question starts on printed page 6 (PDF page 3) and continues on printed page 7 (PDF page 2)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "laws-of-motion",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-11-physics-isc-class-11-qty-physics-2019/20a.png",
+          "kind": "FIGURE",
+          "alt": "4 kg block on a 30° incline connected by a string over pulleys to a hanging 8 kg block, g = 10 m/s²",
+          "width": 665,
+          "height": 321,
+          "page": 2,
+          "crop": {
+            "x": 0.6,
+            "y": 0.148,
+            "w": 0.28,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "20",

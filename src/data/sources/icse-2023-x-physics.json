@@ -430,18 +430,19 @@
       "page": 4,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Name a single pulley in which displacement of load and effort is not the same.\nState one advantage of this pulley.",
       "hasFigure": false,
       "extractionIssues": [
-        "The printed [3] covers (a), (b) and (c) of 2(i); the split is not printed; 1 mark assigned to each",
         "Text of (b) repeated as context because (c) refers to 'this pulley'"
       ],
       "confidence": "MEDIUM",
       "chapter": "machines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "2(i): [3] for (a), (b) and (c)"
     },
     {
       "number": "2",
@@ -473,12 +474,29 @@
       "text": "The diagram shows wheel O pivoted at point A. Three equal forces F₁, F₂ and F₃ act at point B on the wheel.\n(a) Which force will produce maximum moment about A?\n(b) Give a reason for your answer in (a).",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 5 not reproduced",
         "Notation rebuilt from the PDF layout (powers/subscripts/degree signs); check against the PDF"
       ],
       "confidence": "LOW",
       "chapter": "force",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-physics/2iii.png",
+          "kind": "FIGURE",
+          "alt": "Circle (wheel) with centre O, point A on the rim and point B at the bottom of the rim; three force arrows F1, F2 and F3 act at B in different directions",
+          "width": 404,
+          "height": 511,
+          "page": 5,
+          "crop": {
+            "x": 0.41,
+            "y": 0.105,
+            "w": 0.22,
+            "h": 0.215
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -598,12 +616,28 @@
       "type": "SHORT_ANSWER",
       "text": "A copper conductor is placed over two stretched copper wires whose ends are connected to a D.C. supply as shown in the diagram.\n(a) What should be the magnetic poles at the points A and B lying on either side of the conductor to experience the force in the upward direction?\n(b) Name the law used to find these polarities.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 6 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "electro-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-physics/3iii.png",
+          "kind": "FIGURE",
+          "alt": "Two stretched copper wires connected to a D.C. supply cell, with a thick copper conductor lying across them; points A and B on either side of the conductor; arrow F marked on the conductor; labels 'Thick copper conductor' and 'Stretched copper wires'",
+          "width": 826,
+          "height": 513,
+          "page": 6,
+          "crop": {
+            "x": 0.27,
+            "y": 0.374,
+            "w": 0.45,
+            "h": 0.216
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -652,12 +686,29 @@
       "text": "The diagram below shows the ray OP travelling through an equilateral prism of a certain material.\n(a) Calculate the value of i₂, if the angle of deviation is 43°.\n(b) What is the ray QS called?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 7 not reproduced (the angle marked at P appears only as a label in the figure)",
         "Notation rebuilt from the PDF layout (powers/subscripts/degree signs); check against the PDF"
       ],
       "confidence": "LOW",
       "chapter": "refraction-plane-surfaces",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-physics/4i.png",
+          "kind": "FIGURE",
+          "alt": "Triangular prism with ray O to P entering the left face (angle 65° marked at P with the dashed normal), travelling to Q on the right face and leaving towards S; angle i2 marked at Q",
+          "width": 697,
+          "height": 344,
+          "page": 7,
+          "crop": {
+            "x": 0.35,
+            "y": 0.263,
+            "w": 0.38,
+            "h": 0.145
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -672,12 +723,29 @@
       "text": "Copy the diagram given below and complete the path of the light ray PQ, as it emerges out of the prism by marking necessary angles. The critical angle of glass is 42°.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 7 not reproduced",
         "Notation rebuilt from the PDF layout (powers/subscripts/degree signs); check against the PDF"
       ],
       "confidence": "LOW",
       "chapter": "refraction-plane-surfaces",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-physics/4ii.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABC with all three angles marked 60°; a ray from P meets side AB at Q, with a 90° mark between the ray and AB",
+          "width": 587,
+          "height": 368,
+          "page": 7,
+          "crop": {
+            "x": 0.35,
+            "y": 0.475,
+            "w": 0.32,
+            "h": 0.155
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -691,12 +759,28 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram below shows two parallel rays A (Orange) & B (Blue) incident from air, on air-glass boundary.\n(a) Copy and complete the path of the rays A and B.\n(b) How do the speeds of these rays differ in glass?\n(c) Are the two refracted rays in glass parallel? Give a reason.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 7 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "refraction-plane-surfaces",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-physics/4iii.png",
+          "kind": "FIGURE",
+          "alt": "Two parallel rays A (labelled Orange) and B (labelled Blue) travelling down through air to a horizontal air-glass boundary; labels Air and Glass",
+          "width": 679,
+          "height": 420,
+          "page": 7,
+          "crop": {
+            "x": 0.46,
+            "y": 0.715,
+            "w": 0.37,
+            "h": 0.177
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -745,12 +829,29 @@
       "text": "(a) Infrared radiations are used in warfare. Explain with reason, why.\n(b) A ray of light is incident at 45° on an equilateral prism in the diagram below.\n1. Name the phenomenon exhibited by the ray of light when it enters and emerges out of the prism.\n2. State the cause of the above phenomenon mentioned by you.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 8 not reproduced",
         "Notation rebuilt from the PDF layout (powers/subscripts/degree signs); check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": "spectrum",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-physics/5iii.png",
+          "kind": "FIGURE",
+          "alt": "Prism with all three angles marked 60°; a ray labelled 'Incident light' meets the left face with 45° marked; rays labelled Red and Violet leave the right face",
+          "width": 679,
+          "height": 393,
+          "page": 8,
+          "crop": {
+            "x": 0.3,
+            "y": 0.355,
+            "w": 0.37,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -833,13 +934,31 @@
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "(a) Complete the following nuclear changes:\n²³⁸₉₂P → ___Q + ⁴₂He → ___R + ⁰₋₁e\n(b) Name the nuclear radiation which has the highest ionizing power.",
-      "hasFigure": false,
+      "hasFigure": true,
       "extractionIssues": [
         "Nuclear equation printed in an equation font; mass numbers (upper) and atomic numbers (lower) rebuilt from character positions. Each '___' stands for a pair of stacked blanks (mass number above, atomic number below) printed before Q and R; check against the PDF page 9"
       ],
       "confidence": "MEDIUM",
       "chapter": "radioactivity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-physics/7ii.png",
+          "kind": "FIGURE",
+          "alt": "Printed nuclear equation: P with mass number 238 and atomic number 92, arrow, Q with a pair of stacked blanks, plus He with 4 and 2, arrow, R with a pair of stacked blanks, plus e with 0 and −1",
+          "width": 569,
+          "height": 95,
+          "page": 9,
+          "crop": {
+            "x": 0.285,
+            "y": 0.662,
+            "w": 0.31,
+            "h": 0.04
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -904,12 +1023,28 @@
       "type": "NUMERICAL",
       "text": "Find the value of current I drawn from the cell.\n(a) Calculate the current I.\n(b) Calculate the terminal voltage.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagram on page 10 not reproduced (the circuit values appear only in the diagram)"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-physics/8iii.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram: a cell marked 3.4 v, 2Ω drives current I into a triangle of resistors marked 30Ω, 15Ω and 15Ω",
+          "width": 661,
+          "height": 356,
+          "page": 10,
+          "crop": {
+            "x": 0.29,
+            "y": 0.398,
+            "w": 0.36,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "9",
@@ -959,12 +1094,28 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram below shows a cardboard on which iron filings are kept. A wire bent in the form of a loop is seen passing through the cardboard. When current flows through it the iron filings arrange themselves as shown below.\n(a) State the polarities of the battery at A and B.\n(b) State the effect on the magnetic field if an iron rod is held along the axis of the coil.\n(c) State one way to:\n1. Change the polarity of the coil.\n2. Decrease the strength of the magnetic field around the coil.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 11 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "electro-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-physics/9iii.png",
+          "kind": "FIGURE",
+          "alt": "A wire loop passing through a flat cardboard, with circular patterns marked with arrows around the two points where the wire passes through (label 'Iron filings'); the wire ends at terminals A and B, with a variable resistor in the circuit",
+          "width": 881,
+          "height": 464,
+          "page": 11,
+          "crop": {
+            "x": 0.32,
+            "y": 0.163,
+            "w": 0.48,
+            "h": 0.195
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

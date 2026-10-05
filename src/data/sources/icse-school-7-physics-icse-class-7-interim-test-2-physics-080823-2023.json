@@ -253,12 +253,28 @@
       "type": "SHORT_ANSWER",
       "text": "Look at the picture and name the following Angle BON, Angle AON, ON, Ray OB",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 1 not reproduced (plane mirror MM′ with rays AO, OB and normal ON)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "light-energy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-physics-icse-class-7-interim-test-2-physics-080823-2023/4ii.png",
+          "kind": "FIGURE",
+          "alt": "Ray diagram printed sideways: plane mirror MM′ with point O on it; dashed normal ON; incident ray AO and reflected ray OB with arrows; the angles AON and BON are marked with arcs and small sideways letters.",
+          "width": 590,
+          "height": 660,
+          "page": 1,
+          "crop": {
+            "x": 0.33,
+            "y": 0.722,
+            "w": 0.33,
+            "h": 0.273
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -273,12 +289,29 @@
       "text": "Find the angle B.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 2 not reproduced (rays at a plane mirror with a 65° angle and angle B marked)",
         "Part label obscured by a mark on the scan; item printed between ii) and iii) of Q4; 1 mark from (1×5=5)"
       ],
       "confidence": "LOW",
       "chapter": "light-energy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-physics-icse-class-7-interim-test-2-physics-080823-2023/4unlabelled.png",
+          "kind": "FIGURE",
+          "alt": "Diagram printed sideways: a vertical line labelled PLANE MIRROR; an incoming ray with an arrow and an outgoing ray with an arrow meet the mirror at one point, with a third line (the normal) between them; the angle next to the mirror on one side is marked 65° and an angle between rays on the other side is marked B.",
+          "width": 697,
+          "height": 1110,
+          "page": 2,
+          "crop": {
+            "x": 0.49,
+            "y": 0.075,
+            "w": 0.39,
+            "h": 0.455
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",

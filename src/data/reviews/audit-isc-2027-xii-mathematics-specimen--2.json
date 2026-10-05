@@ -1,0 +1,25 @@
+{
+  "pack": "isc-2027-xii-mathematics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the marking scheme, and the rendered page (figure crops compared pixel-for-pixel with a fresh render).",
+  "checks": [
+    {
+      "key": "isc-2027-xii-mathematics-specimen#1viii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#5ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-mathematics-specimen#9",
+      "agree": false,
+      "reason": "The figure crop stops at y=0.61 and cuts off the lower part of the graph, including the arrowhead on the lower end of the line through (9/2,0) that shows the half-plane for that constraint, so the figure is incomplete.",
+      "round": "p51"
+    }
+  ]
+}

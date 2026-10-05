@@ -112,14 +112,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Which radius (R or r) belongs to the sphere is labelled only in the figure on page 4, and options include both √3 : 2 and 2 : √3.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: sphere S1 (R) and hemisphere S2 (r) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-mathematics#1viii",
@@ -128,14 +138,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Angle x (at O) and point E are defined only in the figure on page 4.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: circle with ABCD, O, x, E and 65° cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-mathematics#1ix",
@@ -208,14 +228,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Coordinates A(0, 2y), B(2x, 0) are given only in the figure on page 6.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: axes with O(0,0), A(0,2y), B(2x,0) and mid-point C cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-mathematics#1xiv",
@@ -288,14 +318,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Angles x and y are marked only in the figure on page 8.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: circle with D, C, O, A, B, E and angles 32°, x, y cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-mathematics#3i",
@@ -320,14 +360,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The shaded part (cylinder minus inverted hemisphere) is shown only in the figure on page 8.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: eye-drop bottle diagram with shaded part and 7 cm cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-mathematics#3iii",
@@ -384,14 +434,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "That F is the intersection of BE and CD is shown only in the figure on page 9.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 9: triangle ABC with DE parallel to BC and F at the crossing of BE and CD cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-mathematics#5i",
@@ -400,14 +460,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The histogram on page 10 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 10: histogram on graph paper with axes, scale and bars cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-mathematics#5ii",
@@ -592,14 +662,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Coordinates of A, B, C are given only in the graph on page 14.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 14: graph with triangle ABC and labelled axes cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-mathematics#9iii",
@@ -608,14 +688,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "How the sphere, cylinder and cone are joined (sphere partly sunk into the cylinder) is shown only in the figure on page 15.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 15: sphere-cylinder-cone toy with 7 cm and 24 cm marked cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-mathematics#10i",
@@ -656,14 +746,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Angles x, y, z, w are marked only in the figure on page 16.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 16: circle with tangent PQ, AB = AC marks, angles x, y, z, w and 40° cropped.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

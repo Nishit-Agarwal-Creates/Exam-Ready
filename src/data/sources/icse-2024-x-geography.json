@@ -822,12 +822,28 @@
       "type": "SHORT_ANSWER",
       "text": "(a) Name the water conservation practice shown in the above picture.\n(b) How does this system help to reduce floods?\n(c) Why is water conservation necessary? (Any two reasons)",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) on page 7 not reproduced; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "water-resources",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-geography/7iv.png",
+          "kind": "FIGURE",
+          "alt": "Colour illustration of a house in the rain, with pipes leading below ground",
+          "width": 560,
+          "height": 452,
+          "page": 7,
+          "crop": {
+            "x": 0.345,
+            "y": 0.615,
+            "w": 0.305,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
@@ -1113,12 +1129,28 @@
       "type": "SHORT_ANSWER",
       "text": "With reference to the picture below, answer the questions that follow:\n(a) Which waste management method is depicted here?\n(b) State one way in which this method may be implemented at our home.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) on page 10 not reproduced; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "waste-management",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-geography/12i.png",
+          "kind": "FIGURE",
+          "alt": "Colour photograph of four wheeled bins of different colours standing side by side outdoors",
+          "width": 698,
+          "height": 427,
+          "page": 10,
+          "crop": {
+            "x": 0.305,
+            "y": 0.148,
+            "w": 0.38,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "12",

@@ -64,14 +64,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The four topology diagrams on page 2 are needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: the four topology diagrams printed under Q IV, cropped whole with numbers (1)-(4).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-computer-studies-icse-class-8-assessment-2-computer-290224-2024#V",

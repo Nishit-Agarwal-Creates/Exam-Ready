@@ -271,16 +271,32 @@
         "II"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (labelled cells I-IV, likely stomata/guard cells) on page 7 not reproduced; the options refer directly to labels in the figure so the question cannot be answered without it."
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(b) IV",
         "correctOption": 1
       },
       "chapter": "life-processes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2023-x-science-31-2-1/9.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a section of plant tissue with four positions marked by arrows labelled I, II, III and IV",
+          "width": 858,
+          "height": 750,
+          "page": 7,
+          "crop": {
+            "x": 0.18,
+            "y": 0.568,
+            "w": 0.48,
+            "h": 0.297
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",
@@ -346,17 +362,15 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "following combination of chromosomes :",
+      "text": "When an ‘X’ bearing sperm fertilises the egg, the resulting zygote has the following combination of chromosomes :",
       "options": [
         "44 + XX",
         "44 + XY",
         "22 + XX",
         "22 + XY"
       ],
-      "hasFigure": true,
-      "extractionIssues": [
-        "The question stem before \"following combination of chromosomes\" is missing from the PDF text layer (likely referred to a diagram, e.g. a zygote/karyotype illustration); not recovered. See page 9 of the PDF."
-      ],
+      "hasFigure": false,
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(a) 44 + XX",
@@ -377,15 +391,13 @@
       "type": "MCQ",
       "text": "An object is placed in front of a convex mirror at infinity. According to the New Cartesian Sign Convention, the sign of the focal length and the sign of the image distance in this case are respectively :",
       "options": [
-        "+ ,",
-        ", +",
-        ",",
+        "+ , −",
+        "− , +",
+        "− , −",
         "+ , +"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Minus-sign glyphs for the focal-length/image-distance sign options did not extract from the PDF text layer; each option should show two signs but only some '+' signs and commas survived (printed/raw as \"(a) + , (b) , + (c) , (d) + , +\"). See page 9 of the PDF."
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(d) + , +",
@@ -404,17 +416,15 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "For v we show the arrangement of different circuit components. We find that with respect to the resistor, the :",
+      "text": "For verifying Ohm’s law, we design an electric circuit diagram in which we show the arrangement of different circuit components. We find that with respect to the resistor, the :",
       "options": [
         "ammeter is connected in parallel and the voltmeter in series.",
         "ammeter is connected in series and the voltmeter in parallel.",
         "ammeter and voltmeter are both connected in series.",
         "ammeter and voltmeter are both connected in parallel."
       ],
-      "hasFigure": true,
-      "extractionIssues": [
-        "Text between \"For v\" and \"we show the arrangement\" is missing from the PDF text layer (likely referred to verification of Ohm's law and an embedded circuit diagram); the diagram itself is also not reproduced. See page 9 of the PDF."
-      ],
+      "hasFigure": false,
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(b) ammeter is connected in series and the voltmeter in parallel.",
@@ -468,16 +478,32 @@
         "out of the page"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram showing the positron's entry direction and the magnetic field direction on page 11 not reproduced; needed to determine the force direction."
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(c) into the page",
         "correctOption": 2
       },
       "chapter": "magnetic-effects-of-electric-current",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2023-x-science-31-2-1/16.png",
+          "kind": "FIGURE",
+          "alt": "Horizontal arrows labelled Magnetic field and a vertical arrow labelled Positron crossing them",
+          "width": 822,
+          "height": 424,
+          "page": 11,
+          "crop": {
+            "x": 0.19,
+            "y": 0.142,
+            "w": 0.46,
+            "h": 0.168
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "17",
@@ -740,15 +766,31 @@
       "type": "SHORT_ANSWER",
       "text": "V-I graph for two conducting wires A and B are as shown. If both wires are of the same length and same diameter, which of the two is made of a material of high resistivity ? Give reasons to justify your answer.",
       "hasFigure": true,
-      "extractionIssues": [
-        "V-I graph for wires A and B on page 15 not reproduced; needed to identify which wire has higher resistivity."
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "Wire B. For conductors of the same dimensions, the greater the resistance, the greater is the resistivity."
       },
       "chapter": "electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2023-x-science-31-2-1/25.png",
+          "kind": "GRAPH",
+          "alt": "V-I graph with two straight lines through the origin labelled A and B",
+          "width": 857,
+          "height": 607,
+          "page": 15,
+          "crop": {
+            "x": 0.17,
+            "y": 0.575,
+            "w": 0.48,
+            "h": 0.24
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "26",
@@ -906,7 +948,7 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Define power of a lens. The focal length of a lens is 10 cm. Write the nature of the lens and find its power. If an object is placed at a distance of 20 cm from the optical centre of this lens, according to the New Cartesian Sign Convention, what will be the sign of magnification in this case ?",
+      "text": "Define power of a lens. The focal length of a lens is −10 cm. Write the nature of the lens and find its power. If an object is placed at a distance of 20 cm from the optical centre of this lens, according to the New Cartesian Sign Convention, what will be the sign of magnification in this case ?",
       "hasFigure": false,
       "extractionIssues": [
         "Official answer uses stacked fractions for the power formula; linearised here with '/' from the layout."
@@ -968,10 +1010,9 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(a) ...he presence... ...ium ethanoate.\n\nWrite the chemical equation for the reaction involved and name it, giving justification for the name.",
-      "hasFigure": true,
+      "text": "An acid ‘X’ and an alcohol ‘Y’ react with each other in the presence of an acid catalyst to form a sweet smelling substance ‘Z’. Identify ‘X’, ‘Y’ and ‘Z’. Write the chemical equation for the reaction involved and name it. The substance ‘Z’ on treatment with sodium hydroxide produces back the alcohol ‘Y’ and sodium ethanoate. Write the chemical equation for the reaction involved and name it, giving justification for the name.",
+      "hasFigure": false,
       "extractionIssues": [
-        "Most of the question stem before \"Write the chemical equation...\" is missing from the PDF text layer; only the fragments \"he presence\" and \"ium ethanoate\" survived. The marking scheme shows this question is about a compound 'X' (ethanoic acid) reacting with 'Y' (ethanol) to form 'Z' (ethyl ethanoate), which further reacts with NaOH to give ethanol and sodium ethanoate, but the exact printed wording could not be recovered. See page 19 of the PDF.",
         "Official answer partly missing in extraction (figure/equation)"
       ],
       "confidence": "LOW",
@@ -1079,14 +1120,12 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "Read the following passage and answer the questions that follow :\nThe teacher while conducting practicals in the laboratory divided the students into three groups and gave them various solutions to find out their pH and classify them into acidic, basic and neutral solutions.\nGroup A - Lemon juice, vinegar, colourless aerated drink\nGroup B - Tomato juice, coffee, ginger juice\nGroup C - Sodium hydroxide, sodium chloride, lime water\n(a) For the solutions provided, which group is/are likely to have pH value (i) less than 7, and (ii) greater than 7 ?\n(b) List two ways of determining pH of a solution.\n(c) Explain, why the sour substances such as lemon juice are effective in cleaning the tarnished copper vessels.\nOR\n(c) ...by giving two examples.",
+      "text": "The following questions are source-based/case-based questions. Read the case carefully and answer the questions that follow.\nThe teacher while conducting practicals in the laboratory divided the students into three groups and gave them various solutions to find out their pH and classify them into acidic, basic and neutral solutions.\nGroup A – Lemon juice, vinegar, colourless aerated drink\nGroup B – Tomato juice, coffee, ginger juice\nGroup C – Sodium hydroxide, sodium chloride, lime water\n(a) For the solutions provided, which group is/are likely to have pH value (i) less than 7, and (ii) greater than 7 ?\n(b) List two ways of determining pH of a solution\n(c) Explain, why the sour substances such as lemon juice are effective in cleaning the tarnished copper vessels.\nOR\n(c) “pH has great importance in our daily life.” Justify this statement by giving two examples.",
       "hasFigure": false,
-      "extractionIssues": [
-        "The OR alternative for (c) is missing most of its text in the PDF text layer; only the trailing fragment \"by giving two examples.\" survived. The marking scheme suggests it asked about the importance of maintaining pH (digestion, tooth decay, plant/animal defence, aquatic life), but the exact printed wording could not be recovered. See pages 23-25 of the PDF."
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
-        "text": "(a) (i) Groups A and B - less than 7. (ii) Group C - greater than 7. (b) pH paper and universal indicator. (c) Copper vessel is tarnished due to the formation of basic copper oxide; lemon juice, being acidic, reacts with the copper oxide and the salt formed is washed away. OR (c) An optimal pH is required for digestion. Change in pH can cause tooth decay. Animals and plants defend themselves through a change in pH. Survival of aquatic life becomes difficult when the pH of river water becomes low. (Any two, or any other suitable example)"
+        "text": "(a) (i) Groups A and B – less than 7\n(ii) Group C – greater than 7\n(b) pH paper and universal indicator.\n(c) • Copper vessel is tarnished due to formation of basic copper oxide.\n• Lemon juice being acidic react with copper oxide and the salt formed is washed away.\nOR\n(c) • An optimal pH is required for digestion.\n• Change in pH can cause tooth decay\n• Animals and plants defend themselves through change in pH.\n• Survival of aquatic life becomes difficult when pH of river water becomes low.\n(or any other) (Any two)"
       },
       "chapter": "acids-bases-and-salts",
       "mappingStatus": "AI_SUGGESTED"
@@ -1101,12 +1140,12 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "Read the following passage and answer the questions that follow :\nAll the reproductive methods of living organisms are broadly categorized into two types : 1. Asexual reproduction, and 2. Sexual reproduction.\nAsexual reproduction involves the participation of a single parent without the formation of gametes, fertilisation and transfer of genetic material. This method is a common means of rapidly increasing offsprings under favourable conditions.\n(a) Name the type of fission that occurs in Leishmania and Plasmodium.\n(b) Write one advantage of sexual mode of reproduction over asexual reproduction.\n(c) Give reasons why :\n(i) Colonies of yeast fail to multiply in water but multiply in sugar solution.\n(ii) Rhizopus individuals do not grow on a dry slice of bread.\nOR\n(c) Name the filamentous structures a student could identify when he collected water from a pond that appeared dark green. How do these organisms multiply ? Explain.",
+      "text": "The following questions are source-based/case-based questions. Read the case carefully and answer the questions that follow.\nAll the reproductive methods of living organisms are broadly categorized into two types : 1. Asexual reproduction, and 2. Sexual reproduction.\nAsexual reproduction involves the participation of a single parent without the formation of gametes, fertilisation and transfer of genetic material. This method is a common means of rapidly increasing offsprings under favourable conditions.\n(a) Name the type of fission that occurs in Leishmania and Plasmodium.\n(b) Write one advantage of sexual mode of reproduction over asexual reproduction.\n(c) Give reasons why :\n(i) Colonies of yeast fail to multiply in water but multiply in sugar solution.\n(ii) Rhizopus individuals do not grow on a dry slice of bread.\nOR\n(c) Name the filamentous structures a student could identify when he collected water from a pond that appeared dark green. How do these organisms multiply ? Explain.",
       "hasFigure": false,
       "extractionIssues": [],
       "confidence": "HIGH",
       "officialAnswer": {
-        "text": "(a) Leishmania - binary fission; Plasmodium - multiple fission. (b) Sexual reproduction leads to more variations, which are useful for ensuring the survival of a species. (c) (i) Sugar solution provides nutrients for growth and multiplication, whereas water does not. (ii) Moisture is required for the growth of Rhizopus. OR (c) Spirogyra. Fragmentation - Spirogyra simply breaks up into smaller pieces upon maturation; each piece grows into a new individual."
+        "text": "(a) Leishmania – Binary fission ; Plasmodium – Multiple fission\n(b) Sexual reproduction leads to more variations which are useful for ensuring the survival of a species.\n(c) (i) sugar solution provides nutrients for growth and multiplication whereas water does not do.\n(ii) Moisture is required for the growth of Rhizopus.\nOR\n(c) Spirogyra\nFragmentation – Spirogyra simply breaks up into smaller pieces upon maturation. Each piece grows into a new individual."
       },
       "chapter": "how-do-organisms-reproduce",
       "mappingStatus": "AI_SUGGESTED"
@@ -1121,10 +1160,9 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "Consider the following electrical circuit diagram in which nine identical resistors of 3 each are connected as shown. If the reading of the ammeter A1 is 1 ampere, answer the following questions :\n(a) What is the relationship between the readings of A1 and A3 ? Give reasons for your answer.\n(b) What is the relationship between the readings of A2 and A3 ?\n(c) Determine the reading of the voltmeter V1.\nOR\n(c) Find the total resistance of the circuit.",
+      "text": "Consider the following electrical circuit diagram in which nine identical resistors of 3 Ω each are connected as shown. If the reading of the ammeter A₁ is 1 ampere, answer the following questions :\n(a) What is the relationship between the readings of A₁ and A₃ ? Give reasons for your answer.\n(b) What is the relationship between the readings of A₂ and A₃ ?\n(c) Determine the reading of the voltmeter V₁.\nOR\n(c) Find the total resistance of the circuit.",
       "hasFigure": true,
       "extractionIssues": [
-        "Circuit diagram (nine 3-ohm resistors and the positions of A1, A2, A3, V1) on page 27 not reproduced; needed to determine the series/parallel arrangement for all three sub-parts.",
         "Ohm symbol lost in extraction throughout (resistor/answer values print as bare numbers, e.g. \"resistors of 3 each\", \"Rp = 3/2\").",
         "Subscripts flattened: R1, R2, Rp",
         "Official answer uses stacked fractions; linearised here with '/' from the layout."
@@ -1134,7 +1172,25 @@
         "text": "(a) Both have the same reading, A1 = A3; both are connected in series. (b) Reading of A2 = 1/4 A, as the current is equally divided among the four identical resistors / A2 = 1/4 x reading of A3 / A2 = 0.25 A / A2 < A3. (c) 1/Rp = 1/R1 + 1/R2 (parallel combination), giving Rp = 3/2; V = IR, so V1 = 1A x 3/2 = 1.5 V. OR (c) Total resistance: R = Rp1 + Rp2 + Rp3 = 3/4 + 1 + 3/4 = 13/4 (approx. 3.25)."
       },
       "chapter": "electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2023-x-science-31-2-1/39.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram: battery, key and ammeter A1 in a loop with three groups of 3 Ω resistors; voltmeters V1 and V2 across the first two groups, ammeter A2 with a 3 Ω resistor in the third group, and ammeter A3",
+          "width": 1400,
+          "height": 593,
+          "page": 27,
+          "crop": {
+            "x": 0.04,
+            "y": 0.163,
+            "w": 0.89,
+            "h": 0.267
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

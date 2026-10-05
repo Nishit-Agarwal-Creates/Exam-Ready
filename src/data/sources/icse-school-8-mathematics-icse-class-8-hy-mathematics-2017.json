@@ -192,13 +192,31 @@
       "text": "In a rectangle ABCD, diagonals intersect at 0. If ∠OAB = 30°, find (i) ∠ACB (ii) ∠ABO (iii) ∠COD (iv) ∠BOC (Give reasons)",
       "hasFigure": true,
       "extractionIssues": [
-        "No marks printed",
-        "Figure on page 1 not reproduced",
         "Notation rebuilt from the page image (fractions/powers/roots/degree signs); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-hy-mathematics-2017/4a.png",
+          "kind": "FIGURE",
+          "alt": "Rectangle ABCD with diagonals AC and BD meeting at O, and an angle of 30° marked at A",
+          "width": 312,
+          "height": 232,
+          "page": 1,
+          "crop": {
+            "x": 0.74,
+            "y": 0.623,
+            "w": 0.175,
+            "h": 0.092
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "4",
@@ -304,12 +322,29 @@
       "text": "In the adjoining figure, ABCD is a rhombus and DCFE is a square. If ∠ABC = 56°, find (Give reasons) i) ∠DAG ii) ∠FEG iii) ∠GAC iv) ∠AGC",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 2 not reproduced",
         "Notation rebuilt from the page image (fractions/powers/roots/degree signs); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-hy-mathematics-2017/6a.png",
+          "kind": "FIGURE",
+          "alt": "Square DCFE drawn on side DC of a four-sided figure with lower vertices B and an unlabelled vertex; dashed lines from the unlabelled vertex to E and to C; point G where the first dashed line crosses DC; 56° marked at B",
+          "width": 313,
+          "height": 392,
+          "page": 2,
+          "crop": {
+            "x": 0.56,
+            "y": 0.145,
+            "w": 0.175,
+            "h": 0.155
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -396,12 +431,28 @@
       "type": "NUMERICAL",
       "text": "In the adjoining figure, ABCD is a parallelogram. Find the values of x and y.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 2 not reproduced (the angle expressions are given only on the figure)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-hy-mathematics-2017/8a.png",
+          "kind": "FIGURE",
+          "alt": "Parallelogram with parallel-side arrow marks and three angles marked 3x-20°, x+40° and y+15°",
+          "width": 313,
+          "height": 182,
+          "page": 2,
+          "crop": {
+            "x": 0.495,
+            "y": 0.595,
+            "w": 0.175,
+            "h": 0.072
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
@@ -473,12 +524,31 @@
       "text": "100 students of class VIII in a school have heights as tabulated below : Height (in cm): 120-130, 130-140, 140-150, 150-160, 160-170, 170-180; No. of students: 12, 16, 30, 20, 14, 8. construct a combined histogram and frequency poloygon for the above data.",
       "hasFigure": true,
       "extractionIssues": [
-        "No marks printed",
         "Table on page 2 transcribed as text rows; check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "data-handling",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-hy-mathematics-2017/9b.png",
+          "kind": "TABLE",
+          "alt": "Table of height (in cm) classes 120-130 to 170-180 and the number of students in each class",
+          "width": 1242,
+          "height": 109,
+          "page": 2,
+          "crop": {
+            "x": 0.148,
+            "y": 0.858,
+            "w": 0.695,
+            "h": 0.043
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "10",
@@ -493,12 +563,13 @@
       "text": "i) Simplify (37.85 x 37.85 — 12.15 x 12.15)/(37.85 — 12.15) ii) Evaluate (8.7)² − (1.3)²",
       "hasFigure": false,
       "extractionIssues": [
-        "Notation rebuilt from the page image (fractions/powers/roots/degree signs); check against the PDF",
-        "[3] is printed beside (i) only; no separate marks printed for (ii); parts kept together"
+        "Notation rebuilt from the page image (fractions/powers/roots/degree signs); check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": "algebraic-expressions",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "PRINTED",
+      "marksNote": "[3] printed on the Q10 a) line; Q10 prints a) [3], b) [4], c) [3]"
     },
     {
       "number": "10",

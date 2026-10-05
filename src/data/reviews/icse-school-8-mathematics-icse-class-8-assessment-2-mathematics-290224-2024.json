@@ -80,14 +80,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The pie diagram on page 2 (sector angles) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: pie diagram printed under Q5(i); cropped. Scanned and faint, but sector names and the five angles (sum 360°) are legible.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-assessment-2-mathematics-290224-2024#A5iii",

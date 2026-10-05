@@ -244,12 +244,29 @@
       "text": "Fill in the blanks using the adjoining figure.\nRadius = ____\nBD = ____\nEFG = ____\nPoint T = ____",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure (circle) on page 2 not reproduced",
         "Scan is skewed; the printed mark was matched to the nearest item, check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "circle",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-first-term-mathematics-220922-2023/4c.png",
+          "kind": "FIGURE",
+          "alt": "Circle with the letters A, E, F, G, C, B, D and T around it and O inside; segments AB, AD, DB and OC, with a right-angle mark at D; a vertical line with arrowheads at both ends drawn at the left of the circle beside T, its lower end labelled Y",
+          "width": 437,
+          "height": 581,
+          "page": 2,
+          "crop": {
+            "x": 0.53,
+            "y": 0.3695,
+            "w": 0.245,
+            "h": 0.2375
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "1",

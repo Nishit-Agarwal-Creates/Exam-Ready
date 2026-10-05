@@ -96,14 +96,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The number line with points C, D, E, F on page 1 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 1: number line printed beside item 6 of Question I; cropped complete with 0, 1 and points C, D, E, F.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-first-test-mathematics-050725-jul-2024#17",
@@ -207,15 +217,25 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The vinculum (bar) over '3a - b' printed on page 2 is not in the stored text, which changes the simplification.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 2 (zoomed): Question III 2) prints a bar (vinculum) over the whole of the second \"3a - b\" inside the round brackets; restored with a combining overline on each character of that group.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-first-test-mathematics-050725-jul-2024#33",

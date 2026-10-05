@@ -108,16 +108,32 @@
         "This device stores energy in the form of magnetic potential energy."
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Phasor diagram on page 2 not reproduced in the text layer; needed to see that current leads voltage"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(A) / When the frequency of the AC source is increased than the impedance of the device decreases. As in phasor diagram current leads the voltage, so given appliance is capacitor.",
         "correctOption": 0
       },
       "chapter": "alternating-current",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-physics/3.png",
+          "kind": "FIGURE",
+          "alt": "Phasor diagram with phasors V and I on x-y axes",
+          "width": 384,
+          "height": 328,
+          "page": 2,
+          "crop": {
+            "x": 0.135,
+            "y": 0.262,
+            "w": 0.215,
+            "h": 0.13
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -211,16 +227,33 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Transition labels I-VI refer to an energy-level diagram on page 4 not reproduced in the text layer; a textual description of the transitions is printed only in the For Visually Impaired Candidates alternative, which was not used per instructions",
         "Subscripts flattened: ΔE_I, ΔE_II, ΔE_IV"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(C) / IV. Transition III, V, VI corresponds to absorption of energy. Maximum emitted wavelength corresponds minimum energy difference. ΔE_I > ΔE_II > ΔE_IV. Therefore, maximum emitted wavelength corresponds to transition IV.",
         "correctOption": 2
       },
       "chapter": "atoms",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-physics/7.png",
+          "kind": "FIGURE",
+          "alt": "Energy-level diagram with levels 1, 2, 3, 4 and ∞ and transition arrows labelled I to VI",
+          "width": 456,
+          "height": 430,
+          "page": 4,
+          "crop": {
+            "x": 0.135,
+            "y": 0.455,
+            "w": 0.255,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
@@ -348,16 +381,32 @@
         "The deflection of the magnetic needle at P and Q will be inclined at 45° with respect to each other."
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure/map marking the location of points P and Q not reproduced in the text layer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(B) / The deflection of the magnetic needle at P and Q will be in the opposite directions. As magnetic field at equator is antiparallel to magnetic field at pole.",
         "correctOption": 1
       },
       "chapter": "magnetism-and-matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-physics/12.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a solenoid carrying current I, with point P on its axis and point Q above it",
+          "width": 750,
+          "height": 506,
+          "page": 5,
+          "crop": {
+            "x": 0.13,
+            "y": 0.685,
+            "w": 0.42,
+            "h": 0.2
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "13",
@@ -485,11 +534,9 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "The amplitude of the magnetic field of a plane electromagnetic wave propagating along positive X axis in vacuum is 510 nT k̂ and its angular frequency is 60 x 10⁶ rad/sec. Write the expression for the electric field (E).",
+      "text": "The amplitude of the magnetic field of a plane electromagnetic wave propagating along positive X axis in vacuum is 510 nT k̂ and its angular frequency is 60 x 10⁶ rad/sec. Write the expression for the electric field (E⃗).",
       "hasFigure": false,
-      "extractionIssues": [
-        "Vector-arrow notation on E lost in extraction"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Given, B₀ = 510 nT = 510 x 10⁻⁹ T, ω = 60 x 10⁶ rad/sec. E₀ = cB₀ = 153 N/C. k = ω/c = 20 x 10⁻² rad/m. E = E₀ sin (ωt – kz). E = 153 sin (60 x 10⁶ t – 20 x10⁻²x) N/C."
@@ -510,7 +557,6 @@
       "text": "The following graph shows the potential difference across the terminals of a cell against its load current. Find,\n(I) the emf of the cell and\n(II) the internal resistance of the cell.",
       "hasFigure": true,
       "extractionIssues": [
-        "V-I graph on page 6 not reproduced in the text layer; the two points (0,6) and (12,0) used for the slope are inferred from the marking scheme's own calculation",
         "For Visually Impaired candidates an alternative version of this question ('find the relation between internal resistance, emf, external resistance and total current') is printed on page 7; that alternative was not extracted, per instructions"
       ],
       "confidence": "MEDIUM",
@@ -518,7 +564,25 @@
         "text": "(I) E.m.f of the cell is 6V, as when load current is zero potential difference becomes equal to emf of the cell. (II) The internal resistance of a cell can be determined as the negative slope of its voltage-current graph. First, we can determine the slope by choosing two points on the line: Slope = (0-6)/(12-0) = -0.5. This means that the internal resistance must be 0.50 ohm (Ω)."
       },
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-physics/18.png",
+          "kind": "GRAPH",
+          "alt": "Graph of potential difference / V against load current / A showing a straight line",
+          "width": 563,
+          "height": 417,
+          "page": 7,
+          "crop": {
+            "x": 0.145,
+            "y": 0.065,
+            "w": 0.315,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "19",
@@ -680,14 +744,14 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "A fast-moving neutron collides with the nucleus of Plutonium (Pu), thereby producing Xenon (Xe) and Zirconium (Zr) along with neutrons.\n(I) Write the nuclear fission reaction.\n(II) Find the energy released in the above nuclear reaction.\nGiven atomic masses:\nm (239/94 Pu) = 239.052157u,\nm (103/40 Zr) = 102.926597u,\nm (133/54 Xe) = 133.905040u &\nm (1/0 n) = 1.00866u.",
+      "text": "A fast-moving neutron collides with the nucleus of Plutonium (Pu), thereby producing Xenon (Xe) and Zirconium (Zr) along with neutrons.\n(I) Write the nuclear fission reaction.\n(II) Find the energy released in the above nuclear reaction.\nGiven atomic masses:\nm (239/94 Pu) = 239.052157u,\nm (103/40 Zr) = 102.926597u,\nm (134/54 Xe) = 133.905040u &\nm (1/0 n) = 1.00866u.",
       "hasFigure": false,
       "extractionIssues": [
         "Nuclear notation (mass-number/atomic-number super/subscripts) flattened; written here as mass/atomic-number, e.g. m(239/94 Pu) means mass of Pu-239 with atomic number 94"
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(I) 239/94 Pu + 1/0 n → 133/54 Xe + 103/40 Zr + 3 (1/0 n). (II) Δm = [m(239/94 Pu) + m(1/0 n)] − [m(133/54 Xe) + m(103/40 Zr) + 3 m(1/0 n)] = [239.052157 + 1.00866] − [133.905040 + 102.926597 + 3 x 1.00866] = 240.060817 – 239.857617 = 0.2032 amu. Q value = Δm c² = 0.2032 x 931.5 MeV = 189.2808 MeV."
+        "text": "(I) 239/94 Pu + 1/0 n → 134/54 Xe + 103/40 Zr + 3 (1/0 n). (II) Δm = [m(239/94 Pu) + m(1/0 n)] − [m(134/54 Xe) + m(103/40 Zr) + 3 m(1/0 n)] = [239.052157 + 1.00866] − [133.905040 + 102.926597 + 3 x 1.00866] = 240.060817 – 239.857617 = 0.2032 amu. Q value = Δm c² = 0.2032 x 931.5 MeV = 189.2808 MeV."
       },
       "chapter": "nuclei",
       "mappingStatus": "AI_SUGGESTED"
@@ -702,7 +766,7 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "A compound microscope consists of an objective lens of focal length 0.82 cm and an eyepiece lens of focal length 2.9 cm. An object is placed 0.91 cm from the objective lens. The image is formed at the near point (25 cm) from the eye.\n(I) Calculate the angular magnification of the microscope.\n(II) Draw the ray diagram of compound microscope in normal adjustment.",
+      "text": "A compound microscope consists of an objective lens of focal length 0.82 cm and an eyepiece lens of focal length 2.9 cm. An object is placed 0.91 cm from the objective lens. The image is formed at the near point (25 cm) from the eye.\n(I) Calculate that the angular magnification of the microscope.\n(II) Draw the ray diagram of compound microscope in normal adjustment.",
       "hasFigure": false,
       "extractionIssues": [
         "Notation rebuilt from the PDF layout (fractions); check against the PDF",
@@ -710,7 +774,7 @@
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(I) 1/v₀ = 1/f₀ − 1/u₀. v₀ = 8.3 cm. Angular magnification M = m₀ x mₑ = (v₀/u₀) x (D/fₑ + 1). M = (8.3/0.91) x (25/2.9 + 1). M = -87.7."
+        "text": "(I) 1/v₀ = 1/f₀ − 1/u₀. v₀ = 8.3 cm. Angular magnification M = m₀ x mₑ = (v₀/u₀) x (D/fₑ + 1). M = -(8.3/0.91) x (25/2.9 + 1). M = -87.7."
       },
       "chapter": "ray-optics-and-optical-instruments",
       "mappingStatus": "AI_SUGGESTED"
@@ -791,16 +855,15 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "A conducting coil of 50 turns and area 5 cm² is rotating along the axis of solenoid of length 50cm and 2000 turns, carrying current of 5 A. What will be the value of maximum emf generated?",
+      "text": "A conducting coil of 50 turns and area 5/π cm² is rotating along the axis of solenoid of length 50cm and 2000 turns, carrying current of 5 A. What will be the value of maximum emf generated?",
       "hasFigure": false,
       "extractionIssues": [
-        "A stray glyph (π) near 'cm²' on page 9 was removed as extraction noise",
         "Notation rebuilt from the PDF layout (fractions in the derivation); check against the PDF",
         "Official answer's final result ('Or, εmax = 2Mv') is garbled in the marking-scheme text layer (likely a unit/OCR artifact); kept verbatim as printed"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "Given: No. of turns of coil Nc=50. Area of coil = 5 cm² = 5 x 10⁻⁴ m². For solenoid: Ns=2000, L=0.5m, n = N/L=4000 turns/m, I= 5A. Magnetic field due to solenoid B=μ₀nI. Or, B=4000 x 4π x 10⁻⁷ x 5 T. Or, B= 8π x 10⁻² T. Flux linked to coil ΦB=Nc B.A. Or, ΦB=NcBA cosωt. Emf ε = dΦB/dt = NcBAω sin ωt. Or, εmax = NcBA. Or, εmax = 50 x 8π x 10⁻² T x 5 x 10⁻⁴m². Or, εmax = 2Mv."
+        "text": "Given: No. of turns of coil Nc=50. Area of coil = 5/π cm² = 5/π x 10⁻⁴ m². For solenoid: Ns=2000, L=0.5m, n = N/L=4000 turns/m, I= 5A. Magnetic field due to solenoid B=μ₀nI. Or, B=4000 x 4π x 10⁻⁷ x 5 T. Or, B= 8π x 10⁻² T. Flux linked to coil ΦB=Nc B.A. Or, ΦB=NcBA cosωt. Emf ε = dΦB/dt = NcBAω sin ωt. Or, εmax = NcBA. Or, εmax = 50 x 8π x 10⁻² T x 5/π x 10⁻⁴m². Or, εmax = 2Mv."
       },
       "chapter": "electromagnetic-induction",
       "mappingStatus": "AI_SUGGESTED"
@@ -815,7 +878,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "When an external voltage is applied across a semiconductor diode such that p-side is connected to the positive terminal of the battery and n-side to the negative terminal, it is said to be forward biased. The applied voltage mostly drops across the depletion region and the voltage drop across the p-side and n-side of the junction is negligible. When an external voltage is applied across the diode such that n-side is positive and p-side is negative, it is said to be reverse biased. The applied voltage mostly drops across the depletion region.\n\n(I) Ge and Si diodes start conducting at 0.3 V and 0.7 V respectively. In the following figure if Ge diode connection are reversed, the value of V0 changes by (assume that the Ge diode has large breakdown voltage)",
+      "text": "When an external voltage is applied across a semiconductor diode such that p-side is connected to the positive terminal of the battery and n-side to the negative terminal it is said to be forward biased. The applied voltage mostly drops across the depletion region and the voltage drop across the p-side and n-side of the junction is negligible. When an external voltage is applied across the diode such that n-side is positive and p-side is negative, it is said to be reverse biased. The applied voltage mostly drops across the depletion region.\n\n(I) Ge and Si diodes start conducting at 0.3 V and 0.7 V respectively. In the following figure if Ge diode connection are reversed, the value of V0 changes by (assume that the Ge diode has large breakdown voltage)",
       "options": [
         "0.2 V",
         "0.4 V",
@@ -823,16 +886,32 @@
         "0.8 V"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagram for this sub-question (Ge/Si diode network) on page 10 not reproduced in the text layer"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(B) / Voltage drop across diode will change from 0.3 to 0.7 V. Value of V0 changes by 0.4 V.",
         "correctOption": 1
       },
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-physics/29I.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with a 12 V cell, Ge and Si diodes, a 5 K resistor, ground and output V0",
+          "width": 446,
+          "height": 240,
+          "page": 10,
+          "crop": {
+            "x": 0.155,
+            "y": 0.122,
+            "w": 0.25,
+            "h": 0.095
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "29",
@@ -844,7 +923,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "When an external voltage is applied across a semiconductor diode such that p-side is connected to the positive terminal of the battery and n-side to the negative terminal, it is said to be forward biased. The applied voltage mostly drops across the depletion region and the voltage drop across the p-side and n-side of the junction is negligible. When an external voltage is applied across the diode such that n-side is positive and p-side is negative, it is said to be reverse biased. The applied voltage mostly drops across the depletion region.\n\n(II) The value of V0 and Id for the network are: [circuit diagram with labels Si, Ge, 12 V, V0, 5.6 K – not reproduced]",
+      "text": "When an external voltage is applied across a semiconductor diode such that p-side is connected to the positive terminal of the battery and n-side to the negative terminal it is said to be forward biased. The applied voltage mostly drops across the depletion region and the voltage drop across the p-side and n-side of the junction is negligible. When an external voltage is applied across the diode such that n-side is positive and p-side is negative, it is said to be reverse biased. The applied voltage mostly drops across the depletion region.\n\n(II) The value of V0 and Id for the network are:",
       "options": [
         "13 V, 2.32 mA",
         "11.7 V, 2.08 mA",
@@ -853,16 +932,33 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Circuit diagram (Si and Ge diodes, 12 V source, 5.6 kΩ resistor, node V0) on page 10 not reproduced in the text layer; only isolated labels were extracted",
         "Official answer's intermediate step 'V0 = E – Vsi – VGe = 12.07 – 0.3' appears to conflate '12 − 0.7' as '12.07' in the text layer; kept verbatim"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(D) / 11V, 1.96mA. V0 = E – Vsi – VGe = 12.07 – 0.3 = 11V. Id = V0/R = 11/5.6 x 10⁻³ = 1.96 mA.",
+        "text": "(D) 11V, 1.96Ma\nV₀ = E – V_{si} – V_{Ge} = 12.07 – 0.3 = 11V\nI_{d} = V₀/R = 11/5.6 × 10⁻³ = 1.96 Ma",
         "correctOption": 3
       },
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-physics/29II.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with a 12V input, Si and Ge diodes, a 5.6KΩ resistor to ground and output V0",
+          "width": 572,
+          "height": 152,
+          "page": 10,
+          "crop": {
+            "x": 0.185,
+            "y": 0.322,
+            "w": 0.32,
+            "h": 0.06
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "29",
@@ -874,7 +970,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "When an external voltage is applied across a semiconductor diode such that p-side is connected to the positive terminal of the battery and n-side to the negative terminal, it is said to be forward biased. The applied voltage mostly drops across the depletion region and the voltage drop across the p-side and n-side of the junction is negligible. When an external voltage is applied across the diode such that n-side is positive and p-side is negative, it is said to be reverse biased. The applied voltage mostly drops across the depletion region.\n\n(III) The circuit shown below contains two ideal diodes, each with a forward resistance of 50Ω. If the battery voltage is 6 V, the current through the 100Ω resistance (in amperes) is",
+      "text": "When an external voltage is applied across a semiconductor diode such that p-side is connected to the positive terminal of the battery and n-side to the negative terminal it is said to be forward biased. The applied voltage mostly drops across the depletion region and the voltage drop across the p-side and n-side of the junction is negligible. When an external voltage is applied across the diode such that n-side is positive and p-side is negative, it is said to be reverse biased. The applied voltage mostly drops across the depletion region.\n\n(III) The circuit shown below contains two ideal diodes, each with a forward resistance of 50Ω. If the battery voltage is 6 V, the current through the 100Ω resistance (in amperes) is",
       "options": [
         "0.036",
         "0.020",
@@ -882,17 +978,32 @@
         "0.027"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagram (two ideal diodes with 50 Ω forward resistance each, 100 Ω resistor, 6 V battery) on page 10 not reproduced in the text layer",
-        "Official answer's derivation is a garbled stacked fraction in the text layer ('I  6  6 A  0.02 A / 50 150 100 300'); kept verbatim, final value is clear"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(B) / 0.02 A. [Derivation as extracted: I  6  6 A  0.02 A / 50 150 100 300]",
+        "text": "(B)\nI = 6/(50 + 150 + 100) = 6/300 A = 0.02 A",
         "correctOption": 1
       },
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-physics/29III.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with diodes D1 and D2, resistors 150 Ω, 75 Ω and 100 Ω and a 6 V cell",
+          "width": 366,
+          "height": 268,
+          "page": 10,
+          "crop": {
+            "x": 0.165,
+            "y": 0.534,
+            "w": 0.205,
+            "h": 0.106
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "29",
@@ -904,7 +1015,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "When an external voltage is applied across a semiconductor diode such that p-side is connected to the positive terminal of the battery and n-side to the negative terminal, it is said to be forward biased. The applied voltage mostly drops across the depletion region and the voltage drop across the p-side and n-side of the junction is negligible. When an external voltage is applied across the diode such that n-side is positive and p-side is negative, it is said to be reverse biased. The applied voltage mostly drops across the depletion region.\n\n(IV) In the figure, potential difference between A and B is",
+      "text": "When an external voltage is applied across a semiconductor diode such that p-side is connected to the positive terminal of the battery and n-side to the negative terminal it is said to be forward biased. The applied voltage mostly drops across the depletion region and the voltage drop across the p-side and n-side of the junction is negligible. When an external voltage is applied across the diode such that n-side is positive and p-side is negative, it is said to be reverse biased. The applied voltage mostly drops across the depletion region.\n\n(IV) In the figure, potential difference between A and B is",
       "options": [
         "Zero",
         "5 V",
@@ -913,16 +1024,33 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Circuit diagram (points A and B) on page 10 not reproduced in the text layer",
-        "Official answer's derivation is garbled in the text layer ('Va Vb l 10 / 2 / 30 10 V 10 V / 15 2'); kept verbatim, final value is clear"
+        "The marking scheme also prints a sketch of the circuit with the diode replaced by a wire; it is not reproduced in the answer text"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(C) / Here the diode is in forward bias. So we replace it by a connecting wire. [Derivation as extracted: Va Vb l 10 / 2 / 30 10 V 10 V / 15 2]",
+        "text": "(C)\nHere the diode is in forward bias. So we replace it by a connecting wire.\nV_{a} − V_{b} = (l/2) × 10\n= 30/(15 × 2) × 10 V = 10 V",
         "correctOption": 2
       },
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-physics/29IV.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with a 30 V cell, three 10 kΩ resistors, a diode and points A and B",
+          "width": 437,
+          "height": 265,
+          "page": 10,
+          "crop": {
+            "x": 0.17,
+            "y": 0.752,
+            "w": 0.245,
+            "h": 0.105
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "30",
@@ -959,15 +1087,32 @@
       "text": "Photoelectric effect is phenomenon of the ejection of electrons when the radiation of suitable frequency is made to fall on the surface of a metal. When light of suitable wavelength falls on the emitter C given in the diagram, the photoelectrons are emitted. These photoelectrons are drawn to the collector A. The photoelectric current of the order of a few microamperes can be normally obtained from the device given in figure. The device given converts a change in intensity of illumination into a change in photocurrent. This current can be used to operate control systems and in light measuring devices. The devices are made up of metals with low ionization enthalpies, for example platinum whose work function is 6.35 eV.\n\n(II) In the given diagram, if terminal B is shifted towards the left then how will it affect the reading of the microammeter?",
       "hasFigure": true,
       "extractionIssues": [
-        "Apparatus diagram (photocell with terminal B) referenced in the question is not reproduced in the text layer",
         "For V.I. candidates an alternative version of this sub-question ('If the supplied voltage is decreased...') is printed on page 11; that alternative was not extracted, per instructions"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Photoelectric current decreases with decrease in potential. At some stage, for a certain potential of plate A, all the emitted electrons are stopped by the plate A and the photoelectric current becomes zero."
       },
       "chapter": "dual-nature-of-radiation-and-matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-physics/30.png",
+          "kind": "FIGURE",
+          "alt": "Photocell diagram with emitter C, collector A, incident light, a battery with sliding contact B and a microammeter μA",
+          "width": 575,
+          "height": 632,
+          "page": 11,
+          "crop": {
+            "x": 0.555,
+            "y": 0.063,
+            "w": 0.322,
+            "h": 0.25
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "30",
@@ -983,12 +1128,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "Official answer is a graph (current vs terminal-B position) and is not in the text layer",
-        "Apparatus diagram referenced in the question is not reproduced in the text layer",
         "For V.I. candidates an alternative version of this sub-question ('If the intensity of incident radiation is doubled, by what factor will the kinetic energy change?') is printed on page 11; that alternative was not extracted, per instructions"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "dual-nature-of-radiation-and-matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-physics/30.png",
+          "kind": "FIGURE",
+          "alt": "Photocell diagram with emitter C, collector A, incident light, a battery with sliding contact B and a microammeter μA",
+          "width": 575,
+          "height": 632,
+          "page": 11,
+          "crop": {
+            "x": 0.555,
+            "y": 0.063,
+            "w": 0.322,
+            "h": 0.25
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "31",
@@ -1024,20 +1186,37 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(A) If a charge of 1µC is placed at the origin and another charge of 3µC placed at the point (20m,0m,0m) in an external uniform electric field of 40V/m î with the electric potential at origin to be zero. Find the electrical potential energy of system.\n(B) If one charge particle is moved from A to C to B and another charge particle of equal magnitude is moved from A to D to B, in uniform external magnetic field. Then for which charge particle more work will be needed? (use fig for reference)\n(C) Electrostatic potential is constant throughout the volume of conductor has the same value on its surface. Why? (3+1+1)",
+      "text": "(A) If a charge of 1µC is placed at the origin and another charge of 3 µC placed at the point (20m,0m,0m) in an external uniform electric field of 40V/m î with the electric potential at origin to be zero. Find the electrical potential energy of system.\n(B) If one charge particle is moved from A to C To B and another charge particle of equal magnitude is moved from A to D to B, In uniform external magnetic field. Than for which charge particle more work will be needed? (use fig for reference)\n(C) Electrostatic potential is constant throughout the volume of conductor has the same value on its surface why? (3+1+1)",
       "hasFigure": true,
       "extractionIssues": [
         "Notation rebuilt from the PDF layout (fractions); check against the PDF",
-        "Figure showing points A, B, C, D referenced in part (B) not reproduced in the text layer",
         "Marking scheme explains part (B) using 'electric field is conservative in nature' although the question states 'uniform external magnetic field'; kept verbatim as printed (likely an inconsistency in the source)",
         "For VI candidates an alternative version of part (C) (comparing work along a resistive path vs a capacitive path) is printed on page 12; that alternative was not extracted, per instructions"
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(A) U=Kq1q2/r12 + q1V(r1) + q2V(r2). Or, U= Kq1q2/r12 +q1(E r1-0)+ q2(E r2-0). Or, U=(9x10⁹x10⁻⁶x3x10⁻⁶ + 0 +3 x 10⁻⁶ x 40x20) J / 20. Or, U=37.5 x 10⁻⁴J. (B) Work done will be same for both paths, as electric field is conservative in nature. (C) As electric field inside the conductor is zero so there will be no work needed in moving unit positive charge inside or on the surface."
+        "text": "(A) U = Kq₁q₂/r₁₂ + q₁V(r₁) + q₂V(r₂)\nOr, U = Kq₁q₂/r₁₂ + q₁ (E r_{1-0}) + q₂(E r_{2-0})\nOr, U = ((9X10⁹X10⁻⁶X3X10⁻⁶)/20 + 0 + 3 x 10⁻⁶ x 40x20) J\nOr, U = 37.5 x 10⁻⁴ J\n(B) Work done will be same for both paths, as electric field is conservative in nature.\n(C) As electric field inside the conductor is zero so there will be no work needed in moving unit positive charge inside or on the surface."
       },
       "chapter": "electrostatic-potential-and-capacitance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-physics/31II.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a uniform field E (parallel arrows) with points A, B, C, D and paths A-C-B and A-D-B",
+          "width": 482,
+          "height": 315,
+          "page": 12,
+          "crop": {
+            "x": 0.13,
+            "y": 0.355,
+            "w": 0.27,
+            "h": 0.125
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "32",

@@ -48,14 +48,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "ESSENTIAL_MISSING",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "PUBLISH",
-      "reason": "",
-      "notes": "Arc ratio and ∠AOB in the text suffice."
+      "decision": "HOLD",
+      "reason": "The only copy of the figure (scan page 3) carries handwritten pen marks (angle arcs and a written number at O, inside the angles asked for); a clean printed figure is not available.",
+      "notes": "Arc ratio and ∠AOB in the text suffice.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Scan page 3 zoomed: hand-drawn arcs and a hand-written number at O overlap the printed figure and cannot be cropped away; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-second-terminal-mathematics-280425-2025#2iii",
@@ -160,14 +171,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The points A-E and their coordinates are given only on the graph on page 4.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Scan page 4: the Y axis is numbered only to ±4 (X to ±5); alt corrected.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-second-terminal-mathematics-280425-2025#5i",
@@ -240,14 +262,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The equal sides (AB = AC = CD) and C on BD are shown only by the figure on page 5.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Scanned paper page 5: the figure printed beside Q6ii; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-second-terminal-mathematics-280425-2025#6iii",
@@ -432,14 +464,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Point O (intersection of AC and BD) and quadrilateral ABCD are defined only by the figure on page 6.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Scanned paper page 6: the figure printed beside Q10iii; cropped.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

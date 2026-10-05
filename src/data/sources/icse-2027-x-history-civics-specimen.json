@@ -78,17 +78,33 @@
         "The Prime Minister"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Headline (image) on page 3 not reproduced in the text layer; the question depends on it."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(c) / The Parliament",
         "correctOption": 2
       },
       "cognitiveLevel": "Application",
       "chapter": "the-union-legislature",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-history-civics-specimen/1ii.png",
+          "kind": "FIGURE",
+          "alt": "Newspaper front page with the headline 'Kashmir is now Union's Territory' and the sub-headline about Article 370",
+          "width": 1211,
+          "height": 416,
+          "page": 3,
+          "crop": {
+            "x": 0.13,
+            "y": 0.585,
+            "w": 0.66,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -136,17 +152,33 @@
         "The ministers work together like a team."
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) on page 4 not reproduced in the text layer; the question depends on it."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(d) / The ministers work together like a team.",
         "correctOption": 3
       },
       "cognitiveLevel": "Understanding",
       "chapter": "prime-minister-and-council-of-ministers",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-history-civics-specimen/1iv.png",
+          "kind": "FIGURE",
+          "alt": "Illustration of several people lifting and fitting together large jigsaw-puzzle pieces, some on ladders",
+          "width": 973,
+          "height": 570,
+          "page": 4,
+          "crop": {
+            "x": 0.175,
+            "y": 0.29,
+            "w": 0.53,
+            "h": 0.24
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -338,17 +370,33 @@
         "UNDP"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) on page 6 not reproduced in the text layer; the question depends on it."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) / UNESCO",
         "correctOption": 0
       },
       "cognitiveLevel": "Understanding",
       "chapter": "the-united-nations",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-history-civics-specimen/1xi.png",
+          "kind": "FIGURE",
+          "alt": "Picture titled 'The importance of restoring historical monuments' with a drawing of an old building",
+          "width": 881,
+          "height": 409,
+          "page": 6,
+          "crop": {
+            "x": 0.215,
+            "y": 0.628,
+            "w": 0.48,
+            "h": 0.172
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -424,18 +472,33 @@
         "Britain"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (cartoon) on page 7 not reproduced in the text layer; the question depends on it.",
-        "The chapter suggestion for this item (the-second-world-war) is uncertain without seeing the cartoon; it is a guess based on the option set (three Allied nations vs. Japan) and the official answer."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(b) / Japan",
         "correctOption": 1
       },
       "cognitiveLevel": "Application",
-      "chapter": "the-second-world-war",
-      "mappingStatus": "AI_SUGGESTED"
+      "chapter": "the-united-nations",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-history-civics-specimen/1xiv.png",
+          "kind": "FIGURE",
+          "alt": "Cartoon of five leaders seated at a curved table with country name plates, each holding up a 'VETO' sign",
+          "width": 1028,
+          "height": 451,
+          "page": 7,
+          "crop": {
+            "x": 0.17,
+            "y": 0.592,
+            "w": 0.56,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -483,17 +546,33 @@
         "Jawaharlal Nehru"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram on page 8 not reproduced in the text layer; the question depends on it."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(b) / Subhash Chandra Bose",
         "correctOption": 1
       },
       "cognitiveLevel": "Understanding",
       "chapter": "forward-bloc-and-ina",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-history-civics-specimen/1xvi.png",
+          "kind": "FIGURE",
+          "alt": "Two overlapping circles labelled 'Forward Bloc' and 'Delhi Chalo!' with X in the overlap",
+          "width": 716,
+          "height": 416,
+          "page": 8,
+          "crop": {
+            "x": 0.255,
+            "y": 0.298,
+            "w": 0.39,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -591,16 +670,32 @@
       "type": "SHORT_ANSWER",
       "text": "Look at the picture given below and answer the question that follows:\nIdentify the leader seen in the picture. Mention any one of his contributions.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) on page 9 not reproduced in the text layer; the question depends on it."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Bipin Chandra Pal\n• He worked for the Bengal Public Opinion, The Tribune and New India to propagate nationalism.\n• He was imprisoned for his writings.\n• He advocated the use of Swadeshi and Boycott movements.\n• He encouraged National Education. (Any one)"
       },
       "cognitiveLevel": "Understanding",
       "chapter": "first-phase-of-the-indian-national-movement",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-history-civics-specimen/2v.png",
+          "kind": "FIGURE",
+          "alt": "Black-and-white photograph of a man wearing spectacles and a white shawl",
+          "width": 428,
+          "height": 533,
+          "page": 9,
+          "crop": {
+            "x": 0.333,
+            "y": 0.288,
+            "w": 0.233,
+            "h": 0.224
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -977,16 +1072,32 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the picture given below and answer the following questions:\nWhich country was responsible for the bombing referred to in the headline? Mention any two consequences of the World War associated with this incident.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture/headline) on page 13 not reproduced in the text layer; the question depends on it."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Japan\nConsequences: Formation of the UN / Defeat of axis powers / Cold war (Any two points of explanation)"
       },
       "cognitiveLevel": "Recall & Understanding",
       "chapter": "the-second-world-war",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-history-civics-specimen/9i.png",
+          "kind": "FIGURE",
+          "alt": "Newspaper headline dated December 7th, 1941: 'WAR! Pearl Harbor Attacked'",
+          "width": 735,
+          "height": 551,
+          "page": 13,
+          "crop": {
+            "x": 0.218,
+            "y": 0.148,
+            "w": 0.4,
+            "h": 0.232
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "9",

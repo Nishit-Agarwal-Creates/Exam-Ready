@@ -674,12 +674,29 @@
       "text": "a) State & prove parallel axes theorem.\nb) There are four point masses each of ‘m’ kept at a distance ‘L’ from origin as shown in figure find the moment of intertia of the system about axis AB.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 2 (printed page 5) not reproduced",
         "(5) printed beside part a) only; parts a) and b) kept together as one 5-mark entry"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "motion-of-system-of-particles-and-rigid-body",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-11-physics-isc-class-11-hy-physics-2019/20.png",
+          "kind": "FIGURE",
+          "alt": "Four point masses m on two perpendicular lines at distance L from the centre, with an axis AB through the centre at 60° to one line",
+          "width": 452,
+          "height": 322,
+          "page": 2,
+          "crop": {
+            "x": 0.65,
+            "y": 0.425,
+            "w": 0.19,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "21",

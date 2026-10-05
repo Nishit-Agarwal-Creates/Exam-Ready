@@ -1,7 +1,7 @@
 import { and, asc, desc, eq, inArray, like, or, sql, type SQL } from "drizzle-orm";
 import { getDb, schema } from "@/db";
 import { AGGREGATE_TTL, sharedCache } from "@/lib/data/shared-cache";
-import type { AnswerSource, Confidence, Difficulty, MappingStatus, PaperType, QuestionType, ReviewState, SourceType, VerificationStatus } from "@/db/schema";
+import type { AnswerSource, Confidence, Difficulty, FigureAsset, MappingStatus, MarksStatus, PaperType, QuestionType, ReviewState, SourceType, VerificationStatus } from "@/db/schema";
 import type { PoolQuestion } from "@/lib/engine/generator";
 import type { AnswerKey } from "@/lib/engine/grading";
 import type { SourceLink } from "@/lib/provenance";
@@ -39,6 +39,8 @@ export async function getPool(subjectId: number, chapterIds: number[], includeDe
   const conds: SQL[] = [eq(questions.subjectId, subjectId)];
   if (chapterIds.length) conds.push(inArray(questions.chapterId, chapterIds));
   if (!includeDemo) conds.push(eq(questions.isDemo, false));
+  // A paper needs real marks: questions whose own mark isn't printed (group totals, unprinted) are never drawn.
+  conds.push(eq(questions.marksStatus, "PRINTED"));
   const rows = await db
     .select({
       id: questions.id,
@@ -99,6 +101,11 @@ export type QuestionView = {
   mappingStatus: MappingStatus;
   answerSource: AnswerSource;
   hasFigure: boolean;
+  /** PRINTED, or GROUP_TOTAL / NOT_PRINTED when the paper prints no mark for this item (marks is then 0). */
+  marksStatus: MarksStatus;
+  marksNote: string;
+  /** Figures cropped from the original source page, shown with the question. */
+  figures: FigureAsset[];
   extractionConfidence: Confidence | null;
   extractionIssues: string[];
   reviewState: ReviewState | null;
@@ -191,6 +198,9 @@ const viewColumns = {
   mappingStatus: questions.mappingStatus,
   answerSource: questions.answerSource,
   hasFigure: questions.hasFigure,
+  marksStatus: questions.marksStatus,
+  marksNote: questions.marksNote,
+  figure: questions.figure,
   extractionConfidence: questions.extractionConfidence,
   extractionIssues: questions.extractionIssues,
   reviewState: questions.reviewState,
@@ -222,6 +232,9 @@ type ViewRow = {
   mappingStatus: MappingStatus;
   answerSource: AnswerSource;
   hasFigure: boolean;
+  marksStatus: MarksStatus;
+  marksNote: string;
+  figure: string | null;
   extractionConfidence: Confidence | null;
   extractionIssues: string;
   reviewState: ReviewState | null;
@@ -255,6 +268,9 @@ function toView(r: ViewRow, sources: SourceLink[], groupSources: SourceLink[], w
     mappingStatus: r.mappingStatus,
     answerSource: r.answerSource,
     hasFigure: r.hasFigure,
+    marksStatus: r.marksStatus,
+    marksNote: r.marksNote,
+    figures: safeJson<FigureAsset[]>(r.figure, []) ?? [],
     extractionConfidence: r.extractionConfidence,
     extractionIssues: safeJson<string[]>(r.extractionIssues, []),
     reviewState: r.reviewState,

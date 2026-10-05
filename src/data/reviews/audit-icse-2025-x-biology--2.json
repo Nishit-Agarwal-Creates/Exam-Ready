@@ -1,0 +1,61 @@
+{
+  "pack": "icse-2025-x-biology",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the page render (5 % grid) and the marking scheme / answer key; recovered figures compared with the original page.",
+  "checks": [
+    {
+      "key": "icse-2025-x-biology#1xv",
+      "agree": false,
+      "reason": "Only the group total [15] for Question 1 is printed; the stored 1 mark is split evenly from it (no per-item mark printed) and no marksNote records the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-biology#2iiia",
+      "agree": false,
+      "reason": "Only the group total [5] for 2 (iii) is printed; the stored 1 mark for (a) is split evenly from it and no marksNote records the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-biology#2iiib",
+      "agree": false,
+      "reason": "Only the group total [5] for 2 (iii) is printed; the stored 1 mark for (b) is split evenly from it and no marksNote records the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-biology#2iiic",
+      "agree": false,
+      "reason": "Only the group total [5] for 2 (iii) is printed; the stored 1 mark for (c) is split evenly from it and no marksNote records the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-biology#2iiid",
+      "agree": false,
+      "reason": "Only the group total [5] for 2 (iii) is printed; the stored 1 mark for (d) is split evenly from it and no marksNote records the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-biology#2iiie",
+      "agree": false,
+      "reason": "Only the group total [5] for 2 (iii) is printed; the stored 1 mark for (e) is split evenly from it and no marksNote records the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-biology#2v",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-biology#4v",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-biology#6v",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

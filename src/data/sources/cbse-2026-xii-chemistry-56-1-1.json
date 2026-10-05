@@ -44,15 +44,38 @@
       "type": "MCQ",
       "text": "Which of the following curve represents the first order reaction ?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Answer options (A)-(D) are curves/graphs (images) on page 5, not reproduced in the text layer; the question cannot be answered without them"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
-        "text": "(B)"
+        "text": "(B)",
+        "correctOption": 1
       },
       "chapter": "chemical-kinetics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-chemistry-56-1-1/1.png",
+          "kind": "GRAPH",
+          "alt": "Four option graphs: (A) and (B) plot t½ against [R]0; (C) and (D) plot Rate against Concentration",
+          "width": 1107,
+          "height": 505,
+          "page": 5,
+          "crop": {
+            "x": 0.145,
+            "y": 0.175,
+            "w": 0.62,
+            "h": 0.2
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "options": [
+        "Graph (A) in the figure",
+        "Graph (B) in the figure",
+        "Graph (C) in the figure",
+        "Graph (D) in the figure"
+      ]
     },
     {
       "number": "2",
@@ -317,25 +340,40 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "Which of the following amines has lowest pKb value ?",
+      "text": "Which of the following amines has lowest pK_b value ?",
       "options": [
-        "C6H5 – N(CH3)2",
-        "C6H5 – NH(CH3)",
-        "C6H5 – NH2",
-        "[Structural formula on page 7 not reproduced]"
+        "C₆H₅ – N(CH₃)₂",
+        "C₆H₅ – NH(CH₃)",
+        "C₆H₅ – NH₂",
+        "Structural formula (D) shown in the figure"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Subscripts flattened: C6H5, N(CH3)2, NH(CH3), NH2",
-        "Option (D) is a structural formula (image) on page 7, not reproduced in the text layer"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(A) / C6H5 – N(CH3)2",
         "correctOption": 0
       },
       "chapter": "amines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-chemistry-56-1-1/11.png",
+          "kind": "FIGURE",
+          "alt": "Option (D): structural formula of a benzene ring with O2N on one side and NH2 on the opposite side",
+          "width": 482,
+          "height": 127,
+          "page": 7,
+          "crop": {
+            "x": 0.505,
+            "y": 0.643,
+            "w": 0.27,
+            "h": 0.05
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "12",
@@ -779,7 +817,7 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "The reaction of amines with mineral acids to form ammonium salts shows that these are basic in nature. Aliphatic amines are stronger bases than ammonia whereas aromatic amines are weaker bases than ammonia. Aliphatic and aromatic primary and secondary amines react with acid chlorides, anhydrides and esters by nucleophilic substitution reaction. The main problem encountered during electrophilic substitution reactions of aromatic amines is that of their high reactivity. Substitution tends to occur at ortho-and para-positions. Hinsberg reagent is used for the identification and distinction between primary, secondary and tertiary amines. Aryldiazonium salts, usually obtained from arylamines, undergo replacement of the diazonium group with a variety of nucleophiles to provide advantageous methods for producing aryl halides, cyanides, phenols and arenes.\nAnswer the following questions :\n(a) (i) Why CH3 – NH2 is a stronger base than (CH3)3N in aqueous solution ?\n(ii) Write structural formulae of the compound A and B :\nCH3CONH2 –(NaOBr / Base)→ A –(C6H5COCl)→ B\n(b) A compound ‘X’ with molecular formula C3H9N reacts with Hinsberg reagent to give a product insoluble in alkali. Identify ‘X’.\nOR\n(b) How can you convert aniline to benzonitrile ?\n(c) Why is –NH2 group of aniline acetylated before carrying out nitration ?",
+      "text": "The reaction of amines with mineral acids to form ammonium salts shows that these are basic in nature. Aliphatic amines are stronger bases than ammonia whereas aromatic amines are weaker bases than ammonia. Aliphatic and aromatic primary and secondary amines react with acid chlorides, anhydrides and esters by nucleophilic substitution reaction. The main problem encountered during electrophilic substitution reactions of aromatic amines is that of their high reactivity. Substitution tends to occur at ortho-and para-positions. Hinsberg reagent is used for the identification and distinction between primary, secondary and tertiary amines. Aryldiazonium salts, usually obtained from arylamines, undergo replacement of the diazonium group with a variety of nucleophiles to provide advantageous methods for producing aryl halides, cyanides, phenols and arenes.\nAnswer the following questions :\n(a) (i) Why CH3 – NH2 is a stronger base than (CH3)3N in aqueous solution ?\n(ii) Write structural formulae of the compound A and B :\nCH3CONH2 –(NaOBr)→ A –(C6H5COCl / Base)→ B\n(b) A compound ‘X’ with molecular formula C3H9N reacts with Hinsberg reagent to give a product insoluble in alkali. Identify ‘X’.\nOR\n(b) How can you convert aniline to benzonitrile ?\n(c) Why is –NH2 group of aniline acetylated before carrying out nitration ?",
       "hasFigure": false,
       "extractionIssues": [
         "Subscripts flattened: CH3–NH2, (CH3)3N, C3H9N, CH3CONH2, C6H5COCl, C6H5",
@@ -845,11 +883,9 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(i) Draw structure of the 2, 4-dinitrophenylhydrazone derivative of benzaldehyde.\n(ii) Arrange the following in increasing order of their reactivity towards HCN :\nDi-tert. butyl ketone, Acetaldehyde, Acetone\n(iii) Give a simple chemical test to distinguish between benzoic acid and ethyl benzoate.\n(iv) Write the name of the reagent to convert Ethanenitrile to Ethanal.\n(v) Draw the structure of ‘X’ in the following reaction :\n[starting compound] –(CrO3)→ ‘X’",
+      "text": "Answer the following questions :\n(i) Draw structure of the 2, 4-dinitrophenyl hyzdrazone derivative of benzaldehyde.\n(ii) Arrange the following in increasing order of their reactivity towards HCN :\nDi-tert. butyl ketone, Acetaldehyde, Acetone\n(iii) Give a simple chemical test to distinguish between benzoic acid and ethyl benzoate.\n(iv) Write the name of the reagent to convert Ethanenitrile to Ethanal.\n(v) Draw the structure of ‘X’ in the following reaction :",
       "hasFigure": true,
       "extractionIssues": [
-        "Starting compound structure for part (v) (before CrO3 oxidation) on page 21 is a drawn structure/image, not reproduced in the text layer; the question cannot be fully answered without it",
-        "Subscript flattened: CrO3",
         "Marks printed as '5 x 1'"
       ],
       "confidence": "LOW",
@@ -857,7 +893,25 @@
         "text": "(ii) Di-tert-butyl ketone < Acetone < Acetaldehyde\n(iii) Add NaHCO3 to both; benzoic acid will give a brisk effervescence while ethyl benzoate will not.\n(iv) (I) DIBAL-H, then H3O+ / (I) SnCl2-HCl, then H3O+\n(i) and (v): structural formulas – images in the marking scheme, not extracted"
       },
       "chapter": "aldehydes-ketones-and-carboxylic-acids",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-chemistry-56-1-1/31b.png",
+          "kind": "FIGURE",
+          "alt": "Reaction for part (v): a six-membered ring with an –OH group, an arrow labelled CrO3, and the product written as ‘X’",
+          "width": 464,
+          "height": 139,
+          "page": 21,
+          "crop": {
+            "x": 0.29,
+            "y": 0.435,
+            "w": 0.26,
+            "h": 0.055
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "32",
@@ -869,18 +923,33 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(i) From the given data of E° values, answer the following questions :\nE°(M2+/M) (V) – Cr, Mn, Fe, Co, Ni, Cu : –1.18, –0.91, –1.18, –0.44, –0.28, –0.25, +0.34\n(I) Why does E°(M2+/M) show irregular trend in the above values ?\n(II) Why is E°(Cu2+/Cu) value exceptionally positive ?\n(III) Why is E°(Mn2+/Mn) value highly negative ?\n(ii) Write the ionic equations for the oxidising action of potassium permanganate for its reaction with I– in both acidic and alkaline solutions.",
-      "hasFigure": false,
-      "extractionIssues": [
-        "The E°(M2+/M) data table lists 6 element labels (Cr, Mn, Fe, Co, Ni, Cu) but 7 numeric values in the extracted text layer; the alignment between elements and values is uncertain – see PDF page 21",
-        "Subscripts/superscripts flattened throughout"
-      ],
+      "text": "(i) From the given data of E° values, answer the following questions :\nE°(M²⁺/M): V −1.18, Cr −0.91, Mn −1.18, Fe −0.44, Co −0.28, Ni −0.25, Cu +0.34\n(I) Why E°(M²⁺/M) show irregular trend in the above values ?\n(II) Why is E°(Cu²⁺/Cu) value exceptionally positive ?\n(III) Why E°(Mn²⁺/Mn) value is highly negative ?\n(ii) Write the ionic equations for the oxidising action of potassium permanganate for its reaction with I⁻ in both acidic and alkaline solutions.",
+      "hasFigure": true,
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(i) (I) Due to the irregular variation of ionisation enthalpies (ΔiH1+ΔiH2) and sublimation enthalpies.\n(II) Due to low ΔhydH° and high ΔaH° of Cu.\n(III) Because Mn2+ is highly stable due to half-filled 3d5 configuration.\n(ii) [ionic equations for KMnO4 oxidation of I– in acidic and alkaline media – coefficients/charges scrambled across lines in extraction, not reliably reconstructable; see marking scheme page 7]"
       },
       "chapter": "d-and-f-block-elements",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-chemistry-56-1-1/32a.png",
+          "kind": "TABLE",
+          "alt": "Table of E°(M2+/M) values for V, Cr, Mn, Fe, Co, Ni and Cu",
+          "width": 1001,
+          "height": 139,
+          "page": 21,
+          "crop": {
+            "x": 0.25,
+            "y": 0.555,
+            "w": 0.56,
+            "h": 0.055
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "32",
@@ -934,10 +1003,9 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "For the reaction :\n2AgCl(s) + H2(g) (0.4 atm) → 2Ag(s) + 2H+(0.1 M) + 2Cl–(0.2 M)\nCalculate emf of the cell at 25°C.\nGiven : ΔG = –43500 J mol–1\n[log 10 = 1, 1 F = 96500 C mol–1]",
+      "text": "For the reaction :\n2AgCl(s) + H₂(g) (0.4 atm) → 2Ag(s) + 2H⁺(0.1 M) + 2Cl⁻(0.2 M)\nCalculate emf of the cell at 25 °C.\nGiven : ΔG° = −43500 J mol⁻¹\n[log 10 = 1, 1 F = 96500 C mol⁻¹]",
       "hasFigure": false,
       "extractionIssues": [
-        "Subscripts/superscripts flattened: H2(g), H+, Cl–",
         "Official answer (emf calculation) is entirely equations/images in the marking scheme, not present in the text layer"
       ],
       "confidence": "MEDIUM",

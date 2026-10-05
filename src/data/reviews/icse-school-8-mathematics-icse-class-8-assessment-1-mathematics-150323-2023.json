@@ -272,14 +272,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The two parallelogram figures on page 3 (angles x, y, z, 100°, 30°) are needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 3: both figures a) and b) under Q.8 cropped together with their labels (left edge of b) is darkened on the scan but all angle labels are legible); empty 'a)'/'b)' lines removed from the stem.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-assessment-1-mathematics-150323-2023#9",

@@ -537,12 +537,28 @@
       "type": "SHORT_ANSWER",
       "text": "Write IUPAC names of the following compounds :- (i) [structure] (ii) [structure] (iii) [structure]",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 not reproduced: hand-drawn structural formulae; shown as '[structure]'; the question cannot be answered without them"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "organic-chemistry-some-basic-principles-and-techniques",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-11-chemistry-isc-class-11-hy-chemistry-2019/12a.png",
+          "kind": "FIGURE",
+          "alt": "Three hand-drawn structural formulae labelled (i), (ii) and (iii)",
+          "width": 998,
+          "height": 138,
+          "page": 4,
+          "crop": {
+            "x": 0.53,
+            "y": 0.348,
+            "w": 0.395,
+            "h": 0.077
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "12",
@@ -557,12 +573,29 @@
       "text": "Write IUPAC names of the following compounds :- (i) [structure] (ii) [structure] (iii) [structure]",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 4 not reproduced: hand-drawn structural formulae (the OR set); shown as '[structure]'; the question cannot be answered without them",
         "The lead-in is printed once, before the first set"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "organic-chemistry-some-basic-principles-and-techniques",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-11-chemistry-isc-class-11-hy-chemistry-2019/12b.png",
+          "kind": "FIGURE",
+          "alt": "Three hand-drawn structural formulae labelled (i), (ii) and (iii), printed after 'OR'",
+          "width": 998,
+          "height": 175,
+          "page": 4,
+          "crop": {
+            "x": 0.53,
+            "y": 0.428,
+            "w": 0.395,
+            "h": 0.098
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "13",

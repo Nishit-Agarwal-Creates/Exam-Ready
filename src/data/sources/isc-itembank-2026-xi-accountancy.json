@@ -1556,16 +1556,33 @@
       "text": "(Google images Bills of Exchange- link.springer.com)\nIn view of the sample of a Bill of Exchange given above answer the following questions:\n(a) Name of the drawee\n(b) What will be the due date of the bill if it was accepted on 7th December 2011?\n(c) Pass the Journal Entry in the books of the drawer if the following bill is dishonoured on the due date.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 24 (image of a sample Bill of Exchange) not reproduced; the question cannot be answered without it",
         "Official answer is a table on page 47; reproduced row by row with ' | ' from a page render; check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Importing Company Ltd.\n(b) 10th March, 2012.\n(c) In the books of Exporting Company (UK) Ltd. Journal:\nImporting Company Ltd. A/c…. Dr. 50,000; To Bills Receivable A/c 50,000 (Being Bill Receivable dishonoured)"
       },
       "cognitiveLevel": "Understanding and Application",
       "chapter": "bills-of-exchange",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-accountancy/61.png",
+          "kind": "FIGURE",
+          "alt": "Sample Bill of Exchange No. 0023456 for £50,000.00 dated 30th November 2011, payable at 3 months after sight, with the names and addresses of the parties as printed on the document",
+          "width": 1098,
+          "height": 525,
+          "page": 24,
+          "crop": {
+            "x": 0.17,
+            "y": 0.142,
+            "w": 0.615,
+            "h": 0.208
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "62",

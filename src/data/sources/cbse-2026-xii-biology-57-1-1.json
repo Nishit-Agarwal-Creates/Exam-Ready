@@ -239,16 +239,32 @@
         "Incomplete dominance"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (two ways of pairing of two homologous chromosome pairs) on page 7 not reproduced in text layer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(B) / Independent assortment of genes",
         "correctOption": 1
       },
       "chapter": "principles-of-inheritance-and-variation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-biology-57-1-1/8.png",
+          "kind": "FIGURE",
+          "alt": "Diagram titled Possibility 1 and Possibility 2: Metaphase I cells, Metaphase II cells with alleles A/a and B/b, and gametes labelled Combination 1 to 4",
+          "width": 1027,
+          "height": 619,
+          "page": 7,
+          "crop": {
+            "x": 0.19,
+            "y": 0.226,
+            "w": 0.575,
+            "h": 0.245
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "9",
@@ -626,15 +642,31 @@
       "type": "SHORT_ANSWER",
       "text": "Given below is a pyramid found in an ecosystem, where each bar represents the standing crop available in the trophic level.\n(i) Identify the kind of pyramid and with the help of an example explain the conditions where this kind of pyramid is possible in nature.\n(ii) Write any two limitations of ecological pyramids.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Ecological pyramid diagram on page 13 (each bar = standing crop per trophic level) not reproduced in text layer; needed to identify the pyramid type"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Inverted Pyramid of Biomass. Such pyramids are seen in aquatic conditions where a small standing crop of phytoplankton supports a large standing crop of zooplankton or fish / in a terrestrial ecosystem when a large number of insects feed on a single tree, or any other correct example.\n(ii) Ecological pyramids do not take into account the same species belonging to two or more trophic levels; they do not accommodate a food web; saprophytes are not given any place in ecological pyramids even though they play a vital role. (Any two)"
       },
       "chapter": "ecosystem",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-biology-57-1-1/21a.png",
+          "kind": "FIGURE",
+          "alt": "Two stacked bars labelled PC (top) and PP (bottom) of different widths",
+          "width": 571,
+          "height": 215,
+          "page": 13,
+          "crop": {
+            "x": 0.315,
+            "y": 0.552,
+            "w": 0.32,
+            "h": 0.085
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "21",
@@ -710,15 +742,31 @@
       "type": "SHORT_ANSWER",
       "text": "Analyse the following pedigree and write the\n(i) Pattern of inheritance.\n(ii) Give one example of disease showing such an inheritance pattern.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Pedigree diagram (chart) on page 15 not reproduced in text layer; needed to determine the pattern of inheritance"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Autosomal-Recessive\n(ii) Sickle Cell Anaemia / Thalassemia / Phenylketonuria / any other correct example."
       },
       "chapter": "principles-of-inheritance-and-variation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-biology-57-1-1/23b.png",
+          "kind": "FIGURE",
+          "alt": "Three-generation pedigree chart of squares and circles, some shaded",
+          "width": 688,
+          "height": 366,
+          "page": 15,
+          "crop": {
+            "x": 0.285,
+            "y": 0.312,
+            "w": 0.385,
+            "h": 0.145
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "24",
@@ -856,16 +904,47 @@
       "type": "CASE_BASED",
       "text": "Observe the given picture carefully. A mixture of DNA with fragments ranging from 100 base pairs to 1800 base pairs were separated by electrophoresis on agarose gel with the following arrangement :\n(a) What result will be obtained in staining with ethidium bromide ? Explain with reasons.\n(b) The above setup was modified as shown below and a band with 100 base pairs was obtained at X. What changes were made to the previous design to get a band at ‘X’. Why did the band appear at ‘X’ ?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Gel electrophoresis picture (initial DNA fragment arrangement) on page 17 not reproduced in text layer",
-        "Modified setup diagram with band at position 'X' in part (b) also not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) No bands will be seen in the agarose gel; DNA fragments, being negatively charged, will not move towards the negative end (cathode) / will remain positioned at the anode (positive end).\n(b) Position of the positive terminal (anode) and negative terminal (cathode) has been interchanged. Band at X, being the smallest fragment of DNA, moves farthest towards the anode."
       },
       "chapter": "biotechnology-principles-and-processes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-biology-57-1-1/28.png",
+          "kind": "FIGURE",
+          "alt": "Gel electrophoresis set-up with five wells, a + electrode at the well end and a - electrode at the far end, an arrow between them",
+          "width": 536,
+          "height": 412,
+          "page": 17,
+          "crop": {
+            "x": 0.33,
+            "y": 0.158,
+            "w": 0.3,
+            "h": 0.163
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/cbse-2026-xii-biology-57-1-1/28-2.png",
+          "kind": "FIGURE",
+          "alt": "Modified gel electrophoresis set-up with a - electrode at the well end and a + electrode at the far end, five wells, DNA bands and one band marked X",
+          "width": 545,
+          "height": 409,
+          "page": 17,
+          "crop": {
+            "x": 0.325,
+            "y": 0.413,
+            "w": 0.305,
+            "h": 0.162
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "29",
@@ -903,15 +982,32 @@
       "text": "A student performed some crosses in plants and represented the result in the form of bar graphs as shown below. Each graph displays the phenotypic proportion of the progeny. Study the graphs and answer the questions :\n(a) What can you infer about the genotype of parents in crosses I and II ?\nOR\n(a) Which genetic cross is represented by these crosses ?\n(b) Looking at bar graph of cross III, identify the type of cross performed and its importance in genetics.\n(c) What conclusion can you draw from the results of bar graphs of crosses I and II ? Name the genetic principle illustrated.",
       "hasFigure": true,
       "extractionIssues": [
-        "Bar graphs showing phenotypic proportions for crosses I, II and III (page 19) not reproduced in text layer; needed to identify genotypes/cross types from the graphed proportions",
         "Question continues from page 19 to page 21"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Cross I – Genotypes TT and tt / TT and Tt / TT and TT; Cross II – Genotypes Tt and Tt.\nOR\n(a) Monohybrid Cross.\n(b) Test Cross – done to find the genotype of an organism showing the dominant phenotype.\n(c) It shows that the tall trait is dominant over dwarf. Genetic principle – Law of Dominance."
       },
       "chapter": "principles-of-inheritance-and-variation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-biology-57-1-1/30.png",
+          "kind": "GRAPH",
+          "alt": "Bar graph of number of plants (Tall and Dwarf) for crosses I, II and III, with the count printed on each bar",
+          "width": 701,
+          "height": 581,
+          "page": 19,
+          "crop": {
+            "x": 0.283,
+            "y": 0.538,
+            "w": 0.392,
+            "h": 0.23
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "31",

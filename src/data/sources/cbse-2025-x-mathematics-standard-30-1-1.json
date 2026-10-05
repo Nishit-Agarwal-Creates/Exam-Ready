@@ -42,20 +42,16 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "If and are the zeroes of polynomial 3x² + 6x + k such that + + = , then the value of k is :",
+      "text": "If α and β are the zeroes of polynomial 3x² + 6x + k such that α + β + αβ = −2/3, then the value of k is :",
       "options": [
+        "−8",
         "8",
-        "8",
-        "4",
+        "−4",
         "4"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF ('3x2' → '3x²')",
-        "Mathematical notation lost in extraction; see page 3 (the Greek letters α, β and the relation connecting them, e.g. 'α + β + αβ = ...', are missing; options (B) and (D) are also missing their printed minus signs and read identically to (A) and (C))",
-        "Official answer text is also missing a minus sign ('(D) 4' is likely '(D) −4'); kept as extracted from the marking scheme."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(D) 4",
         "correctOption": 3
@@ -73,7 +69,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "If x = 1 and y = 2 is a solution of the pair of linear equations 2x 3y + a = 0 and 2x + 3y b = 0, then :",
+      "text": "If x = 1 and y = 2 is a solution of the pair of linear equations 2x − 3y + a = 0 and 2x + 3y − b = 0, then :",
       "options": [
         "a = 2b",
         "2a = b",
@@ -81,10 +77,8 @@
         "2a + b = 0"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 5 (minus signs before '3y' and 'b' in the two equations are missing, e.g. '2x − 3y + a = 0' and '2x + 3y − b = 0'; the printed 'y = 2' may also be missing a minus sign)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(B) 2a = b",
         "correctOption": 1
@@ -102,7 +96,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "The mid-point of the line segment joining the points P( 4, 5) and Q(4, 6) lies on :",
+      "text": "The mid-point of the line segment joining the points P(−4, 5) and Q(4, 6) lies on :",
       "options": [
         "x-axis",
         "y-axis",
@@ -110,10 +104,8 @@
         "neither x-axis nor y-axis"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 5 (a minus sign in point P's coordinates is missing, likely 'P(−4, 5)')"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(B) y – axis",
         "correctOption": 1
@@ -131,20 +123,18 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "If is an acute angle and 7 + 4 sin = 9, then the value of is :",
+      "text": "If θ is an acute angle and 7 + 4 sin θ = 9, then the value of θ is :",
       "options": [
-        "90",
-        "30",
-        "45",
-        "60"
+        "90°",
+        "30°",
+        "45°",
+        "60°"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 5 (the variable θ is missing throughout ('If θ is an acute angle ... 7 + 4 sinθ = 9 ... value of θ'); degree signs after the option values are also missing)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(B) 300",
+        "text": "(B) 30⁰",
         "correctOption": 1
       },
       "chapter": "introduction-to-trigonometry",
@@ -160,19 +150,16 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "The value of tan² is :",
+      "text": "The value of tan²θ − ((1/cos θ) × sec θ) is :",
       "options": [
         "1",
         "0",
-        "1",
+        "−1",
         "2"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF ('tan2' → 'tan²')",
-        "Mathematical notation lost in extraction; see page 5 (θ is missing after 'tan²'; option (C) is also missing a minus sign and reads identically to option (A) ('1' instead of '−1'))"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(C) −1",
         "correctOption": 2
@@ -190,7 +177,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "If HCF(98, 28) = m and LCM(98, 28) = n, then the value of n 7 m is :",
+      "text": "If HCF(98, 28) = m and LCM(98, 28) = n, then the value of n − 7m is :",
       "options": [
         "0",
         "28",
@@ -198,10 +185,8 @@
         "198"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 5 (an operator between 'n' and '7 m' is missing, likely 'n − 7m')"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(C) 98",
         "correctOption": 2
@@ -246,7 +231,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "In triangles ABC and DEF, B = E, F = C and AB = 3 DE. Then, the two triangles are :",
+      "text": "In triangles ABC and DEF, ∠B = ∠E, ∠F = ∠C and AB = 3 DE. Then, the two triangles are :",
       "options": [
         "congruent but not similar",
         "congruent as well as similar",
@@ -254,10 +239,8 @@
         "similar but not congruent"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 7 (angle symbols (∠B = ∠E, ∠F = ∠C) and a square-root sign before '3 DE' (likely 'AB = √3 DE') are missing)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(D) similar but not congruent",
         "correctOption": 3
@@ -275,7 +258,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "If ( 1)n + ( 1)8 = 0, then n is :",
+      "text": "If (−1)ⁿ + (−1)⁸ = 0, then n is :",
       "options": [
         "any positive integer",
         "any negative integer",
@@ -283,10 +266,8 @@
         "any even number"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 7 (minus signs are missing, likely '(−1)ⁿ + (−1)⁸ = 0')"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(C) any odd number",
         "correctOption": 2
@@ -312,16 +293,32 @@
         "4"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (graph of two polynomials) on page 7 not reproduced; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(C) 2",
         "correctOption": 2
       },
       "chapter": "polynomials",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-x-mathematics-standard-30-1-1/10.png",
+          "kind": "GRAPH",
+          "alt": "Graph with axes x′x and y′y showing two curves",
+          "width": 589,
+          "height": 571,
+          "page": 7,
+          "crop": {
+            "x": 0.16,
+            "y": 0.618,
+            "w": 0.33,
+            "h": 0.226
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "11",
@@ -390,15 +387,20 @@
       "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "A card is selected at random from a deck of 52 playing cards. The probability of it being a red face card is :",
-      "options": null,
+      "options": [
+        "3/13",
+        "2/13",
+        "1/2",
+        "3/26"
+      ],
       "hasFigure": false,
       "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 9 (all four options are fraction values not captured by the text layer (rendered in a math font without a Unicode mapping); none could be reliably extracted)",
         "Official answer's fraction was split across lines in the marking-scheme layout ('3' over '26') and has been rebuilt as '3/26'."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(D) 3/26"
+        "text": "(D) 3/26",
+        "correctOption": 3
       },
       "chapter": "probability",
       "mappingStatus": "AI_SUGGESTED"
@@ -413,15 +415,19 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "Which of the following is a rational number between 3 and ?",
-      "options": null,
-      "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 9 (options (B) and (C) are irrational/root values not captured by the text layer, and the numbers under the square roots in the question stem are also missing; only options (A) and (D), which are decimal expansions, survive)"
+      "text": "Which of the following is a rational number between √3 and √5 ?",
+      "options": [
+        "1.4142387954012 ....",
+        "2.326̅",
+        "π",
+        "1.857142"
       ],
-      "confidence": "LOW",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(D) 1.857142"
+        "text": "(D) 1.857142",
+        "correctOption": 3
       },
       "chapter": "real-numbers",
       "mappingStatus": "AI_SUGGESTED"
@@ -436,18 +442,16 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "If a sector of a circle has an area of 40 sq. units and a central angle of 72 , the radius of the circle is :",
+      "text": "If a sector of a circle has an area of 40π sq. units and a central angle of 72°, the radius of the circle is :",
       "options": [
         "200 units",
         "100 units",
         "20 units",
-        "10 2 units"
+        "10√2 units"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 11 (a degree sign after '72' and a square-root sign in option (D) are missing, e.g. option (D) is likely '10√2 units')"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(D) 10√2 units",
         "correctOption": 3
@@ -465,25 +469,40 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "In the given figure, PA is a tangent from an external point P to a circle with centre O. If POB = 115 , then APO is equal to :",
+      "text": "In the given figure, PA is a tangent from an external point P to a circle with centre O. If ∠POB = 115°, then ∠APO is equal to :",
       "options": [
-        "25",
-        "65",
-        "90",
-        "35"
+        "25°",
+        "65°",
+        "90°",
+        "35°"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (circle with tangent PA and points O, B) on page 11 not reproduced; the question cannot be answered without it",
-        "Mathematical notation lost in extraction; see page 11 (angle symbols (∠POB, ∠APO) and degree signs are missing)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(A) 25°",
         "correctOption": 0
       },
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-x-mathematics-standard-30-1-1/16.png",
+          "kind": "FIGURE",
+          "alt": "Circle with centre O; points A and B on the circle and an external point P; lines PA, PO and AOB drawn; angle at O between OP and OB marked 115°",
+          "width": 714,
+          "height": 518,
+          "page": 11,
+          "crop": {
+            "x": 0.155,
+            "y": 0.34,
+            "w": 0.4,
+            "h": 0.205
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "17",
@@ -495,18 +514,16 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "A kite is flying at a height of 150 m from the ground. It is attached to a string inclined at an angle of 30 to the horizontal. The length of the string is :",
+      "text": "A kite is flying at a height of 150 m from the ground. It is attached to a string inclined at an angle of 30° to the horizontal. The length of the string is :",
       "options": [
-        "100 m",
+        "100√3 m",
         "300 m",
-        "150 m",
-        "150 m"
+        "150√2 m",
+        "150√3 m"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 11 (a degree sign after '30' is missing, and options (C) and (D) are printed identically ('150 m') because square-root signs were dropped, e.g. '150√3 m' and '150√2 m')"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(B) 300 m",
         "correctOption": 1
@@ -524,18 +541,16 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "A piece of wire 20 cm long is bent into the form of an arc of a circle of radius cm. The angle subtended by the arc at the centre of the circle is :",
+      "text": "A piece of wire 20 cm long is bent into the form of an arc of a circle of radius 60/π cm. The angle subtended by the arc at the centre of the circle is :",
       "options": [
-        "30",
-        "60",
-        "90",
-        "50"
+        "30°",
+        "60°",
+        "90°",
+        "50°"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 13 (a numeric value (the radius, in cm) is missing from the question stem; degree signs after the option values are also missing)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(B) 60°",
         "correctOption": 1
@@ -562,10 +577,9 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Assertion-Reason codes (options) are printed once on page 13 for Questions 19 and 20",
-        "Mathematical notation lost in extraction; see page 13 (the Assertion's probability value reads 'is 1.' but, since the marking scheme treats the Assertion as true, this is likely a truncated fraction, e.g. 'is 1/20.' with the denominator lost)"
+        "Assertion-Reason codes (options) are printed once on page 13 for Questions 19 and 20"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
         "correctOption": 0
@@ -583,7 +597,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "ASSERTION_REASON",
-      "text": "Assertion (A) : If we join two hemispheres of same radius along their bases, then we get a sphere.\nReason (R): Total Surface Area of a sphere of radius r is 3 r².",
+      "text": "Assertion (A) : If we join two hemispheres of same radius along their bases, then we get a sphere.\nReason (R): Total Surface Area of a sphere of radius r is 3πr².",
       "options": [
         "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
@@ -592,11 +606,9 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Assertion-Reason codes (options) are printed once on page 13 for Questions 19 and 20",
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF ('r2' → 'r²')",
-        "Mathematical notation lost in extraction; see page 13 (the coefficient/symbol before 'r²' in the Reason is unclear; a π symbol may have been misrendered as the digit '3' with the coefficient '4' lost, i.e. the printed formula is likely '4πr²')"
+        "Assertion-Reason codes (options) are printed once on page 13 for Questions 19 and 20"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(C) Assertion (A) is true, but Reason (R) is false.",
         "correctOption": 2
@@ -614,14 +626,14 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "If x cos 60 + y cos 0 + sin 30 cot 45 = 5, then find the value of x + 2y.",
+      "text": "If x cos 60° + y cos 0° + sin 30° − cot 45° = 5, then find the value of x + 2y.",
       "hasFigure": false,
       "extractionIssues": [
         "Degree signs (°) lost in extraction after the angle values (60, 0, 30, 45); meaning is unambiguous from context"
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "x(1/2) + y(1) + (1/2)(1) – 1 = 5 ⇒ x + 2y = 11 (official answer's stacked fraction linearised from the marking-scheme layout)"
+        "text": "x(1/2) + y (1) + 1/2 – 1 = 5\n⟹ x + 2y = 11"
       },
       "chapter": "introduction-to-trigonometry",
       "mappingStatus": "AI_SUGGESTED"
@@ -636,14 +648,12 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Evaluate :",
+      "text": "Evaluate : tan²60° / (sin²60° + cos²30°)",
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 15 (the entire expression to be evaluated is not in the text layer (only the word 'Evaluate :' survives))"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(√3)² = 2; official answer's stacked fractions/expression linearised from the marking-scheme layout, check against the PDF"
+        "text": "(√3)² / [(√3/2)² + (√3/2)²]\n= 2"
       },
       "chapter": "introduction-to-trigonometry",
       "mappingStatus": "AI_SUGGESTED"
@@ -658,13 +668,10 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Find the zeroes of the polynomial p(x) = x² + x .",
+      "text": "Find the zeroes of the polynomial p(x) = x² + (4/3)x − 4/3.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF ('x2' → 'x²')",
-        "Mathematical notation lost in extraction; see page 15 (one or more coefficients of p(x), likely fractions, are missing (the marking scheme's working implies p(x) = x² + (4/3)x − 4/3))"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(1/3)(3x² + 4x – 4) = (1/3)(3x² + 6x – 2x – 4) = (1/3)(3x – 2)(x + 2). Zeroes are 2/3, –2."
       },
@@ -681,14 +688,12 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The coordinates of the centre of a circle are (2a, a 7). Find the value(s) 9) and has diameter 10 units.",
+      "text": "The coordinates of the centre of a circle are (2a, a − 7). Find the value(s) of 'a' if the circle passes through the point (11, −9) and has diameter 10√2 units.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 15 (a substantial part of the question is missing between 'Find the value(s)' and '9) and has diameter', including a coordinate pair; the marking scheme's working implies the circle passes through the point (11, −9))"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "radius = 5√2 units"
+        "text": "radius = 5√2 units\n(2a − 11)² + (a − 7 + 9)² = 50\n⟹ a² − 8a + 15 = 0\n⟹ (a − 5)(a − 3) = 0\n⟹ a = 5, 3"
       },
       "chapter": "coordinate-geometry",
       "mappingStatus": "AI_SUGGESTED"
@@ -703,14 +708,14 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "If ABC PQR in which AB = 6 cm, BC = 4 cm, AC = 8 cm and PR = 6 cm, then find the length of (PQ + QR).",
+      "text": "If Δ ABC ~ Δ PQR in which AB = 6 cm, BC = 4 cm, AC = 8 cm and PR = 6 cm, then find the length of (PQ + QR).",
       "hasFigure": false,
       "extractionIssues": [
         "Symbols for 'triangle' (Δ) and 'similar to' (~) lost in extraction ('If ΔABC ~ ΔPQR'); meaning unambiguous from context"
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "AB/PQ = BC/QR = AC/PR ⇒ 6/PQ = 4/QR = 8/6 ⇒ PQ = 2 cm or 4.5 cm and QR = 3 cm. PQ + QR = 7.5 cm (official answer's stacked fraction chain linearised from the marking-scheme layout)"
+        "text": "6/PQ = 4/QR = 8/6\n⟹ PQ = 9/2 cm or 4.5 cm\nand QR = 3 cm\n∴ PQ + QR = 7.5cm"
       },
       "chapter": "triangles",
       "mappingStatus": "AI_SUGGESTED"
@@ -725,18 +730,33 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "In the given figure, = and 1 = 2, show that PQS TQR.",
+      "text": "In the given figure, QR/QS = QT/PR and ∠1 = ∠2, show that Δ PQS ~ Δ TQR.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 15 not reproduced; the question cannot be answered without it",
-        "Mathematical notation lost in extraction; see page 15 (an angle-equality clause and the triangle/similarity symbols (Δ, ~) are missing, e.g. 'show that ΔPQS ~ ΔTQR')"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "In ΔPQR, ∠1 = ∠2 ⇒ PR = PQ. QR = QT. Also ∠1 = ∠1. ∴ ΔPQS ~ ΔTQR (official answer condensed from the marking scheme; some ratio steps are approximate, check against the PDF)"
+        "text": "In Δ PQR, ∠1 = ∠2 ∴ PR = PQ\n∴ QR/QS = QT/PR ⇒ QR/QS = QT/PQ\nAlso, ∠1 = ∠1\n∴ Δ PQS ~ Δ TQR"
       },
       "chapter": "triangles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-x-mathematics-standard-30-1-1/24b.png",
+          "kind": "FIGURE",
+          "alt": "Triangle figure: Q, S, R on a base line; P on QT with T above; segments PS, PR and TR; angle 1 at Q and angle 2 at R marked",
+          "width": 553,
+          "height": 518,
+          "page": 15,
+          "crop": {
+            "x": 0.245,
+            "y": 0.68,
+            "w": 0.31,
+            "h": 0.205
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "25",
@@ -768,18 +788,33 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "In the given figure, O is the centre of the circle and BCD is tangent to it at C. Prove that BAC + ACD = 90 .",
+      "text": "In the given figure, O is the centre of the circle and BCD is tangent to it at C. Prove that ∠BAC + ∠ACD = 90°.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 17 not reproduced; the question cannot be answered without it",
-        "Mathematical notation lost in extraction; see page 17 (angle symbols (∠BAC, ∠ACD) and a degree sign are missing)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "In ΔOAC, OA = OC ⇒ ∠OCA = ∠OAC. Now ∠OCD = 90° ⇒ ∠OCA + ∠ACD = 90° ⇒ ∠OAC + ∠ACD = 90°, or ∠BAC + ∠ACD = 90°."
       },
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-x-mathematics-standard-30-1-1/26a.png",
+          "kind": "FIGURE",
+          "alt": "Circle with centre O; line B-P-O-A passes through O meeting the circle at P and A; tangent BCD touches the circle at C; dashed OC; chord AC; angle at A marked",
+          "width": 687,
+          "height": 505,
+          "page": 17,
+          "crop": {
+            "x": 0.245,
+            "y": 0.57,
+            "w": 0.385,
+            "h": 0.2
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "26",
@@ -811,14 +846,12 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Prove that : + = 1 + sec cosec",
+      "text": "Prove that : tan θ/(1 − cot θ) + cot θ/(1 − tan θ) = 1 + sec θ cosec θ",
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 19 (the trigonometric identity to be proved is almost entirely missing (only 'Prove that :' and '1 + sec cosec' survive); this is a stacked fraction/expression not captured by the text layer)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "LHS = tanθ/(1−cotθ) + cotθ/(1−tanθ) = sin²θ/[cosθ(sinθ−cosθ)] − cos²θ/[sinθ(sinθ−cosθ)] = (sin³θ−cos³θ)/[(sinθ−cosθ)sinθcosθ] = (1+sinθcosθ)/(sinθcosθ) = 1 + secθ cosecθ = RHS. (Official answer's stacked fractions linearised from the marking-scheme layout; exact grouping approximate, check against the PDF.)"
+        "text": "LHS = tan θ/(1−cot θ) + cot θ/(1−tan θ)\n= (sin θ/cos θ)/(1−cos θ/sin θ) + (cos θ/sin θ)/(1−sin θ/cos θ)\n= sin²θ/[cos θ(sin θ−cos θ)] − cos²θ/[sin θ (sin θ−cos θ)]\n= 1/(sin θ−cos θ) [(sin³ θ − cos³ θ)/(sin θ cos θ)]\n= (sin θ−cos θ)(sin²θ+ sin θ cos θ+cos²θ)/[(sin θ−cos θ) sin θ cos θ]\n= (1+ sin θ cos θ)/(sin θ cos θ)\n= 1+ sec θ cosec θ = RHS"
       },
       "chapter": "introduction-to-trigonometry",
       "mappingStatus": "AI_SUGGESTED"
@@ -833,14 +866,12 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Prove that :",
+      "text": "Prove that : (sin A + cos A)/(sin A − cos A) + (sin A − cos A)/(sin A + cos A) = 2/(2 sin²A − 1)",
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 19 (the trigonometric identity to be proved is not in the text layer (only the words 'Prove that :' survive, along with an out-of-order fragment near the 'OR'))"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "LHS = sinA/(sinA−cosA) + cosA/(sinA+cosA) = [(sinA+cosA)²+(sinA−cosA)²]/[(sinA−cosA)(sinA+cosA)] = (2)/(sin²A−(1−sin²A)) = 2/(2sin²A−1) = RHS. (Official answer's stacked fractions linearised from the marking-scheme layout; exact grouping approximate, check against the PDF.)"
+        "text": "LHS = (sin A + cos A)/(sin A – cos A) + (sin A – cos A)/(sin A + cos A)\n= [(sin A + cos A)² + (sin A − cos A)²]/[(sin A – cos A)(sin A + cos A)]\n= (sin²A+cos²A + 2 sin A cos A + sin²A+cos²A− 2 sin A cos A)/(sin²A− cos²A)\n= (1+ 1)/[sin²A− (1− sin²A)]\n= 2/(2sin²A− 1) = RHS"
       },
       "chapter": "introduction-to-trigonometry",
       "mappingStatus": "AI_SUGGESTED"
@@ -855,12 +886,10 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Find the ratio in which the y-axis divides the line segment joining the points (5, 6) and ( 1, 4). Also find the point of intersection.",
+      "text": "Find the ratio in which the y-axis divides the line segment joining the points (5, −6) and (−1, −4). Also find the point of intersection.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 19 (minus signs before both coordinates of the second point are missing; the marking scheme's working implies the point is (−1, −4))"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Let the ratio be k:1 and the point on the y-axis be P(0, y). 0 = (−k+5)/(k+1) ⇒ k = 5, so ratio is 5:1. y = (−4(5)−6)/(5+1) = −26/6 = −13/3. Coordinates of point of intersection are P(0, −13/3)."
       },
@@ -877,12 +906,10 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Prove that is an irrational number.",
+      "text": "Prove that 1/√5 is an irrational number.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 19 (the number to be proved irrational is missing from the question stem; the marking scheme's proof (which shows 1/√5 is rational leads to a contradiction) implies the printed number is likely '1/√5')"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Let 1/√5 be a rational number, so 1/√5 = p/q where q≠0 and p, q are co-prime. Then 5p² = q² ⇒ q² is divisible by 5 ⇒ q is divisible by 5 …(i). Let q = 5a; then 25a² = 5p² ⇒ p² = 5a² ⇒ p is divisible by 5 …(ii). (i) and (ii) contradict p, q being co-prime. ∴ 1/√5 is an irrational number."
       },
@@ -899,15 +926,12 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "A room is in the form of a cylinder surmounted by a hemispherical dome. The base radius of the hemisphere is half of the height of the cylindrical part. If the room contains m³ of air, find the height of the cylindrical part. (Use = ).",
+      "text": "A room is in the form of a cylinder surmounted by a hemispherical dome. The base radius of the hemisphere is half of the height of the cylindrical part. If the room contains 1408/21 m³ of air, find the height of the cylindrical part. (Use π = 22/7).",
       "hasFigure": false,
-      "extractionIssues": [
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF ('m3' → 'm³')",
-        "Mathematical notation lost in extraction; see page 19 (the volume of air (a number before 'm³') and the value to use for π are both missing; the marking scheme's working implies the volume is 1408 m³ and π = 22/7)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "Let r = radius of hemisphere/cylinder and h = height of cylinder; h = 2r. Volume of air = (2/3)πr³ + πr²h = (2/3)πr³ + πr²(2r). 1408 = (8/3) × (22/7) × r³ ⇒ r³ = 8 ⇒ r = 2 m and h = 4 m."
+        "text": "Let r is the radius of hemisphere and cylinder and h is the height of cylinder\nh = 2r\nVolume of air in room = (2/3)πr³ + πr²h\n1408/21 = (2/3)πr³ + πr²(2r)\n1408/21 = 8/3 × 22/7 × r³\nr³ = 8\n∴ r = 2 m\nand h = 4 m"
       },
       "chapter": "surface-areas-and-volumes",
       "mappingStatus": "AI_SUGGESTED"
@@ -942,7 +966,7 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "Vijay invested certain amounts of money in two schemes A and B, which offer interest at the rate of 8% per annum and 9% per annum, respectively. He received 1,860 as the total annual interest. However, had he interchanged the amounts of investments in the two schemes, he would have received 20 more as annual interest. How much money did he invest in each scheme ?",
+      "text": "Vijay invested certain amounts of money in two schemes A and B, which offer interest at the rate of 8% per annum and 9% per annum, respectively. He received ₹1,860 as the total annual interest. However, had he interchanged the amounts of investments in the two schemes, he would have received ₹20 more as annual interest. How much money did he invest in each scheme ?",
       "hasFigure": false,
       "extractionIssues": [
         "Rupee symbol (₹) lost in extraction before '1,860' and '20'; numeric values are intact"
@@ -964,7 +988,7 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "The diagonal BD of a parallelogram ABCD intersects the line segment AE at the point F, where E is any point on the side BC. Prove that DF EF = FB FA.",
+      "text": "The diagonal BD of a parallelogram ABCD intersects the line segment AE at the point F, where E is any point on the side BC. Prove that DF × EF = FB × FA.",
       "hasFigure": false,
       "extractionIssues": [
         "Multiplication signs (×) lost in extraction between 'DF EF' and 'FB FA'; meaning unambiguous ('DF × EF = FB × FA')"
@@ -986,15 +1010,12 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "In ABC, if AD BC and AD² = BD DC, then prove that BAC = 90 .",
+      "text": "In Δ ABC, if AD ⊥ BC and AD² = BD × DC, then prove that ∠BAC = 90°.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF ('AD2' → 'AD²')",
-        "Mathematical notation lost in extraction; see page 21 (several symbols are missing: the triangle sign (ΔABC), perpendicular sign (AD ⊥ BC), multiplication sign (BD × DC), angle sign and degree sign (∠BAC = 90°))"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "AD² = BD × DC ⇒ AD/BD = DC/AD ⇒ ΔADB ~ ΔDAC. Also ∠ADB = ∠ADC ⇒ ΔDBA ~ ΔDAC ⇒ ∠DBA = ∠DAC and ∠BAD = ∠DCA. Adding: ∠DBA + ∠DCA = ∠DAC + ∠BAD ∴ ∠BAC = 90°. (Official answer condensed from the marking scheme.)"
+        "text": "AD² = BD × DC\nAD/DC = BD/AD\nAlso, ∠ADB = ∠ADC\n∴ Δ DBA ~ Δ DAC\n∠DBA = ∠DAC\n∠BAD = ∠DCA\nAdding both\n∠DBA + ∠DCA = ∠DAC + ∠BAD\n∴ ∠BAC = 90°"
       },
       "chapter": "triangles",
       "mappingStatus": "AI_SUGGESTED"
@@ -1049,12 +1070,10 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "in the following table, if the mean of the given data is 18. Hence find the mode.\nDaily Allowance | Number of Children\n11 – 13 | 7\n13 – 15 | 6\n15 – 17 | 9\n17 – 19 | 13\n19 – 21 | f\n21 – 23 | 5\n23 – 25 | 4",
+      "text": "Find the missing frequency 'f' in the following table, if the mean of the given data is 18. Hence find the mode.\nDaily Allowance | Number of Children\n11 – 13 | 7\n13 – 15 | 6\n15 – 17 | 9\n17 – 19 | 13\n19 – 21 | f\n21 – 23 | 5\n23 – 25 | 4",
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 21 (an opening instruction phrase before 'in the following table' is missing, likely 'Find the missing frequency f'; the table itself, including the unknown 'f' in the 19–21 row, is intact)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Mean = (752+20f)/(44+f) ⇒ 18 = (752+20f)/(44+f) ⇒ f = 20. Modal class is 19–21. Mode = 19 + [(20−13)/(40−13−5)] × 3 = 19.95 (approx.)."
       },
@@ -1093,15 +1112,31 @@
       "type": "CASE_BASED",
       "text": "A brooch is a decorative piece often worn on clothing like jackets, blouses or dresses to add elegance. Made from precious metals and decorated with gemstones, brooches come in many shapes and designs.\nOne such brooch is made with silver wire in the form of a circle with diameter 35 mm. The wire is also used in making 5 diameters which divide the circle into 10 equal sectors as shown in the figure.\nBased on the above given information, answer the following questions :\n(i) Find the central angle of each sector.\n(ii) Find the length of the arc ACB.\n(iii) (a) Find the area of each sector of the brooch.\nOR\n(iii) (b) Find the total length of the silver wire used.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (circle with diameters and the labelled arc ACB) on page 25 not reproduced; needed to identify points A, B, C for part (ii)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) central angle = 360°/10 = 36°. (ii) length of arc ACB = (1/10) × 2 × (22/7) × (35/2) = 11 mm. (iii)(a) area of each sector = (1/10) × (22/7) × (35/2) × (35/2) = 385/4 mm² = 96.25 mm². OR (iii)(b) length of silver wire used = 2 × (22/7) × (35/2) + 5 × 35 = 285 mm. (Official answer's stacked fractions linearised from the marking-scheme layout.)"
       },
       "chapter": "areas-related-to-circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-x-mathematics-standard-30-1-1/37.png",
+          "kind": "FIGURE",
+          "alt": "Circle divided into sectors by straight lines through the centre, with spiral decorations; points B, C, A marked on the arc at the top right",
+          "width": 420,
+          "height": 424,
+          "page": 25,
+          "crop": {
+            "x": 0.145,
+            "y": 0.538,
+            "w": 0.235,
+            "h": 0.168
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "38",
@@ -1113,19 +1148,35 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "Amrita stood near the base of a lighthouse, gazing up at its towering height. She measured the angle of elevation to the top and found it to be 60 . Then, she climbed a nearby observation deck, 40 metres higher than her original position and noticed the angle of elevation to the top of lighthouse to be 45 .\nBased on the above given information, answer the following questions :\n(i)\n(ii)\n(iii) (a) Find the height CE of the lighthouse [Use = 1·73]\nOR\n(iii) (b) Find distance AE, if AC = 100 m.",
+      "text": "Amrita stood near the base of a lighthouse, gazing up at its towering height. She measured the angle of elevation to the top and found it to be 60°. Then, she climbed a nearby observation deck, 40 metres higher than her original position and noticed the angle of elevation to the top of lighthouse to be 45°.\nBased on the above given information, answer the following questions :\n(i) If CD is h metres, find the distance BD in terms of 'h'.\n(ii) Find distance BC in terms of 'h'.\n(iii) (a) Find the height CE of the lighthouse [Use √3 = 1·73]\nOR\n(iii) (b) Find distance AE, if AC = 100 m.",
       "hasFigure": true,
       "extractionIssues": [
-        "Sub-questions (i) and (ii) are not captured in the text layer (only their printed mark value survives for each); see page 27. The Hindi page (26) preserves the Latin fragments 'CD', 'h', 'BD' for (i) and 'BC' for (ii), suggesting (i) asks to express BD in terms of h and (ii) asks to express BC in terms of h, using the two angles of elevation.",
-        "Figure (lighthouse with the two observation points) not reproduced; needed for all parts of this question",
-        "Mathematical notation lost in extraction; see page 27 (degree signs after '60' and '45' are missing, and the square-root value in '[Use = 1·73]' is missing (likely '[Use √3 = 1·73]'))"
+        "Sub-questions (i) and (ii) are not captured in the text layer (only their printed mark value survives for each); see page 27. The Hindi page (26) preserves the Latin fragments 'CD', 'h', 'BD' for (i) and 'BC' for (ii), suggesting (i) asks to express BD in terms of h and (ii) asks to express BC in terms of h, using the two angles of elevation."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) h/BD = tan45° = 1 ⇒ BD = h m. (ii) h/BC = sin45° = 1/√2 ⇒ BC = √2h m. (iii)(a) tan60° = EC/AE ⇒ √3 = (h+40)/h ⇒ h = 20(√3+1) = 20×2.73 = 54.6 m ∴ CE = 54.6+40 = 94.6 m. OR (iii)(b) cos60° = AE/AC ⇒ 1/2 = AE/100 ∴ AE = 50 m."
       },
       "chapter": "some-applications-of-trigonometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-x-mathematics-standard-30-1-1/38.png",
+          "kind": "FIGURE",
+          "alt": "Line diagram with points A, B, C, D, E: AB vertical marked 40 m, BD and AE horizontal, CE vertical with CD marked h; lines BC and AC; angle 45° marked at B and 60° at A",
+          "width": 607,
+          "height": 808,
+          "page": 27,
+          "crop": {
+            "x": 0.155,
+            "y": 0.448,
+            "w": 0.34,
+            "h": 0.32
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

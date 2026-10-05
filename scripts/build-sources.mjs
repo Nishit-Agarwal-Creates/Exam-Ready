@@ -8,7 +8,7 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { boardIdSql, chapterIdSql, classIdSql, contentHash, normaliseForHash, q, similarity, subjectIdSql, taxonomySql } from "./lib/sql.mjs";
+import { boardIdSql, chapterIdSql, classIdSql, contentHash, normaliseForHash, q, questionColumns, similarity, subjectIdSql, taxonomySql } from "./lib/sql.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dir = join(root, "src", "data", "sources");
@@ -95,9 +95,7 @@ for (const pack of packs) {
       problems.push(`${key}: unknown type ${item.type}`);
       continue;
     }
-    const hasOptions = Array.isArray(item.options) && item.options.length >= 2;
-    const correct = item.officialAnswer && Number.isInteger(item.officialAnswer.correctOption) ? item.officialAnswer.correctOption : null;
-    const answerKey = (type === "MCQ" || type === "ASSERTION_REASON") && hasOptions && correct !== null ? JSON.stringify({ correctOption: correct }) : null;
+    const { hasOptions, answerKey, marksStatus, marks, figure } = questionColumns(item);
     const issues = [...(item.extractionIssues ?? [])];
     if ((type === "MCQ" || type === "ASSERTION_REASON") && !hasOptions) issues.push("Options were not extractable as text (see the source page).");
     const noteParts = [`Extracted from ${s.title}, page ${item.page}.`];
@@ -105,22 +103,33 @@ for (const pack of packs) {
     noteParts.push("Awaiting editor verification against the official PDF.");
     const chId = chapterIdSql(board, level, subject, item.chapter);
     push(
-      `INSERT INTO questions (external_key, board_id, class_id, subject_id, chapter_id, question_text, question_type, marks, difficulty, options, answer_key, answer_text, explanation, source_type, verification_status, verification_notes, is_published, is_demo, frequency_count, content_hash, mapping_status, mapping_source, answer_source, has_figure, extraction_confidence, extraction_issues, review_state) SELECT ${q(
+      `INSERT INTO questions (external_key, board_id, class_id, subject_id, chapter_id, question_text, question_type, marks, difficulty, options, answer_key, answer_text, explanation, source_type, verification_status, verification_notes, is_published, is_demo, frequency_count, content_hash, mapping_status, mapping_source, answer_source, has_figure, extraction_confidence, extraction_issues, review_state, marks_status, marks_note, figure) SELECT ${q(
         key,
-      )}, ${boardIdSql(board)}, ${classIdSql(board, level)}, ${subjectIdSql(board, level, subject)}, ${chId}, ${q(item.text)}, ${q(type)}, ${item.marks}, 'UNRATED', ${q(
+      )}, ${boardIdSql(board)}, ${classIdSql(board, level)}, ${subjectIdSql(board, level, subject)}, ${chId}, ${q(item.text)}, ${q(type)}, ${marks}, 'UNRATED', ${q(
         hasOptions ? JSON.stringify(item.options) : null,
       )}, ${q(answerKey)}, ${q(item.officialAnswer?.text ?? "")}, '', ${q(SOURCE_TYPE[s.paperType] ?? "PENDING_REVIEW")}, 'UNVERIFIED', ${q(
         noteParts.join(" "),
       )}, 0, 0, 0, ${q(contentHash(item.text))}, 'SUGGESTED', 'ai', ${q(item.officialAnswer ? "OFFICIAL_SCHEME" : "NONE")}, ${item.hasFigure ? 1 : 0}, ${q(
         item.confidence ?? null,
-      )}, ${q(JSON.stringify(issues))}, 'PENDING_REVIEW' WHERE ${chId} IS NOT NULL ON CONFLICT(external_key) DO NOTHING;`,
+      )}, ${q(JSON.stringify(issues))}, 'PENDING_REVIEW', ${q(marksStatus)}, ${q(item.marksNote ?? "")}, ${q(figure)} WHERE ${chId} IS NOT NULL ON CONFLICT(external_key) DO NOTHING;`,
+    );
+    // The pack is the source of truth for questions nobody has verified yet: corrections (text, notation, marks
+    // status, recovered figures, chapter) reach them. Verified questions, including every editor decision, are never touched.
+    push(
+      `UPDATE questions SET question_text = ${q(item.text)}, question_type = ${q(type)}, marks = ${marks}, options = ${q(hasOptions ? JSON.stringify(item.options) : null)}, answer_key = ${q(
+        answerKey,
+      )}, answer_text = ${q(item.officialAnswer?.text ?? "")}, answer_source = ${q(item.officialAnswer ? "OFFICIAL_SCHEME" : "NONE")}, has_figure = ${item.hasFigure ? 1 : 0}, extraction_confidence = ${q(
+        item.confidence ?? null,
+      )}, extraction_issues = ${q(JSON.stringify(issues))}, content_hash = ${q(contentHash(item.text))}, marks_status = ${q(marksStatus)}, marks_note = ${q(item.marksNote ?? "")}, figure = ${q(
+        figure,
+      )}, chapter_id = COALESCE(${chId}, chapter_id) WHERE external_key = ${q(key)} AND verification_status = 'UNVERIFIED';`,
     );
     push(
       `INSERT INTO question_sources (question_id, paper_id, question_number, part, page_number, section, marks_in_paper, is_primary, notes) SELECT (SELECT id FROM questions WHERE external_key = ${q(
         key,
       )}), ${paperId}, ${q(String(item.number))}, ${q(item.part ?? null)}, ${q(item.page ?? null)}, ${q(
         [item.section, item.sectionTitle].filter(Boolean).join(" ") || null,
-      )}, ${item.marks}, 1, ${q(
+      )}, ${marks}, 1, ${q(
         [item.marksSource === "SECTION_INSTRUCTIONS" ? "Marks taken from the section instructions." : null, item.cognitiveLevel ? `Cognitive level printed on the paper: ${item.cognitiveLevel}.` : null]
           .filter(Boolean)
           .join(" "),

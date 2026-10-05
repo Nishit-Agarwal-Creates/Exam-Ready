@@ -23,7 +23,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1ii",
@@ -39,7 +50,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Table rows re-checked with pdfplumber: W 25 journalist, X 45 industrialist, Y 35 insolvency, Z 50 other citizenship (the -layout text misaligns rows; pack is correct)."
+      "notes": "Table rows re-checked with pdfplumber: W 25 journalist, X 45 industrialist, Y 35 insolvency, Z 50 other citizenship (the -layout text misaligns rows; pack is correct).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1iii",
@@ -55,7 +77,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1iv",
@@ -64,14 +97,26 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Picture on page 3 (image box y 322-544) not reproduced, but the text itself states the 'unruly situation', so the item is answerable from text."
+      "notes": "Picture on page 3 (image box y 322-544) not reproduced, but the text itself states the 'unruly situation', so the item is answerable from text.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1v",
@@ -87,7 +132,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1vi",
@@ -103,7 +159,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1vii",
@@ -119,7 +186,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1viii",
@@ -135,7 +213,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "pdfplumber shows (viii) at y111 on page 5 with the Subsidiary Alliance text; association confirmed."
+      "notes": "pdfplumber shows (viii) at y111 on page 5 with the Subsidiary Alliance text; association confirmed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1ix",
@@ -151,7 +240,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "(ix) at y271 on page 5; confirmed."
+      "notes": "(ix) at y271 on page 5; confirmed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1x",
@@ -160,14 +260,26 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 5 is needed to identify the reformer.",
-      "notes": "(x) at y404 on page 5, image box y428-559."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "(x) at y404 on page 5, image box y428-559.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1xi",
@@ -183,7 +295,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "(xi) at y111 on page 6; confirmed."
+      "notes": "(xi) at y111 on page 6; confirmed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1xii",
@@ -199,7 +322,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "(xii) at y343 on page 6; confirmed."
+      "notes": "(xii) at y343 on page 6; confirmed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1xiii",
@@ -215,7 +349,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "(xiii) at y535 on page 6; confirmed."
+      "notes": "(xiii) at y535 on page 6; confirmed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1xiv",
@@ -224,14 +369,27 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 7 is needed to identify the UN agency.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in. Alt text corrected (seven photographs, not eight) and made neutral.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1xv",
@@ -247,7 +405,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#1xvi",
@@ -256,14 +425,26 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Headline image on page 8 is needed to pick the cause.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Page 2: Question 1 prints only the group total [16] beside the instruction \"Select the correct answers to the questions from the given options.\"; no per-item mark or rule is printed, so marks are GROUP_TOTAL for all 16 items; the printed instruction is restored as the lead-in.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#2i",
@@ -555,7 +736,7 @@
     },
     {
       "key": "icse-2025-x-history-civics#6iii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -565,9 +746,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "'this Revolt' depends on the Question 6 stem (Revolt of 1857), which is not in the stored text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 10: Question 6 stem printed above (i)-(iii); added verbatim",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#7i",
@@ -624,14 +815,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 11 is needed to identify the incident.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 11: picture with headline printed under Question 8 stem",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-history-civics#8ii",

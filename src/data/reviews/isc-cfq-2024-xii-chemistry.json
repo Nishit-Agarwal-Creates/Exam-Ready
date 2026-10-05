@@ -32,14 +32,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Structures X, Y, Z on PDF page 4 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: table of structures X, Y, Z under Q2 cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#3",
@@ -48,14 +58,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Reaction scheme on PDF page 5 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: reaction scheme box under Q3 cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#4",
@@ -288,14 +308,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Molar conductivity graph on PDF page 8 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: molar conductivity vs √C graph (curves I, II, III) above Q18 text cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#19",
@@ -736,14 +766,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph with axes X and Y on PDF page 14 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 14: graph for Q46 (line through origin, axes X and Y) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#47",
@@ -768,14 +808,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Energy profile with numbered labels on PDF page 14 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 14: energy profile with numbers 1-5 under Q48 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#49",
@@ -784,14 +834,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Coulometer picture (the electrolytes HCl, AgNO3, CuSO4 are named only in it) on PDF page 15 is needed to answer and is not reproduced",
-      "notes": "Key (a) 1:1:2 also looks wrong: 1 F liberates H+, Ag+, Cu2+ in ratio 2:2:1"
+      "reason": "Answer key (a) ratio 1:1:2 looks wrong (one faraday liberates 1 mol H+, 1 mol Ag+, 1/2 mol Cu2+); figure now recovered.",
+      "notes": "Key (a) 1:1:2 also looks wrong: 1 F liberates H+, Ag+, Cu2+ in ratio 2:2:1",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 15: coulometer picture under Q49 cropped with its labels (HCL, AgNO3, CuSO4 solutions).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#50",
@@ -960,14 +1020,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Compartment diagram (solution labels inside it) on PDF page 17 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 17: compartment diagram with solution labels and A/B labels under Q60 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#61",
@@ -992,14 +1062,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Pathway A/B mechanism diagrams on PDF page 18 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 18: Pathway A and Pathway B mechanism boxes under Q62 cropped together.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#63",
@@ -1008,14 +1088,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Box of aldehydes/ketones on PDF page 19 is needed to answer and is not reproduced",
-      "notes": ""
+      "reason": "The official answer names the carbonyl compounds only in reaction-scheme images (answer key page 37); the stored text gives only the alcohol types, so the answer is incomplete and cannot be completed as text.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "PDF page 40 (answer key printed page 37), Q63: each of (a) 1° alcohol, (b) 2° alcohol, (c) 3° alcohol is followed by a boxed reaction-scheme image (formaldehyde / acetaldehyde / acetone + CH3MgBr) that names the chosen carbonyl compound; it is an image, so the answer cannot be completed as text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#64",
@@ -1072,14 +1163,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Potential energy diagram for (b) on PDF page 20 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 20: potential energy diagram for Q67(b) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#68",
@@ -1088,14 +1189,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Rate graphs for (a) on PDF page 21 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 21: the two rate graphs for Q68(a) cropped together.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#69",
@@ -1104,14 +1215,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Protein structure drawings A and B on PDF page 22 is needed to answer and is not reproduced",
-      "notes": ""
+      "reason": "Official answer to part (b) is only a structure-drawn equation image (answer key page 38); the stored answer leaves (b) blank.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "PDF page 41 (answer key printed page 38), Q69(b): the answer is a structure image (glucose + 3 C6H5NHNH2 → glucosazone + NH3 + 2 H2O drawn as open-chain structures); it cannot be copied as text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#70",
@@ -1120,14 +1242,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Amino-acid structures and enzyme-rate graph on PDF page 23 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 23: Student A/B structure table for (a) and enzyme-rate graph for (b) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#71",
@@ -1280,14 +1412,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Galvanic cell picture (which solution is A/B) on PDF page 25 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 25: galvanic cell picture (solution A, Solution B, salt bridge) under Q80 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#81",
@@ -1376,14 +1518,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure 1 (the protection method is shown only in it) on PDF page 27 is needed to answer and is not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 27: Figure 1 with caption under Q86 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#87",
@@ -1488,14 +1640,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Graph of % metal removal needed for (c) on PDF page 31 is needed to answer and is not reproduced",
-      "notes": ""
+      "reason": "Official answer to part (d) (structure of EDTA) is only an image (answer key page 43); the stored answer leaves (d) blank.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "PDF page 46 (answer key printed page 43), Q93(d): the answer is a boxed structure image of EDTA; it cannot be copied as text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-chemistry#94",

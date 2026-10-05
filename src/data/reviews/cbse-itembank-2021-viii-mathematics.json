@@ -91,35 +91,57 @@
     },
     {
       "key": "cbse-itembank-2021-viii-mathematics#Maths8BS6a",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NONE",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Table time row reads '02 4 8 9' (0 and 2 run together); table not reliably reproduced",
-      "notes": "Answer is a graph; scheme restates as t = 0 to 15 minutes."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Answer is a graph; scheme restates as t = 0 to 15 minutes.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "p19 'Sources and diagrams': the table has separate cells 0 | 2 | 4 | 8 | 9 (text layer ran 0 and 2 together).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-mathematics#Maths8BS6b",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NONE",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Table time row reads '02 4 8 9' (0 and 2 run together); table not reliably reproduced",
-      "notes": "Scheme page 20: 80°C, consistent with times 0,2,4,8,9."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme page 20: 80°C, consistent with times 0,2,4,8,9.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "p19 'Sources and diagrams': the table has separate cells 0 | 2 | 4 | 8 | 9 (text layer ran 0 and 2 together).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-mathematics#Maths8DB2",
@@ -144,14 +166,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Temperature-time graph on page 23 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p23 'Sources and diagrams': temperature-time graph (question on p24).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-mathematics#Maths8AM3",
@@ -191,15 +223,26 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of SAFE (angle labels x, y) on page 29 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "p29 Source(s): parallelogram SAFE (question on p30). | Page 30: the stem prints \"∠S =120°\" and the mark scheme \"∠S = ∠F =120°\"; angle signs restored in text and answer.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-mathematics#Maths8PW7b",
@@ -207,15 +250,26 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of SAFE (angle labels x, y) on page 29 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "p29 Source(s): parallelogram SAFE (question on p30). | Page 30: the stem prints \"∠S =120°\"; angle sign restored.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-mathematics#Maths8PW7c",
@@ -224,14 +278,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Diagram side labels (12, 6, 2n-1, 3c) needed; scheme restates as 2n – 3c and gives c=3 though 3c=6",
-      "notes": "19 is right for 2n+3c (n=6.5, c=2)."
+      "reason": "Still blocked: answer MISMATCH",
+      "notes": "19 is right for 2n+3c (n=6.5, c=2).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "p29 Source(s): parallelogram SAFE (question on p30). | Page 30: the stem prints \"∠S =120°\"; angle sign restored (consistency with (a) and (b)).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-mathematics#Maths8NB4a",
@@ -432,14 +497,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the page 52 diagram shows the triangle is outside the square (needed for 60°+90°)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p52 Source(s): triangle ABC above square CBDE (question on p53).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-mathematics#Maths8NB5b",
@@ -624,14 +699,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Number line figure on page 93 is needed to answer",
-      "notes": ""
+      "reason": "Still blocked: chapter UNCERTAIN",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p93 Source(s): number line with A and B.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-viii-mathematics#Maths8PN6a",

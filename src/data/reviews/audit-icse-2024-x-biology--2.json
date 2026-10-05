@@ -1,0 +1,31 @@
+{
+  "pack": "icse-2024-x-biology",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked the recovered figures, text and marks against the official PDF (pdftotext -layout/-raw, page renders with grid and zoomed crops); no marking scheme is published.",
+  "checks": [
+    {
+      "key": "icse-2024-x-biology#3v",
+      "agree": false,
+      "reason": "The crop starts at x 0.42 but the printed picture's lower-left leaf extends to about x 0.41 on page 7, so the leaf is cut off at the left edge and the figure is incomplete.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2024-x-biology#5v",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2024-x-biology#6iv",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2024-x-biology#8v",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

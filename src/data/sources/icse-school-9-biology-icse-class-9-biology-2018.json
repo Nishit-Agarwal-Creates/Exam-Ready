@@ -220,12 +220,28 @@
       "type": "SHORT_ANSWER",
       "text": "Given below is a diagrammatic sketch of the vertical section of the human skin.\n(a) Label the parts numbered from 1 to 8",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "skin",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-biology-icse-class-9-biology-2018/3i.png",
+          "kind": "FIGURE",
+          "alt": "Diagrammatic vertical section of human skin with label lines numbered 1 to 9 and labels NERVE and BLOOD VESSEL",
+          "width": 679,
+          "height": 493,
+          "page": 3,
+          "crop": {
+            "x": 0.485,
+            "y": 0.19,
+            "w": 0.38,
+            "h": 0.195
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "3",
@@ -239,12 +255,28 @@
       "type": "SHORT_ANSWER",
       "text": "Given below is a diagrammatic sketch of the vertical section of the human skin.\n(b) State one main function of each of the following parts : part 2, part 3, part 4, part 9",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "skin",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-biology-icse-class-9-biology-2018/3i.png",
+          "kind": "FIGURE",
+          "alt": "Diagrammatic vertical section of human skin with label lines numbered 1 to 9 and labels NERVE and BLOOD VESSEL",
+          "width": 679,
+          "height": 493,
+          "page": 3,
+          "crop": {
+            "x": 0.485,
+            "y": 0.19,
+            "w": 0.38,
+            "h": 0.195
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "3",

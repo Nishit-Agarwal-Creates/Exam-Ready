@@ -27,7 +27,7 @@
     "extractionMethod": "OCR",
     "extractionTool": "RapidOCR, corrected against page images",
     "ocrUsed": true,
-    "notes": "Scanned school paper with no text layer; OCR corrected against the page image. No school name is printed. The paper prints '2nd INTERIM TEST, 2022 -2023'; examYear 2023 is the later year of the printed academic year (the file name also ends 2023). Marks come from the part instructions: Part A (5x1=5), Part B (3x2=6), Part C (3x3=9); listed marks total 20. English 2 is the literature paper; literature questions (and the figure-of-speech questions) are mapped to the nearest listed chapter, 'reading'. The icseboard.org watermark is ignored.",
+    "notes": "Scanned school paper with no text layer; OCR corrected against the page image. No school name is printed. The paper prints '2nd INTERIM TEST, 2022 -2023'; examYear 2023 is the later year of the printed academic year (the file name also ends 2023). Marks come from the part instructions: Part A (5x1=5), Part B (3x2=6), Part C (3x3=9); listed marks total 20. English 2 is the literature paper; literature questions are mapped to 'reading' (literary texts); the metaphor and personification questions (4, 7) to 'grammar-and-vocabulary-in-context' (figurative language). The icseboard.org watermark is ignored.",
     "usage": "School examination paper published on icseboard.org (originally icseonline.com); question text reproduced for study with attribution and a link to where it was obtained. Figures are not reproduced.",
     "accessedOn": "2026-10-01"
   },
@@ -97,7 +97,7 @@
       "hasFigure": false,
       "extractionIssues": [],
       "confidence": "HIGH",
-      "chapter": "reading",
+      "chapter": "grammar-and-vocabulary-in-context",
       "mappingStatus": "AI_SUGGESTED"
     },
     {
@@ -148,7 +148,7 @@
       "hasFigure": false,
       "extractionIssues": [],
       "confidence": "HIGH",
-      "chapter": "reading",
+      "chapter": "grammar-and-vocabulary-in-context",
       "mappingStatus": "AI_SUGGESTED"
     },
     {

@@ -1,0 +1,67 @@
+{
+  "pack": "isc-2027-xii-physics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and the rendered pages, and the answer key; recovered figures opened and compared with the page.",
+  "checks": [
+    {
+      "key": "isc-2027-xii-physics-specimen#1Ai",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-physics-specimen#1Aiii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-physics-specimen#1Bv",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-physics-specimen#2i",
+      "agree": false,
+      "reason": "The stored official answer still has flattened powers '8·85×10−12', '0·009×10−4' and '9×10−7 F' where the answer key (page 13) prints 10⁻¹², 10⁻⁴ and 10⁻⁷, so it reads as '10 minus 12'.",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-physics-specimen#10i",
+      "agree": false,
+      "reason": "The stored official answer skips the key's step I = E_total/(R + r) = 4·5/(39 + 6) A, so it jumps from R = 39Ω to 0·1A, which does not follow (4·5/39 ≠ 0·1).",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-physics-specimen#10ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-physics-specimen#11",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-physics-specimen#13",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-physics-specimen#16",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-physics-specimen#18i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

@@ -80,16 +80,33 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Photograph of the leader (page 2, captioned 'Source-India and the Contemporary World-II, NCERT') not reproduced; identification is taken from the official answer only.",
         "A separate question for Visually Impaired candidates in lieu of Q. No. 2 (about the reason for formation of the Swaraj Party) is printed on this page and is not imported, per project convention (see source notes)."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(B) / Bal Gangadhar Tilak",
         "correctOption": 1
       },
       "chapter": "nationalism-in-india",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-social-science/2.png",
+          "kind": "FIGURE",
+          "alt": "Coloured printed portrait of a standing man in a decorated frame, with the caption 'Source-India and the Contemporary World-II, NCERT'",
+          "width": 1202,
+          "height": 660,
+          "page": 2,
+          "crop": {
+            "x": 0.148,
+            "y": 0.077,
+            "w": 0.655,
+            "h": 0.278
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",

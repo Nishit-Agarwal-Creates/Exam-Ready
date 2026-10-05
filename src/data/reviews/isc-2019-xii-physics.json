@@ -11,19 +11,29 @@
   "questions": [
     {
       "key": "isc-2019-xii-physics#1Ai",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
-      "options": "MISMATCH",
-      "notation": "LOST",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Options (b)-(d) lose q/ε0 (printed as images on page 1); stored options read only '2', '3', '4'.",
-      "notes": "Rendered p1: options are 2q/ε0, 3q/ε0, 4q/ε0."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Rendered p1: options are 2q/ε0, 3q/ε0, 4q/ε0.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 1: options (b)-(d) are printed as 2, 3, 4 followed by an image of q over ε0 (2q/ε₀, 3q/ε₀, 4q/ε₀).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-physics#1Aii",
@@ -112,14 +122,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure 1 on page 2 (cell arrangement and polarities) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: Figure 1 printed below Q1(B)(ii); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-physics#1Biii",
@@ -240,14 +260,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure 2(a) on page 3 (current direction relative to P) is needed for the field direction.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: Figure 2(a) printed below Q4(a); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-physics#4b",
@@ -256,14 +286,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure 2(b) on page 3 (sense of the current in the loop) is needed for the field direction.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: Figure 2(b) printed below Q4(b); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-physics#5",
@@ -331,19 +371,29 @@
     },
     {
       "key": "isc-2019-xii-physics#9",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "NONE",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Greek α before '-particles' in (b) is an image on page 4 and is missing from the text.",
-      "notes": "(a) mass defect is nuclei, (b) Rutherford scattering is atoms: spans chapters."
+      "reason": "Still held: chapter UNCERTAIN",
+      "notes": "(a) mass defect is nuclei, (b) Rutherford scattering is atoms: spans chapters.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 4: the glyph before '-particles' is an image of α.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-physics#10",
@@ -411,19 +461,30 @@
     },
     {
       "key": "isc-2019-xii-physics#14",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
-      "figure": "ESSENTIAL_MISSING",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The μ (μF) unit after each capacitance is an image on page 5 and lost, and Figure 3 (capacitor arrangement) is needed.",
-      "notes": "C₁, C₂, C₃ subscripts confirmed on render."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "C₁, C₂, C₃ subscripts confirmed on render.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 5: each value is followed by an image of μ only (printed '3μ', '6μ', '10μ', no F); Figure 3 cropped; C₁-C₃ subscripts confirmed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-physics#15a",
@@ -432,14 +493,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure 4 on page 5 defines the arm labels P, Q, R, S and currents I1, I2 that the balancing condition is expressed in.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: Figure 4 printed below Q15(a); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-physics#15b",
@@ -555,19 +626,29 @@
     },
     {
       "key": "isc-2019-xii-physics#20b",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The emf symbol ε and the ω after 'sin' (printed ε = 200 sin ω) are images on page 6; the stored expression reads 'emf = 200 sin'.",
-      "notes": "I_avg subscript flattened."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "I_avg subscript flattened.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 6: the emf is printed 'ε = 200 sin ω' (ε and ω as images, no t) and I with subscript avg.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-physics#21a",
@@ -587,19 +668,29 @@
     },
     {
       "key": "isc-2019-xii-physics#21b",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "The relation to be shown (printed as β = λ/d) is an image on page 7; stored text reads 'Show that = ,'.",
-      "notes": ""
+      "reason": "Text restored as printed (β = λ/d), but the printed relation omits D (fringe width is λD/d); misprint in the paper, left held.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 7: the relation is an image reading β = λ/d.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-physics#22a",

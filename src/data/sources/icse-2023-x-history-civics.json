@@ -735,12 +735,28 @@
       "type": "SHORT_ANSWER",
       "text": "Look at the picture given below and answer the following questions:\nName the march being led by Gandhiji in the above picture.\nWhich movement did this march launch?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) on page 7 not reproduced in the text layer; the question depends on it."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "mahatma-gandhi-and-the-mass-movements",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-history-civics/7i.png",
+          "kind": "FIGURE",
+          "alt": "Black-and-white photograph of Gandhiji walking with a stick at the head of a group of men in white caps",
+          "width": 1080,
+          "height": 677,
+          "page": 7,
+          "crop": {
+            "x": 0.165,
+            "y": 0.155,
+            "w": 0.588,
+            "h": 0.285
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",

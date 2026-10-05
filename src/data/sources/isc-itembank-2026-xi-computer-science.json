@@ -1261,16 +1261,32 @@
       "type": "SHORT_ANSWER",
       "text": "Fill in the empty boxes (1) and (2) with appropriate tokens of python.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 18 not reproduced (diagram 'Tokens in Python' with boxes Keywords, Identifiers, (1), Strings, (2), Operators and examples); the question cannot be answered without it"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "1. Constants 2. Delimiters"
       },
       "cognitiveLevel": "Understanding",
       "chapter": "introduction-to-python",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-computer-science/48.png",
+          "kind": "FIGURE",
+          "alt": "Diagram 'Tokens in Python' with arrows to six boxes: Keywords, Identifiers, box 1, Strings, box 2 and Operators, each beside a box of examples",
+          "width": 893,
+          "height": 593,
+          "page": 18,
+          "crop": {
+            "x": 0.2,
+            "y": 0.125,
+            "w": 0.5,
+            "h": 0.235
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "49",
@@ -1505,7 +1521,7 @@
       "marks": 2,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "What is the output of the following snippet?\nString s1= new String(″Comp Sc″);\nString s2=″Comp  Sc″;\nString s3= new String(″AI & ML”);\nString s4=″AI & ML″;\nSystem.out.print( s1= = s2 ) ;\nSystem.out.print( s3.equals (s4) ) ;",
+      "text": "What is the output of the following snippet?\nString s1= new String(″Comp Sc″);\nString s2=″Comp Sc″;\nString s3= new String(″AI & ML”);\nString s4=″AI & ML″;\nSystem.out.print( s1= = s2 ) ;\nSystem.out.print( s3.equals (s4) ) ;",
       "hasFigure": false,
       "extractionIssues": [
         "Code reproduced line by line from the text layer; indentation approximated from the PDF layout (proportional font); check against the PDF",
@@ -1779,7 +1795,7 @@
       "marks": 10,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "LONG_ANSWER",
-      "text": "Design a class NeonNumGen to generate Neon numbers.\n[A Neon number is a number where the sum of digits of its square is equal to the number.]\nExample: 9\nSquare = 81 → 8 + 1 = 9 and 9² = 81\nHence, 9 is a Neon number\nSome of the members of the class are given below:\nClass name                    :   NeonNumGen\nData members/instance\nvariables:\n   m                          :   to store the start of range\n   n                          :   to store the end of range\nMember   functions/methods:\n   NeonNumGen(   )            :   default constructor to initialise data members\n                                  with legal initial values\n   void accept( )             :   to accept the values of ‘m’ and ‘n’\n   int sum_digits(int)        :   returns the sum of digits of the number ‘n’\nSpecify the class NeonNumGen, giving the details of the constructor( ), void accept( ), int sum_digits(int) and void generate( ). Define the main( ) function to create an object and call the functions accordingly to enable the task.",
+      "text": "Design a class NeonNumGen to generate Neon numbers.\n[A Neon number is a number where the sum of digits of its square is equal to the number.]\nExample: 9\nSquare = 81 → 8 + 1 = 9 and 9² = 81\nHence, 9 is a Neon number\nSome of the members of the class are given below:\nClass name                    :   NeonNumGen\nData members/instance\nvariables:\n   m                          :   to store the start of range\n   n                          :   to store the end of range\nMember   functions/methods:\n   NeonNumGen(   )            :   default constructor to initialise data members\n                                  with legal initial values\n   void accept( )             :   to accept the values of ‘m’ and ‘n’\n   int sum_digits(int)        :   returns the sum of digits of the number ‘n’\n   void generate( )           :   generates all Neon numbers between ‘m’ and\n                                  ‘n’ by invoking sum_digits( ) on square of\n                                  number\nSpecify the class NeonNumGen, giving the details of the constructor( ), void accept( ), int sum_digits(int) and void generate( ). Define the main( ) function to create an object and call the functions accordingly to enable the task.",
       "hasFigure": false,
       "extractionIssues": [
         "Member list printed as a two-column table ('name : description'); reproduced as text lines, check against the PDF",

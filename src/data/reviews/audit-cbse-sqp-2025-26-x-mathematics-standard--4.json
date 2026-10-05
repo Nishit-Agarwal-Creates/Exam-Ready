@@ -1,0 +1,31 @@
+{
+  "pack": "cbse-sqp-2025-26-x-mathematics-standard",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official SQP and marking scheme PDFs with pdftotext -layout, -raw and -table, rendered page images (SQP pp. 4-7, MS pp. 4-6, 11) for figures and equations, and the chapter summaries.",
+  "checks": [
+    {
+      "key": "cbse-sqp-2025-26-x-mathematics-standard#23",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-mathematics-standard#25",
+      "agree": false,
+      "reason": "Official answer is a paraphrase, not the scheme's text: MS p5 prints 'Let r be the radius of the inscribed circle', 'ar(△ABC) =ar(△AOC) + ar(△BOC) + ar(△AOB) =½ × r x AC + ½ × r × BC +½ × r × AB', '90 = ½ × 4 (x +8+18+ x +10)', 'x = 4.5cm', '∴ AB=4.5+10=14.5cm' as separate lines, whereas the pack rewrites it ('r=4cm', '(1/2)r(AC+BC+AB)', 'gives x=4.5cm. So AB=...').",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-mathematics-standard#28",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-mathematics-standard#37",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

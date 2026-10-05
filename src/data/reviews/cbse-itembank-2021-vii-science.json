@@ -144,14 +144,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 20 (test tube contents) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 20: the source figure for this item is printed in its Source(s) box; cropped from the page render.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-science#Science7SPA3a",
@@ -208,14 +218,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on page 24 is needed to identify labels A and D.",
-      "notes": "Aquifer is taught in Ch 7."
+      "reason": "Figure recovered, but it labels only E and A; the label D that the question asks about is not printed in the figure.",
+      "notes": "Aquifer is taught in Ch 7.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 24: the source figure for this item is printed in its Source(s) box; cropped from the page render.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-science#Science7VD3b",
@@ -224,14 +244,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on page 24 is needed to identify E; water table is not taught in current Ch 7.",
-      "notes": ""
+      "reason": "Still held: chapter UNCERTAIN",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 24: the source figure for this item is printed in its Source(s) box; cropped from the page render.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-science#Science7SPA5c",
@@ -400,14 +430,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Answer depends on the crop/pH table image on page 40, which is not reproduced; crop pH not taught.",
-      "notes": ""
+      "reason": "Still held: chapter UNCERTAIN",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 40: the source figure for this item is printed in its Source(s) box; cropped from the page render.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-science#Science7DS4",
@@ -432,14 +472,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on page 43 is needed; lenses are not taught in current Ch 11.",
-      "notes": ""
+      "reason": "Still held: chapter UNCERTAIN",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 43: the source figure for this item is printed in its Source(s) box; cropped from the page render.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-science#Science7LP5b",
@@ -464,14 +514,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Which lens is X/Y is only in the page 43 figure; lenses are not taught in current Ch 11.",
-      "notes": ""
+      "reason": "Still held: chapter UNCERTAIN",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 43: the source figure for this item is printed in its Source(s) box; cropped from the page render.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-science#Science7LP5d",
@@ -720,14 +780,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Experiment figure on page 67 is needed; thermal expansion of solids is not taught in current Ch 7.",
-      "notes": ""
+      "reason": "Still held: chapter UNCERTAIN",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 67: the source figure for this item is printed in its Source(s) box; cropped from the page render.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-science#Science7DS7b",
@@ -944,14 +1014,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Food web figure on page 79 is needed; consumers are not taught in current Ch 9.",
-      "notes": ""
+      "reason": "Still held: chapter UNCERTAIN",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 79: the source figure for this item is printed in its Source(s) box; cropped from the page render.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-science#Science7ARP6",
@@ -1216,14 +1296,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 100 is needed to identify tissue A.",
-      "notes": "Xylem is taught in Ch 10."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Xylem is taught in Ch 10.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 100: the source figure for this item is printed in its Source(s) box; cropped from the page render.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-science#Science7ARP3a",
@@ -1264,14 +1354,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Pulse-rate graph on page 102 is needed; pulse rate is not taught in current Ch 9.",
-      "notes": ""
+      "reason": "Still held: chapter UNCERTAIN",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 102: the source figure for this item is printed in its Source(s) box; cropped from the page render.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-science#Science7ARP3d",

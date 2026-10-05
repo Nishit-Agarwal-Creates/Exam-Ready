@@ -1,0 +1,97 @@
+{
+  "pack": "isc-2026-xii-physics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout and -raw, page renders with a 5 % grid (scripts/recovery/page.py) and the answer key / mark scheme; recovered figure crops opened and compared with the page.",
+  "checks": [
+    {
+      "key": "isc-2026-xii-physics-specimen#1Aii",
+      "agree": false,
+      "reason": "The recovered Figure 1 (wire 3 at 2r from wire 1 and r from wire 2) makes the printed key (c) \"I2 = 2I1, out of the page\" demonstrably wrong (zero force needs I2 = 0.5I1 into the page, option (b)); the first review itself flagged this, so the item should not be published with (c) as the answer without an editor ruling.",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#1Av",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#1Bv",
+      "agree": false,
+      "reason": "With the recovered graph visible, the printed key \"MB > MA as slope of line B > slope of line A / Graph B refers to heavier particles\" contradicts λ = h/√(2mqV) (the steeper line B is the lighter particle), so publishing this answer needs an editor ruling.",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#2i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#2ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#3",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#4i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#4ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#6",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#10i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#10ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#13",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#18ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#19i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-physics-specimen#20",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

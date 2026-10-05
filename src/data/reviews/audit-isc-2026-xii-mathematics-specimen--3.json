@@ -1,0 +1,49 @@
+{
+  "pack": "isc-2026-xii-mathematics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the page render (5 % grid) and the marking scheme / answer key where the pack has one; recovered figures compared with the original page.",
+  "checks": [
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1xiv",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#15i",
+      "agree": false,
+      "reason": "The stored text drops the printed Question 15 group instruction \"In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\" (page 10); a split item must carry the printed instruction.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#15ii",
+      "agree": false,
+      "reason": "The stored text drops the printed Question 15 group instruction \"In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\" (page 10); a split item must carry the printed instruction.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#15iii",
+      "agree": false,
+      "reason": "The stored text drops the printed Question 15 group instruction \"In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\" (page 10); a split item must carry the printed instruction.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#15iv",
+      "agree": false,
+      "reason": "The stored text drops the printed Question 15 group instruction \"In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\" (page 10); a split item must carry the printed instruction.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#15v",
+      "agree": false,
+      "reason": "The stored text drops the printed Question 15 group instruction \"In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\" (page 10); a split item must carry the printed instruction.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#19iv",
+      "agree": false,
+      "reason": "The stored text drops the printed Question 19 group instruction \"In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\" (page 12); a split item must carry the printed instruction.",
+      "round": "p51-fix"
+    }
+  ]
+}

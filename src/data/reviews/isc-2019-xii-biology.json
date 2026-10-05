@@ -160,14 +160,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Pedigree chart on page 2 (vector drawing) is needed to answer.",
-      "notes": "Page 2 has 21 drawn curves forming the pedigree; not in pack."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 2 has 21 drawn curves forming the pedigree; not in pack.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: pedigree chart cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-biology#1ci",

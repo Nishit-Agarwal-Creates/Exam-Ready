@@ -501,14 +501,31 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Feasible region graph on page 11 not reproduced; the question cannot be answered without it",
         "Official answer not extracted from marking scheme (the correct option is shown only as an image/highlight, not as text)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": null,
       "cognitiveLevel": null,
       "chapter": "linear-programming",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-mathematics-65-1-1/17.png",
+          "kind": "GRAPH",
+          "alt": "Graph on x and y axes with a shaded feasible region whose corner points are marked",
+          "width": 715,
+          "height": 429,
+          "page": 11,
+          "crop": {
+            "x": 0.27,
+            "y": 0.137,
+            "w": 0.4,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "18",

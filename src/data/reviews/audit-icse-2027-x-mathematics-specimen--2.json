@@ -1,0 +1,37 @@
+{
+  "pack": "icse-2027-x-mathematics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the official marking scheme, and page grids/crops of the recovered figures (scripts/recovery/page.py).",
+  "checks": [
+    {
+      "key": "icse-2027-x-mathematics-specimen#1xiii",
+      "agree": false,
+      "reason": "Options (a) and (b) are stored as 'Assertion (A) is true and Reason (R) is false.' / 'Assertion (A) is false and Reason (R) is true.' but the paper prints '(A) is true and (R) is false.' / '(A) is false and (R) is true.'; also only the group total [15] is printed for Question 1, so the stored 1 mark is a split with no marksNote.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#3iii",
+      "agree": false,
+      "reason": "The officialAnswer gives (d) as \"A'B'C'D'E'F'G'H'I' (prime/image marks may not have survived extraction)\", but the marking scheme prints (d) APONMLKJI.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#5ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#6ii",
+      "agree": false,
+      "reason": "The officialAnswer does not match the marking scheme: (a) drops 'In ΔADC', (b) writes 'triangles are similar, EF/AD = EC/DE' where the scheme has 'ΔADC~ΔFEC, EF/AD = EC/DC', and (c) writes (AF²−EF²) : EF² where the scheme has (AD²−EF²)/EF².",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#8ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

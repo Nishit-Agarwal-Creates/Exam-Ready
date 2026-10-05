@@ -13,7 +13,7 @@
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A1a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -21,15 +21,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 1: [8] for the group of 8 items).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A1b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -37,15 +47,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 1: [8] for the group of 8 items).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A1c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -53,15 +73,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 1: [8] for the group of 8 items).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A1d",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -69,31 +99,79 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 1: [8] for the group of 8 items).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A1e",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple-machines question; the class 6 chapter list has no simple-machines chapter, and mapping it to force is not confident. Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 1: [8] for the group of 8 items). Official ICSE Class 6 Physics chapter 'energy' summary: 'Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers.' This item is about a pulley/inclined plane (simple machines).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A1f",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-nullmap",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1, Question 1 [8] item f (MCQ, which is not a lever). Official ICSE Class 6 Physics chapter 'energy' summary: 'Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers.' Item is about levers.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A1g",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -101,15 +179,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 1: [8] for the group of 8 items).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A1h",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -117,172 +205,22 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 1: [8] for the group of 8 items).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A2a",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "OK",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
-    },
-    {
-      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A2b",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "OK",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
-    },
-    {
-      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A2d",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple-machines question; the class 6 chapter list has no simple-machines chapter, and mapping it to force is not confident. Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
-    },
-    {
-      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A2e",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "OK",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
-    },
-    {
-      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A2f",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "OK",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
-    },
-    {
-      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A3a",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "OK",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
-    },
-    {
-      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A3b",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "OK",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
-    },
-    {
-      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A3d",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "OK",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
-    },
-    {
-      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A3e",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "OK",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
-    },
-    {
-      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A3f",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "OK",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total is printed for this section; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
-    },
-    {
-      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A4",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
@@ -290,18 +228,485 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Match items span light, magnetism and simple machines.",
-      "notes": "Printed [6]; columns transcribed in printed order."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 2: [6] for the group of 6 items).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A2b",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 2: [6] for the group of 6 items).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A2c",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-nullmap",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1, Question 2 [6] item c 'Machines make our work ___'. Official ICSE Class 6 Physics chapter 'energy' summary: 'Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers.' Item is about machines.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A2d",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 2: [6] for the group of 6 items). Official ICSE Class 6 Physics chapter 'energy' summary: 'Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers.' This item is about mechanical advantage (ratio of load to effort).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A2e",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 2: [6] for the group of 6 items).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A2f",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the group total is printed (Question 2: [6] for the group of 6 items).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A3a",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the group total is printed (Question 3: [6] for the group of 6 items).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A3b",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the group total is printed (Question 3: [6] for the group of 6 items).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A3c",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-nullmap",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2, Question 3 [6] item c (oiling/polishing and the life of a machine). Official ICSE Class 6 Physics chapter 'energy' summary: 'Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers.' Item is about care of machines.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A3d",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the group total is printed (Question 3: [6] for the group of 6 items).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A3e",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the group total is printed (Question 3: [6] for the group of 6 items).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A3f",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the group total is printed (Question 3: [6] for the group of 6 items).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A4a",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 2 image: left item 'a. Screw'; right column as printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2, Question 4 'Match the following:' [6]: six left items a-f (Screw, Moon, Like poles, Wedge, Bulb, Unlike poles) and six unlabelled right items; screw/wedge are simple machines (energy chapter summary), Moon/Bulb light, poles magnetism.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A4b",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 2 image: left item 'b. Moon.'; right column as printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2, Question 4 'Match the following:' [6]: six left items a-f (Screw, Moon, Like poles, Wedge, Bulb, Unlike poles) and six unlabelled right items; screw/wedge are simple machines (energy chapter summary), Moon/Bulb light, poles magnetism.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A4c",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 2 image: left item 'c. Like poles.'; right column as printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2, Question 4 'Match the following:' [6]: six left items a-f (Screw, Moon, Like poles, Wedge, Bulb, Unlike poles) and six unlabelled right items; screw/wedge are simple machines (energy chapter summary), Moon/Bulb light, poles magnetism.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A4d",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 2 image: left item 'd. Wedge.'; right column as printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2, Question 4 'Match the following:' [6]: six left items a-f (Screw, Moon, Like poles, Wedge, Bulb, Unlike poles) and six unlabelled right items; screw/wedge are simple machines (energy chapter summary), Moon/Bulb light, poles magnetism.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A4e",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 2 image: left item 'e. Bulb.'; right column as printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2, Question 4 'Match the following:' [6]: six left items a-f (Screw, Moon, Like poles, Wedge, Bulb, Unlike poles) and six unlabelled right items; screw/wedge are simple machines (energy chapter summary), Moon/Bulb light, poles magnetism.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A4f",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 2 image: left item 'f. Unlike poles.'; right column as printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2, Question 4 'Match the following:' [6]: six left items a-f (Screw, Moon, Like poles, Wedge, Bulb, Unlike poles) and six unlabelled right items; screw/wedge are simple machines (energy chapter summary), Moon/Bulb light, poles magnetism.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A5a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -309,15 +714,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total [6] is printed for three terms; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the group total is printed (Question 5: [6] for the group of 3 terms).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A5b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -325,15 +740,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total [6] is printed for three terms; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the group total is printed (Question 5: [6] for the group of 3 terms).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A5c",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-nullmap",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2, Question 5 [6] item c 'Wheel and axle arrangement'. Official ICSE Class 6 Physics chapter 'energy' summary: 'Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers.' Wheel and axle is a simple machine.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A6a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -341,15 +793,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total [8] is printed for four items; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the group total is printed (Question 6: [8] for the group of 4 items).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A6b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -357,15 +819,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total [8] is printed for four items; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the group total is printed (Question 6: [8] for the group of 4 items).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A6c",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-nullmap",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2, Question 6 [8] item c 'Cutting paper with a pair of scissors' (scissors = lever). Official ICSE Class 6 Physics chapter 'energy' summary: 'Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers.'",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#A6d",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -373,9 +872,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total [8] is printed for four items; per-item marks were split by the builder.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the group total is printed (Question 6: [8] for the group of 4 items).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#B1a",
@@ -514,12 +1023,49 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple-machines question; the class 6 chapter list has no simple-machines chapter, and mapping it to force is not confident.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Official ICSE Class 6 Physics chapter 'energy' summary: 'Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers.' This item is about the pulley as a simple machine.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#B5b",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-nullmap",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3, Section B Question 5 b) with [5] printed beside it. Official ICSE Class 6 Physics chapter 'energy' summary: 'Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers.' Item is about care of machines.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#B6a",
@@ -530,12 +1076,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple-machines question; the class 6 chapter list has no simple-machines chapter, and mapping it to force is not confident.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Official ICSE Class 6 Physics chapter 'energy' summary: 'Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers.' This item is about the principle of levers (numerical).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-assessment-2-physics-070325-2025#B6b",
@@ -546,12 +1102,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple-machines question; the class 6 chapter list has no simple-machines chapter, and mapping it to force is not confident.",
-      "notes": "Checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin5",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Official ICSE Class 6 Physics chapter 'energy' summary: 'Simple machines and their types, mechanical advantage, the orders of levers, and numericals on the principle of levers.' This item is about mechanical advantage of a machine (numerical).",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

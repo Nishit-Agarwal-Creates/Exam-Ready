@@ -64,14 +64,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on page 16 is needed; open/closed shapes are not in current Lines and Angles",
-      "notes": ""
+      "reason": "Open/closed shapes are not in current Lines and Angles (chapter uncertain)",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 16: quadrilateral ABCD under 'Sources and diagrams' directly above Question 1 (a)-(c), cropped whole with all side lengths, angles and parallel marks. ",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6SB8b",
@@ -80,14 +90,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 16 is needed to name the angles",
-      "notes": "Scheme p17 angle symbols duplicated in text layer; de-duplicated correctly"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p17 angle symbols duplicated in text layer; de-duplicated correctly",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 16: quadrilateral ABCD under 'Sources and diagrams' directly above Question 1 (a)-(c), cropped whole with all side lengths, angles and parallel marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6SB8c",
@@ -96,14 +116,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on page 16 is needed; parallelograms are not clearly taught in current Playing with Constructions",
-      "notes": ""
+      "reason": "Parallelograms are not clearly taught in current Playing with Constructions (chapter uncertain)",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 16: quadrilateral ABCD under 'Sources and diagrams' directly above Question 1 (a)-(c), cropped whole with all side lengths, angles and parallel marks. ",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6HK1",
@@ -112,14 +142,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on page 18 is needed; triangle classification not clearly in the current chapter",
-      "notes": ""
+      "reason": "Triangle classification not clearly in a current Class 6 chapter (chapter uncertain)",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 18: triangle with one tick mark on each side printed under 'Source(s)' above Question 1, cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6SB5",
@@ -144,14 +184,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
       "reason": "Parallel lines and transversals are not taught in current Class 6 Lines and Angles",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 23: diagram of lines L, M and transversal T printed above Question 1, cropped whole and attached (shared by parts a and b).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6GK5b",
@@ -160,14 +210,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on page 23 is needed to locate angles A and B; transversal angles not in current Class 6 book",
-      "notes": "Text layer '700' / '1100' rebuilt as 70°/110°, consistent with scheme 180-70=110"
+      "reason": "Parallel lines and transversals are not taught in current Class 6 Lines and Angles (chapter uncertain)",
+      "notes": "Text layer '700' / '1100' rebuilt as 70°/110°, consistent with scheme 180-70=110",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 23: diagram of lines L, M and transversal T with angles A and B, printed above Question 1, cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6GK1",
@@ -208,14 +268,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 25 is needed to count lines of symmetry",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 25: sun figure under 'Sources and diagrams' of Maths6SB3, directly above Question 1, cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6AJ2",
@@ -224,14 +294,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 26 gives BD and DC, needed to answer",
-      "notes": "Symbol-font U+F044 before ABC rebuilt as Δ"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Symbol-font U+F044 before ABC rebuilt as Δ",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 26: shaded triangle figure ABC/D with 10 cm, 8 cm, 6 cm under 'Source(s)' of Maths6AJ2, cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6AJ6b",
@@ -272,30 +352,51 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 29 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 29: victory-stand figure (regions I, II, III with all dimensions) printed above Question 1 (a)-(c), cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6AJ7c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 29 is needed; metadata gives 4 marks but the question prints 3",
-      "notes": "Metadata parts 1+2+4 = 7 = printed total"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Conflicting printed marks for 1 (c) ('(3 marks)' vs metadata 4) recorded in marksNote; marks 0.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-F0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 29: victory-stand figure (regions I, II, III with all dimensions) printed above Question 1 (a)-(c), cropped whole; '(3 marks)' is printed beside 1 (c), stored 3 (the 4 in the metadata table is not the item's printed mark). Fix round: p29 prints '(3 marks)' beside 1 (c) and '(Total marks 7)'; p28 metadata table gives Maths6AJ7c 4 (1+2+4=7). Conflict, so marks 0 with GROUP_TOTAL and a marksNote quoting both.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6HK7a",
@@ -304,14 +405,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on page 30 is needed; scheme answer 16cm contradicts its own guidance 32cm",
-      "notes": ""
+      "reason": "Scheme answer 16cm contradicts its own guidance 32cm",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 30: L-shaped figure of 7 squares printed under 'Question(s)' above item 1, cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6HK7b",
@@ -319,15 +430,26 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
-      "figure": "ESSENTIAL_MISSING",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on pages 30-31 is needed; cm² flattened to cm2 in answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 30: L-shaped figure of 7 squares printed under 'Question(s)' above item 1, cropped whole (shared by 1 (a) and (b)); page 31 scheme prints '28 cm²' with a superscript 2, rebuilt in the answer.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6KK3",
@@ -397,7 +519,7 @@
       "key": "cbse-itembank-2021-vi-mathematics#Maths6RB3",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -406,8 +528,18 @@
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Question prints 1 mark but metadata and the M1+A1 scheme give 2; decimal arithmetic also not in current book",
-      "notes": ""
+      "reason": "Decimal arithmetic in perimeter is not in the current Class 6 book (chapter uncertain)",
+      "notes": "Conflicting printed marks ('(1 mark)' vs metadata 2) recorded in marksNote; marks 0.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-F0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Fix round sweep: p34 prints '(1 mark)'/'(Total marks 1)' beside the question but the metadata table gives 2. Conflict, so marks 0 (NOT_PRINTED) with a marksNote quoting both.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6RB5a",
@@ -688,14 +820,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The set of numbers is only in the figure (pages 49-50)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 49: boxed set of numbers under 'Source(s)' of Maths6MG5 (questions on page 50), cropped whole; all nine numbers legible.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6MG5b",
@@ -704,14 +846,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The set of numbers is only in the figure (pages 49-50)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 49: boxed set of numbers under 'Source(s)' of Maths6MG5 (questions on page 50), cropped whole; all nine numbers legible.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6MG5c",
@@ -720,14 +872,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The set of numbers is only in the figure (pages 49-50); scheme restates this part as a different question",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 49: boxed set of numbers under 'Source(s)' of Maths6MG5 (questions on page 50), cropped whole; all nine numbers legible.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vi-mathematics#Maths6AJ1",
@@ -880,14 +1042,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Bar graph on page 65 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 65: bar graph (Number of tickets sold vs State lottery) printed above Question 1, cropped whole with axes, scale and all five labels.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

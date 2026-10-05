@@ -47,13 +47,46 @@
       "extractionIssues": [
         "Only a group total (12) is printed for the twelve items; the group is kept as one entry with that total",
         "Twelve MCQs kept together; their options are in the text, not in the options field",
-        "Figures on page 1 not reproduced (figure 1: atom with 8p 8n nucleus and electron shells, item 11; figure 2: Thomson model, item 12)",
         "Item 6 option (b) printed as 'AI' in a font where I and l look alike; read as Al",
         "Items span chapters; main chapter suggested"
       ],
       "confidence": "MEDIUM",
       "chapter": "elements-compounds-and-mixtures",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-chemistry-icse-class-8-half-yearly-chemistry-131225-2026/1i.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1: shell diagram of an atom with a nucleus marked with p and n and electrons on circular shells",
+          "width": 304,
+          "height": 305,
+          "page": 1,
+          "crop": {
+            "x": 0.76,
+            "y": 0.795,
+            "w": 0.17,
+            "h": 0.125
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        },
+        {
+          "src": "/figures/icse-school-8-chemistry-icse-class-8-half-yearly-chemistry-131225-2026/1i-2.png",
+          "kind": "FIGURE",
+          "alt": "Figure 2: a circle containing scattered dots, with a pointer labelled Electron and another faint label",
+          "width": 277,
+          "height": 244,
+          "page": 1,
+          "crop": {
+            "x": 0.655,
+            "y": 0.9,
+            "w": 0.155,
+            "h": 0.1
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "1",
@@ -151,12 +184,29 @@
       "text": "Observe the diagram and answer the questions that followed by it. [2+1+1+1]\na. label the given picture.\nb. How many electrons does it have ?\nc. What is its atomic number ?\nd. What is the valency of given element.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 2 not reproduced (atom diagram with blanks (a), (b), (c) to label)",
         "Printed marks [2+1+1+1] kept in the text; parts depend on the same figure and are kept together"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "atomic-structure",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-chemistry-icse-class-8-half-yearly-chemistry-131225-2026/5.png",
+          "kind": "FIGURE",
+          "alt": "Atom diagram with electrons as dots on concentric shells around a nucleus, and blank label lines (a), (b) and (c) ... and ...",
+          "width": 482,
+          "height": 365,
+          "page": 2,
+          "crop": {
+            "x": 0.52,
+            "y": 0.81,
+            "w": 0.27,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "7",
@@ -232,12 +282,29 @@
       "text": "Look at the flowchart given below and answer the following questions\n(i) label A, B, C\n(ii) Define B\n(iii) Give one example of C",
       "hasFigure": true,
       "extractionIssues": [
-        "Marks bracket beside Q8(a) is illegible on the scan (too faded); marks field 0 is a placeholder",
-        "Figure on page 3 not reproduced (flowchart of matter with boxes A, B, C)"
+        "Marks bracket beside Q8(a) is illegible on the scan (too faded); marks field 0 is a placeholder"
       ],
       "confidence": "LOW",
       "chapter": "elements-compounds-and-mixtures",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-chemistry-icse-class-8-half-yearly-chemistry-131225-2026/8a.png",
+          "kind": "FIGURE",
+          "alt": "Flowchart starting from Matter with boxes A, B and C to be labelled and other boxes with handwritten-style labels",
+          "width": 1072,
+          "height": 427,
+          "page": 3,
+          "crop": {
+            "x": 0.15,
+            "y": 0.41,
+            "w": 0.6,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "8",

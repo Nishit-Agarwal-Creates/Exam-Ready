@@ -320,14 +320,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Organism diagram (mushroom) on page 4 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: diagram printed under Q4(e) stem",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-2025#5a",
@@ -480,14 +490,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Vector figure (housefly) on page 5 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 5 Q6(e)(i) asks to name the vector in the figure and a disease it spreads; the official 'diseases' chapter summary covers 'transmission by air, water and vectors' and diseases with their control (HIGH). Moved from hygiene.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-2025#6eii",
@@ -496,14 +517,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Vector figure (housefly) on page 5 is needed to identify the vector.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 5 Q6(e)(ii) asks for two ways to avoid the spread of diseases by the vector; the official 'diseases' chapter summary covers transmission by vectors and the diseases' control (HIGH). Moved from hygiene.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-2025#7a",

@@ -1,0 +1,49 @@
+{
+  "pack": "cbse-sqp-2025-26-xii-biology",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme; recovered figures checked against 5 % grid renders of the source page.",
+  "checks": [
+    {
+      "key": "cbse-sqp-2025-26-xii-biology#21",
+      "agree": false,
+      "reason": "The stored official answer for (ii) is the placeholder '[diagram answer not present in the text layer]', which is not marking-scheme text; the MS answers (ii) with a diagram that is not stored, so the answer is incomplete.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-biology#23",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-biology#25",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-biology#28",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-biology#30",
+      "agree": false,
+      "reason": "Text does not match p9: subpart D is printed 'as per the above graph?' (stored 'as per the graph?'), and the stored '(1)' after D is not printed for D.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-biology#31a",
+      "agree": false,
+      "reason": "The stored official answer has only part B; the marking scheme's answer to part A (the constructed transcription unit, a diagram) is not stored, so the answer is incomplete.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-biology#31b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

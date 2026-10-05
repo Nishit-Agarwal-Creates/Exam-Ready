@@ -656,14 +656,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 7 (the practice to be named) is not reproduced; question can't be answered without it.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: colour picture printed beside Question 7 (iv), directly above parts (a)-(c), cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-geography#8i",
@@ -928,14 +938,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 10 (the method to be identified) is not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 10: photograph printed under Question 12 (i) 'With reference to the picture below', above parts (a)-(b), cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-geography#12ii",

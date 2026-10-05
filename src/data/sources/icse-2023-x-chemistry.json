@@ -670,18 +670,35 @@
       "page": 6,
       "section": "A",
       "sectionTitle": "SECTION A (40 Marks)",
-      "marks": 2,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Give the IUPAC name of the following organic compounds:\n1.\n2.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Printed [5] covers (v)(a) and (v)(b) together; split here as 3 marks for (a) (three compounds) and 2 for (b) (two compounds), 1 mark per compound assumed",
-        "Figure on page 6 (two structural formulae, 1 and 2) not reproduced; question cannot be answered without it"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "organic-chemistry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-chemistry/2vb.png",
+          "kind": "FIGURE",
+          "alt": "Two printed structural formulae numbered 1 and 2",
+          "width": 1064,
+          "height": 221,
+          "page": 6,
+          "crop": {
+            "x": 0.21,
+            "y": 0.508,
+            "w": 0.58,
+            "h": 0.093
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q2 (v): [5] for (a) and (b)"
     },
     {
       "number": "3",

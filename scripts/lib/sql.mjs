@@ -13,6 +13,32 @@ export function contentHash(text) {
   return createHash("sha1").update(normaliseForHash(text)).digest("hex");
 }
 
+export const TYPE_MAP = { MCQ: "MCQ", ASSERTION_REASON: "ASSERTION_REASON", FILL_BLANK: "FILL_BLANK", SHORT_ANSWER: "SHORT_ANSWER", LONG_ANSWER: "LONG_ANSWER", CASE_BASED: "CASE_BASED", NUMERICAL: "NUMERICAL" };
+
+/**
+ * The stored columns for one pack question (shared by build-sources and consolidate so both write the same content).
+ * Marks only when the paper prints this item's own mark; otherwise 0 with the status saying why (never inferred).
+ */
+export function questionColumns(item) {
+  const type = TYPE_MAP[item.type];
+  const hasOptions = Array.isArray(item.options) && item.options.length >= 2;
+  const correct = item.officialAnswer && Number.isInteger(item.officialAnswer.correctOption) ? item.officialAnswer.correctOption : null;
+  const answerKey = (type === "MCQ" || type === "ASSERTION_REASON") && hasOptions && correct !== null ? JSON.stringify({ correctOption: correct }) : null;
+  const marksStatus = ["GROUP_TOTAL", "NOT_PRINTED", "FRACTIONAL"].includes(item.marksStatus) ? item.marksStatus : "PRINTED";
+  return {
+    type,
+    hasOptions,
+    options: hasOptions ? JSON.stringify(item.options) : null,
+    answerKey,
+    answerText: item.officialAnswer?.text ?? "",
+    answerSource: item.officialAnswer ? "OFFICIAL_SCHEME" : "NONE",
+    marksStatus,
+    marks: marksStatus === "PRINTED" ? item.marks : 0,
+    figure: Array.isArray(item.figures) && item.figures.length ? JSON.stringify(item.figures) : null,
+    hash: contentHash(item.text),
+  };
+}
+
 /** Word-set Jaccard similarity. Must match similarity() in src/lib/text.ts */
 export function similarity(a, b) {
   const wa = new Set(normaliseForHash(a).split(" ").filter((w) => w.length > 2));

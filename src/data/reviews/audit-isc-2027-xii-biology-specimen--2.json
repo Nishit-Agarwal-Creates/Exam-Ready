@@ -1,0 +1,73 @@
+{
+  "pack": "isc-2027-xii-biology-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, rendered page images (5 % grid and zoomed crops), the recovered figure PNGs and the marking scheme / answer key.",
+  "checks": [
+    {
+      "key": "isc-2027-xii-biology-specimen#1iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-biology-specimen#1xi",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-biology-specimen#2",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-biology-specimen#5",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-biology-specimen#8ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-biology-specimen#10ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-biology-specimen#12",
+      "agree": false,
+      "reason": "The answer key prints R = 3/10 x 2700 (fraction 3 over 10, then x 2700), but the stored official answer restructures it as (3 × 2700)/10, so the fraction does not keep its printed structure.",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-biology-specimen#16",
+      "agree": false,
+      "reason": "The stored text inserts \"(Generations I, II and III)\" into the pedigree sentence, which the page does not print there, and the alt text of the second figure says carbon 2 carries OH in (1) and H in (2), which is the very feature the answer rests on.",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-biology-specimen#17ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-biology-specimen#18i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2027-xii-biology-specimen#18ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

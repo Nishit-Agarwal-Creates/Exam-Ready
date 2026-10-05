@@ -20,7 +20,7 @@ export const ALLOWED = {
   marks: ["MATCH", "MISMATCH"],
   options: ["MATCH", "MISMATCH", "MISSING", "NA"],
   notation: ["OK", "REBUILT_OK", "LOST"],
-  figure: ["NONE", "NOT_ESSENTIAL", "ESSENTIAL_MISSING"],
+  figure: ["NONE", "NOT_ESSENTIAL", "ESSENTIAL_MISSING", "RECOVERED"],
   answer: ["MATCH", "PARTIAL", "MISMATCH", "NONE"],
   chapter: ["OK", "WRONG", "UNCERTAIN"],
   decision: ["PUBLISH", "HOLD", "REJECT"],

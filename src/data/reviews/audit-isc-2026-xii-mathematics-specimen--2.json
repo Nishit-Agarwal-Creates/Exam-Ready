@@ -1,0 +1,37 @@
+{
+  "pack": "isc-2026-xii-mathematics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout and -raw, page renders with a 5 % grid (scripts/recovery/page.py) and the answer key / mark scheme; recovered figure crops opened and compared with the page.",
+  "checks": [
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1vii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#1xiv",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#15v",
+      "agree": false,
+      "reason": "Only the group total \"Question 15 [5]\" is printed (p10) and no per-subpart rule exists, yet the item stores marks 1 (split from [5], marksSource SECTION_INSTRUCTIONS) with no marksNote quoting the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#17i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-mathematics-specimen#22ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

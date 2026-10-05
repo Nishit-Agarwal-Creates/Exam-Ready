@@ -23,7 +23,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1ii",
@@ -39,7 +49,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1iii",
@@ -55,7 +75,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1iv",
@@ -64,14 +94,25 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 3 gives the angles (45°, 30° to the surface) needed to choose the ratio.",
-      "notes": "Rendered page 3 confirms options Sin45°/Sin30°, Sin30°/Sin45°, Sin45°/Sin60°, Sin60°/Sin45° and small A, B around μ (flattened as AμB)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Rendered page 3 confirms options Sin45°/Sin30°, Sin30°/Sin45°, Sin45°/Sin60°, Sin60°/Sin45° and small A, B around μ (flattened as AμB).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "p3: figure printed below the stem, above options. | p51-fix-D0: Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1v",
@@ -87,7 +128,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1vi",
@@ -103,7 +154,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1vii",
@@ -119,7 +180,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1viii",
@@ -135,7 +206,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1ix",
@@ -144,14 +225,25 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit diagram on page 5 is needed to answer.",
-      "notes": "L₁–L₄ subscripts confirmed on rendered page 5."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "L₁–L₄ subscripts confirmed on rendered page 5.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "p5: circuit printed below the stem. | p51-fix-D0: Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1x",
@@ -167,7 +259,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Rendered page 6 prints r with small subscript A, B, C; flattened as rA, rB, rC, meaning unchanged."
+      "notes": "Rendered page 6 prints r with small subscript A, B, C; flattened as rA, rB, rC, meaning unchanged.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1xi",
@@ -183,7 +285,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1xii",
@@ -199,23 +311,45 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Rendered page 6 shows stacked fractions (R₁+R₂)/R₁R₂, R₁R₂/(R₁+R₂), (R₁−R₂)/R₁R₂, R₁R₂/(R₁−R₂); pack matches, including minus signs."
+      "notes": "Rendered page 6 shows stacked fractions (R₁+R₂)/R₁R₂, R₁R₂/(R₁+R₂), (R₁−R₂)/R₁R₂, R₁R₂/(R₁−R₂); pack matches, including minus signs.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1xiii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "MATCH",
-      "notation": "LOST",
-      "figure": "ESSENTIAL_MISSING",
+      "notation": "OK",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Compass diagram on page 7 is needed, and the inline cross symbol inside '( )' is missing from the text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "p7: diagram below the stem; the inline symbol in the stem is a bold X inside brackets. | p51-fix-D0: Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1xiv",
@@ -231,7 +365,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#1xv",
@@ -247,7 +391,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-8: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#2ia",
@@ -263,7 +417,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: 2 (i) 'Complete the following by choosing the correct answers from the bracket:' prints only the group total [6] for its six blanks (a)-(f); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#2ib",
@@ -279,7 +443,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: 2 (i) 'Complete the following by choosing the correct answers from the bracket:' prints only the group total [6] for its six blanks (a)-(f); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#2ic",
@@ -295,7 +469,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: 2 (i) 'Complete the following by choosing the correct answers from the bracket:' prints only the group total [6] for its six blanks (a)-(f); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#2id",
@@ -311,7 +495,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: 2 (i) 'Complete the following by choosing the correct answers from the bracket:' prints only the group total [6] for its six blanks (a)-(f); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#2ie",
@@ -327,7 +521,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: 2 (i) 'Complete the following by choosing the correct answers from the bracket:' prints only the group total [6] for its six blanks (a)-(f); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#2if",
@@ -343,7 +547,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: 2 (i) 'Complete the following by choosing the correct answers from the bracket:' prints only the group total [6] for its six blanks (a)-(f); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#2ii",
@@ -384,14 +598,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "v-u graph on page 9 is needed to identify the lens.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p9: graph below the stem.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#3ii",
@@ -480,14 +704,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Prism diagrams A, B, C on page 11 are needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p11: prisms A, B, C.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#4i",
@@ -528,14 +762,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Prism diagram on page 12 (30° prism, ray AB) is needed for part (b).",
-      "notes": "Part (a) is spectrum; part (b) is refraction-plane-surfaces."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Part (a) is spectrum; part (b) is refraction-plane-surfaces.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p12: prism diagram for (b).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#5i",
@@ -576,14 +820,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Cooling-curve graph on page 13 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p13: cooling-curve graph.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#6i",
@@ -592,14 +846,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Wheel diagram on page 14 (directions of F₁ and F₂) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p14: wheel diagram.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#6ii",
@@ -608,14 +872,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Case 1-3 diagram on page 14 is needed for part (c).",
-      "notes": "Parts span work-energy-power and machines; θ < 90° confirmed."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Parts span work-energy-power and machines; θ < 90° confirmed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p14 bottom: Case 1-3 box.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#6iii",
@@ -688,14 +962,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit diagram on page 16 (how the bulbs and V₁, V₂ are connected) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p16: circuit diagram.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#8ii",
@@ -704,14 +988,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Plug wiring photo on page 17 is needed to identify the fault.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p17: plug photograph.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#8iii",
@@ -720,14 +1014,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Resistor network on page 17 (values and switch position) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p17: resistor network.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics#9i",

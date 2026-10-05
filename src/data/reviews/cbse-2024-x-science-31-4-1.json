@@ -208,14 +208,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure showing the four resistor combinations (I-IV) on page 7 is not reproduced in the text layer; the question cannot be answered without it.",
-      "notes": "Ω symbol after '1' (missing from both raw and layout text layers) rebuilt from context; MS confirms answer (C) I and II, which requires seeing the combinations."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Ω symbol after '1' (missing from both raw and layout text layers) rebuilt from context; MS confirms answer (C) I and II, which requires seeing the combinations.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: four combinations printed under Q13 stem",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-2024-x-science-31-4-1#14",
@@ -240,14 +250,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure showing loop ABCD and conductor XY (with the direction of the established current) on page 9 is not reproduced in the text layer; the direction of the force on XY cannot be determined from text alone.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 9: loop and conductor figure printed under Q15 stem",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-2024-x-science-31-4-1#16",
@@ -431,15 +451,25 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Minus sign before '4·0 dioptre' is absent from the PDF text layer (confirmed in both raw and -layout extraction of page 13, and it is a drawn glyph, not a dropped Unicode character); as extracted, the question does not indicate which of the two lenses has negative power.",
-      "notes": "MS raw text (page 4) shows 'power – 40 dioptre' (dash present there, decimal point dropped instead) confirming the true value is −4.0 D; officialAnswer in the pack is correctly reconstructed by combining both extractions."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "MS raw text (page 4) shows 'power – 40 dioptre' (dash present there, decimal point dropped instead) confirming the true value is −4.0 D; officialAnswer in the pack is correctly reconstructed by combining both extractions.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 13: Q25 prints \"lens of power – 4·0 dioptre and + 2·0 dioptre\"",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-2024-x-science-31-4-1#26",
@@ -533,9 +563,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Question text is garbled/incomplete in the PDF text layer (confirmed in both raw and -layout extraction of page 15) between 'generation were' and 'yellow (YY)' — a phrase (likely describing crossing Mendel's pea plants with yellow (YY) and green (yy) seeds) is missing.",
-      "notes": "Official answer (dominant/recessive trait table, 75% yellow seeds) matches the MS and is unaffected."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Official answer (dominant/recessive trait table, 75% yellow seeds) matches the MS and is unaffected.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 15: Q30 prints \"...in the F2 generation were with yellow seeds in Mendel’s cross between the pea plants having yellow (YY) and green coloured (yy) seeds ?\"",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-2024-x-science-31-4-1#31",
@@ -576,14 +616,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure showing three labelled food chains (a)/(b)/(c) on page 17 is not reproduced in the text layer; part (i) (naming the ecosystem types for chains b and c) cannot be answered without it.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 17: food-chain picture printed under Q33 stem",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-2024-x-science-31-4-1#34a",
@@ -709,9 +759,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Sub-part (a)(ii) is cut off in the PDF text layer after 'present in' (confirmed in both raw and -layout extraction of page 25); the intended completion (likely 'the Bowman's capsule', per the MS answer 'Glomerulus') is missing from the extracted question text.",
-      "notes": "Rest of the officialAnswer matches the MS (Renal Artery, Glomerulus, Urinary bladder/Nervous control, Filtration/Reabsorption or Tubular part + factors)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Rest of the officialAnswer matches the MS (Renal Artery, Glomerulus, Urinary bladder/Nervous control, Filtration/Reabsorption or Tubular part + factors).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 25: 38(a)(ii) prints \"...present in the Bowman’s capsule.\"",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-2024-x-science-31-4-1#39",
@@ -720,14 +780,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit diagram on page 27 (resistor values 4Ω, 6Ω, 16Ω and two 8Ω in parallel) is not reproduced in the text layer; parts (a), (b) and (c)(i) require it and the values are known only from the MS.",
-      "notes": "Ω symbols in part (c)(ii) (missing from the text layer) rebuilt from context/MS; officialAnswer calculations match the MS."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Ω symbols in part (c)(ii) (missing from the text layer) rebuilt from context/MS; officialAnswer copied verbatim from MS page 8 (31/4/1 section).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ANSWER_COMPLETED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "MS PDF page 8 (31/4/1 PAGE 8), Q39 rows read from the page render; answer replaced with the scheme text verbatim. QP page 27 circuit; alt no longer states which resistors are in series/parallel.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

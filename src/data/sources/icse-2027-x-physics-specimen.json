@@ -190,17 +190,33 @@
         "49°"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (trough with rays X, Y, and points S, O, P) on page 4 not reproduced; the geometry needed to verify the answer is not in the text layer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(d) 49°",
         "correctOption": 3
       },
       "chapter": "refraction-plane-surfaces",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/1vi.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a trough PQ containing liquid with a light source S at the bottom; rays X and Y from S reach the surface at points O and O'; dashed normals at O and O'",
+          "width": 644,
+          "height": 353,
+          "page": 4,
+          "crop": {
+            "x": 0.28,
+            "y": 0.585,
+            "w": 0.36,
+            "h": 0.14
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -382,24 +398,55 @@
       "type": "MCQ",
       "text": "The above diagram shows a strong bar magnet moved towards the coil PQ along its axis, in the direction shown by the arrow. Which option correctly shows the momentary deflection of magnetic needle N₁ and the direction of current through the galvanometer? (Deflection of magnetic needle | Direction of current)",
       "options": [
-        "P, Q",
-        "Q, P",
-        "P, Q",
-        "Q, P"
+        "Row (a) of the table: needle as drawn, P → Q",
+        "Row (b) of the table: needle as drawn, Q → P",
+        "Row (c) of the table: needle as drawn, P → Q",
+        "Row (d) of the table: needle as drawn, Q → P"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (bar magnet, coil PQ, needle N1, galvanometer) on page 6 not reproduced",
-        "Options are a two-column table (Deflection of magnetic needle | Direction of current); the cell text for options (a)/(c) and (b)/(d) extracted identically as 'P, Q' / 'Q, P' - the printed table likely distinguished them with arrows or a different layout that did not survive extraction, so option text is unreliable"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(c)",
         "correctOption": 2
       },
       "chapter": "electro-magnetism",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Analysis"
+      "cognitiveLevel": "Analysis",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/1xiii.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of magnetic needle N1, coil PQ connected to galvanometer G, and a bar magnet (S and N ends) with an arrow showing its direction of motion",
+          "width": 679,
+          "height": 248,
+          "page": 6,
+          "crop": {
+            "x": 0.31,
+            "y": 0.445,
+            "w": 0.38,
+            "h": 0.098
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/1xiii-2.png",
+          "kind": "TABLE",
+          "alt": "Options table with rows (a) to (d); each row has a drawing of the needle under 'Deflection of magnetic needle' and a current direction under 'Direction of current'",
+          "width": 965,
+          "height": 594,
+          "page": 6,
+          "crop": {
+            "x": 0.16,
+            "y": 0.645,
+            "w": 0.54,
+            "h": 0.235
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -449,17 +496,33 @@
         "S1, S2 and S3"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagram (switches S1, S2, S3 and bulbs B1, B2) on page 7 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) S1 and S2 only",
         "correctOption": 0
       },
       "chapter": "household-circuits",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/1xv.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with a cell, bulbs B1 and B2, and switches S1, S2 and S3",
+          "width": 590,
+          "height": 366,
+          "page": 7,
+          "crop": {
+            "x": 0.3,
+            "y": 0.332,
+            "w": 0.33,
+            "h": 0.145
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -513,14 +576,12 @@
       "marks": 1,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
-      "text": "The CGS unit of specific heat capacity is _________ [erg g-1 K-1 / cal/g-1 K-1].",
+      "text": "The CGS unit of specific heat capacity is _________ [erg g⁻¹ K⁻¹ / cal/g⁻¹ K⁻¹].",
       "hasFigure": false,
-      "extractionIssues": [
-        "Unit exponents flattened: erg g-1 K-1 / cal/g-1 K-1"
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "officialAnswer": {
-        "text": "erg g-1 K-1"
+        "text": "erg g⁻¹ K⁻¹"
       },
       "chapter": "calorimetry",
       "mappingStatus": "AI_SUGGESTED",
@@ -617,22 +678,39 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Analyse the displacement position graph and answer the questions that follow.\nFind the figures that show sound of same loudness and pitch but different quality.",
+      "text": "Analyse the displacement position graph and answer the questions that follow.\nFind two figures that show: sound of same loudness and pitch but different quality.",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Displacement-position graphs (labelled a-d) on page 8 not reproduced; question cannot be answered without them",
-        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "b and d"
       },
       "chapter": "sound",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/2iiia.png",
+          "kind": "GRAPH",
+          "alt": "Four displacement-position graphs labelled a, b, c and d, each with a length marked along the position axis",
+          "width": 1085,
+          "height": 722,
+          "page": 8,
+          "crop": {
+            "x": 0.145,
+            "y": 0.517,
+            "w": 0.607,
+            "h": 0.286
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iii): [2] for (a) and (b)"
     },
     {
       "number": "2",
@@ -641,22 +719,39 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Analyse the displacement position graph and answer the questions that follow.\nFind the figures that show sound of same pitch but different loudness.",
+      "text": "Analyse the displacement position graph and answer the questions that follow.\nFind two figures that show: sound of same pitch but different loudness.",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Displacement-position graphs (labelled a-d) on page 8 not reproduced; question cannot be answered without them",
-        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "a and c"
       },
       "chapter": "sound",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/2iiib.png",
+          "kind": "GRAPH",
+          "alt": "Four displacement-position graphs labelled a, b, c and d, each with a length marked along the position axis",
+          "width": 1085,
+          "height": 722,
+          "page": 8,
+          "crop": {
+            "x": 0.145,
+            "y": 0.517,
+            "w": 0.607,
+            "h": 0.286
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iii): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -665,21 +760,39 @@
       "page": 9,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Refer to the diagram given below. A lens is made of two materials of different refractive indices (µ1, µ2) as shown. If the rays are coming from a distant object, then how many images will be formed?",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Diagram (lens made of two materials of refractive indices µ1, µ2) on page 9 not reproduced"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "2 images will be formed"
       },
       "chapter": "refraction-through-lens",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/3ia.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a lens on a principal axis, with its two parts labelled µ1 and µ2",
+          "width": 504,
+          "height": 416,
+          "page": 9,
+          "crop": {
+            "x": 0.315,
+            "y": 0.195,
+            "w": 0.282,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 3 (i): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -688,8 +801,8 @@
       "page": 9,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "A glass lens always forms a virtual, erect, and diminished image of an object kept in front of it. Identify the lens.",
       "hasFigure": false,
@@ -700,7 +813,9 @@
       },
       "chapter": "refraction-through-lens",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 3 (i): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -714,16 +829,32 @@
       "type": "NUMERICAL",
       "text": "The image given below displays kilowatt-hour meter readings recorded at two distinct points in time.\nAssuming a continuously running 2000W air conditioner as the sole electrical device in use, calculate the time interval, in hours, between these two meter readings.",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Meter reading image on page 9 not reproduced in the text layer; the meter readings (1567 kWh and 856 kWh) used in the marking scheme are not printed anywhere in the extracted question text"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "Energy spent = 1567 − 856 = 711 kWh\nTime in hours = 711/2 = 355.5 hours"
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/3ii.png",
+          "kind": "FIGURE",
+          "alt": "Two kWh meter displays, each showing a five-digit reading",
+          "width": 626,
+          "height": 384,
+          "page": 9,
+          "crop": {
+            "x": 0.29,
+            "y": 0.493,
+            "w": 0.35,
+            "h": 0.152
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -732,21 +863,39 @@
       "page": 10,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "ABCDE is a regular pentagon with its centre of gravity (CG) at O. What will be the most probable position (W, X, Y, Z or O) of the new centre of gravity if a piece of clay is attached at point A?",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Diagram (regular pentagon ABCDE with marked positions W, X, Y, Z, O) on page 10 not reproduced"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "X"
       },
       "chapter": "force",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/3iiia.png",
+          "kind": "FIGURE",
+          "alt": "Regular pentagon ABCDE with marked points W, X, Y, Z and O, a line PQ and dashed lines",
+          "width": 590,
+          "height": 500,
+          "page": 10,
+          "crop": {
+            "x": 0.305,
+            "y": 0.243,
+            "w": 0.33,
+            "h": 0.198
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 3 (iii): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -755,21 +904,39 @@
       "page": 10,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "ABCDE is a regular pentagon with its centre of gravity (CG) at O. What will be the most probable position (W, X, Y, Z or O) of the new centre of gravity if the pentagon is cut along the line PQ? (CG of the remaining part DCBQPE)",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Diagram (regular pentagon ABCDE with marked positions W, X, Y, Z, O and cut line PQ) on page 10 not reproduced"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "Z"
       },
       "chapter": "force",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/3iiib.png",
+          "kind": "FIGURE",
+          "alt": "Regular pentagon ABCDE with marked points W, X, Y, Z and O, a line PQ and dashed lines",
+          "width": 590,
+          "height": 500,
+          "page": 10,
+          "crop": {
+            "x": 0.305,
+            "y": 0.243,
+            "w": 0.33,
+            "h": 0.198
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 3 (iii): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -784,15 +951,31 @@
       "text": "The diagram given below shows a copper wire wound around a U-shape soft iron bar. An iron pin is brought near the arrangement. First Source P and then Source Q are connected across AB, each operating independently.\n(a) State True or False: Source P as well as Source Q, when connected across AB, can attract the iron pin.\n(b) Justify your answer to (a) with a suitable reason.",
       "hasFigure": true,
       "confidence": "MEDIUM",
-      "extractionIssues": [
-        "Diagram (copper wire wound on a U-shaped soft iron bar with terminals A, B and sources P, Q) on page 10 not reproduced; the exact nature of sources P and Q is not stated in the text layer"
-      ],
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "(a) True\n(b) Both sources will produce a magnetic field: the attraction of a magnetic material does not depend on the polarity of the magnet."
       },
       "chapter": "electro-magnetism",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/3iv.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of copper wire wound on a U-shaped soft iron bar with terminals A and B, an iron pin, and the circuit symbols labelled Source P and Source Q",
+          "width": 571,
+          "height": 505,
+          "page": 10,
+          "crop": {
+            "x": 0.298,
+            "y": 0.545,
+            "w": 0.32,
+            "h": 0.2
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -801,19 +984,21 @@
       "page": 11,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Blocks of identical material, having masses m, 2m, 3m, 4m, and 5m are heated to 150°C, and then cooled to 50°C. Draw the nature of the graph connecting the amount of heat released vs the mass of the blocks.",
-      "hasFigure": true,
-      "confidence": "LOW",
+      "hasFigure": false,
+      "confidence": "MEDIUM",
       "extractionIssues": [
         "Official answer for (a) is a graph/diagram in the marking scheme and is not reproduced in the text layer",
         "This item asks for a drawn graph; it cannot be captured as extracted text"
       ],
       "chapter": "calorimetry",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 3 (v): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -822,21 +1007,21 @@
       "page": 11,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Blocks of identical material, having masses m, 2m, 3m, 4m, and 5m are heated to 150°C, and then cooled to 50°C. Write the mathematical expression that enables the determination of the specific heat capacity using the graph.",
       "hasFigure": false,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Official answer partly missing in extraction (figure/equation): most of this formula uses a corrupted math font in the marking scheme (repeated wrong glyphs) and could not be read; only 'specific heat capacity = ... / ∆t / 100' survived"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
-        "text": "specific heat capacity = … / ∆t / 100 (remaining wording did not extract cleanly)"
+        "text": "specific heat capacity = (slope of this graph)/Δt = (slope of this graph)/100"
       },
       "chapter": "calorimetry",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 3 (v): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -845,23 +1030,21 @@
       "page": 11,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "When 6Li3 is bombarded with a neutron, it produces 4He2 and an isotope of hydrogen. Write the notation for the hydrogen isotope formed.",
+      "text": "Answer the following questions according to the instructions given:\nWhen ⁶Li₃ is bombarded with a neutron, it produces ⁴He₂ and an isotope of hydrogen. Write the notation for the hydrogen isotope formed.",
       "hasFigure": false,
       "confidence": "MEDIUM",
-      "extractionIssues": [
-        "Superscripts/subscripts flattened: 6Li3, 4He2",
-        "Notation '4He2' was rebuilt from a corrupted math-font run in the PDF (glyph repeated instead of the intended letters); read from context as the standard alpha-particle notation",
-        "Official answer 'H13' has its superscript/subscript flattened; likely denotes the hydrogen isotope tritium (mass number 3, atomic number 1)"
-      ],
+      "extractionIssues": [],
       "officialAnswer": {
-        "text": "H13"
+        "text": "H₁³"
       },
       "chapter": "radioactivity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 3 (vi): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -870,10 +1053,10 @@
       "page": 11,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "FILL_BLANK",
-      "text": "Fill in the blank: The mass of the reactants in a fission reaction is __________ (greater /less) than the mass of the products.",
+      "text": "Answer the following questions according to the instructions given:\nFill in the blank:\nThe mass of the reactants in a fission reaction is __________ (greater /less) than the mass of the products.",
       "hasFigure": false,
       "confidence": "HIGH",
       "extractionIssues": [],
@@ -882,7 +1065,9 @@
       },
       "chapter": "radioactivity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 3 (vi): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -911,21 +1096,39 @@
       "page": 12,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "A diagram shows a ray of light travelling through three different transparent media having refractive indices μ₁, μ₂ and μ₃ as shown. Points Q and R are points on the surfaces separating the media. Given PQ || RS.\nAmong the three media shown, in which medium is the speed of light minimum?",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Ray diagram (three media, points P, Q, R, S) on page 12 not reproduced"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "In medium 2, of refractive index μ2"
       },
       "chapter": "refraction-plane-surfaces",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/4ia.png",
+          "kind": "FIGURE",
+          "alt": "Ray diagram: ray from P passing through medium 1 (µ1), medium 2 (µ2) and medium 3 (µ3), with points Q, R and S and dashed normals",
+          "width": 554,
+          "height": 568,
+          "page": 12,
+          "crop": {
+            "x": 0.32,
+            "y": 0.315,
+            "w": 0.31,
+            "h": 0.225
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 4 (i): [3] for (a), (b) and (c)"
     },
     {
       "number": "4",
@@ -934,21 +1137,39 @@
       "page": 12,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "A diagram shows a ray of light travelling through three different transparent media having refractive indices μ₁, μ₂ and μ₃ as shown. Points Q and R are points on the surfaces separating the media. Given PQ || RS.\nAs the ray of light travels from medium 1 to medium 2, how does the wavelength of light change? (State whether it increases, decreases, or remains constant.)",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Ray diagram (three media, points P, Q, R, S) on page 12 not reproduced"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "Wavelength decreases"
       },
       "chapter": "refraction-plane-surfaces",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/4ib.png",
+          "kind": "FIGURE",
+          "alt": "Ray diagram: ray from P passing through medium 1 (µ1), medium 2 (µ2) and medium 3 (µ3), with points Q, R and S and dashed normals",
+          "width": 554,
+          "height": 568,
+          "page": 12,
+          "crop": {
+            "x": 0.32,
+            "y": 0.315,
+            "w": 0.31,
+            "h": 0.225
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 4 (i): [3] for (a), (b) and (c)"
     },
     {
       "number": "4",
@@ -957,21 +1178,39 @@
       "page": 12,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "A diagram shows a ray of light travelling through three different transparent media having refractive indices μ₁, μ₂ and μ₃ as shown. Points Q and R are points on the surfaces separating the media. Given PQ || RS.\nState the relationship between the refractive indices μ₁ and μ₃ that ensures the emergent ray (RS) is parallel to the incident ray (PQ).",
       "hasFigure": true,
       "confidence": "MEDIUM",
-      "extractionIssues": [
-        "Ray diagram (three media, points P, Q, R, S) on page 12 not reproduced"
-      ],
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "μ1 = μ3"
       },
       "chapter": "refraction-plane-surfaces",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/4ic.png",
+          "kind": "FIGURE",
+          "alt": "Ray diagram: ray from P passing through medium 1 (µ1), medium 2 (µ2) and medium 3 (µ3), with points Q, R and S and dashed normals",
+          "width": 554,
+          "height": 568,
+          "page": 12,
+          "crop": {
+            "x": 0.32,
+            "y": 0.315,
+            "w": 0.31,
+            "h": 0.225
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 4 (i): [3] for (a), (b) and (c)"
     },
     {
       "number": "4",
@@ -985,16 +1224,32 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram below shows two graphs showing variation in angle of deviation against angle of incidence for two colours of light (blue, orange) while passing through the same prism. [Diagrams are not drawn to the same scale.]\n(a) State with a reason whether a = b, a < b, or a > b.\n(b) If we increase the angle of the prism then what is the effect on the values of a and b?",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Two angle-of-deviation vs angle-of-incidence graphs (labelled a, b) on page 13 not reproduced"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "(a) a > b. Angle of minimum deviation is inversely proportional to the wavelength of light and the wavelength of blue is smaller than the wavelength of orange.\n(b) Values of a and b will increase."
       },
       "chapter": "spectrum",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/4ii.png",
+          "kind": "GRAPH",
+          "alt": "Two graphs of angle of deviation against angle of incidence, titled Blue and Orange, with levels marked a and b on the vertical axes",
+          "width": 1094,
+          "height": 416,
+          "page": 13,
+          "crop": {
+            "x": 0.15,
+            "y": 0.18,
+            "w": 0.612,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -1055,7 +1310,7 @@
         "Official answer uses a stacked fraction (m = v/u); linearised by the extractor with '/'"
       ],
       "officialAnswer": {
-        "text": "m = −2, so v : u = 2 : 1 (v/u = −2)"
+        "text": "m = −2   v : u = 2 : 1 or −2 = v/(−u)"
       },
       "chapter": "refraction-through-lens",
       "mappingStatus": "AI_SUGGESTED",
@@ -1074,12 +1329,9 @@
       "text": "A candle and a screen are placed 90 cm apart. Steve placed a lens between them such that a clear image is formed on the screen and the image is twice the size of the object.\nCalculate the image distance.",
       "hasFigure": false,
       "confidence": "MEDIUM",
-      "extractionIssues": [
-        "A short connecting phrase in the marking scheme did not extract cleanly (corrupted math font); reconstructed from the legible numeric steps",
-        "Units 'cm' after the final u and v values were reconstructed from a corrupted 2-letter run in the marking scheme, consistent with the question's own units"
-      ],
+      "extractionIssues": [],
       "officialAnswer": {
-        "text": "m = v/u = −2. As v + u = 90: 2u + u = 90, 3u = 90, u = 30 cm, v = 90 − 30 = 60 cm"
+        "text": "m = v/u ∴ −2 = v/(−u) ∴ 2u = v\nAs v + u = 90 ∴ 2u + u = 90 ∴ 3u = 90 ∴ u = 30\nu = 30 cm\nv = 90 − 30\nv = 60 cm"
       },
       "chapter": "refraction-through-lens",
       "mappingStatus": "AI_SUGGESTED",
@@ -1121,16 +1373,32 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram below shows a cooling curve for a substance X. State the temperature at which the substance condenses.",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Cooling curve diagram for substance X on page 14 not reproduced; the temperature value in the official answer could not be verified against the graph"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "150°C"
       },
       "chapter": "calorimetry",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/5iia.png",
+          "kind": "GRAPH",
+          "alt": "Cooling curve of temperature (°C) against time, with three temperature levels marked on the temperature axis and dashed lines",
+          "width": 634,
+          "height": 336,
+          "page": 14,
+          "crop": {
+            "x": 0.245,
+            "y": 0.107,
+            "w": 0.355,
+            "h": 0.133
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -1144,16 +1412,32 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram below shows a cooling curve for a substance X. Mention the temperature range in which the substance is in its liquid state.",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Cooling curve diagram for substance X on page 14 not reproduced; the temperature range in the official answer could not be verified against the graph"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "150°C to 60°C"
       },
       "chapter": "calorimetry",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/5iib.png",
+          "kind": "GRAPH",
+          "alt": "Cooling curve of temperature (°C) against time, with three temperature levels marked on the temperature axis and dashed lines",
+          "width": 634,
+          "height": 336,
+          "page": 14,
+          "crop": {
+            "x": 0.245,
+            "y": 0.107,
+            "w": 0.355,
+            "h": 0.133
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -1168,15 +1452,31 @@
       "text": "The diagram below shows a cooling curve for a substance X. State True or False: The amount of heat released when a substance is cooled by 10°C in its liquid state is greater than the heat released when it is cooled by the same amount in its solid state.",
       "hasFigure": true,
       "confidence": "MEDIUM",
-      "extractionIssues": [
-        "Cooling curve diagram for substance X on page 14 not reproduced"
-      ],
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "True"
       },
       "chapter": "calorimetry",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/5iic.png",
+          "kind": "GRAPH",
+          "alt": "Cooling curve of temperature (°C) against time, with three temperature levels marked on the temperature axis and dashed lines",
+          "width": 634,
+          "height": 336,
+          "page": 14,
+          "crop": {
+            "x": 0.245,
+            "y": 0.107,
+            "w": 0.355,
+            "h": 0.133
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -1188,7 +1488,7 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "In an experiment to measure the temperature of the flame of a Bunsen burner, a lump of copper of mass 0.12 kg is heated on the flame for a long time. The copper then is quickly transferred into a beaker of negligible heat capacity containing 0.84 kg of water and the temperature of the water rose from 15°C to 35°C. Calculate the temperature of the flame.\n[Given sp. Heat capacity of copper = 0.4 Jg-1 oC-1, Sp. Heat capacity of water = 4.2 Jg-1 oC-1.]",
+      "text": "In an experiment to measure the temperature of the flame of a Bunsen burner, a lump of copper of mass 0.12 kg is heated on the flame for a long time. The copper then is quickly transferred into a beaker of negligible heat capacity containing 0.84 kg of water and the temperature of the water rose from 15°C to 35°C. Calculate the temperature of the flame.\n[Given sp. Heat capacity of copper = 0.4 Jg⁻¹ °C⁻¹, Sp. Heat capacity of water = 4.2 Jg⁻¹ °C⁻¹.]",
       "hasFigure": false,
       "confidence": "HIGH",
       "extractionIssues": [
@@ -1410,8 +1710,8 @@
       "marks": 1,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
-      "text": "Based on the lever arrangement identified in part (a), calculate the maximum mechanical advantage using the distances shown in the diagram.",
-      "hasFigure": false,
+      "text": "A bar of length 120 cm is used as a lever to raise a load placed at point P. Seven equidistant points are marked along the bar: P, Q, R, S, T, U, and V, each 20 cm apart. You are permitted to place the fulcrum at any of the marked points and exert the effort at a different point.\n(a) Specify the fulcrum and effort points that yield the greatest mechanical advantage.\n(b) Based on the lever arrangement identified in part (a), calculate the maximum mechanical advantage using the distances shown in the diagram.",
+      "hasFigure": true,
       "confidence": "MEDIUM",
       "extractionIssues": [
         "Words 'Load', 'arm', 'Effort', 'MA' and 'EA'/'LA' in the marking scheme were reconstructed from corrupted math-font runs by matching letter-count and lever-formula context"
@@ -1421,7 +1721,25 @@
       },
       "chapter": "machines",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/7ib.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a bar marked P, Q, R, S, T, U, V with a LOAD arrow, and a triangular FULCRUM",
+          "width": 845,
+          "height": 442,
+          "page": 15,
+          "crop": {
+            "x": 0.22,
+            "y": 0.636,
+            "w": 0.473,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -1433,8 +1751,8 @@
       "marks": 1,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "To which class of lever does this arrangement belong?",
-      "hasFigure": false,
+      "text": "A bar of length 120 cm is used as a lever to raise a load placed at point P. Seven equidistant points are marked along the bar: P, Q, R, S, T, U, and V, each 20 cm apart. You are permitted to place the fulcrum at any of the marked points and exert the effort at a different point.\n(a) Specify the fulcrum and effort points that yield the greatest mechanical advantage.\n(c) To which class of lever does this arrangement belong?",
+      "hasFigure": true,
       "confidence": "MEDIUM",
       "extractionIssues": [
         "Words 'First', 'class' and 'lever' in the marking scheme were reconstructed from a corrupted math-font run by matching letter-count"
@@ -1444,7 +1762,25 @@
       },
       "chapter": "machines",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/7ic.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a bar marked P, Q, R, S, T, U, V with a LOAD arrow, and a triangular FULCRUM",
+          "width": 845,
+          "height": 442,
+          "page": 15,
+          "crop": {
+            "x": 0.22,
+            "y": 0.636,
+            "w": 0.473,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -1459,16 +1795,31 @@
       "text": "A boy is located asymmetrically between two parallel walls, closer to the left wall than the right. If he claps, the time interval between successive echoes is 0.25 s, then find the value of X in metres. [speed of sound in air = 340 m/s.]",
       "hasFigure": true,
       "confidence": "LOW",
-      "extractionIssues": [
-        "The question text does not state a distance value, but the marking scheme uses a distance of 68 m to the far wall; this is likely given in a diagram/figure not reproduced in the text layer",
-        "A short connecting phrase in the marking scheme ('time required for shorter distance i.e for x m') was reconstructed from a corrupted math-font run by matching letter-count and the parallel, uncorrupted first line ('Time required for longer distance i.e 68 m')"
-      ],
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "Time required for longer distance (i.e. 68 m): t = 2d/v = 2×68/340 = 0.4 s\nTime required for shorter distance (i.e. for x m): t = 0.4 − 0.25 = 0.15 s\n0.15 = 2x/340, 2x = 51, x = 25.5 m"
       },
       "chapter": "sound",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/7ii.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a boy standing between a Left wall and a Right wall, with distances marked X and 68 m",
+          "width": 795,
+          "height": 316,
+          "page": 16,
+          "crop": {
+            "x": 0.235,
+            "y": 0.345,
+            "w": 0.445,
+            "h": 0.125
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -1524,17 +1875,32 @@
       "type": "SHORT_ANSWER",
       "text": "The below diagram shows the part of a complete circuit. The ammeter reads 1A.\nCalculate the current I1 through the 3Ω resistor.",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Circuit diagram on page 17 not reproduced",
-        "Official answer partly missing in extraction (figure/equation): the computed value of I1 is not present in the text layer, only the reasoning 'Since P.D. is same across parallel combination'"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
-        "text": "Since P.D. is same across parallel combination…"
+        "text": "Since P.D. is same across parallel combination ∴ 1 × 6 = I₁ × 3\n∴ I₁ = 6/3 = 2A"
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/8ia.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with current I, an ammeter A marked 1A, resistors of 6Ω and 3Ω, a switch S and current I1",
+          "width": 626,
+          "height": 336,
+          "page": 17,
+          "crop": {
+            "x": 0.285,
+            "y": 0.162,
+            "w": 0.35,
+            "h": 0.133
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
@@ -1548,14 +1914,32 @@
       "type": "NUMERICAL",
       "text": "The below diagram shows the part of a complete circuit. The ammeter reads 1A.\nCalculate the total current I in the circuit.",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Circuit diagram on page 17 not reproduced",
-        "Official answer partly missing in extraction (figure/equation): no text survived for this sub-part in the marking scheme"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/8ib.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with current I, an ammeter A marked 1A, resistors of 6Ω and 3Ω, a switch S and current I1",
+          "width": 626,
+          "height": 336,
+          "page": 17,
+          "crop": {
+            "x": 0.285,
+            "y": 0.162,
+            "w": 0.35,
+            "h": 0.133
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "officialAnswer": {
+        "text": "I = 1 + 2 = 3A"
+      }
     },
     {
       "number": "8",
@@ -1570,15 +1954,31 @@
       "text": "The below diagram shows the part of a complete circuit. The ammeter reads 1A.\nState True or False: When the switch (S) is opened and the entire current flows through the 6Ω resistor, the ammeter reading will be (1+I1).",
       "hasFigure": true,
       "confidence": "MEDIUM",
-      "extractionIssues": [
-        "Circuit diagram on page 17 not reproduced"
-      ],
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "False"
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Analysis"
+      "cognitiveLevel": "Analysis",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/8ic.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with current I, an ammeter A marked 1A, resistors of 6Ω and 3Ω, a switch S and current I1",
+          "width": 626,
+          "height": 336,
+          "page": 17,
+          "crop": {
+            "x": 0.285,
+            "y": 0.162,
+            "w": 0.35,
+            "h": 0.133
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
@@ -1592,15 +1992,31 @@
       "type": "SHORT_ANSWER",
       "text": "An appliance with a metal covering, rated at 2 kW, 220 V, is to be connected in a circuit. Given below are two diagrams (R & S) depicting different circuit configurations.\n(a) Identify the safest circuit.\n(b) Write two reasons, supported by mathematical calculations, where applicable, to justify your choice.",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Circuit diagrams R and S on page 17 not reproduced"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
         "text": "(a) S\n(b) The metal body of the appliance is earthed. I = P/V = 2000/220 = 9.09 A, so a 10 A fuse is appropriate."
       },
       "chapter": "household-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/8ii.png",
+          "kind": "FIGURE",
+          "alt": "Two circuit drawings labelled R and S, with fuses marked 8A and 10A, an appliance and a person touching it",
+          "width": 933,
+          "height": 387,
+          "page": 17,
+          "crop": {
+            "x": 0.205,
+            "y": 0.592,
+            "w": 0.522,
+            "h": 0.153
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
@@ -1683,12 +2099,10 @@
       "type": "SHORT_ANSWER",
       "text": "A Nichrome wire X with length (l) and cross-sectional area (A) is connected to a 10 V source and another Nichrome wire Y with length (2l) and cross-sectional area (A/2), is connected to a 20 V source.\nState True or False: Wire X and wire Y both show the same rise in temperature at the same time.",
       "hasFigure": false,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Final justification clause (in brackets, after 'Eq1/eq2 =1') did not extract cleanly (corrupted math font); omitted"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
-        "text": "True. Q_X = mass × c × ΔT_X = V²t/R = P×t (eq 1). Q_Y = mass × c × ΔT_Y = V²t/R = P×t (eq 2). Eq1/eq2 = 1."
+        "text": "True\nQX = mcΔT = Ald × c × ΔT_X = V²t/R = PX × t → eq 1\nQY = mcΔT = Ald × c × ΔT_Y = V²t/R = PY × t → eq 2\nEq1/eq2 = 1 (rise in temperature will be same in both wires)"
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
@@ -1838,16 +2252,31 @@
       "type": "SHORT_ANSWER",
       "text": "The graph given below illustrates the correlation between the number of protons (x-axis) and the number of neutrons (y-axis) for elements A, B, C, D, and E in the periodic table. These elements are denoted by the letters rather than their conventional symbols.\n(a) Identify the radioactive radiation emitted when element C decays into element E. Represent this using a nuclear reaction.\n(b) What is the special name given to elements like D and E?\n(c) If element C transforms into element B by emitting a radioactive ray, how will this ray behave in an electric field?",
       "hasFigure": true,
-      "confidence": "LOW",
-      "extractionIssues": [
-        "Proton-neutron graph (elements A-E) on page 19 not reproduced",
-        "Nuclear equation superscripts/subscripts flattened: 238C92, 238E93, −1β0"
-      ],
+      "confidence": "MEDIUM",
+      "extractionIssues": [],
       "officialAnswer": {
-        "text": "(a) β (beta) decay: 238C92 → 238E93 + (−1β0)\n(b) Isotopes\n(c) It will shift towards the negative plate."
+        "text": "(a) β : ²³⁸₉₂C → ²³⁸₉₃E + ⁰₋₁β\n(b) isotopes\n(c) It will shift towards the negative plate"
       },
       "chapter": "radioactivity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-physics-specimen/9iii.png",
+          "kind": "GRAPH",
+          "alt": "Fig. A: graph of number of neutrons (140 to 150) against number of protons (85 to 95) with points labelled A, B, C, D and E",
+          "width": 764,
+          "height": 571,
+          "page": 19,
+          "crop": {
+            "x": 0.26,
+            "y": 0.308,
+            "w": 0.428,
+            "h": 0.226
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

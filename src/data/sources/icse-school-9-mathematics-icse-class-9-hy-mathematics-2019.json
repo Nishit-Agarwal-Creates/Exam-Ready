@@ -139,12 +139,12 @@
       "type": "SHORT_ANSWER",
       "text": "Using ruler and compasses, construct a parallelogram ABCD given that AB = 4 cm, AC = 10 cm BD = 6 cm. Measure BC",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
-      "chapter": "rectilinear-figures",
-      "mappingStatus": "AI_SUGGESTED"
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "constructions-of-polygons",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "3",
@@ -328,12 +328,28 @@
       "type": "NUMERICAL",
       "text": "In the given figure AE = DC = 13 cm, BE = 5 cm ∠ABC = 90° and AD = EC = x cam Calculate the length of AB and the value of x",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (right triangle ABC with D on AB and E on BC) on PDF page 4 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "pythagoras-theorem",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-hy-mathematics-2019/7a.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn right triangle ABC with the right angle at B; D on AB and E on BC; segments AE and DC drawn",
+          "width": 455,
+          "height": 375,
+          "page": 4,
+          "crop": {
+            "x": 0.19,
+            "y": 0.212,
+            "w": 0.18,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "7",
@@ -385,12 +401,13 @@
       "hasFigure": true,
       "extractionIssues": [
         "Table on PDF page 4 reproduced as text rows (layout lost); check against the PDF",
-        "No marks printed",
         "Continues on PDF page 2 (printed page 5)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "statistics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "8",
@@ -424,12 +441,13 @@
       "text": "The diagonals of a parallelogram ABCD insect at O. Through O, a straight line is drawn parallel to AB to neet AD in P and BC in Q. Prove that\n(i) P and Q are mid points of AD & BC respectively\n(ii) Area of ΔOAB = 1/4 Area of parallel gram ABCD.",
       "hasFigure": false,
       "extractionIssues": [
-        "No marks printed",
         "Notation rebuilt from the page image (fractions/powers/roots); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "mid-point-theorem",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "9",
@@ -481,12 +499,12 @@
       "type": "SHORT_ANSWER",
       "text": "Using ruler and compasses only, construct the quadrilateral ABCD given that AB = 5 cm, BC = 2.5 cm CD = 6 cm ∠BAD = 90° and the diagonal AC = 5.5 cm.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
-      "chapter": "rectilinear-figures",
-      "mappingStatus": "AI_SUGGESTED"
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "constructions-of-polygons",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "10",

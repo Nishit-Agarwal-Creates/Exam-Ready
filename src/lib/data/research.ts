@@ -87,12 +87,14 @@ export type ReviewOverview = {
   reasons: { state: string; reason: string; n: number }[];
   /** Per source document: auto-verified, editor-verified, held and still pending. */
   byPaper: Map<number, { auto: number; editor: number; held: number; rejected: number }>;
+  /** Phase 5.1 recovery: figures cropped from source pages, and questions whose own mark isn't printed. */
+  recovery: { figures: number; figuresPublished: number; groupTotal: number; notPrinted: number; fractional: number; marksStatusPublished: number };
 };
 
 /** Three small grouped queries over the review columns (indexed by review_state). */
 export async function getReviewOverview(): Promise<ReviewOverview> {
   const db = await getDb();
-  const [states, reasons, papers] = await Promise.all([
+  const [states, reasons, papers, recovery] = await Promise.all([
     db.all<{ state: string | null; n: number }>(sql`
       SELECT review_state AS state, COUNT(*) AS n FROM questions WHERE is_demo = 0 AND source_type <> 'AI_GENERATED' GROUP BY review_state`),
     db.all<{ state: string; reason: string; n: number }>(sql`
@@ -107,11 +109,27 @@ export async function getReviewOverview(): Promise<ReviewOverview> {
         SUM(CASE WHEN q.verification_status = 'REJECTED' THEN 1 ELSE 0 END) AS rejected
       FROM question_sources qs JOIN questions q ON q.id = qs.question_id
       WHERE q.is_demo = 0 GROUP BY qs.paper_id`),
+    db.all<{ figures: number; figures_published: number; group_total: number; not_printed: number; fractional: number; ms_published: number }>(sql`
+      SELECT SUM(CASE WHEN figure IS NOT NULL THEN 1 ELSE 0 END) AS figures,
+        SUM(CASE WHEN figure IS NOT NULL AND verification_status = 'VERIFIED' AND is_published = 1 THEN 1 ELSE 0 END) AS figures_published,
+        SUM(CASE WHEN marks_status = 'GROUP_TOTAL' THEN 1 ELSE 0 END) AS group_total,
+        SUM(CASE WHEN marks_status = 'NOT_PRINTED' THEN 1 ELSE 0 END) AS not_printed,
+        SUM(CASE WHEN marks_status = 'FRACTIONAL' THEN 1 ELSE 0 END) AS fractional,
+        SUM(CASE WHEN marks_status <> 'PRINTED' AND verification_status = 'VERIFIED' AND is_published = 1 THEN 1 ELSE 0 END) AS ms_published
+      FROM questions WHERE is_demo = 0`),
   ]);
   const n = (v: unknown) => Number(v ?? 0);
   return {
     states: Object.fromEntries(states.map((s) => [s.state ?? "PENDING_REVIEW", n(s.n)])),
     reasons: reasons.map((r) => ({ state: r.state, reason: r.reason, n: n(r.n) })),
     byPaper: new Map(papers.map((p) => [n(p.paper_id), { auto: n(p.auto), editor: n(p.editor), held: n(p.held), rejected: n(p.rejected) }])),
+    recovery: {
+      figures: n(recovery[0]?.figures),
+      figuresPublished: n(recovery[0]?.figures_published),
+      groupTotal: n(recovery[0]?.group_total),
+      notPrinted: n(recovery[0]?.not_printed),
+      fractional: n(recovery[0]?.fractional),
+      marksStatusPublished: n(recovery[0]?.ms_published),
+    },
   };
 }

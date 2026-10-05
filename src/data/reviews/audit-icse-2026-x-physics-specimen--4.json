@@ -1,0 +1,25 @@
+{
+  "pack": "icse-2026-x-physics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the original PDF page renders (page.py grid/crop) and pdftotext -raw/-layout, and the marking scheme, for the final fix round.",
+  "checks": [
+    {
+      "key": "icse-2026-x-physics-specimen#5ib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-final"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iib",
+      "agree": false,
+      "reason": "Marks status is wrong: the marking scheme in the same PDF (p22) prints a per-item mark for Q8(ii) — (a) [1] and (b) [1+1], adding up to the printed [3] — so (b) has a printed mark of 2, yet the pack stores GROUP_TOTAL with marks 0.",
+      "round": "p51-final"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iiia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-final"
+    }
+  ]
+}

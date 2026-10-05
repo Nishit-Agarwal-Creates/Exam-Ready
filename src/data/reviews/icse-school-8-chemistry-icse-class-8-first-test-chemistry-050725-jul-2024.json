@@ -144,14 +144,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of substances A, B, C (page 4) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p4: diagram A, B, C with particle insets under Q3 (2).",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-chemistry-icse-class-8-first-test-chemistry-050725-jul-2024#4i",
@@ -192,14 +202,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Balance diagram on page 5 is needed to answer part (a).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p5: balance diagrams under 4(iii).",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-chemistry-icse-class-8-first-test-chemistry-050725-jul-2024#4iv",

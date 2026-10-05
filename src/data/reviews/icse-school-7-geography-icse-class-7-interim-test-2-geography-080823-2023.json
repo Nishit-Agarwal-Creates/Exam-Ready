@@ -10,38 +10,6 @@
   },
   "questions": [
     {
-      "key": "icse-school-7-geography-icse-class-7-interim-test-2-geography-080823-2023#I",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Group printed as 0.5x5 = 2.5 marks, stored as 0; items span rocks and soil formation.",
-      "notes": ""
-    },
-    {
-      "key": "icse-school-7-geography-icse-class-7-interim-test-2-geography-080823-2023#II",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Group printed as 0.5x5 = 2.5 marks, stored as 0; items span rocks, soil and denudation.",
-      "notes": ""
-    },
-    {
       "key": "icse-school-7-geography-icse-class-7-interim-test-2-geography-080823-2023#III1",
       "text": "MATCH",
       "numberPage": "MATCH",
@@ -200,6 +168,62 @@
       "decision": "PUBLISH",
       "reason": "",
       "notes": "Asks the student to draw a diagram; no figure is needed to understand the question."
+    },
+    {
+      "key": "icse-school-7-geography-icse-class-7-interim-test-2-geography-080823-2023#I5",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, I 5; checked against the page image. Soil item, chapter Weathering and Soil Formation (Theme 4: how weathering forms soil).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: 'I. Fill in the blanks:-' with '(0.5×5 Marks)', items 1-5 read from the page image; item marks are printed as 0.5 each (fractional).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-geography-icse-class-7-interim-test-2-geography-080823-2023#II1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II 1; checked against the page image. Soil item, chapter Weathering and Soil Formation (Theme 4: how weathering forms soil).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: 'II. Answer the following in one word:-' with '(0.5×5 Marks)', items 1-5 read from the page image; item marks are printed as 0.5 each (fractional).",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

@@ -1,0 +1,193 @@
+{
+  "pack": "icse-2026-x-chemistry-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF (pages 10-14 and the marking scheme on pages 17-20) with pdftotext -layout, -raw and -table, and the chapter summaries.",
+  "checks": [
+    {
+      "key": "icse-2026-x-chemistry-specimen#3ia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#3ib",
+      "agree": false,
+      "reason": "Chapter analytical-chemistry is not supported: thermal decomposition of zinc nitrate is not identification of cations with NaOH/NH4OH or amphoteric behaviour, the only content of that chapter's official summary.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#3iia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#3iib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#3iva",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#3ivb",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#3ivc",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#4ia",
+      "agree": false,
+      "reason": "Text alters the printed instruction: page 11 prints 'Name the main metal present in the following alloys: (a) Duralumin' but the item reads 'the following alloy: Duralumin.'.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#4ib",
+      "agree": false,
+      "reason": "Text alters the printed instruction: page 11 prints 'Name the main metal present in the following alloys: (b) Brass' but the item reads 'the following alloy: Brass.'.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#4iia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#4iib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#5iiia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#5iiib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#5iiic",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#5iva",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#5ivb",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#5ivc",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#6iia",
+      "agree": false,
+      "reason": "Text rewrites the printed instruction ('write balanced chemical equation for the preparation of the salts mentioned below: (a) copper sulphate' becomes 'write a balanced chemical equation for the preparation of the salt: copper sulphate'), and a salt-preparation item belongs to acids-bases-and-salts (preparation of salts), not the sulphuric-acid chapter.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#6iib",
+      "agree": false,
+      "reason": "Text rewrites the printed instruction ('...preparation of the salts mentioned below: (b) sodium zincate' becomes '...preparation of the salt: sodium zincate'), and Zn + NaOH to sodium zincate is not supported by the metallurgy summary (ores, aluminium extraction, alloys).",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#6iva",
+      "agree": false,
+      "reason": "Text rewrites the printed instruction 'Identify the reactants P, Q and R in the following reactions:' as 'Identify the reactant P in the following reaction:', and reduction of copper oxide by hydrogen is not in the metallurgy summary (ores, concentration, aluminium extraction, alloys).",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#6ivb",
+      "agree": false,
+      "reason": "Text rewrites the printed instruction 'Identify the reactants P, Q and R in the following reactions:' as 'Identify the reactant Q in the following reaction:'.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#6ivc",
+      "agree": false,
+      "reason": "Text rewrites the printed instruction 'Identify the reactants P, Q and R in the following reactions:' as 'Identify the reactant R in the following reaction:', and the NaCl + AgNO3 precipitation is not the NaOH/NH4OH cation identification that the analytical-chemistry summary covers.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#7ia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#7ib",
+      "agree": false,
+      "reason": "Official answer is not verbatim: the scheme prints 'because it is not made fully of silver only its top coating is of silver' with no comma; the stored answer inserts one ('silver, only').",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#7iia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#7iib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#7iiia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#7iiib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#7iiic",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#8ia",
+      "agree": false,
+      "reason": "Chapter metallurgy is not supported: distinguishing zinc and aluminium by the action of concentrated NaOH is the amphoteric-metal/alkali test of analytical-chemistry, not ores, aluminium extraction or alloys.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-chemistry-specimen#8ib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

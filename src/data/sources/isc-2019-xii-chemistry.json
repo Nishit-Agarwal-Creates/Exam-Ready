@@ -42,10 +42,9 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "FILL_BLANK",
-      "text": "The elevation of boiling point of 0·5 M K₂SO₄ solution is __________ that of 0·5 M urea solution. The elevation of boiling point of 0·5 M KCl solution is __________ that of 0·5 M K₂SO₄ solution.",
+      "text": "Fill in the blanks by choosing the appropriate word/words from those given in the brackets:\n(more than, primary, cathode, Lucas reagent, two, four, less than, Grignard’s reagent, tertiary, anode, zero, equal to, three)\nThe elevation of boiling point of 0·5 M K₂SO₄ solution is __________ that of 0·5 M urea solution. The elevation of boiling point of 0·5 M KCl solution is __________ that of 0·5 M K₂SO₄ solution.",
       "hasFigure": false,
       "extractionIssues": [
-        "Blanks to be filled from the word bank printed once for (a)(i)-(iv): '(more than, primary, cathode, Lucas reagent, two, four, less than, Grignard's reagent, tertiary, anode, zero, equal to, three)'.",
         "Subscripts/superscripts/charges flattened in the text layer; rebuilt in Unicode from the rendered page (check against the PDF)."
       ],
       "confidence": "MEDIUM",
@@ -62,10 +61,9 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "FILL_BLANK",
-      "text": "A mixture of conc. HCl and anhydrous ZnCl₂ is called __________ which shows maximum reactivity with __________ alcohol.",
+      "text": "Fill in the blanks by choosing the appropriate word/words from those given in the brackets:\n(more than, primary, cathode, Lucas reagent, two, four, less than, Grignard’s reagent, tertiary, anode, zero, equal to, three)\nA mixture of conc. HCl and anhydrous ZnCl₂ is called __________ which shows maximum reactivity with __________ alcohol.",
       "hasFigure": false,
       "extractionIssues": [
-        "Blanks to be filled from the word bank printed once for (a)(i)-(iv): '(more than, primary, cathode, Lucas reagent, two, four, less than, Grignard's reagent, tertiary, anode, zero, equal to, three)'.",
         "Subscripts/superscripts/charges flattened in the text layer; rebuilt in Unicode from the rendered page (check against the PDF)."
       ],
       "confidence": "MEDIUM",
@@ -101,11 +99,9 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "FILL_BLANK",
-      "text": "When the concentration of a reactant of first order reaction is doubled, the rate of reaction becomes __________ times, but for a __________ order reaction, the rate of reaction remains the same.",
+      "text": "Fill in the blanks by choosing the appropriate word/words from those given in the brackets:\n(more than, primary, cathode, Lucas reagent, two, four, less than, Grignard’s reagent, tertiary, anode, zero, equal to, three)\nWhen the concentration of a reactant of first order reaction is doubled, the rate of reaction becomes __________ times, but for a __________ order reaction, the rate of reaction remains the same.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Blanks to be filled from the word bank printed once for (a)(i)-(iv): '(more than, primary, cathode, Lucas reagent, two, four, less than, Grignard's reagent, tertiary, anode, zero, equal to, three)'."
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "chemical-kinetics",
       "mappingStatus": "AI_SUGGESTED"
@@ -369,15 +365,32 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "For the reaction A + B → C + D, the initial rate for different reactions and initial concentration of reactants are given below:\n[table not reproduced]\n(i) What is the overall order of reaction?\n(ii) Write the rate law equation.",
+      "text": "For the reaction A + B → C + D, the initial rate for different reactions and initial concentration of reactants are given below:\n(table shown in the figure)\n(i) What is the overall order of reaction?\n(ii) Write the rate law equation.",
       "hasFigure": true,
       "extractionIssues": [
-        "One of two OR alternatives for Question 2 (choiceGroup 2).",
-        "Table on page 3 (five experiments: initial [A] and [B] in mole L⁻¹ and initial rate in mole L⁻¹ sec⁻¹) not reproduced; needed to answer."
+        "One of two OR alternatives for Question 2 (choiceGroup 2)."
       ],
       "confidence": "LOW",
       "chapter": "chemical-kinetics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2019-xii-chemistry/2a.png",
+          "kind": "TABLE",
+          "alt": "Table of five experiments (S. No. 1 to 5) with initial concentrations [A] and [B] in mole L⁻¹ and initial rate in mole L⁻¹ sec⁻¹",
+          "width": 1055,
+          "height": 396,
+          "page": 3,
+          "crop": {
+            "x": 0.215,
+            "y": 0.528,
+            "w": 0.575,
+            "h": 0.167
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",

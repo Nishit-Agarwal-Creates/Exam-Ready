@@ -762,12 +762,28 @@
       "type": "SHORT_ANSWER",
       "text": "Study the diagram given below and match the structure with its functions:\nExample: Pelvis – (f)\nFunctions:\n(a) Has Malpighian capsules\n(b) Carries oxygenated blood\n(c) Transports urine to urinary bladder\n(d) Has Henle’s loops\n(e) Carries deoxygenated blood\n(f) Receives urine which flows into ureter",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram of a kidney on page 9 not reproduced; the structures to be matched are its labels (the text layer carries the labels 'Renal Medulla', 'Renal Cortex', 'Artery', 'Vein', 'Renal' (twice), 'Pelvis' and 'Ureter', whose pairing is only clear in the figure)"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "excretory-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-biology/2v.png",
+          "kind": "TABLE",
+          "alt": "Two-column table: 'Structure' shows a labelled section of a kidney (Renal Medulla, Renal Cortex, Renal Artery, Renal Vein, Pelvis, Ureter); 'Functions' lists items (a) to (f)",
+          "width": 1162,
+          "height": 564,
+          "page": 9,
+          "crop": {
+            "x": 0.183,
+            "y": 0.613,
+            "w": 0.633,
+            "h": 0.237
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -1114,12 +1130,28 @@
       "type": "SHORT_ANSWER",
       "text": "Copy the diagram given below.\n(a) Name the structure.\n(b) Label Gray matter and White matter.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 13 not reproduced; the question cannot be answered without it"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "nervous-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-biology/6v.png",
+          "kind": "FIGURE",
+          "alt": "Unlabelled outline diagram of a cross-section of a structure, to be copied and labelled",
+          "width": 588,
+          "height": 273,
+          "page": 13,
+          "crop": {
+            "x": 0.335,
+            "y": 0.685,
+            "w": 0.32,
+            "h": 0.115
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -1255,12 +1287,28 @@
       "type": "SHORT_ANSWER",
       "text": "Given below is the diagram of a turgid plant cell.\nCopy the diagram and label Vacuole and Plasma membrane.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram of a turgid plant cell on page 15 not reproduced; the task asks to copy and label it"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "absorption-by-roots",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-biology/8iii.png",
+          "kind": "FIGURE",
+          "alt": "Unlabelled line diagram of a plant cell, to be copied and labelled",
+          "width": 386,
+          "height": 760,
+          "page": 15,
+          "crop": {
+            "x": 0.345,
+            "y": 0.435,
+            "w": 0.21,
+            "h": 0.32
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",

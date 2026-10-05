@@ -923,13 +923,28 @@
       "type": "SHORT_ANSWER",
       "text": "Study the diagram given below and answer the questions that follow:\n(a) Name the phenomenon depicted by the shoot in the above diagram.\n(b) Which plant hormone plays an important role in the above movement?\n(c) Complete and rewrite the given statement by filling in the correct terms:\nShoots show positive _________ whereas, roots show positive __________.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 7 not reproduced",
-        "Parts (a) and (b) refer to the diagram and cannot be answered reliably without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "chemical-coordination-in-plants",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-biology/3v.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a potted plant inside a box that has an opening near the top on one side; dashed lines run from the sun through the opening towards the plant",
+          "width": 826,
+          "height": 736,
+          "page": 7,
+          "crop": {
+            "x": 0.27,
+            "y": 0.095,
+            "w": 0.45,
+            "h": 0.31
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -1359,13 +1374,28 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram below depicts the human heart in one of its phases.\nAnswer the questions that follow:\n(a) Which part of the heart is in the contraction phase?\n(b) Give a suitable reason to justify your answer in (a).\n(c) Distinguish between Systole and Diastole.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 10 not reproduced",
-        "Parts (a) and (b) cannot be answered without the diagram; the question continues on page 11"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "circulatory-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-biology/8v.png",
+          "kind": "FIGURE",
+          "alt": "Outline diagram of the human heart with two dark arrows drawn at the valves",
+          "width": 459,
+          "height": 582,
+          "page": 10,
+          "crop": {
+            "x": 0.37,
+            "y": 0.645,
+            "w": 0.25,
+            "h": 0.245
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

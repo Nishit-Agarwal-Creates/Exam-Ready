@@ -1,0 +1,22 @@
+{
+  "pack": "cbse-sqp-2025-26-xii-physics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the marking scheme, and page renders/crops of the source pages for every recovered figure.",
+  "checks": [
+    { "key": "cbse-sqp-2025-26-xii-physics#3", "agree": true, "reason": "", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#7", "agree": true, "reason": "", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#12", "agree": true, "reason": "", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#17", "agree": true, "reason": "", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#18", "agree": true, "reason": "", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#24", "agree": true, "reason": "", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#25", "agree": false, "reason": "The paper prints '(I) Calculate that the angular magnification of the microscope.' but the stored (text-corrected) item silently drops 'that', so it does not reproduce the printed wording exactly.", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#28", "agree": true, "reason": "", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#29I", "agree": true, "reason": "", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#29II", "agree": true, "reason": "", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#29III", "agree": false, "reason": "The stored official answer contains the unreadable text-layer debris 'I  6  6 A  0.02 A / 50 150 100 300' instead of the marking scheme's printed I = 6/(50+150+100) = 6/300 A = 0.02 A, so the answer does not reproduce the scheme.", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#29IV", "agree": false, "reason": "The stored official answer contains the garbled fragment 'Va Vb l 10 / 2 / 30 10 V 10 V / 15 2' instead of the marking scheme's printed Va - Vb = (I/2) x 10 = 30/(15x2) x 10 V = 10 V, so the answer does not reproduce the scheme.", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#30II", "agree": true, "reason": "", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#30III", "agree": true, "reason": "", "round": "p51" },
+    { "key": "cbse-sqp-2025-26-xii-physics#31II", "agree": false, "reason": "The stored answer moves the denominator 20 to the end ('U=(9x10⁹x10⁻⁶x3x10⁻⁶ + 0 +3 x 10⁻⁶ x 40x20) J / 20'), whereas the scheme prints 20 under the first term only (Kq1q2/r12), and the question text also changes the printed 'Than for which' to 'Then for which'.", "round": "p51" }
+  ]
+}

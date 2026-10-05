@@ -225,7 +225,6 @@
       "text": "Fill in the blanks related to the above figure. i. Every food chain begins with ____ called ____ ii. Animals that eat plants are called ____ and are ____ iii. Animals that eat herbivores are called ____ and are ____ iv. A food chain may even include ____ v. ____ is the primary source of energy for all the food chains.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure (food chain picture) on page 3 not reproduced",
         "Printed mark covers the whole group; kept as one entry (group total not split)",
         "The question number '2.' is not printed on the scan; '2' is inferred from the sequence (Section B continues with 3, 4, 5, 6)",
         "Item v continues on page 3 right column (printed page 4)",
@@ -233,7 +232,25 @@
       ],
       "confidence": "MEDIUM",
       "chapter": "ecosystems",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-biology-icse-class-8-hy-biology-2019/2a.png",
+          "kind": "FIGURE",
+          "alt": "Drawing of grass, a deer and a tiger joined by arrows from left to right",
+          "width": 832,
+          "height": 183,
+          "page": 3,
+          "crop": {
+            "x": 0.08,
+            "y": 0.57,
+            "w": 0.35,
+            "h": 0.1
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -522,14 +539,31 @@
       "text": "Given below is a portion from the human body showing some important structure. Name the secretion from the gland and also state its function.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 2 not reproduced; the gland must be identified from it",
+        "Two-column page text reassembled against the page image",
         "Printed marks (1+1) kept as one 2-mark entry",
-        "Stem of 6 a repeated for context",
-        "Two-column page text reassembled against the page image"
+        "Stem of 6 a repeated for context"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "endocrine-system-and-adolescence",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-biology-icse-class-8-hy-biology-2019/6a.png",
+          "kind": "FIGURE",
+          "alt": "Faint scanned drawing of a gland from the human body with label lines A, B and C; a watermark crosses it",
+          "width": 452,
+          "height": 261,
+          "page": 2,
+          "crop": {
+            "x": 0.655,
+            "y": 0.104,
+            "w": 0.19,
+            "h": 0.142
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "6",
@@ -544,13 +578,30 @@
       "text": "Given below is a portion from the human body showing some important structure. Name the mineral element required for the synthesis of the above mentioned hormone.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 2 not reproduced; the gland must be identified from it",
-        "Stem of 6 a repeated for context",
-        "Two-column page text reassembled against the page image"
+        "Two-column page text reassembled against the page image",
+        "Stem of 6 a repeated for context"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "endocrine-system-and-adolescence",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-biology-icse-class-8-hy-biology-2019/6a.png",
+          "kind": "FIGURE",
+          "alt": "Faint scanned drawing of a gland from the human body with label lines A, B and C; a watermark crosses it",
+          "width": 452,
+          "height": 261,
+          "page": 2,
+          "crop": {
+            "x": 0.655,
+            "y": 0.104,
+            "w": 0.19,
+            "h": 0.142
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "6",

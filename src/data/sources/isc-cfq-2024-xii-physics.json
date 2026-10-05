@@ -104,14 +104,12 @@
       "text": "What will be the output for the given circuit?",
       "options": [
         "Zero",
-        "[waveform figure, see page 5]",
-        "[waveform figure, see page 5]",
-        "[waveform figure, see page 5]"
+        "Waveform (b) shown in the figure",
+        "Waveform (c) shown in the figure",
+        "Waveform (d) shown in the figure"
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 5 not reproduced: Circuit diagram",
-        "Options (b), (c) and (d) are waveform figures on page 5; not reproduced",
         "Official answer partly missing in extraction (figure/equation)"
       ],
       "confidence": "LOW",
@@ -121,7 +119,41 @@
       },
       "cognitiveLevel": "Understanding",
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/3.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram: AC input to a transformer, secondary coil with a resistor and a diode, output voltage terminals marked",
+          "width": 1010,
+          "height": 480,
+          "page": 5,
+          "crop": {
+            "x": 0.255,
+            "y": 0.17,
+            "w": 0.565,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/3-2.png",
+          "kind": "FIGURE",
+          "alt": "Options (a) Zero and (b), (c), (d) drawn as waveform sketches",
+          "width": 339,
+          "height": 227,
+          "page": 5,
+          "crop": {
+            "x": 0.17,
+            "y": 0.385,
+            "w": 0.19,
+            "h": 0.09
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -133,7 +165,7 @@
       "marks": 1,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "The graphs shown below are for three different Inductance, Capacitance, and Resistance (LCR) circuits. Identify their nature based on the phase difference between Vs and I.",
+      "text": "The graphs shown below are for three different Inductance, Capacitance, and Resistance (LCR) circuits. Identify their nature based on the phase difference between V_{S} and I.",
       "options": [
         "Inductive, Capacitive, and Resistive.",
         "Capacitive, Resistive, and Inductive.",
@@ -141,18 +173,33 @@
         "Inductive, Resistive, and Capacitive."
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 5 not reproduced: Graphs (1), (2), (3)",
-        "Subscripts flattened: Vs"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(b) Capacitive, Resistive and Inductive.",
         "correctOption": 1
       },
       "cognitiveLevel": "Understanding",
       "chapter": "alternating-current",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/4.png",
+          "kind": "GRAPH",
+          "alt": "Three graphs labelled (1), (2), (3), each showing curves labelled Vₛ and I against time",
+          "width": 715,
+          "height": 480,
+          "page": 5,
+          "crop": {
+            "x": 0.33,
+            "y": 0.585,
+            "w": 0.4,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -173,7 +220,6 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 6 not reproduced: Circuit arrangements",
         "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
       ],
       "confidence": "LOW",
@@ -183,7 +229,25 @@
       },
       "cognitiveLevel": "Application",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/5.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagrams Arrangement A and Arrangement B: six cells labelled 4V, r connected to an external resistor R, currents I1 and I2 marked",
+          "width": 992,
+          "height": 972,
+          "page": 6,
+          "crop": {
+            "x": 0.26,
+            "y": 0.205,
+            "w": 0.555,
+            "h": 0.385
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -527,9 +591,7 @@
         "10.5 mC"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 10 not reproduced: Current-time graph"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(d) 10.5mC. Explanation: Under the graph",
@@ -537,7 +599,25 @@
       },
       "cognitiveLevel": "Evaluate",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/17.png",
+          "kind": "GRAPH",
+          "alt": "Graph of current I (in ampere) against t [ms], with axes marked 0 to 4 A and 0 to 9 ms",
+          "width": 812,
+          "height": 455,
+          "page": 10,
+          "crop": {
+            "x": 0.31,
+            "y": 0.175,
+            "w": 0.455,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "18",
@@ -558,7 +638,6 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 11 not reproduced",
         "Options printed as table rows (Current / Current density / Drift velocity); rebuilt as text",
         "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
       ],
@@ -569,7 +648,25 @@
       },
       "cognitiveLevel": "Evaluate",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/18.png",
+          "kind": "FIGURE",
+          "alt": "Wire of non-uniform cross-section with current i, sections marked 1 (I1, v1, j1) and 2 (I2, v2, j2)",
+          "width": 760,
+          "height": 455,
+          "page": 11,
+          "crop": {
+            "x": 0.325,
+            "y": 0.2,
+            "w": 0.425,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "19",
@@ -590,7 +687,6 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 12 not reproduced: Circuit diagram",
         "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
       ],
       "confidence": "LOW",
@@ -600,7 +696,25 @@
       },
       "cognitiveLevel": "Application",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/19.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with batteries B1, B2, B3 and two 2 Ω resistors",
+          "width": 812,
+          "height": 606,
+          "page": 12,
+          "crop": {
+            "x": 0.31,
+            "y": 0.18,
+            "w": 0.455,
+            "h": 0.24
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "20",
@@ -652,7 +766,6 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 14 not reproduced: Graph of photoelectric current versus collector plate potential",
         "Options printed as table rows (Work function / Stopping potential); rebuilt as text"
       ],
       "confidence": "LOW",
@@ -662,7 +775,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "dual-nature-of-radiation-and-matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/21.png",
+          "kind": "GRAPH",
+          "alt": "Graph of photoelectric current i against collector plate potential V0 (eV), axis marked -0.6 to 0.8",
+          "width": 785,
+          "height": 328,
+          "page": 14,
+          "crop": {
+            "x": 0.315,
+            "y": 0.22,
+            "w": 0.44,
+            "h": 0.13
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "22",
@@ -682,9 +813,7 @@
         "Both Assertion and Reason are false."
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 15 not reproduced: Equipotential surfaces diagram"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(d) Both Assertion and Reason are false.",
@@ -692,7 +821,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "electrostatic-potential-potential-energy-and-capacitance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/22.png",
+          "kind": "FIGURE",
+          "alt": "Equipotential surfaces with points A, B, C, D, E marked",
+          "width": 384,
+          "height": 207,
+          "page": 15,
+          "crop": {
+            "x": 0.44,
+            "y": 0.282,
+            "w": 0.215,
+            "h": 0.082
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "23",
@@ -793,7 +940,6 @@
       "text": "The given graph shows the variation of charge on plates (q) versus the potential difference (V) between the plates of two capacitors C₁ and C₂. Both the capacitors have the same plate area but the plate separation of C₁ is twice that of C₂. Which graph corresponds to C₁?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 17 not reproduced: q-V graph (lines A and B)",
         "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
         "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
       ],
@@ -803,7 +949,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "electrostatic-potential-potential-energy-and-capacitance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/26.png",
+          "kind": "GRAPH",
+          "alt": "Graph of q against V with two straight lines labelled A and B",
+          "width": 268,
+          "height": 260,
+          "page": 17,
+          "crop": {
+            "x": 0.47,
+            "y": 0.312,
+            "w": 0.15,
+            "h": 0.103
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "27",
@@ -818,7 +982,6 @@
       "text": "A hollow sphere made of material 'X' is placed in a region of electric field. The pattern of electric field lines around the sphere is observed to be like the figure shown below. Plot the resistivity versus temperature graph for the material of the sphere.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 17 not reproduced: Field-line pattern",
         "Official answer partly missing in extraction (figure/equation): the resistivity-temperature graph in the Answer Key (page 48) is not reproduced"
       ],
       "confidence": "LOW",
@@ -827,7 +990,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "electric-charges-and-fields",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/27.png",
+          "kind": "FIGURE",
+          "alt": "Electric field lines around a grey sphere",
+          "width": 434,
+          "height": 321,
+          "page": 17,
+          "crop": {
+            "x": 0.432,
+            "y": 0.515,
+            "w": 0.243,
+            "h": 0.127
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "28",
@@ -841,16 +1022,32 @@
       "type": "SHORT_ANSWER",
       "text": "Four charges +Q, +Q, −Q, and –Q are placed in an arrangement as shown. The direction of the net electric field at a point 'P' (on the diagram) is best indicated by which of the following vectors: A, B, C, D, or E?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 18 not reproduced: Charge arrangement and vectors"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "C"
       },
       "cognitiveLevel": "Understanding",
       "chapter": "electric-charges-and-fields",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/28.png",
+          "kind": "FIGURE",
+          "alt": "X-Y axes with charges +Q, +Q, -Q, -Q on the x-axis and the origin (0,0); point P with vectors labelled A, B, C, D, E",
+          "width": 531,
+          "height": 518,
+          "page": 18,
+          "crop": {
+            "x": 0.405,
+            "y": 0.2,
+            "w": 0.297,
+            "h": 0.205
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "29",
@@ -865,7 +1062,6 @@
       "text": "Using a cell of electromotive force (e.m.f.) ε and internal resistance 'r', a student designs an electrical circuit to calculate current 'I' through a variable resistor 'R'. The student plots her findings on a graph as shown. What does the slope of the graph indicate?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 18 not reproduced: Graph of 1/I versus R",
         "Printed topic tag is 'Electrostatics'; mapped to current electricity",
         "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
       ],
@@ -875,7 +1071,25 @@
       },
       "cognitiveLevel": "Evaluate",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/29.png",
+          "kind": "GRAPH",
+          "alt": "Graph of 1/I against R with a straight line",
+          "width": 375,
+          "height": 252,
+          "page": 18,
+          "crop": {
+            "x": 0.445,
+            "y": 0.53,
+            "w": 0.21,
+            "h": 0.1
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "30",
@@ -890,14 +1104,31 @@
       "text": "A finite-length Movable wire (XY) carrying current i₁ is kept parallel to another infinite-length Fixed wire (PQ) carrying current i₂ above it. In this setup, the Movable wire (XY) is stationary as depicted below. Redraw a new setup such that the Movable wire (XY) remains stationary and is placed parallel below the Fixed wire (PQ) carrying current i₂. Label the direction of current i₁ in the Movable wire (XY).",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 19 not reproduced",
         "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
         "Official answer is a diagram only (Answer Key page 48); not reproduced, officialAnswer omitted"
       ],
       "confidence": "LOW",
       "cognitiveLevel": "Create",
       "chapter": "moving-charges-and-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/30.png",
+          "kind": "FIGURE",
+          "alt": "Movable wire XY carrying current i1 above fixed wire PQ carrying current i2, separation h marked",
+          "width": 670,
+          "height": 430,
+          "page": 19,
+          "crop": {
+            "x": 0.365,
+            "y": 0.21,
+            "w": 0.375,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "31",
@@ -1023,16 +1254,32 @@
       "type": "SHORT_ANSWER",
       "text": "A lens forms the image of an object as shown in the figure. Identify the type of lens.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 20 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "Convex lens"
       },
       "cognitiveLevel": "Application",
       "chapter": "ray-optics-and-optical-instruments",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/36.png",
+          "kind": "FIGURE",
+          "alt": "Two triangles labelled Image and Object",
+          "width": 643,
+          "height": 126,
+          "page": 20,
+          "crop": {
+            "x": 0.37,
+            "y": 0.255,
+            "w": 0.36,
+            "h": 0.05
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "37",
@@ -1047,13 +1294,30 @@
       "text": "Redraw the diagram with the correct orientation of the obscured (hidden) optical device, so that when a plane wavefront is incident upon it, the transmitted wavefront matches the depicted figure.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 20 not reproduced: Wavefront diagram",
         "Official answer is a diagram only (Answer Key page 49); not reproduced, officialAnswer omitted"
       ],
       "confidence": "LOW",
       "cognitiveLevel": "Create",
       "chapter": "wave-optics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/37.png",
+          "kind": "FIGURE",
+          "alt": "Incident wavefront, a grey box hiding an optical device, and the transmitted wavefront",
+          "width": 768,
+          "height": 228,
+          "page": 20,
+          "crop": {
+            "x": 0.34,
+            "y": 0.43,
+            "w": 0.43,
+            "h": 0.09
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "38",
@@ -1068,14 +1332,31 @@
       "text": "A light-emitting diode (LED) is connected in forward biasing. If its potential barrier is given by ‘V₀’ when no biasing is there, as shown in the diagram, then draw the diagram showing the new position of potential barrier.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 20 not reproduced: Potential barrier diagram",
         "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
         "Official answer is a diagram only (Answer Key page 49); not reproduced, officialAnswer omitted"
       ],
       "confidence": "LOW",
       "cognitiveLevel": "Understanding",
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/38.png",
+          "kind": "FIGURE",
+          "alt": "Potential barrier diagram with height V0 marked",
+          "width": 482,
+          "height": 223,
+          "page": 20,
+          "crop": {
+            "x": 0.415,
+            "y": 0.645,
+            "w": 0.27,
+            "h": 0.088
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "39",
@@ -1253,7 +1534,6 @@
       "text": "Two long wires carrying current are kept crossed (not touching each other) as shown in figure. If resultant magnetic induction at P is zero, then find the relation between I₁ and I₂.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 22 not reproduced",
         "Printed topic tag is 'Electromagnetic Induction and Alternating Currents'; mapped to the magnetic-field chapter",
         "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
       ],
@@ -1263,7 +1543,25 @@
       },
       "cognitiveLevel": "Application",
       "chapter": "moving-charges-and-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/46.png",
+          "kind": "FIGURE",
+          "alt": "Two crossed wires carrying currents I1 and I2, with point P at distances x and y marked",
+          "width": 402,
+          "height": 450,
+          "page": 22,
+          "crop": {
+            "x": 0.44,
+            "y": 0.285,
+            "w": 0.225,
+            "h": 0.178
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "47",
@@ -1278,8 +1576,6 @@
       "text": "Which material is used to make this glass slab? Material | Refractive Index: Zircon | 1.96 – 2.01; Sapphire | 1.76 – 1.77; Peridot | 1.65 – 1.69; Tourmaline | 1.62 – 1.64",
       "hasFigure": true,
       "extractionIssues": [
-        "Table on page 22 reproduced as inline text from the rendered page (the text layer has no table text)",
-        "Figure on page 22 not reproduced: Ray diagram through the slab (10 cm, 30°, 5.7 cm)",
         "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
       ],
       "confidence": "LOW",
@@ -1288,7 +1584,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "ray-optics-and-optical-instruments",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/47.png",
+          "kind": "FIGURE",
+          "alt": "Table of materials (Zircon, Sapphire, Peridot, Tourmaline) and refractive indices, and a ray diagram through a glass slab marked 10 cm, i, 30° and 5.7 cm",
+          "width": 554,
+          "height": 758,
+          "page": 22,
+          "crop": {
+            "x": 0.4,
+            "y": 0.57,
+            "w": 0.31,
+            "h": 0.3
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "48",
@@ -1327,16 +1641,32 @@
       "type": "SHORT_ANSWER",
       "text": "A thin convex lens of focal length f is cut into parts and then combined as shown in Fig 1 and Fig 2. Evaluate the focal length of the combination, in: (a) figure 1 (b) figure 2",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 23 not reproduced: Fig 1 and Fig 2"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(a) F = f/2 (b) F = ∞"
       },
       "cognitiveLevel": "Evaluate",
       "chapter": "ray-optics-and-optical-instruments",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/49.png",
+          "kind": "FIGURE",
+          "alt": "Convex lens of focal length f with a dashed line, and two arrangements of lens pieces labelled Fig 1 and Fig 2",
+          "width": 858,
+          "height": 333,
+          "page": 23,
+          "crop": {
+            "x": 0.312,
+            "y": 0.418,
+            "w": 0.48,
+            "h": 0.132
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "50",
@@ -1375,7 +1705,6 @@
       "text": "The first diagram depicts a bar magnet of pole strength ‘m’ and separation between the poles ‘ℓ’. If the magnetic moment in the first diagram is ‘M’, then the new magnetic dipole moment in the second diagram is:",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 24 not reproduced: Diagram 1 and Diagram 2",
         "Symbol ℓ missing from the text layer; restored from the rendered page 24",
         "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
       ],
@@ -1385,7 +1714,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "magnetism-and-matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/51.png",
+          "kind": "FIGURE",
+          "alt": "Diagram 1: bar magnet S-N with pole separation ℓ; Diagram 2: magnet bent into a semicircle with poles S and N, r marked",
+          "width": 866,
+          "height": 359,
+          "page": 24,
+          "crop": {
+            "x": 0.31,
+            "y": 0.192,
+            "w": 0.485,
+            "h": 0.142
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "52",
@@ -1399,16 +1746,32 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the two diagrams and state which diagram corresponds to diamagnetic and ferromagnetic.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 24 not reproduced: Figure 1 and Figure 2"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "Figure 1 – Diamagnetic Figure 2 – Ferromagnetic"
       },
       "cognitiveLevel": "Understanding",
       "chapter": "magnetism-and-matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/52.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1 and Figure 2: magnetic field lines between N and S pole pieces with a specimen between them",
+          "width": 706,
+          "height": 909,
+          "page": 24,
+          "crop": {
+            "x": 0.355,
+            "y": 0.435,
+            "w": 0.395,
+            "h": 0.36
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "53",
@@ -1446,16 +1809,32 @@
       "type": "SHORT_ANSWER",
       "text": "(a) Name the type of mirror used here. (b) What is its focal length?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 25 not reproduced: Graph of |m| versus |v| in cm; the question stem is only this graph"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(a) Concave mirror; (b) 20 cm"
       },
       "cognitiveLevel": "Application",
       "chapter": "ray-optics-and-optical-instruments",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/54.png",
+          "kind": "GRAPH",
+          "alt": "Graph of |m| against |v| in cm, with axis marks 0, 20, 40 and 1 and dashed guide lines",
+          "width": 473,
+          "height": 399,
+          "page": 25,
+          "crop": {
+            "x": 0.42,
+            "y": 0.24,
+            "w": 0.265,
+            "h": 0.158
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "55",
@@ -1470,7 +1849,6 @@
       "text": "Calculate the refractive index of the material of the prism.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 25 not reproduced: Two prism ray diagrams with angles 53, 35, 42 and 45, 45; the data are only in the figure",
         "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
       ],
       "confidence": "LOW",
@@ -1479,7 +1857,25 @@
       },
       "cognitiveLevel": "Evaluate",
       "chapter": "ray-optics-and-optical-instruments",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/55.png",
+          "kind": "FIGURE",
+          "alt": "Two ray diagrams through a triangular prism with angles marked 53, 35, 42 and 45, 45",
+          "width": 850,
+          "height": 308,
+          "page": 25,
+          "crop": {
+            "x": 0.315,
+            "y": 0.52,
+            "w": 0.476,
+            "h": 0.122
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "56",
@@ -1494,7 +1890,6 @@
       "text": "Give the values of X and Y in terms of λ and the corresponding phase difference.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 25 not reproduced: Intensity versus path difference pattern marking X and Y",
         "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
       ],
       "confidence": "LOW",
@@ -1503,7 +1898,25 @@
       },
       "cognitiveLevel": "Application",
       "chapter": "wave-optics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/56.png",
+          "kind": "GRAPH",
+          "alt": "Intensity pattern against path difference with points X and Y marked",
+          "width": 732,
+          "height": 374,
+          "page": 25,
+          "crop": {
+            "x": 0.36,
+            "y": 0.725,
+            "w": 0.41,
+            "h": 0.148
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "57",
@@ -1517,16 +1930,32 @@
       "type": "SHORT_ANSWER",
       "text": "Two cells of electromotive forces (e.m.f.s.) approximately 5 V and 10 V are to be accurately compared using a potentiometer of length 400 cm. The student sets up the circuit as shown in the diagram. However, he is not able to measure the ratio of e.m.f.s correctly. Analyse the circuit shown and spot a minimum of two errors in the circuit. Explain with proper reasoning.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 26 not reproduced: Potentiometer circuit diagram"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(i) The electromotive force (emf) of the battery must be greater than 10 V, so that the potential difference across the wire is more than the e.m.f.s of the cell to be compared. Otherwise, the balance length for 10 V cannot be determined. (ii) A series variable resistant/rheostat must also be added to the primary circuit to minimize the current drawn from the cell and adjust the potential drop across the potentiometer."
       },
       "cognitiveLevel": "Analysis",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/57.png",
+          "kind": "FIGURE",
+          "alt": "Potentiometer circuit with a 10 V cell, key K, ammeter A, wire ends A and B, cells E1 and E2 with keys K1 and K2, and galvanometer G",
+          "width": 679,
+          "height": 442,
+          "page": 26,
+          "crop": {
+            "x": 0.36,
+            "y": 0.235,
+            "w": 0.38,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "58",
@@ -1677,19 +2106,34 @@
       "marks": 2,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "The graph here shows a variation of Irms with angular frequency ‘ω’ for two different LCR circuits. Which of the two will have: (a) lower power factor. (b) calculate resonance frequency for the two different LCR circuits.",
+      "text": "The graph here shows a variation of I_{rms} with angular frequency ‘ω’ for two different LCR circuits. Which of the two will have: (a) lower power factor. (b) calculate resonance frequency for the two different LCR circuits.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 28 not reproduced: Graph of current versus ω (K rad/s) for R₁ and R₂",
-        "Subscripts flattened: Irms"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(a) For R₁; (b) 0.1592 Hz & 159.2 Hz"
       },
       "cognitiveLevel": "Application",
       "chapter": "alternating-current",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/64.png",
+          "kind": "GRAPH",
+          "alt": "Graph of current Im against ω (K rad/s) with two curves R1 and R2, ω0 marked, axis marks 0.5, 1.0, 1.5",
+          "width": 839,
+          "height": 619,
+          "page": 28,
+          "crop": {
+            "x": 0.32,
+            "y": 0.41,
+            "w": 0.47,
+            "h": 0.245
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "65",
@@ -1704,7 +2148,6 @@
       "text": "Analyse the figures given below and mention the significance of electromagnetic waves in each case.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 29 not reproduced: fig-1 and fig-2",
         "Official answer partly missing in extraction (figure/equation): the Answer Key figure for Figure 1 (page 52) is not reproduced"
       ],
       "confidence": "LOW",
@@ -1713,7 +2156,25 @@
       },
       "cognitiveLevel": "Understanding",
       "chapter": "electromagnetic-waves",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/65.png",
+          "kind": "FIGURE",
+          "alt": "fig-1: the Sun and wavy arrows of radiation around a glass greenhouse; fig-2: a person in a face mask welding a pipe",
+          "width": 1218,
+          "height": 353,
+          "page": 29,
+          "crop": {
+            "x": 0.2,
+            "y": 0.165,
+            "w": 0.682,
+            "h": 0.14
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "66",
@@ -1915,16 +2376,32 @@
       "type": "LONG_ANSWER",
       "text": "In the figure, the straight wire AB is fixed while the loop PQRS is free to move. Give a reason for your response in each sub-part. (a) What is the force experienced by arms QR and SP? (b) What is the nature of force experienced by arms PQ and RS? (c) In which direction, does the loop begin to move?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 34 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(a) No. The force is experienced since they are aligned perpendicular to the current carrying conductor AB. (b) There is a force of attraction between AB and PQ and a force of repulsion between AB and SR. (c) PQ is closer to AB than SR, so the force of attraction is stronger than the force of repulsion. So, the loop begins to move towards AB."
       },
       "cognitiveLevel": "Application",
       "chapter": "moving-charges-and-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/74.png",
+          "kind": "FIGURE",
+          "alt": "Straight wire AB with current I1, beside a rectangular loop PQRS with current I2; arrows show the current directions",
+          "width": 429,
+          "height": 369,
+          "page": 34,
+          "crop": {
+            "x": 0.42,
+            "y": 0.16,
+            "w": 0.24,
+            "h": 0.146
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "75",
@@ -1939,7 +2416,6 @@
       "text": "The teacher is demonstrating the experiment of the focal length of a convex lens using the u-v method. After the teacher takes readings P and Q. He/she assigns two students (Student 1 and Student 2) to take the subsequent readings, assuming that the teacher is right. (a) What is the focal length of the given lens? (b) How should Student 2 adjust the screen to obtain an accurate reading? (c) What error do you observe in the readings of Student 1?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 34 not reproduced: u-v graph with readings P, Q, Student 1 and Student 2",
         "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
       ],
       "confidence": "LOW",
@@ -1948,7 +2424,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "ray-optics-and-optical-instruments",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/75.png",
+          "kind": "GRAPH",
+          "alt": "Hand-drawn graph of image distance v in cm against object distance (u) in cm with points P, Q, student 1 and student 2 and axis marks -40, -20, -10 on u and 10, 20, 40 on v (blurry in the source)",
+          "width": 739,
+          "height": 644,
+          "page": 34,
+          "crop": {
+            "x": 0.333,
+            "y": 0.505,
+            "w": 0.414,
+            "h": 0.255
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "76",
@@ -1962,16 +2456,32 @@
       "type": "LONG_ANSWER",
       "text": "(a) If the graph depicts intensity versus phase difference for double-slit interference. What do points A and B symbolise? (b) If the waves have amplitudes 1:3, then find the ratio of intensities at A and C.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 35 not reproduced: Intensity versus phase difference graph"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(a) A = −π, B = 2π (b) Imin : Imax = (3 – 1)² : (3 + 1)² = 1 : 4"
       },
       "cognitiveLevel": "Understanding",
       "chapter": "wave-optics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/76.png",
+          "kind": "GRAPH",
+          "alt": "Hand-drawn graph of intensity I against phase difference with points A, B and C marked by arrows",
+          "width": 571,
+          "height": 384,
+          "page": 35,
+          "crop": {
+            "x": 0.38,
+            "y": 0.132,
+            "w": 0.32,
+            "h": 0.152
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "77",
@@ -1985,16 +2495,32 @@
       "type": "LONG_ANSWER",
       "text": "(a) Identify two errors in the student's attempt to draw a ray diagram of a compound microscope. (b) Which position A, B, or C, is optimal for placing the object?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 35 not reproduced: Student's ray diagram"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(a) Eyepiece is of shorter focal length / Image XY isn't between optical centre and F / Objective is having a larger aperture. (any two relevant points.) (b) A"
       },
       "cognitiveLevel": "Analysis",
       "chapter": "ray-optics-and-optical-instruments",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/77.png",
+          "kind": "FIGURE",
+          "alt": "Student's hand-drawn ray diagram with lenses O and E, positions A, B, C on the axis, and points X and Y",
+          "width": 643,
+          "height": 321,
+          "page": 35,
+          "crop": {
+            "x": 0.36,
+            "y": 0.413,
+            "w": 0.36,
+            "h": 0.127
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "78",
@@ -2058,7 +2584,6 @@
       "text": "For the given electrical circuit, calculate the current through each branch using Kirchhoff's laws.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 36 not reproduced: Circuit diagram (3 V, 2 Ω; 2.5 Ω; 5 Ω; 2 Ω; 3.5 Ω; 2 V, 0.5 Ω; 4 Ω); circuit values are only in the figure",
         "Printed topic tag is 'Electrostatics'; mapped to current electricity",
         "Official answer partly missing in extraction (figure/equation): the labelled circuit in the Answer Key (page 56) is not reproduced",
         "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
@@ -2069,7 +2594,25 @@
       },
       "cognitiveLevel": "Application",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/80.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with cells 3 V, 2 Ω and 2 V, 0.5 Ω and resistors 2.5 Ω, 4 Ω, 2 Ω, 5 Ω and 3.5 Ω",
+          "width": 607,
+          "height": 304,
+          "page": 36,
+          "crop": {
+            "x": 0.37,
+            "y": 0.535,
+            "w": 0.34,
+            "h": 0.12
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "81",
@@ -2134,7 +2677,6 @@
       "text": "A graph showing the variation of binding energy per nucleon with mass number is given below. In the graph mark regions where nuclei are: (a) Prone to fusion. (b) Prone to fission. (c) Give a reason for your marking.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 38 not reproduced: Binding energy per nucleon graph",
         "Official answer partly missing in extraction (figure/equation): the marked graph for (a) & (b) in the Answer Key (page 57) is not reproduced"
       ],
       "confidence": "MEDIUM",
@@ -2143,7 +2685,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "nuclei",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/83.png",
+          "kind": "GRAPH",
+          "alt": "Graph of average binding energy per nucleon (MeV, 0 to 9) against number of nucleons in nucleus A (0 to 240), with nuclei H1, H2, H3, He3, Li, He4, C12, O16, Fe56 and U235 labelled",
+          "width": 893,
+          "height": 424,
+          "page": 38,
+          "crop": {
+            "x": 0.29,
+            "y": 0.19,
+            "w": 0.5,
+            "h": 0.168
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "84",
@@ -2349,7 +2909,6 @@
       "text": "Student 1 and Student 2 conducted experiments using coherent sources of light, with Student 1 using a single slit and Student 2 using a double slit. Answer the following questions. (a) Identify the patterns resulting from Student 1 and Student 2 experiments. (b) Give two reasons that assisted you in recognizing the patterns. (c) Upon utilizing a monochromatic source of light of 500 nm wavelength, Student 1 observed that the distance between the initial minimum and the centre of the fringe matched the width of the slit. Calculate the distance of this initial minimum from the centre of the fringe, given that the screen is situated 1 m away from the slit. (d) Student 2 observes 10 fringes within a specific portion of the screen using the same monochromatic source of light. If he were to immerse his entire experimental setup in a liquid of refractive index 5/3, what alteration should he make to the distance of the screen to maintain the same number of fringes?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 42 not reproduced: Patterns A, B and C; parts (a) and (b) need it",
         "Official answer notation rebuilt from the rendered Answer Key page; check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -2358,7 +2917,25 @@
       },
       "cognitiveLevel": "Analysis",
       "chapter": "wave-optics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/92.png",
+          "kind": "FIGURE",
+          "alt": "Three circular fringe patterns labelled A, B and C",
+          "width": 943,
+          "height": 260,
+          "page": 42,
+          "crop": {
+            "x": 0.285,
+            "y": 0.183,
+            "w": 0.528,
+            "h": 0.103
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "93",
@@ -2370,12 +2947,10 @@
       "marks": 5,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "CASE_BASED",
-      "text": "A solar cell is a junction diode. A very thin layer of p-type semiconductor is grown on a relatively thicker n-type semiconductor, having a few finer electrodes on the top of the p-type semiconductor layer. These electrodes do not obstruct light from reaching the thin p-type layer. Just below the p-type layer, there is a p-n junction. We also provide a current-collecting electrode at the bottom of the n-type layer. Similarly, the holes in the depletion can quickly come to the p-type side of the junction. Once, the newly created free electrons come to the n-type side, cannot further cross the junction because of the barrier potential of the junction. Similarly, the newly created holes once come to the p-type side cannot further cross the junction because of the same barrier potential of the junction. As the concentration of electrons becomes higher on one side, the p-n junction will behave like a small battery cell. A voltage is set up which is known as photovoltage. If we connect a small load across the junction, there will be a tiny current flowing through it. The IV characteristic of solar cells is given below: Answer the following questions. (a) Is the principle of a solar cell the same as that of a photodiode? (b) What is the suitable band gap of the semiconductors used as solar cell materials? (a) 0 to 0.5 eV (b) 0.5 to 1 eV (c) 1.1 to 2 eV (d) 0 to 0.8 eV (c) What does V₀ represent in the characteristic curve? (d) Is Imax independent of the intensity of incident radiation? (e) Why do holes in the depletion region quickly come to the p-side?",
+      "text": "A solar cell is a junction diode. A very thin layer of p-type semiconductor is grown on a relatively thicker n-type semiconductor, having a few finer electrodes on the top of the p-type semiconductor layer. These electrodes do not obstruct light from reaching the thin p-type layer. Just below the p-type layer, there is a p-n junction. We also provide a current-collecting electrode at the bottom of the n-type layer. Similarly, the holes in the depletion can quickly come to the p-type side of the junction. Once, the newly created free electrons come to the n-type side, cannot further cross the junction because of the barrier potential of the junction. Similarly, the newly created holes once come to the p-type side cannot further cross the junction because of the same barrier potential of the junction. As the concentration of electrons becomes higher on one side, the p-n junction will behave like a small battery cell. A voltage is set up which is known as photovoltage. If we connect a small load across the junction, there will be a tiny current flowing through it. The IV characteristic of solar cells is given below: Answer the following questions. (a) Is the principle of a solar cell the same as that of a photodiode? (b) What is the suitable band gap of the semiconductors used as solar cell materials? (a) 0 to 0.5 eV (b) 0.5 to 1 eV (c) 1.1 to 2 eV (d) 0 to 0.8 eV (c) What does V₀ represent in the characteristic curve? (d) Is I_{max} independent of the intensity of incident radiation? (e) Why do holes in the depletion region quickly come to the p-side?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 43 not reproduced: I-V characteristic of a solar cell",
-        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page",
-        "Subscripts flattened: Imax"
+        "Notation rebuilt from the PDF layout (powers/subscripts/fractions); checked against the rendered page"
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
@@ -2383,7 +2958,25 @@
       },
       "cognitiveLevel": "Analysis & Evaluate",
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-physics/93.png",
+          "kind": "GRAPH",
+          "alt": "I-V characteristic of a solar cell: axes I and v, a curve in the fourth quadrant with V0 marked on the v-axis and Imax marked on the I-axis",
+          "width": 589,
+          "height": 359,
+          "page": 43,
+          "crop": {
+            "x": 0.375,
+            "y": 0.42,
+            "w": 0.33,
+            "h": 0.142
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "94",

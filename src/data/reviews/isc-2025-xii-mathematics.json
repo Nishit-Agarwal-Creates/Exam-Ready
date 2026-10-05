@@ -48,14 +48,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph on page 2 is needed to judge the statements.",
-      "notes": "Text and options match the render."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Text and options match the render.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF page 2: the graph printed with Q1iii; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2025-xii-mathematics#1iv",
@@ -432,14 +442,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the graph on page 6 shows which turning point is A and which is B, needed for part (b).",
-      "notes": "Function, part texts and per-part marks match the render."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Function, part texts and per-part marks match the render.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF page 6: the graph printed with Q9ii; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2025-xii-mathematics#10",
@@ -528,14 +548,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph 1 and Graph 2 on page 7 are needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF page 7: the graph printed with Q13i; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2025-xii-mathematics#13ii",

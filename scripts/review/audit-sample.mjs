@@ -33,15 +33,25 @@ for (const f of files) {
   const numeric = ["mathematics", "physics", "chemistry", "science"].includes(pack.source.subject);
   const textOf = new Map(pack.questions.map((q) => [`${pack.source.key}#${q.number}${q.part ? q.part.replace(/[^a-z0-9ivx]/gi, "") : ""}`, `${q.text} ${(q.options ?? []).join(" ")}`]));
   const hasNumbers = (key) => /[0-9√π∫θαβλμΩ±×÷²³⁻]/.test(textOf.get(key) ?? "");
-  const must = publish.filter((q) => q.notation === "REBUILT_OK" || q.text === "MINOR" || q.chapter === "WRONG" || (numeric && hasNumbers(q.key)));
+  const must = publish.filter((q) => q.figure === "RECOVERED" || q.recovery || q.notation === "REBUILT_OK" || q.text === "MINOR" || q.chapter === "WRONG" || (numeric && hasNumbers(q.key)));
   const rest = publish.filter((q) => !must.includes(q)).sort((a, b) => rank(a.key).localeCompare(rank(b.key)));
-  const why = (q) => (q.notation === "REBUILT_OK" ? "rebuilt notation" : q.chapter === "WRONG" ? "chapter corrected" : q.text === "MINOR" ? "minor text difference" : "numbers or symbols");
+  const why = (q) => (q.figure === "RECOVERED" ? "recovered figure" : q.recovery ? "recovered by the pipeline" : q.notation === "REBUILT_OK" ? "rebuilt notation" : q.chapter === "WRONG" ? "chapter corrected" : q.text === "MINOR" ? "minor text difference" : "numbers or symbols");
   let sample = [...must, ...rest.slice(0, RANDOM_PER_PACK)].map((q) => ({ key: q.key, why: must.includes(q) ? why(q) : "random sample" }));
   let out = join(outDir, `${r.pack}.json`);
   if (missing) {
     const auditFiles = readdirSync(reviewsDir).filter((f) => f === `audit-${r.pack}.json` || (f.startsWith(`audit-${r.pack}--`) && f.endsWith(".json")));
-    if (!auditFiles.length) continue;
-    const done = new Set(auditFiles.flatMap((f) => JSON.parse(readFileSync(join(reviewsDir, f), "utf8")).checks ?? []).map((c) => c.key));
+    if (!auditFiles.length) {
+      // Never audited: a full first sample.
+      if (!existsSync(dirname(out))) mkdirSync(dirname(out), { recursive: true });
+      writeFileSync(out, JSON.stringify({ pack: r.pack, sample }, null, 2) + "\n");
+      console.log(`${r.pack}: ${sample.length} to audit (first audit) of ${publish.length} publish`);
+      continue;
+    }
+    // A recovered question counts as audited only by a re-audit made after the recovery (checks marked round "p51").
+    const checks = auditFiles.flatMap((f) => JSON.parse(readFileSync(join(reviewsDir, f), "utf8")).checks ?? []);
+    // A question changed again by the audit fix round (recovery.agent "p51-fix-*") needs a check of round "p51-fix".
+    const round = new Map(r.questions.filter((q) => q.recovery).map((q) => [q.key, /^p51-fix-H/.test(q.recovery.agent ?? "") ? ["p51-final"] : /^p51-fix/.test(q.recovery.agent ?? "") ? ["p51-fix", "p51-final"] : ["p51", "p51-fix", "p51-final"]]));
+    const done = new Set(checks.filter((c) => !round.has(c.key) || round.get(c.key).includes(c.round)).map((c) => c.key));
     sample = sample.filter((s) => s.why !== "random sample" && !done.has(s.key));
     if (!sample.length) continue;
     out = join(outDir, `${r.pack}--${auditFiles.length + 1}.json`);

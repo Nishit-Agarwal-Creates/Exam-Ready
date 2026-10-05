@@ -71,7 +71,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "A current flows through a cylindrical conductor of radius R. The current density at a point in the conductor is j = r (along its axis), here is a constant and r is distance from the axis of the conductor. The current flowing through the portion of the conductor from r = 0 to r = is proportional to :",
+      "text": "A current flows through a cylindrical conductor of radius R. The current density at a point in the conductor is j = αr (along its axis), here α is a constant and r is distance from the axis of the conductor. The current flowing through the portion of the conductor from r = 0 to r = R/2 is proportional to :",
       "options": [
         "R",
         "R²",
@@ -80,9 +80,7 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Greek letter α (the proportionality constant in 'j = αr') not extracted; appears as a blank before 'is a constant'; see page 5",
-        "Upper integration limit 'R' missing after the second 'r =' ('from r = 0 to r = is proportional'; almost certainly 'r = 0 to r = R'); see page 5",
-        "Notation rebuilt from the PDF layout (powers of R in the options, confirmed unambiguous against the marking scheme's own 'R³' answer); check against the PDF"
+        "Notation rebuilt from the page image (α, the stacked fraction R over 2, and powers of R in the options)"
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
@@ -102,7 +100,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "A particle having charge +q enters a uniform magnetic field as shown in the figure. The particle will describe :",
+      "text": "A particle having charge +q enters a uniform magnetic field B⃗ as shown in the figure. The particle will describe :",
       "options": [
         "a circular path in XZ plane",
         "a semicircular path in XY plane",
@@ -110,16 +108,32 @@
         "a semicircular path in YZ plane"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure showing the field/axis orientation on page 5 not reproduced; the question cannot be answered without it"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(B) a semicircular path in XY plane",
         "correctOption": 1
       },
       "chapter": "moving-charges-and-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-physics-55-4-1/3.png",
+          "kind": "FIGURE",
+          "alt": "Axes X, Y and Z with origin O; magnetic field B shown by crosses above the X-axis; charge q with a velocity arrow v",
+          "width": 750,
+          "height": 546,
+          "page": 5,
+          "crop": {
+            "x": 0.21,
+            "y": 0.519,
+            "w": 0.42,
+            "h": 0.216
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -189,17 +203,16 @@
       "type": "MCQ",
       "text": "An ammeter connected in series in an ac circuit reads 10 A. The maximum value of current at any instant in the circuit is :",
       "options": [
-        "10 2 A",
-        "A",
-        "A",
-        "A"
+        "10√2 A",
+        "10/√2 A",
+        "10/π A",
+        "10/(√2 π) A"
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Option (A) almost certainly reads '10√2 A' with the square-root symbol lost; kept as extracted ('10 2 A')",
-        "Options (B)-(D) render as embedded image/vector glyphs in the source PDF with NO text extracted at all (only the unit 'A' recovered, with no numeric coefficient); their values could not be recovered; question cannot be reliably answered from the extracted text without checking the PDF, page 7"
+        "Options rebuilt from the page 7 image (stacked fractions 10 over √2, 10 over π, 10 over √2π)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(A) 10√2 A",
         "correctOption": 0
@@ -246,7 +259,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "The magnification produced by a spherical mirror is 2·0. The mirror used and the nature of the image formed will be",
+      "text": "The magnification produced by a spherical mirror is −2·0. The mirror used and the nature of the image formed will be",
       "options": [
         "Convex and virtual",
         "Concave and real",
@@ -412,7 +425,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "ASSERTION_REASON",
-      "text": "Assertion (A) : A series LCR circuit behaves as a pure resistive circuit at resonance.\nReason (R) : At resonance, XL = XC gives = .",
+      "text": "Assertion (A) : A series LCR circuit behaves as a pure resistive circuit at resonance.\nReason (R) : At resonance, X_{L} = X_{C} gives ω = 1/√(LC).",
       "options": [
         "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
@@ -422,7 +435,7 @@
       "hasFigure": false,
       "extractionIssues": [
         "Assertion-Reason answer codes are printed once on page 11 before Questions 13-16",
-        "Reason (R) ends with 'XL = XC gives = .'; the final equality (almost certainly 'ω = 1/√(LC)' or similar) is not extracted; see page 11"
+        "Reason (R) formula rebuilt from the page 11 image (ω = 1 over √LC, stacked)"
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
@@ -502,15 +515,31 @@
       "type": "SHORT_ANSWER",
       "text": "In the given figure, three identical bulbs P, Q and S are connected to a battery.\n(i) Compare the brightness of bulbs P and Q with that of bulb S when key K is closed.\n(ii) Compare the brightness of the bulbs S and Q when the key K is opened.\nJustify your answer in both cases.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit figure (bulbs P, Q, S and battery with key K) on page 13 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(i) Brightness of bulb 'S' will be more than bulbs 'P' and 'Q'; the current through 'S' is twice the current through 'P' and 'Q'. (ii) Brightness of 'S' and 'Q' will be the same; the current through both bulbs is the same. [Alternatively, argued via potential difference: p.d. across 'S' is twice that across 'P'/'Q'; p.d. across 'S' and 'Q' is the same.]"
       },
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-physics-55-4-1/17a.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram: bulbs P, Q and S, a key K, and a cell with + and − terminals",
+          "width": 375,
+          "height": 381,
+          "page": 13,
+          "crop": {
+            "x": 0.255,
+            "y": 0.209,
+            "w": 0.21,
+            "h": 0.151
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "17",
@@ -525,15 +554,32 @@
       "text": "Two cells of emf 10 V each, two resistors of 20 Ω and 10 Ω and a bulb B of 10 Ω resistance are connected together as shown in the figure. Find the current that flows through the bulb.",
       "hasFigure": true,
       "extractionIssues": [
-        "Ohm symbol (Ω) not extracted after the resistor values (20, 10, 10); rebuilt as 20 Ω, 10 Ω, 10 Ω; check against the PDF",
-        "Circuit figure on page 13 not reproduced"
+        "Ohm symbol (Ω) not extracted after the resistor values (20, 10, 10); rebuilt as 20 Ω, 10 Ω, 10 Ω; check against the PDF"
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "By Kirchhoff's loop rule on closed loops ABCFA and FCDEF: 2I₁ − 3I₂ = 1 …(1); I₁ + I₂ = 1 …(2). On solving, current through the bulb, I₂ = 1/5 A."
       },
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-physics-55-4-1/17b.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram: two 10 V cells, a bulb B of 10 Ω, and resistors of 20 Ω and 10 Ω",
+          "width": 500,
+          "height": 271,
+          "page": 13,
+          "crop": {
+            "x": 0.27,
+            "y": 0.533,
+            "w": 0.28,
+            "h": 0.107
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "18",
@@ -607,12 +653,10 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "8 m⁻³. On doping with impurity atoms, the hole concentration becomes 8 × 10¹² m⁻³.\n(a) Identify (i) the type of dopant and (ii) the extrinsic semiconductor so formed.\n(b) Calculate the electron concentration in the extrinsic semiconductor.",
+      "text": "In an intrinsic semiconductor, carrier's concentration is 5 × 10⁸ m⁻³. On doping with impurity atoms, the hole concentration becomes 8 × 10¹² m⁻³.\n(a) Identify (i) the type of dopant and (ii) the extrinsic semiconductor so formed.\n(b) Calculate the electron concentration in the extrinsic semiconductor.",
       "hasFigure": false,
-      "extractionIssues": [
-        "The opening clause of the question is missing from extraction; per the marking scheme it gives the intrinsic-semiconductor electron concentration as ni = 5 × 10⁸ m⁻³, but only a fragment ('8 m⁻³.') survives in the text layer; see page 15"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a)(i) Trivalent dopant. (ii) p-type semiconductor. (b) Electron concentration nₑ = nᵢ²/nₕ = (5×10⁸)²/(8×10¹²); nₑ = 3.125×10⁴ m⁻³."
       },
@@ -631,15 +675,31 @@
       "type": "SHORT_ANSWER",
       "text": "(i) Derive an expression for the resistivity of a conductor in terms of number density of free electrons and relaxation time.\n(ii) The figure shows the plot of current through a cross-section of wire over two different time intervals. Compare the charges (Q1 and Q2) that pass through the cross-section during these time intervals.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Current-vs-time graph on page 15 not reproduced; part (ii) cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(i) ρ = m/(ne²τ), derived from I = neAv_d with v_d = eEτ/m, giving J = ne²Eτ/m = E/ρ. (ii) From the graph, Q₁ = area under the I-t graph over the first interval (rectangle), Q₂ = area over the second interval (triangle); per the marking scheme Q₁ ≠ Q₂ [exact comparison figures garbled in the scheme's extracted text; see extractionIssues]."
+        "text": "(i) Total charge transported along E is\nIΔt = (e²A/m) τ nΔtE\nI/A = (ne²/m) τE\nJ = (1/ρ) E\nρ = m/(ne²τ)\nAlternatively-\nCurrent in the conductor-\nI = neAv_d\nI/A = ne (eE/m) τ\nJ = (ne²τ/m) E\nJ = (1/ρ) E\nρ = m/(ne²τ)\n(ii) From given graph\nQ₁/Q₂ = A₁ (Area of rectangle)/A₂ (Area of triangle)\nQ₁/Q₂ = 2/(3/2)\nQ₁ > Q₂"
       },
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-physics-55-4-1/22a.png",
+          "kind": "GRAPH",
+          "alt": "Graph of current I (A, 0 to 2·0 in steps of 0·5) against time t (s, 1 to 9) with two shaded-outline regions labelled Q1 and Q2",
+          "width": 1009,
+          "height": 354,
+          "page": 15,
+          "crop": {
+            "x": 0.27,
+            "y": 0.5,
+            "w": 0.565,
+            "h": 0.14
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "22",
@@ -673,15 +733,31 @@
       "type": "NUMERICAL",
       "text": "(a) Write vector form of Biot-Savart law.\n(b) Two insulated long straight wires, each carrying 2·0 A current are kept along xx' and yy' axis as shown in the figure. Find the magnitude and direction of resultant magnetic field at point P (4m, 5m).",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (wires along xx' and yy' axes, point P) on page 17 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) d𝐁 = (μ₀ I (d𝐥 × r̂))/(4π r²). (b) B₁ (due to wire along xx', at perpendicular distance 5) = μ₀·2·2×10⁻⁷/5 = 8×10⁻⁸ T; B₂ (due to wire along yy', at perpendicular distance 4) = μ₀·2·2×10⁻⁷/4 = 10×10⁻⁸ T; Bnet = B₂ − B₁ = 2×10⁻⁸ T, directed along the −Z axis."
       },
       "chapter": "moving-charges-and-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-physics-55-4-1/23.png",
+          "kind": "FIGURE",
+          "alt": "Axes x'x, y'y and z (dashed) with two thick wires along the x and y axes, each with a current arrow I, and a point P at (4, 5)",
+          "width": 589,
+          "height": 358,
+          "page": 17,
+          "crop": {
+            "x": 0.21,
+            "y": 0.233,
+            "w": 0.33,
+            "h": 0.142
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "24",
@@ -693,17 +769,33 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "situations, justifying your answers :\nCoil 2 Coil 1\n(a)\n(b)\n(c)\ncoils stationary.",
+      "text": "Two coils '1' and '2' are placed close to each other as shown in the figure. Find the direction of induced current in coil '1' in each of the following situations, justifying your answers :\n(a) Coil '2' is moving towards coil '1'.\n(b) Coil '2' is moving away from coil '1'.\n(c) The resistance connected with coil '2' is increased keeping both the coils stationary.",
       "hasFigure": true,
-      "extractionIssues": [
-        "The question stem is almost entirely missing from the text layer: only the trailing phrase 'situations, justifying your answers :' survives before the figure/option labels. Per the marking scheme, the question shows two coils (Coil 1 and Coil 2, the latter connected to a galvanometer/ammeter) and asks for the direction of the induced current in Coil 1 for three situations: (a) Coil 2 moving towards Coil 1, (b) Coil 2 moving away from Coil 1, (c) the resistance in Coil 2's circuit being increased while both coils are stationary. None of this appears in the extracted question text or option labels (a)/(b)/(c), which are blank; see page 17. Nothing has been invented to fill the gap."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Coil 2 moving towards Coil 1: induced current in Coil 1 is clockwise (the approaching face of Coil 2 behaves like a south pole, so Coil 1's near face becomes a south pole too, opposing it). (b) Coil 2 moving away: induced current in Coil 1 is anticlockwise. (c) Resistance in Coil 2 increased, both coils stationary: induced current in Coil 1 is anticlockwise while the flux is decreasing, then zero once steady."
       },
       "chapter": "electromagnetic-induction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-physics-55-4-1/24.png",
+          "kind": "FIGURE",
+          "alt": "Two coils side by side: Coil 2 connected through a variable resistor R2 and a cell between ends M and N; Coil 1 connected to a resistor R1 between ends O and P",
+          "width": 750,
+          "height": 384,
+          "page": 17,
+          "crop": {
+            "x": 0.3,
+            "y": 0.443,
+            "w": 0.42,
+            "h": 0.152
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "25",
@@ -757,12 +849,9 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Explain the following observations using\n(a) Photoelectric emission does not occur from a surface when the frequency of the light incident on it is less than a certain minimum value.\n(b) It is the frequency, and not the intensity of the incident light which affects the maximum kinetic energy of the photoelectrons.\n(c) The cut-off voltage (Vo) versus frequency (v) of the incident light curve is a straight line with a slope .",
+      "text": "Explain the following observations using Einstein's photoelectric equation :\n(a) Photoelectric emission does not occur from a surface when the frequency of the light incident on it is less than a certain minimum value.\n(b) It is the frequency, and not the intensity of the incident light which affects the maximum kinetic energy of the photoelectrons.\n(c) The cut-off voltage (V₀) versus frequency (ν) of the incident light curve is a straight line with a slope h/e.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Words after 'using' (almost certainly 'Einstein's photoelectric equation.') not extracted; see page 19",
-        "Slope value at the end of part (c) (almost certainly 'h/e') not extracted; see page 19"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Einstein's equation: hν = hν₀ + K_max ⇒ K_max = h(ν − ν₀); for ν < ν₀, K_max would be negative, so photoelectric emission is not possible. (b) K_max = h(ν − ν₀) ⇒ K_max depends only on frequency, not on intensity. (c) eV₀ = hν − hν₀ ⇒ V₀ = (h/e)ν − (h/e)ν₀, the equation of a straight line (y = mx + c) with slope h/e."
@@ -800,20 +889,35 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "A parallel plate capacitor consists of two conducting plates kept generally parallel to each other at a distance. When the capacitor is charged, the charge resides on the inner surfaces of the plates and an electric field is set up between them. Thus, electrostatic energy is stored in the capacitor.\nparallel and equidistant from each other. The space between P1 and P2 and P2 and P3 is completely filled with mica sheets of dielectric constant\n2 is connected to point A and other plates P1 and P3 are connected to point B. Point A is maintained at a positive potential with respect to point B and the potential difference between A and B is V.\n\n(i) The capacitance of the system between A and B will be :\n(A)\n(B)\n(C)\n(D)\n\n(ii) The charge on plate P1 is :\n(A)\n(B)\n(C)\n(D)\n\n(iii) The electric field in the region between P1 and P2 is :\n(A)\n(B)\n(C)\n(D)\n\n(iv) (a) The separation between the plates of same area (L²) of a parallel plate air capacitor having capacitance equal to that of this system, will be :\n(A)\n(B)\n(C)\n(D)\nOR\n(b) If the source of potential difference applied between A and B is removed, and then A and B are connected by a conducting wire, the net charge on the system will be :\n(A)\n(B)\n(C)\n(D) Zero",
+      "text": "A parallel plate capacitor consists of two conducting plates kept generally parallel to each other at a distance. When the capacitor is charged, the charge resides on the inner surfaces of the plates and an electric field is set up between them. Thus, electrostatic energy is stored in the capacitor.\nThe figure shows three large square metallic plates, each of side 'L' held parallel and equidistant from each other. The space between P₁ and P₂ and P₂ and P₃ is completely filled with mica sheets of dielectric constant 'K'. The plate P₂ is connected to point A and other plates P₁ and P₃ are connected to point B. Point A is maintained at a positive potential with respect to point B and the potential difference between A and B is V.\n\n(i) The capacitance of the system between A and B will be :\n(A) ε₀KL²/d\n(B) ε₀KL²/(2d)\n(C) 2ε₀KL²/d\n(D) 2ε₀Kd/L²\n\n(ii) The charge on plate P₁ is :\n(A) ε₀VKL²/(2d)\n(B) ε₀VKL²/d\n(C) 2ε₀VKL²/d\n(D) ε₀VKL²/(4d)\n\n(iii) The electric field in the region between P₁ and P₂ is :\n(A) V/d\n(B) 2V/d\n(C) V/(2d)\n(D) d/V\n\n(iv) (a) The separation between the plates of same area (L²) of a parallel plate air capacitor having capacitance equal to that of this system, will be :\n(A) d/K\n(B) 2d/K\n(C) d/(2K)\n(D) d/(4K)\nOR\n(b) If the source of potential difference applied between A and B is removed, and then A and B are connected by a conducting wire, the net charge on the system will be :\n(A) ε₀VKL²/(4d)\n(B) ε₀VKL²/(2d)\n(C) ε₀VKL²/d\n(D) Zero",
       "hasFigure": true,
       "extractionIssues": [
-        "A sentence describing the physical set-up (three identical plates P1, P2, P3 of side L, placed parallel and equidistant from each other, with the dielectric constant K of the mica sheets, and which plate is connected to A) is missing between 'stored in the capacitor.' and 'parallel and equidistant from each other.'; only fragments survive; see page 19",
-        "Figure showing the three-plate arrangement (P1, P2, P3) not reproduced",
-        "Options (A)-(D) for sub-parts (i), (ii), (iii) and (iv)(a) render as embedded image/vector glyphs in the source PDF with NO text extracted at all; only option (D) 'Zero' of sub-part (iv)(b) survived as text; see pages 19-21. The question cannot be answered from the extracted text without checking the PDF.",
         "Internal choice ('OR') in sub-part (iv) is kept inline within this case-based question's text, not split into a separate entry, as it applies to only one of the four sub-parts"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) (C) C = 2ε₀KL²/d\n(ii) (B) Charge on P1 = ε₀VKL²/d\n(iii) (A) E = V/d\n(iv)(a) (C) d/2K\nOR\n(iv)(b) (D) Zero"
       },
       "chapter": "electrostatic-potential-and-capacitance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-physics-55-4-1/29.png",
+          "kind": "FIGURE",
+          "alt": "Three parallel plates P1, P2 and P3 separated by distances d; P2 is joined to point A, and P1 and P3 are joined together to point B",
+          "width": 893,
+          "height": 384,
+          "page": 19,
+          "crop": {
+            "x": 0.21,
+            "y": 0.709,
+            "w": 0.5,
+            "h": 0.152
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "30",
@@ -825,18 +929,15 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "A hydrogen atom consists of an electron revolving in a circular orbit of radius r with certain velocity v around a proton located at the nucleus of the atom. The electrostatic force of attraction between the revolving electron and the proton provides the requisite centripetal force to keep it in certain stable orbits. The angular momentum of the electron in these orbits is some integral multiple of\nFurther, when an electron makes a transition from one orbit of higher energy to that of lower energy, a photon is emitted having energy equal to the difference between energies of the initial and final states. Assuming the mass and charge of an electron as m and e respectively, answer the following questions.\n\n(i) The expression for the speed of electron v in terms of radius of the orbit (r) and physical constant (K = ) is :\n(A)\n(B)\n(C)\n(D)\n\n(ii) The total energy of the atom in terms of r and physical constant K is :\n(A)\n(B)\n(C)\n(D)\n\n(iii) A photon of wavelength 500 nm is emitted when an electron makes a transition from one state to the other state in an atom. The change in the total energy of the electron and change in its kinetic energy respectively (in eV) are :\n(A) 2·48, 2·48\n(B) 1·24, 1·24\n(C) 2·48, 2·48\n(D) 1·24, 1·24\n\n(iv) (a) of electron in its nth orbit is proportional to :\n(A) n\n(B)\n(C)\n(D)\nOR\n(b) An electron makes a transition from 3·4 eV state to the ground state in hydrogen atom. Its radius of orbit changes by : (radius of orbit of electron in ground state = 0·53 Å)\n(A) 0·53 Å\n(B) 1·06 Å\n(C) 1·59 Å\n(D) 2·12 Å",
+      "text": "A hydrogen atom consists of an electron revolving in a circular orbit of radius r with certain velocity v around a proton located at the nucleus of the atom. The electrostatic force of attraction between the revolving electron and the proton provides the requisite centripetal force to keep it in the orbit. According to Bohr's model, an electron can revolve only in certain stable orbits. The angular momentum of the electron in these orbits is some integral multiple of h/2π, where h is the Planck's constant.\nFurther, when an electron makes a transition from one orbit of higher energy to that of lower energy, a photon is emitted having energy equal to the difference between energies of the initial and final states. Assuming the mass and charge of an electron as m and e respectively, answer the following questions.\n\n(i) The expression for the speed of electron v in terms of radius of the orbit (r) and physical constant (K = 1/(4πε₀)) is :\n(A) Ke²/(mr)\n(B) Ke²/(mr²)\n(C) √(Ke²/(mr))\n(D) √(Ke²/(mr²))\n\n(ii) The total energy of the atom in terms of r and physical constant K is :\n(A) Ke²/r\n(B) −Ke²/(2r)\n(C) Ke²/(2r)\n(D) (3/2)(Ke²/r)\n\n(iii) A photon of wavelength 500 nm is emitted when an electron makes a transition from one state to the other state in an atom. The change in the total energy of the electron and change in its kinetic energy in eV as per Bohr's model, respectively will be :\n(A) 2·48, −2·48\n(B) −1·24, 1·24\n(C) −2·48, 2·48\n(D) 1·24, −1·24\n\n(iv) (a) In Bohr's model of hydrogen atom, the frequency of revolution of electron in its nth orbit is proportional to :\n(A) n\n(B) 1/n\n(C) 1/n²\n(D) 1/n³\nOR\n(b) An electron makes a transition from −3·4 eV state to the ground state in hydrogen atom. Its radius of orbit changes by : (radius of orbit of electron in ground state = 0·53 Å)\n(A) 0·53 Å\n(B) 1·06 Å\n(C) 1·59 Å\n(D) 2·12 Å",
       "hasFigure": false,
       "extractionIssues": [
-        "'Some integral multiple of' is followed by a blank where 'h/2π' (the angular-momentum quantisation constant) should be; not extracted; see page 23",
-        "The physical quantity being asked about in sub-part (iv)(a) (a word such as 'frequency of revolution', immediately before 'of electron in its nth orbit is proportional to') is not extracted; see page 25",
-        "Options (A)-(D) for sub-parts (i), (ii) and (iv)(a) render as embedded image/vector glyphs with NO text extracted at all; see pages 23-25",
-        "The four numeric options in sub-part (iii) all print as '2·48, 2·48' / '1·24, 1·24' pairs; the +/- signs that must distinguish the four options are not extracted; kept as extracted; see pages 23-25",
-        "Internal choice ('OR') in sub-part (iv) is kept inline within this case-based question's text, not split into a separate entry, as it applies to only one of the four sub-parts"
+        "Internal choice ('OR') in sub-part (iv) is kept inline within this case-based question's text, not split into a separate entry, as it applies to only one of the four sub-parts",
+        "Stem and all options rebuilt from the page 23 and page 25 images (stacked fractions written with /, square roots as √( ))"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(i) (C) v = √(Ke²/mr) [square-root symbol lost in the scheme's own extraction; kept as 'Ke²/mr']\n(ii) (B) Total energy = −Ke²/2r\n(iii) (C) −2.48 eV, 2.48 eV\n(iv)(a) (D) [value garbled in the scheme's extraction, appears as '3' over 'n'; official answer partly missing/garbled — see extractionIssues]\nOR\n(iv)(b) (C) 1.59 Å"
+        "text": "(i) (C) √(Ke²/(mr))\n(ii) (B) −Ke²/(2r)\n(iii) (C) −2.48, 2.48\n(iv) (a) (D) 1/n³\nOR\n(b) (C) 1.59 Å"
       },
       "chapter": "atoms",
       "mappingStatus": "AI_SUGGESTED"
@@ -871,14 +972,12 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(i) law. Using it, derive an expression for the electric field due to a uniformly charged thin spherical shell of radius r at a point at a distance y from the centre of the shell such that (I) y > r, and (II) y < r.\n(ii) A point charge of +2 nC is kept at the origin of a three-dimensional coordinate system. Find the type and magnitude of the charge which should be kept at (0, 0, 6m) so that the potential due to the system becomes zero at (0, 0, 2m).",
+      "text": "(i) Show that Gauss's theorem is consistent with Coulomb's law. Using it, derive an expression for the electric field due to a uniformly charged thin spherical shell of radius r at a point at a distance y from the centre of the shell such that (I) y > r, and (II) y < r.\n(ii) A point charge of +2 nC is kept at the origin of a three-dimensional coordinate system. Find the type and magnitude of the charge which should be kept at (0, 0, −6m) so that the potential due to the system becomes zero at (0, 0, 2m).",
       "hasFigure": false,
-      "extractionIssues": [
-        "Beginning of part (i) is missing (almost certainly 'Show that Gauss's theorem is consistent with Coulomb's', of which only the trailing word 'law.' survives); see page 27"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(i) Gauss's theorem is based on the inverse-square dependence contained in Coulomb's law; ∮E·ds = q/ε₀ ⇒ E = q/(4πε₀r²), and force on q₀ in this field F = qq₀/(4πε₀r²) matches Coulomb's law. (I) For y > r: E(4πy²) = σ4πr²/ε₀ ⇒ E = q/(4πε₀y²) r̂. (II) For y < r: charge enclosed = 0 ⇒ E = 0. (ii) Let charge at (0,0,6m) be q. V at (0,0,2m): V = (1/4πε₀)[2×10⁻⁹/2 + q/6] = 0 ⇒ q = −8×10⁻⁹ C."
+        "text": "(i) Gauss's theorem is based on the inverse square dependence on distance contained in the coulomb's law.\nAlternatively-\nAccording to Gauss's theorem\n∮E⃗.ds⃗ = q/ε₀\nE = (1/4πε₀)(q/r²)\nAccording to Coulomb's law, force on charge q₀ in this field\nF = (1/4πε₀)(qq₀/r²)\nTherefore, Gauss's law is consistent with Coulomb's law\n(I) For y > r\nElectric flux through Gaussian surface E×4πy²\nThe charge enclosed by the surface σ×4πr²\nUsing Gauss theorem\nE(4πy²) = σ4πr²/ε₀\nE⃗ = (q/(4πε₀y²)) r̂\n(II) For y < r\nThe charge enclosed by Gaussian surface = 0\nUsing Gauss theorem\nElectric flux = E(4πy²) = 0\ni.e. E = 0 (y < r)\n(ii) Let the charge is kept at A be q\nPotential at point B due to charge at the origin O and charge (q) at A\nV = V₁ + V₂\nV = (1/4πε₀)[2×10⁻⁹/2 + q/(6+2)]\n(1/4πε₀)[10⁻⁹ + q/8] = 0\nq = −8×10⁻⁹ C"
       },
       "chapter": "electric-charges-and-fields",
       "mappingStatus": "AI_SUGGESTED"
@@ -893,19 +992,33 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(i) of conservation of energy principle.\n(ii) A square shaped loop of side is initially lying outside a region of uniform magnetic field as shown in the figure. The loop is moved towards right with a constant velocity till it goes out of the region of magnetic field.\n(I) What will be the directions of induced current when the loop enters the field and when it leaves the field ?\n(II) Draw the plots showing the variation of magnetic flux linked with the loop with time t and variation of induced emf E with time t. Mark the relevant values of E, and t on the graphs.",
+      "text": "(i) State Lenz's law and explain how this law is a consequence of conservation of energy principle.\n(ii) A square shaped loop of side l/2 is initially lying outside a region of uniform magnetic field B⃗ as shown in the figure. The loop is moved towards right with a constant velocity v⃗ till it goes out of the region of magnetic field.\n(I) What will be the directions of induced current when the loop enters the field and when it leaves the field ?\n(II) Draw the plots showing the variation of magnetic flux ϕ linked with the loop with time t and variation of induced emf E with time t. Mark the relevant values of E, ϕ and t on the graphs.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Beginning of part (i) is missing (almost certainly 'State Lenz's law and show that it is a consequence'); only the trailing phrase 'of conservation of energy principle.' survives; see page 27",
-        "Side length of the square loop (a number) not extracted after 'square shaped loop of side'; see page 27",
-        "Figure showing the loop and the field region on page 27 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Lenz's law: the polarity of the induced emf is such that it opposes the change in magnetic flux that produces it; this is consistent with conservation of energy since mechanical work done to move the magnet/loop converts into electrical energy. (ii)(I) Induced current is anticlockwise while the loop enters the field and clockwise while it leaves. (II) [Graphs of flux vs t and emf vs t with marked values — not reproducible as text.]"
       },
       "chapter": "electromagnetic-induction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-physics-55-4-1/32a.png",
+          "kind": "FIGURE",
+          "alt": "Square loop with side marked l/2, at distance l to the left of a strip of width l bounded by dashed lines and filled with crosses labelled B; velocity arrow v; a dashed square with a dashed arrow on the far right",
+          "width": 768,
+          "height": 594,
+          "page": 27,
+          "crop": {
+            "x": 0.27,
+            "y": 0.575,
+            "w": 0.43,
+            "h": 0.235
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "32",
@@ -917,12 +1030,9 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(i) Differentiate between peak and rms values of alternating current. How are they related ?\n(ii) A current element X is connected across an ac source of emf V = V0 sin 2 vt. It is found that the voltage leads the current in phase by radian. If element X was replaced by element Y, the voltage lags behind the current in phase by radian.\n(I) Identify elements X and Y by drawing phasor diagrams.\n(II) Obtain the condition of resonance when both elements X and Y are connected in series to the source and obtain expression for resonant frequency. What is the impedance value in this case ?",
+      "text": "(i) Differentiate between peak and rms values of alternating current. How are they related ?\n(ii) A current element X is connected across an ac source of emf V = V₀ sin 2πνt. It is found that the voltage leads the current in phase by π/2 radian. If element X was replaced by element Y, the voltage lags behind the current in phase by π/2 radian.\n(I) Identify elements X and Y by drawing phasor diagrams.\n(II) Obtain the condition of resonance when both elements X and Y are connected in series to the source and obtain expression for resonant frequency. What is the impedance value in this case ?",
       "hasFigure": false,
-      "extractionIssues": [
-        "Greek letter π (angular frequency, 'V = V0 sin 2πvt') not extracted; see page 29",
-        "Phase angle values ('leads ... by radian', 'lags ... by radian', almost certainly π/2 in both cases) not extracted; see page 29"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Peak value is the maximum value of the alternating current; rms value is the equivalent dc current that would produce the same average power/heating effect. Relation: I_rms = I₀/√2. (ii)(I) X = Inductor (L), Y = Capacitor (C). (II) Impedance Z = XL − XC; at resonance Z = 0, so XL = XC ⇒ ω = 1/√(LC), i.e. ν = 1/(2π√(LC)); impedance at resonance Z = 0."
@@ -940,11 +1050,9 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(i) An object is placed 30 cm from a thin convex lens of focal length 10 cm. The lens forms a sharp image on a screen. If a thin concave lens is placed in contact with the convex lens, the sharp image on the screen is formed when the screen is moved by 45 cm from its initial position. Calculate the focal length of the concave lens.\n(ii) Calculate the angle of minimum deviation of an equilateral prism. The refractive index of the prism is . Calculate the angle of incidence for this case of minimum deviation also.",
+      "text": "(i) An object is placed 30 cm from a thin convex lens of focal length 10 cm. The lens forms a sharp image on a screen. If a thin concave lens is placed in contact with the convex lens, the sharp image on the screen is formed when the screen is moved by 45 cm from its initial position. Calculate the focal length of the concave lens.\n(ii) Calculate the angle of minimum deviation of an equilateral prism. The refractive index of the prism is √3. Calculate the angle of incidence for this case of minimum deviation also.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Refractive index value at the end of part (ii) ('The refractive index of the prism is .') is missing; per the marking scheme's calculation it is √3; the square-root symbol/value was not extracted; see page 29"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) For the convex lens alone: 1/f₁ = 1/v₁ − 1/u₁ ⇒ 1/10 = 1/v₁ − 1/(−30) ⇒ v₁ = 15 cm. For the combination (screen moved by 45 cm, so v₃ = 15+45 = 60 cm): 1/f₃ = 1/60 − 1/(−30) ⇒ f₃ = 20 cm. For the concave lens: 1/f₃ = 1/f₁ + 1/f₂ ⇒ 1/f₂ = 1/20 − 1/10 ⇒ f₂ = −20 cm. (ii) μ = sin((A+δm)/2)/sin(A/2); with A = 60° and μ = √3, δm = 60° and the angle of incidence i = (A+δm)/2 = 60°."

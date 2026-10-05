@@ -199,12 +199,29 @@
       "text": "Observe the diagram given below and answer the following questions: (a) Arrange the different substances in the increasing order of the forces of attraction between particles. (b) What changes in the Kinetic energy and inter-particle space take place when the substance shown in fig(B) is cooled? (c) Define the process in converting the substance from B to C at a fixed temperature.",
       "hasFigure": true,
       "extractionIssues": [
-        "Printed as '(2)' after Question 3 (ii) (no (iv) label); label kept as printed",
-        "Figure on page 4 (substances A, B, C with particle-arrangement insets) not reproduced; cannot be answered without it"
+        "Printed as '(2)' after Question 3 (ii) (no (iv) label); label kept as printed"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-chemistry-icse-class-8-first-test-chemistry-050725-jul-2024/32.png",
+          "kind": "FIGURE",
+          "alt": "Three pictures labelled A, B and C (an ice block, a running tap, a heated pan), each with an inset showing particle arrangement",
+          "width": 678,
+          "height": 683,
+          "page": 4,
+          "crop": {
+            "x": 0.3,
+            "y": 0.24,
+            "w": 0.38,
+            "h": 0.28
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -254,12 +271,28 @@
       "type": "SHORT_ANSWER",
       "text": "Abhishek conducted an experiment to demonstrate 'TheLaw of Conservation of Mass'. (a) Does the experiment satisfy 'The Law of Conservation of Mass'? Justify your answer. (b) Who proposed the law of conservation of mass? (c) State the Law of conservation of mass.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 5 (balance with NaOH(aq) and H₂SO₄(aq) against 100 g, initial and after mixing) not reproduced; part (a) cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "language-of-chemistry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-chemistry-icse-class-8-first-test-chemistry-050725-jul-2024/4iii.png",
+          "kind": "FIGURE",
+          "alt": "Two balance diagrams: a beaker of NaOH(aq) with H₂SO₄(aq) being added against a 100 g weight ('INITIAL'), and the beaker of Na₂SO₄(aq) giving off heat against a 100 g weight",
+          "width": 1036,
+          "height": 769,
+          "page": 5,
+          "crop": {
+            "x": 0.24,
+            "y": 0.185,
+            "w": 0.58,
+            "h": 0.315
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",

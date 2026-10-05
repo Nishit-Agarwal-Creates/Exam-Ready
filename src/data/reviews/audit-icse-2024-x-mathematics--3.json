@@ -1,0 +1,103 @@
+{
+  "pack": "icse-2024-x-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked the current pack content against renders of the original PDF pages (page.py grid/crop, zoomed) and pdftotext -layout/-raw, the marking scheme / answer key where one exists, the published figure PNGs and the chapter summaries.",
+  "checks": [
+    {
+      "key": "icse-2024-x-mathematics#1i",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1iv",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1v",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1vi",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1vii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1viii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1ix",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1x",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1xi",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1xii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1xiii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1xiv",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#1xv",
+      "agree": false,
+      "reason": "Page 5 prints a diagram of triangles ABC and PQR with D on BC and S on QR beside Q1(xv) (\"In the given diagram\"), but the pack stores no figure, so the positions of D and S that the options depend on are not shown.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2024-x-mathematics#7iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

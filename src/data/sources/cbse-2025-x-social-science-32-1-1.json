@@ -91,8 +91,7 @@
       "choiceGroup": null,
       "hasFigure": true,
       "extractionIssues": [
-        "The work/book title referenced by 'The author of ___ is :' is missing from the text layer on page 5 (nothing renders in that position in either raw or layout mode), likely because it was set as an image/figure of a book title rather than text",
-        "The official marking scheme confirms the intended answer is Marco Polo but adds the note 'Due to lack of correct option, 1 mark should be awarded to all students who attempted this question', indicating the printed paper itself had a defect here, not just PDF extraction"
+        "The official marking scheme confirms the intended answer is Marco Polo but adds the note ‘Due to lack of correct option, 1 mark should be awarded to all students who attempted this question’, indicating the printed paper itself had a defect here"
       ],
       "mappingStatus": "AI_SUGGESTED",
       "number": "3",
@@ -102,7 +101,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "The author of … is :",
+      "text": "The author of ‘Book of Marvels’ is :",
       "options": [
         "Marco Polo",
         "Columbus",
@@ -420,10 +419,7 @@
       "part": null,
       "choiceGroup": null,
       "hasFigure": true,
-      "extractionIssues": [
-        "The question's intro line and the closing clause ('...has the ___ ?') are missing from the English text layer on page 13; only the data table and the surrounding fragments extracted",
-        "The marking scheme's Section A does not restate question stems (only the correct option), so the missing wording could not be reconstructed"
-      ],
+      "extractionIssues": [],
       "mappingStatus": "AI_SUGGESTED",
       "number": "15",
       "page": 13,
@@ -432,14 +428,14 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "… World\nand answer the questions given below :\nS. No. Country – HDI Rank in the world\n1. India – 130\n2. Myanmar – 148\n3. Nepal – 149\n4. Pakistan – 150\nAmongst the given countries, which one of the following countries has the … ?",
+      "text": "Study the following table related to 'World Human Development Index' and answer the questions given below :\nS. No. | Country | HDI Rank in the world\n1. | India | 130\n2. | Myanmar | 148\n3. | Nepal | 149\n4. | Pakistan | 150\nAmongst the given countries, which one of the following countries has the highest rank in 'Human Development Index' ?",
       "options": [
         "Pakistan",
         "India",
         "Nepal",
         "Myanmar"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(B) / India",
         "correctOption": 1
@@ -449,11 +445,8 @@
     {
       "part": null,
       "choiceGroup": null,
-      "hasFigure": true,
-      "extractionIssues": [
-        "The entire question stem is missing from the text layer on page 13 in both raw and layout mode; only the question number, mark value and the four sector-name options survived extraction, likely because the stem was a picture/figure/infographic rather than text",
-        "The marking scheme's Section A does not restate question stems (only the correct option), so the stem could not be reconstructed"
-      ],
+      "hasFigure": false,
+      "extractionIssues": [],
       "mappingStatus": "AI_SUGGESTED",
       "number": "16",
       "page": 13,
@@ -462,14 +455,14 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "[Question text not present in the extracted PDF text layer; see extractionIssues.]",
+      "text": "'X' lives in a town. He cultivates flowers along with animal husbandry. The work of 'X' will fall under which sector of the economy ?",
       "options": [
         "Primary",
         "Secondary",
         "Tertiary",
         "Quaternary"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(A) / Primary",
         "correctOption": 0
@@ -480,9 +473,7 @@
       "part": null,
       "choiceGroup": null,
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) on page 13 not reproduced in text layer; the question cannot be answered without it"
-      ],
+      "extractionIssues": [],
       "mappingStatus": "AI_SUGGESTED",
       "number": "17",
       "page": 13,
@@ -498,12 +489,30 @@
         "Secondary",
         "Tertiary"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(D) / Tertiary",
         "correctOption": 3
       },
-      "chapter": "sectors-of-the-indian-economy"
+      "chapter": "sectors-of-the-indian-economy",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-x-social-science-32-1-1/17.png",
+          "kind": "FIGURE",
+          "alt": "Colour photograph of several women standing at long tables handling and folding stacks of dark cloth or garments",
+          "width": 1108,
+          "height": 467,
+          "page": 13,
+          "crop": {
+            "x": 0.19,
+            "y": 0.475,
+            "w": 0.62,
+            "h": 0.185
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "part": null,
@@ -973,10 +982,10 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "“Recent evidence suggests that the overuse of groundwater is becoming a serious threat in many parts of the country.” Evaluate the statement in the context of sustainability of development.",
+      "text": "“Recent evidence suggests that overuse of groundwater is becoming a serious threat in many parts of the country.” Evaluate the statement in the context of sustainability of development.",
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(i) Sustainability refers to that kind of economic development that should take place without damaging the environment and development in the present should not compromise with the need of the future generations.\n(ii) Ground water is an example of renewable resources. These resources are replenished by nature.\n(iii) The over use ground water is becoming a serious threat in many parts of the country due to population growth and agricultural practices.\n(iv) Excessive use of ground water for irrigation can deplete ground water level.\n(v) A lack of effective policies and regulation can lead to unsustainable ground water use.\n(vi) About 300 districts have reported a water level decline of over 4 meters during the past 20 years.\n(vii) Any other relevant point.\n(Any five points to be evaluated.)…"
+        "text": "(i) Sustainability refers to that kind of economic development that should take place without damaging the environment and development in the present should not compromise with the need of the future generations.\n(ii) Ground water is an example of renewable resources. These resources are replenished by nature.\n(iii) The over use ground water is becoming a serious threat in many parts of the country due to population growth and agricultural practices.\n(iv) Excessive use of ground water for irrigation can deplete ground water level.\n(v) A lack of effective policies and regulation can lead to unsustainable ground water use.\n(vi) About 300 districts have reported a water level decline of over 4 meters during the past 20 years.\n(vii) Nearly one third of the country is over using their ground water reserves.\n(viii) In another 25 years, 60 percent of the country would be doing the same if the present way of using this resource continues.\n(ix) Ground water overuse is particularly found in the agriculturally prosperous regions of Punjab and Western Uttar Pradesh etc.\n(x) Judicious use of water resources.\n(xi) Control over dumping of excessive and toxic waste on land to prevent pollution of ground water.\n(xii) Any other relevant point.\nAny five points to be evaluated."
       },
       "chapter": "development"
     },

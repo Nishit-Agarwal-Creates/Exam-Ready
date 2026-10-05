@@ -96,14 +96,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 13 is needed to answer and is not reproduced",
-      "notes": "Scheme p14 60°; metadata p13 gives 2 marks per part."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p14 60°; metadata p13 gives 2 marks per part.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Figure Maths7PK7 (page 14): only one angle at C is marked (between CA and CD); alt corrected to describe exactly that.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-mathematics#Maths7PK7b",
@@ -112,14 +123,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 13 is needed to answer and is not reproduced",
-      "notes": "Scheme p14-15; RHS congruence is in Geometric Twins."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p14-15; RHS congruence is in Geometric Twins.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Figure Maths7PK7 (page 14): only one angle at C is marked (between CA and CD); alt corrected to describe exactly that.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-mathematics#Maths7PK3",
@@ -128,14 +150,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 18 is needed to answer and is not reproduced",
-      "notes": "Map with angle labels on p18; scheme p18 lists C."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Map with angle labels on p18; scheme p18 lists C.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p18 'Source' diagram: four roads meeting at a point with angles 90°, 30°, 105°; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-mathematics#Maths7RG3",
@@ -160,14 +192,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 20 is needed to answer and is not reproduced",
-      "notes": "Question text p20-21 jumbled in the text layer; scheme p21 (a) y 20°."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Question text p20-21 jumbled in the text layer; scheme p21 (a) y 20°.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p20 'Sources and diagrams' box: right angle at R, 70° at P, angles x, y, z at the crossing of PQ and TS; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-mathematics#Maths7RG4b",
@@ -176,14 +218,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 20 is needed to answer and is not reproduced",
-      "notes": "Scheme p21 (b) x 160."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p21 (b) x 160.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p20 'Sources and diagrams' box: right angle at R, 70° at P, angles x, y, z at the crossing of PQ and TS; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-mathematics#Maths7RG4c",
@@ -192,14 +244,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 20 is needed to answer and is not reproduced",
-      "notes": "Scheme p21 (c) z 20."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p21 (c) z 20.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p20 'Sources and diagrams' box: right angle at R, 70° at P, angles x, y, z at the crossing of PQ and TS; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-mathematics#Maths7PD3",
@@ -224,14 +286,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 23 is needed to answer and is not reproduced",
-      "notes": "Angles at a point read from the figure; scheme p24 prints '1500' (150°)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Angles at a point read from the figure; scheme p24 prints '1500' (150°).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p23 'Source(s)' box: four rays from a point, angles 46°, 64°, 100°, x; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-mathematics#Maths7RG2",
@@ -288,14 +360,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 36 is needed to answer and is not reproduced",
-      "notes": "Point labels A-J on the number line are only in the figure; scheme p36 D."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Point labels A-J on the number line are only in the figure; scheme p36 D.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p36 'Source(s)' box: number line -20 to 2 with points A-J; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-mathematics#Maths7SC4",
@@ -384,14 +466,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 54 is needed to answer and is not reproduced",
-      "notes": "Bar graph p54 (red 8 highest); scheme p55 Red."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Bar graph p54 (red 8 highest); scheme p55 Red.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p54 'Source(s)' box: bar graph of favourite colours with values above bars; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-mathematics#Maths7PS5a",
@@ -400,14 +492,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 61 is needed to answer and is not reproduced",
-      "notes": "Bar graph is not in the text layer; scheme p61 Cats cannot be verified."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Bar graph is not in the text layer; scheme p61 Cats cannot be verified.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p61 'Source(s)' box: bar graph of pets owned by class seven; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-mathematics#Maths7PS5b",
@@ -416,14 +518,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 61 is needed to answer and is not reproduced",
-      "notes": "Bar graph is not in the text layer; scheme p61 8 cannot be verified."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Bar graph is not in the text layer; scheme p61 8 cannot be verified.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p61 'Source(s)' box: bar graph of pets owned by class seven; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-vii-mathematics#Maths7PD1",

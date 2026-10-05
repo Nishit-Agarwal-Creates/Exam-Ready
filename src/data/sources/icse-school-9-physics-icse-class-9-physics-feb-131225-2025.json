@@ -34,46 +34,693 @@
   "questions": [
     {
       "number": "1",
-      "part": null,
+      "part": "(i)",
       "choiceGroup": null,
       "page": 1,
       "section": "A",
       "sectionTitle": "SECTION A - Answer all the questions in this section",
-      "marks": 15,
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
       "marksSource": "PRINTED",
-      "type": "SHORT_ANSWER",
-      "text": "Choose the correct answers to the questions from the given options.\n(Do not copy the question, write the correct answers only.)\n(i) A particle moves along the sides AB, BC, CD of a square of side 25 m with a 15 m s⁻¹. Its average velocity is:\n(a) 15 m s⁻¹ (b) 10 m s⁻¹ (c) 7.5 m s⁻¹ (d) 5 m s⁻¹\n(ii) The graph below represents the relationship between distance and time for an object in motion. During which interval is the speed of the object changing?\n(a) BC (b) CD (c) DE (d) AB\n(iii) Which one of the following (v-t graph) does not belong to motion in one dimension\n(a) [graph] (b) [graph] (c) [graph] (d) [graph]\n(iv) Inertia is responsible for all of these except:\n(a) Kicking dirt off a shoe (b) Throwing a person against a seatbelt (c) Planets staying in orbit (d) Gravity\n(v) Which of the following statements is / are true?\n1. Newton's first law states that F = ma\n2. Newton's third law states that every action has an equal and opposite reaction\n3. A constant force is required to cause a body to move with a constant velocity\n(a) 1,2 and 3 (b) Only 2 and 3 (c) Only 3 (d) Only 2\n(vi) Assertion (A): The gravitational force between two bodies remains constant even if the distance between them changes, provided their masses remain the same.\nReason (R): The universal law of gravitation states that the force between two masses depends only on the product of their masses and the square of the distance between them.\n(a) Both assertion and reason are true, and the reason is the correct explanation of the assertion. (b) Both assertion and reason are true, but the reason is not the correct explanation of the assertion. (c) The assertion is true, but the reason is false. (d) The assertion is false, but the reason is true.\n(vii) A particle is moving with a constant speed along a straight-line path. A force is not required to:\n(a) increase its speed (b) decrease its momentum (c) change the direction (d) keep it moving with uniform velocity\n(viii) A tennis ball falls from the upstairs window of a house.\nWhat can be said about the acceleration of the ball if air resistance is ignored?\n(a) It depends on the density of the ball. (b) It depends on the mass of the ball. (c) It increases as the ball falls. (d) It stays the same as the ball falls.\n(ix) The diagram shows a stone suspended under the surface of a liquid from a string. The stone experiences a pressure caused by the liquid.\nWhat would increase the pressure on the stone.\n(a) Decreasing the surface area of the stone (b) Increasing the mass of the stone (c) Lowering the stone deeper into the liquid (d) Using the liquid with a lower density\n(x) A chair is place on protective cups to prevent damage to the carpet underneath it. How do the cups change the area of contact with the carpet and the pressure on it?\nArea of contact / pressure: (a) decreased / decreased (b) decreased / increased (c) increased / decreased (d) increased / increased\n(xi) Lina and Raj visited a science museum where they learned about heat and temperature. The guide explained, \"Temperature measures how hot or cold something is, while heat is the energy that flows from hot to cold objects.\"\nWhich of the following statements is true?\n(a) Heat and temperature are the same thing. (b) Temperature measures how hot or cold something is, and heat is the energy transferred between objects. (c) Heat measures the hotness of an object, and temperature is the energy transferred. (d) Heat and temperature both measure the energy in an object.\n(xii) An optician holds a test card 25 cm behind a patient. When the patient looks into a plane mirror in front of him, the distance between him and the image of the test card is 385 cm. What is the distance of the patient from the plane mirror?\n(a) 60 cm (b) 125 cm (c) 180 cm (d) 235 cm\n(xiii) The diagram shows the image of an object in the plane mirror.\nWhat is the actual appearance of the object?\n(a) [figure] (b) [figure] (c) [figure] (d) [figure]\n(xiv) What condition is necessary for a real image in a concave mirror?\n(a) Object smaller than its image (b) Object outside the focus (c) Object inside the focus (d) Object bigger than its image\n(xv) The figure given below shows two iron nails attached to the end of a magnet. Choose the correct figure:\n(a) [figure] (b) [figure] (c) [figure] (d) [figure]",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nA particle moves along the sides AB, BC, CD of a square of side 25 m with a 15 m s⁻¹. Its average velocity is:",
+      "options": [
+        "15 m s⁻¹",
+        "10 m s⁻¹",
+        "7.5 m s⁻¹",
+        "5 m s⁻¹"
+      ],
       "hasFigure": true,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Only a group total [15] is printed for the fifteen MCQs (i)-(xv); kept as one entry with the options inline",
-        "Figures on pages 1-4 not reproduced: square path (i), distance-time graph (ii), v-t graph options (iii), house (viii), stone in liquid (ix), chair on cups (x), plane-mirror image and options (xiii), magnet-and-nails options (xv); items (iii), (xiii) and (xv) cannot be answered without them",
-        "Table in (x) transcribed as text",
-        "Items span several chapters (motion, laws of motion, fluid pressure, heat, light, magnetism); chapter is the main one"
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
+      "chapter": "motion-in-one-dimension",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/1i.png",
+          "kind": "FIGURE",
+          "alt": "Square with corners B (top right), C (top left), D (bottom left), A (bottom right); arrows along BC and CD, side DA dashed",
+          "width": 304,
+          "height": 317,
+          "page": 1,
+          "crop": {
+            "x": 0.77,
+            "y": 0.34,
+            "w": 0.17,
+            "h": 0.13
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
+    },
+    {
+      "number": "1",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nThe graph below represents the relationship between distance and time for an object in motion. During which interval is the speed of the object changing?",
+      "options": [
+        "BC",
+        "CD",
+        "DE",
+        "AB"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "motion-in-one-dimension",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/1ii.png",
+          "kind": "GRAPH",
+          "alt": "Distance-time graph with points A, B, C, D, E marked along the line",
+          "width": 375,
+          "height": 269,
+          "page": 1,
+          "crop": {
+            "x": 0.735,
+            "y": 0.47,
+            "w": 0.21,
+            "h": 0.11
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
+    },
+    {
+      "number": "1",
+      "part": "(iii)",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nWhich one of the following (v-t graph) does not belong to motion in one dimension",
+      "options": [
+        "Graph (a)",
+        "Graph (b)",
+        "Graph (c)",
+        "Graph (d)"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "motion-in-one-dimension",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/1iii.png",
+          "kind": "GRAPH",
+          "alt": "Four velocity-time graphs labelled (a), (b), (c) and (d), each with axes v and t",
+          "width": 946,
+          "height": 610,
+          "page": 1,
+          "crop": {
+            "x": 0.09,
+            "y": 0.615,
+            "w": 0.53,
+            "h": 0.25
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
+    },
+    {
+      "number": "1",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nInertia is responsible for all of these except:",
+      "options": [
+        "Kicking dirt off a shoe",
+        "Throwing a person against a seatbelt",
+        "Planets staying in orbit",
+        "Gravity"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "laws-of-motion",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(v)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nWhich of the following statements is / are true?\n1. Newton's first law states that F = ma\n2. Newton's third law states that every action has an equal and opposite reaction\n3. A constant force is required to cause a body to move with a constant velocity",
+      "options": [
+        "1,2 and 3",
+        "Only 2 and 3",
+        "Only 3",
+        "Only 2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "laws-of-motion",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vi)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Choose the correct answers to the questions from the given options.\nAssertion (A): The gravitational force between two bodies remains constant even if the distance between them changes, provided their masses remain the same.\nReason (R): The universal law of gravitation states that the force between two masses depends only on the product of their masses and the square of the distance between them.",
+      "options": [
+        "Both assertion and reason are true, and the reason is the correct explanation of the assertion.",
+        "Both assertion and reason are true, but the reason is not the correct explanation of the assertion.",
+        "The assertion is true, but the reason is false.",
+        "The assertion is false, but the reason is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "laws-of-motion",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(vii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nA particle is moving with a constant speed along a straight-line path. A force is not required to:",
+      "options": [
+        "increase its speed",
+        "decrease its momentum",
+        "change the direction",
+        "keep it moving with uniform velocity"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "laws-of-motion",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(viii)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nA tennis ball falls from the upstairs window of a house.\nWhat can be said about the acceleration of the ball if air resistance is ignored?",
+      "options": [
+        "It depends on the density of the ball.",
+        "It depends on the mass of the ball.",
+        "It increases as the ball falls.",
+        "It stays the same as the ball falls."
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "motion-in-one-dimension",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/1viii.png",
+          "kind": "FIGURE",
+          "alt": "Drawing of a two-storey house with a ball at an upstairs window and a downward arrow beside the wall",
+          "width": 410,
+          "height": 354,
+          "page": 2,
+          "crop": {
+            "x": 0.31,
+            "y": 0.545,
+            "w": 0.23,
+            "h": 0.145
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
+    },
+    {
+      "number": "1",
+      "part": "(ix)",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nThe diagram shows a stone suspended under the surface of a liquid from a string. The stone experiences a pressure caused by the liquid.\nWhat would increase the pressure on the stone.",
+      "options": [
+        "Decreasing the surface area of the stone",
+        "Increasing the mass of the stone",
+        "Lowering the stone deeper into the liquid",
+        "Using the liquid with a lower density"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "pressure-in-fluids",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/1ix.png",
+          "kind": "FIGURE",
+          "alt": "Beaker of liquid with a stone hanging from a string below the surface; labels string, stone, liquid",
+          "width": 500,
+          "height": 353,
+          "page": 2,
+          "crop": {
+            "x": 0.62,
+            "y": 0.815,
+            "w": 0.28,
+            "h": 0.145
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
+    },
+    {
+      "number": "1",
+      "part": "(x)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nA chair is place on protective cups to prevent damage to the carpet underneath it. How do the cups change the area of contact with the carpet and the pressure on it?\nArea of contact / pressure:",
+      "options": [
+        "decreased / decreased",
+        "decreased / increased",
+        "increased / decreased",
+        "increased / increased"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "pressure-in-fluids",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/1x.png",
+          "kind": "FIGURE",
+          "alt": "Drawing of an armchair standing on a carpet with its legs in protective cups; labels chair, carpet, protective cups",
+          "width": 500,
+          "height": 390,
+          "page": 3,
+          "crop": {
+            "x": 0.55,
+            "y": 0.075,
+            "w": 0.28,
+            "h": 0.16
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
+    },
+    {
+      "number": "1",
+      "part": "(xi)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nLina and Raj visited a science museum where they learned about heat and temperature. The guide explained, \"Temperature measures how hot or cold something is, while heat is the energy that flows from hot to cold objects.\"\nWhich of the following statements is true?",
+      "options": [
+        "Heat and temperature are the same thing.",
+        "Temperature measures how hot or cold something is, and heat is the energy transferred between objects.",
+        "Heat measures the hotness of an object, and temperature is the energy transferred.",
+        "Heat and temperature both measure the energy in an object."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "heat-and-energy",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nAn optician holds a test card 25 cm behind a patient. When the patient looks into a plane mirror in front of him, the distance between him and the image of the test card is 385 cm. What is the distance of the patient from the plane mirror?",
+      "options": [
+        "60 cm",
+        "125 cm",
+        "180 cm",
+        "235 cm"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "reflection-of-light",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xiii)",
+      "choiceGroup": null,
+      "page": 3,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nThe diagram shows the image of an object in the plane mirror.\nWhat is the actual appearance of the object?",
+      "options": [
+        "Figure (a)",
+        "Figure (b)",
+        "Figure (c)",
+        "Figure (d)"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "reflection-of-light",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/1xiii.png",
+          "kind": "FIGURE",
+          "alt": "A shape made of lines and three small black squares labelled 'image', drawn to the left of a vertical plane mirror",
+          "width": 340,
+          "height": 330,
+          "page": 3,
+          "crop": {
+            "x": 0.33,
+            "y": 0.625,
+            "w": 0.19,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/1xiii-2.png",
+          "kind": "FIGURE",
+          "alt": "Four answer shapes labelled (a), (b), (c), (d), each made of lines and three small black squares, under the line 'What is the actual appearance of the object?'",
+          "width": 1339,
+          "height": 439,
+          "page": 3,
+          "crop": {
+            "x": 0.09,
+            "y": 0.775,
+            "w": 0.75,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
+    },
+    {
+      "number": "1",
+      "part": "(xiv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nWhat condition is necessary for a real image in a concave mirror?",
+      "options": [
+        "Object smaller than its image",
+        "Object outside the focus",
+        "Object inside the focus",
+        "Object bigger than its image"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "reflection-of-light",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "(xv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs (i)-(xv)",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options.\nThe figure given below shows two iron nails attached to the end of a magnet. Choose the correct figure:",
+      "options": [
+        "Figure (a)",
+        "Figure (b)",
+        "Figure (c)",
+        "Figure (d)"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "magnetism",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/1xv.png",
+          "kind": "FIGURE",
+          "alt": "Four drawings labelled (a), (b), (c), (d), each showing the N end of a bar magnet with two iron nails hanging from it in a different arrangement",
+          "width": 483,
+          "height": 671,
+          "page": 4,
+          "crop": {
+            "x": 0.26,
+            "y": 0.205,
+            "w": 0.27,
+            "h": 0.275
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "part": "(i)(a)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (i): [6] for the group of 6 blanks (a)-(f)",
+      "marksSource": "PRINTED",
+      "type": "FILL_BLANK",
+      "text": "Complete the following by choosing the correct answers from the bracket:\nThe acceleration of an object is directly proportional to the ________ acting on it and inversely proportional to its mass. (force, velocity, displacement)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of six blanks in Question 2 (i) (group total [6]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
       "chapter": "laws-of-motion",
       "mappingStatus": "AI_SUGGESTED"
     },
     {
       "number": "2",
-      "part": "(i)",
+      "part": "(i)(b)",
       "choiceGroup": null,
       "page": 4,
       "section": "A",
       "sectionTitle": "SECTION A - Answer all the questions in this section",
-      "marks": 6,
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (i): [6] for the group of 6 blanks (a)-(f)",
       "marksSource": "PRINTED",
       "type": "FILL_BLANK",
-      "text": "Complete the following by choosing the correct answers from the bracket:\n(a) The acceleration of an object is directly proportional to the ________ acting on it and inversely proportional to its mass. (force, velocity, displacement)\n(b) When an object moves with constant velocity in a straight line, the net force acting on it is ________. (zero, maximum, minimum)\n(c) The equations of motion are valid only when the object is moving with ________ acceleration. (uniform, variable, non-uniform)\n(d) In an ideal fluid, the pressure exerted at any point is the same in all directions, as stated by ________'s law. (Archimedes, Pascal, Bernoulli)\n(e) When two perpendicular mirrors are placed at an angle of 90°, the number of images formed by a point object placed between them is ________. (two, three, four)\n(f) The magnetic field inside a solenoid is ________ compared to that of a bar magnet. (uniform, irregular, weak)",
+      "text": "Complete the following by choosing the correct answers from the bracket:\nWhen an object moves with constant velocity in a straight line, the net force acting on it is ________. (zero, maximum, minimum)",
       "hasFigure": false,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Only a group total [6] is printed for blanks (a)-(f); kept as one entry",
-        "Blanks span several chapters; chapter is the main one"
+        "Split from the printed group of six blanks in Question 2 (i) (group total [6]); text checked against the page image"
       ],
       "confidence": "MEDIUM",
       "chapter": "laws-of-motion",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)(c)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (i): [6] for the group of 6 blanks (a)-(f)",
+      "marksSource": "PRINTED",
+      "type": "FILL_BLANK",
+      "text": "Complete the following by choosing the correct answers from the bracket:\nThe equations of motion are valid only when the object is moving with ________ acceleration. (uniform, variable, non-uniform)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of six blanks in Question 2 (i) (group total [6]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "motion-in-one-dimension",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)(d)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (i): [6] for the group of 6 blanks (a)-(f)",
+      "marksSource": "PRINTED",
+      "type": "FILL_BLANK",
+      "text": "Complete the following by choosing the correct answers from the bracket:\nIn an ideal fluid, the pressure exerted at any point is the same in all directions, as stated by ________'s law. (Archimedes, Pascal, Bernoulli)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of six blanks in Question 2 (i) (group total [6]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "pressure-in-fluids",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)(e)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (i): [6] for the group of 6 blanks (a)-(f)",
+      "marksSource": "PRINTED",
+      "type": "FILL_BLANK",
+      "text": "Complete the following by choosing the correct answers from the bracket:\nWhen two perpendicular mirrors are placed at an angle of 90°, the number of images formed by a point object placed between them is ________. (two, three, four)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of six blanks in Question 2 (i) (group total [6]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "reflection-of-light",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "2",
+      "part": "(i)(f)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "A",
+      "sectionTitle": "SECTION A - Answer all the questions in this section",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (i): [6] for the group of 6 blanks (a)-(f)",
+      "marksSource": "PRINTED",
+      "type": "FILL_BLANK",
+      "text": "Complete the following by choosing the correct answers from the bracket:\nThe magnetic field inside a solenoid is ________ compared to that of a bar magnet. (uniform, irregular, weak)",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of six blanks in Question 2 (i) (group total [6]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": null,
       "mappingStatus": "AI_SUGGESTED"
     },
     {
@@ -167,12 +814,29 @@
       "text": "The following diagram shows milk being poured out of a tin.\n(a) Explain why milk does not flow out from the tin.\n(b) What could be done to make milk flow easily out of the tin?",
       "hasFigure": true,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Figure on page 5 not reproduced (labels 'Hole / lubang', 'Milk / susu')"
+        "OCR text corrected against the page image"
       ],
       "confidence": "MEDIUM",
       "chapter": "pressure-in-fluids",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/3iii.png",
+          "kind": "FIGURE",
+          "alt": "Drawing of a tilted tin with one hole pouring into a glass; labels 'Hole / lubang' and 'Milk / susu'",
+          "width": 751,
+          "height": 291,
+          "page": 5,
+          "crop": {
+            "x": 0.18,
+            "y": 0.565,
+            "w": 0.42,
+            "h": 0.12
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -206,12 +870,29 @@
       "text": "Define the terms represented as 'R' and 'C' in the following diagram.",
       "hasFigure": true,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Figure on page 5 not reproduced (spherical mirror MPM' drawn as part of a hollow glass sphere, with C, P, R and principal axis marked); needed to answer"
+        "OCR text corrected against the page image"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "reflection-of-light",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/3v.png",
+          "kind": "FIGURE",
+          "alt": "Spherical mirror MPM′ drawn as part of a dashed circle labelled 'Hollow glass'; points C and P on the line labelled 'Principal axis'; double arrow labelled R between C and P",
+          "width": 715,
+          "height": 486,
+          "page": 5,
+          "crop": {
+            "x": 0.26,
+            "y": 0.797,
+            "w": 0.4,
+            "h": 0.201
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -284,12 +965,29 @@
       "text": "Suppose a squirrel is moving at a steady speed from the base of a tree towards some nuts. It then stays in the same position for a while, eating the nuts, before returning to the tree at the same speed. A graph can be plotted with distance on the x-axis and the time on y-axis. Observe the graph carefully and answer the following questions.\n(a) Which part of the graph shows the squirrel moving away from the tree?\n(b) Name the point on the graph which is 6 m away from the base of the tree.\n(c) Which part of the graph shows that the squirrel is not moving?",
       "hasFigure": true,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Graph on page 6 not reproduced (distance-time graph with points A, B, C, D); needed to answer"
+        "OCR text corrected against the page image"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "motion-in-one-dimension",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/4ii.png",
+          "kind": "GRAPH",
+          "alt": "Squirrel-and-tree picture beside a graph of Distance (m) against Time (s) with points A, B, C, D and dashed guide lines; a handwritten mark covers the time-axis tick between 3 and 5",
+          "width": 1108,
+          "height": 586,
+          "page": 6,
+          "crop": {
+            "x": 0.34,
+            "y": 0.725,
+            "w": 0.62,
+            "h": 0.24
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "4",
@@ -324,12 +1022,29 @@
       "text": "There are four types of forces acting on an aircraft during flight, labelled as A, B, C, and D. Answer for each of force A, B, and C whether it is contact forces or a non-contact force?",
       "hasFigure": true,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Figure on page 7 not reproduced (aircraft with forces A, B, C, D); needed to answer"
+        "OCR text corrected against the page image"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "laws-of-motion",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/5i.png",
+          "kind": "FIGURE",
+          "alt": "Aircraft with four arrows labelled A (up), B (right), C (left) and D (down)",
+          "width": 447,
+          "height": 293,
+          "page": 7,
+          "crop": {
+            "x": 0.57,
+            "y": 0.165,
+            "w": 0.25,
+            "h": 0.12
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -382,12 +1097,29 @@
       "text": "State the laws of fluid pressure depicted in the following pictures.",
       "hasFigure": true,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Pictures (a), (b), (c) on page 7 not reproduced; needed to answer"
+        "OCR text corrected against the page image"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "pressure-in-fluids",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/6i.png",
+          "kind": "FIGURE",
+          "alt": "Three pictures labelled (a), (b), (c): (a) a water tank with jets of water from three holes; (b) a beaker of liquid with crossed arrows at one point; (c) a set of vessels on a common base",
+          "width": 786,
+          "height": 627,
+          "page": 7,
+          "crop": {
+            "x": 0.23,
+            "y": 0.508,
+            "w": 0.44,
+            "h": 0.257
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -441,12 +1173,29 @@
       "text": "Based on the diagram of the frozen lake, please identify which temperature corresponds to each of the points A, B, and C. The possible temperature options are: -4°C, 0°C, and 4°C.",
       "hasFigure": true,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Figure on page 8 not reproduced (frozen lake with ice layer and points A, B, C); needed to answer"
+        "OCR text corrected against the page image"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "heat-and-energy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/7i.png",
+          "kind": "FIGURE",
+          "alt": "Cross-section of a frozen lake with a top layer labelled 'Ice layer', fish and plants in the water, and points A, B and C marked",
+          "width": 553,
+          "height": 266,
+          "page": 8,
+          "crop": {
+            "x": 0.245,
+            "y": 0.119,
+            "w": 0.31,
+            "h": 0.109
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -481,12 +1230,29 @@
       "text": "From the displacement-time graph shown below. Calculate:\n(a) Average velocity in the first three seconds\n(b) Displacement from the initial position at the end of 13 second\n(c) Time after which the body is at the initial position\n(d) Average velocity after 8 second.",
       "hasFigure": true,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Graph on page 8 not reproduced (displacement in m against time in seconds); needed to answer"
+        "OCR text corrected against the page image"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "motion-in-one-dimension",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/7iii.png",
+          "kind": "GRAPH",
+          "alt": "Graph of Displacement in m (scale −8 to 8) against Time in (seconds) (0 to 17) made of straight-line segments with dotted guide lines",
+          "width": 562,
+          "height": 213,
+          "page": 8,
+          "crop": {
+            "x": 0.585,
+            "y": 0.493,
+            "w": 0.315,
+            "h": 0.087
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "8",
@@ -520,12 +1286,29 @@
       "text": "Complete the following diagrams in figure by drawing the reflected rays for the incident rays A and B to get the image.",
       "hasFigure": true,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Ray diagram on page 8 not reproduced (concave mirror with C, F and incident rays A, B); needed to answer"
+        "OCR text corrected against the page image"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "reflection-of-light",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/8ii.png",
+          "kind": "FIGURE",
+          "alt": "Concave mirror with principal axis, points C and F marked, and two incident rays labelled A and B",
+          "width": 465,
+          "height": 536,
+          "page": 8,
+          "crop": {
+            "x": 0.27,
+            "y": 0.735,
+            "w": 0.26,
+            "h": 0.22
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
@@ -597,12 +1380,45 @@
       "text": "(a) The figure shows the current flowing in the coil of wire wound around the soft iron horseshoe core. State the polarities developed at the ends A and B.\n(b) A bar magnet is broken into three parts X, Y and Z.\nRedraw the parts X, Y and Z marking the poles at the ends of each part.",
       "hasFigure": true,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Figures on page 9 not reproduced (horseshoe core with coil and current direction; bar magnet N-S broken into X, Y, Z); needed to answer"
+        "OCR text corrected against the page image"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/9iii.png",
+          "kind": "FIGURE",
+          "alt": "Horseshoe core with a coil of wire wound on both arms, arrows showing the current direction, ends labelled A and B",
+          "width": 553,
+          "height": 451,
+          "page": 9,
+          "crop": {
+            "x": 0.32,
+            "y": 0.418,
+            "w": 0.31,
+            "h": 0.185
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-feb-131225-2025/9iii-2.png",
+          "kind": "FIGURE",
+          "alt": "A bar magnet marked N and S, and below it the magnet broken into three pieces labelled X, Y and Z",
+          "width": 893,
+          "height": 256,
+          "page": 9,
+          "crop": {
+            "x": 0.16,
+            "y": 0.65,
+            "w": 0.5,
+            "h": 0.105
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

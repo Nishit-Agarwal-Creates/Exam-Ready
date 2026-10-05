@@ -1,0 +1,133 @@
+{
+  "pack": "icse-2026-x-physics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table and rendered page images (figures, crops, notation), and the marking scheme where one is published.",
+  "checks": [
+    {
+      "key": "icse-2026-x-physics-specimen#3ib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#3va",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#3vb",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#4ia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#5ia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#5ib",
+      "agree": false,
+      "reason": "The stored official answer is not verbatim: the scheme (p21) prints \"(identifying 'U' and 'f' ...)\" and \"1/v = (3−1)/24\", but the stored answer has 'u' and rewrites the fraction as \"3/24 − 1/24\".",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#5iia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#5iib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#5iic",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iib",
+      "agree": false,
+      "reason": "The stored official answer is not verbatim: the scheme (p22) prints \"metal body of appliance is earthed / I = PV = 2000/220 =9.09 A 10A fuse is appropriate\", but the stored answer adds 'The', 'the', 'a' and changes 'PV' to 'P/V'.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iiia",
+      "agree": false,
+      "reason": "The stored official answer \"Res X : Res Y = 1 : 4\" does not match the scheme (p23), which prints the ratio as \"RX : RY = 1: 4\" (the working labels are 'Rof X', 'Rof Y').",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iiib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iiic",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#8iiid",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#9iia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#9iib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#9iic",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#9iiia",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#9iiib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2026-x-physics-specimen#9iiic",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

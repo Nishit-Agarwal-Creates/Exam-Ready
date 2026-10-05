@@ -144,14 +144,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 4 (C on the circle, O on CM) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: circle figure with O, A, B, C, M cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-2-sem-mathematics-280425-2025#4c",
@@ -173,7 +183,7 @@
       "key": "icse-school-9-mathematics-icse-class-9-2-sem-mathematics-280425-2025#5a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -181,15 +191,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q5 a) (stored 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no mark is printed beside Q5 5a; recorded as NOT_PRINTED.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-2-sem-mathematics-280425-2025#5b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -197,15 +217,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q5 b) (stored 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no mark is printed beside Q5 5b; recorded as NOT_PRINTED.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-2-sem-mathematics-280425-2025#5c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -213,9 +243,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q5 c) (stored 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no mark is printed beside Q5 c); recorded as NOT_PRINTED.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-2-sem-mathematics-280425-2025#6a",
@@ -320,14 +360,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 3 defines point C (end of diameter through B); needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: circle figure with A, B, C, D, O cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-2-sem-mathematics-280425-2025#8b",

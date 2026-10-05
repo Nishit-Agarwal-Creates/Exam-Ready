@@ -565,12 +565,28 @@
       "type": "NUMERICAL",
       "text": "In the given figure, ABCD is a trapezium with angle C = 120°, DC = 28 cm and BC = 40 cm. Find: (i) AB (ii) AD (iii) The area of trapezium",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-mathematics-220922-feb-2021/11a.png",
+          "kind": "FIGURE",
+          "alt": "Trapezium ABCD with parallel sides CD and BA marked by arrows, right angles at D and A, CD = 28 cm and BC = 40 cm",
+          "width": 357,
+          "height": 281,
+          "page": 4,
+          "crop": {
+            "x": 0.415,
+            "y": 0.705,
+            "w": 0.2,
+            "h": 0.115
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "11",

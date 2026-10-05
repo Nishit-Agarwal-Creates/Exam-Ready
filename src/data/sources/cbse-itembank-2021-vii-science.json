@@ -249,15 +249,31 @@
       "type": "SHORT_ANSWER",
       "text": "Three test tubes are taken as shown in the figure above. Red litmus paper was dipped in all three test tubes to test which solution is basic in nature. Identify in which test tube the red litmus paper will change its colour to blue.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 20 not reproduced (the test tubes and their contents); the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Test tube A | Guidance: Accept ‘baking soda’"
       },
       "chapter": "exploring-substances-acidic-basic-and-neutral",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-science/Science7SPA2.png",
+          "kind": "FIGURE",
+          "alt": "Three test tubes labelled A (baking soda in water), B (distilled water) and C (lemon juice in water)",
+          "width": 607,
+          "height": 430,
+          "page": 20,
+          "crop": {
+            "x": 0.31,
+            "y": 0.405,
+            "w": 0.34,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science7SPA3",
@@ -331,15 +347,31 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the above diagram and answer the questions given below: Identify ‘A’ and ‘D’. Define ‘A’.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 24 not reproduced; the labels A and D cannot be identified without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "‘A’ is an aquifer. (1) ‘D’ is a hand pump. (1) An aquifer contains ground water which is stored between the layers of hard rock below the water table (1) | Guidance: No marks to be given if the label ‘A’ has not been identified correctly. Accept: A part of porous rock or sediment that holds ground water or saturated with ground water. (1) or words to that effect"
       },
       "chapter": "heat-transfer-in-nature",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-science/Science7VD3.png",
+          "kind": "FIGURE",
+          "alt": "Cross-section of land with clouds, rain, trees, a hand pump and a lake; labels RECHARGE, LAKE, GROUND WATER and letters E and A",
+          "width": 1400,
+          "height": 918,
+          "page": 24,
+          "crop": {
+            "x": 0.075,
+            "y": 0.46,
+            "w": 0.81,
+            "h": 0.375
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science7VD3",
@@ -353,15 +385,31 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the above diagram and answer the questions given below: Identify ‘E’. What would happen to ‘E’ if there was no rainfall at all in a particular area?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 24 not reproduced; the label E cannot be identified without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "‘E’ is the water level. (1) If there was no rainfall at all in a particular area, then the water level will go down. (1) | Guidance: Accept: water table. No marks to be given for explanation if the answer given is ‘There will be scarcity of water’. Accept: The flow of water to the water table decreases. (1)"
       },
       "chapter": "heat-transfer-in-nature",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-science/Science7VD3.png",
+          "kind": "FIGURE",
+          "alt": "Cross-section of land with clouds, rain, trees, a hand pump and a lake; labels RECHARGE, LAKE, GROUND WATER and letters E and A",
+          "width": 1400,
+          "height": 918,
+          "page": 24,
+          "crop": {
+            "x": 0.075,
+            "y": 0.46,
+            "w": 0.81,
+            "h": 0.375
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science7SPA5",
@@ -729,15 +777,32 @@
       "text": "You have to grow cucumbers on the soil where beans were grown last season. The soil is currently acidic. Identify any two crops which can be grown on the soil if the pH of the soil remains low and not treated after harvesting the beans.",
       "hasFigure": true,
       "extractionIssues": [
-        "Source on page 40 (apparently a table of crops and soil pH) is an image and is not reproduced; the mark scheme refers to it",
         "Item prints '(Total marks 5)' but its parts carry 1 + 2 marks (metadata total 3)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Any two from the table under a more acidic category."
       },
       "chapter": "exploring-substances-acidic-basic-and-neutral",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-science/Science7SZ5b.png",
+          "kind": "TABLE",
+          "alt": "Table \"Plant Preferences for pH\" listing plants under four columns: very acid (pH 5.0 to 5.8), moderately acid (pH 5.5 to 6.8), slightly acid (pH 6.0 to 6.8) and very alkaline (pH 7.0 to 8.0)",
+          "width": 767,
+          "height": 1119,
+          "page": 40,
+          "crop": {
+            "x": 0.075,
+            "y": 0.44,
+            "w": 0.43,
+            "h": 0.443
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science7DS4",
@@ -771,15 +836,31 @@
       "type": "SHORT_ANSWER",
       "text": "A student is asked to focus sunlight using two different lenses on to a paper. Observe the image carefully and answer the following questions. State the name for the shape of lenses X and Y.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 43 not reproduced (lenses X and Y); the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "X- Concave lens, Y-Convex lens (1 mark) | Guidance: Give one mark only if both the lenses are identified. Accept ‘diverging’ for concave and ‘converging’ for convex."
       },
       "chapter": "light-shadows-and-reflections-7",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-science/Science7LP5.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn diagram: sunlight passing through two lenses labelled (x) and (y) towards sheets labelled PAPER",
+          "width": 818,
+          "height": 652,
+          "page": 43,
+          "crop": {
+            "x": 0.078,
+            "y": 0.568,
+            "w": 0.458,
+            "h": 0.258
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "Science7LP5",
@@ -815,15 +896,31 @@
       "type": "LONG_ANSWER",
       "text": "A student is asked to focus sunlight using two different lenses on to a paper. Observe the image carefully and answer the following questions. Explain the changes that happen to the paper kept under both the lenses.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 43 not reproduced (lenses X and Y)"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Paper kept under Y-convex lens, will start to burn (1) as the convex lens can focus all the light to the spot on the paper. (1 mark) Paper kept under X-Concave lens will not show any changes (1) as the concave lens diverges the light rays falling on it. (1 mark) | Guidance: Must be clear that observation or explanation applies to correct lens."
       },
       "chapter": "light-shadows-and-reflections-7",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-science/Science7LP5.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn diagram: sunlight passing through two lenses labelled (x) and (y) towards sheets labelled PAPER",
+          "width": 818,
+          "height": 652,
+          "page": 43,
+          "crop": {
+            "x": 0.078,
+            "y": 0.568,
+            "w": 0.458,
+            "h": 0.258
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "Science7LP5",
@@ -1333,15 +1430,31 @@
       "type": "SHORT_ANSWER",
       "text": "Explain the outcome of the above experiment",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 67 not reproduced (the experiment); the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "When heated, the metal in the ring expands (1) This means the ball no longer fits through the hole (1) | Guidance: Accept alternative wording if idea of expansion and fit are included."
       },
       "chapter": "heat-transfer-in-nature",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-science/Science7DS7a.png",
+          "kind": "FIGURE",
+          "alt": "Gravesand's ball and ring experiment: (a) after cooling and (b) after heating, each with a ring on a stand and a metal ball on a chain",
+          "width": 1400,
+          "height": 743,
+          "page": 67,
+          "crop": {
+            "x": 0.08,
+            "y": 0.51,
+            "w": 0.8,
+            "h": 0.3
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science7DS7",
@@ -1650,16 +1763,32 @@
         "Snake"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 79 not reproduced (a food chain/web); the question cannot be answered reliably without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Option C. | Guidance: Accept option C or Snake",
         "correctOption": 2
       },
       "chapter": "life-processes-in-animals",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-science/Science7EVR1.png",
+          "kind": "FIGURE",
+          "alt": "Food web of pictured organisms (Hawk, Snake, Bird, Lizard, Snail, Grasshopper, Grass) linked by arrows",
+          "width": 1036,
+          "height": 998,
+          "page": 79,
+          "crop": {
+            "x": 0.078,
+            "y": 0.408,
+            "w": 0.58,
+            "h": 0.395
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science7ARP6",
@@ -2119,15 +2248,31 @@
       "type": "SHORT_ANSWER",
       "text": "State the function of the vascular tissue labelled as A in the above figure?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 100 not reproduced; the tissue labelled A cannot be identified without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "It transports water and nutrients from the roots to ariel parts of the plant. | Guidance: Award 1M even if student mentions: Carries water or nutrients or both"
       },
       "chapter": "life-processes-in-plants",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-science/Science7EVR2.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a tree with arrowed lines running through the trunk and two tissues labelled A and B",
+          "width": 857,
+          "height": 708,
+          "page": 100,
+          "crop": {
+            "x": 0.24,
+            "y": 0.435,
+            "w": 0.48,
+            "h": 0.28
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science7ARP3",
@@ -2183,16 +2328,31 @@
       "type": "SHORT_ANSWER",
       "text": "‘Breathing rate’ means the number of times a person breathes per minute. During breathing, inhalation and exhalation take place alternately. One inhalation plus one exhalation completes a single breath. A teacher in the class assigned two students a task to compare the effect of physical activities on pulse rate. Students carried out a practical activity and collected class data. From this, they produced the graph above, which contains data at rest, brisk walking and fast running. Describe and explain the results of the investigation.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph (pulse rate of Student 1 and Student 2 at rest, walking and running) on page 102 not reproduced",
-        "The question cannot be answered without the graph"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "The two students got similar results (1) Because following similar method (1) And same age/sex (1) The pulse rate increases with more vigorous exercise (1) Because need for more oxygen (1) (Max 2 marks) | Guidance: Physical activities increase pulse rate."
       },
       "chapter": "life-processes-in-animals",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-science/Science7ARP3c.png",
+          "kind": "GRAPH",
+          "alt": "Line graph of pulse rate (60 to 120) for Student 1 and Student 2 across Rest, Walking and Running",
+          "width": 1232,
+          "height": 728,
+          "page": 102,
+          "crop": {
+            "x": 0.13,
+            "y": 0.583,
+            "w": 0.69,
+            "h": 0.288
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science7ARP3",

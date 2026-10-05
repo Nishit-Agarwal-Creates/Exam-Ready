@@ -1,0 +1,25 @@
+{
+  "pack": "cbse-2023-x-science-31-2-1",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the page render (5 % grid) and the marking scheme / answer key where the pack has one; recovered figures compared with the original page.",
+  "checks": [
+    {
+      "key": "cbse-2023-x-science-31-2-1#9",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-2023-x-science-31-2-1#37",
+      "agree": false,
+      "reason": "The question text now matches page 23/25, but the stored official answer rewords the marking scheme: the scheme prints \"Lemon juice being acidic react with copper oxide and the salt formed is washed away\" and \"Animals and plants defend themselves through change in pH\" / \"when pH of river water becomes low\", stored as \"being acidic, reacts with the copper oxide\", \"through a change in pH\" and \"when the pH\".",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-2023-x-science-31-2-1#38",
+      "agree": false,
+      "reason": "The stored official answer rewords the marking scheme: the scheme prints \"sugar solution provides nutrients for growth and multiplication whereas water does not do.\" and \"Leishmania – Binary fission ; Plasmodium – Multiple fission\", stored as \"..., whereas water does not.\" and \"binary fission; ... multiple fission\".",
+      "round": "p51-fix"
+    }
+  ]
+}

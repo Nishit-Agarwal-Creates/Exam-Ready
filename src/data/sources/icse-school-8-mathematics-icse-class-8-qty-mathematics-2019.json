@@ -62,12 +62,13 @@
       "text": "Find the values of the letters in each of the following and give reasons for the steps involved.\n  1 2 A\n+ 6 A B\n  A 0 9\n\n  A B\n  X 5\nC A B",
       "hasFigure": false,
       "extractionIssues": [
-        "No marks printed",
         "Column additions/multiplications laid out as text rows from the page image; check against the PDF"
       ],
       "confidence": "LOW",
       "chapter": "playing-with-numbers",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "1",
@@ -82,12 +83,13 @@
       "text": "Evaluate : ∛(216 x -343)",
       "hasFigure": false,
       "extractionIssues": [
-        "No marks printed",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "LOW",
       "chapter": "cubes-cube-roots",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "1",
@@ -101,12 +103,12 @@
       "type": "SHORT_ANSWER",
       "text": "Find the smallest number by which 12748 be multiplied so that the product is a perfect square.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "squares-square-roots",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "2",
@@ -362,19 +364,57 @@
     },
     {
       "number": "5",
-      "part": "b.",
       "choiceGroup": null,
       "page": 2,
       "section": "B",
       "sectionTitle": null,
-      "marks": 3,
+      "part": "b. i.",
+      "marks": 0,
       "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q5 b.: one (3) printed, beside iii only, for i-iii",
       "type": "SHORT_ANSWER",
-      "text": "i. Check the divisibility of the following numbers by 4 or 8 i. 47596 ii. 593024\nii. Write a pythogoreon triplet whose one number is 63.\niii. How many natural numbers lie between square of 90 and 91.",
+      "text": "Check the divisibility of the following numbers by 4 or 8\ni. 47596 ii. 593024",
       "hasFigure": false,
-      "extractionIssues": [
-        "Part b. continues from printed page 2 to printed page 3; the single mark (3) is printed beside iii."
-      ],
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "playing-with-numbers",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "B",
+      "sectionTitle": null,
+      "part": "b. ii.",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q5 b.: one (3) printed, beside iii only, for i-iii",
+      "type": "SHORT_ANSWER",
+      "text": "Write a pythogoreon triplet whose one number is 63.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "squares-square-roots",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "5",
+      "choiceGroup": null,
+      "page": 2,
+      "section": "B",
+      "sectionTitle": null,
+      "part": "b. iii.",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q5 b.: one (3) printed, beside iii only, for i-iii",
+      "type": "SHORT_ANSWER",
+      "text": "How many natural numbers lie between square of 90 and 91.",
+      "hasFigure": false,
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "squares-square-roots",
       "mappingStatus": "AI_SUGGESTED"
@@ -391,12 +431,12 @@
       "type": "SHORT_ANSWER",
       "text": "Find the least number that must be subtracted from 23497 to make it a perfect square.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "squares-square-roots",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "6",
@@ -411,12 +451,13 @@
       "text": "Name the multiplication property of rational numbers shown below :\ni. -7/12 x 5/8 = 5/8 x -7/12 ii. 3/4 x (-4/5 + 5/6) = 3/4 x -4/5 + 3/4 x 5/6",
       "hasFigure": false,
       "extractionIssues": [
-        "No marks printed",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "LOW",
       "chapter": "rational-numbers",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "6",
@@ -602,13 +643,30 @@
       "type": "SHORT_ANSWER",
       "text": "In the given figure, ABCD is a parallelogram. Find the values of y and z.",
       "hasFigure": true,
-      "extractionIssues": [
-        "No marks printed",
-        "Figure on page 1 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-qty-mathematics-2019/8b.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn parallelogram ABCD with diagonal AC extended beyond C; angles marked 50°, z, 102° and Y; arrow marks on opposite sides",
+          "width": 427,
+          "height": 303,
+          "page": 1,
+          "crop": {
+            "x": 0.265,
+            "y": 0.04,
+            "w": 0.18,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "8",
@@ -735,13 +793,31 @@
       "text": "ABCD is a rectangle. If ∠BPC = 124° calculate : i. ∠BAP ii. ∠ADP",
       "hasFigure": true,
       "extractionIssues": [
-        "No marks printed",
-        "Figure on page 1 not reproduced",
         "Angle sign printed as 'L'; written as ∠"
       ],
       "confidence": "LOW",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-qty-mathematics-2019/10c.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn rectangle ABCD with diagonals meeting at P; angle 124° marked at P",
+          "width": 403,
+          "height": 229,
+          "page": 1,
+          "crop": {
+            "x": 0.185,
+            "y": 0.765,
+            "w": 0.17,
+            "h": 0.125
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     }
   ]
 }

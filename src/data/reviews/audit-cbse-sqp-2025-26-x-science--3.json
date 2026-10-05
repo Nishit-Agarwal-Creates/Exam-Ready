@@ -1,0 +1,13 @@
+{
+  "pack": "cbse-sqp-2025-26-x-science",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked the current pack content against renders of the original PDF pages (page.py grid/crop, zoomed) and pdftotext -layout/-raw, the marking scheme / answer key where one exists, the published figure PNGs and the chapter summaries.",
+  "checks": [
+    {
+      "key": "cbse-sqp-2025-26-x-science#36",
+      "agree": false,
+      "reason": "The stored official answer is not verbatim: Science-MS page 9 begins part (i) with \"Show that the cross-sectional area of the wire is about 5 x 10⁻⁷ m².\" before \"The cross-sectional are A ...\", and that line is dropped.",
+      "round": "p51-fix"
+    }
+  ]
+}

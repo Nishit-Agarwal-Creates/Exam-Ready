@@ -1,0 +1,23 @@
+{
+  "pack": "isc-2027-xii-chemistry-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF (paper and answer key in one file, sha256 confirmed) with pdftotext -layout and -raw and 3x page renders/crops of the paper and key pages.",
+  "checks": [
+    { "key": "isc-2027-xii-chemistry-specimen#4ii", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#6i", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#6ii", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#7i", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#7ii", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#8", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#15i", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#15ii", "agree": false, "reason": "The official answer is not verbatim: the key (p16) prints 'can easily take place in the crystal lattice', but the pack says 'can easily take the place in the crystal lattice'.", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#15iii", "agree": false, "reason": "The official answer leaves out the key's opening sentence 'Potassium dichromate (K2Cr2O7) acts as a powerful oxidising agent in acidic medium.' (p16), so it is not the scheme text exactly.", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#16i", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#16ii", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#16iii", "agree": false, "reason": "The key (p16) prints the misprint 'Rickets – Vitamn D', but the pack silently corrects it to 'Vitamin D'; scheme misprints must be kept as printed.", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#18i", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#18ii", "agree": false, "reason": "The key's answer (p17) is drawn with benzene-ring structures (NH2, N2+Cl-, Br on rings), but the pack rewrites it as unprinted linear formulae ('NH2-C6H5 ... Br-C6H5') and marks the answer MATCH instead of PARTIAL.", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#18iii", "agree": true, "reason": "", "round": "p51-fix" },
+    { "key": "isc-2027-xii-chemistry-specimen#21ii", "agree": true, "reason": "", "round": "p51-fix" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pack": "cbse-itembank-2021-x-science",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout and -raw, page renders (pypdfium2) for notation and figures, and the marking scheme; figure PNGs opened and edge-checked.",
+  "checks": [
+    {
+      "key": "cbse-itembank-2021-x-science#Science10YP41aiii",
+      "agree": false,
+      "reason": "The item says \"Using your answer in (a)(ii) in the lens equation\" but the stored text does not include the printed text of part (a)(ii) (\"Use your value of M to determine the ratio of the image distance v to the object distance u\"), so the sub-part refers to a part it does not contain.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-itembank-2021-x-science#Science10DP41bii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-itembank-2021-x-science#Science10DP41cii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

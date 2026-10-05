@@ -425,12 +425,28 @@
       "type": "CASE_BASED",
       "text": "Study the graph given below and answer the questions that follow:\n(i) In the absence of predators which one of the two curves would appropriately depict the prey population? Give a reason.\n(ii) Time has been shown on X-axis and there is a parallel dotted line shown above. Explain the significance of this dotted line.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph on page 3 (population density N against time T, curves a and b, dotted line) not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "organisms-and-populations",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2020-xii-biology/3.png",
+          "kind": "GRAPH",
+          "alt": "Graph of population density (N) against time (T) with two curves labelled a and b and a horizontal dotted line",
+          "width": 384,
+          "height": 328,
+          "page": 3,
+          "crop": {
+            "x": 0.345,
+            "y": 0.435,
+            "w": 0.215,
+            "h": 0.13
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",

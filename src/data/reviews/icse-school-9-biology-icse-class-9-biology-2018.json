@@ -160,14 +160,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Skin diagram on page 3 (parts 1-9) is needed to answer.",
-      "notes": "3 (i)(a) [4]. Text checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "3 (i)(a) [4]. Text checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: skin diagram printed beside Q3(i)(a)/(b); cropped (scanned line art with faint site watermark; numbers 1-9 legible).",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-2018#3ib",
@@ -176,14 +186,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Skin diagram on page 3 (parts 2, 3, 4, 9) is needed to answer.",
-      "notes": "3 (i)(b) [4]. Text checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "3 (i)(b) [4]. Text checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: skin diagram printed beside Q3(i)(a)/(b); cropped (scanned line art with faint site watermark; numbers 1-9 legible).",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-2018#3ii",

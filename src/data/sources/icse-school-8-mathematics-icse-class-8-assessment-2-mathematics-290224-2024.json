@@ -130,12 +130,28 @@
       "type": "SHORT_ANSWER",
       "text": "The pie diagram given below shows the expenditure during a month on various items made by an officer in his family, earning Rs. 12000 per month.\nRead the pie – diagram carefully and answer the followings:-\na) How much does he spend on food ?\nb) How much does he spend on education ?\nc) What percentage of his income is spent on house rent ?\nd) How much does he spend on miscellaneous items ?\ne) What is the ratio of expenditure on clothing to that on education ?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (pie diagram) on page 2 not reproduced; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "data-handling",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-assessment-2-mathematics-290224-2024/A5i.png",
+          "kind": "FIGURE",
+          "alt": "Pie diagram with sectors labelled House rent, Clothing, Food, Education and Misc., and central angles 90°, 60°, 135°, 30° and 45° marked near the centre",
+          "width": 642,
+          "height": 398,
+          "page": 2,
+          "crop": {
+            "x": 0.32,
+            "y": 0.705,
+            "w": 0.36,
+            "h": 0.163
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "A5",

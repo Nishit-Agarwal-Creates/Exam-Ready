@@ -552,15 +552,31 @@
       "type": "SHORT_ANSWER",
       "text": "The figure above shows the effect of the ozone layer in the Earth’s atmosphere on radiation from the Sun. In recent decades, damage to the ozone layer due to human activity has been observed. Using the information shown in the figure, describe the effect of the ozone layer on the Sun’s radiation.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 38 not reproduced (it does not appear in the text layer)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "UVA is transmitted; UVB is partially absorbed / partially transmitted; UVC is absorbed; Guidance: ALLOW passes through; ALLOW some UVB passes through"
       },
       "chapter": "earth-as-a-system-energy-matter-and-life",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9SD4a.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of the Sun, the Earth and the ozone layer, with arrows labelled UVA, UVB and UVC from the Sun towards the Earth",
+          "width": 482,
+          "height": 490,
+          "page": 37,
+          "crop": {
+            "x": 0.341,
+            "y": 0.73,
+            "w": 0.27,
+            "h": 0.194
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9SD4",
@@ -710,16 +726,31 @@
       "type": "LONG_ANSWER",
       "text": "Fig. 2 shows a chemical process in the Earth’s upper atmosphere. Describe this process and explain why it has important consequences for human health.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 42 not reproduced",
-        "Subscripts flattened: O2 (in the mark scheme)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "Indicative Science (ALLOW Max 3 from each list) Description of process • Ozone formation • UV breaks O2 bond • UV provides energy to break O2 bond • O + O2 combine/react Consequences • Ozone also absorbs UV • Reduces UV reaching lower atmosphere • Reduces risk of cancer/cataracts in humans (Marked by level of response, levels 0–4.)"
+        "text": "Indicative Science (ALLOW Max 3 from each list) Description of process • Ozone formation • UV breaks O₂ bond • UV provides energy to break O₂ bond • O + O₂ combine/react Consequences • Ozone also absorbs UV • Reduces UV reaching lower atmosphere • Reduces risk of cancer/cataracts in humans (Marked by level of response, levels 0–4.)"
       },
       "chapter": "earth-as-a-system-energy-matter-and-life",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9TS4d.png",
+          "kind": "FIGURE",
+          "alt": "Fig. 2: diagram of a process in the upper atmosphere involving the Sun’s UV light and oxygen, with a printed equation",
+          "width": 857,
+          "height": 694,
+          "page": 42,
+          "crop": {
+            "x": 0.205,
+            "y": 0.075,
+            "w": 0.48,
+            "h": 0.275
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9PK5",
@@ -788,20 +819,22 @@
       "page": 48,
       "section": null,
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "This question is about moles. The relative atomic mass of helium is 4. Calculate the number of moles in 52g of Helium.",
       "hasFigure": false,
       "extractionIssues": [
-        "The PDF prints (2 marks) for (b)(i) and (b)(ii) together; 1 mark each assumed from the item metadata (Science9PS41b, 2 marks)"
+        "The PDF prints one (2 marks) after (b)(ii) (top of p49) for (b)(i) and (b)(ii) together; no per-part mark is printed."
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "13;"
       },
       "chapter": "atomic-foundations-of-matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1 (b): (2 marks) for (i) and (ii)"
     },
     {
       "number": "Science9PS4",
@@ -810,21 +843,23 @@
       "page": 48,
       "section": null,
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "This question is about moles. Avogadro’s number = 6.0221409 x 1023 Calculate the number of moles of helium in 12.044 x 1023 atoms.",
       "hasFigure": false,
       "extractionIssues": [
         "Superscripts flattened: 6.0221409 x 1023 and 12.044 x 1023 mean × 10^23",
-        "The PDF prints (2 marks) for (b)(i) and (b)(ii) together; 1 mark each assumed from the item metadata (Science9PS41b, 2 marks)"
+        "The PDF prints one (2 marks) after (b)(ii) (top of p49) for (b)(i) and (b)(ii) together; no per-part mark is printed."
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "2;"
       },
       "chapter": "atomic-foundations-of-matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1 (b): (2 marks) for (i) and (ii)"
     },
     {
       "number": "Science9PS4",
@@ -838,15 +873,31 @@
       "type": "SHORT_ANSWER",
       "text": "Magnesium is in Group 2 and Period 3 of the Periodic Table. Complete Fig. 1 to show the arrangement of the electrons around the nucleus, N, of the magnesium atom.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 49 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "3 shells; 12 electrons; Electron distribution: 2, 8, 2"
       },
       "chapter": "journey-inside-the-atom",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9PS4c.png",
+          "kind": "FIGURE",
+          "alt": "Fig. 1: empty box with a nucleus marked N, for the student to complete",
+          "width": 696,
+          "height": 417,
+          "page": 49,
+          "crop": {
+            "x": 0.32,
+            "y": 0.49,
+            "w": 0.39,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9PS4",
@@ -860,15 +911,47 @@
       "type": "LONG_ANSWER",
       "text": "Fig. 2 shows the categories used to describe air quality. These categories are in different ranges between 0 to 500. Fig. 3 shows how the air quality varies on an average Monday in Delhi. Source: iqair.com, accessed 4/5/21 Discuss the data and the impact of air pollution on human health.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figures (Fig. 2 and Fig. 3) on pages 49-50 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Indicative Science (ALLOW Max 2 marks from each list.) Relating to use of data: • Hazardous between 6 and 9 am • Hazardous between 8 and 10 pm • Moderate between 2 and 4 pm • Unhealthy between midnight and 5am (ALLOW explanation e.g. Due to high traffic volume (as people go to work/school)) Relating to impact on human health: • Respiratory conditions / COPD / Asthma • Reduced life expectancy • Chronic fatigue • Cardiovascular disease • Cancer • Birth defects • Increased burden on health service"
       },
       "chapter": "earth-as-a-system-energy-matter-and-life",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9PS4d.png",
+          "kind": "TABLE",
+          "alt": "Fig. 2: Air Quality Index - Particulate Matter categories with index ranges from 0-50 to 301-500",
+          "width": 455,
+          "height": 359,
+          "page": 49,
+          "crop": {
+            "x": 0.39,
+            "y": 0.782,
+            "w": 0.255,
+            "h": 0.142
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9PS4d-2.png",
+          "kind": "GRAPH",
+          "alt": "Fig. 3: bar chart of air quality index (0 to 500) through an average Monday in Delhi, time axis marked Sun 22:30, Mon 08:30 and Mon 18:30; source iqair.com",
+          "width": 1312,
+          "height": 847,
+          "page": 50,
+          "crop": {
+            "x": 0.145,
+            "y": 0.522,
+            "w": 0.735,
+            "h": 0.335
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9RK4",
@@ -949,15 +1032,31 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram shows a satellite travelling in uniform circular motion around the Earth. The satellite is kept in orbit by a force. On the diagram draw an arrow to show the direction of this force.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram on page 57 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "from centre of satellite to centre of Earth;"
       },
       "chapter": "how-forces-affect-motion",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9RK31bi.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a satellite on a circular orbit around the Earth",
+          "width": 999,
+          "height": 821,
+          "page": 57,
+          "crop": {
+            "x": 0.145,
+            "y": 0.495,
+            "w": 0.56,
+            "h": 0.325
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9RK31",
@@ -1016,7 +1115,6 @@
       "text": "Fig. 1 shows a fractional distillation column. Raw material is heated to a temperature of 350 °C. At this temperature the raw material is a vapour. It separates into liquid fractions at A, B and C. Explain why heating the raw material to a vapour enables it to separate into fractions as the vapour moves up the column.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 62 not reproduced",
         "Part labels 1(a)(i)-(iii) and marks are jumbled in the PDF text layout on page 62; assigned from the mark scheme and item metadata"
       ],
       "confidence": "MEDIUM",
@@ -1024,7 +1122,25 @@
         "text": "(Fractions A B C have...) different boiling points; A has the lowest boiling point or C has the highest boiling point; A condenses at a lower temperature than C or A is still a gas when C condenses; Guidance: ALLOW ‘becomes liquid’"
       },
       "chapter": "exploring-mixtures-and-their-separation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9MB4ai.png",
+          "kind": "FIGURE",
+          "alt": "Fig 1: fractional distillation column with raw material entering at the bottom and outlets labelled A, B and C",
+          "width": 750,
+          "height": 783,
+          "page": 61,
+          "crop": {
+            "x": 0.078,
+            "y": 0.436,
+            "w": 0.42,
+            "h": 0.31
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9MB4",
@@ -1107,15 +1223,31 @@
       "type": "LONG_ANSWER",
       "text": "Fig. 2 shows part of the water cycle. i. Identify the processes at A, D, F and G. ii. State one cause of eutrophication at C. iii. Suggest what must happen between the city at E and the ocean.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 62 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Indicative Science: (ALLOW ½ marks) i. A – Precipitation B – Transpiration C – Evaporation D – Condensation And i. Nitrates wash in from B ii. Sewage treatment (Marked by level of response, levels 0–4.)"
       },
       "chapter": "earth-as-a-system-energy-matter-and-life",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9MB4b.png",
+          "kind": "FIGURE",
+          "alt": "Fig 2: water-cycle diagram with clouds, land, a city and the ocean, points labelled A to G",
+          "width": 1400,
+          "height": 540,
+          "page": 62,
+          "crop": {
+            "x": 0.075,
+            "y": 0.086,
+            "w": 0.8,
+            "h": 0.218
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9RK5",
@@ -1129,16 +1261,31 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram represents the waveform of a soundwave. Determine the amplitude of the wave.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (waveform) on page 67 not reproduced",
-        "The waveform diagram does not appear in the text layer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "4 (cm);"
       },
       "chapter": "sound-waves-characteristics-and-applications",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9RK5a.png",
+          "kind": "GRAPH",
+          "alt": "Waveform graph: amplitude (cm) against distance (cm), distance axis marked 0 to 40, with λ marked between two crests",
+          "width": 1089,
+          "height": 576,
+          "page": 66,
+          "crop": {
+            "x": 0.08,
+            "y": 0.547,
+            "w": 0.61,
+            "h": 0.228
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9RK5",
@@ -1152,15 +1299,31 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram represents the waveform of a soundwave. Determine the wavelength of the wave.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (waveform) on page 67 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "20 (cm);"
       },
       "chapter": "sound-waves-characteristics-and-applications",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9RK5b.png",
+          "kind": "GRAPH",
+          "alt": "Waveform graph: amplitude (cm) against distance (cm), distance axis marked 0 to 40, with λ marked between two crests",
+          "width": 1089,
+          "height": 576,
+          "page": 66,
+          "crop": {
+            "x": 0.08,
+            "y": 0.547,
+            "w": 0.61,
+            "h": 0.228
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9RK5",
@@ -1197,7 +1360,6 @@
       "text": "The diagram represents the waveform of a soundwave. The frequency of the wave is 200 Hz (200 waves per second) Using your answer in (b), calculate the velocity of the wave in metres per second.",
       "hasFigure": true,
       "extractionIssues": [
-        "Diagram (waveform) on page 67 not reproduced",
         "Item metadata gives 2 marks for this part; the question prints (3 marks), used here",
         "Symbol possibly lost in the mark scheme: 'v=f l' (likely λ)"
       ],
@@ -1206,7 +1368,25 @@
         "text": "40 m/s (award all 3 marks); conversion of 20 cm to 0.2 m; substitution in v=f l or 200 x 20 Guidance: ALLOW ecf using answer (b); ALLOW 2 marks for 4000 m/s"
       },
       "chapter": "sound-waves-characteristics-and-applications",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9RK5cii.png",
+          "kind": "GRAPH",
+          "alt": "Waveform graph: amplitude (cm) against distance (cm), distance axis marked 0 to 40, with λ marked between two crests",
+          "width": 1089,
+          "height": 576,
+          "page": 66,
+          "crop": {
+            "x": 0.08,
+            "y": 0.547,
+            "w": 0.61,
+            "h": 0.228
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9TP3",
@@ -1671,15 +1851,31 @@
       "type": "SHORT_ANSWER",
       "text": "This question is about forces and motion. Fig. 1 is the speed-time graph of a journey. Describe the journey between point A and point D.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph (Fig. 1) on page 87 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "A-B – acceleration; B-C – constant speed; C-D – deceleration; Detail in description – e.g. • A-B non-uniform acceleration • increasing rate of acceleration from A • decreasing rate of acceleration towards B • more time for speed to change between A and B than C and D"
       },
       "chapter": "describing-motion-around-us",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9TP4d.png",
+          "kind": "GRAPH",
+          "alt": "Fig. 1: speed (m/s) against time (s) graph with points A, B, C and D",
+          "width": 536,
+          "height": 569,
+          "page": 87,
+          "crop": {
+            "x": 0.32,
+            "y": 0.08,
+            "w": 0.3,
+            "h": 0.225
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9TP4",
@@ -1737,15 +1933,31 @@
       "type": "SHORT_ANSWER",
       "text": "Explain why the reading on the force-meter is a constant 100N.",
       "hasFigure": true,
-      "extractionIssues": [
-        "The figure this question relies on (force-meter set-up) does not appear in the text layer on page 92; not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Balanced forces or forces are equal in size and opposite in direction;"
       },
       "chapter": "how-forces-affect-motion",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9SD1.png",
+          "kind": "FIGURE",
+          "alt": "Two people pulling on a force-meter in opposite directions, each force marked 100 N and the meter reading marked 100 N",
+          "width": 848,
+          "height": 594,
+          "page": 92,
+          "crop": {
+            "x": 0.09,
+            "y": 0.465,
+            "w": 0.475,
+            "h": 0.235
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9RK1",
@@ -1765,16 +1977,32 @@
         "22 N"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram on page 94 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "A",
         "correctOption": 0
       },
       "chapter": "how-forces-affect-motion",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9RK1.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a block with four force arrows labelled 10N, 2N, 5N and 5N",
+          "width": 589,
+          "height": 416,
+          "page": 94,
+          "crop": {
+            "x": 0.29,
+            "y": 0.445,
+            "w": 0.33,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9SD5",
@@ -1810,15 +2038,31 @@
       "type": "SHORT_ANSWER",
       "text": "On Fig. 2 draw arrows to show how the ship uses sonar to detect the shoal of fish.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 101 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Arrow with direction from boat to shoal; reflection arrow from shoal to boat; Guidance: ALLOW vertical arrows; IGNORE angles"
       },
       "chapter": "sound-waves-characteristics-and-applications",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9SD5b.png",
+          "kind": "FIGURE",
+          "alt": "Figure 2: a ship on the sea surface with a shoal of fish below",
+          "width": 1071,
+          "height": 784,
+          "page": 101,
+          "crop": {
+            "x": 0.075,
+            "y": 0.09,
+            "w": 0.6,
+            "h": 0.31
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9PK1",
@@ -1877,15 +2121,31 @@
       "type": "SHORT_ANSWER",
       "text": "A simple pendulum is released at position A and swings to position C as shown in Fig. 1 One complete oscillation is when the pendulum swings from A to C and then returns to A. Describe the transfer of energy between A and B.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 106 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "From gravitational potential energy; to kinetic energy;"
       },
       "chapter": "work-energy-and-simple-machines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9SD3b.png",
+          "kind": "FIGURE",
+          "alt": "Fig. 1: simple pendulum shown at positions A, B and C",
+          "width": 589,
+          "height": 506,
+          "page": 106,
+          "crop": {
+            "x": 0.3,
+            "y": 0.31,
+            "w": 0.33,
+            "h": 0.2
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9SD3",
@@ -1899,15 +2159,47 @@
       "type": "LONG_ANSWER",
       "text": "A simple pendulum is released at position A and swings to position C as shown in Fig. 1 One complete oscillation is when the pendulum swings from A to C and then returns to A. At position C, the pendulum changes direction and returns towards position A. The pendulum does not reach its original starting position A. Fig. 2 shows how the amplitude of the oscillation decreases with each oscillation. On Fig. 2, label the starting position Point A. Describe and explain the oscillation of the pendulum .",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figures (Fig. 1 on page 106 and Fig. 2 on page 107) not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Descriptions: • ‘A’ labelled at top of first wave crest; • Amplitude decreases; • Frequency constant; • Five full oscillations shown; Explanations: • Friction (with air) / air resistance; • Energy transferred as heat / thermal energy; Guidance: ALLOW 3 max. if no explanations; ALLOW ‘lost’ for transferred"
       },
       "chapter": "work-energy-and-simple-machines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9SD3c.png",
+          "kind": "FIGURE",
+          "alt": "Fig. 1: simple pendulum shown at positions A, B and C",
+          "width": 589,
+          "height": 506,
+          "page": 106,
+          "crop": {
+            "x": 0.3,
+            "y": 0.31,
+            "w": 0.33,
+            "h": 0.2
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9SD3c-2.png",
+          "kind": "GRAPH",
+          "alt": "Fig. 2: graph of amplitude against time (s) for the pendulum's oscillation",
+          "width": 999,
+          "height": 670,
+          "page": 107,
+          "crop": {
+            "x": 0.165,
+            "y": 0.2,
+            "w": 0.56,
+            "h": 0.265
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9SD2",
@@ -1919,18 +2211,33 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "Fig.1 shows two trolleys accelerating towards each other. Calculate: i. The acceleration of Trolley 1 ….......... m/s2 ii. The mass of Trolley 2 ….......... kg",
+      "text": "Fig.1 shows two trolleys accelerating towards each other. Calculate: i. The acceleration of Trolley 1 ….......... m/s² ii. The mass of Trolley 2 ….......... kg",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 109 not reproduced",
-        "Superscripts flattened: m/s2 (m/s²)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "If final answers are 4.8 and 4 award 3 marks Recall of F = ma; One substitution in a rearranged equation: 1 - 12/2.5 or 8/2 ;"
       },
       "chapter": "how-forces-affect-motion",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9SD2.png",
+          "kind": "FIGURE",
+          "alt": "Fig. 1: two trolleys moving towards each other, with forces, a mass and an acceleration marked",
+          "width": 821,
+          "height": 530,
+          "page": 109,
+          "crop": {
+            "x": 0.25,
+            "y": 0.715,
+            "w": 0.46,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9RK2",
@@ -2229,16 +2536,32 @@
         "Solid, liquid and gas"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph on page 126 not reproduced (it does not appear in the text layer)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "D",
         "correctOption": 3
       },
       "chapter": "sound-waves-characteristics-and-applications",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9NB2.png",
+          "kind": "GRAPH",
+          "alt": "Graph across three regions labelled Medium I, Medium II and Medium III",
+          "width": 643,
+          "height": 379,
+          "page": 126,
+          "crop": {
+            "x": 0.17,
+            "y": 0.245,
+            "w": 0.36,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9PS1",
@@ -3056,16 +3379,32 @@
         "Diagram 4"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figures (Diagrams 1-4) on page 163 not reproduced (they do not appear in the text layer)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "B",
         "correctOption": 1
       },
       "chapter": "patterns-in-life-diversity-and-classification",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9DS1.png",
+          "kind": "FIGURE",
+          "alt": "Four boxed drawings numbered 1 to 4, each showing a flower with a leaf or roots",
+          "width": 1400,
+          "height": 303,
+          "page": 163,
+          "crop": {
+            "x": 0.085,
+            "y": 0.477,
+            "w": 0.8,
+            "h": 0.122
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9DS2",
@@ -3143,16 +3482,32 @@
         "B – Dendrite C – Cell body D – Axon E – Nerve ending."
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram of a neuron on page 169 not reproduced (it does not appear in the text layer)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "D",
         "correctOption": 3
       },
       "chapter": "tissues-in-action",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9ML2.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a neuron with parts labelled A to E",
+          "width": 697,
+          "height": 745,
+          "page": 168,
+          "crop": {
+            "x": 0.105,
+            "y": 0.495,
+            "w": 0.39,
+            "h": 0.295
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science9DT3",
@@ -3215,15 +3570,31 @@
       "type": "SHORT_ANSWER",
       "text": "Fig. 1 shows a plant cell. Name the parts of the cell labelled A to E and describe their functions.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (Fig. 1, plant cell labelled A-E) on page 171 not reproduced; only the labels appear in the text layer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Indicative points: • D nucleus • – stores DNA / controls functions E vacuole • – stores sap / food • A cell wall • – rigidity B cell membrane • – diffusion in/out of cell • C chloroplast • – traps light/photosynthesis Guidance: Award 2 marks for 3 or more structures identified; Award 2 marks for 3 or more functions described"
       },
       "chapter": "cell-the-building-block-of-life",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-ix-science/Science9DT3c.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1: diagram of a plant cell with parts labelled A to E",
+          "width": 973,
+          "height": 720,
+          "page": 171,
+          "crop": {
+            "x": 0.075,
+            "y": 0.15,
+            "w": 0.545,
+            "h": 0.285
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

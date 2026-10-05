@@ -250,18 +250,15 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "The expression for finding the area of the shaded region is: [Graph: a curve/region in the first quadrant with the vertical line x = 2 marked, bounded region between the curve, the line x = 2 and the axes.]",
+      "text": "The expression for finding the area of the shaded region is:",
       "options": [
         "∫₂⁸ (4 − x/2 − 2) dx",
         "∫₂⁸ (x/2 + 4) dx",
         "∫₂⁸ (y/2 + 4) dy",
         "∫₂⁸ (4 − x/2) dx"
       ],
-      "hasFigure": false,
-      "extractionIssues": [
-        "Figure (graph with the shaded region and the line x = 2) on page 4 not reproduced; the question cannot be answered without it.",
-        "The PDF's text layer flattens 'x/2' to the same glyph sequence as 'x2' would produce; option (d) is confirmed correct and its exact reading as x/2 (not x²) is fully cross-checked against the marking scheme's derivation (from the line x+2y=8). Options (a)-(c) are the most plausible reconstructions by analogy with the same ∫₂⁸(...)d[x or y] pattern but are NOT individually confirmed by the marking scheme; verify against PDF page 4."
-      ],
+      "hasFigure": true,
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(d) ∫₂⁸ (4 − x/2) dx. Given equation of line: x + 2y = 8 ⇒ x/8+y/4=1 ⇒ y = 4 − x/2. Required area is the area bounded by x=2, y=4−x/2 and the x-axis. ∴ required area = ∫₂⁸ (4 − x/2) dx.",
@@ -269,7 +266,25 @@
       },
       "cognitiveLevel": "Apply",
       "chapter": "application-of-integrals",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-mathematics-specimen/1viii.png",
+          "kind": "GRAPH",
+          "alt": "Graph with axes X and Y, the lines x = 2 and x + 2y = 8, and a shaded region",
+          "width": 524,
+          "height": 325,
+          "page": 4,
+          "crop": {
+            "x": 0.345,
+            "y": 0.095,
+            "w": 0.285,
+            "h": 0.137
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -485,17 +500,15 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "Observe the given graph: [Graph: two curves shown, described in the Assertion/Reason below.]\nAssertion: The curves given above can be considered as f(x) and f⁻¹(x).\nReason: The curves are reflections of each other across the line x = y.\nWhich one of the following is correct?",
+      "text": "Observe the given graph:\nAssertion: The curves given above can be considered as f(x) and f⁻¹(x).\nReason: The curves are reflections of each other across the line x = y.\nWhich one of the following is correct?",
       "options": [
         "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
         "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
         "Assertion is true and Reason is false.",
         "Assertion is false and Reason is true."
       ],
-      "hasFigure": false,
-      "extractionIssues": [
-        "Graph (the two curves) on page 6 not reproduced, but the Assertion and Reason are both generic, self-contained mathematical statements about reflection and inverse functions that the marking scheme evaluates as a general true fact, not by reading specific curve coordinates; question is answerable from the text alone."
-      ],
+      "hasFigure": true,
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Both Assertion and Reason are true, and Reason is the correct explanation of Assertion. The reflection of a curve across the line y=x yields the graph of the inverse function because the geometric reflection swaps the x and y coordinates, which corresponds to the algebraic definition of an inverse mapping.",
@@ -503,7 +516,25 @@
       },
       "cognitiveLevel": "Understand",
       "chapter": "relations-and-functions",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-mathematics-specimen/1xvi.png",
+          "kind": "GRAPH",
+          "alt": "Graph on x-y axes from −3 to 3 with a dotted grid, showing two solid curves and a dashed straight line",
+          "width": 533,
+          "height": 456,
+          "page": 6,
+          "crop": {
+            "x": 0.37,
+            "y": 0.298,
+            "w": 0.29,
+            "h": 0.192
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -704,18 +735,34 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Observe the graph given below: [Graph of a function with one removable discontinuity and additional points of non-differentiability, not reproduced.]\n(a) State the value(s) of x where the function has removable discontinuity.\n(b) State the value(s) of x where the graph of the function is not differentiable.",
+      "text": "Observe the graph given below:\n(a) State the value(s) of x where the function has removable discontinuity.\n(b) State the value(s) of x where the graph of the function is not differentiable.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph on page 8 not reproduced; the question cannot be answered without it."
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(a) At x = −2 the function has a removable discontinuity (at x=−2, LHL=RHL but f(−2) is missing).\n(b) f(x) is discontinuous at x=−2, x=0 and x=2, hence not differentiable at those points."
       },
       "cognitiveLevel": "Understand",
       "chapter": "continuity-differentiability-and-differentiation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-mathematics-specimen/5ii.png",
+          "kind": "GRAPH",
+          "alt": "Graph of a function y against x for x from -4 to 4, drawn in pieces with open and filled circles at some points",
+          "width": 753,
+          "height": 475,
+          "page": 8,
+          "crop": {
+            "x": 0.28,
+            "y": 0.098,
+            "w": 0.41,
+            "h": 0.2
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -838,18 +885,34 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "The feasible region determined by some constraints is represented by the shaded region in the graph given below: [Graph: a triangular feasible region with labelled points A(1,1), B(3,3) and C(1,7); the line 2x+y=9 is also plotted, crossing the axes at (9/2,0) and (0,9); axes scaled 2,4,6,8,10,12.]\n(i) Formulate the constraints which represent the above feasible region.\n(ii) Hence, maximise the objective function given by Z = x + y.\n(iii) What change in the constraints will make the feasible region unbounded?",
+      "text": "The feasible region determined by some constraints is represented by the shaded region in the graph given below:\n(i) Formulate the constraints which represent the above feasible region.\n(ii) Hence, maximise the objective function given by Z = x + y.\n(iii) What change in the constraints will make the feasible region unbounded?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph (feasible-region triangle) on page 9 not reproduced as an image; the plotted point labels and axis scale did extract as text and are reproduced above, cross-checked against the marking scheme's own constraint/vertex arithmetic, which matches exactly (the triangle's vertices A(1,1), B(3,3), C(1,7) are exactly where the marking scheme's three constraints 2x+y≤9, y≥x, x≥1 pairwise intersect)."
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(i) 2x + y ≤ 9, y ≥ x, x ≥ 1.\n(ii) Z = 8 at C(1,7).\n(iii) Changing the constraint 2x + y ≤ 9 to 2x + y ≥ 9 will make the feasible region unbounded."
+        "text": "(i) 2x + y ≤ 9\ny ≥ x\nx ≥ 1\n(ii) Z = 8 at C (1,7)\n(iii) 2x + y ≥ 9"
       },
       "cognitiveLevel": "Understand",
       "chapter": "linear-programming",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-mathematics-specimen/9.png",
+          "kind": "GRAPH",
+          "alt": "Graph of a shaded triangular feasible region with points C(1,7), B(3,3), A(1,1), (0,9), (9/2,0) and (0,0) marked; boundary lines with arrows; axes scaled 2 to 12",
+          "width": 716,
+          "height": 654,
+          "page": 9,
+          "crop": {
+            "x": 0.25,
+            "y": 0.37,
+            "w": 0.39,
+            "h": 0.275
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",
@@ -1020,10 +1083,10 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The diagram below shows the graph of f(x) = 2x√(a² − x²), for −1 ≤ x ≤ a, where a > 1. [Diagram: curve f, tangent line L to f at the origin O, point P(a,b) on L above Q, and point Q(a,0) on the x-axis; point (−1,0) also marked.] The line L is the tangent to the graph of f(x) at the origin O.\nGiven that f′(x) = (2a²−4x²)/√(a²−x²), for −1 ≤ x < a.\nUsing integration, find the area of ∆OPQ in terms of a.",
+      "text": "The diagram below shows the graph of f(x) = 2x√(a² − x²), for −1 ≤ x ≤ a, where a > 1. The line L is the tangent to the graph of f(x) at the origin O.\nGiven that f′(x) = (2a²−4x²)/√(a²−x²), for −1 ≤ x < a.\nUsing integration, find the area of ∆OPQ in terms of a.",
       "hasFigure": true,
       "extractionIssues": [
-        "Diagram of the curve/tangent/triangle on page 11 not reproduced; illustrative only, since P, Q and the tangent line L are fully determined algebraically from the given f′(x) (question is answerable from the text alone). Fraction/root notation split across lines in the layout; rebuilt inline, cross-checked against the marking scheme's derivation."
+        "Fraction/root notation split across lines in the layout; rebuilt inline, cross-checked against the marking scheme's derivation."
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
@@ -1031,7 +1094,25 @@
       },
       "cognitiveLevel": "Apply",
       "chapter": "application-of-integrals",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-mathematics-specimen/15i.png",
+          "kind": "GRAPH",
+          "alt": "Graph on x- and y-axes showing a curve f, a straight line L through the origin O, and points marked (-1,0), Q(a,0) and P(a,b) with dashed vertical lines",
+          "width": 533,
+          "height": 416,
+          "page": 11,
+          "crop": {
+            "x": 0.37,
+            "y": 0.345,
+            "w": 0.29,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "15",
@@ -1043,18 +1124,34 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "A line with equation y = −3x + 9 intersects the axes at the points P and Q. A parabola of the form y = ax² + c, where a, c ∈ ℤ, also passes through the points P and Q as shown in the diagram below. [Diagram: the line and parabola both passing through P (on the y-axis) and Q (on the x-axis), with the region between them shaded.]\n(a) Obtain the equation of the parabola.\n(b) Using integration find the area of the shaded region.",
+      "text": "A line with equation y = −3x + 9 intersects the axes at the points P and Q. A parabola of the form y = ax² + c, where a, c ∈ ℤ, also passes through the points P and Q as shown in the diagram below.\n(a) Obtain the equation of the parabola.\n(b) Using integration find the area of the shaded region.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram not reproduced; P and Q are fully determined algebraically from the line's equation, and the parabola's equation is derived in part (a), so the question is answerable from the text alone."
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Putting x=0 in y=−3x+9, y=9 ⇒ P(0,9). Putting y=0, x=3 ⇒ Q(3,0). Parabola y=ax²+c: satisfying (0,9) gives c=9; satisfying (3,0) gives a=−1. ∴ equation of parabola: y=−x²+9.\n(b) Equation of line PQ: x/3+y/9=1, i.e. y=9−3x. Area of shaded region = ∫₀³(9−x²−9+3x)dx = ∫₀³(3x−x²)dx = [3x²/2 − x³/3]₀³ = 27/2−9 = 9/2 sq. units."
       },
       "cognitiveLevel": "Apply",
       "chapter": "application-of-integrals",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-mathematics-specimen/15ii.png",
+          "kind": "GRAPH",
+          "alt": "Graph on x- and y-axes showing a curve and a straight line meeting at points P and Q, with the region between them shaded",
+          "width": 404,
+          "height": 375,
+          "page": 11,
+          "crop": {
+            "x": 0.42,
+            "y": 0.662,
+            "w": 0.22,
+            "h": 0.158
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "16",
@@ -1066,18 +1163,34 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "The graph of f(x) = x − 6√x + 1 is shown below. [Graph of f(x) = x−6√x+1, with the value 9 marked on the x-axis, not reproduced.]\n(i) State the natural domain of f(x).\n(ii) Does f(x) have an inverse function? Explain your answer.\n(iii) Let g(x) = x − 6√x + 1, 0 ≤ x ≤ 9. Find g⁻¹(x) and verify (g ∘ g⁻¹)(4) = 4.\n(iv) Let h(x) = x − 6√x + 1, x ≥ 9. Find h⁻¹(x) and verify (h ∘ h⁻¹)(16) = 16.\n(v) Find the value of x such that g⁻¹(x) = h⁻¹(x)",
+      "text": "The graph of f(x) = x − 6√x + 1 is shown below.\n(i) State the natural domain of f(x).\n(ii) Does f(x) have an inverse function? Explain your answer.\n(iii) Let g(x) = x − 6√x + 1, 0 ≤ x ≤ 9. Find g⁻¹(x) and verify (g ∘ g⁻¹)(4) = 4.\n(iv) Let h(x) = x − 6√x + 1, x ≥ 9. Find h⁻¹(x) and verify (h ∘ h⁻¹)(16) = 16.\n(v) Find the value of x such that g⁻¹(x) = h⁻¹(x)",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph on page 12 not reproduced; part (ii)'s reasoning ('the graph fails the horizontal line test') references it directly, though the algebraic parts (i), (iii)-(v) are answerable from the given formula alone."
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Natural domain of f(x) is x ≥ 0, i.e. [0, ∞).\n(ii) As the graph fails the horizontal line test, f is not one-one ⇒ f(x) is not invertible. [From y=x−6√x+1: (√x)²−6√x+(1−y)=0 ⇒ √x = [6±√(36−4(1−y))]/2 = 3±√(y+8) ⇒ x=(3±√(y+8))², confirming two branches.]\n(iii) g⁻¹(x) = (3−√(x+8))². (g∘g⁻¹)(x) = (3−√(x+8))²−6(3−√(x+8))+1 = 9−6√(x+8)+x+8−18+6√(x+8)+1 = x. ∴ (g∘g⁻¹)(4)=4.\n(iv) h⁻¹(x) = (3+√(x+8))². (h∘h⁻¹)(x) = (3+√(x+8))²−6(3+√(x+8))+1 = 9+6√(x+8)+x+8−18−6√(x+8)+1 = x. ∴ (h∘h⁻¹)(16)=16.\n(v) g⁻¹(x)=h⁻¹(x) ⇒ (3−√(x+8))²=(3+√(x+8))² ⇒ 9−6√(x+8)+x+8 = 9+6√(x+8)+x+8 ⇒ √(x+8)=0 ⇒ x=−8."
       },
       "cognitiveLevel": "Analyse",
       "chapter": "relations-and-functions",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-mathematics-specimen/16.png",
+          "kind": "GRAPH",
+          "alt": "Graph of f(x) = x − 6√x + 1 on x-y axes, with 9 marked on the x-axis and a dashed vertical line",
+          "width": 532,
+          "height": 404,
+          "page": 12,
+          "crop": {
+            "x": 0.32,
+            "y": 0.165,
+            "w": 0.29,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "17",
@@ -1112,10 +1225,10 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "A large industrial water tank is shaped like an inverted right circular cone with a semi-vertical angle of tan⁻¹(0.5). Water is being drained out for a manufacturing process at a constant rate of 5 m³/min. [Diagram: cone of semi-vertical angle α with tanα=0.5, water height h=4 m marked, dV/dt=−5 m³/min.]\n(a) Find the rate at which the water level is dropping when the height of the water is 4 meters.\n(b) Show that the wetted surface area of the tank S(h) is a strictly increasing function of the water depth h.\n(c) A chemical additive must be added to the interior surface of the water tank. If the cost of the additive is proportional to the square of the surface area (C = KS²), find the depth h at which the cost is increasing most rapidly relative to time.",
+      "text": "A large industrial water tank is shaped like an inverted right circular cone with a semi-vertical angle of tan⁻¹(0.5). Water is being drained out for a manufacturing process at a constant rate of 5 m³/min.\n(a) Find the rate at which the water level is dropping when the height of the water is 4 meters.\n(b) Show that the wetted surface area of the tank S(h) is a strictly increasing function of the water depth h.\n(c) A chemical additive must be added to the interior surface of the water tank. If the cost of the additive is proportional to the square of the surface area (C = KS²), find the depth h at which the cost is increasing most rapidly relative to time.",
       "hasFigure": true,
       "extractionIssues": [
-        "Diagram (labelled cone with r, h=4m, tanα=0.5, dV/dt) not reproduced; all needed numeric values are stated in the text. Fractions/roots split across lines in the layout; rebuilt inline, cross-checked against the marking scheme."
+        "Fractions/roots split across lines in the layout; rebuilt inline, cross-checked against the marking scheme."
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
@@ -1123,7 +1236,25 @@
       },
       "cognitiveLevel": "Evaluate & Analyse",
       "chapter": "applications-of-derivatives",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-mathematics-specimen/17ii.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of an inverted cone partly filled with water, labelled r, tan α = 0.5, h = 4 m and dv/dt = −5m³/min",
+          "width": 532,
+          "height": 404,
+          "page": 13,
+          "crop": {
+            "x": 0.38,
+            "y": 0.35,
+            "w": 0.29,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "18",

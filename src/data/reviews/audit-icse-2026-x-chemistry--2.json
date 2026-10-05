@@ -1,0 +1,43 @@
+{
+  "pack": "icse-2026-x-chemistry",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked the recovered figures and current pack content against the official CISCE PDF (sha256 matched) with pdftotext -layout/-raw, 5 % grid page renders and zoomed crops; no marking scheme exists, so answers are NONE as expected.",
+  "checks": [
+    {
+      "key": "icse-2026-x-chemistry#1vi",
+      "agree": false,
+      "reason": "Only the group total [15] is printed for the fifteen MCQs of Question 1; the stored 1 mark is a split of that total and there is no marksNote quoting the group total (figure crop itself is correct).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-chemistry#1xv",
+      "agree": false,
+      "reason": "Notation (including the ⇌ arrow in reaction 4) now matches page 7, but only the group total [15] is printed for Question 1; the stored 1 mark is a split of that total and there is no marksNote quoting it.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-chemistry#2va1",
+      "agree": false,
+      "reason": "Question 2 (v) prints only one combined [5] for its five items; the stored 1 mark is an assumed even split and there is no marksNote quoting the group total (figure crop itself is correct).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-chemistry#2va2",
+      "agree": false,
+      "reason": "Question 2 (v) prints only one combined [5] for its five items; the stored 1 mark is an assumed even split and there is no marksNote quoting the group total (figure crop itself is correct).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-chemistry#7iv",
+      "agree": false,
+      "reason": "Alt text 'Ethanol → Ethene (A), Ethanol → Ethyl acetate (B), Ethanol → Carbon dioxide + water (C)' attaches A, B, C to the products, but on the page A, B and C label the arrows (the reactants the question asks for), so the alt misdescribes the figure.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-chemistry#8iv",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

@@ -251,12 +251,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "OCR text corrected against the page image",
-        "Diagram (two containers labelled a) and b)) on page 2 not reproduced; cannot be answered without it",
         "Mark bracket is blurred on the scan; read as [2] (OCR agrees and Question 2 then totals 10)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-physics-icse-class-8-first-test-physics-050725-jul-2024/2i.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn diagram of two containers labelled a) and b), each with small particle shapes drawn above a surface line",
+          "width": 554,
+          "height": 317,
+          "page": 2,
+          "crop": {
+            "x": 0.58,
+            "y": 0.398,
+            "w": 0.31,
+            "h": 0.13
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "2",
@@ -450,12 +467,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "OCR text corrected against the page image",
-        "Printed mark covers the whole group; kept as one entry (group total not split)",
-        "Diagram (column of layered liquids) on page 3 not reproduced; item 3) cannot be answered without it"
+        "Printed mark covers the whole group; kept as one entry (group total not split)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "force-and-pressure",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-physics-icse-class-8-first-test-physics-050725-jul-2024/4iii.png",
+          "kind": "FIGURE",
+          "alt": "Tall container with eight stacked liquid layers, each with a printed name; the top label is smudged on the scan",
+          "width": 241,
+          "height": 707,
+          "page": 3,
+          "crop": {
+            "x": 0.65,
+            "y": 0.312,
+            "w": 0.135,
+            "h": 0.29
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     }
   ]
 }

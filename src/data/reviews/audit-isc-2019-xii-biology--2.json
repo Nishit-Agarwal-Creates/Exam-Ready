@@ -1,0 +1,13 @@
+{
+  "pack": "isc-2019-xii-biology",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the marking scheme, and the rendered page (figure crops compared pixel-for-pixel with a fresh render).",
+  "checks": [
+    {
+      "key": "isc-2019-xii-biology#1biv",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

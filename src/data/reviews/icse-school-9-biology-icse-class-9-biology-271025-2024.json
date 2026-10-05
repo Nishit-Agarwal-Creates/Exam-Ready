@@ -176,14 +176,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Labelled tooth diagram on page 3 is needed to answer.",
-      "notes": "Paper prints 'lebelled', 'it's'; (10)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Paper prints 'lebelled', 'it's'; (10).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: tooth diagram printed under the Q3 stem, cropped whole with labels 1-6 (scan, legible).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-271025-2024#4a",

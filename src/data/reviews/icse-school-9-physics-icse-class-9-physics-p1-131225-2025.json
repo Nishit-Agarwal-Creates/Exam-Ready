@@ -32,14 +32,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Vernier callipers figure on page 1 is needed to read the zero error.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p1 Q1(ii): vernier callipers figure (main scale, vernier scale, coinciding division, J1 J2); cropped from the scan.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-p1-131225-2025#1iii",
@@ -128,14 +138,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The circuit symbol asked about is only in the figure.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p1 Q1(viii): the symbol printed after the question; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-p1-131225-2025#1ix",
@@ -176,14 +196,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure of charged spheres A and B on page 2 is needed; 'form' is the paper's own spelling.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p2 Q1(xi): spheres A (minus signs) and B (plus signs) joined by a wire; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-p1-131225-2025#1xii",
@@ -304,14 +334,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The circuit to be drawn and labelled A-F is only in the figure on page 2.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p2 Q2(iv): circuit with parts A-F; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-p1-131225-2025#2v",
@@ -576,14 +616,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Velocity-time graph on page 3 is needed to compute the displacement.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "p3 Q6(iii): v-t graph with points a-i, axes 0-14 s and -5 to +5 m/s; cropped from the scan. | Page 3: re-cropped wider (x 0.35-0.68, y 0.578-0.698) so the X arrowhead and its 'X' label at the right end of the time axis and the whole 'Y' label are inside; checked the PNG.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-p1-131225-2025#7i",
@@ -592,14 +643,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Convex mirror diagram with object OA on page 3 is needed to draw the rays.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "p3 Q7(i): convex mirror diagram with O, A, P, F, C; cropped. | Page 3: re-cropped (x 0.36-0.64, y 0.731-0.843) so the whole mirror arc, including its lower end, and the points O, P, F and C are inside; checked the PNG. | p51-fix-H1: Page 3: re-cropped x 0.37-0.66, y 0.7321-0.8447; the principal axis (dark pixels end at x 0.6545) now ends inside the crop, the whole mirror arc and O, A, P, F, C are inside, and the skewed text line above / below is excluded (checked row by row and visually).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-p1-131225-2025#7ii",
@@ -672,14 +734,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit figure with terminals A, C and Rh on page 4 is needed.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "p4 Q8(iii): circuit with Rh, CELL (+/-), KEY and open terminals A, C; cropped from the scan. | Page 4: alt no longer names Rh (part (c) asks to name it); re-cropped from y 0.161 so less of the question text is inside; checked the PNG.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-p1-131225-2025#9i",

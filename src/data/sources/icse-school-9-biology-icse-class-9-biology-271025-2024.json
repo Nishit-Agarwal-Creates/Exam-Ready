@@ -227,12 +227,29 @@
       "text": "Study the diagram given below and then answer the questions that follow.\ni. Name the parts labelled 1,2,3,4,5 and 6.\nii. Identify the tooth and give a reason to support your answer.\niii. Describe the structure of the part lebelled ‘3’.\niv. Give the total number of the type of tooth, in the mouth of an adult and state it's function.",
       "hasFigure": true,
       "extractionIssues": [
-        "Diagram (section of a tooth, parts labelled 1-6) on page 3 not reproduced",
         "An additional '(5)' is printed just above the '(10)' beside Question 3; the question's own bracket (10) is used"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "digestive-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-biology-icse-class-9-biology-271025-2024/3.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a vertical section of a tooth in the jaw, with label lines numbered 1 to 6",
+          "width": 429,
+          "height": 537,
+          "page": 3,
+          "crop": {
+            "x": 0.255,
+            "y": 0.41,
+            "w": 0.24,
+            "h": 0.22
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",

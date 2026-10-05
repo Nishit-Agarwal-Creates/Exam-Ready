@@ -608,14 +608,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figures (i) and (ii) on page 4 show the pole arrangements to draw",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p4: figures (i) two bar magnets and (ii) U-magnet under 10(c).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-2018#10di",

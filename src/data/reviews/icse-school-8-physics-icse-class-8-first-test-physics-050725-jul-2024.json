@@ -144,14 +144,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of containers a) and b) on page 2 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: the two-container diagram printed beside Q2 i) cropped whole (scan; drawn by hand). The stem says A and B, the drawing labels a) and b).",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-first-test-physics-050725-jul-2024#2ii",
@@ -304,14 +314,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Layered-liquids diagram on page 3 is needed for part 3).",
-      "notes": ""
+      "reason": "Chapter uncertain (floatation: Force and Pressure vs Physical Quantities); figure recovered but its top label is smudged.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: layered-liquids diagram beside Q4 iii) cropped whole; top label is smudged. Chapter hold unchanged.",
+        "confidence": "MEDIUM"
+      }
     }
   ]
 }

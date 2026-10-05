@@ -1,0 +1,67 @@
+{
+  "pack": "isc-cfq-2024-xii-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, rendered page images (5 % grid), and the bank's own Answer Key; recovered figures opened and compared with the page.",
+  "checks": [
+    {
+      "key": "isc-cfq-2024-xii-mathematics#9",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-cfq-2024-xii-mathematics#22",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-cfq-2024-xii-mathematics#41",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-cfq-2024-xii-mathematics#48",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-cfq-2024-xii-mathematics#88",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-cfq-2024-xii-mathematics#89",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-cfq-2024-xii-mathematics#99",
+      "agree": false,
+      "reason": "The stored figure is greyscale (no coloured pixels), but the page prints the cosine curve in red against the black dashed y = sin x, so it is not an unaltered crop of the page.",
+      "round": "p51"
+    },
+    {
+      "key": "isc-cfq-2024-xii-mathematics#119",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-cfq-2024-xii-mathematics#132",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-cfq-2024-xii-mathematics#134",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

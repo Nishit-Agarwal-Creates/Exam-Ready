@@ -187,15 +187,31 @@
       "type": "SHORT_ANSWER",
       "text": "Refer to the figure given above and answer the questions. Is the figure shown above an open or a closed shape?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 16 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Closed Curve. Guidance: Award mark 1 for correct answer. Reasoning is optional"
       },
       "chapter": "lines-and-angles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6SB8.png",
+          "kind": "FIGURE",
+          "alt": "Quadrilateral ABCD with sides labelled 5 cm and 4 cm, angles labelled 110°, 70°, 110° and 70°, and arrow marks on the sides; note 'Diagram not drawn to scale'",
+          "width": 1107,
+          "height": 619,
+          "page": 16,
+          "crop": {
+            "x": 0.08,
+            "y": 0.4,
+            "w": 0.62,
+            "h": 0.245
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6SB8",
@@ -210,15 +226,32 @@
       "text": "Refer to the figure given above and answer the questions. Write any one obtuse angle and one acute angle from the figure shown above. Use the proper naming convention while writing the angle.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 16 not reproduced",
         "Angle symbols in the mark scheme were duplicated in the text layer (e.g. '∠ADC∠ADC'); de-duplicated"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Obtuse angle: ∠ADC / ∠CDA; Acute angle: ∠BCD / ∠DCB. Guidance: A1: Award 1 mark for obtuse angle. A1: Award 1 mark for acute angle. Note: Accept following answers also: Obtuse angle: ∠BAD / ∠DAB; Acute angle: ∠ABC / ∠CBA. Note: Overall 1 mark to be awarded only if: a. ∠A or ∠D is written for obtuse angle AND b. ∠B or ∠C is written for acute angle. Full 2 marks are not given as proper naming convention is not followed. Note: No marks are awarded if recognition of obtuse and acute angle is not correct even if naming convention is appropriate."
       },
       "chapter": "lines-and-angles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6SB8.png",
+          "kind": "FIGURE",
+          "alt": "Quadrilateral ABCD with sides labelled 5 cm and 4 cm, angles labelled 110°, 70°, 110° and 70°, and arrow marks on the sides; note 'Diagram not drawn to scale'",
+          "width": 1107,
+          "height": 619,
+          "page": 16,
+          "crop": {
+            "x": 0.08,
+            "y": 0.4,
+            "w": 0.62,
+            "h": 0.245
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6SB8",
@@ -232,15 +265,31 @@
       "type": "SHORT_ANSWER",
       "text": "Refer to the figure given above and answer the questions. Identify the type of quadrilateral shown above and find the measurement of side BC.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 16 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Quadrilateral: Parallelogram. Measurement of side BC: 4 cm. Guidance: A1: As both the pairs of opposite sides of the quadrilateral is parallel, it is a parallelogram. Award 1 mark for identification of quadrilateral. (allow slight misspellings) Reasoning is optional. A1: As opposite sides of a parallelogram are equal in length, BC = AD = 4 cm. Award 1 mark for measurement of side BC. Reasoning is optional."
       },
       "chapter": "playing-with-constructions",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6SB8.png",
+          "kind": "FIGURE",
+          "alt": "Quadrilateral ABCD with sides labelled 5 cm and 4 cm, angles labelled 110°, 70°, 110° and 70°, and arrow marks on the sides; note 'Diagram not drawn to scale'",
+          "width": 1107,
+          "height": 619,
+          "page": 16,
+          "crop": {
+            "x": 0.08,
+            "y": 0.4,
+            "w": 0.62,
+            "h": 0.245
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6HK1",
@@ -260,16 +309,32 @@
         "Scalene"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 18 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "A. Equilateral. Guidance: Allow 1 mark for answer only",
         "correctOption": 0
       },
       "chapter": "playing-with-constructions",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6HK1.png",
+          "kind": "FIGURE",
+          "alt": "Triangle with tick marks on its sides",
+          "width": 536,
+          "height": 519,
+          "page": 18,
+          "crop": {
+            "x": 0.06,
+            "y": 0.3145,
+            "w": 0.3,
+            "h": 0.2055
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6SB5",
@@ -401,15 +466,31 @@
       "type": "SHORT_ANSWER",
       "text": "In the diagram above, L and M are parallel lines and T is a transversal. Write the number of points of intersection between L and M.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 23 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Zero. Guidance: A1 0 OR “they don’t meet at all”"
       },
       "chapter": "lines-and-angles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6GK5.png",
+          "kind": "FIGURE",
+          "alt": "Two horizontal lines L and M cut by a slanting line T, with angles labelled A and B; note 'Not to scale'",
+          "width": 1035,
+          "height": 935,
+          "page": 23,
+          "crop": {
+            "x": 0.2,
+            "y": 0.08,
+            "w": 0.58,
+            "h": 0.37
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6GK5",
@@ -424,15 +505,32 @@
       "text": "In the diagram above, L and M are parallel lines and T is a transversal. If the angle A =70°, find the angle B.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 23 not reproduced",
         "Degree signs flattened in the text layer ('700' for 70°, '1100' for 110°); rebuilt as °. Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Angle B =110°. Guidance: M1 180°-70°=110°; A1 110°"
       },
       "chapter": "lines-and-angles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6GK5.png",
+          "kind": "FIGURE",
+          "alt": "Two horizontal lines L and M cut by a slanting line T, with angles labelled A and B; note 'Not to scale'",
+          "width": 1035,
+          "height": 935,
+          "page": 23,
+          "crop": {
+            "x": 0.2,
+            "y": 0.08,
+            "w": 0.58,
+            "h": 0.37
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6GK1",
@@ -496,16 +594,32 @@
         "Infinite"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 25 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "C. 8. Guidance: Accept only C or only 8. Award 1 mark for the correct answer",
         "correctOption": 2
       },
       "chapter": "symmetry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6SB3.png",
+          "kind": "FIGURE",
+          "alt": "Sun-like figure: a circle surrounded by triangular rays",
+          "width": 232,
+          "height": 240,
+          "page": 25,
+          "crop": {
+            "x": 0.065,
+            "y": 0.762,
+            "w": 0.13,
+            "h": 0.095
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6AJ2",
@@ -526,16 +640,33 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 26 not reproduced",
         "Symbol-font triangle sign (U+F044) rendered as Δ"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "B. 34 cm. Guidance: (optional) AB = BC = CA = 10 cm; Perimeter = AB + BD + DC + CA = 10 + 8 + 6 + 10 = 34 cm. Allow one mark for correct answer.",
         "correctOption": 1
       },
       "chapter": "perimeter-and-area",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6AJ2.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABC with a point D inside joined to B and C; lengths labelled 10 cm, 8 cm and 6 cm, a right-angle mark at D and a shaded region; note 'Diagram not drawn to scale'",
+          "width": 571,
+          "height": 481,
+          "page": 26,
+          "crop": {
+            "x": 0.34,
+            "y": 0.515,
+            "w": 0.32,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6AJ6",
@@ -617,15 +748,31 @@
       "type": "SHORT_ANSWER",
       "text": "The figure above shows a victory stand. All dimensions are given in cm. Calculate the perimeter of the shaded region.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 29 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "300 cm. Guidance: M1 Perimeter = Sum of all sides/boundaries = 90+20+30+40+30+30+30+30, or equivalent. A1 = 300 cm"
       },
       "chapter": "perimeter-and-area",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6AJ7.png",
+          "kind": "FIGURE",
+          "alt": "Victory stand drawn as three joined blocks with shaded front faces labelled I, II and III, and dimension labels 20, 30 and 40",
+          "width": 1400,
+          "height": 717,
+          "page": 29,
+          "crop": {
+            "x": 0.08,
+            "y": 0.085,
+            "w": 0.83,
+            "h": 0.3
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6AJ7",
@@ -634,21 +781,40 @@
       "page": 29,
       "section": null,
       "sectionTitle": null,
-      "marks": 3,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "The figure above shows a victory stand. All dimensions are given in cm. Find the area of the shaded region. Show your working.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 29 not reproduced",
-        "Item metadata gives 4 marks for Maths6AJ7c (total 7) but the question prints (3 marks); printed question mark used"
+        "Paper prints conflicting marks for 1 (c): '(3 marks)' beside the question, 4 in the item metadata table; no single mark stored"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "3300 square cm. Guidance: M1 for area of any rectangle: Area of region I = 60 ×30=1800 sq cm; Area of region II = 30 ×30=900 sq cm; Area of region III = 20 ×30=600 sq cm. M1 Total area = sum of their three rectangles 1800+900+600=3300 sq cm, or equivalent. Allow 2 marks for correct answer only. Allow units to be missing."
       },
       "chapter": "perimeter-and-area",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6AJ7.png",
+          "kind": "FIGURE",
+          "alt": "Victory stand drawn as three joined blocks with shaded front faces labelled I, II and III, and dimension labels 20, 30 and 40",
+          "width": 1400,
+          "height": 717,
+          "page": 29,
+          "crop": {
+            "x": 0.08,
+            "y": 0.085,
+            "w": 0.83,
+            "h": 0.3
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Maths6AJ7: '(Total marks 7)' for 1 (a)-(c); the paper prints conflicting marks for 1 (c): '(3 marks)' beside the question (p29) but 4 in the item metadata table (p28)"
     },
     {
       "number": "Maths6HK7",
@@ -663,7 +829,6 @@
       "text": "The given figure is made up of identical squares each with 2cm sides. Calculate the perimeter of the given figure.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 30 not reproduced",
         "Mark scheme answer column reads '16cm' but the guidance reads 'M1 16 x 2 or equivalent A1 32cm'; editor to check"
       ],
       "confidence": "LOW",
@@ -671,7 +836,25 @@
         "text": "16cm. Guidance: 2 marks. M1 16 x 2 or equivalent. A1 32cm"
       },
       "chapter": "perimeter-and-area",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6HK7.png",
+          "kind": "FIGURE",
+          "alt": "L-shaped figure made of identical shaded squares",
+          "width": 232,
+          "height": 214,
+          "page": 30,
+          "crop": {
+            "x": 0.065,
+            "y": 0.785,
+            "w": 0.13,
+            "h": 0.085
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6HK7",
@@ -686,16 +869,32 @@
       "text": "The given figure is made up of identical squares each with 2cm sides. Calculate the area of the given figure.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 31 not reproduced",
-        "Superscripts flattened: cm2 (cm²)",
         "Mark scheme answer column also shows a stray '7 cm2'"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "28 cm2. Guidance: M1 Area of 1 square= 2×2=4; A1 Area= 4×7= 28 cm2"
+        "text": "28 cm². Guidance: M1 Area of 1 square= 2×2=4; A1 Area= 4×7= 28 cm²"
       },
       "chapter": "perimeter-and-area",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6HK7.png",
+          "kind": "FIGURE",
+          "alt": "L-shaped figure made of identical shaded squares",
+          "width": 232,
+          "height": 214,
+          "page": 30,
+          "crop": {
+            "x": 0.065,
+            "y": 0.785,
+            "w": 0.13,
+            "h": 0.085
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6KK3",
@@ -831,20 +1030,22 @@
       "page": 34,
       "section": null,
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "The length of a rectangular lawn is 5 times its breadth. The perimeter of the lawn is 648.6 cm. Find the breadth of the lawn.",
       "hasFigure": false,
       "extractionIssues": [
-        "Item metadata gives 2 marks for Maths6RB3 but the question prints (1 mark); printed question mark used"
+        "Paper prints conflicting marks: '(1 mark)' beside the question, 2 in the item metadata table (the M1+A1 scheme also implies 2); no single mark stored"
       ],
       "confidence": "HIGH",
       "officialAnswer": {
         "text": "54.05 cm. Guidance: M1 Let the breadth of the lawn be b cm; 648.60=2(b+5b) OR equivalent ⟹ b=54.05 (cm). Allow no units"
       },
       "chapter": "perimeter-and-area",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": "Maths6RB3: the paper prints conflicting marks: '(1 mark)' and '(Total marks 1)' beside the question (p34) but 2 in the item metadata table (p34)"
     },
     {
       "number": "Maths6RB5",
@@ -1446,15 +1647,31 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram shows a set of numbers. List all the prime numbers in the set.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 50 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "2,17,31. Guidance: A1 2,17,31. Allow 1 mark for all correct answers only"
       },
       "chapter": "prime-time",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6MG5.png",
+          "kind": "FIGURE",
+          "alt": "Rectangular box containing the numbers 2, 31, 17, 4, 15, 9, 1, 22 and 18",
+          "width": 589,
+          "height": 387,
+          "page": 49,
+          "crop": {
+            "x": 0.33,
+            "y": 0.778,
+            "w": 0.33,
+            "h": 0.153
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6MG5",
@@ -1468,15 +1685,31 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram shows a set of numbers. Identify the number which is neither prime nor composite",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 50 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "1. Guidance: A1 1 only"
       },
       "chapter": "prime-time",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6MG5.png",
+          "kind": "FIGURE",
+          "alt": "Rectangular box containing the numbers 2, 31, 17, 4, 15, 9, 1, 22 and 18",
+          "width": 589,
+          "height": 387,
+          "page": 49,
+          "crop": {
+            "x": 0.33,
+            "y": 0.778,
+            "w": 0.33,
+            "h": 0.153
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6MG5",
@@ -1491,15 +1724,32 @@
       "text": "The diagram shows a set of numbers. List 2 numbers in the set that are co-prime with 22.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 50 not reproduced",
         "Mark scheme restates the question as 'Find the sum of all odd primes from the circled numbers.' although its answer lists co-prime numbers"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "any two from 1, 9, 15, 17, 31. Guidance: A1 any two from 1, 9, 15, 17, 31"
       },
       "chapter": "prime-time",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6MG5.png",
+          "kind": "FIGURE",
+          "alt": "Rectangular box containing the numbers 2, 31, 17, 4, 15, 9, 1, 22 and 18",
+          "width": 589,
+          "height": 387,
+          "page": 49,
+          "crop": {
+            "x": 0.33,
+            "y": 0.778,
+            "w": 0.33,
+            "h": 0.153
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths6AJ1",
@@ -2047,16 +2297,32 @@
         "80"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Bar graph on page 65 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "D. 80. Guidance: 1 mark for correct answer only",
         "correctOption": 3
       },
       "chapter": "data-handling-and-presentation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-mathematics/Maths6AT5.png",
+          "kind": "GRAPH",
+          "alt": "Bar graph: Number of tickets sold (y-axis, 0 to 120) against State lottery (Delhi, Punjab, Haryana, Rajasthan, Assam)",
+          "width": 1107,
+          "height": 670,
+          "page": 65,
+          "crop": {
+            "x": 0.19,
+            "y": 0.08,
+            "w": 0.62,
+            "h": 0.265
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

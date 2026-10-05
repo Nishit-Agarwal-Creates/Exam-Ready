@@ -42,7 +42,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "[text missing in extraction] -on- [text missing in extraction] string represent :",
+      "text": "In its extended ‘beads-on-string’ form of chromatin, the ‘beads’ in the string represent :",
       "options": [
         "Linker DNA",
         "Histone proteins",
@@ -50,10 +50,8 @@
         "NHC proteins"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Text before \"-on-\" and between \"-on-\" and \"string represent\" is missing from the PDF text layer (tried default, -layout and -raw pdftotext modes; same gap in all). The phrase is likely \"beads-on-a-string\", describing the nucleosome structure of chromatin. Not recovered; see page 3 of the PDF."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(C) / Nucleosomes",
         "correctOption": 2
@@ -154,7 +152,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "In which of the following human diseases does self-defence mechanism attack self-cells ?",
+      "text": "In which of the following human diseases does the body’s self-defence mechanism attack self-cells ?",
       "options": [
         "Thalassemia",
         "Phenylketonuria",
@@ -162,9 +160,7 @@
         "Rheumatoid arthritis"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "\"self-\" before \"defence mechanism\" is split by a page break in the PDF text layer; rejoined here."
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "officialAnswer": {
         "text": "(D) / Rheumatoid arthritis",
@@ -237,7 +233,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "Use the given information to select the amino acid attached to the 3 end of tRNA during the process of translation, if the coding strand of the structural gene being transcribed has the nucleotide sequence TAC.\nCodons for the amino acids :\nAUC Isoleucine\nAUG Methionine\nUAC Tyrosine\nGUA Valine",
+      "text": "Use the given information to select the amino acid attached to the 3′ end of tRNA during the process of translation, if the coding strand of the structural gene being transcribed has the nucleotide sequence TAC.\nCodons for the amino acids :\nAUC – Isoleucine\nAUG – Methionine\nUAC – Tyrosine\nGUA – Valine",
       "options": [
         "Isoleucine",
         "Methionine",
@@ -245,9 +241,7 @@
         "Valine"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Prime symbol (') after \"3\" (\"3 end of tRNA\") dropped in extraction; likely \"3' end of tRNA\". Kept as extracted."
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(C) / Tyrosine",
@@ -280,7 +274,7 @@
         "text": "(D) / ELISA",
         "correctOption": 3
       },
-      "chapter": "human-health-and-diseases",
+      "chapter": "biotechnology-and-its-applications",
       "mappingStatus": "AI_SUGGESTED"
     },
     {
@@ -294,18 +288,39 @@
       "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "The correct depiction of the experiment performed by Matthew Meselson and Franklin Stahl to prove that DNA replicates semi-conservatively on separation of DNA by centrifugation after 40 minutes is :",
-      "options": [],
-      "hasFigure": true,
-      "extractionIssues": [
-        "All four options (A)-(D) are diagrams (DNA banding patterns in a centrifuge tube after 40 minutes) on page 11 and are absent from the text layer; options array is empty.",
-        "Official answer in the marking scheme is only the option letter (A), with no text description of the diagram (figure not reproduced)."
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)"
       ],
-      "confidence": "LOW",
+      "hasFigure": true,
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(A)"
+        "text": "(A)",
+        "correctOption": 0
       },
       "chapter": "molecular-basis-of-inheritance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-biology-57-4-1/10.png",
+          "kind": "FIGURE",
+          "alt": "Four centrifuge-tube drawings labelled (A), (B), (C) and (D), each showing dark DNA bands at different positions",
+          "width": 473,
+          "height": 336,
+          "page": 11,
+          "crop": {
+            "x": 0.155,
+            "y": 0.392,
+            "w": 0.265,
+            "h": 0.133
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "11",
@@ -371,7 +386,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "ASSERTION_REASON",
-      "text": "Assertion (A) : in vitro -free\nplants from an infected plant.\nReason (R) : If the plant is infected with a virus, the roots and the stems are free of virus.",
+      "text": "Assertion (A) : The meristems are grown ‘in vitro’ to obtain virus-free plants from an infected plant.\nReason (R) : If the plant is infected with a virus, the roots and the stems are free of virus.",
       "options": [
         "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
@@ -380,10 +395,9 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Assertion–Reason codes (A)–(D) are printed once on page 13 for Questions 13–16",
-        "Assertion (A) has gaps in the text layer around \"in vitro\" and \"-free\" (tried default, -layout and -raw pdftotext modes, same gaps in all); likely describes a meristem/tissue-culture technique used to obtain virus-free plants from an infected plant. Not recovered; see page 13 of the PDF."
+        "Assertion–Reason codes (A)–(D) are printed once on page 13 for Questions 13–16"
       ],
-      "confidence": "LOW",
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(C) / Assertion (A) is true, but Reason (R) is false.",
         "correctOption": 2
@@ -430,7 +444,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "ASSERTION_REASON",
-      "text": "Assertion (A) : [text missing in extraction] increases phagocytosis of sperms.\nReason (R) : It is a non-steroidal preparation.",
+      "text": "Assertion (A) : ‘Saheli’, an oral contraceptive inhibits ovulation and increases phagocytosis of sperms.\nReason (R) : It is a non-steroidal preparation.",
       "options": [
         "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
@@ -439,10 +453,9 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Assertion–Reason codes (A)–(D) are printed once on page 13 for Questions 13–16",
-        "The subject of Assertion (A), before \"increases phagocytosis of sperms\", is missing from the PDF text layer (tried default, -layout and -raw pdftotext modes, same gap in all); likely refers to copper ions/copper-releasing IUDs. Not recovered; see page 13 of the PDF."
+        "Assertion–Reason codes (A)–(D) are printed once on page 13 for Questions 13–16"
       ],
-      "confidence": "LOW",
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(D) / Assertion (A) is false, but Reason (R) is true.",
         "correctOption": 3
@@ -529,11 +542,9 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Assume that the given mRNA (start site is not depicted) is theoretically translated in two reading frames.\n(a) Translation starting from the first nucleotide (Reading frame 1)\n(b) Translation starting from the second nucleotide (Reading frame 2)\nFrame 1\n5 CUCGCUUGCCGAUCAAGGGUUA 3\nFrame 2\n5 GUGGCACUCAGUCCUUAAUGGCG 3\nAnswer the following question :\nHow many amino acids will be specified in case (a) and case (b) on translation ? Justify your answer.",
+      "text": "Assume that the given mRNA (start site is not depicted) is theoretically translated in two reading frames.\n(a) Translation starting from the first nucleotide (Reading frame 1)\n(b) Translation starting from the second nucleotide (Reading frame 2)\nFrame 1\n5′ – CUCGCUUGCCGAUCAAGGGUUA – 3′\nFrame 2\n5′ – GUGGCACUCAGUCCUUAAUGGCG – 3′\nAnswer the following question :\nHow many amino acids will be specified in case (a) and case (b) on translation ? Justify your answer.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Prime symbols (') around the \"5\" and \"3\" end labels of both reading frames are dropped in extraction (confirmed with default, -layout and -raw pdftotext modes: plain \"5 ... 3\" with no prime character bytes present); likely \"5'...3'\". Kept as extracted."
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) 7 amino acids, the genetic code is a triplet.\n(b) 7 amino acids, the genetic code is triplet."
@@ -693,19 +704,33 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Study the given below single strand of deoxyribonucleic acid depicted in 3 end directionality, sugars as vertical lines and bases as single letter abbreviations and answer the questions that follow.\n(a) Name the covalent bonds depicted as (a) and (b) in the form of slanting lines in the diagram.\n(b) [text missing in extraction]\n(c) Draw the chemical structure of the given polynucleotide chain of DNA.",
+      "text": "Study the given below single strand of deoxyribonucleic acid depicted in the form of a “stick” diagram with 5′ – 3′ end directionality, sugars as vertical lines and bases as single letter abbreviations and answer the questions that follow.\n(a) Name the covalent bonds depicted as (a) and (b) in the form of slanting lines in the diagram.\n(b) How many purines are present in the given “stick” diagram ?\n(c) Draw the chemical structure of the given polynucleotide chain of DNA.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Prime symbol (') after \"3\" (\"3 end directionality\") dropped in extraction; likely \"3' end directionality\". Kept as extracted.",
-        "Diagram of the single-stranded DNA (sugars as vertical lines, bases as letters, two covalent bonds labelled (a) and (b)) on page 19 not reproduced in text layer; needed to answer (a) and (c).",
-        "Sub-part (b)'s question text is entirely missing from the PDF text layer, between \"(a) Name the covalent bonds...\" and \"(c) Draw the chemical structure...\" (tried default, -layout and -raw pdftotext modes, same gap in all); not recovered. See page 19 of the PDF. The marking scheme's answer for (b) is \"Two\", suggesting it asked for a count (e.g. the number of phosphodiester bonds in the strand); this is not inserted into the question text."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(a) Bond (a) - Phosphoester linkage/bond; Bond (b) - Phospho-di-ester linkage/bond.\n(b) Two.\n(c) [diagram: correct 3'-5' ends, correct sugar-phosphate backbone, correct nitrogenous bases]"
+        "text": "(a)\n(a) Phosphoester linkage/ Phosphoester bond\n(b) Phospho-di-ester linkage / Phospho-di-ester bond\n(b) Two\n(c) correct 3’-5’ ends\ncorrect sugar phosphate backbone\ncorrect nitrogenous bases"
       },
       "chapter": "molecular-basis-of-inheritance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-biology-57-4-1/24.png",
+          "kind": "FIGURE",
+          "alt": "Stick diagram of a single DNA strand: vertical lines each topped by a lettered base box, 5′ and 3′ ends marked, a circled P at one end and a circled OH at the other, and two slanting lines labelled (a) and (b)",
+          "width": 822,
+          "height": 404,
+          "page": 19,
+          "crop": {
+            "x": 0.21,
+            "y": 0.485,
+            "w": 0.46,
+            "h": 0.16
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "25",
@@ -759,12 +784,10 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "[text missing in extraction] survival in Mudumalai Tiger Reserve (MTR) [text missing in extraction] was found to be a small, beautiful flower, Lantana camara, a tropical American shrub, that [text missing in extraction] Lantana weed eradication drive helped to restore the dying MTR thereby also reducing human-wildlife conflicts. MTR is home to 25 species of grasses and legumes.\nAnswer the given questions based on the information given above.\n(a) Explain how did the removal of Lantana help in restoring the dying Mudumalai Tiger Reserve.\n(b) Why is the invasion of Lantana camara a cause of concern in MTR.",
+      "text": "According to a recent wildlife report, the biggest threat to the tiger’s survival in Mudumalai Tiger Reserve (MTR) was found to be a small, beautiful flower, Lantana camara, a tropical American shrub, that invaded 40% of India’s tiger range. Tamil Nadu department’s Lantana weed eradication drive helped to restore the dying MTR thereby also reducing human-wildlife conflicts. MTR is home to 25 species of grasses and legumes.\nAnswer the given questions based on the information given above.\n(a) Explain how did the removal of Lantana help in restoring the dying Mudumalai Tiger Reserve.\n(b) Why is the invasion of Lantana camara a cause of concern in MTR.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Several phrases in the opening passage are missing from the PDF text layer (marked \"[text missing in extraction]\" above; tried default, -layout and -raw pdftotext modes, same gaps in all). The passage likely describes a threat to tiger survival in Mudumalai Tiger Reserve (MTR) from the invasive shrub Lantana camara, and a weed-eradication drive that helped restore the reserve. Not recovered; see page 21 of the PDF. Sub-questions (a) and (b) are intact and answerable."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(a) Removal of Lantana allows other plants to grow, due to which the herbivore population increases and that helps restore the tiger population.\n(b) Lantana, being invasive, does not allow other plants to grow in its surroundings; this will decrease the herbivore population, which can in turn cause a decline in the tiger population."
       },
@@ -801,13 +824,12 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "Read the following passage and answer the questions that follow.\nThe most convincing evidence to trace evolutionary relationships between humans and different groups of animals come from the basic similarities seen at the molecular level. Study the table given below that depicts the number of amino acid differences between the haemoglobin polypeptide of few animals with that of humans and answer the questions that follow.\nS.No. | Animal | No. of amino acid differences in haemoglobin with that of humans\n1. | Macaque | 08\n2. | Dog | 32\n3. | Bird | 45\n4. | Frog | 67\n5. | Lamprey | 125\n(a) To which category of evolution (Divergent or Convergent) do the following evolutionary relationships belong to :\n(i) Humans and Macaque\n(ii) Humans and Frog\n(b) What do the biochemical similarities in haemoglobin suggest about the evolutionary relationship between humans, frog and lamprey ?\n(c) (i) Which one of the two [text missing in extraction] closely related to humans and why ?\nOR\n(c) (ii) Which one of the two [text missing in extraction] related to humans and why ?",
+      "text": "Read the following passage and answer the questions that follow.\nThe most convincing evidence to trace evolutionary relationships between humans and different groups of animals come from the basic similarities seen at the molecular level. Study the table given below that depicts the number of amino acid differences between the haemoglobin polypeptide of few animals with that of humans and answer the questions that follow.\nS.No. | Animal | No. of amino acid differences in haemoglobin with that of humans\n1. | Macaque | 08\n2. | Dog | 32\n3. | Bird | 45\n4. | Frog | 67\n5. | Lamprey | 125\n(a) To which category of evolution (Divergent or Convergent) do the following evolutionary relationships belong to :\n(i) Humans and Macaque\n(ii) Humans and Frog\n(b) What do the biochemical similarities in haemoglobin suggest about the evolutionary relationship between humans, frog and lamprey ?\n(c) (i) Which one of the two – lampreys’ or macaques’ evolution is more closely related to humans and why ?\nOR\n(c) (ii) Which one of the two – frogs’ or dogs’ evolution is more closely related to humans and why ?",
       "hasFigure": false,
       "extractionIssues": [
-        "Table layout reconstructed from jumbled PDF text order (rows/columns realigned against the printed animal names and amino-acid-difference values); all values were present in the text layer.",
-        "Text after \"Which one of the two\" in (c)(i) and (c)(ii) (the animal names being compared) is missing from the PDF text layer (tried default, -layout and -raw pdftotext modes, same gap in all); not recovered. The marking scheme indicates (c)(i) compares Macaque and Lamprey, and (c)(ii) compares Dog and Frog, but this is not inserted into the question text. See page 23 of the PDF."
+        "Table layout reconstructed from jumbled PDF text order (rows/columns realigned against the printed animal names and amino-acid-difference values); all values were present in the text layer."
       ],
-      "confidence": "LOW",
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(a) (i) Human and Macaque = Divergent evolution. (ii) Human and Frog = Divergent evolution.\n(b) Biochemical similarities in haemoglobin suggest common ancestry.\n(c)(i) Macaque is more closely related to humans than lamprey, because the number of amino acid differences between human and macaque is less / human and macaque have more biochemical similarities in the structure of haemoglobin than human and lamprey.\nOR\n(c)(ii) Dog is more closely related to human than frog, because the number of amino acid differences between human and dog is less / dog and human have more biochemical similarities in the structure of haemoglobin than human and frog."
       },

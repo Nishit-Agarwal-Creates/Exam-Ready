@@ -80,14 +80,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The three shapes (i)-(iii) printed on page 2 are needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p2 Q3(c): three shapes (i)-(iii); cropped from the scan.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-half-yearly-mathematics-131225-2026#4a",
@@ -208,14 +218,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The shaded figure on page 2 (with its 20 m / 7 m dimensions) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "p2 Q6(c): shaded rectangle 20 m by 7 m with semicircles at both ends; cropped from the scan. | Page 2: re-cropped to y 0.505-0.625 (x 0.33-0.745) so the hand-written \"20 m\" length label under the rectangle and the \"7 m\" label are complete and legible; checked the PNG.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-half-yearly-mathematics-131225-2026#7a",
@@ -253,7 +274,7 @@
       "key": "icse-school-8-mathematics-icse-class-8-half-yearly-mathematics-131225-2026#7c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -261,9 +282,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q7(c) (stored as 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "p2: Q7(c) line ends after '(ii) Triangular prism' with no bracketed mark (7(a) [4], 7(b) [3]); marksStatus NOT_PRINTED, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-half-yearly-mathematics-131225-2026#8a",

@@ -44,12 +44,28 @@
       "type": "SHORT_ANSWER",
       "text": "(i) The figure below shows the parts of measuring scales. Which scale can measure length more accurately A or B:\n(ii) Name a physical quantity related to the unit light year.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (scales A and B) on page 1 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "measurements-and-experimentation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-science-np20-521-2020/1a.png",
+          "kind": "FIGURE",
+          "alt": "Two 1 cm measuring scales labelled A and B, each marked 0 to 1 cm with different numbers of divisions",
+          "width": 857,
+          "height": 208,
+          "page": 1,
+          "crop": {
+            "x": 0.2,
+            "y": 0.6,
+            "w": 0.48,
+            "h": 0.085
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -97,12 +113,28 @@
       "type": "SHORT_ANSWER",
       "text": "The motion of a body is represented by the following displacement – time graph.\n(i) State the type of motion represented in the graph.\n(ii) How can the velocity of the body be determined from the above graph?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph (displacement-time) on page 2 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "motion-in-one-dimension",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-science-np20-521-2020/1d.png",
+          "kind": "GRAPH",
+          "alt": "Displacement (m) against time (s) graph with a straight line from the origin",
+          "width": 625,
+          "height": 298,
+          "page": 2,
+          "crop": {
+            "x": 0.26,
+            "y": 0.135,
+            "w": 0.35,
+            "h": 0.122
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -203,15 +235,30 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The diagram below shows the position of two divers A and B in river water at the depth of h1 and h2 respectively from the water surface.\n(i) Which of the two divers (A or B) will experience more pressure by the water?\n(ii) The two divers were later made to dive in a sea. For the same depth, they experience more pressure in the sea compared to that in the river. Why?",
+      "text": "The diagram below shows the position of two divers A and B in river water at the depth of h₁ and h₂ respectively from the water surface.\n(i) Which of the two divers (A or B) will experience more pressure by the water?\n(ii) The two divers were later made to dive in a sea. For the same depth, they experience more pressure in the sea compared to that in the river. Why?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (divers A and B at depths h1, h2) on page 3 not reproduced",
-        "Subscripts flattened: h1, h2"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "pressure-in-fluids",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-science-np20-521-2020/2e.png",
+          "kind": "FIGURE",
+          "alt": "Dashed water surface with diver A at depth h₁ and diver B at depth h₂ in river water",
+          "width": 822,
+          "height": 402,
+          "page": 3,
+          "crop": {
+            "x": 0.25,
+            "y": 0.116,
+            "w": 0.46,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -296,12 +343,29 @@
       "text": "The diagram below shows image formation A’B’ of an object AB kept between pole (P) and Focus (F) in a spherical mirror MM’.\nIdentify the spherical mirror used and state the focal length of the spherical mirror. (Do not draw the diagram.)",
       "hasFigure": true,
       "extractionIssues": [
-        "Ray diagram (C, F, B, P, B', distance marked 17 cm) on page 4 not reproduced",
         "Part label overwritten by handwriting on the scan; '(e)' taken from the sequence (d) → (e)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "reflection-of-light",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-science-np20-521-2020/3e.png",
+          "kind": "FIGURE",
+          "alt": "Ray diagram: mirror MM' at P on a principal axis with points C, F, B, P and B', object AB, image A'B', and a distance of 17 cm marked from C to P",
+          "width": 822,
+          "height": 512,
+          "page": 4,
+          "crop": {
+            "x": 0.26,
+            "y": 0.312,
+            "w": 0.46,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -383,12 +447,28 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram below shows the magnetic field lines of earth in a limited space. The field lines are parallel and equidistant.\n(i) Are the magnetic field lines uniform or non-uniform?\n(ii) Where is the position of the geographic north, A or B?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (field lines with ends marked A and B) on page 5 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-science-np20-521-2020/4e.png",
+          "kind": "FIGURE",
+          "alt": "Four parallel arrows representing field lines, with box A at the top and box B at the bottom",
+          "width": 393,
+          "height": 183,
+          "page": 5,
+          "crop": {
+            "x": 0.3,
+            "y": 0.192,
+            "w": 0.22,
+            "h": 0.075
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -402,12 +482,28 @@
       "type": "NUMERICAL",
       "text": "The figure below shows the velocity-time graph of a body moving in a straight line.\nFind:\n(i) the time interval in which the body is moving with zero acceleration.\n(ii) the total displacement of the body.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Velocity-time graph (velocity in m s⁻¹, 15; time in s, 0, 12, 20) on page 5 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "motion-in-one-dimension",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-science-np20-521-2020/5a.png",
+          "kind": "GRAPH",
+          "alt": "Velocity (m s⁻¹) against time (s) graph with 15 marked on the velocity axis and 0, 12 and 20 on the time axis, and a dashed line at 12",
+          "width": 715,
+          "height": 297,
+          "page": 5,
+          "crop": {
+            "x": 0.25,
+            "y": 0.5,
+            "w": 0.4,
+            "h": 0.122
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -474,12 +570,28 @@
       "type": "SHORT_ANSWER",
       "text": "(i) A book is kept on the table as shown in the diagram. Copy the diagram and mark the action reaction forces with their directions.\n(ii) Do these forces act on the same body or on two different bodies?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (book on table) on page 6 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "laws-of-motion",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-science-np20-521-2020/6b.png",
+          "kind": "FIGURE",
+          "alt": "A rectangle labelled Book resting on a line labelled Table",
+          "width": 857,
+          "height": 98,
+          "page": 6,
+          "crop": {
+            "x": 0.24,
+            "y": 0.59,
+            "w": 0.48,
+            "h": 0.04
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -546,16 +658,32 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "The figure above shows a solid of density ds floating in a liquid of density dL.\n(i) What is the relation between ds and dL in the above case?\n(ii) What is the apparent weight of the floating body?\n(iii) The same solid floats in water with 3/5th of its volume immersed in it. Calculate the density of the solid. (density of water = 1 g cm⁻³)",
+      "text": "The figure above shows a solid of density d_{s} floating in a liquid of density d_{L}.\n(i) What is the relation between d_{s} and d_{L} in the above case?\n(ii) What is the apparent weight of the floating body?\n(iii) The same solid floats in water with 3/5th of its volume immersed in it. Calculate the density of the solid. (density of water = 1 g cm⁻³)",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure (solid of density ds floating in liquid of density dL) on page 7 not reproduced",
-        "Subscripts flattened: ds, dL",
         "Notation rebuilt from the scan (powers: 3/5th, cm⁻³); check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": "upthrust-and-floatation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-science-np20-521-2020/7c.png",
+          "kind": "FIGURE",
+          "alt": "A block marked d_s floating in a container of liquid marked d_L",
+          "width": 483,
+          "height": 244,
+          "page": 7,
+          "crop": {
+            "x": 0.33,
+            "y": 0.44,
+            "w": 0.27,
+            "h": 0.1
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
@@ -603,11 +731,10 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The diagram below shows Hope’s experimental set up. The temperature in the metallic cylinder is 10° C. The trough is packed with a freezing mixture of ice and salt.\n(i) Which of the two thermometer shows rapid fall in temperature initially - T1 or T2 and why?\n(ii) After some time when ice is formed:\n1. Will it sink to the bottom of the metallic cylinder?\n2. What does it tell about density of ice in relation to density of water at the bottom?",
+      "text": "The diagram below shows Hope’s experimental set up. The temperature in the metallic cylinder is 10° C. The trough is packed with a freezing mixture of ice and salt.\n(i) Which of the two thermometer shows rapid fall in temperature initially - T₁ or T₂ and why?\n(ii) After some time when ice is formed:\n1. Will it sink to the bottom of the metallic cylinder?\n2. What does it tell about density of ice in relation to density of water at the bottom?",
       "hasFigure": true,
       "extractionIssues": [
-        "Diagram (Hope's apparatus with thermometers T1, T2, trough, freezing mixture) on page 8 not reproduced",
-        "Subscripts flattened: T1, T2"
+        "Diagram (Hope's apparatus with thermometers T1, T2, trough, freezing mixture) on page 8 not reproduced"
       ],
       "confidence": "MEDIUM",
       "chapter": "heat-and-energy",
@@ -662,12 +789,29 @@
       "text": "The figure shows the snapshot of a sound wave in a certain medium at a certain instant.\n(i) What is the amplitude of the wave?\n(ii) If the velocity of the wave is 4m s⁻¹, calculate the wavelength of the wave if its frequency is 20 Hz.\n(iii) If a wave of same type but with higher frequency is passed in the given medium, will the speed of the wave increase, decrease or remain the same?",
       "hasFigure": true,
       "extractionIssues": [
-        "Graph (displacement in cm from 12cm to -12cm against distance in m) on page 9 not reproduced",
         "Notation rebuilt from the scan (powers: s⁻¹); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "propagation-of-sound-waves",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-science-np20-521-2020/9c.png",
+          "kind": "GRAPH",
+          "alt": "Snapshot of a wave drawn against an axis labelled displacement in cm and an axis labelled Distance in m, with a value marked on the displacement axis at the crest level and another at the trough level",
+          "width": 1197,
+          "height": 246,
+          "page": 9,
+          "crop": {
+            "x": 0.12,
+            "y": 0.654,
+            "w": 0.67,
+            "h": 0.101
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",
@@ -715,12 +859,28 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram shows a circuit in which a bulb is connected through connecting the wires to a cell.\n(i) The bulb in the circuit does not glow. Why?\n(ii) If the bulb is glowing then what will be the direction of the conventional current in the circuit?\n(iii) Name an instrument used to control the electric current in the circuit.\n(iv) What do you understand by the term current?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagram (cell, key, bulb) on page 10 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-science-np20-521-2020/10c.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with a cell (+ and - marked), a key and a bulb connected by wires",
+          "width": 732,
+          "height": 410,
+          "page": 10,
+          "crop": {
+            "x": 0.295,
+            "y": 0.472,
+            "w": 0.41,
+            "h": 0.168
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

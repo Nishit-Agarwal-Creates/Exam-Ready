@@ -288,14 +288,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 4 (uterus with label B) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: diagram printed under Q1(xvii), cropped whole with label B.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xii-biology-specimen#1xviiia",
@@ -304,14 +314,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Labelled sperm diagram on page 4 (labels A-E) is needed to answer.",
-      "notes": "Paper prints [2] for the whole part; answer key prints [1] for each of (a) and (b)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Paper prints [2] for the whole part; answer key prints [1] for each of (a) and (b).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: Sameer's labelled sperm diagram printed under Q1(xviii)(a), cropped whole with labels A-E.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xii-biology-specimen#1xviiib",
@@ -352,14 +372,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Bar graph on page 5 names the three climatic regions (Polar (N), Temperate (N), Tropical) the answer must use; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: bar graph printed under the Q2(ii) stem, cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xii-biology-specimen#3",
@@ -368,14 +398,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph on page 5 (T-cell count and virus in blood vs time) is needed to describe the trend in (i).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: graph printed under the Q3 stem, cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xii-biology-specimen#4",
@@ -400,14 +440,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Gel electrophoresis figure on page 6 (labels a-d) is needed to identify the anode end.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 6: gel figure printed under the Q5 stem, cropped whole with labels a-d. | p51-fix-D0: Alt-text sweep: page 6 figure does not print 'agarose gel'; the old alt named the gel, which is part of the answer to (ii) (how the fragments are visualised).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xii-biology-specimen#6",
@@ -464,14 +515,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Pedigree chart on page 7 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Page 7: pedigree chart printed under the Q9 stem, cropped whole. | p51-fix-D0: Answer key page 14 (looked at the render): (i)(a) prints 'Father I' with superscript A then 'i', and 'Mother I' with superscript B then 'i'; (b) is printed flat as 'IAi/ IBi/, ii' (kept as printed); (ii) 'A or O'. Superscripts restored in (a) only.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xii-biology-specimen#10i",
@@ -560,14 +622,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 9 (pollination modes labelled 1-3) is needed for (i).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "Page 9: pollination figure printed under the Q14 stem, cropped whole. | p51-fix-D0: Page 9 re-cropped from y 0.147 (was 0.155) and wider to x 0.61: the tops of the curved arrows to the circled labels 2 and 3 (and arrow 1) are now complete, and the right-hand leaf is not clipped. Looked at the PNG: whole figure, no question text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xii-biology-specimen#15",
@@ -608,14 +681,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Transcription-unit figure on page 10 (parts A and B) is needed for (b).",
-      "notes": "Key's '600C' is 60°C."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key's '600C' is 60°C.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 10: transcription-unit figure printed under Q17(i)(b), cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xii-biology-specimen#17ii",
@@ -624,14 +707,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Lac operon diagram on page 10 not reproduced, but the text names the i gene and genes z, y, a, so all parts are answerable. Key (c) 'RNA polymerase' reproduced as printed."
+      "notes": "Lac operon diagram on page 10 not reproduced, but the text names the i gene and genes z, y, a, so all parts are answerable. Key (c) 'RNA polymerase' reproduced as printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 10: operon diagram printed under the Q17(ii) stem, cropped whole. | p51-fix-D0: Alt-text sweep: page 10 figure; the old alt named it 'the lac operon' and described X; now lists only the printed labels.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xii-biology-specimen#18",
@@ -640,14 +734,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Hormone-concentration graph on page 10 (curves A-D) is needed for (i).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 10: hormone graph printed under Q18(i), cropped whole.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

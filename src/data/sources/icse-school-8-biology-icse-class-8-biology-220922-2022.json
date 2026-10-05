@@ -405,13 +405,30 @@
       "text": "Identify the given diagram and i. Label the parts marked 1,2and 3 ii. Write the function of the parts marked 1,2.3",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 4 not reproduced (brain diagram with parts labelled a, b, c although the text says 1, 2 and 3)",
         "No marks printed (the only mark beside item i. is a '[½]' that appears to be hand-marked); marks not deduced",
         "Part label cut off at the left edge of the scan; inferred from the sequence"
       ],
       "confidence": "LOW",
       "chapter": "nervous-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-biology-icse-class-8-biology-220922-2022/6b.png",
+          "kind": "FIGURE",
+          "alt": "Sectional diagram of an organ with label lines marked a, b and c",
+          "width": 661,
+          "height": 561,
+          "page": 4,
+          "crop": {
+            "x": 0.235,
+            "y": 0.405,
+            "w": 0.37,
+            "h": 0.23
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     }
   ]
 }

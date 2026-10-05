@@ -224,16 +224,33 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 2 (picture of the Olympic rings / dotted regions) not reproduced; the number of overlapping segments (8, per the marking scheme) is read from the image and is not stated numerically in the text, so the question cannot be answered without it.",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(D) 8[π/6 − √3/4] cm². Required area = 8 × area of one segment (r=1cm, θ=60°) = 8 × [(60/360)π(1)² − (√3/4)(1)²] = 8[π/6 − √3/4] cm².",
         "correctOption": 3
       },
       "chapter": "areas-related-to-circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-mathematics-standard/7.png",
+          "kind": "FIGURE",
+          "alt": "Picture of five interlocking Olympic rings with dotted regions where the rings overlap; points A and B marked",
+          "width": 679,
+          "height": 283,
+          "page": 2,
+          "crop": {
+            "x": 0.225,
+            "y": 0.4,
+            "w": 0.38,
+            "h": 0.112
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "8",
@@ -330,7 +347,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "If the area of the base of a right circular cone is 51cm2 and it's volume is 85cm2, then the height of the cone is given as",
+      "text": "If the area of the base of a right circular cone is 51cm² and it's volume is 85cm², then the height of the cone is given as",
       "options": [
         "5/6 cm",
         "5/3 cm",
@@ -339,8 +356,7 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF.",
-        "Volume is printed as '85cm2' in the extracted text; given the base area is also '...cm2', this is likely a flattened/misprinted exponent for cm3 (cubic units expected for a volume) — kept as printed since this cannot be confirmed from the text layer alone."
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
@@ -689,7 +705,7 @@
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "∆ABC∼∆DEF ⇒ AB/DE = BC/EF = CA/FD. Since AP, DQ are medians, BP = BC/2 and EQ = EF/2, so BP/EQ = BC/EF = AB/DE. In ∆ABP and ∆DEQ, AB/DE = BP/EQ and ∠B=∠E (as ∆ABC∼∆DEF), so ∆ABP∼∆DEQ. Hence AB/DE = AP/DQ. [Some equation lines did not extract cleanly.]"
+        "text": "△ABC~△DEF\n⇒ AB/DE = BC/EF\nAB/DE = 2B/2EQ (AP and DQ are the medians)\nAB/DE = BP/EQ\nIn △ABP and △DEQ\nAB/DE = BP/EQ\n∠B=∠E (△ABC~△DEF)\n⇒△ABP ~△DEQ\nHence, AB/DE = AP/DQ"
       },
       "chapter": "triangles",
       "mappingStatus": "AI_SUGGESTED"
@@ -749,17 +765,35 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "A ∆ABC is drawn to circumscribe a circle of radius 4 cm such that the segments BD and DC are of lengths 10 cm and 8 cm respectively. Find the lengths of the sides AB and AC, if it is given that ar(∆ABC) = 90cm2",
-      "hasFigure": false,
+      "text": "A ∆ABC is drawn to circumscribe a circle of radius 4 cm such that the segments BD and DC are of lengths 10 cm and 8 cm respectively. Find the lengths of the sides AB and AC, if it is given that ar(∆ABC) = 90cm²",
+      "hasFigure": true,
       "extractionIssues": [
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "Let AF=AE=x, BD=BE=10cm, CD=CF=8cm, r=4cm. ar(∆ABC)=ar(∆AOC)+ar(∆BOC)+ar(∆AOB): 90=(1/2)r(AC+BC+AB)=(1/2)(4)(x+8+18+x+10) gives x=4.5cm. So AB=4.5+10=14.5cm and AC=4.5+8=12.5cm."
+        "text": "Let r be the radius of the inscribed circle\nBD=BE=10cm\nCD=CF=8cm\nLet AF=AE= x\nar(△ABC) =ar(△AOC) + ar(△BOC) + ar(△AOB)\n=½ × r x AC + ½ × r × BC +½ × r × AB\n90 = ½ × 4 (x +8+18+ x +10)\nx = 4.5cm\n∴ AB=4.5+10=14.5cm\nAC=4.5+8=12.5cm"
       },
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-mathematics-standard/25.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABC with an inscribed circle centre O, touching the sides at D, E and F, with lines from the vertices through O",
+          "width": 599,
+          "height": 480,
+          "page": 4,
+          "crop": {
+            "x": 0.12,
+            "y": 0.635,
+            "w": 0.335,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "26",
@@ -822,7 +856,7 @@
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "2x²−(1+2√2)x+√2 = 2x²−x−2√2x+√2 = (2x−1)(x−√2). Hence the zeroes are 1/2 and √2. [The verification of sum/product of zeroes against the coefficients did not extract cleanly.]"
+        "text": "2x² − (1+2√2)x + √2\n= 2x² − x − 2√2x + √2\n= (2x − 1)(x − √2) Hence the zeroes are 1/2 and √2.\nNow −b/a = (2√2+1)/2 = √2 + 1/2 and c/a = √2/2 = 1/2 × √2"
       },
       "chapter": "polynomials",
       "mappingStatus": "AI_SUGGESTED"
@@ -1109,16 +1143,33 @@
       "text": "A group of class X students goes to picnic during winter holidays. The position of three friends Aman, Kirti and Chahat are shown by the points P, Q and R\n\n(i) Find the distance between P and R. (1)\n(ii) Is Q, the midpoint of PR? Justify by finding midpoint of PR. (1)\n(iii) (A) Find the point on x-axis which is equidistant from P and Q. (2)\nOR\n(iii) (B) Let S be a point which divides the line joining PQ in ratio 2:3. Find the coordinates of S. (2)",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 7 (coordinate graph plotting the points P, Q and R) not reproduced; the coordinates of P, Q and R are not printed in this version of the question and can only be read from the graph, so the question cannot be answered from the text alone. (The 'For Visually Impaired candidates' alternative on the same page, not imported, states them as P(2,5), Q(4,4), R(8,3).)",
         "Sub-part marks shown in brackets were printed in the margin.",
         "Official answer partly missing in extraction (figure/equation)."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(i) PR = √[(8−2)²+(3−5)²] = 2√10.\n(ii) Q=(4,4); midpoint of PR=(5,4); so Q is not the midpoint of PR.\n(iii)(A) Let the point be (x,0): (2−x)²+25=(4−x)²+16 … [value of x did not extract].\nOR\n(iii)(B) Coordinates of S … [did not extract]."
+        "text": "(i) PR = √[(8 − 2)² + (3 − 5)²] = 2√10\n(ii) Co-ordinates of Q (4,4).\nThe mid-point of PR is (5,4)\n∴Q is not the mid-point of PR\n(iii) (A) Let the point be (x,0)\nSo, √[(2 − x)² + 25] = √[(4 − x)² + 16]\nHence x = 3/4. Therefore the point is (3/4,0).\nOR\n(B) The coordinates of S will be\n((2×4+3×2)/(2+3), (2×4+3×5)/(2+3))\n= (14/5, 23/5)"
       },
       "chapter": "coordinate-geometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-mathematics-standard/37.png",
+          "kind": "GRAPH",
+          "alt": "Coordinate grid (x from 0 to 9, y from 0 to 6) with points P, Q and R joined by line segments and dotted lines to the axes",
+          "width": 669,
+          "height": 410,
+          "page": 7,
+          "crop": {
+            "x": 0.46,
+            "y": 0.343,
+            "w": 0.375,
+            "h": 0.162
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "38",
@@ -1133,7 +1184,6 @@
       "text": "India gate (formerly known as All India war memorial) is located near Karthavya path. (formerly Rajpath) at New Delhi. It stands as a memorial to 74187 soldiers of Indian Army, who gave their life in the first world war. This 42m tall structure was designed by Sir Edwin Lutyens in the style of Roman triumphal arches. A student Shreya of height 1 m visited India Gate as a part of her study tour.\n\n(i) What is the angle of elevation from Shreya’s eye to the top of India Gate, if she is standing at a distance of 41m away from the India Gate? (1)\n(ii) If Shreya observes the angle of elevation from her eye to the top of India Gate to be 60ᵒ, then how far is the she standing from the base of the India Gate? (1)\n(iii) (A) If the angle of elevation from Shreya’s eye changes from 45° to 30°, when she moves some distance back from the original position. Find the distance she moves back. (2)\nOR\n(iii) (B) If Shreya moves to a point which is at a distance of 41/√3 m from the India Gate, then find the angle of elevation made by her eye to the top of India Gate. (2)",
       "hasFigure": false,
       "extractionIssues": [
-        "Text corrupted in extraction on page 8 for sub-part (iii)(B) (rendered as 'mmfrfforroommmthe'); reconstructed as '41/√3 m from the' using a nearby split fraction ('41' over '√3') and the marking scheme (tanθ=41/(41/√3)=√3, θ=60°); check against the PDF.",
         "Sub-part marks shown in brackets were printed in the margin.",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF."
       ],

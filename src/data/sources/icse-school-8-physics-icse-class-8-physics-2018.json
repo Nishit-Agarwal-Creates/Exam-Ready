@@ -273,12 +273,29 @@
       "text": "Two conductors are joined by a metal wire as shown in the figure below. Copy the diagram and show the a. direction of flow of electrons b. direction of flow of current.",
       "hasFigure": true,
       "extractionIssues": [
-        "Marks printed once for the question as (2x5=10); 2 marks per sub-part",
-        "Figure on page 1 not reproduced"
+        "Marks printed once for the question as (2x5=10); 2 marks per sub-part"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-physics-icse-class-8-physics-2018/3iii.png",
+          "kind": "FIGURE",
+          "alt": "Two spheres A (marked with - signs) and B (marked with + signs) joined by a wire",
+          "width": 715,
+          "height": 202,
+          "page": 1,
+          "crop": {
+            "x": 0.3,
+            "y": 0.815,
+            "w": 0.4,
+            "h": 0.08
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -578,12 +595,28 @@
       "type": "SHORT_ANSWER",
       "text": "In the electric circuit shown below, label the parts A, B, C and D. State the function of any parts.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-physics-icse-class-8-physics-2018/7ii.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn circuit diagram with four components labelled A, B, C and D",
+          "width": 1037,
+          "height": 341,
+          "page": 3,
+          "crop": {
+            "x": 0.2,
+            "y": 0.125,
+            "w": 0.58,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "7",
@@ -648,12 +681,28 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram below shows a bar magnet placed on the table top with its north pole pointing towards south. The arrow shows the North-South direction. There are no other magnets or magnetic materials nearby. Copy the diagram a) Insert two magnetic field lines on either side of the magnet using arrow head to show the direction of each field line b) Indicate by crosses, the likely positions of neutral points c) What is the magnitude of the magnetic field at each neutral point?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-physics-icse-class-8-physics-2018/8iii.png",
+          "kind": "FIGURE",
+          "alt": "Bar magnet with ends marked N and S, below an arrow pointing from S to N",
+          "width": 393,
+          "height": 165,
+          "page": 3,
+          "crop": {
+            "x": 0.4,
+            "y": 0.435,
+            "w": 0.22,
+            "h": 0.065
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",

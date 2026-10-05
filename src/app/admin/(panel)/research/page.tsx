@@ -74,6 +74,35 @@ export default async function ResearchPage() {
         </p>
       </section>
 
+      <section className="panel mt-6 rounded-2xl p-5" aria-labelledby="recovery-title">
+        <h2 id="recovery-title" className="font-sans text-[1.1rem] font-bold">
+          Recovery from source pages
+        </h2>
+        <dl className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+          {(
+            [
+              ["Figures cropped from source pages", overview.recovery.figures],
+              ["…of them published", overview.recovery.figuresPublished],
+              ["Group total only (mark not per item)", overview.recovery.groupTotal],
+              ["No mark printed", overview.recovery.notPrinted],
+              ["Fractional printed mark", overview.recovery.fractional],
+              ["Published without a per-item mark", overview.recovery.marksStatusPublished],
+            ] as const
+          ).map(([label, value]) => (
+            <div key={label} className="rounded-xl border border-rule p-3">
+              <dt className="text-[0.82rem] text-pencil">{label}</dt>
+              <dd className="num mt-1 text-[1.3rem] font-bold">{value}</dd>
+            </div>
+          ))}
+        </dl>
+        <p className="mt-3 text-[0.9rem] text-pencil">
+          Recovery runs offline, never inside a page request: <code>node scripts/recovery/inventory.mjs</code> classifies every held question,
+          <code> py scripts/recovery/page.py</code> renders and crops the original page, recovered questions are re-reviewed and independently
+          audited, then consolidation decides. Figures are only ever cropped from the source page, never redrawn; questions whose own mark
+          isn&apos;t printed are published with that stated and are never used to build papers.
+        </p>
+      </section>
+
       <section className="mt-8" aria-labelledby="holds-title">
         <h2 id="holds-title" className="font-sans text-[1.1rem] font-bold">
           Held questions, by reason

@@ -772,12 +772,29 @@
       "text": "Verify Euler's formula for the following solids.",
       "hasFigure": true,
       "extractionIssues": [
-        "Q5 says 'Attempt any four' of five items, [3 ×4]; all five share choiceGroup 5",
-        "Figure on page 3 not reproduced (three labelled solids captioned 'Cube', 'Tetrahedron', 'Polyhedron (Hexagonal prism)')"
+        "Q5 says 'Attempt any four' of five items, [3 ×4]; all five share choiceGroup 5"
       ],
       "confidence": "MEDIUM",
       "chapter": "representing-3d-in-2d",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-hy-mathematics-2-300524-2024/54.png",
+          "kind": "FIGURE",
+          "alt": "Three labelled solids (a), (b) and (c) captioned Cube, Tetrahedron and Polyhedron (Hexagonal prism), with lettered vertices and hidden edges dashed",
+          "width": 1400,
+          "height": 408,
+          "page": 3,
+          "crop": {
+            "x": 0.08,
+            "y": 0.048,
+            "w": 0.85,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "5",
@@ -792,12 +809,29 @@
       "text": "Using the triangular prism, answer the following questions.\n(a) Name three edges that interest at the vertex (i) C (ii) E.\n(b) Name four vertices that lie on the plane BCFE.\n(c) Name two edges parallel to the edge AD.",
       "hasFigure": true,
       "extractionIssues": [
-        "Q5 says 'Attempt any four' of five items, [3 ×4]; all five share choiceGroup 5",
-        "Figure on page 3 not reproduced (labelled triangular prism ABCDEF); needed to answer"
+        "Q5 says 'Attempt any four' of five items, [3 ×4]; all five share choiceGroup 5"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "representing-3d-in-2d",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-hy-mathematics-2-300524-2024/55.png",
+          "kind": "FIGURE",
+          "alt": "Triangular prism with vertices labelled A to F and hidden edges dashed",
+          "width": 553,
+          "height": 593,
+          "page": 3,
+          "crop": {
+            "x": 0.105,
+            "y": 0.34,
+            "w": 0.31,
+            "h": 0.235
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     }
   ]
 }

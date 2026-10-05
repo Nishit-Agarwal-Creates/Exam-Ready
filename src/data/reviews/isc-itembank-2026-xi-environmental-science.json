@@ -784,30 +784,51 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 20 (Model A/Model B compost toilets) is needed to tell which model has ventilation pipes",
-      "notes": "'workin g' is as printed"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "'workin g' is as printed",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 20: the Model A / Model B compost-toilet drawings under Q49 cropped with captions.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#50",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
-      "options": "MISSING",
+      "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "All four options are pictures (page 21) and are not in the pack",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 21: the four picture options (a)-(d) are printed only as photographs; cropped together with their labels; options stored as the printed labels (a)-(d) and correctOption set to the key's (d).",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#51",
@@ -816,14 +837,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Map on page 22 is needed to answer; Key (a) Indian desert and Northern plains disagrees with the printed map, which shows the highest wind power density in western/southern India (option c)",
-      "notes": ""
+      "reason": "Key (a) Indian desert and Northern plains disagrees with the printed map (now cropped), which shows the highest densities in western/southern India.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 22: wind power density map of India under Q51 cropped complete with legend.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#52",
@@ -2240,14 +2271,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
-      "answer": "PARTIAL",
+      "figure": "RECOVERED",
+      "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Pictures A and B on page 44 are needed to identify the two modes",
-      "notes": "Key answer trimmed with an ellipsis"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key PDF page 80: full answer (a) and (b)(i)-(vii) copied verbatim.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Page 44: Picture A and Picture B with captions under Q140 cropped. | p51-fix-D0: Answer key PDF page 80 (printed page 75), looked at the render: (b) prints (i) Energy advancements..., (ii) Mass Production and Economic Growth..., (iii) Expansion of Global Trade & Infrastructure..., (iv) Colonialism and Resource extraction., (v) Exploitation of labour force for profits., (vi) Man as different from nature mindset..., (vii) Lack of respect for people following other modes of existence. The stored answer had the numerals misplaced mid-sentence by the layout text and was cut off with an ellipsis; replaced with the full key copied verbatim.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#141",
@@ -2848,14 +2890,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The two pictures on page 55 are needed to identify the two methods being contrasted",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 55: Picture A (beach photograph) and Picture B (net illustration) under Q178 cropped separately, source lines excluded.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#179",
@@ -3024,14 +3076,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Figure not needed: the text names or describes what it shows"
+      "notes": "Figure not needed: the text names or describes what it shows",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 59: catalytic converter / SCR picture under Q189 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#190",
@@ -3088,14 +3150,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 61 is needed (question asks for signs visible in the image)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 61: picture under Q193 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#194",
@@ -3104,14 +3176,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 61 is needed (question asks for sources visible in the image)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 61: household picture under Q194 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#195",
@@ -3216,14 +3298,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Logos on page 63 are needed to identify the three institutions",
-      "notes": "Key answer trimmed with an ellipsis"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key answer trimmed with an ellipsis",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 63: the three logos under Q201 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#202",
@@ -3248,14 +3340,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 64 is needed to identify the common resources",
-      "notes": "Key answer trimmed with an ellipsis"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key answer trimmed with an ellipsis",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 64: picture collage under Q203 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#204",
@@ -3280,14 +3382,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Image on page 65 is needed to identify the technology (biogas plant)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 65: image under Q205 cropped (source line excluded).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#206",
@@ -3312,14 +3424,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Map on page 66 is needed to answer",
-      "notes": "Key answer trimmed with an ellipsis"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key answer trimmed with an ellipsis",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 66: energy-use world map under Q207 cropped with legend and source note.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-environmental-science#208",

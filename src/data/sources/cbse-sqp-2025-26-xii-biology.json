@@ -611,7 +611,6 @@
       "text": "Attempt either option A or B.\n(i) Compare the two ecological pyramids of biomass I and II given below and explain the situations in which this is possible.\n(ii) Construct an ideal pyramid of energy if 200,000 joules of sunlight are available.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figures (Fig. I and Fig. II, ecological pyramids of biomass) on page 5 not reproduced in text layer; needed to answer part (i)",
         "Header reads 'Attempt either option A or B' but only Option A is printed for general candidates in the main text; a textual Option B (tropical rainforest vertebrate count) is printed only inside the 'For Visually impaired students' substitute block — unclear whether Option B was intended for general candidates too; flagged for editor review",
         "'For Visually impaired candidates' alternative text (below the dashed rule) was skipped per project policy"
       ],
@@ -620,7 +619,25 @@
         "text": "(i) The first (upright) pyramid of biomass corresponds to a terrestrial ecosystem. Producers have maximum biomass, decreasing with herbivores (primary consumer), secondary consumer and tertiary consumer. Second (inverted) pyramid refers to a small standing crop of phytoplankton supporting a large standing crop of zooplankton/aquatic ecosystem.\n(ii) [diagram answer not present in the text layer]"
       },
       "chapter": "ecosystem",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-biology/21.png",
+          "kind": "FIGURE",
+          "alt": "Fig. I and Fig. II: two pyramids of biomass with trophic levels (PP, PC, SC, TC) and dry weight (kg m^-2); Fig. I has PP 809, PC 37, SC 11, TC 1.5; Fig. II has PP 4 and PC 21",
+          "width": 1072,
+          "height": 581,
+          "page": 5,
+          "crop": {
+            "x": 0.2,
+            "y": 0.28,
+            "w": 0.6,
+            "h": 0.23
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "22",
@@ -655,15 +672,32 @@
       "text": "Given below is a figure showing transport of ovum, fertilisation and passage of growing embryo through fallopian tube in a human female. Answer the questions that follow:\n(i) What will be the ploidy of cells shown in (a) and (c) stage in the figure given below?\n(ii) What will happen if component L as shown in the figure (g) given below does not attach properly to the endometrium?\n(iii) In a pregnant mother (case X), during early pregnancy, the fertilised egg splits into two embryos at stage C shown in the figure given below, resulting in the formation of twins. Will the genome of cells of these two embryos exhibit variation? Justify your answer.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure (stages a–g of ovum transport, fertilisation and embryo passage through the fallopian tube) on page 6 not reproduced in text layer; needed to answer (i)–(iii)",
         "'For Visually impaired candidates' substitute question (below the dashed rule) was skipped per project policy"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) (a) ovum is haploid (n) and (c) – blastomeres are diploid(2n).\n(ii) If the trophoblast (L) does not attach to the endometrium properly, it can lead to implantation failure, pregnancy loss, and other pregnancy complications.\n(iii) In case X, the cells of these embryos will have identical genome as they have developed from the same zygote."
       },
       "chapter": "human-reproduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-biology/23.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of the female reproductive tract with stages labelled A to H along the fallopian tube to the uterus ('Blastocyst Implantation'), and enlarged stages (a) to (e) (e labelled Morula), (f) and (g) (Blastocyst) with parts labelled L, M and N",
+          "width": 858,
+          "height": 447,
+          "page": 6,
+          "crop": {
+            "x": 0.26,
+            "y": 0.479,
+            "w": 0.48,
+            "h": 0.177
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "24",
@@ -700,15 +734,32 @@
       "text": "Shown below are certain aquatic vertebrates, where natural selection has favoured them to develop certain characteristics which enable them to live in water.\nA. Name and explain the phenomenon exhibited by the above animals.\nB. Which one of the above is the most primitive one? What is its significance?",
       "hasFigure": true,
       "extractionIssues": [
-        "Images of the aquatic vertebrates on page 7 not reproduced in text layer; needed to answer part A",
         "'For Visually impaired candidates' substitute question (below the dashed rule) was skipped per project policy"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "A. These animals exhibit convergent evolution, structures that are not anatomically similar are evolved to perform similar functions adapted to the same habitat, the fins of Salmon and Shark, flippers of Dolphins, Seals and whales. One can say that it is the similar habitat that has resulted in selection of similar adaptive features in different groups of organisms but toward the same function: hence, analogous structures are a result of convergent evolution.\nB. Ichthyosaurs. Some of the land reptiles went back into water to evolve into fish like reptiles probably 200 mya."
       },
       "chapter": "evolution",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-biology/25.png",
+          "kind": "FIGURE",
+          "alt": "Line drawings of six aquatic vertebrates labelled salmon, shark, dolphin, ichthyosaur, blue whale and seal",
+          "width": 1036,
+          "height": 341,
+          "page": 7,
+          "crop": {
+            "x": 0.19,
+            "y": 0.14,
+            "w": 0.58,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "26",
@@ -763,15 +814,32 @@
       "text": "The population pyramids of Japan for the years 1950, 2007 and on the basis of the estimated value for 2050 have been shown below to answer the questions that follow:\nA. Comment upon the growth status of the population on the basis of shape of the age pyramids.\nB. What insights can you gain about their population dynamics?",
       "hasFigure": true,
       "extractionIssues": [
-        "Population pyramid figures (Japan, 1950/2007/2050) on page 7–8 not reproduced in text layer; needed to answer part A",
         "'For Visually impaired candidates' substitute question (below the dashed rule), which gives a textual description of the pyramid shapes, was skipped per project policy"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "1950 – Expanding - The population structure in 1950 exhibits a broad-based pyramid with a wider base, indicating a higher percentage of young individuals. This suggests a population with a higher birth rate.\n2007 – Stable - The narrowing of the pyramid towards the top signifies a lower proportion of elderly individuals. By 2007, the population was more stable with the number of pre reproductive and reproductive age nearly being the same. Bell shape indicates static population.\n2050– Declining - By 2050 urn shaped pyramid shows a declining population where birth rates are very less and the populations of elderly people will increase."
       },
       "chapter": "organisms-and-populations",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-biology/28.png",
+          "kind": "GRAPH",
+          "alt": "'Changes in the Population Pyramid': three age pyramids for 1950, 2007 and 2050 (age 0 to 90 years and over, males and females, population in millions), with the percentage in age groups 0-14, 15-64 and 65 and over printed on each",
+          "width": 1044,
+          "height": 586,
+          "page": 7,
+          "crop": {
+            "x": 0.24,
+            "y": 0.627,
+            "w": 0.585,
+            "h": 0.232
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "29",
@@ -803,18 +871,35 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "The graph below shows the Antibody concentration in young calves. Study the graph and answer the questions that follow:\nA. What do you think is the difference between passive and active immunity in this case? (1)\nB. What kind of immunity will be observed when a vaccine is administered to the calf and why? (2)\nAttempt either subpart C or D.\nC. What kind of trend does passive immunity show and why? (1)\nOR\nD. Why does active immunity start after 14 days as per the graph? (1)",
+      "text": "The graph below shows the Antibody concentration in young calves. Study the graph and answer the questions that follow:\nA. What do you think is the difference between passive and active immunity in this case? (1)\nB. What kind of immunity will be observed when a vaccine is administered to the calf and why? (2)\nAttempt either subpart C or D.\nC. What kind of trend does passive immunity show and why? (1)\nOR\nD. Why does active immunity start after 14 days as per the above graph?",
       "hasFigure": true,
       "extractionIssues": [
-        "Graph (antibody concentration in young calves vs. time) on page 8–9 not reproduced in text layer; needed to fully answer parts A, C and D",
         "'For Visually impaired candidates' substitute (below the dashed rule), which gives the graph's data in words, was skipped per project policy"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "A. Passive immunity – Ready made antibodies from colostrum / less effective / transient / no memory cells involved. Active Immunity – Made by host's immune system/ Lag phase/ memory based/ largely effective.\nB. Active immunity. As the vaccine contains a weakened or inactivated form of the pathogen (microbe), which is harmless but still recognized by the immune system as foreign. The immune system responds by activating lymphocytes, which produce specific antibodies to fight the pathogen. This process also leads to the creation of memory cells, which provide long-term protection by \"remembering\" to fight this pathogen if the person is exposed again.\nC. This passive immunity peaks at day 1 and declines as the calf ag as the antibodies are used up to develop immunity against diseases/no memory.\nOR\nD. Active immunity is slow, and it takes time to give its full effective response."
       },
       "chapter": "human-health-and-diseases",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-biology/30.png",
+          "kind": "GRAPH",
+          "alt": "Graph of antibody concentration against time (1 d and 14 d marked) with two curves labelled Passive immunity (Colostrum) and Active immunity (Immune system), and a 'High risk period' arrow between them",
+          "width": 858,
+          "height": 540,
+          "page": 9,
+          "crop": {
+            "x": 0.26,
+            "y": 0.07,
+            "w": 0.48,
+            "h": 0.214
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "31",
@@ -829,16 +914,33 @@
       "text": "A. Construct a complete transcription unit with promoter and terminator on the basis of the hypothetical template strand given below.\nB. How is transcription a more complex process in eukaryotic cells? Explain the additional processes that a precursor mRNA has to undergo in these organisms.",
       "hasFigure": true,
       "extractionIssues": [
-        "The hypothetical DNA template strand for part A is not present in the text layer (likely an image)",
         "'For Visually impaired candidates' substitute for this alternative (below the dashed rule) was skipped per project policy",
         "Official answer partly missing in extraction (part A construction/diagram)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "B. Transcription in eukaryotes involves one of three types of polymerases, depending on the gene being transcribed. RNA polymerase II transcribes all of the protein-coding genes, whereas RNA polymerase I transcribes rRNA genes, and RNA polymerase III transcribes rRNA, tRNA, and small nuclear RNA genes.\nThe primary transcripts contains the coding region, exon, and non-coding region, intron, hnRNA undergoes a process where the introns are removed and exons are joined to form mRNA by the process called splicing.\nThe hnRNA undergoes two additional processes called capping and tailing. In capping, an unusual nucleotide, methyl guanosine triphosphate, is added to the 5′-end of hnRNA. In tailing, adenylate residues (about 200–300) are added at 3′-end in a template independent manner."
       },
       "chapter": "molecular-basis-of-inheritance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-biology/31a.png",
+          "kind": "FIGURE",
+          "alt": "Hypothetical template DNA strand with bases A T G C A T G C A T A C written above it and an arrow pointing left",
+          "width": 607,
+          "height": 127,
+          "page": 9,
+          "crop": {
+            "x": 0.23,
+            "y": 0.822,
+            "w": 0.34,
+            "h": 0.05
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "31",
@@ -853,15 +955,32 @@
       "text": "A. Explain the process of aminoacylation of tRNA. Mention its role in translation.\nB. How do ribosomes in the cells act as factories for protein synthesis?\nC. Given below is a strand of mRNA undergoing the process of translation, what will be the sequence of Amino acids that will be translated? Name the triplet codons that should be added to bring to the end of translation at X.",
       "hasFigure": true,
       "extractionIssues": [
-        "The mRNA strand for part C is not present in the text layer (likely an image)",
         "'For Visually impaired candidates' substitute for part C (below the dashed rule) was skipped per project policy"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "A. Aminoacylation is the process by which amino acids become activated by binding with its aminoacyl tRNA synthetase in the presence of ATP. If two charged tRNAs come close during translation process the formation of peptide bond between them is energetically favourable.\nB. The cellular factory responsible for synthesising proteins is the ribosome. In its inactive state it exists as two subunits: a large subunit and a small subunit. When the small subunit encounters an mRNA the process of translation of the mRNA to protein begins. There are two sites in the large subunit for subsequent amino acids to bind to and thus be close enough to each other for the formation of a peptide bond. The ribosome also acts as a catalyst 23S rRNA in bacteria is the enzyme-ribozyme for the formation of peptide bonds.\nC. ARGININE, THREONINE, HISTIDINE, LEUCINE, PROLINE, GLYCINE, PROLINE PROLINE, PROLINE, LEUCINE SERINE\nStop codon UGA/UAG/UAA"
       },
       "chapter": "molecular-basis-of-inheritance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-biology/31b.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of an mRNA strand with codons CGA ACA CAC CUU CCG GGA CCG CCG CCG CUU AGU, its end marked X, and several tRNA molecules with anticodons, each labelled with an amino acid name",
+          "width": 1000,
+          "height": 501,
+          "page": 10,
+          "crop": {
+            "x": 0.22,
+            "y": 0.379,
+            "w": 0.56,
+            "h": 0.198
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "32",

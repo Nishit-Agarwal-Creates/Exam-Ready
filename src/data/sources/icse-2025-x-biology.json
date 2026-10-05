@@ -27,7 +27,7 @@
     "extractionMethod": "PDF_TEXT_LAYER",
     "extractionTool": "pdftotext (poppler), -enc UTF-8, raw and -layout modes; pdfplumber for underlines, sub/superscripts and figure positions",
     "ocrUsed": false,
-    "notes": "No official marking scheme is published with this paper; questions carry no official answer. Genuine ICSE 2025 board examination paper from the CISCE Archive Library bundle 'ICSE-MainExamination2025.zip' (the bundle name gives the session as the main examination; the paper itself prints only the code 'T25 523'). Printed: Maximum Marks 80, Time allowed Two hours, 16 printed pages. Section A (40 marks) is compulsory: Question 1 has 15 one-mark MCQ/assertion-reason items; Question 2 has five 5-mark sub-questions (i)-(v); (i)-(iv) are split into their 1-mark parts (a)-(e) (marks from the [5] bracket, one per part), (v) is a single 5-mark matching item. Section B prints 'Attempt any four questions from this Section' over six 10-mark questions (3-8); all six are included, so the pack's marks total 100 against the printed maximum of 80 (pick 4 of 6, not an OR choice, so choiceGroup is not used). Section B sub-parts are kept at the printed (i)-(v) level with their printed marks; lettered parts (a)/(b)/(c) under them carry no separate marks and stay together. The assertion-reason items in this paper print only four options ((A) true/(R) false; (A) false/(R) true; both true; both false).",
+    "notes": "No official marking scheme is published with this paper; questions carry no official answer. Genuine ICSE 2025 board examination paper from the CISCE Archive Library bundle 'ICSE-MainExamination2025.zip' (the bundle name gives the session as the main examination; the paper itself prints only the code 'T25 523'). Printed: Maximum Marks 80, Time allowed Two hours, 16 printed pages. Section A (40 marks) is compulsory: Question 1 has 15 MCQ/assertion-reason items under one printed total [15] (stored as GROUP_TOTAL, marks 0); Question 2 has five 5-mark sub-questions (i)-(v); (i)-(iv) are split into their parts (a)-(e), each printing only the group total [5] (stored as GROUP_TOTAL, marks 0), (v) is a single 5-mark matching item. Section B prints 'Attempt any four questions from this Section' over six 10-mark questions (3-8); all six are included, so the stored per-item marks (Section A group totals excluded) do not sum to the printed maximum of 80 (pick 4 of 6, not an OR choice, so choiceGroup is not used). Section B sub-parts are kept at the printed (i)-(v) level with their printed marks; lettered parts (a)/(b)/(c) under them carry no separate marks and stay together. The assertion-reason items in this paper print only four options ((A) true/(R) false; (A) false/(R) true; both true; both false).",
     "usage": "Official CISCE board examination paper from the CISCE Archive Library (cisce.org/archive-library); question text reproduced for study with attribution and a link to the original. Figures are not reproduced.",
     "accessedOn": "2026-09-28"
   },
@@ -39,10 +39,10 @@
       "page": 2,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "The number of live births per thousand people per year is called:",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nThe number of live births per thousand people per year is called:",
       "options": [
         "Mortality",
         "Population density",
@@ -53,7 +53,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "population",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -62,10 +64,10 @@
       "page": 2,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "The structure that lies at the junction of the choroid and the iris and is itself a part of the choroid is called:",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nThe structure that lies at the junction of the choroid and the iris and is itself a part of the choroid is called:",
       "options": [
         "Ciliary body",
         "Suspensory ligament",
@@ -76,7 +78,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "sense-organs",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -85,10 +89,10 @@
       "page": 2,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "ASSERTION_REASON",
-      "text": "Assertion (A): Seminal vesicles pour an alkaline secretion into the semen as it passes through the ureter.\nReason (R): The female vagina is acidic and needs to be neutralized for sperm survival.",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nAssertion (A): Seminal vesicles pour an alkaline secretion into the semen as it passes through the ureter.\nReason (R): The female vagina is acidic and needs to be neutralized for sperm survival.",
       "options": [
         "(A) is true and (R) is false.",
         "(A) is false and (R) is true.",
@@ -101,7 +105,9 @@
       ],
       "confidence": "HIGH",
       "chapter": "reproductive-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -110,10 +116,10 @@
       "page": 3,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "The hormone that induces vigorous contractions of the uterus in a pregnant mother is:",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nThe hormone that induces vigorous contractions of the uterus in a pregnant mother is:",
       "options": [
         "Oestrogen",
         "Prolactin",
@@ -124,7 +130,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "endocrine-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -133,10 +141,10 @@
       "page": 3,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "A scientist wanted to conduct a genetic experiment on mice. He cut the tails of all the mice and made them reproduce. What will be the phenotype of the offsprings?",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nA scientist wanted to conduct a genetic experiment on mice. He cut the tails of all the mice and made them reproduce. What will be the phenotype of the offsprings?",
       "options": [
         "All the offsprings will be tailless.",
         "There will be a mix of tailed and tailless offsprings.",
@@ -147,7 +155,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "human-evolution",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -156,10 +166,10 @@
       "page": 3,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "ASSERTION_REASON",
-      "text": "Assertion (A): A turgid plant cell is in a balanced state.\nReason (R): In a turgid cell, turgor pressure and wall pressure are equal and in the same direction.",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nAssertion (A): A turgid plant cell is in a balanced state.\nReason (R): In a turgid cell, turgor pressure and wall pressure are equal and in the same direction.",
       "options": [
         "(A) is true and (R) is false.",
         "(A) is false and (R) is true.",
@@ -170,7 +180,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "absorption-by-roots",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -179,10 +191,10 @@
       "page": 4,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "The optimum temperature for photosynthesis is:",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nThe optimum temperature for photosynthesis is:",
       "options": [
         "10 – 15°C",
         "60 – 65°C",
@@ -195,7 +207,9 @@
       ],
       "confidence": "MEDIUM",
       "chapter": "photosynthesis",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -204,10 +218,10 @@
       "page": 4,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "Ajay and Vijay are siblings. Ajay can roll his tongue while Vijay cannot. What is the genotype of their parents?",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nAjay and Vijay are siblings. Ajay can roll his tongue while Vijay cannot. What is the genotype of their parents?",
       "options": [
         "Both the parents are homozygous dominant.",
         "Both the parents are homozygous recessive.",
@@ -218,7 +232,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "genetics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -227,10 +243,10 @@
       "page": 4,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "ASSERTION_REASON",
-      "text": "Assertion (A): Deficiency of Antidiuretic hormone causes an increase in urination.\nReason (R): Antidiuretic hormone acts on the kidney to reabsorb water from the kidney tubules.",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nAssertion (A): Deficiency of Antidiuretic hormone causes an increase in urination.\nReason (R): Antidiuretic hormone acts on the kidney to reabsorb water from the kidney tubules.",
       "options": [
         "(A) is true and (R) is false.",
         "(A) is false and (R) is true.",
@@ -241,7 +257,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "endocrine-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -250,10 +268,10 @@
       "page": 5,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "A phase of cell division where the spindle fibres disappear is:",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nA phase of cell division where the spindle fibres disappear is:",
       "options": [
         "Telophase",
         "Prophase",
@@ -264,7 +282,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "cell-cycle-and-cell-division",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -273,10 +293,10 @@
       "page": 5,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "ASSERTION_REASON",
-      "text": "Assertion (A): Arachnoid layer helps in speeding up the transmission of nerve impulses along the axons.\nReason (R): Axon endings at the synapse secrete acetylene.",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nAssertion (A): Arachnoid layer helps in speeding up the transmission of nerve impulses along the axons.\nReason (R): Axon endings at the synapse secrete acetylene.",
       "options": [
         "(A) is true and (R) is false.",
         "(A) is false and (R) is true.",
@@ -289,7 +309,9 @@
       ],
       "confidence": "HIGH",
       "chapter": "nervous-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -298,10 +320,10 @@
       "page": 5,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "Many nuclear power plants are constructed near water sources. They use water for cooling their machinery and release it back into the water stream. Identify the kind of pollution caused.",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nMany nuclear power plants are constructed near water sources. They use water for cooling their machinery and release it back into the water stream. Identify the kind of pollution caused.",
       "options": [
         "Radiation pollution",
         "Water pollution",
@@ -312,7 +334,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "pollution",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -321,10 +345,10 @@
       "page": 6,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "Owls are nocturnal animals. They are active at night and hunt small animals for food. Owls have large eyes and can see well at night. This is due to:",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nOwls are nocturnal animals. They are active at night and hunt small animals for food. Owls have large eyes and can see well at night. This is due to:",
       "options": [
         "Cones and Rhodopsin",
         "Rods and Iodopsin",
@@ -337,7 +361,9 @@
       ],
       "confidence": "HIGH",
       "chapter": "sense-organs",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -346,10 +372,10 @@
       "page": 6,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "Sunil tried to match the tropic movements in plants with the stimulus they respond to. The tabulation is given below:\nTropism | Stimulus\nP Thigmotropism | Touch\nQ Geotropism | Water\nR Chemotropism | Chemicals\nS Phototropism | Gravity\nIdentify the correct pair:",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nSunil tried to match the tropic movements in plants with the stimulus they respond to. The tabulation is given below:\nTropism | Stimulus\nP Thigmotropism | Touch\nQ Geotropism | Water\nR Chemotropism | Chemicals\nS Phototropism | Gravity\nIdentify the correct pair:",
       "options": [
         "P and R",
         "Q and S",
@@ -362,7 +388,9 @@
       ],
       "confidence": "HIGH",
       "chapter": "chemical-coordination-in-plants",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "1",
@@ -371,10 +399,10 @@
       "page": 7,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
-      "text": "Observe the following picture, identify the defect and the cause of the defect.",
+      "text": "Select the correct answers to the questions from the given options.\n(Do not copy the questions, write the correct answer only).\nObserve the following picture, identify the defect and the cause of the defect.",
       "options": [
         "Simple goitre, under secretion of thyroxine.",
         "Ex-ophthalmic goitre, over secretion of thyroxine.",
@@ -382,12 +410,30 @@
         "Ex-ophthalmic goitre, under secretion of thyroxine."
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 7 not reproduced; the question cannot be answered without it"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "endocrine-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/1xv.png",
+          "kind": "FIGURE",
+          "alt": "Line drawing of a man's head, face and neck, seen from the front",
+          "width": 431,
+          "height": 470,
+          "page": 7,
+          "crop": {
+            "x": 0.35,
+            "y": 0.165,
+            "w": 0.235,
+            "h": 0.198
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts (i)-(xv)"
     },
     {
       "number": "2",
@@ -396,7 +442,7 @@
       "page": 7,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Name the following: The fully developed part of the ovary containing a mature ovum.",
@@ -404,7 +450,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "reproductive-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (i): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -413,7 +461,7 @@
       "page": 7,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Name the following: A waxy layer on the upper epidermis of leaves meant to reduce Transpiration.",
@@ -421,7 +469,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "transpiration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (i): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -430,7 +480,7 @@
       "page": 7,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Name the following: The ear ossicle which opens into the oval window of Cochlea.",
@@ -438,7 +488,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "sense-organs",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (i): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -447,7 +499,7 @@
       "page": 7,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Name the following: The physiological process which is the starting point of all food chains.",
@@ -455,7 +507,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "photosynthesis",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (i): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -464,7 +518,7 @@
       "page": 7,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Name the following: An insect which is a classic example of natural selection due to industrial melanism.",
@@ -472,7 +526,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "human-evolution",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (i): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -481,18 +537,37 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
       "text": "Given below is the diagram of a human heart. Read the information below the diagram and fill in the blanks:\nThe human heart pumps blood throughout the body. It is the size of a large fist. The heart is located between the lungs in the thoracic cavity. It has four chambers. The heart functions all through the lifespan of a person and is responsible for the survival of the person.\nThe heart is enclosed by a membrane called (a) ____________. The ventricles give rise to two large blood vessels called (b) ____________ and (c) ____________. The flaps of the cuspid valves are kept in position by (d) ____________. (e) ____________ arteries supply oxygenated blood to the walls of the heart.",
       "hasFigure": true,
       "extractionIssues": [
-        "One continuous fill-in-the-blank passage with blanks (a)-(e); the full passage is repeated in each split entry and the target blank is identified by this entry's part label",
-        "Diagram of a human heart on page 8 not reproduced; the blanks are answerable from the passage without it"
+        "One continuous fill-in-the-blank passage with blanks (a)-(e); the full passage is repeated in each split entry and the target blank is identified by this entry's part label"
       ],
       "confidence": "HIGH",
       "chapter": "circulatory-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (ii): [5] for the 5 parts (a)-(e)",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/2iia.png",
+          "kind": "FIGURE",
+          "alt": "Shaded drawing of a heart with its blood vessels, without labels",
+          "width": 423,
+          "height": 456,
+          "page": 8,
+          "crop": {
+            "x": 0.375,
+            "y": 0.183,
+            "w": 0.23,
+            "h": 0.192
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -501,18 +576,37 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
       "text": "Given below is the diagram of a human heart. Read the information below the diagram and fill in the blanks:\nThe human heart pumps blood throughout the body. It is the size of a large fist. The heart is located between the lungs in the thoracic cavity. It has four chambers. The heart functions all through the lifespan of a person and is responsible for the survival of the person.\nThe heart is enclosed by a membrane called (a) ____________. The ventricles give rise to two large blood vessels called (b) ____________ and (c) ____________. The flaps of the cuspid valves are kept in position by (d) ____________. (e) ____________ arteries supply oxygenated blood to the walls of the heart.",
       "hasFigure": true,
       "extractionIssues": [
-        "One continuous fill-in-the-blank passage with blanks (a)-(e); the full passage is repeated in each split entry and the target blank is identified by this entry's part label",
-        "Diagram of a human heart on page 8 not reproduced; the blanks are answerable from the passage without it"
+        "One continuous fill-in-the-blank passage with blanks (a)-(e); the full passage is repeated in each split entry and the target blank is identified by this entry's part label"
       ],
       "confidence": "HIGH",
       "chapter": "circulatory-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (ii): [5] for the 5 parts (a)-(e)",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/2iia.png",
+          "kind": "FIGURE",
+          "alt": "Shaded drawing of a heart with its blood vessels, without labels",
+          "width": 423,
+          "height": 456,
+          "page": 8,
+          "crop": {
+            "x": 0.375,
+            "y": 0.183,
+            "w": 0.23,
+            "h": 0.192
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -521,18 +615,37 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
       "text": "Given below is the diagram of a human heart. Read the information below the diagram and fill in the blanks:\nThe human heart pumps blood throughout the body. It is the size of a large fist. The heart is located between the lungs in the thoracic cavity. It has four chambers. The heart functions all through the lifespan of a person and is responsible for the survival of the person.\nThe heart is enclosed by a membrane called (a) ____________. The ventricles give rise to two large blood vessels called (b) ____________ and (c) ____________. The flaps of the cuspid valves are kept in position by (d) ____________. (e) ____________ arteries supply oxygenated blood to the walls of the heart.",
       "hasFigure": true,
       "extractionIssues": [
-        "One continuous fill-in-the-blank passage with blanks (a)-(e); the full passage is repeated in each split entry and the target blank is identified by this entry's part label",
-        "Diagram of a human heart on page 8 not reproduced; the blanks are answerable from the passage without it"
+        "One continuous fill-in-the-blank passage with blanks (a)-(e); the full passage is repeated in each split entry and the target blank is identified by this entry's part label"
       ],
       "confidence": "HIGH",
       "chapter": "circulatory-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (ii): [5] for the 5 parts (a)-(e)",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/2iia.png",
+          "kind": "FIGURE",
+          "alt": "Shaded drawing of a heart with its blood vessels, without labels",
+          "width": 423,
+          "height": 456,
+          "page": 8,
+          "crop": {
+            "x": 0.375,
+            "y": 0.183,
+            "w": 0.23,
+            "h": 0.192
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -541,18 +654,37 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
       "text": "Given below is the diagram of a human heart. Read the information below the diagram and fill in the blanks:\nThe human heart pumps blood throughout the body. It is the size of a large fist. The heart is located between the lungs in the thoracic cavity. It has four chambers. The heart functions all through the lifespan of a person and is responsible for the survival of the person.\nThe heart is enclosed by a membrane called (a) ____________. The ventricles give rise to two large blood vessels called (b) ____________ and (c) ____________. The flaps of the cuspid valves are kept in position by (d) ____________. (e) ____________ arteries supply oxygenated blood to the walls of the heart.",
       "hasFigure": true,
       "extractionIssues": [
-        "One continuous fill-in-the-blank passage with blanks (a)-(e); the full passage is repeated in each split entry and the target blank is identified by this entry's part label",
-        "Diagram of a human heart on page 8 not reproduced; the blanks are answerable from the passage without it"
+        "One continuous fill-in-the-blank passage with blanks (a)-(e); the full passage is repeated in each split entry and the target blank is identified by this entry's part label"
       ],
       "confidence": "HIGH",
       "chapter": "circulatory-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (ii): [5] for the 5 parts (a)-(e)",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/2iia.png",
+          "kind": "FIGURE",
+          "alt": "Shaded drawing of a heart with its blood vessels, without labels",
+          "width": 423,
+          "height": 456,
+          "page": 8,
+          "crop": {
+            "x": 0.375,
+            "y": 0.183,
+            "w": 0.23,
+            "h": 0.192
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -561,18 +693,37 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
       "text": "Given below is the diagram of a human heart. Read the information below the diagram and fill in the blanks:\nThe human heart pumps blood throughout the body. It is the size of a large fist. The heart is located between the lungs in the thoracic cavity. It has four chambers. The heart functions all through the lifespan of a person and is responsible for the survival of the person.\nThe heart is enclosed by a membrane called (a) ____________. The ventricles give rise to two large blood vessels called (b) ____________ and (c) ____________. The flaps of the cuspid valves are kept in position by (d) ____________. (e) ____________ arteries supply oxygenated blood to the walls of the heart.",
       "hasFigure": true,
       "extractionIssues": [
-        "One continuous fill-in-the-blank passage with blanks (a)-(e); the full passage is repeated in each split entry and the target blank is identified by this entry's part label",
-        "Diagram of a human heart on page 8 not reproduced; the blanks are answerable from the passage without it"
+        "One continuous fill-in-the-blank passage with blanks (a)-(e); the full passage is repeated in each split entry and the target blank is identified by this entry's part label"
       ],
       "confidence": "HIGH",
       "chapter": "circulatory-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (ii): [5] for the 5 parts (a)-(e)",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/2iia.png",
+          "kind": "FIGURE",
+          "alt": "Shaded drawing of a heart with its blood vessels, without labels",
+          "width": 423,
+          "height": 456,
+          "page": 8,
+          "crop": {
+            "x": 0.375,
+            "y": 0.183,
+            "w": 0.23,
+            "h": 0.192
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -581,17 +732,37 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Arrange the terms in each group in the correct order. Write them in a logical sequence beginning with the term that is underlined.\nPalisade cells, Cuticle, Upper epidermis, Spongy cells.",
-      "hasFigure": false,
+      "hasFigure": true,
       "extractionIssues": [
-        "Underlining lost in extraction; the underline drawn in the PDF (page 8) sits under 'Cuticle', the term to begin with; check against the PDF"
+        "The underlined start term is shown in the attached crop of the printed line (underline cannot be carried in plain text)"
       ],
       "confidence": "MEDIUM",
       "chapter": "photosynthesis",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/2iiia.png",
+          "kind": "FIGURE",
+          "alt": "The printed group as it appears on the paper, with the term 'Cuticle' underlined",
+          "width": 1157,
+          "height": 71,
+          "page": 8,
+          "crop": {
+            "x": 0.18,
+            "y": 0.675,
+            "w": 0.63,
+            "h": 0.03
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iii): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -600,17 +771,37 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Arrange the terms in each group in the correct order. Write them in a logical sequence beginning with the term that is underlined.\nHepatic portal vein, Stomach, Hepatic vein, Liver.",
-      "hasFigure": false,
+      "hasFigure": true,
       "extractionIssues": [
-        "Underlining lost in extraction; the underline drawn in the PDF (page 8) sits under 'Stomach', the term to begin with; check against the PDF"
+        "The underlined start term is shown in the attached crop of the printed line (underline cannot be carried in plain text)"
       ],
       "confidence": "MEDIUM",
       "chapter": "circulatory-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/2iiib.png",
+          "kind": "FIGURE",
+          "alt": "The printed group as it appears on the paper, with the term 'Stomach' underlined",
+          "width": 1157,
+          "height": 71,
+          "page": 8,
+          "crop": {
+            "x": 0.18,
+            "y": 0.708,
+            "w": 0.63,
+            "h": 0.03
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iii): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -619,17 +810,37 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Arrange the terms in each group in the correct order. Write them in a logical sequence beginning with the term that is underlined.\nCyton, Dendrites, Synaptic cleft, Axon endings.",
-      "hasFigure": false,
+      "hasFigure": true,
       "extractionIssues": [
-        "Underlining lost in extraction; the underline drawn in the PDF (page 8) sits under 'Dendrites', the term to begin with; check against the PDF"
+        "The underlined start term is shown in the attached crop of the printed line (underline cannot be carried in plain text)"
       ],
       "confidence": "MEDIUM",
       "chapter": "nervous-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/2iiic.png",
+          "kind": "FIGURE",
+          "alt": "The printed group as it appears on the paper, with the term 'Dendrites' underlined",
+          "width": 1157,
+          "height": 71,
+          "page": 8,
+          "crop": {
+            "x": 0.18,
+            "y": 0.741,
+            "w": 0.63,
+            "h": 0.03
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iii): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -638,17 +849,37 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Arrange the terms in each group in the correct order. Write them in a logical sequence beginning with the term that is underlined.\nInsulin release, High blood sugar, Lowers blood sugar, Stimulates glucose uptake from blood.",
-      "hasFigure": false,
+      "hasFigure": true,
       "extractionIssues": [
-        "Underlining lost in extraction; the underline drawn in the PDF (page 8) sits under 'High blood sugar', the term to begin with; check against the PDF"
+        "The underlined start term is shown in the attached crop of the printed line (underline cannot be carried in plain text)"
       ],
       "confidence": "MEDIUM",
       "chapter": "endocrine-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/2iiid.png",
+          "kind": "FIGURE",
+          "alt": "The printed group as it appears on the paper, with the term 'High blood sugar' underlined",
+          "width": 1157,
+          "height": 118,
+          "page": 8,
+          "crop": {
+            "x": 0.18,
+            "y": 0.773,
+            "w": 0.63,
+            "h": 0.05
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iii): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -657,17 +888,37 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Arrange the terms in each group in the correct order. Write them in a logical sequence beginning with the term that is underlined.\nSperm duct, Seminiferous tubule, Epididymis, Efferent ducts.",
-      "hasFigure": false,
+      "hasFigure": true,
       "extractionIssues": [
-        "Underlining lost in extraction; the underline drawn in the PDF (page 8) sits under 'Seminiferous tubule', the term to begin with; check against the PDF"
+        "The underlined start term is shown in the attached crop of the printed line (underline cannot be carried in plain text)"
       ],
       "confidence": "MEDIUM",
       "chapter": "reproductive-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/2iiie.png",
+          "kind": "FIGURE",
+          "alt": "The printed group as it appears on the paper, with the term 'Seminiferous tubule' underlined",
+          "width": 1157,
+          "height": 71,
+          "page": 8,
+          "crop": {
+            "x": 0.18,
+            "y": 0.83,
+            "w": 0.63,
+            "h": 0.03
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iii): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -676,7 +927,7 @@
       "page": 9,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Read the explanations given below and name the structures:\nExample: The tubules which produce sperms.\nAnswer: Seminiferous tubules\nThe canal through which the testes descend down into the scrotum just before the birth of a male baby.",
@@ -684,7 +935,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "reproductive-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iv): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -693,7 +946,7 @@
       "page": 9,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Read the explanations given below and name the structures:\nExample: The tubules which produce sperms.\nAnswer: Seminiferous tubules\nThe part of the brain that regulates the peristaltic movement of the alimentary canal.",
@@ -701,7 +954,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "nervous-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iv): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -710,7 +965,7 @@
       "page": 9,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Read the explanations given below and name the structures:\nExample: The tubules which produce sperms.\nAnswer: Seminiferous tubules\nA structure that collects the soundwaves and conducts them through the external auditory canal.",
@@ -718,7 +973,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "sense-organs",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iv): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -727,7 +984,7 @@
       "page": 9,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Read the explanations given below and name the structures:\nExample: The tubules which produce sperms.\nAnswer: Seminiferous tubules\nThe point of attachment of two chromatids of a chromosome.",
@@ -735,7 +992,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "cell-cycle-and-cell-division",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iv): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -744,7 +1003,7 @@
       "page": 9,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Read the explanations given below and name the structures:\nExample: The tubules which produce sperms.\nAnswer: Seminiferous tubules\nRegulation of the opening and closing of stomata.",
@@ -752,7 +1011,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "transpiration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 2 (iv): [5] for the 5 parts (a)-(e)"
     },
     {
       "number": "2",
@@ -766,12 +1027,28 @@
       "type": "SHORT_ANSWER",
       "text": "Given below is an outline of the human body showing the important endocrine glands. Match the glands marked (a) to (e) with their correct functions:\nExample: (f) – 6. Secretes Testosterone.\nFunctions:\n1. Prepares the body to face stress.\n2. Secretes tropic hormones\n3. Secretes Oestrogens\n4. Maintains blood sugar level\n5. Regulates basal metabolism\n6. Secretes Testosterone.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 9 (outline of the human body with glands labelled (a)-(f)) not reproduced; the glands to be matched are identified only in the figure"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "endocrine-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/2v.png",
+          "kind": "FIGURE",
+          "alt": "Two-column table: 'Endocrine glands' shows an outline of the human body with glands marked (a) to (f); 'Functions' lists items 1 to 6",
+          "width": 1096,
+          "height": 701,
+          "page": 9,
+          "crop": {
+            "x": 0.185,
+            "y": 0.565,
+            "w": 0.597,
+            "h": 0.295
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -906,13 +1183,28 @@
       "type": "SHORT_ANSWER",
       "text": "Complete the food chain by mentioning the names of the organisms in (c) and (d):\n(a) (b) (c) ____________ (d) ____________",
       "hasFigure": true,
-      "extractionIssues": [
-        "Pictures of organisms (a) and (b) on page 11 not reproduced; the question cannot be answered without them",
-        "The positions (a)-(d) of the food chain are given as a line; the connecting lines/arrows are drawn in the figure, not in the text layer"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "pollution",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/4iii.png",
+          "kind": "FIGURE",
+          "alt": "Food-chain diagram: picture (a) of a maize cob with an arrow to picture (b) of a mouse; arrows lead from (b) to blanks labelled (c) and (d), and from (c) up to (d)",
+          "width": 1157,
+          "height": 321,
+          "page": 11,
+          "crop": {
+            "x": 0.18,
+            "y": 0.325,
+            "w": 0.63,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -943,12 +1235,28 @@
       "type": "SHORT_ANSWER",
       "text": "Given below is a picture of a tree. Mention the scientific phenomena occurring in the parts labelled (a), (b) and (c).",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 11 (tree with parts labelled (a), (b), (c)) not reproduced; the question cannot be answered without it"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "transpiration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/4v.png",
+          "kind": "FIGURE",
+          "alt": "Drawing of a tree with arrows inside the roots, trunk and branches and arrows leaving the leaves; brackets mark the roots (a), the trunk (b) and the crown of leaves (c)",
+          "width": 698,
+          "height": 677,
+          "page": 11,
+          "crop": {
+            "x": 0.33,
+            "y": 0.56,
+            "w": 0.38,
+            "h": 0.285
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -1119,12 +1427,28 @@
       "type": "SHORT_ANSWER",
       "text": "Given below is the diagram of a plasmolysed cortical cell of a root.\nCopy the diagram and label the following parts in the diagram:\n(a) Cytoplasm\n(b) Hypertonic solution\n(c) Plasma membrane",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram of a plasmolysed cortical cell on page 13 not reproduced; the task asks to copy and label it"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "absorption-by-roots",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2025-x-biology/6v.png",
+          "kind": "FIGURE",
+          "alt": "Unlabelled line diagram of a plant cell surrounded by neighbouring cell walls",
+          "width": 459,
+          "height": 511,
+          "page": 13,
+          "crop": {
+            "x": 0.37,
+            "y": 0.49,
+            "w": 0.25,
+            "h": 0.215
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",

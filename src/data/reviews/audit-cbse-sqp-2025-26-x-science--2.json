@@ -1,0 +1,61 @@
+{
+  "pack": "cbse-sqp-2025-26-x-science",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, rendered page images (5 % grid and zoomed crops), the recovered figure PNGs and the marking scheme / answer key.",
+  "checks": [
+    {
+      "key": "cbse-sqp-2025-26-x-science#29B",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-science#33",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-science#34A",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-science#34B",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-science#35",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-science#36",
+      "agree": false,
+      "reason": "The recovery fixed the exponent only in the question text: the stored official answer still has the flattened powers \"0.80 x 10-3 m\" and \"5 x 10-7 m2\" where the marking scheme prints 10⁻³ m and 10⁻⁷ m².",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-science#37",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-science#39A",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-science#39B",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

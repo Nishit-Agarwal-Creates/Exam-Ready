@@ -18,12 +18,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Literature question on prescribed texts; no literature chapter in the list, so 'reading' is not a confident fit.",
-      "notes": "Page 1, I (i); text and printed marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, I (i); text and printed marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#Iii",
@@ -50,12 +60,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Literature question on prescribed texts; no literature chapter in the list, so 'reading' is not a confident fit.",
-      "notes": "Page 1, I (iii); text and printed marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, I (iii); text and printed marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#Iiv",
@@ -66,12 +86,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Literature question on prescribed texts; no literature chapter in the list, so 'reading' is not a confident fit.",
-      "notes": "Page 1, I (iv); text and printed marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, I (iv); text and printed marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#Iv",
@@ -98,76 +128,130 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Literature question on prescribed texts; no literature chapter in the list, so 'reading' is not a confident fit.",
-      "notes": "Page 1, II (A) (i); extract reproduced exactly; marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (A) (i); extract reproduced exactly; marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IIAii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (A) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (A) (ii); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (A) (ii); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"Stop cracking safes, and live straight.\" is printed once above II (A) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IIAiii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (A) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (A) (iii); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (A) (iii); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"Stop cracking safes, and live straight.\" is printed once above II (A) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IIAiv",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (A) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (A) (iv); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (A) (iv); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"Stop cracking safes, and live straight.\" is printed once above II (A) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IIAv",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (A) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (A) (v); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (A) (v); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"Stop cracking safes, and live straight.\" is printed once above II (A) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IIBi",
@@ -178,76 +262,130 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Literature question on prescribed texts; no literature chapter in the list, so 'reading' is not a confident fit.",
-      "notes": "Page 1, II (B) (i); extract reproduced exactly; marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (B) (i); extract reproduced exactly; marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IIBii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (B) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (B) (ii); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (B) (ii); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"There's the life for a man lime me,\nThere's the life for ever.\" is printed once above II (B) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IIBiii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (B) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (B) (iii); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (B) (iii); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"There's the life for a man lime me,\nThere's the life for ever.\" is printed once above II (B) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IIBiv",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (B) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (B) (iv); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (B) (iv); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"There's the life for a man lime me,\nThere's the life for ever.\" is printed once above II (B) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IIBv",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (B) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (B) (v); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (B) (v); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"There's the life for a man lime me,\nThere's the life for ever.\" is printed once above II (B) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IICi",
@@ -258,76 +396,130 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Literature question on prescribed texts; no literature chapter in the list, so 'reading' is not a confident fit.",
-      "notes": "Page 1, II (C) (i); extract reproduced exactly; marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (C) (i); extract reproduced exactly; marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IICii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (C) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (C) (ii); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (C) (ii); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"He was far below where I was, but was climbing towards me.\" is printed once above II (C) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IICiii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (C) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (C) (iii); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (C) (iii); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"He was far below where I was, but was climbing towards me.\" is printed once above II (C) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IICiv",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (C) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (C) (iv); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (C) (iv); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"He was far below where I was, but was climbing towards me.\" is printed once above II (C) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IICv",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the II (C) extract, which is not in this question's stored text; literature with no fitting chapter.",
-      "notes": "Page 1, II (C) (v); wording and marks match."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 1, II (C) (v); wording and marks match.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: extract \"He was far below where I was, but was climbing towards me.\" is printed once above II (C) (i)-(v) and governs all five items; added to this item's text verbatim. Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#III",
@@ -343,7 +535,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Page 2, III [6]."
+      "notes": "Page 2, III [6].",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading. | p51-fix-A: Page 2 III asks for the meanings of listed words (a vocabulary task); the Class 7 grammar-and-vocabulary-in-context summary covers 'age-appropriate and domain-specific vocabulary'.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#IV",
@@ -359,7 +561,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Page 2, IV [5]."
+      "notes": "Page 2, IV [5].",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading. | p51-fix-A: Page 2 IV asks for synonyms of listed words; the Class 7 grammar-and-vocabulary-in-context summary lists 'synonyms, antonyms and analogy in context'.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-english-icse-class-7-english-literature-2018#V",
@@ -402,12 +614,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Quote-from-memory of a prescribed poem; no literature chapter in the list.",
-      "notes": "Page 2, VII [6]; text matches."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 2, VII [6]; text matches.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Chapter: taxonomy.json ICSE Class 7 English 'reading' summary reads 'Literary and non-literary texts across genres and registers...'; this item is a question on a prescribed literary text (story/poem extract or quote from memory), so it maps to reading.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

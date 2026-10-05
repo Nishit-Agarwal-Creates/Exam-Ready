@@ -549,12 +549,29 @@
       "text": "E₁ and E₂ are two batteries having emfs of 3V and 4V and internal resistances of 2Ω and 1Ω respectively. They are connected as shown in Figure 2 below. Using Kirchhoff’s Laws of electrical circuits, calculate the currents I₁ and I₂.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 2 on page 5 not reproduced; the circuit arrangement and some resistor values appear only in the figure, so it is needed to answer",
         "Subscripts rebuilt from the PDF layout (smaller glyphs): E₁, E₂, I₁, I₂; check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2020-xii-physics/15a.png",
+          "kind": "FIGURE",
+          "alt": "Figure 2: network ABCDEF with E1 (3V, 2Ω) and R1 = 4Ω in branch AF, R3 = 8Ω in branch BE, E2 (4V, 1Ω) and R2 = 7Ω in branch CD, currents I1 and I2 marked",
+          "width": 714,
+          "height": 442,
+          "page": 5,
+          "crop": {
+            "x": 0.32,
+            "y": 0.61,
+            "w": 0.4,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "15",
@@ -569,12 +586,29 @@
       "text": "A potentiometer circuit is shown in Figure 3 below. AB is a uniform metallic wire having length of 2m and resistance of 8Ω. The batteries E₁ and E₂ have emfs of 4V and 1·5V and their internal resistances are 1Ω and 2Ω respectively.\n(i) When the jockey J does not touch the wire AB, calculate:\n(a) the current flowing through the potentiometer wire AB.\n(b) the potential gradient across the wire AB.\n(ii) Now the jockey J is made to touch the wire AB at a point C such that the galvanometer (G) shows no deflection. Calculate the length AC.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 3 on page 6 not reproduced; the circuit arrangement and a resistor value appear only in the figure, so it is needed to answer",
         "Subscripts rebuilt from the PDF layout (smaller glyphs): E₁, E₂; check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2020-xii-physics/15b.png",
+          "kind": "FIGURE",
+          "alt": "Figure 3: potentiometer wire AB (2m, 8Ω) with E1 (4V, 1Ω) and rheostat R (7Ω) in the main circuit, and E2 (1·5V, 2Ω), galvanometer G and jockey J at point C in the secondary circuit",
+          "width": 804,
+          "height": 505,
+          "page": 6,
+          "crop": {
+            "x": 0.3,
+            "y": 0.155,
+            "w": 0.45,
+            "h": 0.2
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "16",

@@ -223,15 +223,25 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Nuclide symbol printed with subscript 16 and superscript 32 is stored flat as '16S32'.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Scanned page 3, Q5(i): the element is printed as S with 16 as a left subscript and 32 as a superscript; restored as ₁₆S³².",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-chemistry-icse-class-9-chemistry-science-p2-131225-2025#5ii",

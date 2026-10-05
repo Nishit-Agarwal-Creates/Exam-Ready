@@ -13,23 +13,34 @@
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A1I",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "reason": "Topic (multiplication of integers) is not in any official Class 6 Mathematics chapter summary (negative-numbers-and-integers covers addition and subtraction of integers only).",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-B",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q1 heading in Section A; no per-item marks. | p51-fix-B: Page 1, Section A Q1 item \"-8 X = ______ = –72\" requires multiplying integers; no Class 6 chapter summary covers it.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A1III",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -37,31 +48,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q1 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A1IV",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "reason": "Topic (multiplication of integers) is not in any official Class 6 Mathematics chapter summary (negative-numbers-and-integers covers addition and subtraction of integers only).",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-B",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q1 heading in Section A; no per-item marks. | p51-fix-B: Page 1, Section A Q1 item \"(-14) X ______ = 112\" requires multiplying integers; no Class 6 chapter summary covers it.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A1V",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -69,15 +101,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q1 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A1VI",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -85,31 +127,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q1 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A1VII",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "reason": "Topic (multiplication of integers) is not in any official Class 6 Mathematics chapter summary (negative-numbers-and-integers covers addition and subtraction of integers only).",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-B",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q1 heading in Section A; no per-item marks. | p51-fix-B: Page 1, Section A Q1 item \"12 x ______= – 96\" requires multiplying integers; no Class 6 chapter summary covers it.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A1VIII",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
       "figure": "NONE",
@@ -117,15 +180,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q1 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A1IX",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -133,15 +206,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q1 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A2i",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -149,15 +232,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q2 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A2ii",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
       "figure": "NONE",
@@ -165,15 +258,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q2 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A2iii",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
       "figure": "NONE",
@@ -181,15 +284,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q2 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A2iv",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
       "figure": "NONE",
@@ -197,15 +310,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q2 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A2v",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -213,15 +336,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q2 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A2vii",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -229,15 +362,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q2 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A2viii",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
       "figure": "NONE",
@@ -245,15 +388,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q2 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A2IX",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
       "figure": "NONE",
@@ -261,15 +414,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q2 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#A2X",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
       "figure": "NONE",
@@ -277,9 +440,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only a group total (10) is printed for ten items; per-item marks were split by the builder.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only '(10)' printed beside the Q2 heading in Section A; no per-item marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#B1",
@@ -304,14 +477,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Side lengths are only in the rectangle figure on page 1.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 1: labelled rectangle printed to the right of Section B Q2; cropped with all four side labels.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#B3",
@@ -365,7 +548,7 @@
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#C2i",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -373,15 +556,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Printed (2+1) for the question; the split of 2 to i. and 1 to ii. was inferred by the builder.",
-      "notes": "Checked against page image 2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: '(2+1)' printed once beside Section C Q2; parts i. and ii. carry no own mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#C2ii",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -389,9 +582,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Printed (2+1) for the question; the split of 2 to i. and 1 to ii. was inferred by the builder.",
-      "notes": "Checked against page image 2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: '(2+1)' printed once beside Section C Q2; parts i. and ii. carry no own mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#C3",
@@ -477,33 +680,59 @@
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#D3a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Angle figure on page 2 is needed; (4) was also split 2+2 by the builder.",
-      "notes": "Checked against page image 2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "ALT_TEXT_NEUTRALISED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: figure a) under Section D Q3 cropped; '(4)' printed once for the whole question. | p51-fix-B: Page 2 figure a): alt text no longer calls the slanted lines parallel (the figure has no parallel marks). | p51-fix-H2: Page 2 Section D Q3 figure a): x and y are angles formed where a line crosses a pair of lines; the official summary of understanding-elementary-shapes covers \"types of angles and pairs of lines\".",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#D3b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Angle figure on page 2 is needed; (4) was also split 2+2 by the builder.",
-      "notes": "Checked against page image 2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "ALT_TEXT_NEUTRALISED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: figure b) under Section D Q3 cropped; '(4)' printed once for the whole question. | p51-fix-B: Page 2 figure b): alt text no longer uses the term transversal or places the angles. | p51-fix-H2: Page 2 Section D Q3 figure b): x and y are angles formed where a line crosses a pair of lines; the official summary of understanding-elementary-shapes covers \"types of angles and pairs of lines\".",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#D (unnumbered)",
@@ -512,14 +741,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circle figure on page 3 is needed; item is also unnumbered.",
-      "notes": "Page 3: Mark (3) appears next to the figure."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 3: Mark (3) appears next to the figure.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-B",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 3: circle with points P, Q, R, o and tangent line ST printed beside the 'Fill in the blanks' item; cropped whole. | p51-fix-B: Page 3 circle figure beside \"Fill in the blanks\": alt text no longer names the diameter, radius or tangent asked for in blanks a-d.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#D4",
@@ -528,14 +768,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Triangle figures on page 3 hold the angle values.",
-      "notes": "Checked against page image 3."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: both triangles under Section D Q4 (angle labels hand-lettered in the scan, legible) cropped together.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-6-mathematics-icse-class-6-mathematics-2018#D5",
@@ -544,14 +794,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The shape (hexagram) on page 3 is needed.",
-      "notes": "Checked against page image 3."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-B",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 3: six-pointed star shape under Section D Q5 cropped whole. | p51-fix-B: Page 3 Q5 star figure: alt text no longer says how many triangles form it.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

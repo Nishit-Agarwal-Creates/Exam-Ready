@@ -1,0 +1,55 @@
+{
+  "pack": "icse-2025-x-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked the recovered figures and current pack content against the official CISCE PDF (sha256 matched) with pdftotext -layout/-raw, 5 % grid page renders and zoomed crops; no marking scheme exists, so answers are NONE as expected.",
+  "checks": [
+    {
+      "key": "icse-2025-x-mathematics#1vi",
+      "agree": false,
+      "reason": "Only the group total [15] is printed for the fifteen MCQs of Question 1; the stored 1 mark is a split of that total and there is no marksNote quoting the group total (figure crop itself is correct).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-mathematics#1xi",
+      "agree": false,
+      "reason": "Only the group total [15] is printed for the fifteen MCQs of Question 1; the stored 1 mark is a split of that total and there is no marksNote quoting the group total (figure crop itself is correct).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-mathematics#2iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-mathematics#3iii",
+      "agree": false,
+      "reason": "The figure crop starts at x = 0.205 and clips the printed x′ axis label at the left end of the x-axis (only a fragment remains), so the figure is not complete.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-mathematics#6ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-mathematics#7ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-mathematics#9iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-mathematics#10iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

@@ -846,15 +846,32 @@
       "text": "The electronic structures of atoms P and Q are shown below.\nBased on the information given above, answer the following questions:\n(a) If P and Q combine to form a compound, what type of bond is formed between them?\n(b) Give the chemical formula of the compound formed.\n(c) The compound so formed is dissolved in water. Is the resultant solution acidic or basic in nature? Justify your answer.\n(d) Write the chemical equation for the reaction between ‘Q’ and ethanol.\n(e) What will be the formula of the compound formed when ‘P’ undergoes bonding with carbon?",
       "hasFigure": true,
       "extractionIssues": [
-        "Diagrams of the electronic structures of atoms P and Q on page 9 not reproduced in text layer; P and Q cannot be identified and parts (b), (d), (e) cannot be solved without them",
         "An alternate version of this question for visually impaired students (using Calcium/oxygen/carbon instead of P/Q, without the diagrams) is printed on page 9; not extracted as a separate entry"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Ionic bond\n(b) Q2P\n(c) Basic, metallic oxides are basic in nature.\n(d) 2C2H5OH +2Q → 2C2H5OQ + H2\n(e) CP2"
       },
       "chapter": "metals-and-non-metals",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-science/29B.png",
+          "kind": "FIGURE",
+          "alt": "Two atom diagrams labelled P and Q showing electrons as dots on concentric shells",
+          "width": 857,
+          "height": 366,
+          "page": 9,
+          "crop": {
+            "x": 0.23,
+            "y": 0.15,
+            "w": 0.48,
+            "h": 0.145
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "30",
@@ -954,16 +971,33 @@
       "text": "The above image shows the formation of an image with an optical instrument.\nA. Identify the optical instrument (shown schematically as a rectangle) in the image.\nB. What type of image is formed in this case?\nC. Based on the measurements given in the image, calculate the focal length of the instrument.",
       "hasFigure": true,
       "extractionIssues": [
-        "Diagram (ray/measurement figure for the optical instrument) on page 11 not reproduced in text layer; the question cannot be answered without it",
         "An alternate version of this question for visually impaired students (general questions about convex lenses, without the figure) is printed on page 11; not extracted as a separate entry",
         "Official answer's formula and substitution steps for part C are images, not in the text layer; only the given values and final result survived"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "A. The optical instrument shown in the figure is a concave lens.\nB. The image formed is a virtual image.\nC. Using the lens formula (formula itself not in text layer) with u = -20 cm (object distance, negative for concave lenses) and v = -10 cm (image distance, negative since virtual): [substitution steps – images, not in text layer] f = -20 cm"
       },
       "chapter": "light-reflection-and-refraction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-science/33.png",
+          "kind": "FIGURE",
+          "alt": "Ray diagram with an optical instrument drawn as a rectangle on the principal axis, an object arrow, an image arrow, rays, and distances marked 10 cm and 20 cm",
+          "width": 661,
+          "height": 492,
+          "page": 11,
+          "crop": {
+            "x": 0.3,
+            "y": 0.07,
+            "w": 0.37,
+            "h": 0.195
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "34",
@@ -977,16 +1011,31 @@
       "type": "NUMERICAL",
       "text": "Find out the following in the electric circuit given in the figure-\n(i) Effective resistance of two 8 ohm resistors in the combination.\n(ii) Current flowing through the 4-ohm resistor",
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagram (component arrangement, battery voltage) on page 11 not reproduced in text layer; the question cannot be answered without it",
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF — the battery voltage (8 V) used in part (ii) is only recoverable from this reconstructed formula, since the figure itself is missing"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) R = R1R2/(R1+R2) = (8×8)/(8+8) = 4 ohms\n(ii) I = V/R = 8/(4+4) = 1 A"
       },
       "chapter": "electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-science/34A.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with an 8 V battery, a 4 Ω resistor, two 8 Ω resistors between points C and D, ammeters A1 and A2, a key, and points A, B, C, D, E",
+          "width": 768,
+          "height": 682,
+          "page": 11,
+          "crop": {
+            "x": 0.27,
+            "y": 0.525,
+            "w": 0.43,
+            "h": 0.27
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "34",
@@ -1001,16 +1050,32 @@
       "text": "Study the circuit and find out-\n(i) Current in 12 ohm resistor\n(ii) Difference in the readings of ammeter A1 and A2 if any",
       "hasFigure": true,
       "extractionIssues": [
-        "Circuit diagram (component arrangement, ammeter positions, battery voltage) on page 12 not reproduced in text layer; the question cannot be answered without it",
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF — the battery voltage (6 V) used in part (i) is only recoverable from this reconstructed formula, since the figure itself is missing",
         "An alternate version of this question for visually impaired students (maximum/minimum resistance of four R-ohm resistors, without the figure) is printed on page 12; not extracted as a separate entry"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) 1/Rp = 1/R1 + 1/R2 = 1/24 + 1/24 = 2/24; Rp = 12 ohms. RT = Rp + 12 = 24 ohms. I = V/R = 6/24 = 0.25 A.\n(ii) Same readings of A1 and A2."
       },
       "chapter": "electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-science/34B.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with a 6 V battery, two 24 Ω resistors side by side, a 12 Ω resistor, ammeters A1 and A2 and a key",
+          "width": 804,
+          "height": 657,
+          "page": 12,
+          "crop": {
+            "x": 0.27,
+            "y": 0.095,
+            "w": 0.45,
+            "h": 0.26
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "35",
@@ -1025,16 +1090,33 @@
       "text": "The above image shows a corrective measure for a particular defect of vision.\n(i) Identify the defect of vision and state what kind of lens is used to correct this deficiency.\n(ii) Draw and label a ray diagram that shows the defect of vision in the above case before correction.",
       "hasFigure": true,
       "extractionIssues": [
-        "Diagram (corrective lens set-up) on page 12 not reproduced in text layer; the question cannot be answered without it",
         "Part (ii) asks the student to draw a ray diagram; not reproducible as text",
         "An alternate version of this question for visually impaired students (dispersion of light questions, without the figure) is printed on pages 12-13; not extracted as a separate entry"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Hypermetropia is the deficiency in vision and the lens is convex lens.\n(ii) [ray diagram, image not in text layer]"
       },
       "chapter": "human-eye-and-colourful-world",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-science/35.png",
+          "kind": "FIGURE",
+          "alt": "Ray diagram of an eye with a lens placed in front of it, rays from a point object and dashed lines to a second point",
+          "width": 857,
+          "height": 313,
+          "page": 12,
+          "crop": {
+            "x": 0.24,
+            "y": 0.618,
+            "w": 0.48,
+            "h": 0.124
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "36",
@@ -1046,15 +1128,12 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "A student needs to make a 0.12 Ω resistor. She has some copper wire of 0.80 mm diameter. Resistivity of copper is 1.8 × 10–8 Ωm\n(i) Determine the cross-sectional area of the wire.\n(ii) Calculate the length of wire required for the 0.12 Ω resistor.",
+      "text": "A student needs to make a 0.12 Ω resistor. She has some copper wire of 0.80 mm diameter. Resistivity of copper is 1.8 × 10⁻⁸ Ωm\n(i) Determine the cross-sectional area of the wire.\n(ii) Calculate the length of wire required for the 0.12 Ω resistor.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Official answer's formulas and substitution steps are images not present in the text layer; only the surrounding prose and final numeric results survived",
-        "Official answer partly missing in extraction (figure/equation)"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(i) The cross-sectional area A of a wire with diameter d is given by: [formula – image, not in text layer] Substitute, d = 0.80 x 10-3 m: [substitution – image, not in text layer] Thus, the cross-sectional area A is approximately 5 x 10-7 m2.\n(ii) To find the length l of the wire, use the formula of resistance: [formula – image, not in text layer] Rearrange to solve for l: [image, not in text layer] Substitute the values: [image, not in text layer] The student needs a length of approximately 3.33 m of the given copper wire to make a 0.12 Ω resistor."
+        "text": "(i) Show that the cross-sectional area of the wire is about 5 x 10⁻⁷ m².\nThe cross-sectional are A of a wire with diameter d is given by:\nA = π(d/2)²\nSubstitute, d = 0.80 x 10⁻³ m:\nA = π((0.80 × 10⁻³)/2)²\nA = π(0.40 × 10⁻³)²\nA = π × (0.16 × 10⁻⁶) m²\nA ≈ 3.14 × 0.16 × 10⁻⁶ m²\nA ≈ 5.024 × 10⁻⁷ m²\nThus, the cross-sectional are A is approximately 5 x 10⁻⁷ m².\n(ii) To find the length l of the wire, we can use the formula of resistance:\nR = (ρ · l)/A\nRearrange to solve for l :\nl = (R · A)/ρ\nSubstitute the values:\nl = (0.12 · 5 × 10⁻⁷)/(1.8 × 10⁻⁸)\nl = (6 × 10⁻⁸)/(1.8 × 10⁻⁸)\nl = 6/1.8 m\nl = 3.33 m\nThe student needs a length of approximately 3.33 m of given copper wire to make a 0.12 Ω resistor."
       },
       "chapter": "electricity",
       "mappingStatus": "AI_SUGGESTED"
@@ -1072,15 +1151,32 @@
       "text": "Magnetic field lines are shown in the given diagram. A student makes a statement that the magnetic field at X is stronger than at Y.\n(i) Explain with reason if the student’s claim is correct.\n(ii) Also redraw the diagram and mark the direction of magnetic field lines.",
       "hasFigure": true,
       "extractionIssues": [
-        "Diagram (magnetic field lines with points X and Y) on page 13 not reproduced in text layer; the question cannot be answered without it",
         "Part (ii) asks the student to redraw the diagram; not reproducible as text"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Closeness of magnetic field lines is directly related to strength of magnetic field.\nStrength of magnetic field at point X (pole) is more than point Y.\nIf the student redraws the diagram he/she should mark arrows correctly from North to South."
       },
       "chapter": "magnetic-effects-of-electric-current",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-science/37.png",
+          "kind": "FIGURE",
+          "alt": "Bar magnet with poles N and S and curved magnetic field lines, with points X and Y marked",
+          "width": 419,
+          "height": 263,
+          "page": 13,
+          "crop": {
+            "x": 0.375,
+            "y": 0.261,
+            "w": 0.235,
+            "h": 0.104
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "38",
@@ -1120,15 +1216,32 @@
       "text": "The arrangement of resistors shown in the above figure is connected to a battery.\nThe power dissipation in the 100 Ω resistor is 81 W. Calculate\n(i) the current in the circuit\n(ii) the reading in the voltmeter V2\n(iii) the reading in the voltmeter V1",
       "hasFigure": true,
       "extractionIssues": [
-        "Circuit diagram (resistor arrangement, voltmeter positions) on page 14 not reproduced in text layer; the question cannot be answered without it — the two 25 Ω resistors used in the official answer are not mentioned anywhere in the extracted question text",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) P = I²R = 81 W for the 100 Ω resistor, so I² = 81/100, I = 9/10 = 0.9 A.\n(ii) The two 25 Ω resistors in parallel have Reqv = 12.5 Ω, so V2 = I×Reqv = 0.9×12.5 = 11.25 V.\n(iii) Voltage across 100 Ω: V100 = IR = 0.9×100 = 90 V, so V1 = 90 + 11.25 = 101.25 V."
       },
       "chapter": "electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-science/39A.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with a battery and voltmeter V1, a 100 Ω resistor, two 25 Ω resistors and voltmeter V2",
+          "width": 589,
+          "height": 543,
+          "page": 14,
+          "crop": {
+            "x": 0.32,
+            "y": 0.578,
+            "w": 0.33,
+            "h": 0.215
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "39",
@@ -1143,15 +1256,32 @@
       "text": "An electric heater consists of three similar heating elements A, B and C, connected as shown in the figure above. Each heating element is rated as 1.2 kW, 240 V and has constant resistance. S1, S2 and S3 are respective switches.\nThe circuit is connected to a 240 V supply.\n(i) Calculate the resistance of one heating element.\n(ii) Calculate the current in each resistor when only S1 and S3 are closed.\n(iii) Calculate the power dissipated across A when S1, S2 and S3 are closed.",
       "hasFigure": true,
       "extractionIssues": [
-        "Circuit diagram (heating elements A, B, C and switches S1-S3 arrangement) on page 15 not reproduced in text layer; parts (ii) and (iii) depend on which elements are in series/parallel, which is only shown in the figure",
         "An alternate version of this question for visually impaired students (household fuse/fan/heater circuit, without the figure) is printed on page 15; not extracted as a separate entry"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) P = V²/R, so R = V²/P = (240×240)/1200 = 48 Ω.\n(ii) For S1 and S3 closed: current in C, I = V/R = 240/48 = 5 A; current in A and B, I = V/R = 240/96 = 2.5 A.\n(iii) Power across A for S1, S2, S3 closed: PA = I²R = 5²×48 = 1200 W = 1.2 kW."
       },
       "chapter": "electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-x-science/39B.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with a 240 V supply, heating elements A, B and C, and switches S1, S2 and S3",
+          "width": 661,
+          "height": 480,
+          "page": 15,
+          "crop": {
+            "x": 0.295,
+            "y": 0.095,
+            "w": 0.37,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

@@ -80,14 +80,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 1 shows the table-top is the major sector (270°); the text alone does not say which sector",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Paper page 1: the figure printed beside Q2b; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2017#2c",
@@ -240,14 +250,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 2 gives the position of C and D (AD perpendicular to BD); also printed 'LD = 900' for ∠D = 90°",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Paper page 2: the figure printed beside Q7b; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2017#8a",
@@ -256,14 +276,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Configuration (trapezium, E on AD, G on BC) follows from the text"
+      "notes": "Configuration (trapezium, E on AD, G on BC) follows from the text",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Paper page 2: the figure beside Q8(a) (AB//DC//EG with diagonal DB, as the audit noted); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2017#8b",
@@ -288,14 +318,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 3 gives the position of E relative to the rhombus",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Paper page 3: the figure printed beside Q9a; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2017#9b",
@@ -304,14 +344,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 3 gives the arrangement of the circles and the shaded region",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Paper page 3: the figure printed beside Q9b; cropped.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2017#10b",

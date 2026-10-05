@@ -118,12 +118,28 @@
       "type": "NUMERICAL",
       "text": "The shape of the table-top in a restaurant is that of a sector of a circle with centre O and ∠BOD = 90°. If BO = OD = 60 cm. find (i) the area of the table-top (ii) the perimeter of the table top take π = 3.14",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 1 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-hy-mathematics-2017/2b.png",
+          "kind": "FIGURE",
+          "alt": "Sector of a circle with centre O and radii OD and OB, with a right-angle mark at O",
+          "width": 339,
+          "height": 313,
+          "page": 1,
+          "crop": {
+            "x": 0.435,
+            "y": 0.378,
+            "w": 0.19,
+            "h": 0.124
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -349,12 +365,29 @@
       "text": "In the figure LD = 900, AB = 16 cm, BC = 12 cm, CA = 6 cm Find CD.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 2 not reproduced",
         "Printed as 'LD = 900' (apparently ∠D = 90°); kept as printed"
       ],
       "confidence": "MEDIUM",
       "chapter": "pythagoras-theorem",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-hy-mathematics-2017/7b.png",
+          "kind": "FIGURE",
+          "alt": "Triangle with points A, B, C and D on a base line: AB marked 16 cm, AC marked 6 cm, BC marked 12 cm, and a right-angle mark at D",
+          "width": 331,
+          "height": 328,
+          "page": 2,
+          "crop": {
+            "x": 0.41,
+            "y": 0.665,
+            "w": 0.185,
+            "h": 0.13
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
@@ -368,12 +401,28 @@
       "type": "SHORT_ANSWER",
       "text": "In the figure AB//DC//EG.\nIf E is the mid point of AD prove that\n(i) G is the mid point of BC\n(ii) 2EG = AB+CD.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 2 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "mid-point-theorem",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-hy-mathematics-2017/8a.png",
+          "kind": "FIGURE",
+          "alt": "Trapezium ABCD with E on AD and G on BC, arrows marking AB, EG and DC parallel, and diagonal DB",
+          "width": 580,
+          "height": 285,
+          "page": 2,
+          "crop": {
+            "x": 0.51,
+            "y": 0.825,
+            "w": 0.325,
+            "h": 0.113
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
@@ -404,12 +453,28 @@
       "type": "NUMERICAL",
       "text": "ABCD is a rhombus with ∠A = 67°. If DEC is an equilateral triangle. Calculate ∠CBE and ∠DBE.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "rectilinear-figures",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-hy-mathematics-2017/9a.png",
+          "kind": "FIGURE",
+          "alt": "Rhombus ABCD with angle A marked 67 degrees, triangle DEC on side DC, and segments BD and BE",
+          "width": 419,
+          "height": 328,
+          "page": 3,
+          "crop": {
+            "x": 0.385,
+            "y": 0.152,
+            "w": 0.235,
+            "h": 0.13
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "9",
@@ -423,12 +488,28 @@
       "type": "NUMERICAL",
       "text": "Find the area of the unshaded portion with the rectangle ABCD. Diameters of the circles are 6 cm.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 not reproduced; the arrangement of circles is only given in the figure"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-hy-mathematics-2017/9b.png",
+          "kind": "FIGURE",
+          "alt": "Rectangle ABCD containing shaded circles side by side, with a radius marked 3 cm and a point marked X",
+          "width": 786,
+          "height": 409,
+          "page": 3,
+          "crop": {
+            "x": 0.285,
+            "y": 0.328,
+            "w": 0.44,
+            "h": 0.162
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "10",

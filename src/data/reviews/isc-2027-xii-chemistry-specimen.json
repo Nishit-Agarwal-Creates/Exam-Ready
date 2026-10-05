@@ -135,7 +135,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "PDF page 3: exponents (powers of ten and unit powers such as mol L⁻¹) are printed as superscripts; flat forms restored as Unicode superscripts in the text, options and answer.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#1Bv",
@@ -288,14 +298,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-G",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 5: splitting diagram printed under 4(ii) cropped complete (Energy arrow, five degenerate boxes, two split groups, +0.60Δo, -0.40Δo, Δo or 10Dq); bracketed editor description removed; page prints d⁵ (superscript), corrected from 'd5'.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#5",
@@ -315,7 +336,7 @@
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#6i",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -327,11 +348,22 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Paper p6: Question 6 prints only the total [2] beside the question number, no per-part mark or rule; the answer key prints the same [2]. Set GROUP_TOTAL, marks 0. Group instruction restored verbatim (\"How can the following conversions be carried out? (Write the chemical equations):\", printed in the plural) with the item's printed label (i).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#6ii",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -343,11 +375,22 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Paper p6: Question 6 prints only the total [2] beside the question number, no per-part mark or rule; the answer key prints the same [2]. Set GROUP_TOTAL, marks 0. Group instruction restored verbatim (\"How can the following conversions be carried out? (Write the chemical equations):\", printed in the plural) with the item's printed label (ii).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#7i",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -359,11 +402,22 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Paper p6: Question 7 prints only the total [2] beside the question number, no per-part mark or rule; the answer key prints the same [2]. Set GROUP_TOTAL, marks 0. Group instruction restored verbatim (\"Substantiate the following statements with reasons.\", printed in the plural) with the item's printed label (i).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#7ii",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -375,7 +429,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Paper p6: Question 7 prints only the total [2] beside the question number, no per-part mark or rule; the answer key prints the same [2]. Set GROUP_TOTAL, marks 0. Group instruction restored verbatim (\"Substantiate the following statements with reasons.\", printed in the plural) with the item's printed label (ii).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#8",
@@ -391,7 +456,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Answer key PDF p13, Question 8: copied verbatim line by line; the printed stacked fractions 0·059 over n, [Mg²⁺(aq)] over [Cu²⁺(aq)] and 1 x 10⁻³ over 1 x 10⁻⁴ are written inline with balanced brackets; the unbalanced \"log (1×10⁻³ / 1×10⁻⁴\" is gone.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#9i",
@@ -437,9 +513,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "PUBLISH",
-      "reason": "",
-      "notes": "SUSPICIOUS IN OFFICIAL DOCUMENT (not an extraction issue): the official answer key's own arithmetic for Ea is inconsistent with its own working. 0.3010 x 19.147 x 295 x 305 / 10 = ~51,854.8, but the official PDF prints 'Ea = 151854.8 J K-1 mol-1' / '151.854 kJ mol-1' (an extra leading digit) and gives the unit as J K-1 mol-1 instead of J mol-1. officialAnswer reproduces this verbatim per the 'never fix' rule."
+      "decision": "HOLD",
+      "reason": "Official answer reproduces the marking scheme arithmetic error (151854.8 J K-1 mol-1 printed; working gives about 51.85 kJ mol-1); notation now restored",
+      "notes": "SUSPICIOUS IN OFFICIAL DOCUMENT (not an extraction issue): the official answer key's own arithmetic for Ea is inconsistent with its own working. 0.3010 x 19.147 x 295 x 305 / 10 = ~51,854.8, but the official PDF prints 'Ea = 151854.8 J K-1 mol-1' / '151.854 kJ mol-1' (an extra leading digit) and gives the unit as J K-1 mol-1 instead of J mol-1. officialAnswer reproduces this verbatim per the 'never fix' rule.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "PDF page 6: exponents (powers of ten and unit powers such as mol L⁻¹) are printed as superscripts; flat forms restored as Unicode superscripts in the text and answer.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#11",
@@ -455,7 +541,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "PDF page 7: exponents (powers of ten and unit powers such as mol L⁻¹) are printed as superscripts; flat forms restored as Unicode superscripts in the text and answer.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#12",
@@ -535,7 +631,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Paper p8: Question 15 prints only the total [3] beside the question number, no per-part mark or rule; the answer key prints the same [3]. Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#15ii",
@@ -551,7 +657,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Paper p8: Question 15 prints only the total [3] beside the question number, no per-part mark or rule; the answer key prints the same [3]. Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#15iii",
@@ -567,7 +683,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Paper p8: Question 15 prints only the total [3] beside the question number, no per-part mark or rule; the answer key prints the same [3]. Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#16i",
@@ -583,7 +709,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Paper p8: Question 16 prints only the total [3] beside the question number, no per-part mark or rule; the answer key prints the same [3]. Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#16ii",
@@ -599,7 +735,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Paper p8: Question 16 prints only the total [3] beside the question number, no per-part mark or rule; the answer key prints the same [3]. Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#16iii",
@@ -615,7 +761,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Paper p8: Question 16 prints only the total [3] beside the question number, no per-part mark or rule; the answer key prints the same [3]. Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#17i",
@@ -647,11 +803,21 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Marking scheme's own 'Given' restatement lists Λmo((CH3COO)2Mg) = 126.9 (duplicating the NaI value), which conflicts with 187.8 used two lines later in the same scheme's calculation (matching the question's own printed data); officialAnswer reproduces this verbatim, not corrected."
+      "notes": "Marking scheme's own 'Given' restatement lists Λmo((CH3COO)2Mg) = 126.9 (duplicating the NaI value), which conflicts with 187.8 used two lines later in the same scheme's calculation (matching the question's own printed data); officialAnswer reproduces this verbatim, not corrected.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "PDF page 8: exponents (powers of ten and unit powers such as mol L⁻¹) are printed as superscripts; flat forms restored as Unicode superscripts in the text and answer.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#18i",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -663,11 +829,22 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Paper p9: Question 18 prints only the total [3] beside the question number, no per-part mark or rule; the answer key prints the same [3]. Set GROUP_TOTAL, marks 0. Group instruction restored verbatim (\"Write the chemical equations for the following conversions:\", printed in the plural) with the item's printed label (i).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#18ii",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -679,11 +856,22 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Paper p9: Question 18 prints only the total [3] beside the question number, no per-part mark or rule; the answer key prints the same [3]. Set GROUP_TOTAL, marks 0. Group instruction restored verbatim (\"Write the chemical equations for the following conversions:\", printed in the plural) with the item's printed label (ii).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#18iii",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -695,7 +883,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Paper p9: Question 18 prints only the total [3] beside the question number, no per-part mark or rule; the answer key prints the same [3]. Set GROUP_TOTAL, marks 0. Group instruction restored verbatim (\"Write the chemical equations for the following conversions:\", printed in the plural) with the item's printed label (iii).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#19i",
@@ -720,14 +919,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF page 9: the two reaction schemes (a) and (b) printed under Q19(ii), with reagents above and below the arrows; cropped so the reagent placement is shown as printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#20",
@@ -759,7 +968,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "PDF page 10: exponents (powers of ten and unit powers such as mol L⁻¹) are printed as superscripts; flat forms restored as Unicode superscripts in the text and answer.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xii-chemistry-specimen#21ii",
@@ -775,7 +994,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Answer key PDF p20 (Question 21 (ii) (a), (b)) and p21 ((c)): replaced the condensed answer with the key copied verbatim, including the dropped lead sentence of (a) and \"mol. wt. of H₂O = 18 g\" exactly as printed (not \"18 g mol⁻¹\"); stacked fractions written inline.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

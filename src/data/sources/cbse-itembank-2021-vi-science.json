@@ -607,15 +607,31 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the given and answer the following questions: The food items shown are mainly rich in ‘X’, a nutrient component of food. What is ‘X’?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) of food items rich in component ‘X’ on page 33 not reproduced; ‘X’ must be identified from it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "X is Protein (Guidance: Meat, eggs, milk, beans, cheese all are rich in proteins)"
       },
       "chapter": "mindful-eating-a-path-to-a-healthy-body",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6AR3.png",
+          "kind": "FIGURE",
+          "alt": "Photograph of an assortment of food items on a wooden table, captioned 'Food Items Rich in Component X'",
+          "width": 767,
+          "height": 586,
+          "page": 33,
+          "crop": {
+            "x": 0.075,
+            "y": 0.603,
+            "w": 0.43,
+            "h": 0.232
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6AR3",
@@ -629,15 +645,31 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the given and answer the following questions: The food items shown are mainly rich in ‘X’, a nutrient component of food. Name the disease caused by deficiency of component ‘X’.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) of food items rich in component ‘X’ on page 33 not reproduced; ‘X’ must be identified from it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Kwashiorkor (Guidance: It is a deficiency disease caused by deficiency of proteins.)"
       },
       "chapter": "mindful-eating-a-path-to-a-healthy-body",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6AR3.png",
+          "kind": "FIGURE",
+          "alt": "Photograph of an assortment of food items on a wooden table, captioned 'Food Items Rich in Component X'",
+          "width": 767,
+          "height": 586,
+          "page": 33,
+          "crop": {
+            "x": 0.075,
+            "y": 0.603,
+            "w": 0.43,
+            "h": 0.232
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6AR3",
@@ -651,15 +683,31 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the given and answer the following questions: The food items shown are mainly rich in ‘X’, a nutrient component of food. What is the main function of this food component?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) of food items rich in component ‘X’ on page 33 not reproduced; ‘X’ must be identified from it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Proteins are required for growth and repairing of tissues in our body. Or They help in building new tissues. (Guidance: Proteins are also called body building food. They are required for growth and development; growth also includes increase in muscle mass. Accept • Increase in musculature. • Muscle contraction.)"
       },
       "chapter": "mindful-eating-a-path-to-a-healthy-body",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6AR3.png",
+          "kind": "FIGURE",
+          "alt": "Photograph of an assortment of food items on a wooden table, captioned 'Food Items Rich in Component X'",
+          "width": 767,
+          "height": 586,
+          "page": 33,
+          "crop": {
+            "x": 0.075,
+            "y": 0.603,
+            "w": 0.43,
+            "h": 0.232
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6AR3",
@@ -673,15 +721,31 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the given and answer the following questions: The food items shown are mainly rich in ‘X’, a nutrient component of food. What are the chemicals used to test the presence of the ‘X’ in the food items?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) of food items rich in component ‘X’ on page 33 not reproduced; ‘X’ must be identified from it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Copper sulphate Caustic Soda Biuret reagent (Guidance: Accept both names only. Paper transparency test not applicable.)"
       },
       "chapter": "mindful-eating-a-path-to-a-healthy-body",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6AR3.png",
+          "kind": "FIGURE",
+          "alt": "Photograph of an assortment of food items on a wooden table, captioned 'Food Items Rich in Component X'",
+          "width": 767,
+          "height": 586,
+          "page": 33,
+          "crop": {
+            "x": 0.075,
+            "y": 0.603,
+            "w": 0.43,
+            "h": 0.232
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6SK1",
@@ -693,7 +757,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "Reena performed the following test on a food sample. Water soluble food sample + iodine solution observed blue black colour. Which component of food is present in it?",
+      "text": "Reena performed the following test on a food sample. Water soluble food sample + iodine solution → observed blue black colour. Which component of food is present in it?",
       "options": [
         "Proteins",
         "Vitamins",
@@ -782,18 +846,33 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "FILL_BLANK",
-      "text": "Observe the given table carefully and complete it by writing the correct name of disease, symptom or deficient nutrient.\nName of disease | Symptoms | Image | Nutrient deficiency\n1 | Bending of legs | [image] | Vitamin D\nScurvy | 2 | [image] | Vitamin C\nGoiter | Swollen neck | [image] | 3",
+      "text": "Observe the given table carefully and complete it by writing the correct name of disease, symptom or deficient nutrient.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Table on page 41 rebuilt as text rows from the PDF layout; check against the PDF",
-        "Images in the table on page 41 not reproduced (not needed to answer)"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "1 Rickets 2. bleeding gums 3. Iodine"
       },
       "chapter": "mindful-eating-a-path-to-a-healthy-body",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SK5a.png",
+          "kind": "TABLE",
+          "alt": "Table with columns Name of disease, Symptoms, Image and Nutrient deficiency; three rows, each with a picture in the Image column, and blanks numbered 1 to 3",
+          "width": 1178,
+          "height": 1074,
+          "page": 41,
+          "crop": {
+            "x": 0.16,
+            "y": 0.258,
+            "w": 0.66,
+            "h": 0.425
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6SK5",
@@ -808,15 +887,32 @@
       "text": "From given help box find out the correct vitamin or mineral and write it at the centre of the given images A and B. Help box: Vitamin D, Vitamin C, Iron, Proteins, Iodine",
       "hasFigure": true,
       "extractionIssues": [
-        "Images A and B on page 42 not reproduced (the food labels Oranges, Apple, Lemon, Amla, Pomegranate, Spinach belong to them); needed to answer",
         "Help box words joined into one line from the PDF layout"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Vitamin C In Image A Iron In image B (Guidance: 1 mark for one correct response)"
       },
       "chapter": "mindful-eating-a-path-to-a-healthy-body",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SK5b.png",
+          "kind": "FIGURE",
+          "alt": "Help box (Vitamin D, Vitamin C, Iron, Proteins, Iodine) and two diagrams, each with an empty central box joined to three food labels: Image A (Oranges, Lemon, Amla) and Image B (Apple, Pomegranate, Spinach)",
+          "width": 1249,
+          "height": 670,
+          "page": 42,
+          "crop": {
+            "x": 0.14,
+            "y": 0.15,
+            "w": 0.7,
+            "h": 0.265
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6AR4",
@@ -899,15 +995,31 @@
       "type": "SHORT_ANSWER",
       "text": "Identify two major sources of carbohydrates from the table above",
       "hasFigure": true,
-      "extractionIssues": [
-        "The source table on page 47 is an image and is not in the text layer; needed to answer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Sweet Roti /bread (Guidance: Give 1 mark for one correct option)"
       },
       "chapter": "mindful-eating-a-path-to-a-healthy-body",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SK4a.png",
+          "kind": "TABLE",
+          "alt": "Table with columns 'Name of food item' and 'Picture': Sweets, Soyabeans, Vegetables, Roti/bread, Eggs, each with a drawing",
+          "width": 482,
+          "height": 789,
+          "page": 47,
+          "crop": {
+            "x": 0.235,
+            "y": 0.473,
+            "w": 0.27,
+            "h": 0.312
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6SK4",
@@ -966,15 +1078,31 @@
       "type": "NUMERICAL",
       "text": "A doctor prescribed Sarika 100g of this given health drink to meet her daily nutrient requirements. But Sarika does not like its taste and takes only 50g of it. How much calories will she get from it now?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Nutrition table (Serving Size 100g) on page 49 not reproduced: its values could not be paired with nutrients reliably in extraction (it lists Energy 359.8 kcal)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "100g 359.8 kcal 50 g 359.8/2 = 179.9 kcal (Guidance: Allow one mark for working that includes 359.8. Allow rounding to 180)"
       },
       "chapter": "mindful-eating-a-path-to-a-healthy-body",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SK4d.png",
+          "kind": "TABLE",
+          "alt": "Nutrition table of the health drink (serving size 100g) with columns Nutrients, quantity and Known functions of nutrients, and an Energy row",
+          "width": 1196,
+          "height": 1858,
+          "page": 49,
+          "crop": {
+            "x": 0.155,
+            "y": 0.08,
+            "w": 0.67,
+            "h": 0.735
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6SRN2",
@@ -1573,16 +1701,31 @@
       "type": "SHORT_ANSWER",
       "text": "A group of students were given a salt solution and were asked to separate the respective components. They set up the apparatus as shown in the figure above. Identify the two processes for which the apparatus has been setup in the above figures.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure of the apparatus (Fig (a) and Fig (b), source on page 73) not reproduced",
-        "Needed to answer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Fig (a) - Filtration Fig (b) – Distillation (Guidance: Allow condensation for fig b)"
       },
       "chapter": "methods-of-separation-in-everyday-life",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SPA3.png",
+          "kind": "FIGURE",
+          "alt": "Apparatus drawings Fig (a) and Fig (b) with labels Salt solution, Filter paper, Funnel, Conical Flask, Condenser, Stand, Stand, Beaker",
+          "width": 1400,
+          "height": 929,
+          "page": 73,
+          "crop": {
+            "x": 0.08,
+            "y": 0.48,
+            "w": 0.8,
+            "h": 0.375
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6SPA3",
@@ -1596,16 +1739,31 @@
       "type": "SHORT_ANSWER",
       "text": "A group of students were given a salt solution and were asked to separate the respective components. They set up the apparatus as shown in the figure above. Identify the error in the set-up of the apparatus for the separation of a salt solution.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure of the apparatus (Fig (a) and Fig (b), source on page 73) not reproduced",
-        "Needed to answer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Any one from: Salt cannot be separated from water through the process of filtration as shown in Fig The filtration is not necessary"
       },
       "chapter": "methods-of-separation-in-everyday-life",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SPA3.png",
+          "kind": "FIGURE",
+          "alt": "Apparatus drawings Fig (a) and Fig (b) with labels Salt solution, Filter paper, Funnel, Conical Flask, Condenser, Stand, Stand, Beaker",
+          "width": 1400,
+          "height": 929,
+          "page": 73,
+          "crop": {
+            "x": 0.08,
+            "y": 0.48,
+            "w": 0.8,
+            "h": 0.375
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6SG1",
@@ -1648,16 +1806,47 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the picture given above and mark the missing poles of the magnets in the table given below:\nPoles of magnet 1 | Poles of magnet 2 | Interaction\na. S | Repulsion\nb. S | Attraction",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 1 (source on page 77) not reproduced; needed to answer",
-        "Table on page 77: the column position of each printed ‘S’ is lost in extraction"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "a. N (S) S N b. N S N (S) (Guidance: 1 mark for each correct row.)"
       },
       "chapter": "exploring-magnets",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SG3.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1: two rows (a, b) each showing Magnet 1 and Magnet 2 as two-part bars with arrows; row a labelled Repulsion with one pole of Magnet 1 marked s, row b labelled Attraction with one pole of Magnet 2 marked s",
+          "width": 1400,
+          "height": 439,
+          "page": 77,
+          "crop": {
+            "x": 0.08,
+            "y": 0.465,
+            "w": 0.79,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SG3a-2.png",
+          "kind": "TABLE",
+          "alt": "Answer table with columns Poles of magnet 1 (two cells), Poles of magnet 2 (two cells) and Interaction; row a has S in the second cell of magnet 1 (Repulsion), row b has S in the second cell of magnet 2 (Attraction)",
+          "width": 1124,
+          "height": 220,
+          "page": 77,
+          "crop": {
+            "x": 0.16,
+            "y": 0.825,
+            "w": 0.63,
+            "h": 0.087
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6SG3",
@@ -1671,15 +1860,31 @@
       "type": "SHORT_ANSWER",
       "text": "Out of the two properties shown above in figure 1, which property is considered a sure test of magnetism.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 1 (source on page 77) not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Repulsion"
       },
       "chapter": "exploring-magnets",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SG3.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1: two rows (a, b) each showing Magnet 1 and Magnet 2 as two-part bars with arrows; row a labelled Repulsion, row b labelled Attraction; one pole marked s in each row",
+          "width": 1400,
+          "height": 439,
+          "page": 77,
+          "crop": {
+            "x": 0.08,
+            "y": 0.465,
+            "w": 0.79,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6SG3",
@@ -1851,15 +2056,31 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the set up given above and answer the following questions: Describe how to make a magnetic compass using the set up shown above.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 1 (materials provided, source on page 85) not reproduced; needed to answer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "• Rub the magnet along the needle (1) • Piece the needle through the cork (1) • Float the cork on the water (1) • Needle aligns N-S (1) (Guidance: Students can explain the same in their own way any valid explanation to be considered as long as it includes all the materials provided.)"
       },
       "chapter": "exploring-magnets",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SG5a.png",
+          "kind": "FIGURE",
+          "alt": "Materials Provided: figure 1 - drawings labelled Water+Glass, wooden cork, Needle and a bar Magnet marked N and S",
+          "width": 1160,
+          "height": 404,
+          "page": 85,
+          "crop": {
+            "x": 0.075,
+            "y": 0.527,
+            "w": 0.65,
+            "h": 0.16
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6SG5",
@@ -2246,15 +2467,31 @@
       "type": "SHORT_ANSWER",
       "text": "State the name of the cycle depicted in the figure above.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure of the water cycle (source on page 100) not reproduced; needed to answer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Water Cycle (1)"
       },
       "chapter": "a-journey-through-states-of-water",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SPA5.png",
+          "kind": "FIGURE",
+          "alt": "Cycle diagram with clouds and rain, the sun, trees and a body of water, linked by curved arrows; arrows labelled Condensation, Precipitation, Percolation, A and B",
+          "width": 857,
+          "height": 606,
+          "page": 100,
+          "crop": {
+            "x": 0.24,
+            "y": 0.455,
+            "w": 0.48,
+            "h": 0.24
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6SPA5",
@@ -2268,15 +2505,31 @@
       "type": "SHORT_ANSWER",
       "text": "State the names of processes A and B",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure of the water cycle (source on page 100) not reproduced; needed to answer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "A -Precipitation B -Evaporation (Guidance: Accept only these answers.)"
       },
       "chapter": "a-journey-through-states-of-water",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SPA5.png",
+          "kind": "FIGURE",
+          "alt": "Cycle diagram with clouds and rain, the sun, trees and a body of water, linked by curved arrows; arrows labelled Condensation, Precipitation, Percolation, A and B",
+          "width": 857,
+          "height": 606,
+          "page": 100,
+          "crop": {
+            "x": 0.24,
+            "y": 0.455,
+            "w": 0.48,
+            "h": 0.24
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science6SPA5",
@@ -2310,15 +2563,31 @@
       "type": "SHORT_ANSWER",
       "text": "A student made her own water-purification device using naturally available materials as shown in the picture above. Identify the layer which the student has used to remove the bad taste and odour from the impure water.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (picture) of the water-purification device (source on page 103) not reproduced; needed to answer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Charcoal (Guidance: Accept only this option.)"
       },
       "chapter": "methods-of-separation-in-everyday-life",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vi-science/Science6SPA1.png",
+          "kind": "FIGURE",
+          "alt": "Picture of a home-made water-purification bag hanging from a tree branch, with its layers labelled from top to bottom",
+          "width": 518,
+          "height": 698,
+          "page": 103,
+          "crop": {
+            "x": 0.33,
+            "y": 0.437,
+            "w": 0.29,
+            "h": 0.276
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

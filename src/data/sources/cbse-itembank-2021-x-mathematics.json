@@ -1148,16 +1148,33 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 67 not reproduced (triangle with labelled lengths 2 cm, 3 cm, 3 cm; 'Diagram not drawn to scale')",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "SP = 4.5 cm. PQR and PTS are similar since ST and QR are parallel, so RT/TP = QS/SP ⇒ 2/3 = 3/SP ⇒ SP = 4.5. A1 Correct answer – 1 mark",
         "correctOption": 3
       },
       "chapter": "triangles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10GS3.png",
+          "kind": "FIGURE",
+          "alt": "Triangle PQR with line TS parallel to RQ (arrow marks): T on PR, S on PQ; RT = 2 cm, TP = 3 cm, QS = 3 cm; note 'Diagram not drawn to scale'",
+          "width": 714,
+          "height": 429,
+          "page": 67,
+          "crop": {
+            "x": 0.08,
+            "y": 0.44,
+            "w": 0.4,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10AD10",
@@ -1219,16 +1236,33 @@
       "text": "In the figure given above PR II AC and PQ II AB Prove that QR II BC",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 73 not reproduced",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF",
         "The scheme's ratios read 'CP/PA', 'CQ/QB' in the text layer (possibly OP, OQ in the original); reproduced as extracted, check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Given that PR II AC. So, from ∆OAC, by Basic Proportionality Theorem, we have CP/PA = OR/RC …(1). PQ II AB, so from ∆OAB, we have CQ/QB = CP/PA …(2). From equations (1) and (2), we get CQ/QB = OR/RC. So, by the converse of the Basic Proportionality theorem, QR II BC. Guidance: M1. Using Basic Proportionality Theorem in triangle OAC we have CP/PA =OR/RC…(1) M1. CQ/QB = CP/PA … A1 comparing and getting QR II BC using converse of BPT"
       },
       "chapter": "triangles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10SR7.png",
+          "kind": "FIGURE",
+          "alt": "Figure: rays OB, OC and a third ray OA from O; P on OA, Q on OB, R on OC; segments PQ, QR, RP and AB, BC, CA form triangles PQR and ABC",
+          "width": 517,
+          "height": 404,
+          "page": 73,
+          "crop": {
+            "x": 0.08,
+            "y": 0.55,
+            "w": 0.29,
+            "h": 0.16
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10SR7",
@@ -1243,15 +1277,32 @@
       "text": "In the figure given above PR II AC and PQ II AB Prove that ∆ABC ~∆PQR",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 73 not reproduced",
         "Angle labels in the scheme look inconsistent in the text layer (e.g. '∠ORP = OCB', '(4) – (3)'); reproduced as extracted, check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "PR II AC gives ∠ORP = ∠OCA …(1). QR II BC gives ∠ORP = OCB …(2). (2) – (1) Gives ∠PRQ = ∠ACB …(3). PQ II AB Gives ∠OQP = ∠OBA …(4). QR II BC Gives ∠OQR = ∠OBC …(5). (4) – (3) Gives ∠PQR = ∠ABC …(6). From (3) and (6), we get ∆ABC ~∆PQR (By AA similarity criteria). Guidance: M1 ∠PRQ = ∠ACB using the property corresponding angles are equal. M1 ∠PQR = ∠ABC same property. A1 ∆ABC ~∆PQR (by AA similarity criteria)"
       },
       "chapter": "triangles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10SR7.png",
+          "kind": "FIGURE",
+          "alt": "Figure: rays OB, OC and a third ray OA from O; P on OA, Q on OB, R on OC; segments PQ, QR, RP and AB, BC, CA form triangles PQR and ABC",
+          "width": 517,
+          "height": 404,
+          "page": 73,
+          "crop": {
+            "x": 0.08,
+            "y": 0.55,
+            "w": 0.29,
+            "h": 0.16
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10AD1",
@@ -1318,15 +1369,32 @@
       "text": "In ∆ PQR, ∠PQR = 90°, QS ⟘ PR Find the values of x, y, and z.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 77 not reproduced (lengths 10 and 8 and the positions of x, y, z are only on the figure)",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Since ∆PSQ ~∆QSR. PS/QS = QS/SR……. CSST. QS² = PS × SR; x² = 10 × 8; x² = 80; x = 4√5. In ∆PQS, z² = 10² + x² ….. By Pythagoras theorem = 100 + 80 = 180; z = 6√5. Similarly, In ∆QSR, y² = 8² + x²; y² = 64 + 80; y² = 144; y = 12. Guidance: M1 A1: use similar triangle ratios to find x. M1 A1: use Pythagoras to find y, z (or use proportionality again)"
       },
       "chapter": "triangles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10ASR11.png",
+          "kind": "FIGURE",
+          "alt": "Right triangle PQR with right angle at Q; QS perpendicular to PR; PS = 10, SR = 8, QS = x, QR = y, PQ = z; 'Diagram not drawn to scale'",
+          "width": 428,
+          "height": 354,
+          "page": 77,
+          "crop": {
+            "x": 0.08,
+            "y": 0.59,
+            "w": 0.24,
+            "h": 0.14
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10PR6",
@@ -1341,7 +1409,6 @@
       "text": "In the figure shown above, BA, FE, and CD are parallel lines. Given that EG = 5 cm, GC = 10 cm, AB = 15 cm and DC = 18cm. Calculate: EF",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 79 not reproduced ('Diagram is not to scale')",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -1349,7 +1416,25 @@
         "text": "9 cm. M1 In ∆EFG and ∆CDG, we have ∠GFE = ∠GDC (alt. int angles; EF ∥ DC and FD is tranversal), ∠EGF = ∠CGD (vert. opp. Angles), ∆EFG~∆CDG by AA similarity criterion. M1 corresponding sides are in the same ratio. A1 EF/EG = CD/CG ⟹ EF/5 = 18/10 ⟹ EF = 9 cm."
       },
       "chapter": "triangles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10PR6.png",
+          "kind": "FIGURE",
+          "alt": "Figure: segments BA, FE and CD; AC and FD meet at G with E on AG; AB = 15 cm, EG = 5 cm, GC = 10 cm, DC = 18 cm; B, F, C on a line; 'Diagram is not to scale'",
+          "width": 964,
+          "height": 531,
+          "page": 79,
+          "crop": {
+            "x": 0.08,
+            "y": 0.495,
+            "w": 0.54,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10PR6",
@@ -1364,7 +1449,6 @@
       "text": "In the figure shown above, BA, FE, and CD are parallel lines. Given that EG = 5 cm, GC = 10 cm, AB = 15 cm and DC = 18cm. Calculate: AC",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 79 not reproduced ('Diagram is not to scale')",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -1372,7 +1456,25 @@
         "text": "25 cm. M1 In ∆CAB and ∆CEF, we have ∠CAB = ∠CEF (corresponding angles; AB∥EF and AC is tranversal), ∠C = ∠C (common angle). By AA similarity criterion, ∆CAB~∆CEF. M1 corresponding sides are in the same ratio. AC/CE = AB/EF ⟹ AC/15 = 15/9 (CE = GC + EG = 10 cm + 5 cm = 15 cm). A1 AC = 25 cm"
       },
       "chapter": "triangles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10PR6.png",
+          "kind": "FIGURE",
+          "alt": "Figure: segments BA, FE and CD; AC and FD meet at G with E on AG; AB = 15 cm, EG = 5 cm, GC = 10 cm, DC = 18 cm; B, F, C on a line; 'Diagram is not to scale'",
+          "width": 964,
+          "height": 531,
+          "page": 79,
+          "crop": {
+            "x": 0.08,
+            "y": 0.495,
+            "w": 0.54,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10ASR4",
@@ -1410,15 +1512,31 @@
       "type": "SHORT_ANSWER",
       "text": "In the above figure, AB ⊥ BC, DE ⊥ AC and GF ⊥ BC. Prove that △ADE ∼△GCF",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 82 not reproduced ('Diagram not to scale')"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "In △ADE and △ACB, Angle A = Angle A (common), Angle AED = Angle ABC (90°), △ADE ∼△ACB (AA) ---(i). In △ACB and △GCF, Angle C =Angle C (common), Angle ABC = Angle GFC (90°), △ACB ∼△GCF (AA) ---(ii). From (i) and (ii) △ADE ∼△GCF. Guidance: M1 for using the concept of similarity; 1 mark 1 mark 1 mark"
       },
       "chapter": "triangles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10AKP6.png",
+          "kind": "FIGURE",
+          "alt": "Right triangle ABC with right angle at B; D on AB, E on AC with DE perpendicular to AC; G on AC and F on BC with GF perpendicular to BC; 'Diagram not to scale'",
+          "width": 535,
+          "height": 404,
+          "page": 82,
+          "crop": {
+            "x": 0.08,
+            "y": 0.415,
+            "w": 0.3,
+            "h": 0.16
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10ASR7",
@@ -1557,16 +1675,33 @@
       "text": "As shown in the diagram, Kaju and Seerat planned to place kidder’s tent of the same height in their respective rooms. Kaju’s tent is a square-based pyramid, and Seerat’s tent is conical in shape. Kaju plans to use green printed cloth for his tent, and Seerat uses a pink printed cloth for her tent. The base is the floor of the room, so the cloth is used for the sides only. Find the difference in m² in the two cloths used by Kaju and Seerat. Take π = 22/7",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 91 not reproduced (tents with dimensions h (2 m), 4 m; 'Not to scale')",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF",
         "The mark scheme's stated answer (14.84 m², allow 14.8 to 14.9) does not match its own final working line (4.86 m²); both reproduced as printed"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "14.84 (m²) [as printed; the scheme's working ends: difference of areas = 22.64 − 17.78 = 4.86 m²]. Allow the answer between 14.8 to 14.9. M1 For Kaju: Quantity of cloth used = 4 × area of the side triangular faces = 4 × ½ × b × s, b = 4m. M1 Using Pythagoras theorem, (2)² + (2)² = s² ⟹ s² = 8 ⟹ s = 2.83m. Area of cloth used = 4 × ½ × 4 × 2.83 = 22.64 m². M1 For Seerat: Area of cloth used = CSA of cone = πrl = 22/7 × 2 √(2² + 2²)=17.78m². A1 area of cloth used by Seerat = 17.78 m². A1 difference of areas = 22.64 − 17.78 = 4.86 m²"
       },
       "chapter": "surface-areas-and-volumes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10PR7.png",
+          "kind": "FIGURE",
+          "alt": "Two tents: Seerat's tent, a cone of height h (2 m) and base diameter 4 m; Kaju's tent, a square-based pyramid of height h, base side a marked 4 m; 'Not to scale'",
+          "width": 1400,
+          "height": 749,
+          "page": 91,
+          "crop": {
+            "x": 0.08,
+            "y": 0.5,
+            "w": 0.82,
+            "h": 0.31
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10PR7",
@@ -1635,15 +1770,32 @@
       "text": "Figure 1 Not drawn to scale. PQ and PR are the tangents to a circle of centre O. In figure 1 given above, O is the centre, PQ and PR are the two tangents, RQ is the chord. If ∠RPQ = 30°, then find ∠RQP and ∠RSQ.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 96 not reproduced (position of S is only on the figure)",
         "Item identity printed as 'Math10MM8' on the item page; the item index lists 'Maths10MM8'"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "∠QOP = 180° – 30° = 150°. In triangle ORQ, OQ = OR (Radius), ∠OQR = ∠ORQ = 15° (Angle sum property of a triangle). ∠OQP = 90° (Tangent makes an angle of 90° with the radius). ∠RQP = 90° - 15° = 75°. ∠RSQ = 75° (Angle at the centre is double). Guidance: M1 ∠QOP = 180° – 30° = 150°; A1- ∠RQP = 75°; M1; A1- ∠RSQ = 75°. Do not penalise if degree symbol is omitted."
       },
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10MM8.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1: circle with centre O; tangents PQ and PR from P with angle RPQ = 30 degrees; chord RQ, points S and R on the circle, segments SQ, SR, OQ, OR; caption 'Not drawn to scale. PQ and PR are the tangents to a circle of centre O.'",
+          "width": 1400,
+          "height": 482,
+          "page": 96,
+          "crop": {
+            "x": 0.08,
+            "y": 0.54,
+            "w": 0.8,
+            "h": 0.195
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10PR2",
@@ -1734,15 +1886,31 @@
       "type": "SHORT_ANSWER",
       "text": "Figure 1 The diagram is not drawn to scale. PT is the tangent to a circle of centre O. In the given figure 1 above, PQ is a chord of a circle with center O, and PT is a tangent. If ∠QPT = 60°, find ∠PRQ.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 103 not reproduced (position of R is only on the figure)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "∠OPT = 90° {tangent at any point of a circle is perpendicular to the radius}; ∠QPT = 60° {given} ⇒∠OPQ = 30°= ∠OQP ⇒∠POQ = 120° {Angle sum property of a triangle} ⇒∠PRQ = 120°. Guidance: M1- ∠OPT = 90°; A1 ∠OPT = 90°; M1 ∠OPQ = 30°= ∠OQP, ∠POQ = 120°; A1 - ∠PRQ = 120°. Do not penalise if degree symbol is omitted."
       },
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10MM7.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1: circle with centre O; tangent line through P with T on it; chord PQ, point R on the minor arc between P and Q joined to P and Q; dashed radii OP and OQ; caption 'The diagram is not drawn to scale. PT is the tangent to a circle of centre O.'",
+          "width": 1267,
+          "height": 620,
+          "page": 103,
+          "crop": {
+            "x": 0.08,
+            "y": 0.405,
+            "w": 0.71,
+            "h": 0.245
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10ASR6",
@@ -1757,7 +1925,6 @@
       "text": "In the above figure, RQS is a line parallel to the tangent to the circle at P. Q is the midpoint of the radius OP if RS = 12cm, find the radius of the circle.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 105 not reproduced ('Diagram not drawn to scale')",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -1765,7 +1932,25 @@
         "text": "Radius = 4√3 cm. Let the radius of circle OP= r. OP is perpendicular to the tangent l. Therefore, OP is perpendicular to RS. Therefore, QS = ½ RS = 6cm. (Perpendicular drawn from centre to the chord bisects the chord). In ∆OQS, OS² = OQ² + QS²; r² = (r/2)² + 6²; r² − r²/4 = 36; 3r²/4 = 36; r² = 48; r = 4√3 cm. Guidance: M1 Identify sides as 6, r, and ½r. M1 use of Pythagoras. A1 correct answer"
       },
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10ASR6.png",
+          "kind": "FIGURE",
+          "alt": "Circle with centre O; a straight line touching the bottom of the circle at P; radius OP with Q on it; chord RS passing through Q, with R and S on the circle; segment OS; 'Diagram not drawn to scale'",
+          "width": 642,
+          "height": 379,
+          "page": 105,
+          "crop": {
+            "x": 0.08,
+            "y": 0.415,
+            "w": 0.36,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10AD9",
@@ -1780,15 +1965,32 @@
       "text": "In an amusement park, a triangular path circumscribing a circular pond centred at O with radius 8 m is to be constructed, as shown in the figure above. Find the cost of fencing the triangular path at the rate of Rs 55 per meter.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 107 not reproduced (tangent lengths BQ = 12m, QC = 16m are only on the figure; 'Diagram not drawn to scale')",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Cost of fencing = Rs 4620. Since the length of tangents from an external point to a circle are equal ∴ In ∆ABC, PB = QB = 12 m, RC = QC = 16 m and AP = AR = x (say). Also, the radius is perpendicular to the tangent at the point of contact. ∴ ar(∆ABC) = ar(∆AOB) + ar(∆OBC) + ar(∆AOC) = ½ × 8 × (28 + 12 + x + 16 + x) = 8 (28 + x) square meters …(1). Also, semi perimeter ‘s’ of ∆ABC = (28 + x). And by Heron’s formula, ar(∆ABC) = √(28 + x) × x × 12 × 16 = 4 √(28 + x) × x × 12 square meters …(2). From (1) and (2), 8 (28 + x) = 4 √(28 + x) × x × 12. Taking square on both the sides, 4(28 + x)² = 12x (28 + x) ⇒ (28 + x) (28 + x – 3x) = 0 ⇒ x = - 28, or x = 14. Since, length cannot be negative, ∴ x = 14. Hence the perimeter of the triangular park = 2 (28 + x) = 2 × 42 = 84 meters. And the cost of fencing = Rs 55 × 84 = Rs 4620. Guidance: M1 tangent theorems; M1 area of ABC as sum of areas of AOB, BOC, COA; M1 Heron’s formula; M1 equating the two areas to find the perimeter as 84 m; A1 the cost of fencing = Rs. 4620…"
       },
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10AD9.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABC circumscribing a circle with centre O; circle touches AB at P, AC at R, BC at Q; radius OQ drawn; BQ = 12m, QC = 16m; 'Diagram not drawn to scale'",
+          "width": 571,
+          "height": 556,
+          "page": 107,
+          "crop": {
+            "x": 0.08,
+            "y": 0.505,
+            "w": 0.32,
+            "h": 0.22
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10SR6",
@@ -1929,15 +2131,32 @@
       "text": "“4-Clover Leaf” interchanges are the structured freeways that contain ‘sectors of circles’ with additional portions as shown in fig.i. Each leaf of this freeway is in the form of a quadrant of a circle of radius 98 ft (i.e., AB in figure ii is 98 ft). A semicircle is drawn with a diameter equal to BC as labeled in fig. ii. (Take π = 22/7) The lighter shaded region of all the leaves in figure i needs to be landscaped. Find the total area to be landscaped.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figures (fig. i, fig. ii) on pages 116-117 not reproduced",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "19,208 sq. feet. Required area = 4 × shaded area of one cloverleaf. Radius of the quadrant ABC of circle ‘R’ = 98 ft. AB = AC = 98 ft. BC is the diameter of the semicircle. By Pythagoras theorem in ΔABC, BC² = AB² +AC² ⇒ BC = 98√2 ft. Radius of semicircle ‘r’ = BC/2 = 49√2 ft. Area of ΔABC = ½ × 98 × 98 = 4802 sq. feet. Area of quadrant = ¼ πR² = 7546 sq. ft. Area of the semicircle = ½ πr² = 7546 sq. ft. Area of the shaded region = Area of the semicircle + Area of ΔABC – Area of quadrant = 7546 + 4802 – 7546 = 4802 sq. ft. Hence total area to be landscaped = 4 × 4802 = 19,208 sq. ft. Guidance: M1 radius and area of semi-circle; M1 areas of right triangle and quadrant; M1 shaded area of 1 cloverleaf 4802 sq. ft; A1 Area to be landscaped as 19,208 sq. ft…"
       },
       "chapter": "areas-related-to-circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10AD5.png",
+          "kind": "FIGURE",
+          "alt": "fig. i: four-leaf clover interchange on two crossing roads, with shaded regions; fig. ii: one leaf, quadrant ABC with a semicircle drawn on BC and a hatched region between the arcs",
+          "width": 1400,
+          "height": 706,
+          "page": 117,
+          "crop": {
+            "x": 0.08,
+            "y": 0.085,
+            "w": 0.8,
+            "h": 0.285
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10AD5",
@@ -1952,7 +2171,6 @@
       "text": "“4-Clover Leaf” interchanges are the structured freeways that contain ‘sectors of circles’ with additional portions as shown in fig.i. Each leaf of this freeway is in the form of a quadrant of a circle of radius 98 ft (i.e., AB in figure ii is 98 ft). A semicircle is drawn with a diameter equal to BC as labeled in fig. ii. (Take π = 22/7) A mettled road is to be constructed along the outer edge of the clover leaves. Find the cost of construction of the road along one leaf shown in fig-ii at the rate of Rs. 50 per ft.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figures (fig. i, fig. ii) on pages 116-117 not reproduced",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -1960,7 +2178,25 @@
         "text": "Rs 10,900. Length of road along with one cloverleaf = length of outer arc BC (semi-circle on BC as diameter) = ½ × 2πr = ½ × 2 × 22/7 × 49√2 = 218 ft. Cost of construction of road along one clover leaf = Rs 50 × 218 = Rs 10,900. Guidance: M1 finding length of road along with one cloverleaf as 218 ft. A1 cost of construction as Rs 10.900. Do not penalise if Rs or unit of length is not written."
       },
       "chapter": "areas-related-to-circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10AD5.png",
+          "kind": "FIGURE",
+          "alt": "fig. i: four-leaf clover interchange on two crossing roads, with shaded regions; fig. ii: one leaf, quadrant ABC with a semicircle drawn on BC and a hatched region between the arcs",
+          "width": 1400,
+          "height": 706,
+          "page": 117,
+          "crop": {
+            "x": 0.08,
+            "y": 0.085,
+            "w": 0.8,
+            "h": 0.285
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10ASR10",
@@ -1975,15 +2211,32 @@
       "text": "APB, AQC, CSD, BRD are semicircles where AB = BC = CD= 7cm. (Use π = 22/7) Find the perimeter of the shaded region",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 120 not reproduced (shaded region is defined only by the figure)",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Let radius of bigger semicircle = R = 7 cm. Let radius of smaller semicircle = r = 7 cm [as printed; 3.5 is used below]. Perimeter of shaded region = length of arc (APB + AQC + CSD + BRD) = πr + πR + πr + πR = 2(πr + πR) = 2π (r + R) = 2 × 22/7 (3.5 + 7) = 2 × 22/7 × (10.5) = 66 cm. Guidance: M1: Identify what the perimeter consists of. M1: Apply formula for the circumference of at least one of the circles. A1: correct answer. Do not penalise if the unit(cm) is omitted"
       },
       "chapter": "areas-related-to-circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10ASR10.png",
+          "kind": "FIGURE",
+          "alt": "Points A, B, C, D on a line; semicircle APB and semicircle AQC above the line, semicircles CSD and BRD below; the region between the arcs is shaded with vertical lines",
+          "width": 500,
+          "height": 341,
+          "page": 120,
+          "crop": {
+            "x": 0.08,
+            "y": 0.495,
+            "w": 0.28,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10ASR10",
@@ -1998,15 +2251,32 @@
       "text": "APB, AQC, CSD, BRD are semicircles where AB = BC = CD= 7cm. (Use π = 22/7) Find the area of the shaded region",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 120 not reproduced (shaded region is defined only by the figure)",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Area of the shaded region = 2 (area of the bigger semicircle – area of the smaller semicircle) = 2 (πR²/2 − πr²/2) = π (R² - r²) = 22/7 × (49 − 12.25) = 115.5 cm². Guidance: M1: Identify what the shaded area consists of. M1: Apply formula for the area of at least one of the circles. A1: Correct answer. Do not penalise if the unit(cm²) is omitted."
       },
       "chapter": "areas-related-to-circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10ASR10.png",
+          "kind": "FIGURE",
+          "alt": "Points A, B, C, D on a line; semicircle APB and semicircle AQC above the line, semicircles CSD and BRD below; the region between the arcs is shaded with vertical lines",
+          "width": 500,
+          "height": 341,
+          "page": 120,
+          "crop": {
+            "x": 0.08,
+            "y": 0.495,
+            "w": 0.28,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10MM3_5",
@@ -2020,15 +2290,31 @@
       "type": "SHORT_ANSWER",
       "text": "Kanupriya runs a bakery shop. The amount of mixture required to make one biscuit is 18 cm³. After the biscuit is cooked, it becomes a cylinder of radius 3 cm and height 0.7 cm and has some air trapped inside it. Biscuits are packed in a cylindrical card box of height 14 cm. The arrangement of biscuits is shown above. Based on this information, answer the following questions: How many biscuits will be there in a box?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 122 not reproduced (arrangement of biscuits in the box is not shown in the text layer)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "In a layer, 7 biscuits are arranged whose height is 0.7 cm. Total layer in box = 14/0.7 = 20. Number of biscuits in the box = 20 x 7 = 140. Guidance: M1 A1 – 20 layers x 7 biscuits = 140"
       },
       "chapter": "surface-areas-and-volumes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10MM3_5.png",
+          "kind": "FIGURE",
+          "alt": "Top view of a circular box with equal circular biscuits arranged inside it in one layer",
+          "width": 607,
+          "height": 594,
+          "page": 122,
+          "crop": {
+            "x": 0.08,
+            "y": 0.465,
+            "w": 0.34,
+            "h": 0.235
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10MM3_5",
@@ -2101,15 +2387,32 @@
       "text": "Kanupriya runs a bakery shop. The amount of mixture required to make one biscuit is 18 cm³. After the biscuit is cooked, it becomes a cylinder of radius 3 cm and height 0.7 cm and has some air trapped inside it. Biscuits are packed in a cylindrical card box of height 14 cm. The arrangement of biscuits is shown above. Based on this information, answer the following questions: How much space is vacant in the box after biscuits are packed?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 122 not reproduced (arrangement of biscuits in the box is not shown in the text layer); the box radius is only on the figure",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Volume of box = πR²h = 22/7 × 9 × 9 × 14 = 3564 cm³. Volume of 140 biscuits = 140 x 19.8 = 2772 cm³. Vacant Volume = 3564 - 2772 = 792 cm³. Guidance: M1 – To find the volume of a box M1 – To find the volume of 140 biscuits A1 – 792 cm³. Note Follow through with candidate values for credit."
       },
       "chapter": "surface-areas-and-volumes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10MM3_5.png",
+          "kind": "FIGURE",
+          "alt": "Top view of a circular box with equal circular biscuits arranged inside it in one layer",
+          "width": 607,
+          "height": 594,
+          "page": 122,
+          "crop": {
+            "x": 0.08,
+            "y": 0.465,
+            "w": 0.34,
+            "h": 0.235
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10AKP1",
@@ -3604,15 +3907,32 @@
       "text": "The rod of the TV disc antenna is fixed at the right angle to wall AB and a rod CD supports the disc, as shown in Figure. If AC = 1.5 m long and CD = 3 m. Compute the value of Sec θ + cosec θ .",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 197 not reproduced (the position of θ is only on the figure)",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "41/13. M1 Sec θ = CD/AD = 3/2.6. M1 cosec θ = CD/AC = 3/1.5. A1 3/2.6 + 3/1.5 = 41/13"
       },
       "chapter": "introduction-to-trigonometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10SS1.png",
+          "kind": "FIGURE",
+          "alt": "Wall AB (vertical, A at top, D and B lower down); horizontal rod AC from A to the disc at C; rod CD from C down to D on the wall; angle θ marked at D between DA and DC",
+          "width": 535,
+          "height": 442,
+          "page": 197,
+          "crop": {
+            "x": 0.08,
+            "y": 0.485,
+            "w": 0.3,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10PS9",
@@ -3627,7 +3947,6 @@
       "text": "A rectangular-shaped gardening block measures 12 m by 5 m and angle CAD = θ (theta) . Determine the value of 12 tan θ.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 199 not reproduced (rectangle ABCD with sides 5m and 12m)",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -3635,7 +3954,25 @@
         "text": "5. tan θ = opposite side/adjacent side = CD/AD = 5/12. 12 tan θ = 12 × 5/12 = 5. Guidance: M1 for determining the correct value of tan θ A1 for getting the correct answer. Alternatively, A1 for directly writing the answer."
       },
       "chapter": "introduction-to-trigonometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10PS9.png",
+          "kind": "FIGURE",
+          "alt": "Rectangle ABCD with diagonal AC; AD = 12m (bottom side), CD = 5m (right side); angle θ at A between AD and AC",
+          "width": 857,
+          "height": 455,
+          "page": 199,
+          "crop": {
+            "x": 0.08,
+            "y": 0.53,
+            "w": 0.48,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10PS9",
@@ -3650,7 +3987,6 @@
       "text": "A rectangular-shaped gardening block measures 12 m by 5 m and angle CAD = θ (theta) . Determine the value of (1− tan²θ)/(1+ tan²θ).",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 199 not reproduced",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF",
         "The expression is garbled in the question's text layer; rebuilt from the mark-scheme copy on page 200"
       ],
@@ -3659,7 +3995,25 @@
         "text": "119/169 or 0.704. Tan²θ = (5/12)² = 25/144. Thus, [1 − (5/12)²] ÷ [1 + (5/12)²] = (1− 25/144)/(1+ 25/144) = (144−25)/(144+25) = 119/169 or 0.704. Guidance: M1 for writing the correct values of the square of the trigonometric ratios and simplification. A1 for the correct answer. Note: Decimal values up to two/three decimal places can also be considered, i.e., 0.70 or 0.704"
       },
       "chapter": "introduction-to-trigonometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10PS9.png",
+          "kind": "FIGURE",
+          "alt": "Rectangle ABCD with diagonal AC; AD = 12m (bottom side), CD = 5m (right side); angle θ at A between AD and AC",
+          "width": 857,
+          "height": 455,
+          "page": 199,
+          "crop": {
+            "x": 0.08,
+            "y": 0.53,
+            "w": 0.48,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10AS5",
@@ -3861,19 +4215,36 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "In the diagram above, BC is perpendicular to AD, and BD is 10 m, ACB = 45° and BCD = 30° . Find AB.",
+      "text": "In the diagram above, BC is perpendicular to AD, and BD is 10 m, ∠ACB = 45° and ∠BCD = 30° . Find AB.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 209 not reproduced ('Diagram not drawn to scale')",
         "Degree signs flattened in the text layer (e.g. '300' for 30°) and restored; check against the PDF",
         "Mark-scheme figure on page 211 not reproduced"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "From the given data Tan 30⁰=10/BC; BC=10√3 m. In ABC, ∠ACB =45⁰; Tan45⁰=AB/BC; 1=AB/BC; AB =10√3. The height of the building is 10√3 m. If the answer is written as 17.32 m, it also can be accepted. Guidance: M1 A1 using tan 30 to find BC M1 A1 using tan 45 to find AB (followthrough from their BC, i.e., AB = their BC gets the marks)"
       },
       "chapter": "some-applications-of-trigonometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10AR6.png",
+          "kind": "FIGURE",
+          "alt": "Vertical line AD with B between A and D; BC perpendicular to AD; angle ACB = 45°, angle BCD = 30°; BD = 10m; 'Diagram not drawn to scale'",
+          "width": 553,
+          "height": 682,
+          "page": 209,
+          "crop": {
+            "x": 0.085,
+            "y": 0.485,
+            "w": 0.31,
+            "h": 0.27
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10SS3",
@@ -4011,16 +4382,33 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 218 not reproduced ('Figure not to scale'); the question cannot be answered without it",
         "Angle sign extracted as 'Ð' and restored as ∠"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "D. 60°. A1 for the correct answer",
         "correctOption": 3
       },
-      "chapter": "some-applications-of-trigonometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "chapter": "introduction-to-trigonometry",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10RM3.png",
+          "kind": "FIGURE",
+          "alt": "Right triangle ABC with right angle at B; AC = 14 cm, BC = 7 cm; angle C marked; 'Figure not to scale'",
+          "width": 642,
+          "height": 379,
+          "page": 218,
+          "crop": {
+            "x": 0.08,
+            "y": 0.4,
+            "w": 0.36,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10RK8",
@@ -4130,15 +4518,32 @@
       "text": "Two friends Seema and Aditya study at a boarding school in Shimla. During Christmas vacations, both decided to go to their hometowns represented by Town A and Town B, respectively, in the figure given below. Town A and Town B are connected by trains from the same station C (in the given figure) in Shimla. Who will travel a larger distance to reach their hometown?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 224 not reproduced (coordinate grid; the coordinates of A, B and C are only on the figure)",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Coordinates of A (1,7). Coordinates of town B (4,2). Coordinates of station C (-4,4). Distance AC = √((1 + 4)² + (7 − 4)²) = √(5² + 3²) = √34. Distance BC = √((4 + 4)² + (4 − 2)²) = √(64 + 4) = √68. Aditya will travel more distance. Guidance: M1 for writing coordinates M1 for calculating AC M1 for calculating BC and specifying that Aditya will travel more distance."
       },
       "chapter": "coordinate-geometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10RM7.png",
+          "kind": "GRAPH",
+          "alt": "Coordinate grid (x from -5 to 10, y from 0 to 7) with three plotted points labelled A (Town A), B (Town B) and C (Station C)",
+          "width": 1035,
+          "height": 569,
+          "page": 224,
+          "crop": {
+            "x": 0.075,
+            "y": 0.555,
+            "w": 0.58,
+            "h": 0.225
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10RM7",
@@ -4153,15 +4558,32 @@
       "text": "Two friends Seema and Aditya study at a boarding school in Shimla. During Christmas vacations, both decided to go to their hometowns represented by Town A and Town B, respectively, in the figure given below. Town A and Town B are connected by trains from the same station C (in the given figure) in Shimla. On the day, they plan to meet at a location situated at a point D which is at the mid-point of the line joining the point represented by Town A and Town B. Find the coordinates of D.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 224 not reproduced (coordinate grid; the coordinates of A, B and C are only on the figure)",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "D is the mid-point of AB = ((1+4)/2, (7+4)/2) [as printed] = (2.5, 5.5). Guidance: M1 for mid-point and formula M1 for the correct value"
       },
       "chapter": "coordinate-geometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10RM7.png",
+          "kind": "GRAPH",
+          "alt": "Coordinate grid (x from -5 to 10, y from 0 to 7) with three plotted points labelled A (Town A), B (Town B) and C (Station C)",
+          "width": 1035,
+          "height": 569,
+          "page": 224,
+          "crop": {
+            "x": 0.075,
+            "y": 0.555,
+            "w": 0.58,
+            "h": 0.225
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10SS4",
@@ -4176,15 +4598,32 @@
       "text": "Two friends Ravi and Arjun work in the same office at Chandigarh. Both decided to go to their hometowns represented by A and B respectively in the figure given above during the Christmas vacations. Town A and Town B are connected by trains from the same station C in Chandigarh and a bus station at D. Ravi and Arjun met at the bus station D and then went together to board the train from station C for their respective hometowns. Who travelled further and by how much?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 226 not reproduced (coordinate grid; the positions of A, B, C, D are only on the figure)",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Ravi by 3.1 units. A (-3,2), B(1,3), C (4,0), D (-2,-3). Distance travelled by Ravi DC + CA = √(36 + 9) + √(49 + 4) = 6.7 + 7.3 units = 14.0 units. Distance travelled by Arjun DC +CB = √(36 + 9) + √(9 + 9) = √45 + √18 = 6.7 + 4.2 units = 10.9 units. 14.0 - 10.9 = 3.1units. Ravi travelled more by 3.1 units. Guidance: M1 identifies coordinates of (at least) A, B, C. M1 use distance formula A1 calculate at least one distance correctly A1 correct answer (Ravi by 3.1 units). No marks are to be allotted for the last step if Ravi or 3.1 is missing. (Without units also full marks are to be allotted) (Or ignore DC for both as they travel together)"
       },
       "chapter": "coordinate-geometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10SS4.png",
+          "kind": "GRAPH",
+          "alt": "Coordinate grid (x and y from -6 to 6) with four plotted points labelled A, B, C and D",
+          "width": 678,
+          "height": 581,
+          "page": 226,
+          "crop": {
+            "x": 0.08,
+            "y": 0.375,
+            "w": 0.38,
+            "h": 0.23
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10SK6",
@@ -4219,15 +4658,32 @@
       "text": "Ajay, Bhigu, and Colin have been friends since childhood. They always want to sit in a row in the classroom, but the teacher does not allow them and rotate the seats by row every day. Bhigu is very good at maths, and he does a distance calculation every day. He considers the centre of class as the origin and marks their position on the paper in a coordinate system. One day Bhigu makes the above diagram of their seating position. What is the distance of point A from the origin?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 230 not reproduced (coordinate diagram; the positions of A, B and C are only on the figure)",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "2√2. OA = √(2² + 2²) = 2√2. M1 use of distance formula A1 correct answer"
       },
       "chapter": "coordinate-geometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10SK10.png",
+          "kind": "GRAPH",
+          "alt": "Coordinate grid (x from -6 to 6, y from -5 to 5) with three plotted points labelled A, B and C",
+          "width": 678,
+          "height": 530,
+          "page": 230,
+          "crop": {
+            "x": 0.08,
+            "y": 0.445,
+            "w": 0.38,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths10SK10",
@@ -4242,15 +4698,32 @@
       "text": "Ajay, Bhigu, and Colin have been friends since childhood. They always want to sit in a row in the classroom, but the teacher does not allow them and rotate the seats by row every day. Bhigu is very good at maths, and he does a distance calculation every day. He considers the centre of class as the origin and marks their position on the paper in a coordinate system. One day Bhigu makes the above diagram of their seating position. What is the distance between B and C?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 230 not reproduced (coordinate diagram; the positions of A, B and C are only on the figure)",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "2√5. BC = √((- 1 - 3)² + (- 2 - 0)²) = √(4² + 4²) [as printed] = 2√5. A1 correct answer"
       },
       "chapter": "coordinate-geometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-x-mathematics/Maths10SK10.png",
+          "kind": "GRAPH",
+          "alt": "Coordinate grid (x from -6 to 6, y from -5 to 5) with three plotted points labelled A, B and C",
+          "width": 678,
+          "height": 530,
+          "page": 230,
+          "crop": {
+            "x": 0.08,
+            "y": 0.445,
+            "w": 0.38,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

@@ -228,17 +228,33 @@
         "Both the statements are false."
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 (four graphs (a)–(d)) not reproduced; Statement 2 cannot be judged without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) or Statement 1 is true and Statement 2 is false.",
         "correctOption": 0
       },
       "cognitiveLevel": "Application",
       "chapter": "continuity-differentiability-and-differentiation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-mathematics-specimen/1vii.png",
+          "kind": "GRAPH",
+          "alt": "Four small graphs of functions on x-y axes, labelled (a), (b), (c) and (d)",
+          "width": 698,
+          "height": 409,
+          "page": 4,
+          "crop": {
+            "x": 0.26,
+            "y": 0.122,
+            "w": 0.38,
+            "h": 0.172
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -417,16 +433,32 @@
       "type": "SHORT_ANSWER",
       "text": "The given function f: R → R is many to one function. Give reason.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph of f(x) on page 5 not reproduced; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "The curve crosses x -axis at three different points. That shows, for different value of x, the value of y is zero. That is more than one domain, mapped to the same point “zero”"
       },
       "cognitiveLevel": "Understanding",
       "chapter": "relations-and-functions",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-mathematics-specimen/1xiv.png",
+          "kind": "GRAPH",
+          "alt": "Hand-drawn graph of a function f(x) on x-y axes",
+          "width": 496,
+          "height": 313,
+          "page": 5,
+          "crop": {
+            "x": 0.42,
+            "y": 0.515,
+            "w": 0.27,
+            "h": 0.132
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -910,10 +942,10 @@
       "page": 10,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "Consider the following statements and choose the correct option:\nStatement 1: If a⃗ and b⃗ represents two adjacent sides of a parallelogram then the diagonals are represented by a⃗ + b⃗ and a⃗ − b⃗.\nStatement 2: If a⃗ and b⃗ represents two diagonals of a parallelogram then the adjacent sides are represented by 2(a⃗ + b⃗) and 2(a⃗ − b⃗).\nWhich of the following is correct?",
+      "text": "In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\nConsider the following statements and choose the correct option:\nStatement 1: If a⃗ and b⃗ represents two adjacent sides of a parallelogram then the diagonals are represented by a⃗ + b⃗ and a⃗ − b⃗.\nStatement 2: If a⃗ and b⃗ represents two diagonals of a parallelogram then the adjacent sides are represented by 2(a⃗ + b⃗) and 2(a⃗ − b⃗).\nWhich of the following is correct?",
       "options": [
         "Statement 1 is true and Statement 2 is false.",
         "Statement 2 is true and Statement 1 is false.",
@@ -921,9 +953,7 @@
         "Both the statements are false."
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts"
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "officialAnswer": {
         "text": "(a) or Statement 1 is true and Statement 2 is false.",
@@ -931,7 +961,9 @@
       },
       "cognitiveLevel": "Recall",
       "chapter": "vector-algebra",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 15: [5] for the 5 subparts"
     },
     {
       "number": "15",
@@ -940,10 +972,10 @@
       "page": 10,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "A plane passes through three points A, B and C with position vectors î + ĵ, ĵ + k̂ and k̂ + î respectively. The equation of the line passing through the point P with position vector î + 2ĵ + 2k̂ and normal to the plane is",
+      "text": "In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\nA plane passes through three points A, B and C with position vectors î + ĵ, ĵ + k̂ and k̂ + î respectively. The equation of the line passing through the point P with position vector î + 2ĵ + 2k̂ and normal to the plane is",
       "options": [
         "r⃗ = (î + 2ĵ + 2k̂) + λ(î + ĵ + k̂), λ ∈ R",
         "r⃗ = (î + ĵ + k̂) + λ(î + 2ĵ + 2k̂), λ ∈ R",
@@ -952,7 +984,6 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
         "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -962,7 +993,9 @@
       },
       "cognitiveLevel": "Application",
       "chapter": "three-dimensional-geometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 15: [5] for the 5 subparts"
     },
     {
       "number": "15",
@@ -971,10 +1004,10 @@
       "page": 10,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "If the direction cosines of a line are < 1/c, 1/c, 1/c > then",
+      "text": "In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\nIf the direction cosines of a line are < 1/c, 1/c, 1/c > then",
       "options": [
         "c > 0",
         "0 < c < 1",
@@ -983,7 +1016,6 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
         "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
         "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
       ],
@@ -994,7 +1026,9 @@
       },
       "cognitiveLevel": "Understanding",
       "chapter": "three-dimensional-geometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 15: [5] for the 5 subparts"
     },
     {
       "number": "15",
@@ -1003,13 +1037,12 @@
       "page": 10,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "If a⃗ and b⃗ are unit vectors enclosing an angle θ and |a⃗ + b⃗| < 1, then find the values between which θ lies.",
+      "text": "In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\nIf a⃗ and b⃗ are unit vectors enclosing an angle θ and |a⃗ + b⃗| < 1, then find the values between which θ lies.",
       "hasFigure": false,
       "extractionIssues": [
-        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
         "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -1018,7 +1051,9 @@
       },
       "cognitiveLevel": "Understanding",
       "chapter": "vector-algebra",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 15: [5] for the 5 subparts"
     },
     {
       "number": "15",
@@ -1027,23 +1062,41 @@
       "page": 11,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Shown below is a cuboid. Find BA⃗ . BC⃗",
+      "text": "In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\nShown below is a cuboid. Find BA⃗ . BC⃗",
       "hasFigure": true,
       "extractionIssues": [
-        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
-        "Figure on page 11 (cuboid with axes and dimensions 2 cm, 3 cm, 4 cm, points A, B, C) not reproduced; the question cannot be answered without it",
         "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Placing the coordinate axes as illustrated, coordinates of A is (2,0,0), B (0,4,3) and C (1,4,0). ∴ BA⃗ = 2î - 4ĵ -3k̂ and BC⃗ = î -3k̂ ∴ BA⃗ . BC⃗ = 2 + 9 = 11"
       },
       "cognitiveLevel": "Analysis",
       "chapter": "vector-algebra",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-mathematics-specimen/15v.png",
+          "kind": "FIGURE",
+          "alt": "Cuboid on X, Y and Z axes with marked edge lengths and points A, B and C",
+          "width": 588,
+          "height": 363,
+          "page": 11,
+          "crop": {
+            "x": 0.235,
+            "y": 0.098,
+            "w": 0.32,
+            "h": 0.153
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 15: [5] for the 5 subparts"
     },
     {
       "number": "16",
@@ -1106,17 +1159,34 @@
       "text": "Given, B and C lie on the line (x+3)/5 = (y−1)/2 = (z+4)/3 and BC = 5 units find the area of ∆ABC.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 11 (triangle ABC with foot D on BC) not reproduced; the coordinates of A, (0,2,3), are printed only inside the figure, so the question cannot be answered from the text alone",
         "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF",
         "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Let (x+3)/5 = (y−1)/2 = (z+4)/3 = λ. ∴ D(5λ − 3, 2λ + 1, 3λ − 4). Dr of AD ⟨5λ − 3, 2λ − 1, 3λ − 7⟩ and Dr of given line L ⟨5,2,3⟩. AD ⊥ L, so 5(5λ − 3) + 2(2λ − 1) + 3(3λ − 7) = 0 ⇒ λ = 1. Coordinates of D are (2, 3, −1). AD = √((2 − 0)² + (3 − 2)² + (−1 − 3)²) = √21. Area of ∆ABC = (1/2) × BC × AD = (1/2) × 5 × √21 = (5/2)√21 sq. units"
       },
       "cognitiveLevel": "Application",
       "chapter": "three-dimensional-geometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-mathematics-specimen/17i.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABC with vertex A labelled with its coordinates, B and C on a line, and a dashed line from A to D on BC",
+          "width": 441,
+          "height": 237,
+          "page": 11,
+          "crop": {
+            "x": 0.395,
+            "y": 0.725,
+            "w": 0.24,
+            "h": 0.1
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "17",
@@ -1173,10 +1243,10 @@
       "page": 12,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "Which condition is true if Average Cost (AC) is constant at all levels of output?",
+      "text": "In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\nWhich condition is true if Average Cost (AC) is constant at all levels of output?",
       "options": [
         "MC > AC",
         "MC = AC",
@@ -1185,7 +1255,6 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
         "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF (option (d) fraction 1/2)"
       ],
       "confidence": "MEDIUM",
@@ -1195,7 +1264,9 @@
       },
       "cognitiveLevel": "Recall",
       "chapter": "applications-of-derivatives",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 19: [5] for the 5 subparts"
     },
     {
       "number": "19",
@@ -1204,10 +1275,10 @@
       "page": 12,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "Which of the following statement(s) is/are correct with respect to regression coefficients?\nStatement 1: It measures the degree of linear relationship between two variables.\nStatement 2: It gives the value by which one variable changes for a unit change in the other variable.\nWhich of the following is correct?",
+      "text": "In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\nWhich of the following statement(s) is/are correct with respect to regression coefficients?\nStatement 1: It measures the degree of linear relationship between two variables.\nStatement 2: It gives the value by which one variable changes for a unit change in the other variable.\nWhich of the following is correct?",
       "options": [
         "Statement 1 is true and Statement 2 is false.",
         "Statement 2 is true and Statement 1 is false.",
@@ -1216,7 +1287,6 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
         "Answer key prints '(b) or Both statements are true but Statement 2 is not the correct explanation of Statement 1.' The letter (b) is recorded as correctOption, but the key's wording does not match option (b) as printed in the question ('Statement 2 is true and Statement 1 is false.'); editor must check"
       ],
       "confidence": "MEDIUM",
@@ -1226,7 +1296,9 @@
       },
       "cognitiveLevel": "Recall",
       "chapter": null,
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 19: [5] for the 5 subparts"
     },
     {
       "number": "19",
@@ -1235,13 +1307,12 @@
       "page": 13,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Mean of x = 53, mean of y = 28 regression co-efficient y on x = −1 · 2, regression co-efficient x on y = −0 · 3. Find coefficient of correlation (r).",
+      "text": "In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\nMean of x = 53, mean of y = 28 regression co-efficient y on x = −1 · 2, regression co-efficient x on y = −0 · 3. Find coefficient of correlation (r).",
       "hasFigure": false,
       "extractionIssues": [
-        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
         "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -1250,7 +1321,9 @@
       },
       "cognitiveLevel": "Understanding",
       "chapter": null,
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 19: [5] for the 5 subparts"
     },
     {
       "number": "19",
@@ -1259,13 +1332,12 @@
       "page": 13,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The total revenue received from the sale of x unit of a product is given by R(x) = 3x² + 36x + 5. Find the marginal revenue when x = 5.",
+      "text": "In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\nThe total revenue received from the sale of x unit of a product is given by R(x) = 3x² + 36x + 5. Find the marginal revenue when x = 5.",
       "hasFigure": false,
       "extractionIssues": [
-        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts",
         "Notation rebuilt from the PDF layout (fractions/powers/superscripts); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -1274,7 +1346,9 @@
       },
       "cognitiveLevel": "Understanding",
       "chapter": "applications-of-derivatives",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 19: [5] for the 5 subparts"
     },
     {
       "number": "19",
@@ -1283,21 +1357,21 @@
       "page": 13,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "A manufacturing company finds that the daily cost of producing x item of product is given by C(x) = 210x + 7000. Find the minimum number that must be produced and sold daily for break even, if each item is sold for ₹280.",
+      "text": "In subparts (i) and (ii) choose the correct options and in subparts (iii) to (v), answer the questions as instructed.\nA manufacturing company finds that the daily cost of producing x item of product is given by C(x) = 210x + 7000. Find the minimum number that must be produced and sold daily for break even, if each item is sold for ₹280.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Per-subpart mark not printed; 1 mark per subpart taken from the printed Question total [5] over five subparts"
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "officialAnswer": {
         "text": "Given C(x) = 210x + 7000, R(x) = 280x. Minimum number must be sold daily when R(x) = C(x) ⇒ 210x + 7000 = 280x ⇒ 70x = 7000 ⇒ x = 100. ∴ Minimum number that must be sold is 100. Ans: 100"
       },
       "cognitiveLevel": "Understanding",
       "chapter": null,
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 19: [5] for the 5 subparts"
     },
     {
       "number": "20",
@@ -1406,16 +1480,33 @@
       "text": "The feasible region for an L.P.P. is shown in the adjoining figure:\nBased on the given graph, answer the following questions.\n(a) Write the constraints for the L.P.P.\n(b) Find the co-ordinates of the point B.\n(c) Find the maximum value of the objective function Z = x + y.",
       "hasFigure": true,
       "extractionIssues": [
-        "Graph on page 14 (feasible region with points A(25,0), C(0,20), D(0,50), E(40,0) and B) not reproduced; the question cannot be answered without it",
         "Official answer notation rebuilt from the rendered answer-key page (fractions/powers flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Equation of line AD: x/25 + y/20 = 1 ⇒ 2x + y = 50. Equation of line EC: x/40 + y/20 = 1 ⇒ x + 2y = 40. As origin lies in the region, 2x + y ≤ 50 and x + 2y ≤ 40. Therefore, the constraints are, 2x + y ≤ 50, x + 2y ≤ 40, x ≥ 0, y ≥ 0\n(b) Solving simultaneously, the coordinate of B is (20, 10).\n(c) The corner points are O(0,0), C(0,20), B(20,10) and A(25,0). At O, Z = 0; At C, Z = 20; At B, Z = 30; At A, Z = 25 ∴ Maximum value of Z is 30."
       },
       "cognitiveLevel": "Analysis",
       "chapter": "linear-programming",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-mathematics-specimen/22ii.png",
+          "kind": "GRAPH",
+          "alt": "Graph of two lines on x-y axes with labelled points A, B, C, D, E and a shaded feasible region",
+          "width": 569,
+          "height": 344,
+          "page": 14,
+          "crop": {
+            "x": 0.355,
+            "y": 0.265,
+            "w": 0.31,
+            "h": 0.145
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

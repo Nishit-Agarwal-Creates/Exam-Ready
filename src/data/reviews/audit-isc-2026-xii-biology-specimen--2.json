@@ -1,0 +1,67 @@
+{
+  "pack": "isc-2026-xii-biology-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked recovered figures against the original page (page.py grid/crop renders), pdftotext -layout/-raw, and the official answer key/marking scheme where one exists.",
+  "checks": [
+    {
+      "key": "isc-2026-xii-biology-specimen#1xvii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#1xviiia",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#2ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#3",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#5",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#9",
+      "agree": false,
+      "reason": "Stored answer flattens the key's printed superscripts: (i)(a) is printed as Father I^A i, Mother I^B i but stored as \"IAi\" / \"IBi\", which does not match the key.",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#14",
+      "agree": false,
+      "reason": "Figure crop clips the tops of the curved pollen-transfer arrows labelled 2 and 3, so the arcs showing where each transfer starts are incomplete.",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#17i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#17ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2026-xii-biology-specimen#18",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

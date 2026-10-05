@@ -509,17 +509,28 @@
       "key": "icse-school-8-chemistry-icse-class-8-assessment-1-chemistry-220923-2023#VII",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for this item (only section totals); pack stores a 0 placeholder.",
-      "notes": "Table on page 5 reproduced fully as text; 'CI' as printed."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Table on page 5 reproduced fully as text; 'CI' as printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: Q VII table cropped (blank cells to be filled); no mark is printed for VII or for any Section A item (page 1 gives only 'Section A (40 marks)').",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-chemistry-icse-class-8-assessment-1-chemistry-220923-2023#VIII1",

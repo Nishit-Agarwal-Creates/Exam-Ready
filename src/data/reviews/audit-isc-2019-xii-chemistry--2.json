@@ -1,0 +1,31 @@
+{
+  "pack": "isc-2019-xii-chemistry",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, rendered page images (page.py grid) and the marking scheme; figure PNGs opened and compared with the page.",
+  "checks": [
+    {
+      "key": "isc-2019-xii-chemistry#1ai",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2019-xii-chemistry#1aii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2019-xii-chemistry#1aiv",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2019-xii-chemistry#2a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

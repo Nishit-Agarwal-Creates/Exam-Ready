@@ -768,14 +768,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The lengths (2 cm, 3 cm, 3 cm) and their positions are only on the figure on p67.",
-      "notes": "Scheme p68: SP = 4.5 cm (D)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p68: SP = 4.5 cm (D).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p67 'Sources and diagrams' box: triangle with RT 2 cm, TP 3 cm, QS 3 cm, TS parallel to RQ; cropped whole box contents.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10AD10",
@@ -816,14 +826,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on p73 is needed for the positions of P, Q, R on OA, OB, OC; scheme ratios (CP/PA, CQ/QB) are garbled/inconsistent.",
-      "notes": "\"II\" for parallel is as printed."
+      "reason": "Figure recovered; scheme ratios (CP/PA, CQ/QB) are garbled/inconsistent.",
+      "notes": "\"II\" for parallel is as printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p73 'Sources and diagrams' box: rays from O through P/A, Q/B, R/C with triangles PQR and ABC; cropped. ",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10SR7b",
@@ -832,14 +852,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on p73 is needed; scheme angle steps are inconsistent (\"∠ORP = OCB\", \"(4) – (3)\").",
-      "notes": "Scheme p74."
+      "reason": "Figure recovered; scheme angle steps are inconsistent (\"∠ORP = OCB\", \"(4) – (3)\").",
+      "notes": "Scheme p74.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p73 'Sources and diagrams' box: rays from O through P/A, Q/B, R/C with triangles PQR and ABC; cropped. ",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10AD1",
@@ -880,14 +910,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Lengths 10 and 8 and the positions of x, y, z are only on the figure on p77; it also relies on Pythagoras theorem, removed from the current Class 10 Triangles chapter.",
-      "notes": "Scheme p78: x=4√5, z=6√5, y=12; checked."
+      "reason": "Figure recovered; relies on Pythagoras theorem, removed from the current Class 10 Triangles chapter (chapter uncertain).",
+      "notes": "Scheme p78: x=4√5, z=6√5, y=12; checked.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p77 'Sources and diagrams' box: right triangle with PS 10, SR 8, x, y, z labels; cropped. ",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10PR6a",
@@ -896,14 +936,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on p79 is needed to know how the points and the parallel lines are arranged.",
-      "notes": "Scheme p80: EF = 9 cm."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p80: EF = 9 cm.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p79 'Sources and diagrams' box: figure with A,B,C,D,E,F,G and lengths 15, 5, 10, 18 cm; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10PR6b",
@@ -912,14 +962,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on p79 is needed to know how the points and the parallel lines are arranged.",
-      "notes": "Scheme p80: AC = 25 cm."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p80: AC = 25 cm.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p79 'Sources and diagrams' box: figure with A,B,C,D,E,F,G and lengths 15, 5, 10, 18 cm; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10AKP6",
@@ -928,14 +988,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on p82 is needed to know where D, E, G, F lie.",
-      "notes": "Scheme p82-83."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p82-83.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p82 'Sources and diagrams' box: triangle ABC with D on AB, E and G on AC, F on BC, right-angle marks at B, E, F; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10ASR7a",
@@ -992,14 +1062,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Tent dimensions are only on the figure on p91; the official answer 14.84 m² contradicts its own working (4.86 m²); square-based pyramids are not in the current NCERT chapter.",
-      "notes": "Scheme p92-93."
+      "reason": "Figure recovered; the official answer 14.84 m² contradicts its own working (4.86 m²); square-based pyramids are not in the current NCERT chapter.",
+      "notes": "Scheme p92-93.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p91 'Sources and diagrams' box: conical tent h (2 m), 4 m diameter; pyramid tent h, side 4 m; cropped. ",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10AS3",
@@ -1024,14 +1104,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Position of S is only on the figure on p96.",
-      "notes": "Item page prints ID \"Math10MM8\"; the document index lists Maths10MM8. Scheme p97 writes ∠QOP where ∠QOR is meant."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Item page prints ID \"Math10MM8\"; the document index lists Maths10MM8. Scheme p97 writes ∠QOP where ∠QOR is meant.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p96 Figure 1: circle centre O, tangents PQ, PR, angle 30 deg at P, S on circle; cropped with caption.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10PR2",
@@ -1088,14 +1178,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Position of R is only on the figure on p103.",
-      "notes": "Scheme p104 jumps from ∠POQ=120° to ∠PRQ=120° without reason; depends on R being on the minor arc."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p104 jumps from ∠POQ=120° to ∠PRQ=120° without reason; depends on R being on the minor arc.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p103 Figure 1: circle centre O, tangent PT, chord PQ, R on minor arc; cropped with caption.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10ASR6",
@@ -1104,14 +1204,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on p105 is needed: the question text does not say R and S are on the circle (only the scheme does).",
-      "notes": "Scheme p105-106: 4√3 cm; checked."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p105-106: 4√3 cm; checked.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "p105 'Sources and diagrams' box: circle centre O, tangent at P, chord RS through Q on OP with R, S on the circle; cropped. | p51-fix-D0: Page 105 figure (looked at it): no arrow or other parallel mark is drawn on RS or the line at P; the old alt called RS 'parallel to the tangent', which the figure does not show. Alt now describes only what is drawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10AD9",
@@ -1120,14 +1231,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Tangent lengths BQ = 12 m and QC = 16 m are only on the figure on p107.",
-      "notes": "Scheme p108-109: Rs 4620; checked."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p108-109: Rs 4620; checked.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p107 'Sources and diagrams' box: incircle centre O touching sides at P, Q, R; BQ 12m, QC 16m; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10SR6",
@@ -1200,14 +1321,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "The lighter shaded region is defined only by fig. i/ii on pp116-117; it also uses Pythagoras theorem (removed from the current syllabus).",
-      "notes": "Scheme p118: 19,208 sq ft; checked."
+      "reason": "Figure recovered; uses Pythagoras theorem (removed from the current chapter), chapter uncertain.",
+      "notes": "Scheme p118: 19,208 sq ft; checked.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p117 diagram box (fig. i clover-leaf, fig. ii quadrant ABC with semicircle on BC, hatched region); cropped. An unlabelled draft version of the same figures is also printed on p116. ",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10AD5b",
@@ -1216,14 +1347,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure ii on p117 is needed to identify B, C and the outer edge of a leaf.",
-      "notes": "Scheme p119: Rs 10,900."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p119: Rs 10,900.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p117 diagram box (fig. i clover-leaf, fig. ii quadrant ABC with semicircle on BC, hatched region); cropped. An unlabelled draft version of the same figures is also printed on p116.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10ASR10a",
@@ -1232,14 +1373,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Shaded region is defined only by the figure on p120; the scheme says smaller radius r = 7 cm but uses 3.5.",
-      "notes": "Scheme p121: 66 cm."
+      "reason": "Figure recovered; the scheme says smaller radius r = 7 cm but uses 3.5.",
+      "notes": "Scheme p121: 66 cm.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p120 'Sources and diagrams' box: semicircles APB, AQC, CSD, BRD on line ABCD, shaded region hatched; cropped. ",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10ASR10b",
@@ -1248,14 +1399,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shaded region is defined only by the figure on p120.",
-      "notes": "Scheme p121: 115.5 cm²."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p121: 115.5 cm².",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p120 'Sources and diagrams' box: semicircles APB, AQC, CSD, BRD on line ABCD, shaded region hatched; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10MM3_5a",
@@ -1264,14 +1425,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The arrangement (7 biscuits per layer) is only on the figure on p122.",
-      "notes": "Scheme p123: 140."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p123: 140.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p122 'Sources and diagrams' box: 7 circles (1 centre, 6 around) inside a larger circle; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10MM3_5b",
@@ -1312,14 +1483,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Box radius (9 cm) is only on the figure on p122.",
-      "notes": "Scheme p124: 792 cm³."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p124: 792 cm³.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p122 'Sources and diagrams' box: 7 circles (1 centre, 6 around) inside a larger circle; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10AKP1",
@@ -2224,14 +2405,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Position of θ is shown only on the figure on page 197",
-      "notes": "Scheme p198 41/13"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p198 41/13",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p197 'Sources and diagrams' box: wall AB with D, rod AC to disc, rod CD, θ at D; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10PS9a",
@@ -2240,14 +2431,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 199 is needed to know that AD = 12 m and CD = 5 m ('12 m by 5 m' is ambiguous for tan θ)",
-      "notes": "Scheme p200 answer 5"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme p200 answer 5",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p199 'Sources and diagrams' box: rectangle ABCD, AD 12m, CD 5m, θ = angle CAD; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10PS9b",
@@ -2256,14 +2457,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 199 is needed to know which side is AD (12 m) and CD (5 m)",
-      "notes": "Question expression garbled in text layer; rebuilt from scheme copy p200 (119/169)"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Question expression garbled in text layer; rebuilt from scheme copy p200 (119/169)",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p199 'Sources and diagrams' box: rectangle ABCD, AD 12m, CD 5m, θ = angle CAD; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10AS5a",
@@ -2400,14 +2611,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Answerable from text: right angle at B, BD = 10, angles at C; scheme p211 AB = 10√3 m"
+      "notes": "Answerable from text: right angle at B, BD = 10, angles at C; scheme p211 AB = 10√3 m",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "p209 'Sources and diagrams' box: A, B, D on a vertical line, C to the right, 45° and 30° at C, BD 10m; cropped. p210 prints '∠ACB = 45°' and '∠BCD = 30°'; restored the angle signs.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10SS3",
@@ -2496,14 +2718,25 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 218 is needed to answer (question only refers to the figure)",
-      "notes": "Scheme D. 60°"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme D. 60°",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "p218 'Sources and diagrams' box: right angle at B, AC 14 cm, BC 7 cm, angle at C marked; cropped. | p51-fix-D0: Page 218: the item only asks for angle C of a right triangle (right angle at B) with AC = 14 cm and BC = 7 cm, i.e. cos C = 7/14 so C = 60°; no height, distance or angle of elevation/depression is involved. The official 'Introduction to Trigonometry' summary covers 'Trigonometric ratios, ratios of specific angles'; 'Some Applications of Trigonometry' covers only heights and distances with angles of elevation and depression.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10RK8",
@@ -2576,14 +2809,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Coordinates of A, B and C are given only on the figure on page 224",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p224 'Sources and diagrams' box: grid with A (1,7), C (-4,4), B (4,2); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10RM7b",
@@ -2592,14 +2835,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Coordinates only on the figure; scheme midpoint uses (7+4)/2 though B is (4,2), so D should be (2.5, 4.5), not (2.5, 5.5)",
-      "notes": ""
+      "reason": "Figure recovered; scheme midpoint uses (7+4)/2 though B is (4,2), so D should be (2.5, 4.5), not (2.5, 5.5).",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p224 'Sources and diagrams' box: grid with A (1,7), C (-4,4), B (4,2); cropped. ",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10SS4",
@@ -2608,14 +2861,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Positions of A, B, C and D are given only on the figure on page 226",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p226 'Sources and diagrams' box: grid with A (-3,2), B (1,3), C (4,0), D (-2,-3); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10SK6",
@@ -2640,14 +2903,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Position of A is given only on the figure on page 230",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p230 'Sources and diagrams' box: grid with A (-2,2), B (-1,-2), C (3,0); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-x-mathematics#Maths10SK10b",
@@ -2656,14 +2929,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Positions only on the figure; scheme writes √(4² + 4²) (= 4√2) but states 2√5 (√(4² + 2²)), internally inconsistent",
-      "notes": ""
+      "reason": "Figure recovered; scheme writes √(4² + 4²) (= 4√2) but states 2√5 (√(4² + 2²)), internally inconsistent.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p230 'Sources and diagrams' box: grid with A (-2,2), B (-1,-2), C (3,0); cropped. ",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

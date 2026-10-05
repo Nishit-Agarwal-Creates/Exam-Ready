@@ -16,14 +16,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 1 (scales A and B) is needed to answer (i)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 1: scales A and B under Q1(a)(i) cropped (watermark only).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-science-np20-521-2020#1b",
@@ -64,14 +74,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Displacement-time graph on page 2 is needed to state the type of motion",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: displacement-time graph under Q1(d) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-science-np20-521-2020#1e",
@@ -159,15 +179,26 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
-      "figure": "ESSENTIAL_MISSING",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram on page 3 shows which diver is deeper; subscripts h₁, h₂ stored as h1, h2",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 3: divers diagram (h₁ to A, h₂ to B) cropped; text prints h₁ and h₂ with subscripts, restored.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-science-np20-521-2020#3a",
@@ -240,14 +271,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Ray diagram on page 4 (17 cm marked) is needed for the focal length and mirror type",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: ray diagram under Q3(e) (C, F, B, P, B', 17 cm) cropped; the part label is partly overwritten but follows (d) on the same page.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-science-np20-521-2020#4a",
@@ -320,14 +361,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram on page 5 (direction of field lines relative to A and B) is needed",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: field-line diagram with A and B under Q4(e) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-science-np20-521-2020#5a",
@@ -336,14 +387,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Velocity-time graph on page 5 is needed",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: velocity-time graph under Q5(a) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-science-np20-521-2020#5b",
@@ -400,14 +461,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Simple book-on-table sketch; answerable from text"
+      "notes": "Simple book-on-table sketch; answerable from text",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: book-on-table diagram under Q6(b)(i) cropped, resolving the audit dispute that it was missing.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-science-np20-521-2020#6c",
@@ -463,15 +534,26 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
-      "figure": "NOT_ESSENTIAL",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Subscripts d_s and d_L printed as subscripts but stored flattened as ds, dL",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 7: floating-solid figure cropped; d with subscripts s and L printed in the figure and text, restored as d_{s}, d_{L}.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-science-np20-521-2020#8a",
@@ -511,15 +593,25 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
+      "notation": "REBUILT_OK",
       "figure": "ESSENTIAL_MISSING",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Diagram on page 8 shows which thermometer is above/below the trough; subscripts T₁, T₂ stored as T1, T2",
-      "notes": ""
+      "reason": "Diagram on page 8 is needed, but the thermometer subscripts in it are illegible on the scan (both read 'T,'), so which thermometer is T₁ cannot be confirmed.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 8: question text prints T₁ or T₂ with legible subscripts (restored); in the diagram both thermometer labels read only 'Thermometer T,' so which is T₁ cannot be read from the scan.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-science-np20-521-2020#9a",
@@ -560,14 +652,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Wave graph on page 9 (±12 cm) is needed for the amplitude",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 9 Q9 (c) figure: part (i) asks for the amplitude, which is read from the values printed at the crest and trough; alt no longer states those values.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-science-np20-521-2020#10a",
@@ -608,14 +711,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit diagram on page 10 (open key, cell polarity) is needed",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 10: circuit (cell, key, bulb) under Q10(c) cropped.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

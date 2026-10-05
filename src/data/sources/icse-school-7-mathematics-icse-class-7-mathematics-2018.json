@@ -122,7 +122,7 @@
       "marks": 2,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "Solve for the variable indicated : a/b = c/6d for c.",
+      "text": "Solve for the variable indicated : a/b = c/(6d) for c.",
       "hasFigure": false,
       "extractionIssues": [
         "Marks from the printed [2x10=20] for Question 1.",
@@ -311,12 +311,28 @@
       "type": "NUMERICAL",
       "text": "Find the area of shaded region",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 1 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-mathematics-icse-class-7-mathematics-2018/2e.png",
+          "kind": "FIGURE",
+          "alt": "Shaded (black) rectangle 30cm wide and 20cm high with an unshaded white square inside it labelled 12cm.",
+          "width": 518,
+          "height": 265,
+          "page": 1,
+          "crop": {
+            "x": 0.34,
+            "y": 0.83,
+            "w": 0.29,
+            "h": 0.105
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -390,12 +406,29 @@
       "text": "Find the area of the shaded region.",
       "hasFigure": true,
       "extractionIssues": [
-        "Marks from the printed [4x5=20] for Section C.",
-        "Figure on page 2 not reproduced"
+        "Marks from the printed [4x5=20] for Section C."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-mathematics-icse-class-7-mathematics-2018/3c.png",
+          "kind": "FIGURE",
+          "alt": "Rectangle 20 m long and 13 m wide divided into four shaded (black) parts by two crossing unshaded paths, each path 2 m wide.",
+          "width": 714,
+          "height": 329,
+          "page": 2,
+          "crop": {
+            "x": 0.28,
+            "y": 0.345,
+            "w": 0.4,
+            "h": 0.13
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -471,12 +504,29 @@
       "text": "Find x, y and p in the given figure. [Give reasons].",
       "hasFigure": true,
       "extractionIssues": [
-        "Marks from the printed [4x5=20] for Section D.",
-        "Figure on page 2 not reproduced"
+        "Marks from the printed [4x5=20] for Section D."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-mathematics-icse-class-7-mathematics-2018/4b.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn figure: two parallel rays (arrows to the right) cut by a transversal; at the upper point angles marked 270 (reflex), 40° and x; at the lower point P angles p and y.",
+          "width": 518,
+          "height": 480,
+          "page": 2,
+          "crop": {
+            "x": 0.4,
+            "y": 0.755,
+            "w": 0.29,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "4",
@@ -491,12 +541,29 @@
       "text": "In the given figure, AB // CD, and AB = CD Prove that : (i) Δ AOB ≅ Δ DOC (ii) AO = DO",
       "hasFigure": true,
       "extractionIssues": [
-        "Marks from the printed [4x5=20] for Section D.",
-        "Figure on page 3 not reproduced"
+        "Marks from the printed [4x5=20] for Section D."
       ],
       "confidence": "MEDIUM",
       "chapter": "congruence",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-mathematics-icse-class-7-mathematics-2018/4c.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn figure: AB and CD parallel and marked equal (arrows and double ticks), with AD and BC crossing at O.",
+          "width": 482,
+          "height": 328,
+          "page": 3,
+          "crop": {
+            "x": 0.36,
+            "y": 0.148,
+            "w": 0.27,
+            "h": 0.13
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -511,12 +578,29 @@
       "text": "Find the unknown angles; giving reasons.",
       "hasFigure": true,
       "extractionIssues": [
-        "Marks from the printed [4x5=20] for Section D.",
-        "Figure on page 3 not reproduced"
+        "Marks from the printed [4x5=20] for Section D."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-mathematics-icse-class-7-mathematics-2018/4d.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn figure: three parallel rays (arrows to the right); lines from the top and bottom rays meet at a point on the middle line; angles marked 160 at the top, 130 at the bottom, x at the meeting point and reflex angle y.",
+          "width": 643,
+          "height": 253,
+          "page": 3,
+          "crop": {
+            "x": 0.31,
+            "y": 0.345,
+            "w": 0.36,
+            "h": 0.1
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

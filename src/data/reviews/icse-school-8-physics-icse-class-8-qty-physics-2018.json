@@ -176,14 +176,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Reflection figure (A, B, P, M, O, N) on page 1 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 1 figure: alt no longer names MN as the mirror (part ii) nor PO as perpendicular/normal (part iv); it only lists the visible lines and letters.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2018#3a",
@@ -608,14 +619,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagrams (i) 60° and (ii) 110° on page 3 are needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 3 figure (sweep): alt no longer calls the surface a mirror or the vertical line the normal; it states only the printed angles 60° and 110° and the visible lines.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2018#9b",
@@ -656,14 +678,24 @@
       "marks": "MISMATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Velocity-time graph needed; parts carry 1½ marks each (combined by the builder); motion has no Class VIII chapter.",
-      "notes": ""
+      "reason": "Parts carry 1½ marks each (combined by the builder); motion has no Class VIII chapter.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: velocity-time graph (A, B, C, D, 20 m/s, 10 s, 20 s, 25 s) cropped; marks and chapter left as they were. ",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2018#10b",

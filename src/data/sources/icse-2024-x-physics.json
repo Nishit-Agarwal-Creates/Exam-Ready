@@ -96,12 +96,28 @@
         "7m"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 2 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "work-energy-power",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/1iii.png",
+          "kind": "FIGURE",
+          "alt": "Right-angled triangle ABC with a load at A pulled by force F along AC; lengths 5 m, 4 m and 3 m and angle 37° marked",
+          "width": 606,
+          "height": 333,
+          "page": 2,
+          "crop": {
+            "x": 0.39,
+            "y": 0.112,
+            "w": 0.33,
+            "h": 0.14
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -230,12 +246,34 @@
       "type": "MCQ",
       "text": "Identify the option that displays the correct wiring with correct colour code:",
       "hasFigure": true,
-      "extractionIssues": [
-        "Options (a)-(d) are wiring diagrams on page 3; not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "household-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/1ix.png",
+          "kind": "FIGURE",
+          "alt": "Four wiring diagrams (a) to (d), each with an APPLIANCE, a switch and Mains, wires labelled Brown wire with Blue wire or Yellow wire",
+          "width": 1285,
+          "height": 998,
+          "page": 3,
+          "crop": {
+            "x": 0.145,
+            "y": 0.445,
+            "w": 0.7,
+            "h": 0.42
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "options": [
+        "Wiring diagram (a) in the figure",
+        "Wiring diagram (b) in the figure",
+        "Wiring diagram (c) in the figure",
+        "Wiring diagram (d) in the figure"
+      ]
     },
     {
       "number": "1",
@@ -372,12 +410,28 @@
         "Move towards the left side of the lens"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 5 not reproduced (figure labels 'X' and 'BLOCK' interleave with the options in the text layer and were removed)"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "refraction-plane-surfaces",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/1xv.png",
+          "kind": "FIGURE",
+          "alt": "Parallel rays through a convex lens converging at point X; a glass BLOCK below the rays with an arrow showing it pushed upwards into their path",
+          "width": 404,
+          "height": 340,
+          "page": 5,
+          "crop": {
+            "x": 0.565,
+            "y": 0.34,
+            "w": 0.22,
+            "h": 0.143
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -386,18 +440,19 @@
       "page": 5,
       "section": "A",
       "sectionTitle": null,
-      "marks": 2,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "In the following atoms, which one is a radioisotope? Give one use of this isotope.\nO¹⁶, C¹⁴, N¹⁴, He⁴",
       "hasFigure": false,
       "extractionIssues": [
-        "The printed [3] covers (a) and (b) of 2(i); the split is not printed; 2 marks assigned to (a) (two asks: identify and give a use) and 1 mark to (b)",
         "Notation rebuilt from the PDF layout (powers/subscripts/degree signs); check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": "radioactivity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q2(i): [3] for (a) and (b)"
     },
     {
       "number": "2",
@@ -406,18 +461,35 @@
       "page": 5,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Name the class of the lever shown in the picture below:",
       "hasFigure": true,
-      "extractionIssues": [
-        "The printed [3] covers (a) and (b) of 2(i); the split is not printed; 2 marks assigned to (a) (two asks: identify and give a use) and 1 mark to (b)",
-        "Figure (picture of the lever) on page 5 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "machines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/2ib.png",
+          "kind": "FIGURE",
+          "alt": "Picture of a bottle opener lifting the cap of a bottle",
+          "width": 505,
+          "height": 290,
+          "page": 5,
+          "crop": {
+            "x": 0.2,
+            "y": 0.632,
+            "w": 0.275,
+            "h": 0.122
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q2(i): [3] for (a) and (b)"
     },
     {
       "number": "2",
@@ -470,12 +542,28 @@
       "type": "NUMERICAL",
       "text": "A non uniform beam of weight 120 N pivoted at one end is shown in the diagram below.\nCalculate the value of F to keep the beam in equilibrium.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 6 not reproduced (distances are given only in the diagram)"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "force",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/2iii.png",
+          "kind": "FIGURE",
+          "alt": "Non-uniform beam pivoted at O, with C.G. and Weight 120 N, force F at the other end; distances 0.20 m and 0.80 m marked",
+          "width": 790,
+          "height": 392,
+          "page": 6,
+          "crop": {
+            "x": 0.15,
+            "y": 0.115,
+            "w": 0.43,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -665,12 +753,28 @@
       "type": "SHORT_ANSWER",
       "text": "Below is an incomplete table showing the arrangement of electromagnetic spectrum in the increasing order of their wavelength. Complete the table.\n(a) Identify the radiation A.\n(b) Name the radiation used to detect fracture in bones.\n(c) Name one property common to both A and Radio waves.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Table on page 7 not reproduced (its cells extract out of order in the text layer)"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "spectrum",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/4ii.png",
+          "kind": "TABLE",
+          "alt": "Table row: Gamma ray, X-ray, U V rays, Visible rays, Infrared, A, Radio waves",
+          "width": 1267,
+          "height": 95,
+          "page": 7,
+          "crop": {
+            "x": 0.15,
+            "y": 0.518,
+            "w": 0.69,
+            "h": 0.04
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -684,12 +788,28 @@
       "type": "NUMERICAL",
       "text": "(a) Why do we use red colour as a danger signal on the top of a skyscraper?\n(b) The diagram below shows the path of a blue ray through the prism:\n1. Calculate the critical angle of the material of the prism for blue colour.\n2. What is the measure of the angle of this prism (A)?\n3. Which colour should replace the blue ray, for the ray to undergo Total Internal Reflection?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 7 not reproduced (angles are given only in the diagram)"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "refraction-plane-surfaces",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/4iii.png",
+          "kind": "FIGURE",
+          "alt": "Right-angled prism ABC (right angle at B) with a blue ray entering face AB normally and meeting face AC, angle 133° marked",
+          "width": 591,
+          "height": 300,
+          "page": 7,
+          "crop": {
+            "x": 0.525,
+            "y": 0.714,
+            "w": 0.322,
+            "h": 0.126
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -741,12 +861,28 @@
       "type": "SHORT_ANSWER",
       "text": "A monochromatic ray of light is incident on an equilateral prism placed at minimum deviation position with an angle of incidence 45° as shown in the diagram.\n(a) Copy the diagram and complete the path of the ray PQ.\n(b) State two factors on which the angle of deviation depends.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 8 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "refraction-plane-surfaces",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/5iii.png",
+          "kind": "FIGURE",
+          "alt": "Equilateral prism with angles 60°, 60°, 60°; incident ray PQ meeting the left face at Q, normal NN' dashed, angle 45° marked",
+          "width": 624,
+          "height": 350,
+          "page": 8,
+          "crop": {
+            "x": 0.495,
+            "y": 0.538,
+            "w": 0.34,
+            "h": 0.147
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -777,12 +913,28 @@
       "type": "SHORT_ANSWER",
       "text": "Two identical marbles A and B are rolled down along Path 1 and Path 2 respectively. Path 1 is frictionless and Path 2 is rough.\n(a) Which marble will surely reach the next peak?\n(b) Along which path/s the mechanical energy will be conserved?\n(c) Along which path/s is the law of conservation of energy obeyed?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 9 not reproduced (the paths are shown only in the figure)"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "work-energy-power",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/6ii.png",
+          "kind": "FIGURE",
+          "alt": "Marbles A and B at peak Y on a wavy track; Path 1 towards peak X and Path 2 towards peak Z, horizontal distances 10 m and 10 m marked",
+          "width": 826,
+          "height": 368,
+          "page": 9,
+          "crop": {
+            "x": 0.265,
+            "y": 0.058,
+            "w": 0.45,
+            "h": 0.155
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -796,12 +948,28 @@
       "type": "NUMERICAL",
       "text": "Given are two pulleys.\n(a) Copy and complete the labelled diagram connecting the two pulleys with a tackle to obtain Velocity Ratio = 2.\n(b) If Load = 48 kgf and efficiency is 80% then calculate:\n1. Mechanical Advantage.\n2. Effort needed to lift the load.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 9 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "machines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/6iii.png",
+          "kind": "FIGURE",
+          "alt": "Two pulleys: an upper pulley fixed to a support and a lower pulley with a load L",
+          "width": 211,
+          "height": 457,
+          "page": 9,
+          "crop": {
+            "x": 0.715,
+            "y": 0.4,
+            "w": 0.115,
+            "h": 0.192
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -816,12 +984,29 @@
       "text": "(a) Name the waves used in SONAR.\n(b) In the above diagram Lata stands between two cliffs and claps her hands. Determine the time taken by her to hear the first echo.\nSpeed of sound in air 320 ms⁻¹.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 9 not reproduced (distances to the cliffs are given only in the diagram)",
         "Notation rebuilt from the PDF layout (powers/subscripts/degree signs); check against the PDF"
       ],
       "confidence": "LOW",
       "chapter": "sound",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/7i.png",
+          "kind": "FIGURE",
+          "alt": "Person standing between Cliff A and Cliff B, distances 170 m and 160 m marked",
+          "width": 863,
+          "height": 255,
+          "page": 9,
+          "crop": {
+            "x": 0.26,
+            "y": 0.695,
+            "w": 0.47,
+            "h": 0.107
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -892,12 +1077,28 @@
       "type": "SHORT_ANSWER",
       "text": "Below is the diagram of a transformer:\n(a) Identify the type of transformer.\n(b) In this type of transformer which of the wire is thicker, the primary or the secondary? Give a reason.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 11 not reproduced (the type depends on the coil turns shown only in the diagram)"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "electro-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/8ii.png",
+          "kind": "FIGURE",
+          "alt": "Transformer diagram: iron core with a primary coil and a secondary coil labelled",
+          "width": 652,
+          "height": 553,
+          "page": 11,
+          "crop": {
+            "x": 0.3,
+            "y": 0.098,
+            "w": 0.355,
+            "h": 0.233
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",
@@ -911,12 +1112,28 @@
       "type": "NUMERICAL",
       "text": "Study the diagram:\n(a) Calculate the total resistance of the circuit.\n(b) Calculate the current drawn from the cell.\n(c) State whether the current through 10 Ω resistor is greater than, less than or equal to the current through the 12 Ω resistor.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagram on page 11 not reproduced (the circuit values appear only in the diagram)"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/8iii.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram: a 4 V cell connected to two branches, one with 10 Ω and 6 Ω resistors and the other with 12 Ω and 4 Ω resistors",
+          "width": 615,
+          "height": 440,
+          "page": 11,
+          "crop": {
+            "x": 0.295,
+            "y": 0.493,
+            "w": 0.335,
+            "h": 0.185
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "9",
@@ -969,12 +1186,29 @@
       "text": "(a) State one factor that affects the magnitude of induced current in an AC generator.\n(b) Given below is a circuit to study the magnetic effect of electric current. ABCD is a cardboard kept perpendicular to the conductor XY. A magnetic compass is placed at the point P of the cardboard. P₁ and P₂ are the positions of the magnetic compass, before and after passing a current through XY respectively.\n1. Name the rule that is used to predict the direction of deflection of the magnetic compass.\n2. State the direction of current in the conductor (X to Y or Y to X) when the circuit is complete.\n3. If resistance R is increased, then what will be the effect on the magnetic lines of force around the conductor?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 12 not reproduced (the compass positions and battery polarity are shown only in the diagram)",
         "Notation rebuilt from the PDF layout (powers/subscripts/degree signs); check against the PDF"
       ],
       "confidence": "LOW",
       "chapter": "electro-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-physics/9iii.png",
+          "kind": "FIGURE",
+          "alt": "Conductor XY passing through cardboard ABCD with point P, connected to a rheostat R, a D.C supply and a key; north direction N marked; compass positions P1 and P2 shown",
+          "width": 606,
+          "height": 361,
+          "page": 12,
+          "crop": {
+            "x": 0.38,
+            "y": 0.455,
+            "w": 0.33,
+            "h": 0.152
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

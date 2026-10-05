@@ -576,14 +576,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 7 is needed to identify the march being led by Gandhiji.",
-      "notes": "Image not reproduced in the pack."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Image not reproduced in the pack.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: photograph printed under the Question 7 stem, above (i)",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-history-civics#7ii",

@@ -96,14 +96,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Blowpipe/charcoal-block diagram on page 2 (label A) is needed and not stored.",
-      "notes": "Group total [5]."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Group total [5].",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "CHAPTER_MAPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 2 Q VI: heating mercuric oxide on a charcoal block with a blowpipe is the 'effect of heat on oxides of some metals' in the official chemical-reactions summary; moved from carbon-and-its-compounds. Alt no longer calls A a 'bead' (A is what part 1 asks).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-chemistry-icse-class-8-assessment-2-chemistry-290224-2024#VII",

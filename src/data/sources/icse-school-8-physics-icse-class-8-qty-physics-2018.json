@@ -218,12 +218,28 @@
       "type": "SHORT_ANSWER",
       "text": "Name the following terms with the help of given figure. (i) AO (ii) MN (iii) <AOP (iv) PO",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 1 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "light-energy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-physics-icse-class-8-qty-physics-2018/2f.png",
+          "kind": "FIGURE",
+          "alt": "Ray diagram: a straight hatched line M-O-N, two slanted lines from A and B meeting it at O with arrowheads, and a vertical line from P down to O",
+          "width": 447,
+          "height": 203,
+          "page": 1,
+          "crop": {
+            "x": 0.28,
+            "y": 0.805,
+            "w": 0.25,
+            "h": 0.08
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -699,12 +715,28 @@
       "type": "SHORT_ANSWER",
       "text": "Find the angle of incident and angle of reflection for the given diagrams. (i) (ii)",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figures (i) and (ii) on page 3 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "light-energy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-physics-icse-class-8-qty-physics-2018/9a.png",
+          "kind": "FIGURE",
+          "alt": "Two ray diagrams (i) and (ii) at a hatched straight line: in (i) a vertical line stands at the meeting point and 60° is marked between the outgoing ray and the hatched line; in (ii) 110° is marked between the incoming and outgoing rays",
+          "width": 1215,
+          "height": 149,
+          "page": 3,
+          "crop": {
+            "x": 0.14,
+            "y": 0.624,
+            "w": 0.68,
+            "h": 0.059
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "9",
@@ -753,13 +785,30 @@
       "text": "(i) Which part of graph shows motion with uniform — (i) velocity (ii) acceleration (iii) retardation (ii) Compare the magnitude of acceleration and retardation.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure (velocity-time graph) on page 3 not reproduced",
         "Sub-parts (i) and (ii) each carry [1½] (printed); kept together as one 3-mark entry",
         "Question continues on page 4"
       ],
       "confidence": "LOW",
       "chapter": "force-and-pressure",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-physics-icse-class-8-qty-physics-2018/10a.png",
+          "kind": "GRAPH",
+          "alt": "Velocity-time graph: Vel (m/s) against Time with points A (O), B, C, D and marks 20 m/s, 10 s, 20 s, 25 s",
+          "width": 500,
+          "height": 353,
+          "page": 3,
+          "crop": {
+            "x": 0.37,
+            "y": 0.8,
+            "w": 0.28,
+            "h": 0.14
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",

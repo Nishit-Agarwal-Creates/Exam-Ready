@@ -109,23 +109,36 @@
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2019#2b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram (ray AO on mirror PQ, 60°) is needed, and no marks are printed.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "ALT_TEXT_NEUTRALISED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "Page 1: diagram beside Q2(b) re-cropped from y 0.72 so the label N of the dashed line is complete (and Q on the right); alt no longer calls PQ a plane mirror (asked in part (ii)); checked the PNG.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2019#2c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -133,15 +146,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed (0 placeholder).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 (c) has no mark printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2019#2d",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -149,9 +172,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed (0 placeholder).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 (d) has no mark printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2019#2e",
@@ -256,14 +289,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Path diagram A-B-C-D is needed, and motion has no Class VIII chapter.",
-      "notes": ""
+      "reason": "Motion has no chapter in the Class VIII list; figure recovered.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: path diagram printed under Q.4 (a), cropped whole. Chapter hold unchanged.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2019#4b",
@@ -525,7 +568,7 @@
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2019#7c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -533,9 +576,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed (0 placeholder).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: this (second) Q.6 (c) has no mark printed; (a) [1], (b) [2], (d) [4].",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2019#7d",
@@ -621,17 +674,28 @@
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2019#8d",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Concave-mirror diagram to be copied is needed, and no marks are printed.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Q.8 (d) has no mark printed; the concave-mirror diagram under it cropped whole.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2019#9a",
@@ -669,7 +733,7 @@
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2019#9c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -677,9 +741,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed (0 placeholder).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Q.9 (c) has no mark printed; (a) [1], (b) [2], (d) [4].",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-qty-physics-2019#9d",

@@ -10,7 +10,7 @@
   },
   "questions": [
     {
-      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#I",
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#I1",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
@@ -18,15 +18,27 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "One entry of eight True/False items spanning heat, sound and electricity; no single chapter",
-      "notes": "'Sate ... is' as printed; [4] printed"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group I; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: I) 'Sate whether these statements is true or false-' [4] with eight numbered statements. Item 1 'A thick glass tumbler cracks when hot water is poured into it.' -> heat.",
+        "confidence": "HIGH"
+      }
     },
     {
-      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#II",
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#I2",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
@@ -34,18 +46,422 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "One matching entry spanning sound, electricity and magnetism, and heat; no single chapter",
-      "notes": "Table on page 1 fully carried as two lists; [4] printed"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group I; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: I) 'Sate whether these statements is true or false-' [4] with eight numbered statements. Item 2 'Mud houses are hot in summer and cold in winter.' -> heat.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#I3",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group I; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: I) 'Sate whether these statements is true or false-' [4] with eight numbered statements. Item 3 'The bottom part of cooking utensils is polished.' -> heat.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#I4",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group I; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: I) 'Sate whether these statements is true or false-' [4] with eight numbered statements. Item 4 'Compression are dense regions of air particles.' -> sound.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#I5",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group I; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: I) 'Sate whether these statements is true or false-' [4] with eight numbered statements. Item 5 'Speed of sound is maximum in gases.' -> sound.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#I6",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group I; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: I) 'Sate whether these statements is true or false-' [4] with eight numbered statements. Item 6 'Audible frequency range of human ear is 20Hz- 20,000Hz.' -> sound.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#I7",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group I; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: I) 'Sate whether these statements is true or false-' [4] with eight numbered statements. Item 7 'Current is the flow of charge carriers.' -> electricity-and-magnetism.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#I8",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group I; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: I) 'Sate whether these statements is true or false-' [4] with eight numbered statements. Item 8 'Secondary cell can be used again.' -> electricity-and-magnetism.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#II1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group II; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: II) 'Match the column-' [4], table with Column A items 1-8 and Column B a)-h). Item 1 'Electric circuit' -> electricity-and-magnetism.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#II2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group II; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: II) 'Match the column-' [4], table with Column A items 1-8 and Column B a)-h). Item 2 'Electromagnet' -> electricity-and-magnetism.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#II3",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group II; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: II) 'Match the column-' [4], table with Column A items 1-8 and Column B a)-h). Item 3 'Frequency' -> sound.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#II4",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group II; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: II) 'Match the column-' [4], table with Column A items 1-8 and Column B a)-h). Item 4 'Gong' -> sound.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#II5",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group II; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: II) 'Match the column-' [4], table with Column A items 1-8 and Column B a)-h). Item 5 'Primary cell' -> electricity-and-magnetism.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#II6",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group II; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: II) 'Match the column-' [4], table with Column A items 1-8 and Column B a)-h). Item 6 'Longitudinal wave' -> sound.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#II7",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group II; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: II) 'Match the column-' [4], table with Column A items 1-8 and Column B a)-h). Item 7 'Amplitude' -> sound.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#II8",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group II; checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: II) 'Match the column-' [4], table with Column A items 1-8 and Column B a)-h). Item 8 'Ventilator' -> heat.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#III1",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -53,15 +469,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Printed [4] covers eight MCQs (half a mark each); stored as 1 mark (rounded)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: '[4]' printed once beside III) Choose the correct option; no per-item mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#III2",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -69,15 +495,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Printed [4] covers eight MCQs (half a mark each); stored as 1 mark (rounded)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: '[4]' printed once beside III) Choose the correct option; no per-item mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#III3",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -85,15 +521,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Printed [4] covers eight MCQs (half a mark each); stored as 1 mark (rounded)",
-      "notes": "'fasted' struck through in pen on the scan; printed word kept"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "'fasted' struck through in pen on the scan; printed word kept",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: '[4]' printed once beside III) Choose the correct option; no per-item mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#III4",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -101,15 +547,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Printed [4] covers eight MCQs (half a mark each); stored as 1 mark (rounded)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: '[4]' printed once beside III) Choose the correct option; no per-item mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#III5",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -117,15 +573,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Printed [4] covers eight MCQs (half a mark each); stored as 1 mark (rounded)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: '[4]' printed once beside III) Choose the correct option; no per-item mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#III6",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -133,15 +599,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Printed [4] covers eight MCQs (half a mark each); stored as 1 mark (rounded)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: '[4]' printed once beside III) Choose the correct option; no per-item mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#III7",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -149,15 +625,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Printed [4] covers eight MCQs (half a mark each); stored as 1 mark (rounded)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: '[4]' printed once beside III) Choose the correct option; no per-item mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#III8",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
@@ -165,9 +651,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Printed [4] covers eight MCQs (half a mark each); stored as 1 mark (rounded)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: '[4]' printed once beside III) Choose the correct option; no per-item mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#IV1",
@@ -183,7 +679,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "IV) [5] over five items = 1 each"
+      "notes": "IV) [5] over five items = 1 each",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: '[5]' printed once beside IV) Answer in one word; no per-item mark (audit dispute settled).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#IV2",
@@ -199,7 +705,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: '[5]' printed once beside IV) Answer in one word; no per-item mark (audit dispute settled).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#IV3",
@@ -215,7 +731,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: '[5]' printed once beside IV) Answer in one word; no per-item mark (audit dispute settled).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#IV4",
@@ -231,7 +757,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: '[5]' printed once beside IV) Answer in one word; no per-item mark (audit dispute settled).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#IV5",
@@ -247,10 +783,20 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: '[5]' printed once beside IV) Answer in one word; no per-item mark (audit dispute settled).",
+        "confidence": "HIGH"
+      }
     },
     {
-      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#V",
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#V1",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
@@ -258,18 +804,58 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "One entry of two definitions from different chapters (EMF: electricity; sea breezes: heat)",
-      "notes": "(3) printed"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group V; checked against page image p3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 3: V) 'Define-' (3) with items 1. EMF and 2. Sea breezes. Item 1 'EMF' -> electricity-and-magnetism.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#V2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from group V; checked against page image p3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 3: V) 'Define-' (3) with items 1. EMF and 2. Sea breezes. Item 2 'Sea breezes' -> heat.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#B-I",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -277,15 +863,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section B prints 2.5 marks per question (conflicting with 20 marks for four); stored 5 is inferred from 20/4",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Section B heading 'Attempt any Four questions (each question carry 2.5 marks)'; printed per-question mark is 2.5.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#B-II",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -293,15 +889,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section B prints 2.5 marks per question (conflicting with 20 marks for four); stored 5 is inferred from 20/4",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Section B heading 'Attempt any Four questions (each question carry 2.5 marks)'; printed per-question mark is 2.5.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#B-III",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -309,15 +915,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section B prints 2.5 marks per question (conflicting with 20 marks for four); stored 5 is inferred from 20/4",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Section B heading 'Attempt any Four questions (each question carry 2.5 marks)'; printed per-question mark is 2.5.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#B-IV",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -325,15 +941,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section B prints 2.5 marks per question (conflicting with 20 marks for four); stored 5 is inferred from 20/4",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Section B heading 'Attempt any Four questions (each question carry 2.5 marks)'; printed per-question mark is 2.5.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#B-V",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -341,15 +967,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section B prints 2.5 marks per question (conflicting with 20 marks for four); stored 5 is inferred from 20/4",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Section B heading 'Attempt any Four questions (each question carry 2.5 marks)'; printed per-question mark is 2.5.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-assessment-2-physics-2023#B-VI",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -357,9 +993,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section B prints 2.5 marks per question (conflicting with 20 marks for four); stored 5 is inferred from 20/4",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Section B heading 'Attempt any Four questions (each question carry 2.5 marks)'; printed per-question mark is 2.5.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

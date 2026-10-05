@@ -226,12 +226,12 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "The following data was obtained for a hypothetical reaction 2A+B → 2AB\n\nS. No. | [A] (mol L-1) | [B] (mol L-1) | Initial rate (mol L-1 sec-1)\n1 | 0·5 | 0·5 | 1·8 × 10^-4\n2 | 1·0 | 0·5 | 3·6 × 10^-4\n3 | 1·0 | 1·0 | 3·6 × 10^-4\n\nThe rate law expression for this reaction is:",
+      "text": "The following data was obtained for a hypothetical reaction 2A+B → 2AB\n\nS. No. | [A] (mol L⁻¹) | [B] (mol L⁻¹) | Initial rate (mol L⁻¹ sec⁻¹)\n1 | 0·5 | 0·5 | 1·8 × 10⁻⁴\n2 | 1·0 | 0·5 | 3·6 × 10⁻⁴\n3 | 1·0 | 1·0 | 3·6 × 10⁻⁴\n\nThe rate law expression for this reaction is:",
       "options": [
-        "rate = k[A]^1[B]^1",
-        "rate = k[A]^1[B]^0",
-        "rate = k[A]^2[B]^1",
-        "rate = k[A]^0[B]^1"
+        "rate = k[A]¹[B]¹",
+        "rate = k[A]¹[B]⁰",
+        "rate = k[A]²[B]¹",
+        "rate = k[A]⁰[B]¹"
       ],
       "hasFigure": false,
       "extractionIssues": [
@@ -240,7 +240,7 @@
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(b) / rate = k[A]^1[B]^0",
+        "text": "(b) / rate = k[A]¹[B]⁰",
         "correctOption": 1
       },
       "chapter": "chemical-kinetics",
@@ -498,13 +498,11 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "Observe the diagram below of splitting of d-orbital in octahedral field and answer the following questions.\n\n[diagram of octahedral crystal-field splitting; extracted axis labels only: '+0.60Δo', '-0.40Δo', 'Δo or 10Dq']\n\n(a) Identify the electronic configuration of d5 ion, if Δo < P.\n(b) Comment on the relationship between crystal field stabilisation energy (Δo) and the strength of the ligand.",
+      "text": "Observe the diagram below of splitting of d-orbital in octahedral field and answer the following questions.\n\n(a) Identify the electronic configuration of d⁵ ion, if Δo < P.\n(b) Comment on the relationship between crystal field stabilisation energy (Δo) and the strength of the ligand.",
       "hasFigure": true,
       "extractionIssues": [
         "This is the other of two OR alternatives for Question 4 (choiceGroup 4); the candidate answers only (i) or (ii).",
-        "Diagram of octahedral d-orbital splitting (eg/t2g energy-level diagram) on page 5 not reproduced; only its extracted axis labels are kept in the text ('+0.60Δo', '-0.40Δo', 'Δo or 10Dq').",
         "Sub-parts carry different printed cognitive tags: (a) Understand, (b) Analyse; kept as one entry, so no single cognitiveLevel is recorded.",
-        "Subscripts flattened: d5.",
         "Notation rebuilt from the PDF layout (subscripts/superscripts in the electronic configuration, printed as 't23geg2'); check against the PDF."
       ],
       "confidence": "MEDIUM",
@@ -512,7 +510,25 @@
         "text": "(a) t2g^3 eg^2\n(b) If the value of CFSE (Δo) is more, ligand is strong (i.e. low spin complex)."
       },
       "chapter": "coordination-compounds",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-chemistry-specimen/4ii.png",
+          "kind": "FIGURE",
+          "alt": "Energy-level diagram with an upward Energy arrow, a row of five boxes on the left and two groups of boxes on the right labelled d_{x²−y²}, d_{z²} and d_{xy}, d_{yz}, d_{xz}, with labels +0.60Δo, -0.40Δo and Δo or 10Dq",
+          "width": 894,
+          "height": 493,
+          "page": 5,
+          "crop": {
+            "x": 0.25,
+            "y": 0.645,
+            "w": 0.5,
+            "h": 0.195
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -545,14 +561,14 @@
       "page": 6,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "How can the following conversion be carried out? (Write the chemical equation): Aniline to chlorobenzene",
+      "text": "How can the following conversions be carried out? (Write the chemical equations):\n(i) Aniline to chlorobenzene",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the shared instruction 'How can the following conversions be carried out? (Write the chemical equations):' and combined mark [2] printed once for (i)-(ii); assumed 1 mark each (even split).",
-        "Subscripts flattened: C6H5N2Cl, C6H5Cl, N2, Cu2Cl2."
+        "Subscripts flattened: C6H5N2Cl, C6H5Cl, N2, Cu2Cl2.",
+        "Question 6 prints only [2] for (i)-(ii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -560,7 +576,9 @@
       },
       "chapter": "organic-compounds-containing-nitrogen",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 6: [2] for the 2 parts"
     },
     {
       "number": "6",
@@ -569,14 +587,14 @@
       "page": 6,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "How can the following conversion be carried out? (Write the chemical equation): Chloroethane to n-butane",
+      "text": "How can the following conversions be carried out? (Write the chemical equations):\n(ii) Chloroethane to n-butane",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the shared instruction 'How can the following conversions be carried out? (Write the chemical equations):' and combined mark [2] printed once for (i)-(ii); assumed 1 mark each (even split).",
-        "Subscripts flattened: C2H5Cl, NaCl."
+        "Subscripts flattened: C2H5Cl, NaCl.",
+        "Question 6 prints only [2] for (i)-(ii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -584,7 +602,9 @@
       },
       "chapter": "haloalkanes-and-haloarenes",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 6: [2] for the 2 parts"
     },
     {
       "number": "7",
@@ -593,14 +613,14 @@
       "page": 6,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "Substantiate the following statement with a reason.\nCobalt is attracted in a magnetic field whereas Zinc is not.\n(Atomic number of Co = 27 and Zn =30)",
+      "text": "Substantiate the following statements with reasons.\n(i) Cobalt is attracted in a magnetic field whereas Zinc is not.\n(Atomic number of Co = 27 and Zn =30)",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the shared instruction 'Substantiate the following statements with reasons.' and combined mark [2] printed once for (i)-(ii); assumed 1 mark each (even split).",
-        "Subscripts flattened: d7, d10."
+        "Subscripts flattened: d7, d10.",
+        "Question 7 prints only [2] for (i)-(ii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -608,7 +628,9 @@
       },
       "chapter": "d-and-f-block-elements",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understand"
+      "cognitiveLevel": "Understand",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 7: [2] for the 2 parts"
     },
     {
       "number": "7",
@@ -617,13 +639,13 @@
       "page": 6,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "Substantiate the following statement with a reason.\nThe melting points and boiling points of Zn, Cd and Hg are low.\n(Atomic number of Zn = 30, Cd = 48 and Hg = 80)",
+      "text": "Substantiate the following statements with reasons.\n(ii) The melting points and boiling points of Zn, Cd and Hg are low.\n(Atomic number of Zn = 30, Cd = 48 and Hg = 80)",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the shared instruction 'Substantiate the following statements with reasons.' and combined mark [2] printed once for (i)-(ii); assumed 1 mark each (even split)."
+        "Question 7 prints only [2] for (i)-(ii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -631,7 +653,9 @@
       },
       "chapter": "d-and-f-block-elements",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understand"
+      "cognitiveLevel": "Understand",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 7: [2] for the 2 parts"
     },
     {
       "number": "8",
@@ -643,16 +667,15 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "Write the Nernst equation and calculate the emf of the following cell at 298K.\n\nMg(s) / Mg2+ (1×10-3M) // Cu2+(1×10-4M) / Cu(s)\n\nGiven: E°(Mg2+/Mg)= -2·373V, E°(Cu2+/Cu)= +0·337V",
+      "text": "Write the Nernst equation and calculate the emf of the following cell at 298K.\n\nMg(s) / Mg2+ (1×10⁻³M) // Cu2+(1×10⁻⁴M) / Cu(s)\n\nGiven: E°(Mg2+/Mg)= -2·373V, E°(Cu2+/Cu)= +0·337V",
       "hasFigure": false,
       "extractionIssues": [
         "Subscripts/superscripts flattened: Mg2+, Cu2+, Mg(s), Cu(s).",
-        "Notation rebuilt from the PDF layout (exponents in the molar concentrations 1×10-3M, 1×10-4M); check against the PDF.",
-        "Official answer's Nernst-equation layout (numerator/denominator/exponent terms) reconstructed from the printed line breaks; check against the PDF."
+        "Notation rebuilt from the PDF layout (exponents in the molar concentrations 1×10-3M, 1×10-4M); check against the PDF."
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "Ecell = E°cell – (0.059/n) log ([Mg2+]/[Cu2+]) (Nernst equation)\nE°cell = E°cathode – E°anode = 0.337V – (–2.373V) = +2.71V\nEcell = 2.71 – (0.059/2) log (1×10^-3 / 1×10^-4)\n= 2.71 – 0.0295 log 10\n= 2.71 – 0.0295 × 1\nEcell = 2.6805 V"
+        "text": "E_{cell} = E°_{cell} – (0·059/n) log ([Mg²⁺_{(aq)}]/[Cu²⁺_{(aq)}]) (Nernst Equation)\nE°_{cell} = E°_{cathode} – E°_{anode}\n= 0·337V – (–2·373 V)\nE°_{cell} = + 2·71 V\nE_{cell} = 2·71 – (0.059/2) log ((1 x 10⁻³)/(1 x 10⁻⁴)) or\n= 2·71 – 0·0295log10 or\n= 2·71 – 0·0295 x 1\nE_{cell} = 2·6805 V"
       },
       "chapter": "electrochemistry",
       "mappingStatus": "AI_SUGGESTED",
@@ -725,7 +748,7 @@
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "Given: T1 = 295K, T2 = 305K, k2/k1 = 2\nlog(k2/k1) = Ea/2.303R × (1/T1 − 1/T2)\nlog 2 = Ea/(2.303 × 8.314) × (1/295 − 1/305)\n0.3010 = Ea × 10 / (19.147 × 295 × 305)\nEa = 0.3010 × 19.147 × 295 × 305 / 10 = 151854.8 J K-1 mol-1\nEa = 151.854 kJ mol-1"
+        "text": "Given: T1 = 295K, T2 = 305K, k2/k1 = 2\nlog(k2/k1) = Ea/2.303R × (1/T1 − 1/T2)\nlog 2 = Ea/(2.303 × 8.314) × (1/295 − 1/305)\n0.3010 = Ea × 10 / (19.147 × 295 × 305)\nEa = 0.3010 × 19.147 × 295 × 305 / 10 = 151854.8 J K⁻¹ mol⁻¹\nEa = 151.854 kJ mol⁻¹"
       },
       "chapter": "chemical-kinetics",
       "mappingStatus": "AI_SUGGESTED",
@@ -741,7 +764,7 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "The students of Class XII were on a study trip. They visited a nearby lake and took some water samples which were rich in sodium chloride salt. The boiling point of lake water was found to be 373·032 K.\n\nIf 500 g of lake water sample was used which contained 0·45 g of NaCl, what is the observed molecular weight of NaCl in the lake sample? Assume that NaCl ionises completely in lake water.\n(Given: kb of water = 0·52K kg mol-1, boiling point of pure water = 373 K)",
+      "text": "The students of Class XII were on a study trip. They visited a nearby lake and took some water samples which were rich in sodium chloride salt. The boiling point of lake water was found to be 373·032 K.\n\nIf 500 g of lake water sample was used which contained 0·45 g of NaCl, what is the observed molecular weight of NaCl in the lake sample? Assume that NaCl ionises completely in lake water.\n(Given: kb of water = 0·52K kg mol⁻¹, boiling point of pure water = 373 K)",
       "hasFigure": false,
       "extractionIssues": [
         "Subscript flattened: kb.",
@@ -749,7 +772,7 @@
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "Given: ΔTb = 0.032 K, w = 0.45g, W = 500g, Kb = 0.52 K kg mol-1, NaCl → Na+ + Cl-, i = 2\nM(obs) = (i × 1000 × Kb × w) / (ΔTb × W) = (2 × 1000 × 0.52 × 0.45) / (0.032 × 500)\nM(obs) = 29.25 g mol-1"
+        "text": "Given: ΔTb = 0.032 K, w = 0.45g, W = 500g, Kb = 0.52 K kg mol⁻¹, NaCl → Na+ + Cl-, i = 2\nM(obs) = (i × 1000 × Kb × w) / (ΔTb × W) = (2 × 1000 × 0.52 × 0.45) / (0.032 × 500)\nM(obs) = 29.25 g mol⁻¹"
       },
       "chapter": "solutions",
       "mappingStatus": "AI_SUGGESTED",
@@ -857,14 +880,14 @@
       "page": 8,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Complete and balance the following chemical equation.\n\nKMnO4 + H2SO4 + H2S → _____ + _____ + _____ + _____",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split).",
-        "Subscripts flattened: KMnO4, H2SO4, H2S."
+        "Subscripts flattened: KMnO4, H2SO4, H2S.",
+        "Question 15 prints only [3] for (i)-(ii)-(iii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -872,7 +895,9 @@
       },
       "chapter": "d-and-f-block-elements",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understand"
+      "cognitiveLevel": "Understand",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 15: [3] for the 3 parts"
     },
     {
       "number": "15",
@@ -881,13 +906,13 @@
       "page": 8,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Why do transition metals form alloys?",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split)."
+        "Question 15 prints only [3] for (i)-(ii)-(iii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -895,7 +920,9 @@
       },
       "chapter": "d-and-f-block-elements",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understand"
+      "cognitiveLevel": "Understand",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 15: [3] for the 3 parts"
     },
     {
       "number": "15",
@@ -904,14 +931,14 @@
       "page": 8,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Potassium dichromate (K2Cr2O7) acts as a powerful oxidising agent in acidic medium. Explain.",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split).",
-        "Subscript flattened: K2Cr2O7."
+        "Subscript flattened: K2Cr2O7.",
+        "Question 15 prints only [3] for (i)-(ii)-(iii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -919,7 +946,9 @@
       },
       "chapter": "d-and-f-block-elements",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Analyse"
+      "cognitiveLevel": "Analyse",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 15: [3] for the 3 parts"
     },
     {
       "number": "16",
@@ -928,13 +957,13 @@
       "page": 8,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Identify the non-reducing sugar which on hydrolysis gives two reducing monosaccharides.",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split)."
+        "Question 16 prints only [3] for (i)-(ii)-(iii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -942,7 +971,9 @@
       },
       "chapter": "biomolecules",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understand"
+      "cognitiveLevel": "Understand",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 16: [3] for the 3 parts"
     },
     {
       "number": "16",
@@ -951,13 +982,13 @@
       "page": 8,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Which structure of protein is normally unaffected during denaturation of protein?",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split)."
+        "Question 16 prints only [3] for (i)-(ii)-(iii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -965,7 +996,9 @@
       },
       "chapter": "biomolecules",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 16: [3] for the 3 parts"
     },
     {
       "number": "16",
@@ -974,13 +1007,13 @@
       "page": 8,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Name the vitamins whose deficiency cause the following diseases.\n(a) Rickets\n(b) Night blindness",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split)."
+        "Question 16 prints only [3] for (i)-(ii)-(iii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -988,7 +1021,9 @@
       },
       "chapter": "biomolecules",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 16: [3] for the 3 parts"
     },
     {
       "number": "17",
@@ -1025,7 +1060,7 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "The molar conductivities at infinite dilution for NaI, CH3COONa and (CH3COO)2Mg are 126·9, 91·0 and 187·8 ohm-1 cm2 mol-1 respectively at 25°C.\n\nFind out the molar conductivity of MgI2 at infinite dilution by using Kohlrausch's law of independent migration of ions.",
+      "text": "The molar conductivities at infinite dilution for NaI, CH3COONa and (CH3COO)2Mg are 126·9, 91·0 and 187·8 ohm⁻¹ cm² mol⁻¹ respectively at 25°C.\n\nFind out the molar conductivity of MgI2 at infinite dilution by using Kohlrausch's law of independent migration of ions.",
       "hasFigure": false,
       "extractionIssues": [
         "This is the other of two OR alternatives for Question 17 (choiceGroup 17); the candidate answers only (i) or (ii).",
@@ -1035,7 +1070,7 @@
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "Given: Λmo(NaI) = 126.9, Λmo(CH3COONa) = 91.0, Λmo((CH3COO)2Mg) = 126.9 ohm-1 cm2 mol-1 [as printed in the marking scheme's 'Given' line]\nΛmo(MgI2) = Λmo((CH3COO)2Mg) + 2Λmo(NaI) − 2Λmo(CH3COONa)\n= 187.8 + 2(126.9) − 2(91.0)\n= 259.6 ohm-1 cm2 mol-1"
+        "text": "Given: Λmo(NaI) = 126.9, Λmo(CH3COONa) = 91.0, Λmo((CH3COO)2Mg) = 126.9 ohm⁻¹ cm² mol⁻¹ [as printed in the marking scheme's 'Given' line]\nΛmo(MgI2) = Λmo((CH3COO)2Mg) + 2Λmo(NaI) − 2Λmo(CH3COONa)\n= 187.8 + 2(126.9) − 2(91.0)\n= 259.6 ohm⁻¹ cm² mol⁻¹"
       },
       "chapter": "electrochemistry",
       "mappingStatus": "AI_SUGGESTED",
@@ -1048,14 +1083,14 @@
       "page": 9,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "Write the chemical equation for the following conversion: Nitrobenzene to benzene",
+      "text": "Write the chemical equations for the following conversions:\n(i) Nitrobenzene to benzene",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split).",
-        "Subscripts flattened: C6H5NO2, C6H5NH2, C6H6, H3PO2, H2O."
+        "Subscripts flattened: C6H5NO2, C6H5NH2, C6H6, H3PO2, H2O.",
+        "Question 18 prints only [3] for (i)-(ii)-(iii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -1063,7 +1098,9 @@
       },
       "chapter": "organic-compounds-containing-nitrogen",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 18: [3] for the 3 parts"
     },
     {
       "number": "18",
@@ -1072,14 +1109,14 @@
       "page": 9,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "Write the chemical equation for the following conversion: Aniline to bromobenzene",
+      "text": "Write the chemical equations for the following conversions:\n(ii) Aniline to bromobenzene",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split).",
-        "Official answer's structural drawing (benzene ring with substituents) is reproduced as its extracted linear formula fragments, not redrawn; verify against the PDF."
+        "Official answer's structural drawing (benzene ring with substituents) is reproduced as its extracted linear formula fragments, not redrawn; verify against the PDF.",
+        "Question 18 prints only [3] for (i)-(ii)-(iii); no per-part mark is printed."
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
@@ -1087,7 +1124,9 @@
       },
       "chapter": "organic-compounds-containing-nitrogen",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 18: [3] for the 3 parts"
     },
     {
       "number": "18",
@@ -1096,13 +1135,13 @@
       "page": 9,
       "section": "C",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "Write the chemical equation for the following conversion: Methyl cyanide to ethylamine",
+      "text": "Write the chemical equations for the following conversions:\n(iii) Methyl cyanide to ethylamine",
       "hasFigure": false,
       "extractionIssues": [
-        "Split from the combined mark [3] printed once for (i)-(iii); assumed 1 mark each (even split)."
+        "Question 18 prints only [3] for (i)-(ii)-(iii); no per-part mark is printed."
       ],
       "confidence": "HIGH",
       "officialAnswer": {
@@ -1110,7 +1149,9 @@
       },
       "chapter": "organic-compounds-containing-nitrogen",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 18: [3] for the 3 parts"
     },
     {
       "number": "19",
@@ -1155,12 +1196,30 @@
         "Subscripts/superscripts flattened throughout: SnCl2, CH3MgBr, K2Cr2O7, H2SO4, Hg2+, PCl5.",
         "Sub-parts carry different printed cognitive tags: (ii) Analyse, (iii) Recall; no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(ii)(a) [A] CH3CHO\n[B] CH3CH(OH)CH3\n[C] CH3COCH3\n(b) [A] CH3CHO\n[B] CH3COOH\n[C] CH3COCl\n\n(iii)(a) Acetone to Propene: (CH3)2C=O →(LiAlH4) (CH3)2CH-OH →(443K, H2SO4) CH3-CH=CH2 + H2O\n(b) Benzaldehyde to cinnamic acid: C6H5CHO + (CH3CO)2O →(i. CH3COONa; ii. H2O, boil) C6H5CH=CHCOOH + CH3COOH (Cinnamic acid)"
       },
       "chapter": "aldehydes-ketones-and-carboxylic-acids",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-chemistry-specimen/19ii.png",
+          "kind": "FIGURE",
+          "alt": "Two reaction schemes (a) and (b) with reagents written above and below the arrows leading to [A], [B] and [C]",
+          "width": 1161,
+          "height": 252,
+          "page": 9,
+          "crop": {
+            "x": 0.165,
+            "y": 0.572,
+            "w": 0.65,
+            "h": 0.1
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "20",
@@ -1197,7 +1256,7 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "(a) 300 ml of aqueous solution of protein contains 1·85g of protein, the osmotic pressure of the solution at 25°C is found to be 3·05 × 10-3atm. Calculate the molar mass of the protein.\n(b) Phenol (C6H5OH) associates in benzene to form a dimer. A solution of 2·5g of phenol in 120g of benzene lowers its freezing point by 0·85K. Calculate the degree of association of phenol.\n(kf for benzene = 5·12 K kg mol-1, molecular mass of phenol = 94 g mol-1)\n(c) The molecular weight of potassium chloride and sucrose is determined by the depression of freezing point method. Compared to their theoretical molecular weight, what will be their observed molecular weights when determined by the above method? Justify your answer.",
+      "text": "(a) 300 ml of aqueous solution of protein contains 1·85g of protein, the osmotic pressure of the solution at 25°C is found to be 3·05 × 10⁻³atm. Calculate the molar mass of the protein.\n(b) Phenol (C6H5OH) associates in benzene to form a dimer. A solution of 2·5g of phenol in 120g of benzene lowers its freezing point by 0·85K. Calculate the degree of association of phenol.\n(kf for benzene = 5·12 K kg mol⁻¹, molecular mass of phenol = 94 g mol⁻¹)\n(c) The molecular weight of potassium chloride and sucrose is determined by the depression of freezing point method. Compared to their theoretical molecular weight, what will be their observed molecular weights when determined by the above method? Justify your answer.",
       "hasFigure": false,
       "extractionIssues": [
         "This is one of two OR alternatives for Question 21 (choiceGroup 21); the candidate answers only (i) or (ii).",
@@ -1209,7 +1268,7 @@
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(a) Given: π = 3.05×10^-3 atm, T = 298K, V = 300/1000 = 0.3 L, w = 1.85 g\nπ = CRT = (w×R×T)/(m×V)\nm = (1.85 × 0.0821 × 298) / (3.05×10^-3 × 0.3)\nm = 49466 g mol-1 [as printed]\n\n(b) Given: kf = 5.12 K kg mol-1, ΔTf = 0.85K, m = 94 g mol-1, w = 2.5 g, W = 120 g, n = 2\nM(observed) = (1000 × kf × w)/(ΔTf × W) = (1000 × 5.12 × 2.5)/(0.85 × 120) = 125.49 g mol-1\ni = M(normal)/M(observed) = 94/125.49 = 0.749\nα (degree of association) = (1−i)/(1−1/n) = (1−0.749)/(1−1/2) = 0.251/0.5 = 0.502 or 50.2%\n\n(c) The observed molecular mass of potassium chloride will be half of its theoretical molecular mass. The depression in freezing point is a colligative property which depends upon the number of solute particles present in solution. KCl is a strong electrolyte; it furnishes two ions, KCl → K+ + Cl-.\nThe observed molecular mass of sucrose as determined by the depression in freezing point method will be the same as the theoretical molecular mass."
+        "text": "(a) Given: π = 3.05×10⁻³ atm, T = 298K, V = 300/1000 = 0.3 L, w = 1.85 g\nπ = CRT = (w×R×T)/(m×V)\nm = (1.85 × 0.0821 × 298) / (3.05×10⁻³ × 0.3)\nm = 49466 g mol⁻¹ [as printed]\n\n(b) Given: kf = 5.12 K kg mol⁻¹, ΔTf = 0.85K, m = 94 g mol⁻¹, w = 2.5 g, W = 120 g, n = 2\nM(observed) = (1000 × kf × w)/(ΔTf × W) = (1000 × 5.12 × 2.5)/(0.85 × 120) = 125.49 g mol⁻¹\ni = M(normal)/M(observed) = 94/125.49 = 0.749\nα (degree of association) = (1−i)/(1−1/n) = (1−0.749)/(1−1/2) = 0.251/0.5 = 0.502 or 50.2%\n\n(c) The observed molecular mass of potassium chloride will be half of its theoretical molecular mass. The depression in freezing point is a colligative property which depends upon the number of solute particles present in solution. KCl is a strong electrolyte; it furnishes two ions, KCl → K+ + Cl-.\nThe observed molecular mass of sucrose as determined by the depression in freezing point method will be the same as the theoretical molecular mass."
       },
       "chapter": "solutions",
       "mappingStatus": "AI_SUGGESTED"
@@ -1224,7 +1283,7 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "(a) Arrange the following aqueous solutions in increasing order of osmotic pressure. Give reasons in support of your answer.\n(1) 6·0g per litre of urea solution (molecular weight of urea = 60g mol-1)\n(2) 72·0g per litre of glucose solution (molecular weight of glucose = 180g mol-1)\n(3) 5·85g per litre of sodium chloride solution (molecular weight of sodium chloride = 58·5g mol-1)\n\n(b) Calculate the mole fraction (x) of ethanol and water if 92g of ethanol is dissolved in 540g of water.\n(Atomic mass of C = 12, O = 16 and H = 1)\n\n(c) What type of azeotropic mixture will be formed by a solution of chloroform and acetone? Justify your answer based on strength of intermolecular interactions that develops in the solution.",
+      "text": "(a) Arrange the following aqueous solutions in increasing order of osmotic pressure. Give reasons in support of your answer.\n(1) 6·0g per litre of urea solution (molecular weight of urea = 60g mol⁻¹)\n(2) 72·0g per litre of glucose solution (molecular weight of glucose = 180g mol⁻¹)\n(3) 5·85g per litre of sodium chloride solution (molecular weight of sodium chloride = 58·5g mol⁻¹)\n\n(b) Calculate the mole fraction (x) of ethanol and water if 92g of ethanol is dissolved in 540g of water.\n(Atomic mass of C = 12, O = 16 and H = 1)\n\n(c) What type of azeotropic mixture will be formed by a solution of chloroform and acetone? Justify your answer based on strength of intermolecular interactions that develops in the solution.",
       "hasFigure": false,
       "extractionIssues": [
         "This is the other of two OR alternatives for Question 21 (choiceGroup 21); the candidate answers only (i) or (ii).",
@@ -1234,7 +1293,7 @@
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(a) Osmotic pressure ∝ number of solute particles.\n(1) Moles of urea = 6/60 = 0.1 mol → 0.1 × 6.023×10^23 = 6.023×10^22 particles\n(2) Moles of glucose = 72/180 = 0.4 mol → 0.4 × 6.023×10^23 = 24.092×10^22 particles\n(3) Moles of NaCl = 5.85/58.5 = 0.1 mol; NaCl → Na+ + Cl-, so 0.1 mol NaCl → 2 × 6.023×10^23 × 0.1 = 12.046×10^22 particles\nTherefore, increasing order of osmotic pressure is: Urea < NaCl < glucose\n\n(b) Given: wt. of C2H5OH = 92 g, wt. of H2O = 540 g, mol. wt. of C2H5OH = 46 g mol-1, mol. wt. of H2O = 18 g mol-1\nNo. of moles of C2H5OH (n) = 92/46 = 2 moles\nNo. of moles of H2O (N) = 540/18 = 30 moles\nMole fraction of C2H5OH = n/(n+N) = 2/32 = 0.0625\nMole fraction of water = N/(n+N) = 30/32 = 0.9375\n\n(c) The mixture of chloroform and acetone is an example of maximum boiling azeotrope. It shows negative deviation from Raoult's Law because of the increase in intermolecular forces of attraction between chloroform and acetone, since they form hydrogen bonds between them."
+        "text": "(ii) (a) Osmotic pressure is a colligative property which depends upon the number of solute particles.\nOsmotic pressure ∝ No. of solute particles\n(1) Moles of urea = (wt. of urea)/(mol. wt. of urea) = 6/60 = 0·1 moles\n1 mole of urea = 6·023 x 10²³ x 0·1 = 6·023 x 10²² particles\n(2) Moles of glucose = (wt. of glucose)/(mol. wt. of glucose) = 72/180 = 0·4 moles = 6·023 x10²³ x 0·4\n= 24·092 x 10²² particles\n(3) Moles of sodium chloride = (wt. of NaCl)/(mol. wt. of NaCl) = 5·85/58·5 = 0·1 moles\n1 mole of NaCl = 2 x 6·023 x 10²³ particles, NaCl ⟶ Na⁺ + Cl⁻\n0·1 mole of NaCl = 2 x 6·023 x 10²³ x 0·1 = 12·046 x 10²² particles\nTherefore, increasing order of their osmotic pressure is:\nUrea < NaCl < glucose\n\n(b) Given: wt. of C₂H₅OH = 92 g, wt. of H₂O = 540 g\nmol. wt. of C₂H₅OH = 46 g mol⁻¹, mol. wt. of H₂O = 18 g\nNo. of moles of C₂H₅OH (n) = 92/46 = 2 moles\nNo. of moles of H₂O (N) = 540/18 = 30 moles\nMole fraction of C₂H₅OH = n/(n+N) = 2/(2+30) = 2/32\nX_{(C₂H₅OH)} = 0.0625\nMole fraction of water (H₂O) = N/(n+N) = 30/(2+30) = 30/32\nX_{(H₂O)} = 0·9375\n\n(c) The mixture of chloroform and acetone is an example of maximum boiling azeotrope. It shows negative deviation from Raoult’s Law because of the increase in intermolecular forces of attraction between chloroform and acetone, since they form hydrogen bonds between them."
       },
       "chapter": "solutions",
       "mappingStatus": "AI_SUGGESTED"

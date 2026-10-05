@@ -23,7 +23,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Render p1: [2 0; 0 4][x; y] = [2; −8] matches."
+      "notes": "Render p1: [2 0; 0 4][x; y] = [2; −8] matches.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1ii",
@@ -39,7 +49,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Raised 3 in x³ confirmed on render."
+      "notes": "Raised 3 in x³ confirmed on render.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1iii",
@@ -48,14 +68,26 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 2 is needed: the text does not say P and Q lie on the circle or where Q is.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "Page 2: diagram printed beside Q1(iii) options, cropped whole. | Page 1 prints only [15] for Question 1 (no per-part mark). | Page 2: re-cropped from y 0.276 so the top of the circle above Q is inside; checked the PNG (no question text in it).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1iv",
@@ -71,7 +103,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Stacked fractions 4/26, 5/26, 21/26, 5/24 confirmed on render."
+      "notes": "Stacked fractions 4/26, 5/26, 21/26, 5/24 confirmed on render.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1v",
@@ -87,7 +129,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "x² confirmed on render."
+      "notes": "x² confirmed on render.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1vi",
@@ -96,14 +148,26 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 3 is needed: C on PA, D on PB and CD||AB are shown only in the figure.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "Page 3: figure printed beside Q1(vi), cropped whole. | Page 1 prints only [15] for Question 1 (no per-part mark). | p51-fix-H2: Page 3: figure re-cropped wider (x 0.34-0.80, y 0.098-0.268); B, D, A, C, P, both 70° marks and 4 cm/6 cm all complete with margin (checked).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1vii",
@@ -119,7 +183,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1viii",
@@ -135,7 +209,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "cosec²A, sin²A, sec²A, cos²A confirmed on render."
+      "notes": "cosec²A, sin²A, sec²A, cos²A confirmed on render.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1ix",
@@ -151,7 +235,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1x",
@@ -167,7 +261,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1xi",
@@ -183,7 +287,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1xii",
@@ -199,7 +313,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1xiii",
@@ -215,7 +339,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1xiv",
@@ -231,7 +365,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#1xv",
@@ -247,7 +391,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1 prints only [15] for Question 1 (no per-part mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#2i",
@@ -288,14 +442,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 5 is needed: AB as a diameter and the position of D are shown only in the figure.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: figure printed beside Q2(iii), cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#3i",
@@ -384,14 +548,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 6 is needed for (b)-(d): positions of O, A, B, T are shown only in the figure.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: figure printed beside Q4(iii), cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#5i",
@@ -432,14 +606,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 7 is needed: which points are collinear (C-E-G-B, A-D-B, D-G-F) is shown only in the figure.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: figure printed under the Q5(iii) data, cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#6i",
@@ -480,14 +664,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph on page 8 is needed: coordinates of A and B are given only on the graph.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: graph printed under the Q6(iii) stem, cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-mathematics#7i",

@@ -28,6 +28,8 @@ export type ExamQuestion = {
   sources: SourceLink[];
   hasFigure?: boolean;
   figureSource?: { paperId: number; page: number | null } | null;
+  /** Figures cropped from the original source page. */
+  figures?: { src: string; alt: string; width: number; height: number; page: number }[];
 };
 
 type ExamPaper = { id: string; title: string; scope: string; totalMarks: number; durationMinutes: number; hasDemo: boolean; mode: PaperMode };
@@ -371,7 +373,14 @@ export function ExamRunner({ paper, questions }: { paper: ExamPaper; questions: 
             <p className="paper-text mt-4 text-[1.12rem]" data-indented={isIndented(q.text) || undefined}>
               <MathText text={q.text} />
             </p>
-            {q.hasFigure && (
+            {q.figures?.map((f) => (
+              <figure key={f.src} className="source-figure mt-3">
+                {/* eslint-disable-next-line @next/next/no-img-element -- static crops of the source page */}
+                <img src={f.src} alt={f.alt} width={f.width} height={f.height} decoding="async" />
+                <figcaption>From the original paper, page {f.page}.</figcaption>
+              </figure>
+            ))}
+            {q.hasFigure && !q.figures?.length && (
               <p className="mt-3 rounded-lg bg-contrib-soft/70 px-3 py-2 text-[0.92rem] text-contrib">
                 This question uses a figure or table that isn&apos;t reproduced here.
                 {q.figureSource && (

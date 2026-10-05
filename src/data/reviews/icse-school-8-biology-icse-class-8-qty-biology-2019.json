@@ -160,14 +160,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "(4) printed; the bagged-plant set-up is described in the text, answerable without the drawing."
+      "notes": "(4) printed; the bagged-plant set-up is described in the text, answerable without the drawing.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p2 (printed page 3), Q2(b): potted plant covered with a polythene bag; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-biology-icse-class-8-qty-biology-2019#2c",
@@ -240,14 +250,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Labelled bulb diagram (parts 1-5) on PDF page 2 is needed.",
-      "notes": "(3) printed."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "(3) printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p2 (printed page 4), Q4(a): hand-drawn diagram with labels 1-5; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-biology-icse-class-8-qty-biology-2019#4aii",
@@ -256,14 +276,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the diagram on PDF page 2.",
-      "notes": "(3) printed."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "(3) printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p2 (printed page 4), Q4(a): hand-drawn diagram with labels 1-5; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-biology-icse-class-8-qty-biology-2019#4b",
@@ -349,17 +379,28 @@
       "key": "icse-school-8-biology-icse-class-8-qty-biology-2019#6a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Sperm diagram (labels i-vi) on PDF page 3 is needed; printed marks are fractional (3 1/2 + 1 + 1 1/2).",
-      "notes": "Sum 6 matches the stored total."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Sum 6 matches the stored total.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF p3 (printed page 5), Q6(a): hand-drawn diagram with labels i-vi; cropped. Printed marks beside the parts are (3½), (1), (1½): marksStatus FRACTIONAL, marks 0, marksNote '3½ + 1 + 1½'.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-biology-icse-class-8-qty-biology-2019#6b",

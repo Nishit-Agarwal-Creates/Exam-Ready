@@ -1,0 +1,97 @@
+{
+  "pack": "icse-2023-x-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout and -raw, page renders (pypdfium2) for notation and figures, and the marking scheme; figure PNGs opened and edge-checked.",
+  "checks": [
+    {
+      "key": "icse-2023-x-mathematics#1i",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1iv",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1v",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1vi",
+      "agree": false,
+      "reason": "Figure crop is cut at the right edge through the label P (its bowl touches and is clipped by the crop boundary, dark pixels in the last column), so the figure is not complete.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1vii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1viii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1ix",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1x",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1xi",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1xii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1xiii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1xiv",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1xv",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

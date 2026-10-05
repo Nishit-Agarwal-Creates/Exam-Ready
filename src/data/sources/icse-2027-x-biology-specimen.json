@@ -255,9 +255,7 @@
         "Renal Cortex – 1, 2, 3, 4; Renal Medulla – 5, 6, 7"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Question refers to numbered nephron parts (1-7) on an accompanying figure not reproduced here."
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "officialAnswer": {
         "text": "(b) / Renal Cortex – 1,2,3,4,5 ; Renal Medulla – 6,7",
@@ -265,7 +263,25 @@
       },
       "chapter": "excretory-system",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-biology-specimen/1viii.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a nephron with parts labelled 1 to 7",
+          "width": 694,
+          "height": 551,
+          "page": 5,
+          "crop": {
+            "x": 0.275,
+            "y": 0.12,
+            "w": 0.388,
+            "h": 0.218
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -900,7 +916,6 @@
       "text": "Study the diagram given below and match the structure with its function:\nExample: Fallopian tube – (f)\nFunctions:\n(a) Allows diffusion of glucose from maternal blood into foetal blood\n(b) A tube-like structure that transports substances to and from the foetus\n(c) Protective membrane surrounding the foetus\n(d) Cushions the foetus and absorbs mechanical shocks\n(e) Dilates to enable the birth of baby\n(f) Site of fertilisation",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure/diagram on page 9 with labelled structures not reproduced; the 'Structure' column (names to be identified from the diagram) is not available as text.",
         "Official answer partly relies on the diagram: structure names (Placenta, Umbilical cord, Amnion, Amniotic fluid, Cervix) are taken from the marking scheme and matched to functions (a)-(e)."
       ],
       "confidence": "LOW",
@@ -909,7 +924,25 @@
       },
       "chapter": "reproductive-system",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-biology-specimen/2v.png",
+          "kind": "TABLE",
+          "alt": "Two-column table headed Structure and Functions: a labelled diagram of a foetus inside the uterus beside the functions (a) to (f)",
+          "width": 1072,
+          "height": 880,
+          "page": 9,
+          "crop": {
+            "x": 0.145,
+            "y": 0.48,
+            "w": 0.6,
+            "h": 0.348
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -968,11 +1001,11 @@
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Draw a neat, labelled diagram of a turgid root hair cell.",
-      "hasFigure": true,
+      "hasFigure": false,
       "extractionIssues": [
         "Official answer is a diagram (not reproduced in text extraction); the question itself also requires the student to draw a diagram."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Diagram of a turgid root hair cell."
       },
@@ -987,22 +1020,79 @@
       "page": 11,
       "section": "B",
       "sectionTitle": null,
-      "marks": 5,
+      "marks": 1,
       "marksSource": "PRINTED",
-      "type": "CASE_BASED",
-      "text": "Kiran lived with his family in the outskirts of a city which had a lot of greenery around. After a few years, a number of factories mushroomed which affected the quality of life of the people living there.\n(i) What message does the picture convey to you? (1)\n(ii) Name any two types of pollution caused by the factories. (2)\n(iv) State any two health problems that the residents may face in this case. (2)",
+      "type": "SHORT_ANSWER",
+      "text": "Kiran lived with his family in the outskirts of a city which had a lot of greenery around. After a few years, a number of factories mushroomed which affected the quality of life of the people living there.\nWhat message does the picture convey to you?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure/picture referenced in part (i) (page 11) not reproduced (no image in the text layer).",
-        "Sub-parts (iii) and (v) of Question 5 are recorded as separate entries under the population chapter, since they do not reference this scenario and stand alone.",
-        "Cognitive-level tags printed per sub-part: (i) Understanding, (ii) Recall, (iv) Recall — not captured in a single cognitiveLevel field because they differ per sub-part."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
-        "text": "(i) To protect our environment, factories should not be constructed near residential areas.\n(ii) Air, water\n(iv) Respiratory diseases, allergies, skin infections (Any two)"
+        "text": "To protect our environment, factories should not be constructed near residential areas."
       },
       "chapter": "pollution",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2027-x-biology-specimen/5i.png",
+          "kind": "FIGURE",
+          "alt": "Picture of a row of factory buildings with chimneys and vehicles",
+          "width": 1152,
+          "height": 348,
+          "page": 11,
+          "crop": {
+            "x": 0.095,
+            "y": 0.195,
+            "w": 0.645,
+            "h": 0.138
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Kiran lived with his family in the outskirts of a city which had a lot of greenery around. After a few years, a number of factories mushroomed which affected the quality of life of the people living there.\nName any two types of pollution caused by the factories.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Air, water"
+      },
+      "chapter": "pollution",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "5",
+      "part": "(iv)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Kiran lived with his family in the outskirts of a city which had a lot of greenery around. After a few years, a number of factories mushroomed which affected the quality of life of the people living there.\nState any two health problems that the residents may face in this case.",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "Respiratory diseases, allergies, skin infections (Any two)"
+      },
+      "chapter": "pollution",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
     },
     {
       "number": "5",
@@ -1053,20 +1143,40 @@
       "page": 11,
       "section": "B",
       "sectionTitle": null,
-      "marks": 3,
+      "marks": 1,
       "marksSource": "PRINTED",
-      "type": "CASE_BASED",
-      "text": "Rahul fell down while riding a bicycle and injured his knee. The injury healed within a few days due to a kind of cell division.\n(i) Name the type of cell division responsible for the healing of wound. (1)\n(ii) How many chromosomes are present in each cell of the human body? What will be number of chromosomes in the daughter cells during the healing process? (2)",
+      "type": "SHORT_ANSWER",
+      "text": "Rahul fell down while riding a bicycle and injured his knee. The injury healed within a few days due to a kind of cell division.\nName the type of cell division responsible for the healing of wound.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Cognitive-level tags printed per sub-part: (i) Recall, (ii) Application — not captured in a single cognitiveLevel field because they differ per sub-part."
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "officialAnswer": {
-        "text": "(i) Mitosis\n(ii) 46 or 23 pairs in each human body cell. Daughter cells- 46 or 23 pairs"
+        "text": "Mitosis"
       },
       "chapter": "cell-cycle-and-cell-division",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Recall"
+    },
+    {
+      "number": "6",
+      "part": "(ii)",
+      "choiceGroup": null,
+      "page": 11,
+      "section": "B",
+      "sectionTitle": null,
+      "marks": 2,
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "text": "Rahul fell down while riding a bicycle and injured his knee. The injury healed within a few days due to a kind of cell division.\nHow many chromosomes are present in each cell of the human body? What will be number of chromosomes in the daughter cells during the healing process?",
+      "hasFigure": false,
+      "extractionIssues": [],
+      "confidence": "HIGH",
+      "officialAnswer": {
+        "text": "46 or 23 pairs in each human body cell.\nDaughter cells- 46 or 23 pairs"
+      },
+      "chapter": "cell-cycle-and-cell-division",
+      "mappingStatus": "AI_SUGGESTED",
+      "cognitiveLevel": "Application"
     },
     {
       "number": "6",
@@ -1121,11 +1231,11 @@
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Draw a neat, labelled diagram of an animal cell having 4 chromosomes in the metaphase stage.",
-      "hasFigure": true,
+      "hasFigure": false,
       "extractionIssues": [
         "Marking scheme gives no text for this item, only the mark allocation; the expected answer is a diagram not reproduced."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "cell-cycle-and-cell-division",
       "mappingStatus": "AI_SUGGESTED",
       "cognitiveLevel": "Application"
@@ -1186,11 +1296,11 @@
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Draw a neat, labelled diagram of a stomatal apparatus surrounded by epidermal cells.",
-      "hasFigure": true,
+      "hasFigure": false,
       "extractionIssues": [
         "Official answer is a diagram (not reproduced in text extraction)."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Diagram of stomatal apparatus."
       },
@@ -1293,11 +1403,11 @@
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Draw a neat, labelled diagram of a human blood smear.",
-      "hasFigure": true,
+      "hasFigure": false,
       "extractionIssues": [
         "Official answer is a diagram (not reproduced in text extraction)."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Diagram of blood smear."
       },

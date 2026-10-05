@@ -111,15 +111,25 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Stored 'log a/(b−c)' is ambiguous; the paper prints (log a)/(b−c) as a stacked fraction.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 2: Q3(c) prints log a over b−c, log b over c−a, log c over a−b as stacked fractions, and a^a.b^b.c^c = 1",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-mathematics-271025-2024#4a",
@@ -368,14 +378,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "That B, C, D are collinear with the right angle at D is shown only on the figure on page 4.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: figure printed under Q9(b)",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-mathematics-271025-2024#9c",

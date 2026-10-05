@@ -2,51 +2,1061 @@
   "pack": "cbse-2025-x-mathematics-standard-30-1-1",
   "reviewedOn": "2026-09-28",
   "method": "Compared with the pdftotext text layer (raw and -layout modes) of the official PDF (SHA-256 checked) and its official marking scheme. No PDF-to-image renderer was available in this environment, so visual inspection of the page images was not possible; findings for the pervasive math-font glyph loss rely on the text layer, the marking scheme's arithmetic, and independent re-derivation of each answer.",
-  "source": { "sha256Match": true, "official": true, "metadataMatches": true, "notes": "QP sha256 matches source.sha256 exactly. sourceUrl/answerSourceUrl are both on cbse.gov.in. Document header confirms MATHEMATICS (STANDARD), Q.P. Code 30/1/1, Series GE1FH, SET~1, 27 printed pages, 38 questions, Maximum Marks 80, Time 3 hours — all matching the pack's source metadata. Confirms the pack's own note: this PDF's text layer has severe, systemic loss of Greek letters, minus signs, root signs, degree signs and stacked fractions/powers (embedded math font glyph-to-Unicode mapping issue), affecting both the question paper and (to a lesser extent) the marking scheme." },
+  "source": {
+    "sha256Match": true,
+    "official": true,
+    "metadataMatches": true,
+    "notes": "QP sha256 matches source.sha256 exactly. sourceUrl/answerSourceUrl are both on cbse.gov.in. Document header confirms MATHEMATICS (STANDARD), Q.P. Code 30/1/1, Series GE1FH, SET~1, 27 printed pages, 38 questions, Maximum Marks 80, Time 3 hours — all matching the pack's source metadata. Confirms the pack's own note: this PDF's text layer has severe, systemic loss of Greek letters, minus signs, root signs, degree signs and stacked fractions/powers (embedded math font glyph-to-Unicode mapping issue), affecting both the question paper and (to a lesser extent) the marking scheme."
+  },
   "questions": [
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#1", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MISMATCH", "notation": "LOST", "figure": "NONE", "answer": "PARTIAL", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "α, β and the entire relation connecting them are missing from the stem (page 3); options (B) and (D) are missing minus signs and duplicate (A) and (C); the marking scheme's own answer text '(D) 4' is also missing a minus sign." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#2", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Minus signs before '3y' and 'b' are missing from both equations in the stem (page 5); verified x=1, y=2, a=4, b=8 satisfies 2a=b, so the equations as reconstructed (2x−3y+a=0, 2x+3y−b=0) and the answer are consistent, but the printed stem itself is missing the signs.", "notes": "Independently verified: with the reconstructed equations, a=4 and b=8, giving 2a=b, matching option (B)." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#3", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Minus sign in point P's x-coordinate is missing on page 5 (stored as 'P( 4, 5)', likely 'P(−4, 5)')." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#4", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "LOST", "figure": "NONE", "answer": "PARTIAL", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "θ is missing throughout the stem and degree signs are missing from all options (page 5); the marking scheme's own answer text reads '(B) 300', which the source notes flag as a likely corrupted '30°' (a lost degree glyph silently merged with the digit)." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#5", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MISMATCH", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "θ is missing after 'tan²' in the stem; option (C) is missing its minus sign and duplicates option (A) ('1' instead of '−1'), page 5." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#6", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "The operator between 'n' and '7 m' is missing from the stem (page 5), likely 'n − 7m'." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#7", "text": "MATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "OK", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "PUBLISH", "reason": "", "notes": "Stem and all four options match the QP text layer exactly (page 7, verified in both raw and -layout modes); no notation needed; officialAnswer (A) parallel matches the marking scheme exactly." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#8", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Angle symbols (∠B=∠E, ∠F=∠C) and a square-root sign before '3 DE' are missing from the stem (page 7); options are plain text and unaffected." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#9", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Minus signs are missing from the stem, likely '(−1)ⁿ + (−1)⁸ = 0' (page 7); options are plain text and unaffected." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#10", "text": "MATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "OK", "figure": "ESSENTIAL_MISSING", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "The graph of the two polynomials (page 7) is not reproduced; the number of distinct zeroes cannot be counted from text alone." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#11", "text": "MINOR", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "REBUILT_OK", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "PUBLISH", "reason": "", "notes": "'2m²' was correctly rebuilt from the PDF layout spacing. Independently verified: Sn=2n²+3n gives a1=5, a2=S2−S1=14−5=9, matching option (B)." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#12", "text": "MATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "OK", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "PUBLISH", "reason": "", "notes": "Stem and options are plain text, no math notation involved; matches QP text layer exactly (page 9)." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#13", "text": "MATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "MISSING", "notation": "LOST", "figure": "NONE", "answer": "PARTIAL", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "All four MCQ options are blank in the extracted text (math-font glyph loss, page 9); officialAnswer '3/26' is a reconstruction of a stacked fraction in the marking scheme layout that cannot be independently confirmed without the option values." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#14", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MISSING", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "The second bound of the interval is missing from the stem ('...a rational number between 3 and ?', page 9); options (B) and (C), irrational/root values, are also blank." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#15", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MISMATCH", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Degree sign after '72' is missing from the stem; option (D) is missing its square-root sign in the pack's stored options ('10 2 units' vs the marking scheme's clean '10√2 units'), page 11." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#16", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "LOST", "figure": "ESSENTIAL_MISSING", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Figure (circle with tangent PA and points O, B) on page 11 is not reproduced and is needed to determine the configuration of B relative to A and O; angle/degree symbols are also missing from the stem." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#17", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MISMATCH", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Degree sign after '30' is missing from the stem; options (C) and (D) both read identically as '150 m' with their square-root signs lost (page 11)." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#18", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "The radius numeric value is missing from the stem ('an arc of a circle of radius cm', page 13); degree signs are also missing from all four options." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#19", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "The Assertion's probability value reads 'is 1.' but is almost certainly a truncated fraction (likely 'is 1/20.'); the assertion-reason answer codes themselves are boilerplate and printed intact (page 13)." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#20", "text": "MINOR", "numberPage": "MATCH", "marks": "MATCH", "options": "MATCH", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "A π symbol is missing from the Reason's formula ('3 r²'); since the marking scheme confirms Reason (R) is false, '3' is plausibly the printed (intentionally wrong) coefficient with only π lost, but this cannot be confirmed without the image (page 13)." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#21a", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "PARTIAL", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Degree signs are missing after all four angle values; more importantly, the marking scheme's intermediate step (x(1/2)+y(1)+1/2−1=5) contains an unexplained '−1' term not evident anywhere in the printed stem, suggesting more than cosmetic notation is missing (page 15)." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#21b", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "PARTIAL", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "The entire expression to evaluate is missing from the stem (only the word 'Evaluate :' survives, page 15); officialAnswer '(√3)²=2' is a best-effort reconstruction of a stacked-fraction working that cannot be independently confirmed." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#22", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Coefficients of p(x) are missing from the stem (stored as 'x² + x .'); the marking scheme's working implies p(x) = x² + (4/3)x − 4/3, page 15.", "notes": "Independently verified: (1/3)(3x²+4x−4) = (1/3)(3x−2)(x+2), zeroes 2/3 and −2, matches officialAnswer and is internally consistent." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#23", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "PARTIAL", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "A large part of the stem is missing (between 'Find the value(s)' and '9)'), including a coordinate point and a minus sign in 'a 7'; officialAnswer is also incomplete (missing the values of a, which the marking scheme separately gives as a=5 or a=3).", "notes": "Marking-scheme algebra ((2a−11)²+(a−7+9)²=50 ⇒ radius²=50 ⇒ radius=5√2, matching officialAnswer) implies the missing point is (11,−9); the printed '10 units' for the diameter may actually be '10√2 units' since radius=5√2 would then follow directly, but this cannot be confirmed from the text layer alone." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#24a", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "PARTIAL", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Δ (triangle) and ~ (similarity) symbols are missing from the stem ('If ABC PQR', page 15); officialAnswer also contains a likely spurious extra value ('PQ = 2 cm or 4.5 cm') that does not follow from the stated proportion 6/PQ=4/QR=8/6, which only yields PQ=4.5 cm.", "notes": "Independently verified: AB/PQ=BC/QR=AC/PR ⇒ 6/PQ=4/QR=8/6=4/3 ⇒ PQ=4.5 cm, QR=3 cm, PQ+QR=7.5 cm. The '2 cm or' fragment in officialAnswer appears to be a stray artifact from the marking-scheme layout and should not be republished as-is." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#24b", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "ESSENTIAL_MISSING", "answer": "PARTIAL", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Figure on page 15 is not reproduced and is needed to identify points P, Q, R, S, T; an angle-equality clause and the Δ/~ symbols are also missing from the stem. The marking scheme's own working is itself garbled by the layout, and officialAnswer's ratio steps are an approximate reconstruction (already flagged by the pack as uncertain)." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#25", "text": "MATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "REBUILT_OK", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "PUBLISH", "reason": "", "notes": "Stem is plain text and matches the QP exactly (page 17), no notation needed there. officialAnswer's ∠/°/Δ/²/√ symbols were silently rebuilt from a marking scheme whose own text layer also lost them; independently re-verified: OA=√(26²−10²)=√576=24, radius=24 m." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#26a", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "ESSENTIAL_MISSING", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Figure on page 17 is not reproduced; the proof relies on O lying on line AB (i.e. AB being a diameter), which is only conveyed by the figure and not stated in the text. Angle symbols and a degree sign are also missing from the stem.", "notes": "officialAnswer content (∠OCA=∠OAC via OA=OC, ∠OCD=90° tangent-radius, giving ∠BAC+∠ACD=90°) is a standard, internally consistent proof matching the marking scheme." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#26b", "text": "MATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "REBUILT_OK", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "PUBLISH", "reason": "", "notes": "Stem matches QP exactly (page 17); this is a general proof where the student draws their own quadrilateral, so no external figure is needed. officialAnswer's ∠ symbols were rebuilt from a marking scheme whose own text layer lost them, but the proof structure (∠1=∠2, ..., 2(∠1+∠4+∠5+∠8)=360° ⇒ ∠AOB+∠COD=180°) is the standard, correct proof of this well-known result." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#27a", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "The trigonometric identity to be proved is almost entirely missing from the stem (only 'Prove that :' and a trailing fragment survive, page 19).", "notes": "officialAnswer reconstructs the standard identity tanθ/(1−cotθ)+cotθ/(1−tanθ)=1+secθcosecθ; independently verified as a well-known, correct identity matching the marking scheme's derivation steps." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#27b", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "The trigonometric identity to be proved is missing from the stem entirely (only 'Prove that :' survives, page 19).", "notes": "officialAnswer reconstructs sinA/(sinA−cosA)+cosA/(sinA+cosA)=2/(2sin²A−1); independently verified algebraically as correct and matching the marking scheme's derivation steps." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#28", "text": "MISMATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Point A is printed as (5, 6) but the marking scheme's own arithmetic (y = (−4(5)−6)/(5+1)) implies A's y-coordinate is actually −6, not 6 — a sign the pack's own extraction notes did not flag. Point B's minus signs ('( 1, 4)') are also missing, likely (−1,−4). Page 19.", "notes": "Independently verified: with A(5,−6), B(−1,−4), section formula on the x-axis gives k=5 (ratio 5:1), matching the printed step '0=(−k+5)/(k+1) ⇒ k=5'; y=(−4(5)−6)/6=−26/6=−13/3, matching officialAnswer exactly." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#29", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "The specific number to be proved irrational is missing from the stem ('Prove that is an irrational number.'); the marking scheme's proof structure implies it is likely '1/√5', but this is not stated in the pack's question text (page 19)." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#30", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "PARTIAL", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "The air-volume value and the value to use for π are both missing from the stem (page 19). officialAnswer's own derivation is internally inconsistent: '1408 = (8/3)×(22/7)×r³ ⇒ r³=8' does not follow arithmetically ((8/3)(22/7)=176/21≈8.38, giving r³≈168, not 8).", "notes": "The marking-scheme layout shows '1408' stacked directly above '21', suggesting the true volume is 1408/21 m³, not 1408 m³ as narrated in officialAnswer: 1408/21 = (8/3)(22/7) r³ ⇒ r³ = (1408/21)×(21/176) = 8, which is consistent with r=2 m. This should be corrected, not republished as narrated." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#31", "text": "MATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "OK", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "PUBLISH", "reason": "", "notes": "Stem matches QP exactly (page 19); no notation needed. Independently verified: 8 outcomes with |difference|=2 out of 36, P=8/36=2/9, matching officialAnswer and marking scheme." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#32", "text": "MINOR", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "The rupee symbol (₹) is missing before '1,860' and '20' in the stem (page 19); otherwise the question and answer are complete and internally consistent.", "notes": "Independently verified: 8x+9y=186000 and 9x+8y=188000 solve to x=12000, y=10000, matching officialAnswer exactly." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#33a", "text": "MINOR", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Multiplication signs are missing between 'DF EF' and 'FB FA' in the stem (likely 'DF × EF = FB × FA'), page 21; otherwise complete.", "notes": "officialAnswer's AA-similarity proof (ΔADF~ΔEBF ⇒ DF/FB=FA/EF ⇒ DF×EF=FB×FA) is standard and correct; 'Correct Figure' in the marking scheme is a self-drawn diagram, not an externally required one." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#33b", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Multiple symbols are missing from the stem: Δ (ΔABC), ⊥ (AD⊥BC), × (BD×DC), and ∠/° (∠BAC=90°), page 21.", "notes": "officialAnswer's proof (AD²=BD×DC ⇒ ΔADB~ΔDAC, ∠ADB=∠ADC ⇒ ΔDBA~ΔDAC, adding ∠DBA+∠DCA=∠DAC+∠BAD gives ∠BAC=90°) is the standard converse-of-geometric-mean proof and is correct." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#34a", "text": "MATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "OK", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "PUBLISH", "reason": "", "notes": "Stem matches QP exactly (page 21). Independently verified: x+y=35, x²+(35−x)²=625 ⇒ (x−20)(x−15)=0, sides 15 cm and 20 cm, matching officialAnswer and marking scheme." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#34b", "text": "MATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "OK", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "PUBLISH", "reason": "", "notes": "Stem matches QP exactly (page 21). Independently verified: 480/(x−8)−480/x=3 ⇒ x²−8x−1280=0 ⇒ (x−40)(x+32)=0 ⇒ x=40 km/h, matching officialAnswer and marking scheme." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#35", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "OK", "figure": "NONE", "answer": "MISMATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "A leading instruction clause is missing before 'in the following table' (likely 'Find the missing frequency f...', page 21). More seriously, officialAnswer's mode value (19.95) does not follow from the printed class width: the table's classes are 11–13, 13–15, ... (width 2), but the mode formula as given uses a multiplier of 3, not 2.", "notes": "Independently verified: mean is solid — with x_i=12,14,16,18,20,22,24 and f_i=7,6,9,13,f,5,4, ΣfiXi=752+20f and Σfi=44+f, so 18=(752+20f)/(44+f) gives f=20 regardless of width. But the mode formula L+[(f1−f0)/(2f1−f0−f2)]×h with L=19,f1=20,f0=13,f2=5,h=2 gives 19+7/22×2≈19.64, not 19.95. Using h=3 (as the marking scheme's printed working does) gives 19.95. Either the marking scheme used the wrong class width, or the true printed intervals have width 3 (e.g. 11–14, 14–17, ...) and were mis-extracted; this cannot be resolved from the text layer alone and should be checked against the PDF image before publishing." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#36", "text": "MATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "OK", "figure": "NONE", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "PUBLISH", "reason": "", "notes": "Full case-study text matches QP exactly (page 23), including sub-question marks (1,1,2,2). Independently verified: AP 300,350,400,...; a4=450,a5=500,a6=550; a8=650; S10=5250; S6=2250 — all match officialAnswer and marking scheme." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#37", "text": "MATCH", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "OK", "figure": "ESSENTIAL_MISSING", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Figure on page 25 is not reproduced; the arc ACB spans a single 36° sector per the marking scheme's arithmetic, but which two of the ten labelled points are A and B (and where C sits on the arc between them) can only be read from the figure.", "notes": "Independently verified officialAnswer is internally consistent: central angle 36°, arc ACB = (1/10)×π×35 = 11 mm, sector area = (1/10)×π×(35/2)² = 96.25 mm², total wire = π×35 + 5×35 = 285 mm." },
-    { "key": "cbse-2025-x-mathematics-standard-30-1-1#38", "text": "INCOMPLETE", "numberPage": "MATCH", "marks": "MATCH", "options": "NA", "notation": "LOST", "figure": "ESSENTIAL_MISSING", "answer": "MATCH", "chapter": "OK", "suggestedChapter": null, "duplicate": "", "decision": "HOLD", "reason": "Sub-questions (i) and (ii) have no text at all in the extracted stem (only their mark values survive, page 27); the figure (lighthouse with the two observation points) is also not reproduced and is needed for every part. Degree signs and the √3 value in '[Use = 1·73]' are also missing.", "notes": "officialAnswer content is internally consistent and matches the marking scheme: BD=h, BC=√2h, h=20(√3+1)=54.6, CE=94.6 m, AE=50 m — but this cannot substitute for the missing question text of (i) and (ii)." }
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "PARTIAL",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 3 render: α, β, the relation α + β + αβ = −2/3 and option minus signs (A) −8, (C) −4 are printed; (D) 4 is printed without a minus.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Independently verified: with the reconstructed equations, a=4 and b=8, giving 2a=b, matching option (B).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 5 render: equations printed as 2x − 3y + a = 0 and 2x + 3y − b = 0; y = 2 has no minus.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#3",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 5 render: P(− 4, 5) printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#4",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Marking scheme p3: 'Sol. (B) 30⁰' (superscript 0); stored '300' was the flattened superscript. Copied verbatim.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#5",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 5 render: stem printed as tan²θ − (1 over cos θ × sec θ) in brackets; option (C) is −1.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#6",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 5 render: n − 7m printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#7",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Stem and all four options match the QP text layer exactly (page 7, verified in both raw and -layout modes); no notation needed; officialAnswer (A) parallel matches the marking scheme exactly."
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#8",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 7 render: angle signs printed; AB = 3 DE has no root sign.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#9",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 7 render: (−1)^n + (−1)^8 = 0 printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#10",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "RECOVERED",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: graph printed directly under Q10 above options; cropped complete with axis labels.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#11",
+      "text": "MINOR",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "'2m²' was correctly rebuilt from the PDF layout spacing. Independently verified: Sn=2n²+3n gives a1=5, a2=S2−S1=14−5=9, matching option (B)."
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#12",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Stem and options are plain text, no math notation involved; matches QP text layer exactly (page 9)."
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#13",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "PARTIAL",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 9 render: options printed as stacked fractions 3/13, 2/13, 1/2, 3/26.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#14",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 9 render: √3 and √5 printed; options (A) 1·4142387954012 …., (B) 2·326 with a bar over the final 6 only (checked at 10x), (C) π, (D) 1·857142.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#15",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 11 render: 40π, 72° and option (D) 10√2 units printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#16",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 11 render: figure under Q16 cropped; ∠POB = 115°, ∠APO and degree signs printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#17",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 11 render: 30° and options 100√3 m, 300 m, 150√2 m, 150√3 m printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#18",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 13 render: radius printed as stacked 60 over π; options with degree signs.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#19",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 13 render: the Assertion is printed exactly as 'The probability of selecting a number at random from the numbers 1 to 20 is 1.' (no fraction); stored text matches.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#20",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 13 render: Reason printed as 3πr².",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#21a",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Marking scheme p7: 'x(1/2) + y (1) + 1/2 – 1 = 5 ⟹ x + 2y = 11' (stacked fractions); copied verbatim, editorial note removed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#21b",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Marking scheme p8: (√3)² over (√3/2)² + (√3/2)², then '= 2'; copied verbatim with the stacked fraction linearised, editorial note removed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#22",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Independently verified: (1/3)(3x²+4x−4) = (1/3)(3x−2)(x+2), zeroes 2/3 and −2, matches officialAnswer and is internally consistent.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 15 render: p(x) = x² + 4/3 x − 4/3 printed with stacked fractions.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#23",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Marking scheme p8 prints the full solution, copied verbatim.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Marking scheme p8 Q23: radius = 5√2 units; (2a − 11)² + (a − 7 + 9)² = 50 ⟹ a² − 8a + 15 = 0 ⟹ (a − 5)(a − 3) = 0 ⟹ a = 5, 3. Copied verbatim.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#24a",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Marking scheme p8 prints 6/PQ = 4/QR = 8/6 ⟹ PQ = 9/2 cm or 4.5 cm, QR = 3 cm, PQ + QR = 7.5cm; copied verbatim.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Marking scheme p8 Q24(a): 6/PQ = 4/QR = 8/6 ⟹ PQ = 9/2 cm or 4.5 cm and QR = 3 cm ∴ PQ + QR = 7.5cm. Copied verbatim; the '2 cm' was the flattened 9/2.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#24b",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Marking scheme p9 Q24(b): In Δ PQR, ∠1 = ∠2 ∴ PR = PQ; ∴ QR/QS = QT/PR ⇒ QR/QS = QT/PQ; Also, ∠1 = ∠1; ∴ Δ PQS ~ Δ TQR. Copied verbatim, approximate note removed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#25",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Stem is plain text and matches the QP exactly (page 17), no notation needed there. officialAnswer's ∠/°/Δ/²/√ symbols were silently rebuilt from a marking scheme whose own text layer also lost them; independently re-verified: OA=√(26²−10²)=√576=24, radius=24 m."
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#26a",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "officialAnswer content (∠OCA=∠OAC via OA=OC, ∠OCD=90° tangent-radius, giving ∠BAC+∠ACD=90°) is a standard, internally consistent proof matching the marking scheme.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 17 render: figure under Q26(a) cropped; ∠BAC + ∠ACD = 90° printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#26b",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Stem matches QP exactly (page 17); this is a general proof where the student draws their own quadrilateral, so no external figure is needed. officialAnswer's ∠ symbols were rebuilt from a marking scheme whose own text layer lost them, but the proof structure (∠1=∠2, ..., 2(∠1+∠4+∠5+∠8)=360° ⇒ ∠AOB+∠COD=180°) is the standard, correct proof of this well-known result."
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#27a",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Marking scheme p11 Q27(a) copied verbatim step by step (stacked fractions linearised with brackets).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Marking scheme p11 Q27(a): all seven lines of the solution read at zoom and copied verbatim, including the (sin θ−cos θ)(sin²θ+ sin θ cos θ+cos²θ) factorisation.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#27b",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Marking scheme p11 Q27(b) copied verbatim step by step (stacked fractions linearised with brackets).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Marking scheme p11 Q27(b): LHS = (sin A + cos A)/(sin A – cos A) + (sin A – cos A)/(sin A + cos A), expansion step and = 2/(2sin²A− 1) = RHS read at zoom and copied verbatim.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#28",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Independently verified: with A(5,−6), B(−1,−4), section formula on the x-axis gives k=5 (ratio 5:1), matching the printed step '0=(−k+5)/(k+1) ⇒ k=5'; y=(−4(5)−6)/6=−26/6=−13/3, matching officialAnswer exactly.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 19 render: points printed as (5, − 6) and (− 1, − 4).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#29",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 19 render: 1 over √5 printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#30",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Marking scheme p12 Q30 copied verbatim (1408/21 on both lines).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Marking scheme p12 Q30: 1408/21 = (2/3)πr³ + πr²(2r); 1408/21 = 8/3 × 22/7 × r³; r³ = 8; r = 2 m and h = 4 m. Copied verbatim.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#31",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Stem matches QP exactly (page 19); no notation needed. Independently verified: 8 outcomes with |difference|=2 out of 36, P=8/36=2/9, matching officialAnswer and marking scheme."
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#32",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Independently verified: 8x+9y=186000 and 9x+8y=188000 solve to x=12000, y=10000, matching officialAnswer exactly.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 19 render: ₹ printed before 1,860 and 20.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#33a",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "officialAnswer's AA-similarity proof (ΔADF~ΔEBF ⇒ DF/FB=FA/EF ⇒ DF×EF=FB×FA) is standard and correct; 'Correct Figure' in the marking scheme is a self-drawn diagram, not an externally required one.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 21 render: × signs printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#33b",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "PARTIAL",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Marking scheme p14 Q33(b) text copied verbatim; the scheme's 'Correct figure' (1 mark, a drawn triangle) is an image and is not reproduced.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Marking scheme p14 Q33(b): AD² = BD × DC; AD/DC = BD/AD; Also ∠ADB = ∠ADC ∴ Δ DBA ~ Δ DAC; ∠DBA = ∠DAC, ∠BAD = ∠DCA; adding ∴ ∠BAC = 90°. Text copied verbatim; the scheme's drawn figure is not reproduced (answer PARTIAL).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#34a",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Stem matches QP exactly (page 21). Independently verified: x+y=35, x²+(35−x)²=625 ⇒ (x−20)(x−15)=0, sides 15 cm and 20 cm, matching officialAnswer and marking scheme."
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#34b",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Stem matches QP exactly (page 21). Independently verified: 480/(x−8)−480/x=3 ⇒ x²−8x−1280=0 ⇒ (x−40)(x+32)=0 ⇒ x=40 km/h, matching officialAnswer and marking scheme."
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#35",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "MISMATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "HOLD",
+      "reason": "Stored official answer was judged a mismatch with the scheme; stem fixed from page 21 but the answer is left as is.",
+      "notes": "Independently verified: mean is solid — with x_i=12,14,16,18,20,22,24 and f_i=7,6,9,13,f,5,4, ΣfiXi=752+20f and Σfi=44+f, so 18=(752+20f)/(44+f) gives f=20 regardless of width. But the mode formula L+[(f1−f0)/(2f1−f0−f2)]×h with L=19,f1=20,f0=13,f2=5,h=2 gives 19+7/22×2≈19.64, not 19.95. Using h=3 (as the marking scheme's printed working does) gives 19.95. Either the marking scheme used the wrong class width, or the true printed intervals have width 3 (e.g. 11–14, 14–17, ...) and were mis-extracted; this cannot be resolved from the text layer alone and should be checked against the PDF image before publishing.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 21 render: opening clause 'Find the missing frequency ‘f’' printed; table values match.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#36",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Full case-study text matches QP exactly (page 23), including sub-question marks (1,1,2,2). Independently verified: AP 300,350,400,...; a4=450,a5=500,a6=550; a8=650; S10=5250; S6=2250 — all match officialAnswer and marking scheme."
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#37",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "RECOVERED",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Independently verified officialAnswer is internally consistent: central angle 36°, arc ACB = (1/10)×π×35 = 11 mm, sector area = (1/10)×π×(35/2)² = 96.25 mm², total wire = π×35 + 5×35 = 285 mm.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 25: sector figure printed after 'as shown in the figure'; cropped complete with labels A, C, B. The decorative photo of brooches above it is not needed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#38",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "officialAnswer content is internally consistent and matches the marking scheme: BD=h, BC=√2h, h=20(√3+1)=54.6, CE=94.6 m, AE=50 m — but this cannot substitute for the missing question text of (i) and (ii).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "TEXT_CORRECTED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 27 render: line diagram cropped (decorative lighthouse photo omitted); sub-questions (i), (ii) text, degree signs and √3 = 1·73 read from the page.",
+        "confidence": "HIGH"
+      }
+    }
   ]
 }

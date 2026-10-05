@@ -112,14 +112,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture of the organism (butterfly) on page 4 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "FIGURE_RECROPPED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 4 Q1(g): re-cropped wider (x 0.34-0.63) so both forewing tips and the hind wings are complete. Items (phylum, exoskeleton, moulting, vertebrates) are covered by the official 'Diversity in Animal Kingdom' summary (Animalia from non-chordates to the chordate classes); moved from five-kingdom-classification.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-science-np20-523-2020#1h",
@@ -144,14 +156,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture of the organ on page 5 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: picture printed under Q2(a) stem",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-science-np20-523-2020#2b",
@@ -176,14 +198,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Cell diagram with labels X, A, B on page 6 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: cell diagram printed under Q3(a) stem",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-science-np20-523-2020#3b",
@@ -208,14 +240,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Experimental setup (Bottles A and B) on page 7 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: set-up printed under Q4(a) stem",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-science-np20-523-2020#4b",
@@ -240,14 +282,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of seeds A, B, C on page 8 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: diagram printed under Q5(a) stem",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-science-np20-523-2020#5b",
@@ -272,14 +324,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Diagram of tissues A and B on page 9 is needed; parts also span tissues, movement-and-locomotion and blood cells.",
-      "notes": ""
+      "reason": "Figure recovered; still held because the parts span tissues, joints and blood cells (chapter UNCERTAIN).",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 9: tissue drawings printed under Q6(a) stem",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-science-np20-523-2020#6b",
@@ -304,14 +366,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of the process on page 10 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 10 Q7(a): alt no longer names the pollinating agent that part (ii) asks for.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-science-np20-523-2020#7b",

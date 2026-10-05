@@ -1,0 +1,73 @@
+{
+  "pack": "cbse-itembank-2021-vii-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme; recovered figures checked against 5 % grid renders of the source page.",
+  "checks": [
+    {
+      "key": "cbse-itembank-2021-vii-mathematics#Maths7PK7a",
+      "agree": false,
+      "reason": "The alt text says 'angles at C marked', but the figure marks only one angle at C (between CA and CD), so the alt text misdescribes the figure.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vii-mathematics#Maths7PK7b",
+      "agree": false,
+      "reason": "The alt text says 'angles at C marked', but the figure marks only one angle at C (between CA and CD), so the alt text misdescribes the figure.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vii-mathematics#Maths7PK3",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vii-mathematics#Maths7RG4a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vii-mathematics#Maths7RG4b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vii-mathematics#Maths7RG4c",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vii-mathematics#Maths7PS3",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vii-mathematics#Maths7PS1",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vii-mathematics#Maths7SC6a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vii-mathematics#Maths7PS5a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vii-mathematics#Maths7PS5b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

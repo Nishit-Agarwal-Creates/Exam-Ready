@@ -304,14 +304,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Displacement-time graph (angles 30°/60°) on printed page 3 is needed and not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "printed page 3 (PDF p3, right half): graph under Q7.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-11-physics-isc-class-11-qty-physics-2019#8",
@@ -327,7 +337,17 @@
       "duplicate": "",
       "decision": "HOLD",
       "reason": "No marks printed; pack infers 3 but Q8 is in Section B (Section C heading is before Q12), so 3 is wrong",
-      "notes": "t = √x + 3 confirmed"
+      "notes": "t = √x + 3 confirmed",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "PDF p2 (printed p.2, left half) prints \"SECTION B (Answer all questions in this part)\" just before Q2; PDF p4 (printed p.4, left half) prints \"SECTION C (Answer all questions)\" after the Q11 OR figure and before Q12; PDF p3 (printed p.6) prints \"SECTION D\" before Q18. So Q8-Q11 are in Section B; section corrected from SECTION C to SECTION B. Still held: no mark is printed and the stored 3 marks were inferred from Section C.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-11-physics-isc-class-11-qty-physics-2019#9",
@@ -343,7 +363,17 @@
       "duplicate": "",
       "decision": "HOLD",
       "reason": "No marks printed; pack infers 3 but Q9 is in Section B (Section C heading is before Q12)",
-      "notes": "v₁, v₂ confirmed"
+      "notes": "v₁, v₂ confirmed",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "PDF p2 (printed p.2, left half) prints \"SECTION B (Answer all questions in this part)\" just before Q2; PDF p4 (printed p.4, left half) prints \"SECTION C (Answer all questions)\" after the Q11 OR figure and before Q12; PDF p3 (printed p.6) prints \"SECTION D\" before Q18. So Q8-Q11 are in Section B; section corrected from SECTION C to SECTION B. Still held: no mark is printed and the stored 3 marks were inferred from Section C.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-11-physics-isc-class-11-qty-physics-2019#10",
@@ -359,13 +389,23 @@
       "duplicate": "",
       "decision": "HOLD",
       "reason": "No marks printed; pack infers 3 but Q10 is in Section B (Section C heading is before Q12)",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "PDF p2 (printed p.2, left half) prints \"SECTION B (Answer all questions in this part)\" just before Q2; PDF p4 (printed p.4, left half) prints \"SECTION C (Answer all questions)\" after the Q11 OR figure and before Q12; PDF p3 (printed p.6) prints \"SECTION D\" before Q18. So Q8-Q11 are in Section B; section corrected from SECTION C to SECTION B. Still held: no mark is printed and the stored 3 marks were inferred from Section C.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-11-physics-isc-class-11-qty-physics-2019#11a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -373,25 +413,48 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; pack infers 3 but Q11 is in Section B (Section C heading is before Q12)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF p2 (printed p.2, left half) prints \"SECTION B (Answer all questions in this part)\" just before Q2; PDF p4 (printed p.4, left half) prints \"SECTION C (Answer all questions)\" after the Q11 OR figure and before Q12; PDF p3 (printed p.6) prints \"SECTION D\" before Q18. So Q8-Q11 are in Section B; section corrected from SECTION C to SECTION B. No mark is printed beside Q11 or its OR alternative (PDF p4 left half), so 11a gets NOT_PRINTED, marks 0, the same as its alternative 11b.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-11-physics-isc-class-11-qty-physics-2019#11b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Pulley/blocks figure on printed page 4 is needed and not reproduced; marks inferred (and Q11 is in Section B)",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "PDF p2 (printed p.2, left half) prints \"SECTION B (Answer all questions in this part)\" just before Q2; PDF p4 (printed p.4, left half) prints \"SECTION C (Answer all questions)\" after the Q11 OR figure and before Q12; PDF p3 (printed p.6) prints \"SECTION D\" before Q18. So Q8-Q11 are in Section B; section corrected from SECTION C to SECTION B.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-11-physics-isc-class-11-qty-physics-2019#12",
@@ -592,14 +655,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Incline/pulley diagram (4 kg, 30°, 8 kg) on printed page 7 is needed for part (ii) and not reproduced",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "printed page 7 (PDF p2, right half): diagram for Q20 (ii).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-11-physics-isc-class-11-qty-physics-2019#20b",

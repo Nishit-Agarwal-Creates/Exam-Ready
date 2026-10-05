@@ -272,14 +272,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph of the shaded region on page 34 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p34 'Sources and diagrams' box of item Maths9NM3: grid with shaded region bounded by the y-axis, x-axis, x = 1 and a line through (0,1) and (2,0); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9IM8a",
@@ -352,14 +362,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Graph on page 41 is needed to answer",
-      "notes": ""
+      "reason": "Chapter uncertain (lines parallel to the axes not clearly in Part I contents); graph now recovered",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p42 source box above the Maths9GB5 questions: graph with Line 1 (vertical) and Line 2 (through origin); cropped. Chapter left UNCERTAIN.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9GB5b",
@@ -368,14 +388,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph on page 41 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p42 source box above the Maths9GB5 questions: graph with Line 1 and Line 2; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9GB5c",
@@ -384,14 +414,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph on page 41 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p42 source box above the Maths9GB5 questions: graph with Line 1 and Line 2; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9AG4a",
@@ -560,14 +600,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "City map diagram on page 57 is needed to locate the school",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p57 'Sources and diagrams' box of Maths9NK2: small coordinate grid (-6 to 6) with one dot in the second quadrant; cropped (source image is low resolution).",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9NK6a",
@@ -576,14 +626,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph with P, P′, Q, Q′ on page 59 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p59 'Sources and diagrams' box of Maths9NK6: graph with P(-3,2), P'(-3,-2), Q(2,7), Q'(2,-7) and shaded quadrilateral; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9NK6b",
@@ -592,14 +652,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph with P, P′, Q, Q′ on page 59 is needed to answer",
-      "notes": "Scheme stem says 'square meters' and answer '45 units'."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme stem says 'square meters' and answer '45 units'.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p59 'Sources and diagrams' box of Maths9NK6: graph with P, P', Q, Q' and shaded quadrilateral; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9NM7a",
@@ -640,14 +710,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph showing Q on page 65 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p65 'Sources and diagrams' box of Maths9IM3: triangle PQR on a grid; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9GB2",
@@ -672,14 +752,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph showing the child's position on page 68 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p68 'Sources and diagrams' box of Maths9AG5: grid with O at origin and point P joined to O; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9AG5b",
@@ -688,14 +778,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph showing the child's position on page 68 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p68 'Sources and diagrams' box of Maths9AG5: grid with O at origin and point P joined to O; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9JJ2",
@@ -768,14 +868,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph of plant locations on page 75 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p75 'Sources and diagrams' box of Maths9DP5: grid with plant locations Silver Oak, Banyan, Orange, Amla, Mango; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9RS2",
@@ -784,14 +894,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Without the figure P could be (0, 4√3) or (0, −4√3); figure on page 77 fixes it",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "PDF p77 Source(s) box: re-cropped down to y=0.845 so the downward arrowhead of the vertical axis and both horizontal arrowheads are inside; checked the PNG.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9JJ6",
@@ -816,14 +937,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Grid with A, B, C on page 81 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p81 'Sources and diagrams' box of Maths9SM8: grid with points A, B, C; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9SM8b",
@@ -832,14 +963,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Grid with A, B, C on page 81 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p81 'Sources and diagrams' box of Maths9SM8: grid with points A, B, C; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9AN5",
@@ -864,14 +1005,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Point A is defined only by the figure on page 94",
-      "notes": "α, °, ∠ are Symbol-font PUA F061/F0B0/F0D0, correctly mapped."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "α, °, ∠ are Symbol-font PUA F061/F0B0/F0D0, correctly mapped.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p94 'Sources and diagrams' box of Maths9MS6: circle centre O, triangle ABC inscribed, OB, OC and OD perpendicular to BC; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9MS6b",
@@ -912,14 +1063,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circle figure on page 124 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p124 'Sources and diagrams' box of Maths9BS4: circle with A, B, C, D, angle BCD marked 25°; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9DP4",
@@ -928,14 +1089,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circle figure on page 128 is needed to answer",
-      "notes": "Scheme stem restates different angles, but 80° is right for the printed question."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme stem restates different angles, but 80° is right for the printed question.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p128 'Sources and diagrams' box of Maths9DP4: circle with chord AB, points C and D on the same arc, 69° at A and 31° at B; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9LK2",
@@ -944,14 +1115,26 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
-      "answer": "PARTIAL",
+      "figure": "RECOVERED",
+      "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 132 (AD as diameter) is needed to answer",
-      "notes": "Scheme working garbled ('2d + 4 = 4.122'); d=√(4.1²−4²)=0.9."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Mark scheme p133 prints d² + 4² = 4.1², d = √0.81 = 0.9 (equation image, read from the rendered page).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ANSWER_COMPLETED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "PDF p133 mark scheme (zoomed render): working prints 'd² + 4² = 4.1²' and 'd = √0.81 = 0.9'; garbled '2d + 4 = 4.122; d = 0.81' replaced verbatim.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9NM1",
@@ -976,14 +1159,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure 1(a) on page 137 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p137 'Diagram 1 (a)' of Maths9BS8: circle centre A, radius AC, AB meets chord CD at E; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9BS8b",
@@ -1008,14 +1201,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on page 141 is needed; scheme answer line prints ∠POR=100° before working to 160°",
-      "notes": ""
+      "reason": "Scheme answer line prints ∠POR=100° before working to 160°; figure now recovered",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p141 'Source(s)' box of Maths9LK7: circle centre O with P, Q, R; cropped. Answer issue left as is.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9LK7b",
@@ -1024,14 +1227,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure on page 141 is needed; scheme prints both 10° and 30°",
-      "notes": ""
+      "reason": "Scheme prints both 10° and 30° for ∠OPR; figure now recovered",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p141 'Source(s)' box of Maths9LK7: circle centre O with P, Q, R; cropped. Answer issue left as is.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9LK8",
@@ -1040,14 +1253,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 143 (PQ through O, chords on opposite sides) is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p143 'Source(s)' box of Maths9LK8: circle centre O, chords AB (top) and CD (bottom), PQ through O perpendicular to both; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9LK9a",
@@ -1056,14 +1279,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Cyclic quadrilateral figure on page 145 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p145 'Source(s)' box of Maths9LK9: cyclic quadrilateral ABCD with diagonals meeting at E, 70° at B and 50° at A; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9LK9b",
@@ -1072,14 +1305,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 145 (point E) is needed to answer",
-      "notes": "Scheme writes AB = AC but its reasoning (∠ACB=∠BAC) fits AB = BC."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme writes AB = AC but its reasoning (∠ACB=∠BAC) fits AB = BC.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p145 'Source(s)' box of Maths9LK9: cyclic quadrilateral ABCD with diagonals meeting at E; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9LK10a",
@@ -1104,14 +1347,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "O and the circle appear only in the figure on page 149",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p149 'Source(s)' box of Maths9LK10: circle centre O with inscribed triangle ABC, O joined to B and C; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9LK10c",
@@ -1120,14 +1373,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "O and the circle appear only in the figure on page 149",
-      "notes": "Scheme working writes ∠BOC+∠OCB for ∠OBC+∠OCB."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Scheme working writes ∠BOC+∠OCB for ∠OBC+∠OCB.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p149 'Source(s)' box of Maths9LK10: circle centre O with inscribed triangle ABC, O joined to B and C; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9LK10d",
@@ -1168,14 +1431,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Which arc A lies on is shown only in the figure on page 152",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p152 source box of Maths9CN7: two drawings of circle centre O with P, Q, R on one arc and A on the opposite arc; cropped whole box.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9CN7c",
@@ -1216,14 +1489,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Answerable from vertex order ABCD: ∠DAC=55°, ∠BCD=80° (alternative ∠BDC=45°)."
+      "notes": "Answerable from vertex order ABCD: ∠DAC=55°, ∠BCD=80° (alternative ∠BDC=45°).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p157 'Sources and diagrams' box of Maths9CN9: quadrilateral ABCD with diagonals AC and BD; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9MS8a",
@@ -1248,14 +1531,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Scheme gives marking outline only."
+      "notes": "Scheme gives marking outline only.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p160 'Sources and diagrams' box of Maths9MS8: cyclic quadrilateral ABCD with angle bisectors forming PQRS; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9AN1",
@@ -1264,14 +1557,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Positions of S and T are shown only in the figure on page 162; (ii) is not definite from the text",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p162 'Sources and diagrams' box of Maths9AN1: circle with P, Q, R, S, T on QP, angle PQR 80°, TR and PSRQ drawn; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-itembank-2021-ix-mathematics#Maths9RS3",

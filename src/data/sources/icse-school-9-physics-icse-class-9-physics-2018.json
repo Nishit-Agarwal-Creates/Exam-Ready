@@ -860,12 +860,28 @@
       "type": "SHORT_ANSWER",
       "text": "Draw at least two magnetic field lines between the two poles of the magnets —",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figures (i) and (ii) on page 4 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-2018/10c.png",
+          "kind": "FIGURE",
+          "alt": "(i) two bar magnets with poles marked; (ii) a U-shaped magnet with poles marked",
+          "width": 625,
+          "height": 430,
+          "page": 4,
+          "crop": {
+            "x": 0.145,
+            "y": 0.43,
+            "w": 0.35,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",

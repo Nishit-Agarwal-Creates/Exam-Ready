@@ -1,0 +1,43 @@
+{
+  "pack": "cbse-itembank-2021-viii-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout and -raw, page renders with a 5 % grid (scripts/recovery/page.py) and the answer key / mark scheme; recovered figure crops opened and compared with the page.",
+  "checks": [
+    {
+      "key": "cbse-itembank-2021-viii-mathematics#Maths8BS6a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-viii-mathematics#Maths8BS6b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-viii-mathematics#Maths8BS1",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-viii-mathematics#Maths8PW7a",
+      "agree": false,
+      "reason": "The stem prints \"∠S = 120°\" (p30) but the stored text reads \"S =120°\" with the angle sign dropped (the stored answer likewise drops ∠ in \"∠S = ∠F = 120°\").",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-viii-mathematics#Maths8PW7b",
+      "agree": false,
+      "reason": "The stem prints \"∠S = 120°\" (p30) but the stored text reads \"S =120°\" with the angle sign dropped.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-viii-mathematics#Maths8NB5a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

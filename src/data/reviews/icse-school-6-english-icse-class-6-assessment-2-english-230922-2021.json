@@ -13,7 +13,7 @@
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#A11",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -21,79 +21,137 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#A12",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NONE",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed (0 placeholder); depends on the passage stored only with part 1.",
-      "notes": "Depends on the Siberian crane passage, which is stored only with A1 part 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Siberian crane passage attached as a PASSAGE crop from page 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-B",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 1: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks. Passage cropped from page 1 (y 0.385-0.59) so the part is answerable on its own. | p51-fix-B: Passage alt text no longer quotes the passage (its opening sentence answered A1.3).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#A13",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NONE",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed (0 placeholder); depends on the passage stored only with part 1.",
-      "notes": "Depends on the Siberian crane passage, which is stored only with A1 part 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Siberian crane passage attached as a PASSAGE crop from page 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-B",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 1: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks. Passage cropped from page 1 (y 0.385-0.59) so the part is answerable on its own. | p51-fix-B: Passage alt text no longer quotes the passage (its opening sentence answered A1.3).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#A14",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NONE",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed (0 placeholder); depends on the passage stored only with part 1.",
-      "notes": "Depends on the Siberian crane passage, which is stored only with A1 part 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Siberian crane passage attached as a PASSAGE crop from page 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-B",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 1: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks. Passage cropped from page 1 (y 0.385-0.59) so the part is answerable on its own. | p51-fix-B: Passage alt text no longer quotes the passage (its opening sentence answered A1.3).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#A15",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NONE",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed (0 placeholder); depends on the passage stored only with part 1.",
-      "notes": "Depends on the Siberian crane passage, which is stored only with A1 part 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Siberian crane passage attached as a PASSAGE crop from page 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-B",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 1: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks. Passage cropped from page 1 (y 0.385-0.59) so the part is answerable on its own. | p51-fix-B: Passage alt text no longer quotes the passage (its opening sentence answered A1.3).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AII",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -101,31 +159,53 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIII",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed (0 placeholder); picture on page 2 is needed and not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-B",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 2: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks. Picnic picture cropped from page 2 (under Q.III). | p51-fix-B: Page 2 picture under Q.III: alt text rewritten neutrally; it previously placed people incorrectly and described the scene the student must write about.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV11",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -133,15 +213,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV12",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -149,15 +239,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV21",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -165,15 +265,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV22",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -181,15 +291,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV31",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -197,15 +317,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV32",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -213,15 +343,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV4",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -229,15 +369,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV5",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -245,15 +395,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV61",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -261,15 +421,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV62",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -277,15 +447,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV71",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -293,15 +473,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV72",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -309,15 +499,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV81",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -325,15 +525,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#AIV82",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -341,15 +551,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BI1",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -357,15 +577,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BI2",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -373,15 +603,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BI3",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -389,15 +629,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BI4",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -405,15 +655,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BI5",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -421,15 +681,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BI6",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -437,15 +707,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BII1",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -453,15 +733,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BII2",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -469,15 +759,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BII3",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -485,15 +785,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BII4",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -501,15 +811,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BII5",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -517,15 +837,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BII6",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -533,15 +863,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIII1",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -549,15 +889,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIII2",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -565,15 +915,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIII3",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -581,15 +941,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIII4",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -597,15 +967,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIII5",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -613,15 +993,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIII6",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -629,15 +1019,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIV1",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -645,15 +1045,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIV2",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -661,15 +1071,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIV3",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -677,15 +1097,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIV4",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -693,15 +1123,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIV5",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -709,15 +1149,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BIV6",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -725,15 +1175,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BV1",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -741,15 +1201,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BV2",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -757,15 +1227,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BVIa",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -773,15 +1253,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BVIb",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -789,15 +1279,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BVII1",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -805,15 +1305,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BVII2",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -821,15 +1331,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BVII3",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -837,15 +1357,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BVII4",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -853,15 +1383,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BVII5",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -869,15 +1409,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BVII6",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -885,15 +1435,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BVII7",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -901,15 +1461,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-english-icse-class-6-assessment-2-english-230922-2021#BVII8",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -917,9 +1487,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed; stored marks are a 0 placeholder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: no marks are printed anywhere in the paper (only 'M.M.:-45' on page 1); no per-question or per-group marks.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

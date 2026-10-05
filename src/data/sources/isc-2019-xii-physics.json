@@ -45,15 +45,13 @@
       "text": "Choose the correct alternative (a), (b), (c) or (d) for each of the questions given below:\nA closed surface in vacuum encloses charges –q and +3q. The total electric flux emerging out of the surface is:",
       "options": [
         "Zero",
-        "2",
-        "3",
-        "4"
+        "2q/ε₀",
+        "3q/ε₀",
+        "4q/ε₀"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 1: options (b)-(d) are printed as a digit followed by a fraction set as an image (q over ε0); only the digits 2, 3 and 4 are in the text layer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "electric-charges-and-fields",
       "mappingStatus": "AI_SUGGESTED"
     },
@@ -183,12 +181,28 @@
       "type": "NUMERICAL",
       "text": "Answer the following questions briefly and to the point.\nCalculate the net emf across A and B shown in Figure 1 below:",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 1 on page 2 not reproduced; the arrangement of the cells is needed to answer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2019-xii-physics/1Bii.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1: circuit between terminals A (+) and B (-) with cells marked 4v, 4v and 8v",
+          "width": 803,
+          "height": 303,
+          "page": 2,
+          "crop": {
+            "x": 0.24,
+            "y": 0.685,
+            "w": 0.45,
+            "h": 0.12
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -324,12 +338,28 @@
       "type": "SHORT_ANSWER",
       "text": "An electric current I flows through an infinitely long conductor as shown in Figure 2(a) below. Write an expression and direction for the magnetic field at point P.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 2(a) on page 3 not reproduced; needed for the direction of the field"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "moving-charges-and-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2019-xii-physics/4a.png",
+          "kind": "FIGURE",
+          "alt": "Figure 2(a): a long straight conductor (dashed ends) with a current arrow and a point P beside it",
+          "width": 268,
+          "height": 227,
+          "page": 3,
+          "crop": {
+            "x": 0.4,
+            "y": 0.545,
+            "w": 0.15,
+            "h": 0.09
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -343,12 +373,28 @@
       "type": "SHORT_ANSWER",
       "text": "An electric current I flows through a circular loop as shown in Figure 2(b) below. Write an expression and direction for the magnetic field at the centre of the loop at point P.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 2(b) on page 3 not reproduced; needed for the direction of the field"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "moving-charges-and-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2019-xii-physics/4b.png",
+          "kind": "FIGURE",
+          "alt": "Figure 2(b): a circular loop with current arrows and the centre marked P",
+          "width": 250,
+          "height": 190,
+          "page": 3,
+          "crop": {
+            "x": 0.36,
+            "y": 0.71,
+            "w": 0.14,
+            "h": 0.075
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -430,11 +476,9 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "(a) What is meant by mass defect?\n(b) What conclusion is drawn from Rutherford’s scattering experiment of -particles?",
+      "text": "(a) What is meant by mass defect?\n(b) What conclusion is drawn from Rutherford’s scattering experiment of α-particles?",
       "hasFigure": false,
-      "extractionIssues": [
-        "Greek letter before '-particles' in (b) (presumably alpha) is printed as an image and lost in extraction; see page 4"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "nuclei",
       "mappingStatus": "AI_SUGGESTED"
@@ -538,16 +582,30 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "Three capacitors of capacitance C₁ = 3 , C₂ = 6 and C₃ = 10 , are connected to a 10V battery as shown in Figure 3 below:\nCalculate:\n(a) Equivalent capacitance.\n(b) Electrostatic potential energy stored in the system.",
+      "text": "Three capacitors of capacitance C₁ = 3μ, C₂ = 6μ and C₃ = 10μ, are connected to a 10V battery as shown in Figure 3 below:\nCalculate:\n(a) Equivalent capacitance.\n(b) Electrostatic potential energy stored in the system.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Unit symbol after each capacitance value (3, 6, 10) is printed as an image and lost in extraction; see page 5",
-        "Figure 3 on page 5 not reproduced; the arrangement of the capacitors is needed to answer",
-        "Subscripts rebuilt from the PDF layout (smaller glyphs): C₁, C₂, C₃; check against the PDF"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "electrostatic-potential-potential-energy-and-capacitance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2019-xii-physics/14.png",
+          "kind": "FIGURE",
+          "alt": "Figure 3: circuit with capacitors C1 (3), C2 (6) and C3 (10) and a 10V battery",
+          "width": 411,
+          "height": 379,
+          "page": 5,
+          "crop": {
+            "x": 0.26,
+            "y": 0.27,
+            "w": 0.23,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "15",
@@ -561,12 +619,28 @@
       "type": "LONG_ANSWER",
       "text": "Obtain the balancing condition for the Wheatstone bridge arrangement as shown in Figure 4 below:",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 4 on page 5 not reproduced (it defines the labels used in the answer)"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2019-xii-physics/15a.png",
+          "kind": "FIGURE",
+          "alt": "Figure 4: Wheatstone bridge with arms P, Q, R and S, galvanometer G, cell E, and currents I, I1 and I2 marked",
+          "width": 429,
+          "height": 455,
+          "page": 5,
+          "crop": {
+            "x": 0.28,
+            "y": 0.572,
+            "w": 0.24,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "15",
@@ -701,13 +775,10 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(i) An a.c. source of emf = 200 sin is connected to a resistor of 50Ω. Calculate:\n(1) Average current (Iavg).\n(2) Root mean square (rms) value of emf.\n(ii) State any two characteristics of resonance in an LCR series circuit.",
+      "text": "(i) An a.c. source of emf ε = 200 sin ω is connected to a resistor of 50Ω. Calculate:\n(1) Average current (I_{avg}).\n(2) Root mean square (rms) value of emf.\n(ii) State any two characteristics of resonance in an LCR series circuit.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 6: the emf symbol and the argument of 'sin' in the expression for the emf are printed as images and are missing from the text",
-        "Subscript flattened: Iavg"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "alternating-current",
       "mappingStatus": "AI_SUGGESTED"
     },
@@ -738,12 +809,10 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "Draw a neat labelled diagram of Young’s Double Slit experiment. Show that = , where the terms have their usual meaning (either for bright or dark fringe).",
+      "text": "Draw a neat labelled diagram of Young’s Double Slit experiment. Show that β = λ/d, where the terms have their usual meaning (either for bright or dark fringe).",
       "hasFigure": false,
-      "extractionIssues": [
-        "Mathematical notation lost in extraction; see page 7: the relation to be shown (fringe width formula) is printed as an image; only ' = ,' is in the text layer"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "wave-optics",
       "mappingStatus": "AI_SUGGESTED"
     },

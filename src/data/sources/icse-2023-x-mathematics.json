@@ -39,8 +39,8 @@
       "page": 1,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "If [2 0; 0 4] [x; y] = [2; −8], the value of x and y respectively are:",
       "options": [
@@ -51,12 +51,13 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark.",
         "Matrix brackets did not extract as text; matrices rebuilt from the PDF layout in row notation [a b; c d] (rows separated by ';'), checked against the rendered page; check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": "matrices",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -65,8 +66,8 @@
       "page": 2,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "If x – 2 is a factor of x³ – kx – 12, then the value of k is:",
       "options": [
@@ -77,12 +78,13 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark.",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": "factorisation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -91,8 +93,8 @@
       "page": 2,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "In the given diagram RT is a tangent touching the circle at S. If ∠PST = 30° and ∠SPQ = 60° then ∠PSQ is equal to:",
       "options": [
@@ -103,13 +105,31 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark.",
-        "Figure on page 2 not reproduced",
         "Degree signs printed as a raised 'o'; rendered as °"
       ],
       "confidence": "MEDIUM",
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-mathematics/1iii.png",
+          "kind": "FIGURE",
+          "alt": "Circle with points Q, P and S on it, tangent line RT touching at S, chords SQ, SP and PQ, with angles 60° at P and 30° between SP and ST marked",
+          "width": 633,
+          "height": 337,
+          "page": 2,
+          "crop": {
+            "x": 0.47,
+            "y": 0.276,
+            "w": 0.345,
+            "h": 0.142
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -118,8 +138,8 @@
       "page": 2,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "A letter is chosen at random from all the letters of the English alphabets. The probability that the letter chosen is a vowel, is:",
       "options": [
@@ -130,12 +150,13 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark.",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": "probability",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -144,8 +165,8 @@
       "page": 2,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "If 3 is a root of the quadratic equation x² – px + 3 = 0 then p is equal to:",
       "options": [
@@ -156,12 +177,13 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark.",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": "quadratic-equations",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -170,8 +192,8 @@
       "page": 3,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "In the given figure ∠BAP = ∠DCP = 70°, PC = 6 cm and CA = 4 cm, then PD : DB is:",
       "options": [
@@ -182,13 +204,31 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark.",
-        "Figure on page 3 not reproduced; the positions of D on PB and C on PA are shown only in the figure",
         "Degree signs printed as a raised 'o'; rendered as °"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "similarity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-mathematics/1vi.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABP with D on BP and C on AP, segment CD, angles of 70° marked at A and C, AC = 4 cm and CP = 6 cm",
+          "width": 845,
+          "height": 404,
+          "page": 3,
+          "crop": {
+            "x": 0.34,
+            "y": 0.098,
+            "w": 0.46,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -197,8 +237,8 @@
       "page": 3,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "The printed price of an article is ₹ 3080. If the rate of GST is 10% then the GST charged is:",
       "options": [
@@ -209,12 +249,13 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark.",
         "Rupee sign extracted as a backtick '`' (Rupee font glyph); normalised to ₹"
       ],
       "confidence": "HIGH",
       "chapter": "goods-and-services-tax",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -223,8 +264,8 @@
       "page": 3,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "(1 + sinA) (1 – sinA) is equal to:",
       "options": [
@@ -235,12 +276,13 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark.",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": "trigonometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -249,8 +291,8 @@
       "page": 3,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "The coordinates of the vertices of ∆ABC are respectively (–4, –2), (6, 2) and (4, 6). The centroid G of ∆ABC is:",
       "options": [
@@ -260,12 +302,12 @@
         "(0, –1)"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark."
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "section-and-mid-point-formula",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -274,8 +316,8 @@
       "page": 4,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "The nth term of an Arithmetic Progression (A.P.) is 2n + 5. The 10th term is:",
       "options": [
@@ -286,13 +328,14 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark.",
         "Ordinal suffixes 'th' printed as superscripts; kept inline (nth, 10th)",
         "Layout mode interleaves the sub-part labels (x)-(xiv) on page 4; text taken from raw/positional extraction"
       ],
       "confidence": "MEDIUM",
       "chapter": "arithmetic-progression",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -301,8 +344,8 @@
       "page": 4,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "The mean proportional between 4 and 9 is:",
       "options": [
@@ -312,12 +355,12 @@
         "36"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark."
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "ratio-and-proportion",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -326,8 +369,8 @@
       "page": 4,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "Which of the following cannot be determined graphically for a grouped frequency distribution?",
       "options": [
@@ -337,12 +380,12 @@
         "Mean"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark."
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "statistics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -351,8 +394,8 @@
       "page": 4,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "Volume of a cylinder of height 3 cm is 48π. Radius of the cylinder is:",
       "options": [
@@ -362,12 +405,12 @@
         "24 cm"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark."
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -376,8 +419,8 @@
       "page": 4,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "Naveen deposits ₹ 800 every month in a recurring deposit account for 6 months. If he receives ₹ 4884 at the time of maturity, then the interest he earns is:",
       "options": [
@@ -388,12 +431,13 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark.",
         "Rupee sign extracted as a backtick '`' (Rupee font glyph); normalised to ₹"
       ],
       "confidence": "HIGH",
       "chapter": "banking",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "1",
@@ -402,8 +446,8 @@
       "page": 5,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
-      "marksSource": "SECTION_INSTRUCTIONS",
+      "marks": 0,
+      "marksSource": "PRINTED",
       "type": "MCQ",
       "text": "The solution set for the inequation 2x + 4 ≤ 14, x ε W is:",
       "options": [
@@ -414,12 +458,13 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is worth 1 mark.",
         "The paper prints the Greek letter ε for 'belongs to' (x ε W); kept as printed"
       ],
       "confidence": "HIGH",
       "chapter": "linear-inequations",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the 15 parts"
     },
     {
       "number": "2",
@@ -472,12 +517,29 @@
       "text": "In the given figure O, is the centre of the circle. CE is a tangent to the circle at A. If ∠ABD = 26°, then find:\n(a) ∠BDA\n(b) ∠BAD\n(c) ∠CAD\n(d) ∠ODB",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 5 not reproduced; the configuration of points A, B, D, O needed to answer is shown only in the figure",
         "Degree signs printed as a raised 'o'; rendered as °"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-mathematics/2iii.png",
+          "kind": "FIGURE",
+          "alt": "Circle with centre O and points A, B, D on it, tangent CE at A, segments AB, AD, DB and dashed OD, angle 26° marked at B",
+          "width": 533,
+          "height": 534,
+          "page": 5,
+          "crop": {
+            "x": 0.48,
+            "y": 0.505,
+            "w": 0.29,
+            "h": 0.225
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -584,12 +646,29 @@
       "text": "In the given figure, O is the centre of the circle. PQ is a tangent to the circle at T. Chord AB produced meets the tangent at P.\nAB = 9 cm, BP = 16 cm, ∠PTB = 50°\n∠OBA = 45°\nFind:\n(a) length of PT\n(b) ∠BAT\n(c) ∠BOT\n(d) ∠ABT",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 6 not reproduced; the positions of O, A, B, T needed for (b)-(d) are shown only in the figure",
         "Text layer interleaves the figure labels with 'Find:' and '∠BAT'; order restored from the rendered page"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-mathematics/4iii.png",
+          "kind": "FIGURE",
+          "alt": "Circle with centre O, tangent PQ touching at T, chord AB extended to P, segments TA, TB, OT and OB, with 50°, 45°, 9 cm and 16 cm marked",
+          "width": 725,
+          "height": 408,
+          "page": 6,
+          "crop": {
+            "x": 0.42,
+            "y": 0.733,
+            "w": 0.395,
+            "h": 0.172
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -641,12 +720,28 @@
       "type": "NUMERICAL",
       "text": "In the given figure, AC // DE // BF.\nIf AC = 24 cm, EG=8 cm, GB=16 cm, BF=30 cm.\n(a) Prove ∆GED ~ ∆GBF\n(b) Find DE\n(c) DB : AB",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 7 not reproduced; the positions of D, E, G on the lines are shown only in the figure"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "similarity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-mathematics/5iii.png",
+          "kind": "FIGURE",
+          "alt": "Figure with points A, C, E, G, B, D, F; segments AC, DE and BF with arrow marks, lines CB, DF and AB, and lengths 24 cm, 8 cm, 16 cm and 30 cm marked",
+          "width": 698,
+          "height": 392,
+          "page": 7,
+          "crop": {
+            "x": 0.28,
+            "y": 0.57,
+            "w": 0.38,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -700,12 +795,29 @@
       "text": "A and B are two points on the x-axis and y-axis respectively.\n(a) Write down the coordinates of A and B.\n(b) P is a point on AB such that AP : PB = 3 : 1. Using section formula find the coordinates of point P.\n(c) Find the equation of a line passing through P and perpendicular to AB.",
       "hasFigure": true,
       "extractionIssues": [
-        "Graph on page 8 not reproduced; the coordinates of A and B are given only on the graph",
         "Text continues on page 9"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "section-and-mid-point-formula",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2023-x-mathematics/6iii.png",
+          "kind": "GRAPH",
+          "alt": "Coordinate axes X'X and Y'Y with unit marks, a line segment from point B on the y-axis to point A on the x-axis, and point P on it with the parts marked 1 and 3",
+          "width": 1037,
+          "height": 777,
+          "page": 8,
+          "crop": {
+            "x": 0.21,
+            "y": 0.586,
+            "w": 0.565,
+            "h": 0.327
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",

@@ -82,12 +82,28 @@
       "type": "NUMERICAL",
       "text": "In the given figure, the lengths of arcs AB and BC are in the ratio 3 : 2. If ∠AOB = 96°, find\n(a) ∠BOC (b) ∠ABC.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 (circle with centre O and points A, B, C) not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "circle",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-second-terminal-mathematics-280425-2025/2ii.png",
+          "kind": "FIGURE",
+          "alt": "Circle with centre O and points A, B and C on it; OA, OB and OC drawn, with dashed chords AB and BC",
+          "width": 375,
+          "height": 410,
+          "page": 3,
+          "crop": {
+            "x": 0.662,
+            "y": 0.327,
+            "w": 0.21,
+            "h": 0.168
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "2",
@@ -213,12 +229,28 @@
       "type": "SHORT_ANSWER",
       "text": "From the given figure, write the following:\n(a) The points in quadrant IV.\n(b) The points with the same abscissa.\n(c) The points with the same ordinate.\n(d) Point whose ordinate is −3.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 (graph with plotted points A-E; their coordinates are printed only on the figure and are partly unclear on the scan) not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "coordinate-geometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-second-terminal-mathematics-280425-2025/4iii.png",
+          "kind": "GRAPH",
+          "alt": "Graph paper with axes X'X (marked -5 to 5) and Y'Y (marked -4 to 4) and points labelled A, B, C, D and E with their coordinates",
+          "width": 768,
+          "height": 757,
+          "page": 4,
+          "crop": {
+            "x": 0.19,
+            "y": 0.14,
+            "w": 0.43,
+            "h": 0.31
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "5",
@@ -305,12 +337,29 @@
       "text": "In the given figure prove that\n∠BAD: ∠ADB = 3: 1",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 5 (triangle ABD with C on BD and equal-length tick marks) not reproduced",
         "The equal sides are shown only by tick marks on the figure"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "isosceles-triangles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-second-terminal-mathematics-280425-2025/6ii.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABD with point C on BD and segment AC; tick marks on AB, AC, BC and CD",
+          "width": 500,
+          "height": 244,
+          "page": 5,
+          "crop": {
+            "x": 0.555,
+            "y": 0.06,
+            "w": 0.28,
+            "h": 0.1
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -522,12 +571,28 @@
       "type": "SHORT_ANSWER",
       "text": "In the given figure, OA = OC and AB = BC.\n(a) Prove that ∠AOB = 90°\n(b) ΔAOD ≅ΔCOD\n(c) AD = CD",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 6 (quadrilateral ABCD with diagonals meeting at O) not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "triangles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-second-terminal-mathematics-280425-2025/10iii.png",
+          "kind": "FIGURE",
+          "alt": "Quadrilateral ABCD with diagonals AC and BD meeting at O; tick marks on AB, BC, OA and OC",
+          "width": 518,
+          "height": 346,
+          "page": 6,
+          "crop": {
+            "x": 0.575,
+            "y": 0.322,
+            "w": 0.29,
+            "h": 0.142
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

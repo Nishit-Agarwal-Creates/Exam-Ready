@@ -160,14 +160,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Blanks are 'related to the above figure' (grass-deer-tiger food chain on printed page 3), which is not stored.",
-      "notes": "(8) printed; '2.' label not printed."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "(8) printed; '2.' label not printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Printed page 3 (PDF p3, left half): grass -> deer -> tiger drawing directly above Q2(a); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-biology-icse-class-8-hy-biology-2019#2b",
@@ -400,14 +410,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on identifying the gland in the figure on printed page 5, which is not stored.",
-      "notes": "(1+1) printed."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "(1+1) printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Printed page 5 (PDF p2, right half), Q6(a): the gland drawing with labels A, B, C; cropped. The gland shape is clear; the structures at A and B are faint.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-biology-icse-class-8-hy-biology-2019#6aiii",
@@ -416,14 +436,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Depends on the hormone of the gland in the figure on printed page 5, which is not stored.",
-      "notes": "(1) printed."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "(1) printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Printed page 5 (PDF p2, right half), Q6(a): the gland drawing with labels A, B, C; cropped. The gland shape is clear; the structures at A and B are faint.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-biology-icse-class-8-hy-biology-2019#6b",

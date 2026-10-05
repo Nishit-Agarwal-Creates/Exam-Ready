@@ -324,12 +324,28 @@
       "type": "NUMERICAL",
       "text": "Calculate force per unit length acting on the wire B due to the current flowing in the wire A. (See Figure 2 below)",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 2 on page 3 not reproduced; the currents (20A, 75A) and separation (r = 1cm, vacuum) are given only in the figure"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "moving-charges-and-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2018-xii-physics/3b.png",
+          "kind": "FIGURE",
+          "alt": "Figure 2: two parallel wires A (75A) and B (20A) with current arrows, separated by r = 1cm in vacuum",
+          "width": 459,
+          "height": 321,
+          "page": 3,
+          "crop": {
+            "x": 0.32,
+            "y": 0.705,
+            "w": 0.25,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -559,12 +575,29 @@
       "text": "𝜀₁ and 𝜀₂ are two batteries having emf of 34V and 10V respectively and internal resistance of 1Ω and 2Ω respectively. They are connected as shown in Figure 3 below. Using Kirchhoff’s’ Laws of electrical networks, calculate the currents I₁ and I₂.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 3 on page 5 (circuit ABCDEF with 4Ω, 4Ω, 5Ω, 7Ω, 7Ω resistors) not reproduced; needed to answer",
         "Subscripts rebuilt: 𝜀₁, 𝜀₂ (missing from the text layer), I₁, I₂"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2018-xii-physics/15a.png",
+          "kind": "FIGURE",
+          "alt": "Figure 3: network ABCDEF with batteries ε1 (34V, 1Ω) and ε2 (10V, 2Ω), resistors 4Ω, 4Ω, 5Ω, 7Ω, 7Ω and currents I1, I2 and I1 + I2 marked",
+          "width": 551,
+          "height": 456,
+          "page": 5,
+          "crop": {
+            "x": 0.3,
+            "y": 0.385,
+            "w": 0.3,
+            "h": 0.192
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "15",
@@ -756,14 +789,30 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(i) The forward characteristic curve of a junction diode is shown in Figure 4 below:\n[Figure 4 not reproduced]\nCalculate the resistance of the diode at:\n(1) V = 0·5 V\n(2) I = 60 mA\n(ii) Draw separate energy band diagrams for conductors, semi-conductors and insulators and label each of them.",
+      "text": "(i) The forward characteristic curve of a junction diode is shown in Figure 4 below:\nCalculate the resistance of the diode at:\n(1) V = 0·5 V\n(2) I = 60 mA\n(ii) Draw separate energy band diagrams for conductors, semi-conductors and insulators and label each of them.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 4 on page 7 (graph of I in mA against V in volt) not reproduced; needed to answer part (i)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2018-xii-physics/22a.png",
+          "kind": "GRAPH",
+          "alt": "Figure 4: graph of I (mA) against V (Volt) for a junction diode, with I marked 0 to 60 and V marked 0·4, 0·5 and 0·6 with guide lines",
+          "width": 625,
+          "height": 528,
+          "page": 7,
+          "crop": {
+            "x": 0.26,
+            "y": 0.325,
+            "w": 0.34,
+            "h": 0.222
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "22",
@@ -775,15 +824,46 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(i) The arrangement given below represents a logic gate:\n[Figure not reproduced]\nCopy the following truth table in your answer booklet and complete it showing outputs at C and D.\n[Truth table with columns A, B, C, D; inputs (A, B) = (0, 0), (1, 0), (0, 1), (1, 1); C and D blank]\n(ii) Draw a labelled diagram of a common emitter amplifier, showing waveforms of signal voltage and output voltage.",
+      "text": "(i) The arrangement given below represents a logic gate:\nCopy the following truth table in your answer booklet and complete it showing outputs at C and D.\n(ii) Draw a labelled diagram of a common emitter amplifier, showing waveforms of signal voltage and output voltage.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Logic-gate diagram on page 7 (inputs A, B; intermediate output C; output D) not reproduced; needed to answer part (i)",
-        "Truth table on page 7 summarised in brackets (editorial), not reproduced verbatim"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2018-xii-physics/22b.png",
+          "kind": "FIGURE",
+          "alt": "Logic gate arrangement: inputs A and B into a first gate whose output C feeds both inputs of a second gate with output D",
+          "width": 716,
+          "height": 104,
+          "page": 7,
+          "crop": {
+            "x": 0.28,
+            "y": 0.677,
+            "w": 0.39,
+            "h": 0.044
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/isc-2018-xii-physics/22b-2.png",
+          "kind": "TABLE",
+          "alt": "Truth table with columns A, B, C and D; rows (A, B) = (0, 0), (1, 0), (0, 1), (1, 1); columns C and D blank",
+          "width": 606,
+          "height": 249,
+          "page": 7,
+          "crop": {
+            "x": 0.3,
+            "y": 0.765,
+            "w": 0.33,
+            "h": 0.105
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

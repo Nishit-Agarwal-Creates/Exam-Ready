@@ -48,14 +48,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 2 gives the path A-B-C and the lengths the options refer to.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: triangle A-B-C with 5 m, 4 m, 3 m, 37° and force F cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#1iv",
@@ -142,16 +152,26 @@
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
-      "options": "MISSING",
+      "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Options (a)-(d) are wiring diagrams on page 3 and are not in the pack.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: the four option wiring diagrams (a)-(d) cropped as one figure; options point to them.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#1x",
@@ -240,14 +260,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page 5 figure shows the lens, the converging point X and where the glass block is inserted; needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: lens, converging point X and the glass block cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#2ia",
@@ -263,7 +293,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [3] covers (a) and (b); 2+1 split not printed but sums to 3. Raised mass numbers after O, C, N, He confirmed with pdfplumber on page 5."
+      "notes": "Printed [3] covers (a) and (b); 2+1 split not printed but sums to 3. Raised mass numbers after O, C, N, He confirmed with pdfplumber on page 5.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: a single [3] is printed beside 2(i)(a) for parts (a) and (b); no per-item marks, recorded as GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#2ib",
@@ -272,14 +312,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The lever (bottle opener) is shown only in the picture on page 5.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: picture of the bottle opener on the bottle cropped. Page 5: a single [3] is printed beside 2(i)(a) for parts (a) and (b); no per-item marks, recorded as GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#2iia",
@@ -320,14 +371,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Beam diagram on page 6 holds the distances needed to calculate F.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: beam diagram (pivot O, C.G., 120 N, 0.20 m, 0.80 m, F) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#2iv",
@@ -491,19 +552,29 @@
     },
     {
       "key": "icse-2024-x-physics#4ii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The electromagnetic-spectrum table on page 7 (which places A) is not in the pack.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: electromagnetic-spectrum table with A cropped. Wording of 4(ii) and (a)-(c) matches the page; the only missing part was the table, now cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#4iii",
@@ -512,14 +583,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Prism diagram on page 7 holds the angles needed for part (b).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: prism ABC with the blue ray and 133° cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#5i",
@@ -560,14 +641,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Part (a) asks to copy and complete the prism diagram on page 8.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: prism with ray PQ, normal NN' and 45° cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#6i",
@@ -592,14 +683,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page 9 figure shows the paths and relative peak heights needed for part (a).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 9: track with Path 1, Path 2, peaks X, Y, Z and marbles A, B cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#6iii",
@@ -608,14 +709,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Part (a) asks to copy and complete the two-pulley diagram on page 9.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 9: the two pulleys to be connected (upper fixed, lower with load L) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#7i",
@@ -624,14 +735,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Distances to the cliffs (170 m, 160 m) are given only in the page 9 diagram.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 9: cliffs A and B with 170 m and 160 m cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#7ii",
@@ -688,14 +809,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Transformer type depends on the coil turns shown only in the page 11 diagram.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 11: transformer diagram (iron core, primary coil, secondary coil) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#8iii",
@@ -704,14 +835,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit diagram on page 11 holds the resistor values and arrangement.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 11: circuit with 10, 6, 12, 4 Ω resistors and 4 V cell cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-physics#9i",
@@ -752,14 +893,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Part (b) needs the page 12 diagram (compass positions P1, P2 and battery polarity).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 12: circuit with XY, cardboard ABCD, P, R, D.C supply, and compass positions P1, P2 cropped.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

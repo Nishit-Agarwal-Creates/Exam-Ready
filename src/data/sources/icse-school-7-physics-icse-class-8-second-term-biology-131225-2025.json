@@ -34,25 +34,128 @@
   "questions": [
     {
       "number": "14",
-      "part": null,
+      "part": "i)",
       "choiceGroup": null,
       "page": 4,
       "section": "C",
       "sectionTitle": "SECTION C PHYSICS (25 Marks)",
       "marksSource": "PRINTED",
       "hasFigure": false,
-      "extractionIssues": [
-        "Only a group total is printed; the group is kept as one entry with that total",
-        "Five MCQs kept together; their options are in the text, not in the options field",
-        "Group total [6] printed for five items; kept as printed",
-        "Items span two chapters (sound, light)"
-      ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "mappingStatus": "AI_SUGGESTED",
-      "marks": 6,
+      "marks": 0,
       "type": "MCQ",
-      "text": "Choose the Correct alternatives. Write the complete sentence against the correct question number.\ni) The unit of quantity that describes pitch of sound :\na) Second b) Metre c) Hertz d) Metres/second\nii) Amplitude of a sound wave determines which characteristic of sound :\na) Loudness b) Pitch c) Quality d) Timbre\niii) If a material allows most of the light that falls on it, to pass through it, that material is said to be:\na) Transparent b) Opaque c) White d) Black\niv) The angle between the incident ray and the normal at the point of incidence is called :\na) Angle of emergence b) Angle of incidence c) Angle of deviation d) Angle of reflection\nv) The interchange between left and right between and object and its image is called :\na) reflection b) refraction c) lateral inversion d) scattering",
-      "chapter": "sound"
+      "text": "Choose the Correct alternatives. Write the complete sentence against the correct question number.\ni) The unit of quantity that describes pitch of sound :",
+      "chapter": "sound",
+      "options": [
+        "Second",
+        "Metre",
+        "Hertz",
+        "Metres/second"
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q14: [6] for the group of 5",
+      "extractionIssues": []
+    },
+    {
+      "number": "14",
+      "part": "ii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "C",
+      "sectionTitle": "SECTION C PHYSICS (25 Marks)",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marks": 0,
+      "type": "MCQ",
+      "text": "Choose the Correct alternatives. Write the complete sentence against the correct question number.\nii) Amplitude of a sound wave determines which characteristic of sound :",
+      "chapter": "sound",
+      "options": [
+        "Loudness",
+        "Pitch",
+        "Quality",
+        "Timbre"
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q14: [6] for the group of 5",
+      "extractionIssues": []
+    },
+    {
+      "number": "14",
+      "part": "iii)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "C",
+      "sectionTitle": "SECTION C PHYSICS (25 Marks)",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marks": 0,
+      "type": "MCQ",
+      "text": "Choose the Correct alternatives. Write the complete sentence against the correct question number.\niii) If a material allows most of the light that falls on it, to pass through it, that material is said to be:",
+      "chapter": "light-energy",
+      "options": [
+        "Transparent",
+        "Opaque",
+        "White",
+        "Black"
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q14: [6] for the group of 5",
+      "extractionIssues": []
+    },
+    {
+      "number": "14",
+      "part": "iv)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "C",
+      "sectionTitle": "SECTION C PHYSICS (25 Marks)",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marks": 0,
+      "type": "MCQ",
+      "text": "Choose the Correct alternatives. Write the complete sentence against the correct question number.\niv) The angle between the incident ray and the normal at the point of incidence is called :",
+      "chapter": "light-energy",
+      "options": [
+        "Angle of emergence",
+        "Angle of incidence",
+        "Angle of deviation",
+        "Angle of reflection"
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q14: [6] for the group of 5",
+      "extractionIssues": []
+    },
+    {
+      "number": "14",
+      "part": "v)",
+      "choiceGroup": null,
+      "page": 4,
+      "section": "C",
+      "sectionTitle": "SECTION C PHYSICS (25 Marks)",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marks": 0,
+      "type": "MCQ",
+      "text": "Choose the Correct alternatives. Write the complete sentence against the correct question number.\nv) The interchange between left and right between and object and its image is called :",
+      "chapter": "light-energy",
+      "options": [
+        "reflection",
+        "refraction",
+        "lateral inversion",
+        "scattering"
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q14: [6] for the group of 5",
+      "extractionIssues": []
     },
     {
       "number": "15",
@@ -81,15 +184,32 @@
       "marksSource": "PRINTED",
       "hasFigure": true,
       "extractionIssues": [
-        "Only a group total is printed; the group is kept as one entry with that total",
-        "Figure on page 4 (bell jar connected to vacuum pump) not reproduced"
+        "Only a group total is printed; the group is kept as one entry with that total"
       ],
       "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "marks": 3,
       "type": "SHORT_ANSWER",
       "text": "Observe and explain :\nA mobile phone is placed in a glass bell jar as shown in the figure below. When the phone starts ringing, it is heard loudly outside the jar. The air from the glass jar is then pumped out through a tube as shown in the image.\n(a) What will be your observation as the mobile phone rings in the glass jar while the air is slowly being pumped out of it?\n(b) Explain your answer to part (a)\n(c) Through which of the mediums does sound travel the fastest?",
-      "chapter": "sound"
+      "chapter": "sound",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-physics-icse-class-8-second-term-biology-131225-2025/16.png",
+          "kind": "FIGURE",
+          "alt": "Bell jar on a base plate with a mobile phone inside; a tube from the base labelled 'To vacuum pump'; caption 'Bell jar'",
+          "width": 384,
+          "height": 281,
+          "page": 4,
+          "crop": {
+            "x": 0.635,
+            "y": 0.695,
+            "w": 0.215,
+            "h": 0.115
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "17",
@@ -101,35 +221,70 @@
       "marksSource": "PRINTED",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 5 (point P, plane mirror MM1 and rays) not reproduced",
-        "Line is blurred on the scan; marks bracket read as [2]",
-        "Subscripts flattened: MM1"
+        "Line is blurred on the scan; marks bracket read as [2]"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "marks": 2,
       "type": "SHORT_ANSWER",
-      "text": "Draw a diagram of the image of a point 'P' formed by a plane mirror, MM1",
-      "chapter": "light-energy"
+      "text": "Draw a diagram of the image of a point 'P' formed by a plane mirror, MM₁",
+      "chapter": "light-energy",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-physics-icse-class-8-second-term-biology-131225-2025/17.png",
+          "kind": "FIGURE",
+          "alt": "Vertical plane mirror MM₁ (M at top, M₁ at bottom) with point P to its left and two rays from P striking the mirror",
+          "width": 197,
+          "height": 475,
+          "page": 5,
+          "crop": {
+            "x": 0.48,
+            "y": 0.095,
+            "w": 0.11,
+            "h": 0.195
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "18",
-      "part": "i) and ii)",
+      "part": "i)",
       "choiceGroup": null,
       "page": 5,
       "section": "C",
       "sectionTitle": "SECTION C PHYSICS (25 Marks)",
       "marksSource": "PRINTED",
       "hasFigure": false,
-      "extractionIssues": [
-        "Each part is printed [3½]; the two parts are kept together so the marks are a whole number (7)"
-      ],
       "confidence": "HIGH",
       "mappingStatus": "AI_SUGGESTED",
-      "marks": 7,
+      "marks": 0,
       "type": "NUMERICAL",
-      "text": "Numericals [Show all your calculations and workings] :\ni) A man claps his hand at echo point in Mahableshwar and hears the echo of his clap after 4 seconds. If the speed of sound in his given environment was 330m/s, calculate the distance of the mountain from the man.\nii) A dolphin sends ultrasonic waves as it swims through the ocean. These waves are reflected from a block of ice in its path. If the ultrasonic sound wave takes 6 seconds to travel from the dolphin to the ice block and back, what is the distance at which the block of ice floats? (If the speed of sound water is 1500m/s).",
-      "chapter": "sound"
+      "text": "Numericals [Show all your calculations and workings] :\ni) A man claps his hand at echo point in Mahableshwar and hears the echo of his clap after 4 seconds. If the speed of sound in his given environment was 330m/s, calculate the distance of the mountain from the man.",
+      "chapter": "sound",
+      "marksStatus": "FRACTIONAL",
+      "marksNote": "3½",
+      "extractionIssues": []
+    },
+    {
+      "number": "18",
+      "part": "ii)",
+      "choiceGroup": null,
+      "page": 5,
+      "section": "C",
+      "sectionTitle": "SECTION C PHYSICS (25 Marks)",
+      "marksSource": "PRINTED",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "mappingStatus": "AI_SUGGESTED",
+      "marks": 0,
+      "type": "NUMERICAL",
+      "text": "Numericals [Show all your calculations and workings] :\nii) A dolphin sends ultrasonic waves as it swims through the ocean. These waves are reflected from a block of ice in its path. If the ultrasonic sound wave takes 6 seconds to travel from the dolphin to the ice block and back, what is the distance at which the block of ice floats? (If the speed of sound water is 1500m/s).",
+      "chapter": "sound",
+      "marksStatus": "FRACTIONAL",
+      "marksNote": "3½",
+      "extractionIssues": []
     },
     {
       "number": "18",

@@ -603,19 +603,29 @@
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-hy-mathematics-2-300524-2024#54",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The three solids are only shown in the page-3 figure (cube, tetrahedron, hexagonal prism); their names are not in the stored text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Scanned page 2 prints ‘4:- Verify Euler’s formula for the following solids.’ at the foot of the page; the solids (a), (b), (c) are printed at the top of page 3; cropped. The stored text matches the printed words; the solids are now supplied by the figure.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-hy-mathematics-2-300524-2024#55",
@@ -624,14 +634,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The labelled triangular prism ABCDEF on page 3 is needed to answer.",
-      "notes": "'interest' is the paper's own wording."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "'interest' is the paper's own wording.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Scanned page 3: the triangular prism printed under Q5(5); cropped (grainy scan, labels legible).",
+        "confidence": "MEDIUM"
+      }
     }
   ]
 }

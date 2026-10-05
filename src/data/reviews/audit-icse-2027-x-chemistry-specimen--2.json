@@ -1,0 +1,16 @@
+{
+  "pack": "icse-2027-x-chemistry-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF (page renders with grid, zoomed crops, pdftotext -layout and -raw) and the draft marking scheme printed in the same PDF (pages 17-21); recovered figures opened and compared with the source page.",
+  "checks": [
+    { "key": "icse-2027-x-chemistry-specimen#1v", "agree": true, "reason": "", "round": "p51" },
+    { "key": "icse-2027-x-chemistry-specimen#2i", "agree": true, "reason": "", "round": "p51" },
+    { "key": "icse-2027-x-chemistry-specimen#2iic", "agree": false, "reason": "Text, marks and answer match, but zinc oxide reacting with caustic alkali tests the amphoteric nature of oxides, which the official summary places under 'analytical-chemistry', not 'metallurgy' (which covers ores and the extraction of aluminium).", "round": "p51" },
+    { "key": "icse-2027-x-chemistry-specimen#2iie", "agree": true, "reason": "", "round": "p51" },
+    { "key": "icse-2027-x-chemistry-specimen#2iv", "agree": true, "reason": "", "round": "p51" },
+    { "key": "icse-2027-x-chemistry-specimen#2va", "agree": true, "reason": "", "round": "p51" },
+    { "key": "icse-2027-x-chemistry-specimen#5iii", "agree": true, "reason": "", "round": "p51" },
+    { "key": "icse-2027-x-chemistry-specimen#7ii", "agree": true, "reason": "", "round": "p51" },
+    { "key": "icse-2027-x-chemistry-specimen#8iii", "agree": true, "reason": "", "round": "p51" }
+  ]
+}

@@ -558,12 +558,28 @@
       "type": "SHORT_ANSWER",
       "text": "(a) Obtain the condition of balance of a Wheatstone bridge.\n(b) Find net resistance of the network of resistors connected between A and B, as shown in figure.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (resistor network between A and B) on page 15 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-physics-55-1-1/22b.png",
+          "kind": "FIGURE",
+          "alt": "Resistor network between A and B with junctions M, O, P, N: 2R from A to M, R from M to O, R from O to P, R from P to N, 3R from N to B, an R joining M to P above, and an R joining O to N below",
+          "width": 821,
+          "height": 308,
+          "page": 15,
+          "crop": {
+            "x": 0.24,
+            "y": 0.405,
+            "w": 0.46,
+            "h": 0.122
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "23",
@@ -612,15 +628,30 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "An ac voltage Vi = 12 sin (100 t) V is applied between points A and B in a network of two ideal diodes and three resistors as shown in figure. During the positive half-cycle of the input voltage Vi supplied to the network.\n(a) Identify which of the two diodes will conduct and why ?\n(b) Redraw an equivalent circuit diagram to show the flow of current.\n(c) Calculate the output voltage drops V0 across the three resistors when the input voltage attains its peak value.",
+      "text": "An ac voltage Vᵢ = 12 sin (100 πt)V is applied between points A and B in a network of two ideal diodes and three resistors as shown in figure. During the positive half-cycle of the input voltage Vᵢ supplied to the network.\n(a) Identify which of the two diodes will conduct and why ?\n(b) Redraw an equivalent circuit diagram to show the flow of current.\n(c) Calculate the output voltage drops V₀ across the three resistors when the input voltage attains its peak value.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Greek letter ω not extracted in 'Vi = 12 sin (100 t) V', almost certainly 'sin (100πt)'; kept as extracted, see page 17",
-        "Figure (diode/resistor network between A and B) on page 17 not reproduced; resistor values are not stated in the text and are needed to answer part (c)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-physics-55-1-1/25.png",
+          "kind": "FIGURE",
+          "alt": "Circuit: ac source Vi between A and B; diode D1 between P and A, diode D2 between A and R; 1 kΩ between P and R, 2 kΩ between P and B, 3 kΩ between R and B",
+          "width": 580,
+          "height": 518,
+          "page": 17,
+          "crop": {
+            "x": 0.145,
+            "y": 0.355,
+            "w": 0.325,
+            "h": 0.205
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "26",
@@ -666,16 +697,32 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "(a) State the two conditions under which total internal reflection occurs.\n(b) A transparent container contains layers of three immiscible transparent liquids A, B and C of refractive indices n, (4/3)n and (3/2)n, respectively. A laser beam is incident at the interface between A and B at an angle  as shown in figure. Prove that the beam does not enter region C at all for sin  > (3/2).",
+      "text": "(a) State the two conditions under which total internal reflection occurs.\n(b) A transparent container contains layers of three immiscible transparent liquids A, B and C of refractive indices n, (3/4)n and (2/3)n, respectively. A laser beam is incident at the interface between A and B at an angle θ as shown in figure. Prove that the beam does not enter region C at all for sin θ ≥ 2/3.",
       "hasFigure": true,
       "extractionIssues": [
-        "Notation rebuilt from the PDF layout (fractions 43 → 4/3 and 32 → 3/2 for the refractive indices); check against the PDF",
-        "Greek letter θ (angle of incidence) not extracted, appears as a blank before 'as shown in figure' and before '> (3/2)'; kept as extracted, see page 19",
-        "Figure (three liquid layers A, B, C with laser beam) on page 19 not reproduced; angle θ is defined only in the figure"
+        "Refractive indices and the condition restored from the page image (stacked fractions 3/4, 2/3; θ; ≥)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "ray-optics-and-optical-instruments",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-physics-55-1-1/28.png",
+          "kind": "FIGURE",
+          "alt": "Container with three liquid layers: A (refractive index n) at the bottom, B (3/4 n) in the middle, C (2/3 n) on top; a ray in A meets the A-B interface at angle θ to the normal",
+          "width": 411,
+          "height": 359,
+          "page": 19,
+          "crop": {
+            "x": 0.29,
+            "y": 0.255,
+            "w": 0.23,
+            "h": 0.142
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "29",
@@ -709,17 +756,36 @@
       "marks": 4,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "A researcher performs an experiment on photo-electric effect using two metals A and B with unknown work functions. She illuminates the surfaces of A and B with monochromatic radiation of various frequencies and records the value of corrosponding stopping potentials (Vs). The graph shows the variation of stopping potential (Vs) with the frequency of incident radiation (ν) for metals A and B.\n\n(I) From the graph, the work functions of A and B are (h is Planck’s constant and e value of charge on an electron)\n(A) ν1 and ν2\n(B) V1 and V2\n(C) hν1 and hν2\n(D) hν1/e and hν2/e\n\n(II) For radiation of frequency ν > ν2 incident on the surfaces of A and B, the maximum kinetic energy of ejected electron is\n(A) greater for metal A because it has a smaller work function.\n(B) greater for metal B because it has a larger work function.\n(C) greater for metal B because it has higher threshold frequency.\n(D) the same for both metal A and metal B because it is independent of work functions of metals.\n\n(III) If the intensity of the incident radiation for both metals A and B, is doubled keeping its frequency constant, then\n(A) the slope of the parallel lines will increase.\n(B) the slope of the parallel lines will decrease.\n(C) the threshold frequencies for both A and B will decrease.\n(D) the slope of the parallel lines will not change but more electrons will be emitted per second.\n\n(IV) The threshold frequency for a metal surface is ν0. If the radiation of frequency 3ν0 illuminates the surface, the maximum kinetic energy (KE) of photoelectrons is E1. If the frequency were increased to 6ν0, the maximum KE of the photoelectrons becomes E2. Then E1/E2 equals\n(A) 1/3\n(B) 1/2\n(C) 2/5\n(D) 3/4\nOR\nLet m be the slope of the graph line for metal B. If e is the value of electron charge, then Planck’s constant ‘h’ is given by\n(A) me\n(B) me1\n(C) em\n(D) me",
+      "text": "A researcher performs an experiment on photo-electric effect using two metals A and B with unknown work functions. She illuminates the surfaces of A and B with monochromatic radiation of various frequencies and records the value of corrosponding stopping potentials (Vₛ). The graph shows the variation of stopping potential (Vₛ) with the frequency of incident radiation (ν) for metals A and B.\n\n(I) From the graph, the work functions of A and B are (h is Planck’s constant and e value of charge on an electron)\n(A) ν₁ and ν₂\n(B) V₁ and V₂\n(C) hν₁ and hν₂\n(D) hν₁/e and hν₂/e\n\n(II) For radiation of frequency ν > ν₂ incident on the surfaces of A and B, the maximum kinetic energy of ejected electron is\n(A) greater for metal A because it has a smaller work function.\n(B) greater for metal B because it has a larger work function.\n(C) greater for metal B because it has higher threshold frequency.\n(D) the same for both metal A and metal B because it is independent of work functions of metals.\n\n(III) If the intensity of the incident radiation for both metals A and B, is doubled keeping its frequency constant, then\n(A) the slope of the parallel lines will increase.\n(B) the slope of the parallel lines will decrease.\n(C) the threshold frequencies for both A and B will decrease.\n(D) the slope of the parallel lines will not change but more electrons will be emitted per second.\n\n(IV) The threshold frequency for a metal surface is ν₀. If the radiation of frequency 3ν₀ illuminates the surface, the maximum kinetic energy (KE) of photoelectrons is E₁. If the frequency were increased to 6ν₀, the maximum KE of the photoelectrons becomes E₂. Then E₁/E₂ equals\n(A) 1/3\n(B) 1/2\n(C) 2/5\n(D) 3/4\nOR\nLet m be the slope of the graph line for metal B. If e is the value of electron charge, then Planck’s constant ‘h’ is given by\n(A) me\n(B) 1/(me)\n(C) m/e\n(D) e/m",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure (graph of stopping potential Vs against frequency ν for metals A and B) on pages 23-27 not reproduced; sub-parts (I) and (IV) cannot be answered without it",
         "Notation rebuilt from the PDF layout (fraction hν1 e / hν2 e → hν1/e and hν2/e in option (I)(D)); check against the PDF",
         "Text reordered and Greek letter ν reinserted in reconstructing sub-part (IV): the PDF layout scrambled 'increased to 60, E1 the maximum KE ... becomes E2. Then   equals E2' into 'increased to 6ν0, ... becomes E2. Then E1/E2 equals'; check against the PDF, page 27",
-        "Internal choice ('OR') in sub-part (IV) is kept inline within this case-based question's text, not split into a separate entry, as it applies to only one of the four sub-parts"
+        "Internal choice ('OR') in sub-part (IV) is kept inline within this case-based question's text, not split into a separate entry, as it applies to only one of the four sub-parts",
+        "OR-alternative options rebuilt from the page image (p27): stacked fractions 1/(me), m/e, e/m",
+        "Subscripts (ν₁, ν₂, ν₀, E₁, E₂, V₁, V₂, Vₛ) restored as printed"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "dual-nature-of-radiation-and-matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-xii-physics-55-1-1/30.png",
+          "kind": "GRAPH",
+          "alt": "Graph of stopping potential VS against frequency ν: two parallel straight lines A and B cutting the ν-axis at ν1 and ν2, extended (dashed) to meet the VS-axis at V1 and V2 below O",
+          "width": 589,
+          "height": 581,
+          "page": 23,
+          "crop": {
+            "x": 0.31,
+            "y": 0.58,
+            "w": 0.33,
+            "h": 0.23
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "31",

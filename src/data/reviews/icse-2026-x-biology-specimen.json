@@ -560,14 +560,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of the male reproductive tract is needed to identify which lettered structure on the picture each function (a)-(f) refers to; not reproduced, so the question is not answerable from text alone.",
-      "notes": "officialAnswer text itself matches marking scheme page 1 of 5 exactly (Interstitial cells / Efferent Ducts / Epididymis / Vas deferens / Seminiferous tubules)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "officialAnswer text itself matches marking scheme page 1 of 5 exactly (Interstitial cells / Efferent Ducts / Epididymis / Vas deferens / Seminiferous tubules).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 9: the diagram fills the Structure column of the table in 2 (v); cropped complete with all printed labels legible.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-biology-specimen#3i",
@@ -647,7 +657,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_NOT_PRESENT"
+        ],
+        "evidence": "Page 10: 3 (v) is printed as text only (\"Draw a neat, labelled diagram of a cross section of an Artery and a Vein.\" [3]); no figure is printed or needed; stored text matches the page.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-biology-specimen#4i",
@@ -720,14 +740,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Parts (a) and (b) ask about 'the changes shown in the above picture'; without the picture there is no way to determine which hormonal/tropic change is depicted, so (a)/(b) can't be verified against the question as posed to a student.",
-      "notes": "officialAnswer text matches marking scheme page 3 of 5 exactly (Abscisic acid/Ethylene, Auxin, Peas/Grapes/Ivy); part (c) alone is answerable from text."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "officialAnswer text matches marking scheme page 3 of 5 exactly (Abscisic acid/Ethylene, Auxin, Peas/Grapes/Ivy); part (c) alone is answerable from text.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 11: picture printed in a box under 4 (v), above parts (a)-(c); cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-biology-specimen#5i",
@@ -1015,7 +1045,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_NOT_PRESENT"
+        ],
+        "evidence": "Page 14: 7 (v) is printed as text only (\"Draw a neat, labelled diagram to show the internal structure of a root hair.\" [3]); no figure is printed or needed; stored text matches the page.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-biology-specimen#8i",

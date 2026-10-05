@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 // @ts-expect-error plain ESM script without type declarations
-import { FLAT_POWER, decide } from "../scripts/review/consolidate.mjs";
+import { FLAT_POWER, decide, pickAuditCheck } from "../scripts/review/consolidate.mjs";
 import { coverageStatus } from "../src/lib/coverage-status.ts";
 import { officialKind } from "../src/lib/provenance.ts";
 
@@ -94,4 +94,33 @@ test("a whole class is measured against the 600-question goal", () => {
   assert.equal(coverageStatus({ verifiedPyq: 0, officialSample: 177, community: 0 }, "class").tone, "limited");
   assert.equal(coverageStatus({ verifiedPyq: 100, officialSample: 150, community: 0 }, "class").tone, "growing");
   assert.equal(coverageStatus({ verifiedPyq: 400, officialSample: 250, community: 0 }, "class").tone, "strong");
+});
+
+test("a recovered figure publishes only with a real source-page crop attached", () => {
+  const recovered = { ...clean, figure: "RECOVERED" };
+  const crop = { src: "/figures/p/3.png", page: 3, crop: { x: 0.1, y: 0.2, w: 0.5, h: 0.3 }, method: "SOURCE_PAGE_CROP" };
+  assert.equal(decide({ ...item, figures: [crop] }, recovered, source, valid).state, "AUTO_VERIFIED");
+  assert.equal(decide(item, recovered, source, valid).state, "HOLD_MISSING_FIGURE");
+  assert.equal(decide({ ...item, figures: [{ ...crop, method: "REDRAWN" }] }, recovered, source, valid).state, "HOLD_MISSING_FIGURE");
+  assert.equal(decide(item, { ...clean, figure: "ESSENTIAL_MISSING" }, source, valid).state, "HOLD_MISSING_FIGURE");
+});
+
+test("audit disputes win unless a recovered question was re-audited later", () => {
+
+  const checks = [
+    { key: "k", agree: false, order: 1 },
+    { key: "k", agree: true, order: 2, round: "p51" },
+  ];
+  assert.equal(pickAuditCheck(checks, false).agree, false);
+  assert.equal(pickAuditCheck(checks, true).agree, true);
+  // A recovered question is judged only on re-audit checks made after the recovery.
+  assert.equal(pickAuditCheck([{ key: "k", agree: true, order: 1 }], true), null);
+  assert.equal(pickAuditCheck([{ key: "k", agree: true, order: 2, round: "p51" }, { key: "k", agree: false, order: 3, round: "p51" }], true).agree, false);
+  // A question changed again by the audit fix round is judged only by checks made after the fix.
+  assert.equal(pickAuditCheck(checks, "p51-fix"), null);
+  assert.equal(pickAuditCheck([...checks, { key: "k", agree: false, order: 3, round: "p51-fix" }], "p51-fix").agree, false);
+  assert.equal(pickAuditCheck([...checks, { key: "k", agree: false, order: 3, round: "p51-fix" }], "p51").agree, false);
+  // A question changed by the final fix round is judged only by the final audit round.
+  assert.equal(pickAuditCheck([...checks, { key: "k", agree: true, order: 3, round: "p51-fix" }], "p51-final"), null);
+  assert.equal(pickAuditCheck([...checks, { key: "k", agree: true, order: 4, round: "p51-final" }], "p51-final").agree, true);
 });

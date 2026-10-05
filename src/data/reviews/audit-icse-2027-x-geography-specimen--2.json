@@ -1,0 +1,37 @@
+{
+  "pack": "icse-2027-x-geography-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the marking scheme / answer key, and the Phase 5.1 recovered figures against grid renders of the source pages.",
+  "checks": [
+    {
+      "key": "icse-2027-x-geography-specimen#7iv",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-geography-specimen#8ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-geography-specimen#8iv",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-geography-specimen#9ivab",
+      "agree": false,
+      "reason": "Only the group total [3] is printed for Question 9(iv) (a)-(c); the 2 marks stored for the combined (a)-(b) item are an inferred split (the review notes admit the scheme does not tag it), yet marksSource says PRINTED and no marksNote quotes the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-geography-specimen#12i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

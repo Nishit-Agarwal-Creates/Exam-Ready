@@ -976,14 +976,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The sample Bill of Exchange image on page 24 is needed to answer (drawee, dates, amount).",
-      "notes": "Key p47 matches."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key p47 matches.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 24: sample Bill of Exchange image printed under Q61 heading, above the source credit line",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-accountancy#62",

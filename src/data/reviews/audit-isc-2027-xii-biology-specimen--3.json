@@ -1,0 +1,13 @@
+{
+  "pack": "isc-2027-xii-biology-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout and -raw plus page renders (scripts/recovery/page.py grid/crop), and the marking scheme where one exists; figure PNGs opened and compared with the page.",
+  "checks": [
+    {
+      "key": "isc-2027-xii-biology-specimen#12",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "pack": "cbse-sqp-2025-26-x-mathematics-standard",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the marking scheme, and page renders/crops of the source pages for every recovered figure.",
+  "checks": [
+    {
+      "key": "cbse-sqp-2025-26-x-mathematics-standard#7",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-mathematics-standard#11",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-mathematics-standard#25",
+      "agree": false,
+      "reason": "The recovered figure is cut off at the right edge: vertex B of the triangle and its label B (printed on page 4) are missing from the crop, so the figure is incomplete.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-mathematics-standard#37",
+      "agree": false,
+      "reason": "The stored official answer for (iii)(A) and (iii)(B) contains editorial placeholders ('[value of x did not extract]', '[did not extract]') instead of the values the marking scheme prints, so it does not reproduce the scheme.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-x-mathematics-standard#38",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

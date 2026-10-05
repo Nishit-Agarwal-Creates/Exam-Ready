@@ -1,0 +1,43 @@
+{
+  "pack": "cbse-sqp-2025-26-xii-physics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout and -raw plus page renders (scripts/recovery/page.py grid/crop), and the marking scheme where one exists; figure PNGs opened and compared with the page.",
+  "checks": [
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#25",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#29I",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#29II",
+      "agree": false,
+      "reason": "The marking scheme (MS page 10) prints '(II) (D) 11V, 1.96Ma' and 'Id = V0/R = 11/5.6 × 10–3 = 1.96 Ma', but the stored official answer silently corrects both 'Ma' to 'mA' (and '×' to 'x'), so the answer does not reproduce the scheme as printed.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#29III",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#29IV",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-physics#31II",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

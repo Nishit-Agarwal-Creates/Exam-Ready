@@ -288,14 +288,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph on page 3 (curves a and b, dotted line) is needed to answer.",
-      "notes": "Page 3 has drawn curves/lines plus rotated axis label 'Population Density (N)'; graph labels are not in the pack text."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 3 has drawn curves/lines plus rotated axis label 'Population Density (N)'; graph labels are not in the pack text.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p3: graph under Question 3.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2020-xii-biology#4",

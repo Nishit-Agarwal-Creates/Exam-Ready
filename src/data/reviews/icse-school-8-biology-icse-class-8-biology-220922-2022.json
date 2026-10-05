@@ -304,14 +304,24 @@
       "marks": "MISMATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "No legible printed mark (marks 0 placeholder) and the brain diagram on page 4 is needed.",
-      "notes": "Diagram labels are a, b, c while the text says 1, 2, 3; only a '[1/2]' that looks hand-marked appears beside item i."
+      "reason": "No legible printed mark for 6(b) (an unclear [½] beside item i. looks hand-marked); figure now recovered",
+      "notes": "Diagram labels are a, b, c while the text says 1, 2, 3; only a '[1/2]' that looks hand-marked appears beside item i.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Scanned page 4: the diagram printed under Q6(b) with label lines a, b and c; cropped. The only mark beside item i. is an unclear [½] that looks hand-marked, so marks are left unresolved.",
+        "confidence": "MEDIUM"
+      }
     }
   ]
 }

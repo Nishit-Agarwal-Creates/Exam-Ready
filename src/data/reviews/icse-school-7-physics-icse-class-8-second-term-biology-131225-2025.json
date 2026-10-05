@@ -10,20 +10,144 @@
   },
   "questions": [
     {
-      "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#14",
+      "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#14i",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
-      "options": "MISSING",
+      "options": "MATCH",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Five MCQs in one entry span sound and light; options only inside text.",
-      "notes": "Q14 [6] page 4. Text checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 4: Q14 i)-v), each with options a)-d); only [6] printed for the group.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#14ii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 4: Q14 i)-v), each with options a)-d); only [6] printed for the group.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#14iii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 4: Q14 i)-v), each with options a)-d); only [6] printed for the group.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#14iv",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 4: Q14 i)-v), each with options a)-d); only [6] printed for the group.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#14v",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 4: Q14 i)-v), each with options a)-d); only [6] printed for the group.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#15",
@@ -48,14 +172,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Q16 [3] page 4; bell-jar setup fully described in the text. Text checked against page image."
+      "notes": "Q16 [3] page 4; bell-jar setup fully described in the text. Text checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: bell-jar figure printed to the right of Q16 (a); cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#17",
@@ -63,18 +197,29 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page 5 figure fixes the position of point P relative to mirror MM1; marks bracket blurred.",
-      "notes": "Q17 page 5; MM1 subscript flattened. Text checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Q17 page 5; MM1 subscript flattened. Text checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 5: figure printed under Q17 shows P, mirror M-M₁ and two incident rays; cropped complete. Marks bracket reads [2]; 'MM₁' subscript visible in the figure label.",
+        "confidence": "MEDIUM"
+      }
     },
     {
-      "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#18iandii",
+      "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#18i",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
@@ -87,7 +232,45 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Q18 i) [3½] + ii) [3½] printed on page 5; kept together as 7 (exact sum, no rounding). Text checked against page image."
+      "notes": "Audit dispute resolved: [3½] printed against this part alone.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: [3½] printed separately against 18 i) and against 18 ii).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#18ii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Audit dispute resolved: [3½] printed against this part alone.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: [3½] printed separately against 18 i) and against 18 ii).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-8-second-term-biology-131225-2025#18iii",

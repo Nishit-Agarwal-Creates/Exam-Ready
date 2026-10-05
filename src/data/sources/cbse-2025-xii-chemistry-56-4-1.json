@@ -138,16 +138,32 @@
         "5"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Haworth structure diagram of the carbohydrate on page 5 not reproduced in the text layer; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(A) / 1",
         "correctOption": 0
       },
       "chapter": "biomolecules",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-chemistry-56-4-1/4.png",
+          "kind": "FIGURE",
+          "alt": "Haworth ring structure of a carbohydrate with a ring oxygen O, a CH2OH group, H and OH groups, and carbon atoms numbered 1 to 5",
+          "width": 487,
+          "height": 405,
+          "page": 5,
+          "crop": {
+            "x": 0.17,
+            "y": 0.255,
+            "w": 0.31,
+            "h": 0.195
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -575,15 +591,32 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Write the structures of the main products of the following reactions :\n(a) [reaction scheme — image, not reproduced]\n(b) 6 (CH3)3C–OH + 2Al →",
+      "text": "Write the structures of the main products of the following reactions :\n(a) [reaction (a) is printed as a structural formula; see the figure]\n(b) 6 (CH₃)₃C–OH + 2Al →",
       "hasFigure": true,
       "extractionIssues": [
-        "Reaction (a) is a structural-formula reaction scheme (image) on page 10/11, not reproduced in the text layer; that part cannot be answered without it",
         "Structural formula in (b) rebuilt from a vertical skeletal drawing split across three lines in the PDF layout (three CH3 branches around a central C–OH); read as (CH3)3C–OH (tert-butanol); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "alcohols-phenols-and-ethers",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-chemistry-56-4-1/20.png",
+          "kind": "FIGURE",
+          "alt": "Reaction (a): a six-membered ring with =O and a CH2CH2–C(=O)–O–CH3 side chain, with NaBH4 written over the reaction arrow",
+          "width": 738,
+          "height": 192,
+          "page": 11,
+          "crop": {
+            "x": 0.175,
+            "y": 0.672,
+            "w": 0.47,
+            "h": 0.092
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "21",
@@ -635,7 +668,7 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Complete the following reactions by writing the structural formulae of ‘A’ and ‘B’ :\n(i) CH3CH = CH2 –(HBr / Peroxide)→ ‘A’ –(aq. KOH)→ ‘B’\n(ii) CH3CH2CHCH3\n|\nCl –(alc. KOH)→ ‘A’ –(HBr)→ ‘B’\n(iii) ‘A’ –(Mg)→ CH3CH2MgCl –(H2O / H+)→ ‘B’ (Main product)",
+      "text": "Complete the following reactions by writing the structural formulae of ‘A’ and ‘B’ :\n(i) CH₃CH = CH₂ –(HBr / Peroxide)→ ‘A’ –(aq. KOH)→ ‘B’\n(ii) CH₃CH₂CHCH₃\n|\nCl –(alc. KOH / Δ)→ ‘A’ –(HBr)→ ‘B’\n(iii) ‘A’ –(Mg)→ CH₃CH₂MgCl –(H₂O / H⁺)→ ‘B’ (Main product)",
       "hasFigure": false,
       "extractionIssues": [
         "Reaction conditions printed above/below the arrows were moved inline in parentheses",
@@ -832,18 +865,49 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(i) Complete the following reactions by writing the structure of the main products :\n(I) [reaction scheme — image, not reproduced]\n(II) (CH3)2Cd + 2CH3COCl →\n(III) [reaction scheme — image, not reproduced]\n(ii) Give simple chemical test to distinguish between the following pairs of compounds :\n(I) Ethyl benzoate and benzoic acid\n(II) Propanal and propanone",
+      "text": "(i) Complete the following reactions by writing the structure of the main products :\n(I) [reaction (I) is printed as a structural formula; see figure 1]\n(II) (CH₃)₂Cd + 2CH₃COCl →\n(III) [reaction (III) is printed as a structural formula; see figure 2]\n(ii) Give simple chemical test to distinguish between the following pairs of compounds :\n(I) Ethyl benzoate and benzoic acid\n(II) Propanal and propanone",
       "hasFigure": true,
-      "extractionIssues": [
-        "(i)(I) and (i)(III) are structural-formula reaction schemes (images) on page 18/19, not reproduced in the text layer; those parts cannot be answered without them",
-        "Subscripts flattened: (CH3)2Cd, CH3COCl"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i)(II) CH3COCH3; (I) and (III) are structural formulas — images in the marking scheme, not extracted.\n(ii)(I) Benzoic acid with sodium bicarbonate gives brisk effervescence; no reaction with ethyl benzoate.\n(ii)(II) Propanal, when heated with ammoniacal silver nitrate solution (Tollens’ reagent), gives a silver mirror; no reaction with propanone. (or any other suitable chemical test)"
       },
       "chapter": "aldehydes-ketones-and-carboxylic-acids",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-chemistry-56-4-1/31a.png",
+          "kind": "FIGURE",
+          "alt": "Reaction (I): six-membered ring with =O, and H2NCONH–NH2 written over the reaction arrow",
+          "width": 676,
+          "height": 94,
+          "page": 19,
+          "crop": {
+            "x": 0.24,
+            "y": 0.14,
+            "w": 0.43,
+            "h": 0.045
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/cbse-2025-xii-chemistry-56-4-1/31a-2.png",
+          "kind": "FIGURE",
+          "alt": "Reaction (III): benzene ring with COCl with H2 over and Pd – BaSO4 under the reaction arrow",
+          "width": 676,
+          "height": 131,
+          "page": 19,
+          "crop": {
+            "x": 0.24,
+            "y": 0.255,
+            "w": 0.43,
+            "h": 0.063
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "31",
@@ -855,18 +919,51 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(i) Complete each synthesis by giving missing starting material, reagent or products :\n(I) [reaction scheme — image, not reproduced]\n(II) [reaction scheme — image, not reproduced]\n(III) [reaction scheme — image, not reproduced]\n(ii) Carry out the following conversions :\n(I) Benzaldehyde to Benzophenone\n(II) Benzaldehyde to 3-phenyl propanol",
+      "text": "(i) Complete each synthesis by giving missing starting material, reagent or products :\n(I) [synthesis (I) is printed as a structural formula; see figure 1]\n(II) [synthesis (II) is printed as structural formulae; see figure 2]\n(III) [synthesis (III) is printed as a structural formula; see figure 2]\n(ii) Carry out the following conversions :\n(I) Benzaldehyde to Benzophenone\n(II) Benzaldehyde to 3-phenyl propanol",
       "hasFigure": true,
       "extractionIssues": [
-        "(i)(I), (i)(II) and (i)(III) are reaction schemes/structural formulas (images) on page 18/19, not reproduced in the text layer; that sub-part cannot be answered without them",
         "(ii)(I) (Benzaldehyde to Benzophenone) answer is also an image in the marking scheme, not extracted"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i)(II) 1. (BH3)2, 2. H2O2/OH–, 3. PCC; (I) and (III) are images in the marking scheme, not extracted.\n(ii)(II) C6H5CHO → (CH3CHO, dil. NaOH, Δ) → C6H5CH=CHCHO → (H2/Ni) → C6H5CH2CH2CH2OH (or any other suitable method); (I) is an image in the marking scheme, not extracted."
       },
       "chapter": "aldehydes-ketones-and-carboxylic-acids",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2025-xii-chemistry-56-4-1/31b.png",
+          "kind": "FIGURE",
+          "alt": "Synthesis (I): benzene ring with CH2CH3, and (i) KMnO4, KOH over and (ii) H3O+ under the reaction arrow, product marked ?",
+          "width": 817,
+          "height": 163,
+          "page": 19,
+          "crop": {
+            "x": 0.24,
+            "y": 0.522,
+            "w": 0.52,
+            "h": 0.078
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/cbse-2025-xii-chemistry-56-4-1/31b-2.png",
+          "kind": "FIGURE",
+          "alt": "Synthesis (II): six-membered ring with =CH2, arrow with reagent marked ?, six-membered ring with CHO; synthesis (III): six-membered ring with =O and CHO, and [Ag(NH3)2]+ over the arrow, product marked ?",
+          "width": 738,
+          "height": 370,
+          "page": 19,
+          "crop": {
+            "x": 0.24,
+            "y": 0.612,
+            "w": 0.47,
+            "h": 0.178
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "32",

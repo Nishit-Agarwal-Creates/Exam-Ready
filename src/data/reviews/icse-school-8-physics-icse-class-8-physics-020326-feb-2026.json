@@ -10,38 +10,6 @@
   },
   "questions": [
     {
-      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MATCH",
-      "options": "NA",
-      "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Group of 15 MCQs spanning heat, light, sound and electricity; item (iii) needs the picture on page 1.",
-      "notes": ""
-    },
-    {
-      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#2i",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MATCH",
-      "options": "NA",
-      "notation": "REBUILT_OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Group entry whose items span several chapters (light, heat, sound).",
-      "notes": ""
-    },
-    {
       "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#2ii",
       "text": "MATCH",
       "numberPage": "MATCH",
@@ -112,14 +80,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Concave-mirror diagram with rays 1 and 2 on page 3 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: concave-mirror diagram (rays 1 and 2, C, F, principal axis) under Question 3 (iii) cropped; the extreme ends of the mirror arc are trimmed to keep neighbouring text out, all rays and labels are complete.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#3iv",
@@ -272,14 +250,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graphs 1-4 on page 4 are needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: the four wave graphs printed under Question 5 (iii) cropped whole; wave shapes are clear, the tiny axis numbers are not legible on the scan but the parts (a)-(d) compare shapes only.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#6i",
@@ -336,14 +324,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Gold leaf electroscope named in text."
+      "notes": "Gold leaf electroscope named in text.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: the gold leaf electroscope diagram printed beside Question 7 (i) (showing the charge already on the leaves) cropped whole; this settles the audit dispute about the missing figure.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#7ii",
@@ -375,22 +373,6 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
-    },
-    {
-      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#8i",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Parts span two chapters (thermal expansion and sound) under one [3].",
       "notes": ""
     },
     {
@@ -464,14 +446,646 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Text says it is a rear view mirror in vehicles."
+      "notes": "Text says it is a rear view mirror in vehicles.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: photograph printed beside Question 9 (iii) cropped whole (scan is dark but the mirror is recognisable); settles the audit dispute about the missing photograph.",
+        "confidence": "MEDIUM"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1i",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1ii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1iii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "RECOVERED",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter. Item (iii): the picture printed alongside it on page 1 is cropped whole.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1iv",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1v",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "REBUILT_OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1vi",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1vii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1viii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1ix",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1x",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1xi",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1xii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1xiii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1xiv",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#1xv",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 1; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Question 1 prints one instruction and only a group total [15] for items (i)-(xv), each with its own options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#2ia",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2i; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Question 2 (i) prints one instruction and only a group total [6] for blanks (a)-(f); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#2ib",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2i; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Question 2 (i) prints one instruction and only a group total [6] for blanks (a)-(f); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#2ic",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2i; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Question 2 (i) prints one instruction and only a group total [6] for blanks (a)-(f); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#2id",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2i; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Question 2 (i) prints one instruction and only a group total [6] for blanks (a)-(f); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#2ie",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2i; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Question 2 (i) prints one instruction and only a group total [6] for blanks (a)-(f); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#2if",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2i; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: Question 2 (i) prints one instruction and only a group total [6] for blanks (a)-(f); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#8ia",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 8i; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: Question 8 (i) prints parts (a) and (b) with one total [3]; split into its printed parts, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-physics-icse-class-8-physics-020326-feb-2026#8ib",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 8i; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 5: Question 8 (i) prints parts (a) and (b) with one total [3]; split into its printed parts, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

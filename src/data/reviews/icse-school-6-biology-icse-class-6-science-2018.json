@@ -74,7 +74,7 @@
       "notes": "Checked against page image 1."
     },
     {
-      "key": "icse-school-6-biology-icse-class-6-science-2018#6",
+      "key": "icse-school-6-biology-icse-class-6-science-2018#6iii",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
@@ -82,12 +82,52 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Match-the-following mixes chemistry, physics and biology pairs; no single chapter fits.",
-      "notes": "Page 2: Page 2, Q6 [5x1=5]."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page 2 image: column A item and column B list as printed; [5x1=5] covers each item.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin10",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2, Q6 'Match the following' with printed per-item rule [5x1=5]; item split out, chapter from the item's topic.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-biology-icse-class-6-science-2018#6v",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page 2 image: column A item and column B list as printed; [5x1=5] covers each item.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin10",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2, Q6 'Match the following' with printed per-item rule [5x1=5]; item split out, chapter from the item's topic.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-biology-icse-class-6-science-2018#7a",
@@ -183,7 +223,7 @@
       "duplicate": "",
       "decision": "HOLD",
       "reason": "The flower figure to be labelled is missing from the file (page 3 blank below the question).",
-      "notes": "Page 3: Page 3 [5x1=5]."
+      "notes": "Page 3: Page 3 [5x1=5]. p51: page 3 re-checked; no flower figure is printed below Q4 (page blank), left held."
     }
   ]
 }

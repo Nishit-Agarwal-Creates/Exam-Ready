@@ -83,12 +83,28 @@
       "type": "SHORT_ANSWER",
       "text": "Study the diagrams and answer the following: (a) Identify the type of germination shown in figure (A) and (B) stating suitable reason for each. (b) Label the parts 1,2. (c) Name the special type of germination which is seen in Sonneratia and describe this germination process.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 2 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "seeds",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-biology-icse-class-9-biology-131225-2025/2ii.png",
+          "kind": "FIGURE",
+          "alt": "Two drawings of seed germination stages, labelled [A] and [B], with numbered label lines 1 to 5",
+          "width": 1036,
+          "height": 439,
+          "page": 2,
+          "crop": {
+            "x": 0.23,
+            "y": 0.178,
+            "w": 0.58,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "2",
@@ -327,16 +343,32 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Given alongside is the figure of human lung. Guidelines for 1 to 4 parts are indicated below: (1) Air rich in CO2, (2) Vertebra, (3) Muscles of relaxed diaphragm, (4) Despressed ribs. (a) Which state of breathing is represented in the figure? (b) What is dead airspace? (c) Name the muscle which relax in this process. (d) What is the composition of CO2 in expired air?",
+      "text": "Given alongside is the figure of human lung. Guidelines for 1 to 4 parts are indicated below: (1) Air rich in CO₂, (2) Vertebra, (3) Muscles of relaxed diaphragm, (4) Despressed ribs. (a) Which state of breathing is represented in the figure? (b) What is dead airspace? (c) Name the muscle which relax in this process. (d) What is the composition of CO₂ in expired air?",
       "hasFigure": true,
       "extractionIssues": [
-        "Mark brackets printed offset from the parts; assigned to parts (i)-(v) in order",
-        "Figure on page 3 not reproduced",
-        "Subscripts flattened: CO2"
+        "Mark brackets printed offset from the parts; assigned to parts (i)-(v) in order"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "respiratory-system",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-biology-icse-class-9-biology-131225-2025/4v.png",
+          "kind": "FIGURE",
+          "alt": "Scanned diagram of a section of the human chest with label lines numbered 1 to 4 and arrows",
+          "width": 419,
+          "height": 315,
+          "page": 3,
+          "crop": {
+            "x": 0.39,
+            "y": 0.263,
+            "w": 0.235,
+            "h": 0.129
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "5",
@@ -427,12 +459,29 @@
       "text": "The following set up was arranged to prove a particular physiological process in plants. (a) Name the physiological process being studied. (b) What is the function of soda lime in the bottle (a) and why is lime water placed in bottle (b)? (c) If bottle (c) was fitted with a three holed rubber stopper and a thermometer was introduced in such a way that its bulb reaches close to the germinating seeds, what would you observe?",
       "hasFigure": true,
       "extractionIssues": [
-        "Mark brackets printed offset from the parts; assigned to parts (i)-(v) in order",
-        "Figure (experimental set-up) on page 3 not reproduced"
+        "Mark brackets printed offset from the parts; assigned to parts (i)-(v) in order"
       ],
       "confidence": "MEDIUM",
       "chapter": "respiration-in-plants",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-biology-icse-class-9-biology-131225-2025/5v.png",
+          "kind": "FIGURE",
+          "alt": "Scanned diagram of an experimental set-up of four bottles (a) to (d) joined by tubes, with small printed labels",
+          "width": 429,
+          "height": 207,
+          "page": 3,
+          "crop": {
+            "x": 0.345,
+            "y": 0.548,
+            "w": 0.24,
+            "h": 0.085
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "6",
@@ -523,12 +572,29 @@
       "text": "Study the diagrams and answer the following questions: (a) Identify the type of treatments necessary in the situation shown in the diagram. (b) Categorise the type of immunity. (c) Name the remedy for it.",
       "hasFigure": true,
       "extractionIssues": [
-        "Mark brackets printed offset from the parts; assigned to parts (i)-(v) in order",
-        "Photographs on page 3 not reproduced"
+        "Mark brackets printed offset from the parts; assigned to parts (i)-(v) in order"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "aids-to-health",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-biology-icse-class-9-biology-131225-2025/6v.png",
+          "kind": "FIGURE",
+          "alt": "Two black-and-white photographs side by side, printed for the question",
+          "width": 509,
+          "height": 171,
+          "page": 3,
+          "crop": {
+            "x": 0.31,
+            "y": 0.784,
+            "w": 0.285,
+            "h": 0.07
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "7",
@@ -715,12 +781,29 @@
       "text": "Given below is a system used for waste disposal. Study the same and answer the questions that follows: (a) Name the given system. (b) Give its use in waste disposal. (c) Give some ways of waste prevention and management.",
       "hasFigure": true,
       "extractionIssues": [
-        "Mark brackets printed offset from the parts; assigned to parts (i)-(v) in order",
-        "Figure on page 4 not reproduced"
+        "Mark brackets printed offset from the parts; assigned to parts (i)-(v) in order"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "waste-generation-and-management",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-biology-icse-class-9-biology-131225-2025/8v.png",
+          "kind": "FIGURE",
+          "alt": "Scanned diagram of a waste-disposal system with small printed labels for inlets, outlets and air flow",
+          "width": 482,
+          "height": 305,
+          "page": 4,
+          "crop": {
+            "x": 0.35,
+            "y": 0.408,
+            "w": 0.27,
+            "h": 0.125
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     }
   ]
 }

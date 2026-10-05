@@ -1,0 +1,13 @@
+{
+  "pack": "isc-2027-xii-physics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the original PDF page renders (page.py grid/crop) and pdftotext -raw/-layout, and the marking scheme, for the final fix round.",
+  "checks": [
+    {
+      "key": "isc-2027-xii-physics-specimen#2i",
+      "agree": true,
+      "reason": "",
+      "round": "p51-final"
+    }
+  ]
+}

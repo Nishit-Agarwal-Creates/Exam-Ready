@@ -412,16 +412,32 @@
         "D"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Source image on page 25 (cells labelled A–D) not reproduced; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "D. D (1)",
         "correctOption": 3
       },
       "chapter": "the-invisible-living-world-beyond-our-naked-eye",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-viii-science/Science8JS2.png",
+          "kind": "FIGURE",
+          "alt": "Source image of four different cells labelled A, B, C and D",
+          "width": 1400,
+          "height": 1106,
+          "page": 25,
+          "crop": {
+            "x": 0.07,
+            "y": 0.322,
+            "w": 0.815,
+            "h": 0.455
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science8GS3",
@@ -838,16 +854,31 @@
       "type": "SHORT_ANSWER",
       "text": "Which of the above diagrams show unbalanced forces? {(fig (a) or fig (b)}",
       "hasFigure": true,
-      "extractionIssues": [
-        "Source figure on page 41 ('Fig- Forces', diagrams (a) and (b)) not reproduced",
-        "Cannot be answered without the figure"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Diagram fig (b). (1 mark) Guidance: Accept only fig (b)"
       },
       "chapter": "exploring-forces",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-viii-science/Science8SB4a.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn 'Fig- Forces': two blocks, fig (a) and fig (b), with force arrows marked 10 N and 15 N",
+          "width": 803,
+          "height": 576,
+          "page": 41,
+          "crop": {
+            "x": 0.29,
+            "y": 0.478,
+            "w": 0.45,
+            "h": 0.228
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science8SB4",
@@ -1016,16 +1047,32 @@
         "D"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Source figure on page 48 ('Fig: Wheel of a moving car', directions A–D) not reproduced; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Direction of B (1 mark). Guidance: Accept-Frictional force acts in a direction opposite to the direction of force applied. (1 mark)",
         "correctOption": 1
       },
       "chapter": "exploring-forces",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-viii-science/Science8SB1.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn diagram 'Wheel of a moving car': a car tyre on a road, an arrow for the direction of travel, and arrows labelled A, B, C and D",
+          "width": 643,
+          "height": 599,
+          "page": 48,
+          "crop": {
+            "x": 0.26,
+            "y": 0.348,
+            "w": 0.36,
+            "h": 0.237
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science8SB2",
@@ -1685,16 +1732,32 @@
         "D"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Source figure on page 81 (human eye, parts labelled A–D) not reproduced; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "C (1)",
         "correctOption": 2
       },
       "chapter": "light-mirrors-and-lenses",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-viii-science/Science8RD4a.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a section of the human eye with four arrows labelled A, B, C and D",
+          "width": 1400,
+          "height": 790,
+          "page": 81,
+          "crop": {
+            "x": 0.065,
+            "y": 0.44,
+            "w": 0.815,
+            "h": 0.325
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Science8RD4",

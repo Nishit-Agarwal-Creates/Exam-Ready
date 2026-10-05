@@ -406,12 +406,28 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the diagram and answer the questions that follows : i) Identify the organism. ii) Name the Kingdom to which the above organism belongs. iii) State the mode of nutrition in the organism shown above.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "five-kingdom-classification",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-biology-icse-class-9-2-sem-biology-280425-2025/4e.png",
+          "kind": "FIGURE",
+          "alt": "Line drawing of an organism with a broad cap on a stalk, growing from the ground",
+          "width": 447,
+          "height": 525,
+          "page": 4,
+          "crop": {
+            "x": 0.4,
+            "y": 0.437,
+            "w": 0.25,
+            "h": 0.215
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "5",
@@ -580,12 +596,28 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the figure of a Vector given below and answer the questions that follow: Name the vector shown in the figure .Name one disease spread by it .",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 5 not reproduced"
-      ],
-      "confidence": "LOW",
-      "chapter": "hygiene",
-      "mappingStatus": "AI_SUGGESTED"
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "diseases",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-biology-icse-class-9-2-sem-biology-280425-2025/6e.png",
+          "kind": "FIGURE",
+          "alt": "Line drawing of an insect viewed from above, with wings spread",
+          "width": 893,
+          "height": 584,
+          "page": 5,
+          "crop": {
+            "x": 0.345,
+            "y": 0.262,
+            "w": 0.5,
+            "h": 0.24
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "6",
@@ -599,12 +631,28 @@
       "type": "SHORT_ANSWER",
       "text": "Observe the figure of a Vector given below and answer the questions that follow: Give two ways by which we can avoid spread of diseases by this vector .",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 5 not reproduced; the shared stem of e) is repeated in this part"
-      ],
-      "confidence": "LOW",
-      "chapter": "hygiene",
-      "mappingStatus": "AI_SUGGESTED"
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "diseases",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-biology-icse-class-9-2-sem-biology-280425-2025/6e.png",
+          "kind": "FIGURE",
+          "alt": "Line drawing of an insect viewed from above, with wings spread",
+          "width": 893,
+          "height": 584,
+          "page": 5,
+          "crop": {
+            "x": 0.345,
+            "y": 0.262,
+            "w": 0.5,
+            "h": 0.24
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "7",

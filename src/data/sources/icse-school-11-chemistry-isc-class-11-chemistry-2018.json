@@ -708,13 +708,46 @@
       "hasFigure": true,
       "extractionIssues": [
         "Subscripts/superscripts and arrows rebuilt from the page image; check against the PDF",
-        "Figure on pages 4-5 not reproduced: ring structures in part b are shown as '[structure]'",
         "Reagents/conditions printed above and below the arrows; 'Con c H₂ SO₂,' and '45 3 K' as printed",
         "Part b(iii)-(iv) continue on page 5"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "hydrocarbons",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-11-chemistry-isc-class-11-chemistry-2018/17b.png",
+          "kind": "FIGURE",
+          "alt": "Part b reactions i and ii as printed, with benzene-ring structures, reagents and conditions above and below the arrows",
+          "width": 679,
+          "height": 265,
+          "page": 4,
+          "crop": {
+            "x": 0.15,
+            "y": 0.8,
+            "w": 0.38,
+            "h": 0.105
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/icse-school-11-chemistry-isc-class-11-chemistry-2018/17b-2.png",
+          "kind": "FIGURE",
+          "alt": "Part b reactions iii and iv as printed, with benzene-ring structures and the reagent above the arrows",
+          "width": 679,
+          "height": 189,
+          "page": 5,
+          "crop": {
+            "x": 0.15,
+            "y": 0.085,
+            "w": 0.38,
+            "h": 0.075
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "18",

@@ -652,18 +652,35 @@
       "page": 6,
       "section": "A",
       "sectionTitle": "SECTION A (40 Marks)",
-      "marks": 2,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Give the IUPAC names of the organic compounds represented by the structural formulae given below:\n1.\n2.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Printed [5] covers (v)(a) and (v)(b) together; split here as 2 marks for (a) (two structures) and 3 for (b) (three compounds), 1 mark per compound assumed",
-        "Figure on page 6 (two structural formulae, 1 and 2) not reproduced; question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "organic-chemistry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2024-x-chemistry/2va.png",
+          "kind": "FIGURE",
+          "alt": "Two structural formulae numbered 1 and 2 drawn with C, H, Cl, O and OH atoms and bonds",
+          "width": 1166,
+          "height": 304,
+          "page": 6,
+          "crop": {
+            "x": 0.205,
+            "y": 0.752,
+            "w": 0.635,
+            "h": 0.128
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q2(v): [5] for (a) and (b) together"
     },
     {
       "number": "2",
@@ -672,17 +689,17 @@
       "page": 7,
       "section": "A",
       "sectionTitle": "SECTION A (40 Marks)",
-      "marks": 3,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Draw the structural diagram for the following organic compounds:\n1. 3-methyl pentane\n2. propyne\n3. methanal",
       "hasFigure": false,
-      "extractionIssues": [
-        "Printed [5] covers (v)(a) and (v)(b) together; split here as 2 marks for (a) (two structures) and 3 for (b) (three compounds), 1 mark per compound assumed"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "organic-chemistry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q2(v): [5] for (a) and (b) together"
     },
     {
       "number": "3",

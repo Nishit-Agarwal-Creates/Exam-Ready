@@ -197,12 +197,28 @@
       "type": "NUMERICAL",
       "text": "In the given figure, AB = 8 cm, CM = 1 cm, CM is perpendicular bisector of AB. find the radius OA = x cm. Find x.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 (circle with centre O, chord AB, perpendicular CM) not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "circle",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-2-sem-mathematics-280425-2025/4b.png",
+          "kind": "FIGURE",
+          "alt": "Circle with centre O, chord AB, point C on the circle and M on AB, with segments CM, MO and OA drawn",
+          "width": 589,
+          "height": 428,
+          "page": 4,
+          "crop": {
+            "x": 0.3,
+            "y": 0.437,
+            "w": 0.33,
+            "h": 0.178
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -235,12 +251,12 @@
       "type": "SHORT_ANSWER",
       "text": "If 4 sin² θ -1 = 0 and angle θ is less than 90°: find the value of θ and hence the value of cos²θ + tan² θ.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "trigonometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "5",
@@ -255,12 +271,13 @@
       "text": "The circumference of a circle exceeds the diameter by 16.8 cm. find radius of the circle. (Take Take π = 22/7)",
       "hasFigure": false,
       "extractionIssues": [
-        "No marks printed",
         "Notation rebuilt from the page image (fractions/powers/roots); check against the PDF"
       ],
       "confidence": "LOW",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "5",
@@ -274,12 +291,12 @@
       "type": "NUMERICAL",
       "text": "A swimming pool is 50 meter long and 15 meter wide. Its shallow and deep ends are 1.5 meters and 4.5 meters deep respectively. If the bottom of the pool slopes uniformly, find the amount of water in liters required to fill the pool.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "6",
@@ -397,12 +414,28 @@
       "type": "SHORT_ANSWER",
       "text": "In the given figure, OD is perpendicular to the chord AB of circle, whose centre is O, prove that CA = 2OD",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 (circle with centre O, chord AB, points C and D) not reproduced; the position of C is given only by the figure"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "circle",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-2-sem-mathematics-280425-2025/8a.png",
+          "kind": "FIGURE",
+          "alt": "Circle with centre O, chord AB, point D on AB joined to O, and points C and A joined, with BC passing through O",
+          "width": 572,
+          "height": 378,
+          "page": 3,
+          "crop": {
+            "x": 0.28,
+            "y": 0.565,
+            "w": 0.32,
+            "h": 0.155
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "8",

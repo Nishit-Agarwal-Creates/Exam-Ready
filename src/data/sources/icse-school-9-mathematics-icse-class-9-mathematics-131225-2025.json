@@ -34,24 +34,425 @@
   "questions": [
     {
       "number": "1",
-      "part": null,
+      "part": "I",
       "choiceGroup": null,
       "page": 1,
       "section": "A",
       "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
-      "marks": 15,
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
       "marksSource": "PRINTED",
-      "type": "SHORT_ANSWER",
-      "text": "Choose the correct answers to the questions from the given options:\nI. If x² + 1/x² = 18, then x − 1/x is (a) 16 (b) -16 (c) ± 9 (d) ±4\nII. (sin60° + cos60°)(cos30° − sin30°) = ? (a) 0 (b) 1/2 (c) 3/4 (d) 1\nIII. Perimeter of a rhombus is 80 cm, one diagonal is 24 cm. The other diagonal is ____ (a) 30 cm (b) 16 cm (c) 32 cm (d) 26 cm\nIV. Assertion(A): A triangle with sides 3.2 cm, 4.8 cm and 8 cm can be constructed. Reason(R): Sum of two sides of a triangle is greater than the third side. (a) Both A and R are true & R is correct reason for A. (b) Both A and R are true & R is incorrect reason for A. (c) A is true but R is false. (d) A is false but R is true.\nV. In the given figure, measures of x and y are (a) x = 10, y = 17 (b) x = 12, y = 20 (c) x = 20, y = 25 (d) x = 13, y = 18\nVI. If the mean age of 20 students is 15 years and the mean age of another group of 10 students is 12 years, then the mean age of 30 students is :- (a) 13.5 years (b) 12.5 years (c) 13 years (d) 14 years\nVII. If sum of two numbers is 35 and their difference is 15, then their product is :- (a) 200 (b) 250 (c) 150 (d) 300\nVIII. 4x² − 36 =? (a) (2x − 6)² (b) 4(x − 6)(x + 6) (c) 2(x + 9)(x − 9) (d) 4(x + 3)(x − 3)\nIX. Area of a triangle is 54 cm². If its base is 18 cm, the corresponding height is :- (a) 3 cm (b) 6 cm (c) 4.5 cm (d) 8 cm\nX. log 6 = ? (a) log 2 X log 3 (b) log 3 X log 3 (c) log3 + log 3 (d) log 2 + log 3\nXI. In a right − angled ΔABC, ∠C = 42° and ∠B = 90°. The smallest side of the triangle is: (a) AC (b) BC (c) AB (d) insufficient data\nXII. If point P(−1,a) lies on line 2x + 3y = 10 ; then a = ? (a) 3 (b) −2 (c) 4 (d) 8/3\nXIII. The volume of a cuboid is 448 cm³. Its height is 7 cm and base is a square. The length of side of the square is:- (a) 16 cm (b) 10 cm (c) 8 cm (d) 6 cm\nXIV. If 2^(x−3) = 1/32 , then x =? (a) 2 (b) 3 (c) 5 (d) −2\nXV. Area of triangle ABC with sides 6 cm, 8 cm and 10 cm is :- (a) 24 cm² (b) 30 cm² (c) 40 cm² (d) 48 cm²",
-      "hasFigure": true,
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nIf x² + 1/x² = 18, then x − 1/x is",
+      "options": [
+        "16",
+        "-16",
+        "± 9",
+        "±4"
+      ],
+      "hasFigure": false,
       "extractionIssues": [
-        "Only a group total (15) is printed for the fifteen MCQs I-XV; kept as one entry with the options in the text",
-        "Figure on page 1 (right triangle with sides 16, 9, 15 and altitude x, side y, for V.) not reproduced",
-        "Notation rebuilt from the page image (fractions/powers/roots); check against the PDF",
-        "Parts span several chapters; chapter is the closest single match"
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
       ],
       "confidence": "MEDIUM",
       "chapter": "expansions",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "II",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\n(sin60° + cos60°)(cos30° − sin30°) = ?",
+      "options": [
+        "0",
+        "1/2",
+        "3/4",
+        "1"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "trigonometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "III",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nPerimeter of a rhombus is 80 cm, one diagonal is 24 cm. The other diagonal is ____",
+      "options": [
+        "30 cm",
+        "16 cm",
+        "32 cm",
+        "26 cm"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": null,
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "IV",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "ASSERTION_REASON",
+      "text": "Choose the correct answers to the questions from the given options:\nAssertion(A): A triangle with sides 3.2 cm, 4.8 cm and 8 cm can be constructed.\nReason(R): Sum of two sides of a triangle is greater than the third side.",
+      "options": [
+        "Both A and R are true & R is correct reason for A.",
+        "Both A and R are true & R is incorrect reason for A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "triangles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "V",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nIn the given figure, measures of x and y are",
+      "options": [
+        "x = 10, y = 17",
+        "x = 12, y = 20",
+        "x = 20, y = 25",
+        "x = 13, y = 18"
+      ],
+      "hasFigure": true,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "pythagoras-theorem",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-mathematics-131225-2025/1V.png",
+          "kind": "FIGURE",
+          "alt": "Triangle with a perpendicular from the top vertex to the base; the left side is labelled y, the perpendicular x, the right side 15, and the base parts 16 and 9",
+          "width": 393,
+          "height": 208,
+          "page": 1,
+          "crop": {
+            "x": 0.63,
+            "y": 0.34,
+            "w": 0.22,
+            "h": 0.085
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
+    },
+    {
+      "number": "1",
+      "part": "VI",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nIf the mean age of 20 students is 15 years and the mean age of another group of 10 students is 12 years, then the mean age of 30 students is :-",
+      "options": [
+        "13.5 years",
+        "12.5 years",
+        "13 years",
+        "14 years"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "statistics",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "VII",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nIf sum of two numbers is 35 and their difference is 15, then their product is :-",
+      "options": [
+        "200",
+        "250",
+        "150",
+        "300"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "simultaneous-linear-equations",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "VIII",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\n4x² − 36 =?",
+      "options": [
+        "(2x − 6)²",
+        "4(x − 6)(x + 6)",
+        "2(x + 9)(x − 9)",
+        "4(x + 3)(x − 3)"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "factorisation",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "IX",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nArea of a triangle is 54 cm². If its base is 18 cm, the corresponding height is :-",
+      "options": [
+        "3 cm",
+        "6 cm",
+        "4.5 cm",
+        "8 cm"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "mensuration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "X",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nlog 6 = ?",
+      "options": [
+        "log 2 X log 3",
+        "log 3 X log 3",
+        "log3 + log 3",
+        "log 2 + log 3"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "logarithms",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "XI",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nIn a right − angled ΔABC, ∠C = 42° and ∠B = 90°. The smallest side of the triangle is:",
+      "options": [
+        "AC",
+        "BC",
+        "AB",
+        "insufficient data"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "triangles",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "XII",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nIf point P(−1,a) lies on line 2x + 3y = 10 ; then a = ?",
+      "options": [
+        "3",
+        "−2",
+        "4",
+        "8/3"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "coordinate-geometry",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "XIII",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nThe volume of a cuboid is 448 cm³. Its height is 7 cm and base is a square. The length of side of the square is:-",
+      "options": [
+        "16 cm",
+        "10 cm",
+        "8 cm",
+        "6 cm"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "mensuration",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "XIV",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nIf 2^(x−3) = 1/32 , then x =?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "−2"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "indices",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "1",
+      "part": "XV",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "A",
+      "sectionTitle": "SECTION-A (40 marks) Attempt all questions",
+      "marks": 0,
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Question 1: [15] for the group of 15 MCQs I-XV",
+      "marksSource": "PRINTED",
+      "type": "MCQ",
+      "text": "Choose the correct answers to the questions from the given options:\nArea of triangle ABC with sides 6 cm, 8 cm and 10 cm is :-",
+      "options": [
+        "24 cm²",
+        "30 cm²",
+        "40 cm²",
+        "48 cm²"
+      ],
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed group of 15 MCQs in Question 1 (group total [15]); text checked against the page image"
+      ],
+      "confidence": "MEDIUM",
+      "chapter": "mensuration",
       "mappingStatus": "AI_SUGGESTED"
     },
     {
@@ -67,12 +468,29 @@
       "text": "ABCD is a rectangle, AB = 10 cm and AD = 7 cm. Two semicircles are described on sides AD and BC as diameters. Find the area of the shaded region. [ Use π = 22/7 ]",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 2 (rectangle ABCD with two semicircles; the shaded region is shown only on the figure) not reproduced",
         "Notation rebuilt from the page image (fractions/powers/roots); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-mathematics-131225-2025/2a.png",
+          "kind": "FIGURE",
+          "alt": "Rectangle ABCD with semicircles on AD and BC and its two diagonals; parts of the figure are shaded (scan is slightly distorted)",
+          "width": 517,
+          "height": 256,
+          "page": 2,
+          "crop": {
+            "x": 0.32,
+            "y": 0.09,
+            "w": 0.29,
+            "h": 0.105
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "2",
@@ -139,12 +557,28 @@
       "type": "NUMERICAL",
       "text": "In the given figure, AD ⊥ BC, ∠B = 45°. Find θ and CD. [ Use √3 = 1.73]",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 2 (triangle ABC with altitude AD; the lengths BD = 6 cm and AC = 12 cm are given only on the figure) not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "trigonometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-mathematics-131225-2025/3b.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABC with altitude AD to BC; angle 45° at B, angle θ at C, BD marked 6 cm and AC marked 12 cm",
+          "width": 375,
+          "height": 183,
+          "page": 2,
+          "crop": {
+            "x": 0.34,
+            "y": 0.43,
+            "w": 0.21,
+            "h": 0.075
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -321,12 +755,28 @@
       "type": "SHORT_ANSWER",
       "text": "In the given figure, AD = BC and AC = BD. Prove that ΔPAB is isosceles.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 (quadrilateral ABCD with diagonals AC and BD meeting at P; DC and AB marked parallel) not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "isosceles-triangles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-mathematics-131225-2025/6c.png",
+          "kind": "FIGURE",
+          "alt": "Quadrilateral ABCD with DC and AB marked by arrows, diagonals AC and BD meeting at P",
+          "width": 455,
+          "height": 203,
+          "page": 3,
+          "crop": {
+            "x": 0.36,
+            "y": 0.322,
+            "w": 0.255,
+            "h": 0.083
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -429,12 +879,28 @@
       "type": "NUMERICAL",
       "text": "In the given fig. ABCD, ∠ABC = 90° and DC ⊥ AC. Find:\n(i) the length of AC (ii) the area of fig. ABCD (iii) the perimeter of fig. ABCD",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 (quadrilateral ABCD; the lengths AB = 16 cm, BC = 12 cm and CD = 21 cm are given only on the figure) not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "pythagoras-theorem",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-mathematics-131225-2025/8c.png",
+          "kind": "FIGURE",
+          "alt": "Quadrilateral ABCD with diagonal AC; right angles marked at B and at C; AB marked 16 cm, BC 12 cm, CD 21 cm",
+          "width": 473,
+          "height": 227,
+          "page": 3,
+          "crop": {
+            "x": 0.275,
+            "y": 0.628,
+            "w": 0.265,
+            "h": 0.093
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "9",

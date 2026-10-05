@@ -158,7 +158,7 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "If log a/(b−c) = log b/(c−a) = log c/(a−b), then prove that a^a.b^b.c^c = 1",
+      "text": "If (log a)/(b−c) = (log b)/(c−a) = (log c)/(a−b), then prove that a^a.b^b.c^c = 1",
       "hasFigure": false,
       "extractionIssues": [
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
@@ -472,12 +472,28 @@
       "type": "NUMERICAL",
       "text": "In the given fig., m∠D = 90°, AB = 8 cm, BC = 6 cm and CA = 3 cm. Find CD.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "pythagoras-theorem",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-mathematics-271025-2024/9b.png",
+          "kind": "FIGURE",
+          "alt": "Triangle with points A, B, C, D on a base line BCD, right-angle mark at D, AB marked 8 cm and AC marked 3 cm",
+          "width": 393,
+          "height": 398,
+          "page": 4,
+          "crop": {
+            "x": 0.38,
+            "y": 0.285,
+            "w": 0.22,
+            "h": 0.163
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "9",

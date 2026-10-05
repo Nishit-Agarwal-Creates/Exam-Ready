@@ -496,14 +496,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The Venn diagram on page 3 (elements 0-9) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 3 Q10(c): the paper prints the third item label as '(ii)' (misprint kept as printed) and the complement with a prime ′. | p51-fix-H2: Page 3 Q10(c) re-checked at 2x zoom: the third item is printed \"(iii) A − B\" (no misprint); label corrected.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

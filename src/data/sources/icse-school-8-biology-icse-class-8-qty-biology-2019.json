@@ -238,12 +238,29 @@
       "extractionIssues": [
         "OCR text corrected against the page image",
         "Two-column booklet layout: printed pages 4 and 3 on PDF page 2, printed pages 2 and 5 on PDF page 3",
-        "Figure (potted plant covered with a bag) on page 2 not reproduced",
         "One (4) printed for parts i–iv; kept together"
       ],
       "confidence": "MEDIUM",
       "chapter": "transportation-in-plants",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-biology-icse-class-8-qty-biology-2019/2b.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn potted plant enclosed in a transparent polythene bag, with small marks drawn on the inside of the bag",
+          "width": 321,
+          "height": 496,
+          "page": 2,
+          "crop": {
+            "x": 0.69,
+            "y": 0.352,
+            "w": 0.135,
+            "h": 0.27
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -341,12 +358,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "OCR text corrected against the page image",
-        "Two-column booklet layout: printed pages 4 and 3 on PDF page 2, printed pages 2 and 5 on PDF page 3",
-        "Labelled diagram (parts 1–5) on page 2 not reproduced"
+        "Two-column booklet layout: printed pages 4 and 3 on PDF page 2, printed pages 2 and 5 on PDF page 3"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "reproduction-in-plants",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-biology-icse-class-8-qty-biology-2019/4a.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn longitudinal section of a plant structure with label lines numbered 1 to 5 and blank answer lines",
+          "width": 547,
+          "height": 340,
+          "page": 2,
+          "crop": {
+            "x": 0.165,
+            "y": 0.238,
+            "w": 0.23,
+            "h": 0.185
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -362,12 +396,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "OCR text corrected against the page image",
-        "Two-column booklet layout: printed pages 4 and 3 on PDF page 2, printed pages 2 and 5 on PDF page 3",
-        "Depends on the diagram on page 2, not reproduced"
+        "Two-column booklet layout: printed pages 4 and 3 on PDF page 2, printed pages 2 and 5 on PDF page 3"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "reproduction-in-plants",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-biology-icse-class-8-qty-biology-2019/4a.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn longitudinal section of a plant structure with label lines numbered 1 to 5 and blank answer lines",
+          "width": 547,
+          "height": 340,
+          "page": 2,
+          "crop": {
+            "x": 0.165,
+            "y": 0.238,
+            "w": 0.23,
+            "h": 0.185
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -478,7 +529,7 @@
       "page": 3,
       "section": "B",
       "sectionTitle": "SECTION B (40 Marks) (Attempt any four only)",
-      "marks": 6,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "i. Identify and label the given diagram.\nii. Where is the given structure produced and name the hormone produced by the same.\niii. Name the accessory glands associated with the male reproduction system.",
@@ -486,12 +537,31 @@
       "extractionIssues": [
         "OCR text corrected against the page image",
         "Two-column booklet layout: printed pages 4 and 3 on PDF page 2, printed pages 2 and 5 on PDF page 3",
-        "Printed marks (3½) + (1) + (1½) are fractional; kept together as one 6-mark entry",
-        "Labelled diagram (labels i–vi) on page 3 not reproduced"
+        "Printed marks (3½) + (1) + (1½) are fractional; recorded as FRACTIONAL with the printed marks in marksNote"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "reproduction-in-humans",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-biology-icse-class-8-qty-biology-2019/6a.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn structure with label lines numbered i to vi",
+          "width": 452,
+          "height": 533,
+          "page": 3,
+          "crop": {
+            "x": 0.66,
+            "y": 0.2,
+            "w": 0.19,
+            "h": 0.29
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "FRACTIONAL",
+      "marksNote": "3½ + 1 + 1½"
     },
     {
       "number": "6",

@@ -448,14 +448,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The two structural formulae on page 6 are needed to give the IUPAC names.",
-      "notes": "Split 2 + 3 of [5] accepted (one mark per compound)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split 2 + 3 of [5] accepted (one mark per compound).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 6: the two structural formulae numbered 1 and 2 printed under Q2(v)(a); cropped. Only one [5] is printed beside Q2(v) for (a) and (b) together, so marks are a group total.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-chemistry#2vb",
@@ -471,7 +482,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "[5] shared by (a) two structures and (b) three compounds; 1 mark per compound (2 + 3) is unambiguous."
+      "notes": "[5] shared by (a) two structures and (b) three compounds; 1 mark per compound (2 + 3) is unambiguous.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 6: a single [5] is printed beside Q2(v) for (a) and (b) together; the 2/3 split was inferred, now recorded as a group total.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-chemistry#3ia",

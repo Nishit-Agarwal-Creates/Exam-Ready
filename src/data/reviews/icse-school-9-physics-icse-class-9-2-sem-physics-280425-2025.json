@@ -288,14 +288,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Wave graph on page 4 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p4 Q5(b): wave graph with time marks 0-30 s and a 2 m arrow; cropped from the scan.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-2-sem-physics-280425-2025#5c",
@@ -336,14 +346,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Arrangement of the two magnets (figure on page 4) is not in the stored text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p4 Q6(b): two magnets S-N and N-S; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-2-sem-physics-280425-2025#6c",
@@ -464,14 +484,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Coil winding/battery figure on page 5 is needed to state the polarity.",
-      "notes": ""
+      "reason": "Topic (electromagnet) is not in any official ICSE Class 9 physics chapter summary",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "p5 Q9(a): coil on bar XY with switch, battery (long and short plates visible) and rheostat; cropped from the scan. | Page 5: the item is about an electromagnet (polarity of a coil-wound soft iron bar and increasing its strength). The official ICSE Class 9 'magnetism' summary covers induced magnetism, field lines, the earth's field and neutral points only, and no other Class 9 physics chapter covers electromagnets; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-2-sem-physics-280425-2025#9b",

@@ -18,12 +18,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple machines/levers topic is not in the class-6 physics chapter list; builder's 'force' mapping is a guess.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin10",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: item is about simple machines/levers; the class 6 physics chapter 'energy' summary lists simple machines and their types, mechanical advantage and orders of levers.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-science-2018#1b",
@@ -34,12 +44,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple machines/levers topic is not in the class-6 physics chapter list; builder's 'force' mapping is a guess.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin10",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: item is about simple machines/levers; the class 6 physics chapter 'energy' summary lists simple machines and their types, mechanical advantage and orders of levers.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-science-2018#2i",
@@ -50,12 +70,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple machines/levers topic is not in the class-6 physics chapter list; builder's 'force' mapping is a guess.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin10",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: item is about simple machines/levers; the class 6 physics chapter 'energy' summary lists simple machines and their types, mechanical advantage and orders of levers.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-science-2018#3e",
@@ -66,12 +96,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple machines/levers topic is not in the class-6 physics chapter list; builder's 'force' mapping is a guess.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin10",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: item is about simple machines/levers; the class 6 physics chapter 'energy' summary lists simple machines and their types, mechanical advantage and orders of levers.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-science-2018#4a",
@@ -82,12 +122,50 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple machines/levers topic is not in the class-6 physics chapter list; builder's 'force' mapping is a guess.",
-      "notes": "Checked against page image 1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin10",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: item is about simple machines/levers; the class 6 physics chapter 'energy' summary lists simple machines and their types, mechanical advantage and orders of levers.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-physics-icse-class-6-science-2018#6iv",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page 2 image: column A item and column B list as printed; [5x1=5] covers each item.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin10",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2, Q6 'Match the following' with printed per-item rule [5x1=5]; item split out, chapter from the item's topic.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-science-2018#7e",
@@ -98,12 +176,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple machines/levers topic is not in the class-6 physics chapter list; builder's 'force' mapping is a guess.",
-      "notes": "Checked against page image 2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin10",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: item is about simple machines/levers; the class 6 physics chapter 'energy' summary lists simple machines and their types, mechanical advantage and orders of levers.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-science-2018#B2a",
@@ -114,12 +202,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple machines/levers topic is not in the class-6 physics chapter list; builder's 'force' mapping is a guess.",
-      "notes": "Checked against page image 2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin10",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: item is about simple machines/levers; the class 6 physics chapter 'energy' summary lists simple machines and their types, mechanical advantage and orders of levers.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-physics-icse-class-6-science-2018#B3c",
@@ -130,12 +228,22 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Simple machines/levers topic is not in the class-6 physics chapter list; builder's 'force' mapping is a guess.",
-      "notes": "Checked against page image 2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image 2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin10",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: item is about simple machines/levers; the class 6 physics chapter 'energy' summary lists simple machines and their types, mechanical advantage and orders of levers.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

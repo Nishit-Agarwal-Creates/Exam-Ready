@@ -1,0 +1,25 @@
+{
+  "pack": "isc-2025-xii-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF page renders (5% grid) with pdftotext -layout and -raw, the published figure PNGs and the official marking scheme / answer key where one exists.",
+  "checks": [
+    {
+      "key": "isc-2025-xii-mathematics#1iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2025-xii-mathematics#9ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "isc-2025-xii-mathematics#13i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

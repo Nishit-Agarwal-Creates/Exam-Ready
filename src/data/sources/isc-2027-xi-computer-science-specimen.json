@@ -352,12 +352,11 @@
       "text": "The following function puzzle() is a part of some Java class. Assume ‘p’ and ‘q’ are parameters to the function. Answer the questions given below along with dry run / working.\ndouble puzzle ( double p , int q )\n{ double r = 1 ;\n    int c = ( q<0 ) ? -q : q ;\n    if ( q == 0)\n        return 1 ;\n    else\n    { for (int i = 1; i <= c ;r=r*p, i++);\n        return (q>0)? r : 1/r;\n    }\n}\n}\n(a) What does the function puzzle( ) perform ? [1]\n(b) What will the function puzzle( ) return when the value of p = 2 and q= –3? [2]",
       "hasFigure": false,
       "extractionIssues": [
-        "Cognitive tags printed per sub-part: (a) Analyse, (b) Apply.",
-        "Answer-key powers flattened (pq, 2−3); rebuilt from the page layout."
+        "Cognitive tags printed per sub-part: (a) Analyse, (b) Apply."
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(a) Function puzzle( ) is calculating p raised to the power q (pᵠ) [1] (b) Given p = 2 and q = −3. Now pᵠ = 2⁻³ = 1/8 = 0∙125 [2]"
+        "text": "(a) Function puzzle( ) is calculating p raised to the power q (p^{q}) [1] (b) Given p = 2 and q = −3. Now p^{q} = 2⁻³ = 1/8 = 0∙125 [2]"
       },
       "chapter": "methods-and-constructors",
       "mappingStatus": "AI_SUGGESTED"
@@ -537,16 +536,32 @@
       "type": "SHORT_ANSWER",
       "text": "From the logic gate diagram given below, derive the Boolean expression for (1) and (3). Also, derive the Boolean expression for F(A,B,C).",
       "hasFigure": true,
-      "extractionIssues": [
-        "Logic gate diagram on page 6 not reproduced; the question cannot be answered without it."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "Expression at (1) = A+B Expression at (3) = [(A+B)•C ]′ Derived expression = [(A+B)•C ]′ + (A+B)"
       },
       "cognitiveLevel": "Analyse",
       "chapter": "propositional-logic-and-hardware-implementation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xi-computer-science-specimen/4ii.png",
+          "kind": "FIGURE",
+          "alt": "Logic gate diagram with inputs A, B and C, intermediate points marked (1), (2) and (3), and output F(A.B.C)",
+          "width": 1108,
+          "height": 290,
+          "page": 6,
+          "crop": {
+            "x": 0.2,
+            "y": 0.125,
+            "w": 0.62,
+            "h": 0.115
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -648,16 +663,32 @@
       "type": "SHORT_ANSWER",
       "text": "Study the logic gate given below and answer the questions that follow:\n(a) What is the output of the above gate if input A=1 and input B=0? [1]\n(b) What should be the input values of A and B to obtain an output of 1? [1]",
       "hasFigure": true,
-      "extractionIssues": [
-        "Logic gate symbol (inputs A, B; output) on page 6 not reproduced; the gate type is shown only in the figure."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(a) 0 (b) A=0, B=0"
       },
       "cognitiveLevel": "Understand",
       "chapter": "propositional-logic-and-hardware-implementation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xi-computer-science-specimen/5iii.png",
+          "kind": "FIGURE",
+          "alt": "A single logic gate symbol with Input A, Input B and Output",
+          "width": 661,
+          "height": 152,
+          "page": 6,
+          "crop": {
+            "x": 0.33,
+            "y": 0.495,
+            "w": 0.37,
+            "h": 0.06
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",

@@ -32,6 +32,7 @@ export default async function TestPage({ params }: Props) {
     verificationStatus: item.question.verificationStatus,
     sources: item.question.sources,
     hasFigure: item.question.hasFigure,
+    figures: item.question.figures.map(({ src, alt, width, height, page }) => ({ src, alt, width, height, page })),
     figureSource: item.question.hasFigure
       ? (() => {
           const src = item.question.sources.find((x) => !x.isDemo);

@@ -10,23 +10,446 @@
   },
   "questions": [
     {
-      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1",
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1i",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
-      "options": "NA",
+      "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Group of 15 MCQs kept as one entry spans several chapters, and items ii, iii, ix, xiii, xv need figures.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 1: item (i) of Question 1 printed with its four options; only the group total [15] is printed; figure(s) beside/below the item cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
-      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#2i",
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1ii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "RECOVERED",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 1: item (ii) of Question 1 printed with its four options; only the group total [15] is printed; figure(s) beside/below the item cropped.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1iii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "RECOVERED",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 1: item (iii) of Question 1 printed with its four options; only the group total [15] is printed; figure(s) beside/below the item cropped.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1iv",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 1: item (iv) of Question 1 printed with its four options; only the group total [15] is printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1v",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "PAGE_CORRECTED"
+        ],
+        "evidence": "Page 2 of the scan: item (v) of Question 1 printed there with its four options (page render checked; Question 1 starts on page 1 with the group total [15]); page set to 2.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1vi",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "PAGE_CORRECTED"
+        ],
+        "evidence": "Page 2 of the scan: item (vi) of Question 1 printed there with its four options (page render checked; Question 1 starts on page 1 with the group total [15]); page set to 2.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1vii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "PAGE_CORRECTED"
+        ],
+        "evidence": "Page 2 of the scan: item (vii) of Question 1 printed there with its four options (page render checked; Question 1 starts on page 1 with the group total [15]); page set to 2.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1viii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "RECOVERED",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "FIGURE_CROPPED",
+          "PAGE_CORRECTED"
+        ],
+        "evidence": "Page 2 of the scan: item (viii) of Question 1 printed there with its four options (page render checked; Question 1 starts on page 1 with the group total [15]); page set to 2.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1ix",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "RECOVERED",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "FIGURE_CROPPED",
+          "PAGE_CORRECTED"
+        ],
+        "evidence": "Page 2 of the scan: item (ix) of Question 1 printed there with its four options (page render checked; Question 1 starts on page 1 with the group total [15]); page set to 2.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1x",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "RECOVERED",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "FIGURE_CROPPED",
+          "PAGE_CORRECTED"
+        ],
+        "evidence": "Page 3 of the scan: item (x) of Question 1 printed there with its four options (page render checked; Question 1 starts on page 1 with the group total [15]); page set to 3.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1xi",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "PAGE_CORRECTED"
+        ],
+        "evidence": "Page 3 of the scan: item (xi) of Question 1 printed there with its four options (page render checked; Question 1 starts on page 1 with the group total [15]); page set to 3.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1xii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "PAGE_CORRECTED"
+        ],
+        "evidence": "Page 3 of the scan: item (xii) of Question 1 printed there with its four options (page render checked; Question 1 starts on page 1 with the group total [15]); page set to 3.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1xiii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "RECOVERED",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "FIGURE_CROPPED",
+          "PAGE_CORRECTED"
+        ],
+        "evidence": "Page 3 of the scan: item (xiii) of Question 1 printed there with its four options (page render checked; Question 1 starts on page 1 with the group total [15]); page set to 3.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1xiv",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "PAGE_CORRECTED"
+        ],
+        "evidence": "Page 4 of the scan: item (xiv) of Question 1 printed there with its four options (page render checked; Question 1 starts on page 1 with the group total [15]); page set to 4.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#1xv",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "RECOVERED",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED",
+          "FIGURE_CROPPED",
+          "PAGE_CORRECTED"
+        ],
+        "evidence": "Page 4 of the scan: item (xv) of Question 1 printed there with its four options (page render checked; Question 1 starts on page 1 with the group total [15]); page set to 4.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#2ia",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
@@ -34,12 +457,136 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Six-blank group kept as one entry spans several chapters (laws of motion, motion, fluids, reflection, magnetism).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 4: blank (a) of Question 2 (i) printed with its bracketed choices; only the group total [6] is printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#2ib",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 4: blank (b) of Question 2 (i) printed with its bracketed choices; only the group total [6] is printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#2ic",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 4: blank (c) of Question 2 (i) printed with its bracketed choices; only the group total [6] is printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#2id",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 4: blank (d) of Question 2 (i) printed with its bracketed choices; only the group total [6] is printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#2ie",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 4: blank (e) of Question 2 (i) printed with its bracketed choices; only the group total [6] is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#2ii",
@@ -112,14 +659,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram on page 5 (tin with a single hole) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: diagram printed directly under 3 (iii) with labels Hole / lubang and Milk / susu; cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#3iv",
@@ -144,14 +701,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 5 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: diagram printed under 3 (v); cropped complete with all labels.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#3vi",
@@ -208,14 +775,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Distance-time graph with points A-D on page 6 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: graph printed beside 4 (ii) (a)-(c); cropped complete. A small handwritten mark covers the tick label between 3 and 5 on the time axis.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#4iii",
@@ -240,14 +817,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Aircraft figure on page 7 assigning forces A-D is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: aircraft figure printed beside 5 (i); cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#5ii",
@@ -288,14 +875,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 7 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: pictures (a), (b), (c) printed under 6 (i); cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#6ii",
@@ -336,14 +933,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 8 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: frozen-lake diagram printed under 7 (i); cropped complete with labels A, B, C.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#7ii",
@@ -368,14 +975,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Displacement-time graph on page 8 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: small displacement-time graph printed beside 7 (iii); cropped complete; scale numbers legible but small.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#8i",
@@ -400,14 +1017,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 8 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: ray diagram printed under 8 (ii); cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-physics-icse-class-9-physics-feb-131225-2025#8iii",
@@ -464,14 +1091,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 9 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 9: both figures of 9 (iii) (horseshoe core for (a), broken bar magnet for (b)) cropped complete.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

@@ -528,14 +528,24 @@
       "marks": "MISMATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Figure (masses and axis AB at 60°) on printed page 5 is needed for part b); (5) printed beside a) only, combined entry marks inferred",
-      "notes": ""
+      "reason": "Still blocked: marks MISMATCH",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF p2 right half (printed page 5): figure under Q20 b). Marks still held: (5) is printed beside a) only.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-11-physics-isc-class-11-hy-physics-2019#21a",

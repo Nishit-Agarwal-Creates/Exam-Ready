@@ -1408,18 +1408,34 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figures on page 20 (Model A and Model B compost toilets) not reproduced",
-        "Printed source/credit line (URL or 'Source: …') omitted from the text",
-        "Figure labels 'Model A' and 'Model B' removed from the text; 'workin g' is as printed"
+        "Printed source/credit line (URL or 'Source: …') omitted from the text"
       ],
-      "confidence": "LOW",
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(b) Model B will have faster composting because the ventilation pipes provide more oxygen, which helps microorganisms decompose the faecal waste faster.",
         "correctOption": 1
       },
       "cognitiveLevel": "Application",
       "chapter": "technology-and-environment",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/49.png",
+          "kind": "FIGURE",
+          "alt": "Two cross-section drawings of dry compost toilets captioned Model A and Model B, with labels such as Urine-faeces separation, Urine tank, Faeces tank and Cover",
+          "width": 1224,
+          "height": 619,
+          "page": 20,
+          "crop": {
+            "x": 0.195,
+            "y": 0.355,
+            "w": 0.685,
+            "h": 0.245
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "50",
@@ -1434,17 +1450,40 @@
       "text": "A decline in the population of which of these animals will not affect the cases of malaria in your locality?",
       "hasFigure": true,
       "extractionIssues": [
-        "The four options are pictures only (page 21) and are not reproduced",
-        "Printed source/credit line (URL or 'Source: …') omitted from the text",
-        "MCQ options are images; options not recorded"
+        "Printed source/credit line (URL or 'Source: …') omitted from the text"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(d)"
+        "text": "(d)",
+        "correctOption": 3
       },
       "cognitiveLevel": "Understanding",
       "chapter": "technology-and-environment",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/50.png",
+          "kind": "FIGURE",
+          "alt": "Four photographs labelled (a), (b), (c) and (d), each showing a different animal",
+          "width": 375,
+          "height": 880,
+          "page": 21,
+          "crop": {
+            "x": 0.175,
+            "y": 0.172,
+            "w": 0.21,
+            "h": 0.348
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "options": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)"
+      ]
     },
     {
       "number": "51",
@@ -1464,9 +1503,7 @@
         "Central India and Indian desert"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Map on page 22 (wind power potential of India) not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "officialAnswer": {
         "text": "(a) Indian desert and Northern plains",
@@ -1474,7 +1511,25 @@
       },
       "cognitiveLevel": "Application",
       "chapter": "technology-and-environment",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/51.png",
+          "kind": "MAP",
+          "alt": "Map of India titled 'Wind Power Density Map at 50 m agl' with a shaded legend of wind power density in W/sq.m (0-100 up to 400-500)",
+          "width": 830,
+          "height": 859,
+          "page": 22,
+          "crop": {
+            "x": 0.175,
+            "y": 0.18,
+            "w": 0.465,
+            "h": 0.34
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "52",
@@ -3652,16 +3707,33 @@
       "text": "Study picture A and picture B carefully and answer the question.\n(a) Compare the ideology of the mode of resource shown in A and B\n(b) Why is the mode represented by Picture A, a significant part of the present-day world.",
       "hasFigure": true,
       "extractionIssues": [
-        "Images (pictures A and B) on page 44 not reproduced",
         "Printed source/credit line (URL or 'Source: …') omitted from the text",
         "Parts carry different printed tags: Application, Evaluate (in order); no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(a) Picture A( Industrial): Operates on an ideology of maximum exploitation and high productivity. It treats nature as a commodity to be controlled, focusing on short-term high yields, technology dependence, and commercial profit, often leading to ecological degradation. Man as different from nature, exploitation is common in this mode. Picture B (hunter gatherer): Operates on an ideology of humans as part of nature, reverence for natural elements, conservation, and ecological harmony. It views resources as limited, focusing on stewardship, long-term health of the soil, and working with nature rather than dominating it. (b) (i) Energy advancements and Technological Advances: The transition from wood/water power to fossil fuels enabled higher production volumes, while (ii) innovations like the steam engine and electricity allowed for mass production of goods. (iii) Mass Production and Economic Growth: The factory system lowered costs, (iv) making goods more affordable and creating a high-consumption culture. The (v) pursuit of GDP growth and economic efficiency led to the adoption of (vi) industrialization as a primary goal for nations. (vii) Expansion of Global Trade &…"
+        "text": "(a) Picture A( Industrial): Operates on an ideology of maximum exploitation and high productivity. It treats nature as a commodity to be controlled, focusing on short-term high yields, technology dependence, and commercial profit, often leading to ecological degradation. Man as different from nature, exploitation is common in this mode.\nPicture B (hunter gatherer): Operates on an ideology of humans as part of nature, reverence for natural elements, conservation, and ecological harmony. It views resources as limited, focusing on stewardship, long-term health of the soil, and working with nature rather than dominating it.\n(b) (i) Energy advancements and Technological Advances: The transition from wood/water power to fossil fuels enabled higher production volumes, while innovations like the steam engine and electricity allowed for mass production of goods.\n(ii) Mass Production and Economic Growth: The factory system lowered costs, making goods more affordable and creating a high-consumption culture. The pursuit of GDP growth and economic efficiency led to the adoption of industrialization as a primary goal for nations.\n(iii) Expansion of Global Trade & Infrastructure: Transportation advancements (railways, steamships) and communication networks (telegraph) integrated global markets, allowing industrial products to reach worldwide markets and raw materials to be extracted globally.\n(iv) Colonialism and Resource extraction.\n(v) Exploitation of labour force for profits.\n(vi) Man as different from nature mindset has prevailed - loss of connect with natural world.\n(vii) Lack of respect for people following other modes of existence."
       },
       "chapter": "modes-of-existence",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/140.png",
+          "kind": "FIGURE",
+          "alt": "Two pictures captioned Picture A (a black-and-white drawing of buildings) and Picture B (a pencil sketch of people outdoors)",
+          "width": 1170,
+          "height": 442,
+          "page": 44,
+          "crop": {
+            "x": 0.215,
+            "y": 0.515,
+            "w": 0.655,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "141",
@@ -4481,16 +4553,49 @@
       "text": "Study the two pictures and answer the questions that follow.\n(i) Contrast the long-term environmental impacts of the two methods of using ocean resources.\n(ii) Predict the economic future of a coastal tribe if their traditional fishing grounds are leased to industrial fleets. Which cultural traditions are likely to disappear first?\n(iii) Suggest one traditional practice that an industrial company could adopt to protect biodiversity.",
       "hasFigure": true,
       "extractionIssues": [
-        "Images (pictures A and B) on page 55 not reproduced",
         "Printed source/credit line (URL or 'Source: …') omitted from the text",
         "Parts carry different printed tags: Analysis, Evaluate, Application (in order); no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Indigenous fishing methods have minimal environmental impact as they use small-scale, selective techniques that allow marine ecosystems to recover. Industrial fishing, however, damages marine habitats through large-scale operations such as trawling, which destroys the seabed and leads to significant by-catch. (ii) The tribe would likely shift from a self-sufficient lifestyle to economic dependency. Depletion of fish stocks would reduce food security and income. Cultural practices such as traditional fishing, net-making, and shell collection would gradually disappear. (iii) Seasonal fishing restrictions would be highly effective. By limiting fishing during breeding periods, fish populations can recover, ensuring long-term sustainability."
       },
       "chapter": "modes-of-existence",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/178.png",
+          "kind": "FIGURE",
+          "alt": "Picture A: photograph of people sorting fish in baskets on a beach, with small boats on the sea",
+          "width": 762,
+          "height": 412,
+          "page": 55,
+          "crop": {
+            "x": 0.198,
+            "y": 0.158,
+            "w": 0.427,
+            "h": 0.163
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/178-2.png",
+          "kind": "FIGURE",
+          "alt": "Picture B: illustration of a ship towing a large net through a shoal of fish under the sea",
+          "width": 762,
+          "height": 392,
+          "page": 55,
+          "crop": {
+            "x": 0.198,
+            "y": 0.36,
+            "w": 0.427,
+            "h": 0.155
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "179",
@@ -4733,16 +4838,33 @@
       "text": "Observe the picture shown below and answer the questions that follow:\n(i) Both devices aim to reduce air pollution, but they are used in different contexts. Where is each device typically used (mobile vs. stationary sources)?\n(ii) What is the specific role of the \"Urea\" injected in the SCR system on the right?\n(iii) The diagram on the left shows the catalytic converter reducing Nitrogen Oxides (NOx), Carbon Monoxide (CO), and Hydrocarbons (HC). Why is the reduction important for the environment?",
       "hasFigure": true,
       "extractionIssues": [
-        "Image (picture) on page 59 (catalytic converter and SCR system) not reproduced",
         "Printed source/credit line (URL or 'Source: …') omitted from the text",
         "Parts carry different printed tags: Application, Understanding, Analysis (in order); no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Catalytic Converter: Mobile sources (cars/bikes). SCR: Stationary sources (factories/power plants) and heavy diesel trucks. (ii) Urea acts as a reducing agent; it breaks down into ammonia, which reacts with NOx to turn it into harmless Nitrogen (N2) and water vapor (H2O). (iii) NOx causes acid rain/smog, CO is a toxic gas that prevents oxygen transport in blood, and HC contributes to ground-level ozone formation."
       },
       "chapter": "pollution",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/189.png",
+          "kind": "FIGURE",
+          "alt": "Illustration of a car exhaust with a part labelled Catalytic Converter (labels CO, NOx, HC and exhaust fumes CO2, H2O, N2) and a chimney plant labelled SCR (Selective Catalytic Reduction) System with a Urea tank and NOx",
+          "width": 603,
+          "height": 379,
+          "page": 59,
+          "crop": {
+            "x": 0.198,
+            "y": 0.435,
+            "w": 0.338,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "190",
@@ -4823,16 +4945,33 @@
       "text": "Observe the picture shown below and answer the questions that follow:\n(i) Based on the image, what are two immediate signs that this site could be a source of radioactive pollution?\n(ii) Why is the rusty barrel a major concern for the surrounding environment and potentially the groundwater?\n(iii) What is one severe long-term health effect associated with exposure to radioactive materials, and what is the general process of cleaning up such a contaminated site called?",
       "hasFigure": true,
       "extractionIssues": [
-        "Image (picture) on page 61 not reproduced",
         "Printed source/credit line (URL or 'Source: …') omitted from the text",
         "Parts carry different printed tags: Application, Analysis, Understanding (in order); no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) The universal radiation symbol (trefoil) on the barrel and the presence of specialised protective suits/containers. (ii) Rust indicates corrosion; if the barrel leaks, radioactive isotopes can leach into the soil and reach the groundwater, contaminating a wide area. (iii) Health effect: Cancer (leukaemia) or genetic mutations. The cleanup process is called Remediation (or Decontamination)."
       },
       "chapter": "pollution",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/193.png",
+          "kind": "FIGURE",
+          "alt": "Photograph of a derelict building with an open door and a rusty barrel marked WASTE in front",
+          "width": 610,
+          "height": 359,
+          "page": 61,
+          "crop": {
+            "x": 0.198,
+            "y": 0.17,
+            "w": 0.342,
+            "h": 0.142
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "194",
@@ -4847,16 +4986,33 @@
       "text": "Observe the picture shown below and answer the questions that follow:\n(i) Identify three different sources of indoor air pollution visible in this single household image.\n(ii) What are two immediate (short-term) health symptoms the family members might experience due to the accumulation of these pollutants?\n(iii) Suggest one simple and inexpensive behavioural change, and one simple structural change, that could significantly improve the air quality in this home.",
       "hasFigure": true,
       "extractionIssues": [
-        "Image (picture) on page 61 (household) not reproduced",
         "Printed source/credit line (URL or 'Source: …') omitted from the text",
         "Parts carry different printed tags: Analysis, Recall, Create (in order); no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Tobacco smoke, cooking fumes (biomass/gas), and Volatile Organic Compounds (VOCs) from paints or cleaning chemicals. (ii) Eye/throat irritation, dizziness, and acute headaches. (iii) Behavioural: No smoking indoors. Structural: Installing an exhaust fan or increasing the number of air-purifying indoor plants."
       },
       "chapter": "pollution",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/194.png",
+          "kind": "FIGURE",
+          "alt": "Illustration of a cut-away house with three rooms, each showing a family member doing an everyday activity",
+          "width": 653,
+          "height": 435,
+          "page": 61,
+          "crop": {
+            "x": 0.198,
+            "y": 0.527,
+            "w": 0.366,
+            "h": 0.172
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "195",
@@ -5004,15 +5160,32 @@
       "text": "Study the logos of few organisations seen below and answer the questions.\n(i) Identify the shared objective of these three international institutions seen in the picture above in the context of the Earth Summit.\n(ii) Explain how the mandate of UNEP differs from that of the UNDP in achieving the goals laid out in Agenda 21 regarding environmental protection and poverty reduction.",
       "hasFigure": true,
       "extractionIssues": [
-        "Image (logos) on page 63 not reproduced",
         "Parts carry different printed tags: Understanding, Analysis & Application (in order); no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": ".(i) Shared Objective of UNDP, UNEP, and WHO: • Mainstreaming Sustainable Development: Their collective goal is to integrate environmental protection, human health, and economic growth into a single \"blueprint for international action\" as established at the 1992 Earth Summit. • Implementation of Agenda 21: They work together to translate the non-binding action plan of Agenda 21 into practical national and local policies. • Balancing Triple Bottom Line: The agencies aim to balance the \"social, economic, and environmental\" dimensions of human life to ensure \"intergenerational equity\". • Global Partnership: Fostering cooperation between governments, NGOs, and the private sector to solve urgent environmental problems while promoting inclusive growth. (ii) Mandate Difference (UNEP vs. UNDP): • UNEP (Environmental Authority): Acts as the global authority that \"sets the environmental agenda\" and promotes the coherent implementation of the environmental dimension of sustainable development within the UN system. • UNDP (Development Lead): Focuses on \"human development\" and poverty eradication. Its mandate is to help countries build resilience and develop policies to achieve reduction of…"
       },
       "chapter": "legal-regimes-for-sustainable-development",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/201.png",
+          "kind": "FIGURE",
+          "alt": "Three organisation logos printed side by side, each showing its acronym",
+          "width": 893,
+          "height": 202,
+          "page": 63,
+          "crop": {
+            "x": 0.198,
+            "y": 0.568,
+            "w": 0.5,
+            "h": 0.08
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "202",
@@ -5049,16 +5222,33 @@
       "text": "Study the picture below and answer the questions that follow:\n(i) Analyse any four challenges the international community faces in regulating the international regimes to save the common resources seen in the picture.\n(ii) Suggest any three national laws [Indian] which can regulate the conservation of these natural habitats. State one important feature of each of the three laws mentioned by you.",
       "hasFigure": true,
       "extractionIssues": [
-        "Image (picture) on page 64 not reproduced",
         "Printed source/credit line (URL or 'Source: …') omitted from the text",
         "Parts carry different printed tags: Analysis, Analysis & Application (in order); no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Four Challenges in Regulating International Regimes for Commons • Sovereignty vs. Global Responsibility: Nations often view forests and landscapes as private economic assets for resource extraction, resisting international \"interference\" in their domestic land-use policies. • North-South Divide (Equity Issues): Developing nations argue that strict conservation regimes hinder their economic growth, demanding that the \"Global North\" (which already industrialized) provide more funding and technology transfer. • Lack of Enforceability: Most international environmental agreements (like the Bonn Challenge or New York Declaration on Forests) are voluntary or \"soft law,\" meaning there are no real penalties for non-compliance. • The \"Tragedy of the Commons\": When resources are shared or transboundary, individual nations are incentivized to over-exploit them for short-term gain before others do, leading to total depletion. (ii) Indian National Laws for Habitat Conservation • Wildlife Protection Act (1972): • Feature: Established \"Protected Areas\" (National Parks and Sanctuaries) where human activity and resource harvesting are strictly prohibited or regulated to protect endangered…"
       },
       "chapter": "legal-regimes-for-sustainable-development",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/203.png",
+          "kind": "FIGURE",
+          "alt": "Collage of five photographs: a bird on grass, orange flowers, a hand holding soil, water with bubbles, and sky with clouds",
+          "width": 666,
+          "height": 384,
+          "page": 64,
+          "crop": {
+            "x": 0.205,
+            "y": 0.43,
+            "w": 0.373,
+            "h": 0.152
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "204",
@@ -5095,7 +5285,6 @@
       "text": "Observe the image given below and answer the following questions:\n(i) Mention the type of renewable fuel generated by this technology.\n(ii) Explain how this technology is appropriate in rural India.\n(iii) Discuss how renewable energy can help rural India to become self-reliant and clean.",
       "hasFigure": true,
       "extractionIssues": [
-        "Image on page 65 (biogas plant) not reproduced",
         "Printed source/credit line (URL or 'Source: …') omitted from the text",
         "Parts carry different printed tags: Recall, Analysis, Analysis (in order); no single cognitiveLevel recorded."
       ],
@@ -5104,7 +5293,25 @@
         "text": "(i) The technology shown in the image generates biogas. (ii) Biogas technology is highly suitable for rural India because villages often have abundant organic waste such as cow dung, crop residues, and kitchen waste, which can be used as raw materials for biogas production. The system is relatively low-cost and easy to maintain, making it accessible for rural households. In addition, it provides a clean cooking fuel, reducing dependence on firewood and preventing deforestation. The leftover slurry from the biogas plant can also be used as a nutrient-rich organic fertilizer for agriculture. (iii) Renewable energy sources such as biogas, solar, and wind power can help rural communities become energy self-sufficient by producing electricity or fuel locally without relying on fossil fuels. This reduces pollution and improves environmental quality. Renewable energy also promotes sustainable development by using locally available resources and creating employment opportunities in rural areas. As a result, villages can achieve cleaner energy use, better waste management, and greater economic independence."
       },
       "chapter": "technology-and-environment",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/205.png",
+          "kind": "FIGURE",
+          "alt": "Photograph of a round covered concrete structure with a pipe, set in a field",
+          "width": 564,
+          "height": 392,
+          "page": 65,
+          "crop": {
+            "x": 0.198,
+            "y": 0.464,
+            "w": 0.316,
+            "h": 0.155
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "206",
@@ -5142,15 +5349,32 @@
       "text": "Observe the map given below and answer the following questions\n(i) What is the relationship between the development of the countries and their per capita energy consumption?\n(ii) What will happen to the global energy supply system as conventional energy sources like fossil fuels decline over the next 50 years?\n(iii) Suggest two measures to sustain the global energy supply.",
       "hasFigure": true,
       "extractionIssues": [
-        "Map on page 66 (energy use per person, 2023) not reproduced",
         "Parts carry different printed tags: Analysis, Analysis, Evaluate (in order); no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) The map shows that developed countries generally have higher per capita energy consumption compared to developing countries. Nations such as the United States, Canada, Australia, and many European countries consume large amounts of energy because they have advanced industries, modern infrastructure, and high standards of living. In contrast, many developing countries in Africa and parts of Asia have lower energy consumption per person due to limited industrialisation, lower income levels, and restricted access to modern energy services. Thus, there is a strong relationship where higher economic development is usually associated with higher energy use per capita. (ii) As fossil fuel reserves decline, the global energy system may face energy shortages and rising energy costs if alternative sources are not developed in time. This situation will likely force countries to transition towards renewable and sustainable energy sources such as solar, wind, and hydroelectric power to meet future energy demands. (iii) Promoting renewable energy sources such as solar, wind, and biomass to reduce dependence on fossil fuels. Secondly, improving energy efficiency and conservation, for…"
       },
       "chapter": "technology-and-environment",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-itembank-2026-xi-environmental-science/207.png",
+          "kind": "MAP",
+          "alt": "World map titled 'Energy use per person, 2023' (Our World in Data), countries shaded by kilowatt-hours per person from 0 to 100,000 kWh, with data source note",
+          "width": 991,
+          "height": 626,
+          "page": 66,
+          "crop": {
+            "x": 0.205,
+            "y": 0.405,
+            "w": 0.555,
+            "h": 0.248
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "208",

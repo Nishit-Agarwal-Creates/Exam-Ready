@@ -123,12 +123,28 @@
       "type": "SHORT_ANSWER",
       "text": "Draw all possible lines of symmetry in each of the following figure.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 2 not reproduced (three shapes (i)-(iii))"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "symmetry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-half-yearly-mathematics-131225-2026/3c.png",
+          "kind": "FIGURE",
+          "alt": "Three shapes labelled (i), (ii) and (iii): a quarter-circle shape, a rectangle with a triangular point on its top and bottom edges, and a rhombus",
+          "width": 1143,
+          "height": 185,
+          "page": 2,
+          "crop": {
+            "x": 0.22,
+            "y": 0.168,
+            "w": 0.64,
+            "h": 0.076
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -294,12 +310,28 @@
       "type": "SHORT_ANSWER",
       "text": "Find the area of the shaded region in the following figure :",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 2 not reproduced (shaded rectangle 20 m by 7 m with semicircular cut-outs at both ends; dimensions are hand-drawn in the figure)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-half-yearly-mathematics-131225-2026/6c.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn rectangle 20 m long and 7 m wide, hatched (shaded) except for a semicircular cut-out at each short end",
+          "width": 742,
+          "height": 292,
+          "page": 2,
+          "crop": {
+            "x": 0.33,
+            "y": 0.505,
+            "w": 0.415,
+            "h": 0.12
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -349,12 +381,12 @@
       "type": "SHORT_ANSWER",
       "text": "Write number of faces, Edges and vertices in following : (i) Tetrahedron (ii) Triangular prism",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "representing-3d-in-2d",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "8",

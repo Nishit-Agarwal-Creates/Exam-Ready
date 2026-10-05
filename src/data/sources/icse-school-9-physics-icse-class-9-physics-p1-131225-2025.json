@@ -77,12 +77,29 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 1 (vernier callipers showing the coinciding division) not reproduced",
         "The part label (ii.) is faint on the scan"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "measurements-and-experimentation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-p1-131225-2025/1ii.png",
+          "kind": "FIGURE",
+          "alt": "Vernier callipers with jaws J1 and J2 closed; main scale marked 0 and 1 cm; vernier scale 0 to 10 with an arrow pointing to the coinciding division; scanned print",
+          "width": 518,
+          "height": 234,
+          "page": 1,
+          "crop": {
+            "x": 0.35,
+            "y": 0.471,
+            "w": 0.29,
+            "h": 0.096
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "1",
@@ -219,12 +236,28 @@
         "a.c. source"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 1 (circuit symbol) not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-p1-131225-2025/1viii.png",
+          "kind": "FIGURE",
+          "alt": "Circuit symbol: a circle with a curved line inside, with a lead on each side",
+          "width": 233,
+          "height": 122,
+          "page": 1,
+          "crop": {
+            "x": 0.4,
+            "y": 0.84,
+            "w": 0.13,
+            "h": 0.05
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -293,12 +326,29 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 2 (two charged spheres A and B joined by a wire) not reproduced",
         "The first letter of \"In\" is faint on the scan"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-p1-131225-2025/1xi.png",
+          "kind": "FIGURE",
+          "alt": "Two spheres A and B joined by a coiled wire; sphere A is surrounded by minus signs and sphere B by plus signs",
+          "width": 375,
+          "height": 152,
+          "page": 2,
+          "crop": {
+            "x": 0.37,
+            "y": 0.124,
+            "w": 0.21,
+            "h": 0.062
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -459,12 +509,28 @@
       "type": "SHORT_ANSWER",
       "text": "Draw the following electric circuit and label the parts A, B, C, D, E and F.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 2 (electric circuit with parts A-F) not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-p1-131225-2025/2iv.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with six components labelled A to F, one of them connected across another",
+          "width": 428,
+          "height": 176,
+          "page": 2,
+          "crop": {
+            "x": 0.38,
+            "y": 0.657,
+            "w": 0.24,
+            "h": 0.072
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -756,12 +822,28 @@
       "type": "NUMERICAL",
       "text": "The following figure shows the velocity-time graph of a particle. Using this determine the displacement of that particle.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 (velocity-time graph a-i) not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "motion-in-one-dimension",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-p1-131225-2025/6iii.png",
+          "kind": "GRAPH",
+          "alt": "Velocity-time graph: velocity (m s^-1) from -5 to +5 against time (s) from 0 to 14, a line through points labelled a, b, c, d, e, f, g, h, i",
+          "width": 589,
+          "height": 292,
+          "page": 3,
+          "crop": {
+            "x": 0.35,
+            "y": 0.578,
+            "w": 0.33,
+            "h": 0.12
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "7",
@@ -775,12 +857,28 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram below shows a convex mirror. C is its centre of curvature and F is its focus.\n(a) Draw two rays from A and hence locate the position of image of object OA and label the image as IB.\n(b) State any one characteristic of the image.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 (convex mirror with object OA, pole P, focus F and centre C) not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "reflection-of-light",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-p1-131225-2025/7i.png",
+          "kind": "FIGURE",
+          "alt": "Principal axis with object OA (arrow at O), mirror at P, and points F and C marked on the axis behind the mirror",
+          "width": 518,
+          "height": 274,
+          "page": 3,
+          "crop": {
+            "x": 0.37,
+            "y": 0.7321,
+            "w": 0.29,
+            "h": 0.1126
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -864,12 +962,28 @@
       "type": "SHORT_ANSWER",
       "text": "(a) Complete the circuit given in the following figure by inserting an ammeter between the terminals A and C.\n(b) In the diagram mark the polarity at the terminals of ammeter and indicate clearly the direction of flow of current in the circuit, when the circuit is complete.\n(c) Name and state the purpose of Rh in the circuit.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 (circuit with rheostat Rh, cell, key and terminals A, C) not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-physics-p1-131225-2025/8iii.png",
+          "kind": "FIGURE",
+          "alt": "Incomplete circuit: a zigzag element inside a circle, a zigzag component with an arrow labelled Rh, a cell marked + and -, a key, and two open terminals A and C; a faint pen mark crosses the scan",
+          "width": 562,
+          "height": 339,
+          "page": 4,
+          "crop": {
+            "x": 0.365,
+            "y": 0.161,
+            "w": 0.315,
+            "h": 0.139
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "9",

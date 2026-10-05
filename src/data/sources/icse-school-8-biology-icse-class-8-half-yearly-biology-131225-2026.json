@@ -478,12 +478,28 @@
       "type": "CASE_BASED",
       "text": "Study the picture and answer the following questions.\n(i) Identify the parts labelled a, b, c.\n(ii) Name the term used for the production of sperms.\n(iii) Which part in the female system corresponds to sperm in the male system ?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 not reproduced (sperm with parts labelled a, b, c)"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "reproduction-in-humans",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-biology-icse-class-8-half-yearly-biology-131225-2026/11c.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a sperm with three parts labelled a, b and c",
+          "width": 358,
+          "height": 378,
+          "page": 3,
+          "crop": {
+            "x": 0.76,
+            "y": 0.535,
+            "w": 0.2,
+            "h": 0.155
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "12",

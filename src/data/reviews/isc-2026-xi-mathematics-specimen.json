@@ -256,14 +256,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Cuboid figure on page 6 is needed to locate point F.",
-      "notes": "Figure p6."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Figure p6.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: cuboid figure under Q1(xvii) cropped with all vertex and axis labels.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xi-mathematics-specimen#1xviii",
@@ -576,14 +586,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph on page 9 is needed to tell which turning point is B and which is C.",
-      "notes": "Answer B(-3,1), C(-1,5) depends on labels in the graph."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Answer B(-3,1), C(-1,5) depends on labels in the graph.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 9: graph of G under Q14(i) cropped (photographed print with a light glare, labels A, B, C legible).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xi-mathematics-specimen#14ii",
@@ -656,14 +676,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Orbit figure on page 10 is needed to know which vertex is the perigee P (part d).",
-      "notes": "Key uses a - ae, i.e. P is the vertex next to f1 in the figure."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key uses a - ae, i.e. P is the vertex next to f1 in the figure.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 10: orbit figure with caption under Q16(ii) cropped (L1/L2 are handwritten on the printed specimen).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2026-xi-mathematics-specimen#17i",

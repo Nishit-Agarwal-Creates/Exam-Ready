@@ -240,14 +240,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The image on page 5 (rising graph with money) is needed to identify the objective.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p5 Q1(xiv): image printed below the question; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xi-business-studies-specimen#1xv",
@@ -583,7 +593,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Question prints 'Zeinth', key 'Zenith'; key note says any three contents though question asks four. Both as printed."
+      "notes": "Question prints 'Zeinth', key 'Zenith'; key note says any three contents though question asks four. Both as printed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Answer key in the same PDF continues the cut note: '...explain any three of its contents in brief.) [5]'; completed verbatim.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2027-xi-business-studies-specimen#12iv",

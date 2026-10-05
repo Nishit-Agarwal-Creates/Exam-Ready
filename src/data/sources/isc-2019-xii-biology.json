@@ -260,12 +260,28 @@
         "Y-linked"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (pedigree chart) on page 2 not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "principles-of-inheritance-and-variation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2019-xii-biology/1biv.png",
+          "kind": "FIGURE",
+          "alt": "Pedigree chart: two parents (circle and square) and five offspring, some symbols shaded",
+          "width": 304,
+          "height": 176,
+          "page": 2,
+          "crop": {
+            "x": 0.26,
+            "y": 0.64,
+            "w": 0.17,
+            "h": 0.07
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",

@@ -16,6 +16,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { checkReview } from "./check-review.mjs";
 import { packQuestionKey } from "./keys.mjs";
+import { questionColumns } from "../lib/sql.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
 const sourcesDir = join(root, "src", "data", "sources");
@@ -33,6 +34,24 @@ const AUDIT_MAX_DISAGREEMENT = 0.2;
 /** Flattened powers of ten and unit exponents (not "× 100", not class intervals like "10-20"). */
 export const FLAT_POWER = [/[x×]\s?10(?:\s?-\d|[1-9])/, /\d\s?(?:mm|cm|km|m)[23](?![\d.])/, /\b(?:mol|L|s|K|g|m|cm|kg|J|N)\s?-\s?[1-9](?![\d])/];
 
+/**
+ * Which audit check counts for one question when several audit files checked it. Normally any disagreement wins.
+ * A question the recovery pipeline changed is judged only on its new content: checks made before the recovery are
+ * ignored and only re-audit checks marked `round: "p51"` count (the latest file wins). Returns null when a recovered
+ * question has not been re-audited yet. Each check carries `order` (1 for audit-<pack>.json, N for audit-<pack>--N.json).
+ */
+export function pickAuditCheck(checks, recovered) {
+  // A question changed again by the audit fix round (recovery.agent "p51-fix-*") is judged only by checks made after
+  // that fix (round "p51-fix"); any other recovered question by the latest "p51" or "p51-fix" check.
+  if (recovered) {
+    // The final fix round (agent "p51-fix-H*") is judged only by the final audit round.
+    const rounds = recovered === "p51-final" ? ["p51-final"] : recovered === "p51-fix" ? ["p51-fix", "p51-final"] : ["p51", "p51-fix", "p51-final"];
+    const after = checks.filter((c) => rounds.includes(c.round));
+    return after.length ? after.reduce((a, b) => (b.order >= a.order ? b : a)) : null;
+  }
+  return checks.find((c) => c.agree === false) ?? checks[0];
+}
+
 /** Final state for one reviewed question, from the evidence alone. */
 export function decide(item, review, packSource, validChapters) {
   const reasons = [];
@@ -47,6 +66,9 @@ export function decide(item, review, packSource, validChapters) {
   if (review.decision === "REJECT") hold(review.duplicate ? "REJECTED_DUPLICATE" : "REJECTED_INVALID", review.reason || "Rejected by the reviewer.");
   if (!packSource.sha256Match || !packSource.official || !packSource.metadataMatches) hold("HOLD_MISSING_SOURCE", packSource.notes || "The source document could not be confirmed.");
   if (review.figure === "ESSENTIAL_MISSING") hold("HOLD_MISSING_FIGURE", review.reason || "A figure needed to answer is not reproduced.");
+  // RECOVERED: the needed figure was cropped from the original page and is attached; it must really be there.
+  if (review.figure === "RECOVERED" && !(Array.isArray(item.figures) && item.figures.length && item.figures.every((f) => f.method === "SOURCE_PAGE_CROP" && f.src && f.page && f.crop)))
+    hold("HOLD_MISSING_FIGURE", "The review says the figure was recovered, but no source-page crop is attached.");
   if (review.answer === "MISMATCH") hold("HOLD_ANSWER", review.reason || "The stored answer doesn't match the official scheme.");
   // An official answer must be the board's words; an extractor's own reconstruction is not.
   if (/reconstruct|unrecoverable|not directly legible/i.test(item.officialAnswer?.text ?? ""))
@@ -120,20 +142,21 @@ function main() {
     const auditFiles = readdirSync(reviewsDir)
       .filter((f) => f === `audit-${key}.json` || (f.startsWith(`audit-${key}--`) && f.endsWith(".json")))
       .sort();
-    const audit = auditFiles.length
-      ? {
-          checks: [
-            ...new Map(
-              auditFiles
-                .flatMap((f) => JSON.parse(readFileSync(join(reviewsDir, f), "utf8")).checks ?? [])
-                .sort((x, y) => Number(x.agree === false) - Number(y.agree === false))
-                .map((c) => [c.key, c]),
-            ).values(),
-          ],
-        }
-      : null;
+    // Per key, any disagreement wins over any agreement, with one exception: a question the recovery pipeline
+    // changed after it was disputed (review entry carries `recovery`) is judged by the latest audit file that
+    // checked it (audit-<pack>--N.json, highest N), so a fixed question can be re-audited on its new content.
+    const auditOrder = (f) => Number(f.match(/--(\d+)\.json$/)?.[1] ?? 1);
+    const auditRound = new Map(review.questions.filter((r) => r.recovery).map((r) => [r.key, /^p51-fix-H/.test(r.recovery.agent ?? "") ? "p51-final" : /^p51-fix/.test(r.recovery.agent ?? "") ? "p51-fix" : "p51"]));
+    const byKeyChecks = new Map();
+    for (const f of auditFiles)
+      for (const c of JSON.parse(readFileSync(join(reviewsDir, f), "utf8")).checks ?? []) byKeyChecks.set(c.key, [...(byKeyChecks.get(c.key) ?? []), { ...c, order: auditOrder(f) }]);
+    const audit = auditFiles.length ? { checks: [...byKeyChecks].map(([key, list]) => pickAuditCheck(list, auditRound.get(key) ?? false)).filter(Boolean) } : null;
     const disputed = new Set((audit?.checks ?? []).filter((c) => c.agree === false).map((c) => c.key));
-    const auditRate = audit?.checks?.length ? disputed.size / audit.checks.length : 0;
+    // A disputed recovered question that a later fix round withdrew (held again, action HELD_AFTER_AUDIT) no longer
+    // publishes, so it does not count against the rest of the pack; it stays held on its own.
+    const withdrawn = new Set(review.questions.filter((r) => r.decision !== "PUBLISH" && r.recovery?.actions?.includes("HELD_AFTER_AUDIT")).map((r) => r.key));
+    const rated = (audit?.checks ?? []).filter((c) => !withdrawn.has(c.key));
+    const auditRate = rated.length ? rated.filter((c) => disputed.has(c.key)).length / rated.length : 0;
     const packHeldByAudit = Boolean(audit) && auditRate > AUDIT_MAX_DISAGREEMENT;
     const valid = chaptersFor.get(`${pack.source.board}/${pack.source.class}/${pack.source.subject}`) ?? new Set();
     const counts = {};
@@ -143,7 +166,9 @@ function main() {
       let { state, reasons, chapter } = decide(item, byKey.get(qkey), review.source, valid);
       // Rebuilt notation, corrected chapters and minor text differences need an independent audit before publishing.
       const r = byKey.get(qkey);
-      const needsAudit = r && (r.notation === "REBUILT_OK" || r.text === "MINOR" || r.chapter === "WRONG" || (NUMERIC.has(pack.source.subject) && /[0-9√π∫θαβλμΩ±×÷²³⁻]/.test(`${item.text} ${(item.options ?? []).join(" ")}`)));
+      // Anything changed by the recovery pipeline (recovered figure, corrected text, marks status, re-mapped chapter)
+      // must be confirmed by an independent audit before it publishes.
+      const needsAudit = r && (r.figure === "RECOVERED" || Boolean(r.recovery) || r.notation === "REBUILT_OK" || r.text === "MINOR" || r.chapter === "WRONG" || (NUMERIC.has(pack.source.subject) && /[0-9√π∫θαβλμΩ±×÷²³⁻]/.test(`${item.text} ${(item.options ?? []).join(" ")}`)));
       const audited = (audit?.checks ?? []).some((c) => c.key === qkey && c.agree === true);
       if (state === "AUTO_VERIFIED" && needsAudit && !audited && !disputed.has(qkey)) {
         state = "HOLD_AUDIT";
@@ -179,11 +204,38 @@ function main() {
       for (const r of reasons) if (state !== "AUTO_VERIFIED") bump(summary.reasons, `${state}: ${r.length > 90 ? r.slice(0, 87) + "…" : r}`);
       const reason = reasons.join(" ").slice(0, 500);
       const where = `WHERE external_key = ${q(qkey)} AND verification_status = 'UNVERIFIED'`;
+      // Questions the pipeline itself verified earlier (review_state AUTO_VERIFIED, never an editor decision) follow
+      // the recovery pipeline's later evidence: a corrected question that passed its re-audit takes the corrected
+      // content; one withdrawn or disputed after its re-audit is taken off the site (unpublished, never deleted).
+      if (r?.recovery) {
+        const live = `WHERE external_key = ${q(qkey)} AND review_state = 'AUTO_VERIFIED'`;
+        if (state === "AUTO_VERIFIED") {
+          const c = questionColumns(item);
+          sql.push(
+            `UPDATE questions SET question_text = ${q(item.text)}, options = ${q(c.options)}, answer_key = ${q(c.answerKey)}, answer_text = ${q(c.answerText)}, answer_source = ${q(
+              c.answerSource,
+            )}, marks = ${c.marks}, marks_status = ${q(c.marksStatus)}, marks_note = ${q(item.marksNote ?? "")}, figure = ${q(c.figure)}, has_figure = ${item.hasFigure ? 1 : 0}, content_hash = ${q(
+              c.hash,
+            )}, updated_at = ${q(now)} ${live} AND (question_text IS NOT ${q(item.text)} OR options IS NOT ${q(c.options)} OR answer_text IS NOT ${q(c.answerText)} OR marks IS NOT ${c.marks} OR marks_status IS NOT ${q(
+              c.marksStatus,
+            )} OR marks_note IS NOT ${q(item.marksNote ?? "")} OR figure IS NOT ${q(c.figure)});`,
+          );
+        } else if (r.recovery.actions?.includes("HELD_AFTER_AUDIT") || disputed.has(qkey)) {
+          sql.push(
+            `UPDATE questions SET is_published = 0, verification_status = 'UNVERIFIED', review_state = ${q(state)}, review_reason = ${q(
+              `Withdrawn by the recovery pipeline after an independent re-audit: ${reason}`.slice(0, 500),
+            )}, reviewed_at = ${q(now)}, updated_at = ${q(now)} ${live};`,
+          );
+        }
+      }
       if (state === "AUTO_VERIFIED") {
-        const remap =
-          chapter !== item.chapter
-            ? `, chapter_id = COALESCE((SELECT ch.id FROM chapters ch WHERE ch.slug = ${q(chapter)} AND ch.subject_id = questions.subject_id), chapter_id), topic_id = NULL`
-            : "";
+        const chapterSql = `(SELECT ch.id FROM chapters ch WHERE ch.slug = ${q(chapter)} AND ch.subject_id = questions.subject_id)`;
+        const remap = chapter !== item.chapter ? `, chapter_id = COALESCE(${chapterSql}, chapter_id), topic_id = NULL` : "";
+        // A question the pipeline itself verified follows the latest decided chapter (the pack may have been re-mapped
+        // to an official chapter since). Editor-verified questions are never touched.
+        sql.push(
+          `UPDATE questions SET chapter_id = ${chapterSql}, topic_id = NULL WHERE external_key = ${q(qkey)} AND review_state = 'AUTO_VERIFIED' AND ${chapterSql} IS NOT NULL AND chapter_id <> ${chapterSql};`,
+        );
         sql.push(
           `UPDATE questions SET verification_status = 'VERIFIED', is_published = 1, verified_by = 'ExamReady automated review', verified_at = ${q(`${now}T00:00:00Z`)}, mapping_status = 'CONFIRMED', mapping_source = 'review', review_state = 'AUTO_VERIFIED', review_reason = ${q(
             chapter !== item.chapter ? `Chapter corrected by review (was ${item.chapter}).` : "",

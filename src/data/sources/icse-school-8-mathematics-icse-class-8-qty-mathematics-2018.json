@@ -609,14 +609,30 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "From the adjoining Venn diagram, find the following sets : (i) A∩B (ii) (A∪B)' (iii) A – B",
+      "text": "From the adjoining Venn diagram, find the following sets : (i) A∩B (ii) (A∪B)′ (iii) A − B",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (Venn diagram) on page 3 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "chapter": "sets",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-qty-mathematics-2018/10c.png",
+          "kind": "FIGURE",
+          "alt": "Venn diagram of two overlapping sets A and B inside a universal set ξ, with single-digit numbers written in the regions",
+          "width": 536,
+          "height": 303,
+          "page": 3,
+          "crop": {
+            "x": 0.35,
+            "y": 0.552,
+            "w": 0.3,
+            "h": 0.12
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

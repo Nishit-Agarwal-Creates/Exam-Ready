@@ -32,14 +32,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Question asks to identify the leader shown in an unreproduced photograph; the answer (Tilak) cannot be derived from the text alone.",
-      "notes": "MS confirms (B) Bal Gangadhar Tilak, so officialAnswer is correct, but the figure is essential and not reproduced."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "MS confirms (B) Bal Gangadhar Tilak, so officialAnswer is correct, but the figure is essential and not reproduced.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: picture printed under Q2 with its source caption, cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "cbse-sqp-2025-26-x-social-science#3",

@@ -286,25 +286,58 @@
       "type": "MCQ",
       "text": "Which of the following could be a sketch of the function y = d/dx (x log x)?",
       "options": [
-        "[Graph (a) — figure not reproduced]",
-        "[Graph (b) — figure not reproduced]",
-        "[Graph (c) — figure not reproduced]",
-        "[Graph (d) — figure not reproduced]"
+        "Graph (a)",
+        "Graph (b)",
+        "Graph (c)",
+        "Graph (d)"
       ],
       "hasFigure": true,
       "extractionIssues": [
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF",
-        "All four options are hand-drawn graphs on page 7; not reproduced (option strings are placeholders, not printed text)",
         "Official answer partly missing in extraction (figure/equation): the key reprints graph (c) as a figure"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(c)",
         "correctOption": 2
       },
       "cognitiveLevel": "Analysis & Application",
       "chapter": "continuity-differentiability-and-differentiation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-mathematics/9.png",
+          "kind": "GRAPH",
+          "alt": "Hand-drawn sketches labelled (a) and (b), each with x and y axes",
+          "width": 1000,
+          "height": 986,
+          "page": 7,
+          "crop": {
+            "x": 0.17,
+            "y": 0.172,
+            "w": 0.56,
+            "h": 0.39
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/isc-cfq-2024-xii-mathematics/9-2.png",
+          "kind": "GRAPH",
+          "alt": "Hand-drawn sketches labelled (c) and (d), each with x and y axes",
+          "width": 1000,
+          "height": 809,
+          "page": 7,
+          "crop": {
+            "x": 0.17,
+            "y": 0.565,
+            "w": 0.56,
+            "h": 0.32
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",
@@ -678,17 +711,33 @@
         "1"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 12 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) -1, 0,1",
         "correctOption": 0
       },
       "cognitiveLevel": "Application",
       "chapter": "continuity-differentiability-and-differentiation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-mathematics/22.png",
+          "kind": "GRAPH",
+          "alt": "Graph of a function made of straight-line segments, with x-axis marks −1, 0 and 1 and the y-axis",
+          "width": 518,
+          "height": 442,
+          "page": 12,
+          "crop": {
+            "x": 0.4,
+            "y": 0.195,
+            "w": 0.29,
+            "h": 0.175
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "23",
@@ -1250,17 +1299,33 @@
         "Assertion (A) is false, but Reason (R) is true."
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 19 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(b) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
         "correctOption": 1
       },
       "cognitiveLevel": "Understanding",
       "chapter": "relations-and-functions",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-mathematics/41.png",
+          "kind": "GRAPH",
+          "alt": "Graph of a curve f(x) against x crossing the axes, origin O marked",
+          "width": 661,
+          "height": 386,
+          "page": 19,
+          "crop": {
+            "x": 0.37,
+            "y": 0.444,
+            "w": 0.37,
+            "h": 0.153
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "42",
@@ -1442,16 +1507,32 @@
       "type": "SHORT_ANSWER",
       "text": "The figure given below shows the graph of a function y = f(x). What is the derivative of the function?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 23 not reproduced (the function must be read from the graph)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "y = |x + 3|; dy/dx = (x + 3)/|x + 3|"
       },
       "cognitiveLevel": "Analysis & Application",
       "chapter": "continuity-differentiability-and-differentiation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-mathematics/48.png",
+          "kind": "GRAPH",
+          "alt": "Graph of y = f(x) made of two straight lines meeting on the x-axis at −3; the y-axis mark 3 is shown",
+          "width": 589,
+          "height": 454,
+          "page": 23,
+          "crop": {
+            "x": 0.39,
+            "y": 0.178,
+            "w": 0.33,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "49",
@@ -2377,16 +2458,32 @@
       "type": "SHORT_ANSWER",
       "text": "The adjacent figure is the graph of function y = f(x). Give answers to the following questions.\n(a) Name the type of discontinuity of the function.\n(b) Give reason for your answer.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 30 not reproduced (graph needed to answer)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Non removable discontinuity. (b) From the graph,at x =1, LHL ≠ RHL. At x=1, we cannot infer what the limit is, as L.H.L.=2 and R.H.L.=1. So the function is not continuous as there is jump discontinuity. Hence, the function has non removable discontinuity at x =1."
       },
       "cognitiveLevel": "Analysis",
       "chapter": "continuity-differentiability-and-differentiation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-mathematics/88.png",
+          "kind": "GRAPH",
+          "alt": "Hand-drawn graph of y = f(x) made of two line pieces meeting the vertical through x = 1, with x-axis marks 1 to 4 and y-axis mark 1",
+          "width": 661,
+          "height": 449,
+          "page": 30,
+          "crop": {
+            "x": 0.35,
+            "y": 0.572,
+            "w": 0.37,
+            "h": 0.178
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "89",
@@ -2401,7 +2498,6 @@
       "text": "If |a⃗ − b⃗| = |a⃗ + b⃗| in the given figure, what inference can you draw?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 31 not reproduced (parallelogram OACB with diagonals a⃗ + b⃗ and a⃗ − b⃗)",
         "Official answer notation rebuilt from the rendered answer key page 56 (text layer scrambled fractions/powers); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -2410,7 +2506,25 @@
       },
       "cognitiveLevel": "Analysis & Application",
       "chapter": "vector-algebra",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-mathematics/89.png",
+          "kind": "FIGURE",
+          "alt": "Parallelogram OACB with sides labelled vector a (OA, BC) and vector b (OB, AC), and diagonals labelled a + b (OC) and a − b (AB)",
+          "width": 653,
+          "height": 563,
+          "page": 31,
+          "crop": {
+            "x": 0.357,
+            "y": 0.159,
+            "w": 0.366,
+            "h": 0.223
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "90",
@@ -2636,16 +2750,33 @@
       "text": "In a classroom, a teacher explains the properties of a particular curve by saying that this particular curve has beautiful ups and downs. It starts and heads down until π radian, and then heads up again and is closely related to sine function. Both follow each other at exactly π/2 radians apart as shown in the figure given below:\nBased on the above information, answer the questions that follow.\n(a) Name the curve that the teacher explained in the classroom.\n(b) Find the area of the curve explained in the passage from 0 to π/2 is.\n(c) Find the area of the shaded region.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 35 not reproduced (graph of y = sin x and the described curve; the shaded region in (c) is defined only by the figure)",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) cosine. (b) 1 sq unit. (c) 2 –√2 sq. units."
       },
       "cognitiveLevel": "Application",
       "chapter": "application-of-integrals",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-mathematics/99.png",
+          "kind": "GRAPH",
+          "alt": "Graph with axes x′x and y′y from −π to 2π showing a black dashed curve labelled y = sin x and a second solid red curve, with a shaded region just right of 0",
+          "width": 1007,
+          "height": 485,
+          "page": 35,
+          "crop": {
+            "x": 0.266,
+            "y": 0.222,
+            "w": 0.564,
+            "h": 0.192
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "100",
@@ -3120,16 +3251,32 @@
       "type": "LONG_ANSWER",
       "text": "The corner points of the feasible region determined by the system of linear constraints are as shown below:\nAnswer the following questions.\n(a) Let Z = 3x − 4y be the objective function. Find the maximum and minimum value of Z and also the corresponding points at which the maximum and minimum value occurs.\n(b) Let Z = px + qy where p, q > 0 be the objective function. Find the condition on p and q so that the maximum value of Z occurs at B(4,10) and C(6,8).\n(c) State the number of optimal solutions in this case.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 39 not reproduced (feasible region; its labelled corner points are O, A(0, 8), B(4, 10), C(6, 8), D(6, 5), E(4, 0) as printed on the graph)"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Z is minimum at A(0,8) and Zmin = −32, Z is maximum at E(4,0) and Zmax = 12. (b) At B (4, 10), Z = 4p +10 q; At C (6, 8), Z = 6p + 8q. As Z is maximum for both cases, 4p + 10q = 6p +8q ⇒ p = q is the required condition. (c) Infinite solutions."
       },
       "cognitiveLevel": "Application",
       "chapter": "linear-programming",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-mathematics/119.png",
+          "kind": "GRAPH",
+          "alt": "Graph of a shaded feasible region with corner points O, A(0, 8), B(4, 10), C(6, 8), D(6, 5) and E(4, 0); axes X 0 to 8 and Y 0 to 11",
+          "width": 618,
+          "height": 677,
+          "page": 39,
+          "crop": {
+            "x": 0.378,
+            "y": 0.473,
+            "w": 0.346,
+            "h": 0.268
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "120",
@@ -3433,7 +3580,6 @@
       "text": "Let f(x) = cos x + √3 sin x , 0 ≤ x ≤ 2π.\nThe following diagram shows the graph f.\nThe y −intercept is at (0, 1) and intersects x −axis at C and D. There is a minimum point at A(p , q) and a maximum point at B.\nBased on the above information, answer the questions that follow.\n(a) Write f′(x) in the form of λcos(x + μ).\n(b) Find the value of q.\n(c) Find the coordinate of the point B.\n(d) Find the interval f(x) is decreasing.\n(e) Find the slope of the tangent to the curve at D.\n(f) Find the slope of the normal to the curve at C.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 45 not reproduced (hand-drawn graph; the function is given, so the parts are answerable)",
         "Official answer notation rebuilt from the rendered answer key page 82 (text layer scrambled fractions/powers/roots); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -3442,7 +3588,25 @@
       },
       "cognitiveLevel": "Understanding, Application, Evaluate & Create",
       "chapter": "applications-of-derivatives",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-mathematics/132.png",
+          "kind": "GRAPH",
+          "alt": "Hand-drawn graph of f starting at (0, 1), with points B (top of the curve), C and D on the x-axis, and A (bottom of the curve)",
+          "width": 1242,
+          "height": 462,
+          "page": 45,
+          "crop": {
+            "x": 0.204,
+            "y": 0.2,
+            "w": 0.695,
+            "h": 0.183
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "133",
@@ -3481,7 +3645,6 @@
       "text": "Sonia watches a painting which has its bottom edge 2 meters (m) above eye level and its top edge is 3 m above eye level as shown in the diagram.\nBased on the above information answer the questions that follow.\n(a) Given α and θ as shown in the diagram, find tan α and tan(α + θ).\n(b) Find θ in terms of x only.\n(c) Find dθ/dx.\n(d) Find x so that dθ/dx = 0 .\n(e) Use 1st derivative test, find the distance Sonia should stand from the wall to maximize her viewing angle of the painting.",
       "hasFigure": true,
       "extractionIssues": [
-        "Photograph and diagram on page 46 not reproduced (the diagram defines α, θ and the horizontal distance x m)",
         "Official answer notation rebuilt from the rendered answer key page 82 (text layer scrambled fractions/powers/roots); check against the PDF"
       ],
       "confidence": "MEDIUM",
@@ -3490,7 +3653,25 @@
       },
       "cognitiveLevel": "Recall, Application & Evaluate",
       "chapter": "applications-of-derivatives",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-mathematics/134.png",
+          "kind": "FIGURE",
+          "alt": "Diagram: a wall with a 1 m painting whose bottom edge is 2 m above eye level; lines from the eye at horizontal distance x m to the bottom and top of the painting; angles α and θ marked",
+          "width": 539,
+          "height": 475,
+          "page": 46,
+          "crop": {
+            "x": 0.538,
+            "y": 0.187,
+            "w": 0.302,
+            "h": 0.188
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

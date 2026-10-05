@@ -42,15 +42,12 @@
       "options": [
         "sin⁻¹x",
         "sin⁻¹(2x)",
-        "(1/2) sin⁻¹x",
+        "sin⁻¹(x/2)",
         "2 sin⁻¹x"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (graph of the function) on page 1 not reproduced in text layer; question cannot be answered without it",
-        "Option (C) fraction rebuilt from the PDF layout as '(1/2) sin⁻¹x' (printed as sin⁻¹(x) over 2); check against the PDF"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(B) / sin⁻¹(2x)",
         "correctOption": 1
@@ -60,7 +57,25 @@
       "choiceGroup": null,
       "sectionTitle": null,
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-mathematics/1.png",
+          "kind": "GRAPH",
+          "alt": "Graph on X'X and Y'Y axes of an increasing curve through O between dashed vertical lines, with π/2 and −π/2 marked on the y-axis and −1 and 1 on the x-axis",
+          "width": 482,
+          "height": 346,
+          "page": 1,
+          "crop": {
+            "x": 0.36,
+            "y": 0.632,
+            "w": 0.27,
+            "h": 0.137
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -469,10 +484,8 @@
         "x + 2y ≥ 2"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph (feasible region) on page 3 not reproduced in text layer; question requires reading points from it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(B) / 2x + y ≥ 2",
         "correctOption": 1
@@ -482,7 +495,25 @@
       "choiceGroup": null,
       "sectionTitle": null,
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-mathematics/16.png",
+          "kind": "GRAPH",
+          "alt": "LPP graph on a grid (x from −1 to 7, y from −1 to 6) with two straight lines and a hatched feasible region",
+          "width": 563,
+          "height": 455,
+          "page": 3,
+          "crop": {
+            "x": 0.34,
+            "y": 0.662,
+            "w": 0.315,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "17",
@@ -507,9 +538,27 @@
       "choiceGroup": null,
       "sectionTitle": null,
       "marksSource": "PRINTED",
-      "hasFigure": false,
+      "hasFigure": true,
       "extractionIssues": [],
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-mathematics/17.png",
+          "kind": "GRAPH",
+          "alt": "LPP graph on a grid (x from −4 to 16, y from 0 to 18) with two straight lines and a hatched bounded feasible region",
+          "width": 669,
+          "height": 632,
+          "page": 4,
+          "crop": {
+            "x": 0.31,
+            "y": 0.263,
+            "w": 0.375,
+            "h": 0.25
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "18",
@@ -524,10 +573,8 @@
         "1/90",
         "1"
       ],
-      "extractionIssues": [
-        "Denominator for option (D) is not present in the extracted text layer (only '1' is present for that option); see page 4"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(B) / 1/100",
         "correctOption": 1
@@ -692,17 +739,33 @@
       "type": "SHORT_ANSWER",
       "text": "Find out the area of shaded region in the enclosed figure.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure ('the enclosed figure', a shaded region bounded by a curve) on page 5 not reproduced in text layer; question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
-        "text": "Area = ∫[0,4] x dy = 16/3 sq. units. (Marking scheme integrates x with respect to y from 0 to 4, per the figure, which is not reproduced.)"
+        "text": "A = ∫₀⁴ x dy = ∫₀⁴ √y dy\n= 2/3 × y^(3/2)]_{y=0}^{y=4} = 16/3 sq. units"
       },
       "chapter": "application-of-integrals",
       "sectionTitle": null,
       "marksSource": "PRINTED",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-mathematics/23b.png",
+          "kind": "FIGURE",
+          "alt": "Parabola x² = y through O with the line y = 4 meeting it at A and B, point N on the y-axis, and the region between the y-axis, y = 4 and the curve shaded",
+          "width": 741,
+          "height": 366,
+          "page": 5,
+          "crop": {
+            "x": 0.29,
+            "y": 0.758,
+            "w": 0.415,
+            "h": 0.145
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "24",

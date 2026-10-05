@@ -1,0 +1,43 @@
+{
+  "pack": "icse-2023-x-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked recovered figures against the original page (page.py grid/crop renders), pdftotext -layout/-raw, and the official answer key/marking scheme where one exists.",
+  "checks": [
+    {
+      "key": "icse-2023-x-mathematics#1iii",
+      "agree": false,
+      "reason": "Figure crop cuts off the top of the circle above Q, and the 1 mark is a split of the printed [15] group total for Question 1 (only the total is printed).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2023-x-mathematics#1vi",
+      "agree": false,
+      "reason": "Only the group total [15] for Question 1 is printed; the 1 mark per sub-part is a split of that total (should be GROUP_TOTAL with marks 0 and a marksNote).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2023-x-mathematics#2iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2023-x-mathematics#4iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2023-x-mathematics#5iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2023-x-mathematics#6iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

@@ -122,7 +122,7 @@
       "hasFigure": false,
       "extractionIssues": [],
       "confidence": "HIGH",
-      "chapter": "rectilinear-figures",
+      "chapter": "constructions-of-polygons",
       "mappingStatus": "AI_SUGGESTED"
     },
     {
@@ -237,12 +237,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "Page 3 is a blurred scan; text read from the image with some uncertainty",
-        "Angle value '145°' is blurred on the scan (could be misread); check against the PDF",
-        "Figure on page 3 (rectangle ABCD with diagonal AC produced to E) not reproduced"
+        "Angle value '145°' is blurred on the scan (could be misread); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "rectilinear-figures",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-mathematics-np20-511-2020/4b.png",
+          "kind": "FIGURE",
+          "alt": "Rectangle ABCD with diagonals AC and BD meeting at O, and AC extended beyond C to E; the question's own printed lines ('Diagonal AC is produced to E...' and 'Find: (i) to (iii)') appear at the left",
+          "width": 1268,
+          "height": 490,
+          "page": 3,
+          "crop": {
+            "x": 0.13,
+            "y": 0.677,
+            "w": 0.71,
+            "h": 0.207
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "4",
@@ -400,12 +417,28 @@
       "type": "SHORT_ANSWER",
       "text": "In the given figure ABCD is a quadrilateral. BP is drawn parallel to AC and BP meets DC produced at P. Prove that: (i) area of ΔAOB = Area of ΔCOP (ii) area of quadrilateral ABCD = area of ΔAPD.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 5 (quadrilateral ABCD with BP parallel to AC, AP and BC meeting at O) not reproduced"
-      ],
-      "confidence": "MEDIUM",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "chapter": "area-theorems",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-mathematics-np20-511-2020/7b.png",
+          "kind": "FIGURE",
+          "alt": "Quadrilateral ABCD with DC produced to P, segments AC, BP, AP and BC drawn, and AP and BC crossing at O",
+          "width": 804,
+          "height": 529,
+          "page": 5,
+          "crop": {
+            "x": 0.33,
+            "y": 0.745,
+            "w": 0.45,
+            "h": 0.217
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -436,12 +469,28 @@
       "type": "NUMERICAL",
       "text": "In the given triangle ABC, AD ⊥ BC. AB = 13 cm, BD = 5 cm, DC = 4 cm. Find the value of: (i) AD (ii) tan x° + cot y°",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 6 (triangle ABC with altitude AD; angle x° at A in triangle ADC and y° at B) not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "trigonometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-mathematics-icse-class-9-mathematics-np20-511-2020/8a.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABC with altitude AD to BC (right angle at D), BD marked 5 and DC marked 4, angle x° at A in triangle ADC and angle y° at B",
+          "width": 762,
+          "height": 556,
+          "page": 6,
+          "crop": {
+            "x": 0.403,
+            "y": 0.315,
+            "w": 0.427,
+            "h": 0.228
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "8",
@@ -453,11 +502,9 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
-      "text": "log2 a = 3, log3 b = 2, log4 c = 1 Find the value of 3a + 2b – 10c",
+      "text": "log₂ a = 3, log₃ b = 2, log₄ c = 1 Find the value of 3a + 2b – 10c",
       "hasFigure": false,
-      "extractionIssues": [
-        "Subscripts flattened: log2, log3, log4 (bases 2, 3, 4)"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "logarithms",
       "mappingStatus": "AI_SUGGESTED"

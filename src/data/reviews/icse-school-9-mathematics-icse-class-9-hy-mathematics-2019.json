@@ -61,7 +61,7 @@
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2019#3a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -69,9 +69,20 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q.3(a) (stored 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: Q3a is a ruler-and-compasses construction of a parallelogram; the official summary of constructions-of-polygons (\"constructing quadrilaterals (including parallelograms and rhombuses) ... with ruler and compasses only\") covers it.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2019#3b",
@@ -192,14 +203,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure (D on AB, E on BC) is needed; the text does not state where D and E lie.",
-      "notes": "Paper prints 'x cam'; [4]."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Paper prints 'x cam'; [4].",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: figure printed under Q.7 (a) (drawn by hand in the original paper; identical on both halves of the spread, so it is part of the paper); cropped from the left copy, complete with labels A, D, B, E, C.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2019#7b",
@@ -221,7 +242,7 @@
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2019#8b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NOT_ESSENTIAL",
@@ -229,9 +250,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q.8(b) (stored 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 4 and 2 (spread): Q.8 (b) table and question continue with no mark bracket ((a) has [4], (c) has [2]); marksStatus NOT_PRINTED.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2019#8c",
@@ -253,7 +284,7 @@
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2019#9a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -261,9 +292,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q.9(a) (stored 0).",
-      "notes": "Paper prints 'insect', 'neet', 'parallel gram'."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Paper prints 'insect', 'neet', 'parallel gram'.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2 (right half): Q.9 (a) (i)-(ii) printed with no mark bracket ((b) has [4], (c) has [2]); marksStatus NOT_PRINTED.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2019#9b",
@@ -301,7 +342,7 @@
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2019#10a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -309,9 +350,20 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q.10(a) (stored 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: Q10a is a ruler-and-compasses construction of a quadrilateral; the official summary of constructions-of-polygons (\"constructing quadrilaterals (including parallelograms and rhombuses) ... with ruler and compasses only\") covers it.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-hy-mathematics-2019#10c",

@@ -149,13 +149,31 @@
       "text": "Answer the following questions with the help of given diagram — (i) Find angle <i & <r. (ii) Name PQ and define it.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 1 not reproduced (ray AO incident on mirror PQ at O with normal N, 60° marked)",
-        "Question continues on page 2 (printed page 2)",
-        "No marks printed"
+        "Question continues on page 2 (printed page 2)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "light-energy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-physics-icse-class-8-qty-physics-2019/2b.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn diagram of a ray from A meeting the hatched line PQ at O, with a dashed line ON and an angle of 60° marked between the ray and PQ",
+          "width": 561,
+          "height": 297,
+          "page": 1,
+          "crop": {
+            "x": 0.612,
+            "y": 0.72,
+            "w": 0.236,
+            "h": 0.162
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "2",
@@ -169,12 +187,12 @@
       "type": "SHORT_ANSWER",
       "text": "Name the device where plane mirrors are arranged in the following way. (i) three plane mirrors inclined at 60° to each other. (ii) two parallel plane mirros each inclined at 45°.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "light-energy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "2",
@@ -188,12 +206,12 @@
       "type": "NUMERICAL",
       "text": "An insect is sitting in frort of a plane mirror at a distance 1 m from it. Find. (i) the distance between the image and the mirror. (ii) the distance between the image and the insect.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "light-energy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "2",
@@ -312,12 +330,29 @@
       "text": "Find the distance and displacement with the help of given diagram — (i) A to D (ii) A to C.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 3 not reproduced (path A-B-C-D, each segment 10 m)",
         "No 'motion' chapter in the list; mapped to force-and-pressure as the nearest listed chapter"
       ],
       "confidence": "LOW",
       "chapter": "force-and-pressure",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-physics-icse-class-8-qty-physics-2019/4a.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn path A to B to C to D with arrows and each segment marked 10 m",
+          "width": 451,
+          "height": 294,
+          "page": 3,
+          "crop": {
+            "x": 0.645,
+            "y": 0.3,
+            "w": 0.19,
+            "h": 0.16
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "4",
@@ -627,12 +662,13 @@
       "text": "An optician while testing the eyes of a patient - keeps a chart of letters 3m behind the patient and asks him to see the letters or the image of chart formed in a plane mirror kept at a distance of 2 m in front of him. (i) At what distance is the chart seen by the patient (ii) what is the distance between chart and image of chart. (iii) what kind of image is formed for patient real or virtual.",
       "hasFigure": false,
       "extractionIssues": [
-        "Printed as a second 'Q.6' (between Q.6 and Q.8; no Q.7 is printed); numbered 7 here to keep numbers unique",
-        "No marks printed"
+        "Printed as a second 'Q.6' (between Q.6 and Q.8; no Q.7 is printed); numbered 7 here to keep numbers unique"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "light-energy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "7",
@@ -736,13 +772,30 @@
       "type": "LONG_ANSWER",
       "text": "Copy the diagram and complete it to show the formation of image of on object OA. State three characteristics of the image.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 not reproduced (concave mirror with object OA beyond C; points O, C, F, P marked)",
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "light-energy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-physics-icse-class-8-qty-physics-2019/8d.png",
+          "kind": "FIGURE",
+          "alt": "Hand-drawn diagram of a concave mirror with pole P on a principal axis, points C and F marked, and an object OA standing on the axis",
+          "width": 689,
+          "height": 413,
+          "page": 3,
+          "crop": {
+            "x": 0.165,
+            "y": 0.285,
+            "w": 0.29,
+            "h": 0.225
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "9",
@@ -790,12 +843,12 @@
       "type": "SHORT_ANSWER",
       "text": "What do you mean by irregular reflection of light ? Does it obey the law of reflection ? Draw a diagram to show irregular reflection.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "light-energy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "9",

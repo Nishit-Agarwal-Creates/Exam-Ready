@@ -295,7 +295,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Pack prefixes (b)'s sentence verbatim as context for 'this pulley'; (c) itself matches. Split of printed [3] sums correctly."
+      "notes": "Pack prefixes (b)'s sentence verbatim as context for 'this pulley'; (c) itself matches. Split of printed [3] sums correctly.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: only '[3]' is printed beside Question 2 (i), covering (a), (b) and (c); no per-item mark. Stored marks 0 with marksStatus GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-physics#2ii",
@@ -320,14 +330,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of the wheel and forces F1, F2, F3 on page 5 is needed to answer.",
-      "notes": "Subscripts 1,2,3 lowered 8pt, rebuilt correctly."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Subscripts 1,2,3 lowered 8pt, rebuilt correctly.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: wheel diagram printed under Question 2 (iii) above parts (a)-(b), cropped whole with A, O, B, F1, F2, F3.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-physics#2iv",
@@ -432,14 +452,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram on page 6 (current direction, points A and B) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: diagram below Question 3 (iii)(b) cropped whole (D.C. supply symbol with plate polarity, A, B, F, labels).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-physics#3iv",
@@ -480,14 +510,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 7 carries the 65° angle at P needed for the calculation.",
-      "notes": "i2 subscript lowered; 43° raised o."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "i2 subscript lowered; 43° raised o.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: prism ray diagram printed under Question 4 (i)(a)-(b), cropped whole (O, P, Q, S, 65°, i2).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-physics#4ii",
@@ -496,14 +536,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Prism diagram on page 7 (angles at Q, B, C) is needed to complete the ray path.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: prism diagram printed under Question 4 (ii), cropped whole (A, B, C, 60° angles, P, Q, 90° mark).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-physics#4iii",
@@ -512,14 +562,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Part (a) asks to copy and complete the ray diagram on page 7.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 7: ray diagram printed beside Question 4 (iii)(a)-(c), cropped whole (A Orange, B Blue, Air, Glass, boundary).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-physics#5i",
@@ -560,14 +620,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page 8 figure shows white light splitting into red and violet; the text alone does not reveal the phenomenon (dispersion).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: prism diagram printed under Question 5 (iii)(b), cropped whole (60° angles, 45°, Incident light, Red, Violet).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-physics#6i",
@@ -640,14 +710,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "NONE",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "pdfplumber page 9: 238 over 92 before P, 4 over 2 before He, 0 over -1 before e confirmed. Each printed stacked pair of blanks (upper and lower) is rendered as a single '___' before Q and R."
+      "notes": "pdfplumber page 9: 238 over 92 before P, 4 over 2 before He, 0 over -1 before e confirmed. Each printed stacked pair of blanks (upper and lower) is rendered as a single '___' before Q and R.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 9: the printed nuclear equation of 7 (ii)(a) cropped as printed, so the stacked pair of blanks (mass number over atomic number) before Q and R is shown exactly; the text keeps '___' for each pair.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-physics#7iii",
@@ -704,14 +784,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit diagram on page 10 holds all the values needed to calculate I.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 10: circuit printed under Question 8 (iii), cropped whole (3.4 v, 2Ω cell, I, 30Ω, 15Ω, 15Ω).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-physics#9i",
@@ -752,14 +842,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 11 (iron filing pattern, A and B) is needed to answer (a).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 11: iron-filings loop diagram printed under Question 9 (iii), cropped whole (field-line arrows, A, B, rheostat, label).",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

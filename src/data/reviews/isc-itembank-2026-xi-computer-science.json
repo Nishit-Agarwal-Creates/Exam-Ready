@@ -768,14 +768,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The Tokens in Python diagram on page 18 with boxes (1) and (2) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 18: the Tokens in Python diagram (boxes 1 and 2 with their example boxes) printed under item 48 cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-computer-science#49",
@@ -939,7 +949,7 @@
     },
     {
       "key": "isc-itembank-2026-xi-computer-science#59",
-      "text": "MISMATCH",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -949,9 +959,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Pack has s2=″Comp  Sc″ with two spaces; the PDF string literal is ″Comp Sc″ with one space (character positions checked).",
-      "notes": "Key false true is correct either way."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key false true is correct either way.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 22: the s2 literal is printed as ″Comp Sc″ with a single space; the double space in the pack corrected.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-computer-science#60",
@@ -1131,7 +1151,7 @@
     },
     {
       "key": "isc-itembank-2026-xi-computer-science#71",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -1141,9 +1161,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Member list omits the printed \"void generate( ) : generates all Neon numbers between m and n by invoking sum_digits( ) on square of number\" row.",
-      "notes": "Page 27; 9² rebuilt."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 27; 9² rebuilt.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 27 (printed 22): the member list prints 'void generate( ) : generates all Neon numbers between m and n by invoking sum_digits( ) on square of number', which the pack had omitted; restored.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-itembank-2026-xi-computer-science#72",

@@ -274,18 +274,19 @@
       "page": 2,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Find the fourth proportional of 5, 9 and 45.",
       "hasFigure": false,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "No marks bracket is legible for this part; 1 mark assumed from the 5-mark pattern of the other questions ((2) and (2) are printed for b) and c))"
+        "OCR text corrected against the page image"
       ],
       "confidence": "HIGH",
       "chapter": "ratio-and-proportion",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "V",
@@ -440,12 +441,29 @@
       "text": "Find each angle shown in the figure.",
       "hasFigure": true,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "Figure on page 2 not reproduced (angles labelled 3x°, 3x°, 3 1/2 x° and 2 1/2 x° at a point)"
+        "OCR text corrected against the page image"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-mathematics-icse-class-7-1-sem-mathematics-080823-2023/VIIc.png",
+          "kind": "FIGURE",
+          "alt": "Four rays from one point forming four angles marked 3x°, 3½x°, 2½x° and 3x°",
+          "width": 750,
+          "height": 561,
+          "page": 2,
+          "crop": {
+            "x": 0.31,
+            "y": 0.49,
+            "w": 0.42,
+            "h": 0.23
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

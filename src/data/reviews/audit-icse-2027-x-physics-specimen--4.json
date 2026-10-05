@@ -1,0 +1,19 @@
+{
+  "pack": "icse-2027-x-physics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, page renders (scripts/recovery/page.py grid/crop) and the marking scheme where one exists.",
+  "checks": [
+    {
+      "key": "icse-2027-x-physics-specimen#3via",
+      "agree": true,
+      "reason": "",
+      "round": "p51-final"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3vib",
+      "agree": true,
+      "reason": "",
+      "round": "p51-final"
+    }
+  ]
+}

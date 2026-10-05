@@ -254,6 +254,21 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
   }
   y -= 8;
 
+  // Figures cropped from the original source pages (PNG), embedded as they are. A figure that fails to load
+  // falls back to the page reference below; nothing is redrawn.
+  type Img = Awaited<ReturnType<typeof doc.embedPng>>;
+  const figureImages = new Map<string, Img>();
+  await Promise.all(
+    [...new Set(paper.items.flatMap((i) => (i.question.figures ?? []).map((f) => f.src)))].map(async (src) => {
+      try {
+        const res = await fetch(src);
+        if (res.ok) figureImages.set(src, await doc.embedPng(await res.arrayBuffer()));
+      } catch {
+        // Left as a page reference.
+      }
+    }),
+  );
+
   // Questions
   const sections = paper.mode === "EXAM_SIMULATION" ? ["A", "B"] : [""];
   let n = 0;
@@ -290,8 +305,9 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
           : q.sourceType === "OFFICIAL_SAMPLE"
             ? "Official sample question"
             : null;
+      const images = (q.figures ?? []).map((f) => figureImages.get(f.src)).filter((x): x is Img => Boolean(x));
       const figureSrc = q.hasFigure ? q.sources.find((x) => !x.isDemo) : undefined;
-      const figureNote = q.hasFigure ? `[Figure/table in the source paper${figureSrc?.pageNumber ? `, page ${figureSrc.pageNumber}` : ""}]` : null;
+      const figureNote = q.hasFigure && !images.length ? `[Figure/table in the source paper${figureSrc?.pageNumber ? `, page ${figureSrc.pageNumber}` : ""}]` : null;
       const blockH = lines.length * 14.5 + optLines.length * 14 + (tag ? 12 : 0) + (figureNote ? 13 : 0) + 12;
       ensure(Math.min(blockH, 200));
       text(`${n}.`, numX, 11.5, bold);
@@ -315,6 +331,15 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
           }
           y -= 14;
         }
+      }
+      for (const img of images) {
+        // Fit the column, never taller than a third of a page; keep the aspect ratio.
+        const scale = Math.min(textW / img.width, 240 / img.height, 1);
+        const w = img.width * scale;
+        const h = img.height * scale;
+        ensure(h + 8);
+        page.drawImage(img, { x: textX, y: y - h + 10, width: w, height: h });
+        y -= h + 8;
       }
       if (figureNote) {
         ensure(13);

@@ -1,0 +1,109 @@
+{
+  "pack": "icse-2027-x-mathematics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF (pages 3-6, 8, 10 and the marking scheme on pages 15-20) with pdftotext -layout, -raw and -table, rendered page images for the figures, and the chapter summaries.",
+  "checks": [
+    {
+      "key": "icse-2027-x-mathematics-specimen#1i",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1ii",
+      "agree": false,
+      "reason": "Options (a) and (b) are not as printed: page 3 prints '(A) is true and (R) is false.' and '(A) is false and (R) is true.', but the pack stores 'Assertion (A) is true and Reason (R) is false.' and 'Assertion (A) is false and Reason (R) is true.'.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1iv",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1v",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1vi",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1vii",
+      "agree": false,
+      "reason": "Text and option (a) add wording that is not on the page ('(a 1×2 matrix)', '(a 2×1 matrix, top-to-bottom 3 then 4)', '(2×1 matrix, top-to-bottom −3 then 8)'); the paper prints only the matrices A = [−1 2], B = column (3, 4) and option (a) column (−3, 8).",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1viii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1ix",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1x",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1xi",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1xii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1xiii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1xiv",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#1xv",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#3iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-2027-x-mathematics-specimen#6ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

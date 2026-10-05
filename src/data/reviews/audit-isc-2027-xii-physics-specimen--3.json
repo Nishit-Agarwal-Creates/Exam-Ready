@@ -1,0 +1,19 @@
+{
+  "pack": "isc-2027-xii-physics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the page render (5 % grid) and the marking scheme / answer key where the pack has one; recovered figures compared with the original page.",
+  "checks": [
+    {
+      "key": "isc-2027-xii-physics-specimen#2i",
+      "agree": false,
+      "reason": "The stored text leaves out the printed \"(Refer to the image below.)\" after \"parallel plate capacitor.\" (page 4), and Figure 3 that it refers to is not reproduced, so the text does not match the page.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "isc-2027-xii-physics-specimen#10i",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

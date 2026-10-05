@@ -10,22 +10,6 @@
   },
   "questions": [
     {
-      "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#2",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "'Name the Following' group kept as one entry spans several chapters (extraction, atomic structure, hydrogen, gas collection, H2S).",
-      "notes": ""
-    },
-    {
       "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#3a",
       "text": "MATCH",
       "numberPage": "MATCH",
@@ -55,22 +39,6 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
-    },
-    {
-      "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#4",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "'Fill in the blanks' group spans several chapters (pollution, gas laws, periodic table, bonding).",
       "notes": ""
     },
     {
@@ -125,7 +93,7 @@
       "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#B2a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -133,15 +101,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Section B Q2 (a) (stored 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-3: no mark is printed beside this Section B item (marks are printed only for other items); marksStatus NOT_PRINTED.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#B2b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -149,9 +127,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Section B Q2 (b) (stored 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-3: no mark is printed beside this Section B item (marks are printed only for other items); marksStatus NOT_PRINTED.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#B2c",
@@ -160,20 +148,30 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Periodic-table grid positioning A, B, C (page 2) is not in the stored text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: the Group 16 / Group 17 grid with A, B and C printed under Section B Q2 (c) cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#B2d",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -181,15 +179,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Section B Q2 (d) (stored 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-3: no mark is printed beside this Section B item (marks are printed only for other items); marksStatus NOT_PRINTED.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#B3a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
       "figure": "NONE",
@@ -197,9 +205,20 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Section B Q3 (a) (stored 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-lead",
+        "at": "2026-10-05",
+        "actions": [
+          "MARKS_STATUS",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Pages 2-3: no mark is printed beside this Section B item (marks are printed only for other items); marksStatus NOT_PRINTED. | p51-fix-lead: page prints H₂O with a lowered subscript 2 in all three equations (audit p51); 3 occurrences restored.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#B3b",
@@ -488,6 +507,168 @@
       "decision": "PUBLISH",
       "reason": "",
       "notes": ""
+    },
+    {
+      "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#22",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section A Q2 'Name the Following:' prints only the total 5 for items 1-5; split into its printed items. Items 1, 4 and 5 fit no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#23",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section A Q2 'Name the Following:' prints only the total 5 for items 1-5; split into its printed items. Items 1, 4 and 5 fit no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#41",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 4; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Section A Q4 'Fill in the blanks:' prints only the total 5 for items 1-5; split into its printed items. Item 2 fits no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#43",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 4; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Section A Q4 'Fill in the blanks:' prints only the total 5 for items 1-5; split into its printed items. Item 2 fits no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#44",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 4; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Section A Q4 'Fill in the blanks:' prints only the total 5 for items 1-5; split into its printed items. Item 2 fits no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-chemistry-icse-class-9-2-sem-chemistry-280425-feb-2025#45",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 4; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 1-2: Section A Q4 'Fill in the blanks:' prints only the total 5 for items 1-5; split into its printed items. Item 2 fits no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

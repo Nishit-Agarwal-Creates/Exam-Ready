@@ -346,12 +346,28 @@
       "type": "SHORT_ANSWER",
       "text": "From the following figure: Find: i) Wavelength ii) Wave velocity iii) Frequency",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 (wave graph) not reproduced; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "propagation-of-sound-waves",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-2-sem-physics-280425-2025/5b.png",
+          "kind": "GRAPH",
+          "alt": "Wave graph against time (s) with marks 0, 10, 20 and 30 on the axis, and an arrow marked 2 m from 0 to 10",
+          "width": 858,
+          "height": 256,
+          "page": 4,
+          "crop": {
+            "x": 0.18,
+            "y": 0.3,
+            "w": 0.48,
+            "h": 0.105
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -401,12 +417,28 @@
       "type": "SHORT_ANSWER",
       "text": "Draw magnetic field lines for a set of two magnets placed as shown.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 (two bar magnets, S-N and N-S, facing N to N) not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-2-sem-physics-280425-2025/6b.png",
+          "kind": "FIGURE",
+          "alt": "Two bar magnets side by side: the left one marked S on the left and N on the right, the right one marked N on the left and S on the right",
+          "width": 858,
+          "height": 117,
+          "page": 4,
+          "crop": {
+            "x": 0.18,
+            "y": 0.655,
+            "w": 0.48,
+            "h": 0.048
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -554,12 +586,28 @@
       "type": "SHORT_ANSWER",
       "text": "The figure given below shows a coil wound around a soft iron bar XY. i) State the polarity at the ends X and Y as the switch is pressed. ii) Suggest one way of increasing the strength of the electromagnet so formed.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 5 (coil on soft iron bar XY with switch, battery and rheostat) not reproduced; i) cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-9-physics-icse-class-9-2-sem-physics-280425-2025/9a.png",
+          "kind": "FIGURE",
+          "alt": "Soft iron bar XY with a coil wound around it, connected in a circuit with a switch, a battery and a rheostat",
+          "width": 858,
+          "height": 368,
+          "page": 5,
+          "crop": {
+            "x": 0.26,
+            "y": 0.344,
+            "w": 0.48,
+            "h": 0.151
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "9",

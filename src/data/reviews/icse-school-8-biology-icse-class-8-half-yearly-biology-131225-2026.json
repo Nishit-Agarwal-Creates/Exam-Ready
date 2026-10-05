@@ -358,8 +358,19 @@
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Sperm figure with parts labelled a, b, c (page 3) is needed.",
-      "notes": "[5] printed inline."
+      "reason": "The scanned figure is too faint: the circled labels a, b, c (especially b) cannot be read with certainty, and part (i) asks to identify the parts labelled a, b, c.",
+      "notes": "[5] printed inline.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Scan page 3, zoomed at full render resolution: circled label b reads as an unclear mark, c and a barely legible; figure ESSENTIAL_MISSING.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-biology-icse-class-8-half-yearly-biology-131225-2026#12a",

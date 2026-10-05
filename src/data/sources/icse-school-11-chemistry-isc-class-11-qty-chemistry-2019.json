@@ -82,15 +82,32 @@
       "marks": 1,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
-      "text": "IUPAC name of the compound [bond-line structure] is ____",
+      "text": "IUPAC name of the compound (structure shown in the figure) is ____",
       "hasFigure": true,
       "extractionIssues": [
-        "Printed (4x1=4) is the Q1 a. total; 1 mark per blank-filling sub-part",
-        "Figure (bond-line structure) on page 1 not reproduced ('[bond-line structure]' marks its place)"
+        "Printed (4x1=4) is the Q1 a. total; 1 mark per blank-filling sub-part"
       ],
       "confidence": "LOW",
       "chapter": "organic-chemistry-some-basic-principles-and-techniques",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-11-chemistry-isc-class-11-qty-chemistry-2019/1aiii.png",
+          "kind": "FIGURE",
+          "alt": "Bond-line structural formula of an organic compound",
+          "width": 166,
+          "height": 88,
+          "page": 1,
+          "crop": {
+            "x": 0.8,
+            "y": 0.567,
+            "w": 0.07,
+            "h": 0.048
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -119,7 +136,7 @@
       "page": 1,
       "section": "Part I",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
       "text": "Complete the following sentences by selecting the correct alternatives from the choices given : In Lassaigne's test for nitrogen, the blue colour is due to the formation of :",
@@ -129,12 +146,12 @@
         "Sodium ferrocyanide"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Printed (4) is the Q1 b. total; 1 mark per sub-part"
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "organic-chemistry-some-basic-principles-and-techniques",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q1 b: (4) for the group of 4"
     },
     {
       "number": "1",
@@ -143,7 +160,7 @@
       "page": 2,
       "section": "Part I",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
       "text": "Complete the following sentences by selecting the correct alternatives from the choices given : Which of the carbonates given below is unstable in air and is kept in CO₂ atmosphere to avoid decomposition :",
@@ -154,12 +171,13 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Printed (4) is the Q1 b. total; 1 mark per sub-part",
         "Subscripts/superscripts (flat in the text layer) rebuilt from the page image; check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": null,
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q1 b: (4) for the group of 4"
     },
     {
       "number": "1",
@@ -168,7 +186,7 @@
       "page": 2,
       "section": "Part I",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
       "text": "Complete the following sentences by selecting the correct alternatives from the choices given : Which of the following set of quantum numbers is not possible?",
@@ -178,12 +196,12 @@
         "n = 2 l = 0 m = –1, S = +½"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "Printed (4) is the Q1 b. total; 1 mark per sub-part"
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "structure-of-atom",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q1 b: (4) for the group of 4"
     },
     {
       "number": "1",
@@ -192,7 +210,7 @@
       "page": 2,
       "section": "Part I",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "MCQ",
       "text": "Complete the following sentences by selecting the correct alternatives from the choices given : If the concentration of glucose in blood is 0.9 gL⁻¹. What will be the molarity of glucose in blood?",
@@ -203,12 +221,13 @@
       ],
       "hasFigure": false,
       "extractionIssues": [
-        "Printed (4) is the Q1 b. total; 1 mark per sub-part",
         "Subscripts/superscripts (flat in the text layer) rebuilt from the page image; check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": "some-basic-concepts-of-chemistry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q1 b: (4) for the group of 4"
     },
     {
       "number": "1",
@@ -562,12 +581,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "Alternative (a) of an OR pair; label (a) assigned by the editor, not printed",
-        "Marks from the paper's instructions: Question No. 9 to 15 carry 3 marks each",
-        "Figure: the three condensed structural formulae on page 3 (handwritten on the paper) are not reproduced; cannot be answered without them"
+        "Marks from the paper's instructions: Question No. 9 to 15 carry 3 marks each"
       ],
       "confidence": "LOW",
       "chapter": "organic-chemistry-some-basic-principles-and-techniques",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-11-chemistry-isc-class-11-qty-chemistry-2019/12a.png",
+          "kind": "FIGURE",
+          "alt": "Three handwritten condensed structural formulae labelled a), b) and c)",
+          "width": 760,
+          "height": 450,
+          "page": 3,
+          "crop": {
+            "x": 0.585,
+            "y": 0.083,
+            "w": 0.32,
+            "h": 0.245
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "12",
@@ -583,12 +619,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "Alternative (b) (after OR); label (b) assigned by the editor, not printed",
-        "Marks from the paper's instructions: Question No. 9 to 15 carry 3 marks each",
-        "Figure: the three condensed structural formulae after the handwritten 'OR' on page 3 are not reproduced; cannot be answered without them; the instruction line is repeated from alternative (a)"
+        "Marks from the paper's instructions: Question No. 9 to 15 carry 3 marks each"
       ],
       "confidence": "LOW",
       "chapter": "organic-chemistry-some-basic-principles-and-techniques",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-11-chemistry-isc-class-11-qty-chemistry-2019/12b.png",
+          "kind": "FIGURE",
+          "alt": "Three handwritten condensed structural formulae labelled a), b) and c) under the word OR",
+          "width": 570,
+          "height": 367,
+          "page": 3,
+          "crop": {
+            "x": 0.62,
+            "y": 0.335,
+            "w": 0.24,
+            "h": 0.2
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "13",

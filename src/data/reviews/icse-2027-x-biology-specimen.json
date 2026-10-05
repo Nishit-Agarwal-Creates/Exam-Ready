@@ -128,14 +128,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Options reference numbered nephron parts (1-7) shown only on an accompanying figure that is not reproduced in the pack; cannot be answered from text alone.",
-      "notes": "Marking scheme confirms answer (b) Renal Cortex 1,2,3,4,5; Renal Medulla 6,7."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Marking scheme confirms answer (b) Renal Cortex 1,2,3,4,5; Renal Medulla 6,7.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: nephron diagram with labels 1-7 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-biology-specimen#1ix",
@@ -576,14 +586,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The 'Structure' names to be matched against the printed functions are shown only in the diagram, not given anywhere as text; cannot be answered without it.",
-      "notes": "Marking scheme confirms structure order: (a) Placenta, (b) Umbilical cord, (c) Amnion, (d) Amniotic fluid, (e) Cervix."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Marking scheme confirms structure order: (a) Placenta, (b) Umbilical cord, (c) Amnion, (d) Amniotic fluid, (e) Cervix.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 9: alt listed the structure labels that are the matching answers; rewritten neutrally.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-biology-specimen#3",
@@ -631,7 +652,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Marking scheme gives only the diagram's title ('Diagram of a turgid root hair cell'), no textual labels; the actual diagram image is not captured by text extraction."
+      "notes": "Marking scheme gives only the diagram's title ('Diagram of a turgid root hair cell'), no textual labels; the actual diagram image is not captured by text extraction.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_NOT_PRESENT"
+        ],
+        "evidence": "Page 10: this is a 'draw a neat, labelled diagram' item; no figure is printed with the question and the text is complete. Only the expected answer is a diagram (answer PARTIAL), so the LOW extraction confidence was raised to MEDIUM.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-biology-specimen#5i",
@@ -640,14 +671,77 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Part (i) asks what message 'the picture' conveys; the referenced picture is not reproduced in the pack, so this sub-part cannot be answered from text alone.",
-      "notes": "Parts (ii) and (iv) of this merged entry are answerable from text alone; only (i) needs the figure."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "GROUP_SPLIT"
+        ],
+        "evidence": "Paper page 11: Question 5 prints the scenario, the factory picture, then (i) [1] [Understanding], (ii) [2] [Recall], (iv) [2] [Recall] as separate parts; scheme page 16 gives each part's answer. Split from the merged #5i entry.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-2027-x-biology-specimen#5ii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT"
+        ],
+        "evidence": "Paper page 11: Question 5 prints the scenario, the factory picture, then (i) [1] [Understanding], (ii) [2] [Recall], (iv) [2] [Recall] as separate parts; scheme page 16 gives each part's answer. Split from the merged #5i entry.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-2027-x-biology-specimen#5iv",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT"
+        ],
+        "evidence": "Paper page 11: Question 5 prints the scenario, the factory picture, then (i) [1] [Understanding], (ii) [2] [Recall], (iv) [2] [Recall] as separate parts; scheme page 16 gives each part's answer. Split from the merged #5i entry.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-biology-specimen#5iii",
@@ -695,7 +789,43 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT"
+        ],
+        "evidence": "Paper page 11: Question 6 prints the scenario then (i) [1] [Recall] and (ii) [2] [Application] as separate parts; scheme page 17 gives each answer. Split from the merged #6i entry (same defect as #5i).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-2027-x-biology-specimen#6ii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "MATCH",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT"
+        ],
+        "evidence": "Paper page 11: Question 6 prints the scenario then (i) [1] [Recall] and (ii) [2] [Application] as separate parts; scheme page 17 gives each answer. Split from the merged #6i entry (same defect as #5i).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-biology-specimen#6iii",
@@ -743,7 +873,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Marking scheme has no text at all for this item (only the [3] mark), confirming there is genuinely no officialAnswer text to extract."
+      "notes": "Marking scheme has no text at all for this item (only the [3] mark), confirming there is genuinely no officialAnswer text to extract.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_NOT_PRESENT"
+        ],
+        "evidence": "Page 12: this is a 'draw a neat, labelled diagram' item; no figure is printed with the question and the text is complete. Only the expected answer is a diagram (answer PARTIAL), so the LOW extraction confidence was raised to MEDIUM.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-biology-specimen#7i",
@@ -791,7 +931,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Marking scheme text 'Diagram of stomatal apparatus' matches literally; no further textual detail given beyond the title."
+      "notes": "Marking scheme text 'Diagram of stomatal apparatus' matches literally; no further textual detail given beyond the title.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_NOT_PRESENT"
+        ],
+        "evidence": "Page 12: this is a 'draw a neat, labelled diagram' item; no figure is printed with the question and the text is complete. Only the expected answer is a diagram (answer PARTIAL), so the LOW extraction confidence was raised to MEDIUM.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-biology-specimen#8i",
@@ -871,7 +1021,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Marking scheme text 'Diagram of blood smear' matches literally."
+      "notes": "Marking scheme text 'Diagram of blood smear' matches literally.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_NOT_PRESENT"
+        ],
+        "evidence": "Page 13: this is a 'draw a neat, labelled diagram' item; no figure is printed with the question and the text is complete. Only the expected answer is a diagram (answer PARTIAL), so the LOW extraction confidence was raised to MEDIUM.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

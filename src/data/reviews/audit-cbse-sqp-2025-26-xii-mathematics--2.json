@@ -1,0 +1,37 @@
+{
+  "pack": "cbse-sqp-2025-26-xii-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the marking scheme / answer key, and the Phase 5.1 recovered figures against grid renders of the source pages.",
+  "checks": [
+    {
+      "key": "cbse-sqp-2025-26-xii-mathematics#1",
+      "agree": false,
+      "reason": "Option (C) is printed as sin⁻¹(x/2) (x/2 inside the bracket, confirmed in the page render and -raw text), but the pack stores '(1/2) sin⁻¹x', which is a different function, so the corrected notation does not match the paper.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-mathematics#16",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-mathematics#17",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-mathematics#18",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-mathematics#23b",
+      "agree": false,
+      "reason": "The stored official answer still says the figure 'is not reproduced', which is false now that the figure is attached, and it paraphrases rather than reproduces the marking scheme's working (A = ∫₀⁴ x dy = ∫₀⁴ √y dy = 2/3 × y^(3/2)]₀⁴ = 16/3 sq. units).",
+      "round": "p51"
+    }
+  ]
+}

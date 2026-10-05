@@ -371,10 +371,9 @@
       "marksSource": "PRINTED",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure showing the four resistor combinations (I, II, III, IV) on page 7 not reproduced in text layer; question cannot be answered without it",
         "Ω (ohm) symbol dropped after '1' in extraction; rebuilt, check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "number": "13",
       "page": 7,
@@ -393,7 +392,25 @@
         "text": "(C) / I and II",
         "correctOption": 2
       },
-      "chapter": "electricity"
+      "chapter": "electricity",
+      "figures": [
+        {
+          "src": "/figures/cbse-2024-x-science-31-4-1/13.png",
+          "kind": "FIGURE",
+          "alt": "Four resistor combinations labelled I, II, III and IV, each resistor marked with its value in ohms",
+          "width": 1400,
+          "height": 350,
+          "page": 7,
+          "crop": {
+            "x": 0.11,
+            "y": 0.545,
+            "w": 0.79,
+            "h": 0.14
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "part": null,
@@ -429,9 +446,7 @@
       "choiceGroup": null,
       "marksSource": "PRINTED",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (loop ABCD and conductor XY) on page 9 not reproduced in text layer"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "number": "15",
@@ -451,7 +466,25 @@
         "text": "(B) / move towards the side AB of the loop",
         "correctOption": 1
       },
-      "chapter": "magnetic-effects-of-electric-current"
+      "chapter": "magnetic-effects-of-electric-current",
+      "figures": [
+        {
+          "src": "/figures/cbse-2024-x-science-31-4-1/15.png",
+          "kind": "FIGURE",
+          "alt": "Straight conductor XY with current I marked by an arrow, beside a rectangular loop ABCD with current I marked by arrows",
+          "width": 750,
+          "height": 544,
+          "page": 9,
+          "crop": {
+            "x": 0.24,
+            "y": 0.21,
+            "w": 0.42,
+            "h": 0.215
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "part": null,
@@ -721,9 +754,7 @@
       "choiceGroup": null,
       "marksSource": "PRINTED",
       "hasFigure": false,
-      "extractionIssues": [
-        "Minus sign before '4·0 dioptre' apparently dropped in extraction (the marking scheme confirms a power of − 4.0 dioptre for distant vision); kept as printed"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "number": "25",
@@ -732,7 +763,7 @@
       "sectionTitle": null,
       "marks": 2,
       "type": "SHORT_ANSWER",
-      "text": "A person suffering from presbyopia needs bifocal lens. If he needs two lens of power 4·0 dioptre and + 2·0 dioptre, which one of these two lenses is for the correction of distant vision and what is its focal length ?",
+      "text": "A person suffering from presbyopia needs bifocal lens. If he needs two lens of power − 4·0 dioptre and + 2·0 dioptre, which one of these two lenses is for the correction of distant vision and what is its focal length ?",
       "officialAnswer": {
         "text": "• For distant vision: lens of power − 4.0 dioptre\n• f (metre) = 1/P = 1/(−4.0 D) = −0.25 m or −25 cm"
       },
@@ -852,11 +883,8 @@
       "choiceGroup": null,
       "marksSource": "PRINTED",
       "hasFigure": false,
-      "extractionIssues": [
-        "Text is corrupted/incomplete in extraction: a phrase appears lost between 'generation' and 'yellow (YY)'. Per the Hindi text and the marking scheme, the intended question is about the F2 progeny obtained by crossing Mendel's pea plants with yellow (YY) and green (yy) seeds; kept as extracted, not paraphrased",
-        "Subscript flattened: F2"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "number": "30",
       "page": 15,
@@ -864,7 +892,7 @@
       "sectionTitle": null,
       "marks": 3,
       "type": "SHORT_ANSWER",
-      "text": "List two differences between dominant traits and recessive traits. What percentage of pea plants in the F2 generation were with yellow seeds in yellow (YY) and green coloured (yy) seeds ?",
+      "text": "List two differences between dominant traits and recessive traits. What percentage of pea plants in the F₂ generation were with yellow seeds in Mendel’s cross between the pea plants having yellow (YY) and green coloured (yy) seeds ?",
       "officialAnswer": {
         "text": "Dominant Traits | Recessive Traits\n(i) When both dominant and recessive traits are inherited, the dominant trait gets expressed. | (i) When both dominant and recessive traits are inherited, the recessive trait does not get expressed.\n(ii) A single copy of dominant trait is enough to get it expressed. | (ii) Both the copies of a trait should be recessive to get it expressed.\n• 75% yellow seeds"
       },
@@ -915,10 +943,8 @@
       "choiceGroup": null,
       "marksSource": "PRINTED",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure/picture showing three labelled food chains (a), (b), (c) on page 17 not reproduced in text layer; part (i) cannot be fully answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "number": "33",
       "page": 17,
@@ -930,7 +956,25 @@
       "officialAnswer": {
         "text": "(i) • Terrestrial / Grassland / cropland\n• Aquatic / Pond\n(ii) First trophic level are always producers or autotrophs as they can capture the solar energy and convert it into chemical energy.\n• 1% energy is captured.\n(iii) Because energy flows in one direction only.\nJustification: when energy passes from one trophic level to another it cannot revert back."
       },
-      "chapter": "our-environment"
+      "chapter": "our-environment",
+      "figures": [
+        {
+          "src": "/figures/cbse-2024-x-science-31-4-1/33.png",
+          "kind": "FIGURE",
+          "alt": "Three food chains labelled (a), (b) and (c), drawn as pictures of plants and animals joined by arrows",
+          "width": 937,
+          "height": 1251,
+          "page": 17,
+          "crop": {
+            "x": 0.235,
+            "y": 0.145,
+            "w": 0.525,
+            "h": 0.495
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "part": "(a)",
@@ -1089,10 +1133,9 @@
       "marksSource": "PRINTED",
       "hasFigure": false,
       "extractionIssues": [
-        "Part (a)(ii) is cut off/incomplete in the text layer (ends '...present in'); the marking scheme answer 'Glomerulus' indicates the missing words are '...present in the Bowman's capsule', but that phrase is not reproduced here since it is not in the extracted question text; kept as extracted, not invented",
         "Sub-part marks shown in brackets were printed after each sub-part"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "number": "38",
       "page": 25,
@@ -1100,7 +1143,7 @@
       "sectionTitle": null,
       "marks": 4,
       "type": "CASE_BASED",
-      "text": "Kidneys are vital organs for survival. Several factors like infections, injury or restricted blood flow to kidneys reduce the activity of kidneys. This leads to accumulation of poisonous wastes in the body, which can even lead to death. In case of kidney failure, an artificial kidney can be used. An artificial kidney is a device to remove waste products from the blood through dialysis.\n(a) (i) Name the artery that brings oxygenated blood to the kidney.\n(ii) Name the cluster the thin-walled blood capillaries present in (1)\n(b) In human excretory system name the organ which stores urine. Is this organ under hormonal control or nervous control ? (1)\n(c) (i) List two major steps involved in the formation of urine and state in brief their functions. (2)\nOR\n(c) (ii) In which part of the nephron does selective reabsorption take place ? List the factors which the amount of water reabsorbed depends on. (2)",
+      "text": "Kidneys are vital organs for survival. Several factors like infections, injury or restricted blood flow to kidneys reduce the activity of kidneys. This leads to accumulation of poisonous wastes in the body, which can even lead to death. In case of kidney failure, an artificial kidney can be used. An artificial kidney is a device to remove waste products from the blood through dialysis.\n(a) (i) Name the artery that brings oxygenated blood to the kidney.\n(ii) Name the cluster the thin-walled blood capillaries present in the Bowman’s capsule. (1)\n(b) In human excretory system name the organ which stores urine. Is this organ under hormonal control or nervous control ? (1)\n(c) (i) List two major steps involved in the formation of urine and state in brief their functions. (2)\nOR\n(c) (ii) In which part of the nephron does selective reabsorption take place ? List the factors which the amount of water reabsorbed depends on. (2)",
       "officialAnswer": {
         "text": "(a) (i) Renal Artery\n(ii) Glomerulus\n(b) • Urinary bladder\n• Nervous control\n(c) (i) Filtration: Nitrogenous wastes such as urea or uric acid are removed.\nReabsorption: Glucose, amino acids, salts/some useful materials and major amounts of water reabsorbed.\nOR\n(c) (ii) Tubular part of nephron.\n• The amount of water absorbed depends on:\n- how much water is there in the body.\n- how much dissolved waste is there to be excreted."
       },
@@ -1112,11 +1155,10 @@
       "marksSource": "PRINTED",
       "hasFigure": true,
       "extractionIssues": [
-        "Circuit diagram on page 27 (resistors between points A, B, C, a battery and a key) not reproduced in text layer; parts (a)-(c)(i) cannot be answered without it; resistor values (4Ω, 6Ω, 16Ω, two 8Ω in parallel) taken only from the marking scheme",
         "Ω (ohm) symbol dropped after '16' and '8' in the question text; rebuilt, check against the PDF",
         "Sub-part marks shown in brackets were printed after each sub-part"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "mappingStatus": "AI_SUGGESTED",
       "number": "39",
       "page": 27,
@@ -1126,9 +1168,27 @@
       "type": "CASE_BASED",
       "text": "Study the following circuit :\nOn the basis of this circuit, answer the following questions :\n(a) Find the value of total resistance between the points A and B. (1)\n(b) Find the resistance between the points B and C. (1)\n(c) (i) Calculate the current drawn from the battery, when the key is closed. (2)\nOR\n(c) (ii) In the above circuit, the 16 Ω resistor or the parallel combination of two resistors of 8 Ω, which one of the two will have more potential difference across its two ends ? Justify your answer. (2)",
       "officialAnswer": {
-        "text": "(a) Rs = 4 Ω + 6 Ω + 16 Ω = 26 Ω\n(b) 1/Rp = 1/8Ω + 1/8Ω = 1/4Ω; Rp = 4 Ω\n(c) (i) Total resistance = 26Ω + 4Ω = 30Ω. Potential difference V = 6V. Current I = V/R = 6/30 = 1/5 A or 0.2 A.\nOR\n(c) (ii) 16 Ω\nJustification: According to Ohm's law when the same current flows, the potential difference across a higher resistance is always higher.\nPotential difference across 16Ω = V = IR = 0.2×16 = 3.2V\nPotential difference across the 8Ω parallel combination = V = IR(total) = 0.2×4 = 0.8V"
+        "text": "(a) Rs = 4 Ω + 6 Ω + 16 Ω = 26 Ω\n(b) 1/Rp = 1/8 Ω + 1/8 Ω = 1/4 Ω\nRp = 4 Ω\n(c) (i) Total resistance = 26 Ω + 4 Ω = 30 Ω\nPotential difference = V = 6V\nCurrent I = V/R\n6/30 = 1/5 A or 0·2 A.\nOR\n(c)(ii) 16 Ω\nJustification: According to Ohm’s law when same current flows, the potential difference across a higher resistance is always higher./\nPotential difference across 16 Ω =V=IR = 0.2x16=3.2V\nPotential difference across 8 Ω =V=IR(total) = 0.2x4 =0.8V"
       },
-      "chapter": "electricity"
+      "chapter": "electricity",
+      "figures": [
+        {
+          "src": "/figures/cbse-2024-x-science-31-4-1/39.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with points A, B and C, five resistors marked 4 Ω, 6 Ω, 16 Ω, 8 Ω and 8 Ω, a 6 V battery, a key and arrows showing the current direction",
+          "width": 1268,
+          "height": 530,
+          "page": 27,
+          "crop": {
+            "x": 0.145,
+            "y": 0.135,
+            "w": 0.71,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

@@ -10,68 +10,30 @@
   },
   "questions": [
     {
-      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#I",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "MCQ group spans operating system, spreadsheet and flowchart chapters; option (a) of item 3 is an unclear short dash on the scan.",
-      "notes": ""
-    },
-    {
-      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#II",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "True/False group spans operating system (GUI, utilities) and spreadsheet chapters.",
-      "notes": ""
-    },
-    {
-      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#III",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Fill-in group spans spreadsheet and flowchart chapters.",
-      "notes": ""
-    },
-    {
       "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#IV",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The four flowchart symbols drawn on page 2 are needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: the four symbols numbered 1-4 printed under Section IV cropped whole; [4] is printed for the section as one entry.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#V",
@@ -106,7 +68,223 @@
       "notes": "Formulas match page 2, including the mixed quote marks as printed."
     },
     {
-      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#VII",
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#I1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry I; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section I 'Choose the correct answer:-' prints only [3] for items 1-6, each with options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#I2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry I; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section I 'Choose the correct answer:-' prints only [3] for items 1-6, each with options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#I3",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MISMATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "HOLD",
+      "reason": "Option (a) is printed as a short dash on the scan (possibly a faint =); cannot confirm.",
+      "notes": "Split from the printed group entry I; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section I 'Choose the correct answer:-' prints only [3] for items 1-6, each with options (a)-(d); split into its printed items, each mapped to its own chapter. Option (a) of item 3 is an unclear short dash on the page; left held.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#I4",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry I; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section I 'Choose the correct answer:-' prints only [3] for items 1-6, each with options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#I5",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry I; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section I 'Choose the correct answer:-' prints only [3] for items 1-6, each with options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#I6",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "MATCH",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry I; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section I 'Choose the correct answer:-' prints only [3] for items 1-6, each with options (a)-(d); split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#II1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry II; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section II 'State True/False' prints only [3] for items 1-6; split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#II2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry II; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section II 'State True/False' prints only [3] for items 1-6; split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#II3",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
@@ -118,8 +296,347 @@
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Group spans spreadsheet, operating system and algorithm/flowchart chapters.",
-      "notes": ""
+      "reason": "Topic (default alignment of text and numbers in a worksheet) is not in any official Class 8 Computer Studies chapter summary (spreadsheet chapter covers only built-in functions and charts)",
+      "notes": "Split from the printed group entry II; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-F1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: item is about default alignment of text and numbers in a worksheet; taxonomy summary of spreadsheet-functions-and-charts is 'built-in spreadsheet functions and charts' and no other chapter covers it; withdrawn.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#II4",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry II; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section II 'State True/False' prints only [3] for items 1-6; split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#II5",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry II; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Section II 'State True/False' prints only [3] for items 1-6; split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#II6",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "UNCERTAIN",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "HOLD",
+      "reason": "Topic (deleting rows in an Excel worksheet) is not in any official Class 8 Computer Studies chapter summary (spreadsheet chapter covers only built-in functions and charts)",
+      "notes": "Split from the printed group entry II; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-F1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: item is about deleting rows in an Excel worksheet; taxonomy summary of spreadsheet-functions-and-charts is 'built-in spreadsheet functions and charts' and no other chapter covers it; withdrawn.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#III1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "UNCERTAIN",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "HOLD",
+      "reason": "Topic (the AutoFill feature) is not in any official Class 8 Computer Studies chapter summary (spreadsheet chapter covers only built-in functions and charts)",
+      "notes": "Split from the printed group entry III; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-F1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 2: item is about the AutoFill feature; taxonomy summary of spreadsheet-functions-and-charts is 'built-in spreadsheet functions and charts' and no other chapter covers it; withdrawn.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#III2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry III; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Section III 'Fill in the blanks' prints only [5] for items 1-5; split into its printed items. Item 4 fits no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#III3",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry III; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Section III 'Fill in the blanks' prints only [5] for items 1-5; split into its printed items. Item 4 fits no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#III5",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry III; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Section III 'Fill in the blanks' prints only [5] for items 1-5; split into its printed items. Item 4 fits no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#VII1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry VII; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Section VII 'Answer the following questions' prints only [10] for items 1-5; split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#VII2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry VII; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Section VII 'Answer the following questions' prints only [10] for items 1-5; split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#VII3",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry VII; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Section VII 'Answer the following questions' prints only [10] for items 1-5; split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#VII4",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "UNCERTAIN",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "HOLD",
+      "reason": "Topic (automatic recalculation) is not in any official Class 8 Computer Studies chapter summary (spreadsheet chapter covers only built-in functions and charts)",
+      "notes": "Split from the printed group entry VII; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-F1",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 2: item is about automatic recalculation; taxonomy summary of spreadsheet-functions-and-charts is 'built-in spreadsheet functions and charts' and no other chapter covers it; withdrawn.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-8-computer-studies-icse-class-8-assessment-1-computer-150323-2023#VII5",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry VII; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Section VII 'Answer the following questions' prints only [10] for items 1-5; split into its printed items, each mapped to its own chapter.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

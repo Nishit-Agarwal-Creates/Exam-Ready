@@ -13,7 +13,34 @@
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#I1",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "UNCERTAIN",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "HOLD",
+      "reason": "Topic (prevention of air pollution) is not in any official Class 6 Chemistry chapter summary (air-and-atmosphere covers composition of air, uses of its components and the atmosphere).",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder. Section number printed as \"1.\" on page 2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-B",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed. | p51-fix-B: Page 2, Section-B item 1 \"Air pollution can be prevented by using ______ petrol.\"; no Class 6 Chemistry chapter summary covers air pollution.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#I2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -21,15 +48,26 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder. Section number printed as \"1.\" on page 2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-nullmap",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2, Section-B (Chemistry) (20marks), Fill in the blanks item 2 (cloth from fibres); no per-item mark printed. Official ICSE Class 6 Chemistry chapter 'introduction-to-chemistry' summary: '... chemistry in food, cosmetics, clothing, medicines and industry.' Item is chemistry in clothing.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#I3",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -37,15 +75,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder. Section number printed as \"1.\" on page 2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder. Section number printed as \"1.\" on page 2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#I4",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-nullmap",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2, Section-B (Chemistry) (20marks), Fill in the blanks item 4 (medicine from cinchona bark); no per-item mark printed. Official ICSE Class 6 Chemistry chapter 'introduction-to-chemistry' summary: '... chemistry in food, cosmetics, clothing, medicines and industry.' Item is chemistry in medicines.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#II1",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -53,15 +128,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#II2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-nullmap",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2, Section-B (Chemistry) (20marks), Answer in one word item 2 (pain-relieving drugs); no per-item mark printed. Official ICSE Class 6 Chemistry chapter 'introduction-to-chemistry' summary: '... chemistry in food, cosmetics, clothing, medicines and industry.' Item is chemistry in medicines.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#II3",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -69,15 +181,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#II4",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -85,15 +207,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#III1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-nullmap",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2, Section-B (Chemistry) (20marks), Give reasons item 1 (natural vs synthetic fibres such as nylon); no per-item mark printed. Official ICSE Class 6 Chemistry chapter 'introduction-to-chemistry' summary: '... chemistry in food, cosmetics, clothing, medicines and industry.' Item is chemistry in clothing.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#III2",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -101,15 +260,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#III3",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -117,15 +286,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#IV1",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -133,15 +312,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#IV2",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -149,15 +338,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#V1",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -165,15 +364,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#V2",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -181,15 +390,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#V4",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -197,15 +416,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#VI2",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -213,15 +442,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-6-chemistry-icse-class-6-assessment-2-science-230922-2021#VI3",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -229,9 +468,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No per-question marks printed (only the 20-mark section total); marks inferred by the builder.",
-      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page image checked (text layer + PNG). Paper prints only section totals (20 marks per subject); per-item marks were inferred by the builder.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2-3: no mark printed beside any item; only 'Section-B (Chemistry) (20marks)' and 'M.M: 60' are printed.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

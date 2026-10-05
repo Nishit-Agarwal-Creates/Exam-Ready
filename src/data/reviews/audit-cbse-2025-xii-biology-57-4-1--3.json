@@ -1,0 +1,13 @@
+{
+  "pack": "cbse-2025-xii-biology-57-4-1",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout and -raw, page renders (pypdfium2) for notation and figures, and the marking scheme; figure PNGs opened and edge-checked.",
+  "checks": [
+    {
+      "key": "cbse-2025-xii-biology-57-4-1#24",
+      "agree": false,
+      "reason": "The PARTIAL official answer is not verbatim in its text parts: the scheme prints \"(a) Phosphoester linkage/ Phosphoester bond\" and \"(b) Phospho-di-ester linkage / Phospho-di-ester bond\", but the stored answer condenses these to \"Bond (a) - Phosphoester linkage/bond; Bond (b) - Phospho-di-ester linkage/bond\".",
+      "round": "p51-fix"
+    }
+  ]
+}

@@ -131,12 +131,28 @@
       "type": "SHORT_ANSWER",
       "text": "In the given figure, the directed lines are parallel each other. Find the unknown angles. Give reasons.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 1 not reproduced (parallel lines cut by a transversal with a given angle and an unknown angle)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-mathematics-icse-class-7-interim-test-2-mathematics-080823-2023/6.png",
+          "kind": "FIGURE",
+          "alt": "Two parallel directed lines cut by a transversal; angle 60 marked at the lower line and unknown angle a marked at the upper line",
+          "width": 697,
+          "height": 309,
+          "page": 1,
+          "crop": {
+            "x": 0.33,
+            "y": 0.428,
+            "w": 0.39,
+            "h": 0.127
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -206,12 +222,29 @@
       "text": "In the given figure, the directed lines are parallel to each other. Find the unknown angles. Give reason.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 1 not reproduced (three parallel lines, angles 40° and 100°, unknown angles X, Y, Z)",
         "Handwritten strike-through over \"figure\" on the scan ignored"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-mathematics-icse-class-7-interim-test-2-mathematics-080823-2023/9b.png",
+          "kind": "FIGURE",
+          "alt": "Three parallel directed lines joined by two line segments meeting at a point on the middle line; angles 40° and 100° given, unknown angles X, Y and Z marked",
+          "width": 1072,
+          "height": 489,
+          "page": 1,
+          "crop": {
+            "x": 0.19,
+            "y": 0.799,
+            "w": 0.6,
+            "h": 0.201
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",
@@ -220,18 +253,19 @@
       "page": 2,
       "section": "B",
       "sectionTitle": "Part - B (Answer all the questions)",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "The angle of vertex of an isosceles triangle is 120°. Find its base angle.",
       "hasFigure": false,
       "extractionIssues": [
-        "Marks for 10(a) not printed; 1 mark inferred from the paper total of 20",
         "End of the line is partly covered by a mark on the scan (\"base angle.\" may be \"base angles.\")"
       ],
       "confidence": "MEDIUM",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "10",

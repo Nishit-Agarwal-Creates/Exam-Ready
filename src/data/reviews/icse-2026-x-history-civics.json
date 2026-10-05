@@ -23,7 +23,17 @@
       "duplicate": "",
       "decision": "HOLD",
       "reason": "The item asks to replace the underlined word, but the underline (drawn under 'Consultative', x355-420 y263 on page 2) is not shown in the text.",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1ii",
@@ -32,14 +42,25 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 2 is needed to identify the session.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1iii",
@@ -55,7 +76,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Table rows checked with pdfplumber: W 30 army officer, X 25 union leader, Y 34 principal, Z 69 retired professor."
+      "notes": "Table rows checked with pdfplumber: W 30 army officer, X 25 union leader, Y 34 principal, Z 69 retired professor.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1iv",
@@ -64,14 +95,25 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Headline image on page 3 names the rule; the item cannot be answered without it.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1v",
@@ -87,7 +129,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1vi",
@@ -103,7 +155,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1vii",
@@ -119,7 +181,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1viii",
@@ -135,7 +207,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "(viii) at y111 on page 5; association confirmed."
+      "notes": "(viii) at y111 on page 5; association confirmed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1ix",
@@ -151,7 +233,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "(ix) at y316 on page 5; confirmed."
+      "notes": "(ix) at y316 on page 5; confirmed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1x",
@@ -167,7 +259,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "(x) at y445 on page 5; confirmed."
+      "notes": "(x) at y445 on page 5; confirmed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1xi",
@@ -176,14 +278,25 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Map on page 6 is needed to identify the annexed place.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1xii",
@@ -199,7 +312,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "(xii) at y414 on page 6; correct pair (Subsidiary Alliance - Wellesley) is 1857-chapter content; distractors touch Lytton's policies."
+      "notes": "(xii) at y414 on page 6; correct pair (Subsidiary Alliance - Wellesley) is 1857-chapter content; distractors touch Lytton's policies.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1xiii",
@@ -215,7 +338,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "(xiii) at y548 on page 6; confirmed."
+      "notes": "(xiii) at y548 on page 6; confirmed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1xiv",
@@ -231,7 +364,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1xv",
@@ -240,14 +383,25 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 7 shows the 'special power'; the item depends on it.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#1xvi",
@@ -263,7 +417,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "PDF page 2: Question 1 prints only the group total [16] beside its instruction; no per-item mark or per-item rule is printed for (i)-(xvi). Set GROUP_TOTAL, marks 0.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#2i",
@@ -304,14 +468,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 8 is needed to know which partition is meant, so the chapter is also uncertain.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "CHAPTER_MAPPED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "PDF page 8: the map frame starts at about y=0.287 and the Assam tip reaches the frame; re-cropped from y=0.281 to 0.491 (x 0.29-0.706), checked: full frame and the whole map outline are inside.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#2iv",
@@ -555,7 +731,7 @@
     },
     {
       "key": "icse-2026-x-history-civics#6iii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -565,9 +741,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "'the revolt' depends on the Question 6 stem (1857 Revolt), which is not in the stored text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "PDF page 10 prints the Question 6 stem ‘The 1857 Revolt is also referred to as the Sepoy Mutiny by the British. With reference to the role played by the soldiers, answer the following questions:’ above (i)-(iii); prepended to (iii) so ‘the revolt’ is defined.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#7i",
@@ -672,14 +858,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Headline image on page 12 is needed to know which war is meant.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF page 12: the picture printed directly under the Q9i stem; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#9ii",
@@ -704,14 +900,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "'this war' is identified only by the headline image on page 12.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig6",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "PDF page 12: the picture printed directly under the Q9iii stem; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-history-civics#10i",

@@ -87,7 +87,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2 Q2(b): 'Using ruler and compass only: Construct a rhombus ABCD...' is a ruler-and-compass construction, i.e. the Constructions of Polygons chapter.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-mathematics-np20-511-2020#2c",
@@ -176,14 +186,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "FIGURE_RECROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 3: rectangle figure for Q4(b) cropped (labels A, B, C, D, O, E legible; the crop's top-left edge shows the end of this question's own line '∠DCE = 145°'). | p51-fix-D0: Page 3 re-cropped (x 0.13-0.84, y 0.677-0.884): the top end of line AE and the label E (which rise to the height of the item's second printed line) are now complete. Because that printed line runs beside E, the crop is widened to include it whole ('Diagonal AC is produced to E and ∠DCE = 145°.') together with the item's own 'Find: (i) ∠CAB (ii) ∠AOB (iii) ∠ACB' lines, so no cut word fragment remains; no other item's text. Looked at the PNG. | p51-fix-D0: Alt updated to say the crop includes the question's own printed lines.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-mathematics-np20-511-2020#4c",
@@ -320,14 +342,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Point O (where AP meets BC) is defined only in the figure on page 5, which is not reproduced.",
-      "notes": "Page 5, Q7(b), printed [3]; text and the Delta signs match the image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Page 5, Q7(b), printed [3]; text and the Delta signs match the image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: figure for Q7(b) cropped with labels A, B, C, D, O, P.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-mathematics-np20-511-2020#7c",
@@ -352,14 +384,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Angles x° and y° are defined only in the figure on page 6.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: triangle figure for Q8(a) cropped (x° at A beside AC, y° at B); a pen mark '13' beside AB on the scan could not be excluded.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-mathematics-np20-511-2020#8b",
@@ -375,7 +417,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 6 prints log₂ a = 3, log₃ b = 2, log₄ c = 1 with subscript bases; restored.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-mathematics-icse-class-9-mathematics-np20-511-2020#8c",

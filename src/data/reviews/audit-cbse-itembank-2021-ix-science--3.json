@@ -1,0 +1,13 @@
+{
+  "pack": "cbse-itembank-2021-ix-science",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table and rendered page images (figures, crops, notation), and the marking scheme where one is published.",
+  "checks": [
+    {
+      "key": "cbse-itembank-2021-ix-science#Science9PS4bi",
+      "agree": false,
+      "reason": "Chapter not supported: the mole concept (moles, Avogadro's number) does not appear anywhere in the current Exploration Class 9 book, including Ch 9 Atomic Foundations of Matter, so 'atomic-foundations-of-matter' is not a supported chapter (text, answer 13 and the GROUP_TOTAL '(2 marks)' are otherwise right).",
+      "round": "p51-fix"
+    }
+  ]
+}

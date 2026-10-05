@@ -403,16 +403,32 @@
       "type": "SHORT_ANSWER",
       "text": "Identify the business objective depicted in the image given below.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Image on page 5 not reproduced; the question cannot be answered without it."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Economic objective – Profit"
       },
       "cognitiveLevel": "Understand",
       "chapter": "business-purpose-and-classification",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xi-business-studies-specimen/1xiv.png",
+          "kind": "FIGURE",
+          "alt": "Illustration in greyscale: people standing beside stacks of coins and banknotes, money bags and floating rupee coins, with a bar chart and an upward arrow behind them",
+          "width": 678,
+          "height": 354,
+          "page": 5,
+          "crop": {
+            "x": 0.32,
+            "y": 0.462,
+            "w": 0.38,
+            "h": 0.14
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -856,7 +872,7 @@
       ],
       "confidence": "HIGH",
       "officialAnswer": {
-        "text": "(iii) The document released by Zenith Infra Ltd. is a prospectus. Contents of a Prospectus • A standard prospectus contains vital details about a company’s name, registered office address, business goals and history to help investors make safe choices. • It also specifies the number and type of securities offered, price per share, total issue size, and the opening and closing dates of the subscription. • It gives the audited financial statements, including the balance sheet, profit and loss account, and cash flow statements. • It provides details of the management such as names, backgrounds, and remuneration of the directors, managers, and key personnel, along with their personal shareholdings in the company. • It gives clear details of how the company plans to spend the money raised by the public. • It clearly lays out potential business, market, or legal challenges that could negatively affect the company's future performance. • It contains statutory information such as the minimum subscription amount required before allotment, underwriting details, and consent from experts or auditors. (Candidates are required to identify the type of document issued by the company and explain a…"
+        "text": "(iii) The document released by Zenith Infra Ltd. is a prospectus. Contents of a Prospectus • A standard prospectus contains vital details about a company’s name, registered office address, business goals and history to help investors make safe choices. • It also specifies the number and type of securities offered, price per share, total issue size, and the opening and closing dates of the subscription. • It gives the audited financial statements, including the balance sheet, profit and loss account, and cash flow statements. • It provides details of the management such as names, backgrounds, and remuneration of the directors, managers, and key personnel, along with their personal shareholdings in the company. • It gives clear details of how the company plans to spend the money raised by the public. • It clearly lays out potential business, market, or legal challenges that could negatively affect the company's future performance. • It contains statutory information such as the minimum subscription amount required before allotment, underwriting details, and consent from experts or auditors. (Candidates are required to identify the type of document issued by the company and explain any three of its contents in brief.)"
       },
       "cognitiveLevel": "Understand",
       "chapter": "forms-and-types-of-business-organisations",

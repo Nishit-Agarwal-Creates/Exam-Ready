@@ -277,17 +277,34 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Graph on page 7 not reproduced",
         "Notation rebuilt from the PDF layout (isotope superscripts and subscripts, confirmed on a page render); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(d) P: ¹⁴N ¹⁴N and Q: ¹⁴N ¹⁵N",
         "correctOption": 3
       },
       "cognitiveLevel": "Analysis",
       "chapter": "molecular-basis-of-inheritance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/9.png",
+          "kind": "GRAPH",
+          "alt": "Line graph of % of DNA molecules against time in minutes (20 to 80) with a solid curve labelled Q and a dashed curve labelled P",
+          "width": 840,
+          "height": 544,
+          "page": 7,
+          "crop": {
+            "x": 0.27,
+            "y": 0.21,
+            "w": 0.47,
+            "h": 0.215
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",
@@ -308,17 +325,34 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Venn diagram on page 8 not reproduced",
         "Options are printed as a table with columns P, Q, R, S; flattened into 'P: …; Q: …' form (rows read against a page render). The answer key row is flattened the same way"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(d) P: Replication; Q: Transcription; R: Okazaki fragments; S: Sigma factor",
         "correctOption": 3
       },
       "cognitiveLevel": "Understanding",
       "chapter": "molecular-basis-of-inheritance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/10.png",
+          "kind": "FIGURE",
+          "alt": "Venn diagram of two overlapping circles labelled P and Q, each listing features, with boxes R and S",
+          "width": 929,
+          "height": 531,
+          "page": 8,
+          "crop": {
+            "x": 0.295,
+            "y": 0.172,
+            "w": 0.52,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "11",
@@ -889,16 +923,32 @@
       "type": "SHORT_ANSWER",
       "text": "Shown below are two forms of insulin named X and Y. Which one of the two is biologically active and why?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram on page 14 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "• Y is biologically active insulin. (0.5 mark)\n• Mature insulin contains only A and B chains without C. (0.5 mark)"
       },
       "cognitiveLevel": "Analysis",
       "chapter": "biotechnology-and-its-applications",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/34.png",
+          "kind": "FIGURE",
+          "alt": "Two diagrams of insulin labelled X and Y showing A chain, B chain, C chain, H2N and COOH ends and S-S bonds",
+          "width": 1116,
+          "height": 632,
+          "page": 14,
+          "crop": {
+            "x": 0.24,
+            "y": 0.183,
+            "w": 0.625,
+            "h": 0.25
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "35",
@@ -977,16 +1027,32 @@
       "type": "SHORT_ANSWER",
       "text": "The pedigree chart given below represents the pattern of inheritance of polydactyly in a family. Study it carefully and write the genotype of individual 1.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (pedigree chart) on page 15 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Genotype of individual 1: Aa"
       },
       "cognitiveLevel": "Application",
       "chapter": "principles-of-inheritance-and-variation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/38.png",
+          "kind": "FIGURE",
+          "alt": "Three-generation pedigree chart of squares and circles, some shaded, with the top individual marked 1",
+          "width": 1072,
+          "height": 624,
+          "page": 15,
+          "crop": {
+            "x": 0.255,
+            "y": 0.488,
+            "w": 0.6,
+            "h": 0.247
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "39",
@@ -1023,16 +1089,32 @@
       "type": "SHORT_ANSWER",
       "text": "Study the following diagram and answer questions given below:\n(a) Identify ‘A’ and ‘B’.\n(b) Biotechnologists synthesised a cDNA from ‘X’ RNA using reverse transcriptase and inserted this cDNA into the plasmid of E. coli for insulin production. Will they be successful in getting insulin? Justify your answer.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram on page 16 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) A: Exon B: Intron. (0.5 mark)\n(b) No, since cDNA is synthesised from (X RNA) hnRNA. It will have introns which cannot be spliced in E. coli as it does not have an enzyme for it. (0.5 mark)"
       },
       "cognitiveLevel": "Application",
       "chapter": "biotechnology-principles-and-processes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/40.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a 5′ to 3′ strand labelled X made of alternating segments A and B, with an arrow down to an mRNA with Cap, segments A and Poly A tail",
+          "width": 1161,
+          "height": 687,
+          "page": 16,
+          "crop": {
+            "x": 0.235,
+            "y": 0.525,
+            "w": 0.65,
+            "h": 0.272
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "41",
@@ -1044,10 +1126,9 @@
       "marks": 2,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "Tisha and Ravi were discussing about DNA replication in the given DNA sequence and made two statements.\nTisha: “Each of the two new daughter strands formed after DNA replication would have an identical base sequence”.\nRavi: “The nucleotide sequence of one daughter strand would be identical to that of the coding strand”.\n(a) Who made a correct statement? Give a reason for your answer.\n(b) Due to the absence of certain enzymes, the parental DNA strands showed certain defects mentioned below during replication. Identify the enzyme in each case.\n(i) The parental DNA strand supercoils and eventually breaks.\n(ii) The growing DNA strand had a lot of mismatched nucleotides.",
+      "text": "Tisha and Ravi were discussing about DNA replication in the given DNA sequence and made two statements.\n3’ TAGCCCAGC 5’\n5’ ATCGGGTCG 3’\nTisha: “Each of the two new daughter strands formed after DNA replication would have an identical base sequence”.\nRavi: “The nucleotide sequence of one daughter strand would be identical to that of the coding strand”.\n(a) Who made a correct statement? Give a reason for your answer.\n(b) Due to the absence of certain enzymes, the parental DNA strands showed certain defects mentioned below during replication. Identify the enzyme in each case.\n(i) The parental DNA strand supercoils and eventually breaks.\n(ii) The growing DNA strand had a lot of mismatched nucleotides.",
       "hasFigure": true,
       "extractionIssues": [
-        "The given DNA sequence on page 17 is printed as an image and is not in the text layer; not reproduced",
         "Official answer for (a) is a strand diagram, flattened line by line"
       ],
       "confidence": "MEDIUM",
@@ -1346,16 +1427,33 @@
       "text": "Genotypes of Sickle cell anaemia can be determined due to differences in the size of the DNA bands produced by digesting the Haemoglobin gene DNA with restriction enzyme. The gel electrophoresis depicts the DNA fragments produced after genotyping two siblings’ ‘X’ and ‘Y’. Study it carefully and answer the following questions.\n(a) Determine if the given statement is accurate or not. Provide reasoning for the same.\n‘The parents of individuals X and Y are heterozygous.’\n(b) Identify the allele which gives a DNA fragment of:\n1. larger size\n2. smaller size",
       "hasFigure": true,
       "extractionIssues": [
-        "Gel electrophoresis figure on page 19 not reproduced",
         "Official answer contains a Punnett square table, flattened row by row"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) True\n | Hb A | Hb S\nHb A | Hb A Hb A | Hb A Hb S\nHb S | Hb A Hb S | Hb S Hb S\n• Since X is heterozygous (HbA HbS) and Y is homozygous (HbS HbS).\n• Both parents must be heterozygous.\n(b) 1. larger size: Hb S.\n2. smaller size: Hb A."
       },
       "cognitiveLevel": "Evaluate",
       "chapter": "biotechnology-principles-and-processes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/55.png",
+          "kind": "FIGURE",
+          "alt": "Gel electrophoresis diagram with lanes X and Y, band positions labelled Hb S and Hb A, and a downward arrow",
+          "width": 1247,
+          "height": 826,
+          "page": 19,
+          "crop": {
+            "x": 0.21,
+            "y": 0.413,
+            "w": 0.698,
+            "h": 0.327
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "56",
@@ -1369,16 +1467,32 @@
       "type": "SHORT_ANSWER",
       "text": "Ritu and Ali performed an experiment as depicted where all the parameters were kept constant except that, Ritu added papaya pulp to her test tube whereas Ali added an unknown enzyme ‘X’ to his test tube.\n(a) In Ritu’s case, name the process responsible for the conversion.\n(b) Identify enzyme ‘X’.\n(c) Give a possible reason for the observation made by Ritu and Ali.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram of the experiment on page 20 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Transformation (0.5 mark)\n(b) DNase (0.5 mark)\n(c) Ritu: Papaya pulp contains protease which will digest protein, but DNA is intact. So, transformation occurs. (0.5 mark)\nAli: DNase will digest DNA so transformation will not occur. (0.5 mark)"
       },
       "cognitiveLevel": "Analysis",
       "chapter": "molecular-basis-of-inheritance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/56.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of two test tubes labelled Ritu and Ali containing live R-type bacteria and heat killed S type, with papaya pulp added to one and enzyme X added to the other, and an observation box under each",
+          "width": 1039,
+          "height": 963,
+          "page": 20,
+          "crop": {
+            "x": 0.268,
+            "y": 0.187,
+            "w": 0.582,
+            "h": 0.381
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "57",
@@ -1392,16 +1506,32 @@
       "type": "SHORT_ANSWER",
       "text": "Study the figure of an ecological pyramid given below and then answer the questions that follow:\n(a) Identify the type of pyramid.\n(b) Give two examples of pyramids mentioned in (a).\n(c) Which is the topmost trophic level shown in the figure?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Ecological pyramid figure on page 21 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Pyramid of number. (½ X 1 = ½ mark)\n(b) Grassland ecosystem, Pond ecosystem. (½ X 2 =1 mark)\n(c) Secondary consumer / Carnivore. (½ X 1 = ½ mark)"
       },
       "cognitiveLevel": "Understanding",
       "chapter": "ecosystem",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/57.png",
+          "kind": "FIGURE",
+          "alt": "Picture of a three-tier pyramid with trees at the base, giraffes in the middle and a lion at the top",
+          "width": 773,
+          "height": 513,
+          "page": 21,
+          "crop": {
+            "x": 0.343,
+            "y": 0.17,
+            "w": 0.433,
+            "h": 0.203
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "58",
@@ -1457,16 +1587,32 @@
       "type": "LONG_ANSWER",
       "text": "The graph illustrates the concentration of Biochemical Oxygen Demand (BOD) in various samples, including (A) untreated sewage, (B) secondary effluent, (C) river water, and (D) primary effluent.\n(a) Which sample contains the highest level of Pathogenic microbes?\n(b) Name the sample that contains the lowest level of pathogenic microbes.\n(c) Which sample can be used for domestic purposes?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph on page 22 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Sample D contains the highest level of Pathogenic microbes.\n(b) Sample B contains the lowest level of pathogenic microbes.\n(c) Sample B can be used for domestic purposes. (3X1=3marks)"
       },
       "cognitiveLevel": "Analysis",
       "chapter": "microbes-in-human-welfare",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/60.png",
+          "kind": "GRAPH",
+          "alt": "Bar graph of level of BOD (mg/L) for samples A, B, C and D",
+          "width": 705,
+          "height": 391,
+          "page": 22,
+          "crop": {
+            "x": 0.357,
+            "y": 0.406,
+            "w": 0.395,
+            "h": 0.155
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "61",
@@ -1501,16 +1647,32 @@
       "type": "LONG_ANSWER",
       "text": "The weight of a tomato plant is controlled by 3 pairs of alleles in a cumulative manner. Saloni crossed a tomato plant ‘X’ with plant ‘Y’.\n(a) Identify the type of inheritance shown by the tomato plant. What will be the total types of allelic combinations in the gametes of a tomato plant heterozygous for all three genes?\n(b) What will be the weight of the progeny plant obtained by crossing plant ‘X’ with ‘Y’?\n(c) Find the weight of the tomato plant with genotype AAbbcc.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 23 not reproduced (it carries the genotypes and weights of plants 'X' and 'Y', which are not in the text layer)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Polygenic inheritance.\n8 types of combinations of alleles in the gametes.\n(b) Weight of progeny plant (AaBbCc) = 90 + 54/ 2 (0.5 mk) =72g\n(c) Weight of plant with genotype AAbbcc\nWeight of dominant allele = 90/6 = 15g\nWeight of recessive allele = 54/6 = 9g\nWeight with genotype AAbbcc = 15 + 15 + 9 + 9 + 9 + 9 = 66g"
       },
       "cognitiveLevel": "Application",
       "chapter": "principles-of-inheritance-and-variation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/62.png",
+          "kind": "FIGURE",
+          "alt": "Drawings of two tomato plants labelled Plant X (Genotype: AABBCC, Weight: 90 g) and Plant Y (Genotype: aabbcc, Weight 54 g)",
+          "width": 1221,
+          "height": 847,
+          "page": 23,
+          "crop": {
+            "x": 0.203,
+            "y": 0.172,
+            "w": 0.684,
+            "h": 0.335
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "63",
@@ -1631,16 +1793,32 @@
       "type": "LONG_ANSWER",
       "text": "The diagram given below represents an immune response/mechanism in the human body.\n(a) What is the mechanism's name and significance in the human body?\n(b) What is the difference between primary and secondary lymphoid tissues?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram on page 25 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) It’s a defensive mechanism of the body and they destroy the invading microorganisms by phagocytosis. (1mark +1mark)\n(b) Proliferation and maturation of lymphocytes occurs in the primary lymphoid tissues. Antigens are localised and the adaptive immune response is initiated in the secondary lymphoid tissues. (2X0.5=1 mark)"
       },
       "cognitiveLevel": "Understanding",
       "chapter": "human-health-and-diseases",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/68.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of cells labelled A, B and C with bacteria and arrows between the stages",
+          "width": 720,
+          "height": 450,
+          "page": 25,
+          "crop": {
+            "x": 0.372,
+            "y": 0.592,
+            "w": 0.403,
+            "h": 0.178
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "69",
@@ -1696,16 +1874,32 @@
       "type": "LONG_ANSWER",
       "text": "Observe the diagram and answer the questions that follow:\n(a) Identify the type of cellular proliferation given in the diagram?\n(b) Name the disease associated with this mode of cell division.\n(c) State one method for detection of the disease given in (b) and a treatment approach.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram on page 26 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Metastasis refers to the migration of cancer cells from the primary tumour site to distant parts of the body. (1mark)\n(b) leading to the spread of malignant disease/ cancer. (1mark)\n(c) Diagnosis involves techniques like biopsy, histological examinations, and Pap tests, while treatment options include surgery, chemotherapy, and radiotherapy. (Any 2X0.5=1mark)"
       },
       "cognitiveLevel": "Understanding & Application",
       "chapter": "human-health-and-diseases",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/71.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a layer of tissue cells with a mass of differently coloured, irregular cells in the middle",
+          "width": 1143,
+          "height": 447,
+          "page": 26,
+          "crop": {
+            "x": 0.238,
+            "y": 0.363,
+            "w": 0.64,
+            "h": 0.177
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "72",
@@ -1720,17 +1914,34 @@
       "text": "Blood samples of three individuals (A, B and C) were collected and sent for DNA analysis to look out for mutated genes. The given image represents the different alleles for globin chains on their chromosomes and the number of α, β, γ and δ chains of haemoglobin formed from their respective alleles. Study it carefully and answer the following questions.\nSource (edited): https://www.mdpi.com/2218-273X/11/5/755\n(a) Interpret the above information by completing the following table:\nIndividual | Condition (Normal / Genetic disorder) | Clinical description\nA | Normal | Normal Haemoglobin\nB | ------------------------- | -------------------------\nC | ------------------------- | -------------------------\n(b) Consider a hypothetical situation, wherein individual ‘B’ undergoes test cross, what percent of the off springs will be suffering from the major genetic disorder?\n(c) What type of mutation leads to the genetic disorder depicted above?",
       "hasFigure": true,
       "extractionIssues": [
-        "Image of globin alleles and haemoglobin chains on page 27 not reproduced",
         "Table in the question flattened row by row",
         "Official answer table is misaligned in the text layer; rows flattened as read on a page render; check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a)\nIndividual | Condition (Normal / Genetic disorder) | Clinical description\nA | Normal | Normal Haemoglobin\nB | Thalassemia minor | Mild anaemia\nC | Thalassemia major | Severe anaemia poor oxygen carrying capacity\n(b) 50% of the offsprings.\n(c) Frame shift mutation."
       },
       "cognitiveLevel": "Application",
       "chapter": "principles-of-inheritance-and-variation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/72.png",
+          "kind": "FIGURE",
+          "alt": "Image for individuals A, B and C showing pairs of chromosomes with alpha, gamma, delta and beta globin genes and, below each, the haemoglobin chains formed",
+          "width": 1207,
+          "height": 594,
+          "page": 27,
+          "crop": {
+            "x": 0.217,
+            "y": 0.221,
+            "w": 0.676,
+            "h": 0.235
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "73",
@@ -1766,16 +1977,33 @@
       "text": "E. coli is grown in a nutrient medium containing equal amounts of glucose and lactose. The graph below shows the growth curve of E. coli growing in it. Study it carefully and answer the following questions.\n(a) Identify sugar ‘X’ and ‘Y’.\n(b) Why is sugar ‘X’ the preferred carbon source by E. coli?\n(c) What is the significance of the short lag phase?\n(d) Diagrammatically explain the major steps involved in the lac operon when glucose is completely removed from this medium.\n(e) lac mRNA is monocistronic or polycistronic? Justify your answer by giving a reason.",
       "hasFigure": true,
       "extractionIssues": [
-        "Growth-curve graph on page 28 not reproduced",
         "Official answer partly missing in extraction (figure/equation): the lac operon diagram in the answer to (d) on page 39 is not reproduced"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) ‘X’: Glucose\n‘Y’: Lactose\n(b) Reasons:\n• Glycolysis starts with glucose (X). Glucose is the only carbon source bacteria can use for ATP production.\n• Using lactose requires spending cellular energy to make enzymes that can break them down.\n(c) Lag phase indicates that glucose is utilized and that’s the time taken by the bacteria to synthesize enzymes to breakdown lactose.\n(d)\nRepressor protein.\nBinding of repressor protein with inducer.\nTranslation of 3 enzymes.\n(e) Polycistronic.\nThis mRNA carries information for the synthesis of all three proteins (galactosidase, permease, transacetylase)."
       },
       "cognitiveLevel": "Analysis",
       "chapter": "molecular-basis-of-inheritance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/74.png",
+          "kind": "GRAPH",
+          "alt": "Graph of number of bacteria (x10^7) against time (hours, 0 to 10) with parts labelled Sugar X used, Lag phase and Sugar Y used",
+          "width": 737,
+          "height": 563,
+          "page": 28,
+          "crop": {
+            "x": 0.348,
+            "y": 0.254,
+            "w": 0.413,
+            "h": 0.223
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "75",
@@ -1789,16 +2017,32 @@
       "type": "LONG_ANSWER",
       "text": "Observe the given diagram and answer the questions that follow.\nWhat is the causative agent of the disease? Describe its mode of transmission along with two preventive measures for controlling it?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Life-cycle diagram on page 29 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "The causative agent is Ascaris lumbricoides. (1mark)\nThe female Ascaris lays as many as 2,70,00,000 eggs in its lifetime and deposits about 2,00,000 eggs daily. The eggs are laid along with faeces. These contaminate food, water and raw vegetables. Man gets infected by swallowing raw vegetables. (Any 2X1=2 marks)\nPreventive Measures:\n(i) Disposal of human faeces by underground sewage system.\n(ii) Children should be asked to wash their hands carefully and properly before handling food. (Any two relevant points X1=2 marks)"
       },
       "cognitiveLevel": "Understanding",
       "chapter": "human-health-and-diseases",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-cfq-2024-xii-biology/75.png",
+          "kind": "FIGURE",
+          "alt": "Life-cycle diagram with stages: infective larvae, ingestion with food, reach duodenum, migrate to lungs, final development in small bowel, eggs in soil, unfertilized egg, fertilized egg",
+          "width": 966,
+          "height": 697,
+          "page": 29,
+          "crop": {
+            "x": 0.284,
+            "y": 0.205,
+            "w": 0.541,
+            "h": 0.276
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "76",

@@ -6,7 +6,7 @@
 //
 // Structural checks only: it cannot tell whether text matches the PDF. That is the editor's job in
 // /admin/review. Exits 1 when any pack has an error.
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { basename, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -127,6 +127,26 @@ for (const file of files) {
       if (!s.answerSourceUrl) errors.push(`${id}: has an officialAnswer but source.answerSourceUrl is not set`);
     }
     qneed(typeof q.hasFigure === "boolean", "hasFigure must be true/false");
+    // Phase 5.1: marks status and figures cropped from the original page.
+    if (q.marksStatus !== undefined) {
+      qneed(["PRINTED", "GROUP_TOTAL", "NOT_PRINTED", "FRACTIONAL"].includes(q.marksStatus), "marksStatus must be PRINTED, GROUP_TOTAL, NOT_PRINTED or FRACTIONAL");
+      if (q.marksStatus !== "PRINTED") qneed(q.marks === 0, "marks must be 0 when the item's own whole-number mark is not printed (marksStatus)");
+      if (["GROUP_TOTAL", "FRACTIONAL"].includes(q.marksStatus)) qneed(typeof q.marksNote === "string" && q.marksNote.trim().length > 0, "marksNote must quote the printed group total or fractional mark");
+    }
+    if (q.figures !== undefined) {
+      qneed(Array.isArray(q.figures) && q.figures.length > 0, "figures must be a non-empty array when present");
+      for (const f of q.figures ?? []) {
+        qneed(typeof f.src === "string" && /^\/figures\/[a-z0-9-]+\/[A-Za-z0-9_.-]+\.png$/.test(f.src), `figure src must be /figures/<pack>/<name>.png (got ${f.src})`);
+        qneed(f.src && existsSync(join(root, "public", f.src.slice(1))), `figure file missing: public${f.src}`);
+        qneed(["FIGURE", "TABLE", "GRAPH", "MAP", "PASSAGE"].includes(f.kind), "figure kind must be FIGURE, TABLE, GRAPH, MAP or PASSAGE");
+        qneed(f.method === "SOURCE_PAGE_CROP", "figure method must be SOURCE_PAGE_CROP (figures are cropped from the source page, never redrawn)");
+        qneed(Number.isInteger(f.page) && f.page >= 1, "figure page must be a 1-based page number");
+        qneed(f.crop && ["x", "y", "w", "h"].every((k) => typeof f.crop[k] === "number" && f.crop[k] >= 0 && f.crop[k] <= 1), "figure crop must give x, y, w, h as fractions of the page");
+        qneed(Number.isInteger(f.width) && Number.isInteger(f.height) && f.width > 0 && f.height > 0, "figure width and height must be the crop's pixel size");
+        qneed(typeof f.alt === "string" && f.alt.trim().length >= 10, "figure alt text must describe what the figure shows");
+        qneed(["HIGH", "MEDIUM"].includes(f.confidence), "figure confidence must be HIGH or MEDIUM (LOW crops are not attached)");
+      }
+    }
     qneed(Array.isArray(q.extractionIssues), "extractionIssues must be an array");
     if (q.hasFigure && !(q.extractionIssues ?? []).some((x) => /figure|diagram|graph|table|map|image/i.test(x)))
       warnings.push(`${id}: hasFigure but no issue says what is missing`);

@@ -1,0 +1,13 @@
+{
+  "pack": "isc-itembank-2026-xi-biotechnology",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked the current pack content against renders of the original PDF pages (page.py grid/crop, zoomed) and pdftotext -layout/-raw, the marking scheme / answer key where one exists, the published figure PNGs and the chapter summaries.",
+  "checks": [
+    {
+      "key": "isc-itembank-2026-xi-biotechnology#65",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

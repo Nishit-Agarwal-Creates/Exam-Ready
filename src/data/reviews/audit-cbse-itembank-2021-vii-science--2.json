@@ -1,0 +1,19 @@
+{
+  "pack": "cbse-itembank-2021-vii-science",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the official marking scheme, and page grids/crops of the recovered figures (scripts/recovery/page.py).",
+  "checks": [
+    {
+      "key": "cbse-itembank-2021-vii-science#Science7SPA2",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vii-science#Science7EVR2",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

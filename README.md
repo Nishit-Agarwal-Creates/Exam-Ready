@@ -225,6 +225,21 @@ Locally, secrets live in `.dev.vars` (git-ignored). Never commit it.
 
 ## Deploying an update
 
+For the Phase 5.1 release (recovered figures and marks status), apply migration `0005_recovery.sql` **before** the new code is deployed, because the code reads the new columns:
+
+```bash
+npm run db:migrate:remote      # 0005: marks_status, marks_note, figure (additive)
+```
+
+Then push (Cloudflare builds the Worker, including `public/figures`), and load the data:
+
+```bash
+npm run db:sources:remote      # packs; corrections reach only questions nobody has verified
+npx wrangler d1 execute DB --remote --file=drizzle/seed/review.sql
+```
+
+`review.sql` publishes what passed review and audit. For questions the automated review verified earlier, it also applies the recovery pipeline's re-audited corrections, and takes off the site (never deletes) any it withdrew after an independent re-audit. Editor decisions are never touched.
+
 For the Phase 4 release, in this order (each step is idempotent and never overwrites editor decisions):
 
 ```bash
@@ -270,7 +285,8 @@ If a local OpenNext build fails with `EPERM` on `.next` or `.open-next`, stop an
 - **Scanned papers were skipped.** Several CBSE sets have no text layer (for example 2024 X Science 31/1–31/3, 2026 X Social Science 32/1–32/3 and every 2025 XII Mathematics set). They need OCR and careful checking through `/admin/import`.
 - **Some official answers are missing.** The 2026 XII Physics marking scheme is image-only (no answers extracted); drawn structures, diagrams and some equations in other schemes are missing and flagged.
 - **Notation losses are flagged, not hidden.** Maths and physics text layers often drop symbols (√, ∫, Greek letters, fraction bars). Rebuilt notation is marked MEDIUM, lost notation LOW, and every such question lists the issue for the editor.
-- Figures, maps and diagrams aren't reproduced; affected questions are flagged and link to the source page.
+- Figures, tables, graphs, maps and passages are shown as crops of the original page (`public/figures/<pack>/`, cropped offline by `scripts/recovery/page.py`; never redrawn). Where a figure isn't printed in the PDF, is illegible or can't be cropped cleanly, the question stays held. Blank outline maps that students draw on are shown only where the paper itself prints them.
+- Marks are shown only where the paper prints them for that item (or prints a per-item rule). Items under a printed group total show the total and are left out of generated papers, as are items with no printed mark.
 - Chapter mappings of questions still awaiting review are suggestions; reviewed questions have a confirmed or corrected chapter. Questions with no fitting syllabus chapter are held back.
 - Student accounts aren't built yet; attempt history is per device.
 

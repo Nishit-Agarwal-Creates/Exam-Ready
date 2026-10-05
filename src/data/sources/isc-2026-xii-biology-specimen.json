@@ -438,16 +438,32 @@
       "type": "SHORT_ANSWER",
       "text": "The diagram given below represents a specific stage of gestation period. Identify the structure labelled - B.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 (uterus with developing embryo, label B) not reproduced; the question cannot be answered without it."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Placenta / Chorionic villi"
       },
       "cognitiveLevel": "Recall",
       "chapter": "human-reproduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-biology-specimen/1xvii.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a section of the uterus during pregnancy, with label lines and one structure labelled B",
+          "width": 303,
+          "height": 321,
+          "page": 4,
+          "crop": {
+            "x": 0.405,
+            "y": 0.405,
+            "w": 0.165,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -462,16 +478,33 @@
       "text": "Give a reason for each of the following statements:\nSameer drew a diagram of human sperm and showed it to his teacher. The teacher rejected the diagram.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 4 (Sameer's labelled sperm diagram, labels A-E) not reproduced; the labels are in the image, not the text layer; the question cannot be answered without it.",
         "(xviii) carries [2] on the question paper; the answer key prints [1] for each of (a) and (b)."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Tail part has been labelled in the middle piece of sperm. Head is labelled as middle piece."
       },
       "cognitiveLevel": "Analysis",
       "chapter": "human-reproduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-biology-specimen/1xviiia.png",
+          "kind": "FIGURE",
+          "alt": "Sameer's diagram of a human sperm with five named labels marked A to E",
+          "width": 432,
+          "height": 535,
+          "page": 4,
+          "crop": {
+            "x": 0.43,
+            "y": 0.633,
+            "w": 0.235,
+            "h": 0.225
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -531,7 +564,6 @@
       "hasFigure": true,
       "extractionIssues": [
         "Internal choice: alternative (ii) of Question 2 (OR (i)).",
-        "Bar graph on page 5 (species richness for Polar (N) region, Temperate (N) region, Tropical region) not reproduced.",
         "Parts carry different printed tags: (a) Understanding, (b) Analysis; no single cognitiveLevel recorded."
       ],
       "confidence": "MEDIUM",
@@ -539,7 +571,25 @@
         "text": "(a) Brazil-Tropical region France- Temperate region Norway- Polar region (b) India- Tropical region"
       },
       "chapter": "biodiversity-and-its-conservation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-biology-specimen/2ii.png",
+          "kind": "GRAPH",
+          "alt": "Bar graph of species richness for Polar (N) region, Temperate (N) region and Tropical region",
+          "width": 615,
+          "height": 399,
+          "page": 5,
+          "crop": {
+            "x": 0.33,
+            "y": 0.382,
+            "w": 0.335,
+            "h": 0.168
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -554,16 +604,33 @@
       "text": "Given below is the relationship between the HIV levels in the blood and helper T-cell count in a person detected with AIDS. Study the relationship and answer the questions that follow.\n(i) Describe the trend observed between viral load and immune response following initial infection.\n(ii) Is the virus permanently eliminated from the body? Justify your answer.",
       "hasFigure": true,
       "extractionIssues": [
-        "Graph on page 5 (T cell count and virus cultured from blood against time) not reproduced; part (i) cannot be answered without it.",
         "Sub-parts (i)-(ii) printed on page 6.",
         "Parts carry different printed tags: (i) Understanding, (ii) Evaluate; no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Initial viral spike → T-cell drop → partial recovery → eventual immune suppression (ii) No; virus integrates/latent in host cells."
       },
       "chapter": "human-health-and-diseases",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-biology-specimen/3.png",
+          "kind": "GRAPH",
+          "alt": "Graph of concentration in blood against time (months, then years) with two curves labelled T cell count and Virus cultured from blood",
+          "width": 514,
+          "height": 309,
+          "page": 5,
+          "crop": {
+            "x": 0.322,
+            "y": 0.758,
+            "w": 0.28,
+            "h": 0.13
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -599,15 +666,32 @@
       "text": "Study the diagram given below and answer the following questions:\n(i) Identify the anode end in the diagram.\n(ii) How are these DNA fragments visualised?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 6 (gel electrophoresis with wells, DNA bands and labels a-d) not reproduced; part (i) cannot be answered without it.",
         "Parts carry different printed tags: (i) Analysis, (ii) Recall; no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Anode end is towards ‘b’. (ii) Agarose gel, containing DNA fragments is stained with ethidium bromide and exposed to UV radiation. Orange color bands of DNA become visible."
       },
       "chapter": "biotechnology-principles-and-processes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-biology-specimen/5.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a slab with four numbered lanes, printed labels 'Wells' and 'DNA bands', and arrows labelled a, b, c and d",
+          "width": 707,
+          "height": 304,
+          "page": 6,
+          "crop": {
+            "x": 0.27,
+            "y": 0.405,
+            "w": 0.385,
+            "h": 0.128
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -686,16 +770,33 @@
       "text": "Study the pedigree chart given below showing the pattern of blood group inheritance in a family.\n(i) State the genotypes of the following:\n(a) Parents\n(b) The individual ‘X’ in the second generation\n(ii) State the possible blood group(s) of the individual ‘Y’ in 3rd generation.",
       "hasFigure": true,
       "extractionIssues": [
-        "Pedigree chart figure on page 7 not reproduced; the question cannot be answered without it.",
-        "Superscripts flattened in the official answer: 'IAi', 'IBi' (printed with superscript A and B in (a))."
+        "Answer key prints (i)(b) flat as 'IAi/ IBi/, ii' (no superscripts); kept as printed"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(i) (a) Father IAi Mother IBi (b) IAi/ IBi/, ii (ii) A or O"
+        "text": "(i) (a) Father I^{A}i Mother I^{B}i\n(b) IAi/ IBi/, ii\n(ii) A or O"
       },
       "cognitiveLevel": "Analysis",
       "chapter": "principles-of-inheritance-and-variation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-biology-specimen/9.png",
+          "kind": "FIGURE",
+          "alt": "Pedigree chart over three generations with squares and circles marked with blood groups A, B, AB, O, and individuals X and Y",
+          "width": 477,
+          "height": 281,
+          "page": 7,
+          "crop": {
+            "x": 0.32,
+            "y": 0.437,
+            "w": 0.26,
+            "h": 0.118
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",
@@ -824,15 +925,32 @@
       "text": "Study the diagram given below that shows the modes of pollination and answer the questions that follow.\n(i) The given diagram shows three methods of pollination in plants. What are the technical terms used for pollen transfer methods labelled ‘2’ and ‘3’?\n(ii) How does Salvia achieve pollination successfully?",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 9 (three modes of pollination labelled 1-3) not reproduced; part (i) cannot be answered without it.",
         "Parts carry different printed tags: (i) Understanding, (ii) Recall; no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) 2-Geitonogamy 3-Xenogamy/Allogamy (ii) Pollinated by insects"
       },
       "chapter": "sexual-reproduction-in-flowering-plants",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-biology-specimen/14.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of flowering plants with arrows numbered 1, 2 and 3 showing pollen transfer",
+          "width": 551,
+          "height": 452,
+          "page": 9,
+          "crop": {
+            "x": 0.31,
+            "y": 0.147,
+            "w": 0.3,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "15",
@@ -892,16 +1010,33 @@
       "hasFigure": true,
       "extractionIssues": [
         "Internal choice: alternative (i) of Question 17 (OR (ii)).",
-        "Figure on page 10 (transcription unit with parts A and B) not reproduced; part (b) cannot be answered without it.",
         "Notation rebuilt from the page render: '60°C' (text layer '600C'); check against the PDF.",
         "Parts carry different printed tags: (a) Understanding, (b) Recall; no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Griffith’s experiment. Two strains of Streptococcus pneumoniae- Smooth Virulent Strain (S-III) and Rough Avirulent Strain (R-II). R-II were injected into mice- mice remained healthy. S-III were injected into mice; mice developed pneumonia and died. S-III were heated to 60°C and killed. These heat-killed bacteria were injected to mice; mice remained healthy. A mixture of R-II and heat killed S-III bacteria were injected into mice; mice developed pneumonia and died. Conclusion: Heat killed S-III bacteria introduced some transforming principle that caused transformation of R-II avirulent into virulent S-III bacteria. (b) A- Promoter; B Coding /Anti template /Sense strand"
       },
       "chapter": "molecular-basis-of-inheritance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-biology-specimen/17i.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a transcription unit: two DNA strands with 3' ends marked, two boxed regions, one labelled A, and an arrow labelled B",
+          "width": 789,
+          "height": 226,
+          "page": 10,
+          "crop": {
+            "x": 0.3,
+            "y": 0.19,
+            "w": 0.43,
+            "h": 0.095
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "17",
@@ -917,15 +1052,32 @@
       "hasFigure": true,
       "extractionIssues": [
         "Internal choice: alternative (ii) of Question 17 (OR (i)).",
-        "Figure on page 10 (lac operon diagram with genes i, p, o, z, y, a and molecule X) not reproduced; part (a) cannot be answered without it.",
         "Parts carry different printed tags: (a) Understanding, (b) Recall, (c) Recall; no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) X = Repressor protein. This molecule gets deactivated in the presence of inducer (Lactose). (b) gene ‘z’- B-galactosidase; gene ‘y’-permease; gene ‘a’-transacetylase (c) RNA polymerase"
       },
       "chapter": "molecular-basis-of-inheritance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-biology-specimen/17ii.png",
+          "kind": "FIGURE",
+          "alt": "Diagram of a row of boxes i, p, o, z, y and a with arrows, printed labels mRNA, lac, Transcription, Translation, Enzyme and Inducer, and a molecule labelled X",
+          "width": 734,
+          "height": 309,
+          "page": 10,
+          "crop": {
+            "x": 0.3,
+            "y": 0.3305,
+            "w": 0.4,
+            "h": 0.13
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "18",
@@ -940,17 +1092,34 @@
       "text": "(i) The following graph represents the relative concentrations of the four hormones present in the blood plasma of a woman during her menstrual cycle.\nIdentify the hormones A, B, C and D.\n(ii) During a fertility consultation, a woman mentions her menstrual cycle lasts for 33 days regularly. To help her conceive, the doctor advised her to track ovulation. On which day of the menstrual cycle is she most likely to ovulate?",
       "hasFigure": true,
       "extractionIssues": [
-        "Graph on page 10 (hormone concentration curves A-D over days 1-28) not reproduced; part (i) cannot be answered without it.",
         "Part (ii) printed on page 11.",
         "Marks not itemised between (i) and (ii) (only [5] printed); kept as one entry.",
         "Parts carry different printed tags: (i) Analysis, (ii) Application; no single cognitiveLevel recorded."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) A- Follicle Stimulating Hormone (FSH); B-Estrogen; C-Luteinizing Hormone (LH); D -progesterone (ii) 33 – 14 = 19th day"
       },
       "chapter": "human-reproduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-biology-specimen/18.png",
+          "kind": "GRAPH",
+          "alt": "Graph of increasing concentration of hormone against days 1 to 28, with four curves labelled A, B, C and D",
+          "width": 893,
+          "height": 376,
+          "page": 10,
+          "crop": {
+            "x": 0.26,
+            "y": 0.698,
+            "w": 0.486,
+            "h": 0.158
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

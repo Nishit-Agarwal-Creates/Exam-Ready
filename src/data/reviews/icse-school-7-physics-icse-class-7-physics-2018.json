@@ -13,7 +13,7 @@
       "key": "icse-school-7-physics-icse-class-7-physics-2018#1a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -21,31 +21,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.1 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.1; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#1b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.1 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "reason": "Topic (miniature circuit breakers protecting household wiring) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.1; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover miniature circuit breakers protecting household wiring; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#1c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -53,15 +74,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.1 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.1; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#1d",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -69,47 +100,79 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.1 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.1; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#1e",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.1 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "reason": "Topic (power ratings in watts of a bulb and a CFL) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.1; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover power ratings in watts of a bulb and a CFL; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#1f",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.1 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "reason": "Topic (electromagnetic induction in a generator) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.1; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover electromagnetic induction in a generator; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#1g",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -117,31 +180,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.1 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.1; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#1h",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.1 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "reason": "Topic (the earth wire and its colour code in household wiring) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.1; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover the earth wire and its colour code in household wiring; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#2a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -149,79 +233,133 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.2 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.2; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#2b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.2 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "reason": "Topic (overloading of household circuits) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.2; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover overloading of household circuits; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#2c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.2 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "reason": "Topic (the pole of a spherical mirror) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.2; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover the pole of a spherical mirror; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#2d",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.2 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "reason": "Topic (the focus of a spherical mirror) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.2; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover the focus of a spherical mirror; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#2e",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.2 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "reason": "Topic (electrolysis) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 1: only the question total (10) is printed beside Q.2; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover electrolysis; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#3a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -229,15 +367,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.3 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the question total (5) is printed beside Q.3; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#3b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -245,15 +393,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.3 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the question total (5) is printed beside Q.3; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#3c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -261,15 +419,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.3 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the question total (5) is printed beside Q.3; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#3d",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -277,15 +445,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.3 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the question total (5) is printed beside Q.3; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#3e",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -293,9 +471,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.3 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p1."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: only the question total (5) is printed beside Q.3; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#4",
@@ -317,7 +505,7 @@
       "key": "icse-school-7-physics-icse-class-7-physics-2018#5a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -325,31 +513,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.5 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the question total (6) is printed beside Q.5; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#5b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.5 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "reason": "Topic (placement of switch and fuse in household wiring) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 2: only the question total (6) is printed beside Q.5; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover placement of switch and fuse in household wiring; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#5c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -357,31 +566,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.5 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the question total (6) is printed beside Q.5; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#5d",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.5 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "reason": "Topic (the principal axis of a spherical mirror) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 2: only the question total (6) is printed beside Q.5; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover the principal axis of a spherical mirror; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#5e",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -389,31 +619,53 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.5 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: only the question total (6) is printed beside Q.5; no per-item marks or per-item rule. | p51-fix-A: Page 2 Q5(e) is about the time period of a simple pendulum (oscillation); the Class 7 'motion' summary lists oscillatory and periodic motion, 'physical-quantities-and-measurement' does not.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#5f",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.5 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "reason": "Topic (reflection through the principal focus of a spherical mirror) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 2: only the question total (6) is printed beside Q.5; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover reflection through the principal focus of a spherical mirror; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#6a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -421,31 +673,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.6 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the question total (3) is printed beside Q.6; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#6b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.6 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "reason": "Topic (uses of a convex mirror) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 2: only the question total (3) is printed beside Q.6; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover uses of a convex mirror; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#6c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -453,15 +726,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.6 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the question total (3) is printed beside Q.6; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#7a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -469,31 +752,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.7 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the question total (4) is printed beside Q.7; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#7b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.7 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "reason": "Topic (renewable sources of electricity) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 2: only the question total (4) is printed beside Q.7; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover renewable sources of electricity; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#7c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -501,31 +805,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.7 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the question total (4) is printed beside Q.7; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#7d",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.7 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "reason": "Topic (vector quantities) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 2: only the question total (4) is printed beside Q.7; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover vector quantities; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#8a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -533,31 +858,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.8 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the question total (6) is printed beside Q.8; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#8b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.8 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "reason": "Topic (images formed by concave and convex mirrors) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 2: only the question total (6) is printed beside Q.8; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover images formed by concave and convex mirrors; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#8c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -565,9 +911,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.8 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p2."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: only the question total (6) is printed beside Q.8; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#9",
@@ -717,7 +1073,7 @@
       "key": "icse-school-7-physics-icse-class-7-physics-2018#15a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -725,73 +1081,127 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Only the Q.15 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p3."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin6",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: only the question total (10) is printed beside Q.15; no per-item marks or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#15b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.15 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p3."
+      "reason": "Topic (silvering of a spherical mirror) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 3: only the question total (10) is printed beside Q.15; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover silvering of a spherical mirror; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#15c",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.15 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p3."
+      "reason": "Topic (earthing of electrical appliances) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 3: only the question total (10) is printed beside Q.15; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover earthing of electrical appliances; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#15d",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.15 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p3."
+      "reason": "Topic (the fuse in a household circuit) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 3: only the question total (10) is printed beside Q.15; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover the fuse in a household circuit; withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-physics-icse-class-7-physics-2018#15e",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Only the Q.15 total is printed; per-part marks split by the builder.",
-      "notes": "Checked against page image p3."
+      "reason": "Topic (a bulb at the focus of a concave mirror reflector) is not in any official Class 7 physics chapter summary",
+      "notes": "Checked against page image p3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-A",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 3: only the question total (10) is printed beside Q.15; no per-item marks or per-item rule. | p51-fix-A: taxonomy.json ICSE Class 7 physics summaries (measurement, motion, energy, light energy = plane mirrors/colour, heat, sound, electricity and magnetism = magnets/electromagnets/cells/circuits) do not cover a bulb at the focus of a concave mirror reflector; withdrawn.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

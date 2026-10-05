@@ -160,14 +160,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit diagram (2Ω/3Ω/5Ω resistors) needed to determine the current relations; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: circuit printed under Q1(x) (12V cell, 3 ohm + 2 ohm branch parallel to 5 ohm); cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#1xi",
@@ -363,7 +373,7 @@
     },
     {
       "key": "icse-2026-x-physics-specimen#2iii",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -375,7 +385,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "PDF prints 'the waves mentioned in (a)' (plural); pack has 'the wave' (singular) — trivial, doesn't change meaning."
+      "notes": "PDF prints 'the waves mentioned in (a)' (plural); pack has 'the wave' (singular) — trivial, doesn't change meaning.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 8 prints 'Give one reason why the waves mentioned in (a) is used for the above purpose.'; stored 'wave' corrected to 'waves'.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#3ia",
@@ -384,14 +404,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of the two-material lens (µ1, µ2) needed to determine the number of images formed; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: two-material lens diagram under Q3(i)(a) cropped; one [2] printed for Q3(i) covering (a) and (b).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#3ib",
@@ -407,7 +438,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p8: only Q3(i): [2] for (a) and (b) is printed; no per-item mark, so GROUP_TOTAL for every item of the group.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#3ii",
@@ -416,14 +457,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Meter-reading image needed for the 1567/856 kWh values used in the marking scheme; the readings are not stated anywhere in the extracted question text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: meter image under Q3(ii) shows readings 00856 and 01567, matching the scheme's 1567 - 856; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#3iiia",
@@ -432,14 +483,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Pentagon diagram with marked positions W, X, Y, Z, O needed to answer; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 9: pentagon diagram with W, X, Y, Z, O and line PQ under Q3(iii) cropped; one [2] printed for (a) and (b).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#3iiib",
@@ -448,14 +510,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Pentagon diagram (with cut line PQ) needed to answer; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 9: pentagon diagram with W, X, Y, Z, O and line PQ under Q3(iii) cropped; one [2] printed for (a) and (b).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#3iv",
@@ -480,14 +553,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Answerable in general (any current through the coil magnetizes the soft-iron core and attracts the pin) without needing to see the diagram."
+      "notes": "Answerable in general (any current through the coil magnetizes the soft-iron core and attracts the pin) without needing to see the diagram.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "QP p9 Q3(v): the electromagnet / iron pin / Source P and Source Q diagram belongs to the whole of Q3(v); the same colour crop as (b) attached to (a), which also refers to Sources P and Q.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#3vb",
@@ -496,14 +580,27 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The official justification names Source P as AC and Source Q as DC, but the extracted question text never states this — it is only shown in the (unreproduced) circuit diagram.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "QP p9 Q3(v): (b) refers to (a); text now has the printed stem, (a) and (b). Figure re-cropped in colour (the iron pin is printed brown). Only [2] printed for (a)+(b).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#3via",
@@ -567,23 +664,45 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Total internal reflection at the water surface is a standard textbook fact; answerable without the diagram."
+      "notes": "Total internal reflection at the water surface is a standard textbook fact; answerable without the diagram.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p10: only Q4(i): [3] for (a) and (b) is printed; no per-item mark, so GROUP_TOTAL for every item of the group.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#4ib",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Pack drops the printed phrase 'in each of the cases shown above?' from the question; also needs Figure a / Figure b (not reproduced) to know which liquid arrangement gives converge vs diverge.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 11: Figure a (Liquid 1, µ3) and Figure b (Liquid 2, µ2) cropped; restored the printed 'in each of the cases shown above?' line; Q4(i) [3] printed on page 10 for (a) and (b).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#4iia",
@@ -624,14 +743,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Chromatic aberration through a convex lens (different points for different colours) is a standard fact; answerable without the diagram."
+      "notes": "Chromatic aberration through a convex lens (different points for different colours) is a standard fact; answerable without the diagram.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 11: diagram under Q4(iii)(a) (mixed red+blue+green ray incident on a lens) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#4iiib",
@@ -695,7 +824,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p12; the scheme (p21) prints four [1] brackets against a [3] total, so no per-item mark: only Q5(i): [3] for (a) and (b) is printed; no per-item mark, so GROUP_TOTAL for every item of the group.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#5ib",
@@ -703,7 +842,7 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "OK",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "MATCH",
       "chapter": "OK",
@@ -711,23 +850,47 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H2",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "QP p12; the scheme (p21) prints four [1] brackets against a [3] total, so no per-item mark: only Q5(i): [3] for (a) and (b) is printed; no per-item mark, so GROUP_TOTAL for every item of the group. | p51-fix-H2: Scheme p21 Q5(i)(b) read at 2x zoom: stacked fractions 1/v − 1/u = 1/f ∴ 1/v − 1/(−24) = 1/8, \"(identifying ‘U’ and ‘f’ with correct sign convention)\", 1/v = (3−1)/24 ∴ v = 12 cm; copied verbatim.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#5iia",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Cooling-curve graph on page 12 needed to verify the condensation temperature; not reproduced.",
-      "notes": "PDF prints 'temperatures' (plural); pack stem has 'temperature' (singular)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "PDF prints 'temperatures' (plural); pack stem has 'temperature' (singular).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "QP p12 Q5(ii): printed 'The diagram below shows a cooling curve for a substance X:' and '(a) State the temperatures at which the substance condenses.' (plural kept as printed); alt no longer names axis values.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#5iib",
@@ -736,14 +899,27 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Cooling-curve graph needed to verify the liquid-state temperature range; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "QP p12 Q5(ii)(b) text as printed; alt no longer names the temperature values asked for.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#5iic",
@@ -752,14 +928,27 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Cooling-curve graph needed to confirm substance X's relative specific-heat behaviour in liquid vs solid state for this comparison; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "QP p12 Q5(ii)(c) text as printed; alt no longer names axis values.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#5iii",
@@ -860,18 +1049,30 @@
     {
       "key": "icse-2026-x-physics-specimen#6iiia",
       "text": "MATCH",
-      "numberPage": "MISMATCH",
+      "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page should be 14: the (a)/(b)/(c) sub-items are printed on PDF page 14 (only the stem is on page 13). Hemispherical-cup diagram (points A–E) is also needed for the heights used in the answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 14 (printed 13 of 17): cup diagram (A, D, E, B, C, R/3, 360 cm) and items (a)-(c) cropped/located; page field corrected 13 -> 14; one [4] printed on page 13 for (a)-(c).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#6iiib",
@@ -880,14 +1081,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Hemispherical-cup diagram needed for the heights/geometry used in the answer; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 14: cup diagram cropped; one [4] printed for Q6(iii) (a)-(c).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#6iiic",
@@ -896,14 +1108,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Hemispherical-cup diagram needed (height of D above B); not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 14: cup diagram cropped; one [4] printed for Q6(iii) (a)-(c).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#7ia",
@@ -1020,18 +1243,30 @@
     {
       "key": "icse-2026-x-physics-specimen#8ia",
       "text": "MATCH",
-      "numberPage": "MISMATCH",
+      "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page should be 16: the (a)/(b)/(c) comparison items are printed on PDF page 16 (only the stem is on page 15). Tube dimensions needed for the resistance comparison are shown only in the unreproduced diagram.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 15: circuit with tube 1 and tube 2 cropped; items (a)-(c) printed on page 16, page corrected 15 -> 16; text set to the printed stem and item; one [3] printed for Q8(i).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#8ib",
@@ -1040,14 +1275,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit/tube diagram needed to determine why the voltmeter readings compare as stated; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 15: circuit with tube 1 and tube 2 cropped; condensed stem replaced by the printed stem (pages 15-16); one [3] printed for Q8(i).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#8ic",
@@ -1056,14 +1303,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Specific resistance (resistivity) is a material property; since both tubes are filled with the same mercury it is necessarily equal, regardless of the diagram."
+      "notes": "Specific resistance (resistivity) is a material property; since both tubes are filled with the same mercury it is necessarily equal, regardless of the diagram.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 15: circuit with tube 1 and tube 2 cropped; condensed stem replaced by the printed stem (pages 15-16); one [3] printed for Q8(i).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#8iia",
@@ -1072,14 +1331,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Four circuit diagrams (P, Q, R, S) needed to identify the safest configuration; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "QP p16 Q8(ii): stem ends 'depicting different circuit configurations,' before (a); text matched.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#8iib",
@@ -1088,14 +1359,28 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit diagrams needed to justify the safest-circuit choice; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED",
+          "INSTRUCTION_RESTORED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "QP p16 Q8(ii): printed stem with the 'Given below are four diagrams (P, Q, R & S)...' lead-in, (a) and '(b) Write two reasons ... to justify your choice.' (no added words). | p51-fix-H2: Scheme p22 Q8(ii)(b) read from the page image: \"metal body of appliance is earthed / I = PV = 2000/220 =9.09 A 10A fuse is appropriate\"; copied verbatim, the scheme's \"PV\" kept as printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#8iiia",
@@ -1103,15 +1388,26 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "OK",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
-      "answer": "PARTIAL",
+      "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Marking-scheme derivation uses a corrupted math-italic font and was left out per the pack's rules; verified the kept final ratio (1:4) is algebraically correct (Res Y = ρ(2l)/(A/2) = 4ρl/A)."
+      "notes": "Scheme p23 working read from the page image (the text layer font is garbled).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H2",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "QP p16; scheme p23 prints [1+1] beside (a) and (b) only: only Q8(iii): [4] for (a), (b), (c) and (d) is printed; no per-item mark, so GROUP_TOTAL for every item of the group. | p51-fix-H2: Scheme p23 Q8(iii)(a) read from the page image at 2x: \"Rof X = ρl/A  Rof Y = ρ2l/(A/2) = 4 ρl/A  RX : RY = 1: 4\"; copied verbatim.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#8iiib",
@@ -1127,7 +1423,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Derivation omitted (corrupted font); verified final ratio (1:1) is algebraically correct (Py = 20²/4R = 100/R = Px)."
+      "notes": "Derivation omitted (corrupted font); verified final ratio (1:1) is algebraically correct (Py = 20²/4R = 100/R = Px).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p16; scheme p23 prints [1+1] beside (a) and (b) only: only Q8(iii): [4] for (a), (b), (c) and (d) is printed; no per-item mark, so GROUP_TOTAL for every item of the group.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#8iiic",
@@ -1143,7 +1450,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Derivation omitted (corrupted font); verified final ratio (1:1) is algebraically correct (mass Y = (A/2)×(2l)×d = A×l×d = mass X)."
+      "notes": "Derivation omitted (corrupted font); verified final ratio (1:1) is algebraically correct (mass Y = (A/2)×(2l)×d = A×l×d = mass X).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p16; scheme p23 prints [1+1] beside (a) and (b) only: only Q8(iii): [4] for (a), (b), (c) and (d) is printed; no per-item mark, so GROUP_TOTAL for every item of the group.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#8iiid",
@@ -1159,12 +1477,22 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Explanatory parenthetical remark omitted (corrupted font) per the pack's rules; the True verdict is consistent with parts (b)/(c) (equal heat produced, equal mass, same material ⇒ equal temperature rise)."
+      "notes": "Explanatory parenthetical remark omitted (corrupted font) per the pack's rules; the True verdict is consistent with parts (b)/(c) (equal heat produced, equal mass, same material ⇒ equal temperature rise).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p16; scheme p23 prints [1+1] beside (a) and (b) only: only Q8(iii): [4] for (a), (b), (c) and (d) is printed; no per-item mark, so GROUP_TOTAL for every item of the group.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#9ia",
       "text": "MATCH",
-      "numberPage": "MISMATCH",
+      "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
@@ -1173,14 +1501,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page should be 17: Question 9 begins on PDF page 17 (printed '16 of 17'), not page 16.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Q9(i) is printed on PDF page 17 ('16 of 17'); page field corrected 16 -> 17. One [3] printed for (a)-(c).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#9ib",
       "text": "MATCH",
-      "numberPage": "MISMATCH",
+      "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
@@ -1189,14 +1528,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page should be 17: Question 9 begins on PDF page 17, not page 16.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Q9(i) is printed on PDF page 17; page field corrected 16 -> 17. One [3] printed for (a)-(c).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#9ic",
       "text": "MATCH",
-      "numberPage": "MISMATCH",
+      "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
@@ -1205,89 +1555,163 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page should be 17: Question 9 begins on PDF page 17, not page 16.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig2",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Q9(i) is printed on PDF page 17; page field corrected 16 -> 17. One [3] printed for (a)-(c).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#9iia",
       "text": "MATCH",
-      "numberPage": "MISMATCH",
+      "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page should be 17 (Question 9 begins on PDF page 17, not 16); also the AC-generator diagram is needed to know which physical quantity 'a' refers to (e.g. amplitude vs period) — not stated in the extracted text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "QP p17 Q9(ii): printed stem 'If the speed of the generator coil is doubled, then:' + (a).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#9iib",
       "text": "MATCH",
-      "numberPage": "MISMATCH",
+      "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page should be 17 (Question 9 begins on PDF page 17, not 16); also the AC-generator diagram is needed to know which physical quantity 'b' refers to; not stated in the extracted text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "QP p17 Q9(ii): printed stem 'then:' + (b).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#9iic",
       "text": "MATCH",
-      "numberPage": "MISMATCH",
+      "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page should be 17 (Question 9 begins on PDF page 17, not 16); reasoning depends on knowing what 'b' represents, which needs the diagram.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "QP p17 Q9(ii): (c) refers to (b); text now has the printed stem, (b) and (c).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#9iiia",
       "text": "MATCH",
-      "numberPage": "MISMATCH",
+      "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page should be 18: the (a)/(b)/(c) items are printed on PDF page 18 (only the stem is on page 17). The proton/neutron graph (Fig. A) is also needed to identify which elements are C, E and B — not stated in the extracted question text.",
-      "notes": "Nuclear-equation subscripts/superscripts reconstructed from corrupted glyphs; cross-checked against independently re-extracted marking-scheme text (92, 238, 93, 238, -1 all present)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Nuclear-equation subscripts/superscripts reconstructed from corrupted glyphs; cross-checked against independently re-extracted marking-scheme text (92, 238, 93, 238, -1 all present).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "QP p17-18 Q9(iii) full stem; scheme p23 answer copied verbatim 'β : ²³⁸₉₂C → ²³⁸₉₃E + ⁰₋₁β' (mass numbers before the symbols, no added words).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#9iiib",
       "text": "MATCH",
-      "numberPage": "MISMATCH",
+      "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Page should be 18 (only the stem is on page 17); the proton/neutron graph is needed to establish that D and E are isotopes.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "TEXT_CORRECTED",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "QP p17 Q9(iii): stem restored with '(x-axis)', '(y-axis)' and 'These elements are denoted by the letters rather than their conventional symbols.'",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-physics-specimen#9iiic",
@@ -1296,14 +1720,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Proton/neutron graph (Fig. A) needed to identify the C→B transition and hence the charge/behaviour of the emitted ray; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "QP p17 Q9(iii): stem restored with '(x-axis)', '(y-axis)' and 'These elements are denoted by the letters rather than their conventional symbols.'",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

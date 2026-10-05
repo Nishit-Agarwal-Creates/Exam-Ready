@@ -701,13 +701,31 @@
       "text": "Complete the table:\nParticle | Mass no. | Atomic no. | Protons | Neutrons | Electrons\nCI | 35 | | | | 17\nMg | | | 12 | 12 | 12",
       "hasFigure": true,
       "extractionIssues": [
-        "No marks printed",
-        "Table on page 5 rendered as text rows (blank cells are to be filled); check against the PDF",
         "'CI' is as printed (chlorine, Cl)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "atomic-structure",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": "",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-chemistry-icse-class-8-assessment-1-chemistry-220923-2023/VII.png",
+          "kind": "TABLE",
+          "alt": "Table with columns Particle, Mass no., Atomic no., Protons, Neutrons and Electrons; rows CI (mass no. 35, electrons 17) and Mg (protons 12, neutrons 12, electrons 12), other cells blank",
+          "width": 1400,
+          "height": 255,
+          "page": 5,
+          "crop": {
+            "x": 0.045,
+            "y": 0.35,
+            "w": 0.915,
+            "h": 0.118
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "VIII",

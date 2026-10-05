@@ -349,12 +349,28 @@
       "type": "NUMERICAL",
       "text": "From the figure calculate (i) the length of AD (ii) the area of trapezium ABCD",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 2 (trapezium ABCD with its measurements) not reproduced; cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-mathematics-2018/6c.png",
+          "kind": "FIGURE",
+          "alt": "Trapezium ABCD with DC = 15 cm parallel to AB = 40 cm, a right angle marked at A, and diagonal DB = 41 cm",
+          "width": 455,
+          "height": 278,
+          "page": 2,
+          "crop": {
+            "x": 0.515,
+            "y": 0.393,
+            "w": 0.255,
+            "h": 0.11
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",

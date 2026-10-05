@@ -96,14 +96,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 1 (parallel lines, transversal, 60 degrees and angle a) is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 1: figure printed directly under Q.6 (two parallel lines, transversal, 60 and a) cropped completely.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-interim-test-2-mathematics-080823-2023#7",
@@ -160,20 +170,30 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 1 (three parallel lines, 40 and 100 degrees, X, Y, Z) is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 1: figure printed under Q.9(b) at the foot of the page (three parallel lines, 40°, 100°, X, Y, Z) cropped completely; a sliver of the question line's descenders touches the top edge.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-interim-test-2-mathematics-080823-2023#10a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -181,9 +201,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q.10(a); 1 mark was inferred from the paper total",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: no mark is printed beside Q.10(a) (only [2] beside 10(b)); no section rule gives per-question marks.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-interim-test-2-mathematics-080823-2023#10b",

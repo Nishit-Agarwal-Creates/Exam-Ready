@@ -1,0 +1,205 @@
+{
+  "pack": "icse-2027-x-physics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout and -raw, the marking scheme, and 5 % grid renders and zoomed crops of the source pages (every recovered figure opened and compared with the page).",
+  "checks": [
+    {
+      "key": "icse-2027-x-physics-specimen#1vi",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#1xiii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#1xv",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#2ic",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#2iiia",
+      "agree": false,
+      "reason": "The paper prints \"Find two figures that show:\" but the stored text says \"Find the figures that show\", and only the group total [2] for 2 (iii)(a)-(b) is printed (scheme also [2]), so the stored 1 mark is a split with no marksNote.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#2iiib",
+      "agree": false,
+      "reason": "The paper prints \"Find two figures that show:\" but the stored text says \"Find the figures that show\", and only the group total [2] for 2 (iii)(a)-(b) is printed (scheme also [2]), so the stored 1 mark is a split with no marksNote.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3ia",
+      "agree": false,
+      "reason": "Only the group total [2] for 3 (i)(a)-(b) is printed (the marking scheme also gives only [2]), so the stored 1 mark is an even split of that total and there is no marksNote quoting the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3iiia",
+      "agree": false,
+      "reason": "Only the group total [2] for 3 (iii)(a)-(b) is printed (the marking scheme also gives only [2]), so the stored 1 mark is an even split of that total and there is no marksNote quoting the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3iiib",
+      "agree": false,
+      "reason": "Only the group total [2] for 3 (iii)(a)-(b) is printed (the marking scheme also gives only [2]), so the stored 1 mark is an even split of that total and there is no marksNote quoting the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3iv",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3va",
+      "agree": false,
+      "reason": "Only the group total [2] for 3 (v)(a)-(b) is printed (the marking scheme also gives only [2]), so the stored 1 mark is an even split of that total and there is no marksNote quoting the group total. (It is also flagged hasFigure true with no figure.)",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3vb",
+      "agree": false,
+      "reason": "Only the group total [2] for 3 (v)(a)-(b) is printed (the marking scheme also gives only [2]), so the stored 1 mark is an even split of that total and there is no marksNote quoting the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#3via",
+      "agree": false,
+      "reason": "Only the group total [2] for 3 (vi)(a)-(b) is printed (the marking scheme also gives only [2]), so the stored 1 mark is an even split of that total and there is no marksNote quoting the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#4ia",
+      "agree": false,
+      "reason": "Only the group total [3] for 4 (i)(a)-(c) is printed (the marking scheme also gives only [3]), so the stored 1 mark is an even split of that total and there is no marksNote quoting the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#4ib",
+      "agree": false,
+      "reason": "Only the group total [3] for 4 (i)(a)-(c) is printed (the marking scheme also gives only [3]), so the stored 1 mark is an even split of that total and there is no marksNote quoting the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#4ic",
+      "agree": false,
+      "reason": "Only the group total [3] for 4 (i)(a)-(c) is printed (the marking scheme also gives only [3]), so the stored 1 mark is an even split of that total and there is no marksNote quoting the group total.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#4ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#4iiic",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#4iiid",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#5iia",
+      "agree": false,
+      "reason": "The alt text names the values 150, 60 and 10 on the temperature axis, which gives away the answer the question asks for (the condensing temperature, 150°C).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#5iib",
+      "agree": false,
+      "reason": "The alt text names the values 150, 60 and 10 on the temperature axis, which gives away the answer the question asks for (the liquid range, 150°C to 60°C).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#5iic",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#5iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#7ib",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#7ic",
+      "agree": false,
+      "reason": "Not answerable as stored: \"this arrangement\" refers to the fulcrum/effort points chosen in part (a), which the stored text does not contain (the stem lets the fulcrum be at any point), so the class of lever cannot be determined.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#7ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#8ia",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#8ib",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#8ic",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#8ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#8iiid",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2027-x-physics-specimen#9iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

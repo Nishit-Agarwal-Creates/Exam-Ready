@@ -1,0 +1,13 @@
+{
+  "pack": "icse-2024-x-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, page renders (scripts/recovery/page.py grid/crop) and the marking scheme where one exists.",
+  "checks": [
+    {
+      "key": "icse-2024-x-mathematics#1xv",
+      "agree": false,
+      "reason": "The figure crop and alt text are now correct, but the stored text still omits the printed Question 1 group instruction \"Choose the correct answers to the questions from the given options. (Do not copy the questions, write the correct answers only.)\" (page 1), which a split item must carry.",
+      "round": "p51-final"
+    }
+  ]
+}

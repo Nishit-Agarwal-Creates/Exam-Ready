@@ -346,17 +346,17 @@
       "page": 3,
       "section": "B",
       "sectionTitle": "Each question carry 2 marks (Attempt any 5 question)",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "Find the product :- 7/18 × 19/14",
       "hasFigure": false,
-      "extractionIssues": [
-        "The section's 2 marks per question cover both parts; the split is not printed; 1 mark assigned to each"
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "fractions-and-decimals",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "SECTION-B: 'Each question carry 2 marks' — 2 for Q.V as a whole (2 parts)"
     },
     {
       "number": "V",
@@ -365,18 +365,19 @@
       "page": 3,
       "section": "B",
       "sectionTitle": "Each question carry 2 marks (Attempt any 5 question)",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "Divide:- 8 1/21 ÷ 1 6/7",
       "hasFigure": false,
       "extractionIssues": [
-        "The section's 2 marks per question cover both parts; the split is not printed; 1 mark assigned to each",
         "Mixed numbers as printed: 8 1/21 and 1 6/7"
       ],
       "confidence": "HIGH",
       "chapter": "fractions-and-decimals",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "SECTION-B: 'Each question carry 2 marks' — 2 for Q.V as a whole (2 parts)"
     },
     {
       "number": "V",
@@ -404,18 +405,19 @@
       "page": 3,
       "section": "B",
       "sectionTitle": "Each question carry 2 marks (Attempt any 5 question)",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "A coin is tossed 200 times. We obtained a head 118 times and tail 82 times. On tossing the coin at random, find the probability of getting a head",
       "hasFigure": false,
       "extractionIssues": [
-        "The section's 2 marks per question cover both parts; the split is not printed; 1 mark assigned to each",
         "Shared stem repeated in each part"
       ],
       "confidence": "HIGH",
       "chapter": "probability",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "SECTION-B: 'Each question carry 2 marks' — 2 for Q.VII as a whole (2 parts)"
     },
     {
       "number": "VII",
@@ -424,18 +426,19 @@
       "page": 3,
       "section": "B",
       "sectionTitle": "Each question carry 2 marks (Attempt any 5 question)",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "A coin is tossed 200 times. We obtained a head 118 times and tail 82 times. On tossing the coin at random, find the probability of getting a tail",
       "hasFigure": false,
       "extractionIssues": [
-        "The section's 2 marks per question cover both parts; the split is not printed; 1 mark assigned to each",
         "Shared stem repeated in each part"
       ],
       "confidence": "HIGH",
       "chapter": "probability",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "SECTION-B: 'Each question carry 2 marks' — 2 for Q.VII as a whole (2 parts)"
     },
     {
       "number": "VIII",
@@ -464,7 +467,7 @@
       "marks": 3,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
-      "text": "Evaluate - -13/8 + 7/16 + –3/4",
+      "text": "Evaluate -\n-13/8 + 7/16 + –3/4",
       "hasFigure": false,
       "extractionIssues": [],
       "confidence": "HIGH",
@@ -502,12 +505,28 @@
       "type": "NUMERICAL",
       "text": "In the given figure, AB || CD. If <BAC = (3x+15)º and < ACD = (2x +45)º, find the value of x also find the measures of < BAC and < ACD.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 4 not reproduced (quadrilateral ABDC with AB || CD marked by arrows, angles (3x + 15)º at A and (2x + 45)º at C)"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022/XI.png",
+          "kind": "FIGURE",
+          "alt": "Quadrilateral ABDC with B and D at the top, A and C at the bottom; arrow marks on sides AB and CD show they are parallel; angle at A marked (3x + 15)º and angle at C marked (2x + 45)º, both inside the figure on base AC.",
+          "width": 858,
+          "height": 378,
+          "page": 4,
+          "crop": {
+            "x": 0.09,
+            "y": 0.212,
+            "w": 0.48,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "XII",
@@ -516,19 +535,20 @@
       "page": 4,
       "section": "C",
       "sectionTitle": "Each question carry 3 marks (Attempt any 5 questions)",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "A die is rolled 100 times and the outcomes are noted and tabulated as shown [table: outcome 1, 2, 3, 4, 5, 6; frequency 9, 15, 19, 21, 24, 12] When a die is rolled at random, find the probability of getting the number 2",
       "hasFigure": true,
       "extractionIssues": [
         "Table on page 4 rendered inline in square brackets (outcome/frequency rows read from the page image)",
-        "The section's 3 marks cover the three parts; the split is not printed; 1 mark assigned to each",
         "Shared stem repeated in each part"
       ],
       "confidence": "MEDIUM",
       "chapter": "probability",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "SECTION-C: 'Each question carry 3 marks' — 3 for Q.XII as a whole (3 parts)"
     },
     {
       "number": "XII",
@@ -537,19 +557,20 @@
       "page": 4,
       "section": "C",
       "sectionTitle": "Each question carry 3 marks (Attempt any 5 questions)",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "A die is rolled 100 times and the outcomes are noted and tabulated as shown [table: outcome 1, 2, 3, 4, 5, 6; frequency 9, 15, 19, 21, 24, 12] When a die is rolled at random, find the probability of getting the number 4",
       "hasFigure": true,
       "extractionIssues": [
         "Table on page 4 rendered inline in square brackets (outcome/frequency rows read from the page image)",
-        "The section's 3 marks cover the three parts; the split is not printed; 1 mark assigned to each",
         "Shared stem repeated in each part"
       ],
       "confidence": "MEDIUM",
       "chapter": "probability",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "SECTION-C: 'Each question carry 3 marks' — 3 for Q.XII as a whole (3 parts)"
     },
     {
       "number": "XII",
@@ -558,19 +579,20 @@
       "page": 4,
       "section": "C",
       "sectionTitle": "Each question carry 3 marks (Attempt any 5 questions)",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "NUMERICAL",
       "text": "A die is rolled 100 times and the outcomes are noted and tabulated as shown [table: outcome 1, 2, 3, 4, 5, 6; frequency 9, 15, 19, 21, 24, 12] When a die is rolled at random, find the probability of getting the number 6",
       "hasFigure": true,
       "extractionIssues": [
         "Table on page 4 rendered inline in square brackets (outcome/frequency rows read from the page image)",
-        "The section's 3 marks cover the three parts; the split is not printed; 1 mark assigned to each",
         "Shared stem repeated in each part"
       ],
       "confidence": "MEDIUM",
       "chapter": "probability",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "SECTION-C: 'Each question carry 3 marks' — 3 for Q.XII as a whole (3 parts)"
     },
     {
       "number": "XIII",

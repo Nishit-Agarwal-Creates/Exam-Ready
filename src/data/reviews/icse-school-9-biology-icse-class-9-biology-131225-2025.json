@@ -48,14 +48,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Germination figure [A]/[B] with labels 1,2 on page 2 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: germination figure printed under Q2(ii), cropped whole with [A], [B] and labels 1-5 (scanned page, labels small but readable).",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-131225-2025#2iii",
@@ -256,14 +266,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Lung/breathing figure on page 3 is needed for (a) and (c).",
-      "notes": "CO2 subscript confirmed on image; 'Despressed' is the paper's own spelling."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "CO2 subscript confirmed on image; 'Despressed' is the paper's own spelling.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 3: lung figure printed under Q4(v), cropped whole; numbers 1-4 are faint but readable on the scan. The page prints CO₂ with a lowered 2 in guideline (1) and part (d); restored.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-131225-2025#5i",
@@ -336,14 +357,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Experimental set-up figure (bottles a-d) on page 3 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: set-up printed under Q5(v), cropped whole; bottle labels (a)-(d) readable.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-131225-2025#6i",
@@ -400,14 +431,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Photographs (snake bite) on page 3 are needed; the text does not say what the situation is.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: two photographs printed under Q6(v), cropped whole (grainy scan).",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-biology-131225-2025#7i",
@@ -560,14 +601,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Waste-disposal system figure (scrubber) on page 4 is needed to name the system.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: diagram printed under Q8(v), cropped whole; labels are small but readable.",
+        "confidence": "MEDIUM"
+      }
     }
   ]
 }

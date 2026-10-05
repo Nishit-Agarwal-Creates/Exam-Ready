@@ -176,14 +176,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The circle figure on page 2 (points A-G, O, T, line XY) is needed to fill the blanks.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "Page 2: circle figure printed beside the blanks of 4 (c); cropped complete (the skewed question line touches the top of the arrow; the upper end label of the line is hidden under that printed line). | p51-fix-D0: Page 2 figure; the old alt said the line touches the circle at T, which gives away the blank 'Point T = ____' (point of contact). Alt now describes only the drawn line and its labels. | p51-fix-D0: Alt-text sweep follow-up: page 2 re-cropped (x 0.53-0.775, y 0.3695-0.607) so the cut-off underline of the 'Point T = ____' blank at the left edge is gone and the label Y and the arrowheads are complete; the line's top arrowhead sits directly under this item's own instruction line, so the bottoms of a few letters of 'figure.' remain at the top edge. Looked at the PNG.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-first-term-mathematics-220922-2023#1SectionBa",

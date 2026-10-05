@@ -11,7 +11,7 @@
   "questions": [
     {
       "key": "isc-2019-xii-chemistry#1ai",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -23,11 +23,21 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Word bank printed once above (a)(i)-(iv) is not in the entry; blanks remain answerable on their own. K₂SO₄ subscripts confirmed on rendered p1."
+      "notes": "Word bank printed once above (a)(i)-(iv) is not in the entry; blanks remain answerable on their own. K₂SO₄ subscripts confirmed on rendered p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 1: Question 1(a) prints the instruction 'Fill in the blanks by choosing the appropriate word/words from those given in the brackets' and the word bank; both added to the item text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-chemistry#1aii",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -39,11 +49,21 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Word bank printed once above (a)(i)-(iv) is not in the entry; blanks remain answerable on their own. ZnCl₂ confirmed on p1."
+      "notes": "Word bank printed once above (a)(i)-(iv) is not in the entry; blanks remain answerable on their own. ZnCl₂ confirmed on p1.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 1: Question 1(a) prints the instruction 'Fill in the blanks by choosing the appropriate word/words from those given in the brackets' and the word bank; both added to the item text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-chemistry#1aiv",
-      "text": "MINOR",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -55,7 +75,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Word bank printed once above (a)(i)-(iv) is not in the entry; blanks remain answerable on their own."
+      "notes": "Word bank printed once above (a)(i)-(iv) is not in the entry; blanks remain answerable on their own.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 1: Question 1(a) prints the instruction 'Fill in the blanks by choosing the appropriate word/words from those given in the brackets' and the word bank; both added to the item text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-chemistry#1bi",
@@ -203,19 +233,29 @@
     },
     {
       "key": "isc-2019-xii-chemistry#2a",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Rate-data table on page 3 is not reproduced and is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: rate-data table (five experiments, [A], [B], initial rate) cropped. The question wording matches page 3; the only missing part was the table, now cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-2019-xii-chemistry#2b",

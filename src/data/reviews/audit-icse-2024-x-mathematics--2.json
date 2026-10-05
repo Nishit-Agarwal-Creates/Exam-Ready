@@ -1,0 +1,43 @@
+{
+  "pack": "icse-2024-x-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, and the marking scheme; recovered figures checked against 5 % grid renders of the source page.",
+  "checks": [
+    {
+      "key": "icse-2024-x-mathematics#1xii",
+      "agree": false,
+      "reason": "Only the group total [15] is printed for the fifteen objective items of Question 1; the stored 1 mark is a split of that total and there is no marksNote quoting it.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2024-x-mathematics#3ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2024-x-mathematics#5i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2024-x-mathematics#6iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2024-x-mathematics#7i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2024-x-mathematics#7iii",
+      "agree": false,
+      "reason": "The crop (x 0.44-0.82) cuts off the left end of the x-axis with its arrowhead and the printed 'x' axis label on p9, and the alt text gives away part of answer (a) by stating that A lies on the y-axis and D on the x-axis.",
+      "round": "p51"
+    }
+  ]
+}

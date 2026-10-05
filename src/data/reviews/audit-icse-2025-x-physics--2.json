@@ -1,0 +1,103 @@
+{
+  "pack": "icse-2025-x-physics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked recovered figures against the original page (page.py grid/crop renders), pdftotext -layout/-raw, and the official answer key/marking scheme where one exists.",
+  "checks": [
+    {
+      "key": "icse-2025-x-physics#1xii",
+      "agree": false,
+      "reason": "Only the group total [15] for Question 1 is printed; the 1 mark per sub-part is a split of that total (should be GROUP_TOTAL with marks 0 and a marksNote).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#1xv",
+      "agree": false,
+      "reason": "Only the group total [15] for Question 1 is printed; the 1 mark per sub-part is a split of that total (should be GROUP_TOTAL with marks 0 and a marksNote).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#2ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#2iii",
+      "agree": false,
+      "reason": "Figure crop clips the vertical axis label: the left edge and top of \"DISPLACEMENT\" are cut off, so the figure is not complete.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#3v",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#3vii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#4i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#4ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#5ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#6ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#6iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#7iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#8i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#8ii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#8iii",
+      "agree": false,
+      "reason": "Figure crop cuts the bottom of the battery: the \"+\" sign and the lower ends of the cell plates are clipped, so the circuit is not complete.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2025-x-physics#9iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

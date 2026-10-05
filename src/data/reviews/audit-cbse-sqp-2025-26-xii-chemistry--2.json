@@ -1,0 +1,49 @@
+{
+  "pack": "cbse-sqp-2025-26-xii-chemistry",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official SQP and marking scheme PDFs with pdftotext -layout, -raw and -table, plus page renders of the recovered figures.",
+  "checks": [
+    {
+      "key": "cbse-sqp-2025-26-xii-chemistry#2",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-chemistry#12",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-chemistry#18I",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-chemistry#21",
+      "agree": false,
+      "reason": "The published figure 21.png is a greyscale conversion of a page that prints the mechanism in colour (pink C=C bond in step 1, blue lone-pair dots on water), so it is not an unaltered crop and loses the printed highlighting.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-chemistry#30",
+      "agree": false,
+      "reason": "The stored official answer adds 'EDTA is an electron donor', which the marking scheme gives only for the visually-challenged variant's part III(b), so it does not match the scheme for this question; the figure is also a greyscale copy of the printed red dashed Fe bonds.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-chemistry#31A",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-sqp-2025-26-xii-chemistry#31B",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

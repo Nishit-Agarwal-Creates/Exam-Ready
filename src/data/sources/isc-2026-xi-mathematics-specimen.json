@@ -520,17 +520,33 @@
         "Assertion is false and Reason is true."
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (cuboid with points A–F, P on the axes) on page 6 not reproduced; needed to locate point F."
-      ],
-      "confidence": "MEDIUM",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(d) or A is false but R is true. ⇒ coordinate of the point F is (2, 0, 5). [∵ F lies on ZX plane] ∴ The image of the point F in YZ plane is (−2,0,5). Hence Assertion (A): is false. Reason is true.",
         "correctOption": 3
       },
       "cognitiveLevel": "Understanding",
       "chapter": "introduction-to-three-dimensional-geometry",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xi-mathematics-specimen/1xvii.png",
+          "kind": "FIGURE",
+          "alt": "Cuboid drawn on X, Y and Z axes with vertices labelled A, B, C, D, E, F and P",
+          "width": 532,
+          "height": 337,
+          "page": 6,
+          "crop": {
+            "x": 0.35,
+            "y": 0.1,
+            "w": 0.29,
+            "h": 0.142
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -979,16 +995,33 @@
       "text": "The curve G has equation y = 1 − x³ − 6x² − 9x and part of the graph of G is shown below:\n(a) Find the derivative of y with respect to x.\n(b) If the tangents drawn to the curve at the points B and C are parallel to x-axis, then find the coordinates of B and C respectively.",
       "hasFigure": true,
       "extractionIssues": [
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page.",
-        "Graph of G (points A, B, C) on page 9 not reproduced."
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. Checked against the rendered page."
       ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(a) dy/dx = −3x² − 12x − 9. (b) dy/dx = 0 ⇒ x² + 4x + 3 = 0 ⇒ (x + 3)(x + 1) = 0 ⇒ x = −3, −1. When x = −3, y = 1; when x = −1, y = 5. Hence, coordinates of B(−3,1), C(−1,5)."
       },
       "cognitiveLevel": "Analysis",
       "chapter": "limits-and-derivatives",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xi-mathematics-specimen/14i.png",
+          "kind": "GRAPH",
+          "alt": "Part of the graph of curve G on x and y axes with three marked points labelled A, B and C",
+          "width": 331,
+          "height": 297,
+          "page": 9,
+          "crop": {
+            "x": 0.42,
+            "y": 0.12,
+            "w": 0.18,
+            "h": 0.125
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "14",
@@ -1097,16 +1130,33 @@
       "text": "A satellite moves in an Elliptical orbit around the earth as shown in the figure below. It moves so that the sum of its distances from the points f2 (-2,0) and f1 (2,0) is 8 units.\nBased on the above information, find the following:\n(a) The length of its semi-major axis of the elliptical orbit. [1]\n(b) Eccentricity of the elliptical orbit. [1]\n(c) Equation of the elliptical orbit. [2]\n(d) Distance between f1 and P(Perigee). [1]",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure (satellite orbit with apogee, perigee, foci) on page 10 not reproduced.",
         "Official answer notation (fractions/powers) rebuilt from the answer-key page render; working trimmed to value points."
       ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "2a = 8. (a) Length of semi-major axis a is 4 units. ae = 2 (b) ⇒ e = 2/4 = 1/2. Using b² = a²(1 − e²), b² = 12. (c) Required equation of elliptical orbit is x²/16 + y²/12 = 1. (d) f₁P = a − ae = 4 − 2 = 2 units."
       },
       "cognitiveLevel": "Evaluate",
       "chapter": "conic-sections",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xi-mathematics-specimen/16ii.png",
+          "kind": "FIGURE",
+          "alt": "Diagram 'Satellite in an Elliptical Orbit Around the Earth': ellipse with points A (Apogee), P (Perigee), C, f1, f2, m1, m2, lengths a and b, dashed line L1 L2, the Earth, a satellite and angle θ",
+          "width": 1028,
+          "height": 451,
+          "page": 10,
+          "crop": {
+            "x": 0.24,
+            "y": 0.135,
+            "w": 0.56,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "17",

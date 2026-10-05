@@ -208,14 +208,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure of charged conductors A and B on page 1 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 1: figure printed under Q3(iii); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-physics-2018#3iv",
@@ -480,14 +490,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit diagram on page 3 (parts A-D) is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: hand-drawn circuit (labels A-D) printed under Q7(ii); cropped.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-physics-2018#7iii",
@@ -544,14 +564,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Bar magnet diagram on page 3 is needed; magnetism has no chapter in the list.",
-      "notes": ""
+      "reason": "Still held: chapter UNCERTAIN",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 3: bar magnet and direction arrow printed in Q8(iii); cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-physics-icse-class-8-physics-2018#8iv",

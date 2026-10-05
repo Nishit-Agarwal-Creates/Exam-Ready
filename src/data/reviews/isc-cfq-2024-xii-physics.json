@@ -46,16 +46,26 @@
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
-      "options": "MISSING",
+      "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Options (b)-(d) are waveform figures on page 5, not reproduced; Circuit figure on page 5 is needed",
-      "notes": "Key page 43: (b) (a waveform)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key page 43: (b) (a waveform).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: circuit diagram and option waveforms (b)-(d) cropped from the page.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#4",
@@ -63,15 +73,26 @@
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "MATCH",
-      "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "notation": "REBUILT_OK",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graphs (1)-(3) on page 5 are needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-E1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 5 (zoomed): the question prints V with a subscript S ('V_S'); restored as V_{S}.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#5",
@@ -80,14 +101,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Arrangements A and B (series/parallel) are shown only in the figure on page 6",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 6: arrangements A (series) and B (parallel) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#6",
@@ -272,14 +303,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Current-time graph on page 10 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 10: current-time graph cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#18",
@@ -288,14 +329,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Wire cross-section figure on page 11 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 11: wire cross-section figure cropped; option table already rebuilt as text and matches the page.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#19",
@@ -304,14 +355,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit figure on page 12 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 12: circuit with B1, B2, B3 and two 2 ohm resistors cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#20",
@@ -336,14 +397,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph on page 14 (initial stopping potential) is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 14: photocurrent vs collector potential graph cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#22",
@@ -352,14 +423,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Equipotential diagram on page 15 is needed to judge the Assertion",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 15: equipotential-surface diagram with points A-E cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#23",
@@ -416,14 +497,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "q-V graph (lines A, B) on page 17 is needed to answer",
-      "notes": "Key prints 'Slope = qV = C' (pack writes q/V)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key prints 'Slope = qV = C' (pack writes q/V).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 17: q-V graph with lines A and B cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#27",
@@ -432,14 +523,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Field-line figure on page 17 is needed to identify material X",
-      "notes": "Resistivity-temperature graph in the key (page 48) is not stored"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Resistivity-temperature graph in the key (page 48) is not stored",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 17: field-line pattern around the sphere cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#28",
@@ -448,14 +549,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Charge/vector diagram on page 18 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 18: charge arrangement with point P and vectors A-E cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#29",
@@ -464,14 +575,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The graph axes (1/I versus R) exist only in the figure on page 18",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 18: 1/I versus R graph cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#30",
@@ -480,14 +601,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The setup to redraw is only in the figure on page 19",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 19: wire setup (XY above PQ, currents i1, i2, height h) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#31",
@@ -576,14 +707,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Object/image figure on page 20 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 20: object/image triangles cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#37",
@@ -592,14 +733,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Wavefront figure on page 20 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 20: wavefront diagram with hidden device cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#38",
@@ -608,14 +759,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Potential barrier figure on page 20 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 20: potential barrier diagram (V0) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#39",
@@ -736,14 +897,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 22 defines x, y and current directions",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 22: crossed wires with I1, I2, x, y and P cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#47",
@@ -752,14 +923,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Slab ray diagram on page 22 (10 cm, 30°, 5.7 cm) holds the data",
-      "notes": "Table is an image on page 22; pack text matches the render."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Table is an image on page 22; pack text matches the render.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 22: refractive-index table and slab ray diagram (10 cm, 30 degrees, 5.7 cm) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#48",
@@ -784,14 +965,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Fig 1 and Fig 2 on page 23 are needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 23: lens f, Fig 1 and Fig 2 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#50",
@@ -816,14 +1007,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram 2 (bent magnet) on page 24 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 24: Diagram 1 (straight magnet, l) and Diagram 2 (semicircle, r) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#52",
@@ -832,14 +1033,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figures 1 and 2 on page 24 are needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 24: Figures 1 and 2 (field lines around a specimen) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#53",
@@ -864,14 +1075,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The question stem is only the |m|-|v| graph on page 25",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 25: |m|-|v| graph (20, 40, 1) cropped; it is the whole stimulus of the question.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#55",
@@ -880,14 +1101,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Prism angles are only in the figures on page 25",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 25: two prism ray diagrams (53, 35, 42; 45, 45) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#56",
@@ -896,14 +1127,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Pattern marking X and Y on page 25 is needed to answer; Key looks wrong: it calls X the '2nd order maxima' at −5λ/2 and Y the '3rd minima' at 3λ, contradicting the figure (X on the 2nd maximum, Y on a minimum) and itself",
-      "notes": ""
+      "reason": "Key looks wrong: it calls X the '2nd order maxima' at −5λ/2 and Y the '3rd minima' at 3λ, contradicting the figure (X on the 2nd maximum, Y on a minimum) and itself",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 25: intensity versus path difference pattern with X and Y cropped. Answer-key doubt left as is. ",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#57",
@@ -912,14 +1153,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Potentiometer circuit on page 26 is needed to spot the errors",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 26: potentiometer circuit cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#58",
@@ -1024,14 +1275,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MISMATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Irms-ω graph on page 28 is needed to answer; Key looks wrong: both curves share ω₀ = 1.0 k rad/s, so both resonate at 159.2 Hz, but the key gives 0.1592 Hz & 159.2 Hz; (a) R₁ (lower peak, larger R) also has the higher, not lower, power factor",
-      "notes": ""
+      "reason": "Key looks wrong: both curves share ω₀ = 1.0 k rad/s, so both resonate at 159.2 Hz, but the key gives 0.1592 Hz & 159.2 Hz; (a) R₁ (lower peak, larger R) also has the higher, not lower, power factor",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 28: Im-ω resonance graph (R1, R2, ω0) cropped; I_rms subscript restored from the page.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#65",
@@ -1040,14 +1302,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figures 1 and 2 on page 29 are needed to answer",
-      "notes": "Answer Key figure for Figure 1 (page 49) is not stored"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Answer Key figure for Figure 1 (page 49) is not stored",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 29: fig-1 and fig-2 cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#66",
@@ -1184,14 +1456,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Wire/loop figure with current directions on page 34 is needed",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 34: wire AB and loop PQRS with current arrows cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#75",
@@ -1200,14 +1482,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "u-v graph with readings on page 34 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 34: u-v graph with P, Q, student 1, student 2 cropped; the source image itself is low resolution but the labels are readable.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#76",
@@ -1216,14 +1508,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Intensity graph marking A, B, C on page 35 is needed",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 35: intensity versus phase difference graph with A, B, C cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#77",
@@ -1232,14 +1534,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Student's ray diagram on page 35 is needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 35: student's ray diagram (O, E, A, B, C, X, Y) cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#78",
@@ -1280,14 +1592,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Circuit values are only in the figure on page 36",
-      "notes": "Key page 53 has sign slips in intermediate lines ((i) and its ×11 form) but the final currents 0.33 A, −0.24 A, 0.09 A satisfy the correct loop equations."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key page 53 has sign slips in intermediate lines ((i) and its ×11 form) but the final currents 0.33 A, −0.24 A, 0.09 A satisfy the correct loop equations.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 36: two-loop circuit with all values cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#81",
@@ -1328,14 +1650,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "PARTIAL",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The binding-energy graph to mark is on page 38",
-      "notes": "Marked graph for (a) & (b) in the key (page 54) is not stored"
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Marked graph for (a) & (b) in the key (page 54) is not stored",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 38: binding energy per nucleon graph cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#84",
@@ -1472,14 +1804,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Patterns A, B, C on page 42 are needed for parts (a) and (b)",
-      "notes": "Key page 57: x = 70.7 × 10⁻⁵ m."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Key page 57: x = 70.7 × 10⁻⁵ m.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 42: patterns A, B, C cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#93",
@@ -1488,14 +1830,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Parts (c) and (d) refer to V₀ and Imax marked only on the I-V figure on page 43",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig9",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 43: I-V characteristic with V0 and Imax cropped; I_max subscript restored from the page.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "isc-cfq-2024-xii-physics#94",

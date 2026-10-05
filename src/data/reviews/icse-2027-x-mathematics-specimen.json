@@ -23,7 +23,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1ii",
@@ -39,7 +49,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Options (a)/(b) spelled out 'Assertion (A)'/'Reason (R)' instead of printed '(A)'/'(R)'; same meaning, terms already defined in the stem, so kept MATCH."
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H2",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL. | p51-fix-H2: Page 3 Q1(ii): options (a) \"(A) is true and (R) is false.\" and (b) \"(A) is false and (R) is true.\" restored exactly as printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1iii",
@@ -55,7 +76,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1iv",
@@ -71,7 +102,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "x2,p2 superscripts flattened in text layer; rebuilt form verified: equal roots gives 64=4p^2, p=4, matches scheme."
+      "notes": "x2,p2 superscripts flattened in text layer; rebuilt form verified: equal roots gives 64=4p^2, p=4, matches scheme.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1v",
@@ -87,7 +128,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1vi",
@@ -103,7 +154,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Verified by division: (x^3+4x^2+x-6)/[(x+2)(x+3)] = x-1, matches scheme."
+      "notes": "Verified by division: (x^3+4x^2+x-6)/[(x+2)(x+3)] = x-1, matches scheme.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1vii",
@@ -119,7 +180,19 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Matrix brackets undecodable in text layer; reconstructed product (-1)(3)+(2)(4)=5 matches scheme [5]."
+      "notes": "Matrix brackets undecodable in text layer; reconstructed product (-1)(3)+(2)(4)=5 matches scheme [5].",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H2",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "TEXT_CORRECTED",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL. | p51-fix-H2: Page 4 Q1(vii) read at 2x: \"Given two matrices A and B, where A= [−1 2] and B= [3 over 4] then product AB is:\", options (a) column −3 over 8, (b) 5, (c) [5], (d) [−3 8]; added explanatory words removed, matrices in the pack's row notation.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1viii",
@@ -135,7 +208,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "2^n superscript flattened; ratio 2^(n+1)/2^n=2 matches scheme."
+      "notes": "2^n superscript flattened; ratio 2^(n+1)/2^n=2 matches scheme.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1ix",
@@ -151,7 +234,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1x",
@@ -167,7 +260,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "km2 superscript flattened; 1:50000 linear gives area scale 1:2.5e9, so 12cm^2 -> 3km^2, matches scheme."
+      "notes": "km2 superscript flattened; 1:50000 linear gives area scale 1:2.5e9, so 12cm^2 -> 3km^2, matches scheme.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1xi",
@@ -183,7 +286,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "OAPB is a square (OA=OB=radius, three right angles given/derived) so OP=3sqrt2; radius and right angle stated in text, diagram not needed. Stacked fraction option (a) rebuilt as 3/sqrt2."
+      "notes": "OAPB is a square (OA=OB=radius, three right angles given/derived) so OP=3sqrt2; radius and right angle stated in text, diagram not needed. Stacked fraction option (a) rebuilt as 3/sqrt2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1xii",
@@ -199,23 +312,45 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "m3/m2 superscripts flattened; base area=pi*r^2 so V=(1/3)(base)(h), h=12, matches scheme."
+      "notes": "m3/m2 superscripts flattened; base area=pi*r^2 so V=(1/3)(base)(h), h=12, matches scheme.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1xiii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "MATCH",
-      "notation": "LOST",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Trig function names in the Assertion/Reason are lost to a PDF font/CMap defect (each multi-letter run collapses to one repeated glyph); the pack infers sec/tan, but cosec/cot would equally make the stated identity true, and the marking scheme only gives the option letter (c), not the identity text, so the exact printed functions can't be confirmed.",
-      "notes": "Answer letter (c) itself matches the marking scheme regardless of which identity is meant."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Answer letter (c) itself matches the marking scheme regardless of which identity is meant.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL. Options (a)/(b) restored as printed: '(A) is true and (R) is false.' / '(A) is false and (R) is true.'",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1xiv",
@@ -231,7 +366,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#1xv",
@@ -247,7 +392,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Stacked-fraction options rebuilt inline; odd numbers 1,3,5,7,9,11 of 12 gives 1/2, matches scheme (c)."
+      "notes": "Stacked-fraction options rebuilt inline; odd numbers 1,3,5,7,9,11 of 12 gives 1/2, matches scheme (c).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "QP p3 and scheme p15: only [15] is printed for Question 1 (15 MCQs); no per-item mark or rule, so GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#2i",
@@ -336,14 +491,26 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
-      "answer": "PARTIAL",
+      "figure": "RECOVERED",
+      "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Graph plotting points A-I and N (page 8) is not reproduced; every part depends on reading coordinates off it.",
-      "notes": "officialAnswer's part (d) image/prime notation is not confirmed from the text layer (pack itself flags this)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "officialAnswer's part (d) image/prime notation is not confirmed from the text layer (pack itself flags this).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ANSWER_COMPLETED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "Scheme p16-17 Q3(iii): (d) printed 'APONMLKJI'; answer copied verbatim (placeholder removed). Graph re-cropped in colour (same box; a small blue mark near the y-axis top is printed in colour).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#4i",
@@ -411,19 +578,30 @@
     },
     {
       "key": "icse-2027-x-mathematics-specimen#5ii",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
-      "notation": "LOST",
+      "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Faint '5' denominators beneath each term of the compound inequality (noted by the pack itself) don't survive in the text layer. As stored, '7x-3<2+2x' algebraically gives 5x<5, but the marking scheme's own steps show '-3x<17' for that part, so the exact printed inequality is not confirmed even though the officialAnswer matches the scheme's final working.",
-      "notes": "officialAnswer (5x<=3; -3x<17 so x>-17/3, solution -17/3<x<=3/5) is an exact transcription of the marking scheme's steps."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "officialAnswer (5x<=3; -3x<17 so x>-17/3, solution -17/3<x<=3/5) is an exact transcription of the marking scheme's steps.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "NOTATION_CORRECTED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Page 10 render: the inequation is printed with stacked fractions −6 + 12x/5 ≤ 7x/5 − 3 < 2/5 + 2x. The stored answer was cut short ('x ≤ ...'); completed from the marking scheme in the same PDF (page 18): x ≤ 3, x > −5⅔, solution {x : −5⅔ < x ≤ 3, x ∈ R}.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#5iii",
@@ -432,14 +610,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Circle diagram with centre O and angle labels x,y,z,v,w (page 10) is not reproduced; needed to determine which triangles/arcs the angles belong to.",
-      "notes": "officialAnswer transcribes the marking scheme's steps exactly (x=y=z=58 deg, v=64 deg, w=116 deg)."
+      "reason": "Figure and stem recovered, but the stored official answer uses reconstructed letters (AB = AC, ∠BCA) that do not match the printed stem (AD = AB, ∠ABC); answer needs checking against the scheme.",
+      "notes": "officialAnswer transcribes the marking scheme's steps exactly (x=y=z=58 deg, v=64 deg, w=116 deg).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 10: figure cropped; the stem prints 'AD = AB' and '∠ABC = 32°' (stored text had AB = AC and ∠BAC).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#6i",
@@ -464,14 +653,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram showing points A, D, G, E, C, F, B and which lines are parallel/collinear (page 10) is not reproduced; the pack's own note says the question can't be answered without it.",
-      "notes": "Numeric results (AF:FC=6:1, EF=5cm, 48:1) are internally consistent with DE=18, EC=3, AD=35 under a plausible D-E-C collinear reading, and match the marking scheme's arithmetic, but the exact configuration can't be confirmed without the figure."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Scheme p19-20 Q6(ii) read from the page image and copied verbatim: (a) 'In ΔADC, FE is parallel to AD', (b) 'ΔADC~ΔFEC, EF/AD = EC/DC', (c) '(AD²−EF²)/EF²'.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#6iii",
@@ -560,14 +760,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of the 12m by 10m rectangle and path of width x (page 12) is not reproduced; can't confirm whether the path runs all around the rectangle (as the marking scheme's equation 12x10-(12-x)(10-x)=57 assumes) or along only some sides.",
-      "notes": "officialAnswer (x=3m) is an exact transcription of the marking scheme's equation and steps."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "officialAnswer (x=3m) is an exact transcription of the marking scheme's equation and steps.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig3",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 12: diagram cropped; shaded strips of width x along the top and right side, consistent with the scheme's 12×10 − (12−x)(10−x) = 57. Removed the bracketed diagram placeholder from the text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2027-x-mathematics-specimen#8iii",

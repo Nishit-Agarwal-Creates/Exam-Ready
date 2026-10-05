@@ -34,40 +34,289 @@
   "questions": [
     {
       "number": "I",
-      "part": null,
       "choiceGroup": null,
       "page": 1,
       "section": null,
       "sectionTitle": "I.Choose the correct answer:-",
-      "marks": 3,
+      "marks": 0,
       "marksSource": "PRINTED",
-      "type": "SHORT_ANSWER",
-      "text": "Choose the correct answer:-\n1.The <LI> tag is used in:- (a) both ordered <OL> and unordered <UL> lists (b) only ordered list (c) only unordered list (d) Neither ordered nor unordered lists.\n2.Choose the odd one (a) Query (b) report (c) forms (d) Spreadsheet\n3. In RDBMS, R stand for (a) Report (b) Relational (c) Run (d) Record\n4. To fill in series of data quickly and easily ,Excel provides the ____feature. (a) MAX (b) QuickCalc (c) Autosum (d) Autofill\n5. which of the following is correct? (a) =MAX(A1-A10) (b) =MAX(A1:A10) (c) =MAX(A1 TO A10) (d) = =MAX(A1..A10)\n6. Some popular RDBMS are :- (a) Microsoft Access (b) Oracle (c) MYSQL (d) All of the above",
+      "marksStatus": "GROUP_TOTAL",
       "hasFigure": false,
-      "extractionIssues": [
-        "Marks printed only for the group; item marks would be fractional, so the group is kept as one entry",
-        "Six multiple-choice items kept together with their options inline"
-      ],
       "confidence": "HIGH",
+      "part": "1",
+      "marksNote": "I. Choose the correct answer: [3] for the group of 6 items",
+      "type": "MCQ",
+      "text": "Choose the correct answer:- The <LI> tag is used in:-",
+      "options": [
+        "both ordered <OL> and unordered <UL> lists",
+        "only ordered list",
+        "only unordered list",
+        "Neither ordered nor unordered lists."
+      ],
+      "extractionIssues": [
+        "Split from printed group I (six MCQs under one [3])"
+      ],
+      "chapter": "html-advanced-features",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "I",
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "I.Choose the correct answer:-",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "part": "2",
+      "marksNote": "I. Choose the correct answer: [3] for the group of 6 items",
+      "type": "MCQ",
+      "text": "Choose the correct answer:- Choose the odd one",
+      "options": [
+        "Query",
+        "report",
+        "forms",
+        "Spreadsheet"
+      ],
+      "extractionIssues": [
+        "Split from printed group I (six MCQs under one [3])"
+      ],
+      "chapter": "database-and-dbms-an-introduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "I",
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "I.Choose the correct answer:-",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "part": "3",
+      "marksNote": "I. Choose the correct answer: [3] for the group of 6 items",
+      "type": "MCQ",
+      "text": "Choose the correct answer:- In RDBMS, R stand for",
+      "options": [
+        "Report",
+        "Relational",
+        "Run",
+        "Record"
+      ],
+      "extractionIssues": [
+        "Split from printed group I (six MCQs under one [3])"
+      ],
+      "chapter": "database-and-dbms-an-introduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "I",
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "I.Choose the correct answer:-",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "part": "4",
+      "marksNote": "I. Choose the correct answer: [3] for the group of 6 items",
+      "type": "MCQ",
+      "text": "Choose the correct answer:- To fill in series of data quickly and easily ,Excel provides the ____feature.",
+      "options": [
+        "MAX",
+        "QuickCalc",
+        "Autosum",
+        "Autofill"
+      ],
+      "extractionIssues": [
+        "Split from printed group I (six MCQs under one [3])"
+      ],
+      "chapter": "spreadsheets-an-introduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "I",
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "I.Choose the correct answer:-",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "part": "5",
+      "marksNote": "I. Choose the correct answer: [3] for the group of 6 items",
+      "type": "MCQ",
+      "text": "Choose the correct answer:- which of the following is correct?",
+      "options": [
+        "=MAX(A1-A10)",
+        "=MAX(A1:A10)",
+        "=MAX(A1 TO A10)",
+        "= =MAX(A1..A10)"
+      ],
+      "extractionIssues": [
+        "Split from printed group I (six MCQs under one [3])"
+      ],
+      "chapter": "spreadsheets-an-introduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "I",
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "I.Choose the correct answer:-",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "part": "6",
+      "marksNote": "I. Choose the correct answer: [3] for the group of 6 items",
+      "type": "MCQ",
+      "text": "Choose the correct answer:- Some popular RDBMS are :-",
+      "options": [
+        "Microsoft Access",
+        "Oracle",
+        "MYSQL",
+        "All of the above"
+      ],
+      "extractionIssues": [
+        "Split from printed group I (six MCQs under one [3])"
+      ],
       "chapter": "database-and-dbms-an-introduction",
       "mappingStatus": "AI_SUGGESTED"
     },
     {
       "number": "II",
-      "part": null,
       "choiceGroup": null,
       "page": 1,
       "section": null,
       "sectionTitle": "II. State True or False",
-      "marks": 3,
+      "marks": 0,
       "marksSource": "PRINTED",
-      "type": "SHORT_ANSWER",
-      "text": "State True or False\n1. Unordered lists are lists that have a bullet preceding each list item.\n2. Data is easier to access and manipulate with DBMS than without it.\n3. Year is not a valid data type of MS Access.\n4. Home tab helps to create reports using Report wizard.\n5. SRC is an attribute for <IMG> tag.\n6. Sorting helps to view only those records that meet a certain criteria.",
+      "marksStatus": "GROUP_TOTAL",
       "hasFigure": false,
-      "extractionIssues": [
-        "Marks printed only for the group; item marks would be fractional, so the group is kept as one entry"
-      ],
       "confidence": "HIGH",
+      "part": "1",
+      "marksNote": "II. State True or False: [3] for the group of 6 items",
+      "type": "SHORT_ANSWER",
+      "text": "State True or False: Unordered lists are lists that have a bullet preceding each list item.",
+      "extractionIssues": [
+        "Split from printed group II (six true/false items under one [3])"
+      ],
+      "chapter": "html-advanced-features",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "II",
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "II. State True or False",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "part": "2",
+      "marksNote": "II. State True or False: [3] for the group of 6 items",
+      "type": "SHORT_ANSWER",
+      "text": "State True or False: Data is easier to access and manipulate with DBMS than without it.",
+      "extractionIssues": [
+        "Split from printed group II (six true/false items under one [3])"
+      ],
+      "chapter": "database-and-dbms-an-introduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "II",
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "II. State True or False",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "part": "3",
+      "marksNote": "II. State True or False: [3] for the group of 6 items",
+      "type": "SHORT_ANSWER",
+      "text": "State True or False: Year is not a valid data type of MS Access.",
+      "extractionIssues": [
+        "Split from printed group II (six true/false items under one [3])"
+      ],
+      "chapter": "database-and-dbms-an-introduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "II",
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "II. State True or False",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "part": "4",
+      "marksNote": "II. State True or False: [3] for the group of 6 items",
+      "type": "SHORT_ANSWER",
+      "text": "State True or False: Home tab helps to create reports using Report wizard.",
+      "extractionIssues": [
+        "Split from printed group II (six true/false items under one [3])"
+      ],
+      "chapter": "database-and-dbms-an-introduction",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "II",
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "II. State True or False",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "part": "5",
+      "marksNote": "II. State True or False: [3] for the group of 6 items",
+      "type": "SHORT_ANSWER",
+      "text": "State True or False: SRC is an attribute for <IMG> tag.",
+      "extractionIssues": [
+        "Split from printed group II (six true/false items under one [3])"
+      ],
+      "chapter": "html-advanced-features",
+      "mappingStatus": "AI_SUGGESTED"
+    },
+    {
+      "number": "II",
+      "choiceGroup": null,
+      "page": 1,
+      "section": null,
+      "sectionTitle": "II. State True or False",
+      "marks": 0,
+      "marksSource": "PRINTED",
+      "marksStatus": "GROUP_TOTAL",
+      "hasFigure": false,
+      "confidence": "HIGH",
+      "part": "6",
+      "marksNote": "II. State True or False: [3] for the group of 6 items",
+      "type": "SHORT_ANSWER",
+      "text": "State True or False: Sorting helps to view only those records that meet a certain criteria.",
+      "extractionIssues": [
+        "Split from printed group II (six true/false items under one [3])"
+      ],
       "chapter": "database-and-dbms-an-introduction",
       "mappingStatus": "AI_SUGGESTED"
     },
@@ -78,7 +327,7 @@
       "page": 1,
       "section": null,
       "sectionTitle": "III. Fill in the blanks",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
       "text": "Fill in the blanks: ____tag is used in HTML code to insert an image.",
@@ -86,7 +335,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "html-advanced-features",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "III. Fill in the blanks: [5] for the group of 5 items"
     },
     {
       "number": "III",
@@ -95,7 +346,7 @@
       "page": 1,
       "section": null,
       "sectionTitle": "III. Fill in the blanks",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
       "text": "Fill in the blanks: A____is an effective way to present the data using an attractive layout.",
@@ -103,7 +354,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "III. Fill in the blanks: [5] for the group of 5 items"
     },
     {
       "number": "III",
@@ -112,7 +365,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "III. Fill in the blanks",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
       "text": "Fill in the blanks: ____is a field or a combination of fields that uniquely identifies a record in a table.",
@@ -120,7 +373,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "III. Fill in the blanks: [5] for the group of 5 items"
     },
     {
       "number": "III",
@@ -129,7 +384,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "III. Fill in the blanks",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
       "text": "Fill in the blanks: A database created in MS Access has____ extension.",
@@ -137,7 +392,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "III. Fill in the blanks: [5] for the group of 5 items"
     },
     {
       "number": "III",
@@ -146,7 +403,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "III. Fill in the blanks",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "FILL_BLANK",
       "text": "Fill in the blanks: A ____is a ready to use formula.",
@@ -154,7 +411,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "spreadsheets-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "III. Fill in the blanks: [5] for the group of 5 items"
     },
     {
       "number": "IV",
@@ -182,7 +441,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "V. Give two example of each of the following",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Give two example of each of the following: Data type",
@@ -190,7 +449,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "V: [2] for the group of 2 items"
     },
     {
       "number": "V",
@@ -199,7 +460,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "V. Give two example of each of the following",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Give two example of each of the following: RDBMS",
@@ -207,7 +468,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "V: [2] for the group of 2 items"
     },
     {
       "number": "VI",
@@ -216,7 +479,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "VI. Define the following",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Define the following: Table",
@@ -224,7 +487,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "VI: [4] for the group of 4 items"
     },
     {
       "number": "VI",
@@ -233,7 +498,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "VI. Define the following",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Define the following: Report",
@@ -241,7 +506,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "VI: [4] for the group of 4 items"
     },
     {
       "number": "VI",
@@ -250,7 +517,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "VI. Define the following",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Define the following: Cell",
@@ -258,7 +525,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "spreadsheets-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "VI: [4] for the group of 4 items"
     },
     {
       "number": "VI",
@@ -267,7 +536,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "VI. Define the following",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Define the following: Field",
@@ -275,7 +544,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "VI: [4] for the group of 4 items"
     },
     {
       "number": "VII",
@@ -320,7 +591,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "IX. Write short answers",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "How are rows labelled?",
@@ -328,7 +599,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "spreadsheets-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "IX: [4] for the group of 4 items"
     },
     {
       "number": "IX",
@@ -337,7 +610,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "IX. Write short answers",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Give examples of Database objects.",
@@ -345,7 +618,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "IX: [4] for the group of 4 items"
     },
     {
       "number": "IX",
@@ -354,7 +629,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "IX. Write short answers",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Expand HREF attribute.",
@@ -362,7 +637,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "html-advanced-features",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "IX: [4] for the group of 4 items"
     },
     {
       "number": "IX",
@@ -371,7 +648,7 @@
       "page": 2,
       "section": null,
       "sectionTitle": "IX. Write short answers",
-      "marks": 1,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "What is a database?",
@@ -379,7 +656,9 @@
       "extractionIssues": [],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "IX: [4] for the group of 4 items"
     },
     {
       "number": "X",
@@ -388,17 +667,19 @@
       "page": 2,
       "section": null,
       "sectionTitle": "X. Answer the following questions (any four)",
-      "marks": 2,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "What is a primary key? What is its significance?",
       "hasFigure": false,
       "extractionIssues": [
-        "Any four of five to be answered; 2 marks each from the group total [8]"
+        "Any four of five to be answered"
       ],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "X: [8] for the group (any four of 5 items)"
     },
     {
       "number": "X",
@@ -407,17 +688,19 @@
       "page": 2,
       "section": null,
       "sectionTitle": "X. Answer the following questions (any four)",
-      "marks": 2,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Write the purpose of <A> tag.",
       "hasFigure": false,
       "extractionIssues": [
-        "Any four of five to be answered; 2 marks each from the group total [8]"
+        "Any four of five to be answered"
       ],
       "confidence": "HIGH",
       "chapter": "html-advanced-features",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "X: [8] for the group (any four of 5 items)"
     },
     {
       "number": "X",
@@ -426,17 +709,19 @@
       "page": 2,
       "section": null,
       "sectionTitle": "X. Answer the following questions (any four)",
-      "marks": 2,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "Name the different types of views in MS Access.",
       "hasFigure": false,
       "extractionIssues": [
-        "Any four of five to be answered; 2 marks each from the group total [8]"
+        "Any four of five to be answered"
       ],
       "confidence": "HIGH",
       "chapter": "database-and-dbms-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "X: [8] for the group (any four of 5 items)"
     },
     {
       "number": "X",
@@ -445,17 +730,19 @@
       "page": 2,
       "section": null,
       "sectionTitle": "X. Answer the following questions (any four)",
-      "marks": 2,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "How is a formula entered in a cell?",
       "hasFigure": false,
       "extractionIssues": [
-        "Any four of five to be answered; 2 marks each from the group total [8]"
+        "Any four of five to be answered"
       ],
       "confidence": "HIGH",
       "chapter": "spreadsheets-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "X: [8] for the group (any four of 5 items)"
     },
     {
       "number": "X",
@@ -464,17 +751,19 @@
       "page": 2,
       "section": null,
       "sectionTitle": "X. Answer the following questions (any four)",
-      "marks": 2,
+      "marks": 0,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
       "text": "What is a Spreadsheet program? Write names of any two of them.",
       "hasFigure": false,
       "extractionIssues": [
-        "Any four of five to be answered; 2 marks each from the group total [8]"
+        "Any four of five to be answered"
       ],
       "confidence": "HIGH",
       "chapter": "spreadsheets-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "X: [8] for the group (any four of 5 items)"
     }
   ]
 }

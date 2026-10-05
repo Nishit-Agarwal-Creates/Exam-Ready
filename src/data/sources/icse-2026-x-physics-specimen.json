@@ -304,17 +304,33 @@
         "current through 5Ω > current through 3Ω"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagram (2 Ω, 3 Ω, 5 Ω resistors) on page 5 not reproduced."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "(c) current through 2Ω = current through 5Ω",
         "correctOption": 2
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding & Recall"
+      "cognitiveLevel": "Understanding & Recall",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/1x.png",
+          "kind": "FIGURE",
+          "alt": "Circuit diagram with a 12V cell and resistors labelled 3 ohm, 2 ohm and 5 ohm; arrows mark current directions",
+          "width": 750,
+          "height": 392,
+          "page": 5,
+          "crop": {
+            "x": 0.25,
+            "y": 0.58,
+            "w": 0.42,
+            "h": 0.155
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -617,7 +633,7 @@
       "marks": 2,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "(a) Name the wave used for echo depth sounding.\n(b) Give one reason why the wave mentioned in (a) is used for the above purpose.",
+      "text": "(a) Name the wave used for echo depth sounding.\n(b) Give one reason why the waves mentioned in (a) is used for the above purpose.",
       "hasFigure": false,
       "extractionIssues": [],
       "confidence": "HIGH",
@@ -635,22 +651,39 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Refer to the diagram given below. A lens is made of two materials of different refractive indices (µ1, µ2) as shown. If the rays are coming from a distant object, then how many images will be seen?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (lens made of two materials of refractive indices µ1, µ2) on page 8 not reproduced.",
-        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "2 images will be seen."
       },
       "chapter": "refraction-through-lens",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/3ia.png",
+          "kind": "FIGURE",
+          "alt": "Biconvex lens with two regions labelled µ1 and µ2, and a horizontal line through it",
+          "width": 554,
+          "height": 480,
+          "page": 8,
+          "crop": {
+            "x": 0.31,
+            "y": 0.31,
+            "w": 0.31,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q3(i): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -659,21 +692,21 @@
       "page": 8,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "A glass lens always forms a virtual, erect, and diminished image of an object kept in front of it. Identify the lens.",
       "hasFigure": false,
-      "extractionIssues": [
-        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "concave lens."
       },
       "chapter": "refraction-through-lens",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q3(i): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -687,16 +720,32 @@
       "type": "NUMERICAL",
       "text": "The image given below displays kilowatt-hour meter readings recorded at two distinct points in time.\nAssuming a continuously running 2000W air conditioner as the sole electrical device in use, calculate the time interval, in hours, between these two meter readings.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Meter-reading image on page 8 not reproduced in the text layer; the meter readings (1567 kWh and 856 kWh) used in the marking scheme are not printed anywhere in the extracted question text."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "Energy spent = 1567 − 856 = 711 kWh\nTime in hours = 711/2 = 355.5 hours"
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/3ii.png",
+          "kind": "FIGURE",
+          "alt": "Two kilowatt-hour meter displays labelled KWH, reading 00856 and 01567",
+          "width": 590,
+          "height": 417,
+          "page": 8,
+          "crop": {
+            "x": 0.29,
+            "y": 0.62,
+            "w": 0.33,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -705,22 +754,39 @@
       "page": 9,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "ABCDE is a regular pentagon with its centre of gravity at O. What will be the most probable position (W, X, Y, Z or O) of the new centre of gravity if a piece of clay is attached at point A?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (regular pentagon ABCDE with marked positions W, X, Y, Z, O) on page 9 not reproduced.",
-        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "X"
       },
       "chapter": "force",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/3iiia.png",
+          "kind": "FIGURE",
+          "alt": "Regular pentagon with vertices A, B, C, D, E, a dashed line PQ, and points labelled W, X, Y, Z and O",
+          "width": 554,
+          "height": 468,
+          "page": 9,
+          "crop": {
+            "x": 0.32,
+            "y": 0.227,
+            "w": 0.31,
+            "h": 0.185
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q3(iii): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -729,22 +795,39 @@
       "page": 9,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "ABCDE is a regular pentagon with its centre of gravity at O. What will be the most probable position (W, X, Y, Z or O) of the new centre of gravity if the pentagon is cut along the line PQ? (Of the remaining part DCBQPE)",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (regular pentagon ABCDE with marked positions W, X, Y, Z, O and cut line PQ) on page 9 not reproduced.",
-        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "Z"
       },
       "chapter": "force",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/3iiib.png",
+          "kind": "FIGURE",
+          "alt": "Regular pentagon with vertices A, B, C, D, E, a dashed line PQ, and points labelled W, X, Y, Z and O",
+          "width": 554,
+          "height": 468,
+          "page": 9,
+          "crop": {
+            "x": 0.32,
+            "y": 0.227,
+            "w": 0.31,
+            "h": 0.185
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q3(iii): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -774,22 +857,39 @@
       "page": 9,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "The diagram given below shows a copper wire wound around a U-shape soft iron bar. An iron pin is brought near the arrangement. First Source P and then Source Q are connected across AB, each operating independently.\nState True or False: Source P as well as Source Q, when connected across AB, can attract the iron pin.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (copper wire wound on a U-shaped soft iron bar with terminals A, B and sources P, Q) on page 9 not reproduced; the exact nature of sources P and Q (revealed by the marking scheme to be AC and DC) is not stated in the extracted question text.",
-        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "True"
       },
       "chapter": "electro-magnetism",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q3(v): [2] for (a) and (b)",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/3vb.png",
+          "kind": "FIGURE",
+          "alt": "Copper wire coiled on a U-shaped soft iron bar with ends A and B and an iron pin nearby; below, circuit symbols labelled Source P and Source Q",
+          "width": 626,
+          "height": 498,
+          "page": 9,
+          "crop": {
+            "x": 0.28,
+            "y": 0.603,
+            "w": 0.35,
+            "h": 0.197
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -798,22 +898,39 @@
       "page": 9,
       "section": "A",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The diagram given below shows a copper wire wound around a U-shape soft iron bar. An iron pin is brought near the arrangement. First Source P and then Source Q are connected across AB, each operating independently.\nJustify your answer to (a) with a suitable reason.",
+      "text": "The diagram given below shows a copper wire wound around a U-shape soft iron bar. An iron pin is brought near the arrangement. First Source P and then Source Q are connected across AB, each operating independently.\n(a) State True or False: Source P as well as Source Q, when connected across AB, can attract the iron pin.\n(b) Justify your answer to (a) with a suitable reason.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (copper wire wound on a U-shaped soft iron bar with terminals A, B and sources P, Q) on page 9 not reproduced.",
-        "The printed [2] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to each."
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Both currents AC & DC produce magnetic field around it."
       },
       "chapter": "electro-magnetism",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/3vb.png",
+          "kind": "FIGURE",
+          "alt": "Copper wire coiled on a U-shaped soft iron bar with ends A and B and an iron pin nearby; below, circuit symbols labelled Source P and Source Q",
+          "width": 626,
+          "height": 498,
+          "page": 9,
+          "crop": {
+            "x": 0.28,
+            "y": 0.603,
+            "w": 0.35,
+            "h": 0.197
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q3(v): [2] for (a) and (b)"
     },
     {
       "number": "3",
@@ -885,14 +1002,13 @@
       "page": 10,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "The diagram below shows a fish in the tank and its image seen on the surface of water.\nName the phenomenon responsible for the formation of this image.",
       "hasFigure": true,
       "extractionIssues": [
-        "Diagram (fish in a tank and its image on the water surface) on page 10 not reproduced.",
-        "The printed [3] mark bracket covers both (a) and (b) of Question 4(i); the split is not printed; 1 mark assigned to (a) and 2 marks to (b) since (b) has two sub-answers."
+        "Diagram (fish in a tank and its image on the water surface) on page 10 not reproduced."
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
@@ -900,7 +1016,9 @@
       },
       "chapter": "refraction-plane-surfaces",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding & Recall"
+      "cognitiveLevel": "Understanding & Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q4(i): [3] for (a) and (b)"
     },
     {
       "number": "4",
@@ -909,22 +1027,39 @@
       "page": 11,
       "section": "B",
       "sectionTitle": null,
-      "marks": 2,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "A double convex lens with refractive index μ1 is placed inside two liquids of refractive indices μ2 and μ3 as shown in the diagrams below. The refractive indices are such that μ2 > μ1 and μ1 > μ3.\nHow would a parallel incident beam of light refract when it comes out of the lens (1) in Figure a. (2) in Figure b.",
+      "text": "A double convex lens with refractive index μ₁ is placed inside two liquids of refractive indices μ₂ and μ₃ as shown in the diagrams below. The refractive indices are such that μ₂ > μ₁ and μ₁ > μ₃.\nHow would a parallel incident beam of light refract when it comes out of the lens in each of the cases shown above?\n(1) in Figure a.\n(2) in Figure b.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagrams (Figure a, Figure b: double convex lens between two liquids of refractive indices μ1, μ2, μ3) on page 11 not reproduced.",
-        "The printed [3] mark bracket covers both (a) and (b) of Question 4(i); the split is not printed; 1 mark assigned to (a) and 2 marks to (b) since (b) has two sub-answers."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "1. Converge\n2. Diverge"
       },
       "chapter": "refraction-through-lens",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application"
+      "cognitiveLevel": "Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/4ib.png",
+          "kind": "FIGURE",
+          "alt": "Figure a: double convex lens inside Liquid 1 (µ3); Figure b: double convex lens inside Liquid 2 (µ2)",
+          "width": 590,
+          "height": 384,
+          "page": 11,
+          "crop": {
+            "x": 0.295,
+            "y": 0.163,
+            "w": 0.33,
+            "h": 0.152
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q4(i): [3] for (a) and (b)"
     },
     {
       "number": "4",
@@ -984,16 +1119,32 @@
       "type": "SHORT_ANSWER",
       "text": "A mixture of red, blue, and green light rays is passed through a convex lens, as illustrated in the diagram below. State whether the ray passes through a single point or through different points on the principal axis after refraction.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (convex lens refracting a mixed red/blue/green beam) on page 11 not reproduced."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "Different points."
       },
       "chapter": "refraction-through-lens",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/4iiia.png",
+          "kind": "FIGURE",
+          "alt": "A ray labelled 'Red + blue + green' drawn towards a vertical line labelled lens, with a horizontal principal axis",
+          "width": 715,
+          "height": 366,
+          "page": 11,
+          "crop": {
+            "x": 0.22,
+            "y": 0.745,
+            "w": 0.4,
+            "h": 0.145
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -1065,21 +1216,21 @@
       "page": 12,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "An object is placed at a distance of 24 cm in front of a convex lens of focal length 8 cm.\nWhat is the nature of the image so formed?",
       "hasFigure": false,
-      "extractionIssues": [
-        "The printed [3] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to (a) and 2 marks to (b), matching the lens-formula working shown for (b)."
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Real, inverted"
       },
       "chapter": "refraction-through-lens",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding & Evaluate"
+      "cognitiveLevel": "Understanding & Evaluate",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q5(i): [3] for (a) and (b)"
     },
     {
       "number": "5",
@@ -1088,21 +1239,21 @@
       "page": 12,
       "section": "B",
       "sectionTitle": null,
-      "marks": 2,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
       "text": "An object is placed at a distance of 24 cm in front of a convex lens of focal length 8 cm.\nCalculate the distance of the image from the lens.",
       "hasFigure": false,
-      "extractionIssues": [
-        "The printed [3] mark bracket covers both (a) and (b) of this item; the split is not printed; 1 mark assigned to (a) and 2 marks to (b)."
-      ],
+      "extractionIssues": [],
       "confidence": "HIGH",
       "officialAnswer": {
-        "text": "1/v − 1/u = 1/f ∴ 1/v − 1/(−24) = 1/8 (identifying 'u' and 'f' with correct sign convention)\n1/v = 3/24 − 1/24 ∴ v = 12 cm"
+        "text": "1/v − 1/u = 1/f ∴ 1/v − 1/(−24) = 1/8\n(identifying ‘U’ and ‘f’ with correct sign convention)\n1/v = (3−1)/24 ∴ v = 12 cm"
       },
       "chapter": "refraction-through-lens",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding & Evaluate"
+      "cognitiveLevel": "Understanding & Evaluate",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q5(i): [3] for (a) and (b)"
     },
     {
       "number": "5",
@@ -1111,21 +1262,39 @@
       "page": 12,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The diagram below shows a cooling curve for a substance X. State the temperature at which the substance condenses.",
+      "text": "The diagram below shows a cooling curve for a substance X:\n(a) State the temperatures at which the substance condenses.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Cooling curve diagram for substance X on page 12 not reproduced; the temperature value in the official answer could not be verified against the graph."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "150°C"
       },
       "chapter": "calorimetry",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/5iia.png",
+          "kind": "GRAPH",
+          "alt": "Cooling curve for substance X: temperature (°C) against time, with values marked on the temperature axis",
+          "width": 777,
+          "height": 429,
+          "page": 12,
+          "crop": {
+            "x": 0.235,
+            "y": 0.445,
+            "w": 0.435,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q5(ii): [3] for (a), (b) and (c)"
     },
     {
       "number": "5",
@@ -1134,21 +1303,39 @@
       "page": 12,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The diagram below shows a cooling curve for a substance X. Mention the temperature range in which the substance is in its liquid state.",
+      "text": "The diagram below shows a cooling curve for a substance X:\n(b) Mention the temperature range in which the substance is in its liquid state.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Cooling curve diagram for substance X on page 12 not reproduced; the temperature range in the official answer could not be verified against the graph."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "150°C to 60°C"
       },
       "chapter": "calorimetry",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/5iib.png",
+          "kind": "GRAPH",
+          "alt": "Cooling curve for substance X: temperature (°C) against time, with values marked on the temperature axis",
+          "width": 777,
+          "height": 429,
+          "page": 12,
+          "crop": {
+            "x": 0.235,
+            "y": 0.445,
+            "w": 0.435,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q5(ii): [3] for (a), (b) and (c)"
     },
     {
       "number": "5",
@@ -1157,21 +1344,39 @@
       "page": 12,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The diagram below shows a cooling curve for a substance X. State True or False: The amount of heat released when a substance is cooled by 10°C in its liquid state is greater than the heat released when it is cooled by the same amount in its solid state.",
+      "text": "The diagram below shows a cooling curve for a substance X:\n(c) State True or False: The amount of heat released when a substance is cooled by 10°C in its liquid state is greater than the heat released when it is cooled by the same amount in its solid state.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Cooling curve diagram for substance X on page 12 not reproduced."
-      ],
-      "confidence": "MEDIUM",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "True."
       },
       "chapter": "calorimetry",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/5iic.png",
+          "kind": "GRAPH",
+          "alt": "Cooling curve for substance X: temperature (°C) against time, with values marked on the temperature axis",
+          "width": 777,
+          "height": 429,
+          "page": 12,
+          "crop": {
+            "x": 0.235,
+            "y": 0.445,
+            "w": 0.435,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q5(ii): [3] for (a), (b) and (c)"
     },
     {
       "number": "5",
@@ -1305,25 +1510,42 @@
       "number": "6",
       "part": "(iii)(a)",
       "choiceGroup": null,
-      "page": 13,
+      "page": 14,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
       "text": "A, B, C and D are four points on a hemispherical cup placed inverted on the ground. Diameter BC = 360 cm and AE = R/3 (R is the radius of the cup). A small spherical mass 500 g at rest at the point A, slides down along the smooth surface of the cup. Assuming that there is no loss of energy, calculate its Potential Energy at A relative to B.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (hemispherical cup with points A, B, C, D, E) on page 13-14 not reproduced; point E and the value of R are only defined via the figure.",
-        "The printed [4] mark bracket covers (a), (b) and (c); the split is not printed; 1 mark assigned to (a), 2 to (b), 1 to (c), matching the number of working steps shown for each."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "PE at A = mgh = 0.5 × 10 × 1.8 = 9 J"
       },
       "chapter": "work-energy-power",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application & Evaluate"
+      "cognitiveLevel": "Application & Evaluate",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/6iiia.png",
+          "kind": "FIGURE",
+          "alt": "Inverted hemispherical cup with points A, B, C, D and E, base BC marked 360 cm and AE marked R/3",
+          "width": 715,
+          "height": 404,
+          "page": 14,
+          "crop": {
+            "x": 0.24,
+            "y": 0.085,
+            "w": 0.4,
+            "h": 0.16
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q6(iii): [4] for (a), (b) and (c)"
     },
     {
       "number": "6",
@@ -1332,22 +1554,39 @@
       "page": 14,
       "section": "B",
       "sectionTitle": null,
-      "marks": 2,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
       "text": "A, B, C and D are four points on a hemispherical cup placed inverted on the ground. Diameter BC = 360 cm and AE = R/3 (R is the radius of the cup). A small spherical mass 500 g at rest at the point A, slides down along the smooth surface of the cup. Assuming that there is no loss of energy, calculate its Speed at the point B (lowest point).",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (hemispherical cup with points A, B, C, D, E) on page 13-14 not reproduced.",
-        "The printed [4] mark bracket covers (a), (b) and (c); the split is not printed; 1 mark assigned to (a), 2 to (b), 1 to (c)."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "Using energy conservation, PE at A = KE at B ⇒ mgh = ½ mv²\nv = √(2gh) = √(2×10×1.8) = 6 m/s"
       },
       "chapter": "work-energy-power",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application & Evaluate"
+      "cognitiveLevel": "Application & Evaluate",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/6iiib.png",
+          "kind": "FIGURE",
+          "alt": "Inverted hemispherical cup with points A, B, C, D and E, base BC marked 360 cm and AE marked R/3",
+          "width": 715,
+          "height": 404,
+          "page": 14,
+          "crop": {
+            "x": 0.24,
+            "y": 0.085,
+            "w": 0.4,
+            "h": 0.16
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q6(iii): [4] for (a), (b) and (c)"
     },
     {
       "number": "6",
@@ -1356,22 +1595,39 @@
       "page": 14,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
       "text": "A, B, C and D are four points on a hemispherical cup placed inverted on the ground. Diameter BC = 360 cm and AE = R/3 (R is the radius of the cup). A small spherical mass 500 g at rest at the point A, slides down along the smooth surface of the cup. Assuming that there is no loss of energy, calculate its Kinetic Energy at D (g = 10 ms⁻²).",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram (hemispherical cup with points A, B, C, D, E) on page 13-14 not reproduced.",
-        "The printed [4] mark bracket covers (a), (b) and (c); the split is not printed; 1 mark assigned to (a), 2 to (b), 1 to (c)."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "Height above B = 2R/3 = 1.2 m\nP.E. at D = mgh = 0.5 × 10 × 1.2 = 6 J\nK.E. at D = TE − PE at D = 9 − 6 = 3 J"
       },
       "chapter": "work-energy-power",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application & Evaluate"
+      "cognitiveLevel": "Application & Evaluate",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/6iiic.png",
+          "kind": "FIGURE",
+          "alt": "Inverted hemispherical cup with points A, B, C, D and E, base BC marked 360 cm and AE marked R/3",
+          "width": 715,
+          "height": 404,
+          "page": 14,
+          "crop": {
+            "x": 0.24,
+            "y": 0.085,
+            "w": 0.4,
+            "h": 0.16
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q6(iii): [4] for (a), (b) and (c)"
     },
     {
       "number": "7",
@@ -1540,24 +1796,42 @@
       "number": "8",
       "part": "(i)(a)",
       "choiceGroup": null,
-      "page": 15,
+      "page": 16,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The circuit depicted in the figure is employed for studying Ohm's Law. Instead of using a standard resistor, a student opts for a glass tube filled with mercury (tube 1), connected to the circuit through two electrodes E1 & E2. He records the readings of the ammeter and voltmeter, thereby calculates the resistance. The student repeats the experiment by substituting tube 1 with tube 2, where the same amount of mercury fills the tube 2. Neglecting internal resistance of the cell, use (> or < or =) to compare the resistance in both cases.",
+      "text": "The circuit depicted in the figure is employed for studying Ohm's Law. Instead of using a standard resistor, a student opts for a glass tube filled with mercury (tube 1), connected to the circuit through two electrodes E1 & E2. He records the readings of the ammeter and voltmeter, thereby calculates the resistance. The student repeats the experiment by substituting tube 1 with tube 2, where the same amount of mercury fills the tube 2.\nNeglecting internal resistance of the cell, use (> or < or =) to compare the following:\n(a) Resistance in both cases.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagram and tube 1 / tube 2 dimensions on page 15-16 not reproduced; the comparison depends on the (unseen) relative length/cross-section of tube 2 versus tube 1."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "Resistance of tube 2 < resistance of tube 1"
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding & Application"
+      "cognitiveLevel": "Understanding & Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/8ia.png",
+          "kind": "FIGURE",
+          "alt": "Circuit with a battery, ammeter A, voltmeter V and tube 1 with electrodes E1 and E2; beside it, tube 2 with electrodes E1 and E2",
+          "width": 750,
+          "height": 341,
+          "page": 15,
+          "crop": {
+            "x": 0.255,
+            "y": 0.765,
+            "w": 0.42,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q8(i): [3] for (a), (b) and (c)"
     },
     {
       "number": "8",
@@ -1566,21 +1840,39 @@
       "page": 16,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The circuit depicted in the figure is employed for studying Ohm's Law, comparing tube 1 and tube 2 (same amount of mercury). Neglecting internal resistance of the cell, use (> or < or =) to compare the voltmeter readings in both cases.",
+      "text": "The circuit depicted in the figure is employed for studying Ohm's Law. Instead of using a standard resistor, a student opts for a glass tube filled with mercury (tube 1), connected to the circuit through two electrodes E1 & E2. He records the readings of the ammeter and voltmeter, thereby calculates the resistance. The student repeats the experiment by substituting tube 1 with tube 2, where the same amount of mercury fills the tube 2.\nNeglecting internal resistance of the cell, use (> or < or =) to compare the following:\n(b) Voltmeter readings in both cases.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagram and tube 1 / tube 2 dimensions on page 15-16 not reproduced."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "The voltmeter reading for tube 1 is the same as the voltmeter reading for tube 2."
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding & Application"
+      "cognitiveLevel": "Understanding & Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/8ib.png",
+          "kind": "FIGURE",
+          "alt": "Circuit with a battery, ammeter A, voltmeter V and tube 1 with electrodes E1 and E2; beside it, tube 2 with electrodes E1 and E2",
+          "width": 750,
+          "height": 341,
+          "page": 15,
+          "crop": {
+            "x": 0.255,
+            "y": 0.765,
+            "w": 0.42,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q8(i): [3] for (a), (b) and (c)"
     },
     {
       "number": "8",
@@ -1589,21 +1881,39 @@
       "page": 16,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The circuit depicted in the figure is employed for studying Ohm's Law, comparing tube 1 and tube 2 (same amount of mercury). Neglecting internal resistance of the cell, use (> or < or =) to compare the specific resistance in both cases.",
+      "text": "The circuit depicted in the figure is employed for studying Ohm's Law. Instead of using a standard resistor, a student opts for a glass tube filled with mercury (tube 1), connected to the circuit through two electrodes E1 & E2. He records the readings of the ammeter and voltmeter, thereby calculates the resistance. The student repeats the experiment by substituting tube 1 with tube 2, where the same amount of mercury fills the tube 2.\nNeglecting internal resistance of the cell, use (> or < or =) to compare the following:\n(c) Specific resistance in both cases.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagram and tube 1 / tube 2 dimensions on page 15-16 not reproduced."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "The specific resistance in both cases is the same."
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding & Application"
+      "cognitiveLevel": "Understanding & Application",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/8ic.png",
+          "kind": "FIGURE",
+          "alt": "Circuit with a battery, ammeter A, voltmeter V and tube 1 with electrodes E1 and E2; beside it, tube 2 with electrodes E1 and E2",
+          "width": 750,
+          "height": 341,
+          "page": 15,
+          "crop": {
+            "x": 0.255,
+            "y": 0.765,
+            "w": 0.42,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q8(i): [3] for (a), (b) and (c)"
     },
     {
       "number": "8",
@@ -1612,21 +1922,39 @@
       "page": 16,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "An appliance with a metal covering, rated at 2 kW, 220 V, is to be connected in a circuit. Given below are four diagrams (P, Q, R & S) depicting different circuit configurations. Identify the safest circuit.",
+      "text": "An appliance with a metal covering, rated at 2 kW, 220 V, is to be connected in a circuit. Given below are four diagrams (P, Q, R & S) depicting different circuit configurations,\n(a) Identify the safest circuit.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Four circuit diagrams (P, Q, R, S) on page 16 not reproduced."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "S"
       },
       "chapter": "household-circuits",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application & Evaluate"
+      "cognitiveLevel": "Application & Evaluate",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/8iia.png",
+          "kind": "FIGURE",
+          "alt": "Four drawings labelled P, Q, R and S, each showing an appliance with a fuse (8A or 10A), its wiring, and a person touching it",
+          "width": 732,
+          "height": 500,
+          "page": 16,
+          "crop": {
+            "x": 0.255,
+            "y": 0.308,
+            "w": 0.41,
+            "h": 0.198
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q8(ii): [3] for (a) and (b)"
     },
     {
       "number": "8",
@@ -1635,22 +1963,39 @@
       "page": 16,
       "section": "B",
       "sectionTitle": null,
-      "marks": 2,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "An appliance with a metal covering, rated at 2 kW, 220 V, is to be connected in a circuit. Write two reasons, supported by mathematical calculations, where applicable, to justify your choice of the safest circuit.",
+      "text": "An appliance with a metal covering, rated at 2 kW, 220 V, is to be connected in a circuit. Given below are four diagrams (P, Q, R & S) depicting different circuit configurations,\n(a) Identify the safest circuit.\n(b) Write two reasons, supported by mathematical calculations, where applicable, to justify your choice.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Four circuit diagrams (P, Q, R, S) on page 16 not reproduced.",
-        "The printed [3] mark bracket covers (a) and (b); the split is not printed; 1 mark assigned to (a) and 2 to (b)."
-      ],
-      "confidence": "MEDIUM",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
-        "text": "The metal body of the appliance is earthed.\nI = P/V = 2000/220 = 9.09 A; a 10 A fuse is appropriate."
+        "text": "metal body of appliance is earthed\nI = PV = 2000/220 =9.09 A 10A fuse is appropriate"
       },
       "chapter": "household-circuits",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Application & Evaluate"
+      "cognitiveLevel": "Application & Evaluate",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/8iib.png",
+          "kind": "FIGURE",
+          "alt": "Four drawings labelled P, Q, R and S, each showing an appliance with a fuse (8A or 10A), its wiring, and a person touching it",
+          "width": 732,
+          "height": 500,
+          "page": 16,
+          "crop": {
+            "x": 0.255,
+            "y": 0.308,
+            "w": 0.41,
+            "h": 0.198
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q8(ii): [3] for (a) and (b)"
     },
     {
       "number": "8",
@@ -1659,21 +2004,21 @@
       "page": 16,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
       "text": "A nichrome wire X with length (l) & cross-sectional area (A) is connected to a 10 V source and another nichrome wire Y with length (2l) & cross-sectional area (A/2), is connected to a 20 V source. Compare the resistances of wires X and Y. [Given that the resistivity of nichrome is (ρ).]",
       "hasFigure": false,
-      "extractionIssues": [
-        "The marking scheme's working uses an embedded math-italic font whose glyphs did not map to correct Unicode in the marking scheme; the derivation (Res X = ρl/A, Res Y = ρ(2l)/(A/2) = 4ρl/A) was reconstructed from letter-run counts and standard resistance formula; only the final ratio is kept as the official answer per the pack rules (no derivation invented). Check against the PDF."
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "Res X : Res Y = 1 : 4"
+        "text": "Rof X = ρl/A  Rof Y = ρ2l/(A/2) = 4 ρl/A  RX : RY = 1: 4"
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Analyse & Evaluate"
+      "cognitiveLevel": "Analyse & Evaluate",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q8(iii): [4] for (a), (b), (c) and (d)"
     },
     {
       "number": "8",
@@ -1682,7 +2027,7 @@
       "page": 16,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
       "text": "A nichrome wire X with length (l) & cross-sectional area (A) is connected to a 10 V source and another nichrome wire Y with length (2l) & cross-sectional area (A/2), is connected to a 20 V source. Compare the electrical power consumed by each wire.",
@@ -1692,11 +2037,13 @@
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "Pₓ : Pᵧ = 1 : 1"
+        "text": "PX : PY = 1 : 1"
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Analyse & Evaluate"
+      "cognitiveLevel": "Analyse & Evaluate",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q8(iii): [4] for (a), (b), (c) and (d)"
     },
     {
       "number": "8",
@@ -1705,7 +2052,7 @@
       "page": 16,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "NUMERICAL",
       "text": "A nichrome wire X with length (l) & cross-sectional area (A) is connected to a 10 V source and another nichrome wire Y with length (2l) & cross-sectional area (A/2), is connected to a 20 V source. Compare the masses of these wires. (Given that the density of nichrome is d.)",
@@ -1715,11 +2062,13 @@
       ],
       "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "mₓ : mᵧ = 1 : 1"
+        "text": "mX : mY = 1 : 1"
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Analyse & Evaluate"
+      "cognitiveLevel": "Analyse & Evaluate",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q8(iii): [4] for (a), (b), (c) and (d)"
     },
     {
       "number": "8",
@@ -1728,7 +2077,7 @@
       "page": 16,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "A nichrome wire X with length (l) & cross-sectional area (A) is connected to a 10 V source and another nichrome wire Y with length (2l) & cross-sectional area (A/2), is connected to a 20 V source. State True or False: Wire X and wire Y both show the same rise in temperature in the same time.",
@@ -1742,16 +2091,18 @@
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Analyse & Evaluate"
+      "cognitiveLevel": "Analyse & Evaluate",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q8(iii): [4] for (a), (b), (c) and (d)"
     },
     {
       "number": "9",
       "part": "(i)(a)",
       "choiceGroup": null,
-      "page": 16,
+      "page": 17,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Three bulbs of powers P1, P2 and P3 (P1<P2<P3) are connected in a certain way that P3 glows brightest. What type of connection exists between these bulbs?",
@@ -1763,16 +2114,18 @@
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q9(i): [3] for (a), (b) and (c)"
     },
     {
       "number": "9",
       "part": "(i)(b)",
       "choiceGroup": null,
-      "page": 16,
+      "page": 17,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Three bulbs of powers P1, P2 and P3 (P1<P2<P3) are connected in a certain way that P3 glows brightest. Compare the voltage across these bulbs. (Use >, < or =)",
@@ -1784,16 +2137,18 @@
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q9(i): [3] for (a), (b) and (c)"
     },
     {
       "number": "9",
       "part": "(i)(c)",
       "choiceGroup": null,
-      "page": 16,
+      "page": 17,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
       "text": "Three bulbs of powers P1, P2 and P3 (P1<P2<P3) are connected in a certain way that P3 glows brightest. Will the circuit still function if one of the bulbs is fused?",
@@ -1805,123 +2160,214 @@
       },
       "chapter": "current-electricity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Recall"
+      "cognitiveLevel": "Recall",
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q9(i): [3] for (a), (b) and (c)"
     },
     {
       "number": "9",
       "part": "(ii)(a)",
       "choiceGroup": null,
-      "page": 16,
+      "page": 17,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The given diagram shows the output of an AC generator. If the speed of the generator coil is doubled, then what is the effect on the physical quantity indicated by 'a'?",
+      "text": "The given diagram shows the output of an AC generator. If the speed of the generator coil is doubled, then:\n(a) what is the effect on the physical quantity indicated by ‘a’?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram of the AC generator output (labelled quantities 'a' and 'b') on page 16 not reproduced; which physical quantities 'a' and 'b' represent is not stated in the extracted question text."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "It will be doubled."
       },
       "chapter": "electro-magnetism",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/9iia.png",
+          "kind": "GRAPH",
+          "alt": "Graph of induced e.m.f. against time(s) from (0,0), showing a wave with two marked lengths labelled a and b",
+          "width": 714,
+          "height": 412,
+          "page": 17,
+          "crop": {
+            "x": 0.255,
+            "y": 0.363,
+            "w": 0.4,
+            "h": 0.163
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q9(ii): [3] for (a), (b) and (c)"
     },
     {
       "number": "9",
       "part": "(ii)(b)",
       "choiceGroup": null,
-      "page": 16,
+      "page": 17,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The given diagram shows the output of an AC generator. If the speed of the generator coil is doubled, then what is the effect on the physical quantity indicated as 'b'?",
+      "text": "The given diagram shows the output of an AC generator. If the speed of the generator coil is doubled, then:\n(b) what is the effect on the physical quantity indicated as ‘b’?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram of the AC generator output (labelled quantities 'a' and 'b') on page 16 not reproduced."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "It will be halved."
       },
       "chapter": "electro-magnetism",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/9iib.png",
+          "kind": "GRAPH",
+          "alt": "Graph of induced e.m.f. against time(s) from (0,0), showing a wave with two marked lengths labelled a and b",
+          "width": 714,
+          "height": 412,
+          "page": 17,
+          "crop": {
+            "x": 0.255,
+            "y": 0.363,
+            "w": 0.4,
+            "h": 0.163
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q9(ii): [3] for (a), (b) and (c)"
     },
     {
       "number": "9",
       "part": "(ii)(c)",
       "choiceGroup": null,
-      "page": 16,
+      "page": 17,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The given diagram shows the output of an AC generator. If the speed of the generator coil is doubled, give reason for your answer in (b).",
+      "text": "The given diagram shows the output of an AC generator. If the speed of the generator coil is doubled, then:\n(b) what is the effect on the physical quantity indicated as ‘b’?\n(c) give reason for your answer in (b).",
       "hasFigure": true,
-      "extractionIssues": [
-        "Diagram of the AC generator output (labelled quantities 'a' and 'b') on page 16 not reproduced."
-      ],
-      "confidence": "MEDIUM",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "If speed is doubled, it means time of a cycle will be halved."
       },
       "chapter": "electro-magnetism",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/9iic.png",
+          "kind": "GRAPH",
+          "alt": "Graph of induced e.m.f. against time(s) from (0,0), showing a wave with two marked lengths labelled a and b",
+          "width": 714,
+          "height": 412,
+          "page": 17,
+          "crop": {
+            "x": 0.255,
+            "y": 0.363,
+            "w": 0.4,
+            "h": 0.163
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q9(ii): [3] for (a), (b) and (c)"
     },
     {
       "number": "9",
       "part": "(iii)(a)",
       "choiceGroup": null,
-      "page": 17,
+      "page": 18,
       "section": "B",
       "sectionTitle": null,
-      "marks": 2,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The graph (Fig. A) illustrates the correlation between the number of protons (x-axis) and the number of neutrons (y-axis) for elements A, B, C, D, and E in the periodic table. These elements are denoted by the letters rather than their conventional symbols.\nIdentify the radioactive radiation emitted when element C decays into element E. Represent this using a nuclear reaction.",
+      "text": "The graph (Fig. A) illustrates the correlation between the number of protons (x-axis) and the number of neutrons (y-axis) for elements A, B, C, D, and E in the periodic table. These elements are denoted by the letters rather than their conventional symbols.\n(a) Identify the radioactive radiation emitted when element C decays into element E. Represent this using a nuclear reaction.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph (Fig. A: protons vs neutrons for elements A-E) on pages 16-17 not reproduced; which specific elements C, D, E and B are was read only from the marking scheme's nuclear equation, not from the graph itself.",
-        "The printed [4] mark bracket covers (a), (b) and (c); the split is not printed; 2 marks assigned to (a) (naming + equation) and 1 mark each to (b) and (c)."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
-        "text": "β (beta particle); ₉₂C²³⁸ → ₉₃E²³⁸ + ₋₁β⁰"
+        "text": "β : ²³⁸₉₂C → ²³⁸₉₃E + ⁰₋₁β"
       },
       "chapter": "radioactivity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/9iiia.png",
+          "kind": "GRAPH",
+          "alt": "Fig. A: graph of number of neutrons (140-150) against number of protons (85-95) with points labelled A, B, C, D and E",
+          "width": 626,
+          "height": 480,
+          "page": 18,
+          "crop": {
+            "x": 0.275,
+            "y": 0.085,
+            "w": 0.35,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q9(iii): [4] for (a), (b) and (c)"
     },
     {
       "number": "9",
       "part": "(iii)(b)",
       "choiceGroup": null,
-      "page": 17,
+      "page": 18,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The graph (Fig. A) illustrates the correlation between the number of protons and the number of neutrons for elements A, B, C, D, and E in the periodic table. What is the special name given to elements D and E?",
+      "text": "The graph (Fig. A) illustrates the correlation between the number of protons (x-axis) and the number of neutrons (y-axis) for elements A, B, C, D, and E in the periodic table. These elements are denoted by the letters rather than their conventional symbols.\n(b) What is the special name given to elements D and E?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph (Fig. A: protons vs neutrons for elements A-E) on pages 16-17 not reproduced."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "isotopes"
       },
       "chapter": "radioactivity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/9iiib.png",
+          "kind": "GRAPH",
+          "alt": "Fig. A: graph of number of neutrons (140-150) against number of protons (85-95) with points labelled A, B, C, D and E",
+          "width": 626,
+          "height": 480,
+          "page": 18,
+          "crop": {
+            "x": 0.275,
+            "y": 0.085,
+            "w": 0.35,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q9(iii): [4] for (a), (b) and (c)"
     },
     {
       "number": "9",
@@ -1930,21 +2376,39 @@
       "page": 18,
       "section": "B",
       "sectionTitle": null,
-      "marks": 1,
+      "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The graph (Fig. A) illustrates the correlation between the number of protons and the number of neutrons for elements A, B, C, D, and E in the periodic table. If element C transforms into element B by emitting a radioactive ray, how will this ray behave in an electric field?",
+      "text": "The graph (Fig. A) illustrates the correlation between the number of protons (x-axis) and the number of neutrons (y-axis) for elements A, B, C, D, and E in the periodic table. These elements are denoted by the letters rather than their conventional symbols.\n(c) If element C transforms into element B by emitting a radioactive ray, how will this ray behave in an electric field?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph (Fig. A: protons vs neutrons for elements A-E) on pages 16-17 not reproduced."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "HIGH",
       "officialAnswer": {
         "text": "It will shift towards the negative plate"
       },
       "chapter": "radioactivity",
       "mappingStatus": "AI_SUGGESTED",
-      "cognitiveLevel": "Understanding"
+      "cognitiveLevel": "Understanding",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-physics-specimen/9iiic.png",
+          "kind": "GRAPH",
+          "alt": "Fig. A: graph of number of neutrons (140-150) against number of protons (85-95) with points labelled A, B, C, D and E",
+          "width": 626,
+          "height": 480,
+          "page": 18,
+          "crop": {
+            "x": 0.275,
+            "y": 0.085,
+            "w": 0.35,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ],
+      "marksStatus": "GROUP_TOTAL",
+      "marksNote": "Q9(iii): [4] for (a), (b) and (c)"
     }
   ]
 }

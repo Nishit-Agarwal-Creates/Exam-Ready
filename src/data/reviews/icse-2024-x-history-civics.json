@@ -48,14 +48,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture on page 2 is needed to choose which Lok Adalat advantage it depicts.",
-      "notes": "Image on page 2 not reproduced."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Image on page 2 not reproduced.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p2 Q1(iii): two-panel cartoon printed above the question; cropped.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-history-civics#1iv",
@@ -519,7 +529,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig7",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "p6: Question 5 stem 'The judiciary is the system of courts ... With reference to the Supreme Court of India, answer the following:' restored before part (iii).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2024-x-history-civics#6i",

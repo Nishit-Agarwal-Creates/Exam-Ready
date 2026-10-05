@@ -385,14 +385,30 @@
       "marks": 3,
       "marksSource": "SECTION_INSTRUCTIONS",
       "type": "SHORT_ANSWER",
-      "text": "Consider the following parallelograms. Find the values of x,y and z.\na)\nb)",
+      "text": "Consider the following parallelograms. Find the values of x,y and z.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 3 not reproduced (two parallelograms a) and b) with the angles x, y, z and the given angles)"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "understanding-shapes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-assessment-1-mathematics-150323-2023/8.png",
+          "kind": "FIGURE",
+          "alt": "Two figures labelled a) and b): a) parallelogram ABCD with angles marked x, y, z and 100°; b) a quadrilateral with its diagonals drawn, a right-angle mark, and angles marked x, y, z and 30",
+          "width": 1400,
+          "height": 341,
+          "page": 3,
+          "crop": {
+            "x": 0.1,
+            "y": 0.155,
+            "w": 0.84,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "9",

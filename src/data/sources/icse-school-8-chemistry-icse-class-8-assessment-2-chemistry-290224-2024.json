@@ -149,12 +149,29 @@
       "text": "Answer the following questions with respect to the given diagram:\n1. What is A?\n2. Name the place where mercuric oxide is placed.\n3. What do you observe in this experiment?\n4. What is the function of blow pipe?\n5. Give chemical reaction taking place.",
       "hasFigure": true,
       "extractionIssues": [
-        "Only a group total is printed; the group is kept as one entry with that total",
-        "Figure on page 2 not reproduced (blowpipe experiment; labels A, BLOWPIPE, MERCURY OXIDE, FLAME, CHARCOAL, AFTERWARDS); item 1 cannot be answered without it"
+        "Only a group total is printed; the group is kept as one entry with that total"
       ],
-      "confidence": "LOW",
-      "chapter": "carbon-and-its-compounds",
-      "mappingStatus": "AI_SUGGESTED"
+      "confidence": "MEDIUM",
+      "chapter": "chemical-reactions",
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-chemistry-icse-class-8-assessment-2-chemistry-290224-2024/VI.png",
+          "kind": "FIGURE",
+          "alt": "Drawing of a person blowing through a blowpipe at a flame directed onto a block held in the hand, with printed labels and an arrow marked AFTERWARDS to an enlarged view of the block with a spot labelled A",
+          "width": 617,
+          "height": 483,
+          "page": 2,
+          "crop": {
+            "x": 0.33,
+            "y": 0.518,
+            "w": 0.345,
+            "h": 0.198
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "VII",

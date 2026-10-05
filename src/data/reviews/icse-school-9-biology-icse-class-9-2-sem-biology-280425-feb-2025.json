@@ -10,89 +10,9 @@
   },
   "questions": [
     {
-      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2A",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "'Name the following' group kept as one entry spans several chapters (nutrition, digestion, cell, skeleton, skin).",
-      "notes": ""
-    },
-    {
-      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2B",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "'Fill in the blanks' group spans several chapters (respiration, diseases, hygiene, pollution).",
-      "notes": ""
-    },
-    {
       "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2C",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q.2 C (stored 0); items 3 and 4 also carry handwritten strike-throughs.",
-      "notes": ""
-    },
-    {
-      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2D",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q.2 D (stored 0); group spans several chapters.",
-      "notes": ""
-    },
-    {
-      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2E",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MISMATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q.2 E (stored 0); group spans several chapters.",
-      "notes": ""
-    },
-    {
-      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#3",
-      "text": "MATCH",
-      "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
@@ -102,8 +22,18 @@
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Group a)-e) kept as one 10-mark entry spans several chapters (skeleton, respiration, nutrition, waste management).",
-      "notes": "Question number not printed on the scan; numbered from the sequence (Q.5, Q.7, Q.8 are printed), unambiguous."
+      "reason": "Match-the-following group spans several chapters (diseases, aids to health, hygiene, pollution) and its two columns cannot be split; items 3-4 have handwritten strike-throughs.",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Q.2 C. 'Match the following.' carries no printed mark; marksStatus NOT_PRINTED.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#4a",
@@ -112,30 +42,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Villus diagram on page 2 is needed (parts 1 and 2).",
-      "notes": "Question number not printed on the scan; numbered from the sequence (Q.5, Q.7, Q.8 are printed), unambiguous."
-    },
-    {
-      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#4b",
-      "text": "MATCH",
-      "numberPage": "MATCH",
-      "marks": "MATCH",
-      "options": "NA",
-      "notation": "OK",
-      "figure": "NONE",
-      "answer": "NONE",
-      "chapter": "UNCERTAIN",
-      "suggestedChapter": null,
-      "duplicate": "",
-      "decision": "HOLD",
-      "reason": "'Give two examples' group spans several chapters (skin, diseases, aids to health, nutrition).",
-      "notes": "Question number not printed on the scan; numbered from the sequence (Q.5, Q.7, Q.8 are printed), unambiguous."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Question number not printed on the scan; numbered from the sequence (Q.5, Q.7, Q.8 are printed), unambiguous.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-F0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 2: diagram with labels 1 and 2 printed under 4 a) 'Study the diagram given below', cropped whole (scan is grainy but outlines and labels are legible). Fix round: alt no longer describes the shape ('finger-like'), which gave away i) 'Name the structure'.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#5a",
@@ -144,14 +69,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Numbered skin diagram on page 3 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-F0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "Page 3: skin-section diagram printed under Q.5 a), cropped whole; labels 1-8 legible (label 9 at the top-left is faint). Fix round: page 3 re-cropped wider (x 0.17-0.92, y 0.348-0.593) so the label 5 beside the right-hand bracket and the faint top-left label are inside; looked at the PNG.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#5b",
@@ -208,14 +144,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Question number not printed on the scan; numbered from the sequence (Q.5, Q.7, Q.8 are printed), unambiguous. Enzyme-arrow layout reproduced in the text."
+      "notes": "Question number not printed on the scan; numbered from the sequence (Q.5, Q.7, Q.8 are printed), unambiguous. Enzyme-arrow layout reproduced in the text.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-F0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "FIGURE_RECROPPED"
+        ],
+        "evidence": "Page 3: the printed blank chart of 6 a) (blanks 1-10 around arrows Renin, Maltase, Pepsin, Amylase, HCl) cropped whole so its layout is shown as printed; extraction confidence raised to MEDIUM. Fix round: page 3 re-cropped tighter (y 0.821-0.9355, x 0.105-0.913) so the mark '5' at the top right and the start of b) 'Why does a person...' are excluded; all blanks 1)-10), arrows and enzyme names kept; looked at the PNG.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#6b",
@@ -392,6 +339,735 @@
       "decision": "PUBLISH",
       "reason": "",
       "notes": ""
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2A1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2A; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Q.2 A) 'Name the following.' prints only the total 5 for items 1-5; split into its printed items.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2A2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2A; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Q.2 A) 'Name the following.' prints only the total 5 for items 1-5; split into its printed items.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2A3",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2A; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Q.2 A) 'Name the following.' prints only the total 5 for items 1-5; split into its printed items.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2A4",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2A; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Q.2 A) 'Name the following.' prints only the total 5 for items 1-5; split into its printed items.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2A5",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2A; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Q.2 A) 'Name the following.' prints only the total 5 for items 1-5; split into its printed items.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2B1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2B; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Q.2 B) 'Fill in the blanks.' prints only the total 5 for items 1-5 (numbers of items 4 and 5 are overwritten by handwriting; taken from the sequence); split into its printed items. Items 4 and 5 fit no single listed chapter with confidence, so they are kept with chapter null.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2B2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2B; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Q.2 B) 'Fill in the blanks.' prints only the total 5 for items 1-5 (numbers of items 4 and 5 are overwritten by handwriting; taken from the sequence); split into its printed items. Items 4 and 5 fit no single listed chapter with confidence, so they are kept with chapter null.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2B3",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2B; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Q.2 B) 'Fill in the blanks.' prints only the total 5 for items 1-5 (numbers of items 4 and 5 are overwritten by handwriting; taken from the sequence); split into its printed items. Items 4 and 5 fit no single listed chapter with confidence, so they are kept with chapter null.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2D1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2D; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 D. 'Define the following.' items 1-5 carry no printed mark at all; split into its printed items (marks NOT_PRINTED).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2D2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2D; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 D. 'Define the following.' items 1-5 carry no printed mark at all; split into its printed items (marks NOT_PRINTED).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2D3",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2D; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 D. 'Define the following.' items 1-5 carry no printed mark at all; split into its printed items (marks NOT_PRINTED).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2D4",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2D; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 D. 'Define the following.' items 1-5 carry no printed mark at all; split into its printed items (marks NOT_PRINTED).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2D5",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2D; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 D. 'Define the following.' items 1-5 carry no printed mark at all; split into its printed items (marks NOT_PRINTED).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2E1",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2E; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 E. 'Differentiate between the following. (ONE POINT)' items 1-5 carry no printed mark at all; split into its printed items (marks NOT_PRINTED).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2E2",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2E; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 E. 'Differentiate between the following. (ONE POINT)' items 1-5 carry no printed mark at all; split into its printed items (marks NOT_PRINTED).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2E3",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2E; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 E. 'Differentiate between the following. (ONE POINT)' items 1-5 carry no printed mark at all; split into its printed items (marks NOT_PRINTED).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2E4",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2E; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 E. 'Differentiate between the following. (ONE POINT)' items 1-5 carry no printed mark at all; split into its printed items (marks NOT_PRINTED).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#2E5",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 2E; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q.2 E. 'Differentiate between the following. (ONE POINT)' items 1-5 carry no printed mark at all; split into its printed items (marks NOT_PRINTED).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#3a",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 3; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: the first Section II question (number not printed) lists a)-e) with only the total 10; split into its printed items. Item b) fits no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#3c",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 3; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: the first Section II question (number not printed) lists a)-e) with only the total 10; split into its printed items. Item b) fits no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#3d",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 3; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: the first Section II question (number not printed) lists a)-e) with only the total 10; split into its printed items. Item b) fits no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#3e",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 3; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: the first Section II question (number not printed) lists a)-e) with only the total 10; split into its printed items. Item b) fits no single listed chapter with confidence (chapter null).",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#4bi",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 4b; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: 4 b) 'Give two examples for each of the following.' prints only the total 5 for i)-v); split into its printed items.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#4bii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 4b; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: 4 b) 'Give two examples for each of the following.' prints only the total 5 for i)-v); split into its printed items.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#4biii",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 4b; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: 4 b) 'Give two examples for each of the following.' prints only the total 5 for i)-v); split into its printed items.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#4biv",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 4b; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: 4 b) 'Give two examples for each of the following.' prints only the total 5 for i)-v); split into its printed items.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-9-biology-icse-class-9-2-sem-biology-280425-feb-2025#4bv",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split from the printed group entry 4b; checked against the page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: 4 b) 'Give two examples for each of the following.' prints only the total 5 for i)-v); split into its printed items.",
+        "confidence": "HIGH"
+      }
     }
   ]
 }

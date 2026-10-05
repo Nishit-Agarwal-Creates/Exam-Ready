@@ -1,0 +1,10 @@
+{
+  "pack": "isc-2026-xi-mathematics-specimen",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF (page renders with grid, pdftotext -layout and -raw) and the answer key printed in the same PDF; recovered figures opened and compared with the source page.",
+  "checks": [
+    { "key": "isc-2026-xi-mathematics-specimen#1xvii", "agree": true, "reason": "", "round": "p51" },
+    { "key": "isc-2026-xi-mathematics-specimen#14i", "agree": true, "reason": "", "round": "p51" },
+    { "key": "isc-2026-xi-mathematics-specimen#16ii", "agree": true, "reason": "", "round": "p51" }
+  ]
+}

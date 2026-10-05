@@ -193,15 +193,32 @@
       "text": "The diagram above shows two right-angled triangles. Find ∠ACD.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 13 not reproduced",
         "Printed item total (5) differs from the sum of the part marks (6)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "60°. M1: 180° - (30° + 90°) OR equivalent; A1: 60°. Allow 2 marks for an answer only"
       },
       "chapter": "a-tale-of-three-intersecting-lines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-mathematics/Maths7PK7.png",
+          "kind": "FIGURE",
+          "alt": "Quadrilateral ABCD with diagonal AC; right-angle marks at B and D; CD = 6 cm; angle at A between AC and AD marked 30°; one angle at C, between CA and CD, marked with an arc; 'Diagram not drawn to scale'",
+          "width": 928,
+          "height": 758,
+          "page": 13,
+          "crop": {
+            "x": 0.08,
+            "y": 0.575,
+            "w": 0.52,
+            "h": 0.3
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths7PK7",
@@ -216,16 +233,33 @@
       "text": "The diagram above shows two right-angled triangles. Describe one additional value needed to determine that the triangles are congruent, ∆ACB ≅ ∆ACD. Explain your answer.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 13 not reproduced",
         "Math italic Unicode letters in the text layer normalised to plain letters",
         "Degree signs in the official answer flattened in extraction ('300 or 600'); rebuilt as 30° or 60°"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "CB = 6cm. ∆ACB ≅ ∆ACD. Using RHS (Right Angle-Hypotenuse-Side) rule. Or: one of the angles in ABC is 30° or 60° because then the triangles are similar (same angles) with a common side (so congruent). Guidance: M1: Use of RHS to prove congruency OR Indication that the triangles share a hypotenuse; A1 ∠ABC = ∠ADC = Right angle; AC = AC (As both the triangles share the same hypotenuse); Therefore, if CB = 6 cm = CD Then ∆ACB ≅ ∆ACD Using RHS (Right Angle-Hypotenuse-Side) rule. Allow alternative congruency conditions with the correct additional value given."
       },
       "chapter": "geometric-twins",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-mathematics/Maths7PK7.png",
+          "kind": "FIGURE",
+          "alt": "Quadrilateral ABCD with diagonal AC; right-angle marks at B and D; CD = 6 cm; angle at A between AC and AD marked 30°; one angle at C, between CA and CD, marked with an arc; 'Diagram not drawn to scale'",
+          "width": 928,
+          "height": 758,
+          "page": 13,
+          "crop": {
+            "x": 0.08,
+            "y": 0.575,
+            "w": 0.52,
+            "h": 0.3
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths7PK7",
@@ -299,16 +333,32 @@
         "145°"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Map figure on page 18 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "C. 135°. Allow 1 mark for the correct answer only",
         "correctOption": 2
       },
       "chapter": "parallel-and-intersecting-lines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-mathematics/Maths7PK3.png",
+          "kind": "FIGURE",
+          "alt": "Road diagram: Nehru Street, 1st Kamraj Street, 100 Feet Road and 2nd Anna Street meeting at a point; angles marked 90°, 30° and 105°; 'Diagram not drawn to scale'",
+          "width": 892,
+          "height": 455,
+          "page": 18,
+          "crop": {
+            "x": 0.08,
+            "y": 0.355,
+            "w": 0.5,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths7RG3",
@@ -345,17 +395,34 @@
       "text": "In the given figure, ∆QPR is a right-angled triangle with angle QPR = 70°. Find the value of y",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 20 not reproduced",
         "Text layer duplicates the triangle name ('∆QPRQPR'); rendered once",
         "Math italic Unicode letters in the text layer normalised to plain letters",
         "Question labels jumbled in the text layer; parts assigned as in the mark scheme ((a) y, (b) x, (c) z)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "20°. 1 mark for the correct answer only"
       },
       "chapter": "a-tale-of-three-intersecting-lines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-mathematics/Maths7RG4.png",
+          "kind": "FIGURE",
+          "alt": "Line TS with R on it; PR perpendicular to TS; line PQ crossing TS; angle at P marked 70°; angles x, y and z marked where PQ crosses TS; 'Diagram not drawn to scale'",
+          "width": 714,
+          "height": 531,
+          "page": 20,
+          "crop": {
+            "x": 0.08,
+            "y": 0.555,
+            "w": 0.4,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths7RG4",
@@ -370,17 +437,34 @@
       "text": "In the given figure, ∆QPR is a right-angled triangle with angle QPR = 70°. Find the value of x",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 20 not reproduced",
         "Text layer duplicates the triangle name ('∆QPRQPR'); rendered once",
         "Math italic Unicode letters in the text layer normalised to plain letters",
         "Question labels jumbled in the text layer; parts assigned as in the mark scheme ((a) y, (b) x, (c) z)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "160. 1 mark for the correct answer only"
       },
       "chapter": "parallel-and-intersecting-lines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-mathematics/Maths7RG4.png",
+          "kind": "FIGURE",
+          "alt": "Line TS with R on it; PR perpendicular to TS; line PQ crossing TS; angle at P marked 70°; angles x, y and z marked where PQ crosses TS; 'Diagram not drawn to scale'",
+          "width": 714,
+          "height": 531,
+          "page": 20,
+          "crop": {
+            "x": 0.08,
+            "y": 0.555,
+            "w": 0.4,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths7RG4",
@@ -395,17 +479,34 @@
       "text": "In the given figure, ∆QPR is a right-angled triangle with angle QPR = 70°. Find the value of z",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 20 not reproduced",
         "Text layer duplicates the triangle name ('∆QPRQPR'); rendered once",
         "Math italic Unicode letters in the text layer normalised to plain letters",
         "Question labels jumbled in the text layer; parts assigned as in the mark scheme ((a) y, (b) x, (c) z)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "20. 1 mark for the correct answer only"
       },
       "chapter": "parallel-and-intersecting-lines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-mathematics/Maths7RG4.png",
+          "kind": "FIGURE",
+          "alt": "Line TS with R on it; PR perpendicular to TS; line PQ crossing TS; angle at P marked 70°; angles x, y and z marked where PQ crosses TS; 'Diagram not drawn to scale'",
+          "width": 714,
+          "height": 531,
+          "page": 20,
+          "crop": {
+            "x": 0.08,
+            "y": 0.555,
+            "w": 0.4,
+            "h": 0.21
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths7PD3",
@@ -440,15 +541,32 @@
       "text": "In the diagram above, find angle x.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 23 not reproduced",
         "Degree sign in the official answer flattened ('1500'); rebuilt as 150° from the guidance"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "150°. M1 100°+46°+64°+x = 360° OR equivalent Eg x = 360° -210°; A1 150°"
       },
       "chapter": "parallel-and-intersecting-lines",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-mathematics/Maths7PS3.png",
+          "kind": "FIGURE",
+          "alt": "Four rays from one point; angles between neighbouring rays marked 46°, 64°, 100° and x; 'Diagram not drawn to scale'",
+          "width": 714,
+          "height": 569,
+          "page": 23,
+          "crop": {
+            "x": 0.08,
+            "y": 0.38,
+            "w": 0.4,
+            "h": 0.225
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths7RG2",
@@ -705,15 +823,31 @@
       "type": "SHORT_ANSWER",
       "text": "On the above number line above, which point represents (- 4) × 3?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Number line figure on page 36 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "D. (-4) × 3 = – 12 ∴ -12 is represented by point D."
       },
       "chapter": "operations-with-integers",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-mathematics/Maths7PS1.png",
+          "kind": "FIGURE",
+          "alt": "Number line with equally spaced ticks; the first tick is labelled -20 and the last 2; the ticks in between are labelled A to J",
+          "width": 1107,
+          "height": 182,
+          "page": 36,
+          "crop": {
+            "x": 0.08,
+            "y": 0.355,
+            "w": 0.62,
+            "h": 0.072
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths7SC4",
@@ -1038,15 +1172,31 @@
       "type": "SHORT_ANSWER",
       "text": "Read the graph and answer the following questions. Which is the favourite colour of most students?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Bar graph 'Favourite colours of a group of students' on page 54 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Red. Allow 1 mark for the correct answer only"
       },
       "chapter": "connecting-the-dots",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-mathematics/Maths7SC6.png",
+          "kind": "GRAPH",
+          "alt": "Bar graph titled 'Favourite colours of a group of students': Number of students (0 to 9) against Colours (green, blue, pink, red, yellow), with each bar's value printed above it",
+          "width": 1205,
+          "height": 594,
+          "page": 54,
+          "crop": {
+            "x": 0.078,
+            "y": 0.467,
+            "w": 0.675,
+            "h": 0.235
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths7SC6",
@@ -1205,15 +1355,31 @@
       "type": "SHORT_ANSWER",
       "text": "Use the bar graph to answer the following questions Which is the most popular pet?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Bar graph (not present in the text layer) on page 61 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Cats. 1 mark for the correct answer only"
       },
       "chapter": "connecting-the-dots",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-mathematics/Maths7PS5.png",
+          "kind": "GRAPH",
+          "alt": "Bar graph titled 'Pets owned by students of class seven': Number of students (0 to 12, gridlines every 2) against Pet animals (Dogs, Cats, Rabbits, Hamsters, Others)",
+          "width": 1098,
+          "height": 555,
+          "page": 61,
+          "crop": {
+            "x": 0.078,
+            "y": 0.113,
+            "w": 0.615,
+            "h": 0.22
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths7PS5",
@@ -1227,15 +1393,31 @@
       "type": "SHORT_ANSWER",
       "text": "Use the bar graph to answer the following questions How many students have dogs as pets?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Bar graph (not present in the text layer) on page 61 not reproduced"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "8. 1 mark for the correct answer only"
       },
       "chapter": "connecting-the-dots",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-itembank-2021-vii-mathematics/Maths7PS5.png",
+          "kind": "GRAPH",
+          "alt": "Bar graph titled 'Pets owned by students of class seven': Number of students (0 to 12, gridlines every 2) against Pet animals (Dogs, Cats, Rabbits, Hamsters, Others)",
+          "width": 1098,
+          "height": 555,
+          "page": 61,
+          "crop": {
+            "x": 0.078,
+            "y": 0.113,
+            "w": 0.615,
+            "h": 0.22
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "Maths7PS5",

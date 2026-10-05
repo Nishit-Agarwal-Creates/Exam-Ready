@@ -23,7 +23,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "I(1) [10] over ten items = 1 each"
+      "notes": "Group total [10] over 10 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1/2: 'Name the following' prints only [10] at the right margin for the 10 items of I(1); no per-item mark or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I1b",
@@ -39,7 +49,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "I(1) [10] over ten items = 1 each"
+      "notes": "Group total [10] over 10 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1/2: 'Name the following' prints only [10] at the right margin for the 10 items of I(1); no per-item mark or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I2a",
@@ -55,7 +75,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "[5] over five items = 1 each"
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1/2: 'Write the chemical formulae' prints only [5] at the right margin for the 5 items of I(2); no per-item mark or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I2b",
@@ -71,7 +101,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1/2: 'Write the chemical formulae' prints only [5] at the right margin for the 5 items of I(2); no per-item mark or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I2c",
@@ -87,7 +127,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1/2: 'Write the chemical formulae' prints only [5] at the right margin for the 5 items of I(2); no per-item mark or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I2d",
@@ -103,7 +153,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1/2: 'Write the chemical formulae' prints only [5] at the right margin for the 5 items of I(2); no per-item mark or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I2e",
@@ -119,7 +179,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1/2: 'Write the chemical formulae' prints only [5] at the right margin for the 5 items of I(2); no per-item mark or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I3i",
@@ -135,7 +205,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Chemical subscripts written flat (e.g. N2, NH3); checked against the scan, unambiguous"
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 1/2: 'Balance the following chemical equations' prints only [5] at the right margin for the 5 items of I(3); no per-item mark or per-item rule. Subscripts printed lowered on page 1; rewritten as Unicode subscripts.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I3ii",
@@ -151,7 +232,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Chemical subscripts written flat (e.g. N2, NH3); checked against the scan, unambiguous"
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 1/2: 'Balance the following chemical equations' prints only [5] at the right margin for the 5 items of I(3); no per-item mark or per-item rule. Subscripts printed lowered on page 1; rewritten as Unicode subscripts.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I3iii",
@@ -167,7 +259,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Chemical subscripts written flat (e.g. N2, NH3); checked against the scan, unambiguous"
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 1/2: 'Balance the following chemical equations' prints only [5] at the right margin for the 5 items of I(3); no per-item mark or per-item rule. Subscripts printed lowered on page 1; rewritten as Unicode subscripts.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I3iv",
@@ -183,7 +286,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Chemical subscripts written flat (e.g. N2, NH3); checked against the scan, unambiguous"
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 1/2: 'Balance the following chemical equations' prints only [5] at the right margin for the 5 items of I(3); no per-item mark or per-item rule. Subscripts printed lowered on page 1; rewritten as Unicode subscripts.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I3v",
@@ -199,7 +313,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Chemical subscripts written flat (e.g. N2, NH3); checked against the scan, unambiguous"
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 1/2: 'Balance the following chemical equations' prints only [5] at the right margin for the 5 items of I(3); no per-item mark or per-item rule. Subscripts printed lowered on page 1; rewritten as Unicode subscripts.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I4i",
@@ -215,7 +340,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Chemical subscripts written flat (e.g. N2, NH3); checked against the scan, unambiguous"
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 1/2: 'Write the chemical name' prints only [5] at the right margin for the 5 items of I(4); no per-item mark or per-item rule. Subscripts printed lowered on page 1; rewritten as Unicode subscripts.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I4ii",
@@ -231,7 +367,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Chemical subscripts written flat (e.g. N2, NH3); checked against the scan, unambiguous"
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 1/2: 'Write the chemical name' prints only [5] at the right margin for the 5 items of I(4); no per-item mark or per-item rule. Subscripts printed lowered on page 1; rewritten as Unicode subscripts.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I4iii",
@@ -247,7 +394,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1/2: 'Write the chemical name' prints only [5] at the right margin for the 5 items of I(4); no per-item mark or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I4iv",
@@ -263,7 +420,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1/2: 'Write the chemical name' prints only [5] at the right margin for the 5 items of I(4); no per-item mark or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I4v",
@@ -279,7 +446,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Chemical subscripts written flat (e.g. N2, NH3); checked against the scan, unambiguous"
+      "notes": "Group total [5] over 5 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "NOTATION_CORRECTED"
+        ],
+        "evidence": "Page 1/2: 'Write the chemical name' prints only [5] at the right margin for the 5 items of I(4); no per-item mark or per-item rule. Subscripts printed lowered on page 1; rewritten as Unicode subscripts.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I5vii",
@@ -295,7 +473,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "'re action' spacing as printed; [8] over eight blanks = 1 each"
+      "notes": "Group total [8] over 8 items; marks stored as GROUP_TOTAL (not split).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1/2: 'Fill in the blanks' prints only [8] at the right margin for the 8 items of I(5); no per-item mark or per-item rule.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#I6",
@@ -347,19 +535,29 @@
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#Vii",
-      "text": "INCOMPLETE",
-      "numberPage": "MATCH",
+      "text": "MATCH",
+      "numberPage": "MISMATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "NONE",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Task asks for the valency of the underlined element/radical, but underlining (P, Cu, O, Ca, HSO4, Fe, CO3, Na on page 4) is not carried in the stored text",
-      "notes": "Printed under the duplicated 'IV.' (stored as V)"
+      "reason": "Paper prints this question as a second 'IV.' (page 3); stored number 'V' is the builder's renumbering and 'IV (i)/(ii)' would collide with the first IV.",
+      "notes": "Underlining carried by the page-4 crop. Printed under the duplicated 'IV.' (stored as V).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: the eight compounds with their underlined parts cropped (y 0.098-0.156); underlines on P, Cu, O3, Ca, HSO4, Fe, CO3, Na are visible in the crop.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-7-chemistry-2018#VIIii",

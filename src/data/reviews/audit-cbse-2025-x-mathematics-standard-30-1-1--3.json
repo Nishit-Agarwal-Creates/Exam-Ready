@@ -1,0 +1,211 @@
+{
+  "pack": "cbse-2025-x-mathematics-standard-30-1-1",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, rendered page images (5 % grid, zoomed crops), and the marking scheme (rendered pages); recovered figures opened and compared with the page.",
+  "checks": [
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#1",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#2",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#3",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#4",
+      "agree": false,
+      "reason": "Stored official answer reads '(B) 300', but the marking scheme prints '(B) 30⁰' (30 degrees); the superscript degree was flattened into a stray digit.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#5",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#6",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#8",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#9",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#10",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#13",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#14",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#15",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#16",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#17",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#18",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#19",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#20",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#21a",
+      "agree": false,
+      "reason": "Stored official answer has '+ (1/2)(1)', but the marking scheme prints 'x(1/2) + y (1) + 1/2 – 1 = 5', and the answer text carries an editorial note about linearising.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#21b",
+      "agree": false,
+      "reason": "Stored official answer '(√3)² = 2' drops the denominator; the marking scheme prints (√3)² over (√3/2)² + (√3/2)², then = 2.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#22",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#23",
+      "agree": false,
+      "reason": "Stored official answer is only 'radius = 5√2 units'; the marking scheme continues with (2a − 11)² + (a − 7 + 9)² = 50, a² − 8a + 15 = 0, (a − 5)(a − 3) = 0, a = 5, 3, so the final answer is missing.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#24a",
+      "agree": false,
+      "reason": "Stored official answer says 'PQ = 2 cm or 4.5 cm', but the marking scheme prints 'PQ = 9/2 cm or 4.5 cm', and the answer carries an editorial note.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#24b",
+      "agree": false,
+      "reason": "Stored official answer has 'QR = QT', which the marking scheme does not print; it prints '∴ QR/QS = QT/PR ⇒ QR/QS = QT/PQ', and the stored text calls itself approximate ('check against the PDF').",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#26a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#27a",
+      "agree": false,
+      "reason": "Stored official answer is a condensed paraphrase that skips the marking scheme's steps (the (sinθ − cosθ)(sin²θ + sinθcosθ + cos²θ) factorisation) and calls itself approximate ('check against the PDF').",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#27b",
+      "agree": false,
+      "reason": "Stored official answer begins 'LHS = sinA/(sinA−cosA) + cosA/(sinA+cosA)', which is not the marking scheme's LHS ((sin A + cos A)/(sin A − cos A) + (sin A − cos A)/(sin A + cos A)); it skips the expansion step and calls itself approximate.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#28",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#29",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#30",
+      "agree": false,
+      "reason": "Stored official answer has '1408 = (8/3) × (22/7) × r³', but the marking scheme prints '1408/21 = 8/3 × 22/7 × r³' (and 1408/21 = (2/3)πr³ + πr²(2r)), so the /21 is dropped.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#32",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#33a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#33b",
+      "agree": false,
+      "reason": "Stored official answer has 'AD/BD = DC/AD ⇒ ΔADB ~ ΔDAC', but the marking scheme prints 'AD/DC = BD/AD', then '∠ADB = ∠ADC ∴ ΔDBA ~ ΔDAC'; the ratio and the similarity step are changed.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#37",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-2025-x-mathematics-standard-30-1-1#38",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

@@ -480,14 +480,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Benzene-ring structures on pages 4-5 are shown as [structure] and are needed to answer",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig8",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "p4 bottom (b. i, ii) and p5 top (iii, iv): the ring structures shown as [structure] in the text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-11-chemistry-isc-class-11-chemistry-2018#18a",

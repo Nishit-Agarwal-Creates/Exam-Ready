@@ -1,0 +1,25 @@
+{
+  "pack": "icse-school-9-physics-icse-class-9-physics-p1-131225-2025",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the page images of the scanned paper (no text layer), rendered with scripts/recovery/page.py grid/crop and zoomed; figure PNGs opened and compared with the page.",
+  "checks": [
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-p1-131225-2025#6iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-p1-131225-2025#7i",
+      "agree": false,
+      "reason": "The figure crop ends at x 0.64 but the printed principal axis runs on to about x 0.654 beyond C on page 3, so the axis is cut off at the right edge and the figure is not complete.",
+      "round": "p51-fix"
+    },
+    {
+      "key": "icse-school-9-physics-icse-class-9-physics-p1-131225-2025#8iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51-fix"
+    }
+  ]
+}

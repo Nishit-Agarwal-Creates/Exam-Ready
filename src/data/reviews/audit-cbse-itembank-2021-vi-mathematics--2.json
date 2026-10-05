@@ -1,0 +1,67 @@
+{
+  "pack": "cbse-itembank-2021-vi-mathematics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the page render (5 % grid) and the marking scheme / answer key; recovered figures compared with the original page.",
+  "checks": [
+    {
+      "key": "cbse-itembank-2021-vi-mathematics#Maths6SB8b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vi-mathematics#Maths6SB3",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vi-mathematics#Maths6AJ2",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vi-mathematics#Maths6AJ7b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vi-mathematics#Maths6AJ7c",
+      "agree": false,
+      "reason": "The paper prints conflicting marks for 1 (c): '(3 marks)' beside the question but 4 in the item's metadata table (whose total of 7 only adds up with 4), and the stored 3 carries no marksNote recording the conflict.",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vi-mathematics#Maths6HK7b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vi-mathematics#Maths6MG5a",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vi-mathematics#Maths6MG5b",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vi-mathematics#Maths6MG5c",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "cbse-itembank-2021-vi-mathematics#Maths6AT5",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

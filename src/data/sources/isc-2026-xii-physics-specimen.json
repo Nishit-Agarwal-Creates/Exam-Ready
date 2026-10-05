@@ -81,17 +81,34 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 1 on page 2 (positions of wires 1, 2, 3 with separations 2r and r) not reproduced; the question cannot be answered without it",
         "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF (current subscripts)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(c) or I₂ = 2I₁ and directed out of the page",
         "correctOption": 2
       },
       "cognitiveLevel": "Analysis",
       "chapter": "moving-charges-and-magnetism",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/1Aii.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1: three parallel wires (Wire 1, Wire 2, Wire 3) in a line, with distances 2r and r marked",
+          "width": 268,
+          "height": 407,
+          "page": 2,
+          "crop": {
+            "x": 0.43,
+            "y": 0.461,
+            "w": 0.15,
+            "h": 0.161
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -165,17 +182,49 @@
         "Only (Q) and (S)"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Circuit diagrams (P), (Q), (R), (S) on pages 3–4 not reproduced; the question cannot be answered without them"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(b) or Only (R)",
         "correctOption": 1
       },
       "cognitiveLevel": "Recall",
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/1Av.png",
+          "kind": "FIGURE",
+          "alt": "Circuits (P), (Q) and (R): each a p-n diode in series with a resistor R between marked potentials",
+          "width": 518,
+          "height": 455,
+          "page": 3,
+          "crop": {
+            "x": 0.23,
+            "y": 0.675,
+            "w": 0.29,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/1Av-2.png",
+          "kind": "FIGURE",
+          "alt": "Circuit (S): a p-n diode and a resistor R between earth and a marked potential",
+          "width": 518,
+          "height": 164,
+          "page": 4,
+          "crop": {
+            "x": 0.23,
+            "y": 0.06,
+            "w": 0.29,
+            "h": 0.065
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -332,17 +381,34 @@
       "text": "Two charged particles having same charge but different masses, are passed through a potential difference V. When V is varied, de-Broglie wavelength (λ) of the particles varies as shown in graphs below. Which graph is for heavier particles and why?",
       "hasFigure": true,
       "extractionIssues": [
-        "Graph on page 5 (λ against 1/√V, lines A and B) not reproduced; the question cannot be answered without it",
         "The wavelength symbol extracts as the Hebrew letter 'ג' in the text layer; given as λ (as rendered)",
         "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "M_B > M_A as slope of line B > slope of line A. S = h/√(2meV) OR Graph B refers to heavier particles."
       },
       "cognitiveLevel": "Analysis",
       "chapter": "dual-nature-of-radiation-and-matter",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/1Bv.png",
+          "kind": "GRAPH",
+          "alt": "Graph of λ against 1/√V with two straight lines through the origin labelled A and B",
+          "width": 572,
+          "height": 379,
+          "page": 5,
+          "crop": {
+            "x": 0.34,
+            "y": 0.13,
+            "w": 0.32,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -399,17 +465,33 @@
       "text": "Find the capacitance of the following combinations between terminals A and B. Area of each plate is A and separation between nearest two plates is ‘d’.\n(a) Figure 2\n(b) Figure 3",
       "hasFigure": true,
       "extractionIssues": [
-        "Figures 2 and 3 on page 5 (plate arrangements) not reproduced; the question cannot be answered without them",
-        "Official answer partly missing in extraction (figure/equation): the key's charge-distribution and equivalent-circuit diagrams on pages 16–17 are not reproduced",
         "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF (ε₀ extracts as '0')"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) When A and B are connected to the positive and negative plates of the battery respectively, the charges will appear on them as: It is clear from the figure that two capacitors form which are in parallel. Thus, C_AB = 2C = 2ε₀A/d\n(b) There are three capacitors in parallel. Thus, C_AB = 3C = 3ε₀A/d"
       },
       "cognitiveLevel": "Analysis",
       "chapter": "electrostatic-potential-potential-energy-and-capacitance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/2i.png",
+          "kind": "FIGURE",
+          "alt": "Figures 2 and 3: two arrangements of parallel plates connected between terminals A and B",
+          "width": 660,
+          "height": 492,
+          "page": 5,
+          "crop": {
+            "x": 0.17,
+            "y": 0.465,
+            "w": 0.37,
+            "h": 0.195
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "2",
@@ -424,17 +506,34 @@
       "text": "The current (I)-voltage (V) graphs for a conductor are given at two different temperatures T₁ and T₂.\n(a) At which temperature T₁ or T₂ is the resistance higher?\n(b) Which temperature T₁ or T₂ is higher?",
       "hasFigure": true,
       "extractionIssues": [
-        "I-V graph on page 5 (lines T₁, T₂ at angles θ₁, θ₂) not reproduced; the question cannot be answered without it",
         "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
         "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) For the I-V graph, the slope of the I-V graph gives the conductance R = V/I = 1/tanθ. Since θ₁ > θ₂, tanθ₁ > tanθ₂. So Resistance at T₁ < Resistance at T₂.\n(b) Since the resistance of a conductor rises with temperature and ‘R’ at T₂ is higher than ‘R’ at T₁, so T₂ > T₁."
       },
       "cognitiveLevel": "Analysis",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/2ii.png",
+          "kind": "GRAPH",
+          "alt": "I-V graph with two straight lines labelled T₁ and T₂ making angles θ₁ and θ₂ with the V axis",
+          "width": 358,
+          "height": 341,
+          "page": 5,
+          "crop": {
+            "x": 0.4,
+            "y": 0.72,
+            "w": 0.2,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -449,16 +548,33 @@
       "text": "Arrangement of an oxygen ion and two hydrogen ions in a water molecule is shown in Figure 4 below.\nCalculate electric dipole moment of water molecule. Express your answer in terms of e (charge on hydrogen ion), l and θ.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 4 on page 6 (O ion with two H⁺ ions at distance l, angle θ between them) not reproduced; the geometry of θ is defined only by the figure",
         "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "P₁ = P₂ = e × l; P = 2p cos α = 2 e × l cos (θ/2)"
       },
       "cognitiveLevel": "Application",
       "chapter": "electric-charges-and-fields",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/3.png",
+          "kind": "FIGURE",
+          "alt": "Figure 4: an ion with two H⁺ ions, each at distance l, with angle θ between the two bonds",
+          "width": 411,
+          "height": 454,
+          "page": 6,
+          "crop": {
+            "x": 0.42,
+            "y": 0.14,
+            "w": 0.23,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -473,17 +589,34 @@
       "text": "Two cells of same emf E, but different internal resistance r₁ and r₂ are connected to an external resistance R as shown in Figure 5 given below. The voltmeter V reads zero. Obtain an expression for R in terms of r₁ and r₂. (Assume that the voltmeter V is of infinite resistance).",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 5 on page 6 (circuit; the voltmeter is across the first cell) not reproduced; needed to know which cell the voltmeter reads",
         "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
         "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "The total emf in the circuit is, E+E = 2E. The total resistance in the circuit is, R+r₁+r₂. The current in the circuit is given by: I = 2E/(R+r₁+r₂). Given V = E - Ir₁ = 0 ∴ Ir₁ = E ∴ 2E/(R + r₁ + r₂) × r₁ = E. R = r₁ − r₂"
       },
       "cognitiveLevel": "Application",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/4i.png",
+          "kind": "FIGURE",
+          "alt": "Figure 5: circuit with two cells E (internal resistances r₁ and r₂), an external resistance R and a voltmeter V",
+          "width": 929,
+          "height": 404,
+          "page": 6,
+          "crop": {
+            "x": 0.22,
+            "y": 0.452,
+            "w": 0.52,
+            "h": 0.16
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -498,16 +631,33 @@
       "text": "Ramesh performed an experiment to determine an unknown resistance R using the circuit shown in Figure 6 below. X is a resistance box and PQ is a 100cm potentiometer wire. He closed the key and inserted X = 1Ω, 2Ω ….. and recorded the null point (l) corresponding to different values of X.\n(a) Identify the principle involved in calculating R.\n(b) Write down a relation required to calculate the resistance R in terms of X and (l).",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 6 on page 6 (metre-bridge circuit with resistance box X, coiled resistor R, galvanometer G, wire PQ) not reproduced; needed for the relation in (b)",
         "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Wheatstone Bridge Principle\n(b) R = X(100−l)/l"
       },
       "cognitiveLevel": "Application",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/4ii.png",
+          "kind": "FIGURE",
+          "alt": "Figure 6: circuit with resistance box X, coiled resistor R, galvanometer G, wire PQ with jockey J at length l, cell and key K",
+          "width": 741,
+          "height": 396,
+          "page": 6,
+          "crop": {
+            "x": 0.3,
+            "y": 0.712,
+            "w": 0.415,
+            "h": 0.157
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -545,16 +695,32 @@
       "type": "SHORT_ANSWER",
       "text": "Two similar convex lenses are made up of two different materials as shown in Figures 7 and 8 below. Find the number of images formed in the following set ups:\n(i) Figure 7\n(ii) Figure 8",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figures 7 and 8 on page 7 (lenses made of two materials, split differently) not reproduced; the question cannot be answered without them"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Two images\n(ii) One image"
       },
       "cognitiveLevel": "Application",
       "chapter": "ray-optics-and-optical-instruments",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/6.png",
+          "kind": "FIGURE",
+          "alt": "Figures 7 and 8: two convex lenses, each made of two materials divided in different ways, with parallel incident rays",
+          "width": 625,
+          "height": 669,
+          "page": 7,
+          "crop": {
+            "x": 0.13,
+            "y": 0.355,
+            "w": 0.35,
+            "h": 0.265
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "7",
@@ -640,17 +806,34 @@
       "text": "Five identical charges Q = 2μC are placed equidistant on a semicircle as shown in Figure 9. Another point charge q = 1μC is kept at the center of the circle of radius 2cm. Calculate the electrostatic force experienced by the charge q.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 9 on page 8 (five charges on a semicircle around q) not reproduced; needed for the geometry",
         "Official answer partly missing in extraction (figure/equation): the key's final expression for the resultant force (page 19) is an image and is not in the text layer",
         "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Force acting on q due to Q₁ and Q₅ are opposite direction, so cancel to each other. Force acting on q due to Q₃ is F₃ = qQ₃/(4πε₀R²). Force acting on q due to Q₂ and Q₄. Resolving in two-component method: (1) Vertical Component: Q₂ Sin θ and Q₄ Sinθ are equal and opposite directions, so they cancel to each other. (2) Horizontal Component: Q₂ Sin θ and Q₄ cos θ are equal and same direction, so they can get added. F₂₄ = F₂q + F₄q = F₂ cos 45° + F₄ cos 45°; F₂₄ = qQ₂/(4πε₀R²) cos 45° + qQ₄/(4πε₀R²) cos 45°. Resultant net force F …"
       },
       "cognitiveLevel": "Application",
       "chapter": "electric-charges-and-fields",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/10i.png",
+          "kind": "FIGURE",
+          "alt": "Figure 9: five charges Q on a semicircle around a charge q at the centre",
+          "width": 625,
+          "height": 518,
+          "page": 8,
+          "crop": {
+            "x": 0.34,
+            "y": 0.3,
+            "w": 0.35,
+            "h": 0.205
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",
@@ -666,17 +849,34 @@
       "hasFigure": true,
       "extractionIssues": [
         "The key's first line reads 'I₃ = I₃ + I₂' as printed (kept verbatim)",
-        "Figure 10 on page 8 (network ABCDEF with 33 V/1 Ω and 24 V/2 Ω cells, 2 Ω, 6 Ω, 8 Ω resistors) not reproduced; the question cannot be answered without it",
         "Notation rebuilt from the PDF layout (subscripts/superscripts/fractions/Greek letters lost or flattened in the text layer); check against the PDF",
         "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "I₃ = I₃ + I₂. Applying KVL to the loop ABCDEFA, 2I₁ + 8(I₁ + I₂) + 1I₁ = 33; 11I₁ + 8I₂ = 33. Applying KVL to the loop BCDEB, 6I₂ + 8(I₁ + I₂) + 2I₂ = 26; 8I₁ + 9I₂ = 24. On solving, we get I₁ = 3A, I₂ = 0 ∴ I₃ = 3A"
       },
       "cognitiveLevel": "Application",
       "chapter": "current-electricity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/10ii.png",
+          "kind": "FIGURE",
+          "alt": "Figure 10: network ABCDEF with a 33 V, 1 Ω cell, a 24 V, 2 Ω cell, resistors 2 Ω, 6 Ω and 8 Ω, and currents I₁, I₂, I₃",
+          "width": 911,
+          "height": 619,
+          "page": 8,
+          "crop": {
+            "x": 0.25,
+            "y": 0.578,
+            "w": 0.51,
+            "h": 0.245
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "11",
@@ -764,16 +964,32 @@
       "type": "SHORT_ANSWER",
       "text": "Study the diagram shown in Figure 12 given below.\nIdentify the following in Figure 12.\n(i) A primary wavefront\n(ii) A secondary wavefront\n(iii) A wave normal",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 12 on page 10 (source S, wavefronts ABCD and A’B’C’D’, wave normals WN) not reproduced; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) ABCD\n(ii) A’B’C’D’\n(iii) SDD’ or SCC’ or SBB’ or SAA’"
       },
       "cognitiveLevel": "Understanding",
       "chapter": "wave-optics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/13.png",
+          "kind": "FIGURE",
+          "alt": "Figure 12: source S with curved and straight lines through labelled points and labelled arrows",
+          "width": 571,
+          "height": 796,
+          "page": 10,
+          "crop": {
+            "x": 0.32,
+            "y": 0.11,
+            "w": 0.32,
+            "h": 0.315
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "14",
@@ -906,16 +1122,33 @@
       "text": "Three students, X, Y and Z performed an experiment for studying the variation of A.C. with frequency in a series LCR circuit and obtained the graphs as shown below. They all used an AC source of the same emf and inductance of the same value.\n(a) Who used minimum resistance?\n(b) In which case will the quality Q factor be maximum?\n(c) What did the students conclude about the nature of impedance at resonant frequency (f₀)?\n(d) An ideal capacitor is connected across 220V, 50Hz, and 220V, 100Hz supplies. Find the ratio of current flowing through it in the two cases.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure 14 on page 12 (resonance curves X, Y, Z about f₀) not reproduced; (a) and (b) cannot be answered without it",
         "Parts carry different printed cognitive tags ((a)–(c) Analysis; (d) Application), so cognitiveLevel is omitted for the combined entry",
         "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Resistance used by X is the least and resistance used by Z is the maximum.\n(b) Q will be maximum for X.\n(c) At resonance impedance is equal to ohmic resistance.\n(d) In a capacitor the current is dependent directly on frequency I₁/I₂ = 1/2"
       },
       "chapter": "alternating-current",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/18ii.png",
+          "kind": "GRAPH",
+          "alt": "Figure 14: three current-frequency curves labelled X, Y and Z about f₀, peak I₀",
+          "width": 661,
+          "height": 386,
+          "page": 12,
+          "crop": {
+            "x": 0.35,
+            "y": 0.125,
+            "w": 0.37,
+            "h": 0.153
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "19",
@@ -930,17 +1163,34 @@
       "text": "(a) Study the graph shown below and answer the questions that follow.\nIndicate which region corresponds to:\n(1) Nuclei prone to fission\n(2) Nuclei prone to fusion\n(3) Most stable nuclei\n(b) In Rutherford’s scattering experiment when an alpha particle (charge = +2e, mass = 4mₚ) approaches a gold nucleus (Z = 79), it is continuously repelled, so it loses its kinetic energy(K) and its potential energy increases. Finally, α-particle comes to rest momentarily when whole of the kinetic energy is change into the potential energy of the charge at that distance from the nucleus. Let this distance be r₀ after which α-particle returns back again due to electrostatic repulsion.\nUsing the above information, derive an expression for r₀.",
       "hasFigure": true,
       "extractionIssues": [
-        "Graph on page 12 (binding energy per nucleon against mass number, Regions A, B, C) not reproduced; part (a) cannot be answered without it",
         "α extracts as a blank in the text layer; restored from the rendered page 13",
         "Parts carry different printed cognitive tags ((a) Recall; (b) Application), so cognitiveLevel is omitted for the combined entry",
         "Official answer notation rebuilt from the rendered answer-key page (symbols such as ε₀, μ₀, λ and subscripts are lost or flattened in the text layer); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) (1) Region C (2) Region A (3) Region B\n(b) At the distance of closest approach r₀ this energy has changed into potential energy U of the α-particle. U = (1/4πϵ₀) × (Ze·2e)/r₀, where Z = 79 is the atomic number of gold nucleus. Thus we have, K = (1/4πϵ₀) × 2(79)e²/r₀; r₀ = (1/4πϵ₀) × 158e²/K"
       },
       "chapter": "nuclei",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/19i.png",
+          "kind": "GRAPH",
+          "alt": "Graph of binding energy per nucleon (MeV) against mass number A with nuclides marked and three boxed regions labelled Region A, Region B and Region C",
+          "width": 715,
+          "height": 713,
+          "page": 12,
+          "crop": {
+            "x": 0.33,
+            "y": 0.51,
+            "w": 0.4,
+            "h": 0.282
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "19",
@@ -980,16 +1230,33 @@
       "text": "(i) A band gap is the distance between the valence band of electrons and the conduction band. Essentially, the band gap represents the minimum energy that is required to excite an electron up to a state in the conduction band where it can participate in conduction. The lower energy level is the valence band, and thus if a gap exists between this level and the higher energy conduction band, energy must be input for electrons to become free.\nAn LED is made of a p-type semiconductor material (which has a higher concentration of \"holes\" or positive charge carriers) and an n-type semiconductor material (which has a higher concentration of electrons or negative charge carriers). This recombination process releases energy in the form of light and heat. The specific wavelength (and therefore the colour) of the emitted light depends on the energy band gap of the semiconductor material used.\nI-V characteristic of LED bulb is given below.\nIdentify the wavelength that has:\n(a) The maximum energy gap\n(b) The minimum energy gap\n(ii) E is the energy of the incident photon and Eg is energy gap, which is produced across the depletion layer. What will happen in the following cases:\n(a) E > Eg\n(b) E = Eg\n(c) E < Eg",
       "hasFigure": true,
       "extractionIssues": [
-        "I-V characteristic graph on page 14 (curves labelled 1, 2, 3) not reproduced; part (i) cannot be answered without it",
         "No per-part marks are printed (only [5] for the whole question), so (i) and (ii) are kept as one entry",
         "Parts carry different printed cognitive tags ((i) Application; (ii) Understanding), so cognitiveLevel is omitted for the combined entry"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) (a) 3 (b) 1\n(ii) (a) Emission of photon with energy (b) Emission of photon with no energy (c) No emission of photon"
       },
       "chapter": "semiconductor-electronics-materials-devices-and-simple-circuits",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2026-xii-physics-specimen/20.png",
+          "kind": "GRAPH",
+          "alt": "I-V graph with three straight lines labelled 1, 2 and 3",
+          "width": 464,
+          "height": 303,
+          "page": 14,
+          "crop": {
+            "x": 0.37,
+            "y": 0.06,
+            "w": 0.26,
+            "h": 0.12
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

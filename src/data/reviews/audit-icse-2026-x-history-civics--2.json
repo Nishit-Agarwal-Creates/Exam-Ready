@@ -1,0 +1,55 @@
+{
+  "pack": "icse-2026-x-history-civics",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF page renders (5% grid) with pdftotext -layout and -raw, the published figure PNGs and the official marking scheme / answer key where one exists.",
+  "checks": [
+    {
+      "key": "icse-2026-x-history-civics#1ii",
+      "agree": false,
+      "reason": "Marks: the paper prints only the group total [16] for Question 1 and no per-item mark, so marks 1 (SECTION_INSTRUCTIONS) is split evenly from the group total with no marksNote quoting it.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-history-civics#1iv",
+      "agree": false,
+      "reason": "Marks: the paper prints only the group total [16] for Question 1 and no per-item mark, so marks 1 (SECTION_INSTRUCTIONS) is split evenly from the group total with no marksNote quoting it.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-history-civics#1xi",
+      "agree": false,
+      "reason": "Marks: the paper prints only the group total [16] for Question 1 and no per-item mark, so marks 1 (SECTION_INSTRUCTIONS) is split evenly from the group total with no marksNote quoting it.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-history-civics#1xv",
+      "agree": false,
+      "reason": "Marks: the paper prints only the group total [16] for Question 1 and no per-item mark, so marks 1 (SECTION_INSTRUCTIONS) is split evenly from the group total with no marksNote quoting it.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-history-civics#2iii",
+      "agree": false,
+      "reason": "Figure is clipped at the top: the crop starts at y=0.29 but on PDF page 8 the Assam tip of the map rises above the frame to about y=0.286, so the top of the map outline and the frame line are cut off (extend the crop up by about 1%).",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-history-civics#6iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-history-civics#9i",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-2026-x-history-civics#9iii",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

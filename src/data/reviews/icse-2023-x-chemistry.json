@@ -464,14 +464,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The two structural formulae on page 6 are needed to name the compounds.",
-      "notes": "Split 3 + 2 of [5] accepted (one mark per compound)."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Split 3 + 2 of [5] accepted (one mark per compound).",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 6: the two structural formulae (1 and 2) printed under 2 (v)(b) cropped whole; only '[5]' is printed for (v) as a whole, so the inferred 2 marks were replaced by marksStatus GROUP_TOTAL.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2023-x-chemistry#3ia",

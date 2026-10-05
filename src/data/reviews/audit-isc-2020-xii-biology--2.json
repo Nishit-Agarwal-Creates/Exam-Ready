@@ -1,0 +1,13 @@
+{
+  "pack": "isc-2020-xii-biology",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the official PDF with pdftotext -layout, -raw and -table, the page images (scripts/recovery/page.py grid/crop) and the marking scheme; recovered figure PNGs opened and compared with the source page.",
+  "checks": [
+    {
+      "key": "isc-2020-xii-biology#3",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

@@ -104,12 +104,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
-        "Graph on page 2 not reproduced; the question cannot be answered without it",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "applications-of-derivatives",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2025-xii-mathematics/1iii.png",
+          "kind": "GRAPH",
+          "alt": "Graph of a function on X and Y axes with marks 0, 1/2, 1 and 2 on the X axis and 1 on the Y axis",
+          "width": 936,
+          "height": 451,
+          "page": 2,
+          "crop": {
+            "x": 0.14,
+            "y": 0.47,
+            "w": 0.53,
+            "h": 0.19
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -631,12 +648,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
-        "Graph on page 6 not reproduced (a cubic with turning points labelled A (a, b) and B (c, d)); the function is given, so the parts are answerable from the text",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
       "confidence": "MEDIUM",
       "chapter": "applications-of-derivatives",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2025-xii-mathematics/9ii.png",
+          "kind": "GRAPH",
+          "alt": "Graph of a cubic curve on X and Y axes with the origin (0, 0) and turning points labelled A (a, b) and B (c, d)",
+          "width": 507,
+          "height": 456,
+          "page": 6,
+          "crop": {
+            "x": 0.25,
+            "y": 0.295,
+            "w": 0.29,
+            "h": 0.192
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",
@@ -750,12 +784,29 @@
       "text": "Observe the two graphs, Graph 1 and Graph 2 given below and answer the questions that follow.\nWhich one of the graphs represents y = sin⁻¹ x ?",
       "hasFigure": true,
       "extractionIssues": [
-        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image",
-        "Graph 1 and Graph 2 on page 7 not reproduced; the question cannot be answered without them"
+        "Text layer is an embedded OCR layer (Adobe Scan) with recognition errors; text corrected against the page image"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "inverse-trigonometric-functions",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2025-xii-mathematics/13i.png",
+          "kind": "GRAPH",
+          "alt": "Two curves through the origin (0,0) on X and Y axes, labelled Graph 1 and Graph 2, each with end points marked",
+          "width": 1230,
+          "height": 439,
+          "page": 7,
+          "crop": {
+            "x": 0.14,
+            "y": 0.34,
+            "w": 0.69,
+            "h": 0.185
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "13",

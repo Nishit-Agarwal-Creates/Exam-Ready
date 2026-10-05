@@ -71,7 +71,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "Consider the reaction and identify B and C\n[Reaction scheme, as extracted: CH3CH2CH2CH2Cl  NaOH +Ethanol.  A / A  H2O, H+  B and A  (i) B2H6. (ii)H2O2, OH  C — reagent-over-arrow layout and step order lost in extraction]",
+      "text": "Consider the reaction and identify B and C\nCH₃CH₂CH₂CH₂Cl —(NaOH + Ethanol)→ A\nA —(H₂O, H⁺)→ B and A —((i) B₂H₆, (ii) H₂O₂, OH⁻)→ C",
       "options": [
         "B=C= Butanol",
         "B= Butanol, C=Butene",
@@ -79,16 +79,32 @@
         "B= Butene, C=Butan-2-ol"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Reaction scheme on page 1 (multi-step conversion of 1-chlorobutane) lost its reagent-over-arrow layout in extraction and reads as a jumbled string; reproduced as extracted, not reconstructed. Question cannot be reliably answered without checking the PDF page image."
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "C / B= Butan-2-ol, C= Butanol",
         "correctOption": 2
       },
       "chapter": "haloalkanes-and-haloarenes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-chemistry/2.png",
+          "kind": "FIGURE",
+          "alt": "Reaction scheme: CH3CH2CH2CH2Cl with NaOH + Ethanol over the arrow gives A; A with H2O, H+ gives B; A with (i) B2H6, (ii) H2O2, OH- gives C",
+          "width": 858,
+          "height": 121,
+          "page": 1,
+          "crop": {
+            "x": 0.185,
+            "y": 0.695,
+            "w": 0.48,
+            "h": 0.048
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -360,16 +376,33 @@
       ],
       "hasFigure": true,
       "extractionIssues": [
-        "The four structures (i)-(iv) referred to by the options are structural formulae (images) on page 4, not present in the text layer; the question cannot be answered without them",
         "The marking-scheme line for this item renders garbled as '1(2a) B. (iv) and (ii) / (b)'; interpreted as question 12's answer letter B by position and content match, with the stray '(a)'/'(b)' treated as an unexplained layout artifact"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "B / (iv) and (ii)",
         "correctOption": 1
       },
       "chapter": "haloalkanes-and-haloarenes",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-chemistry/12.png",
+          "kind": "FIGURE",
+          "alt": "Four structural formulae labelled (i), (ii), (iii) and (iv), each a benzene ring with a chlorine-containing side chain or substituent",
+          "width": 1072,
+          "height": 455,
+          "page": 4,
+          "crop": {
+            "x": 0.2,
+            "y": 0.13,
+            "w": 0.6,
+            "h": 0.18
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "13",
@@ -537,15 +570,32 @@
       "text": "Consider the graph for the reaction\nH2 + I2 ⇌ 2HI\nCalculate enthalpy of reaction and activation energy for the backward reaction.",
       "hasFigure": true,
       "extractionIssues": [
-        "The reaction-energy-profile graph on page 6 (needed to read off enthalpy/activation-energy values) is not present in the text layer; question cannot be answered without it",
         "A 'for visually challenged learners' text-only alternative to this question is printed on the same page and was skipped per instructions"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Ea for backward reaction = 40 kJ/mol, ΔH = 10 kJ/mol."
       },
       "chapter": "chemical-kinetics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-chemistry/18I.png",
+          "kind": "GRAPH",
+          "alt": "Potential energy against reaction coordinate for H2 + I2 to 2HI, with a peak labelled Activated complex; energy axis marked 100 to 140",
+          "width": 643,
+          "height": 379,
+          "page": 6,
+          "crop": {
+            "x": 0.26,
+            "y": 0.13,
+            "w": 0.36,
+            "h": 0.15
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "18",
@@ -665,12 +715,29 @@
       "text": "The mechanism of formation of alcohols from alkenes is given below. Rectify the errors in the mechanism and rewrite the corrected steps",
       "hasFigure": true,
       "extractionIssues": [
-        "The mechanism itself (a set of drawn reaction steps) on page 6 is not present in the text layer at all; question cannot be answered without it",
         "Official answer is entirely a mechanism/structures image in the marking scheme, not present in the text layer"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "alcohols-phenols-and-ethers",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-chemistry/21.png",
+          "kind": "FIGURE",
+          "alt": "Three-step mechanism (STEP 1, STEP 2, STEP 3) drawn with curved arrows for the hydration of an alkene",
+          "width": 750,
+          "height": 392,
+          "page": 6,
+          "crop": {
+            "x": 0.24,
+            "y": 0.75,
+            "w": 0.42,
+            "h": 0.155
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "22",
@@ -989,21 +1056,37 @@
       "type": "CASE_BASED",
       "text": "Iron-EDTA complex in food fortification\nFood fortification is defined as the practice of adding vitamins and minerals to commonly consumed foods during processing to increase their nutritional value. It is a proven, safe and cost-effective strategy for improving diets and for the prevention and control of micronutrient deficiencies. A food product (such as rice, wheat flour, edible oil) that is fortified through the addition of fortificants is called a “vehicle”.\nIn African and south Asian countries 40% of the population suffers from anaemia. Average human needs nearly 10mg of iron daily. Iron fortification may be useful in fighting iron deficiencies in humans. Reduced iron and several iron salts have been used in the past as iron fortification, however, not all are suitable for this purpose, in terms of iron absorption. Recent studies have shown that beverages containing sugar fortified with either Ferrous sulphate or Fe(III)- EDTA complex have high rate of absorption of iron.\nFerrous sulphate as well as Fe(III)- EDTA is suitable to enrich sugar, but while iron from ferrous sulphate is precipitated and poorly absorbed when fortified sugar is added to beverages such as tea, Fe(III)- EDTA reacts slowly with tea and iron is not precipitated for at least 24 hr.\nFe(III)-EDTA as iron fortification, has demonstrated so far, more advantages than that observed from other iron salts, including ferrous sulphate. But, EDTA is a chelating agent and its use in food technology to prevent oxidative damage of food has been restricted. Excessive consumption of EDTA can cause abdominal cramps, nausea, low blood pressure and damage to kidneys. According to National Institute of Health, it is unsafe to consume more than 3 g of EDTA per day or continuously for more than 5 to 7 days.\nThe amount of EDTA necessary for 10 mg of iron fortification, is about 60 mg. This is within the safe limits and is comparable to the usual amount added to the diet.\n(source: Layrisse, M., & MartInez-Torres, C. (1977). Fe (III)-EDTA complex as iron fortification. The American Journal of Clinical Nutrition, 30(7), 1166-1174.)\nBased on the information provided above, answer the following questions:\nI. Why is Fe(III)-EDTA complex stable as compared to Ferrous sulphate?\nOR\nWhat happens when hard water is titrated against Na2EDTA?\nII. You are a doctor, working in Somalia. Will you recommend iron fortified food to your patients? Support your answer with references from the passage.\nIII. What is the denticity of the ligand in the Fe(III) EDTA complex. Name the atom(s) through which it can bind to the central metal ion.\nWrite the structure of EDTA. (Refer to figure 1)",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure 1 (structure of EDTA), referenced in part III, is not present in the text layer; the structure-drawing portion of part III cannot be answered without it"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "I. EDTA is a chelating agent; it forms a ringed complex with the central metal ion and makes the complex stable.\nOR: Hardness of water is estimated by simple titration with Na2EDTA. The Ca2+ and Mg2+ ions form stable complexes with EDTA.\nII. Yes, 40% of the population in Africa suffers from anaemia; most patients in Somalia are likely to be anaemic. Iron-fortified food will increase the nutritional value — in the same amount of food product the patient gets a higher amount of the micronutrient than in the natural product, which will help reduce cases of iron deficiency, though patients should be advised to consume it within recommended safe limits. (Full marks are also given for: No — iron-fortified food should be recommended only to patients whose reports confirm iron deficiency, since excess iron intake can cause other ill effects.)\nIII. Denticity = 6; it binds through 2 nitrogen and 4 oxygen atoms (both are electron donors). EDTA is an electron donor. [Structure of EDTA not present in the text layer — image]"
       },
       "chapter": "coordination-compounds",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-sqp-2025-26-xii-chemistry/30.png",
+          "kind": "FIGURE",
+          "alt": "Figure 1: structure diagram of the Fe(III)-EDTA complex printed beside the passage",
+          "width": 322,
+          "height": 429,
+          "page": 12,
+          "crop": {
+            "x": 0.62,
+            "y": 0.1,
+            "w": 0.18,
+            "h": 0.17
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "31",
       "part": "A",
       "choiceGroup": "31",
-      "page": 13,
+      "page": 14,
       "section": "E",
       "sectionTitle": null,
       "marks": 5,
@@ -1016,7 +1099,7 @@
         "Marks printed as '5x1' (5 sub-items, 1 mark each)",
         "Subscripts flattened / reaction arrows rebuilt from the PDF layout in the official answer"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "I. [Structure of the Cannizzaro-reaction product of 2-chlorobenzaldehyde — image in the marking scheme, not extracted]\nII. -SO3H is electron-withdrawing in nature, hence it decreases the availability of the lone pair for donation; the basic nature of aniline decreases due to the presence of the sulphonic group.\nIII. CH3COOH —(LiAlH4)→ CH3CH2OH —(SOCl2)→ CH3CH2Cl —(excess NH3)→ CH3CH2NH2\nIV. C6H5COCl —(H2, Pd/BaSO4)→ C6H5CHO —(acidified KMnO4)→ C6H5COOH\nV. Tollens' test (silver-mirror test): propanal on heating in a water bath with ammoniacal silver nitrate (Tollens' reagent) forms a silver mirror on the sides of the test tube; propanone shows no reaction on heating with Tollens' reagent."
       },
@@ -1027,7 +1110,7 @@
       "number": "31",
       "part": "B",
       "choiceGroup": "31",
-      "page": 13,
+      "page": 14,
       "section": "E",
       "sectionTitle": null,
       "marks": 5,
@@ -1040,7 +1123,7 @@
         "Marks printed as '5x1' (5 sub-items, 1 mark each)",
         "Subscripts flattened / reaction arrows rebuilt from the PDF layout in the official answer"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "I. [Structure of the Wolff-Kishner-reduction product of 2-methylbutanal — image in the marking scheme, not extracted]\nII. The strength of benzoic acid depends on its ability to donate the proton and the stability of the conjugate base formed. The sulphonic acid group is electron-withdrawing; its presence increases the ability to release a proton, hence the acidic strength increases.\nIII. CH3CH2NH2 —(HNO2)→ CH3CH2OH —(acidified KMnO4)→ CH3COOH\nIV. C6H5NH2 —(NaNO2/HCl)→ C6H5N2+Cl– —(KCN)→ C6H5CN —(complete hydrolysis)→ C6H5COOH\nV. Ethanal gives a yellow precipitate on heating with iodine in the presence of sodium hydroxide (positive iodoform test); propanal gives no reaction on heating with iodine in the presence of sodium hydroxide (negative iodoform test)."
       },

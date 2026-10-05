@@ -44,12 +44,12 @@
       "type": "FILL_BLANK",
       "text": "_______ Google app is similar to the Ms PowerPoint.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
-      "chapter": null,
-      "mappingStatus": "AI_SUGGESTED"
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "internet-online-surfing",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "I",
@@ -63,12 +63,12 @@
       "type": "FILL_BLANK",
       "text": "_______ is an act of sending fraudulent emails where sender seems to be a reputable company.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "internet-online-surfing",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "I",
@@ -82,12 +82,12 @@
       "type": "FILL_BLANK",
       "text": "________ is the first tag in an HTML document.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "html-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "I",
@@ -101,12 +101,12 @@
       "type": "FILL_BLANK",
       "text": "________ area shows the sprites chosen so far in the scratch.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "scratch-programming-introduction-to-game-creation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "I",
@@ -120,31 +120,117 @@
       "type": "FILL_BLANK",
       "text": "All the changes made to the file in Google Drive are in ________.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
-      "chapter": null,
-      "mappingStatus": "AI_SUGGESTED"
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "internet-online-surfing",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "II",
-      "part": null,
+      "part": "1",
       "choiceGroup": null,
       "page": 1,
       "section": "II",
       "sectionTitle": "Match the following:",
       "marks": 0,
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": "",
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Match the following:\n1. Repeata | a. Spamming\n2. <Hn>...</Hn> | b. Piracy\n3. Literary theft | c. Control Block\n4. Unauthorized copy of software | d. 1 to 6\n5. Unwanted bulk e-mails | e. Plagiarism",
       "hasFigure": false,
       "extractionIssues": [
-        "No marks printed"
+        "Split from the printed match-the-following grid; the right column is listed for each item"
       ],
-      "confidence": "LOW",
-      "chapter": "internet-online-surfing",
-      "mappingStatus": "AI_SUGGESTED"
+      "confidence": "MEDIUM",
+      "mappingStatus": "AI_SUGGESTED",
+      "text": "Match the following:\n1. Repeata\nMatch with: a. Spamming | b. Piracy | c. Control Block | d. 1 to 6 | e. Plagiarism",
+      "chapter": "scratch-programming-introduction-to-game-creation"
+    },
+    {
+      "number": "II",
+      "part": "2",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "II",
+      "sectionTitle": "Match the following:",
+      "marks": 0,
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": "",
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed match-the-following grid; the right column is listed for each item"
+      ],
+      "confidence": "MEDIUM",
+      "mappingStatus": "AI_SUGGESTED",
+      "text": "Match the following:\n2. <Hn>...</Hn>\nMatch with: a. Spamming | b. Piracy | c. Control Block | d. 1 to 6 | e. Plagiarism",
+      "chapter": "html-an-introduction"
+    },
+    {
+      "number": "II",
+      "part": "3",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "II",
+      "sectionTitle": "Match the following:",
+      "marks": 0,
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": "",
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed match-the-following grid; the right column is listed for each item"
+      ],
+      "confidence": "MEDIUM",
+      "mappingStatus": "AI_SUGGESTED",
+      "text": "Match the following:\n3. Literary theft\nMatch with: a. Spamming | b. Piracy | c. Control Block | d. 1 to 6 | e. Plagiarism",
+      "chapter": null
+    },
+    {
+      "number": "II",
+      "part": "4",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "II",
+      "sectionTitle": "Match the following:",
+      "marks": 0,
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": "",
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed match-the-following grid; the right column is listed for each item"
+      ],
+      "confidence": "MEDIUM",
+      "mappingStatus": "AI_SUGGESTED",
+      "text": "Match the following:\n4. Unauthorized copy of software\nMatch with: a. Spamming | b. Piracy | c. Control Block | d. 1 to 6 | e. Plagiarism",
+      "chapter": null
+    },
+    {
+      "number": "II",
+      "part": "5",
+      "choiceGroup": null,
+      "page": 1,
+      "section": "II",
+      "sectionTitle": "Match the following:",
+      "marks": 0,
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": "",
+      "marksSource": "PRINTED",
+      "type": "SHORT_ANSWER",
+      "hasFigure": false,
+      "extractionIssues": [
+        "Split from the printed match-the-following grid; the right column is listed for each item"
+      ],
+      "confidence": "MEDIUM",
+      "mappingStatus": "AI_SUGGESTED",
+      "text": "Match the following:\n5. Unwanted bulk e-mails\nMatch with: a. Spamming | b. Piracy | c. Control Block | d. 1 to 6 | e. Plagiarism",
+      "chapter": "internet-online-surfing"
     },
     {
       "number": "III",
@@ -156,14 +242,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Google Drive provides you 25 GB free cloud storage space.",
+      "text": "Write True or False\nGoogle Drive provides you 25 GB free cloud storage space.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
-      "chapter": null,
-      "mappingStatus": "AI_SUGGESTED"
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "internet-online-surfing",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "III",
@@ -175,14 +261,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Google e-mail account is necessary to view the shared file.",
+      "text": "Write True or False\nGoogle e-mail account is necessary to view the shared file.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
-      "chapter": null,
-      "mappingStatus": "AI_SUGGESTED"
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "internet-online-surfing",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "III",
@@ -194,14 +280,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "As the number decreases in the heading tag, the importance and size of the heading in the tag increases.",
+      "text": "Write True or False\nAs the number decreases in the heading tag, the importance and size of the heading in the tag increases.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "html-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "III",
@@ -213,14 +299,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "The scratch utilizes codes to give commands to the Sprite.",
+      "text": "Write True or False\nThe scratch utilizes codes to give commands to the Sprite.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "scratch-programming-introduction-to-game-creation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "III",
@@ -232,14 +318,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Copy all the persons you know on each message.",
+      "text": "Write True or False\nCopy all the persons you know on each message.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "internet-online-surfing",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "IV",
@@ -251,15 +337,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Write the use of the following tag: <P>",
+      "text": "Write the uses of the following tags.\n<P>",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed",
-        "Stem 'Write the uses of the following tags.' prefixed to each item"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "html-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "IV",
@@ -271,15 +356,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Write the use of the following tag: <SUP>",
+      "text": "Write the uses of the following tags.\n<SUP>",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed",
-        "Stem 'Write the uses of the following tags.' prefixed to each item"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "html-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "IV",
@@ -291,15 +375,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Write the use of the following tag: <I>",
+      "text": "Write the uses of the following tags.\n<I>",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed",
-        "Stem 'Write the uses of the following tags.' prefixed to each item"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "html-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "IV",
@@ -311,15 +394,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Write the use of the following tag: <HTML>",
+      "text": "Write the uses of the following tags.\n<HTML>",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed",
-        "Stem 'Write the uses of the following tags.' prefixed to each item"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "html-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "IV",
@@ -331,15 +413,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Write the use of the following tag: <BR>",
+      "text": "Write the uses of the following tags.\n<BR>",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed",
-        "Stem 'Write the uses of the following tags.' prefixed to each item"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "html-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "V",
@@ -351,14 +432,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "FILL_BLANK",
-      "text": "In HTML,M stands for___",
+      "text": "One word answer:\nIn HTML,M stands for___",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "html-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "V",
@@ -370,14 +451,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Free cloud storage space provided by Google Drive.",
+      "text": "One word answer:\nFree cloud storage space provided by Google Drive.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
-      "chapter": null,
-      "mappingStatus": "AI_SUGGESTED"
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "internet-online-surfing",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "V",
@@ -389,14 +470,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Guidelines that govern your behavior while communicating on the Internet.",
+      "text": "One word answer:\nGuidelines that govern your behavior while communicating on the Internet.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "internet-online-surfing",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "V",
@@ -408,14 +489,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Name the tag which adds a subscript to the text.",
+      "text": "One word answer:\nName the tag which adds a subscript to the text.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "html-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "V",
@@ -427,14 +508,14 @@
       "marks": 0,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Name the cursor tool used for increasing the size of the sprite.",
+      "text": "One word answer:\nName the cursor tool used for increasing the size of the sprite.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "scratch-programming-introduction-to-game-creation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "VI",
@@ -448,12 +529,12 @@
       "type": "SHORT_ANSWER",
       "text": "How can you use the Google Drive?",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
-      "chapter": null,
-      "mappingStatus": "AI_SUGGESTED"
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "internet-online-surfing",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "VI",
@@ -467,12 +548,12 @@
       "type": "SHORT_ANSWER",
       "text": "Write any four netiquettes you must follow while using internet.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "internet-online-surfing",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "VI",
@@ -486,12 +567,12 @@
       "type": "SHORT_ANSWER",
       "text": "Name any two potential threat you may face on Internet.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "internet-online-surfing",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "VI",
@@ -505,12 +586,12 @@
       "type": "SHORT_ANSWER",
       "text": "Write some important features of HTML.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "html-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "VI",
@@ -524,12 +605,12 @@
       "type": "SHORT_ANSWER",
       "text": "Name any four components of the scratch window.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "scratch-programming-introduction-to-game-creation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "VI",
@@ -543,12 +624,12 @@
       "type": "SHORT_ANSWER",
       "text": "Enlist any four control blocks of the blocks palette.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "scratch-programming-introduction-to-game-creation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "VI",
@@ -562,12 +643,12 @@
       "type": "SHORT_ANSWER",
       "text": "Give two examples of HTML tags.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "html-an-introduction",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "VI",
@@ -581,12 +662,12 @@
       "type": "SHORT_ANSWER",
       "text": "Write two advantages of online shopping.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "internet-online-surfing",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "VI",
@@ -600,12 +681,12 @@
       "type": "SHORT_ANSWER",
       "text": "Describe any two modes of payment for online shopping.",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "chapter": "internet-online-surfing",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     },
     {
       "number": "VI",
@@ -619,12 +700,12 @@
       "type": "SHORT_ANSWER",
       "text": "What is a Google Drive?",
       "hasFigure": false,
-      "extractionIssues": [
-        "No marks printed"
-      ],
-      "confidence": "LOW",
-      "chapter": null,
-      "mappingStatus": "AI_SUGGESTED"
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
+      "chapter": "internet-online-surfing",
+      "mappingStatus": "AI_SUGGESTED",
+      "marksStatus": "NOT_PRINTED",
+      "marksNote": ""
     }
   ]
 }

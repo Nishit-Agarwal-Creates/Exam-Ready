@@ -187,12 +187,29 @@
       "extractionIssues": [
         "OCR text corrected against the page image",
         "Printed '[7x1=7]' for items 1–7, i.e. 1 mark each",
-        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF",
-        "Number line figure on page 1 not reproduced"
+        "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "chapter": "rational-numbers",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-school-8-mathematics-icse-class-8-first-test-mathematics-050725-jul-2024/16.png",
+          "kind": "FIGURE",
+          "alt": "Number line from 0 to 1 divided by tick marks, with points C, D, E and F marked on it",
+          "width": 590,
+          "height": 170,
+          "page": 1,
+          "crop": {
+            "x": 0.41,
+            "y": 0.762,
+            "w": 0.33,
+            "h": 0.07
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -329,11 +346,10 @@
       "marks": 3,
       "marksSource": "PRINTED",
       "type": "SHORT_ANSWER",
-      "text": "Simplify: 3a - [ 3a - {3a - ( 3a - 3a - b)}]",
+      "text": "Simplify: 3a - [ 3a - {3a - ( 3a - 3̅a̅ ̅-̅ ̅b̅)}]",
       "hasFigure": false,
       "extractionIssues": [
-        "OCR text corrected against the page image",
-        "A bar (vinculum) is printed over '3a - b' inside the round brackets; not reproduced in plain text, see page 2"
+        "OCR text corrected against the page image"
       ],
       "confidence": "MEDIUM",
       "chapter": "algebraic-expressions",

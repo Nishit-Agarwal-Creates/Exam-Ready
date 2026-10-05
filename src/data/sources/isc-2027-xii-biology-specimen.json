@@ -100,7 +100,7 @@
       "marks": 1,
       "marksSource": "PRINTED",
       "type": "MCQ",
-      "text": "In a single-stranded segment of a DNA molecule, the base ratio (A+T):(G+C) is found to be 0∙0.3:1. What will be the ratio (A + G):(T + C) for the entire double-stranded DNA molecule?",
+      "text": "In a single-stranded segment of a DNA molecule, the base ratio (A+T):(G+C) is found to be 0·3:1. What will be the ratio (A + G):(T + C) for the entire double-stranded DNA molecule?",
       "options": [
         "1:1",
         "3:10",
@@ -307,16 +307,32 @@
       "type": "SHORT_ANSWER",
       "text": "The pie chart given below represents the extent of global biodiversity of invertebrates. Which specific phylum of invertebrates does ‘B’ represent?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Pie chart (a graph/diagram of global biodiversity of invertebrates, segment 'B') on page 4 not reproduced in text layer; question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Phylum Mollusca"
       },
       "cognitiveLevel": "Recall",
       "chapter": "biodiversity-and-its-conservation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-biology-specimen/1xi.png",
+          "kind": "GRAPH",
+          "alt": "Pie chart divided into four unequal segments labelled A, B, C and D",
+          "width": 272,
+          "height": 228,
+          "page": 4,
+          "crop": {
+            "x": 0.437,
+            "y": 0.5695,
+            "w": 0.148,
+            "h": 0.096
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "MEDIUM"
+        }
+      ]
     },
     {
       "number": "1",
@@ -520,16 +536,32 @@
       "type": "SHORT_ANSWER",
       "text": "The image shown below represents an ecological hypothesis proposed by Paul Ehrlich. Study it carefully and answer the following question.\nIdentify and explain this ecological hypothesis.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Image (ecological hypothesis diagram) on page 5 not reproduced in text layer; the hypothesis cannot be reliably identified from text alone"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "Rivet Popper Hypothesis\nExplanation:\n• In an airplane (ecosystem), all parts are joined together using thousands of rivets (species)\n• If the passengers travelling in it start popping a rivet (causing species to become extinct), it may not affect flight safety (proper functioning of the ecosystem) initially but as more and more rivets are removed, the plane becomes weak over a period.\n• If rivets from wings are removed (important species), the flight safety (ecosystem) is affected immediately."
       },
       "cognitiveLevel": "Understand",
       "chapter": "biodiversity-and-its-conservation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-biology-specimen/2.png",
+          "kind": "FIGURE",
+          "alt": "Two pictures side by side: a complete aeroplane and an aeroplane with its parts coming apart",
+          "width": 808,
+          "height": 262,
+          "page": 5,
+          "crop": {
+            "x": 0.26,
+            "y": 0.695,
+            "w": 0.44,
+            "h": 0.11
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -584,16 +616,32 @@
       "type": "CASE_BASED",
       "text": "Study the following Venn diagram and answer the questions that follow.\n(i) Which contraceptive method occupies the shaded region in the given Venn diagram?\n(ii) How does Multiload – 375 function as a contraceptive agent?",
       "hasFigure": true,
-      "extractionIssues": [
-        "Venn diagram on page 6 not reproduced in text layer; part (i) cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i) Intrauterine device (IUD)\n(ii) Multiload - 375 is a copper releasing IUD. Copper reduces sperm motility. / Increases phagocytosis of sperms"
       },
       "cognitiveLevel": "Analyse",
       "chapter": "reproductive-health",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-biology-specimen/5.png",
+          "kind": "FIGURE",
+          "alt": "Venn diagram of three overlapping circles labelled Lippe's loop, Multiload 375 and LNG - 20, with the common region shaded",
+          "width": 790,
+          "height": 368,
+          "page": 6,
+          "crop": {
+            "x": 0.26,
+            "y": 0.47,
+            "w": 0.43,
+            "h": 0.155
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "6",
@@ -692,16 +740,32 @@
       "type": "CASE_BASED",
       "text": "The flowchart provided below represents the life cycle of Plasmodium, alternating between its human host and the female Anopheles mosquito. Study the flowchart and answer the questions that follow.\n(a) Identify Stage ‘X’.\n(b) Name the toxin directly responsible for the recurring chills and fever experienced by a patient suffering from malaria.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Flowchart diagram (Plasmodium life cycle: mosquito bite, sporozoites, liver stage, Stage X, blood meal, fertilisation, sporogony) on page 8 was extracted only as isolated text labels; the connecting sequence/arrows are not reproduced"
-      ],
+      "extractionIssues": [],
       "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Merozoite\n(b) Haemozoin"
       },
       "cognitiveLevel": "Recall",
       "chapter": "human-health-and-diseases",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-biology-specimen/8ii.png",
+          "kind": "FIGURE",
+          "alt": "Flowchart of a cycle with boxes: Mosquito bite / Sporozoites enter; Liver stage / Merozoites form; Stage X; Blood meal / Mosquito enters gut; Fertilisation / Zygote forms in gut; Sporogony / Sporozoites migrate; sides labelled Human host and Mosquito host",
+          "width": 882,
+          "height": 775,
+          "page": 8,
+          "crop": {
+            "x": 0.285,
+            "y": 0.149,
+            "w": 0.48,
+            "h": 0.326
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "9",
@@ -782,15 +846,31 @@
       "type": "CASE_BASED",
       "text": "The bar graph given below shows the growth of E. coli in two different media (Medium – A and Medium – B), along with the corresponding β-galactosidase activity and the state of the lac operon in each case.\nBased on the above graph, answer the following questions:\n(a) Why is the operon switched OFF in one medium?\n(b) The lac operon is described as an example of negative regulation of gene expression. Explain the statement with reference to the role of the operator site.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Bar graph (E. coli growth, β-galactosidase activity and lac operon state in Medium A/B) on page 9 not reproduced in text layer; only the medium labels were captured, so part (a) cannot be tied to a specific medium from text alone"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) In the Medium A, only glucose is present and the inducer (lactose) is absent, so the repressor protein remains bound to the operator site, blocking RNA polymerase. Thus, the operon is switched OFF.\n(b) In the Medium B, only lactose is present. It stops the repressor protein from binding to the operator site, allowing RNA polymerase to transcribe the structural genes. The operon gets switched ON."
       },
       "chapter": "molecular-basis-of-inheritance",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-biology-specimen/10ii.png",
+          "kind": "GRAPH",
+          "alt": "Bar graph titled beta-galactosidase activity in two media, with bars for Medium A and Medium B labelled with their values",
+          "width": 992,
+          "height": 435,
+          "page": 9,
+          "crop": {
+            "x": 0.23,
+            "y": 0.15,
+            "w": 0.54,
+            "h": 0.183
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "11",
@@ -825,15 +905,32 @@
       "text": "The following graph shows seasonal variations in Net Primary Productivity at the level of the surface and 1m depth in a marshy area of India during a study.\n(i) Account for the difference in primary productivity at points ‘X’ and ‘Y’.\n(ii) The GPP of a terrestrial ecosystem is 2700 kg/m²/yr and 3/10th of its energy is used for respiration. Calculate the amount of energy available as NPP.",
       "hasFigure": true,
       "extractionIssues": [
-        "Graph (seasonal NPP variation at surface and 1 m depth, points X and Y) on page 9 not reproduced in text layer; part (i) cannot be answered without it",
-        "Notation rebuilt from the PDF layout (stacked fraction '3 x 2700' over '10' in the official answer, rebuilt inline as '(3 × 2700)/10'); check against the PDF"
+        "Official answer's stacked fraction 3 over 10 (followed by x 2700) written inline as (3/10) x 2700, as printed."
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
-        "text": "(i) Primary productivity decreases with decrease in temperature.\n(ii) R = (3 × 2700)/10 = 810 kg/m²/yr\nNPP = GPP – R\nNPP = 2700 – 810\nNPP = 1890 kg/m²/yr"
+        "text": "(i) Primary productivity decreases with decrease in temperature.\n(ii) R = (3/10) x 2700 = 810 kg/m²/yr\nNPP = GPP – R\nNPP = 2700 – 810\nNPP = 1890 kg/m²/ yr"
       },
       "chapter": "ecosystem",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-biology-specimen/12.png",
+          "kind": "GRAPH",
+          "alt": "Line graph titled Primary productivity in different months: NPP (mg/m3/hr) against months November to September, solid line for Surface and dashed line for 1m depth, with points marked X, Y and Z",
+          "width": 982,
+          "height": 468,
+          "page": 9,
+          "crop": {
+            "x": 0.215,
+            "y": 0.66,
+            "w": 0.535,
+            "h": 0.197
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "13",
@@ -910,18 +1007,51 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "Marfan Syndrome is a human genetic disorder caused by a mutation in the FBN1 gene. This gene codes for fibrillin – 1, a protein that gives connective tissues strength and flexibility. People suffering from Marfan Syndrome show symptoms like dislocation of the eye lens, flat feet, unusually tall height and rupturing of aorta.\nThe following pedigree chart represents the pattern of inheritance of Marfan Syndrome in a family (Generations I, II and III).\n(i)(a) Identify the type of inheritance from the given pedigree chart.\n(i)(b) If the parents of a child are heterozygous for this particular trait, calculate the probability of the child being unaffected using a Punnett square.\n(ii) Prisha is provided with two nucleotides as shown below. Which of these nucleotides should she choose to make an ideal genetic material? Give a reason.",
+      "text": "(i) Marfan Syndrome is a human genetic disorder caused by a mutation in the FBN1 gene. This gene codes for fibrillin – 1, a protein that gives connective tissues strength and flexibility. People suffering from Marfan Syndrome show symptoms like dislocation of the eye lens, flat feet, unusually tall height and rupturing of aorta.\nThe following pedigree chart represents the pattern of inheritance of Marfan Syndrome in a family.\n(a) Identify the type of inheritance from the given pedigree chart.\n(b) If the parents of a child are heterozygous for this particular trait, calculate the probability of the child being unaffected using a Punnett square.\n(ii) Prisha is provided with two nucleotides as shown below. Which of these nucleotides should she choose to make an ideal genetic material? Give a reason.",
       "hasFigure": true,
       "extractionIssues": [
-        "Pedigree chart (Marfan Syndrome inheritance, Generations I-III) on page 11 not fully reproduced in text layer; only generation/individual numbering was captured, the family-tree connecting lines are lost",
-        "Diagram of two nucleotide structures on page 11 not reproduced in text layer; part (ii) cannot be fully answered without it"
+        "Pedigree chart (Marfan Syndrome inheritance, Generations I-III) on page 11 not fully reproduced in text layer; only generation/individual numbering was captured, the family-tree connecting lines are lost"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(i)(a) Autosomal dominant\n(i)(b) Probability of unaffected child = 25%\n(ii) Prisha should choose Nucleotide (2).\n• The 2–OH group present in the nucleotide (1) is a reactive group. It will make the genetic material unstable and easily degradable.\n• Nucleotide (2) is non-reactive."
       },
       "chapter": "principles-of-inheritance-and-variation",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-biology-specimen/16.png",
+          "kind": "FIGURE",
+          "alt": "Pedigree chart of three generations (I, II, III) with numbered circles and squares, some shaded",
+          "width": 863,
+          "height": 441,
+          "page": 11,
+          "crop": {
+            "x": 0.23,
+            "y": 0.2665,
+            "w": 0.47,
+            "h": 0.1855
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        },
+        {
+          "src": "/figures/isc-2027-xii-biology-specimen/16-2.png",
+          "kind": "FIGURE",
+          "alt": "Two nucleotide structures labelled (1) and (2), each a five-carbon sugar ring with carbons numbered 1 to 5, a circle joined by CH2 at carbon 5, a box marked NITROGENOUS BASE ((A) in 1, (G) in 2) at carbon 1, and a group drawn below carbon 2",
+          "width": 1084,
+          "height": 333,
+          "page": 11,
+          "crop": {
+            "x": 0.205,
+            "y": 0.578,
+            "w": 0.59,
+            "h": 0.14
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "17",
@@ -955,12 +1085,10 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "LONG_ANSWER",
-      "text": "(a) For artificial hybridisation of pea plants, fresh pollens from the anther can be used, whereas preserved pollens are mandatory for wheat hybridisation. Why?\n(b) Study the table below and answer the following questions:\nFruit | Fruit and Seed formation\nX |\nY | Cells of the integument develop into an embryo\n | Ovary develops into seedless fruit by the application of phytohormones\nZ | Peduncle contributes to fruit formation\n(1) Which of these fruits exhibits polyembryony? Will its embryos exhibit genetic variation? Justify your answer with a reason.\n(2) Identify the fruit type of ‘Y’.",
+      "text": "(a) For artificial hybridisation of pea plants, fresh pollens from the anther can be used, whereas preserved pollens are mandatory for wheat hybridisation. Why?\n(b) Study the table below and answer the following questions:\nFruit | Fruit and Seed formation\nX | Cells of the integument develop into an embryo\nY | Ovary develops into seedless fruit by the application of phytohormones\nZ | Peduncle contributes to fruit formation\n(1) Which of these fruits exhibits polyembryony? Will its embryos exhibit genetic variation? Justify your answer with a reason.\n(2) Identify the fruit type of ‘Y’.",
       "hasFigure": false,
-      "extractionIssues": [
-        "Table (fruit X/Y/Z formation) on page 12 appears misaligned in extraction: the description that matches Fruit X in the official answer ('embryo develops from the cells of the integument by mitosis') is printed on the 'Y' row, and the 'X' row is blank in the text layer; confirm the row-to-fruit mapping against the PDF"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(a) Pea plant belongs to the Leguminosae family whose pollen can remain viable for several months and years. But pollens of wheat remain viable for only 30 minutes.\n(b)(1) Fruit X\nIt will not exhibit genetic variation.\nThis is so because the embryo develops from the cells of the integument by mitosis and not by fertilisation.\n(b)(2) ‘Y’ is a parthenocarpic fruit."
       },
@@ -980,15 +1108,32 @@
       "text": "The graph provided below shows a classic predator-prey interaction, with predator population peaks lagging slightly behind prey population peaks.\n(a) Assume that a sudden viral disease wipes out 80% of the predator population at Year 6 (instead of the natural decline shown in the graph). Construct a new version of the above graph from Year 6 onward showing both the prey and predator curves.\n(b) Interpret the population dynamics responsible for changes in the constructed graph.",
       "hasFigure": true,
       "extractionIssues": [
-        "Predator-prey population graph on page 12 not reproduced in text layer; part (a) requires it",
         "Official answer for (a) is a hand-drawn continuation of the graph; not reproduced in text layer (only fragmented axis/legend text, e.g. 'Predator Population', 'Prey Population', was extracted)"
       ],
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(b) • The abundant prey provides more food, allowing the predator population to recover gradually over the following years.\n• As predators recover, the prey population begins to decline, approaching a new ecological balance."
       },
       "chapter": "organisms-and-populations",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/isc-2027-xii-biology-specimen/18i.png",
+          "kind": "GRAPH",
+          "alt": "Line graph of prey population (solid line, circle markers, left axis 0 to 250) and predator population (dashed line, square markers, right axis 0 to 45) against year 1 to 12",
+          "width": 1000,
+          "height": 475,
+          "page": 12,
+          "crop": {
+            "x": 0.24,
+            "y": 0.555,
+            "w": 0.545,
+            "h": 0.2
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "18",
@@ -1000,7 +1145,7 @@
       "marks": 5,
       "marksSource": "PRINTED",
       "type": "CASE_BASED",
-      "text": "A population of 100 beetles is introduced into an environment with a carrying capacity of 500. The intrinsic rate of natural increase for this beetle species is 0↗0.2 per year.\n(a) Calculate the change in population size after the first year.\n(b) Using the given data, draw a population growth curve showing how the beetle population changes with time as it approaches the carrying capacity. Label the following in the graph.\n• Initial population\n• Carrying capacity\n• Phase of maximum growth rate\n• Stationary phase",
+      "text": "A population of 100 beetles is introduced into an environment with a carrying capacity of 500. The intrinsic rate of natural increase for this beetle species is 0·2 per year.\n(a) Calculate the change in population size after the first year.\n(b) Using the given data, draw a population growth curve showing how the beetle population changes with time as it approaches the carrying capacity. Label the following in the graph.\n• Initial population\n• Carrying capacity\n• Phase of maximum growth rate\n• Stationary phase",
       "hasFigure": false,
       "extractionIssues": [
         "Notation rebuilt from the PDF layout (logistic growth equation dN/dt = rN((K-N)/K), stacked in the PDF); check against the PDF",

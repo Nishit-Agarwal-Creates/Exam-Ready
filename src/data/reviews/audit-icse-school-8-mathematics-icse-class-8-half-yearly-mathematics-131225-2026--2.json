@@ -1,0 +1,25 @@
+{
+  "pack": "icse-school-8-mathematics-icse-class-8-half-yearly-mathematics-131225-2026",
+  "auditedOn": "2026-10-05",
+  "method": "Re-checked against the page images of the scanned paper (no text layer), with page grid/crops of the recovered figures (scripts/recovery/page.py).",
+  "checks": [
+    {
+      "key": "icse-school-8-mathematics-icse-class-8-half-yearly-mathematics-131225-2026#3c",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    },
+    {
+      "key": "icse-school-8-mathematics-icse-class-8-half-yearly-mathematics-131225-2026#6c",
+      "agree": false,
+      "reason": "The figure crop (p2, y 0.505-0.618) cuts through the hand-written length label under the rectangle, so the '20 m' value is only half visible and not legible in the stored figure.",
+      "round": "p51"
+    },
+    {
+      "key": "icse-school-8-mathematics-icse-class-8-half-yearly-mathematics-131225-2026#7c",
+      "agree": true,
+      "reason": "",
+      "round": "p51"
+    }
+  ]
+}

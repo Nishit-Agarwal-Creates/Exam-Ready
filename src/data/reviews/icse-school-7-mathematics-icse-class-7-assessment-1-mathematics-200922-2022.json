@@ -221,7 +221,7 @@
       "key": "icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022#Vi",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -229,15 +229,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section gives 2 marks for the whole Q.V; 1-mark split per part assigned by the builder.",
-      "notes": "Checked against page image p3."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: SECTION-B heading prints '(Each question carry 2 marks)'; Q.V has 2 parts with no per-part mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022#Vii",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -245,9 +255,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section gives 2 marks for the whole Q.V; 1-mark split per part assigned by the builder.",
-      "notes": "Checked against page image p3."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: SECTION-B heading prints '(Each question carry 2 marks)'; Q.V has 2 parts with no per-part mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022#V",
@@ -269,7 +289,7 @@
       "key": "icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022#VIIi",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -277,15 +297,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section gives 2 marks for the whole Q.VII; 1-mark split per part assigned by the builder.",
-      "notes": "Checked against page image p3."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: SECTION-B heading prints '(Each question carry 2 marks)'; Q.VII has 2 parts with no per-part mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022#VIIii",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -293,9 +323,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section gives 2 marks for the whole Q.VII; 1-mark split per part assigned by the builder.",
-      "notes": "Checked against page image p3."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: SECTION-B heading prints '(Each question carry 2 marks)'; Q.VII has 2 parts with no per-part mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022#VIII",
@@ -327,7 +367,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Checked against page image p3."
+      "notes": "Line break after 'Evaluate -' restored as printed on page 3; expression is -13/8 + 7/16 + –3/4.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 3: 'Q.IX) Evaluate -' ends one line; the next line prints '-13/8 + 7/16 + –3/4'. The dash after 'Evaluate' is punctuation; the line break is restored so the first term is -13/8, not -(-13/8).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022#X",
@@ -352,20 +402,30 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Figure on page 4 is needed to see that the angles are co-interior (not alternate).",
-      "notes": "Checked against page image p4."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Checked against page image p4.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: figure under Q.XI cropped (x 0.09-0.57, y 0.212-0.362): quadrilateral ABDC, arrows on AB and CD, (3x + 15)º at A, (2x + 45)º at C.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022#XIIi",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -373,15 +433,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section gives 3 marks for the whole Q.XII; 1-mark split per part assigned by the builder.",
-      "notes": "Table values on page 4 match the inline rendering."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Table values on page 4 match the inline rendering.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: SECTION-C heading prints '(Each question carry 3 marks)'; Q.XII has 3 parts with no per-part mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022#XIIii",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -389,15 +459,25 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section gives 3 marks for the whole Q.XII; 1-mark split per part assigned by the builder.",
-      "notes": "Table values on page 4 match the inline rendering."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Table values on page 4 match the inline rendering.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: SECTION-C heading prints '(Each question carry 3 marks)'; Q.XII has 3 parts with no per-part mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022#XIIiii",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
@@ -405,9 +485,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Section gives 3 marks for the whole Q.XII; 1-mark split per part assigned by the builder.",
-      "notes": "Table values on page 4 match the inline rendering."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Table values on page 4 match the inline rendering.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin4",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: SECTION-C heading prints '(Each question carry 3 marks)'; Q.XII has 3 parts with no per-part mark.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-mathematics-icse-class-7-assessment-1-mathematics-200922-2022#XIII",

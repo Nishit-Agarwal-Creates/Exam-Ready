@@ -92,9 +92,35 @@ function ShortenedNote({ q }: { q: QuestionView }) {
   );
 }
 
+const FIGURE_KIND: Record<string, string> = { FIGURE: "Figure", TABLE: "Table", GRAPH: "Graph", MAP: "Map", PASSAGE: "Passage" };
+
+/**
+ * Figures, tables, graphs, maps and passages cropped from the original source page (never redrawn).
+ * Each links to the full image so it can be zoomed on a phone, and says which page it came from.
+ */
+export function SourceFigures({ q }: { q: QuestionView }) {
+  if (!q.figures?.length) return null;
+  const src = q.sources.find((s) => !s.isDemo);
+  return (
+    <div className="mt-3 space-y-3">
+      {q.figures.map((f) => (
+        <figure key={f.src} className="source-figure">
+          <a href={f.src} target="_blank" rel="noopener" className="block" aria-label={`Open ${FIGURE_KIND[f.kind]?.toLowerCase() ?? "figure"} full size`}>
+            {/* eslint-disable-next-line @next/next/no-img-element -- static crops of the source page, already sized */}
+            <img src={f.src} alt={f.alt} width={f.width} height={f.height} loading="lazy" decoding="async" />
+          </a>
+          <figcaption>
+            {FIGURE_KIND[f.kind] ?? "Figure"} from the original paper{src ? `, page ${f.page}` : ""}. Tap to enlarge.
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+  );
+}
+
 /** Figure / extraction notice shown with a question when the text can't stand on its own. */
 export function FigureNotice({ q }: { q: QuestionView }) {
-  if (!q.hasFigure) return null;
+  if (!q.hasFigure || q.figures?.length) return null;
   const src = q.sources.find((s) => !s.isDemo);
   return (
     <p className="mt-2 flex items-start gap-2 rounded-lg bg-contrib-soft/70 px-3 py-2 text-[0.9rem] text-contrib">
@@ -188,7 +214,17 @@ export function QuestionBlock({
             ))}
           </ol>
         )}
+        <SourceFigures q={q} />
         <FigureNotice q={q} />
+        {q.marksStatus && q.marksStatus !== "PRINTED" && marks === undefined && (
+          <p className="mt-2 text-[0.88rem] text-pencil">
+            {q.marksStatus === "GROUP_TOTAL"
+              ? `Marks: printed only for the whole group${q.marksNote ? ` (${q.marksNote})` : ""}.`
+              : q.marksStatus === "FRACTIONAL"
+                ? `Marks: ${q.marksNote} as printed.`
+                : "Marks: not printed on the paper for this question."}
+          </p>
+        )}
         {showMeta && (
           <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-[0.88rem] text-pencil">
             <SourceStamp q={q} compact />
@@ -210,9 +246,15 @@ export function QuestionBlock({
           </div>
         )}
       </div>
-      <p className="marks self-start rounded-full bg-desk px-2.5 py-0.5 text-[0.98rem] leading-[1.65]" aria-label={`${m} ${m === 1 ? "mark" : "marks"}`}>
-        [{m}]
-      </p>
+      {q.marksStatus && q.marksStatus !== "PRINTED" && marks === undefined ? (
+        <p className="marks self-start rounded-full bg-desk px-2.5 py-0.5 text-[0.98rem] leading-[1.65]" aria-label={q.marksStatus === "FRACTIONAL" ? `${q.marksNote} marks` : "Marks not printed for this question"}>
+          [{q.marksStatus === "FRACTIONAL" ? q.marksNote : "–"}]
+        </p>
+      ) : (
+        <p className="marks self-start rounded-full bg-desk px-2.5 py-0.5 text-[0.98rem] leading-[1.65]" aria-label={`${m} ${m === 1 ? "mark" : "marks"}`}>
+          [{m}]
+        </p>
+      )}
     </article>
   );
 }

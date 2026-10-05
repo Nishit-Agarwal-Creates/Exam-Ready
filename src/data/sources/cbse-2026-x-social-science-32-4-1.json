@@ -104,16 +104,32 @@
         "Book making"
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (painting) on page 7 not reproduced in text layer; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(D) / Book making",
         "correctOption": 3
       },
       "chapter": "print-culture-and-the-modern-world",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-x-social-science-32-4-1/3.png",
+          "kind": "FIGURE",
+          "alt": "Sixteenth-century Mughal painting (black and white) showing several men seated and working in a palace courtyard, with a Persian inscription along the bottom",
+          "width": 438,
+          "height": 596,
+          "page": 7,
+          "crop": {
+            "x": 0.355,
+            "y": 0.138,
+            "w": 0.245,
+            "h": 0.236
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "4",
@@ -406,16 +422,32 @@
         "Energy"
       ],
       "hasFigure": false,
-      "extractionIssues": [
-        "The fill-in-the-blank statement itself is missing from the PDF text layer (in both the English and Hindi pages); only the instruction line, mark value and options were extracted"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(A) / Non-Metallic",
         "correctOption": 0
       },
       "chapter": "minerals-and-energy-resources",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-x-social-science-32-4-1/13.png",
+          "kind": "FIGURE",
+          "alt": "Tree diagram: Minerals branching into three boxes, Ferrous (with Cobalt below), Non-Ferrous (with Lead below) and a box marked ---?--- (with Sulphur below)",
+          "width": 857,
+          "height": 341,
+          "page": 15,
+          "crop": {
+            "x": 0.24,
+            "y": 0.113,
+            "w": 0.48,
+            "h": 0.135
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "14",
@@ -688,16 +720,32 @@
         "Thinking accommodation of various demands."
       ],
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure (cartoon/picture) on page 19 not reproduced in text layer; the question cannot be answered without it"
-      ],
-      "confidence": "LOW",
+      "extractionIssues": [],
+      "confidence": "MEDIUM",
       "officialAnswer": {
         "text": "(D) / Thinking accommodation of various demands.",
         "correctOption": 3
       },
       "chapter": "outcomes-of-democracy",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/cbse-2026-x-social-science-32-4-1/21.png",
+          "kind": "FIGURE",
+          "alt": "Cartoon: an elderly man sits on a rock marked DEMOCRACY while rocks labelled with different demands and issues fly towards him",
+          "width": 810,
+          "height": 644,
+          "page": 19,
+          "crop": {
+            "x": 0.25,
+            "y": 0.486,
+            "w": 0.453,
+            "h": 0.255
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "22",

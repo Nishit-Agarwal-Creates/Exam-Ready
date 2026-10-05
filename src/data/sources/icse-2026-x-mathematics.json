@@ -203,12 +203,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
-        "Figure on page 4 not reproduced (it only labels R as the sphere's radius and r as the hemisphere's).",
         "Subscripts rebuilt: 'S1', 'S2' → S₁, S₂."
       ],
       "confidence": "MEDIUM",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-mathematics/1vii.png",
+          "kind": "FIGURE",
+          "alt": "Sphere S1 with radius R and hemisphere S2 with radius r",
+          "width": 542,
+          "height": 281,
+          "page": 4,
+          "crop": {
+            "x": 0.345,
+            "y": 0.2,
+            "w": 0.295,
+            "h": 0.118
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -230,13 +247,30 @@
       "hasFigure": true,
       "extractionIssues": [
         "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
-        "Figure on page 4 not reproduced; the angle x (at O) and point E are defined only in the figure.",
         "Degree marks printed as a raised 'o' are written as °.",
         "In the text layer the label (viii) sits beside option (d) of item (vii); re-associated from the rendered page."
       ],
       "confidence": "LOW",
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-mathematics/1viii.png",
+          "kind": "FIGURE",
+          "alt": "Circle with centre O and cyclic quadrilateral ABCD; AD produced to E, angle 65° marked at D and angle x marked at O",
+          "width": 551,
+          "height": 434,
+          "page": 4,
+          "crop": {
+            "x": 0.345,
+            "y": 0.515,
+            "w": 0.3,
+            "h": 0.183
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -361,12 +395,29 @@
       "hasFigure": true,
       "extractionIssues": [
         "Only the total mark for Question 1 ([15]) is printed; each of its 15 sub-parts is taken as 1 mark.",
-        "Figure on page 6 not reproduced; the coordinates A(0, 2y), B(2x, 0) are given only in the figure.",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
       ],
       "confidence": "LOW",
       "chapter": "section-and-mid-point-formula",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-mathematics/1xiii.png",
+          "kind": "FIGURE",
+          "alt": "Coordinate axes with O(0, 0), A(0, 2y) on the y-axis, B(2x, 0) on the x-axis and C the mid-point of AB",
+          "width": 781,
+          "height": 637,
+          "page": 6,
+          "crop": {
+            "x": 0.285,
+            "y": 0.408,
+            "w": 0.425,
+            "h": 0.268
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "1",
@@ -471,12 +522,29 @@
       "text": "In the given diagram, O is the centre of the circle and the tangent DE touches the circle at B. If, ∠ADB = 32°. Find the values of x and y.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 8 not reproduced; the angles x and y are marked only in the figure.",
         "Degree marks printed as a raised 'o' are written as °."
       ],
       "confidence": "LOW",
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-mathematics/2iii.png",
+          "kind": "FIGURE",
+          "alt": "Circle with centre O and diameter CA; line DC produced meets the circle, tangent DE touches the circle at B; angle 32° at D, angle x at A and angle y at B marked",
+          "width": 550,
+          "height": 392,
+          "page": 8,
+          "crop": {
+            "x": 0.35,
+            "y": 0.185,
+            "w": 0.3,
+            "h": 0.165
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -510,12 +578,29 @@
       "text": "An eye drop bottle is prepared consisting of a hemisphere, a cylinder and a conical cap, as shown in the given diagram. Height of the cylindrical and conical parts are each, equal to the diameter (7 cm). Find the:\n(a) minimum height of the cylindrical box required to pack this bottle.\n(b) volume of the liquid medicine (shaded part) in the bottle. Give your answer to the nearest whole number. (Use π = 22/7)",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 8 not reproduced; the arrangement of the hemisphere and the shaded part are shown only in the figure.",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF (π = 22/7 is a stacked fraction)."
       ],
       "confidence": "LOW",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-mathematics/3ii.png",
+          "kind": "FIGURE",
+          "alt": "Bottle made of a cone on top of a cylinder with a hemisphere inside the base; shaded region between them; diameter 7 cm marked",
+          "width": 322,
+          "height": 518,
+          "page": 8,
+          "crop": {
+            "x": 0.62,
+            "y": 0.622,
+            "w": 0.175,
+            "h": 0.218
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "3",
@@ -582,12 +667,28 @@
       "type": "SHORT_ANSWER",
       "text": "In the given diagram, DE ∥ BC and AD : DB = 2 : 3.\n(a) Prove that: ΔADE ~ ΔABC and hence find DE : BC\n(b) Prove: ΔDFE ~ ΔCFB\n(c) Given, area of ΔDFE = 16 square units, find the area of ΔCFB.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Figure on page 9 not reproduced; that F is the intersection of BE and CD is shown only in the figure."
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "similarity",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-mathematics/4iii.png",
+          "kind": "FIGURE",
+          "alt": "Triangle ABC with D on AB and E on AC, DE parallel to BC (arrows), and BE and CD meeting at F",
+          "width": 496,
+          "height": 361,
+          "page": 9,
+          "crop": {
+            "x": 0.525,
+            "y": 0.693,
+            "w": 0.27,
+            "h": 0.152
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -601,12 +702,28 @@
       "type": "SHORT_ANSWER",
       "text": "The histogram drawn on the graph represents the number of students of different heights (in cm).\nUsing the graph, answer the following:\n(a) the number of students whose height is 150 cm and above.\n(b) the modal height.\n(c) the total number of students.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph (histogram) on page 10 not reproduced; the question cannot be answered without it."
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "statistics",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-mathematics/5i.png",
+          "kind": "GRAPH",
+          "alt": "Histogram on graph paper: Number of Students (0 to 16) against Height (cm) from 100 to 170, with scale note x-axis 2 cm = 10 cm of height, y-axis 2 cm = 2 students",
+          "width": 1102,
+          "height": 1176,
+          "page": 10,
+          "crop": {
+            "x": 0.2,
+            "y": 0.225,
+            "w": 0.6,
+            "h": 0.495
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "5",
@@ -820,12 +937,28 @@
       "type": "NUMERICAL",
       "text": "Use the following graph and answer the given questions:\n(a) Write the co-ordinates of points A, B and C.\n(b) Find the equation of a line passing through the mid-point of AC and parallel to AB.",
       "hasFigure": true,
-      "extractionIssues": [
-        "Graph on page 14 not reproduced; the question cannot be answered without it."
-      ],
+      "extractionIssues": [],
       "confidence": "LOW",
       "chapter": "equation-of-a-line",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-mathematics/9ii.png",
+          "kind": "GRAPH",
+          "alt": "Triangle ABC drawn on graph paper with x-axis from -2 to 6 and y-axis from -1 to 8",
+          "width": 1083,
+          "height": 1211,
+          "page": 14,
+          "crop": {
+            "x": 0.2,
+            "y": 0.18,
+            "w": 0.59,
+            "h": 0.51
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "9",
@@ -840,12 +973,29 @@
       "text": "A solid wooden toy is prepared by joining a cone, a cylinder and a sphere, as shown in the given diagram. The radius of each of the three solids is 7 cm and heights of each of the cone and the cylinder is 24 cm. Find:\n(a) the total surface area of the given solid.\n(b) the cost of painting the total surface at the rate of ₹ 0.50 per cm².\n(Use π = 22/7)",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 15 not reproduced; how the three solids are joined is shown only in the figure.",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF (π = 22/7 is a stacked fraction; 'cm2' → cm²)."
       ],
       "confidence": "LOW",
       "chapter": "mensuration",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-mathematics/9iii.png",
+          "kind": "FIGURE",
+          "alt": "Toy made of a sphere on top of a cylinder with a cone below it; radii 7 cm and heights 24 cm and 24 cm marked",
+          "width": 386,
+          "height": 765,
+          "page": 15,
+          "crop": {
+            "x": 0.39,
+            "y": 0.31,
+            "w": 0.21,
+            "h": 0.322
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     },
     {
       "number": "10",
@@ -898,12 +1048,29 @@
       "text": "In the given figure ‘O’ is the centre of the circle. PQ is a tangent to the circle at B and AB = AC. If ∠CBQ = 40°, find the unknown angles x, y, z and w.",
       "hasFigure": true,
       "extractionIssues": [
-        "Figure on page 16 not reproduced; the angles x, y, z and w are marked only in the figure.",
         "Notation rebuilt from the PDF layout (fractions/powers); check against the PDF. The text layer's equation font is corrupt (math-italic glyphs doubled, multi-letter runs such as sin/cos/tan collapsed to one repeated character, matrix brackets and fraction layout lost), so the expression was transcribed from the rendered page image."
       ],
       "confidence": "LOW",
       "chapter": "circles",
-      "mappingStatus": "AI_SUGGESTED"
+      "mappingStatus": "AI_SUGGESTED",
+      "figures": [
+        {
+          "src": "/figures/icse-2026-x-mathematics/10iii.png",
+          "kind": "FIGURE",
+          "alt": "Circle with centre O and points A, E, D, C, B; tangent PQ at B; AB and AC marked equal; angles x, y, z, w and 40° marked",
+          "width": 615,
+          "height": 660,
+          "page": 16,
+          "crop": {
+            "x": 0.32,
+            "y": 0.425,
+            "w": 0.335,
+            "h": 0.278
+          },
+          "method": "SOURCE_PAGE_CROP",
+          "confidence": "HIGH"
+        }
+      ]
     }
   ]
 }

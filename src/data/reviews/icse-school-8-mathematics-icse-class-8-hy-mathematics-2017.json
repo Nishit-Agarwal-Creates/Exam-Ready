@@ -141,17 +141,28 @@
       "key": "icse-school-8-mathematics-icse-class-8-hy-mathematics-2017#4a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q4 a) (stored as 0).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 1: Q4 a) has no mark printed (b and c show [3]); the rectangle figure beside it cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-hy-mathematics-2017#4b",
@@ -224,14 +235,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Point G and the dashed lines are defined only in the figure on page 2.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D2",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 2 Q6 a) figure: printed labels are only E, F, D, G, C, B and 56°; the fourth vertex of the rhombus carries no label. Alt rewritten to describe only what is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-hy-mathematics-2017#6b",
@@ -304,14 +326,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "The angle expressions (3x-20°, x+40°, y+15°) appear only on the figure on page 2.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 2: parallelogram figure printed beside Q8 a), cropped whole with the three angle expressions.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-hy-mathematics-2017#8b",
@@ -365,23 +397,34 @@
       "key": "icse-school-8-mathematics-icse-class-8-hy-mathematics-2017#9b",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "No marks printed for Q9 b) (stored as 0).",
-      "notes": "Table values match the page-2 table."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Table values match the page-2 table.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 2: Q9 prints [6] beside a) only; b) has no mark. The height table under b) cropped whole.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-hy-mathematics-2017#10a",
       "text": "MATCH",
       "numberPage": "MATCH",
-      "marks": "MISMATCH",
+      "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
       "figure": "NONE",
@@ -389,9 +432,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "[3] is printed beside (i) only; whether it covers (ii) is inferred by the builder.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 3: '[3]' is printed on the first line of Q10 a), with b) [4] and c) [3], so it is the mark for a) as a whole (both i and ii).",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-8-mathematics-icse-class-8-hy-mathematics-2017#10c",

@@ -10,7 +10,7 @@
   },
   "questions": [
     {
-      "key": "icse-school-7-chemistry-icse-class-8-second-term-biology-131225-2025#6",
+      "key": "icse-school-7-chemistry-icse-class-8-second-term-biology-131225-2025#6a",
       "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
@@ -18,12 +18,108 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "NONE",
-      "chapter": "UNCERTAIN",
+      "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Group spans chemical changes, metals and language of chemistry.",
-      "notes": "Q6 [4] page 2. Text checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: Q6 a)-d) printed; only [4] for the group.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-chemistry-icse-class-8-second-term-biology-131225-2025#6b",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: Q6 a)-d) printed; only [4] for the group.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-chemistry-icse-class-8-second-term-biology-131225-2025#6c",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: Q6 a)-d) printed; only [4] for the group.",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "key": "icse-school-7-chemistry-icse-class-8-second-term-biology-131225-2025#6d",
+      "text": "MATCH",
+      "numberPage": "MATCH",
+      "marks": "MATCH",
+      "options": "NA",
+      "notation": "OK",
+      "figure": "NONE",
+      "answer": "NONE",
+      "chapter": "OK",
+      "suggestedChapter": null,
+      "duplicate": "",
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-bin9",
+        "at": "2026-10-04",
+        "actions": [
+          "GROUP_SPLIT",
+          "MARKS_STATUS",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Page 2: Q6 a)-d) printed; only [4] for the group.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-8-second-term-biology-131225-2025#7",
@@ -48,14 +144,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Distillation apparatus figure on page 3 (parts A-F) is needed.",
-      "notes": "Printed question number overwritten by handwriting; 8 inferred from sequence. Text checked against page image."
+      "reason": "Printed question number is overwritten by handwriting; 8 only inferred from the sequence.",
+      "notes": "Printed question number overwritten by handwriting; 8 inferred from sequence. Text checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-C",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 3: apparatus figure printed right of Q8 a)-c), labels A-F; cropped complete. Question number on the scan is overwritten by handwriting. | Alt-text sweep: old alt named the thermometer/condenser and the technique asked in 8 a)-b); rewritten neutrally.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-8-second-term-biology-131225-2025#8b",
@@ -64,14 +171,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Item asks about the technique shown in the page 3 diagram.",
-      "notes": "Question number inferred (overwritten on scan). Text checked against page image."
+      "reason": "Printed question number is overwritten by handwriting; 8 only inferred from the sequence.",
+      "notes": "Question number inferred (overwritten on scan). Text checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-C",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 3: apparatus figure printed right of Q8 a)-c), labels A-F; cropped complete. Question number on the scan is overwritten by handwriting. | Alt-text sweep: old alt named the thermometer/condenser and the technique asked in 8 a)-b); rewritten neutrally.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-8-second-term-biology-131225-2025#8c",
@@ -80,14 +198,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Depends on the technique shown in the page 3 diagram.",
-      "notes": "Question number inferred (overwritten on scan). Text checked against page image."
+      "reason": "Printed question number is overwritten by handwriting; 8 only inferred from the sequence.",
+      "notes": "Question number inferred (overwritten on scan). Text checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-C",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 3: apparatus figure printed right of Q8 a)-c), labels A-F; cropped complete. Question number on the scan is overwritten by handwriting. | Alt-text sweep: old alt named the thermometer/condenser and the technique asked in 8 a)-b); rewritten neutrally.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-8-second-term-biology-131225-2025#9",
@@ -128,14 +257,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Sublimation diagram on page 3 (parts 1-5) is needed to answer.",
-      "notes": "Q11 [6]. Text checked against page image."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Q11 [6]. Text checked against page image.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-C",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 3: the only figure beside Q11, labels 1-5 printed in a hand-drawn style; cropped complete. | Page 3 zoom: the left label reads 5 and the right label (at the base) reads 3, so the old alt had 3 and 5 swapped; new alt names no parts or positions.",
+        "confidence": "MEDIUM"
+      }
     },
     {
       "key": "icse-school-7-chemistry-icse-class-8-second-term-biology-131225-2025#12i",

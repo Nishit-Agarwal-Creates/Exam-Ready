@@ -80,14 +80,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of four numbered reactions (1.-4.) is needed to identify which reactions produce water; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 4: the four numbered reaction drawings printed under 1 (v); cropped complete with labels.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#1vi",
@@ -144,14 +154,24 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Diagram of four hydrocarbon structures is needed to count the butene isomers; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 5: the four structures printed under 1 (ix); cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#1x",
@@ -256,18 +276,28 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "NOT_ESSENTIAL",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 8: apparatus diagram printed under 2 (i); cropped complete with its printed labels (this resolves the audit dispute that the diagram was missing).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#2iia",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -277,13 +307,23 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Identify the following:' (printed once for (a)-(e)) is not included in this entry's text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 8 render and text layer: the group instruction 'Identify the following:' is printed once above this item; added to the item text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#2iib",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -293,13 +333,23 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Identify the following:' (printed once for (a)-(e)) is not included in this entry's text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 8 render and text layer: the group instruction 'Identify the following:' is printed once above this item; added to the item text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#2iic",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -309,13 +359,23 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Identify the following:' (printed once for (a)-(e)) is not included in this entry's text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 8 render and text layer: the group instruction 'Identify the following:' is printed once above this item; added to the item text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#2iid",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -325,13 +385,23 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Identify the following:' (printed once for (a)-(e)) is not included in this entry's text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 9 render and text layer: the group instruction 'Identify the following:' is printed once above this item; added to the item text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#2iie",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -341,9 +411,19 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Identify the following:' (printed once for (a)-(e)) is not included in this entry's text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED"
+        ],
+        "evidence": "Page 9 render and text layer: the group instruction 'Identify the following:' is printed once above this item; added to the item text.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#2iiia",
@@ -448,14 +528,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Two unshown organic structures are needed for the IUPAC-naming task; not reproduced.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 10: structures 1 and 2 printed under 2 (v)(a); cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#2vb",
@@ -475,7 +565,7 @@
     },
     {
       "key": "icse-2026-x-chemistry-specimen#3ia",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -485,29 +575,52 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Give one significant observation when:' (printed once for (a)-(b)) is not included; the text is a bare statement with no task.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 10 render and text layer: the group instruction 'Give one significant observation when:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 10 prints only [2] beside 3 (i) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#3ib",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
       "figure": "NONE",
       "answer": "MATCH",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
       "decision": "HOLD",
-      "reason": "Shared instruction 'Give one significant observation when:' (printed once for (a)-(b)) is not included; the text is a bare statement with no task.",
-      "notes": ""
+      "reason": "Thermal decomposition of zinc nitrate is not covered by any official ICSE Class 10 chemistry chapter summary (analytical-chemistry covers only cation tests with NaOH/NH4OH and amphoteric oxides/hydroxides).",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Page 10 render and text layer: the group instruction 'Give one significant observation when:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 10 prints only [2] beside 3 (i) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]). | p51-fix-H1: Page 10 item checked; no chapter summary covers heating of a nitrate, so the chapter cannot be set with HIGH confidence.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#3iia",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -517,13 +630,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Give reasons:' (printed once for (a)-(b)) is not included; the text is a bare statement with no task.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 10 render and text layer: the group instruction 'Give reasons:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 10 prints only [2] beside 3 (ii) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#3iib",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -533,9 +657,20 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Give reasons:' (printed once for (a)-(b)) is not included; the text is a bare statement with no task.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 10 render and text layer: the group instruction 'Give reasons:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 10 prints only [2] beside 3 (ii) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#3iii",
@@ -555,7 +690,7 @@
     },
     {
       "key": "icse-2026-x-chemistry-specimen#3iva",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -565,13 +700,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Write balanced chemical equations for the following reactions:' (printed once for (a)-(c)) is not included.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 11 render and text layer: the group instruction 'Write balanced chemical equations for the following reactions:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 11 prints only [3] beside 3 (iv) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#3ivb",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -581,13 +727,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Write balanced chemical equations for the following reactions:' (printed once for (a)-(c)) is not included.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 11 render and text layer: the group instruction 'Write balanced chemical equations for the following reactions:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 11 prints only [3] beside 3 (iv) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#3ivc",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -597,9 +754,20 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Write balanced chemical equations for the following reactions:' (printed once for (a)-(c)) is not included.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 11 render and text layer: the group instruction 'Write balanced chemical equations for the following reactions:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 11 prints only [3] beside 3 (iv) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#4ia",
@@ -615,7 +783,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Question paper page 11 prints only [2] beside 4 (i) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]). | p51-fix-H1: Page 11 prints '(i) Name the main metal present in the following alloys: (a) Duralumin (b) Brass'; text now the printed instruction verbatim + the item as printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#4ib",
@@ -631,11 +810,22 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Question paper page 11 prints only [2] beside 4 (i) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]). | p51-fix-H1: Page 11 prints '(i) Name the main metal present in the following alloys: (a) Duralumin (b) Brass'; text now the printed instruction verbatim + the item as printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#4iia",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -645,13 +835,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Write balanced chemical equations for the following:' (printed once for (a)-(b)) is not included.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 11 render and text layer: the group instruction 'Write balanced chemical equations for the following:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 11 prints only [2] beside 4 (ii) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#4iib",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -661,9 +862,20 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Write balanced chemical equations for the following:' (printed once for (a)-(b)) is not included.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 11 render and text layer: the group instruction 'Write balanced chemical equations for the following:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 11 prints only [2] beside 4 (ii) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#4iii",
@@ -731,7 +943,7 @@
     },
     {
       "key": "icse-2026-x-chemistry-specimen#5iiia",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -741,13 +953,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'State the property exhibited by sulphuric acid in each of the following reactions:' (printed once for (a)-(c)) is not included; the text is only a phrase fragment, not a sentence.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 12 render and text layer: the group instruction 'State the property exhibited by sulphuric acid in each of the following reactions:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 12 prints only [3] beside 5 (iii) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#5iiib",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -757,13 +980,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'State the property exhibited by sulphuric acid in each of the following reactions:' (printed once for (a)-(c)) is not included; the text is only a phrase fragment.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 12 render and text layer: the group instruction 'State the property exhibited by sulphuric acid in each of the following reactions:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 12 prints only [3] beside 5 (iii) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#5iiic",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -773,13 +1007,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'State the property exhibited by sulphuric acid in each of the following reactions:' (printed once for (a)-(c)) is not included; the text is only a phrase fragment.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 12 render and text layer: the group instruction 'State the property exhibited by sulphuric acid in each of the following reactions:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 12 prints only [3] beside 5 (iii) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#5iva",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -789,13 +1034,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Give balanced equations for the following:' (printed once for (a)-(c)) is not included; the text is only a topic label.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 12 render and text layer: the group instruction 'Give balanced equations for the following:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 12 prints only [3] beside 5 (iv) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#5ivb",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -805,13 +1061,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Give balanced equations for the following:' (printed once for (a)-(c)) is not included; the text is only a topic label.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 12 render and text layer: the group instruction 'Give balanced equations for the following:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 12 prints only [3] beside 5 (iv) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#5ivc",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -821,9 +1088,20 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Give balanced equations for the following:' (printed once for (a)-(c)) is not included; the text is only a topic label.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 12 render and text layer: the group instruction 'Give balanced equations for the following:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 12 prints only [3] beside 5 (iv) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#6i",
@@ -832,14 +1110,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Picture identifying which solutions are mixed in Experiments 1 and 2 is needed; the solutions are not named anywhere in the extracted text.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Pages 12-13: picture for Experiment 1 at the foot of page 12 and for Experiment 2 at the top of page 13; both cropped complete with labels.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#6iia",
@@ -855,7 +1143,19 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Question paper page 13 prints only [2] beside 6 (ii) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]). | p51-fix-H1: Page 13 (render): '(ii) You are provided with the list of chemicals mentioned below in the box:' [box: Sodium hydroxide solution, copper carbonate, zinc, hydrochloric acid, copper, dilute sulphuric acid] 'Using suitable chemicals from the list given, write balanced chemical equation for the preparation of the salts mentioned below: (a) copper sulphate'; copied verbatim. Chapter: preparation of a salt = acids-bases-and-salts summary ('types of salts and methods used to prepare them'), HIGH.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#6iib",
@@ -871,7 +1171,19 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Question paper page 13 prints only [2] beside 6 (ii) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]). | p51-fix-H1: Page 13 (render): printed box and instruction '...write balanced chemical equation for the preparation of the salts mentioned below: (b) sodium zincate' copied verbatim. Chapter: the item asks for the preparation of a salt = acids-bases-and-salts summary ('methods used to prepare them'), HIGH.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#6iii",
@@ -898,12 +1210,24 @@
       "notation": "REBUILT_OK",
       "figure": "NONE",
       "answer": "MATCH",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "PUBLISH",
-      "reason": "",
-      "notes": ""
+      "decision": "HOLD",
+      "reason": "Reduction of copper oxide by hydrogen is not covered by any official ICSE Class 10 chemistry chapter summary (metallurgy: ores, concentration, aluminium extraction, alloys).",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Question paper page 13 prints only [3] beside 6 (iv) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]). | p51-fix-H1: Page 13 (render): '(iv) Identify the reactants P, Q and R in the following reactions: (a) Copper oxide + P → Copper + water' (arrow printed); text restored verbatim. Chapter not settled by any summary: withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#6ivb",
@@ -919,7 +1243,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Question paper page 13 prints only [3] beside 6 (iv) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]). | p51-fix-H1: Page 13 (render): '(iv) Identify the reactants P, Q and R in the following reactions: ... (b) Iron pyrite + Q → Iron oxide + Sulphur dioxide' (arrow printed); text restored verbatim.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#6ivc",
@@ -935,11 +1270,23 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED",
+          "CHAPTER_MAPPED"
+        ],
+        "evidence": "Question paper page 13 prints only [3] beside 6 (iv) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]). | p51-fix-H1: Page 13 (render): '(iv) Identify the reactants P, Q and R in the following reactions: ... (c) Sodium chloride + R → Sodium nitrate + Silver chloride'; text restored verbatim. Chapter: formation of the insoluble salt silver chloride by precipitation (double decomposition) is a salt-preparation method = acids-bases-and-salts summary, HIGH.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#7ia",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -949,13 +1296,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Give reasons for the following:' (printed once for (a)-(b)) is not included; the text is a bare statement with no task.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 14 render and text layer: the group instruction 'Give reasons for the following:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 14 prints only [2] beside 7 (i) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#7ib",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -965,9 +1323,21 @@
       "chapter": "WRONG",
       "suggestedChapter": "electrolysis",
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Give reasons for the following:' (printed once for (a)-(b)) is not included; the text is a bare statement with no task. Reasoning about silver-plated (electroplated) cutlery not being pure silver is Electrolysis-chapter content (uses of electrolysis: electroplating), not Metallurgy (ore extraction).",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS",
+          "ANSWER_COMPLETED"
+        ],
+        "evidence": "Page 14 render and text layer: the group instruction 'Give reasons for the following:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 14 prints only [2] beside 7 (i) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]). | p51-fix-H1: Marking scheme page 19 (PDF): '(b) because it is not made fully of silver only its top coating is of silver'; copied verbatim (no comma, lower-case 'because').",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#7iia",
@@ -983,7 +1353,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Question paper page 14 prints only [2] beside 7 (ii) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#7iib",
@@ -999,11 +1379,21 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Question paper page 14 prints only [2] beside 7 (ii) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#7iiia",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -1013,13 +1403,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Give balanced equations for each of the following:' (printed once for (a)-(c)) is not included; the text is only a topic label.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 14 render and text layer: the group instruction 'Give balanced equations for each of the following:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 14 prints only [3] beside 7 (iii) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#7iiib",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -1029,13 +1430,24 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Give balanced equations for each of the following:' (printed once for (a)-(c)) is not included; the text is only a topic label.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 14 render and text layer: the group instruction 'Give balanced equations for each of the following:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 14 prints only [3] beside 7 (iii) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#7iiic",
-      "text": "INCOMPLETE",
+      "text": "MATCH",
       "numberPage": "MATCH",
       "marks": "MATCH",
       "options": "NA",
@@ -1045,9 +1457,20 @@
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Shared instruction 'Give balanced equations for each of the following:' (printed once for (a)-(c)) is not included; the text is only a topic label.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "TEXT_CORRECTED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 14 render and text layer: the group instruction 'Give balanced equations for each of the following:' is printed once above this item; added to the item text. | p51-fix-D0: Question paper page 14 prints only [3] beside 7 (iii) for its 3 parts; the marking scheme in the same PDF also prints only [3] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#7iv",
@@ -1074,12 +1497,24 @@
       "notation": "OK",
       "figure": "NONE",
       "answer": "MATCH",
-      "chapter": "OK",
+      "chapter": "UNCERTAIN",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "PUBLISH",
-      "reason": "",
-      "notes": ""
+      "decision": "HOLD",
+      "reason": "Action of concentrated NaOH on zinc and aluminium metals is not in any official chapter summary (metallurgy: ores, aluminium extraction, alloys; analytical-chemistry: cation tests and amphoteric oxides/hydroxides only).",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED",
+          "HELD_AFTER_AUDIT"
+        ],
+        "evidence": "Question paper page 14 prints only [2] beside 8 (i) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]). | p51-fix-H1: Page 14: '(i) State giving reasons if: (a) zinc metal and aluminium metal can be distinguished ...'; text restored verbatim. Chapter not clearly covered by any summary: withdrawn.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#8ib",
@@ -1095,7 +1530,18 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-H1",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS",
+          "INSTRUCTION_RESTORED"
+        ],
+        "evidence": "Question paper page 14 prints only [2] beside 8 (i) for its 2 parts; the marking scheme in the same PDF also prints only [2] (no per-part mark or 'x1' rule, unlike Q1 [15x1] and Q2(ii)/(iii) [5x1]). | p51-fix-H1: Page 14: '(i) State giving reasons if: ... (b) calcium nitrate and lead nitrate can be distinguished by adding ammonium hydroxide solution to the salt solution.'; same printed group as 8(i)(a), text restored verbatim.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#8ii",
@@ -1120,14 +1566,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "MATCH",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Conversion-scheme diagram linking ZnSO4/Zn/ZnS/Zn(OH)2 with letters A-C is needed; the arrows/order are not reliably reconstructable from the flattened text layout.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig4",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 15: conversion scheme printed under 8 (iii); cropped complete.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2026-x-chemistry-specimen#8iv",

@@ -23,7 +23,17 @@
       "duplicate": "",
       "decision": "HOLD",
       "reason": "Identification of SO₂ by acidified KMnO₄ is a gas test with no dedicated syllabus chapter; stored Sulphuric Acid chapter is doubtful.",
-      "notes": "KMnO₄ subscript confirmed on rendered page 2."
+      "notes": "KMnO₄ subscript confirmed on rendered page 2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1ii",
@@ -39,7 +49,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "C₄H₈, C₅H₁₂, C₄H₆, C₅H₁₀ subscripts confirmed on rendered page 2."
+      "notes": "C₄H₈, C₅H₁₂, C₄H₆, C₅H₁₀ subscripts confirmed on rendered page 2.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1iii",
@@ -55,7 +75,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1iv",
@@ -71,7 +101,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Option subscripts confirmed on rendered page 3."
+      "notes": "Option subscripts confirmed on rendered page 3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1v",
@@ -87,7 +127,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Equation and Wingdings arrow (→) confirmed on rendered page 3."
+      "notes": "Equation and Wingdings arrow (→) confirmed on rendered page 3.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1vi",
@@ -103,7 +153,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1vii",
@@ -119,7 +179,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1viii",
@@ -128,14 +198,25 @@
       "marks": "MATCH",
       "options": "MATCH",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Bonding diagram of AB₂ on page 4 is needed to deduce the electron configurations.",
-      "notes": "Option table (A/B columns) matches rendered page 4."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "Option table (A/B columns) matches rendered page 4.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 4: bonding diagram printed under Q1(viii) stem | p51-fix-D0: Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1ix",
@@ -151,7 +232,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Subscripts confirmed on rendered page 4."
+      "notes": "Subscripts confirmed on rendered page 4.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1x",
@@ -167,7 +258,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "SO₃ confirmed on rendered page 5."
+      "notes": "SO₃ confirmed on rendered page 5.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1xi",
@@ -183,7 +284,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Charges Cl⁻, Li⁺, Al³⁺, K⁺ confirmed on rendered page 5."
+      "notes": "Charges Cl⁻, Li⁺, Al³⁺, K⁺ confirmed on rendered page 5.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1xii",
@@ -199,7 +310,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1xiii",
@@ -215,7 +336,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1xiv",
@@ -231,7 +362,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": ""
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#1xv",
@@ -247,7 +388,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "cm³, CH₄, equation and arrow confirmed on rendered page 6."
+      "notes": "cm³, CH₄, equation and arrow confirmed on rendered page 6.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 2-6: Question 1 prints only the group total [15] beside 'Choose the correct answers to the questions from the given options.'; no per-item mark or 'x1' rule is printed and the board paper has no marking scheme.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2i",
@@ -256,14 +407,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Apparatus diagram on page 7 identifies X, Y and the faulty collection set-up; needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "ALT_TEXT_NEUTRALISED"
+        ],
+        "evidence": "Page 7: apparatus diagram printed under Q2(i) stem | p51-fix-D0: Alt-text sweep: page 7 figure prints only the letter X beside the funnel (no 'thistle funnel' label); the old alt called X the thistle funnel, which is not printed and misdescribes X (part (a) asks what substance X is).",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2iia",
@@ -279,7 +441,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [5] shared by five items (a)-(e): 1 mark each is unambiguous."
+      "notes": "Printed [5] shared by five items (a)-(e): 1 mark each is unambiguous.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 7-8: 2 (ii) 'State the terms for the following:' prints only the group total [5] for (a)-(e); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2iib",
@@ -295,7 +467,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [5] shared by five items: 1 mark each."
+      "notes": "Printed [5] shared by five items: 1 mark each.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 7-8: 2 (ii) 'State the terms for the following:' prints only the group total [5] for (a)-(e); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2iic",
@@ -311,7 +493,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [5] shared by five items: 1 mark each."
+      "notes": "Printed [5] shared by five items: 1 mark each.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 7-8: 2 (ii) 'State the terms for the following:' prints only the group total [5] for (a)-(e); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2iid",
@@ -327,7 +519,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [5] shared by five items: 1 mark each."
+      "notes": "Printed [5] shared by five items: 1 mark each.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 7-8: 2 (ii) 'State the terms for the following:' prints only the group total [5] for (a)-(e); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2iie",
@@ -343,7 +545,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [5] shared by five items: 1 mark each."
+      "notes": "Printed [5] shared by five items: 1 mark each.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Pages 7-8: 2 (ii) 'State the terms for the following:' prints only the group total [5] for (a)-(e); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2iiia",
@@ -359,7 +571,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [5] shared by five items: 1 mark each."
+      "notes": "Printed [5] shared by five items: 1 mark each.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: 2 (iii) 'Complete the following sentences by choosing the correct word(s) from the brackets:' prints only the group total [5] for (a)-(e); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2iiib",
@@ -375,7 +597,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [5] shared by five items: 1 mark each."
+      "notes": "Printed [5] shared by five items: 1 mark each.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: 2 (iii) 'Complete the following sentences by choosing the correct word(s) from the brackets:' prints only the group total [5] for (a)-(e); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2iiic",
@@ -391,7 +623,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [5] shared by five items: 1 mark each."
+      "notes": "Printed [5] shared by five items: 1 mark each.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: 2 (iii) 'Complete the following sentences by choosing the correct word(s) from the brackets:' prints only the group total [5] for (a)-(e); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2iiid",
@@ -407,7 +649,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "[Ag → Ag⁺ + e⁻ / Ag⁺ + e⁻ → Ag] confirmed on rendered page 8 (arrows, charges, drawn slash). [5] over five items: 1 mark each."
+      "notes": "[Ag → Ag⁺ + e⁻ / Ag⁺ + e⁻ → Ag] confirmed on rendered page 8 (arrows, charges, drawn slash). [5] over five items: 1 mark each.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: 2 (iii) 'Complete the following sentences by choosing the correct word(s) from the brackets:' prints only the group total [5] for (a)-(e); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2iiie",
@@ -423,7 +675,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [5] shared by five items: 1 mark each."
+      "notes": "Printed [5] shared by five items: 1 mark each.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 8: 2 (iii) 'Complete the following sentences by choosing the correct word(s) from the brackets:' prints only the group total [5] for (a)-(e); no per-item mark is printed.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2iv",
@@ -455,7 +717,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [5] for 2 (v) covers exactly five items ((a)1-2, (b)1-3): 1 mark each is unambiguous."
+      "notes": "Printed [5] for 2 (v) covers exactly five items ((a)1-2, (b)1-3): 1 mark each is unambiguous.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 9: 2 (v) prints only the group total [5] for (a) 1-2 and (b) 1-3; items (b)1-3 already carry this GROUP_TOTAL status, so (a)1-2 now match it.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2va2",
@@ -471,7 +743,17 @@
       "duplicate": "",
       "decision": "PUBLISH",
       "reason": "",
-      "notes": "Printed [5] over five items: 1 mark each."
+      "notes": "Printed [5] over five items: 1 mark each.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fix-D0",
+        "at": "2026-10-04",
+        "actions": [
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 9: 2 (v) prints only the group total [5] for (a) 1-2 and (b) 1-3; items (b)1-3 already carry this GROUP_TOTAL status, so (a)1-2 now match it.",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2vb1",
@@ -480,14 +762,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Structural formula 1 on page 9 is not reproduced; nothing to name without it.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 9: structural formula 1 printed under Q2(v)(b); the only mark printed is [5] for the whole of Q2(v)",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2vb2",
@@ -496,14 +789,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Structural formula 2 on page 9 is not reproduced; nothing to name without it.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 9: structural formula 2 printed under Q2(v)(b); the only mark printed is [5] for the whole of Q2(v)",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#2vb3",
@@ -512,14 +816,25 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Structural formula 3 on page 9 is not reproduced; nothing to name without it.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED",
+          "MARKS_STATUS"
+        ],
+        "evidence": "Page 9: structural formula 3 printed under Q2(v)(b); the only mark printed is [5] for the whole of Q2(v)",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#3i",
@@ -640,14 +955,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Periodic-table grid on page 11 placing letters D-Q is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 11: periodic-table grid printed under Q4(iv) stem",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#5i",
@@ -720,14 +1045,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Venn diagram of oxide placement on page 13 is needed to answer.",
-      "notes": ""
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 13: oxide diagram printed under Q6(i) stem",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#6ii",
@@ -736,14 +1071,24 @@
       "marks": "MATCH",
       "options": "NA",
       "notation": "REBUILT_OK",
-      "figure": "ESSENTIAL_MISSING",
+      "figure": "RECOVERED",
       "answer": "NONE",
       "chapter": "OK",
       "suggestedChapter": null,
       "duplicate": "",
-      "decision": "HOLD",
-      "reason": "Structures of compounds A-F on page 13 are not reproduced.",
-      "notes": "H₂SO₄ confirmed."
+      "decision": "PUBLISH",
+      "reason": "",
+      "notes": "H₂SO₄ confirmed.",
+      "recovery": {
+        "pipeline": "p51-v1",
+        "agent": "p51-fig5",
+        "at": "2026-10-04",
+        "actions": [
+          "FIGURE_CROPPED"
+        ],
+        "evidence": "Page 13: structures A-F printed under Q6(ii) stem",
+        "confidence": "HIGH"
+      }
     },
     {
       "key": "icse-2025-x-chemistry#6iii",
