@@ -34,6 +34,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </Script>
         {children}
         <MotionRoot />
+        {/* Cloudflare Web Analytics (official snippet: token and attributes unchanged). */}
+        <Script
+          id="cf-web-analytics"
+          strategy="afterInteractive"
+          type="module"
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "542a45a5f8ce407f8e1d611387bac3cc"}'
+        />
       </body>
     </html>
   );
