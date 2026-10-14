@@ -2,7 +2,7 @@ import { and, eq, inArray } from "drizzle-orm";
 import { z } from "zod";
 import { getDb, schema } from "@/db";
 import type { QuestionType, SourceType } from "@/db/schema";
-import { gradeSubmission, itemScore, summarise } from "@/lib/engine/scoring";
+import { gradeSubmission, itemScore, summarise, worksheetSummary } from "@/lib/engine/scoring";
 import { isRealVerifiedPyq } from "@/lib/provenance";
 import { getPaper, type PaperView } from "./papers";
 
@@ -78,6 +78,8 @@ export async function saveSelfReview(attemptId: string, marks: { questionId: num
   if (!attempt) return { ok: false as const, error: "Attempt not found." };
   const paper = await getPaper(attempt.generatedPaperId, true);
   if (!paper) return { ok: false as const, error: "Paper not found." };
+  // Practice worksheets are not scored: nothing in them can be self-marked.
+  if (paper.kind === "WORKSHEET") return { ok: false as const, error: "Practice worksheets aren't scored, so their answers can't be marked." };
   // Only answers that weren't marked automatically when submitted can be self-marked (the stored method decides,
   // so a key added to a question later never locks or re-marks an earlier attempt). Unanswered ones stay 0.
   const stored = await db.select().from(attemptAnswers).where(eq(attemptAnswers.attemptId, attemptId));
@@ -187,6 +189,7 @@ export async function getAttemptResult(id: string) {
   });
 
   const totals = summarise(items);
+  const worksheet = paper.kind === "WORKSHEET" ? worksheetSummary(items.map((i) => ({ marks: i.marks, auto: i.auto, answered: Boolean(i.answer?.response), correct: i.answer?.isCorrect ?? null }))) : null;
 
   const chapterList = [...chapters.values()].sort((a, b) => a.label.localeCompare(b.label));
   // Weak = under 60% on the questions actually answered (and marked). Chapters only skipped are listed separately.
@@ -205,8 +208,9 @@ export async function getAttemptResult(id: string) {
       // The maximum is the sum of the paper's question marks (equal to the stored paper total).
       max: totals.max,
       pendingReview: totals.pending,
-      final: totals.final,
-      percent: totals.percent,
+      // Worksheets have no final score or percentage (see `worksheet`).
+      final: worksheet ? false : totals.final,
+      percent: worksheet ? null : totals.percent,
       attempted,
       unanswered,
       correct,
@@ -218,6 +222,8 @@ export async function getAttemptResult(id: string) {
       markedForReview,
       accuracy: correct + incorrect > 0 ? Math.round((correct / (correct + incorrect)) * 100) : null,
     },
+    /** Present for practice worksheets: what was checked, and what was not graded. */
+    worksheet,
     chapters: chapterList,
     types: [...types.values()],
     sections: [...sections.values()].sort((a, b) => a.key.localeCompare(b.key)),
@@ -242,6 +248,7 @@ export async function getAttemptSummaries(ids: string[]) {
       timeUsedSeconds: attempts.timeUsedSeconds,
       title: schema.generatedPapers.title,
       mode: schema.generatedPapers.mode,
+      kind: schema.generatedPapers.kind,
       hasDemo: schema.generatedPapers.hasDemo,
     })
     .from(attempts)

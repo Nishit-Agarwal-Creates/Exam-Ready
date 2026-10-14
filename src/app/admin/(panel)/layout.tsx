@@ -13,6 +13,7 @@ const ADMIN_NAV = [
   { href: "/admin/review", label: "Review queue" },
   { href: "/admin/research", label: "Research" },
   { href: "/admin/questions", label: "Questions" },
+  { href: "/admin/answers", label: "Answers" },
   { href: "/admin/papers", label: "Sources" },
   { href: "/admin/import", label: "Import" },
   { href: "/admin/duplicates", label: "Duplicates" },

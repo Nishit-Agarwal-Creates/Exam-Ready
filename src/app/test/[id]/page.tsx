@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ExamRunner, type ExamQuestion } from "@/components/exam-runner";
 import { getPaper } from "@/lib/data/papers";
+import { marksLabel } from "@/lib/engine/worksheet";
 
 export const dynamic = "force-dynamic";
 
@@ -39,6 +40,14 @@ export default async function TestPage({ params }: Props) {
           return src ? { paperId: src.paperId, page: src.pageNumber ?? null } : null;
         })()
       : null,
+    // Worksheets show each question's marks as the paper prints them (or a labelled practice suggestion), never invented.
+    ...(paper.kind === "WORKSHEET"
+      ? {
+          marksLabel: (({ short, long }) => ({ short, long }))(
+            marksLabel({ marks: item.marks, marksStatus: item.marks > 0 ? "PRINTED" : item.question.marksStatus, marksNote: item.question.marksNote, practiceMarks: item.question.practiceMarks }),
+          ),
+        }
+      : {}),
   }));
   return (
     <ExamRunner
@@ -50,6 +59,7 @@ export default async function TestPage({ params }: Props) {
         durationMinutes: paper.durationMinutes,
         hasDemo: paper.hasDemo,
         mode: paper.mode,
+        kind: paper.kind,
       }}
       questions={questions}
     />

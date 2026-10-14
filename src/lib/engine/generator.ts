@@ -38,6 +38,14 @@ export type PoolQuestion = {
    * eligibility.ts). The data layer always sets it; questions that can't be marked never enter a paper.
    */
   markable?: boolean;
+  /** Can be practised (see worksheet.ts): a known type, and option questions have their options. */
+  practicable?: boolean;
+  /** Has a valid answer key or a published model answer to show after a worksheet. */
+  hasAnswer?: boolean;
+  /** Has a valid answer key, so a worksheet answer can be checked automatically. */
+  autoCheck?: boolean;
+  /** Whether the paper prints this item's own mark (PRINTED); other statuses have marks = 0. */
+  marksStatus?: "PRINTED" | "GROUP_TOTAL" | "NOT_PRINTED" | "FRACTIONAL";
 };
 
 /** Optional builder filters, applied to the pool before a paper is estimated or generated. */
@@ -175,17 +183,24 @@ export function mulberry32(seed: number): () => number {
   };
 }
 
-type Category = "PYQ" | "OFFICIAL" | "COMMUNITY" | "AI";
+export type Category = "PYQ" | "OFFICIAL" | "COMMUNITY" | "AI";
 
 /** A paper question needs a positive whole-number mark and something to mark the answer against. */
 export function isMarkable(q: PoolQuestion): boolean {
   return q.markable !== false && Number.isInteger(q.marks) && q.marks > 0;
 }
 
-/** Which category a question counts as for paper building. Unreviewed/rejected/unpublished questions have none. */
+/** Which category a question counts as for a SCORED paper: its source category, and only if it can be marked. */
 export function categoryOf(q: PoolQuestion): Category | null {
+  return isMarkable(q) ? sourceCategory(q) : null;
+}
+
+/**
+ * The question's source category regardless of whether it can be marked (practice worksheets use this).
+ * Unreviewed/rejected/unpublished questions have none.
+ */
+export function sourceCategory(q: PoolQuestion): Category | null {
   if (!q.isPublished || q.verificationStatus === "REJECTED") return null;
-  if (!isMarkable(q)) return null;
   if (q.isRealPyq) return "PYQ";
   if (q.sourceType === "OFFICIAL_SAMPLE" && q.verificationStatus === "VERIFIED") return "OFFICIAL";
   if (q.sourceType === "USER_CONTRIBUTED" && q.verificationStatus === "VERIFIED") return "COMMUNITY";
@@ -407,9 +422,9 @@ function failureFor(eligible: PoolQuestion[], target: number, req: GenerateReque
       reason: "NO_QUESTIONS",
       message: `None of the ${unmarkable} question${unmarkable === 1 ? "" : "s"} in this selection can be used in a test yet: ${
         unmarkable === 1 ? "it has" : "they have"
-      } no answer key or official model answer to mark against, or no mark of ${unmarkable === 1 ? "its" : "their"} own. You can still read ${
+      } no answer key or official model answer to mark against, or no mark of ${unmarkable === 1 ? "its" : "their"} own. You can still practise ${
         unmarkable === 1 ? "it" : "them"
-      } in the question bank. Nothing will be made up to fill the gap.`,
+      } in a practice worksheet, which doesn't give a score. Nothing will be made up to fill the gap.`,
       maxAchievableMarks: 0,
       availableMarks: 0,
       stages,

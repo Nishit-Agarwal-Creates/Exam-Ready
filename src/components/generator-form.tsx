@@ -2,14 +2,16 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import type { PaperMode, QuestionType } from "@/db/schema";
+import type { PaperKind, PaperMode, QuestionType } from "@/db/schema";
 import type { YearCoverage } from "@/lib/engine/coverage";
 import { MODE_LABELS, suggestedMinutes, type Composition, type GenerateFailure, type Stage } from "@/lib/engine/generator";
 import type { CatalogBoard } from "@/lib/data/taxonomy";
+import type { WorksheetEstimate } from "@/lib/data/papers";
+import type { WorksheetFailure } from "@/lib/engine/worksheet";
 import { CompositionBar } from "./composition";
 import { SubjectGlyph } from "./subject-glyph";
 
-type Initial = { subjectId?: number; chapterIds?: number[]; mode?: PaperMode };
+type Initial = { subjectId?: number; chapterIds?: number[]; mode?: PaperMode; kind?: PaperKind };
 type Difficulty = "MIXED" | "EASY" | "MEDIUM" | "HARD";
 export type Availability = Record<number, { verified: number; pending: number; authentic?: number; ai: number; years: number[] }>;
 
@@ -24,6 +26,7 @@ type EstimateResponse = {
 };
 
 const MARK_PRESETS = [20, 25, 40, 50, 80];
+const COUNT_PRESETS = [10, 15, 20, 30];
 const TIME_PRESETS = [30, 45, 60, 90, 120, 180];
 const PYQ_MODES: PaperMode[] = ["PYQ_ONLY", "RECENT_PYQ", "MOST_REPEATED", "PYQ_PRIORITY", "EXAM_SIMULATION", "PYQ_PLUS_OFFICIAL"];
 const PRACTICE_MODES: PaperMode[] = ["PRACTICE", "AI_SUPPLEMENTARY"];
@@ -67,6 +70,8 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
   const initialChapters = start ? (initial.chapterIds ?? []).filter((id) => start.s.chapters.some((c) => c.id === id)) : [];
   const [scope, setScope] = useState<"full" | "chapters">(initialChapters.length ? "chapters" : "full");
   const [chapterIds, setChapterIds] = useState<number[]>(initialChapters);
+  const [kind, setKind] = useState<PaperKind>(initial.kind ?? "SCORED");
+  const [count, setCount] = useState(20);
   const [marks, setMarks] = useState(40);
   const [minutes, setMinutes] = useState(60);
   const [minutesTouched, setMinutesTouched] = useState(false);
@@ -78,39 +83,48 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
   const [yearTo, setYearTo] = useState<number | undefined>();
   const [excludeFigures, setExcludeFigures] = useState(false);
 
-  const [estState, setEstState] = useState<{ key: string; data?: EstimateResponse; error?: string } | null>(null);
+  const [estState, setEstState] = useState<{ key: string; data?: EstimateResponse | WorksheetEstimate; error?: string } | null>(null);
   const [submitting, setSubmitting] = useState(false);
-  const [submitState, setSubmitState] = useState<{ key: string; error?: string; failure?: GenerateFailure } | null>(null);
+  const [submitState, setSubmitState] = useState<{ key: string; error?: string; failure?: GenerateFailure; worksheetFailure?: WorksheetFailure } | null>(null);
   const [progress, setProgress] = useState<Progress>({ phase: "idle" });
   const dialogRef = useRef<HTMLDialogElement>(null);
 
-  const marksValid = Number.isInteger(marks) && marks >= 5 && marks <= 100;
+  const worksheet = kind === "WORKSHEET";
+  // A worksheet asks for a number of questions; its marks field isn't used.
+  const marksValid = worksheet || (Number.isInteger(marks) && marks >= 5 && marks <= 100);
+  const countValid = !worksheet || (Number.isInteger(count) && count >= 5 && count <= 60);
   const minutesValid = Number.isInteger(minutes) && minutes >= 5 && minutes <= 240;
   const effectiveChapters = scope === "chapters" ? chapterIds : [];
-  const ready = Boolean(subject) && marksValid && minutesValid && (scope === "full" || chapterIds.length > 0);
+  const ready = Boolean(subject) && marksValid && countValid && minutesValid && (scope === "full" || chapterIds.length > 0);
 
   const payload = subject
     ? {
+        kind,
+        questionCount: count,
         subjectId: subject.id,
         chapterIds: effectiveChapters,
-        totalMarks: marks,
+        totalMarks: worksheet ? 40 : marks,
         durationMinutes: minutes,
-        difficulty,
-        mode,
-        allowSupplement: FILLABLE.includes(mode) && allowSupplement,
+        difficulty: worksheet ? "MIXED" : difficulty,
+        mode: worksheet ? "PRACTICE" : mode,
+        // Worksheets: opt in to AI practice questions. Scored tests: fill gaps in the PYQ-first modes.
+        allowSupplement: worksheet ? allowSupplement : FILLABLE.includes(mode) && allowSupplement,
         questionTypes: types,
         yearFrom,
         yearTo,
         excludeFigures,
       }
     : null;
-  const payloadKey = payload && marksValid && minutesValid ? JSON.stringify(payload) : "";
+  const payloadKey = payload && marksValid && countValid && minutesValid ? JSON.stringify(payload) : "";
 
-  const est = payloadKey ? (estState?.data ?? null) : null;
+  const estAny = payloadKey ? (estState?.data ?? null) : null;
+  const wsEst = estAny && "kind" in estAny && estAny.kind === "WORKSHEET" ? estAny : null;
+  const est = estAny && !wsEst ? (estAny as EstimateResponse) : null;
   const estError = estState?.key === payloadKey ? (estState.error ?? null) : null;
   const estLoading = Boolean(payloadKey) && estState?.key !== payloadKey;
   const submitError = submitState && (submitState.key === payloadKey || !payloadKey) ? (submitState.error ?? null) : null;
   const failure = submitState?.key === payloadKey ? (submitState.failure ?? null) : null;
+  const wsFailure = submitState?.key === payloadKey ? (submitState.worksheetFailure ?? null) : null;
 
   function changeMarks(m: number) {
     setMarks(m);
@@ -123,7 +137,7 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
     const t = setTimeout(async () => {
       try {
         const res = await fetch("/api/estimate", { method: "POST", headers: { "Content-Type": "application/json" }, body: payloadKey });
-        const data = (await res.json()) as EstimateResponse & { error?: string };
+        const data = (await res.json()) as (EstimateResponse | WorksheetEstimate) & { error?: string };
         if (cancelled) return;
         if (!res.ok) throw new Error(data.error ?? "Couldn't check the question bank.");
         setEstState({ key: payloadKey, data });
@@ -155,7 +169,17 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
     e.preventDefault();
     if (submitting) return;
     if (!ready) {
-      const target = !cls ? 'input[name="class"]' : !subject ? 'input[name="subject"]' : scope === "chapters" && !chapterIds.length ? 'input[name="chapter"]' : !marksValid ? "#marks" : "#minutes";
+      const target = !cls
+        ? 'input[name="class"]'
+        : !subject
+          ? 'input[name="subject"]'
+          : scope === "chapters" && !chapterIds.length
+            ? 'input[name="chapter"]'
+            : !marksValid
+              ? "#marks"
+              : !countValid
+                ? "#count"
+                : "#minutes";
       document.querySelector<HTMLElement>(target)?.focus();
       setSubmitState({
         key: payloadKey,
@@ -165,7 +189,9 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
             ? "Choose a subject first."
             : scope === "chapters" && !chapterIds.length
               ? "Tick at least one chapter, or switch to the full syllabus."
-              : "Fix the marks or time above to continue.",
+              : worksheet
+                ? "Fix the number of questions or time above to continue."
+                : "Fix the marks or time above to continue.",
       });
       return;
     }
@@ -176,14 +202,20 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
     dialogRef.current?.showModal();
     try {
       const res = await fetch("/api/papers", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
-      const data = (await res.json()) as { id?: string; stages?: Stage[]; failure?: GenerateFailure; error?: string };
+      const data = (await res.json()) as { id?: string; stages?: Stage[]; failure?: GenerateFailure; worksheetFailure?: WorksheetFailure; error?: string };
       if (res.status === 201 && data.id) {
         setProgress({ phase: "working", stages: data.stages ?? [], shown: 0, done: true, id: data.id });
         return;
       }
       dialogRef.current?.close();
       setProgress({ phase: "idle" });
-      setSubmitState(data.failure ? { key: payloadKey, failure: data.failure } : { key: payloadKey, error: data.error ?? "The paper couldn't be built. Try again." });
+      setSubmitState(
+        data.failure
+          ? { key: payloadKey, failure: data.failure }
+          : data.worksheetFailure
+            ? { key: payloadKey, worksheetFailure: data.worksheetFailure }
+            : { key: payloadKey, error: data.error ?? "The paper couldn't be built. Try again." },
+      );
     } catch {
       dialogRef.current?.close();
       setProgress({ phase: "idle" });
@@ -196,7 +228,8 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
     setChapterIds((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
   }
 
-  const shownFailure = failure ?? (estLoading ? null : (est?.failure ?? null));
+  const shownFailure = worksheet ? null : (failure ?? (estLoading ? null : (est?.failure ?? null)));
+  const shownWsFailure = worksheet ? (wsFailure ?? (estLoading ? null : (wsEst?.failure ?? null))) : null;
   const projectedTotal = est?.projected ? Object.values(est.projected).reduce((s, v) => s + v.marks, 0) : 0;
   const pyqShare = est?.projected && projectedTotal ? Math.round((est.projected.VERIFIED_PYQ.marks / projectedTotal) * 100) : null;
   const avail = subject ? availability[subject.id] : undefined;
@@ -348,7 +381,86 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
           )}
         </Step>
 
-        <Step n={4} title="Marks, time and difficulty">
+        <Step n={4} title={worksheet ? "Questions and time" : "Marks, time and difficulty"}>
+          <fieldset className="mb-6">
+            <legend className="field-label">What to build</legend>
+            <div className="grid gap-2 sm:grid-cols-2">
+              <label className="choice h-full">
+                <input type="radio" name="kind" checked={!worksheet} onChange={() => setKind("SCORED")} />
+                <span>
+                  <span className="block font-bold">Scored test</span>
+                  <span className="block text-[0.9rem] text-pencil">
+                    A paper of the marks you choose. Every question has an answer key or official model answer, so you get a real score.
+                  </span>
+                </span>
+              </label>
+              <label className="choice h-full">
+                <input type="radio" name="kind" checked={worksheet} onChange={() => setKind("WORKSHEET")} />
+                <span>
+                  <span className="block font-bold">Practice worksheet</span>
+                  <span className="block text-[0.9rem] text-pencil">
+                    A number of questions to practise, including ones without a published answer. Only questions with an answer key are checked; there is
+                    no overall score.
+                  </span>
+                </span>
+              </label>
+            </div>
+          </fieldset>
+          {worksheet ? (
+            <div className="grid gap-6 md:grid-cols-2">
+              <div>
+                <label htmlFor="count" className="field-label">
+                  Number of questions
+                </label>
+                <div className="flex flex-wrap gap-2" role="group" aria-label="Common sizes">
+                  {COUNT_PRESETS.map((n) => (
+                    <button key={n} type="button" aria-pressed={count === n} onClick={() => setCount(n)} className={`btn btn-sm num ${count === n ? "btn-primary" : "btn-secondary"}`}>
+                      {n}
+                    </button>
+                  ))}
+                </div>
+                <input
+                  id="count"
+                  type="number"
+                  inputMode="numeric"
+                  min={5}
+                  max={60}
+                  className="input num mt-2 max-w-[9rem]"
+                  value={Number.isNaN(count) ? "" : count}
+                  aria-invalid={!countValid}
+                  aria-describedby="count-hint"
+                  onChange={(e) => setCount(e.target.value === "" ? NaN : Math.round(Number(e.target.value)))}
+                />
+                <p id="count-hint" className={countValid ? "field-hint mt-1" : "field-error"}>
+                  {countValid ? "Between 5 and 60." : "Enter a whole number of questions between 5 and 60."}
+                </p>
+              </div>
+              <div>
+                <label htmlFor="minutes" className="field-label">
+                  Time limit (minutes)
+                </label>
+                <input
+                  id="minutes"
+                  type="number"
+                  inputMode="numeric"
+                  min={5}
+                  max={240}
+                  className="input num max-w-[9rem]"
+                  value={Number.isNaN(minutes) ? "" : minutes}
+                  aria-invalid={!minutesValid}
+                  aria-describedby="minutes-hint"
+                  onChange={(e) => {
+                    setMinutesTouched(true);
+                    setMinutes(e.target.value === "" ? NaN : Math.round(Number(e.target.value)));
+                  }}
+                />
+                <p id="minutes-hint" className={minutesValid ? "field-hint mt-1" : "field-error"}>
+                  {minutesValid ? "A worksheet is untimed practice; this only sets the clock." : "Enter a time between 5 and 240 minutes."}
+                </p>
+              </div>
+            </div>
+          ) : (
+          <>
           <div className="grid gap-6 md:grid-cols-2">
             <div>
               <label htmlFor="marks" className="field-label">
@@ -429,8 +541,24 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
             </div>
             <p className="field-hint mt-1">Board exam questions aren&apos;t rated for difficulty, so this only affects practice questions.</p>
           </fieldset>
+          </>
+          )}
         </Step>
 
+        {worksheet ? (
+          <Step n={5} title="Questions to include">
+            <p className="text-[0.95rem]">
+              Verified previous-year questions, official sample questions and reviewed school-paper questions, each labelled with its source.
+            </p>
+            <label className="mt-4 flex items-start gap-3 rounded-xl border border-ink-line bg-ink-soft/60 p-3">
+              <input type="checkbox" className="mt-1 size-5 accent-[var(--color-ink)]" checked={allowSupplement} onChange={(e) => setAllowSupplement(e.target.checked)} />
+              <span>
+                <span className="block font-bold">Also include AI practice questions</span>
+                <span className="block text-[0.9rem] text-pencil">Written by AI, never presented as previous-year questions, and always stamped AI practice.</span>
+              </span>
+            </label>
+          </Step>
+        ) : (
         <Step n={5} title="Mode">
           <fieldset>
             <legend className="field-label">Previous-year question modes</legend>
@@ -452,6 +580,7 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
             </label>
           )}
         </Step>
+        )}
 
         <Step n={6} title="Refine (optional)" muted={!subject}>
           <fieldset>
@@ -522,10 +651,21 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
             <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-[0.95rem]">
               <dt className="text-pencil">Scope</dt>
               <dd>{subject ? (scope === "full" ? "Full syllabus" : `${chapterIds.length} chapter${chapterIds.length === 1 ? "" : "s"}`) : "–"}</dd>
-              <dt className="text-pencil">Marks and time</dt>
-              <dd className="num">{marksValid && minutesValid ? `${marks} marks, ${minutes} min` : "–"}</dd>
-              <dt className="text-pencil">Mode</dt>
-              <dd>{MODE_LABELS[mode].name}</dd>
+              {worksheet ? (
+                <>
+                  <dt className="text-pencil">Worksheet</dt>
+                  <dd className="num">{countValid && minutesValid ? `${count} questions, ${minutes} min` : "–"}</dd>
+                  <dt className="text-pencil">Scoring</dt>
+                  <dd>Questions with an answer key are checked; no overall score</dd>
+                </>
+              ) : (
+                <>
+                  <dt className="text-pencil">Marks and time</dt>
+                  <dd className="num">{marksValid && minutesValid ? `${marks} marks, ${minutes} min` : "–"}</dd>
+                  <dt className="text-pencil">Mode</dt>
+                  <dd>{MODE_LABELS[mode].name}</dd>
+                </>
+              )}
             </dl>
             {subject && scope === "chapters" && chapterIds.length > 0 && (
               <ol className="chapter-chain mt-3" aria-label="Chapters in this paper">
@@ -544,6 +684,26 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
                 <p className="text-[0.95rem] text-pencil">Pick a subject to see what&apos;s available.</p>
               ) : estError ? (
                 <p className="field-error">{estError}</p>
+              ) : worksheet ? (
+                !wsEst ? (
+                  <p className="text-[0.95rem] text-pencil">Checking the question bank…</p>
+                ) : (
+                  <div className={estLoading ? "opacity-60 transition-opacity" : "transition-opacity"}>
+                    <p className="text-sm font-bold text-pencil">Questions you can practise</p>
+                    <p className="font-serif text-[2rem] font-semibold leading-tight num">{wsEst.available}</p>
+                    <dl className="mt-3 grid grid-cols-[1fr_auto] gap-x-3 gap-y-1 text-[0.92rem]">
+                      <dt className="text-pencil">With an answer key or model answer</dt>
+                      <dd className="num font-bold">{wsEst.withAnswer}</dd>
+                      <dt className="text-pencil">Checked automatically</dt>
+                      <dd className="num font-bold">{wsEst.autoCheck}</dd>
+                    </dl>
+                    {wsEst.available > 0 && wsEst.withAnswer < wsEst.available && (
+                      <p className="mt-3 rounded-lg bg-pending-soft px-3 py-2 text-[0.88rem] text-pending">
+                        Some questions have no published answer yet. You can still practise them; their answers show &ldquo;Model answer not available yet&rdquo;.
+                      </p>
+                    )}
+                  </div>
+                )
               ) : !est ? (
                 <p className="text-[0.95rem] text-pencil">Checking the question bank…</p>
               ) : (
@@ -610,9 +770,31 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
                       Switch to practice mix
                     </button>
                   )}
+                  <button type="button" className="btn btn-secondary btn-sm" onClick={() => setKind("WORKSHEET")}>
+                    Make a practice worksheet instead
+                  </button>
                   {mode === "MOST_REPEATED" && (
                     <button type="button" className="btn btn-secondary btn-sm" onClick={() => setMode("RECENT_PYQ")}>
                       Try recent PYQs
+                    </button>
+                  )}
+                  {scope === "chapters" && (
+                    <button type="button" className="btn btn-secondary btn-sm" onClick={() => setScope("full")}>
+                      Use the full syllabus
+                    </button>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {shownWsFailure && subject && (
+              <div role="alert" className="expand-in mt-5 rounded-xl border-2 border-margin/50 bg-margin-soft p-4">
+                <p className="font-bold">No questions to practise</p>
+                <p className="mt-1 text-[0.95rem]">{shownWsFailure.message}</p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {!allowSupplement && (
+                    <button type="button" className="btn btn-secondary btn-sm" onClick={() => setAllowSupplement(true)}>
+                      Include AI practice questions
                     </button>
                   )}
                   {scope === "chapters" && (
@@ -633,11 +815,11 @@ export function GeneratorForm({ catalog, initial, availability }: { catalog: Cat
             <button
               type="submit"
               className="btn btn-primary fx-sweep mt-5 w-full text-[1.05rem]"
-              disabled={submitting || Boolean(subject && est?.failure && !estLoading)}
+              disabled={submitting || Boolean(subject && !estLoading && (worksheet ? wsEst?.failure : est?.failure))}
               data-magnetic
               data-fx="pulse"
             >
-              {submitting ? "Building your paper…" : "Build paper"}
+              {submitting ? (worksheet ? "Building your worksheet…" : "Building your paper…") : worksheet ? "Build worksheet" : "Build paper"}
             </button>
             {avail && avail.verified === 0 && avail.ai > 0 && (
               <p className="mt-3 text-center text-[0.85rem] text-pencil">Only AI practice questions are published for this subject so far.</p>

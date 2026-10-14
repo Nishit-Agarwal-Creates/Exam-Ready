@@ -43,6 +43,7 @@ export default async function PracticePage({ searchParams }: { searchParams: Pro
           subjectId,
           chapterIds,
           mode: (PAPER_MODES as readonly string[]).includes(mode ?? "") ? (mode as PaperMode) : undefined,
+          kind: one(sp.kind) === "worksheet" ? "WORKSHEET" : undefined,
         }}
         availability={availability}
       />

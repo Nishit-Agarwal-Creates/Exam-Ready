@@ -16,6 +16,19 @@ test("every admin server action except login and logout checks the admin session
   }
 });
 
+test("every admin route handler checks the admin session itself (layouts don't guard route handlers)", () => {
+  const routes: string[] = [];
+  const walk = (d: string) => {
+    for (const e of readdirSync(d)) {
+      const p = join(d, e);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (e === "route.ts") routes.push(p);
+    }
+  };
+  walk(join(root, "src/app/admin"));
+  for (const r of routes) assert.match(readFileSync(r, "utf8"), /await (isAdmin|requireAdmin)\(\)/, `${r} must check the admin session`);
+});
+
 test("the admin panel layout requires an admin session for every page under it", () => {
   const layout = readFileSync(join(root, "src/app/admin/(panel)/layout.tsx"), "utf8");
   assert.match(layout, /await requireAdmin\(\)/);

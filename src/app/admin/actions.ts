@@ -29,6 +29,7 @@ import {
   savePaper,
 } from "@/lib/data/admin";
 import { eq } from "drizzle-orm";
+import { discardAnswerDraft, publishAnswerDraft, saveAnswerDraft, type DraftInput } from "@/lib/data/answers";
 
 /** Revalidate pages and drop cached site-wide aggregates so an editor's change shows everywhere at once. */
 async function refresh(path: string, type?: "layout" | "page") {
@@ -404,4 +405,71 @@ export async function aiGeneratePracticeAction(fd: FormData) {
     });
   }
   redirect(withMsg(back, "saved", `${res.value.length} AI practice draft${res.value.length === 1 ? "" : "s"} saved as unpublished. Review and publish them from Questions.`));
+}
+
+// ───────────── Answers and marks review ─────────────
+
+const optNum = (v: string) => (v.trim() === "" ? undefined : Number(v));
+
+/** Reads the answer form into a draft (validation happens in the data layer, against the question's type and options). */
+function draftFromForm(fd: FormData, type: string): DraftInput {
+  const text = str(fd, "answerText").trim();
+  let key: DraftInput["key"] = null;
+  if (type === "MCQ" || type === "ASSERTION_REASON") {
+    const c = str(fd, "correctOption");
+    key = c === "" ? null : { correctOption: Number(c) };
+  } else if (type === "FILL_BLANK") {
+    const accepted = str(fd, "accepted")
+      .split(/\r?\n|,/)
+      .map((a) => a.trim())
+      .filter(Boolean);
+    key = accepted.length ? { accepted } : null;
+  } else if (type === "NUMERICAL" && str(fd, "numValue").trim() !== "") {
+    const unit = str(fd, "numUnit").trim();
+    key = { value: Number(str(fd, "numValue")), tolerance: Number(str(fd, "numTolerance") || 0), ...(unit ? { unit } : {}) };
+  }
+  const year = optNum(str(fd, "srcYear"));
+  const source = {
+    title: str(fd, "srcTitle").trim() || undefined,
+    year: Number.isInteger(year) ? year : undefined,
+    page: str(fd, "srcPage").trim() || undefined,
+    questionNumber: str(fd, "srcQno").trim() || undefined,
+    url: str(fd, "srcUrl").trim() || undefined,
+  };
+  const pm = optNum(str(fd, "practiceMarks"));
+  return {
+    text,
+    key,
+    rubric: str(fd, "rubric").trim(),
+    practiceMarks: pm === undefined ? null : pm,
+    notes: str(fd, "notes").trim(),
+    ...(Object.values(source).some((v) => v !== undefined) ? { source } : {}),
+  };
+}
+
+export type AnswerFormState = { errors?: Record<string, string> } | undefined;
+
+export async function answerWorkAction(_prev: AnswerFormState, fd: FormData): Promise<AnswerFormState> {
+  await requireAdmin();
+  const id = Number(str(fd, "id"));
+  if (!Number.isInteger(id) || id <= 0) return { errors: { form: "Unknown question." } };
+  const intent = str(fd, "intent");
+  const back = `/admin/answers/${id}`;
+  if (intent === "discard") {
+    await discardAnswerDraft(id);
+    await refresh("/admin/answers");
+    redirect(withMsg(back, "saved", "Draft discarded. The published answer is unchanged."));
+  }
+  const type = str(fd, "type");
+  const draft = draftFromForm(fd, type);
+  if (intent === "publish") {
+    const res = await publishAnswerDraft(id, draft, { asOfficial: fd.get("asOfficial") === "on", sourceChecked: fd.get("sourceChecked") === "on", source: draft.source }, ACTOR);
+    if (!res.ok) return { errors: res.errors };
+    await refresh("/", "layout");
+    redirect(withMsg(back, "saved", fd.get("asOfficial") === "on" ? "Published as the official answer." : "Published as an editor-reviewed model answer."));
+  }
+  const res = await saveAnswerDraft(id, draft, ACTOR);
+  if (!res.ok) return { errors: res.errors };
+  await refresh("/admin/answers");
+  redirect(withMsg(back, "saved", "Draft saved. Students don't see it until you publish it."));
 }

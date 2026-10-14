@@ -116,9 +116,37 @@ export type Confidence = (typeof CONFIDENCE_LEVELS)[number];
 export const MAPPING_STATUSES = ["CONFIRMED", "SUGGESTED"] as const;
 export type MappingStatus = (typeof MAPPING_STATUSES)[number];
 
-/** Where the stored answer came from. */
+/**
+ * Where the PUBLISHED answer came from. OFFICIAL_SCHEME: the board's own answer/scheme (checked against it).
+ * EDITOR: an original model answer written or reviewed by an ExamReady editor (never labelled official).
+ * AI: an AI-written answer on AI practice questions only. Unreviewed drafts live in answer_draft, never here.
+ */
 export const ANSWER_SOURCES = ["OFFICIAL_SCHEME", "EDITOR", "AI", "NONE"] as const;
 export type AnswerSource = (typeof ANSWER_SOURCES)[number];
+
+/** SCORED: a marks-balanced test (strict eligibility). WORKSHEET: questions for practice, only keyed ones are checked. */
+export const PAPER_KINDS = ["SCORED", "WORKSHEET"] as const;
+export type PaperKind = (typeof PAPER_KINDS)[number];
+
+/** Provenance of a published answer (questions.answer_meta). */
+export type AnswerSourceRef = { title?: string; year?: number | null; page?: string; questionNumber?: string; url?: string };
+export type AnswerMeta = { reviewedBy?: string; reviewedAt?: string; source?: AnswerSourceRef; sourceChecked?: boolean };
+
+/** An answer draft (questions.answer_draft). Never shown to students or used for marking until published. */
+export type AnswerDraft = {
+  origin: "AI" | "EDITOR";
+  text: string;
+  key?: { correctOption: number } | { accepted: string[] } | { value: number; tolerance: number; unit?: string } | null;
+  rubric?: string;
+  practiceMarks?: number | null;
+  source?: AnswerSourceRef;
+  notes?: string;
+  /** Problems the drafter noticed (ambiguous question, missing figure, uncertain solution, ...). */
+  flags?: string[];
+  confidence?: "HIGH" | "MEDIUM" | "LOW";
+  savedBy?: string;
+  savedAt?: string;
+};
 
 export const USER_ROLES = ["STUDENT", "TEACHER", "PARENT", "ADMIN"] as const;
 export const PLANS = ["FREE", "PRO", "INSTITUTE"] as const;
@@ -290,6 +318,14 @@ export const questions = sqliteTable(
     marksNote: text("marks_note").notNull().default(""),
     /** JSON array of figures cropped from the original source page (FigureAsset[]), or null. */
     figure: text("figure"),
+    /** Suggested practice allocation (editor's choice, labelled as such); never a printed mark, never used in scored tests. */
+    practiceMarks: integer("practice_marks"),
+    /** Marking points for a published descriptive answer. */
+    answerRubric: text("answer_rubric").notNull().default(""),
+    /** JSON AnswerMeta: who reviewed the published answer and which source it was checked against. */
+    answerMeta: text("answer_meta"),
+    /** JSON AnswerDraft awaiting review (see migration 0006). */
+    answerDraft: text("answer_draft"),
     extractionConfidence: text("extraction_confidence", { enum: CONFIDENCE_LEVELS }),
     /** JSON array of strings describing what extraction may have lost. */
     extractionIssues: text("extraction_issues").notNull().default("[]"),
@@ -351,6 +387,7 @@ export const generatedPapers = sqliteTable(
     userId: integer("user_id").references(() => users.id, { onDelete: "set null" }),
     title: text("title").notNull(),
     mode: text("mode", { enum: PAPER_MODES }).notNull(),
+    kind: text("kind", { enum: PAPER_KINDS }).notNull().default("SCORED"),
     totalMarks: integer("total_marks").notNull(),
     requestedMarks: integer("requested_marks").notNull(),
     durationMinutes: integer("duration_minutes").notNull(),

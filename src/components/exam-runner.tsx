@@ -30,9 +30,11 @@ export type ExamQuestion = {
   figureSource?: { paperId: number; page: number | null } | null;
   /** Figures cropped from the original source page. */
   figures?: { src: string; alt: string; width: number; height: number; page: number }[];
+  /** Worksheets: how this question's marks are shown (printed, group total, suggested for practice, or not printed). */
+  marksLabel?: { short: string; long: string };
 };
 
-type ExamPaper = { id: string; title: string; scope: string; totalMarks: number; durationMinutes: number; hasDemo: boolean; mode: PaperMode };
+type ExamPaper = { id: string; title: string; scope: string; totalMarks: number; durationMinutes: number; hasDemo: boolean; mode: PaperMode; kind?: "SCORED" | "WORKSHEET" };
 
 type Saved = {
   attemptId: string;
@@ -218,10 +220,17 @@ export function ExamRunner({ paper, questions }: { paper: ExamPaper; questions: 
                 <dt className="text-sm text-pencil">Questions</dt>
                 <dd className="num font-serif text-[1.6rem] font-semibold">{questions.length}</dd>
               </div>
-              <div>
-                <dt className="text-sm text-pencil">Marks</dt>
-                <dd className="num font-serif text-[1.6rem] font-semibold">{paper.totalMarks}</dd>
-              </div>
+              {paper.kind === "WORKSHEET" ? (
+                <div>
+                  <dt className="text-sm text-pencil">Scoring</dt>
+                  <dd className="font-serif text-[1.15rem] font-semibold">Practice only</dd>
+                </div>
+              ) : (
+                <div>
+                  <dt className="text-sm text-pencil">Marks</dt>
+                  <dd className="num font-serif text-[1.6rem] font-semibold">{paper.totalMarks}</dd>
+                </div>
+              )}
               <div>
                 <dt className="text-sm text-pencil">Time</dt>
                 <dd className="num font-serif text-[1.6rem] font-semibold">{paper.durationMinutes} min</dd>
@@ -231,8 +240,17 @@ export function ExamRunner({ paper, questions }: { paper: ExamPaper; questions: 
             <ul className="mt-2 list-disc space-y-1.5 pl-5 text-[1rem]">
               <li>The timer starts when you press Start and keeps running if you close the page.</li>
               <li>Your answers save on this device as you go, so you can reopen the test and continue.</li>
-              <li>Multiple choice, fill in the blank and numerical answers are marked automatically.</li>
-              <li>Written answers are marked by you afterwards, using the model answer.</li>
+              {paper.kind === "WORKSHEET" ? (
+                <>
+                  <li>This is a practice worksheet: there is no overall score.</li>
+                  <li>Questions with an answer key are checked after you submit. Everything else is shown with its model answer, where one is published.</li>
+                </>
+              ) : (
+                <>
+                  <li>Multiple choice, fill in the blank and numerical answers are marked automatically.</li>
+                  <li>Written answers are marked by you afterwards, using the model answer.</li>
+                </>
+              )}
               <li>When time runs out, your answers are submitted automatically.</li>
             </ul>
             <p className="mt-4 text-[0.95rem] text-pencil">
@@ -361,9 +379,15 @@ export function ExamRunner({ paper, questions }: { paper: ExamPaper; questions: 
                 <span className="sr-only"> of {questions.length}</span>
                 {q.section && <span className="ml-2 text-[1rem] font-normal text-pencil">Section {q.section}</span>}
               </h1>
-              <p className="marks text-[1.1rem]">
-                [{q.marks} {q.marks === 1 ? "mark" : "marks"}]
-              </p>
+              {q.marksLabel ? (
+                <p className="marks text-[1.1rem]" title={q.marksLabel.long} aria-label={q.marksLabel.long}>
+                  {q.marksLabel.short}
+                </p>
+              ) : (
+                <p className="marks text-[1.1rem]">
+                  [{q.marks} {q.marks === 1 ? "mark" : "marks"}]
+                </p>
+              )}
             </div>
             <p className="mt-1 flex flex-wrap items-center gap-2 text-[0.88rem] text-pencil">
               <span>{TYPE_NAMES[q.type]}</span>

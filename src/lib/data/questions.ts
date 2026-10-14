@@ -1,10 +1,24 @@
 import { and, asc, desc, eq, inArray, like, or, sql, type SQL } from "drizzle-orm";
 import { getDb, schema } from "@/db";
 import { AGGREGATE_TTL, sharedCache } from "@/lib/data/shared-cache";
-import type { AnswerSource, Confidence, Difficulty, FigureAsset, MappingStatus, MarksStatus, PaperType, QuestionType, ReviewState, SourceType, VerificationStatus } from "@/db/schema";
+import type {
+  AnswerMeta,
+  AnswerSource,
+  Confidence,
+  Difficulty,
+  FigureAsset,
+  MappingStatus,
+  MarksStatus,
+  PaperType,
+  QuestionType,
+  ReviewState,
+  SourceType,
+  VerificationStatus,
+} from "@/db/schema";
 import type { PoolQuestion } from "@/lib/engine/generator";
 import type { AnswerKey } from "@/lib/engine/grading";
 import { paperEligibility } from "@/lib/engine/eligibility";
+import { practiceReasons } from "@/lib/engine/worksheet";
 import type { SourceLink } from "@/lib/provenance";
 import { safeJson } from "@/lib/text";
 
@@ -46,13 +60,17 @@ const latestYearSql = sql<number | null>`(SELECT MAX(p.year) FROM question_sourc
  */
 const groupYearsSql = sql<number>`(SELECT COUNT(DISTINCT p.year) FROM questions q2 JOIN question_sources qs ON qs.question_id = q2.id JOIN papers p ON p.id = qs.paper_id WHERE (q2.canonical_question_id = COALESCE(${QCANON}, ${QID}) OR (q2.id = COALESCE(${QCANON}, ${QID}) AND q2.canonical_question_id IS NULL)) AND q2.verification_status = 'VERIFIED' AND q2.is_demo = 0 AND p.paper_type = 'BOARD_EXAM' AND p.is_demo = 0 AND p.year IS NOT NULL)`;
 
-export async function getPool(subjectId: number, chapterIds: number[], includeDemo: boolean): Promise<PoolQuestion[]> {
+/**
+ * The question pool for one subject (never mixes boards, classes or subjects). Scored papers only draw questions
+ * whose own mark is printed; practice worksheets (`forWorksheet`) also see the others, which they never score.
+ */
+export async function getPool(subjectId: number, chapterIds: number[], includeDemo: boolean, opts: { forWorksheet?: boolean } = {}): Promise<PoolQuestion[]> {
   const db = await getDb();
   const conds: SQL[] = [eq(questions.subjectId, subjectId)];
   if (chapterIds.length) conds.push(inArray(questions.chapterId, chapterIds));
   if (!includeDemo) conds.push(eq(questions.isDemo, false));
-  // A paper needs real marks: questions whose own mark isn't printed (group totals, unprinted) are never drawn.
-  conds.push(eq(questions.marksStatus, "PRINTED"));
+  // A scored paper needs real marks: questions whose own mark isn't printed (group totals, unprinted) are never drawn.
+  if (!opts.forWorksheet) conds.push(eq(questions.marksStatus, "PRINTED"));
   const rows = await db
     .select({
       id: questions.id,
@@ -79,7 +97,12 @@ export async function getPool(subjectId: number, chapterIds: number[], includeDe
     })
     .from(questions)
     .where(and(...conds));
-  return rows.map((r) => ({
+  return rows.map((r) => {
+    const options = safeJson<string[] | null>(r.options, null);
+    const answerKey = safeJson<AnswerKey>(r.answerKey, null);
+    const hasModelAnswer = Number(r.hasModelAnswer) === 1;
+    const fit = paperEligibility({ type: r.questionType, marks: r.marks, marksStatus: r.marksStatus, options, answerKey, hasModelAnswer });
+    return {
     id: r.id,
     chapterId: r.chapterId,
     topicId: r.topicId,
@@ -95,15 +118,13 @@ export async function getPool(subjectId: number, chapterIds: number[], includeDe
     groupId: r.canonical ?? r.id,
     groupYears: Number(r.groupYears ?? 0),
     hasFigure: Boolean(r.hasFigure),
-    markable: paperEligibility({
-      type: r.questionType,
-      marks: r.marks,
-      marksStatus: r.marksStatus,
-      options: safeJson<string[] | null>(r.options, null),
-      answerKey: safeJson<AnswerKey>(r.answerKey, null),
-      hasModelAnswer: Number(r.hasModelAnswer) === 1,
-    }).eligible,
-  }));
+    markable: fit.eligible,
+    practicable: practiceReasons({ type: r.questionType, options }).length === 0,
+    hasAnswer: fit.mode !== "NONE",
+    autoCheck: fit.mode === "AUTO",
+    marksStatus: r.marksStatus,
+    };
+  });
 }
 
 export type QuestionView = {
@@ -138,8 +159,10 @@ export type QuestionView = {
   reviewReason: string;
   /** "admin" (an editor) or "ExamReady automated review". */
   verifiedBy: string | null;
-  /** Only present when answers are requested (never during an exam). */
-  answer?: { text: string; explanation: string; key: AnswerKey };
+  /** Suggested practice allocation (an editor's suggestion, labelled as such; never a printed mark). */
+  practiceMarks: number | null;
+  /** Only present when answers are requested (never during an exam). Drafts are never included. */
+  answer?: { text: string; explanation: string; key: AnswerKey; rubric: string; meta: AnswerMeta | null };
 };
 
 export async function getSourcesFor(ids: number[]): Promise<Map<number, SourceLink[]>> {
@@ -227,6 +250,9 @@ const viewColumns = {
   marksStatus: questions.marksStatus,
   marksNote: questions.marksNote,
   figure: questions.figure,
+  practiceMarks: questions.practiceMarks,
+  answerRubric: questions.answerRubric,
+  answerMeta: questions.answerMeta,
   extractionConfidence: questions.extractionConfidence,
   extractionIssues: questions.extractionIssues,
   reviewState: questions.reviewState,
@@ -261,6 +287,9 @@ type ViewRow = {
   marksStatus: MarksStatus;
   marksNote: string;
   figure: string | null;
+  practiceMarks: number | null;
+  answerRubric: string;
+  answerMeta: string | null;
   extractionConfidence: Confidence | null;
   extractionIssues: string;
   reviewState: ReviewState | null;
@@ -302,7 +331,18 @@ function toView(r: ViewRow, sources: SourceLink[], groupSources: SourceLink[], w
     reviewState: r.reviewState,
     reviewReason: r.reviewReason,
     verifiedBy: r.verifiedBy,
-    ...(withAnswers ? { answer: { text: r.answerText, explanation: r.explanation, key: safeJson<AnswerKey>(r.answerKey, null) } } : {}),
+    practiceMarks: r.practiceMarks,
+    ...(withAnswers
+      ? {
+          answer: {
+            text: r.answerText,
+            explanation: r.explanation,
+            key: safeJson<AnswerKey>(r.answerKey, null),
+            rubric: r.answerRubric,
+            meta: safeJson<AnswerMeta | null>(r.answerMeta, null),
+          },
+        }
+      : {}),
   };
 }
 

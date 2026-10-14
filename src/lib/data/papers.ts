@@ -1,7 +1,7 @@
 import { asc, desc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod";
 import { getDb, getEnv, schema } from "@/db";
-import { DIFFICULTIES, PAPER_MODES, QUESTION_TYPES, type PaperMode, type SourceType } from "@/db/schema";
+import { DIFFICULTIES, PAPER_KINDS, PAPER_MODES, QUESTION_TYPES, type PaperKind, type PaperMode, type SourceType } from "@/db/schema";
 import {
   describeFilters,
   emptyComposition,
@@ -16,6 +16,7 @@ import {
 } from "@/lib/engine/generator";
 import { isRealVerifiedPyq } from "@/lib/provenance";
 import { coverageOf } from "@/lib/engine/coverage";
+import { WORKSHEET_MAX, WORKSHEET_MIN, generateWorksheet, worksheetPool, type WorksheetFailure } from "@/lib/engine/worksheet";
 export type { YearCoverage } from "@/lib/engine/coverage";
 import { safeJson, randomId } from "@/lib/text";
 import { getPool, getQuestionViews, type QuestionView } from "./questions";
@@ -23,9 +24,18 @@ import { getPool, getQuestionViews, type QuestionView } from "./questions";
 const { generatedPapers, paperQuestions, subjects, classes, boards, chapters } = schema;
 
 export const paperRequestSchema = z.object({
+  /** SCORED: a marks-balanced test. WORKSHEET: a number of questions to practise (nothing is scored but keyed answers). */
+  kind: z.enum(PAPER_KINDS).default("SCORED"),
   subjectId: z.coerce.number().int().positive(),
   chapterIds: z.array(z.coerce.number().int().positive()).max(60).default([]),
-  totalMarks: z.coerce.number().int().min(5, "Choose at least 5 marks.").max(100, "Papers can be at most 100 marks."),
+  totalMarks: z.coerce.number().int().min(5, "Choose at least 5 marks.").max(100, "Papers can be at most 100 marks.").default(40),
+  /** Worksheets only: how many questions. */
+  questionCount: z.coerce
+    .number()
+    .int()
+    .min(WORKSHEET_MIN, `Choose at least ${WORKSHEET_MIN} questions.`)
+    .max(WORKSHEET_MAX, `Worksheets can have at most ${WORKSHEET_MAX} questions.`)
+    .default(20),
   durationMinutes: z.coerce.number().int().min(5, "Allow at least 5 minutes.").max(240, "Papers can be at most 4 hours."),
   difficulty: z.enum(["MIXED", ...DIFFICULTIES]).default("MIXED"),
   mode: z.enum(PAPER_MODES),
@@ -87,6 +97,40 @@ async function validChapterIds(subjectId: number, ids: number[]): Promise<number
   return rows.filter((r) => r.subjectId === subjectId).map((r) => r.id);
 }
 
+export type WorksheetEstimate = {
+  kind: "WORKSHEET";
+  /** Distinct questions (one per duplicate group) that can be practised. */
+  available: number;
+  withAnswer: number;
+  autoCheck: number;
+  printedMarks: number;
+  failure: WorksheetFailure | null;
+  poolHasDemo: boolean;
+};
+
+export async function estimateWorksheet(req: PaperRequest): Promise<WorksheetEstimate> {
+  const chapterIds = await validChapterIds(req.subjectId, req.chapterIds);
+  const includeDemo = await includeDemoData();
+  const pool = filterPool(await getPool(req.subjectId, chapterIds, includeDemo, { forWorksheet: true }), filtersOf(req));
+  const usable = worksheetPool(pool, req.allowSupplement);
+  const groups = new Map<number, (typeof usable)[number]>();
+  for (const q of usable) {
+    const cur = groups.get(q.groupId);
+    if (!cur || (q.hasAnswer && !cur.hasAnswer)) groups.set(q.groupId, q);
+  }
+  const unique = [...groups.values()];
+  const trial = generateWorksheet(pool, { count: req.questionCount, seed: 12345, allowSupplement: req.allowSupplement });
+  return {
+    kind: "WORKSHEET",
+    available: unique.length,
+    withAnswer: unique.filter((q) => q.hasAnswer).length,
+    autoCheck: unique.filter((q) => q.autoCheck).length,
+    printedMarks: trial.ok ? trial.printedMarks : 0,
+    failure: trial.ok ? null : trial,
+    poolHasDemo: pool.some((p) => p.isDemo && p.isPublished),
+  };
+}
+
 export async function estimate(req: PaperRequest) {
   const chapterIds = await validChapterIds(req.subjectId, req.chapterIds);
   const includeDemo = await includeDemoData();
@@ -95,9 +139,62 @@ export async function estimate(req: PaperRequest) {
   return { ...est, poolHasDemo: pool.some((p) => p.isDemo && p.isPublished), coverage: coverageOf(pool) };
 }
 
-export type CreatePaperResult = { ok: true; id: string; stages: Stage[] } | { ok: false; failure: GenerateFailure } | { ok: false; error: string };
+export type CreatePaperResult =
+  | { ok: true; id: string; stages: Stage[] }
+  | { ok: false; failure: GenerateFailure }
+  | { ok: false; worksheetFailure: WorksheetFailure }
+  | { ok: false; error: string };
+
+/**
+ * A practice worksheet: N questions from one subject, including ones without an answer key or a mark of their own.
+ * Its stored total is the sum of PRINTED marks only (0 for items whose mark isn't printed); nothing is invented.
+ */
+async function createWorksheet(req: PaperRequest): Promise<CreatePaperResult> {
+  const ctx = await subjectContext(req.subjectId);
+  if (!ctx) return { ok: false, error: "That subject doesn't exist." };
+  const chapterIds = await validChapterIds(req.subjectId, req.chapterIds);
+  const includeDemo = await includeDemoData();
+  const filters = filtersOf(req);
+  const pool = filterPool(await getPool(req.subjectId, chapterIds, includeDemo, { forWorksheet: true }), filters);
+  const seed = Math.floor(Math.random() * 2 ** 31);
+  const result = generateWorksheet(pool, { count: req.questionCount, seed, allowSupplement: req.allowSupplement });
+  if (!result.ok) return { ok: false, worksheetFailure: result };
+  const db = await getDb();
+  const chapterNames = chapterIds.length
+    ? (await db.select({ name: chapters.name }).from(chapters).where(inArray(chapters.id, chapterIds)).orderBy(asc(chapters.sortOrder))).map(
+        (c) => c.name,
+      )
+    : [];
+  const scope = chapterNames.length === 0 ? "Full syllabus" : chapterNames.length <= 2 ? chapterNames.join(" and ") : `${chapterNames.length} chapters`;
+  const id = randomId();
+  const poolById = new Map(pool.map((p) => [p.id, p]));
+  const insertPaper = db.insert(generatedPapers).values({
+    id,
+    boardId: ctx.boardId,
+    classId: ctx.classId,
+    subjectId: ctx.subjectId,
+    title: `${ctx.subjectName}: practice worksheet, ${scope}`,
+    mode: "PRACTICE",
+    kind: "WORKSHEET",
+    totalMarks: result.printedMarks,
+    requestedMarks: req.questionCount,
+    durationMinutes: req.durationMinutes,
+    difficulty: "MIXED",
+    chapterIds: JSON.stringify(chapterIds),
+    composition: JSON.stringify(result.composition),
+    notices: JSON.stringify([describeFilters(filters, TYPE_LABELS), ...result.notices].filter(Boolean)),
+    hasDemo: result.selected.some((s) => poolById.get(s.questionId)?.isDemo),
+    seed,
+  });
+  const rows = result.selected.map((s, i) => ({ generatedPaperId: id, questionId: s.questionId, position: i + 1, section: s.section, marks: s.marks }));
+  const inserts = [];
+  for (let i = 0; i < rows.length; i += 18) inserts.push(db.insert(paperQuestions).values(rows.slice(i, i + 18)));
+  await db.batch([insertPaper, ...inserts]);
+  return { ok: true, id, stages: result.stages };
+}
 
 export async function createPaper(req: PaperRequest): Promise<CreatePaperResult> {
+  if (req.kind === "WORKSHEET") return createWorksheet(req);
   const ctx = await subjectContext(req.subjectId);
   if (!ctx) return { ok: false, error: "That subject doesn't exist." };
   const chapterIds = await validChapterIds(req.subjectId, req.chapterIds);
@@ -148,6 +245,8 @@ export type PaperView = {
   id: string;
   title: string;
   mode: PaperMode;
+  /** SCORED test or practice WORKSHEET (whose totalMarks counts printed marks only). */
+  kind: PaperKind;
   totalMarks: number;
   durationMinutes: number;
   difficulty: string;
@@ -184,6 +283,7 @@ export async function getPaper(id: string, withAnswers: boolean): Promise<PaperV
     id: p.id,
     title: p.title,
     mode: p.mode,
+    kind: p.kind,
     totalMarks: p.totalMarks,
     durationMinutes: p.durationMinutes,
     difficulty: p.difficulty,

@@ -54,7 +54,14 @@ export default async function PaperPage({ params, searchParams }: Props) {
             <section aria-label="Instructions" className="mt-5 font-serif text-[1rem]">
               <p className="font-semibold">General instructions</p>
               <ul className="mt-1 list-disc space-y-0.5 pl-5">
-                <li>Attempt all questions. The marks for each question are shown in brackets [ ].</li>
+                {paper.kind === "WORKSHEET" ? (
+                  <>
+                    <li>This is a practice worksheet, not a scored test. Marks are shown only where the source paper prints them.</li>
+                    <li>[–] means the paper prints no mark of its own for that question.</li>
+                  </>
+                ) : (
+                  <li>Attempt all questions. The marks for each question are shown in brackets [ ].</li>
+                )}
                 {paper.mode === "EXAM_SIMULATION" && <li>Section A has short questions. Section B has longer questions.</li>}
                 <li>Show your working for numerical questions.</li>
               </ul>
@@ -77,7 +84,14 @@ export default async function PaperPage({ params, searchParams }: Props) {
                       number++;
                       return (
                         <li key={item.position}>
-                          <QuestionBlock number={number} q={item.question} marks={item.marks} showAnswer={showAnswers} headingLevel={sec ? 3 : 2} />
+                          <QuestionBlock
+                            number={number}
+                            q={item.question}
+                            // Worksheet items without a printed mark show the question's own marks status, never an invented mark.
+                            marks={paper.kind === "WORKSHEET" && item.marks <= 0 ? undefined : item.marks}
+                            showAnswer={showAnswers}
+                            headingLevel={sec ? 3 : 2}
+                          />
                         </li>
                       );
                     })}

@@ -8,6 +8,7 @@ import type { SourceType } from "@/db/schema";
 import { getAttemptResult } from "@/lib/data/attempts";
 import { CountUp } from "@/components/motion/count-up";
 import { DEMO_SOURCE_LABELS, SOURCE_LABELS } from "@/lib/provenance";
+import { marksLabel } from "@/lib/engine/worksheet";
 import { formatDuration, pct } from "@/lib/text";
 
 export const dynamic = "force-dynamic";
@@ -75,6 +76,45 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
         </p>
       )}
 
+      {r.worksheet ? (
+        <section className="sheet sheet-ruled py-7 pr-5 sm:py-10 sm:pr-10" aria-labelledby="score-title">
+          <p className="text-sm font-bold text-pencil">
+            {paper.board.name} {paper.cls.name} {paper.subject.name}
+          </p>
+          <h1 id="score-title" className="mt-1 text-[1.8rem] sm:text-[2.3rem]">
+            Practice worksheet: {r.worksheet.checked === 0 ? "not graded" : r.worksheet.checked < r.worksheet.questions ? "partly checked" : "checked"}
+          </h1>
+          <p className="mt-2 max-w-2xl text-[1.05rem] text-pencil">
+            A worksheet isn&apos;t a scored test, so there is no overall score or percentage. Questions with an answer key were checked automatically;
+            the rest are shown below with their model answer where one is published.
+          </p>
+          <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 border-t border-rule pt-6 sm:grid-cols-3 lg:grid-cols-6">
+            {[
+              ["Time used", formatDuration(r.attempt.timeUsedSeconds)],
+              ["Answered", `${r.worksheet.answered} of ${r.worksheet.questions}`],
+              ["Checked automatically", String(r.worksheet.checked)],
+              ["Correct", r.worksheet.checked ? `${r.worksheet.correct} of ${r.worksheet.checked}` : "–"],
+              ["Not graded", String(r.worksheet.notGraded)],
+              ["Unanswered", String(r.worksheet.unanswered)],
+            ].map(([k, v]) => (
+              <div key={k}>
+                <dt className="text-sm text-pencil">{k}</dt>
+                <dd className="num mt-0.5 font-serif text-[1.35rem] font-semibold">{v}</dd>
+              </div>
+            ))}
+          </dl>
+          {r.worksheet.checkedMarks && (
+            <p className="mt-4 text-[0.95rem]">
+              On the {r.worksheet.checkedMarks.questions} checked question{r.worksheet.checkedMarks.questions === 1 ? "" : "s"} with printed marks:{" "}
+              <strong className="num">
+                {r.worksheet.checkedMarks.scored} of {r.worksheet.checkedMarks.max} marks
+              </strong>
+              . This covers only those questions, not the whole worksheet.
+            </p>
+          )}
+        </section>
+      ) : (
+        <>
       {/* Score */}
       <section className="sheet sheet-ruled py-7 pr-5 sm:py-10 sm:pr-10" aria-labelledby="score-title">
         <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-10">
@@ -236,6 +276,9 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
         </section>
       </div>
 
+        </>
+      )}
+
       {/* Question review */}
       <section className="mt-10" aria-labelledby="review-title">
         <h2 id="review-title" className="text-[1.7rem]">
@@ -247,15 +290,31 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
             const auto = item.auto;
             const a = item.answer;
             const response = a?.response ?? null;
-            const state = !response ? "unanswered" : auto ? (a?.isCorrect ? "correct" : "incorrect") : item.scored === null ? "to-mark" : "marked";
+            const worksheet = Boolean(r.worksheet);
+            const state = !response
+              ? "unanswered"
+              : auto
+                ? a?.isCorrect
+                  ? "correct"
+                  : "incorrect"
+                : worksheet
+                  ? "not-graded"
+                  : item.scored === null
+                    ? "to-mark"
+                    : "marked";
+            const label = worksheet ? marksLabel({ marks: item.marks, marksStatus: item.marks > 0 ? "PRINTED" : q.marksStatus, marksNote: q.marksNote, practiceMarks: q.practiceMarks }) : null;
             const badge = {
               unanswered: ["Not answered", "text-pencil border-rule-strong"],
               correct: ["Correct", "text-verified border-verified bg-verified-soft"],
               incorrect: ["Incorrect", "text-margin border-margin bg-margin-soft"],
               "to-mark": ["Needs your marks", "text-ink border-ink bg-ink-soft"],
               marked: ["Self-marked", "text-ink border-ink-line"],
-            }[state];
-            const shownResponse = (q.type === "MCQ" || q.type === "ASSERTION_REASON") && response !== null && q.options?.length ? `(${LETTERS[Number(response)]}) ${q.options[Number(response)] ?? ""}` : response;
+              "not-graded": ["Not graded", "text-pencil border-rule-strong"],
+            }[state]!;
+            // A choice answer is the option's index; anything else (older or unusual submissions) is shown as typed.
+            const optionIdx = response !== null && /^\d+$/.test(response) ? Number(response) : -1;
+            const shownResponse =
+              (q.type === "MCQ" || q.type === "ASSERTION_REASON") && q.options?.[optionIdx] !== undefined ? `(${LETTERS[optionIdx]}) ${q.options[optionIdx]}` : response;
             return (
               <li key={item.position} className="sheet p-4 sm:p-6">
                 <div className="flex flex-wrap items-center justify-between gap-2">
@@ -267,9 +326,15 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
                   </h3>
                   <div className="flex items-center gap-2">
                     <span className={`rounded border-[1.5px] px-2 py-0.5 text-[0.8rem] font-bold ${badge[1]}`}>{badge[0]}</span>
-                    <span className="marks num">
-                      {item.scored ?? "–"}/{item.marks}
-                    </span>
+                    {label ? (
+                      <span className="marks num" title={label.long}>
+                        {auto && item.marks > 0 ? `${a?.isCorrect ? item.marks : 0}/${item.marks}` : label.short}
+                      </span>
+                    ) : (
+                      <span className="marks num">
+                        {item.scored ?? "–"}/{item.marks}
+                      </span>
+                    )}
                   </div>
                 </div>
                 <p className="paper-text mt-3">{q.text}</p>
@@ -283,7 +348,7 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
                   </div>
                   <AnswerKeyText q={q} />
                 </div>
-                {!auto && response && (
+                {!auto && response && !worksheet && (
                   <div className="mt-4 flex flex-wrap items-center gap-3">
                     <label htmlFor={`self-${q.id}`} className="font-bold">
                       Marks you award

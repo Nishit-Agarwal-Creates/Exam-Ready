@@ -72,6 +72,26 @@ export function itemScore(
   return { auto, answered, scored: raw === null ? null : Math.min(Math.max(raw, 0), marks) };
 }
 
+/**
+ * A practice worksheet's result. There is no overall score or percentage: only questions with an answer key were
+ * checked. `checkedMarks` covers the checked questions whose marks are printed (others have no mark to count).
+ */
+export function worksheetSummary(items: { marks: number; auto: boolean; answered: boolean; correct: boolean | null }[]) {
+  const checked = items.filter((i) => i.auto);
+  const withMarks = checked.filter((i) => i.marks > 0);
+  return {
+    questions: items.length,
+    answered: items.filter((i) => i.answered).length,
+    checked: checked.length,
+    correct: checked.filter((i) => i.correct === true).length,
+    incorrect: checked.filter((i) => i.answered && i.correct !== true).length,
+    unanswered: items.filter((i) => !i.answered).length,
+    /** Answered but not checkable (no answer key): never graded. */
+    notGraded: items.filter((i) => !i.auto && i.answered).length,
+    checkedMarks: withMarks.length ? { scored: withMarks.filter((i) => i.correct === true).reduce((s, i) => s + i.marks, 0), max: withMarks.reduce((s, i) => s + i.marks, 0), questions: withMarks.length } : null,
+  };
+}
+
 /** Totals: `final` only when nothing waits for marking; the percentage is of the marks already marked. */
 export function summarise(items: { marks: number; scored: number | null }[]) {
   const max = items.reduce((s, i) => s + i.marks, 0);

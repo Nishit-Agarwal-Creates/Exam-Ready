@@ -12,6 +12,8 @@ type Row = {
   maxScore: number;
   autoScore: number | null;
   selfScore: number | null;
+  /** SCORED test or practice WORKSHEET (no overall score). */
+  kind?: "SCORED" | "WORKSHEET";
   timeUsedSeconds: number;
   title: string;
   mode: string;
@@ -74,8 +76,14 @@ export function MyPractice() {
                 </td>
                 <td className="whitespace-nowrap">{r.submittedAt ? new Date(r.submittedAt).toLocaleDateString("en-IN", { day: "numeric", month: "short" }) : "–"}</td>
                 <td className="num whitespace-nowrap">
-                  {score}/{r.maxScore}
-                  {r.selfScore === null && <span className="block text-sm text-pencil">written answers unmarked</span>}
+                  {r.kind === "WORKSHEET" ? (
+                    <span className="font-sans text-pencil">Practice worksheet, not scored</span>
+                  ) : (
+                    <>
+                      {score}/{r.maxScore}
+                      {r.selfScore === null && <span className="block text-sm text-pencil">written answers unmarked</span>}
+                    </>
+                  )}
                 </td>
                 <td className="whitespace-nowrap">{formatDuration(r.timeUsedSeconds)}</td>
                 <td className="whitespace-nowrap text-right">

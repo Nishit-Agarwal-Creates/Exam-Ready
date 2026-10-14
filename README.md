@@ -93,8 +93,10 @@ What was found, imported and blocked is recorded in `src/data/source-registry.js
 - **PYQ explorer** (`/pyqs`): board → class → subject → year → paper → questions, with filters for year, chapter, marks, type, difficulty (practice questions only), source and repeated questions.
 - **Question pages** (`/questions/[id]`): the full provenance panel, the official answer, other papers the same question appeared in, and similar questions from the same chapter.
 - **Coverage** (`/coverage`): verified PYQs, official samples, AI practice, questions awaiting review, source papers and exam years, by board, class, subject and chapter, counted live.
-- **Paper builder** (`/practice`):
-  - eight modes: PYQ only, Recent PYQs, Most repeated PYQs, PYQ priority, Exam simulation, PYQ + official sample, Practice mix, AI practice;
+- **Paper builder** (`/practice`) builds two kinds of paper:
+  - **Scored test**: a paper of the marks you choose. Every question can be marked (a valid answer key, or an official or editor-reviewed model answer to self-mark against) and has a printed mark of its own, so the score is real.
+  - **Practice worksheet** (`/practice?kind=worksheet`): a number of questions (5–60) from one subject, including questions without a published answer or a mark of their own, which is what school papers for ICSE Classes 6–9 mostly are. Only questions with an answer key are checked; everything else is "Not graded" and shows its model answer, or "Model answer not available yet". There is no overall score or percentage, marks are shown as printed ("[–]" when the paper prints none, or a labelled practice suggestion), and nothing is invented.
+  - scored tests have eight modes: PYQ only, Recent PYQs, Most repeated PYQs, PYQ priority, Exam simulation, PYQ + official sample, Practice mix, AI practice;
   - full-syllabus or chapter-wise scope; marks, time and difficulty;
   - refine by question type, PYQ exam-year range and "leave out questions that need a figure"; duplicates across sets are always used once;
   - live year-by-year coverage before you build. The paper records the filters it used.
@@ -109,7 +111,8 @@ What was found, imported and blocked is recorded in `src/data/source-registry.js
 **Admin** (`/admin`)
 
 - **Research centre** (`/admin/research`): the review pipeline (verified by automated review, verified by an editor, held, awaiting review, rejected), held questions grouped by reason with the most common reasons and a link to each queue, what is still awaiting review, a per-document table (auto-verified, editor-verified, held, pending, issues), and the registry of official sources found, imported, link-only and blocked.
-- **Questions list**: filter by review result; each row shows its review state and, on hover, the reason it was held.
+- **Questions list**: filter by review result and by "usable in tests"; each row shows its review state, the reason it was held, and why it can't be used in scored tests.
+- **Answers and marks** (`/admin/answers`): the answer-completion queue, with counts for missing answer keys, missing individual marks, missing options, written questions without a model answer, invalid types, incomplete figures or sources, AI drafts awaiting review, editor drafts, and reviewed answers citing an unchecked source; filter by subject and export the queue as CSV. For each question an editor writes or reviews a model answer, accepted alternatives, a numerical tolerance (with a stated reason), marking points, a labelled practice-marks suggestion, and the source (title, year, page, question number, link). Drafts are saved separately and never shown to students or used for marking until published. A published answer is an editor-reviewed model answer, labelled as not official; it is labelled official only when the editor names the official source and confirms they checked it. Answer statuses: missing, AI draft (not reviewed), editor draft, editor-reviewed model answer, official answer checked against its source.
 - Dashboard with live counts:
   - provenance distribution and questions by board, class, subject and year;
   - pending, rejected and duplicate groups;
@@ -225,6 +228,15 @@ Locally, secrets live in `.dev.vars` (git-ignored). Never commit it.
 
 ## Deploying an update
 
+For the practice-worksheet and answer-workflow release, apply migration `0006_answer_workflow.sql` before the code deploys (it adds `practice_marks`, `answer_rubric`, `answer_meta` and `answer_draft` to questions and `kind` to generated papers; all additive). AI answer drafts are loaded separately and only fill empty draft slots:
+
+```bash
+npm run db:migrate:remote
+node --experimental-strip-types scripts/answer-drafts.ts     # validates src/data/answer-drafts/*.json → drizzle/seed/answer-drafts.sql
+npx wrangler d1 execute DB --remote --file=drizzle/seed/answer-drafts.sql
+node --experimental-strip-types scripts/eligibility-report.ts --remote   # read-only: what can be used in scored tests, and why not
+```
+
 For the Phase 5.1 release (recovered figures and marks status), apply migration `0005_recovery.sql` **before** the new code is deployed, because the code reads the new columns:
 
 ```bash
@@ -286,7 +298,8 @@ If a local OpenNext build fails with `EPERM` on `.next` or `.open-next`, stop an
 - **Some official answers are missing.** The 2026 XII Physics marking scheme is image-only (no answers extracted); drawn structures, diagrams and some equations in other schemes are missing and flagged.
 - **Notation losses are flagged, not hidden.** Maths and physics text layers often drop symbols (√, ∫, Greek letters, fraction bars). Rebuilt notation is marked MEDIUM, lost notation LOW, and every such question lists the issue for the editor.
 - Figures, tables, graphs, maps and passages are shown as crops of the original page (`public/figures/<pack>/`, cropped offline by `scripts/recovery/page.py`; never redrawn). Where a figure isn't printed in the PDF, is illegible or can't be cropped cleanly, the question stays held. Blank outline maps that students draw on are shown only where the paper itself prints them.
-- Marks are shown only where the paper prints them for that item (or prints a per-item rule). Items under a printed group total show the total and are left out of generated papers, as are items with no printed mark.
+- Marks are shown only where the paper prints them for that item (or prints a per-item rule). Items under a printed group total show the total and are left out of scored tests, as are items with no printed mark; practice worksheets include them without a mark.
+- Many questions have no published answer (school papers print none). They are practised in worksheets, not scored tests. AI-written answer drafts exist for some ICSE Class 6–7 objective questions but stay hidden until an editor reviews and publishes them in `/admin/answers`.
 - Chapter mappings of questions still awaiting review are suggestions; reviewed questions have a confirmed or corrected chapter. Questions with no fitting syllabus chapter are held back.
 - Student accounts aren't built yet; attempt history is per device.
 

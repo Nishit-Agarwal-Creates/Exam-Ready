@@ -48,15 +48,22 @@ export function AnswerKeyText({ q }: { q: QuestionView }) {
   if (!keyLine && !hasText) {
     return (
       <div className="rounded-xl border border-dashed border-rule-strong px-4 py-3 text-[0.95rem] text-pencil">
-        No official answer has been published for this question, so none is shown.
+        Model answer not available yet. No official answer has been published for this question, and none has been written and reviewed yet.
       </div>
     );
   }
   const official = q.answerSource === "OFFICIAL_SCHEME";
+  const src = q.answer.meta?.source;
   return (
     <div className={`rounded-xl border-l-4 px-4 py-3 ${official ? "border-verified bg-verified-soft/60" : "border-ink-line bg-ink-soft/50"}`}>
       <p className={`text-sm font-bold ${official ? "text-verified" : "text-ink"}`}>
-        {official ? "Official marking scheme" : q.answerSource === "AI" ? "Model answer (written by AI)" : "Model answer"}
+        {official
+          ? "Official marking scheme"
+          : q.answerSource === "AI"
+            ? "Model answer (written by AI)"
+            : q.answerSource === "EDITOR"
+              ? "Model answer written by ExamReady and reviewed by an editor (not an official answer)"
+              : "Model answer"}
       </p>
       {keyLine && (
         <p className="mt-1 font-bold">
@@ -68,7 +75,31 @@ export function AnswerKeyText({ q }: { q: QuestionView }) {
           <MathText text={q.answer.text} />
         </p>
       )}
+      {q.answer.rubric && (
+        <div className="mt-2">
+          <p className="text-sm font-bold text-pencil">Marking points</p>
+          <p className="paper-text mt-0.5 text-[0.98rem]" data-indented={isIndented(q.answer.rubric) || undefined}>
+            <MathText text={q.answer.rubric} />
+          </p>
+        </div>
+      )}
       {q.answer.explanation && <p className="mt-2 text-[0.95rem] text-pencil">{q.answer.explanation}</p>}
+      {src?.title && (
+        <p className="mt-2 text-[0.85rem] text-pencil">
+          {official ? "Checked against" : "Reference"}: {src.title}
+          {src.year ? ` (${src.year})` : ""}
+          {src.questionNumber ? `, question ${src.questionNumber}` : ""}
+          {src.page ? `, page ${src.page}` : ""}
+          {src.url && (
+            <>
+              {" "}
+              <a href={src.url} className="link" target="_blank" rel="noopener noreferrer">
+                source
+              </a>
+            </>
+          )}
+        </p>
+      )}
       {official && hasText && /(…|\.\.\.)\s*$/.test(q.answer.text) && <ShortenedNote q={q} />}
     </div>
   );
@@ -223,6 +254,7 @@ export function QuestionBlock({
               : q.marksStatus === "FRACTIONAL"
                 ? `Marks: ${q.marksNote} as printed.`
                 : "Marks: not printed on the paper for this question."}
+            {q.practiceMarks && q.practiceMarks > 0 ? ` Suggested practice marks: ${q.practiceMarks} (an ExamReady suggestion, not from the paper).` : ""}
           </p>
         )}
         {showMeta && (

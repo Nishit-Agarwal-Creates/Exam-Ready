@@ -8,6 +8,7 @@ import type { PaperView } from "@/lib/data/papers";
 import { answerAddsInfo } from "@/lib/answer-text";
 import { loadFontkit, loadPdfLib } from "@/lib/browser-libs";
 import { citation, isRealVerifiedPyq } from "@/lib/provenance";
+import { marksLabel } from "@/lib/engine/worksheet";
 
 const LETTERS = ["a", "b", "c", "d", "e", "f"];
 
@@ -225,7 +226,8 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
     y -= 14;
   }
   y -= 6;
-  text(`Maximum Marks: ${paper.totalMarks}`, M, 11.5, bold);
+  // A worksheet has no maximum: many of its questions have no mark of their own on the source paper.
+  text(paper.kind === "WORKSHEET" ? `Practice worksheet: ${paper.items.length} questions (not scored)` : `Maximum Marks: ${paper.totalMarks}`, M, 11.5, bold);
   const timeStr = `Time allowed: ${paper.durationMinutes} minutes`;
   page.drawText(timeStr, { x: W - M - bold.widthOfTextAtSize(timeStr, 11.5), y, size: 11.5, font: bold, color: ink });
   y -= 10;
@@ -311,7 +313,11 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
       const blockH = lines.length * 14.5 + optLines.length * 14 + (tag ? 12 : 0) + (figureNote ? 13 : 0) + 12;
       ensure(Math.min(blockH, 200));
       text(`${n}.`, numX, 11.5, bold);
-      const marksStr = `[${item.marks}]`;
+      // Worksheet items without a printed mark: "[–]" or a labelled practice suggestion "(n*)", never an invented mark.
+      const marksStr =
+        paper.kind === "WORKSHEET" && item.marks <= 0
+          ? marksLabel({ marks: 0, marksStatus: q.marksStatus, marksNote: q.marksNote, practiceMarks: q.practiceMarks }).short
+          : `[${item.marks}]`;
       page.drawText(marksStr, { x: W - M - bold.widthOfTextAtSize(marksStr, 11.5), y, size: 11.5, font: bold, color: ink });
       for (const l of lines) {
         ensure(14.5);
@@ -374,12 +380,12 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
       else if (key && "value" in key) keyLine = `${key.value}${key.unit ? ` ${key.unit}` : ""}`;
       const body = [keyLine, answerAddsInfo(keyLine, q.answer.text) ? q.answer.text : ""].filter(Boolean).join("\n");
       const origin =
-        q.answerSource === "OFFICIAL_SCHEME" ? "Official marking scheme" : q.answerSource === "AI" ? "Model answer written by AI" : q.answerSource === "EDITOR" ? "Model answer" : "";
+        q.answerSource === "OFFICIAL_SCHEME" ? "Official marking scheme" : q.answerSource === "AI" ? "Model answer written by AI" : q.answerSource === "EDITOR" ? "Model answer by ExamReady, editor-reviewed (not official)" : "";
       const imageNote = q.extractionIssues.some((i) => /image/i.test(i) && /(scheme|answer)/i.test(i))
         ? " (Parts of the official answer are images in the marking scheme and are not reproduced here.)"
         : "";
       const lines = wrap(
-        body ? `${origin ? `${origin}: ` : ""}${body}${imageNote}` : "No official answer has been published for this question.",
+        body ? `${origin ? `${origin}: ` : ""}${body}${imageNote}` : "Model answer not available yet.",
         regular,
         10.5,
         textW + marksW,

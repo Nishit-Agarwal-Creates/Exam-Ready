@@ -10,5 +10,6 @@ export async function POST(request: Request) {
   const result = await createPaper(parsed.data);
   if (result.ok) return NextResponse.json({ id: result.id, stages: result.stages }, { status: 201 });
   if ("failure" in result) return NextResponse.json({ failure: result.failure }, { status: 422 });
+  if ("worksheetFailure" in result) return NextResponse.json({ worksheetFailure: result.worksheetFailure }, { status: 422 });
   return NextResponse.json({ error: result.error }, { status: 400 });
 }
