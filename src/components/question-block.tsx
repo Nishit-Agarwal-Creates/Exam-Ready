@@ -41,7 +41,7 @@ export function AnswerKeyText({ q }: { q: QuestionView }) {
   if (!q.answer) return null;
   const key = q.answer.key;
   let keyLine: string | null = null;
-  if (key && "correctOption" in key && q.options) keyLine = `(${LETTERS[key.correctOption]}) ${q.options[key.correctOption]}`;
+  if (key && "correctOption" in key && q.options?.[key.correctOption] !== undefined) keyLine = `(${LETTERS[key.correctOption]}) ${q.options[key.correctOption]}`;
   else if (key && "accepted" in key) keyLine = key.accepted.join(" / ");
   else if (key && "value" in key) keyLine = `${key.value}${key.unit ? ` ${key.unit}` : ""}`;
   const hasText = answerAddsInfo(keyLine ?? "", q.answer.text);

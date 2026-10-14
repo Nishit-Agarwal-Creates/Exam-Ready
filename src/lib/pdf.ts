@@ -369,7 +369,7 @@ export async function downloadPaperPdf(paper: PaperView, withAnswers: boolean): 
       const num = numbers.get(item.position) ?? item.position;
       let keyLine = "";
       const key = q.answer.key;
-      if (key && "correctOption" in key && q.options) keyLine = `(${LETTERS[key.correctOption]}) ${q.options[key.correctOption]}`;
+      if (key && "correctOption" in key && q.options?.[key.correctOption] !== undefined) keyLine = `(${LETTERS[key.correctOption]}) ${q.options[key.correctOption]}`;
       else if (key && "accepted" in key) keyLine = key.accepted.join(" / ");
       else if (key && "value" in key) keyLine = `${key.value}${key.unit ? ` ${key.unit}` : ""}`;
       const body = [keyLine, answerAddsInfo(keyLine, q.answer.text) ? q.answer.text : ""].filter(Boolean).join("\n");

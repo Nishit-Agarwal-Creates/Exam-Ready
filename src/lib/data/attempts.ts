@@ -2,7 +2,7 @@ import { and, eq, inArray } from "drizzle-orm";
 import { z } from "zod";
 import { getDb, schema } from "@/db";
 import type { QuestionType, SourceType } from "@/db/schema";
-import { canAutoGrade, evaluate } from "@/lib/engine/grading";
+import { gradeSubmission, itemScore, summarise } from "@/lib/engine/scoring";
 import { isRealVerifiedPyq } from "@/lib/provenance";
 import { getPaper, type PaperView } from "./papers";
 
@@ -29,35 +29,19 @@ export type SubmitInput = z.infer<typeof submitSchema>;
 
 export async function submitAttempt(input: SubmitInput): Promise<{ ok: true; id: string } | { ok: false; error: string }> {
   const db = await getDb();
-  const [existing] = await db.select({ id: attempts.id, paperId: attempts.generatedPaperId }).from(attempts).where(eq(attempts.id, input.attemptId));
-  if (existing) {
-    // Repeat submissions (double click, retry after a network error) return the stored result.
-    return existing.paperId === input.paperId ? { ok: true, id: existing.id } : { ok: false, error: "This attempt belongs to another paper." };
-  }
+  const existingResult = async () => {
+    const [existing] = await db.select({ id: attempts.id, paperId: attempts.generatedPaperId }).from(attempts).where(eq(attempts.id, input.attemptId));
+    if (!existing) return null;
+    // Repeat submissions (double click, refresh, retry after a network error) return the stored result; marks are never added twice.
+    return existing.paperId === input.paperId ? ({ ok: true, id: existing.id } as const) : ({ ok: false, error: "This attempt belongs to another paper." } as const);
+  };
+  const before = await existingResult();
+  if (before) return before;
   const paper = await getPaper(input.paperId, true);
   if (!paper) return { ok: false, error: "This paper no longer exists." };
 
-  const responses = new Map(input.answers.map((a) => [a.questionId, a]));
-  let autoScore = 0;
-  const rows = paper.items.map((item) => {
-    const given = responses.get(item.question.id);
-    const response = given?.response?.trim() ? given.response.trim() : null;
-    const result = evaluate(item.question.type, item.question.answer?.key ?? null, item.marks, response);
-    if (result.marksAwarded) autoScore += result.marksAwarded;
-    return {
-      attemptId: input.attemptId,
-      questionId: item.question.id,
-      position: item.position,
-      response,
-      isCorrect: result.isCorrect,
-      marksAwarded: result.marksAwarded,
-      evaluationMethod: result.method,
-      markedForReview: given?.markedForReview ?? false,
-    };
-  });
+  const graded = gradeSubmission(paper.items, input.answers);
   const limit = paper.durationMinutes * 60 + 120;
-  // Nothing to self-review when no written answer was given, so the attempt is fully marked.
-  const pendingWritten = rows.some((r) => r.evaluationMethod === "NONE" && r.response !== null);
   const insertAttempt = db.insert(attempts).values({
     id: input.attemptId,
     generatedPaperId: paper.id,
@@ -65,13 +49,22 @@ export async function submitAttempt(input: SubmitInput): Promise<{ ok: true; id:
     submittedAt: new Date().toISOString(),
     timeUsedSeconds: Math.min(input.timeUsedSeconds, limit),
     status: "SUBMITTED",
-    maxScore: paper.totalMarks,
-    autoScore,
-    selfScore: pendingWritten ? null : 0,
+    maxScore: graded.maxScore,
+    autoScore: graded.autoScore,
+    selfScore: graded.selfScore,
   });
   const inserts = [];
+  const rows = graded.rows.map((r) => ({ attemptId: input.attemptId, ...r }));
   for (let i = 0; i < rows.length; i += 12) inserts.push(db.insert(attemptAnswers).values(rows.slice(i, i + 12)));
-  await db.batch([insertAttempt, ...inserts]);
+  try {
+    // One batch is one transaction: the attempt and all its answers are stored together or not at all.
+    await db.batch([insertAttempt, ...inserts]);
+  } catch (e) {
+    // Two identical submissions racing: the second insert hits the attempt's primary key. Return the stored one.
+    const after = await existingResult();
+    if (after) return after;
+    throw e;
+  }
   return { ok: true, id: input.attemptId };
 }
 
@@ -85,8 +78,11 @@ export async function saveSelfReview(attemptId: string, marks: { questionId: num
   if (!attempt) return { ok: false as const, error: "Attempt not found." };
   const paper = await getPaper(attempt.generatedPaperId, true);
   if (!paper) return { ok: false as const, error: "Paper not found." };
-  // Only questions without an answer key can be self-marked.
-  const maxById = new Map(paper.items.filter((i) => !canAutoGrade(i.question.type, i.question.answer?.key)).map((i) => [i.question.id, i.marks]));
+  // Only answers that weren't marked automatically when submitted can be self-marked (the stored method decides,
+  // so a key added to a question later never locks or re-marks an earlier attempt). Unanswered ones stay 0.
+  const stored = await db.select().from(attemptAnswers).where(eq(attemptAnswers.attemptId, attemptId));
+  const reviewable = new Set(stored.filter((a) => a.evaluationMethod !== "AUTO" && a.response !== null).map((a) => a.questionId));
+  const maxById = new Map(paper.items.filter((i) => reviewable.has(i.question.id)).map((i) => [i.question.id, i.marks]));
   const updates = [];
   for (const m of marks) {
     const max = maxById.get(m.questionId);
@@ -101,7 +97,10 @@ export async function saveSelfReview(attemptId: string, marks: { questionId: num
   }
   if (updates.length) await db.batch(updates as [(typeof updates)[number], ...typeof updates]);
   const answers = await db.select().from(attemptAnswers).where(eq(attemptAnswers.attemptId, attemptId));
-  const selfScore = answers.filter((a) => a.evaluationMethod === "SELF").reduce((s, a) => s + (a.marksAwarded ?? 0), 0);
+  // The self-marked score is final only when every written answer has been marked; until then it stays empty, so
+  // lists never present a partly marked attempt as complete.
+  const stillPending = answers.some((a) => a.evaluationMethod === "NONE" && a.response !== null);
+  const selfScore = stillPending ? null : answers.filter((a) => a.evaluationMethod === "SELF").reduce((s, a) => s + (a.marksAwarded ?? 0), 0);
   await db.update(attempts).set({ selfScore, updatedAt: new Date().toISOString() }).where(eq(attempts.id, attemptId));
   return { ok: true as const };
 }
@@ -164,8 +163,8 @@ export async function getAttemptResult(id: string) {
 
   const items = paper.items.map((item) => {
     const a = byQ.get(item.question.id);
-    const auto = canAutoGrade(item.question.type, item.question.answer?.key);
-    const answered = Boolean(a?.response);
+    // How the answer was marked when it was submitted decides the bucket (see itemScore).
+    const { auto, answered, scored } = itemScore(item.marks, a, item.question);
     if (a?.markedForReview) markedForReview++;
     if (answered) attempted++;
     else unanswered++;
@@ -178,21 +177,16 @@ export async function getAttemptResult(id: string) {
       descriptiveTotal++;
       if (a?.evaluationMethod === "SELF") descriptiveReviewed++;
     }
-    // Unanswered descriptive questions score 0 without needing review.
-    const scored = auto ? (a?.marksAwarded ?? 0) : a?.evaluationMethod === "SELF" ? (a.marksAwarded ?? 0) : answered ? null : 0;
     bump(chapters, String(item.question.chapter.id), item.question.chapter.name, item.marks, scored, answered);
     bump(types, item.question.type, TYPE_LABELS[item.question.type], item.marks, scored, answered);
     const cat: SourceType = isRealVerifiedPyq(item.question) ? "VERIFIED_PYQ" : item.question.sourceType === "VERIFIED_PYQ" ? "PENDING_REVIEW" : item.question.sourceType;
     const srcKey = item.question.isDemo ? `DEMO_${cat}` : cat;
     bump(sources, srcKey, srcKey, item.marks, scored, answered);
     if (item.section) bump(sections, item.section, `Section ${item.section}`, item.marks, scored, answered);
-    return { ...item, answer: a ?? null, scored };
+    return { ...item, answer: a ?? null, scored, auto };
   });
 
-  const evaluated = items.filter((i) => i.scored !== null);
-  const scoredTotal = evaluated.reduce((s, i) => s + (i.scored ?? 0), 0);
-  const evaluatedMax = evaluated.reduce((s, i) => s + i.marks, 0);
-  const pendingReview = items.filter((i) => i.scored === null).length;
+  const totals = summarise(items);
 
   const chapterList = [...chapters.values()].sort((a, b) => a.label.localeCompare(b.label));
   // Weak = under 60% on the questions actually answered (and marked). Chapters only skipped are listed separately.
@@ -206,10 +200,13 @@ export async function getAttemptResult(id: string) {
     paper,
     items,
     summary: {
-      scored: scoredTotal,
-      evaluatedMax,
-      max: paper.totalMarks,
-      pendingReview,
+      scored: totals.scored,
+      evaluatedMax: totals.evaluatedMax,
+      // The maximum is the sum of the paper's question marks (equal to the stored paper total).
+      max: totals.max,
+      pendingReview: totals.pending,
+      final: totals.final,
+      percent: totals.percent,
       attempted,
       unanswered,
       correct,

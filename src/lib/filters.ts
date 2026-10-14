@@ -21,6 +21,7 @@ export function parseQuestionFilters(sp: SearchParams): QuestionFilters {
   const demo = one(sp.demo);
   const issues = one(sp.issues);
   const source = one(sp.source);
+  const ready = one(sp.ready);
   return {
     boardId: int(sp, "board"),
     classId: int(sp, "class"),
@@ -42,6 +43,7 @@ export function parseQuestionFilters(sp: SearchParams): QuestionFilters {
     reviewState: pick(REVIEW_STATES, one(sp.review)),
     demo: demo === "only" || demo === "exclude" ? demo : undefined,
     issues: issues === "figure" || issues === "low" || issues === "any" ? issues : undefined,
+    testReady: ready === "yes" || ready === "no" || ready === "no-answer" || ready === "marks" || ready === "options" ? ready : undefined,
     page: int(sp, "page", 10_000) ?? 1,
   };
 }
@@ -68,6 +70,7 @@ export function filtersToQuery(f: QuestionFilters, overrides: Record<string, str
     review: f.reviewState,
     demo: f.demo,
     issues: f.issues,
+    ready: f.testReady,
     page: f.page && f.page > 1 ? f.page : undefined,
     ...overrides,
   };

@@ -6,7 +6,6 @@ import { SourceStamp } from "@/components/provenance";
 import { SelfReviewForm } from "@/components/self-review-form";
 import type { SourceType } from "@/db/schema";
 import { getAttemptResult } from "@/lib/data/attempts";
-import { canAutoGrade } from "@/lib/engine/grading";
 import { CountUp } from "@/components/motion/count-up";
 import { DEMO_SOURCE_LABELS, SOURCE_LABELS } from "@/lib/provenance";
 import { formatDuration, pct } from "@/lib/text";
@@ -45,10 +44,12 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
   const r = await getAttemptResult(id);
   if (!r) notFound();
   const { summary: s, paper } = r;
-  const percent = pct(s.scored, s.evaluatedMax);
+  // Percentage of the marks already marked (the same rule everywhere: see summarise in engine/scoring.ts).
+  const percent = s.percent ?? 0;
   const pyqMarks = paper.composition.VERIFIED_PYQ.marks;
   const pyqShare = pct(pyqMarks, paper.totalMarks);
-  const descriptive = r.items.filter((i) => !canAutoGrade(i.question.type, i.question.answer?.key));
+  // Self-marked = not marked automatically when submitted (stored with the answer, not re-derived from today's key).
+  const descriptive = r.items.filter((i) => !i.auto);
   const pendingDescriptive = descriptive.filter((i) => i.scored === null).length;
 
   let headline: string;
@@ -243,7 +244,7 @@ export default async function ResultsPage({ params }: { params: Promise<{ id: st
         <ol className="mt-5 space-y-4">
           {r.items.map((item, idx) => {
             const q = item.question;
-            const auto = canAutoGrade(q.type, q.answer?.key);
+            const auto = item.auto;
             const a = item.answer;
             const response = a?.response ?? null;
             const state = !response ? "unanswered" : auto ? (a?.isCorrect ? "correct" : "incorrect") : item.scored === null ? "to-mark" : "marked";

@@ -177,7 +177,10 @@ export function QuestionForm({
             <label htmlFor="marks" className="field-label">
               Marks
             </label>
-            <input id="marks" name="marks" type="number" min={1} max={20} className="input num" defaultValue={initial.marks} {...inv("marks")} />
+            <input id="marks" name="marks" type="number" min={0} max={20} className="input num" defaultValue={initial.marks} {...inv("marks")} aria-describedby="h-marks" />
+            <p id="h-marks" className="field-hint mt-1">
+              The mark printed for this question. 0 only when the paper prints no mark of its own (it then stays out of tests).
+            </p>
             <Err id="err-marks" msg={e.marks} />
           </div>
           <div>
@@ -233,7 +236,10 @@ export function QuestionForm({
               Accepted answers
             </label>
             <textarea id="acceptedAnswers" name="acceptedAnswers" className="textarea" rows={3} defaultValue={initial.acceptedAnswers} {...inv("acceptedAnswers")} />
-            <p className="field-hint mt-1">One per line or comma-separated. Matching ignores case and punctuation.</p>
+            <p className="field-hint mt-1">
+              One per line or comma-separated, from the official key only. Matching ignores case and punctuation. Leave empty when there is no
+              official key: students then mark it against the model answer.
+            </p>
             <Err id="err-acceptedAnswers" msg={e.acceptedAnswers} />
           </div>
         )}
@@ -244,6 +250,7 @@ export function QuestionForm({
                 Correct value
               </label>
               <input id="numericValue" name="numericValue" inputMode="decimal" className="input num" defaultValue={initial.numericValue} {...inv("numericValue")} />
+              <p className="field-hint mt-1">Leave empty when there is no official key.</p>
               <Err id="err-numericValue" msg={e.numericValue} />
             </div>
             <div>

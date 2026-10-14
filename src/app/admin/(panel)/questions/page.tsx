@@ -5,6 +5,7 @@ import { SourceStamp, StatusStamp } from "@/components/provenance";
 import { TYPE_NAMES } from "@/components/question-block";
 import { QUESTION_TYPES, REVIEW_STATES, SOURCE_TYPES, VERIFICATION_STATUSES } from "@/db/schema";
 import { searchQuestions } from "@/lib/data/questions";
+import { paperEligibility } from "@/lib/engine/eligibility";
 import { getCatalog } from "@/lib/data/taxonomy";
 import { filtersToQuery, parseQuestionFilters, type SearchParams } from "@/lib/filters";
 import { REVIEW_STATE_LABELS, SOURCE_LABELS, STATUS_LABELS } from "@/lib/provenance";
@@ -18,7 +19,8 @@ export default async function AdminQuestions({ searchParams }: { searchParams: P
   const subjects = catalog.flatMap((b) => b.classes.flatMap((c) => c.subjects.map((s) => ({ ...s, label: `${c.name} ${s.name}` }))));
   const selected = subjects.find((s) => s.id === f.subjectId);
   if (f.chapterId && !selected?.chapters.some((c) => c.id === f.chapterId)) f.chapterId = undefined;
-  const res = await searchQuestions({ ...f, pageSize: 25 }, false);
+  // With answers: each row says whether the question can go into a generated test, and why not.
+  const res = await searchQuestions({ ...f, pageSize: 25 }, true);
   const subjectName = new Map(subjects.map((s) => [s.id, s.label]));
   const chapterSubject = new Map(subjects.flatMap((s) => s.chapters.map((c) => [c.id, s.id] as const)));
 
@@ -133,6 +135,19 @@ export default async function AdminQuestions({ searchParams }: { searchParams: P
           </select>
         </div>
         <div>
+          <label htmlFor="a-ready" className="field-label">
+            Usable in tests
+          </label>
+          <select id="a-ready" name="ready" className="select" defaultValue={f.testReady ?? ""}>
+            <option value="">Any</option>
+            <option value="yes">Usable</option>
+            <option value="no">Not usable (any reason)</option>
+            <option value="no-answer">No answer key or model answer</option>
+            <option value="marks">No mark of its own</option>
+            <option value="options">Options missing</option>
+          </select>
+        </div>
+        <div>
           <label htmlFor="a-q" className="field-label">
             Search
           </label>
@@ -173,7 +188,16 @@ export default async function AdminQuestions({ searchParams }: { searchParams: P
                 </td>
               </tr>
             )}
-            {res.items.map((q) => (
+            {res.items.map((q) => {
+              const fit = paperEligibility({
+                type: q.type,
+                marks: q.marks,
+                marksStatus: q.marksStatus,
+                options: q.options,
+                answerKey: q.answer?.key ?? null,
+                hasModelAnswer: Boolean(q.answer?.text.trim()),
+              });
+              return (
               <tr key={q.id}>
                 <td className="num">{q.id}</td>
                 <td className="max-w-[28rem]">
@@ -200,9 +224,15 @@ export default async function AdminQuestions({ searchParams }: { searchParams: P
                       {REVIEW_STATE_LABELS[q.reviewState]?.label ?? q.reviewState}
                     </span>
                   )}
+                  {!fit.eligible && (
+                    <span className="mt-1 block text-[0.8rem] text-margin" title={fit.reasons.join(" ")}>
+                      Not used in tests: {fit.reasons[0]}
+                    </span>
+                  )}
                 </td>
               </tr>
-            ))}
+              );
+            })}
           </tbody>
         </table>
       </div>

@@ -6,6 +6,8 @@
  *    with the largest achievable total instead of padding the paper.
  *  - Non-PYQ material is only added when the mode includes it or the student explicitly allows it.
  *  - At most one question per duplicate group is used, so a question repeated across sets appears once.
+ *  - Only questions that can be marked (an answer key or an official model answer, and a positive whole-number
+ *    mark) are used; the stage log says how many were left out for that reason.
  *  - The returned composition and stage log describe what was actually selected and done.
  */
 import type { Difficulty, PaperMode, QuestionType, SourceType } from "@/db/schema";
@@ -31,6 +33,11 @@ export type PoolQuestion = {
   groupYears: number;
   /** Needs a figure or table that isn't reproduced as text. */
   hasFigure?: boolean;
+  /**
+   * Can be marked: a valid answer key or an official model answer, and a positive printed mark (see
+   * eligibility.ts). The data layer always sets it; questions that can't be marked never enter a paper.
+   */
+  markable?: boolean;
 };
 
 /** Optional builder filters, applied to the pool before a paper is estimated or generated. */
@@ -170,9 +177,15 @@ export function mulberry32(seed: number): () => number {
 
 type Category = "PYQ" | "OFFICIAL" | "COMMUNITY" | "AI";
 
+/** A paper question needs a positive whole-number mark and something to mark the answer against. */
+export function isMarkable(q: PoolQuestion): boolean {
+  return q.markable !== false && Number.isInteger(q.marks) && q.marks > 0;
+}
+
 /** Which category a question counts as for paper building. Unreviewed/rejected/unpublished questions have none. */
 export function categoryOf(q: PoolQuestion): Category | null {
   if (!q.isPublished || q.verificationStatus === "REJECTED") return null;
+  if (!isMarkable(q)) return null;
   if (q.isRealPyq) return "PYQ";
   if (q.sourceType === "OFFICIAL_SAMPLE" && q.verificationStatus === "VERIFIED") return "OFFICIAL";
   if (q.sourceType === "USER_CONTRIBUTED" && q.verificationStatus === "VERIFIED") return "COMMUNITY";
@@ -369,8 +382,12 @@ function difficultyNotice(items: PoolQuestion[], pref: DifficultyPref): string |
   return null;
 }
 
-function failureFor(eligible: PoolQuestion[], target: number, req: GenerateRequest, stages: Stage[]): GenerateFailure {
+function failureFor(eligible: PoolQuestion[], target: number, req: GenerateRequest, stages: Stage[], unmarkable = 0): GenerateFailure {
   const availableMarks = eligible.reduce((s, q) => s + q.marks, 0);
+  // Questions that can't be marked are never used to make up the numbers; say so, so the gap isn't a mystery.
+  const why = unmarkable
+    ? ` ${unmarkable} more question${unmarkable === 1 ? " is" : "s are"} in this selection but can't be used in a test: ${unmarkable === 1 ? "it has" : "they have"} no answer key or official model answer to mark against, or no mark of ${unmarkable === 1 ? "its" : "their"} own.`
+    : "";
   const best = maxAchievable(eligible, target);
   const pyq = MODE_LABELS[req.mode].pyqOnly || (["PYQ_PRIORITY", "EXAM_SIMULATION"].includes(req.mode) && !req.allowSupplement);
   if (req.mode === "MOST_REPEATED" && eligible.length === 0) {
@@ -384,15 +401,30 @@ function failureFor(eligible: PoolQuestion[], target: number, req: GenerateReque
       stages,
     };
   }
+  if (eligible.length === 0 && unmarkable > 0) {
+    return {
+      ok: false,
+      reason: "NO_QUESTIONS",
+      message: `None of the ${unmarkable} question${unmarkable === 1 ? "" : "s"} in this selection can be used in a test yet: ${
+        unmarkable === 1 ? "it has" : "they have"
+      } no answer key or official model answer to mark against, or no mark of ${unmarkable === 1 ? "its" : "their"} own. You can still read ${
+        unmarkable === 1 ? "it" : "them"
+      } in the question bank. Nothing will be made up to fill the gap.`,
+      maxAchievableMarks: 0,
+      availableMarks: 0,
+      stages,
+    };
+  }
   if (eligible.length === 0) {
     return {
       ok: false,
       reason: "NO_QUESTIONS",
-      message: pyq
-        ? "No verified previous-year questions are available for this selection yet. Nothing will be made up to fill the gap."
-        : req.mode === "AI_SUPPLEMENTARY"
-          ? "There are no AI practice questions for this selection."
-          : "There are no reviewed questions for this selection yet.",
+      message:
+        (pyq
+          ? "No verified previous-year questions are available for this selection yet. Nothing will be made up to fill the gap."
+          : req.mode === "AI_SUPPLEMENTARY"
+            ? "There are no AI practice questions for this selection."
+            : "There are no reviewed questions for this selection yet.") + why,
       maxAchievableMarks: 0,
       availableMarks: 0,
       stages,
@@ -401,9 +433,10 @@ function failureFor(eligible: PoolQuestion[], target: number, req: GenerateReque
   return {
     ok: false,
     reason: "INSUFFICIENT",
-    message: pyq
-      ? `There aren't enough verified previous-year questions for a ${target}-mark paper. The verified questions available add up to ${availableMarks} marks, and the closest paper they can make is ${best} marks.`
-      : `The questions available for this selection can make at most a ${best}-mark paper (${availableMarks} marks in total).`,
+    message:
+      (pyq
+        ? `There aren't enough verified previous-year questions for a ${target}-mark paper. The verified questions available add up to ${availableMarks} marks, and the closest paper they can make is ${best} marks.`
+        : `The questions available for this selection can make at most a ${best}-mark paper (${availableMarks} marks in total).`) + why,
     maxAchievableMarks: best,
     availableMarks,
     stages,
@@ -416,6 +449,13 @@ export function generatePaper(pool: PoolQuestion[], req: GenerateRequest): Gener
   const stages: Stage[] = [];
   const inScope = pool.filter((q) => q.isPublished && q.verificationStatus !== "REJECTED");
   stages.push({ key: "search", label: "Searched the question bank", detail: `${inScope.length} published questions in scope` });
+  const unmarkable = inScope.filter((q) => !isMarkable(q)).length;
+  if (unmarkable)
+    stages.push({
+      key: "markable",
+      label: "Checked answers and marks",
+      detail: `${unmarkable} left out: no answer key or official model answer to mark against, or no mark of their own`,
+    });
   const eligible = eligiblePool(pool, req.mode, req.allowSupplement);
   const realPyq = eligible.filter((q) => q.isRealPyq).length;
   stages.push({
@@ -452,7 +492,7 @@ export function generatePaper(pool: PoolQuestion[], req: GenerateRequest): Gener
         }
       }
     }
-    if (!a || !b) return failureFor(ranked, target, req, stages);
+    if (!a || !b) return failureFor(ranked, target, req, stages, unmarkable);
     chosen = [...a, ...b];
     selected = [
       ...orderForPaper(a).map((q) => ({ questionId: q.id, marks: q.marks, section: "A" })),
@@ -460,7 +500,7 @@ export function generatePaper(pool: PoolQuestion[], req: GenerateRequest): Gener
     ];
   } else {
     const picked = selectExact(ranked, target, rng);
-    if (!picked) return failureFor(ranked, target, req, stages);
+    if (!picked) return failureFor(ranked, target, req, stages, unmarkable);
     chosen = picked;
     selected = orderForPaper(picked).map((q) => ({ questionId: q.id, marks: q.marks, section: "" }));
   }

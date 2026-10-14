@@ -5,6 +5,7 @@ import { QuestionForm } from "@/components/admin/question-form";
 import { SourceStamp, StatusStamp } from "@/components/provenance";
 import { getQuestionForEdit } from "@/lib/data/admin";
 import { getFormData } from "@/lib/data/admin-form";
+import { paperEligibility } from "@/lib/engine/eligibility";
 import type { AnswerKey } from "@/lib/engine/grading";
 import { DEMO_LABEL, PAPER_TYPE_LABELS, frequencyLine, isRealVerifiedPyq } from "@/lib/provenance";
 import { safeJson } from "@/lib/text";
@@ -31,6 +32,14 @@ export default async function EditQuestionPage({
   const prov = { sourceType: q.sourceType, verificationStatus: q.verificationStatus, isDemo: q.isDemo, sources };
   const subjectPapers = papers.filter((p) => p.subjectId === q.subjectId && !sources.some((s) => s.paperId === p.id) && (q.isDemo || !p.isDemo));
   const freq = frequencyLine(prov);
+  const fit = paperEligibility({
+    type: q.questionType,
+    marks: q.marks,
+    marksStatus: q.marksStatus,
+    options: safeJson<string[] | null>(q.options, null),
+    answerKey: key,
+    hasModelAnswer: q.answerText.trim() !== "",
+  });
 
   return (
     <div>
@@ -50,6 +59,22 @@ export default async function EditQuestionPage({
         <Flash saved={sp.saved} error={sp.error} />
       </div>
       {q.isDemo && <p className="demo-banner mb-5 px-4 py-3 font-bold">{DEMO_LABEL}</p>}
+      <section aria-labelledby="fit-title" className="panel mb-5 px-4 py-3">
+        <h2 id="fit-title" className="text-[1.05rem] font-bold">
+          {fit.eligible ? "Usable in generated tests" : "Not used in generated tests"}
+        </h2>
+        {fit.eligible ? (
+          <p className="text-[0.95rem] text-pencil">
+            {fit.mode === "AUTO" ? "Marked automatically from its answer key." : "Students mark their answer against the model answer."}
+          </p>
+        ) : (
+          <ul className="mt-1 list-disc pl-5 text-[0.95rem]">
+            {fit.reasons.map((r) => (
+              <li key={r}>{r}</li>
+            ))}
+          </ul>
+        )}
+      </section>
 
       <div className="grid gap-8 xl:grid-cols-[1fr_24rem]">
         <QuestionForm

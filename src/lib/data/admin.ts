@@ -62,7 +62,8 @@ export const questionInputSchema = z
     chapterId: z.coerce.number().int().positive({ message: "Choose a chapter." }),
     topicId: z.coerce.number().int().positive().optional().or(z.literal("").transform(() => undefined)),
     questionType: z.enum(QUESTION_TYPES),
-    marks: z.coerce.number().int().min(1, "Marks must be at least 1.").max(20, "Marks can be at most 20."),
+    // 0 is only kept for questions whose own mark isn't printed (checked in saveQuestion against the stored status).
+    marks: z.coerce.number().int().min(0, "Marks can't be negative.").max(20, "Marks can be at most 20."),
     difficulty: z.enum([...DIFFICULTIES, "UNRATED"]),
     questionText: z.string().trim().min(5, "Enter the question text.").max(5000),
     options: z.array(z.string().trim().max(500)).max(6).default([]),
@@ -89,10 +90,16 @@ export const questionInputSchema = z
       if (v.correctOption !== undefined && !v.options[v.correctOption])
         ctx.addIssue({ code: "custom", path: ["correctOption"], message: "The selected correct option is empty." });
     }
-    if (v.questionType === "FILL_BLANK" && lines(v.acceptedAnswers).length === 0)
-      ctx.addIssue({ code: "custom", path: ["acceptedAnswers"], message: "Add at least one accepted answer." });
-    if (v.questionType === "NUMERICAL" && !Number.isFinite(Number(v.numericValue)))
-      ctx.addIssue({ code: "custom", path: ["numericValue"], message: "Enter the correct numeric answer." });
+    // Answer keys are optional, as for option questions: an editor must never invent one to save a correction.
+    // Without a key the question is self-marked against its model answer, or stays out of tests (see eligibility.ts).
+    if (v.questionType === "NUMERICAL" && v.numericValue.trim() !== "" && !Number.isFinite(Number(v.numericValue)))
+      ctx.addIssue({ code: "custom", path: ["numericValue"], message: "Enter the correct value as a number, or leave it empty if there is no official key." });
+    if (
+      v.questionType === "NUMERICAL" &&
+      v.numericTolerance.trim() !== "" &&
+      (!Number.isFinite(Number(v.numericTolerance)) || Number(v.numericTolerance) < 0)
+    )
+      ctx.addIssue({ code: "custom", path: ["numericValue"], message: "The allowed difference must be a number of 0 or more." });
   });
 export type QuestionInput = z.infer<typeof questionInputSchema>;
 
@@ -151,10 +158,21 @@ export async function saveQuestion(input: QuestionInput, actor: string): Promise
     options = JSON.stringify(opts);
     answerKey = input.correctOption === undefined ? null : JSON.stringify({ correctOption: Math.min(input.correctOption, opts.length - 1) });
   } else if (input.questionType === "FILL_BLANK") {
-    answerKey = JSON.stringify({ accepted: lines(input.acceptedAnswers) });
+    const accepted = lines(input.acceptedAnswers);
+    answerKey = accepted.length ? JSON.stringify({ accepted }) : null;
   } else if (input.questionType === "NUMERICAL") {
-    answerKey = JSON.stringify({ value: Number(input.numericValue), tolerance: Math.abs(Number(input.numericTolerance) || 0), unit: input.numericUnit });
+    const unit = input.numericUnit.trim();
+    answerKey =
+      input.numericValue.trim() === ""
+        ? null
+        : JSON.stringify({ value: Number(input.numericValue), tolerance: Number(input.numericTolerance) || 0, ...(unit ? { unit } : {}) });
   }
+
+  // Marks: a printed mark must be a positive whole number. A question whose own mark isn't printed (group total,
+  // none, a fraction) keeps 0 until an editor enters the mark printed for it, which makes it a printed mark.
+  const marksStatus = existing?.marksStatus ?? "PRINTED";
+  if (marksStatus === "PRINTED" && input.marks < 1) return { ok: false, errors: { marks: "Marks must be at least 1." } };
+  const marksFields = marksStatus !== "PRINTED" && input.marks > 0 ? { marksStatus: "PRINTED" as const, marksNote: "" } : {};
 
   const now = new Date().toISOString();
   const becameVerified = input.verificationStatus === "VERIFIED" && existing?.verificationStatus !== "VERIFIED";
@@ -169,6 +187,7 @@ export async function saveQuestion(input: QuestionInput, actor: string): Promise
     questionText: input.questionText,
     questionType: input.questionType,
     marks: input.marks,
+    ...marksFields,
     difficulty: input.difficulty,
     options,
     answerKey,

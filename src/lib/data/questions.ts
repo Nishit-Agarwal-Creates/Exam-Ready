@@ -4,6 +4,7 @@ import { AGGREGATE_TTL, sharedCache } from "@/lib/data/shared-cache";
 import type { AnswerSource, Confidence, Difficulty, FigureAsset, MappingStatus, MarksStatus, PaperType, QuestionType, ReviewState, SourceType, VerificationStatus } from "@/db/schema";
 import type { PoolQuestion } from "@/lib/engine/generator";
 import type { AnswerKey } from "@/lib/engine/grading";
+import { paperEligibility } from "@/lib/engine/eligibility";
 import type { SourceLink } from "@/lib/provenance";
 import { safeJson } from "@/lib/text";
 
@@ -22,6 +23,17 @@ const QCANON = sql.raw(`"questions"."canonical_question_id"`);
 
 /** SQL: 1 when a question passes the verified-PYQ rule (see isRealVerifiedPyq). */
 export const realPyqSql = sql<number>`(CASE WHEN ${questions.sourceType} = 'VERIFIED_PYQ' AND ${questions.verificationStatus} = 'VERIFIED' AND ${questions.isDemo} = 0 AND EXISTS (SELECT 1 FROM question_sources qs JOIN papers p ON p.id = qs.paper_id WHERE qs.question_id = ${QID} AND p.paper_type = 'BOARD_EXAM' AND p.is_demo = 0 AND p.year IS NOT NULL) THEN 1 ELSE 0 END)`;
+
+/**
+ * SQL mirror of paperEligibility (src/lib/engine/eligibility.ts) for editor filters: a printed positive mark, option
+ * questions with at least two options, and an answer key or an official model answer. (Whether a key points inside
+ * the options is checked by paperEligibility itself, which also decides the paper pool.)
+ */
+// Each part is a CASE (always 0 or 1, never NULL) so NOT works for rows with NULL options or answers.
+const optionsOkSql = sql`(CASE WHEN ${questions.questionType} NOT IN ('MCQ', 'ASSERTION_REASON') THEN 1 WHEN json_valid(COALESCE(${questions.options}, '')) = 1 AND json_array_length(${questions.options}) >= 2 THEN 1 ELSE 0 END = 1)`;
+const keyedSql = sql`(CASE WHEN ${questions.answerKey} IS NOT NULL AND ${questions.answerKey} <> '' AND ${questions.questionType} IN ('MCQ', 'ASSERTION_REASON', 'FILL_BLANK', 'NUMERICAL') THEN 1 ELSE 0 END = 1)`;
+const hasModelAnswerSql = sql`(COALESCE(${questions.answerText}, '') <> '')`;
+const markableSql = sql`(CASE WHEN ${questions.marksStatus} = 'PRINTED' AND COALESCE(${questions.marks}, 0) > 0 AND ${optionsOkSql} AND (${keyedSql} OR ${hasModelAnswerSql}) THEN 1 ELSE 0 END = 1)`;
 
 /** SQL: most recent verified board-exam year linked to the question. */
 const latestYearSql = sql<number | null>`(SELECT MAX(p.year) FROM question_sources qs JOIN papers p ON p.id = qs.paper_id WHERE qs.question_id = ${QID} AND p.paper_type = 'BOARD_EXAM' AND p.is_demo = 0)`;
@@ -58,6 +70,12 @@ export async function getPool(subjectId: number, chapterIds: number[], includeDe
       canonical: questions.canonicalQuestionId,
       groupYears: groupYearsSql,
       hasFigure: questions.hasFigure,
+      // What a paper needs to mark the answer (see eligibility.ts): the key, the options it points into, and
+      // whether an official model answer exists (its text isn't needed here).
+      answerKey: questions.answerKey,
+      options: questions.options,
+      marksStatus: questions.marksStatus,
+      hasModelAnswer: sql<number>`(${questions.answerText} <> '')`,
     })
     .from(questions)
     .where(and(...conds));
@@ -77,6 +95,14 @@ export async function getPool(subjectId: number, chapterIds: number[], includeDe
     groupId: r.canonical ?? r.id,
     groupYears: Number(r.groupYears ?? 0),
     hasFigure: Boolean(r.hasFigure),
+    markable: paperEligibility({
+      type: r.questionType,
+      marks: r.marks,
+      marksStatus: r.marksStatus,
+      options: safeJson<string[] | null>(r.options, null),
+      answerKey: safeJson<AnswerKey>(r.answerKey, null),
+      hasModelAnswer: Number(r.hasModelAnswer) === 1,
+    }).eligible,
   }));
 }
 
@@ -347,6 +373,8 @@ export type QuestionFilters = {
   publicOnly?: boolean;
   /** Editor queues. */
   issues?: "figure" | "low" | "any";
+  /** Paper eligibility (see eligibility.ts): usable in tests, not usable, or one specific reason. */
+  testReady?: "yes" | "no" | "no-answer" | "marks" | "options";
   published?: boolean;
   /** "paper" orders by question number within f.paperId (source pages). */
   sort?: "recent" | "chapter" | "paper";
@@ -399,6 +427,11 @@ function filterConditions(f: QuestionFilters): SQL[] {
   if (f.hasAnswer === true) conds.push(sql`(${questions.answerText} <> '' OR ${questions.answerKey} IS NOT NULL)`);
   if (f.hasAnswer === false) conds.push(sql`(${questions.answerText} = '' AND ${questions.answerKey} IS NULL)`);
   if (f.hasFigure !== undefined) conds.push(eq(questions.hasFigure, f.hasFigure));
+  if (f.testReady === "yes") conds.push(markableSql);
+  if (f.testReady === "no") conds.push(sql`NOT ${markableSql}`);
+  if (f.testReady === "no-answer") conds.push(sql`NOT (${keyedSql} OR ${hasModelAnswerSql})`);
+  if (f.testReady === "marks") conds.push(sql`(${questions.marksStatus} <> 'PRINTED' OR COALESCE(${questions.marks}, 0) <= 0)`);
+  if (f.testReady === "options") conds.push(sql`NOT ${optionsOkSql}`);
   if (f.reviewState) conds.push(eq(questions.reviewState, f.reviewState));
   if (f.issues === "figure") conds.push(eq(questions.hasFigure, true));
   if (f.issues === "low") conds.push(eq(questions.extractionConfidence, "LOW"));
